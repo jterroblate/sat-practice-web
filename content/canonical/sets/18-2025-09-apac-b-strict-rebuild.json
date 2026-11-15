@@ -1,0 +1,2089 @@
+{
+  "schemaVersion": "sat-canonical-question-collection-v1",
+  "contentId": "set-18-2025-09-apac-b-strict-rebuild",
+  "title": "18 2025 09 Apac B Rebuild",
+  "section": "reading_writing",
+  "questionCount": 47,
+  "questions": [
+    {
+      "question_id": "rw_e_001",
+      "section": "reading_writing",
+      "question_number": 1,
+      "passage": "The following text is from Rudolfo Anaya’s 1972 novel Bless Me, Ultima. The young narrator and his friend Cico are staring into the water of a stream in rural New Mexico. The golden fish swam by gracefully, cautiously, as if [vocab]testing[/vocab] the water after a long sleep in his subterranean waters. His powerful tail moved in slow strokes as he slid through the water towards us.\n\n©1972 by Rudolfo Anaya",
+      "prompt": "As used in the text, what does the word “testing” most nearly mean?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Wearing out"
+        },
+        {
+          "label": "B",
+          "text": "Defeating"
+        },
+        {
+          "label": "C",
+          "text": "Congratulating"
+        },
+        {
+          "label": "D",
+          "text": "Trying out"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "In context, the fish moves cautiously as if trying or checking the water after a long sleep, so “testing” means “trying out.”",
+        "detailed": "The phrase “as if testing the water” describes the fish moving cautiously after a long sleep, as though it is checking whether the water is suitable. That makes “Trying out” the best meaning.",
+        "key_evidence": "The fish moves “cautiously” and appears to test the water after a long sleep.",
+        "why_correct": "“Trying out” matches the idea of cautiously checking or trying the water.",
+        "choice_analysis": {
+          "A": "Incorrect: “Wearing out” means exhausting or damaging something through use, which does not fit a fish cautiously entering water.",
+          "B": "Incorrect: “Defeating” means overcoming an opponent, but the sentence describes checking the water, not winning a contest.",
+          "C": "Incorrect: “Congratulating” means offering praise; nothing in the sentence suggests praise or celebration.",
+          "D": "Correct: “Trying out” captures the sense of cautiously checking or experimenting with the water."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "rw_e_002",
+      "section": "reading_writing",
+      "question_number": 2,
+      "passage": "A number of recording artists [vocab]______[/vocab] Indigenous music with other musical styles. For example, Wolastoq musician Jeremy Dutcher incorporated traditional Wolastoq songs into experimental pop on his album Wolastoqiyik Lintuwakonawa, and Tuscarora/Taíno singer-songwriter Pura Fé combined Indigenous rhythms and vocals with R&B on her album Sacred Seed.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "fuse"
+        },
+        {
+          "label": "B",
+          "text": "analyze"
+        },
+        {
+          "label": "C",
+          "text": "acquire"
+        },
+        {
+          "label": "D",
+          "text": "exaggerate"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The examples describe Indigenous music being incorporated into or combined with other styles, so “fuse” is the precise verb.",
+        "detailed": "Jeremy Dutcher incorporates traditional Wolastoq songs into experimental pop, and Pura Fé combines Indigenous rhythms and vocals with R&B. Both examples show musical styles being joined together, so “fuse” is the most logical choice.",
+        "key_evidence": "The examples use “incorporated” and “combined” to describe mixing Indigenous music with other styles.",
+        "why_correct": "“Fuse” means join or blend, which matches both examples in the text.",
+        "choice_analysis": {
+          "A": "Correct: “Fuse” means combine or blend, exactly matching the examples of Indigenous music joined with pop and R&B.",
+          "B": "Incorrect: “Analyze” means examine closely, but the artists are creating blended music, not studying it.",
+          "C": "Incorrect: “Acquire” means obtain; the sentence is about combining styles, not gaining possession of music.",
+          "D": "Incorrect: “Exaggerate” means overstate, which has no support in the examples."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "rw_e_003",
+      "section": "reading_writing",
+      "question_number": 3,
+      "passage": "While modern composers may often get inspiration from past greats like Ludwig van Beethoven, the extent of their influences is broad. The music of Ernesto Lecuona, for example, can be said to [vocab]______[/vocab] elements of both the classical European tradition and the social, political, and cultural landscape of his native Cuba.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "defy"
+        },
+        {
+          "label": "B",
+          "text": "neglect"
+        },
+        {
+          "label": "C",
+          "text": "foretell"
+        },
+        {
+          "label": "D",
+          "text": "exhibit"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The sentence says Lecuona’s music includes elements from both European classical tradition and Cuban culture, so “exhibit” means show or display.",
+        "detailed": "The blank describes what Lecuona’s music can be said to do with elements of two traditions. Since the sentence means the music shows or contains those elements, “exhibit” is the best fit.",
+        "key_evidence": "Lecuona’s music contains elements of both classical European tradition and Cuban culture.",
+        "why_correct": "“Exhibit” means show or display, which fits a work of music showing influences from both traditions.",
+        "choice_analysis": {
+          "A": "Incorrect: “Defy” means resist or oppose, but the sentence says the music reflects both influences.",
+          "B": "Incorrect: “Neglect” means ignore, the opposite of showing elements from both traditions.",
+          "C": "Incorrect: “Foretell” means predict the future; the sentence is about influences present in the music.",
+          "D": "Correct: “Exhibit” means show or display, matching the idea that the music shows both European and Cuban elements."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "rw_e_004",
+      "section": "reading_writing",
+      "question_number": 4,
+      "passage": "Though most hoaxes perpetrated as jokes by mischievous users of Wikipedia, an online encyclopedia that almost anyone can freely edit, have quickly been detected and removed, a few invented entries, such as those for the town of Stone Ridge, Maryland, and the Civil War general George K. Broomhall, persisted on the site for many years before they were finally recognized as [vocab]______[/vocab] and deleted.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "fictitious"
+        },
+        {
+          "label": "B",
+          "text": "conscientious"
+        },
+        {
+          "label": "C",
+          "text": "straightforward"
+        },
+        {
+          "label": "D",
+          "text": "profound"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The entries were invented hoaxes, so when they were finally identified and deleted, they were recognized as “fictitious.”",
+        "detailed": "The sentence calls the entries “invented” and identifies them as hoaxes. Something invented rather than real is “fictitious,” which explains why the entries were deleted.",
+        "key_evidence": "The entries are described as invented hoaxes that were later deleted.",
+        "why_correct": "“Fictitious” means imaginary or not real, matching the invented Wikipedia entries.",
+        "choice_analysis": {
+          "A": "Correct: “Fictitious” means invented or false, which directly describes hoax entries.",
+          "B": "Incorrect: “Conscientious” means careful or diligent, which does not explain why the entries were deleted.",
+          "C": "Incorrect: “Straightforward” means clear or simple, but the problem is that the entries were fake.",
+          "D": "Incorrect: “Profound” means deep or significant; it does not match invented hoaxes."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "rw_e_005",
+      "section": "reading_writing",
+      "question_number": 5,
+      "passage": "In a garden, [vocab]______[/vocab] the spread of unwelcome weeds such as chickweed can be difficult because weeds usually spread easily and quickly become unmanageable, making it hard to remove them completely.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "saving"
+        },
+        {
+          "label": "B",
+          "text": "pretending"
+        },
+        {
+          "label": "C",
+          "text": "halting"
+        },
+        {
+          "label": "D",
+          "text": "retrieving"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Because weeds spread quickly and become hard to remove, the sentence is about stopping that spread; “halting” is the best fit.",
+        "detailed": "The text says weeds spread easily and quickly become unmanageable, making complete removal difficult. The action that would address the spread is stopping it, so “halting” is precise.",
+        "key_evidence": "Weeds “spread easily” and become difficult to remove completely.",
+        "why_correct": "“Halting” means stopping, which fits the goal of stopping weed spread.",
+        "choice_analysis": {
+          "A": "Incorrect: “Saving” would mean preserving the spread of weeds, which is not the intended action.",
+          "B": "Incorrect: “Pretending” means acting falsely and does not fit the practical problem of weed spread.",
+          "C": "Correct: “Halting” means stopping, and the sentence concerns stopping the spread of weeds.",
+          "D": "Incorrect: “Retrieving” means getting something back, but the issue is preventing weeds from spreading."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "rw_e_007",
+      "section": "reading_writing",
+      "question_number": 7,
+      "passage": "In 2018 Rong Jiahuan and colleagues published a study concluding that ocean acidification has a strong effect on the behavior of Acanthopagrus schlegelii, a species of fish. [u]However, Jiahuan and colleagues’ study relied on a mean sample size of only 15 fish.[/u] In a 2022 review of various scientists’ conclusions about the impacts of ocean acidification on fish behavior, Josefin Sundin and colleagues caution that relying on such a relatively small sample size can increase the potential for biased analysis. Such analysis, in turn, can contribute to reports of exaggerated effects.",
+      "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It introduces a detail about Jiahuan and colleagues’ study that is addressed in the sentences that follow."
+        },
+        {
+          "label": "B",
+          "text": "It emphasizes the threat of ocean acidification to Acanthopagrus schlegelii that is mentioned in the previous sentence."
+        },
+        {
+          "label": "C",
+          "text": "It offers an alternative explanation for the behavior of Acanthopagrus schlegelii that is described in the previous sentence."
+        },
+        {
+          "label": "D",
+          "text": "It states the conclusion reached by Jiahuan and colleagues that is elaborated on in the sentences that follow."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The underlined sentence introduces the small sample-size detail that the following sentences explain as a possible source of bias and exaggerated effects.",
+        "detailed": "The underlined sentence states that Jiahuan and colleagues used a mean sample size of only 15 fish. The next sentences explain why that matters: small sample sizes can increase the potential for biased analysis and exaggerated effects.",
+        "key_evidence": "The underlined sentence gives the sample size; the following sentences explain the risk of bias from such a small sample.",
+        "why_correct": "Choice A correctly says the sentence introduces a detail that is addressed in the following sentences.",
+        "choice_analysis": {
+          "A": "Correct: The underlined sentence introduces the small-sample detail that the following sentences discuss.",
+          "B": "Incorrect: The sentence does not emphasize the threat of ocean acidification; it focuses on the study’s sample size.",
+          "C": "Incorrect: The sentence does not offer an alternative explanation for fish behavior.",
+          "D": "Incorrect: The conclusion of Jiahuan and colleagues’ study appears in the previous sentence, not in the underlined sentence."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "structural_function"
+      }
+    },
+    {
+      "question_id": "rw_e_008",
+      "section": "reading_writing",
+      "question_number": 8,
+      "passage": "The following text is from Angeline Boulley’s 2021 novel Firekeeper’s Daughter. The narrator is an Ojibwe teenager who runs in the morning before going to school. Levi is her younger brother.\n\nMy brother complains about my lengthy warm-up routine whenever he runs with me. I keep telling Levi that my longer, bigger, and therefore vastly superior muscles require more intensive preparation for peak performance. The real reason, which he would think is dorky, is that I recite the correct anatomical name for each muscle as I stretch.\n\n©2021 by Angeline Boulley",
+      "prompt": "According to the narrator, what does her brother complain about?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A song she sings while she runs in the morning"
+        },
+        {
+          "label": "B",
+          "text": "The late hour when she prefers to run"
+        },
+        {
+          "label": "C",
+          "text": "The lengthy warm-up routine she does before running"
+        },
+        {
+          "label": "D",
+          "text": "Fellow students she has befriended"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The narrator says directly that Levi complains about her lengthy warm-up routine whenever he runs with her.",
+        "detailed": "The first sentence states, “My brother complains about my lengthy warm-up routine whenever he runs with me.” That directly supports choice C.",
+        "key_evidence": "“My brother complains about my lengthy warm-up routine whenever he runs with me.”",
+        "why_correct": "Choice C repeats the specific thing Levi complains about: the narrator’s lengthy warm-up routine before running.",
+        "choice_analysis": {
+          "A": "Incorrect: The passage mentions reciting anatomical names while stretching, not singing a song while running.",
+          "B": "Incorrect: The text says she runs in the morning, but it does not say Levi complains about the hour.",
+          "C": "Correct: The narrator directly says her brother complains about her lengthy warm-up routine.",
+          "D": "Incorrect: The passage does not mention fellow students Levi complains about."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "explicit_detail"
+      }
+    },
+    {
+      "question_id": "rw_e_009",
+      "section": "reading_writing",
+      "question_number": 9,
+      "passage": "Animals use many objects as tools to achieve goals more easily. Such goals include grooming, finding food, and protecting themselves. For a long time, people thought tool use was unique to primates. Octopuses and other animals, though, have busted the myth that tool use requires hands. Inventively, octopuses use two halves of a seashell to provide protection or a place to hide. Palm cockatoos also get creative. They use leaves to pad their beaks when opening nuts.",
+      "prompt": "According to the text, what do octopuses use to protect themselves?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Sand"
+        },
+        {
+          "label": "B",
+          "text": "Leaves"
+        },
+        {
+          "label": "C",
+          "text": "Two halves of a seashell"
+        },
+        {
+          "label": "D",
+          "text": "Feathers from palm cockatoos"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The text explicitly says octopuses use two halves of a seashell to provide protection or a place to hide.",
+        "detailed": "The sentence about octopuses states that they “use two halves of a seashell to provide protection or a place to hide.” That directly answers the question.",
+        "key_evidence": "Octopuses “use two halves of a seashell to provide protection or a place to hide.”",
+        "why_correct": "Choice C matches the object the text says octopuses use for protection.",
+        "choice_analysis": {
+          "A": "Incorrect: The text never says octopuses use sand for protection.",
+          "B": "Incorrect: Leaves are used by palm cockatoos to pad their beaks, not by octopuses for protection.",
+          "C": "Correct: The passage states that octopuses use two halves of a seashell for protection or hiding.",
+          "D": "Incorrect: The text mentions palm cockatoos but not feathers as an octopus tool."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "main_idea_or_detail"
+      }
+    },
+    {
+      "question_id": "rw_e_010",
+      "section": "reading_writing",
+      "question_number": 10,
+      "passage": "Many people use the trademark “Frisbee” to refer generally to flying disc toys rather than specifically to products made by Wham-O, the company that owns the trademark. As many legal experts note, this may pose a problem for Wham-O. In the US, courts can cancel a trademark if they decide that its meaning is no longer specific to the trademark owner’s products. If “Frisbee” were judged to be a generic term, as “escalator” was, other companies would be free to use it to promote similar products, making it harder for Wham-O to stand out from competitors.",
+      "prompt": "Based on the text, what do many legal experts believe about the trademark “Frisbee”?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It may be at risk of being canceled."
+        },
+        {
+          "label": "B",
+          "text": "It is not especially memorable."
+        },
+        {
+          "label": "C",
+          "text": "It has multiple unrelated meanings."
+        },
+        {
+          "label": "D",
+          "text": "It is unlikely to be judged a generic term."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Legal experts believe the trademark may be vulnerable because courts can cancel trademarks that become generic.",
+        "detailed": "The text says many people use “Frisbee” generally rather than only for Wham-O products, and legal experts note this may be a problem. Because courts can cancel trademarks that are no longer specific to the owner’s products, the trademark may be at risk of cancellation.",
+        "key_evidence": "Courts can cancel a trademark if its meaning is no longer specific to the owner’s products.",
+        "why_correct": "Choice A follows from the legal risk described in the text: “Frisbee” may be judged generic and canceled.",
+        "choice_analysis": {
+          "A": "Correct: The text explains that generic use can put a trademark at risk of cancellation.",
+          "B": "Incorrect: The issue is legal genericness, not whether the word is memorable.",
+          "C": "Incorrect: The text describes a general use of the trademark, not multiple unrelated meanings.",
+          "D": "Incorrect: This is the opposite of the concern; the text says “Frisbee” could be judged generic."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "main_idea_or_detail"
+      }
+    },
+    {
+      "question_id": "rw_e_011",
+      "section": "reading_writing",
+      "question_number": 11,
+      "passage": "Year That Foreign Investors Were First Allowed to Purchase Shares\n\nCountry Year India 1986\n\nCountry Year Argentina 1989 Nigeria 1995\n\nIn the 1980s and 1990s, many countries began allowing foreign investors to purchase shares of companies based in those countries.",
+      "prompt": "According to the table, in what year did India make the change mentioned in the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1983"
+        },
+        {
+          "label": "B",
+          "text": "1981"
+        },
+        {
+          "label": "C",
+          "text": "1998"
+        },
+        {
+          "label": "D",
+          "text": "1986"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The table lists India with the year 1986, so India made the change in 1986.",
+        "detailed": "The question asks for India’s year in the table. The India row gives 1986, so choice D is correct.",
+        "key_evidence": "The table row for India shows 1986.",
+        "why_correct": "Choice D reports the year shown for India.",
+        "choice_analysis": {
+          "A": "Incorrect: 1983 does not appear in the India row.",
+          "B": "Incorrect: 1981 does not appear in the India row.",
+          "C": "Incorrect: 1998 does not match the table entry for India.",
+          "D": "Correct: The table lists India as 1986."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "table_data_completion"
+      },
+      "visual_assets": [
+        {
+          "type": "table",
+          "description": "Table for India agriculture question, visually verified from rendered page."
+        }
+      ]
+    },
+    {
+      "question_id": "rw_e_012",
+      "section": "reading_writing",
+      "question_number": 12,
+      "passage": "Commedia dell’arte was a type of theater that emerged in Italy in the 1500s. It became popular throughout Western Europe. In commedia dell’arte, actors didn’t have a script. Instead, they created their dialogue and actions onstage in the moment. Actors in these plays also usually wore stylized masks. In a research paper, a student argues that doing so affected how the actors portrayed their characters.",
+      "prompt": "Which quotation from a historian would most directly support the student’s argument?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "“Since their faces were hidden by masks, actors in commedia dell’arte used hand gestures and other movements of their bodies to display emotions.”"
+        },
+        {
+          "label": "B",
+          "text": "“The use of masks in commedia dell’arte can be traced directly to the theater of ancient Rome.”"
+        },
+        {
+          "label": "C",
+          "text": "“After almost vanishing in the 1800s, commedia dell’arte once again became popular in Italy and Great Britain for a brief period in the 1960s and 1970s.”"
+        },
+        {
+          "label": "D",
+          "text": "“Masks are also worn in the traditional theater of China, India, and Maya communities in Mexico and Central America.”"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The claim is that masks affected portrayal; choice A explains that hidden faces led actors to use gestures and body movements to show emotion.",
+        "detailed": "The student argues that wearing masks affected how actors portrayed characters. Choice A directly supports that claim because it explains how masks changed performance: actors relied on gestures and body movements to display emotions.",
+        "key_evidence": "The student’s claim concerns masks affecting how actors portrayed characters.",
+        "why_correct": "Choice A links masks to a changed acting method, directly supporting the claim.",
+        "choice_analysis": {
+          "A": "Correct: It explains that masks led actors to use body movement to display emotions.",
+          "B": "Incorrect: The origin of mask use does not show how masks affected portrayal.",
+          "C": "Incorrect: Later popularity of the form does not address character portrayal.",
+          "D": "Incorrect: Mask use in other theatrical traditions does not support this claim about commedia dell’arte actors."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "textual_evidence"
+      }
+    },
+    {
+      "question_id": "rw_e_013",
+      "section": "reading_writing",
+      "question_number": 13,
+      "passage": "The Age of Innocence is a 1920 novel by Edith Wharton set in New York City in the 1870s. In the novel, Newland Archer attends an opera. Newland compares his intellect favorably to that of other men of New York City society who are in the audience: ______",
+      "prompt": "Which quotation from The Age of Innocence best illustrates the claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "“Thinking over a pleasure to come often gave [Newland] a subtler satisfaction than its realisation. This was especially the case when the pleasure was a delicate one, as his pleasures mostly were.”"
+        },
+        {
+          "label": "B",
+          "text": "“Newland Archer felt himself distinctly the superior of these chosen specimens of old New York gentility; he had probably read more, thought more, and even seen a good deal more of the world, than any other man of the number.”"
+        },
+        {
+          "label": "C",
+          "text": "“Singly [the men around Newland] betrayed their inferiority; but grouped together they represented ‘New York,’ and the habit of masculine solidarity made him accept their doctrine on all the issues called moral.”"
+        },
+        {
+          "label": "D",
+          "text": "“To come to the Opera in a [carriage for hire] was almost as honourable a way of arriving as in one’s own carriage.”"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Choice B says Newland felt superior and had read, thought, and seen more than the other men, directly illustrating the claim.",
+        "detailed": "The claim is specifically about Newland comparing his intellect favorably to other men in the audience. Choice B names that comparison: he felt superior and believed he had read, thought, and seen more of the world.",
+        "key_evidence": "Newland is described as having “read more, thought more” than the other men.",
+        "why_correct": "Choice B directly shows Newland judging his intellect as superior.",
+        "choice_analysis": {
+          "A": "Incorrect: It concerns anticipation of pleasure, not comparison with other men.",
+          "B": "Correct: It explicitly states Newland feels superior in reading, thinking, and worldly experience.",
+          "C": "Incorrect: It mentions inferiority and group identity, but not Newland’s favorable comparison of his own intellect.",
+          "D": "Incorrect: It concerns methods of arriving at the opera, not intellect."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "textual_evidence"
+      }
+    },
+    {
+      "question_id": "rw_e_014",
+      "section": "reading_writing",
+      "question_number": 14,
+      "passage": "A student is writing an essay on the subject of cultured meat, which is grown in a laboratory and is intended to help reduce the number of livestock harvested for food.",
+      "prompt": "The student wants to make the case that cultured meat production may be useful in responding to an expected widespread change in the public’s behavior. Which quotation from a publication by a researcher would most effectively support the student’s claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "“A growing population that is including significantly more meat in its diet will contribute to an increasing demand for meat products in the 21st century.”"
+        },
+        {
+          "label": "B",
+          "text": "“Researchers who advocate for the development of lab-grown meat claim that it’s safer than conventional meat because it doesn’t come from animals raised in spaces that make them more vulnerable to illness.”"
+        },
+        {
+          "label": "C",
+          "text": "“Consumers tend to believe that using less packaging when selling meat products in stores would have a significant effect on the environment.”"
+        },
+        {
+          "label": "D",
+          "text": "“A difficulty in developing lab-grown meat that successfully imitates meat from livestock is in mimicking the way oxygen spreads through tissue in living animals.”"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "A 预测人们将吃更多肉、需求随之增加，正是实验室培养肉可能帮助应对的行为变化。",
+        "key_evidence": "主张关注 expected widespread change in the public’s behavior；A 说 significantly more meat in its diet，并预测 increasing demand。",
+        "why_correct": "A 为“未来公众行为将改变”提供直接依据：更多肉类消费带来更大需求，由此说明替代性肉类生产为何可能有用。",
+        "detailed": "本题要支持的不是“培养肉有某种优点”这一宽泛判断，而是它能帮助应对一个预期的公众行为变化。需要的证据首先应说明这种变化是什么。A 明确预测饮食中肉的比重增加及需求增长，与培养肉作为供给方式的用途建立联系。B 的安全性属于产品优点，C 的包装属于另一种环境议题，D 的供氧困难属于生产技术障碍；这些都没有提供预期行为变化这一关键前提。",
+        "choice_analysis": {
+          "A": "给出未来饮食行为变化及需求增长，为培养肉可能帮助应对的社会变化提供直接依据。",
+          "B": "强调倡导者认为培养肉更安全，没有预测公众行为会怎样普遍改变。",
+          "C": "谈消费者对减少包装的环境效果的看法，不是预期肉类消费行为的变化。",
+          "D": "描述模仿组织供氧的技术困难，既没有提出公众行为趋势，也不能直接支持该用途主张。"
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "rw_e_015",
+      "section": "reading_writing",
+      "question_number": 15,
+      "passage": "Many Indigenous songs serve as repositories of ecological knowledge—e.g., Karen ([i]hta[/i]) Hin Lad Nai songs about bees and Kaluli songs about rainforest sounds. In a study by ethnobiologist Dana Lepofsky et al., a song keeper for the Kwakwaka’wakw people provided access to ancient songs referring to the people’s creation of terraced intertidal gardens to foster clams for consumption. Cross-references of that information with both archaeological and paleoecological records have revealed significant increases in clam size and productivity concurrent with the most prevalent use of these clam gardens. This finding suggests that researchers should consider ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the reliability of archaeological and paleoecological evidence that often underpins conclusions drawn from Indigenous songs."
+        },
+        {
+          "label": "B",
+          "text": "whether the Kwakwaka’wakw people originated the method of cultivation detailed in the songs or adapted methods observed among other groups of Indigenous peoples."
+        },
+        {
+          "label": "C",
+          "text": "the possibility that other songs of other Indigenous peoples transmit ecological information that has useful practical applications."
+        },
+        {
+          "label": "D",
+          "text": "the strong implication that the beneficial effects are primarily attributable to ecological factors unrelated to the activities of the Kwakwaka’wakw people."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "C 从蛤蜊园个案推出适度的可能性：其他原住民歌曲也可能保存具有实际用途的生态知识。",
+        "key_evidence": "古歌记载 clam gardens；考古与古生态记录显示，广泛使用这些园地时 clam size and productivity 显著增加。",
+        "why_correct": "歌曲所保存的信息与可验证的生态生产效果相吻合，支持研究其他歌曲是否也传承实用知识。C 用 possibility 表达合理延伸，没有把个案夸大为普遍定律。",
+        "detailed": "论证先总述歌曲是生态知识的储库，再提供一个可交叉验证的例子：古歌涉及潮间带蛤蜊园，独立记录显示园地使用最广泛时蛤蜊更大、产量更高。结论应保留“歌曲可能传承实用生态信息”这条证据链，并适度推广到其他原住民群体。C 正好这样做。文中没有质疑考古记录、调查技术起源，或证明收益与人的园地活动无关，因此不能推出其余三个结论。",
+        "choice_analysis": {
+          "A": "要求把重点放在证据可靠性上；文中把考古与古生态记录作为相互印证的支持，没有提出它们不可靠的疑点。",
+          "B": "转向该栽培方法最早由谁发明的问题，文中没有跨群体传播或发明先后的证据。",
+          "C": "以谨慎的可能性从已验证个案推广到其他歌曲中也可能保存有实用价值的生态知识。",
+          "D": "声称收益主要来自与人的活动无关的因素，缺乏依据，也偏离文中将收益与蛤蜊园使用对应起来的证据。"
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "rw_e_016",
+      "section": "reading_writing",
+      "question_number": 16,
+      "passage": "Sunita Williams, a US astronaut, has gone on seven spacewalks. During ______ spacewalks, Williams performed important tasks outside the spacecraft, such as installing new equipment.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "that"
+        },
+        {
+          "label": "B",
+          "text": "these"
+        },
+        {
+          "label": "C",
+          "text": "this"
+        },
+        {
+          "label": "D",
+          "text": "one"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "“Spacewalks” is plural and refers to the seven already mentioned, so the plural demonstrative “these” is required.",
+        "detailed": "The blank modifies the plural noun “spacewalks” and points back to Williams’s seven spacewalks. “These spacewalks” is grammatical and logical.",
+        "key_evidence": "The antecedent is plural: “seven spacewalks.”",
+        "why_correct": "“These” is the plural demonstrative that agrees with “spacewalks.”",
+        "choice_analysis": {
+          "A": "Incorrect: “that” is singular and does not agree with plural “spacewalks.”",
+          "B": "Correct: “These” correctly refers to the previously mentioned seven spacewalks.",
+          "C": "Incorrect: “this” is singular.",
+          "D": "Incorrect: “one spacewalks” is ungrammatical and does not fit the plural noun."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "rw_e_017",
+      "section": "reading_writing",
+      "question_number": 17,
+      "passage": "NASA’s Opportunity rover first touched down on Mars on January 25, 2004. The rover spent over fourteen years gathering information about Mars’s rocky surface. Scientists playfully ______ one of the rocks it found Edmund.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "named"
+        },
+        {
+          "label": "B",
+          "text": "is naming"
+        },
+        {
+          "label": "C",
+          "text": "has named"
+        },
+        {
+          "label": "D",
+          "text": "names"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Named fits the past narrative and agrees with the plural subject Scientists.",
+        "key_evidence": "The sentence's subject is Scientists; the surrounding narrative uses touched down, spent, and found.",
+        "why_correct": "A provides a finite simple-past verb for what the scientists did during the rover's past mission. Its form works with the plural subject.",
+        "detailed": "Check both time and agreement. The previous sentences recount a past mission, favoring the simple past named. In addition, Scientists is plural: present alternatives would require are naming, have named, or name. None of the other supplied forms has that agreement.",
+        "choice_analysis": {
+          "A": "Correct. Named is a finite past-tense verb and works with the plural subject Scientists.",
+          "B": "Incorrect. Is is singular and conflicts with Scientists; the present progressive also does not fit the past narrative.",
+          "C": "Incorrect. Has is singular; a plural present-perfect construction would need have named.",
+          "D": "Incorrect. Names is singular present; the plural subject would take name even in a present-tense statement."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "rw_e_018",
+      "section": "reading_writing",
+      "question_number": 18,
+      "passage": "Most people are familiar with the song “Happy Birthday” because ______ Few, however, may know the song’s origin. The tune began as “Good Morning to All,” a song written by sisters Mildred and Patty Hill in the early 1890s.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "it is the most frequently sung song in the English language?"
+        },
+        {
+          "label": "B",
+          "text": "it is the most frequently sung song in the English language."
+        },
+        {
+          "label": "C",
+          "text": "is it the most frequently sung song in the English language."
+        },
+        {
+          "label": "D",
+          "text": "is it the most frequently sung song in the English language?"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "After “because,” the sentence needs a declarative clause with normal word order and a period.",
+        "detailed": "The clause explains why most people know the song. “It is the most frequently sung song in the English language” uses declarative word order and ends with a period, so it fits after “because.”",
+        "key_evidence": "The blank follows “because,” so it must complete an explanatory statement.",
+        "why_correct": "Choice B is a grammatical declarative clause.",
+        "choice_analysis": {
+          "A": "Incorrect: It uses a question mark even though the clause is explanatory.",
+          "B": "Correct: It has declarative word order and appropriate punctuation.",
+          "C": "Incorrect: “is it” uses question word order.",
+          "D": "Incorrect: It uses both question word order and a question mark."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "rw_e_019",
+      "section": "reading_writing",
+      "question_number": 19,
+      "passage": "Following her debut album release in 2002, Mexican singer-songwriter Natalia Lafourcade quickly shot to fame. By 2023, she ______ one of the most celebrated musicians in Latin America, having released twelve albums and won seventeen Latin Grammy awards—more than any other female artist in history.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "will become"
+        },
+        {
+          "label": "B",
+          "text": "had become"
+        },
+        {
+          "label": "C",
+          "text": "will have become"
+        },
+        {
+          "label": "D",
+          "text": "becomes"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "“By 2023” marks a point by which the development was complete, so past perfect “had become” is correct.",
+        "detailed": "The sentence looks back from 2023 to Natalia Lafourcade’s rise after her 2002 debut. “Had become” correctly indicates that by 2023 she was already one of the most celebrated musicians in Latin America.",
+        "key_evidence": "The time phrase is “By 2023.”",
+        "why_correct": "Past perfect “had become” shows completion by that time.",
+        "choice_analysis": {
+          "A": "Incorrect: “Will become” projects into the future, not by 2023.",
+          "B": "Correct: “Had become” fits an event completed by a past reference point.",
+          "C": "Incorrect: “Will have become” uses future perfect, which does not fit the past context.",
+          "D": "Incorrect: “Becomes” is simple present and does not fit “By 2023.”"
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "rw_e_020",
+      "section": "reading_writing",
+      "question_number": 20,
+      "passage": "In the Suzuki method, classical pieces like Franz Schubert’s “Wiegenlied” are taught to beginning music students as young as three, while students of traditional methods often only ______ such songs at the age of five.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "to begin learning"
+        },
+        {
+          "label": "B",
+          "text": "having begun to learn"
+        },
+        {
+          "label": "C",
+          "text": "beginning to learn"
+        },
+        {
+          "label": "D",
+          "text": "begin learning"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The subject “students of traditional methods” needs the finite verb phrase “begin learning.”",
+        "detailed": "The sentence compares what Suzuki students are taught with when students of traditional methods begin learning such songs. Only choice D supplies the needed finite verb after the plural subject.",
+        "key_evidence": "The clause is “students of traditional methods often only ______ such songs.”",
+        "why_correct": "“Begin learning” forms a complete predicate for the subject “students.”",
+        "choice_analysis": {
+          "A": "Incorrect: “to begin learning” leaves the clause without a finite verb.",
+          "B": "Incorrect: “having begun to learn” is not a finite main verb.",
+          "C": "Incorrect: “beginning to learn” is a participial phrase, not the needed predicate.",
+          "D": "Correct: “Begin learning” completes the clause grammatically."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form"
+      }
+    },
+    {
+      "question_id": "rw_e_021",
+      "section": "reading_writing",
+      "question_number": 21,
+      "passage": "In this chapter, we will focus on Gwendolyn Brooks’s poem “An Aspect of Love, Alive in the Ice and Fire,” paying special attention to its first line: “In a package of minutes there is this We.” We ______ our attention next to the works of Ntozake Shange and James Baldwin, two other poets associated with the Black Arts movement.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "will have turned"
+        },
+        {
+          "label": "B",
+          "text": "turned"
+        },
+        {
+          "label": "C",
+          "text": "had turned"
+        },
+        {
+          "label": "D",
+          "text": "will turn"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "“Next” makes the sentence forward-looking, so “will turn” is the appropriate future-tense verb phrase.",
+        "detailed": "The chapter is currently focusing on Brooks and then says what it will do next. “We will turn our attention next” correctly expresses the upcoming shift.",
+        "key_evidence": "The sentence says “our attention next.”",
+        "why_correct": "“Will turn” expresses the future action signaled by “next.”",
+        "choice_analysis": {
+          "A": "Incorrect: “Will have turned” is future perfect and suggests completion by a later point.",
+          "B": "Incorrect: “Turned” is past tense, but the sentence is forward-looking.",
+          "C": "Incorrect: “Had turned” is past perfect and conflicts with “next.”",
+          "D": "Correct: “Will turn” fits the forward-looking context."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "rw_e_022",
+      "section": "reading_writing",
+      "question_number": 22,
+      "passage": "When the first railroads were built in Australia in the 1800s, a variety of track sizes (gauges) were used across the continent, resulting in what historians call the “railway gauge muddle.” The Mackay Railway line in Queensland used narrow tracks. ______ the Yarra Valley Railway line in Victoria used broad gauge tracks.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "For instance,"
+        },
+        {
+          "label": "B",
+          "text": "By contrast,"
+        },
+        {
+          "label": "C",
+          "text": "In sum,"
+        },
+        {
+          "label": "D",
+          "text": "Similarly,"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The first railway line used narrow tracks, while the second used broad gauge tracks, so “By contrast” fits.",
+        "detailed": "The text gives two different gauge choices: narrow tracks in Queensland and broad gauge tracks in Victoria. “By contrast” signals that difference.",
+        "key_evidence": "Mackay used narrow tracks; Yarra Valley used broad gauge tracks.",
+        "why_correct": "“By contrast” marks the opposition between narrow and broad gauges.",
+        "choice_analysis": {
+          "A": "Incorrect: “For instance” would introduce another example of the same point, not a contrast.",
+          "B": "Correct: It signals the contrast between narrow and broad gauges.",
+          "C": "Incorrect: “In sum” would summarize rather than contrast.",
+          "D": "Incorrect: “Similarly” would suggest likeness, but the gauges differ."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "rw_e_023",
+      "section": "reading_writing",
+      "question_number": 23,
+      "passage": "According to Portuguese researcher Isabel C.F.R. Ferreira, the syringic acid found in almond mushrooms can protect human cells from damage. ______ the acid combats free radicals, a type of unstable molecule that can harm healthy cells in the human body.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "By contrast,"
+        },
+        {
+          "label": "B",
+          "text": "Thus,"
+        },
+        {
+          "label": "C",
+          "text": "To be exact,"
+        },
+        {
+          "label": "D",
+          "text": "Still,"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The second sentence specifies the exact way syringic acid protects cells, so “To be exact” is logical.",
+        "detailed": "The first sentence says syringic acid can protect human cells from damage. The second explains more precisely that it combats free radicals, so “To be exact” fits.",
+        "key_evidence": "The second sentence defines the protective mechanism: combating free radicals.",
+        "why_correct": "“To be exact” introduces a more precise explanation.",
+        "choice_analysis": {
+          "A": "Incorrect: There is no contrast between the two sentences.",
+          "B": "Incorrect: “Thus” would signal a result, but the second sentence clarifies the first.",
+          "C": "Correct: It introduces the exact mechanism of protection.",
+          "D": "Incorrect: “Still” would signal concession, which is not present."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "rw_e_024",
+      "section": "reading_writing",
+      "question_number": 24,
+      "passage": "On June 10, 1963, Sarvepalli Radhakrishnan received a ticker-tape parade in New York City in recognition of his status as president of India. Of the 206 ticker-tape parades held between 1886 and 2022, a number were for international leaders. ______ Radhakrishnan’s parade was one of 73 honoring foreign heads of state.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Specifically,"
+        },
+        {
+          "label": "B",
+          "text": "Nevertheless,"
+        },
+        {
+          "label": "C",
+          "text": "Therefore,"
+        },
+        {
+          "label": "D",
+          "text": "In addition,"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The final sentence gives the specific count within the broader category of international-leader parades, so “Specifically” fits.",
+        "detailed": "The previous sentence says a number of ticker-tape parades honored international leaders. The final sentence narrows that broad statement to a specific number: 73 honoring foreign heads of state.",
+        "key_evidence": "The final sentence specifies that Radhakrishnan’s parade was one of 73 for foreign heads of state.",
+        "why_correct": "“Specifically” introduces a precise detail.",
+        "choice_analysis": {
+          "A": "Correct: It signals that the sentence gives a specific detail about the broad category.",
+          "B": "Incorrect: There is no contrast or concession.",
+          "C": "Incorrect: The final sentence is not a consequence of the previous sentence.",
+          "D": "Incorrect: “In addition” would add a separate point rather than specify the category."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "rw_e_025",
+      "section": "reading_writing",
+      "question_number": 25,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• A U-shaped curve in a river channel is called a meander. A meander forms when water erodes sediment from one side of the riverbank and redeposits that sediment on the opposite side. Meanders will gradually change shape and migrate downstream over time. A river with high sinuosity has many meanders, and a river with low sinuosity has few. The Burhi Gandak River in India has high sinuosity.",
+      "prompt": "The student wants to identify what causes meanders. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "High sinuosity is caused by the formation of many meanders, or curves, in a riverbank over time."
+        },
+        {
+          "label": "B",
+          "text": "The erosion and redepositing of sediment from one side of a riverbank to the other forms meanders, or curves, over time."
+        },
+        {
+          "label": "C",
+          "text": "The meanders in the Burhi Gandak River will change shape and shift downstream over time."
+        },
+        {
+          "label": "D",
+          "text": "Over time, many meanders have formed in the Burhi Gandak River, a river in India with high sinuosity."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The notes say meanders form when water erodes sediment from one bank and redeposits it on the other, which choice B states.",
+        "detailed": "The goal is to identify what causes meanders. Choice B uses the relevant note about erosion and redeposition of sediment, while the other choices focus on sinuosity or the Burhi Gandak River rather than the cause.",
+        "key_evidence": "Meanders form when water erodes sediment from one side and redeposits it on the opposite side.",
+        "why_correct": "Choice B directly identifies the cause of meanders.",
+        "choice_analysis": {
+          "A": "Incorrect: It explains high sinuosity, not what causes meanders.",
+          "B": "Correct: It states the erosion-and-redeposition process that forms meanders.",
+          "C": "Incorrect: It describes what happens to existing meanders, not what causes them.",
+          "D": "Incorrect: It gives an example river but not the cause of meanders."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "rw_e_026",
+      "section": "reading_writing",
+      "question_number": 26,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• The exoplanet GJ 357 b (31 light-years from Earth) doesn’t emit enough light to be observed by Earth- or space-based telescopes. Astronomers were able to detect the exoplanet indirectly by the transit method of planetary detection. In this method, astronomers analyzed the periodic dimming of the light emitted by a distant star.\n\nThey determined that this dimming was caused by the orbit of an unseen exoplanet (GJ 357 b) passing between the star and the observation point. As of February 2024, the transit method had been used to detect 4,153 exoplanets.",
+      "prompt": "The student wants to explain an advantage of the transit method. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The transit method of planetary detection was used to detect GJ 357 b, an exoplanet located 31 light-years from Earth."
+        },
+        {
+          "label": "B",
+          "text": "In the transit method, astronomers observe the light emitted by a distant star for signs of dimming, which is caused by the orbit of an unseen exoplanet passing between the star and the observation point."
+        },
+        {
+          "label": "C",
+          "text": "Used to detect exoplanets by the periodic dimming they cause in the light of the stars they orbit, the transit method allows for the discovery of distant exoplanets not bright enough to be observed directly."
+        },
+        {
+          "label": "D",
+          "text": "As of February 2024, the transit method of planetary detection had been used to discover 4,153 exoplanets, including GJ 357 b."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The advantage is that the transit method can detect distant exoplanets too dim to observe directly by using periodic dimming of starlight.",
+        "detailed": "The notes say GJ 357 b does not emit enough light to be observed directly, but astronomers detected it indirectly through periodic dimming. Choice C combines those points to explain the method’s advantage.",
+        "key_evidence": "GJ 357 b could not be observed directly but was detected by periodic dimming.",
+        "why_correct": "Choice C explains the advantage of indirect detection for dim exoplanets.",
+        "choice_analysis": {
+          "A": "Incorrect: It names an example but does not explain the advantage.",
+          "B": "Incorrect: It describes the method but not the advantage over direct observation.",
+          "C": "Correct: It connects the method to discovering exoplanets not bright enough to see directly.",
+          "D": "Incorrect: It gives a statistic but does not explain the advantage."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "rw_e_027",
+      "section": "reading_writing",
+      "question_number": 27,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• In music theory, the term “key” refers to the set of musical notes that forms the foundation of a piece of music. In On the Sensations of Tone (1863), German physicist Hermann von Helmholtz describes the moods of various musical keys. He describes the key of D flat major as expressing “fullness of tone.” He describes the key of C major as “expressive of innocence.” “Waterfalls” (1995) by TLC is a song written in D flat major. “Imagine” (1971) by John Lennon is a song written in C major.",
+      "prompt": "The student wants to emphasize a difference between “Waterfalls” and “Imagine.” Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "“Waterfalls” is written in the key of D flat major, while “Imagine” is written in C major."
+        },
+        {
+          "label": "B",
+          "text": "Helmholtz describes the mood of D flat major as expressing “fullness of tone” and the mood of C major as “expressive of innocence.”"
+        },
+        {
+          "label": "C",
+          "text": "D flat major is the key in which “Waterfalls” by TLC was written, and its mood has been described as expressing “fullness of tone.”"
+        },
+        {
+          "label": "D",
+          "text": "In On the Sensations of Tone, Helmholtz describes the mood of various keys, including D flat major, which he describes as expressing “fullness of tone.”"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Choice A directly contrasts the songs by key: “Waterfalls” is in D-flat major, while “Imagine” is in C major.",
+        "detailed": "The student wants to emphasize a difference between the two songs. Choice A names both songs and states their different keys, which is the most direct contrast.",
+        "key_evidence": "“Waterfalls” is in D-flat major; “Imagine” is in C major.",
+        "why_correct": "Choice A directly states the difference between the songs.",
+        "choice_analysis": {
+          "A": "Correct: It directly contrasts the two songs’ keys.",
+          "B": "Incorrect: It contrasts the moods of keys but does not mention the songs.",
+          "C": "Incorrect: It gives information only about “Waterfalls.”",
+          "D": "Incorrect: It discusses Helmholtz and D-flat major, not the difference between the songs."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "rw_h_001",
+      "section": "reading_writing",
+      "question_number": 28,
+      "passage": "Noah Fierer and colleagues [vocab]______[/vocab] pots of sterilized soil with slurries of live microbes collected from soil in five sites across Colorado, including areas of ponderosa pine forest and dry pasture. Fierer and team then grew mustard plants in the pots to see if the different microbial slurries affected levels of spicy glucosinolates like 3-methylthiopropyl in the plants’ seeds.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "populated"
+        },
+        {
+          "label": "B",
+          "text": "precluded"
+        },
+        {
+          "label": "C",
+          "text": "sanitized"
+        },
+        {
+          "label": "D",
+          "text": "estimated"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The researchers added live microbes to sterilized soil, so “populated” means filled the pots with microbes.",
+        "detailed": "The pots began with sterilized soil and were then given slurries of live microbes. “Populated” best expresses that the researchers introduced living microbes into the pots.",
+        "key_evidence": "The pots contained sterilized soil and then received live microbial slurries.",
+        "why_correct": "“Populated” means filled or supplied with living organisms.",
+        "choice_analysis": {
+          "A": "Correct: It fits adding live microbes to the pots.",
+          "B": "Incorrect: “Precluded” means prevented, not introduced.",
+          "C": "Incorrect: “Sanitized” means cleaned or sterilized, which had already been done to the soil.",
+          "D": "Incorrect: “Estimated” means approximated and does not describe adding microbes."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "rw_h_002",
+      "section": "reading_writing",
+      "question_number": 29,
+      "passage": "The collectibles market is one of the most difficult segments of the consumer economy to [vocab]______[/vocab]. Few economists would have predicted, for example, that the prices of vintage movie posters would soar in the 2010s, but soar they did.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "forecast"
+        },
+        {
+          "label": "B",
+          "text": "avoid"
+        },
+        {
+          "label": "C",
+          "text": "exchange"
+        },
+        {
+          "label": "D",
+          "text": "monitor"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Because few economists predicted the poster-price surge, the collectibles market is hard to “forecast.”",
+        "detailed": "The example says economists did not predict that vintage movie poster prices would soar. That supports “forecast,” which means predict future developments.",
+        "key_evidence": "Few economists predicted that vintage movie poster prices would soar.",
+        "why_correct": "“Forecast” means predict, matching the example.",
+        "choice_analysis": {
+          "A": "Correct: “Forecast” means predict future market behavior.",
+          "B": "Incorrect: The issue is prediction, not avoiding the market.",
+          "C": "Incorrect: “Exchange” means trade, not predict.",
+          "D": "Incorrect: “Monitor” means observe, but the example concerns prediction."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "rw_h_003",
+      "section": "reading_writing",
+      "question_number": 30,
+      "passage": "Derived from research conducted with factory workers from 1924 to 1933, the Hawthorne effect suggests that participants’ awareness that they are being studied alters their behavior and influences study outcomes. Since then, several researchers have claimed to invalidate this phenomenon, positing that the Hawthorne effect cannot be [vocab]______[/vocab] because attempts to detect it invariably involve faulty research methods.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "inculcated"
+        },
+        {
+          "label": "B",
+          "text": "rectified"
+        },
+        {
+          "label": "C",
+          "text": "substantiated"
+        },
+        {
+          "label": "D",
+          "text": "hypothesized"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The researchers argue the Hawthorne effect cannot be proven because attempts to detect it use faulty methods, so “substantiated” fits.",
+        "detailed": "To substantiate a phenomenon is to support or prove it with evidence. Since the sentence says faulty methods prevent reliable detection, the claim is that the Hawthorne effect cannot be substantiated.",
+        "key_evidence": "Attempts to detect the effect allegedly involve faulty research methods.",
+        "why_correct": "“Substantiated” means supported with evidence.",
+        "choice_analysis": {
+          "A": "Incorrect: “Inculcated” means instilled or taught, not proven.",
+          "B": "Incorrect: “Rectified” means corrected.",
+          "C": "Correct: “Substantiated” fits the idea of evidentially supporting the phenomenon.",
+          "D": "Incorrect: “Hypothesized” means proposed, but the issue is whether it can be proven."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "rw_h_004",
+      "section": "reading_writing",
+      "question_number": 31,
+      "passage": "Paleontologists think that Anhanguera, Saltasaurus, and other long-extinct pterosaurs and sauropods may have breathed using air sacs connected to tubelike extensions inside the animals’ bones. Such structures are found in modern birds, which is why some paleontologists treat the respiratory systems of birds as [vocab]______[/vocab] those of Anhanguera, Saltasaurus, and other pterosaurs and sauropods.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "emissaries for"
+        },
+        {
+          "label": "B",
+          "text": "subordinates of"
+        },
+        {
+          "label": "C",
+          "text": "harbingers of"
+        },
+        {
+          "label": "D",
+          "text": "proxies for"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Modern bird respiratory systems are used as stand-ins for extinct animals’ systems, so they are “proxies for” them.",
+        "detailed": "Because similar structures occur in modern birds, paleontologists use birds’ respiratory systems to infer features of extinct pterosaurs and sauropods. A proxy is a substitute or stand-in.",
+        "key_evidence": "Modern birds have structures similar to those inferred in the extinct animals.",
+        "why_correct": "“Proxies for” means stand-ins used to understand something unavailable directly.",
+        "choice_analysis": {
+          "A": "Incorrect: “Emissaries” are representatives sent on behalf of others, which does not fit scientific comparison.",
+          "B": "Incorrect: “Subordinates” suggests lower rank.",
+          "C": "Incorrect: “Harbingers” signal something coming in the future.",
+          "D": "Correct: “Proxies for” accurately describes using birds as stand-ins for extinct animals."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "rw_h_005",
+      "section": "reading_writing",
+      "question_number": 32,
+      "passage": "Advancements like the emergence of glassmaking in Mesopotamia circa 3500 BCE are overemphasized in innovation studies, contributing to the idea that technological change always brings greater complexity. Research by Nathaniel Erb-Satullo reveals an important exception: gold metallurgy flourished in the Caucasus in the Bronze Age, but a steep drop during that time (circa 1500 BCE) in objects featuring gold filigree (in which fine threads of gold are arranged in intricate patterns) and other sophisticated goldsmithing techniques suggests that simpler processes supplanted advanced methods.",
+      "prompt": "Which choice best describes the overall structure of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It details the near-consensus among researchers in a particular field of study regarding how technology evolves and then indicates the controversial nature of a study challenging that broadly accepted view."
+        },
+        {
+          "label": "B",
+          "text": "It summarizes the findings of several studies into the origins of a particular invention and then presents additional evidence from a more recent study that contradicts those findings."
+        },
+        {
+          "label": "C",
+          "text": "It advances a claim made by researchers in one academic field about the nature of technological change and then critiques a contrasting claim presented by a researcher from a related academic field."
+        },
+        {
+          "label": "D",
+          "text": "It explains that a particular interpretation of technological development has been perpetuated in an academic field and then provides a counterexample demonstrating that the interpretation isn’t always accurate."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The text first describes the assumption that technology becomes more complex, then gives gold metallurgy as a counterexample.",
+        "detailed": "Innovation studies are said to overemphasize examples that suggest technological change brings greater complexity. Erb-Satullo’s evidence shows simpler goldworking processes supplanting advanced ones, so it functions as a counterexample.",
+        "key_evidence": "Gold metallurgy shows simpler processes replacing sophisticated techniques.",
+        "why_correct": "Choice D captures the move from a common interpretation to a counterexample.",
+        "choice_analysis": {
+          "A": "Incorrect: The text does not emphasize near-consensus or controversy around the study.",
+          "B": "Incorrect: It does not summarize several studies about one invention’s origins.",
+          "C": "Incorrect: It does not critique a contrasting claim from a related field.",
+          "D": "Correct: It describes a common interpretation and then gives an exception to it."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "primary_purpose"
+      }
+    },
+    {
+      "question_id": "rw_h_006",
+      "section": "reading_writing",
+      "question_number": 33,
+      "passage": "In their study of the steering muscles regulating sclerites (minute hardened structures) in the Drosophila (fruit fly) wing hinge, Johan M. Melis et al. used machine learning to devise a convolutional neural network (CNN) model capable of predicting the pattern of wing motion produced by the maximum activity of the muscles. The CNN model's output aligned with results of prior studies by other researchers measuring muscle activity patterns directly—one of several indications, said Melis et al., that the model accurately represents important biomechanical processes underlying wing motion.",
+      "prompt": "Which choice best states the main purpose of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To account for Melis et al.’s reliance in their study on a CNN model in lieu of direct measurement"
+        },
+        {
+          "label": "B",
+          "text": "To provide an overview of how Melis et al. honed the accuracy of their CNN model"
+        },
+        {
+          "label": "C",
+          "text": "To present evidence from Melis et al.’s study in support of the efficacy of their CNN model"
+        },
+        {
+          "label": "D",
+          "text": "To compare results obtained by Melis et al. using their CNN model to prior results obtained from other researchers’ models"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The passage presents evidence that Melis and colleagues' CNN model accurately represents wing-motion biomechanics.",
+        "key_evidence": "The model's output aligned with prior studies that measured muscle activity directly.",
+        "why_correct": "That agreement is evidence supporting the model's efficacy, so C states the main purpose.",
+        "detailed": "The model's output aligned with prior studies that measured muscle activity directly. That agreement is evidence supporting the model's efficacy, so C states the main purpose.",
+        "choice_analysis": {
+          "A": "Incorrect. The text does not justify using the model instead of direct measurement.",
+          "B": "Incorrect. It does not describe steps used to refine or hone the model.",
+          "C": "Correct. It presents the agreement with direct measurements as evidence of the model's effectiveness.",
+          "D": "Incorrect. The earlier researchers measured muscle activity directly; they did not use competing models."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "structural_function"
+      }
+    },
+    {
+      "question_id": "rw_h_007",
+      "section": "reading_writing",
+      "question_number": 34,
+      "passage": "The following text is from Julia Alvarez’s 2000 novel In the Name of Salomé. The narrator and her sister, daughters of a famous poet, are being tutored by Alejandro Román.\n\nOur tutor, Alejandro Román, brought his younger brother, Miguel, to class one day. By now I was eighteen and had learned everything Alejandro had to teach me, so I was glad for a new face. Miguel was an aspiring poet, and he had heard from his brother that the Ureña girls were none other than the daughters of Nicolás Ureña, and they were smart as clockwork. Miguel was hoping not only to meet us but to make the acquaintance of the poet himself at Mamá’s house.\n\n©2000 by Julia Alvarez",
+      "prompt": "Based on the text, why does Miguel accompany his brother to the sisters’ house one day?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Miguel has not received formal instruction in poetry and wants to ask the sisters’ famous father to be his mentor."
+        },
+        {
+          "label": "B",
+          "text": "Miguel wants to recite his poems to the sisters and inquire about their perspectives on his work."
+        },
+        {
+          "label": "C",
+          "text": "Miguel has learned all his brother can teach him and now desires to be taught by the sisters."
+        },
+        {
+          "label": "D",
+          "text": "Miguel anticipates having the opportunity to be introduced to both the sisters and their father."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Miguel goes because he hopes to meet both the sisters and their poet father.",
+        "detailed": "The passage says Miguel had heard about the Ureña girls and hoped not only to meet them but also to make the acquaintance of their father, the poet. Choice D states that motivation.",
+        "key_evidence": "Miguel hoped “to meet us” and “to make the acquaintance of the poet himself.”",
+        "why_correct": "Choice D includes both intended introductions: the sisters and their father.",
+        "choice_analysis": {
+          "A": "Incorrect: The passage does not say Miguel wants Nicolás Ureña as a mentor.",
+          "B": "Incorrect: It does not say Miguel plans to recite poems or seek feedback.",
+          "C": "Incorrect: The narrator, not Miguel, had learned all Alejandro could teach.",
+          "D": "Correct: Miguel expects to meet both the sisters and their poet father."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "main_idea_or_detail"
+      }
+    },
+    {
+      "question_id": "rw_h_008",
+      "section": "reading_writing",
+      "question_number": 35,
+      "passage": "Motivated to sell as many paintings as possible, Alfred Hair, an influential figure among the landscape artists known as the Florida Highwaymen, pioneered “fast painting,” which in part involved swift applications of paint. That many of Hair’s acolytes, including Livingston Roberts, imitated the technique accounts in part for the impressionistic qualities that are now synonymous with the group’s shared aesthetic. But not all Highwaymen fully embraced this approach; for instance, though Charles Walker was also prolific, his paintings were executed with greater attention to detail.",
+      "prompt": "What does the text most strongly suggest about paintings by Roberts?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Roberts’s reliance on the technique of fast painting likely accounts for his works being more aesthetically interesting than works by Walker are."
+        },
+        {
+          "label": "B",
+          "text": "The lack of precision with which they were executed suggests that they are inferior to works by either Hair or Walker."
+        },
+        {
+          "label": "C",
+          "text": "Although it is evident that Roberts adopted some of Hair’s preferred techniques, Roberts’s works are less derivative of works by Hair than is typically acknowledged."
+        },
+        {
+          "label": "D",
+          "text": "Because of the manner in which they were created, they likely have visual qualities that are regarded as more typical of Florida Highwaymen paintings than the qualities in works by Walker are."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Roberts imitated fast painting, the technique associated with the group’s typical impressionistic aesthetic, unlike Walker’s more detailed work.",
+        "detailed": "The text says Hair’s acolytes, including Roberts, imitated fast painting, which partly accounts for qualities now synonymous with the Highwaymen. Walker, by contrast, used greater attention to detail, so Roberts’s work likely looked more typical of the group.",
+        "key_evidence": "Roberts imitated fast painting; Walker’s paintings had greater attention to detail.",
+        "why_correct": "Choice D compares Roberts’s likely typical Highwaymen qualities with Walker’s less typical detailed approach.",
+        "choice_analysis": {
+          "A": "Incorrect: The passage does not rank Roberts’s work as more aesthetically interesting.",
+          "B": "Incorrect: It does not say Roberts’s work is inferior.",
+          "C": "Incorrect: It does not address whether Roberts’s work is more or less derivative than acknowledged.",
+          "D": "Correct: Roberts’s fast-painting method likely produced qualities more typical of the Highwaymen than Walker’s detailed method did."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "implied_conclusion"
+      }
+    },
+    {
+      "question_id": "rw_h_009",
+      "section": "reading_writing",
+      "question_number": 36,
+      "passage": "[Graph: Tax Penalties Assessed on Private Foundations That Filed Form 4720, by Reason, 2003–2005. The vertical axis is percentage of total penalty. The four reasons are self-dealing, undistributed income, taxable expenditures, and excess business holdings. Undistributed income has the largest share in each of 2003, 2004, and 2005.]\n\nWhile US public charities, like Commonfund, must file Form 990 yearly with the IRS, private foundations, such as Lilly Endowment Inc., must file a different form, 990-PF. In addition, foundations that engage in certain prohibited activities must also file Form 4720 and pay a penalty tax on the money involved. Private foundations are prohibited from holding excess interests in a business enterprise, “self-dealing” (conducting activities that benefit foundation insiders), making taxable expenditures such as outlays for lobbying, and failing to cross a required threshold in making charitable distributions from income. Out of the organizations that filed Form 990-PF in the years 2003–2005, ______",
+      "prompt": "Which choice most effectively uses data from the graph to complete the assertion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "those that were also required to file Form 4720 because they had excess holdings in a business enterprise paid, on average, a larger penalty than those organizations that filed Form 4720 because they engaged in self-dealing."
+        },
+        {
+          "label": "B",
+          "text": "those that also filed Form 4720 collectively paid larger penalties for failing to meet the minimum charitable distribution requirement than for other reasons."
+        },
+        {
+          "label": "C",
+          "text": "a smaller percentage of those that also filed Form 4720 did so because they engaged in self-dealing than the percentage of those that filed Form 4720 because they did not meet the minimum charitable distribution requirement."
+        },
+        {
+          "label": "D",
+          "text": "those that also filed Form 4720 paid a larger penalty for failing to meet a minimum charitable distribution requirement than those organizations that filed Form 990 but also filed Form 4720 for the same reason."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The graph shows undistributed income was the largest share of total penalties in each year, so those penalties were larger than penalties for other reasons.",
+        "detailed": "Across 2003, 2004, and 2005, the bars for undistributed income are higher than the bars for self-dealing, taxable expenditures, and excess business holdings. That supports choice B.",
+        "key_evidence": "Undistributed income has the tallest bars in the graph for 2003-2005.",
+        "why_correct": "Choice B states that Form 4720 filers paid larger penalties for failing the minimum distribution requirement than for other reasons.",
+        "choice_analysis": {
+          "A": "Incorrect: The graph gives percentages of total penalty, not average penalty per organization.",
+          "B": "Correct: Undistributed income has the largest penalty share across the years shown.",
+          "C": "Incorrect: The graph shows penalty percentages, not percentages of organizations filing for each reason.",
+          "D": "Incorrect: It compares Form 4720 filers with Form 990 filers, which the graph does not do."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "data_evidence"
+      },
+      "visual_assets": [
+        {
+          "type": "graph",
+          "description": "Graph for Roberts/Fast painting question, visually verified from rendered page."
+        }
+      ]
+    },
+    {
+      "question_id": "rw_h_010",
+      "section": "reading_writing",
+      "question_number": 37,
+      "passage": "Blandine Courel and her colleagues analyzed pottery fragments from thirty-five sites across the Volga and Don river basins to determine whether the ways in which hunter-gatherer societies used pottery in these regions around 6,500–8,000 years ago were influenced primarily by local food availability or primarily by cultural factors. Analysis of organic residues on the pottery fragments showed different prevailing uses for pottery in these locations—cooking and storing terrestrial animal protein at Volga sites and cooking and storing aquatic animal protein at Don sites—which Courel and colleagues attribute to cultural differences.",
+      "prompt": "Assuming that the Volga and Don basins supported similarly sized hunter-gatherer populations 6,500–8,000 years ago, which finding, if true, would most directly support Courel and colleagues’ explanation?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "There were many more bodies of water in a comparably sized area in the Don basin than in the Volga basin."
+        },
+        {
+          "label": "B",
+          "text": "In both the Volga and Don basins, most of the sites from which pottery has been recovered appear to have been seasonal fishing and hunting encampments rather than year-round settlements."
+        },
+        {
+          "label": "C",
+          "text": "The people of the Volga basin acquired the techniques used to create pottery for cooking and storing food from the people of the Don basin."
+        },
+        {
+          "label": "D",
+          "text": "Across the Volga and Don basins, people had broadly similar access to the same terrestrial and aquatic animal resources."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "If both basins had similar access to the same foods, then different pottery uses are better explained by culture than by food availability.",
+        "detailed": "Courel and colleagues attribute different pottery uses to cultural differences rather than local food availability. Choice D supports that explanation because it removes food access as a likely cause.",
+        "key_evidence": "Choice D says both basins had similar access to terrestrial and aquatic animal resources.",
+        "why_correct": "Similar resource access makes cultural factors a stronger explanation for different pottery uses.",
+        "choice_analysis": {
+          "A": "Incorrect: More water in the Don basin would support a food-availability explanation.",
+          "B": "Incorrect: Seasonal encampments do not directly distinguish culture from food availability.",
+          "C": "Incorrect: Pottery-making techniques do not explain why pottery was used for different foods.",
+          "D": "Correct: Similar access to resources supports culture as the cause of different pottery uses."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "textual_evidence"
+      }
+    },
+    {
+      "question_id": "rw_h_012",
+      "section": "reading_writing",
+      "question_number": 39,
+      "passage": "Southwestern Kentucky’s Livingston County is among the most rural counties in the United States: the US Census Bureau classified it as 95.4% rural in 2010. Researchers often struggle to recruit residents of counties like Livingston for inclusion in studies. Melissa Valerio and colleagues tested whether an approach called snowball sampling improves recruitment. Working in two rural counties, they recruited a few people (known as “seeds”) with the characteristics desired for a proposed study and asked them to recruit additional participants from their social networks. Though the seeds were given minimal guidance, many more people they recruited had the desired characteristics for the study than would be expected by chance alone, most likely because ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "most seeds’ social networks include some people who do not know one another and who share few characteristics."
+        },
+        {
+          "label": "B",
+          "text": "the seeds’ social networks tend to be somewhat smaller than the networks of people who do not live in rural areas."
+        },
+        {
+          "label": "C",
+          "text": "the seeds’ social networks include a high proportion of people who share characteristics with the seeds."
+        },
+        {
+          "label": "D",
+          "text": "the characteristics that made the seeds desirable for inclusion in the proposed study may be unknown to some members of the seeds’ social networks."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Snowball sampling likely worked because seeds’ social networks included many people sharing the desired characteristics.",
+        "detailed": "The seeds recruited more people with the desired characteristics than chance alone would predict. That makes sense if their social networks had a high proportion of people with similar characteristics.",
+        "key_evidence": "Many recruits had the desired characteristics at a rate higher than chance.",
+        "why_correct": "Choice C explains why seeds could recruit qualifying participants from their networks.",
+        "choice_analysis": {
+          "A": "Incorrect: Networks with people sharing few characteristics would not explain the successful recruitment.",
+          "B": "Incorrect: Network size does not explain why recruits had the desired characteristics.",
+          "C": "Correct: Shared characteristics in seeds’ networks explain the higher-than-chance results.",
+          "D": "Incorrect: Unknown characteristics would make recruitment less, not more, explainable."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "rw_h_014",
+      "section": "reading_writing",
+      "question_number": 41,
+      "passage": "The world’s many geothermal power plants leverage an array of ______ the Nga Awa Purua plant uses a flash steam system that transforms high-temperature geothermal fluid into steam; in Mexico, the Cerro Prieto plant's dry steam system pumps superheated steam from a reservoir; and in the US, the Mammoth plant's binary cycle system uses lower-temperature geothermal fluid in conjunction with a secondary fluid.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "technologies, in New Zealand,"
+        },
+        {
+          "label": "B",
+          "text": "technologies in New Zealand:"
+        },
+        {
+          "label": "C",
+          "text": "technologies in New Zealand;"
+        },
+        {
+          "label": "D",
+          "text": "technologies: in New Zealand,"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "A colon should follow “technologies” to introduce examples, and “in New Zealand,” begins the first example.",
+        "detailed": "The sentence first announces an array of technologies and then lists examples from New Zealand, Mexico, and the US. Choice D correctly uses a colon after “technologies” before the examples.",
+        "key_evidence": "The sentence lists three example geothermal systems after the blank.",
+        "why_correct": "Choice D places the colon after the complete introductory phrase “an array of technologies.”",
+        "choice_analysis": {
+          "A": "Incorrect: A comma does not properly introduce the full list of examples.",
+          "B": "Incorrect: It incorrectly makes “in New Zealand” part of the introductory phrase.",
+          "C": "Incorrect: A semicolon after “New Zealand” misplaces the break.",
+          "D": "Correct: The colon introduces the list, and “in New Zealand,” starts the first example."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "rw_h_017",
+      "section": "reading_writing",
+      "question_number": 44,
+      "passage": "In their attempt to create a quantum random number generator, K. Muhammed Shafi et al. used a continuous-wave diode laser to fire photons at a periodically-poled potassium titanyl phosphate (PPKTP) nonlinear crystal. A plano-convex lens ______ the laser on the center of the 10-millimeter-long crystal ensured a spot size (a measure of the beam’s diameter) of 85 micrometers.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "focusing"
+        },
+        {
+          "label": "B",
+          "text": "focus"
+        },
+        {
+          "label": "C",
+          "text": "focuses"
+        },
+        {
+          "label": "D",
+          "text": "focused"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "“Focusing the laser on the center of the crystal” is a participial phrase modifying “lens”; “ensured” remains the main verb.",
+        "detailed": "The sentence’s main clause is that a plano-convex lens ensured a spot size of 85 micrometers. The phrase “focusing the laser on the center of the 10-millimeter-long crystal” describes what the lens did, so the participle “focusing” fits.",
+        "key_evidence": "The main verb is “ensured.”",
+        "why_correct": "Choice A forms a modifying participial phrase before the main verb.",
+        "choice_analysis": {
+          "A": "Correct: “Focusing” creates a participial modifier for “lens.”",
+          "B": "Incorrect: “Focus” would create an ungrammatical sequence before “ensured.”",
+          "C": "Incorrect: “Focuses” creates a second finite verb without proper structure.",
+          "D": "Incorrect: “Focused” does not fit naturally before “ensured” in this construction."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "modifier"
+      }
+    },
+    {
+      "question_id": "rw_h_018",
+      "section": "reading_writing",
+      "question_number": 45,
+      "passage": "For her installation The Last Cruze, photographer LaToya Ruby Frazier traveled to Lordstown, Ohio, where she documented the lives of workers at the local automobile plant. In the installation, text culled from a series of in-depth interviews with employees and their families ______ sixty-seven gelatin silver prints, highlighting the collaborative, documentary nature of Frazier’s work.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "punctuating"
+        },
+        {
+          "label": "B",
+          "text": "punctuates"
+        },
+        {
+          "label": "C",
+          "text": "punctuate"
+        },
+        {
+          "label": "D",
+          "text": "are punctuated by"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The subject is singular “text,” so the singular verb “punctuates” agrees with it.",
+        "detailed": "Although the text comes from interviews with employees and families, the grammatical subject of the verb is the singular mass noun “text.” Therefore “text ... punctuates sixty-seven prints” is correct.",
+        "key_evidence": "The subject of the blank is “text.”",
+        "why_correct": "“Punctuates” is singular and agrees with “text.”",
+        "choice_analysis": {
+          "A": "Incorrect: “Punctuating” would leave the sentence without a finite main verb.",
+          "B": "Correct: “Punctuates” agrees with singular “text.”",
+          "C": "Incorrect: “Punctuate” is plural and does not agree with “text.”",
+          "D": "Incorrect: “Are punctuated by” reverses the relationship and does not agree with “text.”"
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "rw_h_021",
+      "section": "reading_writing",
+      "question_number": 48,
+      "passage": "Architect Victor Gruen, the designer of Pennsylvania's South Hills Village shopping mall, conceived of the mall as an indoor version of the European town square, a communal space that encouraged visitors to stroll and linger. ______ he designed South Hills Village with long, pedestrian-friendly promenades and ample seating areas clustered around fountains and greenery.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Regardless,"
+        },
+        {
+          "label": "B",
+          "text": "In addition,"
+        },
+        {
+          "label": "C",
+          "text": "Accordingly,"
+        },
+        {
+          "label": "D",
+          "text": "By contrast,"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Gruen wanted a mall that encouraged strolling and lingering; accordingly, he designed promenades and seating around fountains and greenery.",
+        "detailed": "The second sentence describes a design that follows from Gruen’s goal of creating a town-square-like communal space. “Accordingly” signals that the design was done in accordance with that goal.",
+        "key_evidence": "The design features support strolling and lingering.",
+        "why_correct": "“Accordingly” shows the design follows from Gruen’s concept.",
+        "choice_analysis": {
+          "A": "Incorrect: “Regardless” would suggest the design ignores the previous idea.",
+          "B": "Incorrect: “In addition” merely adds information and misses the cause-effect relation.",
+          "C": "Correct: The design accords with Gruen’s stated goal.",
+          "D": "Incorrect: “By contrast” would signal opposition, but the ideas align."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "rw_h_022",
+      "section": "reading_writing",
+      "question_number": 49,
+      "passage": "Long thought to be sessile (immobile), adult Chelonibia testudinaria, barnacles that adhere to sea turtle shells, have been observed to shift slightly in position over time—a phenomenon that has been attributed to the barnacles’ passive displacement by water currents. ______ a research team found that adult C. testudinaria moved toward the heads of their sea turtle hosts and thus against the prevailing water flow, behavior consistent with self-initiated locomotion.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Undermining this explanation,"
+        },
+        {
+          "label": "B",
+          "text": "Contrary to this phenomenon,"
+        },
+        {
+          "label": "C",
+          "text": "Drawing a similar conclusion,"
+        },
+        {
+          "label": "D",
+          "text": "Confirming this hypothesis,"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The new finding undermines the current-displacement explanation because the barnacles moved against the prevailing water flow.",
+        "detailed": "The earlier explanation attributes movement to passive displacement by water currents. The research team found movement against the prevailing flow, which supports self-initiated locomotion and undermines the old explanation.",
+        "key_evidence": "Barnacles moved toward turtle heads and against prevailing water flow.",
+        "why_correct": "Choice A correctly signals that the finding weakens the passive-displacement explanation.",
+        "choice_analysis": {
+          "A": "Correct: It introduces evidence that undermines the prior explanation.",
+          "B": "Incorrect: The finding is contrary to the explanation, not to the phenomenon of movement itself.",
+          "C": "Incorrect: It does not draw a similar conclusion.",
+          "D": "Incorrect: The finding does not confirm passive displacement; it challenges it."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "rw_h_023",
+      "section": "reading_writing",
+      "question_number": 50,
+      "passage": "In Annie Dillard’s Pilgrim at Tinker Creek —where, early on, the author marvels at a single goldfish’s delicate fins but later winces when imagining a horde of goldfish laying and eating their own eggs—Dillard struggles to reconcile the complicated juxtapositions of the natural world. ______ nature’s mesmerizing intricacy and pitiless harshness prove inextricably linked for Dillard, like “two branches of the same creek.”",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Moreover,"
+        },
+        {
+          "label": "B",
+          "text": "To that end,"
+        },
+        {
+          "label": "C",
+          "text": "Ultimately,"
+        },
+        {
+          "label": "D",
+          "text": "Hence,"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The final sentence gives Dillard’s ultimate interpretation: nature’s beauty and harshness are inseparable.",
+        "detailed": "The first sentence introduces Dillard’s struggle to reconcile opposite aspects of nature. The final sentence states the concluding insight that intricacy and harshness are linked, so “Ultimately” fits.",
+        "key_evidence": "The final sentence resolves the juxtaposition as “two branches of the same creek.”",
+        "why_correct": "“Ultimately” introduces the concluding interpretation.",
+        "choice_analysis": {
+          "A": "Incorrect: “Moreover” would merely add another point.",
+          "B": "Incorrect: “To that end” would indicate a means to a goal.",
+          "C": "Correct: “Ultimately” signals the final interpretation.",
+          "D": "Incorrect: “Hence” suggests a direct consequence, but the sentence is more of a culminating interpretation."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "rw_h_024",
+      "section": "reading_writing",
+      "question_number": 51,
+      "passage": "Silent films can be valuable historical documents of their time. Ninety percent of silent films made before 1930 are now lost. A film is considered lost when no remaining copies are known to exist. Director Howard Hawks’s 1926 silent film The Road to Glory is lost. Director Oscar Micheaux’s 1920 silent film Within Our Gates is archived at the UCLA Film & Television Archive in Los Angeles, California.",
+      "prompt": "Which choice most effectively uses information from the given sentences to emphasize a difference between the two movies?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Howard Hawks’s 1926 film The Road to Glory is among the many lost films of the era."
+        },
+        {
+          "label": "B",
+          "text": "Howard Hawks’s The Road to Glory (1926) and Oscar Micheaux’s Within Our Gates (1920) are just two examples of silent films from the 1920s."
+        },
+        {
+          "label": "C",
+          "text": "While Howard Hawks’s The Road to Glory is considered lost to history, Oscar Micheaux’s film Within Our Gates is archived at the UCLA Film & Television Archive in Los Angeles, California."
+        },
+        {
+          "label": "D",
+          "text": "Oscar Micheaux’s film Within Our Gates can be found at the UCLA Film & Television Archive in Los Angeles, California."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Choice C directly contrasts the two films: Hawks’s film is lost, while Micheaux’s is archived.",
+        "detailed": "The goal is to emphasize a difference. Choice C uses the relevant facts about both films and places them in a contrast: one is considered lost, and the other remains archived at UCLA.",
+        "key_evidence": "The Road to Glory is lost; Within Our Gates is archived at UCLA.",
+        "why_correct": "Choice C states both sides of the contrast.",
+        "choice_analysis": {
+          "A": "Incorrect: It only discusses Hawks’s film and does not contrast it with Micheaux’s.",
+          "B": "Incorrect: It states a similarity, not a difference.",
+          "C": "Correct: It directly contrasts lost and archived status.",
+          "D": "Incorrect: It only discusses Micheaux’s film."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_distinguish"
+      }
+    },
+    {
+      "question_id": "rw_h_025",
+      "section": "reading_writing",
+      "question_number": 52,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Founded in 2016, Kernel is a neurotechnology company that develops brain-computer interfaces (BCIs).\n\nBCIs interpret and execute brain signals to allow users to control external software or hardware with their thoughts. Founded in 2022, Cortigent is a neurotechnology company that develops neuroprostheses. Neuroprostheses act as replacement brain functions to restore the user’s lost sensory, motor, or neural functions. Founded in 2012, MindMaze is a neurotechnology company that develops neuromodulation technologies. Neuromodulation technologies use neural interfaces to stimulate nervous system structures and influence neural activity.",
+      "prompt": "The student wants to contrast the type of neurotechnology Kernel develops with the type of neurotechnology Cortigent develops. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Founded in 2016, Kernel develops technology for interpreting and executing brain signals, which, unlike Cortigent and MindMaze, is categorized as a neuroprosthetic."
+        },
+        {
+          "label": "B",
+          "text": "Unlike Cortigent, which develops neurotechnology, Kernel develops BCIs."
+        },
+        {
+          "label": "C",
+          "text": "BCIs allow users to control external software or hardware with their thoughts, but they don’t restore sensory, motor, or neural functions as neuroprostheses do."
+        },
+        {
+          "label": "D",
+          "text": "BCIs interpret and execute brain signals to allow users to control external software or hardware with their thoughts, whereas neuroprostheses influence neural activity."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "BCIs allow control of external software or hardware, whereas neuroprostheses restore lost sensory, motor, or neural functions.",
+        "detailed": "The student wants to contrast Kernel’s BCIs with Cortigent’s neuroprostheses. Choice C correctly contrasts the functions of the two technologies.",
+        "key_evidence": "BCIs control external software or hardware; neuroprostheses restore lost functions.",
+        "why_correct": "Choice C accurately contrasts the two technology types.",
+        "choice_analysis": {
+          "A": "Incorrect: It wrongly categorizes Kernel’s technology as neuroprosthetic.",
+          "B": "Incorrect: It says only that Kernel develops BCIs and Cortigent develops neurotechnology, which is too broad.",
+          "C": "Correct: It contrasts what BCIs do with what neuroprostheses do.",
+          "D": "Incorrect: It describes neuromodulation, not neuroprostheses, as influencing neural activity."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "rw_h_026",
+      "section": "reading_writing",
+      "question_number": 53,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Time Matters... is a 2021 sculpture by German artist Jan Kuck. It is crafted from yellow neon lighting that spells out the title phrase (“time matters”). Verdurous No. 2 is a 2020 sculpture by United States artist Annesta Le. It is crafted from green neon lighting that forms an abstract squiggle shape.",
+      "prompt": "The student wants to emphasize a difference between the two sculptures. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Jan Kuck and Annesta Le are artists who have used neon in their sculptures."
+        },
+        {
+          "label": "B",
+          "text": "Unlike Kuck’s sculpture, which spells out a phrase, Le’s is an abstract squiggle shape."
+        },
+        {
+          "label": "C",
+          "text": "Time Matters..., like Verdurous No. 2, is a sculpture."
+        },
+        {
+          "label": "D",
+          "text": "Both Kuck’s and Le’s sculptures are crafted from neon lighting."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Kuck’s sculpture spells out a phrase, whereas Le’s sculpture forms an abstract squiggle, so choice B emphasizes a difference.",
+        "detailed": "Both works are neon sculptures, but the notes distinguish their forms: Time Matters... spells out words, and Verdurous No. 2 forms an abstract squiggle. Choice B directly contrasts that difference.",
+        "key_evidence": "Kuck’s work spells out a title phrase; Le’s forms an abstract squiggle.",
+        "why_correct": "Choice B states the relevant difference between the sculptures.",
+        "choice_analysis": {
+          "A": "Incorrect: It gives a similarity: both artists used neon.",
+          "B": "Correct: It contrasts phrase text with abstract shape.",
+          "C": "Incorrect: It gives a similarity: both are sculptures.",
+          "D": "Incorrect: It gives another similarity: both use neon lighting."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "rw_h_027",
+      "section": "reading_writing",
+      "question_number": 54,
+      "passage": "While researching a topic, a student has taken the following notes: • The Zambezi River is in Africa. • It ranks No. 32 among the longest rivers in the world. • It is 2,740 kilometers long. • The Vistula River is in Europe. • It ranks No. 133 among the longest rivers in the world. • It is 1,213 kilometers long.",
+      "prompt": "The student wants to emphasize a similarity between the two rivers. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The Zambezi River, ranked No. 32 among the longest rivers in the world, is 2,740 kilometers long."
+        },
+        {
+          "label": "B",
+          "text": "The Vistula River is located in Europe, and it is 1,213 kilometers long."
+        },
+        {
+          "label": "C",
+          "text": "The Zambezi and Vistula rivers are both ranked among the longest in the world."
+        },
+        {
+          "label": "D",
+          "text": "At 1,213 kilometers long, the Vistula River ranks No. 133 among the longest rivers in the world."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Both rivers are ranked among the longest in the world, so choice C emphasizes their similarity.",
+        "detailed": "The notes give different locations and lengths, but the shared fact is that both rivers have rankings among the world’s longest rivers. Choice C states that similarity directly.",
+        "key_evidence": "The Zambezi ranks No. 32 and the Vistula ranks No. 133 among the longest rivers.",
+        "why_correct": "Choice C focuses on the common ranking status.",
+        "choice_analysis": {
+          "A": "Incorrect: It discusses only the Zambezi.",
+          "B": "Incorrect: It discusses only the Vistula.",
+          "C": "Correct: It states that both rivers are ranked among the world’s longest.",
+          "D": "Incorrect: It discusses only the Vistula’s length and rank."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    }
+  ]
+}

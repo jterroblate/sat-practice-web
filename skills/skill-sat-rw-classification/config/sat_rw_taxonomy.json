@@ -1,0 +1,402 @@
+{
+  "domains": [
+    {
+      "domain": "Information and Ideas",
+      "skills": [
+        {
+          "skill": "Central Ideas and Details",
+          "official_stems": [
+            "Which choice best states the main idea of the text?",
+            "Which choice best states the main purpose of the text?",
+            "According to the text,",
+            "Based on the text,"
+          ],
+          "positive_signals": [
+            "main idea",
+            "main purpose",
+            "central claim",
+            "according to the text",
+            "based on the text"
+          ],
+          "negative_signals": [
+            "function of",
+            "underlined portion",
+            "Text 1",
+            "Text 2",
+            "transition",
+            "conforms to the conventions",
+            "student wants to"
+          ],
+          "common_confusions": [
+            "Text Structure and Purpose (when asking about function)",
+            "Inferences (when asking about implied meaning)"
+          ],
+          "subtype_examples": {
+            "main_idea": "Which choice best states the main idea of the text?",
+            "main_purpose": "Which choice best states the main purpose of the text?",
+            "explicit_detail": "According to the text, what is the subject of Bellie's research?"
+          },
+          "confidence_rules": {
+            "high": "prompt contains 'main idea' or 'main purpose' or 'according to the text'",
+            "medium": "prompt contains 'based on the text' without 'function' or 'underlined'",
+            "low": "prompt is ambiguous about whether it asks for an explicit detail vs inference"
+          }
+        },
+        {
+          "skill": "Command of Evidence: Textual",
+          "official_stems": [
+            "Which choice most effectively uses a quotation from",
+            "Which quotation from ___ most effectively illustrates",
+            "Which finding, if true, would most directly support"
+          ],
+          "positive_signals": [
+            "quotation from",
+            "most effectively illustrates",
+            "most effectively uses",
+            "which finding",
+            "would most directly support",
+            "evidence",
+            "support"
+          ],
+          "negative_signals": [
+            "data from the table",
+            "data from the graph",
+            "table to",
+            "graph",
+            "figure"
+          ],
+          "common_confusions": [
+            "Command of Evidence: Quantitative (when the question references a table/graph)"
+          ],
+          "subtype_examples": {
+            "quotation_support": "Which choice most effectively uses a quotation from ___ to illustrate the claim?",
+            "hypothetical_support": "Which finding, if true, would most directly support the researcher's claim?"
+          },
+          "confidence_rules": {
+            "high": "prompt explicitly mentions 'quotation' and 'illustrate/support' without data reference",
+            "medium": "prompt mentions 'support' or 'evidence' without clear data/quotation distinction",
+            "low": "prompt is vague about the type of evidence needed"
+          }
+        },
+        {
+          "skill": "Command of Evidence: Quantitative",
+          "official_stems": [
+            "Which choice most effectively uses data from the table",
+            "Which choice most effectively uses data from the graph",
+            "Which choice best describes data in the graph",
+            "Which choice most effectively uses information from the text and data from the table"
+          ],
+          "positive_signals": [
+            "data from the table",
+            "data from the graph",
+            "table to",
+            "graph",
+            "data in the graph",
+            "data in the table",
+            "figure",
+            "chart"
+          ],
+          "negative_signals": [
+            "quotation",
+            "would most directly support the researcher's claim"
+          ],
+          "common_confusions": [
+            "Command of Evidence: Textual (when data is presented as text)",
+            "Inferences (when data is used to draw a conclusion)"
+          ],
+          "subtype_examples": {
+            "table_data_completion": "Which choice most effectively uses data from the table to complete the example?",
+            "graph_data_support": "Which choice best describes data in the graph that support ___?",
+            "text_table_synthesis": "Which choice most effectively uses information from the text and data from the table?"
+          },
+          "confidence_rules": {
+            "high": "prompt explicitly mentions 'table', 'graph', 'data', or 'figure'",
+            "medium": "passage contains tabular or graphical data referenced in the prompt",
+            "low": "data reference is implicit or embedded in answer choices"
+          }
+        },
+        {
+          "skill": "Inferences",
+          "official_stems": [
+            "Which choice most logically completes the text?"
+          ],
+          "positive_signals": [
+            "most logically completes the text",
+            "logically completes",
+            "can most reasonably be inferred",
+            "implies",
+            "suggests",
+            "would most likely"
+          ],
+          "negative_signals": [
+            "student wants to",
+            "While researching a topic, a student has taken the following notes",
+            "transition",
+            "word or phrase"
+          ],
+          "common_confusions": [
+            "Rhetorical Synthesis (when 'most logically completes' appears with student notes context)",
+            "Words in Context (when choices are single words rather than full clauses)"
+          ],
+          "subtype_examples": {
+            "logical_completion": "Which choice most logically completes the text?",
+            "implied_conclusion": "Which statement can most reasonably be inferred from the text?"
+          },
+          "confidence_rules": {
+            "high": "prompt is 'most logically completes the text' and passage is NOT student notes",
+            "medium": "prompt is 'most logically completes' with short passage",
+            "low": "prompt is ambiguous between inference and rhetorical synthesis"
+          }
+        }
+      ]
+    },
+    {
+      "domain": "Craft and Structure",
+      "skills": [
+        {
+          "skill": "Words in Context",
+          "official_stems": [
+            "Which choice completes the text with the most logical and precise word or phrase?"
+          ],
+          "positive_signals": [
+            "most logical and precise word or phrase",
+            "most logical and precise word",
+            "word or phrase",
+            "precise"
+          ],
+          "negative_signals": [
+            "transition",
+            "therefore",
+            "however",
+            "nevertheless",
+            "additionally",
+            "for example",
+            "conforms to the conventions",
+            "standard English"
+          ],
+          "common_confusions": [
+            "Transitions (when the stem says 'word or phrase' but choices are connectors)",
+            "Form, Structure, and Sense (when choices are single words)"
+          ],
+          "check_options": "If answer choices are vocabulary items (nouns, verbs, adjectives, adverbs) rather than logical connectors or punctuation marks, classify as Words in Context.",
+          "subtype_examples": {
+            "precise_word_choice": "Which choice completes the text with the most logical and precise word or phrase?"
+          },
+          "confidence_rules": {
+            "high": "prompt contains 'most logical and precise word or phrase' AND choices are vocabulary items",
+            "medium": "prompt contains 'most logical and precise' but some choices could be connectors",
+            "low": "stem is ambiguous and choices are mixed types"
+          }
+        },
+        {
+          "skill": "Text Structure and Purpose",
+          "official_stems": [
+            "Which choice best describes the function of the underlined portion in the text as a whole?",
+            "Which choice best describes the function of the reference to ___ in the text as a whole?",
+            "Which choice best states the function of the underlined portion in the text as a whole?",
+            "What is the primary purpose of the"
+          ],
+          "positive_signals": [
+            "function of",
+            "underlined portion",
+            "function of the reference",
+            "function of the underlined",
+            "primary purpose",
+            "main purpose",
+            "role of",
+            "structure of"
+          ],
+          "negative_signals": [
+            "main idea",
+            "according to the text",
+            "student wants to"
+          ],
+          "common_confusions": [
+            "Central Ideas and Details (when 'purpose' vs 'main idea' is blurred)"
+          ],
+          "subtype_examples": {
+            "underlined_function": "Which choice best describes the function of the underlined portion in the text as a whole?",
+            "reference_function": "Which choice best describes the function of the reference to 'anvil and strife' in the text?",
+            "primary_purpose": "Which choice best states the main purpose of the text?"
+          },
+          "confidence_rules": {
+            "high": "prompt contains 'function of the underlined' or 'function of the reference'",
+            "medium": "prompt contains 'purpose' or 'role'",
+            "low": "prompt is vague about structure vs. content"
+          }
+        },
+        {
+          "skill": "Cross-Text Connections",
+          "official_stems": [
+            "Based on the texts, the author of Text 1 would most likely agree with the author of Text 2",
+            "Based on the texts, what point do both authors agree on?",
+            "How would the author of Text 1 most likely respond to Text 2?"
+          ],
+          "positive_signals": [
+            "Text 1",
+            "Text 2",
+            "both texts",
+            "Passage 1",
+            "Passage 2",
+            "the author of Text 1",
+            "the author of Text 2",
+            "the two texts",
+            "common ground"
+          ],
+          "negative_signals": [
+            "quotation",
+            "table",
+            "graph"
+          ],
+          "common_confusions": [
+            "Central Ideas and Details (when both texts are discussed separately)"
+          ],
+          "subtype_examples": {
+            "cross_text_agreement": "Based on the texts, the author of Text 1 would most likely agree with the author of Text 2 on which point?",
+            "cross_text_response": "How would the author of Text 1 most likely respond to the claim made in Text 2?"
+          },
+          "confidence_rules": {
+            "high": "passage contains 'Text 1' or 'Text 2' markers AND prompt references both",
+            "medium": "passage has two separate blocks mentioning different authors",
+            "low": "single passage with implicit comparison"
+          }
+        }
+      ]
+    },
+    {
+      "domain": "Expression of Ideas",
+      "skills": [
+        {
+          "skill": "Rhetorical Synthesis",
+          "official_stems": [
+            "The student wants to ___",
+            "Which choice most effectively uses relevant information from the notes"
+          ],
+          "positive_signals": [
+            "student wants to",
+            "While researching a topic, a student has taken the following notes",
+            "uses relevant information from the notes",
+            "effectively uses relevant information",
+            "notes:"
+          ],
+          "negative_signals": [
+            "table",
+            "graph",
+            "data",
+            "quotation from",
+            "transition"
+          ],
+          "common_confusions": [
+            "Inferences (when 'most logically completes the text' appears)",
+            "Command of Evidence (when the task involves using source material)"
+          ],
+          "check_passage": "If passage begins with 'While researching a topic, a student has taken the following notes:', classify as Rhetorical Synthesis.",
+          "subtype_examples": {
+            "notes_explain": "The student wants to explain how Schubart describes C minor. Which choice most effectively uses relevant information from the notes?",
+            "notes_emphasize": "The student wants to emphasize how the French Republican calendar honored rural life.",
+            "notes_distinguish": "The student wants to make a distinction between the two portolan traditions.",
+            "notes_claim": "The student wants to make and support a claim about the inspiration for kumiko patterns."
+          },
+          "confidence_rules": {
+            "high": "passage starts with 'While researching a topic' AND prompt contains 'student wants to'",
+            "medium": "passage starts with 'While researching a topic' OR prompt contains 'student wants to'",
+            "low": "notes-style passage without clear 'student wants to' marker"
+          }
+        },
+        {
+          "skill": "Transitions",
+          "official_stems": [
+            "Which choice completes the text with the most logical transition?"
+          ],
+          "positive_signals": [
+            "most logical transition",
+            "transition"
+          ],
+          "check_options": "If answer choices are connectors (therefore, however, nevertheless, additionally, for example, in contrast, similarly, consequently, moreover, furthermore, indeed, in fact, conversely, instead, on the other hand, as a result, for instance, specifically, in addition, accordingly, thus, hence, nonetheless) classify as Transitions.",
+          "negative_signals": [
+            "word or phrase",
+            "precise",
+            "conforms to the conventions",
+            "standard English"
+          ],
+          "common_confusions": [
+            "Words in Context (when the stem uses 'word or phrase' but choices are logical connectors)"
+          ],
+          "subtype_examples": {
+            "logical_connector": "Which choice completes the text with the most logical transition?"
+          },
+          "confidence_rules": {
+            "high": "prompt contains 'most logical transition' OR prompt is 'word or phrase' AND 80%+ of choices are logical connectors",
+            "medium": "prompt contains 'transition' but some choices are vocabulary items",
+            "low": "stem is ambiguous and choices are mixed"
+          }
+        }
+      ]
+    },
+    {
+      "domain": "Standard English Conventions",
+      "skills": [
+        {
+          "skill": "Boundaries",
+          "official_stems": [
+            "Which choice completes the text so that it conforms to the conventions of Standard English?"
+          ],
+          "positive_signals": [
+            "conforms to the conventions of Standard English"
+          ],
+          "check_options": "If answer choices differ in punctuation marks (, ; : — . ) and/or clause boundary structure, classify as Boundaries.",
+          "punctuation_markers": [
+            ";", ":", "—", "-", ",", ".", "(", ")"
+          ],
+          "negative_signals": [
+            "transition",
+            "word or phrase",
+            "most logical"
+          ],
+          "common_confusions": [
+            "Form, Structure, and Sense (when both punctuation and grammar are involved)"
+          ],
+          "subtype_examples": {
+            "sentence_boundary": "Comma splice / run-on / fragment decisions",
+            "punctuation": "Semicolons, colons, dashes, commas between clauses",
+            "clause_structure": "Dependent vs. independent clause boundary"
+          },
+          "confidence_rules": {
+            "high": "prompt is 'conforms to the conventions of Standard English' AND choices differ primarily in punctuation/sentence structure",
+            "medium": "prompt is 'conforms to the conventions of Standard English' AND choices mix punctuation with verb forms",
+            "low": "prompt is 'conforms to the conventions of Standard English' AND choices are all about verb forms/agreement"
+          }
+        },
+        {
+          "skill": "Form, Structure, and Sense",
+          "official_stems": [
+            "Which choice completes the text so that it conforms to the conventions of Standard English?"
+          ],
+          "positive_signals": [
+            "conforms to the conventions of Standard English"
+          ],
+          "check_options": "If answer choices differ in verb forms, subject-verb agreement, pronoun case, noun number, possessive forms, modifier placement, or comparative structures, classify as Form, Structure, and Sense.",
+          "negative_signals": [
+            ";", ":", "—"
+          ],
+          "common_confusions": [
+            "Boundaries (same prompt, need option-level distinction)"
+          ],
+          "subtype_examples": {
+            "verb_form": "Tense, aspect, voice, infinitive vs. gerund",
+            "subject_verb_agreement": "Singular vs. plural verb with complex subject",
+            "pronoun": "Case (who/whom), reference ambiguity, agreement",
+            "modifier": "Dangling modifier, misplaced modifier, comparative forms",
+            "noun_number": "Count vs. non-count, plural formation",
+            "possessive": "Its vs. it's, apostrophe placement"
+          },
+          "confidence_rules": {
+            "high": "prompt is 'conforms to the conventions of Standard English' AND choices differ in verb forms / agreement / pronouns",
+            "medium": "prompt is 'conforms to the conventions of Standard English' without clear grammatical pattern",
+            "low": "choices mix Boundaries and Form/Structure signals equally"
+          }
+        }
+      ]
+    }
+  ]
+}

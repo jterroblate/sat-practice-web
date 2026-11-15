@@ -1,0 +1,1936 @@
+{
+  "schemaVersion": "sat-canonical-question-collection-v1",
+  "contentId": "set-20-2025-03-apac-b",
+  "title": "20 2025 03 Apac B",
+  "section": "reading_writing",
+  "questionCount": 43,
+  "questions": [
+    {
+      "question_id": "apac_b_2025_03_m1_q01",
+      "section": "reading_writing",
+      "question_number": 1,
+      "passage": "During his career, Cuban composer and pianist Ernesto Lecuona produced hundreds of compositions. Especially impressive is how [vocab]______[/vocab] his body of work is: Lecuona showcased a diverse range of musical talents in different areas, from orchestral pieces and operas to popular film scores.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "outdated"
+        },
+        {
+          "label": "B",
+          "text": "lonely"
+        },
+        {
+          "label": "C",
+          "text": "forgotten"
+        },
+        {
+          "label": "D",
+          "text": "varied"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Lecuona worked in orchestral music, opera, and film, so his compositions were varied.",
+        "key_evidence": "The text calls his talents a \"diverse range\" and lists orchestral pieces, operas, and popular film scores.",
+        "why_correct": "\"Varied\" means containing different kinds. The text's list after the colon illustrates the many kinds of music in Lecuona's body of work.",
+        "detailed": "The colon signals that the second part explains the description in the blank. Rather than emphasizing the number of compositions alone, that explanation lists several different forms of music. A word describing diversity therefore connects the two parts precisely.",
+        "choice_analysis": {
+          "A": "Incorrect. \"Outdated\" means no longer current or useful. The text evaluates the range of Lecuona's music, not whether it has become obsolete.",
+          "B": "Incorrect. \"Lonely\" describes isolation or lack of companionship, not the range of genres within a composer's output.",
+          "C": "Incorrect. \"Forgotten\" would claim that people no longer remember the music. Nothing in the passage addresses its later popularity or survival.",
+          "D": "Correct. \"Varied\" describes the diversity demonstrated by orchestral pieces, operas, and film scores."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m1_q02",
+      "section": "reading_writing",
+      "question_number": 2,
+      "passage": "The following text is from Amy Tan’s 1989 novel [i]The Joy Luck Club[/i]. The narrator describes practicing the piano when she was a child.\n\nFor the talent show, I was to play a piece called ‘Pleading Child’ from Schumann’s [i]Scenes from Childhood[/i]. It was a simple, moody piece that sounded more difficult than it was. I was supposed to memorize the whole thing, playing the repeat parts twice to make the piece sound longer. But I dawdled over it, playing a few bars and then [u]cheating[/u], looking up to see what notes followed. I never really listened to what I was playing. I daydreamed about being somewhere else, about being someone else.\n\n©1989 by Amy Tan",
+      "prompt": "Based on the text, when the narrator describes herself as ‘cheating,’ what does she most likely mean?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "She was violating an expectation about how to perform the piece."
+        },
+        {
+          "label": "B",
+          "text": "She was deceiving her piano teacher."
+        },
+        {
+          "label": "C",
+          "text": "She was gaining an unfair advantage over other contestants in the talent show."
+        },
+        {
+          "label": "D",
+          "text": "She was lying to herself about her musical ability."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "She was supposed to play from memory but looked at the score, violating that expectation.",
+        "key_evidence": "\"I was supposed to memorize the whole thing\" contrasts with \"looking up to see what notes followed.\"",
+        "why_correct": "The narrator explains her own use of \"cheating\" by immediately describing her glance at the notes. That action breaks the stated requirement to memorize the piece.",
+        "detailed": "Read the disputed word together with the requirement established earlier. The expected behavior is memorization, while the actual behavior is checking the written music after a few bars. The passage does not need to establish dishonesty toward another person: the local contrast already defines the departure from the performance expectation.",
+        "choice_analysis": {
+          "A": "Correct. Looking at the notes instead of relying on memory violates the explicitly stated expectation for playing the piece.",
+          "B": "Incorrect. No teacher's presence, awareness, or deception is described. This adds a target of dishonesty that the text does not identify.",
+          "C": "Incorrect. The passage describes her practice habits, not an advantage she gained over other talent-show contestants.",
+          "D": "Incorrect. She admits that she dawdles and does not listen closely; she does not describe convincing herself that she has greater musical ability."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "main_idea_or_detail"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m1_q03",
+      "section": "reading_writing",
+      "question_number": 3,
+      "passage": "As with other river deltas, the Indus River delta is [vocab]______[/vocab]: it is a constantly evolving network of channels and strips of land that change in size and shape as the river deposits new sedimentary particles where the river meets the waters of the Arabian Sea.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "dynamic"
+        },
+        {
+          "label": "B",
+          "text": "sustainable"
+        },
+        {
+          "label": "C",
+          "text": "immutable"
+        },
+        {
+          "label": "D",
+          "text": "unrivaled"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "A delta whose channels and landforms continually change is dynamic.",
+        "key_evidence": "The delta is a \"constantly evolving network\" whose parts \"change in size and shape.\"",
+        "why_correct": "\"Dynamic\" means characterized by change or activity. The text describes precisely that quality through the delta's continual evolution and changing size and shape.",
+        "detailed": "The colon introduces an explanation of the word in the blank. The repeated descriptions of evolution and changes in size and shape define the intended quality. The required adjective must therefore describe ongoing change rather than endurance, superiority, or permanence.",
+        "choice_analysis": {
+          "A": "Correct. \"Dynamic\" captures the continual change in the delta's channels and strips of land.",
+          "B": "Incorrect. \"Sustainable\" means capable of being maintained over time. The explanation concerns changing physical form, not long-term viability.",
+          "C": "Incorrect. \"Immutable\" means unchanging, directly contradicting the description of constant evolution.",
+          "D": "Incorrect. \"Unrivaled\" means unmatched in quality or extent. No comparison establishing superiority appears."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m1_q04",
+      "section": "reading_writing",
+      "question_number": 4,
+      "passage": "The following text is from Bram Stoker's 1911 novel The Lair of the White Worm. Adam is meeting his great-uncle Richard at a port.\n\nThe meeting so auspiciously begun proceeded well. Adam, seeing that the old man was interested in the novelty of the ship, suggested that he should stay the night on board, and that he would himself be ready to start at any hour and go anywhere that the other suggested. This affectionate willingness to fall in with his own plans quite won the old man's heart. He warmly accepted the invitation, and at once they became not only on terms of affectionate relationship, but almost like old friends.",
+      "prompt": "Which choice best states the main purpose of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It showcases how Adam's flexibility and consideration strengthen his relationship with his great-uncle Richard."
+        },
+        {
+          "label": "B",
+          "text": "It states the reasons why Adam and his great-uncle Richard decide to sleep on the ship rather than finding lodging on land."
+        },
+        {
+          "label": "C",
+          "text": "It describes why Adam and his great-uncle Richard are excited for their upcoming journey on the ship."
+        },
+        {
+          "label": "D",
+          "text": "It contrasts great-uncle Richard's wary first impressions of Adam with his ultimate affection toward him."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Adam's accommodating behavior quickly strengthens his relationship with Richard.",
+        "key_evidence": "Adam offers to follow Richard's preferred schedule and destination, and this willingness wins the old man's heart.",
+        "why_correct": "The passage centers on how Adam's flexibility and consideration turn a new meeting into an affectionate relationship, so A best states its main purpose.",
+        "detailed": "Adam offers to follow Richard's preferred schedule and destination, and this willingness wins the old man's heart. The passage centers on how Adam's flexibility and consideration turn a new meeting into an affectionate relationship, so A best states its main purpose.",
+        "choice_analysis": {
+          "A": "Correct. It captures the passage's focus on Adam's accommodating behavior and the resulting bond with Richard.",
+          "B": "Incorrect. Staying on the ship is one detail, not the passage's main purpose, and the text does not compare lodging options.",
+          "C": "Incorrect. The passage emphasizes their developing relationship, not excitement about a voyage.",
+          "D": "Incorrect. Richard is described as interested and receptive, not as initially wary of Adam."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "structural_function"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m1_q05",
+      "section": "reading_writing",
+      "question_number": 5,
+      "passage": "Vertical gene transfer involves the transmission of genetic material from a parent to offspring; horizontal gene transfer, on the other hand, involves the exchange of genetic material between organisms not in a parent-offspring relationship. While horizontal gene transfer is common among prokaryotes—single-celled organisms such as the bacteria Carnobacterium viridans and Moraxella caviae—it has rarely been observed among eukaryotes (typically multicellular organisms). [u]However, new studies suggest that horizontal gene transfer is more common in eukaryotes than originally thought.[/u]",
+      "prompt": "Which choice best states the function of the underlined sentence in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It argues that a particular direction of research concerning horizontal gene transfer is likely to be fruitless."
+        },
+        {
+          "label": "B",
+          "text": "It indicates a distinction between horizontal gene transfer and vertical gene transfer."
+        },
+        {
+          "label": "C",
+          "text": "It implies that a common perception of horizontal gene transfer may be inaccurate."
+        },
+        {
+          "label": "D",
+          "text": "It compares the frequencies with which horizontal gene transfer has been detected in two categories of organisms."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The sentence challenges the earlier belief that horizontal gene transfer is rare in eukaryotes.",
+        "key_evidence": "The preceding sentence says the process has rarely been observed in eukaryotes; the underlined sentence says new studies find it more common than once thought.",
+        "why_correct": "That contrast implies the common perception may be inaccurate, which is exactly C.",
+        "detailed": "The preceding sentence says the process has rarely been observed in eukaryotes; the underlined sentence says new studies find it more common than once thought. That contrast implies the common perception may be inaccurate, which is exactly C.",
+        "choice_analysis": {
+          "A": "Incorrect. The sentence reports productive new findings rather than calling research fruitless.",
+          "B": "Incorrect. The first sentence, not the underlined one, distinguishes vertical from horizontal transfer.",
+          "C": "Correct. New studies challenge the prior perception that the process is rare in eukaryotes.",
+          "D": "Incorrect. The previous sentence compares prokaryotes and eukaryotes; the underlined sentence revises the accepted view."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "function_of_underlined_sentence"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m1_q06",
+      "section": "reading_writing",
+      "question_number": 6,
+      "passage": "Though John Crowley, author of [i]Endless Things[/i], is perhaps not as well known as the most widely read American writers of the past fifty years, influential figures have championed his work, including the poet James Merrill and the literary critic Harold Bloom. In his afterword to Crowley’s book [i]Little, Big[/i], Bloom praises the novel’s adroit blend of what playwright Friedrich Schiller termed the naive and sentimental modes—while Schiller thought works could be classified as either naive (seeking to describe reality) or sentimental (seeking to develop ideas), [i]Little, Big[/i] demonstrates that a work can be both.",
+      "prompt": "Which choice best states the main purpose of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To explain what inspired an author to write a particular work"
+        },
+        {
+          "label": "B",
+          "text": "To present a reason why a literary critic is impressed by a certain novel"
+        },
+        {
+          "label": "C",
+          "text": "To compare the work of a writer with the work of a poet who admired him"
+        },
+        {
+          "label": "D",
+          "text": "To argue that all writing must be classified as belonging to one of two categories"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The passage explains Bloom's admiration for a novel.",
+        "key_evidence": "Bloom praises Little, Big for blending naive and sentimental modes.",
+        "why_correct": "B identifies the critical response and the literary feature motivating it, which is the text's central explanation.",
+        "detailed": "Crowley's relative fame and Merrill's support provide context. The main point is Bloom's reason for praise, not inspiration, comparison with Merrill, or enforcing two exclusive categories.",
+        "choice_analysis": {
+          "A": "Incorrect. No creative inspiration for the novel is explained.",
+          "B": "Correct. This captures a critic's admiration and its reason.",
+          "C": "Incorrect. Merrill is mentioned as a supporter, not compared with Crowley.",
+          "D": "Incorrect. The successful blend undermines, rather than insists on, an exclusive two-category division."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "main_idea_or_detail"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m1_q07",
+      "section": "reading_writing",
+      "question_number": 7,
+      "passage": "The following text is from a translation of María Dueñas’s 2009 novel [i]The Time in Between[/i]. The narrator has just rented an apartment and is entering it for the first time.\n\nOver the years there have been many times when my destiny has delivered me unexpected moments, unforeseen twists and turns that I’ve had to handle on the fly as they appeared. Occasionally I was ready for them; very often I wasn’t. Never, however, was I so aware of entering a new stage as I was that afternoon in October when I finally dared to cross the threshold and my steps sounded hollowly in the unfurnished apartment. Behind me was a complicated past, and in front of me, like an omen, I could see a space opening out, a great empty space that time would take care of filling up.\n\n©2009 by María Dueñas. Translation ©2011 by Daniel Hahn.",
+      "prompt": "Which choice best states the main idea of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The narrator feels optimistic about the future success of a new business."
+        },
+        {
+          "label": "B",
+          "text": "The narrator has always had a plan for how to handle big moments in her life."
+        },
+        {
+          "label": "C",
+          "text": "The narrator recognizes that a particular moment marks a major shift in her life."
+        },
+        {
+          "label": "D",
+          "text": "The narrator wants to express her gratitude for the people who have helped her."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The narrator recognizes a major life transition.",
+        "key_evidence": "She is unusually aware of entering a new stage, with a complicated past behind her.",
+        "why_correct": "C captures her heightened recognition that this specific moment marks a new stage, the central point of the text.",
+        "detailed": "She recalls being often unready for earlier surprises. The apartment entry is distinctive because she consciously perceives the transition rather than merely reacting to events.",
+        "choice_analysis": {
+          "A": "Incorrect. No new business or assurance of its success is mentioned.",
+          "B": "Incorrect. She explicitly says she was often unprepared.",
+          "C": "Correct. This identifies the particular moment's transitional significance.",
+          "D": "Incorrect. Gratitude toward helpers is not the subject."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "main_idea"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m1_q09",
+      "section": "reading_writing",
+      "question_number": 9,
+      "passage": "[i]The Wonderful Wizard of Oz[/i] is a 1900 novel by L. Frank Baum. In the novel, the narrator describes a character’s house as having become very faded in appearance over time: ______",
+      "prompt": "Which quotation from [i]The Wonderful Wizard of Oz[/i] most effectively illustrates the claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "‘Once more [Dorothy and her companions] could see fences built beside the road; but these were painted green, and when they came to a small house, in which a farmer evidently lived, that also was painted green.’"
+        },
+        {
+          "label": "B",
+          "text": "‘Then [Dorothy] went back to the house, and having helped herself and Toto to a good drink of the cool, clear water, she set about making ready for the journey to the City of Emeralds.’"
+        },
+        {
+          "label": "C",
+          "text": "‘Once the house had been painted, but the sun blistered the paint and the rains washed it away, and now the house was as dull and gray as everything else.’"
+        },
+        {
+          "label": "D",
+          "text": "‘When Dorothy stood in the doorway and looked around, she could see nothing but the great gray prairie on every side. Not a tree nor a house broke the broad sweep of flat country.’"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "C shows the house's appearance changing through weathering.",
+        "key_evidence": "The house was once painted; sun and rain remove the paint until it is dull gray.",
+        "why_correct": "The claim concerns fading over time, and C explicitly provides the earlier painted state, weathering process, and faded result.",
+        "detailed": "Green-painted buildings do not show fading, while an empty prairie supports isolation rather than deteriorating appearance. Match the exact claim rather than another true house detail.",
+        "choice_analysis": {
+          "A": "Incorrect. Green paint does not establish change or fading.",
+          "B": "Incorrect. Journey preparations do not describe the house's appearance.",
+          "C": "Correct. This directly illustrates paint fading and washing away.",
+          "D": "Incorrect. The empty prairie illustrates isolation, not fading."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "textual_evidence"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m1_q10",
+      "section": "reading_writing",
+      "question_number": 10,
+      "passage": "As the second-most populous continent in the world, Africa was home to an estimated 1.186 billion people in 2015. In a paper for a social studies class, a student nonetheless notes that countries with very large populations may be less densely populated than are countries with much smaller populations, as can be seen by comparing ______",
+      "prompt": "Which choice most effectively uses data from the table to complete the example?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the geographic size of Angola (1,246,700 square kilometers) with its relatively high population of 25,022,000 inhabitants."
+        },
+        {
+          "label": "B",
+          "text": "Angola, which has a high population of 25,022,000 inhabitants and a relatively low density of 20.1 inhabitants/square kilometer, with São Tomé and Príncipe, which has a much lower population and a higher density."
+        },
+        {
+          "label": "C",
+          "text": "Mauritania, which has a low density, with Ethiopia, which has a similar density despite both countries having different geographic sizes."
+        },
+        {
+          "label": "D",
+          "text": "the populations of both São Tomé and Príncipe and Ethiopia in 2015 with their populations in 2010."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "table_data": {
+        "title": "Population and Population Density of African Countries in 2015",
+        "columns": [
+          "Country",
+          "Density (inhabitants/km²)",
+          "Area (km²)",
+          "Estimated population"
+        ],
+        "rows": [
+          [
+            "São Tomé and Príncipe",
+            "189.8",
+            "1,001",
+            "190,000"
+          ],
+          [
+            "Ethiopia",
+            "88.2",
+            "1,127,127",
+            "99,391,000"
+          ],
+          [
+            "Mauritania",
+            "3.9",
+            "1,030,700",
+            "4,068,000"
+          ],
+          [
+            "Angola",
+            "20.1",
+            "1,246,700",
+            "25,022,000"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "Angola has more people but lower density than São Tomé and Príncipe.",
+        "key_evidence": "Angola: 25,022,000 and 20.1/km²; São Tomé and Príncipe: 190,000 and 189.8/km².",
+        "why_correct": "B compares both population and density in the directions required by the claim: larger population but lower density.",
+        "detailed": "Population counts and inhabitants per square kilometer are different quantities. The example must compare the two countries on both; one country's area or nonexistent 2010 data does not do so.",
+        "choice_analysis": {
+          "A": "Incorrect. One country's area and population cannot establish the two-country density comparison.",
+          "B": "Correct. This correctly pairs greater population with lower density.",
+          "C": "Incorrect. Mauritania 3.9/km² and Ethiopia 88.2/km² do not have similar density.",
+          "D": "Incorrect. Only 2015 data are supplied, so no 2010 comparison is possible."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "data_evidence"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m1_q11",
+      "section": "reading_writing",
+      "question_number": 11,
+      "passage": "To measure whether countries in free trade agreements (FTAs)—agreements among nations to reduce tariffs, duties, and other trade barriers—experience changes in total agricultural exports, economist Kayode Ajewole and colleagues calculated average export growth rates for several countries over the five years before and the five years after entering an FTA with the United States. The graph shows the results for three countries in the study. Consulting the graph, a student claims that joining an FTA increases the rate of growth of a country's total agricultural exports.",
+      "prompt": "Which choice best describes data from the graph that weaken the student's claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "All the countries shown had positive growth in agricultural exports over the five years after joining their respective FTAs, but their rates of export growth varied."
+        },
+        {
+          "label": "B",
+          "text": "Although agricultural exports from Nicaragua grew over the five years after Nicaragua joined CAFTA-DR, their growth rate was even higher in the five years before CAFTA-DR."
+        },
+        {
+          "label": "C",
+          "text": "Although agricultural exports from Mexico decreased over the five years before NAFTA, a reversal in this trend was observed over the five years after Mexico joined NAFTA."
+        },
+        {
+          "label": "D",
+          "text": "Over the five years after El Salvador joined CAFTA-DR, agricultural exports from El Salvador grew at a rate of about 21.8 percent, which is higher than the rate over the five years before El Salvador joined the agreement."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Nicaragua's lower post-FTA growth rate supplies the counterexample.",
+        "key_evidence": "The Nicaragua bar falls from roughly 23.5% before the FTA to 17.5% afterward.",
+        "why_correct": "B distinguishes continuing export growth from an increased growth rate: Nicaragua's exports still grew, but more slowly after joining.",
+        "detailed": "The student's claim concerns a change in rate, not whether exports remain positive. El Salvador and Mexico show increases, which support rather than weaken it.",
+        "choice_analysis": {
+          "A": "Incorrect. Positive post-FTA growth alone says nothing about whether the rate increased.",
+          "B": "Correct. Nicaragua's rate decreases across the two periods, directly weakening the claim.",
+          "C": "Incorrect. Mexico's improvement supports rather than weakens the claimed effect.",
+          "D": "Incorrect. El Salvador's higher post-FTA rate supports the claim."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "data_evidence"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m1_q13",
+      "section": "reading_writing",
+      "question_number": 13,
+      "passage": "Average Monetized Productivity Loss at Two Points After Programs Began, in Australian Dollars\n\n| Type of training | 12 weeks | 12 months |\n|---|---:|---:|\n| EET | 268 | 171 |\n| EHP | 282 | 436 |\n\nMichelle Pereira et al. hypothesized that introducing health improvements into workplaces would increase productivity by reducing absenteeism (sick employees not working) and presenteeism (sick workers working less productively due to illness). Pereira's team enrolled groups of Australian workers in two programs: one that gave employees exercise training (EET) and one that enrolled employees in health promotion seminars (EHP). They then calculated the productivity loss of those groups at 12 weeks and 12 months after the programs began (based on the 28 days preceding each point). They concluded that exercise training was more effective at restraining productivity loss than health promotion seminars were, though this result took time to become apparent.",
+      "prompt": "Which choice best describes data from the table that most effectively strengthen Pereira and colleagues' conclusion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Productivity loss for the EET group barely decreased between 12 weeks and 12 months after the program began, while productivity loss for the EHP group significantly increased during the same time period."
+        },
+        {
+          "label": "B",
+          "text": "Productivity loss was largely due to absenteeism for the EHP group at 12 months after the program began, while productivity loss was largely due to presenteeism for the EET group at 12 months after the program began."
+        },
+        {
+          "label": "C",
+          "text": "Productivity loss was consistently higher for the EHP group than for the EET group over the twelve months that it was measured, though the size of the difference between the two decreased over that time."
+        },
+        {
+          "label": "D",
+          "text": "Productivity loss was fairly similar for the EET and EHP groups 12 weeks after each program began, but at 12 months afterward it had significantly increased for the EHP group and significantly decreased for the EET group."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "D captures the delayed divergence between the programs.",
+        "key_evidence": "At 12 weeks EET 268/EHP 282; at 12 months EET 171/EHP 436 Australian dollars.",
+        "why_correct": "The conclusion requires both a later EET advantage and time before it becomes clear. Similar initial losses followed by opposite changes support both parts.",
+        "detailed": "EET loss falls by 97 dollars, whereas EHP rises by 154. The gap therefore expands substantially, rather than shrinking; the table reports total loss and cannot separate absenteeism from presenteeism.",
+        "choice_analysis": {
+          "A": "Incorrect. EET declines substantially, not barely.",
+          "B": "Incorrect. The table does not separate absenteeism and presenteeism components.",
+          "C": "Incorrect. The between-group gap increases rather than decreases.",
+          "D": "Correct. This accurately combines initial similarity with later EET improvement and EHP worsening."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "data_evidence"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m1_q15",
+      "section": "reading_writing",
+      "question_number": 15,
+      "passage": "Both Pontianak, Indonesia, and Manta, Ecuador, are located at less than one degree latitude. In other words, ______ cities basically sit right on the equator!",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "these"
+        },
+        {
+          "label": "B",
+          "text": "each"
+        },
+        {
+          "label": "C",
+          "text": "that"
+        },
+        {
+          "label": "D",
+          "text": "this"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "These agrees with the plural cities and refers to both places.",
+        "key_evidence": "Pontianak and Manta are two cities; the blank modifies cities.",
+        "why_correct": "A supplies the plural demonstrative these to match the plural noun.",
+        "detailed": "Identify both the referent and the noun after the blank. The sentence refers back to two named cities, and cities is grammatically plural. The singular determiners each, that, and this cannot modify that plural noun here.",
+        "choice_analysis": {
+          "A": "These is plural and correctly refers to both cities.",
+          "B": "Each must modify singular city, not cities.",
+          "C": "That is singular and cannot modify cities.",
+          "D": "This is singular and cannot modify cities."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m1_q16",
+      "section": "reading_writing",
+      "question_number": 16,
+      "passage": "An upcoming exhibition will showcase Vincent van Gogh's drawing Sale of Building Scrap, which Van Gogh ______ in the city of Nuenen nearly 150 years ago.",
+      "prompt": "Which choice completes the text so that It conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "has been completing"
+        },
+        {
+          "label": "B",
+          "text": "is completing"
+        },
+        {
+          "label": "C",
+          "text": "will complete"
+        },
+        {
+          "label": "D",
+          "text": "completed"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "\"Nearly 150 years ago\" places Van Gogh's completion of the drawing in the past, so use \"completed.\"",
+        "key_evidence": "The drawing was made in Nuenen \"nearly 150 years ago.\"",
+        "why_correct": "The sentence explicitly locates the drawing's creation \"nearly 150 years ago.\" The simple past \"completed\" expresses that finished action at a specified past time.",
+        "detailed": "There are two separate time frames: the exhibition is upcoming, but the drawing's creation occurred nearly 150 years ago. The verb in the relative clause must match the time of Van Gogh's work, not the future exhibition. A completed past action calls for the simple past.",
+        "choice_analysis": {
+          "A": "Incorrect. \"Has been completing\" suggests ongoing activity extending toward the present, not a finished event nearly 150 years ago.",
+          "B": "Incorrect. \"Is completing\" describes an action in progress now, conflicting with \"nearly 150 years ago.\"",
+          "C": "Incorrect. \"Will complete\" places the action in the future, contrary to the explicit past time.",
+          "D": "Correct. \"Completed\" locates the finished drawing at the stated past time."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m1_q17",
+      "section": "reading_writing",
+      "question_number": 17,
+      "passage": "The rough frog is a species of amphibian native to Australia. Currently, the frog’s range ______ parts of northern New South Wales and southeastern Queensland.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "had included"
+        },
+        {
+          "label": "B",
+          "text": "will have included"
+        },
+        {
+          "label": "C",
+          "text": "includes"
+        },
+        {
+          "label": "D",
+          "text": "included"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Includes matches the present time and singular range.",
+        "key_evidence": "The time marker is Currently and the grammatical subject is the frog's range.",
+        "why_correct": "The sentence describes where the species lives now, so singular present includes fits both time and agreement.",
+        "detailed": "The three competing forms place the inclusion before a past point, at a future completion point, or simply in the past. None matches Currently.",
+        "choice_analysis": {
+          "A": "Incorrect. Had included locates the action before a past reference point.",
+          "B": "Incorrect. Will have included locates completion in the future.",
+          "C": "Correct. Includes states the present range.",
+          "D": "Incorrect. Included is past tense, conflicting with the explicit current time."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m1_q18",
+      "section": "reading_writing",
+      "question_number": 18,
+      "passage": "When attempting to determine a fault’s seismic history, geophysicists like Dr. Estella Atekwana at the University of Delaware rely in part on data about the fault’s physical dimensions and geological features. For the Ione Valley fault in Lander County, Nevada, the US Geological Survey compiles such data in several ______ exchanging information with state geological surveys, by linking maps of the fault with sources that offer detailed descriptions of it, and by maintaining a database of quantitative data such as the fault’s length (76 km).",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "ways. By"
+        },
+        {
+          "label": "B",
+          "text": "ways: by"
+        },
+        {
+          "label": "C",
+          "text": "ways; by"
+        },
+        {
+          "label": "D",
+          "text": "ways by:"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "A colon after several ways introduces three parallel methods.",
+        "key_evidence": "The Survey compiles such data in several ways: by exchanging, by linking, and by maintaining.",
+        "why_correct": "B follows a complete introductory clause with a colon and an intact by-phrase list.",
+        "detailed": "The words through ways form a complete clause. The following three phrases explain those ways and share the preposition by. Put the colon before that list, not after the preposition or between parts of a phrase.",
+        "choice_analysis": {
+          "A": "A period leaves the following by-phrase list without an independent clause.",
+          "B": "The colon introduces the method list after a complete clause.",
+          "C": "A semicolon cannot introduce a list of non-independent by-phrases.",
+          "D": "The colon after by improperly separates the preposition from exchanging information."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m1_q20",
+      "section": "reading_writing",
+      "question_number": 20,
+      "passage": "In his 2011 book, historian Sebouh David Aslanian quantifies the reading patterns of early modern Armenian merchants from New Julfa. Aslanian’s macroanalysis ______ nearly 1,000 book titles published between 1512 and 1800 shows not only the steady popularity of religious texts but also a broadening interest in secular books, especially those on history and geography.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "had examined"
+        },
+        {
+          "label": "B",
+          "text": "examining"
+        },
+        {
+          "label": "C",
+          "text": "examined"
+        },
+        {
+          "label": "D",
+          "text": "examines"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "\"Examining\" modifies \"macroanalysis,\" while \"shows\" remains the sentence's main verb.",
+        "key_evidence": "The sentence's frame is \"Aslanian's macroanalysis ... shows not only ... but also ...\"",
+        "why_correct": "The participle \"examining\" introduces a phrase describing the macroanalysis without introducing an extra finite verb before shows.",
+        "detailed": "First locate the main clause: Aslanian's macroanalysis shows certain reading patterns. The inserted description explains which material the analysis examines—nearly 1,000 titles. A participial phrase can modify macroanalysis in that position. A second finite verb would leave two uncoordinated predicates before the sentence's object.",
+        "choice_analysis": {
+          "A": "Incorrect. \"Had examined\" likewise creates an uncoordinated finite predicate before shows; the past-perfect tense does not solve that structural problem.",
+          "B": "Correct. \"Examining\" forms a modifier of macroanalysis, preserving the complete main clause \"macroanalysis ... shows.\"",
+          "C": "Incorrect. \"Examined\" would be a finite past-tense verb taking book titles as its object, followed by the unconnected finite verb shows.",
+          "D": "Incorrect. \"Examines\" introduces a second finite present-tense verb without a conjunction to connect it to shows."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m1_q21",
+      "section": "reading_writing",
+      "question_number": 21,
+      "passage": "In 1920, the US Geological Survey determined the geographic center of Tennessee using only a cardboard cutout of the state and a piece of string. ______ this apparently crude technique yielded a relatively close approximation: when the 1920 center was compared to a center determined by a computer program nearly a hundred years later, the two diverged by just a few miles.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Still,"
+        },
+        {
+          "label": "B",
+          "text": "Similarly,"
+        },
+        {
+          "label": "C",
+          "text": "In other words,"
+        },
+        {
+          "label": "D",
+          "text": "Fittingly,"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Despite using a crude method, the survey produced a surprisingly accurate location.",
+        "key_evidence": "A cardboard cutout and piece of string yielded a center only a few miles from the later computer result.",
+        "why_correct": "\"Still\" means nevertheless in this context. It marks the contrast between the apparently unsophisticated method and its accurate result.",
+        "detailed": "The first sentence's description of the tools suggests that the result might be inaccurate. The next sentence overturns that expectation by reporting a small difference from the computer estimate. A concessive transition connects those ideas.",
+        "choice_analysis": {
+          "A": "Correct. \"Still\" introduces the unexpected accuracy achieved despite the crude technique.",
+          "B": "Incorrect. \"Similarly\" requires a comparable method or result before it; the first sentence instead introduces the crude technique.",
+          "C": "Incorrect. \"In other words\" would restate the first sentence, but the second evaluates the method's accuracy using new information.",
+          "D": "Incorrect. \"Fittingly\" would suggest that accuracy was an appropriate or expected result, weakening the contrast emphasized by \"apparently crude.\""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m1_q22",
+      "section": "reading_writing",
+      "question_number": 22,
+      "passage": "In astrophysics, a ring of debris orbiting a larger object within the object’s Roche limit is expected to persist as a ring, whereas a ring of debris orbiting outside this limit would likely accrete into a satellite (e.g., a moon). Bruno Morgado and colleagues, ______ detected a dense ring of material orbiting the trans-Neptunian object Quaoar at a distance of 2,500 miles, well outside the calculated Roche limit of 1,100 miles, that has remained intact.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "likewise,"
+        },
+        {
+          "label": "B",
+          "text": "fittingly,"
+        },
+        {
+          "label": "C",
+          "text": "for example,"
+        },
+        {
+          "label": "D",
+          "text": "though,"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Quaoar's ring remained intact outside the Roche limit, contrary to the stated expectation.",
+        "key_evidence": "A ring outside the limit should accrete into a satellite, yet this intact ring is 2,500 miles out, beyond the 1,100-mile limit.",
+        "why_correct": "\"Though\" marks a contrast. The text predicts that an outside ring will form a satellite, but the observed ring remains intact outside the limit.",
+        "detailed": "The general rule distinguishes rings inside a Roche limit from those outside it. Quaoar's ring lies outside the calculated limit, so the stated rule predicts satellite formation. The fact that it remains a ring is therefore an exception requiring a contrast transition.",
+        "choice_analysis": {
+          "A": "Incorrect. \"Likewise\" signals similarity, whereas the observed intact ring differs from the expected outcome.",
+          "B": "Incorrect. \"Fittingly\" would treat the intact ring as consistent with expectations, but its location makes it unexpected.",
+          "C": "Incorrect. \"For example\" would introduce a case illustrating the rule. This case contradicts the stated prediction for an outside ring.",
+          "D": "Correct. \"Though\" appropriately introduces an observation at odds with the expectation of accretion outside the limit."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m1_q24",
+      "section": "reading_writing",
+      "question_number": 24,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• The Niger River is the third longest river in Africa.\n• It ranks No. 14 among the longest rivers in the world.\n• It is 4,200 kilometers long.\n• The Indus River is the ninth longest river in Asia.\n• It ranks No. 19 among the longest rivers in the world.\n• It is 3,610 kilometers long.",
+      "prompt": "The student wants to emphasize the different locations of the two rivers. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The Indus River is 3,610 kilometers long."
+        },
+        {
+          "label": "B",
+          "text": "The Niger River is in Africa, whereas the Indus River is located in Asia."
+        },
+        {
+          "label": "C",
+          "text": "The Niger River ranks No. 14 among the longest rivers in the world."
+        },
+        {
+          "label": "D",
+          "text": "At 4,200 kilometers long, the Niger River is the third longest in Africa."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Compare the continents where the two rivers are located.",
+        "key_evidence": "The Niger is in Africa; the Indus is in Asia.",
+        "why_correct": "B explicitly states both locations and contrasts them with whereas.",
+        "detailed": "The goal is geographic location, not length or world ranking. B compares the two rivers using the relevant continental facts. A andDcontain true source lengths but address a different attribute.",
+        "choice_analysis": {
+          "A": "It gives the Indus's length, not a two-river location comparison.",
+          "B": "It directly contrasts Africa and Asia for the two named rivers.",
+          "C": "It gives Niger's world length ranking, not its location relative to Indus.",
+          "D": "It gives Niger's length and regional ranking rather than comparing both rivers' locations."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m1_q25",
+      "section": "reading_writing",
+      "question_number": 25,
+      "passage": "• The Mauritius Trade Union Congress (MTUC) is a national union federation for the African nation of Mauritius.\n• It helps improve conditions for workers in that nation.\n• ITUC-Africa is a regional union federation that represents national union federations across Africa.\n• It represents the MTUC.",
+      "prompt": "Which choice most effectively uses information from the given sentences to explain the purpose of national union federations?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The MTUC is one of the national union federations represented by ITUC-Africa."
+        },
+        {
+          "label": "B",
+          "text": "The MTUC is a national union federation in Africa."
+        },
+        {
+          "label": "C",
+          "text": "National union federations, such as the MTUC, work to improve conditions for workers in their member nations."
+        },
+        {
+          "label": "D",
+          "text": "Regional union federations like ITUC-Africa represent the national union federations in a specific area."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "C states the worker-improvement purpose.",
+        "key_evidence": "The notes say the MTUC helps improve conditions for workers in Mauritius.",
+        "why_correct": "The prompt asks what national federations are for; C states that function and uses MTUC as an example.",
+        "detailed": "The other options use membership, geographic, or regional-representation facts. Those may be true but answer different questions.",
+        "choice_analysis": {
+          "A": "Incorrect. This gives an affiliation rather than the national federation's purpose.",
+          "B": "Incorrect. This identifies location and type without explaining function.",
+          "C": "Correct. This states the relevant worker-improvement purpose.",
+          "D": "Incorrect. This explains regional representation rather than the national federation's worker-focused purpose."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "synthesize_given_sentences"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m1_q26",
+      "section": "reading_writing",
+      "question_number": 26,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Tepeapulco is a municipality in the state of Hidalgo, Mexico.\n• Municipalities are governmental regions responsible for providing many public services to their residents.\n• One service they provide is water treatment.\n• Tepeapulco covers an area of roughly 243 km².\n• Hidalgo is divided into 84 municipalities.",
+      "prompt": "The student wants to emphasize the size of Tepeapulco. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Providing water treatment is just one example of the public services that municipalities provide."
+        },
+        {
+          "label": "B",
+          "text": "Tepeapulco—a governmental region in the state of Hidalgo, Mexico—provides many public services to its residents."
+        },
+        {
+          "label": "C",
+          "text": "Tepeapulco is one of 84 governmental regions, known as municipalities, across Hidalgo."
+        },
+        {
+          "label": "D",
+          "text": "The municipality of Tepeapulco in Hidalgo, Mexico, covers an area of roughly 243 km²."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "D emphasizes Tepeapulco's area.",
+        "key_evidence": "The notes give Tepeapulco's area as roughly 243 square kilometers.",
+        "why_correct": "The student's size goal requires the area measurement, which only D foregrounds.",
+        "detailed": "Water-treatment services and the count of municipalities describe function and administrative organization rather than the physical area of Tepeapulco. The relevant area is 243 square kilometers.",
+        "choice_analysis": {
+          "A": "Incorrect. A public-service example does not describe size.",
+          "B": "Incorrect. This gives functions and location, not area.",
+          "C": "Incorrect. This counts regions in Hidalgo, not Tepeapulco's area.",
+          "D": "Correct. This uses the area measure to express physical size."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m1_q27",
+      "section": "reading_writing",
+      "question_number": 27,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Most of the plant and bird species in Oahu, Hawaii, are non-native.\n• In a 2019 study, researchers wanted to know what role non-native birds play in dispersing plant seeds in Oahu.\n• Researchers catalogued plant seeds found in fecal samples from non-native birds.\n• Pipturus albidus, a flowering shrub, was one of fifteen native species catalogued.\n• Psidium cattleyanum, a fruit tree, was one of twenty-nine non-native species catalogued.\n• Researchers concluded that non-native birds play a vital role in dispersing the seeds of native and non-native plants.",
+      "prompt": "The student wants to emphasize a difference between the two plants. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Most plant species found in Oahu, Hawaii, like Psidium cattleyanum, are non-native."
+        },
+        {
+          "label": "B",
+          "text": "Though Pipturus albidus and Psidium cattleyanum can both be found in Oahu, Hawaii, only the former plant is native."
+        },
+        {
+          "label": "C",
+          "text": "A 2019 study catalogued plant seeds found in bird fecal samples in Oahu, Hawaii, to determine what role non-native birds play in seed dispersal."
+        },
+        {
+          "label": "D",
+          "text": "Seeds from Pipturus albidus and Psidium cattleyanum plants were found in the fecal samples of non-native Hawaiian birds, according to a 2019 study."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "B contrasts native with non-native status.",
+        "key_evidence": "The notes classify Pipturus albidus as native and Psidium cattleyanum as non-native.",
+        "why_correct": "Only the former is native directly states the difference between the two named plants that the student wants to emphasize.",
+        "detailed": "Both occur in Oahu and both appeared in bird samples, so those facts are similarities. A comparison must connect the two plants' different origin status.",
+        "choice_analysis": {
+          "A": "Incorrect. This describes Psidium alone rather than contrasting both plants.",
+          "B": "Correct. This explicitly contrasts their native status.",
+          "C": "Incorrect. This describes the study's method, not the plants' difference.",
+          "D": "Incorrect. This emphasizes the shared finding of seeds in bird samples."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m2_q01",
+      "section": "reading_writing",
+      "question_number": 28,
+      "passage": "Literary scholars often encourage those studying authors and their literary movements to understand how certain qualities of an author's writings were perceived by his or her immediate audience. While most would not consider the works of Miguel de Unamuno to be especially controversial today, one should consider whether there are aspects of his work that may have been seen as [vocab]______[/vocab] to some readers of his time.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "provocative"
+        },
+        {
+          "label": "B",
+          "text": "irrefutable"
+        },
+        {
+          "label": "C",
+          "text": "pretentious"
+        },
+        {
+          "label": "D",
+          "text": "irrelevant"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Provocative captures potentially controversial reception in the original period.",
+        "key_evidence": "The text contrasts not especially controversial today with readers' reactions at the time.",
+        "why_correct": "A expresses the controversy or strong reactions that the passage asks scholars to consider historically.",
+        "detailed": "The contrast concerns reception, not whether arguments were impossible to refute, writing was showily grand, or the work lacked relevance.",
+        "choice_analysis": {
+          "A": "Correct. Provocative means likely to stimulate controversy or strong response.",
+          "B": "Incorrect. Irrefutable concerns proof, not controversy in reception.",
+          "C": "Incorrect. Pretentious concerns affected importance, not the stated controversy contrast.",
+          "D": "Incorrect. Irrelevant concerns lack of connection or importance, not controversial response."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m2_q02",
+      "section": "reading_writing",
+      "question_number": 29,
+      "passage": "The Historical Dictionary of Science Fiction is a crowdsourced project started in 2001 by lexicographer Jesse Sheidlower to record terms that originated in science fiction. Volunteers share digitized excerpts from personal collections of sci-fi magazines not typically preserved in libraries—[vocab]______[/vocab] that allow the earliest uses of phrases such as \"warp speed\" (1952) to be identified and added to the dictionary.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "justifications"
+        },
+        {
+          "label": "B",
+          "text": "contributions"
+        },
+        {
+          "label": "C",
+          "text": "resolutions"
+        },
+        {
+          "label": "D",
+          "text": "negotiations"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The volunteers contribute digitized excerpts, so the excerpts are contributions to the dictionary project.",
+        "key_evidence": "Volunteers \"share digitized excerpts\" that help identify the earliest uses of science-fiction phrases.",
+        "why_correct": "\"Contributions\" names materials people supply to a shared undertaking. The passage describes exactly that action: volunteers submit excerpts to the crowdsourced dictionary.",
+        "detailed": "The noun after the dash renames the digitized excerpts, and the following relative clause explains their usefulness. The excerpts provide evidence for dating terms; they are not agreements or arguments. Calling them contributions captures both their source in volunteer submissions and their role in the project.",
+        "choice_analysis": {
+          "A": "Incorrect. \"Justifications\" are reasons offered to defend a claim or action. The passage instead identifies excerpts submitted as research evidence.",
+          "B": "Correct. \"Contributions\" accurately refers to the excerpts supplied by volunteers for the dictionary's work.",
+          "C": "Incorrect. \"Resolutions\" would mean decisions or solutions. The volunteers supply documentary materials rather than settle a question by making a resolution.",
+          "D": "Incorrect. \"Negotiations\" are discussions aimed at reaching an agreement. No bargaining or agreement-seeking is described."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m2_q03",
+      "section": "reading_writing",
+      "question_number": 30,
+      "passage": "Despite stated claims of global relevance, much major research on income inequality performed in the 2010s suffered from a myopic focus on a few countries in North America and Western Europe, partly due to limited data availability. Researchers would later [vocab]______[/vocab] this shortcoming after gaining new access to administrative records located in nations in Asia, such as India, and Eastern Europe, such as Hungary.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "presuppose"
+        },
+        {
+          "label": "B",
+          "text": "categorize"
+        },
+        {
+          "label": "C",
+          "text": "validate"
+        },
+        {
+          "label": "D",
+          "text": "mitigate"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Mitigate means reduce the severity of the research limitation.",
+        "key_evidence": "Research was narrowly focused because of limited data; new Asian and Eastern European records became accessible.",
+        "why_correct": "D connects expanded data coverage with lessening the old geographic shortcoming, matching the passage's problem–response structure.",
+        "detailed": "The new records address the limitation rather than assume it, classify it, or prove it valid. The passage does not claim the shortcoming disappears entirely.",
+        "choice_analysis": {
+          "A": "Incorrect. Presuppose means assume in advance, not remedy.",
+          "B": "Incorrect. Categorize means classify, not reduce the limitation.",
+          "C": "Incorrect. Validate means confirm, whereas the new data address the problem.",
+          "D": "Correct. Mitigate means make less severe, fitting the broadened data coverage."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m2_q05",
+      "section": "reading_writing",
+      "question_number": 32,
+      "passage": "The Lartington is just one of approximately three million known historical shipwrecks spread throughout the world's oceans, and their impact on sea life and underwater ecosystems is of great interest to researchers. Rachel Mugge and colleagues were particularly curious about the effects of wooden shipwrecks on seafloor microbial communities. The researchers studied two wooden shipwrecks in the Gulf of Mexico by placing pieces of pine and oak between zero and 200 meters away from each shipwreck to collect samples of three kinds of microbes: bacteria, archaea, and fungi. They found that across the three microbial communities, peak diversity and richness was observed on pine and oak samples placed approximately 125 meters from the shipwrecks.",
+      "prompt": "Which choice best describes the overall structure of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It notes a general scientific interest in shipwrecks' ecological effects, describes a specific study related to that interest, and then states one of the study's findings."
+        },
+        {
+          "label": "B",
+          "text": "It states the number of known shipwrecks, describes the historical significance of one of those shipwrecks, and then comments on the various microbes found at the shipwreck site."
+        },
+        {
+          "label": "C",
+          "text": "It names a famous historical shipwreck, describes the type of wood used to build that ship, and then explains how that wood type influences underwater microbial communities."
+        },
+        {
+          "label": "D",
+          "text": "It introduces a study of microbial communities near shipwrecks that has received significant scholarly attention, summarizes the results of that study, and then describes a research team's reaction to the study."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The text moves from a broad research interest to a specific study and one of its findings.",
+        "key_evidence": "It first notes interest in shipwrecks' ecological effects, then describes Mugge and colleagues' sampling study, and finally reports peak microbial diversity about 125 meters away.",
+        "why_correct": "This three-part sequence is stated precisely in A.",
+        "detailed": "It first notes interest in shipwrecks' ecological effects, then describes Mugge and colleagues' sampling study, and finally reports peak microbial diversity about 125 meters away. This three-part sequence is stated precisely in A.",
+        "choice_analysis": {
+          "A": "Correct. It accurately identifies the general interest, the specific study, and the reported finding.",
+          "B": "Incorrect. The text does not explain the Lartington's historical significance.",
+          "C": "Incorrect. It does not describe what wood the Lartington was built from or attribute the community pattern to that wood.",
+          "D": "Incorrect. The text does not discuss scholarly attention to an earlier study or a later reaction by the team."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "overall_structure"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m2_q06",
+      "section": "reading_writing",
+      "question_number": 33,
+      "passage": "The following text is adapted from Matthew Arnold's 1869 nonfiction book Culture and Anarchy.\n\nThe Times (a British newspaper), replying to some foreign strictures on the dress, looks, and behaviour of the English abroad, urges that the English ideal is that every one should be free to do and to look just as he likes. But culture indefatigably tries, not to make what each raw person may like, the rule by which he fashions himself; but to draw ever nearer to a sense of what is indeed beautiful, graceful, and becoming, and to get the raw person to like that.",
+      "prompt": "Which choice best states the main purpose of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It makes a claim about one of the principal effects of culture."
+        },
+        {
+          "label": "B",
+          "text": "It asserts that what is beautiful is a matter of objective truth rather than subjective perception."
+        },
+        {
+          "label": "C",
+          "text": "It implies that opinions regarding culture evolve over time."
+        },
+        {
+          "label": "D",
+          "text": "It explains differences in matters of taste between the English and others."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The text claims that culture refines people's preferences toward what is beautiful and becoming.",
+        "key_evidence": "Culture tries to move a 'raw person' away from treating personal preference as the rule and toward liking what is beautiful, graceful, and becoming.",
+        "why_correct": "The passage therefore makes a claim about a principal effect of culture, as A states.",
+        "detailed": "Culture tries to move a 'raw person' away from treating personal preference as the rule and toward liking what is beautiful, graceful, and becoming. The passage therefore makes a claim about a principal effect of culture, as A states.",
+        "choice_analysis": {
+          "A": "Correct. It captures the claim that culture changes and refines people's tastes.",
+          "B": "Incorrect. The text contrasts raw preference with cultural refinement but does not primarily argue a theory of objective truth.",
+          "C": "Incorrect. It does not discuss how opinions about culture change over time.",
+          "D": "Incorrect. The mention of the English sets up the contrast; the passage does not compare English taste with other nations' taste."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "structural_function"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m2_q07",
+      "section": "reading_writing",
+      "question_number": 34,
+      "passage": "Text 1\n\nHycean planets are a class of exoplanets (planets outside our solar system) with oceans of liquid water—critical to supporting life—and atmospheres rich in hydrogen. Computer models have determined that for potential hycean planets, the range of the habitable zone (HZ), the distance from a star that allows a planet to retain liquid water on its surface, begins at about 1 astronomical unit (AU). In 2021, Nikku Madhusudhan et al. identified K2-18 b as a hycean candidate, noting that the planet is located right on the inner edge of the HZ.\n\nText 2\n\nIn a 2023 paper, Shang-Min Tsai et al. claimed that the hydrogen-rich atmospheres of K2-18 b and other hycean candidates admit wavelengths of light that cause elevated surface temperatures and increased water evaporation. Unlike earlier assessments, Tsai et al.'s calculations therefore placed the inner edge for these planets' HZ as far out as 3.85 AU.",
+      "prompt": "Based on the texts, how would Tsai et al. (Text 2) most likely respond to Madhusudhan et al.'s research, as presented in Text 1?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "By arguing that K2-18 b and other hycean candidates are unlikely to support life because these planets are located too far from the stars they orbit"
+        },
+        {
+          "label": "B",
+          "text": "By stating that the chemical composition of the atmosphere of the hycean candidate Madhusudhan et al. identified suggests that this planet's surface is unlikely to harbor liquid water"
+        },
+        {
+          "label": "C",
+          "text": "By maintaining that Madhusudhan et al. relied on a model whose estimates of surface temperatures on hycean candidates are likely too high"
+        },
+        {
+          "label": "D",
+          "text": "By observing that unlike the hycean candidate Madhusudhan et al. discovered, most other types of planets with hydrogen-rich atmospheres are likely located within the HZ"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Tsai's hotter atmospheric model places K2-18 b inside the newly calculated inner boundary, where liquid water is unlikely.",
+        "key_evidence": "Text 1 puts K2-18 b near a 1-AU inner edge; Text 2 reports atmospheric heating, water evaporation, and an inner edge as far out as 3.85 AU.",
+        "why_correct": "B links the planet's hydrogen-rich atmosphere to the higher temperatures and evaporation described in Text 2. Those effects make surface liquid water unlikely at the earlier, closer boundary.",
+        "detailed": "Text 1 treats a location near the earlier inner boundary as compatible with a hycean candidate. Text 2 argues that hydrogen-rich atmospheres transmit light that raises surface temperatures, so the safe inner boundary lies farther from the star. A planet near the earlier boundary would consequently be too close under the revised calculation, not too far away.",
+        "choice_analysis": {
+          "A": "Incorrect. This reverses the distance problem. Moving the inner boundary outward makes K2-18 b too close to its star, rather than too far away.",
+          "B": "Correct. This correctly ties atmospheric composition to an unfavorable prospect for surface liquid water.",
+          "C": "Incorrect. Tsai's argument implies that earlier estimates understated the heating problem, not that they estimated temperatures too high.",
+          "D": "Incorrect. Neither text compares the locations of most other hydrogen-atmosphere planet types with that of K2-18 b."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "main_idea_or_detail"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m2_q08",
+      "section": "reading_writing",
+      "question_number": 35,
+      "passage": "Mexican architect Luis Barragán's prolific career, which spanned the 1920s to the 1980s, evolved through distinct phases. After traveling to the United States and Europe in the early 1930s and immersing himself in a broader architectural discourse, Barragán began incorporating principles derived from functionalism and modernism in his work, as seen in the houses in Avenida Parque Mexico, whose unadorned geometric forms contrast with his earlier projects in Guadalajara, such as the house in Calle Liceo, which evince the aesthetics of traditional Mediterranean and Mexican styles.",
+      "prompt": "Information in the text best supports which statement about the design of the house in Calle Liceo?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It represents a transitional moment between the early and late phases of Barragán's development."
+        },
+        {
+          "label": "B",
+          "text": "It displays the effects of Barragán's exposure to international architectural trends in the 1930s."
+        },
+        {
+          "label": "C",
+          "text": "It reflects an approach to ornamentation and shape that Barragán later stopped using."
+        },
+        {
+          "label": "D",
+          "text": "It is characteristic of the Guadalajaran architecture that influenced Barragán throughout his career."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Calle Liceo represents the earlier decorative approach, not the later minimalist one.",
+        "key_evidence": "The later houses have unadorned geometric forms that contrast with earlier projects.",
+        "why_correct": "C follows the explicit contrast between earlier traditional aesthetics and later unadorned forms.",
+        "detailed": "Read the chronology: the Guadalajara house belongs to the earlier phase. Travel in the 1930s precedes the later functionalist and modernist designs. The question concerns the earlier house, so it reflects an approach abandoned in the later examples.",
+        "choice_analysis": {
+          "A": "No intermediate or transitional stage is described for this house.",
+          "B": "The house is an earlier project, not an example of the post-travel change.",
+          "C": "It links the earlier house to the ornamentation and forms contrasted with later work.",
+          "D": "The text does not say Guadalajaran architecture influenced every phase."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "text_supported_inference"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m2_q09",
+      "section": "reading_writing",
+      "question_number": 36,
+      "passage": "Minimum and Maximum Depths of Stony Coral Species in Caribbean and Indo-Pacific Waters\n\n| Species | Minimum depth (meters) | Maximum depth (meters) |\n|---|---:|---:|\n| Acropora echinata | 8 | 25 |\n| Astreopora expansa | 5 | 15 |\n| Heliofungia fralinae | 3 | 27 |\n| Scolymia lacera | 10 | 80 |\n\nSome scientists have suggested that as ocean temperatures rise, many fish and corals found in the shallow zone (less than 30 meters below the surface) could take refuge in the cooler, darker mesophotic zone (30 to 150 meters below the surface). However, it isn't clear that all such species will be able to tolerate mesophotic conditions. In 2018, Luiz Rocha and colleagues studied stony corals in the two zones in Caribbean and Indo-Pacific waters. Based on the depths at which those corals are now found, the species that seems least suited to a full migration to the mesophotic zone is ______",
+      "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Astreopora expansa, because its maximum depth of 15 meters is furthest from the mesophotic zone."
+        },
+        {
+          "label": "B",
+          "text": "Scolymia lacera, because its minimum depth of 10 meters is in the shallow zone."
+        },
+        {
+          "label": "C",
+          "text": "Acropora echinata, because its maximum depth of 25 meters is close to but doesn't reach the mesophotic zone."
+        },
+        {
+          "label": "D",
+          "text": "Heliofungia fralinae, because its minimum depth of 3 meters is the shallowest of those listed."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The coral with the shallowest maximum depth is least adapted to deeper conditions.",
+        "key_evidence": "Astreopora expansa: maximum depth 15 m; mesophotic zone: 30–150 m.",
+        "why_correct": "A uses the 15 m maximum, farther below the 30 m entry depth than the other maxima.",
+        "detailed": "Compare maximum depths, not minimum depths: 25, 15, 27, and 80 m. The 15 m maximum is the strongest evidence of limited tolerance for deeper water among the listed species.",
+        "choice_analysis": {
+          "A": "The 15 m maximum is farthest from the mesophotic zone.",
+          "B": "A 10 m minimum says little about deeper tolerance; this coral reaches 80 m.",
+          "C": "The 25 m maximum is closer to the zone than 15 m is.",
+          "D": "A 3 m minimum shows shallow occurrence, not inability to live deeper."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "data_evidence"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m2_q10",
+      "section": "reading_writing",
+      "question_number": 37,
+      "passage": "Adelaide, Australia, has installed engineered structures along 53% of its shoreline to protect infrastructure from wave erosion and other hazards, a practice known as shoreline hardening. To evaluate the responses of waterbirds to two types of hardening structures—riprap and bulkheads—Diann Prosser et al. surveyed waterbird communities consisting of the brown pelican, the red knot, and 62 other species at different sites in the Chesapeake Bay on the US East Coast. Utilizing the Index of Waterbird Community Integrity (IWCI), on which a high score corresponds to high community integrity, the researchers found that bulkheads are more strongly negatively correlated with waterbird community integrity than is riprap.",
+      "prompt": "Which finding, if true, would most directly illustrate the researchers' finding?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The difference in average IWCI scores for waterbird communities at Stony and Old Road, two sites with a higher percentage of shoreline consisting of bulkheads than of riprap, was statistically insignificant."
+        },
+        {
+          "label": "B",
+          "text": "Waterbird communities at Curtis, a site with equal percentages of shoreline consisting of bulkheads and riprap, had higher average IWCI scores than did waterbird communities at Miles, a site with different percentages of shoreline consisting of bulkheads and riprap."
+        },
+        {
+          "label": "C",
+          "text": "Waterbird communities at Old Road, a site with a relatively high percentage of shoreline consisting of bulkheads, had lower average IWCI scores than did waterbird communities at Miles, a site with a relatively high percentage of shoreline consisting of riprap."
+        },
+        {
+          "label": "D",
+          "text": "Waterbird communities at Curtis, a site with a high percentage of shoreline consisting of bulkheads and riprap, had lower average IWCI scores than did waterbird communities at Onancock, a site with a low percentage of shoreline consisting of bulkheads and riprap."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Compare different shoreline structures using the same integrity measure.",
+        "key_evidence": "Higher IWCI means higher integrity; bulkheads have the more negative association.",
+        "why_correct": "C pairs more bulkheads with a lower IWCI and more riprap with a higher IWCI.",
+        "detailed": "Evidence for a relative claim must compare the two structure types. C does this while keeping the outcome—community integrity—constant as a measure. It illustrates association, not proof of causation.",
+        "choice_analysis": {
+          "A": "Both sites are bulkhead-heavy, so similar scores do not compare bulkheads with riprap.",
+          "B": "The direction of the mixture at Miles is unspecified, preventing the needed comparison.",
+          "C": "The bulkhead-heavy community has lower integrity than the riprap-heavy community.",
+          "D": "It compares more hardening with less hardening, not the relative effects of the two types."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "textual_evidence"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m2_q12",
+      "section": "reading_writing",
+      "question_number": 39,
+      "passage": "Home Video Game Systems of the 1970s and 1980s\n\n| System | Manufacturer | System type | Approximate number of units sold worldwide |\n|---|---|---|---:|\n| ColecoVision | Coleco | console | 2,000,000 |\n| Intellivision | Mattel | console | 3,000,000 |\n| MSX | ASCII Corp. | computer | 4,000,000 |\n| Game & Watch | Nintendo | handheld | 18,000,000 |\n\nA student is writing a research paper on the global rise of the home video game industry during the 1970s and 1980s. The student is surprised by differences in the number of units sold by some systems compared to those sold by others. Most remarkably, the ______",
+      "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Game & Watch sold approximately 18,000,000 units, whereas the ColecoVision sold only approximately 2,000,000 units."
+        },
+        {
+          "label": "B",
+          "text": "Game & Watch sold approximately 4,000,000 units, whereas the ColecoVision sold only approximately 3,000,000 units."
+        },
+        {
+          "label": "C",
+          "text": "MSX sold approximately 4,000,000 units, whereas the Intellivision sold only approximately 3,000,000 units."
+        },
+        {
+          "label": "D",
+          "text": "MSX sold approximately 18,000,000 units, whereas the Intellivision sold only approximately 2,000,000 units."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The 18-million-versus-2-million comparison most strongly illustrates a remarkable sales difference.",
+        "key_evidence": "Game & Watch: 18,000,000; ColecoVision: 2,000,000; MSX: 4,000,000; Intellivision: 3,000,000.",
+        "why_correct": "A accurately presents a ninefold difference, much more striking than C's true but modest comparison.",
+        "detailed": "Read both the table and the lead-in Most remarkably. Numerical truth alone is not enough: A contrasts 18 million with 2 million, whereas C contrasts 4 million with 3 million. A therefore gives the strongest accurate illustration of the surprising sales gap.",
+        "choice_analysis": {
+          "A": "Both figures are correct and give the largest proportional and absolute contrast among the accurate choices.",
+          "B": "Game & Watch sold 18 million, not 4 million, and ColecoVision sold 2 million, not 3 million.",
+          "C": "Both figures are true, but a 4-to-3 million contrast is far less remarkable than the 18-to-2 million contrast in A.",
+          "D": "MSX sold 4 million, not 18 million, and Intellivision sold 3 million, not 2 million."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "data_evidence"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m2_q13",
+      "section": "reading_writing",
+      "question_number": 40,
+      "passage": "Consumers increasingly expect that goods they purchase online will be delivered rapidly, even as soon as the day of purchase. Although efficiencies in long-distance transport of parcels have greatly improved delivery times, last-mile logistics (the final step in delivery to consumers) present a bottleneck for delivery companies. Time pressure resulting from consumer expectations is not the only challenge; other obstacles, such as complex and inefficient delivery routes, persist. While innovations to mitigate these challenges have been emerging—the use of autonomous delivery robots, for instance—success has been constrained due to the additional complications that arise (e.g., robots travel relatively slowly since they must navigate many ground-level obstacles). Consequently, ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the use of autonomous delivery robots may enable delivery companies to meet consumers' expectations now but likely is not viable as a permanent solution."
+        },
+        {
+          "label": "B",
+          "text": "innovations in last-mile logistics seem poised to increase consumers' expectations for rapid delivery."
+        },
+        {
+          "label": "C",
+          "text": "delivery companies should invest more funds in proven long-distance transport technologies than in untested last-mile solutions."
+        },
+        {
+          "label": "D",
+          "text": "in the near term, delivery companies are unlikely to overcome the impediments associated with last-mile logistics."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The proposed innovation has limitations, so the bottleneck is likely to persist.",
+        "key_evidence": "Robots travel relatively slowly because they must navigate ground-level obstacles.",
+        "why_correct": "D draws a cautious near-term conclusion from the remaining obstacles.",
+        "detailed": "Improved long-distance transport has not removed the final delivery bottleneck. Robots are an attempted remedy, but their additional constraints prevent the passage from treating them as a successful solution now.",
+        "choice_analysis": {
+          "A": "The text does not say robots already meet current expectations.",
+          "B": "Consumer expectations are presented as existing pressure, not as an effect of innovations.",
+          "C": "No cost-benefit comparison or investment recommendation is supported.",
+          "D": "Continuing obstacles and constrained innovations support this limited prediction."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m2_q14",
+      "section": "reading_writing",
+      "question_number": 41,
+      "passage": "Microbial fuel cells (MFCs) capitalize on the ability of some species of bacteria to metabolize metal, liberating electrons. The bacteria form a dense biofilm on the surface of an electron-collecting anode, but moving the electrons from the bacterial cytoplasm to an external electrode requires that the electrons pass through a series of inefficient oxidation-reduction (redox) reactions. Accordingly, MFC power output rarely exceeds a density of 0.30 milliwatts per square centimeter (mW/cm²). In an experiment, researchers added silver nanoparticles to carbon paper covering the anode in an MFC. The resulting power density was 0.66 mW/cm². Since metals such as silver exhibit high electrical conductivity, the researchers hypothesized that ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "silver nanoparticles may increase the metabolic processes of the bacteria, thereby increasing the number of free electrons available to transfer to the electrode."
+        },
+        {
+          "label": "B",
+          "text": "electrons may be conducted directly to the electrode before the silver nanoparticles catalyze the redox reactions."
+        },
+        {
+          "label": "C",
+          "text": "as the density of the biofilm increases, the series of redox reactions may accelerate independent of the presence of the silver nanoparticles."
+        },
+        {
+          "label": "D",
+          "text": "silver nanoparticles may allow electrons to bypass the series of redox reactions and transfer directly to the electrode."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Conductive silver offers an electron-transfer shortcut.",
+        "key_evidence": "Electron transfer through inefficient redox reactions limits power output.",
+        "why_correct": "D explains the higher output by allowing electrons to bypass the bottleneck.",
+        "detailed": "The key causal link is conductivity. Silver could carry electrons directly to the electrode instead of requiring the inefficient sequence; this explains increased electrical output without asserting new bacterial metabolism or denser biofilm.",
+        "choice_analysis": {
+          "A": "No evidence indicates more metabolic activity or additional liberated electrons.",
+          "B": "It retains a catalytic redox explanation rather than bypassing the inefficient sequence.",
+          "C": "The experiment does not establish a density increase independent of silver.",
+          "D": "A direct conductive route explains the improvement using the property highlighted."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m2_q15",
+      "section": "reading_writing",
+      "question_number": 42,
+      "passage": "Many studies have found a positive association between levels of dissolved organic carbon and mercury in bodies of fresh water undisturbed by human activity. But Stéphane Guédron, Delphine Tisserand, and colleagues did not find this correlation in an examination of freshwater bodies impacted by wastewater, leading some scientists to hypothesize that the association could be particular to undisturbed waters. However, Ida Tjerngren and colleagues carried out a study on freshwater bodies disturbed by urban development that showed similar results to the studies on undisturbed waters, suggesting that ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the effects of wastewater on the association between levels of dissolved organic carbon and mercury should not be taken as indicative of the effects of every type of human disturbance."
+        },
+        {
+          "label": "B",
+          "text": "Guédron, Tisserand, and colleagues’ study used different methods to measure the concentration of mercury in fresh water than Tjerngren and colleagues’ study did."
+        },
+        {
+          "label": "C",
+          "text": "disturbances linked to wastewater affect significantly more bodies of fresh water than disturbances linked to urban development do."
+        },
+        {
+          "label": "D",
+          "text": "levels of dissolved organic carbon and mercury are both much higher in bodies of fresh water impacted by wastewater than they are in bodies of fresh water disturbed by urban development."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Different human disturbances need not have the same effect.",
+        "key_evidence": "Urban-development waters showed results similar to undisturbed waters.",
+        "why_correct": "A limits the wastewater finding instead of generalizing it to all human disturbance.",
+        "detailed": "The initial hypothesis predicts that disturbed waters lack the association. The urban-development study is a counterexample: those waters are disturbed yet retain it. The conclusion must distinguish types of disturbance.",
+        "choice_analysis": {
+          "A": "Wastewater cannot stand for all human disturbance because the urban result differs.",
+          "B": "No measurement-method comparison is supplied.",
+          "C": "No counts of affected freshwater bodies are compared.",
+          "D": "Correlation presence does not establish either group's absolute concentrations."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m2_q16",
+      "section": "reading_writing",
+      "question_number": 43,
+      "passage": "The ratio of methane to other atmospheric constituents—represented by a measure called the methane mole fraction—influences a variety of meteorological phenomena, notably precipitation and humidity. For Titan, Saturn’s largest moon, the observational data that exist are too sparse and discrepant to fully constrain the range of the methane mole fraction at various atmospheric levels. Juan Lora and colleagues point out that outputs of the IPSL atmospheric model of Titan, which track closely to observations in some respects, reflect how the model’s developers responded to this challenge: by prescribing a uniform methane mole fraction for the lowest level of the atmosphere. It is therefore important to note that ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "even though the model’s outputs sometimes agree with observational data, Titan’s real methane mole fraction is likely higher than the methane mole fraction used in the model."
+        },
+        {
+          "label": "B",
+          "text": "inconsistencies across the model’s simulations of Titan’s precipitation and humidity could be attributable to variations in the moon’s methane mole fraction."
+        },
+        {
+          "label": "C",
+          "text": "further observations of Titan may clarify the moon’s methane mole fraction sufficiently for the model to employ a single value rather than a range."
+        },
+        {
+          "label": "D",
+          "text": "some disagreements between the model’s simulations of Titan’s precipitation and humidity and the moon’s actual precipitation and humidity are to be expected."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "A simplifying model assumption can limit agreement with observations.",
+        "key_evidence": "The model prescribes a uniform methane mole fraction despite sparse, discrepant data.",
+        "why_correct": "D predicts some model–reality differences without claiming an unsupported direction.",
+        "detailed": "Methane affects precipitation and humidity. Because its observed distribution is poorly constrained, developers impose uniformity. That simplification can cause model outputs to diverge from actual weather even when some outputs match observations.",
+        "choice_analysis": {
+          "A": "Nothing establishes that the real fraction must be higher rather than lower.",
+          "B": "The described uniform input does not itself explain variation among the model's simulations.",
+          "C": "The model already uses a uniform value; the choice reverses the issue.",
+          "D": "Some differences from actual weather are consistent with the stated simplification."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m2_q17",
+      "section": "reading_writing",
+      "question_number": 44,
+      "passage": "Cy Twombly, a US painter and sculptor, created many large-scale abstract works, such as his 10-painting series [i]Fifty Days at Iliam[/i]. In these works, Twombly’s artistic style is exemplified by his use of graffiti-like ______ often incorporate words or phrases from poetry and mythology.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "scribbles; that"
+        },
+        {
+          "label": "B",
+          "text": "scribbles that"
+        },
+        {
+          "label": "C",
+          "text": "scribbles: that"
+        },
+        {
+          "label": "D",
+          "text": "scribbles. That"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Keep the defining relative clause attached to scribbles.",
+        "key_evidence": "scribbles that often incorporate words or phrases",
+        "why_correct": "B forms a single noun phrase whose relative clause identifies the scribbles.",
+        "detailed": "The main sentence already has a subject and verb. The remaining words describe the noun scribbles; they are not a new independent sentence. No semicolon, colon, or period should split that noun from its that-clause.",
+        "choice_analysis": {
+          "A": "A semicolon cannot introduce this dependent relative clause.",
+          "B": "No punctuation interrupts the noun and its defining relative clause.",
+          "C": "A colon unnecessarily breaks the noun from its modifier.",
+          "D": "The period leaves That often incorporate without an independent main clause."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m2_q19",
+      "section": "reading_writing",
+      "question_number": 46,
+      "passage": "The 2020 documentary [i]Without a Whisper—Konnon:Kwe[/i] was directed by Katsitsionni Fox. It explores how Indigenous Haudenosaunee culture shaped the woman suffrage movement in the early nineteenth ______ how the personal and political authority Haudenosaunee women had in their communities influenced the first suffragists in the US.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "century. Revealing"
+        },
+        {
+          "label": "B",
+          "text": "century; revealing"
+        },
+        {
+          "label": "C",
+          "text": "century, revealing"
+        },
+        {
+          "label": "D",
+          "text": "century revealing"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Use a comma before the supplementary revealing phrase.",
+        "key_evidence": "It explores how ... culture shaped the woman suffrage movement ... , revealing how ...",
+        "why_correct": "C attaches the nonfinite explanation to a complete preceding clause.",
+        "detailed": "Revealing does not introduce another independent clause: it has no finite main verb or separate subject. The comma presents it as supplementary information about the film's exploration.",
+        "choice_analysis": {
+          "A": "A period would leave a Revealing fragment.",
+          "B": "A semicolon requires an independent clause on both sides.",
+          "C": "A comma correctly introduces the supplementary participial phrase.",
+          "D": "Without a comma, revealing is improperly run into the completed time phrase."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m2_q21",
+      "section": "reading_writing",
+      "question_number": 48,
+      "passage": "Mitochondrial genomes reproduce asexually, which should over time result in an accumulation of harmful mutations and a decline in mitochondrial functionality. However, nuclear genes are hypothesized to coevolve with the rate of mitochondrial decline, eliminating mutational erosion. Such a compensatory measure ______ the organelle’s decline, unlike enzyme-stabilizing accessory proteins, offers an evolutionary explanation of mitochondrial reproduction.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "counteracting"
+        },
+        {
+          "label": "B",
+          "text": "counteracted"
+        },
+        {
+          "label": "C",
+          "text": "had counteracted"
+        },
+        {
+          "label": "D",
+          "text": "counteracts"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Counteracting modifies measure; offers is the main finite verb.",
+        "key_evidence": "Such a compensatory measure counteracting the organelle's decline ... offers an explanation.",
+        "why_correct": "A adds a participial modifier without creating a second unconnected predicate.",
+        "detailed": "Restore the source's single blank after measure. The core is measure offers an explanation. Counteracting the organelle's decline describes the measure. The other choices introduce finite verbs before offers without a coordinator or relative pronoun.",
+        "choice_analysis": {
+          "A": "Counteracting correctly forms an active participial modifier of measure.",
+          "B": "Counteracted takes decline as its object and creates an unconnected finite predicate before offers.",
+          "C": "Had counteracted similarly creates a second finite verb phrase without a clause connection.",
+          "D": "Counteracts would compete with offers as an unconnected finite predicate."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m2_q22",
+      "section": "reading_writing",
+      "question_number": 49,
+      "passage": "In the list ‘Things That Make One’s Heart Beat Faster’ from Sei Shonagon’s [i]Pillow Book[/i], the author delights in a cloudy mirror, rain on a window, and scented robes. So shrewd an observer is Shonagon, a lady-in-waiting to Empress Teishi, that her book’s musings on tenth-century Japanese courtly life ______ readers a thousand years later.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "fascinate"
+        },
+        {
+          "label": "B",
+          "text": "has fascinated"
+        },
+        {
+          "label": "C",
+          "text": "is fascinating"
+        },
+        {
+          "label": "D",
+          "text": "fascinates"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Musings is plural, so fascinate supplies the agreeing verb.",
+        "key_evidence": "her book's musings ... fascinate readers a thousand years later",
+        "why_correct": "A agrees with the plural subject musings, not singular book.",
+        "detailed": "The possessive book's identifies whose musings they are; it does not determine verb number. Remove the intervening phrase on tenth-century Japanese courtly life to see the core musings fascinate readers.",
+        "choice_analysis": {
+          "A": "Fascinate is the finite present form agreeing with plural musings.",
+          "B": "Has fascinated uses singular has with a plural subject.",
+          "C": "Is fascinating uses singular is with plural musings.",
+          "D": "Fascinates is a singular present form and disagrees with musings."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m2_q24",
+      "section": "reading_writing",
+      "question_number": 51,
+      "passage": "As an anti-federalist, Pennsylvania politician and writer Samuel Bryan objected to the US Constitution’s provisions for a powerful centralized government and opposed the document’s ratification; ______ essays he published in the [i]Philadelphia Independent Gazetteer[/i] in October 1787 under the pseudonym ‘Centinel’ disparaged the arguments of the federalists, who supported the Constitution’s adoption.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "by comparison,"
+        },
+        {
+          "label": "B",
+          "text": "fittingly,"
+        },
+        {
+          "label": "C",
+          "text": "nevertheless,"
+        },
+        {
+          "label": "D",
+          "text": "in other words,"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The essays are fitting conduct for an anti-federalist.",
+        "key_evidence": "Bryan opposed ratification, and his essays disparaged arguments for adoption.",
+        "why_correct": "B marks the expected consistency between his stance and the essays.",
+        "detailed": "The first clause establishes Bryan's position against a powerful centralized government and ratification. His essays then attack the federalist case for adoption. Fittingly connects this action to that established stance; it does not present a surprise or merely restate the same fact.",
+        "choice_analysis": {
+          "A": "No two comparable cases are being set against each other.",
+          "B": "Fittingly signals that the essays accord with his anti-federalist views.",
+          "C": "Nevertheless would suggest an unexpected contradiction, but the action matches his position.",
+          "D": "In other words would treat the essays as a rephrasing of the stance rather than a fitting action."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m2_q25",
+      "section": "reading_writing",
+      "question_number": 52,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Hina Hanta is an online archive curated by the Choctaw Nation of Oklahoma.\n• It features images of cultural artifacts relevant to the history of the Choctaw people.\n• It features household items, including a stamp (isht inchunwa in Choctaw) made from rubber.\n• The stamp was made in the 1800s.\n• Hina Hanta features sports apparel, including a stickball collar (innuchi) made from horsehair.\n• The stickball collar was made in 2016.",
+      "prompt": "The student wants to make a generalization about the Hina Hanta archive. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The Choctaw name for the rubber stamp is isht inchunwa."
+        },
+        {
+          "label": "B",
+          "text": "Included in the Hina Hanta online archive is a rubber stamp."
+        },
+        {
+          "label": "C",
+          "text": "Not all artifacts in the Hina Hanta archive are from the 1800s."
+        },
+        {
+          "label": "D",
+          "text": "The horsehair stickball collar (innuchi) was made in 2016."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Use the recent artifact to make a claim about the archive as a whole.",
+        "key_evidence": "The archive includes an 1800s stamp and a collar made in 2016.",
+        "why_correct": "C generalizes beyond a single object: not every item comes from the 1800s.",
+        "detailed": "One 2016 item is sufficient to disprove a claim that all archived artifacts are from the 1800s. This limited generalization is supported without claiming that every period is represented.",
+        "choice_analysis": {
+          "A": "A translation of one object's name is not a generalization.",
+          "B": "The presence of one stamp is an isolated fact.",
+          "C": "The 2016 item supports the limited claim about the archive's range.",
+          "D": "It describes the collar only, rather than generalizing about the archive."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "apac_b_2025_03_m2_q27",
+      "section": "reading_writing",
+      "question_number": 54,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Digital Light Synthesis (DLS) is a form of additive manufacturing that utilizes light to rapidly cure liquid resin into high-quality, 3D objects.\n• Step 1: Ultraviolet (UV) light images are projected up into a pool of liquid resin, where the object's first layer takes shape.\n• Step 2: The partially cured resin object is raised, leaving a thin space (a \"dead zone\") beneath it for oxygen and liquid resin to flow through.\n• Step 3: The UV light passes through the dead zone—maintaining the flow of resin—and partially cures additional layers of the object.\n• Step 4: When the resin object is complete, it is baked in an oven to complete the curing.",
+      "prompt": "The student wants to describe how DLS cures 3D objects. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "DLS cures 3D objects by passing through a \"dead zone,\" adding layers to the object, then curing the object in an oven."
+        },
+        {
+          "label": "B",
+          "text": "In DLS, UV light is projected into layers of liquid resin until the resin solidifies and passes through a \"dead zone,\" wherein the curing is completed."
+        },
+        {
+          "label": "C",
+          "text": "In DLS, UV light images are projected into a liquid resin pool to cure a 3D object layer by layer; once solidified, the object is baked in an oven."
+        },
+        {
+          "label": "D",
+          "text": "DLS is a form of additive manufacturing that creates a \"dead zone\" in which UV light solidifies layer by layer before being baked in an oven, creating a high-quality, 3D object."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Light cures resin layer by layer; baking completes the process.",
+        "key_evidence": "UV light passes through the dead zone and partially cures additional layers.",
+        "why_correct": "C preserves the roles of UV light, liquid resin, and the oven in order.",
+        "detailed": "The light is projected into resin to build the object. The object, not the light, is subsequently baked. The dead zone maintains flow during construction rather than completing the cure.",
+        "choice_analysis": {
+          "A": "The DLS process itself is not an object passing through the dead zone.",
+          "B": "The dead zone does not complete curing; oven baking is the final step.",
+          "C": "It gives both the layer-building step and the final baking step.",
+          "D": "UV light does not solidify into layers or get baked."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    }
+  ]
+}

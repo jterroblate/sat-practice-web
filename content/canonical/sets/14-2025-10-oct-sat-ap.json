@@ -1,0 +1,2402 @@
+{
+  "schemaVersion": "sat-canonical-question-collection-v1",
+  "contentId": "set-14-2025-10-oct-sat-ap",
+  "title": "14 2025 10 Apac",
+  "section": "reading_writing",
+  "questionCount": 53,
+  "questions": [
+    {
+      "question_id": "oct_ap_001",
+      "question_number": 1,
+      "passage": "The following text is from Lilliam Rivera’s 2020 novel Never Look Back. The text describes the narrator’s friend Pheus, a young musician, after finishing a performance during a church service.\n\nPheus pulls a handkerchief from his back pocket and wipes his forehead. I mime a quiet clap for him. He does a slight bow and flashes his dimples. This is where Pheus [vocab]truly[/vocab] shines. When Pheus is in front of an audience, it’s as if he becomes another person, a more heightened version of himself.\n\n©2020 by Lilliam Rivera",
+      "prompt": "As used in the text, what does the word “truly” most nearly mean?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Mildly"
+        },
+        {
+          "label": "B",
+          "text": "Scarcely"
+        },
+        {
+          "label": "C",
+          "text": "Really"
+        },
+        {
+          "label": "D",
+          "text": "Impolitely"
+        }
+      ],
+      "correct_answer": "C",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "“This is where Pheus [vocab]truly[/vocab] shines.”",
+        "why_correct": "In context, “truly” emphasizes that Pheus really shines when performing: he bows, smiles, and becomes “a more heightened version of himself.” Choice C, “Really,” preserves that meaning.",
+        "short": "“Truly” means “really” in this context.",
+        "detailed": "In context, “truly” emphasizes that Pheus really shines when performing: he bows, smiles, and becomes “a more heightened version of himself.” Choice C, “Really,” preserves that meaning.",
+        "choice_analysis": {
+          "A": "“Mildly” would make Pheus shine only slightly, but the passage describes him as especially vivid in front of an audience.",
+          "B": "“Scarcely” means hardly or barely, the opposite of the emphasis created by “truly.”",
+          "C": "“Really” fits because the sentence says performing is the setting where Pheus genuinely shines.",
+          "D": "“Impolitely” describes rude behavior, not the degree or genuineness of Pheus’s performance."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "Vocabulary in Context"
+      }
+    },
+    {
+      "question_id": "oct_ap_002",
+      "question_number": 2,
+      "passage": "Native Hawaiian fiber artist Marques Hanalei Marzan creates art using the techniques of lauhala weaving, a traditional Hawaiian art form that uses leaves of the hala tree.\n\nOften, Marzan doesn’t have a specific [vocab]______[/vocab] what the final product will look like when he starts a new piece. Instead, he makes up his designs as he weaves, allowing inspiration to take him in unexpected directions.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "intention for"
+        },
+        {
+          "label": "B",
+          "text": "admiration for"
+        },
+        {
+          "label": "C",
+          "text": "imitation of"
+        },
+        {
+          "label": "D",
+          "text": "acceptance of"
+        }
+      ],
+      "correct_answer": "A",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "“he makes up his designs as he weaves”",
+        "why_correct": "The next sentence says Marzan invents the design during the weaving process, so he often does not begin with a specific plan for the finished piece. “Intention for” expresses that missing plan.",
+        "short": "The blank needs a phrase meaning a specific plan.",
+        "detailed": "The next sentence says Marzan invents the design during the weaving process, so he often does not begin with a specific plan for the finished piece. “Intention for” expresses that missing plan.",
+        "choice_analysis": {
+          "A": "“Intention for” fits the idea of a predetermined purpose or plan for the final product.",
+          "B": "“Admiration for” is a feeling of respect; the sentence is about whether he has planned the final appearance.",
+          "C": "“Imitation of” would mean copying something, but the passage contrasts planning with improvising.",
+          "D": "“Acceptance of” would mean agreeing to something, which does not fit the idea of designing as he goes."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "oct_ap_003",
+      "question_number": 3,
+      "passage": "校订说明：编辑校订：来源在 filling in 前漏写方法连接词；已补足连接，保留原有词汇选项与情境。\n\nIn a study at the Massachusetts Institute of Technology, participants with clinically typical eyesight were shown a drawing of a broken line, with the break in the line situated in a blocked part of their field of vision. The participants still perceived the line as continuous, suggesting that when visual information is incomplete, the brain can [vocab]______[/vocab] by filling in what is missing.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "captivate"
+        },
+        {
+          "label": "B",
+          "text": "revert"
+        },
+        {
+          "label": "C",
+          "text": "barricade"
+        },
+        {
+          "label": "D",
+          "text": "compensate"
+        }
+      ],
+      "correct_answer": "D",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "short": "D 的 compensate 表示“弥补不足”，与大脑补全缺失视觉信息的行为相符。",
+        "key_evidence": "视觉信息 incomplete，但参与者仍把断线看成 continuous；大脑 filling in what is missing。",
+        "why_correct": "缺少部分视觉输入时，大脑用补全信息的方式弥补这个缺口，正是 compensate 的含义。By filling in 说明弥补的方式。",
+        "detailed": "题目先给出现象：线条的断处落在被遮挡的视野中，参与者却把线看成连续。由此得出的解释应当描述大脑如何应对缺失信息，而非大脑吸引谁、回到何种状态或筑起障碍。Compensate 可以不带直接宾语，表示补偿或弥补；后接 by doing 说明实现补偿的方法。编辑校订只补足这一方法连接词，没有改变待选词。",
+        "choice_analysis": {
+          "A": "Captivate 意为迷住、吸引；文本没有被吸引的对象，也不是在讨论吸引注意力。",
+          "B": "Revert 意为恢复原先状态或做法；这里没有此前状态可供返回，而是在弥补当前缺失的信息。",
+          "C": "Barricade 意为设障碍阻挡；大脑是在补全信息，不是在阻止信息进入。",
+          "D": "Compensate 意为弥补，准确描述大脑用补全缺失部分来应对不完整视觉输入。"
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "oct_ap_004",
+      "question_number": 4,
+      "passage": "The following text is from Shirley Jackson’s 1951 novel Hangsaman.\n\nNatalie was leaving for her first year in college a week after her brother went back to high school; sometimes twenty-one days resolved itself into three weeks, and seemed endless; sometimes it seemed a matter of minutes slipping by so swiftly that there would never be time to approach college with appropriate [vocab]consideration[/vocab], to form a workable personality to take along.",
+      "prompt": "As used in the text, what does the word “consideration” most nearly mean?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Admiration"
+        },
+        {
+          "label": "B",
+          "text": "Indecision"
+        },
+        {
+          "label": "C",
+          "text": "Reflection"
+        },
+        {
+          "label": "D",
+          "text": "Kindness"
+        }
+      ],
+      "correct_answer": "C",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "“there would never be time to approach college with appropriate [vocab]consideration[/vocab]”",
+        "why_correct": "Natalie is worried that time is passing too quickly for her to think carefully about college and prepare “a workable personality.” In this context, “consideration” means thoughtful reflection.",
+        "short": "“Consideration” means careful reflection here.",
+        "detailed": "Natalie is worried that time is passing too quickly for her to think carefully about college and prepare “a workable personality.” In this context, “consideration” means thoughtful reflection.",
+        "choice_analysis": {
+          "A": "“Admiration” would mean respect or approval, but the passage focuses on preparation and thought, not praise.",
+          "B": "“Indecision” is difficulty choosing; the word here refers to the careful thinking Natalie fears she lacks time for.",
+          "C": "“Reflection” fits because the passage describes the need for serious thought before leaving for college.",
+          "D": "“Kindness” is unrelated to Natalie’s attempt to prepare for college."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "Vocabulary in Context"
+      }
+    },
+    {
+      "question_id": "oct_ap_005",
+      "question_number": 5,
+      "passage": "The Marsalis family is often referred to as “the first family of jazz.” Four of the children of celebrated pianist Ellis Marsalis Jr. went on to become performers who are also critically acclaimed: drummer Jason, trombonist Delfeayo, saxophonist Branford, and trumpeter Wynton. Wynton notably went on to become the first jazz composer to win the Pulitzer Prize for Music (for his oratorio Blood on the Fields).",
+      "prompt": "Which choice best describes the main purpose of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To explain why a family of musicians received a nickname"
+        },
+        {
+          "label": "B",
+          "text": "To compare the artistic achievements of several musicians"
+        },
+        {
+          "label": "C",
+          "text": "To show why a particular musician won a major award"
+        },
+        {
+          "label": "D",
+          "text": "To emphasize why musicians should work together"
+        }
+      ],
+      "correct_answer": "A",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "“the first family of jazz” followed by four acclaimed children and Wynton’s Pulitzer",
+        "why_correct": "The text opens with the family’s nickname and then lists the musical accomplishments that justify it. Its main purpose is to explain why the Marsalis family received that nickname.",
+        "short": "The passage explains the Marsalis family’s nickname.",
+        "detailed": "The text opens with the family’s nickname and then lists the musical accomplishments that justify it. Its main purpose is to explain why the Marsalis family received that nickname.",
+        "choice_analysis": {
+          "A": "This matches the structure: the nickname is introduced, then the family’s achievements explain it.",
+          "B": "The passage lists accomplishments but does not compare the musicians against one another.",
+          "C": "Wynton’s Pulitzer is one example of the family’s acclaim, not the central topic of the whole passage.",
+          "D": "The passage does not argue that musicians should collaborate or work together."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "structural_function"
+      }
+    },
+    {
+      "question_id": "oct_ap_007",
+      "question_number": 7,
+      "passage": "Text 1 — Scientists can learn a lot about the Hispaniolan ground sloths and other prehistoric sloths from their fossils. But it can be hard to study sloths alive today. In the wild, the Linnaeus’s two-toed sloth and other sloths spend most of their time in trees. They’re difficult to observe because of their excellent camouflage and slow movements.\n\nText 2 — Rebecca Cliffe and other scientists can now record the previously hidden activities of wild sloths by using a backpack monitor. Such monitors can provide information to correct misconceptions. It was long believed that sloths are slow because of laziness. But, in fact, sloths’ slow movements are useful. Being slow protects them from predators with keen eyesight.",
+      "prompt": "The author of Text 1 and the author of Text 2 both discuss which topic?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The scientific study of sloths"
+        },
+        {
+          "label": "B",
+          "text": "How climate change affects sloths"
+        },
+        {
+          "label": "C",
+          "text": "The techniques scientists use to care for sloths"
+        },
+        {
+          "label": "D",
+          "text": "The differences between prehistoric and living sloths"
+        }
+      ],
+      "correct_answer": "A",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "Text 1 mentions learning from sloth fossils; Text 2 mentions recording wild sloths with monitors.",
+        "why_correct": "Both texts are about how scientists study sloths: Text 1 discusses evidence from fossils and the difficulty of observing living sloths, while Text 2 describes backpack monitors that reveal wild sloth activity.",
+        "short": "Both texts discuss scientific study of sloths.",
+        "detailed": "Both texts are about how scientists study sloths: Text 1 discusses evidence from fossils and the difficulty of observing living sloths, while Text 2 describes backpack monitors that reveal wild sloth activity.",
+        "choice_analysis": {
+          "A": "This is the shared topic because both passages describe ways scientists learn about sloths.",
+          "B": "Neither text discusses climate change.",
+          "C": "Text 2 discusses monitoring wild sloths, not caring for them; Text 1 also is not about care techniques.",
+          "D": "Only Text 1 contrasts prehistoric and living sloths, so this is not a topic both authors discuss."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Cross-Text Connections",
+        "subtype": "cross_text_analysis"
+      }
+    },
+    {
+      "question_id": "oct_ap_008",
+      "question_number": 8,
+      "passage": "Humans aren’t the only ones who use tools. Other animals also find tools helpful. Octopuses use two halves of a seashell to provide protection or a place to hide. And despite sometimes being thought of as simple, many birds make clever use of tools as well. New Caledonian crows are well known for creating hooks and spears from twigs. Furthermore, palm cockatoos have been observed using leaves to pad their beaks when opening nuts.",
+      "prompt": "According to the text, what are New Caledonian crows known for?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "They have larger brains than palm cockatoos have."
+        },
+        {
+          "label": "B",
+          "text": "They live longer than cockatoos do."
+        },
+        {
+          "label": "C",
+          "text": "They create tools out of twigs."
+        },
+        {
+          "label": "D",
+          "text": "They use leaves as tools."
+        }
+      ],
+      "correct_answer": "C",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "“New Caledonian crows are well known for creating hooks and spears from twigs.”",
+        "why_correct": "The question asks for an explicitly stated detail. The passage directly says New Caledonian crows create hooks and spears from twigs, so they are known for making tools out of twigs.",
+        "short": "The passage says New Caledonian crows make tools from twigs.",
+        "detailed": "The question asks for an explicitly stated detail. The passage directly says New Caledonian crows create hooks and spears from twigs, so they are known for making tools out of twigs.",
+        "choice_analysis": {
+          "A": "The passage does not compare brain sizes of crows and palm cockatoos.",
+          "B": "The passage gives no information about how long either bird lives.",
+          "C": "This restates the passage’s detail that New Caledonian crows create hooks and spears from twigs.",
+          "D": "The passage says palm cockatoos use leaves, not New Caledonian crows."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "main_idea_or_detail"
+      }
+    },
+    {
+      "question_id": "oct_ap_009",
+      "question_number": 9,
+      "passage": "Women like Minnie McNeal Kenny made important early contributions to the history of US cryptology, a field concerned with secure data communication and storage. Kenny worked for the National Security Agency (NSA) and received the NSA’s two highest awards. She also held administrative positions at the National Cryptologic School. In this way, Kenny and others like her helped make it possible for more women — such as Anna Lysyanskaya, who currently works in and teaches digital cryptography — to enter the field of cryptology.",
+      "prompt": "According to the text, what is the relationship between Kenny and Lysyanskaya?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Kenny taught Lysyanskaya how to securely manage important data."
+        },
+        {
+          "label": "B",
+          "text": "Kenny and Lysyanskaya worked together early in their careers."
+        },
+        {
+          "label": "C",
+          "text": "Kenny founded an organization that Lysyanskaya currently works for."
+        },
+        {
+          "label": "D",
+          "text": "Kenny made earlier contributions to a field that Lysyanskaya currently works within."
+        }
+      ],
+      "correct_answer": "D",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "Kenny made early contributions to cryptology; Lysyanskaya “currently works in and teaches digital cryptography.”",
+        "why_correct": "The passage presents Kenny as an earlier contributor to US cryptology and Lysyanskaya as a current worker and teacher in digital cryptography. Their relationship is therefore historical continuity within the same field.",
+        "short": "Kenny contributed earlier to the field Lysyanskaya works in now.",
+        "detailed": "The passage presents Kenny as an earlier contributor to US cryptology and Lysyanskaya as a current worker and teacher in digital cryptography. Their relationship is therefore historical continuity within the same field.",
+        "choice_analysis": {
+          "A": "The text does not say Kenny taught Lysyanskaya.",
+          "B": "The passage gives no evidence that they worked together, and it contrasts Kenny’s earlier role with Lysyanskaya’s current one.",
+          "C": "Kenny held positions at the National Cryptologic School, but the text does not say she founded Lysyanskaya’s organization.",
+          "D": "This matches the passage: Kenny contributed earlier to cryptology, and Lysyanskaya now works in digital cryptography."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "main_idea_or_detail"
+      }
+    },
+    {
+      "question_id": "oct_ap_010",
+      "question_number": 10,
+      "passage": "Optimal foraging theory (OFT) holds that animals’ foraging behaviors reflect cost-benefit trade-offs that vary by species and with dynamic ecological circumstances. One such circumstance is lunar intensity, which Mahmoud-Reza Hemami and colleagues found to be negatively associated with foraging by Iranian jerboas but Deborah J. Curtis and colleagues found to be positively associated with foraging by mongoose lemurs. This discrepancy is explicable in terms of OFT: the lemurs’ greater reliance on vision means that higher lunar intensity benefits them more than it benefits the jerboas.",
+      "prompt": "Information in the text best supports which statement about OFT?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It can account for observations of different species responding differently to similar ecological circumstances."
+        },
+        {
+          "label": "B",
+          "text": "It tends to allow for a better understanding of the benefits of ecological circumstances than the costs of those circumstances."
+        },
+        {
+          "label": "C",
+          "text": "It may be weakened by the finding that the costs and benefits associated with a particular ecological circumstance vary by species."
+        },
+        {
+          "label": "D",
+          "text": "It can explain why some species act in accordance with cost-benefit trade-offs and others do not."
+        }
+      ],
+      "correct_answer": "A",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "“This discrepancy is explicable in terms of OFT”",
+        "why_correct": "The passage describes two species responding differently to lunar intensity: jerboas forage less, while mongoose lemurs forage more. It then says OFT can explain that discrepancy, supporting the statement that OFT accounts for different species’ different responses to similar circumstances.",
+        "short": "OFT can explain different species’ different responses.",
+        "detailed": "The passage describes two species responding differently to lunar intensity: jerboas forage less, while mongoose lemurs forage more. It then says OFT can explain that discrepancy, supporting the statement that OFT accounts for different species’ different responses to similar circumstances.",
+        "choice_analysis": {
+          "A": "This is supported because the passage says OFT explains opposite responses by two species to lunar intensity.",
+          "B": "The passage discusses cost-benefit trade-offs, not that OFT favors understanding benefits over costs.",
+          "C": "The passage treats species variation as something OFT explains, not as something that weakens OFT.",
+          "D": "The passage says OFT applies to cost-benefit trade-offs generally; it does not divide species into those that follow such trade-offs and those that do not."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "oct_ap_011",
+      "question_number": 11,
+      "passage": "Most bird species that are capable of flight weigh less than a kilogram (kg), which is not surprising considering the burden that extra body weight puts on a flying animal. But not all flying birds are so light, as we can see most clearly in the example of the ______.",
+      "prompt": "Which choice most effectively uses data from the table to complete the example?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "northern cassowary, which has an average mass of 44.0 kg."
+        },
+        {
+          "label": "B",
+          "text": "Andean condor, which has an average mass below 10 kg."
+        },
+        {
+          "label": "C",
+          "text": "northern cassowary, which has a higher average mass than the lesser rhea."
+        },
+        {
+          "label": "D",
+          "text": "Dalmatian pelican, which has an average mass of 11.5 kg."
+        }
+      ],
+      "correct_answer": "D",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "chart_image": "chart_images/oct_ap_011_table.png",
+      "chart_image_data_uri": "../categories/chart_images/oct_ap_011_table.png",
+      "chart_image_width": 1155,
+      "chart_image_height": 430,
+      "explanation": {
+        "key_evidence": "Dalmatian pelican: 11.5 kg and capable of flight.",
+        "why_correct": "The text needs an example of a bird that can fly but weighs much more than 1 kg. The table shows that the Dalmatian pelican is capable of flight and has an average mass of 11.5 kg, so it clearly fits the exception described.",
+        "short": "The Dalmatian pelican is a flying bird well above 1 kg.",
+        "detailed": "The text needs an example of a bird that can fly but weighs much more than 1 kg. The table shows that the Dalmatian pelican is capable of flight and has an average mass of 11.5 kg, so it clearly fits the exception described.",
+        "choice_analysis": {
+          "A": "The northern cassowary is heavy, but the table says it is not capable of flight.",
+          "B": "The Andean condor is capable of flight, but the choice inaccurately says its mass is below 10 kg; the table gives 11.3 kg.",
+          "C": "The northern cassowary is flightless, so its mass comparison with the lesser rhea does not support the point about flying birds.",
+          "D": "The Dalmatian pelican is capable of flight and weighs 11.5 kg, making it a strong example of a flying bird that is not under 1 kg."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "data_evidence"
+      }
+    },
+    {
+      "question_id": "oct_ap_012",
+      "question_number": 12,
+      "passage": "A student is writing a research paper on the history of irrigation in the United States, situating the development of Lake Yosemite (created in Merced County, California, in 1888) in a larger historical context. The student claims that California’s climate renders irrigation an essential component of agriculture in some parts of the state but not in others.",
+      "prompt": "Which quotation from a study of California agriculture best supports the student’s claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "While the low humidity of Southern California’s desert areas makes irrigation a requirement if agriculture is to be a success there, the relatively high humidity in the northern parts of the state makes such practices less necessary."
+        },
+        {
+          "label": "B",
+          "text": "The irrigation system developed by the Hohokam people in the 7th century CE in what is now Arizona was simple but applied hydraulic engineering design features that are in use today throughout California."
+        },
+        {
+          "label": "C",
+          "text": "Sprinkler irrigation systems are a method of irrigating that requires machinery to spray water in all directions. These systems can presently be found in use throughout California."
+        },
+        {
+          "label": "D",
+          "text": "The usefulness of irrigation infrastructure in California today cannot be overstated, since it is the most common means of conveying water for agricultural purposes."
+        }
+      ],
+      "correct_answer": "A",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "A contrasts low-humidity southern areas with higher-humidity northern areas.",
+        "why_correct": "The claim says California’s climate makes irrigation essential in some parts of the state but not others. Choice A directly supports both parts: low humidity in desert areas makes irrigation required, while higher humidity in northern areas makes it less necessary.",
+        "short": "Choice A directly links climate differences to different irrigation needs.",
+        "detailed": "The claim says California’s climate makes irrigation essential in some parts of the state but not others. Choice A directly supports both parts: low humidity in desert areas makes irrigation required, while higher humidity in northern areas makes it less necessary.",
+        "choice_analysis": {
+          "A": "This quotation matches the claim by tying regional climate differences to whether irrigation is required or less necessary.",
+          "B": "This discusses Hohokam irrigation history and engineering, not California climate differences within the state.",
+          "C": "This describes sprinkler systems being used throughout California, but it does not show that climate makes irrigation necessary in some places and less necessary in others.",
+          "D": "This broadly praises irrigation infrastructure in California, but it does not distinguish climate conditions across regions."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "textual_evidence"
+      }
+    },
+    {
+      "question_id": "oct_ap_013",
+      "question_number": 13,
+      "passage": "Terrestrial plants typically carry a negative electrical charge, while bees and other pollinators tend to accumulate a positive charge. A team of researchers therefore hypothesized that electrostatic attraction (mutual attraction between objects with opposite charges) might enhance pollen transmission between plants and their pollinator species. The team’s experiments showed that the maximum positive charge of wintering honeybees is sufficiently high to facilitate electrostatic pollen transfer, a finding that suggests that ____.",
+      "prompt": "Which choice most effectively uses data from the graph to complete the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "red mason bees and houseflies, having greater maximum charges than wintering honeybees have, should not demonstrate this capacity."
+        },
+        {
+          "label": "B",
+          "text": "houseflies should demonstrate the opposite tendency."
+        },
+        {
+          "label": "C",
+          "text": "the minimum positive charge necessary for a pollinator to induce electrostatic attraction must be greater than 300 pC."
+        },
+        {
+          "label": "D",
+          "text": "red mason bees should also demonstrate this capacity."
+        }
+      ],
+      "correct_answer": "D",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "chart_image": "chart_images/oct_ap_013_graph.png",
+      "chart_image_data_uri": "../categories/chart_images/oct_ap_013_graph.png",
+      "chart_image_width": 1170,
+      "chart_image_height": 470,
+      "explanation": {
+        "short": "Red mason bees have a greater maximum charge than honeybees, whose measured charge is already sufficient for pollen transfer.",
+        "key_evidence": "The graph shows red mason bees near 780 pC, wintering honeybees near 350 pC, and houseflies near 75 pC.",
+        "why_correct": "The text establishes that the honeybees' charge is sufficient. Mason bees have an even greater maximum positive charge, supporting the prediction that they too can attract pollen electrostatically.",
+        "detailed": "Use the honeybee observation as evidence of sufficiency, not as a measured minimum requirement. The graph places red mason bees above that sufficient measured value. It does not identify the exact minimum charge or show what a smaller positive charge does, so conclusions about a precise threshold or a reversed effect go beyond the evidence.",
+        "choice_analysis": {
+          "A": "Incorrect. Mason bees should share the capacity rather than lack it, and houseflies have a lower—not greater—maximum charge than honeybees.",
+          "B": "Incorrect. A smaller positive charge does not establish the opposite, repulsive tendency.",
+          "C": "Incorrect. A sufficient observed charge near 350 pC does not prove that the minimum necessary charge exceeds 300 pC.",
+          "D": "Correct. The larger positive charge supports predicting the same attraction capacity that the honeybees already demonstrate."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "data_evidence"
+      }
+    },
+    {
+      "question_id": "oct_ap_014",
+      "question_number": 14,
+      "passage": "Namibia has classified the house sparrow as an invasive species that could harm some of the country’s native species. But researchers Alejandro Camacho and Jason McLachlan have pointed out that “invasive” and “native” are labels that describe temporary circumstances. Changes in Earth’s climate may force animals from their current ranges. Climate changes may also create good habitats in areas where a species couldn’t live previously. These observations suggest that _____.",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "changes in Earth’s climate are likely to result in the house sparrow establishing itself as a native species in locations other than Namibia."
+        },
+        {
+          "label": "B",
+          "text": "Namibia was previously home to some house sparrows but they were outcompeted by invading species."
+        },
+        {
+          "label": "C",
+          "text": "it’s appropriate for Namibia to designate certain species as invasive but the country should designate the house sparrow as native."
+        },
+        {
+          "label": "D",
+          "text": "Namibia may eventually need to reexamine its designation of the house sparrow as invasive."
+        }
+      ],
+      "correct_answer": "D",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "“invasive” and “native” are temporary labels, and climate can change habitats.",
+        "why_correct": "The researchers argue that species labels depend on changing circumstances. Since climate change can move animals and create new suitable habitats, Namibia’s current “invasive” label for the house sparrow may need to be reconsidered later.",
+        "short": "Changing habitats could make Namibia reconsider the house sparrow label.",
+        "detailed": "The researchers argue that species labels depend on changing circumstances. Since climate change can move animals and create new suitable habitats, Namibia’s current “invasive” label for the house sparrow may need to be reconsidered later.",
+        "choice_analysis": {
+          "A": "The passage is about Namibia’s designation and changing labels, not about the house sparrow becoming native somewhere outside Namibia.",
+          "B": "Nothing in the passage says house sparrows previously lived in Namibia or were outcompeted.",
+          "C": "The passage does not say Namibia should currently call the house sparrow native; it suggests labels may need reexamination as circumstances change.",
+          "D": "This fits because temporary labels and changing habitats could require Namibia to reassess the current invasive designation."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "oct_ap_015",
+      "question_number": 15,
+      "passage": "Password strength meters (PSMs) provide real-time feedback to users during the password-creation process about how secure a potential password is. PSMs often include “nudges”—design elements meant to encourage the creation of robust passwords. Other PSMs provide direct guidance on how to create strong passwords. A research team found that the strongest passwords resulted from a combination of these approaches. The team also found that the specific type of nudge (reciprocity, compensation, etc.) did not significantly affect user behavior. It therefore follows that when creating passwords, users receiving _____.",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "both compensation and reciprocity nudges would not be expected to create stronger passwords than users receiving reciprocity nudges only, although users receiving direct guidance would be expected to create stronger passwords than users receiving either type of nudge."
+        },
+        {
+          "label": "B",
+          "text": "direct guidance would not be expected to create stronger passwords than users receiving compensation nudges, although users receiving compensation nudges would be expected to create stronger passwords than users receiving reciprocity nudges."
+        },
+        {
+          "label": "C",
+          "text": "reciprocity nudges would not be expected to create stronger passwords than users receiving compensation nudges, although users receiving both direct guidance and reciprocity nudges would be expected to create stronger passwords than users receiving only reciprocity nudges."
+        },
+        {
+          "label": "D",
+          "text": "both direct guidance and reciprocity nudges would not be expected to create stronger passwords than users receiving reciprocity nudges only, although users receiving this combination would be expected to create stronger passwords than users receiving both direct guidance and compensation nudges."
+        }
+      ],
+      "correct_answer": "C",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "Strongest passwords used a combination; nudge type did not significantly affect behavior.",
+        "why_correct": "The findings imply two things: reciprocity and compensation nudges should perform similarly, and combining direct guidance with a nudge should outperform a nudge alone. Choice C states both ideas by comparing reciprocity with compensation and direct guidance plus reciprocity with reciprocity only.",
+        "short": "Choice C matches both findings about nudge type and combined approaches.",
+        "detailed": "The findings imply two things: reciprocity and compensation nudges should perform similarly, and combining direct guidance with a nudge should outperform a nudge alone. Choice C states both ideas by comparing reciprocity with compensation and direct guidance plus reciprocity with reciprocity only.",
+        "choice_analysis": {
+          "A": "This says direct guidance alone should beat either nudge, but the passage says the strongest passwords came from combining direct guidance with nudges.",
+          "B": "This predicts compensation nudges beat reciprocity nudges, contradicting the finding that nudge type did not significantly affect behavior.",
+          "C": "This correctly says one nudge type should not outperform another and that direct guidance combined with a nudge should outperform a nudge alone.",
+          "D": "This reverses the combination finding by saying direct guidance plus reciprocity would not beat reciprocity alone."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "oct_ap_016",
+      "question_number": 16,
+      "passage": "The Okavango Delta is a vital water source and hub for biodiversity in southern Africa. Koketso Mookodi, a director of the National Geographic Okavango Wilderness Project (NGOWP) in Botswana, helps educate the public about _____ important place.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "this"
+        },
+        {
+          "label": "B",
+          "text": "both"
+        },
+        {
+          "label": "C",
+          "text": "those"
+        },
+        {
+          "label": "D",
+          "text": "these"
+        }
+      ],
+      "correct_answer": "A",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "“important place” is singular and refers to the Okavango Delta.",
+        "why_correct": "The determiner must modify the singular noun “place.” “This” is singular and correctly points back to the Okavango Delta, while the other options are plural or refer to two things.",
+        "short": "“This” agrees with singular “place.”",
+        "detailed": "The determiner must modify the singular noun “place.” “This” is singular and correctly points back to the Okavango Delta, while the other options are plural or refer to two things.",
+        "choice_analysis": {
+          "A": "“This” is singular and correctly modifies “important place.”",
+          "B": "“Both” refers to two things, but the sentence describes one place.",
+          "C": "“Those” is plural and cannot modify singular “place.”",
+          "D": "“These” is plural and cannot modify singular “place.”"
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "oct_ap_017",
+      "question_number": 17,
+      "passage": "After screening Stellar by Anishinaabe filmmaker Darlene Naponse, the members of the selection committee for the Native Women in Film Festival were so impressed by the feature-length romance that they chose ____ as one of the films to be shown at the festival.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "it"
+        },
+        {
+          "label": "B",
+          "text": "those"
+        },
+        {
+          "label": "C",
+          "text": "these"
+        },
+        {
+          "label": "D",
+          "text": "them"
+        }
+      ],
+      "correct_answer": "A",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "“the feature-length romance” is singular.",
+        "why_correct": "The pronoun refers to the singular film Stellar, described as “the feature-length romance.” The singular object pronoun “it” agrees with that antecedent.",
+        "short": "The singular film requires the singular pronoun “it.”",
+        "detailed": "The pronoun refers to the singular film Stellar, described as “the feature-length romance.” The singular object pronoun “it” agrees with that antecedent.",
+        "choice_analysis": {
+          "A": "“It” is singular and correctly refers to the film Stellar.",
+          "B": "“Those” is plural and does not agree with the singular film.",
+          "C": "“These” is plural and does not agree with the singular film.",
+          "D": "“Them” is plural and does not agree with the singular film."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "pronoun_agreement"
+      }
+    },
+    {
+      "question_id": "oct_ap_018",
+      "question_number": 18,
+      "passage": "Robert B. Elliott was one of the nearly two thousand African Americans who won a public office during the Reconstruction era, the twelve-year period that followed the Civil War. A politician from South Carolina, _____.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Elliott was elected to the US House of Representatives in 1870 by his constituents."
+        },
+        {
+          "label": "B",
+          "text": "1870 was the year that Elliott was elected to the US House of Representatives by his constituents."
+        },
+        {
+          "label": "C",
+          "text": "constituents of Elliott elected him to the US House of Representatives in 1870."
+        },
+        {
+          "label": "D",
+          "text": "in 1870, his constituents elected Elliott to the US House of Representatives."
+        }
+      ],
+      "correct_answer": "A",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "short": "The introductory description identifies Elliott, so Elliott must be the subject of the following main clause.",
+        "key_evidence": "The opener is 'A politician from South Carolina'; only A continues with Elliott as the clause's subject.",
+        "why_correct": "The modifier describes a person, Robert B. Elliott. A attaches it to that person's name and makes Elliott the subject of was elected.",
+        "detailed": "Find the grammatical subject of each completed main clause, rather than judging only the next few words. In A it is Elliott, the politician being described. In B it is 1870; in C and D it is his constituents. An introductory time phrase in D does not change that mismatched subject.",
+        "choice_analysis": {
+          "A": "Correct. Elliott is the politician described and the subject of was elected.",
+          "B": "Incorrect. The main-clause subject 1870 is a year, not the politician named in the modifier.",
+          "C": "Incorrect. Constituents is the subject, making the introductory singular description appear to describe the voters.",
+          "D": "Incorrect. Even after the time phrase in 1870, the main-clause subject remains his constituents rather than Elliott."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "mixed_convention"
+      }
+    },
+    {
+      "question_id": "oct_ap_019",
+      "question_number": 19,
+      "passage": "The relationship between grassland arthropod populations and agricultural fertilizers containing macronutrients—such as nitrogen, phosphorus, and potassium—was the focus of a 1992 study in the _____ by the researcher Walther van Wingerden, the study examined a variety of arthropod specimens, which had been collected by hand.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Netherlands and led"
+        },
+        {
+          "label": "B",
+          "text": "Netherlands, led"
+        },
+        {
+          "label": "C",
+          "text": "Netherlands. Led"
+        },
+        {
+          "label": "D",
+          "text": "Netherlands led"
+        }
+      ],
+      "correct_answer": "C",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "Choice C creates: “...in the Netherlands. Led by... the study examined...”",
+        "why_correct": "The text needs a sentence boundary after “Netherlands.” Choice C uses a period, then starts a new sentence with the modifier “Led by the researcher Walther van Wingerden,” correctly attaching that modifier to “the study.”",
+        "short": "A period is needed before “Led by...” to avoid a comma splice.",
+        "detailed": "The text needs a sentence boundary after “Netherlands.” Choice C uses a period, then starts a new sentence with the modifier “Led by the researcher Walther van Wingerden,” correctly attaching that modifier to “the study.”",
+        "choice_analysis": {
+          "A": "“Netherlands and led” does not correctly join the location and modifier and leaves the sentence structure awkward and ungrammatical.",
+          "B": "“Netherlands, led” leaves the following independent clause “the study examined...” attached with only commas, producing a comma splice.",
+          "C": "This correctly ends the first sentence after “Netherlands” and begins a new sentence with a modifier that describes the study.",
+          "D": "“Netherlands led” suggests the Netherlands did the leading and still leaves the following clause improperly joined."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "oct_ap_020",
+      "question_number": 20,
+      "passage": "Known in Taiwan for hosting its first televised cooking show, renowned _____ Fu Pei-mei taught viewers how to cook Chinese cuisine for almost 40 years. Fu gained acclaim outside of Taiwan as well, particularly from the success of her first bilingual Mandarin–English cookbook, published in 1969.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "chef and culinary instructor,"
+        },
+        {
+          "label": "B",
+          "text": "chef and culinary instructor"
+        },
+        {
+          "label": "C",
+          "text": "chef, and culinary instructor"
+        },
+        {
+          "label": "D",
+          "text": "chef, and culinary instructor—"
+        }
+      ],
+      "correct_answer": "B",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "“renowned chef and culinary instructor Fu Pei-mei”",
+        "why_correct": "The phrase “chef and culinary instructor” is a compound title directly identifying Fu Pei-mei before her name. Such a title is not separated from the name by a comma, so choice B is correct.",
+        "short": "No comma is needed between the title and the name.",
+        "detailed": "The phrase “chef and culinary instructor” is a compound title directly identifying Fu Pei-mei before her name. Such a title is not separated from the name by a comma, so choice B is correct.",
+        "choice_analysis": {
+          "A": "The comma after “instructor” incorrectly separates the title from the name Fu Pei-mei.",
+          "B": "This correctly gives the compound title before the name with no unnecessary punctuation.",
+          "C": "The comma before “and” incorrectly splits the compound title.",
+          "D": "The comma and dash incorrectly interrupt the title before the name."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "oct_ap_021",
+      "question_number": 21,
+      "passage": "Anthropologist, activist, and musician Lila Downs draws on a variety of Mexican musical genres in her 2023 album La Sánchez. _____ she draws on corridos, rancheras, and other genres of northern Mexico, even though she is from the southern Mexican city of Oaxaca. “La Sánchez is my contribution,” Downs says in an interview, “as a southern woman, that also considers this music as hers.”",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Specifically,"
+        },
+        {
+          "label": "B",
+          "text": "Therefore,"
+        },
+        {
+          "label": "C",
+          "text": "In conclusion,"
+        },
+        {
+          "label": "D",
+          "text": "Rather,"
+        }
+      ],
+      "correct_answer": "A",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "The first sentence says Lila Downs draws on “a variety of Mexican musical genres”; the next sentence names corridos, rancheras, and other northern Mexican genres.",
+        "why_correct": "“Specifically” signals that the second sentence gives particular examples of the broader musical variety introduced in the first sentence.",
+        "choice_analysis": {
+          "A": "Correct. “Specifically” introduces concrete examples of the general category of Mexican musical genres.",
+          "B": "Incorrect. “Therefore” would show a result, but the second sentence is not caused by the first; it provides examples.",
+          "C": "Incorrect. “In conclusion” would signal a summary or ending, but the passage is adding detail.",
+          "D": "Incorrect. “Rather” would correct or contrast with the prior claim, but the second sentence supports it."
+        },
+        "short": "The second sentence names specific genres after the first sentence mentions a variety of genres.",
+        "detailed": "Because corridos and rancheras are examples of the Mexican musical genres mentioned earlier, the blank needs a transition that introduces specifics."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "oct_ap_022",
+      "question_number": 22,
+      "passage": "The World Cup of men’s soccer, one of the biggest sporting events on the planet, brought 32 national teams from six continents to the host country, Germany, in 2006. _____ only 16 teams, all from Europe and the Americas, competed in the 1958 World Cup in Sweden.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Therefore,"
+        },
+        {
+          "label": "B",
+          "text": "For instance,"
+        },
+        {
+          "label": "C",
+          "text": "In contrast,"
+        },
+        {
+          "label": "D",
+          "text": "In other words,"
+        }
+      ],
+      "correct_answer": "C",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "The 2006 World Cup had 32 national teams from six continents, while the 1958 World Cup had only 16 teams from Europe and the Americas.",
+        "why_correct": "“In contrast” accurately marks the difference between the larger, more geographically diverse 2006 tournament and the smaller 1958 tournament.",
+        "choice_analysis": {
+          "A": "Incorrect. “Therefore” would signal a result, but the 1958 tournament is not a consequence of the 2006 tournament.",
+          "B": "Incorrect. “For instance” would introduce an example of the prior idea, but the 1958 World Cup contrasts with the 2006 World Cup.",
+          "C": "Correct. “In contrast” directly signals the difference between the two tournaments.",
+          "D": "Incorrect. “In other words” would restate the same idea, but the second sentence gives different facts."
+        },
+        "short": "The sentence contrasts the 2006 and 1958 World Cups.",
+        "detailed": "The second sentence gives smaller numbers and a narrower geographic range than the first sentence, so a contrast transition is required."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "oct_ap_023",
+      "question_number": 23,
+      "passage": "Broadcasting from the Yankton Sioux Tribe’s lands in southern South Dakota, the Native-run radio station KDKO 89.5 FM does much to serve the local Dakota-speaking community. _____ it broadcasts local news and music as well as programming in the Dakota language.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Instead,"
+        },
+        {
+          "label": "B",
+          "text": "Specifically,"
+        },
+        {
+          "label": "C",
+          "text": "As a result,"
+        },
+        {
+          "label": "D",
+          "text": "Nevertheless,"
+        }
+      ],
+      "correct_answer": "B",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "The first sentence says KDKO “does much to serve” the Dakota-speaking community; the next sentence lists local news, music, and Dakota-language programming.",
+        "why_correct": "“Specifically” introduces concrete examples of how the station serves that community.",
+        "choice_analysis": {
+          "A": "Incorrect. “Instead” would signal replacement or contrast, but the broadcasts are examples of how KDKO serves the community.",
+          "B": "Correct. “Specifically” introduces the listed services as examples of the station’s work.",
+          "C": "Incorrect. “As a result” would show an effect, but the broadcasts are not a result of the prior sentence; they explain it.",
+          "D": "Incorrect. “Nevertheless” would introduce a contrast, but the second sentence supports the first."
+        },
+        "short": "The second sentence lists specific services KDKO provides.",
+        "detailed": "The passage moves from a general statement about serving the community to examples of that service, so “Specifically” is the best transition."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "oct_ap_024",
+      "question_number": 24,
+      "passage": "In the West African country of Sierra Leone, the percentage of the population living in cities rose from 40.8% to 42.9% between 2015 and 2020. _____ urbanization rates climbed across West Africa as a whole, rising 3.2 percentage points in that five-year period.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "In other words,"
+        },
+        {
+          "label": "B",
+          "text": "Eventually,"
+        },
+        {
+          "label": "C",
+          "text": "Concurrently,"
+        },
+        {
+          "label": "D",
+          "text": "For example,"
+        }
+      ],
+      "correct_answer": "C",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "Sierra Leone’s urban population percentage rose between 2015 and 2020, and urbanization rates across West Africa also climbed in that same five-year period.",
+        "why_correct": "“Concurrently” means at the same time, which fits two urbanization trends occurring during the same period.",
+        "choice_analysis": {
+          "A": "Incorrect. “In other words” would restate the Sierra Leone statistic, but the second sentence gives a related regional trend.",
+          "B": "Incorrect. “Eventually” would emphasize a later outcome, but both trends are described over the same 2015-2020 period.",
+          "C": "Correct. “Concurrently” shows that the Sierra Leone trend and the regional West Africa trend happened during the same period.",
+          "D": "Incorrect. “For example” would make West Africa an example of Sierra Leone, but the second sentence broadens from one country to the region."
+        },
+        "short": "Both urbanization increases happened during the same five-year period.",
+        "detailed": "The blank needs a transition that links simultaneous trends, not a contrast or example."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "oct_ap_025",
+      "question_number": 25,
+      "passage": "Al-Andalus, the historical region of the Iberian Peninsula that includes most of modern-day Spain, was ruled by various Arabic-speaking Muslim states between the eighth and fifteenth centuries. _____ many Arabic words, such as “alacrán”—meaning “scorpion”—made their way into the Spanish language.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Consequently,"
+        },
+        {
+          "label": "B",
+          "text": "Specifically,"
+        },
+        {
+          "label": "C",
+          "text": "For example,"
+        },
+        {
+          "label": "D",
+          "text": "Instead,"
+        }
+      ],
+      "correct_answer": "A",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "Al-Andalus was ruled by Arabic-speaking Muslim states for centuries, and many Arabic words later entered Spanish.",
+        "why_correct": "“Consequently” shows the cause-and-effect relationship: Arabic-speaking rule helps explain why Arabic words became part of Spanish.",
+        "choice_analysis": {
+          "A": "Correct. “Consequently” signals that Arabic words entering Spanish was a result of the Arabic-speaking rule described in the first sentence.",
+          "B": "Incorrect. “Specifically” would narrow a broad category already named, but the first sentence gives historical context rather than a category of words.",
+          "C": "Incorrect. “For example” would make the second sentence an example of the first sentence, but it is better understood as a result of the historical situation.",
+          "D": "Incorrect. “Instead” would signal replacement or contrast, and the second sentence does not contradict the first."
+        },
+        "short": "Arabic words entering Spanish is presented as a result of Arabic-speaking rule in Al-Andalus.",
+        "detailed": "Because the second sentence follows from the historical rule described in the first, a cause-and-effect transition is needed."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "oct_ap_026",
+      "question_number": 26,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• The Dnieper River is in Europe.\n• It ranks No. 48 among the longest rivers in the world.\n• It is 2,287 kilometers long.\n• The Indus River is in Asia.\n• It ranks No. 19 among the longest rivers in the world.\n• It is 3,610 kilometers long.",
+      "prompt": "The student wants to compare the lengths of the two rivers. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The Indus River is in Asia, whereas the Dnieper River is located in Europe."
+        },
+        {
+          "label": "B",
+          "text": "The Dnieper River is shorter than the Indus River."
+        },
+        {
+          "label": "C",
+          "text": "The Dnieper River in Europe is 2,287 kilometers long."
+        },
+        {
+          "label": "D",
+          "text": "Among the longest rivers in the world, the Indus River is ranked No. 19."
+        }
+      ],
+      "correct_answer": "B",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "The notes state that the Dnieper River is 2,287 kilometers long and the Indus River is 3,610 kilometers long.",
+        "why_correct": "Choice B directly compares the two lengths by stating that the Dnieper is shorter than the Indus.",
+        "choice_analysis": {
+          "A": "Incorrect. It compares locations, not lengths.",
+          "B": "Correct. It uses the length information to make a direct comparison between the rivers.",
+          "C": "Incorrect. It gives only the Dnieper’s length and does not compare it with the Indus.",
+          "D": "Incorrect. It gives a ranking for the Indus but does not compare the rivers’ lengths."
+        },
+        "short": "The relevant notes show 2,287 km for the Dnieper and 3,610 km for the Indus.",
+        "detailed": "The student’s goal is to compare lengths, so the best answer must mention both rivers in relation to each other."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "oct_ap_027",
+      "question_number": 27,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• 2024: Spain and Portugal sponsored a workshop to address recent encounters between Iberian orcas and marine vessels off the Iberian Peninsula.\n• Many of the 637 documented incidents involved pods of orcas damaging vessels by ramming, nudging, or biting the rudders.\n• Studies of Iberian orcas suggest recent increases in tuna populations have reduced the time the orcas spend hunting by 99%.\n• Researchers believe this shift has increased the number of interactions between marine vessels and understimulated orcas.\n• The workshop advised mariners to avoid orcas pending further testing of the efficacy of TAST, a harmless acoustic deterrent.",
+      "prompt": "The student wants to make and support a claim about Iberian orca behavior. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The recent destructive behavior of Iberian orcas may be the result of understimulation, given that orcas’ interactions with marine vessels have increased as the orcas have spent less time hunting."
+        },
+        {
+          "label": "B",
+          "text": "Tuna populations have increased by approximately 99% off the Iberian Peninsula due to changes in the hunting behavior of Iberian orcas."
+        },
+        {
+          "label": "C",
+          "text": "As supported by the workshop’s analysis of 637 encounters between vessels and Iberian orcas, TAST is a harmless and effective acoustic deterrent."
+        },
+        {
+          "label": "D",
+          "text": "In 2024, Spain and Portugal sponsored a workshop that addressed incidents where pods of Iberian orcas were ramming, nudging, or biting the rudders of vessels."
+        }
+      ],
+      "correct_answer": "A",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "short": "A proposes understimulation as a reason for the destructive behavior and supports it with reduced hunting time.",
+        "key_evidence": "The notes connect a 99% reduction in hunting time to increased interactions between vessels and understimulated orcas.",
+        "why_correct": "The student needs both a behavioral claim and support. A states a cautious cause for the behavior and cites the corresponding hunting-time change from the notes.",
+        "detailed": "Distinguish what increased by what amount: tuna became more plentiful, and hunting time fell by 99%. Researchers link that change to understimulation and more vessel interactions. The acoustic deterrent's effectiveness remains under testing. A accurately combines the behavioral hypothesis and its support without overstating it.",
+        "choice_analysis": {
+          "A": "Correct. This states the understimulation hypothesis and supports it with the reduction in hunting time alongside increased vessel interactions.",
+          "B": "Incorrect. The 99% figure describes the reduction in hunting time, not an increase in tuna populations; the claimed causal direction is also reversed.",
+          "C": "Incorrect. The notes call TAST harmless but say its efficacy awaits further testing, so effective is not yet supported.",
+          "D": "Incorrect. The workshop and damage are accurately described, but this gives event context without a supported explanatory claim about the behavior."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "oct_ap_028",
+      "question_number": 28,
+      "passage": "The following text is from Agatha Christie’s 1924 novel The Man in the Brown Suit.\n\nMy [vocab]object[/vocab] in life is to be thoroughly comfortable. I have devoted a certain amount of thought, and a considerable amount of money, to further that end. But I cannot say that I always succeed.",
+      "prompt": "As used in the text, what does the word “object” most nearly mean?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Piece"
+        },
+        {
+          "label": "B",
+          "text": "Astonishment"
+        },
+        {
+          "label": "C",
+          "text": "Regret"
+        },
+        {
+          "label": "D",
+          "text": "Goal"
+        }
+      ],
+      "correct_answer": "D",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "The narrator says, “My object in life is to be thoroughly comfortable,” then refers to working toward “that end.”",
+        "why_correct": "In this context, “object” means an aim or purpose, so “Goal” is the closest meaning.",
+        "choice_analysis": {
+          "A": "Incorrect. “Piece” is a physical object, but the passage is about a life aim.",
+          "B": "Incorrect. “Astonishment” is an emotional reaction and does not fit “object in life.”",
+          "C": "Incorrect. “Regret” does not match the narrator’s intended aim of comfort.",
+          "D": "Correct. “Goal” matches the sense of an objective or purpose."
+        },
+        "short": "“Object in life” means the narrator’s aim or purpose.",
+        "detailed": "The phrase “to further that end” reinforces that the narrator is talking about a goal rather than a physical thing."
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "Vocabulary in Context"
+      }
+    },
+    {
+      "question_id": "oct_ap_029",
+      "question_number": 29,
+      "passage": "Brazilian artist Camila Rosa started her career with a female street art collective called Colectivo Chá. Rosa says that her artistic style has been [vocab]______[/vocab] by her time in the group and her interest in things like punk rock and political movements. Those inspirations can be seen in her artworks’ references to identity and social justice.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "copied"
+        },
+        {
+          "label": "B",
+          "text": "believed"
+        },
+        {
+          "label": "C",
+          "text": "influenced"
+        },
+        {
+          "label": "D",
+          "text": "debated"
+        }
+      ],
+      "correct_answer": "C",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "Rosa says her artistic style has been shaped by her time in Colectivo Chá and by interests such as punk rock and political movements.",
+        "why_correct": "“Influenced” means affected or shaped by something, which fits the relationship between Rosa’s experiences and her style.",
+        "choice_analysis": {
+          "A": "Incorrect. “Copied” would mean directly imitated, which is not what the sentence says about her style.",
+          "B": "Incorrect. “Believed” does not idiomatically fit “style has been ___ by her time.”",
+          "C": "Correct. “Influenced” precisely means shaped or affected by her group experience and interests.",
+          "D": "Incorrect. “Debated” means argued about and does not fit the context."
+        },
+        "short": "Her style was shaped by her group experience and interests.",
+        "detailed": "The following sentence calls those experiences “inspirations,” confirming that they affected her art."
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "oct_ap_030",
+      "question_number": 30,
+      "passage": "The reception of Misa Sugiura’s book It’s Not Like It’s a Secret has been very good. Many reviewers have [vocab]______[/vocab] the book, and it won the Asian/Pacific American Award for Literature.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "blamed"
+        },
+        {
+          "label": "B",
+          "text": "misunderstood"
+        },
+        {
+          "label": "C",
+          "text": "overlooked"
+        },
+        {
+          "label": "D",
+          "text": "applauded"
+        }
+      ],
+      "correct_answer": "D",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "The text says the book’s reception “has been very good” and that it won the Asian/Pacific American Award for Literature.",
+        "why_correct": "“Applauded” means praised, which fits the positive reception and award.",
+        "choice_analysis": {
+          "A": "Incorrect. “Blamed” is negative and contradicts the very good reception.",
+          "B": "Incorrect. “Misunderstood” suggests confusion, not praise.",
+          "C": "Incorrect. “Overlooked” means ignored, which conflicts with the award and positive reception.",
+          "D": "Correct. “Applauded” means praised, matching the positive context."
+        },
+        "short": "The context says the book was received very positively.",
+        "detailed": "A good reception and an award both point to reviewers praising the book."
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "oct_ap_031",
+      "question_number": 31,
+      "passage": "It would not be productive for supporters of a proposal to increase the toll that drivers must pay to use the Veterans Bridge, which spans the Southern Branch of the Elizabeth River in Virginia, to direct their arguments at those drivers who strongly believe that the current toll is too high. There’s little point in trying to [vocab]______[/vocab] someone whose mind is already made up.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "identify"
+        },
+        {
+          "label": "B",
+          "text": "support"
+        },
+        {
+          "label": "C",
+          "text": "sway"
+        },
+        {
+          "label": "D",
+          "text": "ignore"
+        }
+      ],
+      "correct_answer": "C",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "The sentence says there is “little point” in trying to affect “someone whose mind is already made up.”",
+        "why_correct": "“Sway” means to influence or persuade someone. That meaning fits the idea of trying, unsuccessfully, to change the view of someone who has already decided.",
+        "choice_analysis": {
+          "A": "Incorrect. “Identify” means recognize or name someone; it does not mean change an opinion.",
+          "B": "Incorrect. “Support” would mean help or agree with someone, but the context is about arguing against a fixed view.",
+          "C": "Correct. “Sway” means persuade or influence, matching the idea of trying to change someone’s mind.",
+          "D": "Incorrect. “Ignore” means pay no attention to someone, but the sentence is about directing arguments at them."
+        },
+        "short": "“Sway” means persuade or influence someone.",
+        "detailed": "The phrase “whose mind is already made up” shows that supporters would be trying to change an already fixed opinion."
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "oct_ap_032",
+      "question_number": 32,
+      "passage": "The first souvenir postcards in the United States were sold at the 1893 World’s Fair in Chicago. People bought them to mail to family and friends or to keep as collectibles. Extremely popular, these postcards sparked a craze for souvenir postcards that lasted into the early 1900s: [u]tourists bought postcards showing pictures of scenery and attractions from across the US, and billions of souvenir postcards were sent through the mail[/u].",
+      "prompt": "Which choice best describes the function of the underlined portion in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It explains why tourism became more widespread in the late 1800s and early 1900s."
+        },
+        {
+          "label": "B",
+          "text": "It describes the various kinds of souvenirs that were available at the Chicago World’s Fair."
+        },
+        {
+          "label": "C",
+          "text": "It compares what early souvenir postcards in the US looked like with what postcards from other countries looked like."
+        },
+        {
+          "label": "D",
+          "text": "It illustrates the popularity of souvenir postcards during a particular historical period."
+        }
+      ],
+      "correct_answer": "D",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "The underlined portion says tourists bought postcards of scenery and attractions and that billions of souvenir postcards were sent through the mail.",
+        "why_correct": "Those details give concrete evidence of how widespread souvenir postcards were, illustrating their popularity during the postcard craze.",
+        "choice_analysis": {
+          "A": "Incorrect. The underlined portion does not explain why tourism expanded; it describes postcard buying and mailing.",
+          "B": "Incorrect. It does not list many kinds of World’s Fair souvenirs; it focuses on souvenir postcards after the craze began.",
+          "C": "Incorrect. It does not compare US postcards with postcards from other countries.",
+          "D": "Correct. The buying by tourists and the billions mailed illustrate how popular souvenir postcards were in that historical period."
+        },
+        "short": "The underlined details illustrate the postcard craze’s popularity.",
+        "detailed": "The underlined portion supports “Extremely popular” by showing both tourist purchases and the enormous number mailed."
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "structural_function"
+      }
+    },
+    {
+      "question_id": "oct_ap_033",
+      "question_number": 33,
+      "passage": "Can marsh thistle plants grow on Mars? Can pea plants? [u]You might think the answer to these questions is obviously no[/u], but researchers in the Netherlands recently showed that many common plant species can thrive in soil designed to simulate Martian conditions, as long as water is supplied. In fact, some species actually did better in Martian soil than in Earth soil: 54 percent of marsh thistle plants grown in simulated Martian soil were alive after 50 days, compared with 46 percent that were when planted in soil from their home planet.",
+      "prompt": "Which choice best describes the function of the underlined portion in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It signals the surprising nature of the findings discussed in the text."
+        },
+        {
+          "label": "B",
+          "text": "It clarifies a potential point of confusion about the hypothesis tested in the study discussed in the text."
+        },
+        {
+          "label": "C",
+          "text": "It acknowledges that readers may object to the method used in the experiment discussed in the text."
+        },
+        {
+          "label": "D",
+          "text": "It draws a distinction between the two species discussed in the text."
+        }
+      ],
+      "correct_answer": "A",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "The underlined portion says readers might think the answer is “obviously no,” but the following research shows many plants can thrive in simulated Martian soil.",
+        "why_correct": "The underlined portion sets up an expected answer that the research overturns, signaling that the findings are surprising.",
+        "choice_analysis": {
+          "A": "Correct. It marks the findings as surprising by contrasting common expectation with the researchers’ result.",
+          "B": "Incorrect. It does not clarify the study’s hypothesis; it introduces a likely reader expectation.",
+          "C": "Incorrect. It does not address objections to the experimental method.",
+          "D": "Incorrect. It does not distinguish between marsh thistle and pea plants."
+        },
+        "short": "The underlined portion sets up a surprising contrast with the findings.",
+        "detailed": "By saying the answer seems obviously negative before describing successful growth in simulated Martian soil, the text frames the results as unexpected."
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "structural_function"
+      }
+    },
+    {
+      "question_id": "oct_ap_034",
+      "question_number": 34,
+      "passage": "The following text is adapted from Matthew Arnold’s 1869 nonfiction book Culture and Anarchy.\n\nThe Times [a British newspaper], replying to some foreign strictures on the dress, looks, and behaviour of the English abroad, urges that the English ideal is that every one should be free to do and to look just as he likes. But culture indefatigably tries, not to make what each raw person may like, the rule by which he fashions himself; but to draw ever nearer to a sense of what is indeed beautiful, graceful, and becoming, and to get the raw person to like that.",
+      "prompt": "Which choice best states the main idea of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Culture’s duty is to use scientific methods to determine what is beautiful."
+        },
+        {
+          "label": "B",
+          "text": "One of the functions of culture is to create a consensus about matters of good taste."
+        },
+        {
+          "label": "C",
+          "text": "The English are unjustly derided for their sense of taste."
+        },
+        {
+          "label": "D",
+          "text": "The process of determining what should be considered beautiful is likely to lead to disagreement."
+        }
+      ],
+      "correct_answer": "B",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "The passage says culture tries “to draw ever nearer to a sense of what is indeed beautiful, graceful, and becoming” and “to get the raw person to like that.”",
+        "why_correct": "This presents culture as shaping individual taste toward a shared standard of beauty and good taste, which matches choice B.",
+        "choice_analysis": {
+          "A": "Incorrect. The passage does not mention scientific methods.",
+          "B": "Correct. It states that culture helps create agreement about what counts as beautiful, graceful, and becoming.",
+          "C": "Incorrect. The passage mentions criticism of the English only as a setup, not as its main point.",
+          "D": "Incorrect. The passage does not emphasize disagreement; it emphasizes culture guiding people toward a shared sense of taste."
+        },
+        "short": "Culture guides people toward a shared sense of good taste.",
+        "detailed": "The main contrast is between everyone simply liking what they like and culture moving people toward common standards of beauty and propriety."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "main_idea_or_detail"
+      }
+    },
+    {
+      "question_id": "oct_ap_035",
+      "question_number": 35,
+      "passage": "Orbital Period in Earth Days of Three of Jupiter’s Moons\n\nMoon | Orbital period (days) Europa | 3.6 Leda | 240.9 Arche | 723.9\n\nThe orbital period of a moon is the time it takes the moon to go around the planet it orbits one time. The table shows the orbital period of three of Jupiter’s moons, measured in Earth days.",
+      "prompt": "According to the table, what is the orbital period of Europa?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "155.3 days"
+        },
+        {
+          "label": "B",
+          "text": "3.6 days"
+        },
+        {
+          "label": "C",
+          "text": "723.9 days"
+        },
+        {
+          "label": "D",
+          "text": "817.7 days"
+        }
+      ],
+      "correct_answer": "B",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "In the table, Europa’s orbital period is listed as 3.6 days.",
+        "why_correct": "The question asks for Europa’s orbital period, and choice B gives the exact value from the table.",
+        "choice_analysis": {
+          "A": "Incorrect. 155.3 days is not listed for Europa.",
+          "B": "Correct. The table gives Europa’s orbital period as 3.6 days.",
+          "C": "Incorrect. 723.9 days is Arche’s orbital period, not Europa’s.",
+          "D": "Incorrect. 817.7 days is not Europa’s value in the table."
+        },
+        "short": "Europa is listed as 3.6 days.",
+        "detailed": "Reading the Europa row and orbital-period column gives 3.6 days."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "Data Retrieval"
+      }
+    },
+    {
+      "question_id": "oct_ap_036",
+      "question_number": 36,
+      "passage": "Years That RSRs Were Implemented in Four US States\n\nYear | State 2002 | Wisconsin 2003 | Virginia 2006 | New Jersey 2009 | Washington\n\nRegulations called RSRs prevent insurance companies from raising prices by large amounts. Researchers Naoki Aizawa and Ami Ko collected data about the years in which various US states implemented RSRs.",
+      "prompt": "Which state shown in the table implemented RSRs most recently?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Washington"
+        },
+        {
+          "label": "B",
+          "text": "New Jersey"
+        },
+        {
+          "label": "C",
+          "text": "Wisconsin"
+        },
+        {
+          "label": "D",
+          "text": "Virginia"
+        }
+      ],
+      "correct_answer": "A",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "The table lists Washington as implementing RSRs in 2009, later than New Jersey in 2006, Virginia in 2003, and Wisconsin in 2002.",
+        "why_correct": "“Most recently” refers to the latest year shown, so Washington is correct.",
+        "choice_analysis": {
+          "A": "Correct. Washington’s year, 2009, is the latest in the table.",
+          "B": "Incorrect. New Jersey implemented RSRs in 2006, earlier than Washington.",
+          "C": "Incorrect. Wisconsin implemented RSRs in 2002, the earliest listed year.",
+          "D": "Incorrect. Virginia implemented RSRs in 2003, earlier than Washington."
+        },
+        "short": "Washington has the latest year, 2009.",
+        "detailed": "Comparing the years in the table shows 2009 is the most recent implementation date."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "Data interpretation"
+      }
+    },
+    {
+      "question_id": "oct_ap_037",
+      "question_number": 37,
+      "passage": "Reported Annual Travel Distances in Four Studies of Migrating Animal Populations\n\nSpecies | Continent | Distance (km) | Measurement method Mule deer | North America | 772 | RTD Caribou | North America | 3,807 | GPS Gray wolf | North America | 2,155 | GPS White-eared kob | Africa | 400 | RTD\n\nSome studies of migrating animals measure how far the animals travel in a year by fitting individuals with GPS tracking collars. Other studies track annual round-trip distance (RTD), which is equal to double the distance separating the two habitats a population migrates between each year. A researcher argues that since GPS records all of an animal’s movements, using the GPS method to track a population would result in significantly higher recorded travel distances than using the RTD method would. For example, it’s very likely that the distance reported for the ____",
+      "prompt": "Which choice most effectively uses data from the table to complete the example?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "caribou would be greater than 2,155 kilometers if the RTD method had been used."
+        },
+        {
+          "label": "B",
+          "text": "caribou would be less than 3,807 kilometers if the RTD method had been used."
+        },
+        {
+          "label": "C",
+          "text": "white-eared kob would be less than 400 kilometers if the GPS method had been used."
+        },
+        {
+          "label": "D",
+          "text": "white-eared kob would be greater than 3,807 kilometers if the GPS method had been used."
+        }
+      ],
+      "correct_answer": "B",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "The table reports caribou at 3,807 km using GPS, and the text says GPS would result in higher recorded distances than RTD.",
+        "why_correct": "If GPS gives higher distances than RTD, then the caribou distance would likely be less than 3,807 km if measured by RTD.",
+        "choice_analysis": {
+          "A": "Incorrect. This compares caribou to the gray wolf value of 2,155 km but does not follow from the GPS-versus-RTD claim.",
+          "B": "Correct. Caribou was measured by GPS at 3,807 km, so RTD would likely produce a lower value.",
+          "C": "Incorrect. The claim predicts GPS values would be higher than RTD, not that GPS would make the white-eared kob value lower than 400 km.",
+          "D": "Incorrect. Nothing supports that white-eared kob measured by GPS would exceed the caribou GPS value of 3,807 km."
+        },
+        "short": "Caribou’s GPS value is 3,807 km, so an RTD value would likely be lower.",
+        "detailed": "The example must apply the researcher’s claim that GPS records more movement than RTD."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "data_evidence"
+      }
+    },
+    {
+      "question_id": "oct_ap_038",
+      "question_number": 38,
+      "passage": "Millions of Metric Tons of Copper Mined in 1995 and 2020\n\nCountry | 1995 | 2020 Poland | 0.38 | 0.39 Kazakhstan | 0.26 | 0.55 Chile | 2.49 | 5.73 United States | 1.85 | 1.20\n\nA student is researching copper mining in several countries in 1995 and 2020. Consulting the table, the student finds that the country that mined the smallest amount of copper in 1995 was ____",
+      "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the United States."
+        },
+        {
+          "label": "B",
+          "text": "Poland."
+        },
+        {
+          "label": "C",
+          "text": "Kazakhstan."
+        },
+        {
+          "label": "D",
+          "text": "Chile."
+        }
+      ],
+      "correct_answer": "C",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "The 1995 values are Poland 0.38, Kazakhstan 0.26, Chile 2.49, and the United States 1.85 million metric tons.",
+        "why_correct": "Kazakhstan’s 0.26 is the smallest 1995 amount in the table.",
+        "choice_analysis": {
+          "A": "Incorrect. The United States mined 1.85 million metric tons in 1995, not the smallest amount.",
+          "B": "Incorrect. Poland mined 0.38 million metric tons, which is more than Kazakhstan’s 0.26.",
+          "C": "Correct. Kazakhstan has the smallest 1995 value, 0.26 million metric tons.",
+          "D": "Incorrect. Chile mined 2.49 million metric tons, the largest 1995 amount listed."
+        },
+        "short": "Kazakhstan has the smallest 1995 value, 0.26.",
+        "detailed": "Comparing all four 1995 entries shows Kazakhstan is lowest."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "data_evidence"
+      }
+    },
+    {
+      "question_id": "oct_ap_039",
+      "question_number": 39,
+      "passage": "High-speed rail (HSR) systems have trains that move at much higher speeds than traditional trains. HSR is expanding in Greece, Sweden, and many other countries around the world. The United States, however, has been slow to build HSR systems. Researchers surveyed United States residents about their attitudes toward HSR. The researchers claim that [u]this survey reveals that there is strong support for building more HSR lines in the United States[/u].",
+      "prompt": "Which quotation from a survey respondent would best illustrate the underlined claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "“I prefer riding buses instead of taking trains because buses travel to more locations.”"
+        },
+        {
+          "label": "B",
+          "text": "“I have traveled on high-speed rail lines in Greece but not in Sweden.”"
+        },
+        {
+          "label": "C",
+          "text": "“I think high-speed rail is wonderful. The United States needs to build more high-speed rail lines.”"
+        },
+        {
+          "label": "D",
+          "text": "“I believe that the United States has enough high-speed rail lines. It should invest in airports instead.”"
+        }
+      ],
+      "correct_answer": "C",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "The underlined claim says there is strong support for building more HSR lines in the United States. Choice C says HSR is “wonderful” and that the United States “needs to build more” HSR lines.",
+        "why_correct": "Choice C directly illustrates strong support for expanding HSR in the United States.",
+        "choice_analysis": {
+          "A": "Incorrect. Preferring buses does not support building more HSR lines.",
+          "B": "Incorrect. Having traveled on HSR in Greece but not Sweden does not show support for US HSR expansion.",
+          "C": "Correct. It explicitly praises HSR and calls for more US HSR lines.",
+          "D": "Incorrect. It opposes more HSR lines and suggests investing in airports instead."
+        },
+        "short": "Choice C directly supports building more US HSR lines.",
+        "detailed": "The quotation must illustrate strong support, and C is the only option that clearly expresses that position."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "textual_evidence"
+      }
+    },
+    {
+      "question_id": "oct_ap_040",
+      "question_number": 40,
+      "passage": "Uncle Vanya: Scenes from Country Life in Four Acts is an 1898 play by Anton Chekhov, originally written in Russian. In the play, Professor Serebrakoff and his wife Helena have come to stay at their country estate, which Vanya manages with the help of Sonia, the professor’s daughter from a previous marriage. Chekhov portrays Vanya as feeling underappreciated by the professor, as is evident when ____",
+      "prompt": "Which choice completes the text with the most relevant and accurate quotation from Uncle Vanya?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Vanya says of Professor Serebrakoff, “For twenty-five years he has been masquerading in false clothes and has now retired absolutely unknown to any living soul.”"
+        },
+        {
+          "label": "B",
+          "text": "Vanya says to Professor Serebrakoff, “We used to think of you as almost superhuman, but now the scales have fallen from my eyes and I see you as you are! You write on art without knowing anything about it. Those books of yours which I used to admire are not worth one copper kopeck. You are a hoax!”"
+        },
+        {
+          "label": "C",
+          "text": "Vanya says to Professor Serebrakoff, “For twenty-five years I have managed this place [the estate], and have sent you the returns from it like the most honest of servants, and you have never given me one single word of thanks for my work, not one—neither in my youth nor now.”"
+        },
+        {
+          "label": "D",
+          "text": "Professor Serebrakoff says to Helena, “Of course I see that it is foolish for me to live so long, but wait! I shall soon set you all free. My life cannot drag on much longer.”"
+        }
+      ],
+      "correct_answer": "C",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "Choice C says Vanya managed the estate for twenty-five years and that the professor “never” gave him a word of thanks.",
+        "why_correct": "This quotation directly shows that Vanya feels underappreciated by the professor for his work.",
+        "choice_analysis": {
+          "A": "Incorrect. It criticizes the professor’s career but does not focus on Vanya being unthanked or underappreciated.",
+          "B": "Incorrect. It shows Vanya’s disillusionment with the professor’s writings, not specifically that Vanya feels underappreciated for managing the estate.",
+          "C": "Correct. Vanya explicitly complains that he worked for years and received no thanks.",
+          "D": "Incorrect. It is Professor Serebrakoff speaking about his own life, not evidence of Vanya’s underappreciation."
+        },
+        "short": "Vanya says he worked for years and received no thanks.",
+        "detailed": "The quotation in C directly matches the setup that Vanya feels underappreciated by the professor."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "textual_evidence"
+      }
+    },
+    {
+      "question_id": "oct_ap_041",
+      "question_number": 41,
+      "passage": "Over 600 languages are spoken in New York City in addition to English—one can find Amharic spoken in the neighborhood of Norwood, or Ghale in Jackson Heights. Most speakers of Chinese languages reside in the neighborhood of Flushing (part of New York City’s borough of Queens), where the dominant Chinese language is Mandarin, and in Chinatown, in the borough of Manhattan, where the dominant Chinese languages are Cantonese and Fuzhounese. Mandarin is widely spoken in north China, while Cantonese and Fuzhounese are widely spoken in south China. It can therefore be inferred that ____",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Chinese immigrants who emigrated to New York City many years ago are more likely to speak several Chinese languages than are more recent Chinese immigrants."
+        },
+        {
+          "label": "B",
+          "text": "taken together, there are more Cantonese and Fuzhounese speakers among Chinese immigrants in New York City than there are Mandarin speakers."
+        },
+        {
+          "label": "C",
+          "text": "people who emigrate from north China tend to settle in Queens, while people who emigrate from south China tend to settle in Manhattan."
+        },
+        {
+          "label": "D",
+          "text": "Chinese immigrants regularly change their residences between Queens and Manhattan after they emigrate, rather than staying in one borough."
+        }
+      ],
+      "correct_answer": "C",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "Mandarin is dominant in Flushing, Queens, and is widely spoken in north China; Cantonese and Fuzhounese are dominant in Chinatown, Manhattan, and are widely spoken in south China.",
+        "why_correct": "The passage links language dominance in New York neighborhoods with where those languages are widely spoken in China, supporting the inference in choice C.",
+        "choice_analysis": {
+          "A": "Incorrect. The passage does not discuss how long ago immigrants arrived or whether they speak several Chinese languages.",
+          "B": "Incorrect. It gives no population totals comparing Mandarin speakers with Cantonese and Fuzhounese speakers together.",
+          "C": "Correct. The language patterns support the inference that immigrants from north China tend to settle in Queens and those from south China tend to settle in Manhattan.",
+          "D": "Incorrect. The passage says where groups reside, not that immigrants regularly move between boroughs."
+        },
+        "short": "The passage links northern/southern Chinese languages to Queens/Manhattan settlement patterns.",
+        "detailed": "Mandarin is tied to north China and Flushing, while Cantonese and Fuzhounese are tied to south China and Chinatown."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "oct_ap_042",
+      "question_number": 42,
+      "passage": "Many studies have found a positive association between levels of dissolved organic carbon and mercury in bodies of fresh water undisturbed by human activity. Stéphane Guédron, Delphine Tisserand, and colleagues did not find this correlation in an examination of freshwater bodies impacted by wastewater, but Michael E. Berndt and Travis K. Bavin, who studied freshwater bodies disturbed by mining, did find it, leading some scientists to hypothesize that wastewater affects water chemistry differently than mining does. Guédron, Tisserand, and colleagues’ study, however, was conducted in Laos, whereas Berndt and Bavin’s study was conducted in the United States, suggesting that ____",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the discrepancy in the two studies’ results may be attributable to underlying environmental differences rather than the effects of wastewater and mining."
+        },
+        {
+          "label": "B",
+          "text": "levels of dissolved organic carbon and mercury are both much higher in bodies of fresh water impacted by wastewater than they are in bodies of fresh water disturbed by mining."
+        },
+        {
+          "label": "C",
+          "text": "disturbances related to wastewater likely affect significantly more bodies of fresh water than disturbances related to mining do."
+        },
+        {
+          "label": "D",
+          "text": "bodies of fresh water impacted by wastewater are more common in Laos than in the United States."
+        }
+      ],
+      "correct_answer": "A",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "One study examined wastewater-impacted freshwater bodies in Laos, while the other examined mining-disturbed freshwater bodies in the United States.",
+        "why_correct": "Because the studies differed by location as well as by disturbance type, the discrepancy may be due to environmental differences rather than only wastewater versus mining.",
+        "choice_analysis": {
+          "A": "Correct. It accounts for the fact that the studies were conducted in different countries and environments.",
+          "B": "Incorrect. The text does not say both carbon and mercury are much higher in wastewater-impacted water.",
+          "C": "Incorrect. The text does not compare how common wastewater and mining disturbances are.",
+          "D": "Incorrect. The text identifies one Laos study and one US study but does not compare how common wastewater-impacted bodies are in the two countries."
+        },
+        "short": "The differing study locations could explain the differing results.",
+        "detailed": "The final sentence points to Laos versus the United States, so the logical conclusion concerns underlying environmental differences."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "oct_ap_043",
+      "question_number": 43,
+      "passage": "Many folktales that originate in the Lithuanian language begin with the same phrase. In English, this phrase _____ roughly to “beyond nine seas, beyond nine lagoons.”",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "translates"
+        },
+        {
+          "label": "B",
+          "text": "to translate"
+        },
+        {
+          "label": "C",
+          "text": "having translated"
+        },
+        {
+          "label": "D",
+          "text": "translating"
+        }
+      ],
+      "correct_answer": "A",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "The subject of the blank is the singular noun phrase “this phrase.”",
+        "why_correct": "A singular subject in this sentence needs the finite present-tense verb “translates.”",
+        "choice_analysis": {
+          "A": "Correct. “Translates” is a present-tense verb that agrees with “this phrase.”",
+          "B": "Incorrect. “To translate” is an infinitive and cannot serve as the main verb here.",
+          "C": "Incorrect. “Having translated” is a participial phrase, not the needed main verb.",
+          "D": "Incorrect. “Translating” is a participle/gerund form and does not complete the clause as a main verb."
+        },
+        "short": "“This phrase” requires the verb “translates.”",
+        "detailed": "The sentence needs a finite verb after the singular subject."
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "oct_ap_044",
+      "question_number": 44,
+      "passage": "You can see Brazilian artist Tarsila do Amaral’s bold use of color in her painting Sol Poente (Setting Sun). Created in 1929, the painting ____ bright green cacti towering in front of a candy-orange sky.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "to feature"
+        },
+        {
+          "label": "B",
+          "text": "featuring"
+        },
+        {
+          "label": "C",
+          "text": "feature"
+        },
+        {
+          "label": "D",
+          "text": "features"
+        }
+      ],
+      "correct_answer": "D",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "The subject is “the painting,” which is singular.",
+        "why_correct": "The sentence needs a singular present-tense main verb, so “features” agrees with “the painting.”",
+        "choice_analysis": {
+          "A": "Incorrect. “To feature” is an infinitive, not the main verb needed after the subject.",
+          "B": "Incorrect. “Featuring” is a participle and would leave the clause without a finite verb.",
+          "C": "Incorrect. “Feature” does not agree with singular “painting.”",
+          "D": "Correct. “Features” is the singular present-tense verb that completes the sentence."
+        },
+        "short": "The singular subject “painting” takes “features.”",
+        "detailed": "The answer must be a finite verb agreeing with the singular subject."
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "oct_ap_045",
+      "question_number": 45,
+      "passage": "Leptoptilos dubius, also known as the greater _____ can be found in places like the Central Tanintharyi Coast in Myanmar and Chitwan National Park in Nepal, but more than 80 percent of this endangered stork species is found in Assam, India. There, wildlife biologist Dr. Purnima Devi Barman is on the front lines of a conservation effort that aims to bring adjutants back from near extinction.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "adjutant"
+        },
+        {
+          "label": "B",
+          "text": "adjutant—"
+        },
+        {
+          "label": "C",
+          "text": "adjutant;"
+        },
+        {
+          "label": "D",
+          "text": "adjutant,"
+        }
+      ],
+      "correct_answer": "D",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "“Also known as the greater adjutant” is inserted between the species name and the main verb “can be found.”",
+        "why_correct": "That nonessential appositive phrase needs to be set off with commas; the sentence already has a comma before “also,” and choice D supplies the comma after “adjutant.”",
+        "choice_analysis": {
+          "A": "Incorrect. Without a comma after “adjutant,” the appositive is not properly closed before the main verb.",
+          "B": "Incorrect. A dash after “adjutant” would not match the comma that opens the appositive and creates awkward punctuation.",
+          "C": "Incorrect. A semicolon cannot separate an appositive from the main verb.",
+          "D": "Correct. “Adjutant,” closes the nonessential phrase and allows the main clause to continue."
+        },
+        "short": "A comma is needed after the appositive “the greater adjutant.”",
+        "detailed": "The sentence reads naturally as “Leptoptilos dubius, also known as the greater adjutant, can be found...”"
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "oct_ap_046",
+      "question_number": 46,
+      "passage": "In 2010, anthropologist Lívia Barbosa published a study wherein she documented survey respondents’ perceptions of popular Brazilian foods, such as coxinha and broa. While the data may now be somewhat outdated, scholars in the future interested in tracking changes in food and sociability in Brazilian society _____ Barbosa’s study useful.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "find"
+        },
+        {
+          "label": "B",
+          "text": "will find"
+        },
+        {
+          "label": "C",
+          "text": "had found"
+        },
+        {
+          "label": "D",
+          "text": "found"
+        }
+      ],
+      "correct_answer": "B",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "The sentence refers to “scholars in the future.”",
+        "why_correct": "The future time reference requires the future-tense verb phrase “will find.”",
+        "choice_analysis": {
+          "A": "Incorrect. “Find” is present tense and does not match the future time frame.",
+          "B": "Correct. “Will find” matches “in the future.”",
+          "C": "Incorrect. “Had found” is past perfect, which conflicts with the future reference.",
+          "D": "Incorrect. “Found” is past tense, not future."
+        },
+        "short": "“In the future” calls for “will find.”",
+        "detailed": "The sentence predicts what future scholars will do."
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "oct_ap_047",
+      "question_number": 47,
+      "passage": "In Puerto Rico, it’s not unusual for a city or town to be known by a nickname that corresponds to one of its notable features, like landscape, climate, famous residents, or chief export. For example, the Puerto Rican municipality of Arecibo is well known for Antonio de los Reyes Correa, the 17th-century army captain who once defended the _____ this distinction has earned it a fitting nickname: “the Villa of Captain Correa.”",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "town"
+        },
+        {
+          "label": "B",
+          "text": "town,"
+        },
+        {
+          "label": "C",
+          "text": "town, and"
+        },
+        {
+          "label": "D",
+          "text": "town and"
+        }
+      ],
+      "correct_answer": "C",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "The sentence has one clause ending “who once defended the town” and another independent clause beginning “this distinction has earned it...”",
+        "why_correct": "Choice C supplies both the comma and the coordinating conjunction needed to join the clauses correctly.",
+        "choice_analysis": {
+          "A": "Incorrect. “Town” alone creates a run-on between two clauses.",
+          "B": "Incorrect. “Town,” creates a comma splice without a conjunction.",
+          "C": "Correct. “Town, and” properly joins the clauses.",
+          "D": "Incorrect. “Town and” lacks the comma normally used before the coordinating conjunction joining independent clauses."
+        },
+        "short": "“Town, and” correctly joins two independent clauses.",
+        "detailed": "The sentence needs punctuation and a conjunction before “this distinction has earned it...”"
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "oct_ap_048",
+      "question_number": 48,
+      "passage": "The Eiger, the Mönch, the Jungfrau—Alpine summits like these were little more than wastelands to many Europeans until the eighteenth century, when attitudes toward such intimidating landscapes shifted as part of a broader aesthetic ____ by Irish philosopher Edmund Burke, this shift framed mountains as sublime objects capable of producing delightful terror.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "revolution, initiated"
+        },
+        {
+          "label": "B",
+          "text": "revolution that, initiated"
+        },
+        {
+          "label": "C",
+          "text": "revolution initiated"
+        },
+        {
+          "label": "D",
+          "text": "revolution. Initiated"
+        }
+      ],
+      "correct_answer": "D",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "The version with choice D ends the first sentence after “revolution” and begins a second sentence: “Initiated by Irish philosopher Edmund Burke, this shift framed...”",
+        "why_correct": "The period in choice D avoids the comma splice created by joining “this shift framed...” to the prior clause with only a comma.",
+        "choice_analysis": {
+          "A": "Incorrect. A comma before and after “initiated by...” still leaves “this shift framed...” attached by a comma splice.",
+          "B": "Incorrect. “That, initiated...” is ungrammatical and does not correctly connect the clauses.",
+          "C": "Incorrect. “Revolution initiated...” forms a modifier, but the following comma still improperly joins the independent clause “this shift framed...” to the previous sentence.",
+          "D": "Correct. The period creates two grammatically complete sentences and the opening modifier clearly describes the shift."
+        },
+        "short": "D fixes the sentence boundary problem with a period.",
+        "detailed": "Without the period, the sentence tries to join two complete ideas with only a comma."
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "oct_ap_049",
+      "question_number": 49,
+      "passage": "While some researchers have identified the planet Teegarden’s Star c as potentially habitable, it’s unlikely that humanity will be able to take advantage of its favorable conditions anytime soon—it’s 12.58 light years away. ____ at 1,196 light years away, the planet Kepler-1410b is also inaccessible.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "For example,"
+        },
+        {
+          "label": "B",
+          "text": "Likewise,"
+        },
+        {
+          "label": "C",
+          "text": "Instead,"
+        },
+        {
+          "label": "D",
+          "text": "As a result,"
+        }
+      ],
+      "correct_answer": "B",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "Teegarden’s Star c is inaccessible because it is 12.58 light years away; Kepler-1410b is also inaccessible at 1,196 light years away.",
+        "why_correct": "“Likewise” signals that the second planet shares the same inaccessibility problem.",
+        "choice_analysis": {
+          "A": "Incorrect. “For example” would make Kepler-1410b an example of Teegarden’s Star c, but the sentence presents a parallel case.",
+          "B": "Correct. “Likewise” marks the similar situation of another inaccessible planet.",
+          "C": "Incorrect. “Instead” would signal replacement or contrast, not similarity.",
+          "D": "Incorrect. “As a result” would show cause and effect, but Kepler-1410b’s distance is not a result of Teegarden’s Star c."
+        },
+        "short": "Both planets are inaccessible because of distance.",
+        "detailed": "The second sentence gives a parallel example, so a similarity transition is needed."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "oct_ap_050",
+      "question_number": 50,
+      "passage": "John Rankin was an outspoken abolitionist whose Ohio home was a stop on the underground railroad (the network of people and places that some enslaved people used to escape to freedom). _____ supporters of the railroad were secretive about their antislavery views. Usually, they were vocal abolitionists like Rankin.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Accordingly,"
+        },
+        {
+          "label": "B",
+          "text": "In some cases,"
+        },
+        {
+          "label": "C",
+          "text": "For example,"
+        },
+        {
+          "label": "D",
+          "text": "However,"
+        }
+      ],
+      "correct_answer": "B",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "The passage says John Rankin was outspoken, then says supporters were secretive only in limited cases; the next sentence states, “Usually, they were vocal abolitionists like Rankin.”",
+        "why_correct": "“In some cases” correctly introduces an exception before the sentence that gives the usual pattern.",
+        "choice_analysis": {
+          "A": "Incorrect. “Accordingly” would signal a result, but secretiveness is not a result of Rankin’s being outspoken.",
+          "B": "Correct. “In some cases” fits the contrast with “Usually” in the next sentence.",
+          "C": "Incorrect. “For example” would make secretive supporters an example of Rankin’s outspokenness, which is illogical.",
+          "D": "Incorrect. “However” creates a broad contrast, but the following “Usually” shows that secretiveness applied only in some cases."
+        },
+        "short": "“In some cases” pairs logically with the following “Usually.”",
+        "detailed": "The passage contrasts occasional secrecy with the usual pattern of vocal abolitionists like Rankin."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "oct_ap_051",
+      "question_number": 51,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Angelina Weld Grimke was an African American poet, playwright, and journalist.\n• Grimke lived and worked in Washington, DC, for many years.\n• \"To Miss Harriet E. Riggs\" is a poem by Grimke.\n• It was published in 1923.",
+      "prompt": "The student wants to indicate the year \"To Miss Harriet E. Riggs\" was published. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"To Miss Harriet E. Riggs\" was published in 1923."
+        },
+        {
+          "label": "B",
+          "text": "Washington, DC, is where Angelina Weld Grimke lived and worked."
+        },
+        {
+          "label": "C",
+          "text": "Angelina Weld Grimke wrote the poem \"To Miss Harriet E. Riggs.\""
+        },
+        {
+          "label": "D",
+          "text": "Angelina Weld Grimke was a poet as well as a playwright and journalist."
+        }
+      ],
+      "correct_answer": "A",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "The notes state that “To Miss Harriet E. Riggs” “was published in 1923.”",
+        "why_correct": "The student wants to indicate the publication year, and choice A directly states that the poem was published in 1923.",
+        "choice_analysis": {
+          "A": "Correct. It directly gives the requested publication year for the poem.",
+          "B": "Incorrect. It gives where Grimke lived and worked, not the poem’s publication year.",
+          "C": "Incorrect. It identifies Grimke as the poem’s author but does not state the year.",
+          "D": "Incorrect. It describes Grimke’s professions rather than the publication year."
+        },
+        "short": "Choice A directly states the poem’s publication year.",
+        "detailed": "The relevant note is “It was published in 1923,” and choice A uses exactly that information."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "oct_ap_052",
+      "question_number": 52,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Snow hydrologist Julie Koeberle helps maintain automated snow measurement stations throughout the western United States.\n• They are called SNOTEL sites.\n• There are around 90 sites throughout Wyoming.\n• There is one at Bear Trap Meadow.",
+      "prompt": "The student wants to emphasize the number of SNOTEL sites in Wyoming. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "In Wyoming alone, there are around 90 SNOTEL sites located throughout the state."
+        },
+        {
+          "label": "B",
+          "text": "SNOTEL sites collect snow measurement data throughout the state of Wyoming."
+        },
+        {
+          "label": "C",
+          "text": "One particular SNOTEL site is located at Bear Trap Meadow in Wyoming."
+        },
+        {
+          "label": "D",
+          "text": "Snow hydrologist Julie Koeberle helps maintain SNOTEL sites, such as the one at Bear Trap Meadow, Wyoming."
+        }
+      ],
+      "correct_answer": "A",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "The notes state, “There are around 90 sites throughout Wyoming.”",
+        "why_correct": "The goal is to emphasize the number of SNOTEL sites in Wyoming, and choice A foregrounds that number.",
+        "choice_analysis": {
+          "A": "Correct. It states that Wyoming has around 90 SNOTEL sites, directly emphasizing the number.",
+          "B": "Incorrect. It describes what SNOTEL sites do but omits the number.",
+          "C": "Incorrect. It identifies one site at Bear Trap Meadow rather than the total number in Wyoming.",
+          "D": "Incorrect. It focuses on Julie Koeberle and one example site, not the number of sites."
+        },
+        "short": "Choice A emphasizes the “around 90” sites in Wyoming.",
+        "detailed": "Only choice A directly uses the note about the number of sites."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "oct_ap_053",
+      "question_number": 53,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• One and All is the name of a sailboat.\n• Uku Randmaa is an Estonian sailor.\n• He sailed One and All on a nonstop, 254-day journey around the world.\n• He set sail from Les Sables d’Olonne, France, in July 2018.\n• He returned to Les Sables d’Olonne in March 2019.",
+      "prompt": "The student wants to indicate the name of the sailboat Randmaa sailed. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "One and all is the name of the sailboat Randmaa sailed on his journey around the world."
+        },
+        {
+          "label": "B",
+          "text": "After 254 days at sea, Randmaa returned to Les Sables d’Olonne in March 2019."
+        },
+        {
+          "label": "C",
+          "text": "Estonian sailor Uku Randmaa set sail in July 2018 and returned in March 2019."
+        },
+        {
+          "label": "D",
+          "text": "Randmaa set sail from Les Sables d’Olonne, France, in 2018."
+        }
+      ],
+      "correct_answer": "A",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "The notes state that One and All is a sailboat and that Randmaa sailed One and All on a 254-day journey around the world.",
+        "why_correct": "The student wants to indicate the sailboat’s name, and choice A is the only option that names the sailboat Randmaa sailed.",
+        "choice_analysis": {
+          "A": "Correct. It identifies the sailboat Randmaa sailed as One and All/“One and all.”",
+          "B": "Incorrect. It gives the journey duration and return date but not the sailboat’s name.",
+          "C": "Incorrect. It gives the sailor’s nationality and dates but omits the sailboat’s name.",
+          "D": "Incorrect. It gives the departure location and year but not the sailboat’s name."
+        },
+        "short": "Choice A names the sailboat Randmaa sailed.",
+        "detailed": "The other choices give dates, location, or nationality instead of the boat’s name."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "oct_ap_054",
+      "question_number": 54,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Body positions are a fundamental aspect of dance.\n• In Cecchetti method ballet, there is a position for the dancer’s arms called fourth position en avant.\n• In the position, one arm is out to the side, and the other is rounded to roughly align the fingers with the navel.\n• In Vaganova method ballet, there is a position for the dancer’s arms called big pose.\n• In this position, one arm is out to the side, and the other is rounded and raised above the head.",
+      "prompt": "The student wants to emphasize a similarity between the two positions. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Fourth position en avant in Cecchetti method ballet and big pose in Vaganova method ballet are both positions for the dancer’s arms."
+        },
+        {
+          "label": "B",
+          "text": "Both fourth position en avant and big pose are positions in Vaganova method ballet."
+        },
+        {
+          "label": "C",
+          "text": "In fourth position en avant, one arm is out to the side, and the other is rounded to roughly align the fingers with the navel, in contrast to big pose, where one arm is out to the side, and the other is rounded and raised above the head."
+        },
+        {
+          "label": "D",
+          "text": "In Cecchetti method ballet, there are a number of positions, including fourth position en avant."
+        }
+      ],
+      "correct_answer": "A",
+      "section": "reading_writing",
+      "needs_manual_review": false,
+      "source_set": "2025-10-OCT-SAT-AP",
+      "explanation": {
+        "key_evidence": "The notes say fourth position en avant is a position for the dancer’s arms in Cecchetti method ballet, and big pose is a position for the dancer’s arms in Vaganova method ballet.",
+        "why_correct": "The student wants to emphasize a similarity, and choice A states the shared feature: both are arm positions.",
+        "choice_analysis": {
+          "A": "Correct. It identifies the similarity that both named positions are for the dancer’s arms.",
+          "B": "Incorrect. It wrongly says both positions are in Vaganova method ballet.",
+          "C": "Incorrect. It emphasizes a contrast in arm placement rather than a similarity.",
+          "D": "Incorrect. It mentions only Cecchetti method ballet and does not compare the two positions."
+        },
+        "short": "Both positions are for the dancer’s arms.",
+        "detailed": "Choice A uses the relevant notes about both methods to state a similarity."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    }
+  ]
+}

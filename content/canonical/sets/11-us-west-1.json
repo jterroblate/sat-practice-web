@@ -1,0 +1,2706 @@
+{
+  "schemaVersion": "sat-canonical-question-collection-v1",
+  "contentId": "set-11-us-west-1",
+  "title": "11 Na West 1",
+  "section": "reading_writing",
+  "questionCount": 60,
+  "questions": [
+    {
+      "question_id": "mx1_06470",
+      "section": "reading_writing",
+      "question_number": 1,
+      "passage": "Native Hawaiian fiber artist Marques Hanalei Marzan creates art using the techniques of lauhala weaving. Lauhala weaving is a traditional Hawaiian art form that uses leaves of the hala tree. Often, Marzan doesn’t have a specific [vocab]______[/vocab] what the final product will look like when he starts a new piece. Instead, he makes up his designs as he weaves, allowing inspiration to take him in unexpected directions.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "acceptance of"
+        },
+        {
+          "label": "B",
+          "text": "imitation of"
+        },
+        {
+          "label": "C",
+          "text": "intention for"
+        },
+        {
+          "label": "D",
+          "text": "admiration for"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "key_evidence": "Marzan “makes up his designs as he weaves.”",
+        "why_correct": "Choice C fits because “intention for” means a plan or aim for how the final product will look.",
+        "choice_analysis": {
+          "A": "“Acceptance of” would describe approving the final product, not lacking a plan for it.",
+          "B": "“Imitation of” suggests copying something, but the passage says Marzan improvises.",
+          "C": "Correct. “Intention for” captures the idea of a specific plan for the final product.",
+          "D": "“Admiration for” means respect or appreciation, which is unrelated to planning a design."
+        },
+        "short": "Choice C is correct because Marzan begins without a predetermined plan for the artwork.",
+        "detailed": "The passage says Marzan makes up designs as he weaves, so he does not have a specific aim for the final appearance. “Intention for” best expresses that meaning."
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "mx1_06471",
+      "section": "reading_writing",
+      "question_number": 2,
+      "passage": "In a study at the Massachusetts Institute of Technology, participants with clinically typical eyesight were shown a drawing of a broken line, with the break in the line situated in a blocked part of their field of vision. The participants still perceived the line as continuous, suggesting that when visual information is incomplete, the brain can [vocab]______[/vocab], filling in what is missing.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "captivate"
+        },
+        {
+          "label": "B",
+          "text": "compensate"
+        },
+        {
+          "label": "C",
+          "text": "barricade"
+        },
+        {
+          "label": "D",
+          "text": "revert"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "key_evidence": "The brain fills in missing visual information.",
+        "why_correct": "Choice B fits because “compensate” means to make up for something incomplete or lacking.",
+        "choice_analysis": {
+          "A": "“Captivate” means attract attention, not fill in missing information.",
+          "B": "Correct. “Compensate” means make up for a deficiency, matching the brain’s response.",
+          "C": "“Barricade” means block, the opposite of filling in missing information.",
+          "D": "“Revert” means return to a previous state, which does not fit the process described."
+        },
+        "short": "Choice B is correct because the brain makes up for incomplete visual information.",
+        "detailed": "Participants perceived the broken line as continuous even with missing visual input. The phrase “filling in what is missing” points directly to “compensate.”"
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "mx1_06472",
+      "section": "reading_writing",
+      "question_number": 3,
+      "passage": "The following text is from Shirley Jackson’s 1951 novel Hangsaman.\n\nNatalie was leaving for her first year in college a week after her brother went back to high school; sometimes twenty-one days resolved itself into three weeks, and seemed endless; sometimes it seemed a matter of minutes slipping by so swiftly that there would never be time to approach college with appropriate [vocab]consideration[/vocab], to form a workable personality to take along.\n\n©1951 by Shirley Jackson",
+      "prompt": "As used in the text, what does the word “consideration” most nearly mean?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Admiration"
+        },
+        {
+          "label": "B",
+          "text": "Reflection"
+        },
+        {
+          "label": "C",
+          "text": "Indecision"
+        },
+        {
+          "label": "D",
+          "text": "Kindness"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "key_evidence": "Natalie fears there will not be time to “approach college with appropriate consideration.”",
+        "why_correct": "Choice B fits because “consideration” here means careful thought or reflection about going to college.",
+        "choice_analysis": {
+          "A": "“Admiration” means approval or respect, not careful thought.",
+          "B": "Correct. “Reflection” means thoughtful consideration, which matches Natalie’s need to prepare mentally.",
+          "C": "“Indecision” means inability to decide; the sentence is about thoughtful preparation, not choosing between options.",
+          "D": "“Kindness” is unrelated to Natalie’s thinking about college."
+        },
+        "short": "Choice B is correct because “consideration” means thoughtful reflection in this context.",
+        "detailed": "The surrounding phrase links consideration with forming a “workable personality” for college. That context points to careful thought, not admiration, indecision, or kindness."
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "mx1_06473",
+      "section": "reading_writing",
+      "question_number": 4,
+      "passage": "The Marsalis family is often referred to as “the first family of jazz.” Four of the children of celebrated pianist Ellis Marsalis Jr. went on to become performers who are also critically acclaimed: drummer Jason, trombonist Delfeayo, saxophonist Branford, and trumpeter Wynton. Wynton notably went on to become the first jazz composer to win the Pulitzer Prize for Music (for his oratorio Blood on the Fields).",
+      "prompt": "Which choice best describes the main purpose of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To show why a particular musician won a major award"
+        },
+        {
+          "label": "B",
+          "text": "To explain why a family of musicians received a nickname"
+        },
+        {
+          "label": "C",
+          "text": "To compare the artistic achievements of several musicians"
+        },
+        {
+          "label": "D",
+          "text": "To emphasize why musicians should work together"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "key_evidence": "The text introduces the Marsalis nickname and then lists several family members’ jazz achievements.",
+        "why_correct": "Choice B best captures the purpose: the text explains why the family earned the nickname “the first family of jazz.”",
+        "choice_analysis": {
+          "A": "The Pulitzer is only one example, not the whole purpose of the text.",
+          "B": "Correct. The achievements of several Marsalis family members explain the nickname.",
+          "C": "The text lists achievements but does not mainly compare them with one another.",
+          "D": "The passage does not argue that musicians should collaborate."
+        },
+        "short": "Choice B is correct because the text explains the family nickname through musical achievements.",
+        "detailed": "After stating the nickname, the passage names multiple acclaimed Marsalis musicians and Wynton’s Pulitzer. Those details justify why the family is called “the first family of jazz.”"
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "structural_function"
+      }
+    },
+    {
+      "question_id": "mx1_06474",
+      "section": "reading_writing",
+      "question_number": 5,
+      "passage": "Community science, which involves professional scientists collaborating with members of the public to study a topic, is often an effective and engaging way to conduct research. [u]It can increase the amount of data researchers can collect, lead to greater public awareness of an ecosystem, and provide youth with learning experiences outside of the classroom.[/u] This approach was essential to the success of biologist Grace Herzel and colleagues’ study of butterfly wing patterns and their relation to behavior, which included findings from hundreds of students and community members in northwestern Arkansas.",
+      "prompt": "Which choice best states the function of the underlined sentence in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It identifies the purpose of the study described in the sentence that follows."
+        },
+        {
+          "label": "B",
+          "text": "It provides a contrast with an idea presented in the previous sentence."
+        },
+        {
+          "label": "C",
+          "text": "It establishes the limits of the conclusion presented in the sentence that follows."
+        },
+        {
+          "label": "D",
+          "text": "It offers details to clarify the claim made in the previous sentence."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "key_evidence": "The underlined sentence lists benefits: more data, public awareness, and youth learning.",
+        "why_correct": "Choice D is correct because those details clarify the previous claim that community science is effective and engaging.",
+        "choice_analysis": {
+          "A": "The sentence does not identify the purpose of Herzel’s study; it lists general benefits of community science.",
+          "B": "It does not contrast with the previous sentence; it supports and explains it.",
+          "C": "It does not limit a later conclusion.",
+          "D": "Correct. The benefits give concrete detail for the broad claim in the previous sentence."
+        },
+        "short": "Choice D is correct because the underlined sentence explains why community science is effective and engaging.",
+        "detailed": "The previous sentence makes a general claim about community science. The underlined sentence follows by naming specific benefits, so its function is to clarify that claim with details."
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "structural_function"
+      }
+    },
+    {
+      "question_id": "mx1_06475",
+      "section": "reading_writing",
+      "question_number": 6,
+      "passage": "Text 1\n\nScientists can learn a lot about the giant ground sloth and other prehistoric sloths from their fossils. But it can be hard to study sloths alive today. In the wild, the pygmy three-toed sloth and other sloths spend most of their time in trees. They’re difficult to observe because of their excellent camouflage and slow movements.\n\nText 2\n\nRebecca Cliffe and other scientists can now record the previously hidden activities of tree-dwelling sloths by using a backpack monitor. Such monitors can provide information to correct misconceptions. It was long believed that sloths are slow because of laziness. But, in fact, sloths have low metabolism, which makes them slow.",
+      "prompt": "The author of Text 1 and the author of Text 2 both discuss which topic?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The scientific study of sloths"
+        },
+        {
+          "label": "B",
+          "text": "The techniques scientists use to care for sloths"
+        },
+        {
+          "label": "C",
+          "text": "How climate change affects sloths"
+        },
+        {
+          "label": "D",
+          "text": "The differences between prehistoric and living sloths"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "key_evidence": "Text 1 discusses learning about sloths; Text 2 discusses recording hidden sloth activity.",
+        "why_correct": "Choice A covers the shared topic because both texts concern scientific study of sloths.",
+        "choice_analysis": {
+          "A": "Correct. Both texts focus on how scientists learn about sloths.",
+          "B": "Neither text focuses on caring for sloths.",
+          "C": "Climate change is not discussed.",
+          "D": "Only Text 1 mentions prehistoric sloths, so this is not a shared topic."
+        },
+        "short": "Choice A is correct because both texts discuss the scientific study of sloths.",
+        "detailed": "Text 1 describes what scientists can learn from fossils and the difficulty of observing living sloths. Text 2 describes a monitoring tool that helps scientists study tree-dwelling sloths."
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Cross-Text Connections",
+        "subtype": "cross_text_analysis"
+      }
+    },
+    {
+      "question_id": "mx1_06476",
+      "section": "reading_writing",
+      "question_number": 7,
+      "passage": "Humans aren’t the only ones who use tools. Other animals also find tools helpful. Dolphins use sponges to protect their noses from scratches when foraging on the seafloor. And despite sometimes being thought of as simple, many birds make clever use of tools as well. New Caledonian crows are well known for creating hooks and spears from twigs. Furthermore, palm cockatoos have been observed using leaves to pad their beaks when opening nuts.",
+      "prompt": "According to the text, what are New Caledonian crows known for?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "They have larger brains than palm cockatoos have."
+        },
+        {
+          "label": "B",
+          "text": "They live longer than dolphins do."
+        },
+        {
+          "label": "C",
+          "text": "They use leaves as tools."
+        },
+        {
+          "label": "D",
+          "text": "They create tools out of twigs."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "key_evidence": "New Caledonian crows are “well known for creating hooks and spears from twigs.”",
+        "why_correct": "Choice D restates the specific fact asked about in the question.",
+        "choice_analysis": {
+          "A": "The passage does not compare crows’ brains with cockatoos’ brains.",
+          "B": "The passage does not discuss lifespan.",
+          "C": "Palm cockatoos, not New Caledonian crows, are described as using leaves.",
+          "D": "Correct. The text says the crows create hooks and spears from twigs."
+        },
+        "short": "Choice D is correct because the passage directly says the crows create tools from twigs.",
+        "detailed": "The question asks what New Caledonian crows are known for. The passage explicitly identifies their creation of hooks and spears from twigs."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "main_idea_or_detail"
+      }
+    },
+    {
+      "question_id": "mx1_06477",
+      "section": "reading_writing",
+      "question_number": 8,
+      "passage": "Women like Minnie McNeal Kenny made important early contributions to the history of US cryptology, a field concerned with secure data communication and storage. Kenny worked for the National Security Agency (NSA) and received the NSA’s two highest awards. She also held administrative positions at the National Cryptologic School. In this way, Kenny and others like her helped make it possible for more women—such as Debra Plunkett, who currently works in and teaches cybersecurity—to enter the field of cryptology.",
+      "prompt": "According to the text, what is the relationship between Kenny and Plunkett?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Minnie McNeal Kenny founded an organization that Debra Plunkett currently works for."
+        },
+        {
+          "label": "B",
+          "text": "Minnie McNeal Kenny made earlier contributions to a field that Debra Plunkett currently works within."
+        },
+        {
+          "label": "C",
+          "text": "Minnie McNeal Kenny taught Debra Plunkett how to securely manage important data."
+        },
+        {
+          "label": "D",
+          "text": "Minnie McNeal Kenny and Debra Plunkett worked together early in their careers."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "key_evidence": "Kenny’s early contributions helped more women, including Plunkett, enter cryptology.",
+        "why_correct": "Choice B correctly describes Kenny as an earlier contributor to the field in which Plunkett now works.",
+        "choice_analysis": {
+          "A": "The passage says Kenny worked for the NSA, not that she founded an organization Plunkett works for.",
+          "B": "Correct. Kenny contributed earlier to cryptology, and Plunkett later works in a related field.",
+          "C": "The passage does not say Kenny taught Plunkett.",
+          "D": "The passage does not say they worked together."
+        },
+        "short": "Choice B is correct because Kenny’s earlier work helped open the field for women such as Plunkett.",
+        "detailed": "The text connects Kenny’s early cryptology contributions with later opportunities for women such as Debra Plunkett. That supports a predecessor relationship, not direct collaboration."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "main_idea_or_detail"
+      }
+    },
+    {
+      "question_id": "mx1_06478",
+      "section": "reading_writing",
+      "question_number": 9,
+      "passage": "Optimal foraging theory (OFT) holds that animals’ foraging behaviors reflect cost-benefit trade-offs that vary by species and with dynamic ecological circumstances. One such circumstance is lunar intensity, which Rodrigo A. Vásquez found to be negatively associated with foraging by olive grass mice but Patricia C. Wright found to be positively associated with foraging by three-striped night monkeys. This discrepancy is explicable in terms of OFT: the monkeys’ greater reliance on vision means that higher lunar intensity benefits them more than it benefits the mice.",
+      "prompt": "Information in the text best supports which statement about OFT?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It can explain why some species act in accordance with cost-benefit trade-offs and others do not."
+        },
+        {
+          "label": "B",
+          "text": "It tends to allow for a better understanding of the benefits of ecological circumstances than the costs of those circumstances."
+        },
+        {
+          "label": "C",
+          "text": "It may be weakened by the finding that the costs and benefits associated with a particular ecological circumstance vary by species."
+        },
+        {
+          "label": "D",
+          "text": "It can account for observations of different species responding differently to similar ecological circumstances."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "key_evidence": "OFT explains why lunar intensity affects mice and monkeys differently.",
+        "why_correct": "Choice D is correct because the passage uses OFT to account for different species responding differently to the same ecological circumstance.",
+        "choice_analysis": {
+          "A": "The text does not say some species fail to follow cost-benefit trade-offs.",
+          "B": "The point is not that benefits matter more than costs; OFT weighs both.",
+          "C": "The variation by species supports OFT rather than weakens it.",
+          "D": "Correct. OFT explains the different responses of mice and monkeys to lunar intensity."
+        },
+        "short": "Choice D is correct because OFT explains species-specific responses to lunar intensity.",
+        "detailed": "The passage presents one ecological circumstance, lunar intensity, with opposite associations for two species. It then says this discrepancy is explicable in terms of OFT."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "textual_evidence"
+      }
+    },
+    {
+      "question_id": "mx1_06479",
+      "section": "reading_writing",
+      "question_number": 10,
+      "passage": "A student is writing a research paper on the history of irrigation in the United States, situating the development of Lake Van Arsdale (created in Mendocino County, California, in 1907) in a larger historical context. The student claims that California’s climate renders irrigation an essential component of agriculture in some parts of the state but not in others.",
+      "prompt": "Which quotation from a study of California agriculture best supports the student’s claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "“The usefulness of irrigation infrastructure in California today cannot be overstated, since it is the most common means of conveying water for agricultural purposes.”"
+        },
+        {
+          "label": "B",
+          "text": "“While the low humidity of Southern California’s desert areas makes irrigation a requirement if agriculture is to be a success there, the relatively high humidity in the northern parts of the state makes such practices less necessary.”"
+        },
+        {
+          "label": "C",
+          "text": "“Sprinkler irrigation systems are a method of irrigating that requires machinery to spray water in all directions. These systems can presently be found in use throughout California.”"
+        },
+        {
+          "label": "D",
+          "text": "“The irrigation system developed by the Hohokam people in the 7th century CE in what is now Arizona was simple but applied hydraulic engineering design features that are in use today throughout California.”"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "key_evidence": "Southern California’s low humidity requires irrigation; northern humidity makes it less necessary.",
+        "why_correct": "Choice B directly supports the claim that climate makes irrigation essential in some parts of California but not others.",
+        "choice_analysis": {
+          "A": "This says irrigation is useful generally, but it does not show regional climate differences.",
+          "B": "Correct. It contrasts two California regions and links irrigation need to humidity.",
+          "C": "This describes sprinkler systems generally, not regional necessity.",
+          "D": "This discusses an Arizona irrigation system, not California climate differences."
+        },
+        "short": "Choice B is correct because it connects regional climate differences to different irrigation needs.",
+        "detailed": "The student’s claim requires evidence that irrigation is necessary in some parts of California but less necessary elsewhere. Choice B gives exactly that contrast using southern low humidity and northern higher humidity."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "textual_evidence"
+      }
+    },
+    {
+      "question_id": "mx1_06481",
+      "section": "reading_writing",
+      "question_number": 11,
+      "passage": "The state of California has classified the southern water snake as an invasive species that could harm some of the state’s native species. But researchers Alejandro Camacho and Jason McLachlan have pointed out that “invasive” and “native” are labels that describe temporary circumstances. Changes in Earth’s climate may force animals from their current ranges. Climate changes may also create good habitats in areas where a species couldn’t live previously. These observations suggest that ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "changes in Earth’s climate are likely to result in the southern water snake establishing itself as a native species in locations other than California."
+        },
+        {
+          "label": "B",
+          "text": "California was previously home to some southern water snakes but they were outcompeted by invading species."
+        },
+        {
+          "label": "C",
+          "text": "it’s appropriate for California to designate certain species as invasive but the state should designate the southern water snake as native."
+        },
+        {
+          "label": "D",
+          "text": "California may eventually need to reexamine its designation of the southern water snake as invasive."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "key_evidence": "“invasive” and “native” are labels that describe temporary circumstances; climate change can create new suitable habitats.",
+        "why_correct": "Choice D follows because if climate change changes where species can naturally live, California may need to reconsider whether the southern water snake should always be treated as invasive.",
+        "choice_analysis": {
+          "A": "This overstates the conclusion and refers to locations other than California rather than California’s designation.",
+          "B": "The text does not say southern water snakes used to live in California or were outcompeted.",
+          "C": "The text questions the permanence of invasive/native labels; it does not say California should now call the snake native.",
+          "D": "Correct. The temporary nature of the labels supports reexamining the invasive designation as habitats change."
+        },
+        "short": "Choice D is correct. Choice D follows because if climate change changes where species can naturally live, California may need to reconsider whether the southern water snake should always be treated as invasive.",
+        "detailed": "Choice D follows because if climate change changes where species can naturally live, California may need to reconsider whether the southern water snake should always be treated as invasive."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "mx1_06482",
+      "section": "reading_writing",
+      "question_number": 12,
+      "passage": "Password strength meters (PSMs) provide real-time feedback to users during the password-creation process about how secure a potential password is. PSMs often include “nudges”—design elements meant to encourage the creation of robust passwords. Other PSMs provide direct guidance on how to create strong passwords. A research team found that the strongest passwords resulted from a combination of these approaches. The team also found that the specific type of nudge (reciprocity, compensation, etc.) did not significantly affect user behavior. It therefore follows that when creating passwords, users receiving ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "direct guidance would not be expected to create stronger passwords than users receiving compensation nudges, although users receiving compensation nudges would be expected to create stronger passwords than users receiving reciprocity nudges."
+        },
+        {
+          "label": "B",
+          "text": "both compensation and reciprocity nudges would not be expected to create stronger passwords than users receiving reciprocity nudges only, although users receiving direct guidance would be expected to create stronger passwords than users receiving either type of nudge."
+        },
+        {
+          "label": "C",
+          "text": "both direct guidance and reciprocity nudges would not be expected to create stronger passwords than users receiving reciprocity nudges only, although users receiving this combination would be expected to create stronger passwords than users receiving both direct guidance and compensation nudges."
+        },
+        {
+          "label": "D",
+          "text": "reciprocity nudges would not be expected to create stronger passwords than users receiving compensation nudges, although users receiving both direct guidance and reciprocity nudges would be expected to create stronger passwords than users receiving only reciprocity nudges."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "key_evidence": "The strongest passwords came from combining approaches, and the specific nudge type did not significantly affect behavior.",
+        "why_correct": "Choice D matches both findings: one nudge type should not outperform another, but adding direct guidance to a nudge should produce stronger passwords than a nudge alone.",
+        "choice_analysis": {
+          "A": "This incorrectly predicts compensation nudges would outperform reciprocity nudges, contrary to the finding that nudge type did not matter.",
+          "B": "This makes an unclear comparison between two nudges and a single nudge, and it does not express the benefit of combining a nudge with direct guidance.",
+          "C": "This illogically says one combination would not outperform a single nudge but would outperform another combination.",
+          "D": "Correct. It says reciprocity nudges should not be stronger than compensation nudges, while a guidance-plus-nudge combination should be stronger than a nudge alone."
+        },
+        "short": "Choice D is correct. Choice D matches both findings: one nudge type should not outperform another, but adding direct guidance to a nudge should produce stronger passwords than a nudge alone.",
+        "detailed": "Choice D matches both findings: one nudge type should not outperform another, but adding direct guidance to a nudge should produce stronger passwords than a nudge alone."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "mx1_06483",
+      "section": "reading_writing",
+      "question_number": 13,
+      "passage": "A group of primate conservationists recently began a long-term study of the effects of different conservation strategies on the Perrier’s sifaka (Propithecus perrieri). The species population is currently estimated to be around 500. It is challenging to accurately count these primates, however, which makes it difficult to tell whether the population is increasing, decreasing, or staying stable. The study may thus ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "risk making inaccurate conclusions about the effectiveness of different conservation strategies."
+        },
+        {
+          "label": "B",
+          "text": "cause other conservationists to adopt a new methodology for counting populations."
+        },
+        {
+          "label": "C",
+          "text": "benefit from including species beyond the Perrier’s sifaka."
+        },
+        {
+          "label": "D",
+          "text": "fail to consider less-well-known conservation approaches for the Perrier’s sifaka."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "key_evidence": "It is difficult to accurately count the primates, making population trends difficult to determine.",
+        "why_correct": "Choice A follows because the study is meant to evaluate conservation strategies, but unreliable population counts could lead to inaccurate conclusions about whether those strategies work.",
+        "choice_analysis": {
+          "A": "Correct. If researchers cannot tell whether the population is changing, they may misjudge the strategies’ effectiveness.",
+          "B": "The text does not suggest the study will create or spread a new counting method.",
+          "C": "The issue is counting this species accurately, not needing more species in the study.",
+          "D": "The text does not mention overlooked conservation approaches."
+        },
+        "short": "Choice A is correct. Choice A follows because the study is meant to evaluate conservation strategies, but unreliable population counts could lead to inaccurate conclusions about whether those strategies work.",
+        "detailed": "Choice A follows because the study is meant to evaluate conservation strategies, but unreliable population counts could lead to inaccurate conclusions about whether those strategies work."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "mx1_06485",
+      "section": "reading_writing",
+      "question_number": 14,
+      "passage": "After screening The Handsome Man by Shoalwater Bay Tribe filmmaker Misty Shipman, the members of the selection committee for the Native Women in Film Festival were so impressed by the short drama that they chose ______ as one of the films to be shown at the festival.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "those"
+        },
+        {
+          "label": "B",
+          "text": "them"
+        },
+        {
+          "label": "C",
+          "text": "it"
+        },
+        {
+          "label": "D",
+          "text": "these"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "key_evidence": "The pronoun refers to “the short drama,” a singular noun phrase.",
+        "why_correct": "Choice C is correct because “it” agrees in number with the singular antecedent “the short drama.”",
+        "choice_analysis": {
+          "A": "“Those” is plural and does not agree with the singular antecedent.",
+          "B": "“Them” is plural and does not agree with the singular antecedent.",
+          "C": "Correct. “It” is singular and refers to the short drama.",
+          "D": "“These” is plural and does not agree with the singular antecedent."
+        },
+        "short": "Choice C is correct. Choice C is correct because “it” agrees in number with the singular antecedent “the short drama.”",
+        "detailed": "Choice C is correct because “it” agrees in number with the singular antecedent “the short drama.”"
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "pronoun_agreement"
+      }
+    },
+    {
+      "question_id": "mx1_06486",
+      "section": "reading_writing",
+      "question_number": 15,
+      "passage": "Frederick Hill was one of the nearly two thousand African Americans who won a public office during the Reconstruction era, the twelve-year period that followed the Civil War. A politician from Florida, ______",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "constituents of Hill elected him to the state senate in 1870."
+        },
+        {
+          "label": "B",
+          "text": "in 1870, his constituents elected Hill to the state senate."
+        },
+        {
+          "label": "C",
+          "text": "Hill was elected to the state senate in 1870 by his constituents."
+        },
+        {
+          "label": "D",
+          "text": "1870 was the year that Hill was elected to the state senate by his constituents."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "A politician from Florida应说明Hill，主句须以Hill为主语。",
+        "key_evidence": "修饰语描述的是一位佛罗里达政治人物；B的主句是his constituents elected Hill，C的主句是Hill was elected。",
+        "why_correct": "C把被描述的Hill置于主句主语位置，形成A politician from Florida, Hill was elected...，修饰对象清楚且句法完整。",
+        "detailed": "先去掉时间状语和介词短语，再找主句主语。A与B都是constituents作主语，D是1870作主语，都不能与一位政治人物同指。C虽用被动语态，但主语正是Hill，因而正确。",
+        "choice_analysis": {
+          "A": "主语constituents是选民，不是开头说的那位政治人物。",
+          "B": "in1870只是状语；其后的主语his constituents仍是选民，导致修饰语悬垂。",
+          "C": "正确：Hill作主语，与开头的政治人物同位。",
+          "D": "主语1870是年份，不能被称为政治人物。"
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "modifier_placement"
+      }
+    },
+    {
+      "question_id": "mx1_06488",
+      "section": "reading_writing",
+      "question_number": 17,
+      "passage": "Known in Taiwan for hosting its first televised cooking show, renowned ______ Fu Pei-mei taught viewers how to cook Chinese cuisine for almost 40 years. Fu gained acclaim outside of Taiwan as well, particularly from the success of her first bilingual Mandarin-English cookbook, published in 1969.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "chef, and culinary instructor—"
+        },
+        {
+          "label": "B",
+          "text": "chef, and culinary instructor"
+        },
+        {
+          "label": "C",
+          "text": "chef and culinary instructor"
+        },
+        {
+          "label": "D",
+          "text": "chef and culinary instructor,"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "key_evidence": "“Renowned chef and culinary instructor Fu Pei-mei” is a single noun phrase identifying Fu.",
+        "why_correct": "Choice C correctly joins the two titles without unnecessary punctuation before the name.",
+        "choice_analysis": {
+          "A": "The comma and dash unnecessarily break the noun phrase.",
+          "B": "The comma before “and” incorrectly separates two titles in a simple compound.",
+          "C": "Correct. No punctuation is needed between the compound titles and the name.",
+          "D": "The comma after “instructor” wrongly separates the titles from the name they identify."
+        },
+        "short": "Choice C is correct. Choice C correctly joins the two titles without unnecessary punctuation before the name.",
+        "detailed": "Choice C correctly joins the two titles without unnecessary punctuation before the name."
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_within_noun_phrase"
+      }
+    },
+    {
+      "question_id": "mx1_06490",
+      "section": "reading_writing",
+      "question_number": 19,
+      "passage": "Anthropologist, activist, and musician Lila Downs draws on a variety of Mexican musical genres in her 2023 album La Sánchez. ______ she draws on corridos, rancheras, and other genres of northern Mexico, even though she is from the southern Mexican city of Oaxaca. “La Sánchez is my contribution,” Downs says in an interview, “as a southern woman, that also considers this music as hers.”",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Specifically,"
+        },
+        {
+          "label": "B",
+          "text": "Therefore,"
+        },
+        {
+          "label": "C",
+          "text": "Rather,"
+        },
+        {
+          "label": "D",
+          "text": "In conclusion,"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "key_evidence": "The second sentence lists particular genres after the first sentence mentions a variety of genres.",
+        "why_correct": "Choice A is correct because the second sentence gives specific examples of the broad category introduced in the first sentence.",
+        "choice_analysis": {
+          "A": "Correct. “Specifically” introduces particular examples of the genres Downs uses.",
+          "B": "“Therefore” signals a result, but the second sentence is not a consequence.",
+          "C": "“Rather” signals correction or replacement, which is not the relationship.",
+          "D": "“In conclusion” is inappropriate because the sentence is not summarizing an argument."
+        },
+        "short": "Choice A is correct. Choice A is correct because the second sentence gives specific examples of the broad category introduced in the first sentence.",
+        "detailed": "Choice A is correct because the second sentence gives specific examples of the broad category introduced in the first sentence."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "mx1_06491",
+      "section": "reading_writing",
+      "question_number": 20,
+      "passage": "The World Cup of men’s soccer, one of the biggest sporting events on the planet, brought 32 national teams from six continents to the host country, Qatar, in 2022. ______ only 16 teams, all from Europe and the Americas, competed in the 1958 World Cup in Sweden.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "In contrast,"
+        },
+        {
+          "label": "B",
+          "text": "For instance,"
+        },
+        {
+          "label": "C",
+          "text": "Therefore,"
+        },
+        {
+          "label": "D",
+          "text": "In other words,"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "key_evidence": "The 2022 tournament had 32 teams from six continents, whereas the 1958 tournament had only 16 teams from Europe and the Americas.",
+        "why_correct": "Choice A correctly signals the contrast between the larger, more global 2022 event and the smaller 1958 event.",
+        "choice_analysis": {
+          "A": "Correct. The second sentence contrasts with the first in size and geographic range.",
+          "B": "“For instance” would give an example of the first claim, but the 1958 case is different.",
+          "C": "“Therefore” signals a result, but no cause-effect relationship is given.",
+          "D": "“In other words” would restate the same idea, but the second sentence presents contrasting information."
+        },
+        "short": "Choice A is correct. Choice A correctly signals the contrast between the larger, more global 2022 event and the smaller 1958 event.",
+        "detailed": "Choice A correctly signals the contrast between the larger, more global 2022 event and the smaller 1958 event."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "mx1_06492",
+      "section": "reading_writing",
+      "question_number": 21,
+      "passage": "Broadcasting from the Yakama Nation’s lands in central Washington, the Native-run radio station KYNR 1490 AM does much to serve the local Sahaptin-speaking community. ______ it broadcasts local news and music as well as programming in the Sahaptin language.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Instead,"
+        },
+        {
+          "label": "B",
+          "text": "Specifically,"
+        },
+        {
+          "label": "C",
+          "text": "Nevertheless,"
+        },
+        {
+          "label": "D",
+          "text": "As a result,"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "后句列出服务社区的具体方式，用Specifically。",
+        "key_evidence": "前句泛称电台服务当地Sahaptin社区；后句明确本地新闻、音乐与Sahaptin语言节目。",
+        "why_correct": "B把一般评价具体化为节目内容，准确对应总述到细节的关系。",
+        "detailed": "这两句不是先给一个原因再给结果，而是先说服务做得多，再说明有哪些服务。第二句的节目清单是第一句的具体内容。",
+        "choice_analysis": {
+          "A": "Instead表示替代，但这些节目没有取代前面所说的社区服务。",
+          "B": "正确：Specifically引出服务社区的具体节目。",
+          "C": "Nevertheless表示让步转折，而节目内容与服务社区一致。",
+          "D": "As a result表示结果，后句不是社区服务造成的新结果，而是在解释服务本身。"
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "mx1_06493",
+      "section": "reading_writing",
+      "question_number": 22,
+      "passage": "Al-Andalus, the historical region of the Iberian Peninsula that includes most of modern-day Spain, was ruled by various Arabic-speaking Muslim states between the eighth and fifteenth centuries. ______ many Arabic words, such as “alacrán”—meaning “scorpion”—made their way into the Spanish language.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Consequently,"
+        },
+        {
+          "label": "B",
+          "text": "Specifically,"
+        },
+        {
+          "label": "C",
+          "text": "For example,"
+        },
+        {
+          "label": "D",
+          "text": "Instead,"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "阿拉伯语统治带来词汇借入，用Consequently。",
+        "key_evidence": "第一句说当地八至十五世纪受阿拉伯语穆斯林政权统治，第二句说许多阿拉伯词进入西班牙语。",
+        "why_correct": "A标出前述历史语言接触所产生的语言结果，符合两个命题的因果关系。",
+        "detailed": "alacrán是借词的例子，但空格连接的整句是许多阿拉伯词进入西班牙语。这一整句不是前一句政权统治的具体实例，而是其语言后果。",
+        "choice_analysis": {
+          "A": "正确：Consequently将词汇进入西班牙语作为长期统治与语言接触的结果。",
+          "B": "Specifically应细化前句统治本身，借词是影响而非该统治的同义细节。",
+          "C": "For example误把借词现象当作政权统治的一个实例。",
+          "D": "Instead表示替代，原文没有一种语言事件取代另一事件。"
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "mx1_06495",
+      "section": "reading_writing",
+      "question_number": 23,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• 2024: Spain and Portugal sponsored a workshop to address recent encounters between Iberian orcas and marine vessels off the Iberian Peninsula.\n• Many of the 637 documented incidents involved pods of orcas damaging vessels by ramming, nudging, or biting the rudders.\n• Studies of Iberian orcas suggest recent increases in tuna populations have reduced the time the orcas spend hunting by 99%.\n• Researchers believe this shift has increased the number of interactions between marine vessels and understimulated orcas.\n• The workshop advised mariners to avoid orcas pending further testing of the efficacy of TAST, a harmless acoustic deterrent.",
+      "prompt": "The student wants to make and support a claim about Iberian orca behavior. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "As supported by the workshop’s analysis of 637 encounters between vessels and Iberian orcas, TAST is a harmless and effective acoustic deterrent."
+        },
+        {
+          "label": "B",
+          "text": "In 2024, Spain and Portugal sponsored a workshop that addressed incidents where pods of Iberian orcas were ramming, nudging, or biting the rudders of vessels."
+        },
+        {
+          "label": "C",
+          "text": "Tuna populations have increased by approximately 99% off the Iberian Peninsula due to changes in the hunting behavior of Iberian orcas."
+        },
+        {
+          "label": "D",
+          "text": "The recent destructive behavior of Iberian orcas may be the result of understimulation, given that orcas’ interactions with marine vessels have increased as the orcas have spent less time hunting."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "D提出刺激不足的行为解释，并用觅食减少这一证据支持。",
+        "key_evidence": "金枪鱼增多使虎鲸觅食时间减少99%；研究者认为刺激不足增加了与船只互动。TAST的有效性仍需测试。",
+        "why_correct": "D用may保持推断强度，提出破坏行为可能源于刺激不足，再以减少觅食和增加互动支撑，满足提出并支持主张的双重目标。",
+        "detailed": "目标不是简单报告研讨会，而是围绕虎鲸行为建立论点与依据。笔记支持从食物更容易获得到觅食减少、刺激不足再到更多船只互动这一链条，但不支持TAST已有效或金枪鱼增加了99%。",
+        "choice_analysis": {
+          "A": "TAST的无害性已给出，但有效性尚待测试，不能断言有效；也未解释虎鲸行为。",
+          "B": "只描述研讨会和行为事实，没有提出并支持行为原因的主张。",
+          "C": "99%指虎鲸觅食时间的减少，不是金枪鱼种群增长；它还倒置了因果方向。",
+          "D": "正确：以觅食减少及互动增加支持刺激不足可能导致破坏行为的主张。"
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "student_notes_claim_support"
+      }
+    },
+    {
+      "question_id": "mx1_06496",
+      "section": "reading_writing",
+      "question_number": 24,
+      "passage": "Some animals can wiggle their ears to find prey. Many people think that most humans can’t wiggle their ears, maybe because we don’t need to do it for survival. But in a 2020 study, Daniel Strauss and team found that study participants made small ear movements without realizing it while listening to podcasts. This finding could suggest that humans might have some [vocab]______[/vocab] to wiggle their ears.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "capacity"
+        },
+        {
+          "label": "B",
+          "text": "kindness"
+        },
+        {
+          "label": "C",
+          "text": "job"
+        },
+        {
+          "label": "D",
+          "text": "weakness"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "实测出现耳部运动，说明仍有capacity，即能力。",
+        "key_evidence": "参与者听播客时不自觉地出现微小耳部运动。",
+        "why_correct": "A的capacity表示能力或潜能，与已观察到的人类动耳动作直接对应。",
+        "detailed": "研究挑战的不是人类是否愿意动耳，而是是否还能做到。实际观察到微小运动支持存在一定能力，并不要求动作有意识或对生存必需。",
+        "choice_analysis": {
+          "A": "正确：capacity是完成某动作的能力或潜能。",
+          "B": "kindness是善意，与耳部运动的生理能力无关。",
+          "C": "job是工作或任务，不表示能否完成动作。",
+          "D": "weakness是弱点或无力，不能表达实测动作所说明的能力。"
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "mx1_06497",
+      "section": "reading_writing",
+      "question_number": 25,
+      "passage": "The following text is adapted from Jhumpa Lahiri’s 2003 novel The Namesake. Ashima and her husband, Ashoke, are traveling from the United States to India.\n\nAshoke puts his hand over hers as the plane begins to [vocab]gather[/vocab] speed. And then Boston tilts away and they ascend effortlessly over a blackened Atlantic.\n\n©2003 by Jhumpa Lahiri",
+      "prompt": "As used in the text, what does the word “gather” most nearly mean?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Favor"
+        },
+        {
+          "label": "B",
+          "text": "Gain"
+        },
+        {
+          "label": "C",
+          "text": "Doubt"
+        },
+        {
+          "label": "D",
+          "text": "Argue"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "gather speed就是gain speed，指飞机加速。",
+        "key_evidence": "飞机先gather speed，随后离开Boston并升到大西洋上空。",
+        "why_correct": "B的gain表示获得、增加，代入gain speed构成与起飞过程一致的惯用表达。",
+        "detailed": "gather在此不是把物品聚在一起，而是与speed搭配表示速度逐渐增加。接下来的ascend说明飞机正在完成加速、离地的过程。",
+        "choice_analysis": {
+          "A": "Favor表示赞成或偏爱，不能表达速度增加。",
+          "B": "正确：Gain speed意为获得速度、加速。",
+          "C": "Doubt表示怀疑，既不合搭配也不合起飞动作。",
+          "D": "Argue表示争论，不能描述飞机加速。"
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "vocabulary_in_context"
+      }
+    },
+    {
+      "question_id": "mx1_06498",
+      "section": "reading_writing",
+      "question_number": 26,
+      "passage": "Often, the Nobel Prize in Chemistry is given to a single person, such as William N. Lipscomb in 1976. But scientific breakthroughs are rarely the work of lone geniuses. Instead, success in fields like chemistry has often been achieved through [vocab]______[/vocab] other experts, as was the case for Richard R. Schrock, who was among those awarded for “the development of the metathesis method in organic synthesis.”",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "competition with"
+        },
+        {
+          "label": "B",
+          "text": "isolation from"
+        },
+        {
+          "label": "C",
+          "text": "deference to"
+        },
+        {
+          "label": "D",
+          "text": "collaboration with"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "不是孤身天才，而是与专家合作。",
+        "key_evidence": "rarely the work of lone geniuses与Instead构成转向，后文例子多人共同获奖。",
+        "why_correct": "collaboration with表示与其他专家合作，符合由独自到共同工作的对照。",
+        "detailed": "科学奖可能只授给个人，不代表突破由个人独立完成。作者强调的是实际研究中的共同劳动，而非竞争、隔绝或服从。",
+        "choice_analysis": {
+          "A": "competition是竞争，不表示共同工作。",
+          "B": "isolation是隔绝，重复被否定的孤身情形。",
+          "C": "deference是服从或尊重，不能说明共同研究。",
+          "D": "正确：合作与非孤身突破相呼应。"
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "mx1_06499",
+      "section": "reading_writing",
+      "question_number": 27,
+      "passage": "At a conference for aspiring children’s book authors, James Haskins, author of such lauded works as James Van Der Zee: The Picture Takin’ Man, was the subject of a presentation that was intended specifically to foster [vocab]______[/vocab] the techniques of successful authors so that attendees could use that understanding to improve their own work.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "obliviousness about"
+        },
+        {
+          "label": "B",
+          "text": "exceptions to"
+        },
+        {
+          "label": "C",
+          "text": "insight into"
+        },
+        {
+          "label": "D",
+          "text": "hesitancy about"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "that understanding提示insight into，深入理解。",
+        "key_evidence": "听众要利用这种understanding改进自己的创作。",
+        "why_correct": "insight into表示对成功作家技巧的理解，与后文代词回指完全对应。",
+        "detailed": "会议展示成功作家的方法，是为了让新作者学会并运用，而不是让他们忽视、犹豫或寻找例外。",
+        "choice_analysis": {
+          "A": "obliviousness是无知或未察觉，与获得理解相反。",
+          "B": "exceptions是例外，不能被that understanding自然回指。",
+          "C": "正确：insight指领悟与理解。",
+          "D": "hesitancy是犹豫，不是学习技巧的目标。"
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "mx1_06500",
+      "section": "reading_writing",
+      "question_number": 28,
+      "passage": "Wenheng Zhang and colleagues have explored how convergent evolution—[u]a phenomenon that occurs when the same trait evolves independently in two reproductively separate lineages[/u]—can result from a genetic mechanism shared by both lineages. Meanwhile, Michael D. Shapiro and colleagues have investigated how convergence occurs through different genetic mechanisms, but the relative prevalence of convergence through shared and different genetic processes is still poorly understood. This motivated biologists Delbert A. Green II and Cassandra G. Extavour to evaluate both types of convergence in a single study for their 2012 paper.",
+      "prompt": "Which choice best states the function of the underlined portion in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It provides examples of how a phenomenon was studied by scientists in the field before Green and Extavour’s study."
+        },
+        {
+          "label": "B",
+          "text": "It gives a basic description of a phenomenon that is central to the discussion that follows."
+        },
+        {
+          "label": "C",
+          "text": "It clarifies a concept that the author implies was unclear in the studies mentioned in the text."
+        },
+        {
+          "label": "D",
+          "text": "It introduces a method of scientific analysis that is discussed in greater detail later in the text."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "划线定义全文核心概念趋同进化。",
+        "key_evidence": "a phenomenon that occurs when...解释何时发生趋同进化，随后全文讨论它的遗传机制。",
+        "why_correct": "B准确说这是中心现象的基础描述，而不是实验方法或研究实例。",
+        "detailed": "定义说明生殖隔离的谱系独立演化出相同特征。作者随后围绕同一现象讨论共享与不同遗传机制及其相对普遍性。",
+        "choice_analysis": {
+          "A": "划线没有举科学家如何研究的实例。",
+          "B": "正确：给出后文中心现象的基本定义。",
+          "C": "未说以往研究不理解趋同进化的定义；未知的是机制的相对普遍性。",
+          "D": "定义的是自然现象，不是科学分析方法。"
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "function_of_underlined_portion"
+      }
+    },
+    {
+      "question_id": "mx1_06501",
+      "section": "reading_writing",
+      "question_number": 29,
+      "passage": "Like all species of baleen whales, the Antarctic minke whale feeds on tiny creatures known as krill by filtering water through bristlelike keratin structures called baleen plates. In this way, baleen whales can eat up to 30 percent of their total mass per day. [u]And while no one would call the Antarctic minke whale small—it can have a mass as high as 10,000 kg[/u]—it is one of the smaller baleen whales and is much smaller than the northern right whale, which can weigh a whopping 80,000 kg and consume as much as 24,000 kg of krill per day.",
+      "prompt": "Which choice best describes the function of the underlined portion in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It illustrates the size of the Antarctic minke whale and establishes a point of contrast with the size of the northern right whale."
+        },
+        {
+          "label": "B",
+          "text": "It draws a distinction between the overall size of the Antarctic minke whale and the relatively small quantity of krill it can consume per day."
+        },
+        {
+          "label": "C",
+          "text": "It emphasizes the quantity of krill needed to support both the Antarctic minke whale and the northern right whale."
+        },
+        {
+          "label": "D",
+          "text": "It downplays the significance of the size difference between the Antarctic minke whale and the northern right whale."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "先说明小须鲸很大，为更大的露脊鲸建立比较基准。",
+        "key_evidence": "划线给出10,000kg，后文说它仍比80,000kg的北露脊鲸小很多。",
+        "why_correct": "A同时抓住体型说明和为后续对比铺垫两项功能。",
+        "detailed": "while引出让步：在人类尺度中已经不小，但在须鲸中仍相对较小。划线并未讨论它食量偏小。",
+        "choice_analysis": {
+          "A": "正确：说明小须鲸体型并为与露脊鲸对照铺垫。",
+          "B": "划线没有比较小须鲸体重与其食量。",
+          "C": "划线给体重而非两种鲸所需磷虾数量。",
+          "D": "两者80,000对10,000的差距被强调而非淡化。"
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "function_of_underlined_portion"
+      }
+    },
+    {
+      "question_id": "mx1_06502",
+      "section": "reading_writing",
+      "question_number": 30,
+      "passage": "In rainforests in Costa Rica, there are large kapok trees. Dead leaves and other falling things collect in the trees’ branches and break down into mats of soil. This is called canopy soil because it forms in a tree’s branches (its canopy). Scientist Catherine L. Cardelús’s 2008 study of canopy soil found that it helps preserve a healthy water cycle (how water moves through the environment) in forests.",
+      "prompt": "According to the text, Cardelús’s study is from what year?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2008"
+        },
+        {
+          "label": "B",
+          "text": "2005"
+        },
+        {
+          "label": "C",
+          "text": "2007"
+        },
+        {
+          "label": "D",
+          "text": "2006"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "研究年份是2008。",
+        "key_evidence": "原句明确写Catherine L. Cardelús's 2008 study。",
+        "why_correct": "A与研究前的年份2008直接一致。",
+        "detailed": "题目只问研究发表于哪一年，不问土壤形成时间或科学家生平，定位study前的年份即可。",
+        "choice_analysis": {
+          "A": "正确：2008是原文明示年份。",
+          "B": "2005未在文中出现。",
+          "C": "2007不是文中研究年份。",
+          "D": "2006不是文中研究年份。"
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "explicit_detail"
+      }
+    },
+    {
+      "question_id": "mx1_06504",
+      "section": "reading_writing",
+      "question_number": 31,
+      "passage": "The Wonderful Wizard of Oz is a 1900 novel by L. Frank Baum. In the novel, the narrator describes Dorothy’s dog, Toto, as causing Dorothy to feel cheerful: ______",
+      "prompt": "Which quotation from The Wonderful Wizard of Oz most effectively illustrates the claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "“[Dorothy] lay down at once, and with Toto beside her soon fell into a sound sleep.”"
+        },
+        {
+          "label": "B",
+          "text": "“It was Toto that made Dorothy laugh, and saved her from growing as gray as her other surroundings.”"
+        },
+        {
+          "label": "C",
+          "text": "“Toto was not gray; he was a little black dog, with long silky hair and small black eyes that twinkled merrily on either side of his funny, wee nose.”"
+        },
+        {
+          "label": "D",
+          "text": "“Then [Dorothy] went back to the house, and having helped herself and Toto to a good drink of the cool, clear water, she set about making ready for the journey to the City of Emeralds.”"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "B直接说Toto使Dorothy笑。",
+        "key_evidence": "引文It was Toto that made Dorothy laugh明确呈现狗带来的愉快。",
+        "why_correct": "B把Toto作为Dorothy发笑并避免变得灰暗的原因，正好证明给定主张。",
+        "detailed": "要选择快乐这一情绪的直接证据，而非仅有两者同处或关于狗本身的描写。",
+        "choice_analysis": {
+          "A": "在狗旁边睡着不直接表明快乐。",
+          "B": "正确：made Dorothy laugh直接说明快乐的因果关系。",
+          "C": "描写狗的外貌和眼睛，不是Dorothy的心情。",
+          "D": "描述喝水及准备旅行，未说明Toto令她快乐。"
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "quotation_support"
+      }
+    },
+    {
+      "question_id": "mx1_06506",
+      "section": "reading_writing",
+      "question_number": 32,
+      "passage": "Volcanoes in Ecuador\n\nName of volcano | Year of last eruption | Volcano type\nSoche | 6650 BCE | shield\nImbabura | 5550 BCE | compound\nSangay | 2022 CE | stratovolcano\nChacana | 1773 CE | caldera\n\nA student is researching volcanoes in Ecuador. The student claims that Ecuador is home to several different types of volcanoes.",
+      "prompt": "Which choice best describes information from the table that supports the student’s claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Soche is a shield volcano, Sangay is a stratovolcano, Imbabura is a compound volcano, and Chacana is a caldera volcano."
+        },
+        {
+          "label": "B",
+          "text": "Soche and Sangay are both shield volcanoes, whereas Imbabura and Chacana are both compound volcanoes."
+        },
+        {
+          "label": "C",
+          "text": "Soche, Sangay, and Imbabura are all stratovolcanoes, whereas Chacana is the only caldera volcano."
+        },
+        {
+          "label": "D",
+          "text": "Soche, Sangay, Imbabura, and Chacana each most recently erupted in different years."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "A准确列出四种不同火山类型。",
+        "key_evidence": "Soche盾状、Imbabura复合、Sangay成层、Chacana破火山口，表中类型各异。",
+        "why_correct": "A逐项对应名称和类型，直接证明厄瓜多尔存在多种火山。",
+        "detailed": "学生主张的是类型多样，不是喷发日期多样。应核对类型列而非年份列；名称顺序可以改变但对应不能改变。",
+        "choice_analysis": {
+          "A": "正确：四个名称与类型均匹配表格。",
+          "B": "Sangay不是盾状，Chacana不是复合。",
+          "C": "Soche和Imbabura未被表列为成层火山。",
+          "D": "不同喷发年份虽属事实，却不能证明类型不同。"
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "table_evidence"
+      }
+    },
+    {
+      "question_id": "mx1_06507",
+      "section": "reading_writing",
+      "question_number": 33,
+      "passage": "The 1958 production of Maybe Tuesday was the first Broadway show for which Ann Roth was credited as a costume designer. Roth was among the Broadway costume designers interviewed by Sara Jablon-Roberts and Eulanda A. Sanders for their study of historical accuracy in costume design for shows with a historical setting. They found that even designers who value historical accuracy will often include contemporary design elements that don’t fit with the historical period. In a research paper about theatrical costume design, a student argues that costume designers for modern productions of plays such as the musical Our Town (set in the early 1900s) sometimes include such elements unintentionally.",
+      "prompt": "Which quotation from an interview with a costume designer would most effectively support the student’s claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "“Total historical accuracy in costume design isn’t achievable because our habits and tastes as designers will always be influenced by modern styles.”"
+        },
+        {
+          "label": "B",
+          "text": "“A truly historically accurate costume will sometimes make the character look comically strange to a modern audience.”"
+        },
+        {
+          "label": "C",
+          "text": "“Costumes must always reflect the appropriate historical period.”"
+        },
+        {
+          "label": "D",
+          "text": "“I tend to pay careful attention to the accessories, like gloves, hats, and jewelry, in my work.”"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "现代风格无意识影响设计习惯，支持无意混入。",
+        "key_evidence": "A说our habits and tastes...will always be influenced by modern styles。",
+        "why_correct": "不可避免的习惯与品味影响提供即使追求准确仍会混入现代元素的机制。",
+        "detailed": "目标词是unintentionally。理由必须指向非刻意的现代影响；为观众主动调整服装或重视配饰并不证明无意加入。",
+        "choice_analysis": {
+          "A": "正确：现代风格始终影响习惯与审美，支持非刻意混入。",
+          "B": "准确服装让观众觉得古怪，可能解释主动改动而非无意加入。",
+          "C": "这是规范要求，不证明实际会无意偏离。",
+          "D": "重视配饰不说明现代影响或非故意行为。"
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "quotation_support"
+      }
+    },
+    {
+      "question_id": "mx1_06509",
+      "section": "reading_writing",
+      "question_number": 34,
+      "passage": "Many studies have found a positive association between levels of dissolved organic carbon and mercury in bodies of fresh water undisturbed by human activity. But Chris S. Eckley and colleagues did not find this correlation in an examination of freshwater bodies disturbed by mining, leading some scientists to hypothesize that the association could be particular to undisturbed waters. However, Heleen A. de Wit and colleagues carried out a study on freshwater bodies disturbed by logging activity that showed similar results to the studies on undisturbed waters, suggesting that ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the effects of mining on the association between levels of dissolved organic carbon and mercury should not be taken as indicative of the effects of every type of human disturbance."
+        },
+        {
+          "label": "B",
+          "text": "Eckley and colleagues’ study used different methods to measure the concentration of mercury in fresh water than de Wit and colleagues’ study did."
+        },
+        {
+          "label": "C",
+          "text": "disturbances linked to mining affect significantly more bodies of fresh water than disturbances linked to logging activity do."
+        },
+        {
+          "label": "D",
+          "text": "levels of dissolved organic carbon and mercury are both much higher in bodies of fresh water disturbed by mining than they are in bodies of fresh water disturbed by logging activity."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "不同扰动结果不同，采矿不能代表一切扰动。",
+        "key_evidence": "采矿水域未呈现碳汞正相关，而伐木水域与未扰动水域一样呈现该关系。",
+        "why_correct": "A把结论限定在人类扰动类型不同这一已观察差异，不猜测方法或绝对浓度。",
+        "detailed": "伐木提供一个同样受人类扰动却仍有相关性的反例，足以否定相关性只存在于未扰动水域的概括。",
+        "choice_analysis": {
+          "A": "正确：不能用采矿代表所有人类扰动。",
+          "B": "没有关于测量方法差异的证据。",
+          "C": "没有受两种扰动影响的水体数量比较。",
+          "D": "相关性是否存在不等于绝对浓度高低。"
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "mx1_06510",
+      "section": "reading_writing",
+      "question_number": 35,
+      "passage": "A few years ago, a study found that participants who rode a bicycle while listening to Led Zeppelin’s “Rock and Roll”—which, at 169 beats per minute, or bpm, is a high-tempo song—exhibited a faster pace and higher heart rate than did participants who listened to Ella Fitzgerald’s “From This Moment On” (93 bpm). In a recent effort to replicate this study’s findings, researchers played the same songs while two groups of participants similar to those from the earlier study climbed steps for 30 minutes. Average paces and heart rates were similar across the two groups in the new study, leading the researchers to suggest that ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "some aspect of stair climbing may magnify the effect of high-tempo music on participants’ pace."
+        },
+        {
+          "label": "B",
+          "text": "participants’ familiarity with the songs may have affected performance in both studies."
+        },
+        {
+          "label": "C",
+          "text": "the effects of high-tempo music seen in the earlier study may be specific to cycling."
+        },
+        {
+          "label": "D",
+          "text": "participants’ prior experience with cycling and stair climbing may have improved their performance in each study."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "骑车有差异、爬阶无差异，效果可能限于骑车。",
+        "key_evidence": "旧研究高节奏组骑车更快且心率更高；新研究爬阶两组速度和心率相似。",
+        "why_correct": "C以may保留不确定性，提出高节奏音乐效果可能具有骑车情境特异性。",
+        "detailed": "研究使用相同歌曲和相似受试者，主要改变运动任务。没有证据说明熟悉歌曲或运动经历导致结果；也不能说爬阶放大了已经消失的差异。",
+        "choice_analysis": {
+          "A": "若放大作用，应看到更大差异，实际两组相似。",
+          "B": "未提供歌曲熟悉度的数据或比较。",
+          "C": "正确：可能是骑车特有的音乐效果。",
+          "D": "未测量或操纵先前运动经历，不能据此推断表现提升。"
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "mx1_06511",
+      "section": "reading_writing",
+      "question_number": 36,
+      "passage": "At Rymdpromenaden in Sweden, visitors can walk 75 meters from the model Earth to the model Sun, then 3,000 meters from the model Sun to the model Pluto. The purpose of this arrangement is ______ visitors a sense of the true scale of the solar system.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "to give"
+        },
+        {
+          "label": "B",
+          "text": "gave"
+        },
+        {
+          "label": "C",
+          "text": "gives"
+        },
+        {
+          "label": "D",
+          "text": "has given"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "The purpose is to give：不定式说明目的。",
+        "key_evidence": "主句已有系动词is，空格要说明这个安排的目的是什么。",
+        "why_correct": "A的to give作表语，表达给游客太阳系尺度感的目的。",
+        "detailed": "有限动词is后不能再无连接地放gave、gives或has given；to give是可作补语的非限定动词短语。",
+        "choice_analysis": {
+          "A": "正确：to give构成说明目的的不定式。",
+          "B": "gave是过去时有限谓语，不能接在is后。",
+          "C": "gives是有限谓语，造成is gives不合法组合。",
+          "D": "has given是另一有限谓语，不能直接接is。"
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "mx1_06512",
+      "section": "reading_writing",
+      "question_number": 37,
+      "passage": "Teresita Fernández’s 2010 sculpture Nocturnal (Horizon Line) is a striking and thought-provoking work of art. Fittingly, curator E. Carmen Ramos decided ______ it in a 2013 exhibition at the Smithsonian American Art Museum.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "included"
+        },
+        {
+          "label": "B",
+          "text": "to include"
+        },
+        {
+          "label": "C",
+          "text": "including"
+        },
+        {
+          "label": "D",
+          "text": "include"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "decided to include是正确补语结构。",
+        "key_evidence": "空格前的限定动词为decided，后面是纳入展览的行动。",
+        "why_correct": "B使用decide to do结构，表示决定做某事。",
+        "detailed": "主句谓语decided已经完成时态表达，include需以to不定式从属于它，不能另放过去式或裸动词，也不直接接including。",
+        "choice_analysis": {
+          "A": "decided included把两个有限形式无连接并置。",
+          "B": "正确：decided to include表示决定纳入。",
+          "C": "decide通常不以直接动名词including作这个补语。",
+          "D": "decided include缺少不定式标记to。"
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "mx1_06513",
+      "section": "reading_writing",
+      "question_number": 38,
+      "passage": "The town of Maseno in Kenya ______ almost directly on the equator, making it a rare place on the globe.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "have sat"
+        },
+        {
+          "label": "B",
+          "text": "sit"
+        },
+        {
+          "label": "C",
+          "text": "are sitting"
+        },
+        {
+          "label": "D",
+          "text": "sits"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "The town为单数，谓语用sits。",
+        "key_evidence": "主语中心词是town；of Maseno和in Kenya仅标识其名称与地点。",
+        "why_correct": "D是与单数城镇一致的现在时谓语，陈述其位于赤道附近的地理事实。",
+        "detailed": "识别主语中心而非附近地名。城镇是一个，因此用sits而非复数主语搭配的sit、have或are。",
+        "choice_analysis": {
+          "A": "have与单数town不一致。",
+          "B": "sit不是第三人称单数现在时。",
+          "C": "are与单数town不一致。",
+          "D": "正确：sits与The town一致。"
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "subject_verb_agreement"
+      }
+    },
+    {
+      "question_id": "mx1_06514",
+      "section": "reading_writing",
+      "question_number": 39,
+      "passage": "Today, the Michelin Guide is widely known as the arbiter of fine dining, with its coveted 3-star rating being awarded to top restaurants like Maaemo in Oslo. However, few know the guide started as a marketing gimmick in 1900, when brothers Andre and Edouard Michelin sought to increase profits for their tire company by encouraging their customers to ______ their cars across France, visiting the guide’s recommended hotels and restaurants along the way.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "drive"
+        },
+        {
+          "label": "B",
+          "text": "drive,"
+        },
+        {
+          "label": "C",
+          "text": "drive;"
+        },
+        {
+          "label": "D",
+          "text": "drive:"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "to drive their cars中动词与宾语间不加标点。",
+        "key_evidence": "空格后their cars是drive的直接宾语，后续across France说明行驶范围。",
+        "why_correct": "A保留连续的动宾结构，让to drive their cars完整。",
+        "detailed": "空格不是两个分句之间，也不是完整句后列举解释；它位于不定式内部，所以逗号、分号、冒号都不应插入。",
+        "choice_analysis": {
+          "A": "正确：drive直接带宾语their cars。",
+          "B": "逗号错误拆开动词与其宾语。",
+          "C": "分号不能置于不定式的动词和宾语之间。",
+          "D": "冒号前to drive尚未完成该动词短语。"
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "mx1_06515",
+      "section": "reading_writing",
+      "question_number": 40,
+      "passage": "Though the words are synonymous in everyday ______ “modern” and “contemporary” have different meanings in parts of visual arts culture, where “modern” refers to art from the nineteenth and early twentieth centuries, such as The Conquest of the Air (1913) by Roger de La Fresnaye, and “contemporary” encompasses art from the late 1960s to the present day, such as Perseverance (1981) by Francesco Clemente. New York City’s Museum of Modern Art (MoMA) houses the finest works from both of these periods.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "usage, and"
+        },
+        {
+          "label": "B",
+          "text": "usage"
+        },
+        {
+          "label": "C",
+          "text": "usage,"
+        },
+        {
+          "label": "D",
+          "text": "usage and"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "Though让步从句后用逗号接主句。",
+        "key_evidence": "Though the words are synonymous in everyday usage为从属部分；modern and contemporary have different meanings为主句。",
+        "why_correct": "C在两部分边界加逗号，正确构成Though X, Y结构。",
+        "detailed": "Though已经建立从属关系，主句无需再加and。句子强调日常同义与艺术术语不同义之间的让步对照。",
+        "choice_analysis": {
+          "A": "and不应再把Though从句与主句按独立句协调。",
+          "B": "缺少前置让步从句后的逗号。",
+          "C": "正确：usage后的逗号结束Though从句。",
+          "D": "既缺从句边界逗号，又多余加入and。"
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "mx1_06516",
+      "section": "reading_writing",
+      "question_number": 41,
+      "passage": "It should come as no surprise that Merry Clayton and Darlene Love ______ so prominently in Twenty Feet from Stardom, an award-winning documentary exploring the role of backup singers in popular music. Both artists provided backup vocals for some of the most iconic songs of the twentieth century.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "feature"
+        },
+        {
+          "label": "B",
+          "text": "has featured"
+        },
+        {
+          "label": "C",
+          "text": "featuring"
+        },
+        {
+          "label": "D",
+          "text": "features"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "两位歌手为复数主语，谓语用feature。",
+        "key_evidence": "Merry Clayton and Darlene Love并列作that从句主语。",
+        "why_correct": "A为复数主语的现在时动词，完整表达她们在纪录片中突出出现。",
+        "detailed": "外层It should come as no surprise不代替that从句自身的谓语；该从句需要与两人一致的有限动词。",
+        "choice_analysis": {
+          "A": "正确：feature与两人构成的复数主语一致。",
+          "B": "has为单数，与复数主语不一致。",
+          "C": "featuring为非限定形式，不能单独构成从句谓语。",
+          "D": "features为第三人称单数，与复数主语不一致。"
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "subject_verb_agreement"
+      }
+    },
+    {
+      "question_id": "mx1_06517",
+      "section": "reading_writing",
+      "question_number": 42,
+      "passage": "Ecologists, such as Sonia Reyes-Paecke, use trophic pyramids to illustrate the food chain within a given ecosystem. At a typical pyramid’s base are primary producers, like phytoplankton, followed by herbivores at the second trophic level, then omnivores and carnivores at the third. ______ at the fourth, highest trophic level are apex predators, like sharks, that feed on the animals below.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "For example,"
+        },
+        {
+          "label": "B",
+          "text": "Besides,"
+        },
+        {
+          "label": "C",
+          "text": "In fact,"
+        },
+        {
+          "label": "D",
+          "text": "Finally,"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "第四层为最后一层，用Finally。",
+        "key_evidence": "原文依次列base、second、third，接着第四且highest。",
+        "why_correct": "D标识有序介绍的最后阶段，与营养层级逐层上升对应。",
+        "detailed": "后句不是第三层的例子，也不只是补充事实，而是把同一分类序列推进到最高的最终层。",
+        "choice_analysis": {
+          "A": "顶级捕食者不是第三层杂食或肉食者的例子，而是第四层。",
+          "B": "Besides仅补充，未标出序列终点。",
+          "C": "In fact强调或证实，不表达层级顺序。",
+          "D": "正确：Finally引出第四也是最后一层。"
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "mx1_06518",
+      "section": "reading_writing",
+      "question_number": 43,
+      "passage": "Many puppeteers specialize in a specific type of puppetry. Japanese puppeteer Koryu Nishikawa V, ______ is a specialist in bunraku puppetry, while Dadi Pudumjee, an Indian puppeteer, is a marionette puppetry specialist.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "instead,"
+        },
+        {
+          "label": "B",
+          "text": "in other words,"
+        },
+        {
+          "label": "C",
+          "text": "next,"
+        },
+        {
+          "label": "D",
+          "text": "for instance,"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "具体木偶师的专长举例支持总述，用for instance。",
+        "key_evidence": "前句说许多木偶师专攻某一类型，后句给Nishikawa和Pudumjee的具体专长。",
+        "why_correct": "D引入一般规律的实例，且逗号夹置可自然放在主语后。",
+        "detailed": "while在后句内部比较两人的专长，不改变整句相对于前句的举例功能。",
+        "choice_analysis": {
+          "A": "instead表示替代，实例并未取代专长的一般规律。",
+          "B": "in other words表示重述，后句添加了具体人物而非同义改写。",
+          "C": "next暗示时间或步骤顺序，文中没有。",
+          "D": "正确：for instance引出规律的具体例子。"
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "mx1_06519",
+      "section": "reading_writing",
+      "question_number": 44,
+      "passage": "• The Confederation of Cameroon Trade Unions (CSTC) is a national union federation for the African nation of Cameroon. • It helps improve conditions for workers in that nation. • ITUC-Africa is a regional union federation that represents national union federations across Africa. • It represents the CSTC.",
+      "prompt": "Which choice most effectively uses information from the given sentences to explain the relationship between ITUC-Africa and the CSTC?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "ITUC-Africa is a regional union federation."
+        },
+        {
+          "label": "B",
+          "text": "ITUC-Africa represents many national union federations, including the CSTC."
+        },
+        {
+          "label": "C",
+          "text": "National union federations, such as the CSTC, work to improve conditions for workers in their member nations."
+        },
+        {
+          "label": "D",
+          "text": "The CSTC is a national union federation."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "ITUC-Africa代表CSTC，B直接说明二者关系。",
+        "key_evidence": "笔记说ITUC-Africa代表非洲各国工会联合会，其中包括CSTC。",
+        "why_correct": "B将区域组织与其代表的全国组织连接，明确CSTC属于被代表者之一。",
+        "detailed": "单独介绍任一组织的层级或功能，不等于解释二者关系；需要把两个名字放在同一代表关系中。",
+        "choice_analysis": {
+          "A": "只介绍ITUC-Africa的类型，没有涉及CSTC。",
+          "B": "正确：说明ITUC-Africa代表包括CSTC在内的多个全国组织。",
+          "C": "只说CSTC等组织的工作，未说明ITUC-Africa与它的关系。",
+          "D": "只定义CSTC，缺少另一组织。"
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "student_notes_relationship"
+      }
+    },
+    {
+      "question_id": "mx1_06520",
+      "section": "reading_writing",
+      "question_number": 45,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Save Me is a 2018 sculpture by American artist Olivia Steele.\n• It is crafted from pink neon lighting that spells out the title phrase (“save me”).\n• Harvest Moon is a 2013 sculpture by British/Pakistani artist Shezad Dawood.\n• It is crafted from yellow neon lighting that forms an abstract moon shape.",
+      "prompt": "The student wants to describe Steele’s sculpture. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Olivia Steele’s sculpture Save Me is crafted from pink neon lighting that spells out the title phrase (“save me”)."
+        },
+        {
+          "label": "B",
+          "text": "Olivia Steele and Shezad Dawood are artists who have used neon in their sculptures."
+        },
+        {
+          "label": "C",
+          "text": "Harvest Moon is a neon sculpture by Shezad Dawood, and it contains an abstract moon shape in yellow neon lighting."
+        },
+        {
+          "label": "D",
+          "text": "Olivia Steele created her sculpture in 2018, and Shezad Dawood’s was made in 2013."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "A聚焦Save Me的材料、颜色与文字形态。",
+        "key_evidence": "笔记描述Steele作品由粉色霓虹拼成标题save me。",
+        "why_correct": "A直接描述目标作品的可见特征，不偏向另一艺术家或创作日期比较。",
+        "detailed": "要描述一件雕塑，材料、颜色、所形成的内容比两位作者都使用霓虹或年份先后更贴合。",
+        "choice_analysis": {
+          "A": "正确：完整描述Steele作品的粉色霓虹和文字形态。",
+          "B": "泛说两位艺术家用霓虹，缺少目标作品的具体样貌。",
+          "C": "描述的是Dawood的Harvest Moon，不是Steele的作品。",
+          "D": "比较年份，不描述Steele雕塑的外观或材料。"
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "student_notes_goal"
+      }
+    },
+    {
+      "question_id": "mx1_06521",
+      "section": "reading_writing",
+      "question_number": 46,
+      "passage": "• India Arie is an African American singer and songwriter. • The media outlet BBC Music has described her music as a “blend of hip hop, soul and folk [that is] as subtle as it [is] inspired.” • Her first studio album, Acoustic Soul, was released in 2001. • It features the song “Promises.” • Nioka Workman played cello on the album.",
+      "prompt": "Which choice most effectively uses information from the given sentences to specify Nioka Workman’s contribution to India Arie’s music?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Featuring the song “Promises,” Acoustic Soul is India Arie’s first studio album."
+        },
+        {
+          "label": "B",
+          "text": "Acoustic Soul, India Arie’s first studio album, features Nioka Workman."
+        },
+        {
+          "label": "C",
+          "text": "Nioka Workman played cello on India Arie’s 2001 album Acoustic Soul."
+        },
+        {
+          "label": "D",
+          "text": "India Arie is an African American singer and songwriter whose music has been described as a “blend of hip hop, soul and folk [that is] as subtle as it [is] inspired.”"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "贡献是演奏大提琴，C明确写出。",
+        "key_evidence": "最后一条笔记说Nioka Workman played cello on the album。",
+        "why_correct": "C同时给出参与者、具体演奏内容与专辑身份，准确完成specify contribution。",
+        "detailed": "只说专辑有Workman并不足以具体说明她做了什么。描述歌手风格或歌曲也不回答贡献。",
+        "choice_analysis": {
+          "A": "介绍专辑与歌曲，没有Workman。",
+          "B": "提到Workman，但未说明她演奏什么或作何贡献。",
+          "C": "正确：明确她为专辑演奏大提琴。",
+          "D": "描述India Arie本人及风格，未涉及Workman。"
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "student_notes_goal"
+      }
+    },
+    {
+      "question_id": "mx1_06522",
+      "section": "reading_writing",
+      "question_number": 47,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Pedestrian malls are outdoor streets in a city or town where vehicle traffic is prohibited.\n• Many pedestrian malls were built in the 19th and 20th centuries in Europe and Asia.\n• Qianmen Dajie is a famous pedestrian mall in Beijing.\n• It has existed since the Ming dynasty (1368–1644 CE).\n• Rue Mouffetard is a famous pedestrian mall in Paris.\n• It has existed since the mid-Roman Empire (117–235 CE).",
+      "prompt": "The student wants to emphasize a similarity between the ages of the malls. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Qianmen Dajie and Rue Mouffetard are pedestrian malls, outdoor streets closed to vehicle traffic."
+        },
+        {
+          "label": "B",
+          "text": "The Qianmen Dajie pedestrian mall has roots as far back as the Ming dynasty; likewise, Rue Mouffetard has existed for centuries."
+        },
+        {
+          "label": "C",
+          "text": "Both Qianmen Dajie and Rue Mouffetard are famous pedestrian malls, the former in Beijing and the latter in Paris."
+        },
+        {
+          "label": "D",
+          "text": "Qianmen Dajie and Rue Mouffetard are examples of pedestrian malls, which proliferated in Europe in the 19th and 20th centuries."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "共同点是都已存在数百年，B直接强调。",
+        "key_evidence": "前门街始于明代，Rue Mouffetard始于罗马帝国时期，都远早于现代。",
+        "why_correct": "B以明代起源和for centuries连结两者悠久历史，而不要求它们具体年龄相等。",
+        "detailed": "目标不是比较位置、定义或知名度，而是突出年龄相似性。两条街年份不同，但都历经许多世纪，可以在这一尺度上归为相似。",
+        "choice_analysis": {
+          "A": "强调禁止车辆的定义，不是年龄。",
+          "B": "正确：likewise将两者数百年历史并列。",
+          "C": "强调知名度和所在地，不涉及年龄。",
+          "D": "泛述十九、二十世纪兴建潮，未体现这两处的久远起源。"
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "student_notes_similarity"
+      }
+    },
+    {
+      "question_id": "mx1_06523",
+      "section": "reading_writing",
+      "question_number": 48,
+      "passage": "Danza Mexica arose in the 1500s when the traditions of the Pame people [vocab]______[/vocab] those of other tribes in Central Mexico, creating a hybrid dance form that spread across Mexico and later to Mexican communities in the US. Pame influences can still be seen in the performances by groups like Cetiliztli Nauhcampa, which is based in New York City.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "intermingled with"
+        },
+        {
+          "label": "B",
+          "text": "deferred to"
+        },
+        {
+          "label": "C",
+          "text": "advocated for"
+        },
+        {
+          "label": "D",
+          "text": "corresponded to"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "形成hybrid说明传统相互混合。",
+        "key_evidence": "Pame与其他部落传统共同形成a hybrid dance form。",
+        "why_correct": "intermingled with表示与之混合，直接解释混合舞蹈的产生。",
+        "detailed": "句子描述文化元素融合，并保留Pame影响，不是某一传统服从、倡导或仅对应另一传统。",
+        "choice_analysis": {
+          "A": "正确：intermingled表示交融。",
+          "B": "deferred to表示服从或让步，不表示融合。",
+          "C": "advocated for表示倡导支持，不表示文化结合。",
+          "D": "corresponded to表示对应，未表达混合成新形式。"
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "mx1_06524",
+      "section": "reading_writing",
+      "question_number": 49,
+      "passage": "In a 2020 paper, Arya Udry et al. cautioned that although similarities in the isotopic signatures of elements detected in Mars’s atmosphere and in Martian meteorites recovered on Earth make it tempting to treat the geochemical properties of the meteorites as [vocab]______[/vocab] those of Mars’s interiors, Mars’s geology cannot be ascertained based solely on meteorite-sample analyses.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "deterrents to"
+        },
+        {
+          "label": "B",
+          "text": "catalysts of"
+        },
+        {
+          "label": "C",
+          "text": "proxies for"
+        },
+        {
+          "label": "D",
+          "text": "contrivances of"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "陨石作火星内部的替代指标，即proxies for。",
+        "key_evidence": "研究者警告不能solely根据meteorite-sample analyses确定火星地质。",
+        "why_correct": "proxies表示代表另一对象的替代物或间接指标，符合由可测陨石推测内部的用途。",
+        "detailed": "相似同位素容易使人把陨石性质视为内部性质的代表，但作者提醒不能只依赖这种间接证据。空格说的是代表关系，不是因果促进或阻碍。",
+        "choice_analysis": {
+          "A": "deterrents是阻碍物，陨石性质不是内部性质的阻碍。",
+          "B": "catalysts是催化或促进因素，不是测量代表。",
+          "C": "正确：proxies for表示替代性指标。",
+          "D": "contrivances是人为设计或产物，不能表达代表关系。"
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "mx1_06525",
+      "section": "reading_writing",
+      "question_number": 50,
+      "passage": "As the use of non-oil energy resources has increased, the relationship between oil shocks—such as the 51% rise in oil prices between November 1973 and February 1974—and national economic activity has [vocab]______[/vocab]. Indeed, Gbadebo Oladosu and colleagues showed that the effect of recent oil shocks on the gross domestic product of China was only slightly greater than zero.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "abated"
+        },
+        {
+          "label": "B",
+          "text": "acquiesced"
+        },
+        {
+          "label": "C",
+          "text": "reverted"
+        },
+        {
+          "label": "D",
+          "text": "oscillated"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "影响接近零，关系已减弱abated。",
+        "key_evidence": "非石油能源使用增加，近期冲击对中国GDP影响only slightly greater than zero。",
+        "why_correct": "abated表示减少、减弱，与Indeed引出的微小效应证据一致。",
+        "detailed": "句子描述依赖石油减少后联系趋弱，没有说反复涨跌、返回旧状态或接受某项要求。",
+        "choice_analysis": {
+          "A": "正确：abated表示减弱。",
+          "B": "acquiesced表示默许或顺从，关系本身不能这样接受要求。",
+          "C": "reverted表示恢复原状，但文中没有先前状态可回返。",
+          "D": "oscillated表示反复波动，单向弱化证据不支持。"
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "mx1_06526",
+      "section": "reading_writing",
+      "question_number": 51,
+      "passage": "The Federalist Papers are a collection of 85 essays written by Alexander Hamilton, John Jay, and James Madison. They were published pseudonymously in the New York Packet and other New York newspapers in 1787–88 and argue that New Yorkers should vote to ratify the proposed United States Constitution. Though the authorship of most of the individual essays is certain, that of a few is in question: for instance, while No. 6, “Concerning Dangers from Dissensions between the States,” was surely penned by Hamilton, No. 62, “The Senate,” may have been written by either Hamilton or Madison.",
+      "prompt": "Which choice best states the main purpose of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To point out that some essays in a notable collection were written by one person, while others were written by two people"
+        },
+        {
+          "label": "B",
+          "text": "To present the publication history of a collection of essays"
+        },
+        {
+          "label": "C",
+          "text": "To summarize a contentious argument made in a collection of essays"
+        },
+        {
+          "label": "D",
+          "text": "To describe a collection of essays and address what is known about their authorship"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "介绍文集并说明作者身份的确定与不确定。",
+        "key_evidence": "先给85篇、三位作者、发表背景与目的，再举第6篇确定、第62篇存疑。",
+        "why_correct": "D同时覆盖集合介绍与作者归属问题，不把文中次要背景误当全部目的。",
+        "detailed": "第62篇可能由Hamilton或Madison之一写，不是说两人合作。正文也没有详细分析宪法争论或完整出版过程。",
+        "choice_analysis": {
+          "A": "either...or表示作者二选一存疑，不是两人共同写作。",
+          "B": "发表时间与报纸只是背景，不能覆盖后半作者归属。",
+          "C": "只概述支持批准宪法，未详细总结争论。",
+          "D": "正确：介绍文集并说明其作者归属知识。"
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "main_purpose"
+      }
+    },
+    {
+      "question_id": "mx1_06527",
+      "section": "reading_writing",
+      "question_number": 52,
+      "passage": "The Museum of Modern Art (MOMA) in New York City has an exhibition of video games that includes Yars’ Revenge from 1982, which museum visitors can play on site, and The Sims from 2000, which visitors can see only in a video presentation. [u]MOMA claims the video presentations are only for games that would be impractical to display in a playable form[/u], but video games are an inherently interactive medium, a feature that is grossly absent in a video-only presentation.",
+      "prompt": "Which choice best describes the function of the underlined portion in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It introduces a fact about video games that the author thinks MOMA did not appropriately consider when choosing which video games to exhibit."
+        },
+        {
+          "label": "B",
+          "text": "It presents a misconception about video games that the author believes is evident in MOMA’s choice about which video games to exhibit."
+        },
+        {
+          "label": "C",
+          "text": "It provides MOMA’s rationale for a decision that the author critiques."
+        },
+        {
+          "label": "D",
+          "text": "It details a criticism of MOMA that the author defends against in the remainder of the sentence."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "划线提供MoMA的理由，后文提出批评。",
+        "key_evidence": "MOMA claims...impractical说明馆方理由；but后指出视频缺游戏固有互动性。",
+        "why_correct": "C准确区分馆方立场与作者评价，前者是后者批评的决策理由。",
+        "detailed": "划线并非作者提出的互动性事实，那个事实在but之后；也不是作者要驳回的馆外批评。",
+        "choice_analysis": {
+          "A": "游戏固有互动性这一事实位于划线之后，不在划线内。",
+          "B": "划线是展示可行性的理由，不是关于游戏本质的错误观念。",
+          "C": "正确：给出作者随后质疑的馆方理由。",
+          "D": "作者批评而非替MoMA抵御批评。"
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "function_of_underlined_portion"
+      }
+    },
+    {
+      "question_id": "mx1_06528",
+      "section": "reading_writing",
+      "question_number": 53,
+      "passage": "The following text is from Anne Spencer’s 1922 poem “Translation.”\n\nWe trekked into a far country,\nMy friend and I.\nOur deeper content was never spoken,\nBut each knew all the other said.\nHe told me how calm his soul was laid\nBy the lack of anvil and strife.\n“The wooing kestrel,” I said, “mutes his mating-note\nTo please the harmony of this sweet silence.”",
+      "prompt": "Which choice best describes the function of the reference to “anvil and strife” in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It represents a strong contrast to the speaker’s friend’s current experience of tranquility."
+        },
+        {
+          "label": "B",
+          "text": "It emphasizes how the speaker and her friend perceive their friendship as being different than anything they see in nature."
+        },
+        {
+          "label": "C",
+          "text": "It symbolizes the speaker’s friend’s view that meaningful work and social engagement are core components of a fulfilling life."
+        },
+        {
+          "label": "D",
+          "text": "It illustrates how the speaker and her friend do not need to be explicit about their feelings to understand each other well."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "铁砧噪声与纷争反衬当下宁静。",
+        "key_evidence": "his soul was calm由于lack of anvil and strife，后文sweet silence继续宁静意象。",
+        "why_correct": "A抓住缺席的喧嚣纷争与当前平静之间的对比功能。",
+        "detailed": "anvil可唤起敲击噪音，strife指冲突；诗句强调摆脱这些后的安宁，而不是赞颂劳动与社交。",
+        "choice_analysis": {
+          "A": "正确：以噪音和纷争反衬朋友当前安宁。",
+          "B": "没有说友谊与自然不同，自然反而呼应宁静。",
+          "C": "lack表明摆脱这些带来平静，不是说劳动与社交为核心价值。",
+          "D": "无须明说即可理解对应前面deeper content两行，不是这一特定意象的功能。"
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "function_of_reference"
+      }
+    },
+    {
+      "question_id": "mx1_06534",
+      "section": "reading_writing",
+      "question_number": 54,
+      "passage": "The Clouds is a 423 BCE play by Aristophanes, originally written in ancient Greek. At the time, professional intellectuals called sophists taught customers rhetorical techniques to use in public speaking, along with providing instruction in other subjects. In the play, Aristophanes satirizes sophists as having an exaggerated sense of their own wisdom, as seen when the character ______",
+      "prompt": "Which choice most effectively uses a quotation from a translation of The Clouds to illustrate the claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Strepsiades encourages his son to learn to be a sophist, saying, “If you have any concern for your father’s patrimony, become one of them.”"
+        },
+        {
+          "label": "B",
+          "text": "Socrates, a sophist, says to a new customer, “Come, then, take care that, whenever I propound any clever dogma about abstruse matters, you [seize] immediately.”"
+        },
+        {
+          "label": "C",
+          "text": "Socrates, a sophist, says to a potential customer, “Is the power of speaking, pray, implanted in your nature?”"
+        },
+        {
+          "label": "D",
+          "text": "Strepsiades says of a sophist business, “There dwell men who in speaking of the heavens persuade people that it is an oven, and that it encompasses us, and that we are the embers. These men teach, if one give them money, to conquer in speaking, right or wrong.”"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "B中智者自夸clever dogma，最直接。",
+        "key_evidence": "目标是exaggerated sense of their own wisdom，B由智者自己夸其高深巧妙教义。",
+        "why_correct": "B的说话者将自己的论点称为聪明而高深，体现所需自负，而非仅有人愿学或付钱。",
+        "detailed": "证据要呈现智者对自身智慧的高估。外部人物推荐或质疑教育内容，不能同样直接展示自我评价。",
+        "choice_analysis": {
+          "A": "父亲劝儿子学习以保护家产，不显示智者自夸。",
+          "B": "正确：智者自称教义聪明高深，呈现夸大自信。",
+          "C": "询问顾客天生表达能力，不是夸耀自己的智慧。",
+          "D": "外人说明收费辩论培训，重点是诡辩而非智者自我评价。"
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "quotation_support"
+      }
+    },
+    {
+      "question_id": "mx1_06535",
+      "section": "reading_writing",
+      "question_number": 55,
+      "passage": "Many contemporary Indigenous painters practice a specifically Indigenous mode of abstraction; for example, Dyani White Hawk assembles compositions out of motifs common in the beadwork and other traditional arts of her tribe. In contrast, the prominent Indigenous practitioners of abstract painting during the mid-twentieth century, such as the Kiowa artist T.C. Cannon, typically aligned their compositional strategies with Abstract Expressionism—a school of painting dominated by European American artists—instead of with traditionally nonrepresentational forms of Indigenous art. Thus, in the case of Cannon’s generation, the identification of an abstract painting as Indigenous art tends to ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "deny the extent to which cultural identity influences an artist’s work."
+        },
+        {
+          "label": "B",
+          "text": "place a greater emphasis on the artist’s biography than on the aesthetic merit of the painting."
+        },
+        {
+          "label": "C",
+          "text": "obscure the Indigenous origins of certain motifs associated with Abstract Expressionism."
+        },
+        {
+          "label": "D",
+          "text": "depend not on stylistic details but instead on an awareness of the artist’s identity."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "风格不显原住民特征，身份知识决定归类。",
+        "key_evidence": "Cannon一代对齐Abstract Expressionism，而非传统原住民非具象形式；当代例子则直接使用传统纹样。",
+        "why_correct": "D从风格对照推出识别依赖作者的原住民身份，未引入审美价值判断。",
+        "detailed": "题目问如何识别为Indigenous art，不问作品好坏或文化身份是否影响创作。作者使用共同艺术流派风格时，外观本身未必暴露身份。",
+        "choice_analysis": {
+          "A": "知道艺术家身份不等于否认文化身份会影响作品。",
+          "B": "没有比较传记与艺术审美价值的重要性。",
+          "C": "文中未说抽象表现主义纹样源自原住民。",
+          "D": "正确：依赖身份知识，而非可识别原住民风格细节。"
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "mx1_06537",
+      "section": "reading_writing",
+      "question_number": 56,
+      "passage": "Many studies have found a positive association between levels of dissolved organic carbon and mercury in bodies of fresh water undisturbed by human activity. But Chris S. Eckley and colleagues did not find this correlation in an examination of freshwater bodies disturbed by mining, leading some scientists to hypothesize that the association could be particular to undisturbed waters. However, Heleen A. de Wit and colleagues carried out a study on freshwater bodies disturbed by logging activity that showed similar results to the studies on undisturbed waters, suggesting that ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "disturbances linked to mining affect significantly more bodies of fresh water than disturbances linked to logging activity do."
+        },
+        {
+          "label": "B",
+          "text": "Eckley and colleagues’ study used different methods to measure the concentration of mercury in fresh water than de Wit and colleagues’ study did."
+        },
+        {
+          "label": "C",
+          "text": "the effects of mining on the association between levels of dissolved organic carbon and mercury should not be taken as indicative of the effects of every type of human disturbance."
+        },
+        {
+          "label": "D",
+          "text": "levels of dissolved organic carbon and mercury are both much higher in bodies of fresh water disturbed by mining than they are in bodies of fresh water disturbed by logging activity."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "采矿与伐木结果不同，不能一概而论。",
+        "key_evidence": "采矿水域无碳汞相关，伐木水域却与未扰动水域结果相似。",
+        "why_correct": "C把结论限定为不可从单一扰动类型推及所有扰动，正是反例能支持的结论。",
+        "detailed": "研究比较的是是否存在正相关，不是绝对浓度高低、受影响水体数量或测量技术。",
+        "choice_analysis": {
+          "A": "没有提供采矿与伐木影响水体数量的比较。",
+          "B": "没有关于测量方法差异的信息。",
+          "C": "正确：采矿不能代表每一种人类扰动的效应。",
+          "D": "是否相关不能推出两种物质的绝对浓度大小。"
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "mx1_06538",
+      "section": "reading_writing",
+      "question_number": 57,
+      "passage": "In biology, many initially disordered systems will naturally move toward greater order according to the principle of self-organization, a conceptual framework for pattern ______ biologists believe can be used to explain a range of organic phenomena, from population dynamics to the sociality of bees and ants.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "formation. Some"
+        },
+        {
+          "label": "B",
+          "text": "formation, that some"
+        },
+        {
+          "label": "C",
+          "text": "formation that some"
+        },
+        {
+          "label": "D",
+          "text": "formation; some"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "formation that连接framework与其关系从句。",
+        "key_evidence": "关系从句意为some biologists believe [the framework] can be used；that承担can be used的主语角色。",
+        "why_correct": "C保留that，将可用于解释现象这一属性连到概念框架。",
+        "detailed": "若在formation后用句号或分号，Some biologists believe can be used会缺少被认为可使用的对象主语。逗号后that也不能按该结构引导非限定关系从句。",
+        "choice_analysis": {
+          "A": "断句后Some biologists believe can be used缺少can be used的主语。",
+          "B": "此处that关系从句不能以逗号开头。",
+          "C": "正确：that指代框架，构成完整关系从句。",
+          "D": "分号后的结构与A一样不完整。"
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "mx1_06539",
+      "section": "reading_writing",
+      "question_number": 58,
+      "passage": "Dong Lai and Diego J. Muñoz’s work on circumbinary disk accretion—a process in which, due to gravity, material from an orbiting disk spirals inward and accumulates onto two stars or black holes—relies heavily on simulations. Lai and Muñoz recognize the need for direct ______ recommending evolving binary star systems as a promising avenue for future study.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "observation, however,"
+        },
+        {
+          "label": "B",
+          "text": "observation. However,"
+        },
+        {
+          "label": "C",
+          "text": "observation; however,"
+        },
+        {
+          "label": "D",
+          "text": "observation, however;"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "逗号夹置however，保持recommending依附主句。",
+        "key_evidence": "主句Lai and Muñoz recognize...完整；recommending...没有新主语和有限谓语。",
+        "why_correct": "A既标出however的插入功能，又让后续分词短语修饰两位研究者。",
+        "detailed": "对直接观察的需求与依赖模拟形成转折，但however不是连词，不能把分词短语变成独立句。",
+        "choice_analysis": {
+          "A": "正确：observation, however, recommending...维持一个完整主句。",
+          "B": "句号后However, recommending...只是片段。",
+          "C": "分号后没有独立分句，只有分词短语。",
+          "D": "however后分号同样将recommending片段错误独立。"
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "mx1_06541",
+      "section": "reading_writing",
+      "question_number": 59,
+      "passage": "In a 2018 study, Kumar Akhilesh et al. concluded that stone tools excavated from an archaeological site in India date to between 172,000 and 385,000 years ago. The reliability of the dates that Akhilesh et al. have posited, which were obtained through processes that determined when buried mineral grains surrounding the tools were last exposed to sunlight, ______ in part upon the researchers’ exclusion of mineral grains that lacked adequate sun exposure before burial.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "depend"
+        },
+        {
+          "label": "B",
+          "text": "having depended"
+        },
+        {
+          "label": "C",
+          "text": "depending"
+        },
+        {
+          "label": "D",
+          "text": "depends"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "单数The reliability要求depends。",
+        "key_evidence": "The reliability of the dates...是主语；插入which从句后才接空格主句谓语。",
+        "why_correct": "D为与reliability一致的单数有限动词，使主句完整。",
+        "detailed": "dates、processes、grains都是嵌套结构内的复数词，不控制主句谓语。空格必须是主句的有限动词而非分词。",
+        "choice_analysis": {
+          "A": "depend不是与单数reliability一致的现在时形式。",
+          "B": "having depended为非限定短语，不能独立作主句谓语。",
+          "C": "depending也是非限定形式，主句会缺谓语。",
+          "D": "正确：depends与单数主语一致。"
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "subject_verb_agreement"
+      }
+    },
+    {
+      "question_id": "mx1_06543",
+      "section": "reading_writing",
+      "question_number": 61,
+      "passage": "In 1977, legendary Puerto Rican performer Rita Moreno won an Emmy Award, making her one of the rare talents to earn the highest honors in television, music, film, and stage entertainment—the Emmy, Grammy, Oscar, and Tony ______ the achievement is known as “winning the EGOT.”",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "awards; respectively"
+        },
+        {
+          "label": "B",
+          "text": "awards, respectively;"
+        },
+        {
+          "label": "C",
+          "text": "awards, respectively,"
+        },
+        {
+          "label": "D",
+          "text": "awards, respectively—"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "B用分号分隔两个独立主句。",
+        "key_evidence": "主句一为In1977...Rita Moreno won an Emmy Award，后接making及奖项说明；主句二为the achievement is known as winning the EGOT。",
+        "why_correct": "B将respectively并入对应奖项说明，再以分号连接新主句，结构完整。",
+        "detailed": "单个破折号可引出前句末尾的补充解释，不必机械配对。若用D，删除破折号间说明后会得到Moreno won...the achievement is known...，两个主句之间仍缺合法边界。",
+        "choice_analysis": {
+          "A": "respectively应紧随四奖项对应关系，不能被移到分号后的新句前且无逗号。",
+          "B": "正确：awards, respectively完成奖项对应，分号分隔独立句。",
+          "C": "逗号不足以连接the achievement is known这个独立句。",
+          "D": "关闭破折号后未提供两个独立主句的连接，形成连写。"
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "mx1_01805",
+      "section": "reading_writing",
+      "question_number": 63,
+      "passage": "校订说明：编辑校订：补充日应置于年末而非每月末；日名说明已限定为常规月份，相关事实据法国国民议会资料校正。\n\nWhile researching a topic, a student has taken the following notes:\n\n• The French Republican calendar was used in France from 1793 to 1805.\n• Each of its twelve months was divided into three weeks of ten days each. Five supplemental days were added at the end of the year, with a sixth in leap years.\n• Each day in the twelve regular months was named after a plant, animal, agricultural tool, or mineral as a way of honoring an aspect of rural life.\n• Frimaire is the third month in the calendar.\n• The fifth day of Frimaire is named Cochon, which means “pig.”",
+      "prompt": "The student wants to emphasize how the French Republican calendar honored rural life. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Each day in the French Republican calendar’s month of Frimaire had a unique name."
+        },
+        {
+          "label": "B",
+          "text": "Each day in the French Republican calendar was given a unique name; the fifth day of Frimaire was no exception."
+        },
+        {
+          "label": "C",
+          "text": "The third month in the French Republican calendar, Frimaire, had three weeks that were divided into ten days each."
+        },
+        {
+          "label": "D",
+          "text": "Each day in the French Republican calendar’s regular months was given a name honoring an aspect of rural life; for example, a day in Frimaire was named for an animal, the pig."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "D 把“纪念乡村生活”的命名原则与“猪日”这一具体例子结合起来。",
+        "key_evidence": "写作目标是 honored rural life；笔记列出植物、动物、农具及矿物命名，并给出 Cochon（pig）的例子。",
+        "why_correct": "D 不只说每天有名字，而是明确说明名字所纪念的乡村事物，并用动物名称来展示这一原则。",
+        "detailed": "本题要求强调历法怎样纪念乡村生活，而不是介绍它如何划分月份和星期。D 先概括 regular months 中的命名原则，再用 Frimaire 的猪日作例证，形成“原则＋例子”的结构。A 和 B 都停留在名字是否独特，未解释名字与乡村生活之间的联系；C 则只讲时间单位。补充日在年末另行安排，与本题要突出的日名主题不是同一信息点。",
+        "choice_analysis": {
+          "A": "强调 Frimaire 每天的名字不同，却没有说明这些名字来自乡村事物。",
+          "B": "强调每天都有独特名字；即使提到 Frimaire 的第五天，也没有给出名称含义或乡村联系。",
+          "C": "说明第三个月的星期和天数，属于历法结构，不是对乡村生活的纪念方式。",
+          "D": "明确说名字纪念乡村生活，并以 pig 这一动物名说明这种纪念如何实现。"
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "student_notes_goal"
+      }
+    },
+    {
+      "question_id": "mx1_06547",
+      "section": "reading_writing",
+      "question_number": 64,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• In a 2020 study, researchers in California investigated how many potential nesting sites female wood ducks visited during the nesting season.\n• The researchers placed nest boxes throughout the survey area and tagged 138 female wood ducks with radio frequency ID trackers.\n• These trackers recorded how many nest boxes each duck visited.\n• 67 ducks (48.5%) visited only one nest box.\n• 18 ducks (13.0%) visited 10 or more nest boxes.\n• Younger ducks were more likely to visit multiple nest boxes.",
+      "prompt": "The student wants to present the methods used in the 2020 study. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The researchers investigated each nesting site for signs that it had been visited by the female wood ducks."
+        },
+        {
+          "label": "B",
+          "text": "After tracking how many nest boxes the 138 wood ducks visited, the researchers found that the younger ducks tended to visit more nest boxes than the older ducks."
+        },
+        {
+          "label": "C",
+          "text": "By recording how many nest boxes each duck visited, the researchers discovered that only a relatively small percentage (13.0%) of the ducks visited 10 or more nest boxes."
+        },
+        {
+          "label": "D",
+          "text": "The researchers tagged 138 female wood ducks with radio frequency ID trackers and recorded how many nest boxes each duck visited during the nesting season."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "美西-1",
+      "explanation": {
+        "short": "方法是标记138只鸭并记录巢箱访问。",
+        "key_evidence": "笔记说明RFID trackers记录每只鸭访问多少nest boxes。",
+        "why_correct": "D呈现对象、设备与测量方式，不掺入研究发现。",
+        "detailed": "目标限定methods。年龄与访问数关系、13%访问十箱以上都属于结果；现场找痕迹则是笔记没有采用的方法。",
+        "choice_analysis": {
+          "A": "笔记用电子追踪，不是检查巢位痕迹。",
+          "B": "重点是年轻鸭访问更多这一发现。",
+          "C": "重点是13%访问十箱以上这一结果。",
+          "D": "正确：明确样本、追踪工具及记录指标。"
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "student_notes_methods"
+      }
+    }
+  ]
+}

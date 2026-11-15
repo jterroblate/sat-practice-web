@@ -1,0 +1,2498 @@
+{
+  "schemaVersion": "sat-canonical-question-collection-v1",
+  "contentId": "set-13-2025-03-apac-a",
+  "title": "13 2025 03 Apac A",
+  "section": "reading_writing",
+  "questionCount": 54,
+  "questions": [
+    {
+      "question_id": "mar2025_a_source_q001_apollo",
+      "question_number": 1,
+      "section": "reading_writing",
+      "passage": "The Apollo Moon landings (1969-1972) brought radiation detectors and equipment too heavy for liftoff to the Moon and produced large amounts of data. Researcher Philip Metzger, who is investigating the long-term effects of being on the Moon, continues to use Apollo's data, demonstrating that the missions' value to science is [vocab]______[/vocab].",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "ongoing"
+        },
+        {
+          "label": "B",
+          "text": "original"
+        },
+        {
+          "label": "C",
+          "text": "displaced"
+        },
+        {
+          "label": "D",
+          "text": "controversial"
+        }
+      ],
+      "source_set": "2025-03-亚太A卷",
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Apollo数据至今仍被研究使用，科学价值持续ongoing。",
+        "key_evidence": "Philip Metzger continues to use Apollo's data研究长期影响。",
+        "why_correct": "ongoing表示仍在延续，直接对应现今继续使用几十年前任务数据。",
+        "detailed": "句子的论证从过去获取大量数据，推进到现在仍用于新研究。空格评价的是价值的持续性，不是是否首创、被替代或受到争议。",
+        "choice_analysis": {
+          "A": "正确：ongoing指持续存在。",
+          "B": "original表示最初或原创，未表达现在仍有用。",
+          "C": "displaced表示被移走或替代，与继续使用不符。",
+          "D": "controversial表示有争议，文中无争议证据。"
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "mar2025_a_001",
+      "question_number": 2,
+      "section": "reading_writing",
+      "passage": "The following text is from Amy Tan's 1989 novel The Joy Luck Club. The narrator describes practicing the piano when she was a child.\n\nFor the talent show, I was to play a piece called \"Pleading Child\" from Schumann's Scenes from Childhood. It was a simple, moody piece that sounded more difficult than it was. I was supposed to memorize the whole thing, playing the repeat parts twice to make the piece sound longer. But I dawdled over it, playing a few bars and then cheating, looking up to see what notes followed. I never really listened to what I was playing. I daydreamed about being somewhere else, about being someone else.\n\n© 1989 by Amy Tan",
+      "prompt": "Based on the text, when the narrator describes herself as \"cheating,\" what does she most likely mean?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "She was violating an expectation about how to perform the piece."
+        },
+        {
+          "label": "B",
+          "text": "She was gaining an unfair advantage over other contestants in the talent show."
+        },
+        {
+          "label": "C",
+          "text": "She was deceiving her piano teacher."
+        },
+        {
+          "label": "D",
+          "text": "She was lying to herself about her musical ability."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "short": "她本该背谱，却看谱找后续音符，因此违反要求。",
+        "key_evidence": "supposed to memorize the whole thing与cheating, looking up to see what notes followed形成直接对照。",
+        "why_correct": "A概括未遵守按记忆演奏的预期，不额外假定比赛优势或欺骗老师。",
+        "detailed": "cheating在此由紧随的动作解释：不是从记忆继续弹，而是借助看谱。原文只提供练习要求与实际行为的差距，没有说明与其他参赛者比较。",
+        "choice_analysis": {
+          "A": "正确：看谱违反本应背下曲目的预期。",
+          "B": "没有与其他比赛者竞争优势的信息。",
+          "C": "未提向老师撒谎或隐瞒。",
+          "D": "没有说她对自己音乐能力作虚假判断。"
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "explicit_detail"
+      }
+    },
+    {
+      "question_id": "mar2025_a_002",
+      "question_number": 3,
+      "section": "reading_writing",
+      "passage": "The Historical Dictionary of Science Fiction is a crowdsourced project started in 2001 by lexicographer Jesse Sheidlower to record terms that originated in science fiction. Volunteers share digitized excerpts from personal collections of sci-fi magazines not typically preserved in libraries—[vocab]______[/vocab] that allow the earliest uses of phrases such as \"warp speed\" (1952) to be identified and added to the dictionary.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "contributions"
+        },
+        {
+          "label": "B",
+          "text": "resolutions"
+        },
+        {
+          "label": "C",
+          "text": "negotiations"
+        },
+        {
+          "label": "D",
+          "text": "justifications"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "short": "志愿者提供给众包词典的材料就是contributions。",
+        "key_evidence": "志愿者共享杂志摘录，帮助识别warp speed等词的最早用例并加入词典。",
+        "why_correct": "contributions表示对共同项目提供的材料或贡献，准确指代这些摘录。",
+        "detailed": "破折号后的名词重新说明前面的digitized excerpts，并由that从句解释这些材料的用途。它们不是决定、谈判或论证理由，而是志愿者交给词典项目的资料。",
+        "choice_analysis": {
+          "A": "正确：contributions指志愿者提供的资料贡献。",
+          "B": "resolutions指决定或解决方案，不指杂志摘录。",
+          "C": "negotiations是谈判，不是提交的文本材料。",
+          "D": "justifications是辩护理由，非词源证据资料。"
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "mar2025_a_003",
+      "question_number": 4,
+      "section": "reading_writing",
+      "passage": "Today's theater stages are frequently filled with props and scenery to immerse the audience in a play's world. Because theatergoers have grown used to carefully designed sets, plays with few visual elements can surprise audiences. But simple, unadorned stages were likely [vocab]______[/vocab] audiences in the very distant past: highly decorated and detailed sets were not common until the 1600s.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "expected by"
+        },
+        {
+          "label": "B",
+          "text": "confusing to"
+        },
+        {
+          "label": "C",
+          "text": "exciting to"
+        },
+        {
+          "label": "D",
+          "text": "disliked by"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "key_evidence": "Highly decorated and detailed sets were not common until the 1600s.",
+        "why_correct": "If elaborate sets were not common in the distant past, simple stages would likely have been expected by audiences then.",
+        "choice_analysis": {
+          "A": "Correct. “Expected by” fits the contrast between modern surprise and earlier familiarity with simple stages.",
+          "B": "Incorrect. The passage gives no reason that simple stages would have confused earlier audiences.",
+          "C": "Incorrect. The focus is what audiences would have regarded as normal, not what would excite them.",
+          "D": "Incorrect. Nothing in the text suggests earlier audiences disliked simple stages."
+        },
+        "short": "If elaborate sets were not common in the distant past, simple stages would likely have been expected by audiences then.",
+        "detailed": "Highly decorated and detailed sets were not common until the 1600s. If elaborate sets were not common in the distant past, simple stages would likely have been expected by audiences then."
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "mar2025_a_004",
+      "question_number": 5,
+      "section": "reading_writing",
+      "passage": "Having trouble getting rid of weeds? One surprising solution may be to start eating them. Curly dock and broadleaf plantain are two edible plants that are usually considered weeds in North America. These and other plants like them are sometimes more flavorful than are some plants that people grow as food.",
+      "prompt": "Which choice best states the main purpose of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To suggest an unexpected solution to a problem"
+        },
+        {
+          "label": "B",
+          "text": "To discuss the best way to garden"
+        },
+        {
+          "label": "C",
+          "text": "To describe how good some plants taste"
+        },
+        {
+          "label": "D",
+          "text": "To identify a new cooking trend"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "key_evidence": "The text opens by asking about getting rid of weeds and then proposes eating edible weeds.",
+        "why_correct": "The text’s main purpose is to present eating certain weeds as a surprising way to address the weed problem.",
+        "choice_analysis": {
+          "A": "Correct. The passage suggests the unexpected solution of eating edible plants usually considered weeds.",
+          "B": "Incorrect. It does not discuss gardening methods broadly.",
+          "C": "Incorrect. Flavor is mentioned as supporting detail, not the main purpose.",
+          "D": "Incorrect. The passage does not identify or analyze a cooking trend."
+        },
+        "short": "The text’s main purpose is to present eating certain weeds as a surprising way to address the weed problem.",
+        "detailed": "The text opens by asking about getting rid of weeds and then proposes eating edible weeds. The text’s main purpose is to present eating certain weeds as a surprising way to address the weed problem."
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "primary_purpose"
+      }
+    },
+    {
+      "question_id": "mar2025_a_005",
+      "question_number": 6,
+      "section": "reading_writing",
+      "passage": "Ceremony, the 1977 novel by Laguna Pueblo author Leslie Marmon Silko, is typical of Native fiction written during the 1960s and 1970s. During that period, Silko and her peers wrote realistic and deeply serious portrayals of life in tribal communities. Recently, however, younger Native writers have embraced popular genres known for being entertaining and suspenseful, such as fantasy and horror. Anishinaabe author Nathan Adler is a figure in this movement. Their 2016 novel Wrist is a work of horror fiction.",
+      "prompt": "Which choice best describes the overall structure of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It discusses fiction by earlier Native writers, then describes how fiction by more recent Native writers differs from the earlier fiction."
+        },
+        {
+          "label": "B",
+          "text": "It praises one Native fiction writer, then criticizes a different Native fiction writer."
+        },
+        {
+          "label": "C",
+          "text": "It provides an overview of Native fiction, then compares it to fiction by non-Native writers."
+        },
+        {
+          "label": "D",
+          "text": "It describes one Native author's early works, then describes her more recent works."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "short": "The passage contrasts serious Native fiction of the 1960s and 1970s with younger writers' recent use of fantasy and horror.",
+        "key_evidence": "It begins with Silko and her peers' realistic, serious fiction, then turns to younger Native writers such as Nathan Adler using popular genres.",
+        "why_correct": "A accurately describes this earlier-versus-recent organization.",
+        "detailed": "It begins with Silko and her peers' realistic, serious fiction, then turns to younger Native writers such as Nathan Adler using popular genres. A accurately describes this earlier-versus-recent organization.",
+        "choice_analysis": {
+          "A": "Correct. It captures the contrast between earlier Native fiction and more recent genre fiction.",
+          "B": "Incorrect. Neither writer is praised or criticized.",
+          "C": "Incorrect. No comparison with non-Native fiction appears.",
+          "D": "Incorrect. The passage discusses different writers and periods, not one author's early and later works."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "mar2025_a_006",
+      "question_number": 7,
+      "section": "reading_writing",
+      "passage": "[u]In 2013 Bridie J.M. Allan and colleagues published a study concluding that ocean acidification has a strong effect on the behavior of Pomacentrus amboinensis, a species of fish.[/u] However, Allan and colleagues’ study relied on a mean sample size of only about 18 fish. In a 2022 review of various scientists’ conclusions about the impacts of ocean acidification on fish behavior, Timothy D. Clark and colleagues caution that relying on such a relatively small sample size can increase the potential for biased analysis. Such analysis, in turn, can contribute to reports of exaggerated effects.",
+      "prompt": "Which choice best describes the function of the underlined sentence in the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It presents a criticism of the results reported by Allan and colleagues in their 2013 study."
+        },
+        {
+          "label": "B",
+          "text": "It lists several traits of Pomacentrus amboinensis discovered by Allan and colleagues while conducting their 2013 study."
+        },
+        {
+          "label": "C",
+          "text": "It emphasizes a detail about where Allan and colleagues conducted their 2013 study."
+        },
+        {
+          "label": "D",
+          "text": "It states the conclusion reached by Allan and colleagues in their 2013 study."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "short": "The underlined sentence states the conclusion of Allan and colleagues' 2013 study.",
+        "key_evidence": "It says the researchers concluded that ocean acidification strongly affects Pomacentrus amboinensis behavior.",
+        "why_correct": "That is the study conclusion, while the methodological criticism appears later, so D is correct.",
+        "detailed": "It says the researchers concluded that ocean acidification strongly affects Pomacentrus amboinensis behavior. That is the study conclusion, while the methodological criticism appears later, so D is correct.",
+        "choice_analysis": {
+          "A": "Incorrect. The criticism based on sample size comes after the underlined sentence.",
+          "B": "Incorrect. The sentence reports one conclusion rather than listing fish traits.",
+          "C": "Incorrect. It gives no study location.",
+          "D": "Correct. It directly reports the conclusion reached in the 2013 study."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "underlined_function"
+      }
+    },
+    {
+      "question_id": "mar2025_a_007",
+      "question_number": 8,
+      "section": "reading_writing",
+      "passage": "The soil on Mars can make missions to explore the planet challenging, as the sand and dust are known to clog filters and lock moving parts on robotic rovers and other exploration devices. Using simulants, which are materials designed to simulate different planetary surfaces, scientists are able to study the characteristics of Mars’s surface. Simulants like the Mars Mojave simulant—which was developed using lava deposits from California's Mojave Desert—help scientists evaluate how well their devices will handle the surface when operated on Mars.",
+      "prompt": "Based on the text, what is one reason why simulants are valuable for scientists?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Simulants allow scientists to test the ability of research equipment to withstand some of the conditions it will encounter during a mission."
+        },
+        {
+          "label": "B",
+          "text": "Scientists use simulants to track how the chemical properties of planetary soils have changed over time."
+        },
+        {
+          "label": "C",
+          "text": "Simulants can be mixed with soil from Earth to explore how research equipment will handle extreme terrains on Earth."
+        },
+        {
+          "label": "D",
+          "text": "Scientists use simulants to compare the physical properties of Mars's surface to those of Earth's surface."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "short": "模拟物让科学家在出发前测试设备能否承受火星表面条件。",
+        "key_evidence": "simulants help scientists evaluate how well their devices will handle the surface when operated on Mars。",
+        "why_correct": "A将模拟物的价值准确表述为测试设备抵御任务中可能遇到条件的能力。",
+        "detailed": "开头说明火星尘沙会堵过滤器和锁住运动部件，后文说明用模拟材料预先评估设备应对这些条件。重点是设备测试，而不是地球地貌或土壤化学历史。",
+        "choice_analysis": {
+          "A": "正确：测试设备应对部分任务环境的能力。",
+          "B": "未追踪土壤化学性质随时间变化。",
+          "C": "研究目标是火星任务，不是将材料混入地球土壤测试地球地形。",
+          "D": "材料取自地球不表示主要目的为比较两行星表面属性。"
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "explicit_detail"
+      }
+    },
+    {
+      "question_id": "mar2025_a_008",
+      "question_number": 9,
+      "section": "reading_writing",
+      "passage": "| Country | 1995 | 2020 |\n|---|---:|---:|\n| Indonesia | 0.44 | 0.51 |\n| United States | 1.85 | 1.20 |\n| Kazakhstan | 0.26 | 0.55 |\n| Chile | 2.49 | 5.73 |\n\nWhile doing research for a paper about metal exports, a student finds information about copper mining in different countries in 1995 and 2020. The student notes that Chile produced 2.49 million metric tons of copper in 1995 and ______.",
+      "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "5.73 million metric tons of copper in 2020."
+        },
+        {
+          "label": "B",
+          "text": "0.55 million metric tons of copper in 2020."
+        },
+        {
+          "label": "C",
+          "text": "1.20 million metric tons of copper in 2020."
+        },
+        {
+          "label": "D",
+          "text": "0.51 million metric tons of copper in 2020."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "key_evidence": "The table lists Chile as producing 2.49 million metric tons in 1995 and 5.73 million metric tons in 2020.",
+        "why_correct": "The sentence asks for Chile’s 2020 production value, and the table gives that value as 5.73 million metric tons.",
+        "choice_analysis": {
+          "A": "Correct. Chile’s 2020 entry in the table is 5.73 million metric tons.",
+          "B": "Incorrect. 0.55 is Kazakhstan’s 2020 value, not Chile’s.",
+          "C": "Incorrect. 1.20 is the United States’ 2020 value, not Chile’s.",
+          "D": "Incorrect. 0.51 is Indonesia’s 2020 value, not Chile’s."
+        },
+        "short": "The sentence asks for Chile’s 2020 production value, and the table gives that value as 5.73 million metric tons.",
+        "detailed": "The table lists Chile as producing 2.49 million metric tons in 1995 and 5.73 million metric tons in 2020. The sentence asks for Chile’s 2020 production value, and the table gives that value as 5.73 million metric tons."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "table_data_completion"
+      },
+      "visual_assets": [
+        {
+          "type": "table",
+          "title": "Millions of Metric Tons of Copper Mined in 1995 and 2020",
+          "columns": [
+            "Country",
+            "1995",
+            "2020"
+          ],
+          "rows": [
+            [
+              "Indonesia",
+              "0.44",
+              "0.51"
+            ],
+            [
+              "United States",
+              "1.85",
+              "1.20"
+            ],
+            [
+              "Kazakhstan",
+              "0.26",
+              "0.55"
+            ],
+            [
+              "Chile",
+              "2.49",
+              "5.73"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "question_id": "mar2025_a_009",
+      "question_number": 10,
+      "section": "reading_writing",
+      "passage": "For years, Christopher Clavius's 1593 work Astrolabium had the earliest known evidence of a decimal point, which was in a sine table's interpolation column. However, math historian Glen Van Brummelen posited that Venetian merchant Giovanni Bianchini, who worked as an astrological consultant, used the mathematical symbol approximately 150 years before Clavius did. Van Brummelen asserts that in his role as a consultant, Bianchini used trigonometry to calculate the coordinates of the planets, and [u]these calculations contain the earliest example of the decimal point[/u].",
+      "prompt": "Which finding, if true, would most directly support the underlined claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Several dots appear in both Clavius's Astrolabium and Bianchini's Flores Almagesti, but the dot was commonly used in manuscripts in the 1400s and 1500s as a means to separate letters or whole numbers from each other."
+        },
+        {
+          "label": "B",
+          "text": "In Clavius's Astrolabium, he gives several examples of both interpolation and inverse interpolation using decimal numbers and justifies the method to his readers by equating 45.7 with \"457 tenths.\""
+        },
+        {
+          "label": "C",
+          "text": "In a table in Bianchini's astronomical Latin manuscript from the 1440s, Tabulae primi mobilis B, a dot appears between two numbers in a context that suggests the value is not a whole number."
+        },
+        {
+          "label": "D",
+          "text": "As recorded in his manuscripts, some of Bianchini's calculations for the coordinates of the planets are inaccurate due to the use of whole numbers rather than non-whole-number decimals."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "short": "C提供1440年代点号表示非整数的直接证据。",
+        "key_evidence": "Bianchini的1440年代手稿表中，两数字间的点出现在值不是整数的语境。",
+        "why_correct": "既给出更早年代，又证明点具有小数功能，支持所需早期小数点主张。",
+        "detailed": "单有点号不足，因为点也可能分隔字母或整数。C同时满足年代早和表示非整数两条件。",
+        "choice_analysis": {
+          "A": "指出点可能仅为分隔符，不能证明是小数点。",
+          "B": "只涉及较晚Clavius的用法。",
+          "C": "正确：早期手稿中点的非整数功能直接支持主张。",
+          "D": "使用整数导致错误反而不支持使用小数点。"
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "hypothetical_support"
+      }
+    },
+    {
+      "question_id": "mar2025_a_010",
+      "question_number": 11,
+      "section": "reading_writing",
+      "passage": "| Type of training | 12 weeks | 12 months |\n|---|---:|---:|\n| EET | 268 | 171 |\n| EHP | 282 | 436 |\n\nMichelle Pereira et al. hypothesized that introducing health improvements into workplaces would increase productivity by reducing absenteeism (sick employees not working) and presenteeism (sick workers working less productively due to illness). Pereira’s team enrolled groups of Australian workers in two programs: one that gave employees exercise training (EET) and one that enrolled employees in health promotion seminars (EHP). They then calculated the productivity loss of those groups at 12 weeks and 12 months after the programs began (based on the 28 days preceding each point). They concluded that exercise training was more effective at restraining productivity loss than health promotion seminars were, though this result took time to become apparent.",
+      "prompt": "Which choice best describes data from the table that most effectively strengthen Pereira and colleagues' conclusion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Productivity loss was largely due to absenteeism for the EHP group at 12 months after the program began, while productivity loss was largely due to presenteeism for the EET group at 12 months after the program began."
+        },
+        {
+          "label": "B",
+          "text": "Productivity loss for the EET group barely decreased between 12 weeks and 12 months after the program began, while productivity loss for the EHP group significantly increased during the same time period."
+        },
+        {
+          "label": "C",
+          "text": "Productivity loss was consistently higher for the EHP group than for the EET group over the twelve months that it was measured, though the size of the difference between the two decreased over that time."
+        },
+        {
+          "label": "D",
+          "text": "Productivity loss was fairly similar for the EET and EHP groups 12 weeks after each program began, but at 12 months afterward it had significantly increased for the EHP group and significantly decreased for the EET group."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "short": "两组早期接近，后期EET下降、EHP上升，支持效果需时显现。",
+        "key_evidence": "12周EET268、EHP282；12个月EET171、EHP436澳元。",
+        "why_correct": "D同时准确概括早期相近和后期反向变化，支持锻炼更有效且差异逐渐显现。",
+        "detailed": "初始差距仅14，后期扩大为265；EET减少97，EHP增加154。表格未细分缺勤与带病出勤。",
+        "choice_analysis": {
+          "A": "表中没有两种损失来源的分项。",
+          "B": "EET268降至171并非几乎没下降。",
+          "C": "组间差距扩大而非缩小。",
+          "D": "正确：早期相近、后期宣教增加且锻炼下降。"
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "text_table_synthesis"
+      },
+      "visual_assets": [
+        {
+          "type": "table",
+          "title": "Average Monetized Productivity Loss at Two Points After Programs Began, in Australian Dollars",
+          "columns": [
+            "Type of training",
+            "12 weeks",
+            "12 months"
+          ],
+          "rows": [
+            [
+              "EET",
+              "268",
+              "171"
+            ],
+            [
+              "EHP",
+              "282",
+              "436"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "question_id": "mar2025_a_011",
+      "question_number": 12,
+      "section": "reading_writing",
+      "passage": "| Story | Unspoiled average enjoyment rating | Spoiled average enjoyment rating |\n|---|---:|---:|\n| “A Dark Brown Dog” | about 3.2 | about 4.6 |\n| “Owl Creek Bridge” | about 4.9 | about 5.1 |\n| “Blitzed” | about 6.2 | about 7.1 |\n| “A Chess Problem” | about 6.1 | about 7.2 |\n| “The Calm” | about 4.3 | about 5.0 |\n| “Plumbing” | about 4.1 | about 4.9 |\n\nResearchers investigated how enjoyment of a story is affected when it has been spoiled (when the reader has foreknowledge of an important plot development). As part of the study, participants rated their enjoyment of one story that was spoiled before they read it and one story that was unspoiled. For each story, participants who had been given a spoiler reported greater enjoyment than did those who hadn’t received a spoiler. But the degree of this difference varied across the stories, as is best illustrated by the enjoyment ratings for ______.",
+      "prompt": "Which choice most effectively uses data from the graph to complete the statement?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"Blitzed\" and \"Plumbing.\""
+        },
+        {
+          "label": "B",
+          "text": "\"Owl Creek Bridge\" and \"A Chess Problem.\""
+        },
+        {
+          "label": "C",
+          "text": "\"Blitzed\" and \"A Chess Problem.\""
+        },
+        {
+          "label": "D",
+          "text": "\"The Calm\" and \"Plumbing.\""
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "short": "B把约0.2与1.1的剧透收益对照，显示不同故事差异。",
+        "key_evidence": "Owl Creek Bridge约5.1减4.9为0.2；A Chess Problem约7.2减6.1为1.1。",
+        "why_correct": "B中的一个效应很小、一个明显较大，比其余配对更能展示效应大小随故事变化。",
+        "detailed": "比较对象是同一故事被剧透和未剧透的评分差，不是直接比较两故事总评分。其余候选配对的差值更接近。",
+        "choice_analysis": {
+          "A": "Blitzed约0.9与Plumbing约0.8相近。",
+          "B": "正确：约0.2与1.1形成明显大小对照。",
+          "C": "Blitzed约0.9与A Chess Problem约1.1都较大。",
+          "D": "The Calm约0.7与Plumbing约0.8相近。"
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "graph_data_support"
+      },
+      "visual_assets": [
+        {
+          "type": "bar_chart",
+          "title": "Story Rating: Spoiled vs. Unspoiled"
+        }
+      ]
+    },
+    {
+      "question_id": "mar2025_a_012",
+      "question_number": 13,
+      "section": "reading_writing",
+      "passage": "Humans are overwhelmingly right-hand dominant (85-90%) and can thus be said to exhibit strong population-level right handedness (PLRH). Among studies of nonhuman primates, Margaret E. Redshaw’s 1993 study of captive gorillas purported to show PLRH, while Jane Goodall’s 1963 study of wild chimpanzees did not. Overall, the studies claiming PLRH in nonhuman primates find much lower incidences of right-handedness than humans exhibit, but it’s worth noting that studies of captive primates tend to show significantly greater incidences of right-handedness than studies of wild primates do, therefore raising the possibility that ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the number of individuals in the study of wild chimpanzees is insufficient to preclude the claim that nonhuman primates exhibit PLRH."
+        },
+        {
+          "label": "B",
+          "text": "the number of individuals in the study of captive gorillas is insufficient for a robust claim regarding evidence of PLRH."
+        },
+        {
+          "label": "C",
+          "text": "the greater exposure to humans among the captive gorillas induced them to acquire more right-handed behaviors."
+        },
+        {
+          "label": "D",
+          "text": "the apparent discrepancy between the studies' results may be partly attributable to the 1963 study using different criteria when assessing hand dominance than were used in the 1993 study."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "short": "圈养与野生差异可由接触人类较多来解释。",
+        "key_evidence": "圈养灵长类右手使用显著多于野生；人类85—90%为右手优势。",
+        "why_correct": "C提出圈养个体接触人类更多、学到更多右手行为，连接两个已给事实。",
+        "detailed": "句子只要求可能性，不能断言因果已被证实。样本数和评估标准未提供，不能用它们解释这里概括的普遍圈养—野生差异。",
+        "choice_analysis": {
+          "A": "未提供野生研究样本不足证据。",
+          "B": "未提供圈养研究样本不足证据。",
+          "C": "正确：更多接触人类是与圈养直接相关的可能解释。",
+          "D": "未说明两研究评估标准不同。"
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "mar2025_a_013",
+      "question_number": 14,
+      "section": "reading_writing",
+      "passage": "The small white heron and the small dark heron are long-legged birds that live in wetlands, like the Everglades in Florida. Laura D'Acunto and colleagues wanted to know how these birds choose an area in which to live. They looked at features of the birds’ habitats, such as the geographic location of the area and how deep the water is during breeding season. They found that although only small white herons prefer areas with deep water during breeding season, both small white herons and small dark herons prefer areas that have standing water for more than 60 days per year. The researchers therefore concluded that neither species is very drawn to areas where ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "there is standing water for far fewer than 60 days per year."
+        },
+        {
+          "label": "B",
+          "text": "species with breeding seasons longer than 60 days are likely to be present."
+        },
+        {
+          "label": "C",
+          "text": "there are any features that attract the other species."
+        },
+        {
+          "label": "D",
+          "text": "there is relatively deep water during the breeding season."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "short": "两者都不偏好积水远少于60天的区域。",
+        "key_evidence": "两种鸟共同偏好standing water for more than60days；深水偏好仅属于白鹭。",
+        "why_correct": "A对共同偏好取相反条件，符合neither species is very drawn to的结论。",
+        "detailed": "要形成关于两种鸟的共同结论，必须用共享的积水持续时间，而不能用仅白鹭偏好的繁殖期水深。",
+        "choice_analysis": {
+          "A": "正确：积水天数过少与双方共同偏好相反。",
+          "B": "没有讨论其他物种繁殖季长短。",
+          "C": "两者有共同偏好，不能断言互相吸引的特征都排斥。",
+          "D": "深水吸引白鹭，不能成为两者都不喜欢的条件。"
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "mar2025_a_014",
+      "question_number": 15,
+      "section": "reading_writing",
+      "passage": "It is hard for publishers and printers to create very long books that balance the requirements of readability, durability, and cost. Among some exceptionally long novels published in English, Haruki Murakami’s 1Q84 (translated from Japanese) was published in a 1,157-page edition and runs to an estimated 407,000 words, while John Sayles’s A Moment in the Sun (written originally in English) was published in a 1,100-page edition and runs to an estimated 625,000 words. This indicates that ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the edition of A Moment in the Sun has more words per page than the edition of 1Q84."
+        },
+        {
+          "label": "B",
+          "text": "translating a text from Japanese to English is likely to increase the word count."
+        },
+        {
+          "label": "C",
+          "text": "page count is likely to be a more reliable indicator of how long it takes to read a book than word count."
+        },
+        {
+          "label": "D",
+          "text": "the edition of 1Q84 is printed on thinner paper than the edition of A Moment in the Sun."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "short": "A Moment in the Sun字更多、页更少，每页字数必更高。",
+        "key_evidence": "625000字分布于1100页，另书407000字分布于1157页。",
+        "why_correct": "A比较每页字数，直接由总字数与页数可推得。",
+        "detailed": "粗算两版每页约568对352字。信息只涉及篇幅密度，不提供翻译前字数、阅读速度或纸张厚度。",
+        "choice_analysis": {
+          "A": "正确：总字数更多且页数更少，密度更高。",
+          "B": "没有日文原版字数，不能推断翻译增加篇幅。",
+          "C": "没有阅读时间数据。",
+          "D": "没有纸张厚度信息。"
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "mar2025_a_015",
+      "question_number": 16,
+      "section": "reading_writing",
+      "passage": "Portrait of Marquess Massimiliano Stampa is one of dozens of remaining works by the Italian Renaissance artist Sofonisba Anguissola. ______ in 1557, her painting can now be found at the Walters Art Museum in Baltimore.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Will complete"
+        },
+        {
+          "label": "B",
+          "text": "Completed"
+        },
+        {
+          "label": "C",
+          "text": "Completes"
+        },
+        {
+          "label": "D",
+          "text": "Was completed"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "key_evidence": "The completed sentence reads “Completed in 1557, her painting can now be found...”",
+        "why_correct": "A past participle phrase is needed to modify “her painting,” so “Completed” is the grammatical choice.",
+        "choice_analysis": {
+          "A": "Incorrect. “Will complete in 1557” is ungrammatical and uses the wrong tense.",
+          "B": "Correct. “Completed in 1557” forms a participial phrase modifying the painting.",
+          "C": "Incorrect. “Completes in 1557” does not fit the passive meaning and is ungrammatical here.",
+          "D": "Incorrect. “Was completed in 1557, her painting...” creates an ungrammatical clause fragment."
+        },
+        "short": "A past participle phrase is needed to modify “her painting,” so “Completed” is the grammatical choice.",
+        "detailed": "The completed sentence reads “Completed in 1557, her painting can now be found...” A past participle phrase is needed to modify “her painting,” so “Completed” is the grammatical choice."
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "modifier"
+      }
+    },
+    {
+      "question_id": "mar2025_a_016",
+      "question_number": 17,
+      "section": "reading_writing",
+      "passage": "Synthesized calcium phosphate nanoparticles (CaPNPs) can be used to improve the healing and regeneration of broken bones; this function, well suited for multiple medical applications, ______ from the biocompatible properties of these particles.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "stemming"
+        },
+        {
+          "label": "B",
+          "text": "having stemmed"
+        },
+        {
+          "label": "C",
+          "text": "stems"
+        },
+        {
+          "label": "D",
+          "text": "to stem"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "key_evidence": "The clause after the semicolon has the singular subject “this function.”",
+        "why_correct": "The sentence needs a finite verb that agrees with “this function,” and “stems” completes the independent clause.",
+        "choice_analysis": {
+          "A": "Incorrect. “Stemming” is a participle and would leave the clause without a finite verb.",
+          "B": "Incorrect. “Having stemmed” does not provide the needed main verb.",
+          "C": "Correct. “Stems” is the singular finite verb required after the semicolon.",
+          "D": "Incorrect. “To stem” is an infinitive and cannot serve as the clause’s main verb."
+        },
+        "short": "The sentence needs a finite verb that agrees with “this function,” and “stems” completes the independent clause.",
+        "detailed": "The clause after the semicolon has the singular subject “this function.” The sentence needs a finite verb that agrees with “this function,” and “stems” completes the independent clause."
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "subject_verb_agreement"
+      }
+    },
+    {
+      "question_id": "mar2025_a_017",
+      "question_number": 18,
+      "section": "reading_writing",
+      "passage": "The Austronesian language family comprises some 1,200 languages—including the ______ Madurese and Bikol, which are spoken by 14 million and 4.6 million speakers, respectively—and accounts for one-fifth of the world’s languages, making it of keen interest to linguists like Diane Massam.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "languages"
+        },
+        {
+          "label": "B",
+          "text": "languages—"
+        },
+        {
+          "label": "C",
+          "text": "languages:"
+        },
+        {
+          "label": "D",
+          "text": "languages,"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "short": "languages后直接接两种语言名称，不加标点。",
+        "key_evidence": "破折号内部为including the languages Madurese and Bikol，名称指出哪两种语言。",
+        "why_correct": "A保持类别名词与必要名称连贯，不在名词短语内部制造边界。",
+        "detailed": "外层破折号已经把including举例整体隔开；内部the languages需要名称说明具体对象，不能再在名称前随意加逗号、冒号或破折号。",
+        "choice_analysis": {
+          "A": "正确：类别与必要名称直接相连。",
+          "B": "破折号错误截断the languages与其名称。",
+          "C": "including the languages不是需冒号列举的独立完整前导句。",
+          "D": "逗号错误把必要识别名称当可删插入语。"
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation"
+      }
+    },
+    {
+      "question_id": "mar2025_a_018",
+      "question_number": 19,
+      "section": "reading_writing",
+      "passage": "For the past 20 million years, Earth’s magnetic poles in the far north and far south have remained roughly where they are today. This has not always been the ______ throughout geologic history, Earth’s magnetic poles have swapped places several times through a process called polar wandering.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "case; though."
+        },
+        {
+          "label": "B",
+          "text": "case, though."
+        },
+        {
+          "label": "C",
+          "text": "case, though;"
+        },
+        {
+          "label": "D",
+          "text": "case, though"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "short": "C用句末though回接转折，再用分号连新独立句。",
+        "key_evidence": "This has not always been the case为一完整句；throughout geologic history...poles have swapped为另一完整句。",
+        "why_correct": "C让though作然而的句末副词，再以分号合法连接第二独立分句，且其后小写throughout合适。",
+        "detailed": "though在此不是引导从属句，而是插入在第一句末尾的转折副词。其后仍需标点处理两个完整主句的边界。",
+        "choice_analysis": {
+          "A": "分号后though.不能构成句子，后续小写亦不合。",
+          "B": "句号后throughout仍小写，不符合给定文本。",
+          "C": "正确：though前逗号、后分号处理插入副词与句界。",
+          "D": "没有在两个主句之间提供合法句界。"
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation"
+      }
+    },
+    {
+      "question_id": "mar2025_a_019",
+      "question_number": 20,
+      "section": "reading_writing",
+      "passage": "Russian-born visual artist Helga Stentzel turns household items into strange and surprising works of art. In her prints, tan sweatpants take on the form of a camel as they dangle from a ______ the red handles of a pair of pliers become the thongs of flip flops—flip flops made of nails. This “household surrealism,” Stentzel says, “is about finding magic in the mundane.”",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "clothesline,"
+        },
+        {
+          "label": "B",
+          "text": "clothesline;"
+        },
+        {
+          "label": "C",
+          "text": "clothesline—"
+        },
+        {
+          "label": "D",
+          "text": "clothesline:"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "short": "B用分号分隔两个并列艺术实例。",
+        "key_evidence": "tan sweatpants take...和the red handles...become...各自有主语与有限谓语；后面已有flip flops—flip flops made of nails的补充破折号。",
+        "why_correct": "B分号把两项平行实例清楚分开，不改变末尾补充说明的归属。",
+        "detailed": "第一实例是裤子变骆驼，第二是钳柄变拖鞋。分号适合两个紧密相关的完整分句。破折号并非永远不能连接分句，但C会与后文既有破折号造成错误插入范围，使末尾补语失去清楚依附。",
+        "choice_analysis": {
+          "A": "单逗号连接两个独立主句构成逗号拼接。",
+          "B": "正确：分号合法连接平行完整主句。",
+          "C": "与后面破折号形成含整个第二主句的插入范围，剩余主体与末尾flip flops made of nails不成连贯结构。",
+          "D": "第二句不是第一句骆驼实例的说明或列举，而是另一个平行实例。"
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation"
+      }
+    },
+    {
+      "question_id": "mar2025_a_020",
+      "question_number": 21,
+      "section": "reading_writing",
+      "passage": "Nineteenth-century Modernista architects championed nature in their designs. Granted, the dramatic archways and botanical glasswork of Palau Mornau, a Modernista private home designed by Manuel Raspall, couldn’t exactly grow in a forest. ______ one sees natural influences in Raspall’s penchant for curves (rather than right angles) and plant- and animal-inspired flourishes.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Furthermore,"
+        },
+        {
+          "label": "B",
+          "text": "Still,"
+        },
+        {
+          "label": "C",
+          "text": "Similarly,"
+        },
+        {
+          "label": "D",
+          "text": "In other words,"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "key_evidence": "The passage concedes that Palau Mornau “couldn’t exactly grow in a forest,” then says one sees natural influences in its curves and plant- and animal-inspired details.",
+        "why_correct": "“Still” correctly signals that, despite the concession, natural influences are present in the building’s design.",
+        "choice_analysis": {
+          "A": "Incorrect. “Furthermore” would add similar support, but the sentence after the blank contrasts with the concession.",
+          "B": "Correct. “Still” introduces a point that remains true despite the previous concession.",
+          "C": "Incorrect. “Similarly” would compare similar examples, which is not the relationship here.",
+          "D": "Incorrect. “In other words” would restate the previous sentence rather than contrast with it."
+        },
+        "short": "“Still” correctly signals that, despite the concession, natural influences are present in the building’s design.",
+        "detailed": "The passage concedes that Palau Mornau “couldn’t exactly grow in a forest,” then says one sees natural influences in its curves and plant- and animal-inspired details. “Still” correctly signals that, despite the concession, natural influences are present in the building’s design."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "mar2025_a_021",
+      "question_number": 22,
+      "section": "reading_writing",
+      "passage": "In Panama, citizens must be at least 18 years old to vote in their country’s elections. ______ citizens in the Isle of Man need only be 16 years old to cast their vote.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Firstly,"
+        },
+        {
+          "label": "B",
+          "text": "By comparison,"
+        },
+        {
+          "label": "C",
+          "text": "For example,"
+        },
+        {
+          "label": "D",
+          "text": "Therefore,"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "key_evidence": "Panama requires citizens to be 18 to vote, while the Isle of Man allows citizens to vote at 16.",
+        "why_correct": "“By comparison” introduces the contrast between voting-age requirements in the two places.",
+        "choice_analysis": {
+          "A": "Incorrect. “Firstly” would start an ordered list, which the passage does not provide.",
+          "B": "Correct. The sentence compares voting ages in Panama and the Isle of Man.",
+          "C": "Incorrect. The Isle of Man is not an example of Panama’s rule; it is a comparison.",
+          "D": "Incorrect. The second sentence is not a result of the first."
+        },
+        "short": "“By comparison” introduces the contrast between voting-age requirements in the two places.",
+        "detailed": "Panama requires citizens to be 18 to vote, while the Isle of Man allows citizens to vote at 16. “By comparison” introduces the contrast between voting-age requirements in the two places."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "mar2025_a_022",
+      "question_number": 23,
+      "section": "reading_writing",
+      "passage": "Generally, sleek vehicles are more aerodynamic than bulkier ones. For example, the streamlined nose of the Airbus A320 jet helps it glide through wind with relative ease. ______ a boxy semitruck encounters more wind resistance, making it less aerodynamic.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Specifically,"
+        },
+        {
+          "label": "B",
+          "text": "On the other hand,"
+        },
+        {
+          "label": "C",
+          "text": "As a result,"
+        },
+        {
+          "label": "D",
+          "text": "In conclusion,"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "key_evidence": "The Airbus is described as sleek and easy to move through wind; the boxy semitruck encounters more wind resistance.",
+        "why_correct": "“On the other hand” marks the contrast between the sleek Airbus example and the bulkier semitruck example.",
+        "choice_analysis": {
+          "A": "Incorrect. “Specifically” would signal a more precise example of the same point, but the semitruck contrasts with the Airbus.",
+          "B": "Correct. It introduces the opposing example of a boxy vehicle with more wind resistance.",
+          "C": "Incorrect. The semitruck’s wind resistance is not a result of the Airbus example.",
+          "D": "Incorrect. The sentence is not a conclusion to the passage."
+        },
+        "short": "“On the other hand” marks the contrast between the sleek Airbus example and the bulkier semitruck example.",
+        "detailed": "The Airbus is described as sleek and easy to move through wind; the boxy semitruck encounters more wind resistance. “On the other hand” marks the contrast between the sleek Airbus example and the bulkier semitruck example."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "mar2025_a_023",
+      "question_number": 24,
+      "section": "reading_writing",
+      "passage": "校订说明：编辑校订：已恢复来源分号，并统一修正两个过渡词选项末尾的误用句号；原有逻辑关系与词语保留。\n\nAs a federalist, New York physician and writer Charles McKnight favored the US Constitution’s provisions for a strong centralized government and supported the document’s ratification; ______ essays he published in the New-York Journal in December 1787 under the pseudonym “Examiner” disparaged the arguments of the anti-federalists, who opposed the Constitution’s adoption.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "in other words,"
+        },
+        {
+          "label": "B",
+          "text": "fittingly,"
+        },
+        {
+          "label": "C",
+          "text": "by comparison,"
+        },
+        {
+          "label": "D",
+          "text": "nevertheless,"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "short": "B 的 fittingly 表示“与之相符地”：支持宪法的人撰文批评反联邦派，前后立场一致。",
+        "key_evidence": "McKnight supported ratification；他的文章 disparaged the arguments of the anti-federalists，而后者 opposed adoption。",
+        "why_correct": "后半句展示了符合前半句政治立场的行为。Fittingly 连接“立场”与“符合该立场的行动”，而非同义改写、对比或转折。",
+        "detailed": "先把两个分句压缩为“他支持宪法批准”和“他批评反对批准者”。两者不是矛盾信息，后者也不是把前者换个说法，而是符合其立场的具体行动。因此 fittingly 最准确。将 B 完整代入后，分号连接两个独立分句，fittingly 后的逗号把过渡副词与后面的主语 essays 分开；句子的主干是 essays ... disparaged。",
+        "choice_analysis": {
+          "A": "In other words 引出同义重述；发表批评文章是其立场的具体行动，不是“支持批准”的同义改写。",
+          "B": "Fittingly 标示行为与已说明的立场相符：支持宪法的人批评反对宪法的人。",
+          "C": "By comparison 需要比较对象或比较维度；这里没有比较两个人或两种立场的表现。",
+          "D": "Nevertheless 表示虽有前文情况却出现相反或出乎预期的结果；支持批准与批评反对者并不构成这种转折。"
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "mar2025_a_024",
+      "question_number": 25,
+      "section": "reading_writing",
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Epazoyucan is a municipality in the state of Hidalgo, Mexico.\n• Municipalities are governmental regions responsible for providing many public services to their residents.\n• One service they provide is traffic control.\n• Epazoyucan covers an area of roughly 140 km².\n• Hidalgo is divided into 84 municipalities.",
+      "prompt": "The student wants to emphasize the size of Epazoyucan. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The municipality of Epazoyucan in Hidalgo, Mexico, covers an area of roughly 140 km²."
+        },
+        {
+          "label": "B",
+          "text": "Epazoyucan—a governmental region in the state of Hidalgo, Mexico—provides many public services to its residents."
+        },
+        {
+          "label": "C",
+          "text": "Epazoyucan is one of 84 governmental regions, known as municipalities, across Hidalgo."
+        },
+        {
+          "label": "D",
+          "text": "Providing traffic control is just one example of the public services that municipalities provide."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "key_evidence": "The notes state that Epazoyucan covers an area of roughly 140 km².",
+        "why_correct": "Choice A directly uses the area measurement, which is the relevant information for emphasizing the municipality’s size.",
+        "choice_analysis": {
+          "A": "Correct. It includes the 140 km² area figure and therefore emphasizes size.",
+          "B": "Incorrect. It emphasizes public services, not size.",
+          "C": "Incorrect. It emphasizes the number of municipalities in Hidalgo, not Epazoyucan’s size.",
+          "D": "Incorrect. It discusses traffic control services, not size."
+        },
+        "short": "Choice A directly uses the area measurement, which is the relevant information for emphasizing the municipality’s size.",
+        "detailed": "The notes state that Epazoyucan covers an area of roughly 140 km². Choice A directly uses the area measurement, which is the relevant information for emphasizing the municipality’s size."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_emphasize"
+      }
+    },
+    {
+      "question_id": "mar2025_a_025",
+      "question_number": 26,
+      "section": "reading_writing",
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• The United States has designated more than 500 areas National Wildlife Refuges (NWRs).\n• Some NWRs were established specifically to protect endangered species.\n• The Crocodile Lake NWR is a 6,686-acre area in Florida.\n• It was established to protect the endangered American crocodile.\n• The Pearl Harbor NWR is a 61-acre area in Hawaii.\n• It was established to protect the endangered Hawaiian stilt.",
+      "prompt": "The student wants to emphasize a similarity between the two NWRs. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Both the Crocodile Lake NWR and the Pearl Harbor NWR were established to protect endangered species."
+        },
+        {
+          "label": "B",
+          "text": "Some NWRs, such as Hawaii's Pearl Harbor, were established specifically to protect endangered species."
+        },
+        {
+          "label": "C",
+          "text": "While the Crocodile Lake NWR extends across a 6,686-acre area, the Pearl Harbor NWR encompasses only 61 acres."
+        },
+        {
+          "label": "D",
+          "text": "The US has designated more than 500 areas NWRs, including the Crocodile Lake NWR in Florida."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "key_evidence": "The Crocodile Lake NWR was established to protect the endangered American crocodile, and the Pearl Harbor NWR was established to protect the endangered Hawaiian stilt.",
+        "why_correct": "Choice A emphasizes the shared purpose: both refuges were established to protect endangered species.",
+        "choice_analysis": {
+          "A": "Correct. It directly states the similarity between the two NWRs.",
+          "B": "Incorrect. It mentions only Pearl Harbor and does not compare both refuges.",
+          "C": "Incorrect. It contrasts their sizes rather than emphasizing a similarity.",
+          "D": "Incorrect. It gives general background about NWRs and mentions only one of the two refuges."
+        },
+        "short": "Choice A emphasizes the shared purpose: both refuges were established to protect endangered species.",
+        "detailed": "The Crocodile Lake NWR was established to protect the endangered American crocodile, and the Pearl Harbor NWR was established to protect the endangered Hawaiian stilt. Choice A emphasizes the shared purpose: both refuges were established to protect endangered species."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_emphasize"
+      }
+    },
+    {
+      "question_id": "mar2025_a_026",
+      "question_number": 27,
+      "section": "reading_writing",
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Felipe Posada (pseudonym The Invisible Realm) is a New York City-based artist who specializes in the form of art known as surrealist collage.\n• Manifestation of the unconscious mind is a central aspect of surrealist collage.\n• Irrational juxtaposition of disparate elements is a central aspect of surrealist collage.\n• Posada's Synchronicity irrationally juxtaposes images of a well-dressed man, a clouded mountain range, and a doorway to the stars.\n• Posada: \"My art is a journey through the invisible realm—a space where intuition, memories, visions, and dreams are free to take visual form.\"",
+      "prompt": "The student wants to provide a specific example of irrational juxtaposition in surrealist collage. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Images of a well-dressed man, a clouded mountain range, and a doorway to the stars are juxtaposed irrationally in the surrealist collage piece Synchronicity by artist Felipe Posada."
+        },
+        {
+          "label": "B",
+          "text": "The irrational juxtaposition of disparate elements in Felipe Posada's art invokes \"a space where intuition, memories, visions, and dreams are free to take visual form.\""
+        },
+        {
+          "label": "C",
+          "text": "Synchronicity by artist Felipe Posada is an example of surrealist collage, a form in which irrational juxtaposition is a central aspect."
+        },
+        {
+          "label": "D",
+          "text": "Surrealist collage, such as Felipe Posada's Synchronicity, manifests the unconscious mind and irrationally juxtaposes disparate elements."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "key_evidence": "The notes say Synchronicity juxtaposes a well-dressed man, a clouded mountain range, and a doorway to the stars.",
+        "why_correct": "Choice A gives a specific example of irrational juxtaposition by naming the disparate images combined in the collage.",
+        "choice_analysis": {
+          "A": "Correct. It directly provides the requested specific example.",
+          "B": "Incorrect. It discusses irrational juxtaposition generally and quotes Posada, but it does not give the specific example.",
+          "C": "Incorrect. It identifies the artwork as surrealist collage but does not list the juxtaposed images.",
+          "D": "Incorrect. It summarizes surrealist collage broadly rather than giving the specific example."
+        },
+        "short": "Choice A gives a specific example of irrational juxtaposition by naming the disparate images combined in the collage.",
+        "detailed": "The notes say Synchronicity juxtaposes a well-dressed man, a clouded mountain range, and a doorway to the stars. Choice A gives a specific example of irrational juxtaposition by naming the disparate images combined in the collage."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_explain"
+      }
+    },
+    {
+      "question_id": "mar2025_a_028",
+      "question_number": 28,
+      "section": "reading_writing",
+      "passage": "As with other river deltas, the Kolyma River delta is [vocab]______[/vocab]; it is a constantly evolving network of channels and strips of land that change in size and shape as the river deposits new sedimentary particles where the river meets the waters of the East Siberian Sea.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "unrivaled"
+        },
+        {
+          "label": "B",
+          "text": "dynamic"
+        },
+        {
+          "label": "C",
+          "text": "sustainable"
+        },
+        {
+          "label": "D",
+          "text": "immutable"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "key_evidence": "The passage describes the delta as “a constantly evolving network” that changes in size and shape.",
+        "why_correct": "“Dynamic” means changing or active, so it precisely matches the description of the delta.",
+        "choice_analysis": {
+          "A": "Incorrect. “Unrivaled” means unmatched, which does not fit the description of change.",
+          "B": "Correct. “Dynamic” captures the constantly changing nature of the delta.",
+          "C": "Incorrect. “Sustainable” means able to be maintained, not constantly changing.",
+          "D": "Incorrect. “Immutable” means unchanging, the opposite of the passage’s meaning."
+        },
+        "short": "“Dynamic” means changing or active, so it precisely matches the description of the delta.",
+        "detailed": "The passage describes the delta as “a constantly evolving network” that changes in size and shape. “Dynamic” means changing or active, so it precisely matches the description of the delta."
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "mar2025_a_029",
+      "question_number": 29,
+      "section": "reading_writing",
+      "passage": "Noting the correspondence of Leonardo da Vinci's Mona Lisa to his self-portrait in red chalk, artist Lillian Schwartz argued that the former is a self-portrait, too—that by mapping his own features onto those of its ostensible subject, Lisa del Giocondo, Leonardo depicted himself as a woman. Indeed, by subjecting both works to digital analysis, Schwartz [vocab]______[/vocab] the two faces' structural resemblance.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "corroborated"
+        },
+        {
+          "label": "B",
+          "text": "amalgamated"
+        },
+        {
+          "label": "C",
+          "text": "promulgated"
+        },
+        {
+          "label": "D",
+          "text": "consolidated"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "key_evidence": "Schwartz used digital analysis of the Mona Lisa and Leonardo’s self-portrait to support her argument about their structural resemblance.",
+        "why_correct": "“Corroborated” means supported with evidence, which fits the digital analysis confirming her claim.",
+        "choice_analysis": {
+          "A": "Correct. The digital analysis corroborated, or supported, Schwartz’s argument.",
+          "B": "Incorrect. “Amalgamated” means combined, which is not what Schwartz did to her argument.",
+          "C": "Incorrect. “Promulgated” means publicly spread or announced, not supported with evidence.",
+          "D": "Incorrect. “Consolidated” means combined or strengthened into one whole, which does not fit as precisely."
+        },
+        "short": "“Corroborated” means supported with evidence, which fits the digital analysis confirming her claim.",
+        "detailed": "Schwartz used digital analysis of the Mona Lisa and Leonardo’s self-portrait to support her argument about their structural resemblance. “Corroborated” means supported with evidence, which fits the digital analysis confirming her claim."
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "mar2025_a_030",
+      "question_number": 30,
+      "section": "reading_writing",
+      "passage": "While modern composers may often get inspiration from past greats like Ludwig van Beethoven, the extent of their influences is broad. The music of Ernesto Lecuona, for example, can be said to [vocab]______[/vocab] elements of both the classical European tradition and the social, political, and cultural landscape of his native Cuba.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "defy"
+        },
+        {
+          "label": "B",
+          "text": "neglect"
+        },
+        {
+          "label": "C",
+          "text": "foretell"
+        },
+        {
+          "label": "D",
+          "text": "exhibit"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "key_evidence": "The sentence says Lecuona’s music includes elements of both European classical tradition and Cuban social, political, and cultural landscape.",
+        "why_correct": "“Exhibit” means display or show, which fits music showing elements from both influences.",
+        "choice_analysis": {
+          "A": "Incorrect. “Defy” would mean resist or oppose those elements.",
+          "B": "Incorrect. “Neglect” would mean fail to include or pay attention to those elements.",
+          "C": "Incorrect. “Foretell” means predict, which does not fit musical influences.",
+          "D": "Correct. “Exhibit” means show or display the elements described."
+        },
+        "short": "“Exhibit” means display or show, which fits music showing elements from both influences.",
+        "detailed": "The sentence says Lecuona’s music includes elements of both European classical tradition and Cuban social, political, and cultural landscape. “Exhibit” means display or show, which fits music showing elements from both influences."
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "mar2025_a_031",
+      "question_number": 31,
+      "section": "reading_writing",
+      "passage": "During the 2007–2010 financial crisis, the United States furnished billions of dollars to selected countries' central banks via mechanisms called swap lines. Aditi Sahasrabuddhe found that countries' policy environments seem to have been [vocab]______[/vocab] swap-line decisions: the probability that banks would be granted swap lines was 0.20 in countries open to foreign-capital inflows and 0.03 in countries with policies restricting such inflows.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "predicated on"
+        },
+        {
+          "label": "B",
+          "text": "mediated by"
+        },
+        {
+          "label": "C",
+          "text": "decoupled from"
+        },
+        {
+          "label": "D",
+          "text": "material to"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "short": "The probability gap shows that policy environments were important or relevant to swap-line decisions. “Material to” correctly says the policy environments mattered to those decisions; “predicated on” would awkwardly make the environments based on the decisions rather than the decisions influenced by the environments.",
+        "detailed": "The probability gap shows that policy environments were important or relevant to swap-line decisions. “Material to” correctly says the policy environments mattered to those decisions; “predicated on” would awkwardly make the environments based on the decisions rather than the decisions influenced by the environments.",
+        "key_evidence": "Countries open to foreign-capital inflows had a 0.20 probability of being granted swap lines, while countries with restrictive policies had only 0.03.",
+        "why_correct": "The probability gap shows that policy environments were important or relevant to swap-line decisions. “Material to” correctly says the policy environments mattered to those decisions; “predicated on” would awkwardly make the environments based on the decisions rather than the decisions influenced by the environments.",
+        "choice_analysis": {
+          "A": "Incorrect. “Predicated on” means based on, but in the sentence the grammatical subject is “policy environments,” so this would imply that the policy environments were based on swap-line decisions, reversing the intended relationship.",
+          "B": "Incorrect. “Mediated by” would suggest that swap-line decisions served as an intermediary through which policy environments operated, which the probability comparison does not show.",
+          "C": "Incorrect. “Decoupled from” means separated from or unrelated to, the opposite of the strong probability difference described in the text.",
+          "D": "Correct. “Material to” means relevant or important to; the different probabilities show that policy environments mattered to swap-line decisions."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "mar2025_a_032",
+      "question_number": 32,
+      "section": "reading_writing",
+      "passage": "Though John Crowley, author of Four Freedoms, is perhaps not as well known as the most widely read American writers of the past fifty years, influential figures have championed his work, including the poet James Merrill and the literary critic Harold Bloom. In his afterword to Crowley's book Little, Big, Bloom praises the novel's adroit blend of what playwright Friedrich Schiller termed the naive and sentimental modes—while Schiller thought works could be classified as either naive (seeking to describe reality) or sentimental (seeking to develop ideas), Little, Big demonstrates that a work can be both.",
+      "prompt": "Which choice best states the main purpose of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To present a reason why a literary critic is impressed by a certain novel"
+        },
+        {
+          "label": "B",
+          "text": "To explain what inspired an author to write a particular work"
+        },
+        {
+          "label": "C",
+          "text": "To compare the work of a writer with the work of a poet who admired him"
+        },
+        {
+          "label": "D",
+          "text": "To argue that all writing must be classified as belonging to one of two categories"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "short": "The text’s main purpose is to show why Bloom, a literary critic, admires Crowley’s novel. It introduces Bloom and then explains the specific literary quality he praises.",
+        "detailed": "The text’s main purpose is to show why Bloom, a literary critic, admires Crowley’s novel. It introduces Bloom and then explains the specific literary quality he praises.",
+        "key_evidence": "Harold Bloom praises Little, Big for blending Schiller’s naive and sentimental modes, showing that a work can be both.",
+        "why_correct": "The text’s main purpose is to show why Bloom, a literary critic, admires Crowley’s novel. It introduces Bloom and then explains the specific literary quality he praises.",
+        "choice_analysis": {
+          "A": "Correct. The paragraph gives Bloom’s reason for being impressed: Little, Big blends two modes that Schiller treated as separate.",
+          "B": "Incorrect. The text does not discuss Crowley’s inspiration for writing Little, Big or Four Freedoms.",
+          "C": "Incorrect. Merrill is named only as another admirer; the text does not compare Crowley’s work with Merrill’s poetry.",
+          "D": "Incorrect. The text says Little, Big can be both naive and sentimental, so it does not argue that all writing must fit only one category."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "primary_purpose"
+      }
+    },
+    {
+      "question_id": "mar2025_a_033",
+      "question_number": 33,
+      "section": "reading_writing",
+      "passage": "The following text is adapted from George Eliot's 1857 short story “The Sad Fortunes of the Rev. Amos Barton.” Mr. Ely is a clergyman in the town of Milby.\n\nBy the laity of Milby and its neighbourhood [Mr. Ely] was regarded as a man of quite remarkable powers and learning, who must make a considerable sensation in London pulpits and drawing-rooms on his occasional visit to the metropolis; and by his brother clergy he was regarded as a discreet and agreeable fellow. Mr. Ely never got into a warm discussion; he suggested what might be thought, but rarely said what he thought himself; he never let either men or women see that he was laughing at them, and he never gave any one an opportunity of laughing at him.",
+      "prompt": "Which choice best describes the overall structure of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It implies that Mr. Ely's neighbors are more naive in their estimation of him than people in London are and then explains why his neighbors have been so easily misled."
+        },
+        {
+          "label": "B",
+          "text": "It presents the favorable opinion of Mr. Ely that other people hold and then describes the behaviors of Mr. Ely that enable him to maintain that favorable opinion."
+        },
+        {
+          "label": "C",
+          "text": "It shows that Mr. Ely had originally been held in high regard by his friends and then details the events that caused their regard for him to subside."
+        },
+        {
+          "label": "D",
+          "text": "It highlights the disparity between Mr. Ely's public and private behavior and then conveys why he labors to obscure his true self from other people."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "short": "The structure moves from others’ positive opinions of Mr. Ely to the careful behaviors that help him keep those opinions intact.",
+        "detailed": "The structure moves from others’ positive opinions of Mr. Ely to the careful behaviors that help him keep those opinions intact.",
+        "key_evidence": "People in Milby regard Mr. Ely favorably, and the passage then says he avoids warm discussion, rarely states his own views, and gives no one a chance to laugh at him.",
+        "why_correct": "The structure moves from others’ positive opinions of Mr. Ely to the careful behaviors that help him keep those opinions intact.",
+        "choice_analysis": {
+          "A": "Incorrect. The passage does not compare Milby’s judgment with London’s judgment or say Londoners are less easily misled.",
+          "B": "Correct. It first presents the favorable views others hold, then describes the socially cautious conduct that lets Mr. Ely maintain those views.",
+          "C": "Incorrect. No decline in regard is described; the passage focuses on how his reputation is preserved.",
+          "D": "Incorrect. Although the passage hints at guarded behavior, it does not center on a private/public disparity or explain a motive for hiding a true self."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "mar2025_a_034",
+      "question_number": 34,
+      "section": "reading_writing",
+      "passage": "The first text is adapted from E.M. Forster's 1910 novel Howards End. The second text discusses Howards End. King's Cross and St. Pancras are adjacent railway terminals in London from which trains travel to the countryside.\n\nText 1\n\nTo Margaret the station of King's Cross had always suggested infinity. Its very situation—withdrawn a little behind the facile splendours of St. Pancras—implied a comment on the materialism of life. Those two great arches, colourless, indifferent, shouldering between them an unlovely clock, were fit portals for some eternal adventure, whose issue might be prosperous, but would certainly not be expressed in the ordinary language of prosperity.\n\nText 2\n\nThe interplay between opposing ideological positions in Howards End is broadly articulated in the novel's organization of geographic space. On the one hand, the modern metropolis of London represents capitalism's emphasis on pragmatism and the accumulation of material wealth; on the other, the English countryside, accessible via King's Cross, fosters an idealism that values tradition, authentic personal connection, and the aesthetic—what the novel calls \"the infinite.\"",
+      "prompt": "Based on the texts, the author of Text 2 would most likely agree with which statement about King's Cross, as it is depicted in Text 1?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Because it is situated at the beginning of Margaret's journey from the city to the country, King's Cross emblemizes the intrusion of the forces of materialism and modernity into the rural spaces that the novel associates with idealism and tradition."
+        },
+        {
+          "label": "B",
+          "text": "The austerity conveyed by King's Cross's appearance mirrors Margaret's disillusionment with the prospect of having authentic connections with other people in a world that chiefly values more conventional forms of prosperity."
+        },
+        {
+          "label": "C",
+          "text": "As a point of connection between London and the countryside, King's Cross suggests to Margaret the possibility of acquiring the intangible abundance promised by the kinds of authentic engagements that the novel's rural spaces seem to offer."
+        },
+        {
+          "label": "D",
+          "text": "King's Cross has a relatively unassuming appearance whose sharp contrast with the more aesthetically pleasing appearance of St. Pancras suggests to Margaret the ascendancy of the pragmatic capitalistic outlook among London's inhabitants."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "short": "Text 1 describes King’s Cross as suggesting “infinity” and as a portal to an “eternal adventure.” Text 2 would therefore see King’s Cross as a link from London toward the countryside’s idealism and intangible abundance.",
+        "detailed": "Text 1 describes King’s Cross as suggesting “infinity” and as a portal to an “eternal adventure.” Text 2 would therefore see King’s Cross as a link from London toward the countryside’s idealism and intangible abundance.",
+        "key_evidence": "Text 2 says the countryside, accessible via King’s Cross, fosters tradition, authentic connection, the aesthetic, and “the infinite.”",
+        "why_correct": "Text 1 describes King’s Cross as suggesting “infinity” and as a portal to an “eternal adventure.” Text 2 would therefore see King’s Cross as a link from London toward the countryside’s idealism and intangible abundance.",
+        "choice_analysis": {
+          "A": "Incorrect. Text 2 contrasts London’s materialism with the countryside’s idealism; it does not say King’s Cross represents materialism intruding into the countryside.",
+          "B": "Incorrect. Text 1 presents austerity and infinity, but not Margaret’s disillusionment with authentic connection.",
+          "C": "Correct. King’s Cross connects London to the countryside, which Text 2 associates with authentic connection, aesthetics, and “the infinite.”",
+          "D": "Incorrect. Although Text 1 contrasts King’s Cross with St. Pancras, Text 2 does not frame King’s Cross as showing the triumph of a pragmatic capitalist outlook."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Cross-Text Connections",
+        "subtype": "cross_text_response"
+      }
+    },
+    {
+      "question_id": "mar2025_a_035",
+      "question_number": 35,
+      "section": "reading_writing",
+      "passage": "Mexican architect Luis Barragán's prolific career, which spanned the 1920s to the 1980s, evolved through distinct phases. After traveling to the United States and Europe in the early 1930s and immersing himself in a broader architectural discourse, Barragán began incorporating principles derived from functionalism and modernism in his work, as seen in the apartment building at 14 Parque Melchor Ocampo, whose unadorned geometric forms contrast with his earlier projects in Guadalajara, such as the Carmen Orozco House, which evince the aesthetics of traditional Mediterranean and Mexican styles.",
+      "prompt": "Information in the text best supports which statement about the design of the Carmen Orozco House?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It represents a transitional moment between the early and late phases of Barragán's development."
+        },
+        {
+          "label": "B",
+          "text": "It displays the effects of Barragán's exposure to international architectural trends in the 1930s."
+        },
+        {
+          "label": "C",
+          "text": "It is characteristic of the Guadalajaran architecture that influenced Barragán throughout his career."
+        },
+        {
+          "label": "D",
+          "text": "It reflects an approach to ornamentation and shape that Barragán later stopped using."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "short": "Because the text contrasts the Carmen Orozco House with Barragán’s later functionalist and modernist work, the house reflects an earlier approach to ornamentation and shape that he later moved away from.",
+        "detailed": "Because the text contrasts the Carmen Orozco House with Barragán’s later functionalist and modernist work, the house reflects an earlier approach to ornamentation and shape that he later moved away from.",
+        "key_evidence": "The Carmen Orozco House is one of Barragán’s earlier Guadalajara projects in traditional Mediterranean and Mexican styles, contrasted with later unadorned geometric modernist work.",
+        "why_correct": "Because the text contrasts the Carmen Orozco House with Barragán’s later functionalist and modernist work, the house reflects an earlier approach to ornamentation and shape that he later moved away from.",
+        "choice_analysis": {
+          "A": "Incorrect. The house is presented as an earlier project, not as a transitional work between early and late phases.",
+          "B": "Incorrect. The international functionalist and modernist influence came after his early-1930s travel, whereas the Carmen Orozco House is grouped with earlier Guadalajara projects.",
+          "C": "Incorrect. The passage does not say Guadalajaran architecture influenced Barragán throughout his career.",
+          "D": "Correct. The traditional styles of the Carmen Orozco House are contrasted with Barragán’s later unadorned geometric forms."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "hypothetical_support"
+      }
+    },
+    {
+      "question_id": "mar2025_a_036",
+      "question_number": 36,
+      "section": "reading_writing",
+      "passage": "The following text is from Mick Herron's 2023 novel The Secret Hours. The narrator is describing members of a government committee.\n\nFinally, and adding much-needed gravitas, was Sir Winston Day, whose features seemed moulded to adorn a bust, or possibly a stamp, and whose forehead was so evidently bulging with grey matter that it would have been impertinent to inquire too closely into the actual achievements his half century of public service had produced. His recently published memoirs possibly cast light on this enigma, but given that such details were not provided until after the thirty-page mark, they might as well have remained state secrets.",
+      "prompt": "Based on the text, which choice best describes Sir Winston Day?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "He has the appearance of a distinguished figure, but it is uncertain whether he has accomplished anything to earn distinction."
+        },
+        {
+          "label": "B",
+          "text": "He has maintained a modest profile even though he has served the public capably for many years."
+        },
+        {
+          "label": "C",
+          "text": "He looks like a person worthy of respect, but his memoirs reveal that some of his actions were dishonorable."
+        },
+        {
+          "label": "D",
+          "text": "He would be a celebrated public figure if his achievements did not have to be kept secret."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "short": "The description gives him the outward appearance of distinction while humorously suggesting that his real accomplishments are unclear.",
+        "detailed": "The description gives him the outward appearance of distinction while humorously suggesting that his real accomplishments are unclear.",
+        "key_evidence": "Sir Winston Day’s features seem fit for a bust or stamp, but the narrator says it would be impertinent to ask too closely about his actual achievements.",
+        "why_correct": "The description gives him the outward appearance of distinction while humorously suggesting that his real accomplishments are unclear.",
+        "choice_analysis": {
+          "A": "Correct. He looks distinguished, yet the text questions whether his long public service produced actual achievements.",
+          "B": "Incorrect. The passage does not say he served capably or maintained a modest profile.",
+          "C": "Incorrect. His memoirs may address the uncertainty, but the passage does not say they reveal dishonorable actions.",
+          "D": "Incorrect. “State secrets” is a joke about the memoir’s delay, not evidence that his achievements are literally classified."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "explicit_detail"
+      }
+    },
+    {
+      "question_id": "mar2025_a_037",
+      "question_number": 37,
+      "section": "reading_writing",
+      "passage": "Edinburgh, Scotland, has installed engineered structures along 89% of its shoreline to protect infrastructure from wave erosion and other hazards, a practice known as shoreline hardening. To evaluate the responses of waterbirds to two types of hardening structures—riprap and bulkheads—Diann Prosser et al. surveyed waterbird communities consisting of the osprey, the common tern, and 62 other species at different sites in the Chesapeake Bay on the US East Coast. Utilizing the Index of Waterbird Community Integrity (IWCI), on which a high score corresponds to high community integrity, the researchers found that bulkheads are more strongly negatively correlated with waterbird community integrity than is riprap.",
+      "prompt": "Which finding, if true, would most directly illustrate the researchers’ finding?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Waterbird communities at Curtis, a site with a high percentage of shoreline consisting of bulkheads and riprap, had lower average IWCI scores than did waterbird communities at Onancock, a site with a low percentage of shoreline consisting of bulkheads and riprap."
+        },
+        {
+          "label": "B",
+          "text": "Waterbird communities at Old Road, a site with a relatively high percentage of shoreline consisting of bulkheads, had lower average IWCI scores than did waterbird communities at Miles, a site with a relatively high percentage of shoreline consisting of riprap."
+        },
+        {
+          "label": "C",
+          "text": "Waterbird communities at Curtis, a site with equal percentages of shoreline consisting of bulkheads and riprap, had higher average IWCI scores than did waterbird communities at Miles, a site with different percentages of shoreline consisting of bulkheads and riprap."
+        },
+        {
+          "label": "D",
+          "text": "The difference in average IWCI scores for waterbird communities at Stony and Old Road, two sites with a higher percentage of shoreline consisting of bulkheads than of riprap, was statistically insignificant."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "short": "Choice B directly illustrates that finding by comparing a bulkhead-heavy site with lower IWCI scores to a riprap-heavy site with higher scores.",
+        "detailed": "Choice B directly illustrates that finding by comparing a bulkhead-heavy site with lower IWCI scores to a riprap-heavy site with higher scores.",
+        "key_evidence": "The researchers found that bulkheads are more strongly negatively correlated with waterbird community integrity than riprap is.",
+        "why_correct": "Choice B directly illustrates that finding by comparing a bulkhead-heavy site with lower IWCI scores to a riprap-heavy site with higher scores.",
+        "choice_analysis": {
+          "A": "Incorrect. This compares a site with both hardening types to a low-hardening site, not bulkheads against riprap.",
+          "B": "Correct. It shows lower IWCI at a relatively bulkhead-heavy site than at a relatively riprap-heavy site, matching the stronger negative bulkhead relationship.",
+          "C": "Incorrect. This does not directly show bulkheads having a stronger negative correlation than riprap.",
+          "D": "Incorrect. An insignificant difference between two bulkhead-heavy sites would not illustrate the contrast between bulkheads and riprap."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "hypothetical_support"
+      }
+    },
+    {
+      "question_id": "mar2025_a_038",
+      "question_number": 38,
+      "section": "reading_writing",
+      "passage": "For its 2022 exhibition Guarding the Art, the Baltimore Museum of Art cast the security personnel typically responsible for safeguarding the institution's collections as the curators, [u]whose individual selections from the museum's holdings culminated in a show amplifying a distinct perspective not typically given a formal platform.[/u]",
+      "prompt": "Which quote from one of the personnel who curated the exhibition would best support the underlined claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The most enjoyable part of curating this show has been seeing the outcome of our efforts: a unique show that spans genres, mediums, cultures, and eras. We hope visitors will sense our genuine affinity for the pieces we are charged with protecting."
+        },
+        {
+          "label": "B",
+          "text": "My selections for the show were motivated by an interest in bringing publicity to lesser-known artifacts in the museum's collection, many of which tend to be overlooked or even dismissed as uninteresting by most visitors to the museum."
+        },
+        {
+          "label": "C",
+          "text": "The piece I chose is accompanied by a statement of the personal interpretation I've developed over countless hours overseeing the work and interacting with its visitors—an interpretation that I've previously shared only in small impromptu conversations with those visitors who are interested in discussing their reflections on the piece with me."
+        },
+        {
+          "label": "D",
+          "text": "Throughout the exhibition's development, my colleagues and I partnered closely with other museum staff whose areas of expertise lie in curation and conservation, and whose insights enriched our understandings of the pieces we selected for the exhibition."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "short": "Choice C describes a curator’s personal interpretation developed through guarding the work and previously shared only in informal conversations. That directly supports the idea that the exhibition gave a formal platform to a normally informal perspective.",
+        "detailed": "Choice C describes a curator’s personal interpretation developed through guarding the work and previously shared only in informal conversations. That directly supports the idea that the exhibition gave a formal platform to a normally informal perspective.",
+        "key_evidence": "The underlined claim says the exhibition amplified security personnel’s distinct perspectives, which are not typically given a formal platform.",
+        "why_correct": "Choice C describes a curator’s personal interpretation developed through guarding the work and previously shared only in informal conversations. That directly supports the idea that the exhibition gave a formal platform to a normally informal perspective.",
+        "choice_analysis": {
+          "A": "Incorrect. This praises the show’s variety and the guards’ affinity for the works, but it does not show a perspective that lacked a formal platform.",
+          "B": "Incorrect. This focuses on publicizing overlooked artifacts, not on the guard’s distinct personal perspective being formally amplified.",
+          "C": "Correct. It explicitly contrasts a personal interpretation formerly shared only informally with its inclusion in the exhibition.",
+          "D": "Incorrect. This emphasizes collaboration with curatorial and conservation staff, not a distinct guard perspective receiving a formal platform."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "quotation_support"
+      }
+    },
+    {
+      "question_id": "mar2025_a_039",
+      "question_number": 39,
+      "section": "reading_writing",
+      "passage": "A student is writing an essay on the subject of cultured meat, which is grown in a laboratory and is intended to help reduce the number of livestock harvested for food.",
+      "prompt": "The student wants to make the case that cultured meat production may be useful in responding to an expected widespread change in the public's behavior. Which quotation from a publication by a researcher would most effectively support the student's claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Consumers tend to believe that using less packaging when selling meat products in stores would have a significant effect on the environment."
+        },
+        {
+          "label": "B",
+          "text": "The flavor of meat from livestock differs across species (from pig to chicken to cow), and is also influenced by farming conditions and the breeds and genders of animals."
+        },
+        {
+          "label": "C",
+          "text": "A growing population that is including significantly more meat in its diet will contribute to an increasing demand for meat products in the 21st century."
+        },
+        {
+          "label": "D",
+          "text": "Researchers who advocate for the development of lab-grown meat claim that it's better for the environment than conventional meat because it requires less water consumption."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "short": "Choice C identifies the relevant change: a growing population will include significantly more meat in its diet, increasing demand for meat products. Cultured meat could help respond to that increased demand.",
+        "detailed": "Choice C identifies the relevant change: a growing population will include significantly more meat in its diet, increasing demand for meat products. Cultured meat could help respond to that increased demand.",
+        "key_evidence": "The student wants support for the idea that cultured meat may help respond to an expected widespread change in public behavior.",
+        "why_correct": "Choice C identifies the relevant change: a growing population will include significantly more meat in its diet, increasing demand for meat products. Cultured meat could help respond to that increased demand.",
+        "choice_analysis": {
+          "A": "Incorrect. Packaging beliefs concern environmental impact, not a widespread change in meat-eating behavior.",
+          "B": "Incorrect. Differences in livestock flavor do not support a claim about public behavior changing or demand increasing.",
+          "C": "Correct. It predicts a broad increase in meat consumption and demand, which cultured meat production could help address.",
+          "D": "Incorrect. This supports an environmental advantage of lab-grown meat, but it does not identify a widespread behavioral change in the public."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "quotation_support"
+      }
+    },
+    {
+      "question_id": "mar2025_a_040",
+      "question_number": 40,
+      "section": "reading_writing",
+      "passage": "Born in Chile in 1917, artist and ethnomusicologist Violeta Parra was a pioneer in the nueva canción chilena (Chilean New Song) movement that emerged in the late 1950s and then spread throughout Latin America, Portugal, and Spain as nueva canción. Parra traveled all over Chile compiling extensive records of authentic folk music as well as recipes, proverbs, and other facets of cultural history. These records formed the foundation for the early movement's revival of traditional Chilean folk forms in new songs that represented modern realities of the working class and strongly advocated for social change. [u]As the movement spread beyond Chile, the breadth of musical traditions incorporated into its foundation also expanded.[/u]",
+      "prompt": "Which detail about songs associated with nueva canción, if true, would best illustrate the underlined claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Many feature political commentary addressing contemporary issues that stemmed from shared experiences of European colonization in Latin American countries."
+        },
+        {
+          "label": "B",
+          "text": "Many demonstrate the stylistic influence of corrido, a genre of narrative songs from Mexico that had come to be characterized by political themes in the early 1800s."
+        },
+        {
+          "label": "C",
+          "text": "Many were written with parts meant to be played on the quena, a traditional flute used across Andean countries, including Chile."
+        },
+        {
+          "label": "D",
+          "text": "Many were produced by Argentinian artists in the late 1950s, with others by artists in additional Latin American countries first emerging soon after."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "short": "Choice B supports that claim by saying many songs show the influence of corrido, a Mexican narrative-song genre, adding a non-Chilean musical tradition to the movement.",
+        "detailed": "Choice B supports that claim by saying many songs show the influence of corrido, a Mexican narrative-song genre, adding a non-Chilean musical tradition to the movement.",
+        "key_evidence": "The underlined claim says that as nueva canción spread beyond Chile, the range of musical traditions incorporated into its foundation expanded.",
+        "why_correct": "Choice B supports that claim by saying many songs show the influence of corrido, a Mexican narrative-song genre, adding a non-Chilean musical tradition to the movement.",
+        "choice_analysis": {
+          "A": "Incorrect. Shared political commentary supports the movement’s social concerns, but not the expansion of musical traditions.",
+          "B": "Correct. Mexican corrido is a musical tradition from outside Chile, so its influence illustrates the broader foundation.",
+          "C": "Incorrect. The quena is used across Andean countries including Chile, so this is less direct evidence of expansion beyond Chile.",
+          "D": "Incorrect. Identifying artists’ countries and timing does not itself show that the songs incorporated broader musical traditions."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "hypothetical_support"
+      }
+    },
+    {
+      "question_id": "mar2025_a_041",
+      "question_number": 41,
+      "section": "reading_writing",
+      "passage": "The National Environmental Policy Act (NEPA) requires US federal agencies to assess environmental effects of potential actions, such as building highways. While many NEPA reviews require public comment, categorical exclusions (CEs) allow quick reviews with no public comment for actions that will minimally affect the environment. In 2020 the rule governing CEs was revised: before, CEs could be granted for actions that “do not individually or cumulatively have a significant effect on the human environment,” but the revised rule allowed CEs if actions “normally do not have a significant effect on the human environment.” Environmentalists found this revision to be potentially detrimental because ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the increasing need to build new highways and rehabilitate older highways in the US incentivizes agencies to grant CEs after 2020 for reasons that would not have been considered valid prior to 2020."
+        },
+        {
+          "label": "B",
+          "text": "the 2020 relaxation of the rule regarding CEs would permit more exclusions, resulting in more reviews of actions by federal agencies and a paradoxically slower review process."
+        },
+        {
+          "label": "C",
+          "text": "the rule that governed CEs before 2020 allowed expedited reviews of actions that might have significant effects on the environment if those effects were believed to be rare, while the 2020 revision of the rule subjected such actions to slower reviews."
+        },
+        {
+          "label": "D",
+          "text": "the 2020 revision of the rule governing CEs would allow expedited reviews of actions that had a minimal environmental effect when considered on their own but a significant effect when considered together."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "short": "The old rule explicitly considered cumulative effects, but the revised rule relaxed that wording. Therefore, an action could be expedited even if it seemed minimal alone but significant when combined with other actions.",
+        "detailed": "The old rule explicitly considered cumulative effects, but the revised rule relaxed that wording. Therefore, an action could be expedited even if it seemed minimal alone but significant when combined with other actions.",
+        "key_evidence": "Before 2020, CEs required actions not to have individually or cumulatively significant effects; the revision says actions only “normally” lack significant effects.",
+        "why_correct": "The old rule explicitly considered cumulative effects, but the revised rule relaxed that wording. Therefore, an action could be expedited even if it seemed minimal alone but significant when combined with other actions.",
+        "choice_analysis": {
+          "A": "Incorrect. The text discusses how CE criteria changed, not a new incentive created by highway-building demand.",
+          "B": "Incorrect. More exclusions would mean fewer full reviews, not more reviews or a slower process.",
+          "C": "Incorrect. This reverses the change; the pre-2020 rule was stricter about cumulative significant effects.",
+          "D": "Correct. It captures the environmentalists’ concern that cumulative effects could be ignored under the revised “normally” standard."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "mar2025_a_042",
+      "question_number": 42,
+      "section": "reading_writing",
+      "passage": "Microbial fuel cells (MFCs) capitalize on the ability of some species of bacteria to metabolize metal, liberating electrons. The bacteria form a dense biofilm on the surface of an electron-collecting anode, but moving the electrons from the bacterial cytoplasm to an external electrode requires that the electrons pass through a series of inefficient oxidation-reduction (redox) reactions. Accordingly, MFC power output rarely exceeds a density of 0.30 milliwatts per square centimeter (mW/cm^2). In an experiment, researchers added silver nanoparticles to carbon paper covering the anode in an MFC. The resulting power density was 0.66 mW/cm^2. Since metals such as silver exhibit high electrical conductivity, the researchers hypothesized that _____",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "silver nanoparticles may increase the metabolic processes of the bacteria, thereby increasing the number of free electrons available to transfer to the electrode."
+        },
+        {
+          "label": "B",
+          "text": "as the density of the biofilm increases, the series of redox reactions may accelerate independent of the presence of the silver nanoparticles."
+        },
+        {
+          "label": "C",
+          "text": "electrons may be conducted directly to the electrode before the silver nanoparticles catalyze the redox reactions."
+        },
+        {
+          "label": "D",
+          "text": "silver nanoparticles may allow electrons to bypass the series of redox reactions and transfer directly to the electrode."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "short": "Because silver conducts electricity well, the higher output suggests that the nanoparticles may provide a more direct route for electrons to reach the electrode instead of forcing them through inefficient redox reactions.",
+        "detailed": "Because silver conducts electricity well, the higher output suggests that the nanoparticles may provide a more direct route for electrons to reach the electrode instead of forcing them through inefficient redox reactions.",
+        "key_evidence": "Adding silver nanoparticles raised MFC power density from rarely over 0.30 mW/cm^2 to 0.66 mW/cm^2, and silver is highly conductive.",
+        "why_correct": "Because silver conducts electricity well, the higher output suggests that the nanoparticles may provide a more direct route for electrons to reach the electrode instead of forcing them through inefficient redox reactions.",
+        "choice_analysis": {
+          "A": "Incorrect. The text does not say the nanoparticles increased bacterial metabolism or produced more free electrons.",
+          "B": "Incorrect. The experiment focuses on silver nanoparticles, not biofilm density acting independently of them.",
+          "C": "Incorrect. This says electrons reach the electrode before nanoparticles catalyze redox reactions, but the hypothesis is about bypassing those reactions, not catalyzing them later.",
+          "D": "Correct. It connects silver’s conductivity to a direct electron-transfer path that avoids inefficient redox reactions."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "mar2025_a_043",
+      "question_number": 43,
+      "section": "reading_writing",
+      "passage": "Included in Serial Intent, a 2017 group exhibition at the Akron Art Museum in Ohio, was the work of artist Lorna Simpson, who is best known for her multimedia artworks that juxtapose images of African American women with text fragments. Her work challenges conventional notions of race, gender, history, and _____ she is credited with expanding the horizons of conceptual photographic art.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "memory,"
+        },
+        {
+          "label": "B",
+          "text": "memory and"
+        },
+        {
+          "label": "C",
+          "text": "memory"
+        },
+        {
+          "label": "D",
+          "text": "memory, and"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "short": "The series needs “memory” as its final item, followed by a comma and “and” before the independent clause beginning “she is credited.”",
+        "detailed": "The series needs “memory” as its final item, followed by a comma and “and” before the independent clause beginning “she is credited.”",
+        "key_evidence": "The sentence lists race, gender, history, and memory, then adds a second independent clause: “she is credited with expanding...”",
+        "why_correct": "The series needs “memory” as its final item, followed by a comma and “and” before the independent clause beginning “she is credited.”",
+        "choice_analysis": {
+          "A": "Incorrect. “memory,” leaves two independent clauses joined only by a comma, creating a comma splice.",
+          "B": "Incorrect. “memory and she” lacks the comma needed before the coordinating conjunction joining two independent clauses.",
+          "C": "Incorrect. “memory she” creates an ungrammatical run-on connection.",
+          "D": "Correct. “memory, and” completes the list and properly links the independent clause that follows."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation"
+      }
+    },
+    {
+      "question_id": "mar2025_a_044",
+      "question_number": 44,
+      "section": "reading_writing",
+      "passage": "Enacted in 2006, Nepal's constitution, according to legal _____ contains all of the six constitutional features that enhance judicial independence. Explicit provisions for judicial independence, Melton and Ginsburg's research explains, are more likely to be found in constitutions enacted after 1985.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "researchers James Melton and Tom Ginsburg"
+        },
+        {
+          "label": "B",
+          "text": "researchers James Melton and Tom Ginsburg."
+        },
+        {
+          "label": "C",
+          "text": "researchers, James Melton and Tom Ginsburg"
+        },
+        {
+          "label": "D",
+          "text": "researchers, James Melton and Tom Ginsburg,"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "short": "D在contains前收束插入信息，保留constitution contains主干。",
+        "key_evidence": "主干为Nepal's constitution contains...；according to legal researchers及补充姓名插在主语与谓语之间。",
+        "why_correct": "D在researchers后引入姓名补充，并在Ginsburg后结束这段插入信息，使contains接回constitution。",
+        "detailed": "先找外层主干：宪法包含六个特征。according to...提供消息来源，不是主干成分；姓名又补充说明研究者。右端逗号必须出现在contains前。D提供完整收束，A与C没有该右端标点，B用句号切断主谓。",
+        "choice_analysis": {
+          "A": "缺少contains前的收束逗号，外层插入信息未结束。",
+          "B": "句号把constitution与其谓语contains拆成片段。",
+          "C": "researchers后开始姓名补充，却在contains前无收束逗号。",
+          "D": "正确：姓名补充在Ginsburg后收束，主干得以接回contains。"
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation"
+      }
+    },
+    {
+      "question_id": "mar2025_a_045",
+      "question_number": 45,
+      "section": "reading_writing",
+      "passage": "Although 60558 Echeclus and 2014 YX49 are both classified as centaur objects—outer solar system bodies in unstable orbits—they exhibit striking differences in _____ object 60558 Echeclus is considered an active centaur, showing sporadic comet-like activity (such as clouds of dust and gas on its surface), 2014 YX49, showing no such activity, is considered dormant.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "behavior. The"
+        },
+        {
+          "label": "B",
+          "text": "behavior: while the"
+        },
+        {
+          "label": "C",
+          "text": "behavior. while the"
+        },
+        {
+          "label": "D",
+          "text": "behavior; the"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "short": "B以冒号解释差异，再用while把两种行为作对比。",
+        "key_evidence": "Echeclus is active与2014YX49 is dormant各有谓语，中间原文仅逗号。",
+        "why_correct": "B让前一行为作while从句，后一行为作主句，解决二者原本的逗号拼接；冒号前是完整主句。",
+        "detailed": "不只检查空格左右的标点，还要检查后续active...与2014YX49...的连接。若不用while，这两句会被单逗号拼接。C的while本可与后续主句成完整结构，但句号后小写while不符标准大小写。",
+        "choice_analysis": {
+          "A": "The object...与2014YX49...仍为两个独立分句，仅有逗号连接。",
+          "B": "正确：冒号引出具体差异，while从句与主句构成对照。",
+          "C": "句号后while应大写；问题不是while结构必然为片段。",
+          "D": "分号虽解决第一个边界，后面两天体主句仍逗号拼接。"
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "sentence_boundary"
+      }
+    },
+    {
+      "question_id": "mar2025_a_046",
+      "question_number": 46,
+      "section": "reading_writing",
+      "passage": "In a US national election, one might expect major-party campaigns to focus on the most populous states. However, if polls and past voting data suggest that the outcome in a given state is a foregone conclusion, a campaign will not invest its resources there. Ultimately, a state's voting record and polling data, not its population size, _____ its importance to campaigns.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "has determined"
+        },
+        {
+          "label": "B",
+          "text": "determines"
+        },
+        {
+          "label": "C",
+          "text": "determining"
+        },
+        {
+          "label": "D",
+          "text": "determine"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "short": "A compound subject joined by “and” takes the plural verb “determine.” The phrase “not its population size” is interrupting contrast and does not control agreement.",
+        "detailed": "A compound subject joined by “and” takes the plural verb “determine.” The phrase “not its population size” is interrupting contrast and does not control agreement.",
+        "key_evidence": "The subject is the compound phrase “a state’s voting record and polling data,” not “its population size.”",
+        "why_correct": "A compound subject joined by “and” takes the plural verb “determine.” The phrase “not its population size” is interrupting contrast and does not control agreement.",
+        "choice_analysis": {
+          "A": "Incorrect. “has determined” is singular and present perfect, while the sentence makes a general present-tense claim about two factors.",
+          "B": "Incorrect. “determines” is singular, but the subject is plural.",
+          "C": "Incorrect. “determining” is not a finite verb and cannot complete the main clause.",
+          "D": "Correct. “Determine” agrees with the plural compound subject “voting record and polling data.”"
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "subject_verb_agreement"
+      }
+    },
+    {
+      "question_id": "mar2025_a_047",
+      "question_number": 47,
+      "section": "reading_writing",
+      "passage": "That the repeated thermonuclear outbursts of U Scorpii, a recurrent nova system consisting of a white dwarf star and a companion star, have occurred on timescales as brief as eight years—shorter intervals between outbursts than have been observed in some other novae of its class—_____ to the white dwarf’s extremely large mass and rapid accretion of hydrogen from its companion star.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "is due"
+        },
+        {
+          "label": "B",
+          "text": "due"
+        },
+        {
+          "label": "C",
+          "text": "being due"
+        },
+        {
+          "label": "D",
+          "text": "having been due"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "short": "That-clause subjects are singular and need a finite main verb. “Is due” completes the sentence by linking the brief intervals to the white dwarf’s mass and rapid accretion.",
+        "detailed": "That-clause subjects are singular and need a finite main verb. “Is due” completes the sentence by linking the brief intervals to the white dwarf’s mass and rapid accretion.",
+        "key_evidence": "The subject is the long that-clause about U Scorpii’s repeated outbursts occurring on brief timescales.",
+        "why_correct": "That-clause subjects are singular and need a finite main verb. “Is due” completes the sentence by linking the brief intervals to the white dwarf’s mass and rapid accretion.",
+        "choice_analysis": {
+          "A": "Correct. “Is due” supplies the finite main verb for the sentence.",
+          "B": "Incorrect. “Due” alone lacks the verb needed to complete the main clause.",
+          "C": "Incorrect. “Being due” is a nonfinite phrase, not a main verb.",
+          "D": "Incorrect. “Having been due” is also nonfinite and does not complete the sentence."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form"
+      }
+    },
+    {
+      "question_id": "mar2025_a_048",
+      "question_number": 48,
+      "section": "reading_writing",
+      "passage": "In his 2011 book, historian Sebouh David Aslanian quantifies the reading patterns of early modern Armenian merchants from New Julfa. Aslanian's microanalysis _____ nearly 1,000 book titles published between 1512 and 1800 shows not only the steady popularity of religious texts but also a broadening interest in secular books, especially those on history and geography.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "had examined"
+        },
+        {
+          "label": "B",
+          "text": "examining"
+        },
+        {
+          "label": "C",
+          "text": "examines"
+        },
+        {
+          "label": "D",
+          "text": "examined"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "short": "“Examining” works as a participial phrase modifying “microanalysis,” so the sentence keeps “shows” as the main verb. The other choices add a second finite verb or create tense problems.",
+        "detailed": "“Examining” works as a participial phrase modifying “microanalysis,” so the sentence keeps “shows” as the main verb. The other choices add a second finite verb or create tense problems.",
+        "key_evidence": "The main clause is “Aslanian’s microanalysis ... shows not only...”",
+        "why_correct": "“Examining” works as a participial phrase modifying “microanalysis,” so the sentence keeps “shows” as the main verb. The other choices add a second finite verb or create tense problems.",
+        "choice_analysis": {
+          "A": "Incorrect. “Had examined” would create a finite verb before the main verb “shows,” making the sentence ungrammatical.",
+          "B": "Correct. “Examining” modifies “microanalysis” and preserves the main clause “microanalysis ... shows.”",
+          "C": "Incorrect. “Examines” creates an extra finite verb before “shows.”",
+          "D": "Incorrect. “Examined” also disrupts the grammar between the subject and the main verb “shows.”"
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form"
+      }
+    },
+    {
+      "question_id": "mar2025_a_049",
+      "question_number": 49,
+      "section": "reading_writing",
+      "passage": "Scientists studying asteroid deflection have focused on secondary objects such as S/2020 (2013 PY6), a moonlet orbiting the near-Earth asteroid 2013 PY6. In 2022 NASA intentionally crashed a probe into just such an object, the moonlet Dimorphos. _____ Dimorphos's orbital period around the near-Earth asteroid Didymos was permanently altered.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "In comparison,"
+        },
+        {
+          "label": "B",
+          "text": "In addition,"
+        },
+        {
+          "label": "C",
+          "text": "Consequently,"
+        },
+        {
+          "label": "D",
+          "text": "Specifically,"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "short": "The second sentence presents the result of the crash, so “Consequently” expresses the cause-and-effect relationship.",
+        "detailed": "The second sentence presents the result of the crash, so “Consequently” expresses the cause-and-effect relationship.",
+        "key_evidence": "NASA intentionally crashed a probe into Dimorphos, and Dimorphos’s orbital period was permanently altered.",
+        "why_correct": "The second sentence presents the result of the crash, so “Consequently” expresses the cause-and-effect relationship.",
+        "choice_analysis": {
+          "A": "Incorrect. The second sentence is not comparing Dimorphos with another object.",
+          "B": "Incorrect. The orbital change is not just an additional fact; it is the result of the crash.",
+          "C": "Correct. “Consequently” signals that the altered orbit resulted from the intentional crash.",
+          "D": "Incorrect. “Specifically” would introduce a more precise restatement, not a consequence."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "mar2025_a_050",
+      "question_number": 50,
+      "section": "reading_writing",
+      "passage": "According to the free electron model, metals, such as copper and silver, do not maintain bonds by sharing and exchanging electrons. _____ metals are held together by a system of valence electrons that travel freely, interacting with neither ions nor each other. This framework for understanding the subatomic relationships within metals can be used to help explain heat and electrical conductivity.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "For example,"
+        },
+        {
+          "label": "B",
+          "text": "Rather,"
+        },
+        {
+          "label": "C",
+          "text": "Accordingly,"
+        },
+        {
+          "label": "D",
+          "text": "Likewise,"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "short": "“Rather” signals that the second sentence replaces the rejected bonding explanation with the correct model of freely traveling valence electrons.",
+        "detailed": "“Rather” signals that the second sentence replaces the rejected bonding explanation with the correct model of freely traveling valence electrons.",
+        "key_evidence": "The first sentence says metals do not maintain bonds by sharing and exchanging electrons; the next gives the free-electron alternative.",
+        "why_correct": "“Rather” signals that the second sentence replaces the rejected bonding explanation with the correct model of freely traveling valence electrons.",
+        "choice_analysis": {
+          "A": "Incorrect. The second sentence is not an example of sharing and exchanging electrons; it rejects that model.",
+          "B": "Correct. “Rather” introduces the alternative explanation for metallic bonding.",
+          "C": "Incorrect. “Accordingly” would indicate a result, but the sentence is a contrastive correction.",
+          "D": "Incorrect. “Likewise” signals similarity, not replacement of one explanation with another."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "mar2025_a_051",
+      "question_number": 51,
+      "section": "reading_writing",
+      "passage": "In an ekphrastic poem, a poet explores a work of visual art, such as a drawing, sculpture, or painting. Robert Hayden's 1994 poem \"Monet's Waterlilies,\" for example, meditates on Claude Monet's 1899 painting Water Lilies; Saad Ali's 2020 poem \"This Town,\" _____ takes a painting as its subject: Ivan Aivazovsky's 1859 work Lunar Night on the Black Sea.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "nevertheless,"
+        },
+        {
+          "label": "B",
+          "text": "conversely,"
+        },
+        {
+          "label": "C",
+          "text": "likewise,"
+        },
+        {
+          "label": "D",
+          "text": "hence,"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "short": "The second example is similar to the first: both poems are ekphrastic because they are about works of visual art. “Likewise” signals this similarity.",
+        "detailed": "The second example is similar to the first: both poems are ekphrastic because they are about works of visual art. “Likewise” signals this similarity.",
+        "key_evidence": "Hayden’s poem meditates on Monet’s Water Lilies; Ali’s poem also takes a painting as its subject.",
+        "why_correct": "The second example is similar to the first: both poems are ekphrastic because they are about works of visual art. “Likewise” signals this similarity.",
+        "choice_analysis": {
+          "A": "Incorrect. “Nevertheless” signals contrast, but the Ali example is similar to the Hayden example.",
+          "B": "Incorrect. “Conversely” would signal an opposite relationship, which is not present.",
+          "C": "Correct. “Likewise” connects two similar examples of poems about paintings.",
+          "D": "Incorrect. “Hence” signals a result, but the second poem is not a consequence of the first."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "mar2025_a_052",
+      "question_number": 52,
+      "section": "reading_writing",
+      "passage": "Firefly luciferase (Fluc) is a distinctly evolved enzyme that can oxidize a substrate called D-luciferin to induce bioluminescence and can act as a fatty acyl-CoA synthetase (ACS) enzyme, a class of enzyme present in all insects. _____ Fluc is a bifunctional enzyme whose presence indicates an insect is capable of emitting light; in contrast, the presence of ACS alone would be insufficient for determining bioluminescence.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Nevertheless,"
+        },
+        {
+          "label": "B",
+          "text": "In fact,"
+        },
+        {
+          "label": "C",
+          "text": "Moreover,"
+        },
+        {
+          "label": "D",
+          "text": "That is,"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "short": "“That is” introduces a clarification of the previous sentence: Fluc’s two functions make it a bifunctional enzyme and a better indicator of bioluminescence than ACS alone.",
+        "detailed": "“That is” introduces a clarification of the previous sentence: Fluc’s two functions make it a bifunctional enzyme and a better indicator of bioluminescence than ACS alone.",
+        "key_evidence": "Fluc can induce bioluminescence and can also act as an ACS enzyme; the next sentence explains that this makes Fluc bifunctional.",
+        "why_correct": "“That is” introduces a clarification of the previous sentence: Fluc’s two functions make it a bifunctional enzyme and a better indicator of bioluminescence than ACS alone.",
+        "choice_analysis": {
+          "A": "Incorrect. “Nevertheless” suggests contrast, but the second sentence clarifies the first.",
+          "B": "Incorrect. “In fact” could add emphasis, but the second sentence is more specifically a restatement/clarification.",
+          "C": "Incorrect. “Moreover” would add another point, not explain the meaning of the first point.",
+          "D": "Correct. “That is” signals that the second sentence clarifies Fluc’s bifunctional nature."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "mar2025_a_053",
+      "question_number": 53,
+      "section": "reading_writing",
+      "passage": "• The South Sudan Workers Trade Union Federation (SSWTUF) is a national union federation for the African nation of South Sudan. • It helps improve conditions for workers in that nation. • ITUC-Africa is a regional union federation that represents national union federations across Africa. • It represents the SSWTUF.",
+      "prompt": "Which choice most effectively uses information from the given sentences to explain the purpose of national union federations?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The SSWTUF is a national union federation in Africa."
+        },
+        {
+          "label": "B",
+          "text": "National union federations, such as the SSWTUF, work to improve conditions for workers in their member nations."
+        },
+        {
+          "label": "C",
+          "text": "The SSWTUF is one of the national union federations represented by ITUC-Africa."
+        },
+        {
+          "label": "D",
+          "text": "Regional union federations like ITUC-Africa represent the national union federations in a specific area."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "short": "The prompt asks for the purpose of national union federations. Choice B generalizes from the SSWTUF example to state that such federations work to improve worker conditions in their member nations.",
+        "detailed": "The prompt asks for the purpose of national union federations. Choice B generalizes from the SSWTUF example to state that such federations work to improve worker conditions in their member nations.",
+        "key_evidence": "The notes say the SSWTUF is a national union federation and that it helps improve conditions for workers in South Sudan.",
+        "why_correct": "The prompt asks for the purpose of national union federations. Choice B generalizes from the SSWTUF example to state that such federations work to improve worker conditions in their member nations.",
+        "choice_analysis": {
+          "A": "Incorrect. It identifies the SSWTUF as a national union federation but does not explain the purpose of such federations.",
+          "B": "Correct. It explains the purpose and uses the SSWTUF as an example.",
+          "C": "Incorrect. It states a representation relationship with ITUC-Africa but not the purpose of national union federations.",
+          "D": "Incorrect. It describes regional union federations, not the purpose of national union federations."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "mar2025_a_054",
+      "question_number": 54,
+      "section": "reading_writing",
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Generally, an object will heat up when twisted.\n• The twisting of an object is known as torsion.\n• A 2019 study led by Zunfeng Liu and Ray Baughman tested the torsional heating of various fibers.\n• When a sample of styrene-ethylene-butylene-styrene (SEBS) rubber fiber was twisted, its average surface temperature increased by 3.5°C.\n• When a sample of single-ply nickel-titanium (NiTi) wire was twisted, its average surface temperature increased by 21.3°C.",
+      "prompt": "The student wants to emphasize a similarity between SEBS rubber and single-ply NiTi wire fibers. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "In 2019, two research teams observed the effects of torsional heating on various fibers, including SEBS rubber and single-ply NiTi wire."
+        },
+        {
+          "label": "B",
+          "text": "Both SEBS rubber and single-ply NiTi wire fibers heat up when twisted, according to a 2019 study."
+        },
+        {
+          "label": "C",
+          "text": "Researchers determined that when the fibers were twisted, the average surface temperature of single-ply NiTi wire increased more than that of SEBS rubber."
+        },
+        {
+          "label": "D",
+          "text": "Twisting an object will generally cause its temperature to increase, a process known as torsional heating."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太A卷",
+      "explanation": {
+        "short": "B强调两类纤维扭转后都会升温。",
+        "key_evidence": "同一2019研究中SEBS升3.5°C，单股NiTi升21.3°C，两者温升都为正。",
+        "why_correct": "B直接说明共同热响应，并不把温升大小不同当作共同性。",
+        "detailed": "研究由Liu和Baughman领导，两位负责人不等于两支研究团队。目标是材料行为的相似，而非只给样品名单、比较升温幅度或泛述所有物体。",
+        "choice_analysis": {
+          "A": "笔记只说一项研究由两人领导，并未说两研究团队；也未写共同升温反应。",
+          "B": "正确：两种纤维扭转时均升温。",
+          "C": "强调NiTi温升更大这一差异。",
+          "D": "泛说扭转升温，不具体连接所问两材料。"
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_emphasize"
+      }
+    }
+  ]
+}

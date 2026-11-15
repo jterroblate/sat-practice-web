@@ -1,0 +1,1599 @@
+{
+  "schemaVersion": "sat-canonical-question-collection-v1",
+  "contentId": "set-21-2025-03-apac-c",
+  "title": "21 2025 03 Apac C",
+  "section": "reading_writing",
+  "questionCount": 36,
+  "questions": [
+    {
+      "question_id": "apac_c_2025_03_m1_q01",
+      "section": "reading_writing",
+      "question_number": 1,
+      "passage": "During his career, Cuban composer and pianist Ernesto Lecuona produced hundreds of compositions. Especially impressive is how [vocab]______[/vocab] his body of work is: Lecuona showcased a diverse range of musical talents in different areas, from orchestral pieces and operas to popular film scores.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "outdated"
+        },
+        {
+          "label": "B",
+          "text": "varied"
+        },
+        {
+          "label": "C",
+          "text": "forgotten"
+        },
+        {
+          "label": "D",
+          "text": "lonely"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太C卷",
+      "explanation": {
+        "short": "Lecuona worked in orchestral music, opera, and film, so his compositions were varied.",
+        "key_evidence": "The text calls his talents a \"diverse range\" and lists orchestral pieces, operas, and popular film scores.",
+        "why_correct": "\"Varied\" means containing different kinds. The text's list after the colon illustrates the many kinds of music in Lecuona's body of work.",
+        "detailed": "The colon signals that the second part explains the description in the blank. Rather than emphasizing the number of compositions alone, that explanation lists several different forms of music. A word describing diversity therefore connects the two parts precisely.",
+        "choice_analysis": {
+          "A": "Incorrect. \"Outdated\" means no longer current or useful. The text evaluates the range of Lecuona's music, not whether it has become obsolete.",
+          "B": "Correct. \"Varied\" describes the diversity demonstrated by orchestral pieces, operas, and film scores.",
+          "C": "Incorrect. \"Forgotten\" would claim that people no longer remember the music. Nothing in the passage addresses its later popularity or survival.",
+          "D": "Incorrect. \"Lonely\" describes isolation or lack of companionship, not the range of genres within a composer's output."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "apac_c_2025_03_m1_q02",
+      "section": "reading_writing",
+      "question_number": 2,
+      "passage": "The following text is from Amy Tan's 1989 novel The Joy Luck Club. The narrator describes practicing the piano when she was a child. For the talent show, I was to play a piece called \"Pleading Child\" from Schumann's Scenes from Childhood. It was a simple, moody piece that sounded more difficult than it was. I was supposed to memorize the whole thing, playing the repeat parts twice to make the piece sound longer. But I dawdled over it, playing a few bars and then cheating, looking up to see what notes followed. I never really listened to what I was playing. I daydreamed about being somewhere else, about being someone else. ©1989 by Amy Tan",
+      "prompt": "Based on the text, when the narrator describes herself as \"cheating,\" what does she most likely mean?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "She was gaining an unfair advantage over other contestants in the talent show."
+        },
+        {
+          "label": "B",
+          "text": "She was lying to herself about her musical ability."
+        },
+        {
+          "label": "C",
+          "text": "She was deceiving her piano teacher."
+        },
+        {
+          "label": "D",
+          "text": "she was violating an expectation about how to perform the piece."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "She was supposed to play from memory but looked at the score, violating that expectation.",
+        "key_evidence": "\"I was supposed to memorize the whole thing\" contrasts with \"looking up to see what notes followed.\"",
+        "why_correct": "The narrator explains her own use of \"cheating\" by immediately describing her glance at the notes. That action breaks the stated requirement to memorize the piece.",
+        "detailed": "Read the disputed word together with the requirement established earlier. The expected behavior is memorization, while the actual behavior is checking the written music after a few bars. The passage does not need to establish dishonesty toward another person: the local contrast already defines the departure from the performance expectation.",
+        "choice_analysis": {
+          "A": "Incorrect. The passage describes her practice habits, not an advantage she gained over other talent-show contestants.",
+          "B": "Incorrect. She admits that she dawdles and does not listen closely; she does not describe convincing herself that she has greater musical ability.",
+          "C": "Incorrect. No teacher's presence, awareness, or deception is described. This adds a target of dishonesty that the text does not identify.",
+          "D": "Correct. Looking at the notes instead of relying on memory violates the explicitly stated expectation for playing the piece."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "main_idea_or_detail"
+      }
+    },
+    {
+      "question_id": "apac_c_2025_03_m1_q03",
+      "section": "reading_writing",
+      "question_number": 3,
+      "passage": "The Historical Dictionary of Science Fiction is a crowdsourced project started in 2001 by lexicographer Jesse Sheidlower to record terms that originated in science fiction. Volunteers share digitized excerpts from personal collections of sci-fi magazines not typically preserved in libraries— [vocab]______[/vocab] that allow the earliest uses of phrases such as \"warp speed\" (1952) to be identified and added to the dictionary.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "contributions"
+        },
+        {
+          "label": "B",
+          "text": "resolutions"
+        },
+        {
+          "label": "C",
+          "text": "justifications"
+        },
+        {
+          "label": "D",
+          "text": "negotiations"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太C卷",
+      "explanation": {
+        "short": "The volunteers contribute digitized excerpts, so the excerpts are contributions to the dictionary project.",
+        "key_evidence": "Volunteers \"share digitized excerpts\" that help identify the earliest uses of science-fiction phrases.",
+        "why_correct": "\"Contributions\" names materials people supply to a shared undertaking. The passage describes exactly that action: volunteers submit excerpts to the crowdsourced dictionary.",
+        "detailed": "The noun after the dash renames the digitized excerpts, and the following relative clause explains their usefulness. The excerpts provide evidence for dating terms; they are not agreements or arguments. Calling them contributions captures both their source in volunteer submissions and their role in the project.",
+        "choice_analysis": {
+          "A": "Correct. \"Contributions\" accurately refers to the excerpts supplied by volunteers for the dictionary's work.",
+          "B": "Incorrect. \"Resolutions\" would mean decisions or solutions. The volunteers supply documentary materials rather than settle a question by making a resolution.",
+          "C": "Incorrect. \"Justifications\" are reasons offered to defend a claim or action. The passage instead identifies excerpts submitted as research evidence.",
+          "D": "Incorrect. \"Negotiations\" are discussions aimed at reaching an agreement. No bargaining or agreement-seeking is described."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "apac_c_2025_03_m1_q04",
+      "section": "reading_writing",
+      "question_number": 4,
+      "passage": "Agglomeration economies arise when multiple firms in related industries [vocab]______[/vocab] an area, as with iron and steel production firms and cutlery and hardware manufacturers in Wolverhampton, UK. Economists have assumed that companies cluster for the same reasons, but Giulia Faggio et al. found that factors driving agglomeration in some cases are only weakly correlated with agglomeration in others.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "intercede in"
+        },
+        {
+          "label": "B",
+          "text": "concur with"
+        },
+        {
+          "label": "C",
+          "text": "appeal to"
+        },
+        {
+          "label": "D",
+          "text": "amass in"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太C卷",
+      "explanation": {
+        "short": "Agglomeration means clustering, so related firms must amass in an area.",
+        "key_evidence": "The next sentence says that \"companies cluster\" and discusses factors driving \"agglomeration.\"",
+        "why_correct": "\"Amass in\" means gather in large numbers in a place. The passage's geographic example in Wolverhampton and its later word \"cluster\" both describe firms gathering together.",
+        "detailed": "The first sentence defines an economic phenomenon, and the next restates the relevant behavior as companies clustering. The blank therefore needs a phrase describing concentration in one location. The passage's later disagreement concerns why firms cluster, not whether they agree with, intervene in, or attract something.",
+        "choice_analysis": {
+          "A": "Incorrect. \"Intercede in\" means intervene in a dispute or situation. The passage describes firms locating near one another, not mediating a conflict.",
+          "B": "Incorrect. \"Concur with\" means agree with. An area is not an opinion with which the firms can agree.",
+          "C": "Incorrect. \"Appeal to\" means attract or request something from someone. It does not express the firms' geographic concentration.",
+          "D": "Correct. \"Amass in\" describes many related firms gathering in one area, matching the passage's own word \"cluster.\""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "apac_c_2025_03_m1_q05",
+      "section": "reading_writing",
+      "question_number": 5,
+      "passage": "The following text is from Bram Stoker's 1911 novel The Lair of the White Worm. Adam is meeting his great-uncle Richard at a port. The meeting so auspiciously begun proceeded well. Adam, seeing that the old man was interested in the novelty of the ship, suggested that he should stay the night on board, and that he would himself be ready to start at any hour and go anywhere that the other suggested. This affectionate willingness to fall in with his own plans quite won the old man's heart. He warmly accepted the invitation, and at once they became not only on terms of affectionate relationship, but almost like old friends.",
+      "prompt": "Which choice best states the main purpose of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It contrasts great-uncle Richard's wary first impressions of Adam with his ultimate affection toward him."
+        },
+        {
+          "label": "B",
+          "text": "It showcases how Adam's flexibility and consideration strengthen his relationship with his great-uncle Richard."
+        },
+        {
+          "label": "C",
+          "text": "It states the reasons why Adam and his great-uncle Richard decide to sleep on the ship rather than finding lodging on land."
+        },
+        {
+          "label": "D",
+          "text": "It describes why Adam and his great-uncle Richard are excited for their upcoming journey on the ship."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Adam accommodates Richard's interests and plans, and that consideration quickly brings them closer.",
+        "key_evidence": "Adam offers to stay aboard and \"go anywhere\" Richard suggests; this willingness \"quite won the old man's heart.\"",
+        "why_correct": "Choice B connects Adam's accommodating behavior with the resulting affection and friendship, accounting for both the actions and the outcome emphasized in the passage.",
+        "detailed": "The passage begins with a meeting that is already going well. It then shows Adam noticing Richard's interest in the ship and offering flexible arrangements. Richard warmly accepts, and the two become almost like old friends. The central purpose is to show this relationship strengthening, rather than to analyze travel logistics.",
+        "choice_analysis": {
+          "A": "Incorrect. Richard is not initially wary: the meeting is described as auspicious from the beginning.",
+          "B": "Correct. Adam's willingness to follow Richard's preferences leads directly to Richard's affection and their growing friendship.",
+          "C": "Incorrect. The overnight invitation helps demonstrate Adam's consideration; the passage does not compare shipboard lodging with lodging on land.",
+          "D": "Incorrect. The passage does not establish a shared upcoming journey on the ship. Richard's interest in the vessel prompts an invitation to stay aboard."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "structural_function"
+      }
+    },
+    {
+      "question_id": "apac_c_2025_03_m1_q06",
+      "section": "reading_writing",
+      "question_number": 6,
+      "passage": "Community science, which involves professional scientists collaborating with amateur science enthusiasts to study a topic, is often an effective and engaging way to conduct research. It can allow people to assist with conservation efforts, spark youth interest in science, and increase the amount of data researchers can collect. This approach was essential to the success of a study by biologist Abbigail Merrill and colleagues of how butterfly color relates to flower choice, which included findings from hundreds of students and community members in northwestern Arkansas.",
+      "prompt": "Which choice best describes the overall structure of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It introduces the topic of a scientific study, describes the study's importance, and then presents the study's results."
+        },
+        {
+          "label": "B",
+          "text": "It identifies a particular approach to research, lists some benefits of that approach, and then mentions a study in which that approach was used."
+        },
+        {
+          "label": "C",
+          "text": "It argues for a new approach to scientific research, comments on the public's opinion about the approach, and then describes how that approach was applied in a certain study."
+        },
+        {
+          "label": "D",
+          "text": "It describes the development of a type of scientific collaboration, shows how that type of collaboration has been used in a particular field of study, and then suggests future collaborative projects."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The text defines community science, lists its benefits, and gives a butterfly study as an example.",
+        "key_evidence": "It defines professional–amateur collaboration, lists conservation, youth interest, and data benefits, then cites Merrill's study.",
+        "why_correct": "Choice B follows the passage's order and assigns each part its actual role: introducing an approach, explaining advantages, and illustrating its use.",
+        "detailed": "The opening sentence explains what community science is. The second lists ways that approach helps research and participants. The final sentence shifts to a particular study that relied on community contributions. Although the study's topic is identified, its actual findings about butterfly color and flower choice are not reported.",
+        "choice_analysis": {
+          "A": "Incorrect. The text opens with an approach to research rather than the butterfly study's topic, and it does not present the study's results.",
+          "B": "Correct. This reproduces the sequence of definition, benefits, and a concrete example of use.",
+          "C": "Incorrect. No public opinion is reported, and the approach is not described as newly developed.",
+          "D": "Incorrect. The passage does not recount how the collaboration developed over time or propose future projects."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "overall structure"
+      }
+    },
+    {
+      "question_id": "apac_c_2025_03_m1_q08",
+      "section": "reading_writing",
+      "question_number": 8,
+      "passage": "Founded in 1991, the Museo de Las Americas showcases art from Latin America, including the art of Indigenous peoples. It is located in Denver and has more than 4,800 objects in its collection. Since 2000, a number of other institutions devoted to Latino cultures have opened in the United States. A notable example is LA Plaza de Cultura y Artes in Los Angeles. It opened in 2011 and focuses on Mexican American art and culture.",
+      "prompt": "Which contrast does the text draw between the Museo de Las Americas and LA Plaza de Cultura y Artes?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "LA Plaza de Cultura y Artes is visited by more people."
+        },
+        {
+          "label": "B",
+          "text": "LA Plaza de Cultura y Artes has more objects in its collection."
+        },
+        {
+          "label": "C",
+          "text": "LA Plaza de Cultura y Artes is housed in a larger building."
+        },
+        {
+          "label": "D",
+          "text": "LA Plaza de Cultura y Artes opened more recently."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "LA Plaza opened in 2011, twenty years after the Museo de Las Americas opened in 1991.",
+        "key_evidence": "The Museo was founded in 1991; LA Plaza \"opened in 2011.\"",
+        "why_correct": "The two opening dates establish that LA Plaza is the more recent institution. No other option describes a comparison for which the passage provides both museums' data.",
+        "detailed": "Compare like information about the two museums. The text supplies an opening year for each, so the chronological contrast is directly supported. It gives a collection size only for the Museo and gives neither attendance figures nor building dimensions.",
+        "choice_analysis": {
+          "A": "Incorrect. There are no visitor totals for either institution, so their attendance cannot be compared.",
+          "B": "Incorrect. Only the Museo's collection size is given. LA Plaza's number of objects is not stated.",
+          "C": "Incorrect. The passage provides no building-size information.",
+          "D": "Correct. 2011 is later than 1991, establishing that LA Plaza opened more recently."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "Detail/Comparison"
+      }
+    },
+    {
+      "question_id": "apac_c_2025_03_m1_q11",
+      "section": "reading_writing",
+      "question_number": 11,
+      "passage": "Life Among the Paiutes is an 1882 autobiographical narrative by Sarah Winnemucca Hopkins, a Northern Paiute author, educator, and activist. In the work, Winnemucca directly addresses the reader to explain certain customs, writing [vocab]______[/vocab]",
+      "prompt": "Which quotation from Life Among the Paiutes most effectively illustrates the claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"We would all go in company to see if the flowers we were named for were yet in bloom, for almost all the girls are named for flowers.\""
+        },
+        {
+          "label": "B",
+          "text": "\"Nothing happened during the day, and after awhile mother told us not to say a word about why we left, for grandpa might get mad with us.\""
+        },
+        {
+          "label": "C",
+          "text": "\"Now, my dear reader, there is no word so endearing as the word father, and that is why [my people] call all good people father or mother.\""
+        },
+        {
+          "label": "D",
+          "text": "\"But how can I describe the scene that followed? Some of you, dear readers, can imagine.\""
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Choice C both addresses \"my dear reader\" and explains why good people are called father or mother.",
+        "key_evidence": "The claim requires Winnemucca to \"directly address[] the reader\" while explaining a custom.",
+        "why_correct": "C meets both requirements in the prompt: it explicitly addresses the reader and states why good people are called father or mother.",
+        "detailed": "This evidence question contains two conditions, so a quotation that meets only one is insufficient. Choice C includes a direct address and a reason for a naming practice. The alternatives illustrate a custom without addressing readers, describe an unrelated event, or address readers without explaining a custom.",
+        "choice_analysis": {
+          "A": "Incorrect. Naming girls for flowers is a custom, but the quotation does not directly address the reader.",
+          "B": "Incorrect. The instruction to remain silent about leaving does not directly address the reader or explain a community custom.",
+          "C": "Correct. \"My dear reader\" supplies direct address, and \"that is why\" introduces the explanation for calling good people father or mother.",
+          "D": "Incorrect. \"Dear readers\" supplies direct address, but the quotation concerns imagining a scene rather than explaining a custom."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "textual_evidence"
+      }
+    },
+    {
+      "question_id": "apac_c_2025_03_m1_q15",
+      "section": "reading_writing",
+      "question_number": 15,
+      "passage": "Museo Castillo Serrallés, a history museum in Ponce, Puerto Rico, is one of more than eighty museums in the US territory. Puerto Rico's museums [vocab]______[/vocab] visitors about everything from the territory's history to its architecture to its coffee.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "inform"
+        },
+        {
+          "label": "B",
+          "text": "informing"
+        },
+        {
+          "label": "C",
+          "text": "to inform"
+        },
+        {
+          "label": "D",
+          "text": "having informed"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The plural subject \"Puerto Rico's museums\" needs the finite present-tense verb \"inform.\"",
+        "key_evidence": "The second sentence has the subject \"Puerto Rico's museums\" followed by the blank and the object \"visitors.\"",
+        "why_correct": "\"Inform\" serves as the main verb of the second sentence and agrees with the plural subject \"museums.\"",
+        "detailed": "The first sentence is already complete. The second must contain its own main verb. With inform, it states what the museums do: they inform visitors about various topics. The other choices are nonfinite verb forms and cannot complete this independent sentence without an additional finite verb.",
+        "choice_analysis": {
+          "A": "Correct. \"Museums inform visitors\" supplies a complete subject–verb–object structure with plural agreement.",
+          "B": "Incorrect. \"Informing\" is a participle; without an auxiliary such as are, it leaves the sentence without a finite verb.",
+          "C": "Incorrect. \"To inform\" is an infinitive and does not function as the sentence's main verb here.",
+          "D": "Incorrect. \"Having informed\" is a participial phrase and likewise leaves the clause without a finite main verb."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "apac_c_2025_03_m1_q16",
+      "section": "reading_writing",
+      "question_number": 16,
+      "passage": "An upcoming exhibition will showcase Vincent van Gogh's drawing Snowy Landscape with the Old Tower, which Van Gogh [vocab]______[/vocab] in the city of Nuenen nearly 150 years ago.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "is completing"
+        },
+        {
+          "label": "B",
+          "text": "will complete"
+        },
+        {
+          "label": "C",
+          "text": "completed"
+        },
+        {
+          "label": "D",
+          "text": "has been completing"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "\"Nearly 150 years ago\" places Van Gogh's completion of the drawing in the past, so use \"completed.\"",
+        "key_evidence": "The drawing was made in Nuenen \"nearly 150 years ago.\"",
+        "why_correct": "The sentence explicitly locates the drawing's creation \"nearly 150 years ago.\" The simple past \"completed\" expresses that finished action at a specified past time.",
+        "detailed": "There are two separate time frames: the exhibition is upcoming, but the drawing's creation occurred nearly 150 years ago. The verb in the relative clause must match the time of Van Gogh's work, not the future exhibition. A completed past action calls for the simple past.",
+        "choice_analysis": {
+          "A": "Incorrect. \"Is completing\" describes an action in progress now, conflicting with \"nearly 150 years ago.\"",
+          "B": "Incorrect. \"Will complete\" places the action in the future, contrary to the explicit past time.",
+          "C": "Correct. \"Completed\" locates the finished drawing at the stated past time.",
+          "D": "Incorrect. \"Has been completing\" suggests ongoing activity extending toward the present, not a finished event nearly 150 years ago."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "apac_c_2025_03_m1_q17",
+      "section": "reading_writing",
+      "question_number": 17,
+      "passage": "Kizomba, a genre of dance that originated in Angola, has become an international [vocab]______[/vocab] 2022, the Indian dance duo known as Elvis and Namrata defeated performers from around the world to win the annual Olympiads of Kizomba competition held in Paris, France, becoming the first ever Asian winners.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "phenomenon in"
+        },
+        {
+          "label": "B",
+          "text": "phenomenon and in"
+        },
+        {
+          "label": "C",
+          "text": "phenomenon. In"
+        },
+        {
+          "label": "D",
+          "text": "phenomenon, in"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "A period separates the statement about kizomba from the sentence reporting the duo's 2022 victory.",
+        "key_evidence": "\"Kizomba ... has become an international phenomenon\" and \"the Indian dance duo ... defeated performers\" each form a complete clause.",
+        "why_correct": "\"Phenomenon. In\" closes the first independent clause and starts the second with the date phrase \"In 2022.\"",
+        "detailed": "The first clause already has the subject Kizomba and the main verb has become. The second has its own subject, the Indian dance duo, and main verb, defeated. A period supplies the required boundary, while In 2022 introduces the time of the competition win.",
+        "choice_analysis": {
+          "A": "Incorrect. Without a clause boundary, \"phenomenon in 2022, the ... duo ... defeated\" runs two independent clauses together.",
+          "B": "Incorrect. And can coordinate independent clauses, but this version omits the comma required before that conjunction.",
+          "C": "Correct. The period ends the first clause, and capitalized In begins a complete second sentence.",
+          "D": "Incorrect. A comma alone cannot join the two independent clauses; this creates a comma splice."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "apac_c_2025_03_m1_q18",
+      "section": "reading_writing",
+      "question_number": 18,
+      "passage": "Round Rock Chapter, which covers 201,000 acres, is one of the 110 chapters of the Navajo [vocab]______[/vocab] Diné bizaad (the Navajo language), the chapter is called Tsé Nikání.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Nation and in"
+        },
+        {
+          "label": "B",
+          "text": "Nation in"
+        },
+        {
+          "label": "C",
+          "text": "Nation, in"
+        },
+        {
+          "label": "D",
+          "text": "Nation. In"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "End the sentence after \"Navajo Nation\"; \"In Diné bizaad\" begins the next complete sentence.",
+        "key_evidence": "Round Rock \"is one of the 110 chapters\"; the next clause says \"the chapter is called Tsé Nikání.\"",
+        "why_correct": "The period separates two independent clauses. In then introduces the language in which the chapter has the stated name.",
+        "detailed": "The opening sentence identifies Round Rock's place in the Navajo Nation. The later clause independently states its name in Diné bizaad. The language phrase belongs with that naming statement, so the sentence boundary should come before In.",
+        "choice_analysis": {
+          "A": "Incorrect. And introduces a second independent clause but lacks the preceding comma needed for that coordination.",
+          "B": "Incorrect. With no punctuation before in, the two independent clauses are run together.",
+          "C": "Incorrect. A comma before in is insufficient to separate the complete clauses, producing a comma splice.",
+          "D": "Correct. A period properly separates the identification of the chapter from the statement of its name in another language."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "apac_c_2025_03_m1_q19",
+      "section": "reading_writing",
+      "question_number": 19,
+      "passage": "The 2020 documentary Without a Whisper—Konnon:Kwe was directed by Katsitsionni Fox. It explores how Indigenous Haudenosaunee culture shaped the woman suffrage movement in the early nineteenth [vocab]______[/vocab] how the personal and political authority Haudenosaunee women had in their communities influenced the first suffragists in the US.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "century; revealing"
+        },
+        {
+          "label": "B",
+          "text": "century, revealing"
+        },
+        {
+          "label": "C",
+          "text": "century. Revealing"
+        },
+        {
+          "label": "D",
+          "text": "century revealing"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "A comma attaches \"revealing how...\" as a supplementary phrase explaining what the documentary explores.",
+        "key_evidence": "The complete clause \"It explores how ... culture shaped the woman suffrage movement\" is followed by \"revealing how...\"",
+        "why_correct": "\"Revealing\" begins a nonfinite participial phrase, so a comma connects that additional explanation to the preceding complete clause.",
+        "detailed": "The documentary is the subject of explores, and the sentence can already stand alone through century. The revealing phrase adds how the film develops that subject. Because revealing is not a finite verb here, the phrase should not be made a separate sentence or placed after a semicolon as though it were an independent clause.",
+        "choice_analysis": {
+          "A": "Incorrect. A semicolon must separate independent clauses; \"revealing how...\" is a participial phrase rather than an independent clause.",
+          "B": "Correct. The comma appropriately sets off the supplementary explanation beginning with revealing.",
+          "C": "Incorrect. After the period, \"Revealing how...\" has no finite main verb and is a sentence fragment.",
+          "D": "Incorrect. Omitting the comma fails to mark the supplementary phrase that follows the complete exploration statement."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "apac_c_2025_03_m1_q21",
+      "section": "reading_writing",
+      "question_number": 21,
+      "passage": "As part of a study, participants were asked to list animals they thought of as \"charismatic,\" which was defined as \"attractive, fascinating, or appealing.\" Researchers compiled the responses into a single list and found that elephants were ranked higher than crocodiles. [vocab]______[/vocab] elephants were ranked third, and crocodiles were ranked fifteenth.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Therefore,"
+        },
+        {
+          "label": "B",
+          "text": "Specifically,"
+        },
+        {
+          "label": "C",
+          "text": "On the other hand,"
+        },
+        {
+          "label": "D",
+          "text": "Later,"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The exact rankings give a more specific version of the preceding comparison.",
+        "key_evidence": "\"Elephants were ranked higher than crocodiles\" is followed by their exact positions: third and fifteenth.",
+        "why_correct": "\"Specifically\" introduces precise details that elaborate on a general statement. The text's third- and fifteenth-place rankings clarify the preceding statement that elephants ranked higher.",
+        "detailed": "The second sentence does not describe a new outcome caused by the first. It supplies the numbers behind the general observation that elephants ranked higher. The relationship is general comparison followed by exact supporting detail.",
+        "choice_analysis": {
+          "A": "Incorrect. \"Therefore\" would present the ranks as a consequence of the earlier comparison, rather than as the underlying details of it.",
+          "B": "Correct. \"Specifically\" signals that third and fifteenth make the earlier statement more precise.",
+          "C": "Incorrect. \"On the other hand\" introduces a contrast, but the exact ranks support the preceding claim.",
+          "D": "Incorrect. \"Later\" suggests a subsequent event or time; the passage reports details from the same compiled rankings."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "apac_c_2025_03_m1_q22",
+      "section": "reading_writing",
+      "question_number": 22,
+      "passage": "In 1920, the US Geological Survey determined the geographic center of Montana using only a cardboard cutout of the state and a piece of string. [vocab]______[/vocab] this apparently crude technique yielded a relatively close approximation: when the 1920 center was compared to a center determined by a computer program nearly a hundred years later, the two diverged by just a mile.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "still,"
+        },
+        {
+          "label": "B",
+          "text": "Fittingly."
+        },
+        {
+          "label": "C",
+          "text": "Similarly,"
+        },
+        {
+          "label": "D",
+          "text": "In other words,"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Despite using a crude method, the survey produced a surprisingly accurate location.",
+        "key_evidence": "A \"cardboard cutout\" and \"piece of string\" yielded a center only \"a mile\" from the later computer result.",
+        "why_correct": "\"Still\" means nevertheless in this context. It marks the contrast between the apparently unsophisticated method and its accurate result.",
+        "detailed": "The first sentence's description of the tools suggests that the result might be inaccurate. The next sentence overturns that expectation by reporting a small difference from the computer estimate. A concessive transition connects those ideas.",
+        "choice_analysis": {
+          "A": "Correct. \"Still\" introduces the unexpected accuracy achieved despite the crude technique.",
+          "B": "Incorrect. \"Fittingly\" would suggest that accuracy was an appropriate or expected result, weakening the contrast emphasized by \"apparently crude.\"",
+          "C": "Incorrect. \"Similarly\" requires a comparable method or result before it; the first sentence instead introduces the crude technique.",
+          "D": "Incorrect. \"In other words\" would restate the first sentence, but the second evaluates the method's accuracy using new information."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "apac_c_2025_03_m1_q23",
+      "section": "reading_writing",
+      "question_number": 23,
+      "passage": "In astrophysics, a ring of debris orbiting a larger object within the object's Roche limit is expected to persist as a ring, whereas a ring of debris orbiting outside this limit would likely accrete into a satellite (e.g., a moon). Bruno Morgado and colleagues, [vocab]______[/vocab] detected a dense ring of material orbiting the trans-Neptunian object Quaoar at a distance of 2,500 miles, well outside the calculated Roche limit of 1,100 miles, that has remained intact.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "fittingly,"
+        },
+        {
+          "label": "B",
+          "text": "for example,"
+        },
+        {
+          "label": "C",
+          "text": "likewise,"
+        },
+        {
+          "label": "D",
+          "text": "though,"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Quaoar's ring remained intact outside the Roche limit, contrary to the stated expectation.",
+        "key_evidence": "A ring outside the limit should accrete into a satellite, yet this intact ring is 2,500 miles out, beyond the 1,100-mile limit.",
+        "why_correct": "\"Though\" marks a contrast. The text predicts that an outside ring will form a satellite, but the observed ring remains intact outside the limit.",
+        "detailed": "The general rule distinguishes rings inside a Roche limit from those outside it. Quaoar's ring lies outside the calculated limit, so the stated rule predicts satellite formation. The fact that it remains a ring is therefore an exception requiring a contrast transition.",
+        "choice_analysis": {
+          "A": "Incorrect. \"Fittingly\" would treat the intact ring as consistent with expectations, but its location makes it unexpected.",
+          "B": "Incorrect. \"For example\" would introduce a case illustrating the rule. This case contradicts the stated prediction for an outside ring.",
+          "C": "Incorrect. \"Likewise\" signals similarity, whereas the observed intact ring differs from the expected outcome.",
+          "D": "Correct. \"Though\" appropriately introduces an observation at odds with the expectation of accretion outside the limit."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "apac_c_2025_03_m1_q26",
+      "section": "reading_writing",
+      "question_number": 26,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• A soundscape refers to the sounds heard in a specific place.\n• The Japanese Ministry of the Environment made a list of 100 soundscapes of Japan.\n• Each soundscape on the list was selected for its cultural significance to Japan.\n• The sound of black-tailed gulls at Hachinohe Port in Aomori Prefecture is on the list.\n• Aomori Prefecture is on northern Honshu Island, Japan.",
+      "prompt": "The student wants to specify where a soundscape of cultural significance to Japan can be heard. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The sound of black-tailed gulls was included on a list of 100 soundscapes."
+        },
+        {
+          "label": "B",
+          "text": "The soundscape was selected by the Japanese Ministry of the Environment for its cultural significance to Japan."
+        },
+        {
+          "label": "C",
+          "text": "The soundscape included the sounds heard in a specific place."
+        },
+        {
+          "label": "D",
+          "text": "The sound of black-tailed gulls at Hachinohe Port can be heard in Aomori Prefecture on northern Honshu Island, Japan."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Choice D names the sound and locates it at Hachinohe Port in Aomori Prefecture on northern Honshu.",
+        "key_evidence": "The notes place the gull sound at Hachinohe Port in Aomori Prefecture, which is on northern Honshu Island.",
+        "why_correct": "The student's goal asks where a culturally significant soundscape can be heard. D combines the sound with the notes' geographic details about Hachinohe Port, Aomori, and Honshu.",
+        "detailed": "Select notes according to the student's purpose, not merely because they are true. The listing establishes cultural significance, while the port, prefecture, and island supply the requested location. Choice D foregrounds those location details.",
+        "choice_analysis": {
+          "A": "Incorrect. This identifies the sound's inclusion on a list but does not tell the audience where to hear it.",
+          "B": "Incorrect. This explains who selected the soundscape and why, rather than where it is located.",
+          "C": "Incorrect. This restates what a soundscape is without naming a specific place.",
+          "D": "Correct. This supplies a particular sound and a precise geographic location, fulfilling the where-focused goal."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "apac_c_2025_03_m1_q27",
+      "section": "reading_writing",
+      "question_number": 27,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Most of the plant and bird species in Oahu, Hawaii, are non-native.\n• In a 2019 study, researchers wanted to know what role non-native birds play in dispersing plant seeds in Oahu.\n• Researchers catalogued plant seeds found in fecal samples from non-native birds.\n• Ilex anomala, a flowering shrub, was one of fifteen native species catalogued.\n• Trema orientalis, a tree, was one of twenty-nine non-native species catalogued.\n• Researchers concluded that non-native birds play a vital role in dispersing the seeds of native and non-native plants.",
+      "prompt": "The student wants to emphasize a difference between the two plants. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Most plant species found in Oahu, Hawaii, like Trema orientalis, are non- native."
+        },
+        {
+          "label": "B",
+          "text": "A 2019 study catalogued plant seeds found in bird fecal samples in Oahu, Hawaii, to determine what role non-native birds play in seed dispersal."
+        },
+        {
+          "label": "C",
+          "text": "Though Ilex anomala and Trema orientalis can both be found in Oahu, Hawaii, only the former plant is native."
+        },
+        {
+          "label": "D",
+          "text": "Seeds from Ilex anomala and Trema orientalis plants were found in the fecal samples of non-native Hawaiian birds, according to a 2019 study."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Ilex anomala is native to Oahu, whereas Trema orientalis is non-native.",
+        "key_evidence": "The notes classify Ilex anomala among native species and Trema orientalis among non-native species.",
+        "why_correct": "C explicitly compares the native status supplied by the notes: Ilex anomala is native and Trema orientalis is not. Its phrase \"only the former ... is native\" emphasizes that difference.",
+        "detailed": "Both plants appeared in the same seed-dispersal study and can be found in Oahu. Those shared facts do not distinguish them. Their native versus non-native status is the relevant contrast, and C directly compares both plants on that dimension.",
+        "choice_analysis": {
+          "A": "Incorrect. This states that Trema orientalis is non-native but never contrasts it with Ilex anomala.",
+          "B": "Incorrect. This describes the study's method and purpose without comparing the two plants.",
+          "C": "Correct. This identifies the shared location and then explicitly distinguishes the native plant from the non-native one.",
+          "D": "Incorrect. This emphasizes a similarity: seeds of both plants were found in the birds' samples."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "apac_c_2025_03_m2_q01",
+      "section": "reading_writing",
+      "question_number": 28,
+      "passage": "Often, the Nobel Prize in Chemistry is given to a single person, such as Richard Martin Willstätter in 1915. But sometimes the Nobel Committee wants to reward work attributed to two or three individuals, in which case, the award is given [vocab]______[/vocab]. For instance, in 2020, Jennifer Doudna was among those awarded for \"the development of a method for genome editing.\"",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "retroactively"
+        },
+        {
+          "label": "B",
+          "text": "ceremoniously"
+        },
+        {
+          "label": "C",
+          "text": "jointly"
+        },
+        {
+          "label": "D",
+          "text": "reluctantly"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太C卷",
+      "explanation": {
+        "short": "When two or three people share the recognition, the prize is awarded jointly.",
+        "key_evidence": "The text contrasts \"a single person\" with work \"attributed to two or three individuals.\"",
+        "why_correct": "\"Jointly\" means together or in common. It describes an award shared by multiple recipients rather than given to only one person.",
+        "detailed": "The contrast establishes the blank's job: explain how the committee gives an award when credit belongs to several individuals. The 2020 example reinforces shared recognition by saying Doudna was among those awarded. The passage does not contrast different dates, ceremonies, or attitudes toward awarding the prize.",
+        "choice_analysis": {
+          "A": "Incorrect. \"Retroactively\" concerns applying something to an earlier time, not sharing recognition among several people.",
+          "B": "Incorrect. \"Ceremoniously\" concerns formal or elaborate presentation. It does not distinguish multiple recipients from a single recipient.",
+          "C": "Correct. \"Jointly\" expresses that the award is given to the credited individuals together.",
+          "D": "Incorrect. \"Reluctantly\" would imply unwillingness, but the committee is described as wanting to reward the shared work."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "apac_c_2025_03_m2_q02",
+      "section": "reading_writing",
+      "question_number": 29,
+      "passage": "As with other river deltas, the Krishna River delta is [vocab]______[/vocab]: it is a constantly evolving network of channels and strips of land that change in size and shape as the river deposits new sedimentary particles where the river meets the waters of the Bay of Bengal.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sustainable"
+        },
+        {
+          "label": "B",
+          "text": "unrivaled"
+        },
+        {
+          "label": "C",
+          "text": "immutable"
+        },
+        {
+          "label": "D",
+          "text": "dynamic"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太C卷",
+      "explanation": {
+        "short": "A delta whose channels and landforms continually change is dynamic.",
+        "key_evidence": "The delta is a \"constantly evolving network\" whose parts \"change in size and shape.\"",
+        "why_correct": "\"Dynamic\" means characterized by change or activity. The text describes precisely that quality through the delta's continual evolution and changing size and shape.",
+        "detailed": "The colon introduces an explanation of the word in the blank. The repeated descriptions of evolution and changes in size and shape define the intended quality. The required adjective must therefore describe ongoing change rather than endurance, superiority, or permanence.",
+        "choice_analysis": {
+          "A": "Incorrect. \"Sustainable\" means capable of being maintained over time. The explanation concerns changing physical form, not long-term viability.",
+          "B": "Incorrect. \"Unrivaled\" means unmatched in quality or extent. No comparison establishing superiority appears.",
+          "C": "Incorrect. \"Immutable\" means unchanging, directly contradicting the description of constant evolution.",
+          "D": "Correct. \"Dynamic\" captures the continual change in the delta's channels and strips of land."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "apac_c_2025_03_m2_q03",
+      "section": "reading_writing",
+      "question_number": 30,
+      "passage": "Many of late nineteenth-century artist James McNeill Whistler's oil paintings and lithographs depict the streets of European cities. While his contemporaries' approaches to these subjects were often sentimental, Whistler's eye seemed [vocab]______[/vocab] In this way, he anticipated the early twentieth-century photographs of Walker Evans, which create the illusion of being objective documentations of life.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "tranquil"
+        },
+        {
+          "label": "B",
+          "text": "peculiar"
+        },
+        {
+          "label": "C",
+          "text": "nostalgic"
+        },
+        {
+          "label": "D",
+          "text": "dispassionate"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025-03-亚太C卷",
+      "explanation": {
+        "short": "Whistler's unsentimental perspective anticipates apparently objective photography, so it is dispassionate.",
+        "key_evidence": "His contemporaries were \"sentimental,\" whereas Evans's photographs seem like \"objective documentations of life.\"",
+        "why_correct": "\"Dispassionate\" means impartial or free from strong emotional involvement. The text contrasts Whistler with sentimental artists and then connects his approach to apparently objective documentation.",
+        "detailed": "Use the evidence on both sides of the blank. While signals a contrast with the emotion-laden approaches of Whistler's contemporaries, and the final sentence connects Whistler to the appearance of objectivity in Evans's photographs. The missing word must describe emotional detachment, not merely a quiet or unusual perspective.",
+        "choice_analysis": {
+          "A": "Incorrect. \"Tranquil\" means calm or peaceful, which does not specifically account for an objective, unsentimental perspective.",
+          "B": "Incorrect. \"Peculiar\" means unusual. It offers no reason that Whistler would anticipate the apparent objectivity of Evans's work.",
+          "C": "Incorrect. \"Nostalgic\" implies sentimental longing for the past, conflicting with the contrast against sentimental contemporaries.",
+          "D": "Correct. \"Dispassionate\" expresses the emotionally detached observation that connects Whistler with the later photographs."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "apac_c_2025_03_m2_q04",
+      "section": "reading_writing",
+      "question_number": 31,
+      "passage": "The following text is adapted from George Eliot's 1857 short story \"The Sad Fortunes of the Rev. Amos Barton.\" Mr. Ely is a clergyman in the town of Milby. By the laity of Milby and its neighbourhood [Mr. Ely] was regarded as a man of quite remarkable powers and learning, who must make a considerable sensation in London pulpits and drawing-rooms on his occasional visit to the metropolis; and by his brother clergy he was regarded as a discreet and agreeable fellow. Mr. Ely never got into a warm discussion; he suggested what might be thought, but rarely said what he thought himself; he never let either men or women see that he was laughing at them, and he never gave any one an opportunity of laughing at him.",
+      "prompt": "Which choice best describes the overall structure of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It relates how Mr. Ely had initially earned the respect of his colleagues and then recounts the circumstances under which their views of him began to change."
+        },
+        {
+          "label": "B",
+          "text": "It implies that Mr. Ely's neighbors are more naïve in their estimation of him than people in London are and then explains why his neighbors have been so easily misled."
+        },
+        {
+          "label": "C",
+          "text": "It presents the favorable opinion of Mr. Ely that other people hold and then describes the behaviors of Mr. Ely that enable him to maintain that favorable opinion."
+        },
+        {
+          "label": "D",
+          "text": "It highlights the disparity between Mr. Ely's public and private behavior and then conveys why he labors to obscure his true self from other people."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The text first reports favorable opinions of Mr. Ely and then describes conduct that preserves those opinions.",
+        "key_evidence": "Others see \"remarkable powers and learning\" and an \"agreeable fellow\"; he avoids heated debate, disclosure, and ridicule.",
+        "why_correct": "C accounts for both parts of the text: other people's favorable opinions, followed by Mr. Ely's avoidance of controversy and ridicule that might damage those opinions.",
+        "detailed": "The opening sentence summarizes how townspeople and fellow clergy regard Mr. Ely. The next sentence shifts to his habits: he avoids contentious discussions, rarely states his own views, and does not reveal mockery or invite it. These behaviors help explain how he sustains a favorable social position.",
+        "choice_analysis": {
+          "A": "Incorrect. The passage does not recount a change from respect to disapproval; the favorable views remain in place.",
+          "B": "Incorrect. It speculates about Ely's impact in London but gives no actual Londoners' assessment to compare with his neighbors' views.",
+          "C": "Correct. This correctly identifies the sequence from favorable opinions to the careful behaviors that maintain them.",
+          "D": "Incorrect. The text does not present contrasting private behavior or explain a motive for concealing a separate true self."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "overall structure"
+      }
+    },
+    {
+      "question_id": "apac_c_2025_03_m2_q06",
+      "section": "reading_writing",
+      "question_number": 33,
+      "passage": "Researchers César A. Hidalgo, Elisa Castañer, and Andres Sevtsuk created a computer model to predict the mix of hotels, bicycle stores, and other businesses found in a given neighborhood. How we define a neighborhood and its boundaries is subjective, so the team used a clustering algorithm to locate dense groupings of amenities that represent human-identified neighborhoods like Boston's North End. The predictive model, which incorporates this algorithm, is sure to be invaluable in determining the optimal mix of a city's amenities.",
+      "prompt": "Which choice best describes the overall structure of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It describes how an algorithm can predict the success of certain businesses, discusses an example of a use of that algorithm, and suggests potential uses of the algorithm in other fields."
+        },
+        {
+          "label": "B",
+          "text": "It explains why urban planners are interested in understanding the locations of certain businesses, details a study that has addressed this question, and identifies one key finding."
+        },
+        {
+          "label": "C",
+          "text": "It summarizes trends in recent urban development, describes a potential problem for urban planners, and suggests a computational tool that can be used to solve that problem."
+        },
+        {
+          "label": "D",
+          "text": "It introduces a research team's study of urban neighborhoods, describes an aspect of the study's methodology, and suggests a potential application of the team's research."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The text introduces a neighborhood model, explains its clustering method, and suggests an urban-planning use.",
+        "key_evidence": "A model predicts a business mix; an algorithm defines amenity clusters; the final sentence proposes determining an optimal mix.",
+        "why_correct": "D tracks the text's three parts in order: the team's modeling research, the clustering method for defining neighborhoods, and a proposed use in planning amenities.",
+        "detailed": "The first sentence establishes the researchers' modeling project. The second explains how they addressed subjective neighborhood boundaries by identifying dense amenity groupings. The final sentence looks forward to using the model to determine a city's optimal mix of amenities. It proposes a use rather than reporting a study result.",
+        "choice_analysis": {
+          "A": "Incorrect. The model predicts a neighborhood's business mix, not whether individual businesses will succeed, and no application in another field is suggested.",
+          "B": "Incorrect. The opening does not explain urban planners' interests, and the final sentence proposes an application rather than a key finding.",
+          "C": "Incorrect. No recent urban-development trends are summarized; the passage begins directly with the research model.",
+          "D": "Correct. This matches the progression from research introduction to methodology to prospective application."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "overall structure"
+      }
+    },
+    {
+      "question_id": "apac_c_2025_03_m2_q07",
+      "section": "reading_writing",
+      "question_number": 34,
+      "passage": "Text 1\n\nHycean planets are a class of exoplanets (planets outside our solar system) with oceans of liquid water—critical to supporting life—and atmospheres rich in hydrogen. Computer models have determined that for potential hycean planets, the range of the habitable zone (Hz), the distance from a star that allows a planet to retain liquid water on its surface, begins at about 1 astronomical unit (AU). In 2021, Nikku Madhusudhan et al. identified K2-18 b as a hycean candidate, noting that the planet is located right on the inner edge of the Hz.\n\nText 2\n\nIn a 2023 paper, Shang-Min Tsai et al. claimed that the hydrogen-rich atmospheres of K2-18 b and other hycean candidates admit wavelengths of light that cause elevated surface temperatures and increased water evaporation. Unlike earlier assessments, Tsai et al.'s calculations therefore placed the inner edge for these planets' HZ as far out as 3.85 AU.",
+      "prompt": "Based on the texts, how would Tsai et al. (Text 2) most likely respond to Madhusudhan et al.'s research, as presented in Text 1?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "By arguing that K2-18 b and other hycean candidates are unlikely to support life because these planets are located too far from the stars they orbit"
+        },
+        {
+          "label": "B",
+          "text": "By maintaining that Madhusudhan et al. relied on a model whose estimates of surface temperatures on hycean candidates are likely too high"
+        },
+        {
+          "label": "C",
+          "text": "By stating that the chemical composition of the atmosphere of the hycean candidate Madhusudhan et al. identified suggests that this planet's surface is unlikely to harbor liquid water"
+        },
+        {
+          "label": "D",
+          "text": "By observing that unlike the hycean candidate Madhusudhan et al. discovered, most other types of planets with hydrogen-rich atmospheres are likely located within the Hz"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Tsai's hotter atmospheric model places K2-18 b inside the newly calculated inner boundary, where liquid water is unlikely.",
+        "key_evidence": "Text 1 puts K2-18 b near a 1-AU inner edge; Text 2 reports atmospheric heating, water evaporation, and an inner edge as far out as 3.85 AU.",
+        "why_correct": "C links the planet's hydrogen-rich atmosphere to the higher temperatures and evaporation described in Text 2. Those effects make surface liquid water unlikely at the earlier, closer boundary.",
+        "detailed": "Text 1 treats a location near the earlier inner boundary as compatible with a hycean candidate. Text 2 argues that hydrogen-rich atmospheres transmit light that raises surface temperatures, so the safe inner boundary lies farther from the star. A planet near the earlier boundary would consequently be too close under the revised calculation, not too far away.",
+        "choice_analysis": {
+          "A": "Incorrect. This reverses the distance problem. Moving the inner boundary outward makes K2-18 b too close to its star, rather than too far away.",
+          "B": "Incorrect. Tsai's argument implies that earlier estimates understated the heating problem, not that they estimated temperatures too high.",
+          "C": "Correct. This correctly ties atmospheric composition to an unfavorable prospect for surface liquid water.",
+          "D": "Incorrect. Neither text compares the locations of most other hydrogen-atmosphere planet types with that of K2-18 b."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "main_idea_or_detail"
+      }
+    },
+    {
+      "question_id": "apac_c_2025_03_m2_q08",
+      "section": "reading_writing",
+      "question_number": 35,
+      "passage": "When Kenyan writer Ngūgī wa Thiong'o, who had previously published four novels in English, began writing in his native language, Gikūyū, in the 1970s, several fellow writers and critics cautioned that doing so might make his works inaccessible outside his own community. Some noted that Kiswahili—widely spoken in Kenya and elsewhere in Africa—would be a more practical choice. Rejecting their arguments, Ngügi went on to author dozens of acclaimed works in Gikûyũ that have been translated into a total of more than thirty languages.",
+      "prompt": "Which choice best states the main idea of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Although Ngūgī insisted on publishing his first works in Gīkūyū, they have since been translated into many other languages."
+        },
+        {
+          "label": "B",
+          "text": "Although Ngũgi's decision to write in Gîkûyû was met with some skepticism, it didn't prevent him from achieving literary success."
+        },
+        {
+          "label": "C",
+          "text": "The reaction to Ngûgī's rejection of English illustrates that some literary experts believe that fame is most easily gained by writing in a widely understood language, such as Gīkūyū."
+        },
+        {
+          "label": "D",
+          "text": "In the 1970s, Ngûgi became convinced that literature ought to be written in authors' native languages, and he proceeded to publish many works in Gikūyū."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Despite warnings that Gikuyu would limit his audience, Ngugi produced acclaimed works translated into many languages.",
+        "key_evidence": "Critics warned of inaccessibility; he later wrote \"dozens of acclaimed works\" translated into \"more than thirty languages.\"",
+        "why_correct": "B combines the initial skepticism with the later success, the contrast around which the entire passage is organized.",
+        "detailed": "The text first places Ngugi's language change after four English-language novels. It then explains the warnings and the suggested alternative, Kiswahili. The closing sentence counters those warnings with acclaim and translation into many languages. The central idea concerns the successful outcome of a doubted decision.",
+        "choice_analysis": {
+          "A": "Incorrect. This incorrectly says his first works were in Gikuyu; the passage states that he had already published four novels in English.",
+          "B": "Correct. This captures the warnings about his decision and the literary success he subsequently achieved.",
+          "C": "Incorrect. This incorrectly treats Gikuyu as the widely understood alternative. The critics identified Kiswahili as more widely spoken.",
+          "D": "Incorrect. The passage does not attribute to him a general belief that all authors ought to use their native languages, and this choice omits the skepticism–success contrast."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "main_idea_or_detail"
+      }
+    },
+    {
+      "question_id": "apac_c_2025_03_m2_q09",
+      "section": "reading_writing",
+      "question_number": 36,
+      "passage": "In a study by Mika R. Moran, Daniel A. Rodriguez, and colleagues, residents of Quito, Ecuador, and Buenos Aires, Argentina, were surveyed about parks in their cities. Of the 618 respondents from Quito, 82.9% indicated that they use the city's parks, and of the 683 respondents from Buenos Aires, 69.9% indicated using city parks. Given that the percentage of Quito respondents who reported having access to other desired amenities near parks was much lower than that reported by Buenos Aires respondents, the difference in park use can't be explained by Quito residents having more access to desired nonpark amenities near parks.",
+      "prompt": "Which choice best describes the main idea of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The study's findings suggest that an increase in the number of amenities near city parks would likely increase park use in Quito but not in Buenos Aires."
+        },
+        {
+          "label": "B",
+          "text": "Although the study found that a greater proportion of residents use parks in Quito than in Buenos Aires, that difference isn't due to greater access to amenities near parks in Quito."
+        },
+        {
+          "label": "C",
+          "text": "Even though the study found that parks in Buenos Aires are more likely to be close to other amenities than parks in Quito are, Quito has more amenities overall than Buenos Aires does."
+        },
+        {
+          "label": "D",
+          "text": "The study's finding that a greater proportion of residents use parks in Quito than in Buenos Aires is partly due to the greater prevalence of parks in Quito."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Park use was higher in Quito, although respondents there reported less access to desired amenities near parks.",
+        "key_evidence": "Quito park use was 82.9% versus 69.9% in Buenos Aires, while Quito respondents reported less nearby-amenity access.",
+        "why_correct": "B states the observed usage difference and the passage's rejection of greater nearby-amenity access in Quito as an explanation.",
+        "detailed": "The percentages establish which city had the higher reported park use. The final sentence then rules out one proposed explanation: Quito residents did not have more access to desired nonpark amenities nearby. The text does not identify the actual cause or predict what would happen if amenities were added.",
+        "choice_analysis": {
+          "A": "Incorrect. This predicts the effects of adding amenities in each city, but the survey comparison establishes no such intervention effect.",
+          "B": "Correct. This accurately combines the higher reported park use in Quito with the rejected explanation based on greater nearby-amenity access.",
+          "C": "Incorrect. This adds a claim that Quito has more amenities overall, which the passage never makes.",
+          "D": "Incorrect. The passage provides no comparison of park prevalence and does not identify more parks as a cause of the usage difference."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "main_idea_or_detail"
+      }
+    },
+    {
+      "question_id": "apac_c_2025_03_m2_q11",
+      "section": "reading_writing",
+      "question_number": 38,
+      "passage": "Piezoelectric harvesters convert kinetic energy (resonance) to electrical energy. precluding the need for external electrical sources. The vibration of a spacecraft. for example, can provide sufficient energy to power many of its sensors piezoelectrically. A newly designed piezoelectric harvester incorporating a highly conductive carbon-fiber-reinforced polymer (CFRP) electrode has been shown to provide steady energy loads during resonance, an absolute prerequisite for wireless communication devices to be powered piezoelectrically.",
+      "prompt": "Which finding, if true, would most directly support the text's claim about wireless communication devices?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The high conductivity of the CFRP is what makes the energy output from a piezoelectric harvester sufficient for wireless communication devices."
+        },
+        {
+          "label": "B",
+          "text": "The CFRP electrode is incompatible with most wireless communication devices."
+        },
+        {
+          "label": "C",
+          "text": "Intermittent or unpredictable electrical supply undermines the efficacy of wireless communication devices."
+        },
+        {
+          "label": "D",
+          "text": "The near-constant kinetic vibration of a spacecraft makes it possible to power its wireless communication devices using only non-CFRP piezoelectric harvesters."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "If interruptions undermine device performance, a steady electrical supply is a necessary condition for piezoelectric operation.",
+        "key_evidence": "The claim calls \"steady energy loads\" an \"absolute prerequisite\" for piezoelectrically powered wireless devices.",
+        "why_correct": "C explains the necessity asserted by the text: if unreliable power undermines wireless devices' effectiveness, a steady supply is required for effective operation.",
+        "detailed": "The claim to support is specifically about steadiness, rather than simply the amount of power or the electrode material. A finding that unreliable supply harms wireless devices explains why the steady output produced by the new harvester matters. The answer need not establish that CFRP is the only possible material.",
+        "choice_analysis": {
+          "A": "Incorrect. This concerns sufficient output and attributes it to conductivity, but it does not explain why the output must remain steady.",
+          "B": "Incorrect. Incompatibility would limit the usefulness of the CFRP device rather than support the claim that steady supply is required.",
+          "C": "Correct. This directly explains why intermittent supply is inadequate and continuous, predictable energy is necessary.",
+          "D": "Incorrect. This describes a possible alternative energy arrangement; it does not establish that steadiness is required for wireless devices to work."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "textual_evidence"
+      }
+    },
+    {
+      "question_id": "apac_c_2025_03_m2_q13",
+      "section": "reading_writing",
+      "question_number": 40,
+      "passage": "Microbial fuel cells (MFCs) capitalize on the ability of some species of bacteria to metabolize metal. liberating electrons. The bacteria form a dense biofilm on the surface of an electron-collecting anode, but moving the electrons from the bacterial cytoplasm to an external electrode requires that the electrons pass through a series of inefficient oxídation-reduction (redox) reactions. Accordingly. MFC power output rarely exceeds a density of 0.30 milliwatts per square centimeter (mW/cm²). In an experiment, researchers added silver nanoparticles to carbon paper covering the anode in an MFC. The resulting power density was 0.66 mW/cm². Since metals such as silver exhibit high electrical conductivity, the researchers hypothesized that [vocab]______[/vocab]",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sílver nanoparticles may increase the metabolic processes of the bacteria, thereby increasing the number of free electrons available to transfer to the electrode."
+        },
+        {
+          "label": "B",
+          "text": "as the density of the biofilm increases, the series of redox reactions may accelerate independent of the presence of the silver nanoparticles."
+        },
+        {
+          "label": "C",
+          "text": "silver nanoparticles may allow electrons to bypass the series of redox reactions and transfer directly to the electrode."
+        },
+        {
+          "label": "D",
+          "text": "electrons may be conducted directly to the electrode before the silver nanoparticles catalyze the redox reactions."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Silver may provide a more direct conductive path, bypassing the inefficient redox sequence.",
+        "key_evidence": "Redox transfer is inefficient; adding conductive silver raised power density from a usual maximum near 0.30 to 0.66 mW/cm².",
+        "why_correct": "C uses the passage's two mechanistic clues—inefficient redox transfer and silver's conductivity—to propose direct electron transfer that bypasses the inefficient sequence.",
+        "detailed": "The passage first identifies electron transfer through redox reactions as a limit on power output. It then reports higher output after silver is placed at the anode and reminds the reader that silver conducts electricity well. A plausible hypothesis should use that conductive property to explain more efficient transfer, not invent an effect on bacterial metabolism.",
+        "choice_analysis": {
+          "A": "Incorrect. This shifts the mechanism to increased bacterial metabolism. The stated evidence concerns silver's conductivity, not its effect on producing electrons.",
+          "B": "Incorrect. This invokes increasing biofilm density and an effect independent of silver, neither of which explains the reported silver intervention.",
+          "C": "Correct. This connects silver's conductivity with a direct route that avoids the inefficient transfer sequence.",
+          "D": "Incorrect. This adds an unsupported catalytic role and sequence for silver rather than clearly explaining how conductivity bypasses the bottleneck."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "apac_c_2025_03_m2_q15",
+      "section": "reading_writing",
+      "question_number": 42,
+      "passage": "Included in What Absence Is Made Of, a 2017 group exhibition at the Hirshhorn Museum and Sculpture Garden in Washington. DC, was the work of artist Lorna Simpson, who is best known for her multimedia artworks that juxtapose images of African American women with text fragments. Her work challenges conventional notions of race, gender, history, and [vocab]______[/vocab] she is credited with expanding the horizons of conceptual photographic art.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "memory and"
+        },
+        {
+          "label": "B",
+          "text": "memory."
+        },
+        {
+          "label": "C",
+          "text": "memory, and"
+        },
+        {
+          "label": "D",
+          "text": "memory"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Complete the list, then join two independent clauses with comma + and.",
+        "key_evidence": "Her work challenges ... race, gender, history, and memory, and she is credited ...",
+        "why_correct": "C ends the four-item list with memory and connects the complete she-clause correctly.",
+        "detailed": "After the source correction history, and, the first clause is Her work challenges conventional notions of race, gender, history, and memory. The second has its own subject she and predicate is credited. A comma before the coordinating conjunction joins them.",
+        "choice_analysis": {
+          "A": "And alone omits the comma required at this independent-clause boundary.",
+          "B": "The period would require capital She and does not match the displayed continuation.",
+          "C": "Memory completes the list; comma + and joins the two clauses.",
+          "D": "No separator or conjunction would produce a run-on."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "apac_c_2025_03_m2_q18",
+      "section": "reading_writing",
+      "question_number": 45,
+      "passage": "If you had turned on the radio in the summer of 1961, chances are you would have heard the hit [vocab]______[/vocab] \"A Tear\" by Gene McDaniels. The song spent four straight weeks on the Billboard Hot 100 chart that year.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "song:"
+        },
+        {
+          "label": "B",
+          "text": "song;"
+        },
+        {
+          "label": "C",
+          "text": "song,"
+        },
+        {
+          "label": "D",
+          "text": "song"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The title identifies which hit song, so no punctuation intervenes.",
+        "key_evidence": "the hit song \"A Tear\" by Gene McDaniels",
+        "why_correct": "D forms an integrated noun phrase with the identifying song title.",
+        "detailed": "The construction is heard + the hit song + its identifying title. The words before the title do not form a completed independent clause or a parenthetical insertion. The source distinguishes A's colon from B's semicolon; neither belongs inside this noun phrase.",
+        "choice_analysis": {
+          "A": "A colon cannot separate the noun from the identifying title here.",
+          "B": "A semicolon requires an independent clause after it, not just the song title.",
+          "C": "A comma incorrectly detaches the identifying title from song.",
+          "D": "No punctuation is needed between the noun and the title that identifies it."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "apac_c_2025_03_m2_q21",
+      "section": "reading_writing",
+      "question_number": 48,
+      "passage": "In his 2011 book, historian Sebouh David Aslanian quantifies the reading patterns of early modern Armenian merchants from New Julfa. Aslanian's macroanalysis [vocab]______[/vocab] nearly 1,000 book titles published between 1512 and 1800 shows not only the steady popularity of religious texts but also a broadening interest in secular books, especially those on history and geography.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "examined"
+        },
+        {
+          "label": "B",
+          "text": "examining"
+        },
+        {
+          "label": "C",
+          "text": "examines"
+        },
+        {
+          "label": "D",
+          "text": "had examined"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "\"Examining\" modifies \"macroanalysis,\" while \"shows\" remains the sentence's main verb.",
+        "key_evidence": "The sentence's frame is \"Aslanian's macroanalysis ... shows not only ... but also ...\"",
+        "why_correct": "The participle \"examining\" introduces a phrase describing the macroanalysis without introducing an extra finite verb before shows.",
+        "detailed": "First locate the main clause: Aslanian's macroanalysis shows certain reading patterns. The inserted description explains which material the analysis examines—nearly 1,000 titles. A participial phrase can modify macroanalysis in that position. A second finite verb would leave two uncoordinated predicates before the sentence's object.",
+        "choice_analysis": {
+          "A": "Incorrect. \"Examined\" would be a finite past-tense verb taking book titles as its object, followed by the unconnected finite verb shows.",
+          "B": "Correct. \"Examining\" forms a modifier of macroanalysis, preserving the complete main clause \"macroanalysis ... shows.\"",
+          "C": "Incorrect. \"Examines\" introduces a second finite present-tense verb without a conjunction to connect it to shows.",
+          "D": "Incorrect. \"Had examined\" likewise creates an uncoordinated finite predicate before shows; the past-perfect tense does not solve that structural problem."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "apac_c_2025_03_m2_q23",
+      "section": "reading_writing",
+      "question_number": 50,
+      "passage": "In an ekphrastic poem, a poet explores a work of visual art, such as a drawing, sculpture, or painting. Robert Hayden's 1994 poem \"Monet's Waterlilies,\" for example, meditates on Claude Monet's 1899 painting Water Lilies; Sasha Pimentel's 2017 poem \"The Kiss,\" [vocab]______[/vocab] takes a painting as its subject: Gustav Klimt's 1908 work The Kiss.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "nevertheless,"
+        },
+        {
+          "label": "B",
+          "text": "likewise,"
+        },
+        {
+          "label": "C",
+          "text": "hence,"
+        },
+        {
+          "label": "D",
+          "text": "conversely,"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Both examples describe poems that take paintings as their subjects.",
+        "key_evidence": "Hayden's poem meditates on Monet; Pimentel's likewise takes a painting as its subject.",
+        "why_correct": "B signals the similarity between two examples of ekphrastic poetry.",
+        "detailed": "The definition establishes the shared category: poetry about visual art. Each example pairs a poem with its source painting. The second extends the first by resemblance, not contradiction or cause and effect.",
+        "choice_analysis": {
+          "A": "Nevertheless would signal a contrast absent from the two examples.",
+          "B": "Likewise accurately marks the parallel.",
+          "C": "The first poem does not cause the second poem to take a painting as its subject.",
+          "D": "Conversely would reverse a relation that the second example actually repeats."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "apac_c_2025_03_m2_q24",
+      "section": "reading_writing",
+      "question_number": 51,
+      "passage": "Contemplating the beauty of a natural landscape, the serene speaker of William Wordsworth's poem \"Lines Composed a Few Miles above Tintern Abbey\" (1798) seems wholly insulated from society. As scholars have argued, however, Wordsworth's retreat to nature was an aesthetic response to—and implicit critique of—England's rapid industrialization and urbanization at that time. [vocab]______[/vocab] despite its idyllic quality, the poem bears the imprint of the dramatic changes affecting English life.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Nevertheless,"
+        },
+        {
+          "label": "B",
+          "text": "For example,"
+        },
+        {
+          "label": "C",
+          "text": "Moreover,"
+        },
+        {
+          "label": "D",
+          "text": "As such,"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "A response to industrial change consequently carries its imprint.",
+        "key_evidence": "The retreat to nature was a response to, and critique of, industrialization.",
+        "why_correct": "D introduces the implication of the scholars' interpretation.",
+        "detailed": "Although the opening impression is social insulation, the intervening scholarship explains that the retreat responds to contemporary change. The final claim follows from that interpretation. The word despite already preserves the contrast with the poem's idyllic appearance.",
+        "choice_analysis": {
+          "A": "Nevertheless would oppose the immediately preceding interpretation, though the final claim agrees with it.",
+          "B": "The final statement is a general conclusion, not a particular example.",
+          "C": "Moreover adds information but does not express the clear consequence as precisely.",
+          "D": "As such connects the poem's status as a response to its bearing the imprint of change."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "apac_c_2025_03_m2_q25",
+      "section": "reading_writing",
+      "question_number": 52,
+      "passage": "• The South Sudan Workers Trade Union Federation (SSWTUF) is a national union federation for the African nation of South Sudan. • It helps improve conditions for workers in that nation. • ITUC-Africa is a regional union federation that represents national union federations across Africa. • It represents the SSWTUF.",
+      "prompt": "Which choice most effectively uses information from the given sentences to explain the purpose of national union federations?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The SsWTUF is one of the national union federations represented by ITUC-Africa."
+        },
+        {
+          "label": "B",
+          "text": "Regional union federations like ITUC-Africa represent the national union federations in a specific area."
+        },
+        {
+          "label": "C",
+          "text": "National union federations, such as the SsWTUF, work to improve conditions for workers in their member nations."
+        },
+        {
+          "label": "D",
+          "text": "The SSWTUF is a national union federation in Africa."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "National union federations work to improve workers' conditions; C states that purpose.",
+        "key_evidence": "The SSWTUF \"helps improve conditions for workers\" in South Sudan.",
+        "why_correct": "C uses the notes' statement that the SSWTUF improves workers' conditions to explain what national union federations do, directly addressing the requested purpose.",
+        "detailed": "The question asks for a function, not a location, membership relation, or definition of regional representation. The worker-improvement note is the one that supplies a national federation's purpose. The other choices use true facts from the notes but answer different questions.",
+        "choice_analysis": {
+          "A": "Incorrect. This gives the SSWTUF's relationship to ITUC-Africa, not the purpose of a national federation.",
+          "B": "Incorrect. This explains what regional federations represent, shifting attention away from the requested national federations.",
+          "C": "Correct. This states the worker-focused purpose and anchors it in the SSWTUF example.",
+          "D": "Incorrect. This identifies an organization's type and location but does not explain its function."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "Purpose Explanation"
+      }
+    },
+    {
+      "question_id": "apac_c_2025_03_m2_q26",
+      "section": "reading_writing",
+      "question_number": 53,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Emphasis analysis and cultural analysis are two approaches to art criticism.\n• Emphasis analysis examines how visual elements are weighted in an artwork's composition.\n• Such an analysis of Anne Vallayer-Coster's Still Life with Lobster might consider how the painting's sharply contrasting colors place primary emphasis on the lobster in the foreground.\n• Cultural analysis considers the cultural trends, beliefs, and values of an artwork's time.\n• Such an analysis of Pablo Picasso's Les Demoiselles d'Avignon might consider how the painting's portrayal of fragmented human figures challenged conventions of beauty during a time of cultural upheaval (early twentieth century).",
+      "prompt": "The student wants to present cultural analysis to an audience unfamiliar with the concept. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "An approach to art criticism, cultural analysis considers the cultural trends, beliefs, and values of an artwork's time."
+        },
+        {
+          "label": "B",
+          "text": "An emphasis analysis of Still Life with Lobster might consider how the painting's sharply contrasting colors place primary emphasis on the lobster in the foreground."
+        },
+        {
+          "label": "C",
+          "text": "Les Demoiselles d'Avignon's portrayal of fragmented human figures challenged conventions of beauty during a time of cultural upheaval (early twentieth century)."
+        },
+        {
+          "label": "D",
+          "text": "Emphasis analysis differs from cultural analysis in that emphasis analysis examines how visual elements are weighted in an artwork's composition."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "An unfamiliar audience needs the definition of cultural analysis, which A supplies directly.",
+        "key_evidence": "Cultural analysis considers the \"cultural trends, beliefs, and values of an artwork's time.\"",
+        "why_correct": "A combines the notes' category of art criticism with their definition of cultural analysis: examining the cultural trends, beliefs, and values of an artwork's time.",
+        "detailed": "The task is to introduce cultural analysis rather than compare methods or analyze a particular painting. A concise definition gives readers the conceptual framework they need before they could interpret a specific example. A combines that definition with the broader category of art criticism.",
+        "choice_analysis": {
+          "A": "Correct. This directly defines cultural analysis and identifies it as an approach to art criticism.",
+          "B": "Incorrect. This describes emphasis analysis, the other approach in the notes, rather than introducing cultural analysis.",
+          "C": "Incorrect. This gives a painting-specific observation but never names or defines the analytical method for the unfamiliar audience.",
+          "D": "Incorrect. This defines emphasis analysis while mentioning cultural analysis only as a contrast, leaving the requested concept unexplained."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "apac_c_2025_03_m2_q27",
+      "section": "reading_writing",
+      "question_number": 54,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Modularity of mind is the notion that the mind is at least partly composed of innate neural structures (modules) that perform fast, necessary tasks.\n• 1983: cognitive scientist Jerry A. Fodor hypothesized that low-level cognitive systems (e.g., perception, language) are modular.\n• In Fodorian modularity, high-level systems (e.g., reasoning) are not modular\n• 2003: cognitive scientist Peter Carruthers proposed the massive modularity hypothesis (MMH).\n• MMH expands modularity to include all cognitive systems.",
+      "prompt": "The student wants to compare Fodor's hypothesis with Carruthers's. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "In considering some but not all cognitive systems modular, Fodorian modularity is not as expansive in its definition of modularity as MMH is."
+        },
+        {
+          "label": "B",
+          "text": "Following Fodor's 1983 hypothesis, Carruthers proposed that modularity of mind includes all cognitive systems."
+        },
+        {
+          "label": "C",
+          "text": "The hypotheses of Fodor and Carruthers differ in whether they consider low-level cognitive systems, such as perception and language, modular."
+        },
+        {
+          "label": "D",
+          "text": "In 2003, Carruthers proposed the massive modularity hypothesis, disagreeing with Fodor's earlier hypothesis that the mind is composed of innate neural structures."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Fodor limits modularity to some systems; Carruthers extends it to all, so MMH is more expansive.",
+        "key_evidence": "Fodor includes low-level but excludes high-level systems; Carruthers's MMH \"include[s] all cognitive systems.\"",
+        "why_correct": "A explicitly compares the scope stated in the notes: Fodorian modularity includes some but not all systems, whereas MMH includes every system.",
+        "detailed": "The central distinction is high-level cognition, such as reasoning. Both hypotheses can include low-level systems, but Fodor excludes high-level systems from modularity while Carruthers includes them. A conveys this broader scope without incorrectly treating the two thinkers as disagreeing about the existence of modules.",
+        "choice_analysis": {
+          "A": "Correct. This directly compares some systems with all systems and accurately describes MMH as more expansive.",
+          "B": "Incorrect. This gives the chronological sequence and Carruthers's view but does not state Fodor's contrasting scope.",
+          "C": "Incorrect. This locates the disagreement in low-level systems, which both hypotheses regard as modular.",
+          "D": "Incorrect. This wrongly says Carruthers rejects innate neural structures; his hypothesis expands modularity rather than denying modules."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    }
+  ]
+}

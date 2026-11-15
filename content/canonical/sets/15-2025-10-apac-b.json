@@ -1,0 +1,2354 @@
+{
+  "schemaVersion": "sat-canonical-question-collection-v1",
+  "contentId": "set-15-2025-10-apac-b",
+  "title": "15 2025 10 Apac B",
+  "section": "reading_writing",
+  "questionCount": 50,
+  "questions": [
+    {
+      "question_number": 1,
+      "passage": "The unique subak water management system used to irrigate the rice paddy fields of the Indonesian island of Bali has a rich cultural, philosophical, and historical significance dating back to the ninth century. The many elements of subak—terraces, canals, and water temples—are [vocab]______[/vocab]; they are joined together into a single cohesive unit.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "informal"
+        },
+        {
+          "label": "B",
+          "text": "optional"
+        },
+        {
+          "label": "C",
+          "text": "outmoded"
+        },
+        {
+          "label": "D",
+          "text": "interconnected"
+        }
+      ],
+      "correct_answer": "D",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m1_001",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "The sentence after the semicolon says the subak elements are “joined together into a single cohesive unit.”",
+        "why_correct": "“Interconnected” means linked together, which directly matches the explanation after the semicolon.",
+        "choice_analysis": {
+          "A": "Incorrect. “Informal” means casual, not joined together.",
+          "B": "Incorrect. “Optional” means not required, which conflicts with the idea of a cohesive unit.",
+          "C": "Incorrect. “Outmoded” means outdated, which is not about how the elements relate.",
+          "D": "Correct. “Interconnected” describes parts joined together into one system."
+        },
+        "short": "“Interconnected” means linked together, which directly matches the explanation after the semicolon.",
+        "detailed": "The sentence after the semicolon says the subak elements are “joined together into a single cohesive unit.” “Interconnected” means linked together, which directly matches the explanation after the semicolon."
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_number": 2,
+      "passage": "The Egyptian plover—a bird native to Africa—has a symbiotic relationship with the Nile crocodile. While a crocodile rests on land with its mouth open for extended periods of time, the plover eats the food that is stuck in the crocodile's teeth. This [vocab]______[/vocab] relationship provides a nutritious meal for the bird and removes potentially dangerous bacteria from the crocodile's mouth.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "reciprocal"
+        },
+        {
+          "label": "B",
+          "text": "interchangeable"
+        },
+        {
+          "label": "C",
+          "text": "inefficient"
+        },
+        {
+          "label": "D",
+          "text": "unequal"
+        }
+      ],
+      "correct_answer": "A",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m1_002",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "The plover gets food, and the crocodile has bacteria removed from its mouth.",
+        "why_correct": "Because both animals benefit from the interaction, the relationship is reciprocal.",
+        "choice_analysis": {
+          "A": "Correct. “Reciprocal” describes a mutual exchange or mutual benefit.",
+          "B": "Incorrect. “Interchangeable” would mean the bird and crocodile can substitute for each other, which they cannot.",
+          "C": "Incorrect. The relationship is useful to both animals, not inefficient.",
+          "D": "Incorrect. “Unequal” does not capture the mutual benefit described."
+        },
+        "short": "Because both animals benefit from the interaction, the relationship is reciprocal.",
+        "detailed": "The plover gets food, and the crocodile has bacteria removed from its mouth. Because both animals benefit from the interaction, the relationship is reciprocal."
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_number": 3,
+      "passage": "There was no formal measure in the United States Senate that could be [vocab]______[/vocab] to end what had been excessively prolonged as a tactic to block voting on a matter. In 2013, a measure was created to allow a majority of senators to curtail deliberation on a matter.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "invoked"
+        },
+        {
+          "label": "B",
+          "text": "improvised"
+        },
+        {
+          "label": "C",
+          "text": "partitioned"
+        },
+        {
+          "label": "D",
+          "text": "abolished"
+        }
+      ],
+      "correct_answer": "A",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m1_003",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "The measure would be used “to end” excessively prolonged deliberation.",
+        "why_correct": "A formal measure or rule can be “invoked,” meaning formally called on or put into effect.",
+        "choice_analysis": {
+          "A": "Correct. “Invoked” fits the use of a formal Senate measure.",
+          "B": "Incorrect. “Improvised” means made up on the spot, unlike a formal measure.",
+          "C": "Incorrect. “Partitioned” means divided, which does not fit using a measure.",
+          "D": "Incorrect. “Abolished” means ended or eliminated, but the sentence is about using a measure to end delay."
+        },
+        "short": "A formal measure or rule can be “invoked,” meaning formally called on or put into effect.",
+        "detailed": "The measure would be used “to end” excessively prolonged deliberation. A formal measure or rule can be “invoked,” meaning formally called on or put into effect."
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_number": 4,
+      "passage": "The following text is adapted from Akwaeke Emezi's 2019 novel Pet. Jam is a teenager who lives with her father, Aloe, and her mother, Bitter, who is a painter.\n\nBitter finished the painting in the dark morning of a day—it was well past midnight when Jam heard the studio door creak open. She stared into the velvet black of her room and listened to her mother's footsteps walking in her [mother] and Aloe's bedroom. There was a weight thrumming through the floorboards in a low song, and that was how Jam knew the painting was done. [u]Bitter's feet were singing the news.[/u]",
+      "prompt": "Which choice best states the function of the underlined sentence in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It describes Aloe's reaction upon seeing the painting for the first time."
+        },
+        {
+          "label": "B",
+          "text": "It indicates that Jam is more interested in music than in art."
+        },
+        {
+          "label": "C",
+          "text": "It adds to the idea that Bitter's footsteps reveal something to Jam."
+        },
+        {
+          "label": "D",
+          "text": "It indicates that Bitter always sings when working on a painting."
+        }
+      ],
+      "correct_answer": "C",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m1_004",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "Jam knows the painting is done from the “weight thrumming through the floorboards,” and the underlined sentence says “Bitter’s feet were singing the news.”",
+        "why_correct": "The underlined sentence reinforces the idea that Bitter’s footsteps communicate information to Jam.",
+        "choice_analysis": {
+          "A": "Incorrect. Aloe’s reaction is not described in the underlined sentence.",
+          "B": "Incorrect. The sentence is about Jam interpreting Bitter’s footsteps, not preferring music to art.",
+          "C": "Correct. It adds to the idea that Bitter’s footsteps reveal something to Jam.",
+          "D": "Incorrect. The passage does not say Bitter always sings while painting."
+        },
+        "short": "The underlined sentence reinforces the idea that Bitter’s footsteps communicate information to Jam.",
+        "detailed": "Jam knows the painting is done from the “weight thrumming through the floorboards,” and the underlined sentence says “Bitter’s feet were singing the news.” The underlined sentence reinforces the idea that Bitter’s footsteps communicate information to Jam."
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "structural_function"
+      }
+    },
+    {
+      "question_number": 5,
+      "passage": "In 2016 Ana Filipa Lopes and colleagues published a study concluding that ocean acidification has a strong effect on the behavior of Atherina presbyter, a species of fish. However, Lopes and colleagues’ study relied on a mean sample size of only about 15 fish. In a 2022 review of various scientists’ conclusions about the impacts of ocean acidification on fish behavior, Timothy D. Clark and colleagues caution that relying on such a relatively small sample size can increase the potential for biased analysis. Such analysis, in turn, can contribute to reports of exaggerated effects.",
+      "prompt": "Which choice best states the main purpose of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To discuss an aspect of ocean acidification that is frequently overlooked"
+        },
+        {
+          "label": "B",
+          "text": "To note a potential concern about the findings of a scientific study"
+        },
+        {
+          "label": "C",
+          "text": "To present a debate between two research teams about a cause of ocean acidification"
+        },
+        {
+          "label": "D",
+          "text": "To explain how the behavior of a fish species has changed over time"
+        }
+      ],
+      "correct_answer": "B",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m1_005",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "Clark and colleagues caution that the small sample size can increase biased analysis and exaggerate reported effects.",
+        "why_correct": "The text presents a concern about the reliability of Lopes and colleagues’ findings.",
+        "choice_analysis": {
+          "A": "Incorrect. The focus is not an overlooked aspect of ocean acidification.",
+          "B": "Correct. The text notes a methodological concern about a scientific study’s findings.",
+          "C": "Incorrect. The text does not present a debate about what causes ocean acidification.",
+          "D": "Incorrect. The text does not describe how fish behavior changed over time."
+        },
+        "short": "The text presents a concern about the reliability of Lopes and colleagues’ findings.",
+        "detailed": "Clark and colleagues caution that the small sample size can increase biased analysis and exaggerate reported effects. The text presents a concern about the reliability of Lopes and colleagues’ findings."
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "structural_function"
+      }
+    },
+    {
+      "question_number": 6,
+      "passage": "Habitat navigation is a skill that helps animals reach food or safety. To test how navigation works in fish, Shachar Givon and colleagues taught goldfish to drive a vehicle—a motorized fish tank with wheels—on land. The vehicle was programmed to move in the same direction that the fish swam in within the tank. In the experiment, the fish were tasked with driving their tank to a pink board. They received a treat when they succeeded, and they often did. Because the fish could move their tank to the board, Givon concludes that their navigational skills aren't specific to an aquatic environment.",
+      "prompt": "Which choice best states the main idea of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Fish can navigate only within their natural aquatic environment in order to find food and safety."
+        },
+        {
+          "label": "B",
+          "text": "An animal's navigational skills directly depend on that animal's particular environment."
+        },
+        {
+          "label": "C",
+          "text": "Researchers can train animals to complete many different tasks when they offer the animals treats."
+        },
+        {
+          "label": "D",
+          "text": "Research shows that although they live in the water, fish can navigate on land with a little mechanical help."
+        }
+      ],
+      "correct_answer": "D",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m1_006",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "Goldfish drove a wheeled tank to a target on land, and Givon concluded their navigation is not specific to water.",
+        "why_correct": "The main idea is that fish can navigate outside water when given mechanical help.",
+        "choice_analysis": {
+          "A": "Incorrect. This contradicts the experiment’s conclusion.",
+          "B": "Incorrect. The passage argues navigation is not limited to the aquatic environment.",
+          "C": "Incorrect. Treats are part of the experiment, not the main idea.",
+          "D": "Correct. It summarizes the experiment and conclusion about fish navigating on land with help."
+        },
+        "short": "The main idea is that fish can navigate outside water when given mechanical help.",
+        "detailed": "Goldfish drove a wheeled tank to a target on land, and Givon concluded their navigation is not specific to water. The main idea is that fish can navigate outside water when given mechanical help."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "main_idea_or_detail"
+      }
+    },
+    {
+      "question_number": 7,
+      "passage": "Examples of Hoards found in Ireland and Northern Ireland\n\n| Hoard name | Date of contents | Year of discovery | Description | |---|---|---:|---| | Carrick-on-Suir Hoard | 17th century CE | 2013 | gold coins | | Ardagh Hoard | 10th century CE | 1868 | silver and bronze pieces | | Balline Hoard | 4th century CE | 1940 | silver pieces |\n\nDeposits of valuable objects, or hoards, have been unearthed in many different parts of Ireland and Northern Ireland. Some of these hoards were discovered before 2000; for example, _____",
+      "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the Ardagh Hoard was discovered in 1868, and the Balline Hoard was discovered in 1940."
+        },
+        {
+          "label": "B",
+          "text": "the Ardagh Hoard was one of several hoards discovered in the 1800s."
+        },
+        {
+          "label": "C",
+          "text": "the Balline Hoard and the Carrick-on-Suir Hoard were both discovered in the 2000s."
+        },
+        {
+          "label": "D",
+          "text": "the Carrick-on-Suir Hoard was discovered in 1940, and the Balline Hoard was discovered in 2013."
+        }
+      ],
+      "correct_answer": "A",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m1_007",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "The table shows the Ardagh Hoard was discovered in 1868 and the Balline Hoard in 1940; both years are before 2000.",
+        "why_correct": "The sentence asks for examples of hoards discovered before 2000, and choice A gives two accurate examples.",
+        "choice_analysis": {
+          "A": "Correct. It accurately gives two pre-2000 discovery years from the table.",
+          "B": "Incorrect. The table does not show several hoards discovered in the 1800s; only Ardagh is listed in that century.",
+          "C": "Incorrect. Balline was discovered in 1940, not in the 2000s.",
+          "D": "Incorrect. It swaps the discovery years for Carrick-on-Suir and Balline."
+        },
+        "short": "The sentence asks for examples of hoards discovered before 2000, and choice A gives two accurate examples.",
+        "detailed": "The table shows the Ardagh Hoard was discovered in 1868 and the Balline Hoard in 1940; both years are before 2000. The sentence asks for examples of hoards discovered before 2000, and choice A gives two accurate examples."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "data_evidence"
+      },
+      "visual_assets": [
+        {
+          "type": "table",
+          "title": "Examples of Hoards found in Ireland and Northern Ireland",
+          "columns": [
+            "Hoard name",
+            "Date of contents",
+            "Year of discovery",
+            "Description"
+          ],
+          "rows": [
+            [
+              "Carrick-on-Suir Hoard",
+              "17th century CE",
+              "2013",
+              "gold coins"
+            ],
+            [
+              "Ardagh Hoard",
+              "10th century CE",
+              "1868",
+              "silver and bronze pieces"
+            ],
+            [
+              "Balline Hoard",
+              "4th century CE",
+              "1940",
+              "silver pieces"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 8,
+      "passage": "[Graph: Banded Sand Catsharks Found in Three Sponges. Y-axis: Number of sharks, 0 to 18. Categories: male, female, undetermined. Legend: sponge 1, sponge 2, sponge 3. Data: male: sponge 1 = 17, sponge 2 = 1, sponge 3 = 2; female: sponge 1 = 13, sponge 2 = 2, sponge 3 = 1; undetermined: sponge 1 = 0, sponge 2 = 3, sponge 3 = 15.]\n\nResearcher Helen O'Neill and her team were studying sponges in the family Irciniidae when they discovered that three of the sponges were functioning as microhabitats for banded sand catsharks (Atelomycterus fasciatus). Additionally, [u]the team found that male and female A. fasciatus share the same sponge (the same microhabitat)[/u], a behavior not found among Port Jackson sharks (Heterodontus portusjacksoni), another seabed-dwelling species.",
+      "prompt": "Which choice best describes data from the graph that support the underlined claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Each of the three sponges was inhabited by at least one male A. fasciatus and at least one female A. fasciatus."
+        },
+        {
+          "label": "B",
+          "text": "Sponge 1 was inhabited by 17 male A. fasciatus."
+        },
+        {
+          "label": "C",
+          "text": "Each of the three sponges was inhabited by at least one male A. fasciatus and at least one undetermined A. fasciatus."
+        },
+        {
+          "label": "D",
+          "text": "Sponge 1 was inhabited by 13 female A. fasciatus."
+        }
+      ],
+      "correct_answer": "A",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m1_008",
+      "needs_manual_review": false,
+      "chart_image": "chart_images/apac_b15_q008_graph.png",
+      "chart_image_data_uri": "../categories/chart_images/apac_b15_q008_graph.png",
+      "chart_image_width": 820,
+      "chart_image_height": 850,
+      "explanation": {
+        "key_evidence": "The graph shows every sponge has at least one male and at least one female A. fasciatus.",
+        "why_correct": "Those data directly support the claim that male and female A. fasciatus share the same sponge.",
+        "choice_analysis": {
+          "A": "Correct. It states the graph evidence needed for all three sponges.",
+          "B": "Incorrect. It mentions only males in sponge 1 and does not address females or all sponges.",
+          "C": "Incorrect. Undetermined sharks do not support the claim about male and female sharks sharing a sponge.",
+          "D": "Incorrect. It mentions only females in sponge 1 and does not show sharing across sponges."
+        },
+        "short": "Those data directly support the claim that male and female A. fasciatus share the same sponge.",
+        "detailed": "The graph shows every sponge has at least one male and at least one female A. fasciatus. Those data directly support the claim that male and female A. fasciatus share the same sponge."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "data_evidence"
+      },
+      "visual_assets": [
+        {
+          "type": "bar_chart",
+          "title": "Banded Sand Catsharks Found in Three Sponges"
+        }
+      ]
+    },
+    {
+      "question_number": 9,
+      "passage": "Olms are salamanders that live in underwater caves. Scientists once thought that olms stay in their caves all their lives. However, Raoul Manenti and team claim that [u]olms regularly come to the surface to perform important activities such as finding food.[/u]",
+      "prompt": "Which finding, if true, would most strongly support the underlined claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Researchers discover that earthworms from surface soils are a major part of olms' diet."
+        },
+        {
+          "label": "B",
+          "text": "Researchers learn that olms' brains differ from other salamanders' brains."
+        },
+        {
+          "label": "C",
+          "text": "Researchers confirm that olms live in only a few cave systems."
+        },
+        {
+          "label": "D",
+          "text": "Researchers determine that olms don't breed often."
+        }
+      ],
+      "correct_answer": "A",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m1_009",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "The claim says olms come to the surface for important activities such as finding food.",
+        "why_correct": "If surface-soil earthworms are a major part of olms’ diet, that directly supports the idea that olms surface to find food.",
+        "choice_analysis": {
+          "A": "Correct. It connects olms’ food source to the surface.",
+          "B": "Incorrect. Brain differences do not show that olms surface for food.",
+          "C": "Incorrect. Where olms live does not support the claim about surfacing to feed.",
+          "D": "Incorrect. Breeding frequency is unrelated to the surface-for-food claim."
+        },
+        "short": "If surface-soil earthworms are a major part of olms’ diet, that directly supports the idea that olms surface to find food.",
+        "detailed": "The claim says olms come to the surface for important activities such as finding food. If surface-soil earthworms are a major part of olms’ diet, that directly supports the idea that olms surface to find food."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "textual_evidence"
+      }
+    },
+    {
+      "question_number": 10,
+      "passage": "Maximum Charge Measured for Various Pollinators\n\n[Bar graph. Y-axis: Picocoulombs (pC), 0 to 1,000. Data for maximum charge: bumblebees = about 900 pC; European peacock butterflies = about 300 pC; houseflies = about 100 pC.]\n\nStudies have shown that plants usually have a negative electrical charge, while bees and other pollinators tend to have a positive charge. Because negatively and positively charged objects attract, a team of researchers examined whether this mechanism plays a role in the transmission of pollen between plants and pollinators. The researchers’ experiments showed that positive charges above 200 picocoulombs (pC) could draw pollen grains to a pollinator, so they concluded that both bumblebees and European peacock butterflies can attract pollen.",
+      "prompt": "Which choice best describes data from the graph that support the team's conclusion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Both the bumblebees and the European peacock butterflies were found to have maximum charges greater than 200 pC."
+        },
+        {
+          "label": "B",
+          "text": "The bumblebees were found to have a maximum charge many times greater than that found for the houseflies."
+        },
+        {
+          "label": "C",
+          "text": "The European peacock butterflies were found to have a greater maximum charge than the bumblebees and the houseflies were found to have."
+        },
+        {
+          "label": "D",
+          "text": "The houseflies were found to have a maximum charge below 200 pC."
+        }
+      ],
+      "correct_answer": "A",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m1_010",
+      "needs_manual_review": false,
+      "chart_image": "chart_images/apac_b15_q010_graph.png",
+      "chart_image_data_uri": "../categories/chart_images/apac_b15_q010_graph.png",
+      "chart_image_width": 660,
+      "chart_image_height": 830,
+      "explanation": {
+        "short": "Both named pollinators have maximum measured charges above the 200-pC level shown to attract pollen.",
+        "key_evidence": "The graph places bumblebees near 900 pC and European peacock butterflies near 300 pC; both exceed 200 pC.",
+        "why_correct": "The text establishes that charges above 200 pC can draw pollen. A explicitly identifies both pollinators as meeting that sufficient condition.",
+        "detailed": "Test both species named in the conclusion against the experimentally sufficient charge. Bumblebees and butterflies are both above 200 pC, so A supports the claim about both. A comparison involving only bumblebees and houseflies would leave the butterfly claim unsupported. The graph also places butterflies below, not above, bumblebees.",
+        "choice_analysis": {
+          "A": "Correct. Both 900 pC and 300 pC exceed the stated sufficient level of 200 pC.",
+          "B": "Incorrect. This comparison includes no evidence about whether butterflies meet the sufficient charge condition.",
+          "C": "Incorrect. Butterflies have a lower maximum charge than bumblebees, so the stated ordering is false.",
+          "D": "Incorrect. The houseflies' lower charge does not establish either named pollinator's capacity."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "data_evidence"
+      },
+      "visual_assets": [
+        {
+          "type": "bar_chart",
+          "title": "Maximum Charge Measured for Various Pollinators"
+        }
+      ]
+    },
+    {
+      "question_number": 11,
+      "passage": "Number of the 23 Non-native Tree Species Grown in Three Countries\n\n[Bar graph. Y-axis: Number of species, 0 to 14. Data: Denmark = 12 species, Belgium = 4 species, Finland = 6 species.]\n\nElisabeth Pötzelsberger and colleagues gathered data on 23 non-native tree species grown in Europe. They analyzed reports from Denmark, Finland, and Belgium about the number of these species grown by the timber industries in those countries. The researchers concluded that none of these countries’ timber industries grow all 23 species.",
+      "prompt": "Which choice best describes data from the graph that support Pötzelsberger and colleagues’ conclusion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "There are species other than those reported by Belgium that are important to its timber industry, but they’re native to the country."
+        },
+        {
+          "label": "B",
+          "text": "Some of the species that Finland reported are not among the 23 tree species that Pötzelsberger and colleagues were evaluating."
+        },
+        {
+          "label": "C",
+          "text": "Denmark, Finland, and Belgium each reported at least 4 of the 23 species."
+        },
+        {
+          "label": "D",
+          "text": "Denmark, which reported more of the 23 species than either Finland or Belgium did, reported fewer than 15 of the species."
+        }
+      ],
+      "correct_answer": "D",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m1_011",
+      "needs_manual_review": false,
+      "chart_image": "chart_images/apac_b15_q011_graph.png",
+      "chart_image_data_uri": "../categories/chart_images/apac_b15_q011_graph.png",
+      "chart_image_width": 650,
+      "chart_image_height": 760,
+      "explanation": {
+        "key_evidence": "The graph shows Denmark reported 12 of the 23 species, Belgium 4, and Finland 6.",
+        "why_correct": "Choice D uses the strongest relevant data: even Denmark, the country with the highest reported count, reported fewer than all 23 species.",
+        "choice_analysis": {
+          "A": "Incorrect. The graph does not show native species or other Belgian timber species outside the 23.",
+          "B": "Incorrect. The graph reports counts only; it does not show that Finland reported species outside the evaluated set.",
+          "C": "Incorrect. Although true, “at least 4” does not support the conclusion that none of the countries grow all 23 species.",
+          "D": "Correct. Denmark has the highest count at 12, which is still fewer than 15 and therefore far fewer than all 23 species."
+        },
+        "short": "Choice D uses the strongest relevant data: even Denmark, the country with the highest reported count, reported fewer than all 23 species.",
+        "detailed": "The graph shows Denmark reported 12 of the 23 species, Belgium 4, and Finland 6. Choice D uses the strongest relevant data: even Denmark, the country with the highest reported count, reported fewer than all 23 species."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "data_evidence"
+      },
+      "visual_assets": [
+        {
+          "type": "bar_chart",
+          "title": "Number of the 23 Non-native Tree Species Grown in Three Countries"
+        }
+      ]
+    },
+    {
+      "question_number": 12,
+      "passage": "Creeping dogwood (Cornus canadensis) plants are native to Alaska, where harsh conditions have historically impeded potential invasive species. As the boreal climate has warmed in recent decades, however, common knotgrass (Polygonum aviculare) plants have established themselves in Alaska. It has been suggested that warming-induced delays in the onset of subfreezing temperatures in autumn can benefit invasives more than native species; to evaluate this possibility, biologists Christa Mulder and Katie Spellman tracked C. canadensis and P. aviculare, along with other native and invasive species, over several years, concluding that invasives are advantaged by delays in subfreezing temperature onset in Alaska.",
+      "prompt": "Which finding, if true, would most directly support Mulder and Spellman's conclusion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Although C. canadensis and P. aviculare both tended to produce leaves later into autumn in years with late subfreezing temperature onset, the extension was much greater for P. aviculare than for C. canadensis."
+        },
+        {
+          "label": "B",
+          "text": "Although C. canadensis and P. aviculare both tended to produce more leaves overall in years with late subfreezing temperature onset than they did in years with historically typical temperature patterns, the years with late subfreezing temperature onset also had early growing season onset in spring."
+        },
+        {
+          "label": "C",
+          "text": "Although C. canadensis and P. aviculare tended to stop producing leaves at about the same time in years with historically typical temperature patterns, P. aviculare stopped producing leaves sooner than C. canadensis did in years with late subfreezing temperature onset."
+        },
+        {
+          "label": "D",
+          "text": "Although significant interannual variations in subfreezing temperature onset were observed during the study, neither P. aviculare nor C. canadensis showed any significant interannual variation in the cessation of leaf production."
+        }
+      ],
+      "correct_answer": "A",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m1_012",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "The conclusion is that invasive plants are advantaged when autumn subfreezing temperatures are delayed.",
+        "why_correct": "Choice A directly shows the invasive P. aviculare extending leaf production much more than the native C. canadensis under late-freezing conditions.",
+        "choice_analysis": {
+          "A": "Correct. It shows a larger benefit for the invasive species than for the native species.",
+          "B": "Incorrect. It introduces an early spring onset variable, so it does not directly isolate the autumn-delay advantage.",
+          "C": "Incorrect. It says the invasive stopped producing leaves sooner, which would weaken the conclusion.",
+          "D": "Incorrect. It says neither species varied significantly, which would not support an advantage for invasives."
+        },
+        "short": "Choice A directly shows the invasive P. aviculare extending leaf production much more than the native C. canadensis under late-freezing conditions.",
+        "detailed": "The conclusion is that invasive plants are advantaged when autumn subfreezing temperatures are delayed. Choice A directly shows the invasive P. aviculare extending leaf production much more than the native C. canadensis under late-freezing conditions."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "textual_evidence"
+      }
+    },
+    {
+      "question_number": 13,
+      "passage": "Southern Colorado's Conejos County is among the most rural counties in the United States; the US Census Bureau classified it as 100% rural in 2010. Researchers studying populations of counties like Conejos often struggle to recruit and retain participants. Melissa Valerio and colleagues tested whether a method called snowball sampling could improve recruitment and retention. Working in two rural counties, the researchers identified a small number of people who had the characteristics desired for a proposed study and asked them to recruit additional participants from their social networks. Valerio and colleagues found that participants recruited via snowball sampling showed a much higher retention rate than did people recruited by strangers, suggesting that ______.",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "social networks can become large enough that two people can share a network but nevertheless regard each other as strangers."
+        },
+        {
+          "label": "B",
+          "text": "snowball sampling is more likely to improve retention rates among rural participants than among nonrural participants."
+        },
+        {
+          "label": "C",
+          "text": "people with relatively small social networks are inherently less likely to be recruited to participate in a study via snowball sampling than are people with relatively large social networks."
+        },
+        {
+          "label": "D",
+          "text": "being recruited to participate in a study by someone with whom one is socially connected may impart a feeling of obligation to persist with participation in the study."
+        }
+      ],
+      "correct_answer": "D",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m1_013",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "Participants recruited through social networks had much higher retention than people recruited by strangers.",
+        "why_correct": "Choice D explains why social-network recruitment could improve retention: a social connection may create an obligation to continue participating.",
+        "choice_analysis": {
+          "A": "Incorrect. It discusses large social networks but does not explain the higher retention.",
+          "B": "Incorrect. The study described rural counties only, so it does not compare rural and nonrural participants.",
+          "C": "Incorrect. It speculates about who is likely to be recruited, not why retention was higher.",
+          "D": "Correct. It gives a plausible explanation for why socially connected recruitment improved retention."
+        },
+        "short": "Choice D explains why social-network recruitment could improve retention: a social connection may create an obligation to continue participating.",
+        "detailed": "Participants recruited through social networks had much higher retention than people recruited by strangers. Choice D explains why social-network recruitment could improve retention: a social connection may create an obligation to continue participating."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_number": 14,
+      "passage": "In the periodic table, an element's atomic number indicates how many protons there are in an atom of the element. For example, a xenon atom _____ 54 protons. Professor Raymond Chang explains this concept in more detail in the textbook Chemistry.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "had"
+        },
+        {
+          "label": "B",
+          "text": "has had"
+        },
+        {
+          "label": "C",
+          "text": "has"
+        },
+        {
+          "label": "D",
+          "text": "is having"
+        }
+      ],
+      "correct_answer": "C",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m1_014",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "The sentence states a general scientific fact about a xenon atom.",
+        "why_correct": "General facts take the simple present tense, so “has” is the correct verb.",
+        "choice_analysis": {
+          "A": "Incorrect. “Had” incorrectly makes the fact past tense.",
+          "B": "Incorrect. “Has had” is unnecessary for a permanent scientific property.",
+          "C": "Correct. “Has” states the general fact cleanly.",
+          "D": "Incorrect. “Is having” is progressive and unnatural for a stable property."
+        },
+        "short": "General facts take the simple present tense, so “has” is the correct verb.",
+        "detailed": "The sentence states a general scientific fact about a xenon atom. General facts take the simple present tense, so “has” is the correct verb."
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_number": 15,
+      "passage": "Koulsy Lamko, born in 1959, is a playwright from Dadouar, Chad. In recent years more writers from Chad, including Lamko, _____ to reach audiences beyond the African nation's borders.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "have begun"
+        },
+        {
+          "label": "B",
+          "text": "is beginning"
+        },
+        {
+          "label": "C",
+          "text": "has begun"
+        },
+        {
+          "label": "D",
+          "text": "begins"
+        }
+      ],
+      "correct_answer": "A",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m1_015",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "The subject is the plural noun phrase “more writers from Chad, including Lamko.”",
+        "why_correct": "The plural subject requires the plural present-perfect verb “have begun.”",
+        "choice_analysis": {
+          "A": "Correct. “Have begun” agrees with the plural subject and fits “In recent years.”",
+          "B": "Incorrect. “Is beginning” is singular.",
+          "C": "Incorrect. “Has begun” is singular.",
+          "D": "Incorrect. “Begins” is singular and does not fit the time phrase as well."
+        },
+        "short": "The plural subject requires the plural present-perfect verb “have begun.”",
+        "detailed": "The subject is the plural noun phrase “more writers from Chad, including Lamko.” The plural subject requires the plural present-perfect verb “have begun.”"
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_number": 16,
+      "passage": "The Borgia map is a mappa mundi from the fifteenth century. Currently held at the Vatican Library in Vatican City, it is one of over 1,000 such world maps from the European Middle Ages still remaining, with the even older Hereford map from the fourteenth century (now held at Hereford Cathedral in Hereford, England) ________ another one.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "being"
+        },
+        {
+          "label": "B",
+          "text": "is"
+        },
+        {
+          "label": "C",
+          "text": "has been"
+        },
+        {
+          "label": "D",
+          "text": "was"
+        }
+      ],
+      "correct_answer": "A",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m1_016",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "The phrase begins with “with the even older Hereford map...” and adds supplementary information.",
+        "why_correct": "The “with + noun + participle” construction requires the participle “being,” not a finite verb.",
+        "choice_analysis": {
+          "A": "Correct. “Being” completes the supplementary “with” phrase.",
+          "B": "Incorrect. “Is” would create a finite clause where the prepositional phrase needs a participle.",
+          "C": "Incorrect. “Has been” is a finite verb phrase and does not fit after “with.”",
+          "D": "Incorrect. “Was” is also a finite verb and disrupts the structure."
+        },
+        "short": "The “with + noun + participle” construction requires the participle “being,” not a finite verb.",
+        "detailed": "The phrase begins with “with the even older Hereford map...” and adds supplementary information. The “with + noun + participle” construction requires the participle “being,” not a finite verb."
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "mixed_convention"
+      }
+    },
+    {
+      "question_number": 17,
+      "passage": "The African baobab (*Adansonia digitata*) known as Panke Baobab, located in Zimbabwe, was one of the oldest known trees in the world, at 2,419 years old. With over two millennia of climate data in its tree _____ single tree like this, claims dendrochronologist Valerie Trouet, can tell the history of the world.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "rings, a"
+        },
+        {
+          "label": "B",
+          "text": "rings. A"
+        },
+        {
+          "label": "C",
+          "text": "rings and a"
+        },
+        {
+          "label": "D",
+          "text": "rings; a"
+        }
+      ],
+      "correct_answer": "A",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m1_017",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "“With over two millennia of climate data in its tree rings” is an introductory phrase before the main clause.",
+        "why_correct": "A comma after “rings” correctly separates the introductory phrase from the main clause “a single tree like this... can tell.”",
+        "choice_analysis": {
+          "A": "Correct. The comma separates the introductory phrase from the main clause.",
+          "B": "Incorrect. A period creates a fragment before the main clause.",
+          "C": "Incorrect. “And” incorrectly joins the phrase to the subject.",
+          "D": "Incorrect. A semicolon cannot follow a dependent introductory phrase."
+        },
+        "short": "A comma after “rings” correctly separates the introductory phrase from the main clause “a single tree like this... can tell.”",
+        "detailed": "“With over two millennia of climate data in its tree rings” is an introductory phrase before the main clause. A comma after “rings” correctly separates the introductory phrase from the main clause “a single tree like this... can tell.”"
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_number": 18,
+      "passage": "The transit method, a means of indirect planetary discovery, has detected previously unknown exoplanets at vast distances from _____ the super Earth TRAPPIST-1 b; at 352 light-years away, the super Earth Kepler-102 f; and, as of 2023, over 4,000 other exoplanets that are too far away and dim to be observed directly.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Earth; at 41 light-years away,"
+        },
+        {
+          "label": "B",
+          "text": "Earth at 41 light-years away:"
+        },
+        {
+          "label": "C",
+          "text": "Earth, at 41 light-years away,"
+        },
+        {
+          "label": "D",
+          "text": "Earth at 41 light-years away,"
+        }
+      ],
+      "correct_answer": "C",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m1_018",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "The second example is phrased “at 352 light-years away, the super Earth Kepler-102 f.”",
+        "why_correct": "Choice C creates the same comma-set pattern for the first example: “Earth, at 41 light-years away, the super Earth TRAPPIST-1 b.”",
+        "choice_analysis": {
+          "A": "Incorrect. A semicolon after “Earth” would incorrectly break the sentence before a fragment.",
+          "B": "Incorrect. A colon after the distance does not match the list structure.",
+          "C": "Correct. The commas preserve the parallel structure of the examples.",
+          "D": "Incorrect. Without a comma after “Earth,” the distance phrase is awkwardly attached to Earth rather than the exoplanet example."
+        },
+        "short": "Choice C creates the same comma-set pattern for the first example: “Earth, at 41 light-years away, the super Earth TRAPPIST-1 b.”",
+        "detailed": "The second example is phrased “at 352 light-years away, the super Earth Kepler-102 f.” Choice C creates the same comma-set pattern for the first example: “Earth, at 41 light-years away, the super Earth TRAPPIST-1 b.”"
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_number": 19,
+      "passage": "L. Leann Kanda, a researcher and sewing enthusiast, experimented with several techniques in her attempt to replicate the famous pleating of the Fortuny Delphos gown. The specific method, which the fashion ______ developed in the early twentieth century, is considered lost.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "designers, Henriette Nigrin and Mariano Fortuny y Madrazo"
+        },
+        {
+          "label": "B",
+          "text": "designers Henriette Nigrin and Mariano Fortuny y Madrazo"
+        },
+        {
+          "label": "C",
+          "text": "designers Henriette Nigrin and Mariano Fortuny y Madrazo,"
+        },
+        {
+          "label": "D",
+          "text": "designers, Henriette Nigrin and Mariano Fortuny y Madrazo,"
+        }
+      ],
+      "correct_answer": "B",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m1_019",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "The names identify which fashion designers developed the method.",
+        "why_correct": "Because the names are essential to identify the designers, no commas should set them off.",
+        "choice_analysis": {
+          "A": "Incorrect. A comma after “designers” incorrectly treats the names as nonessential while leaving no closing comma.",
+          "B": "Correct. No commas are needed for the restrictive identifying names.",
+          "C": "Incorrect. A comma after the names incorrectly interrupts the subject-verb connection.",
+          "D": "Incorrect. The comma pair treats the names as nonessential, but they identify the designers."
+        },
+        "short": "Because the names are essential to identify the designers, no commas should set them off.",
+        "detailed": "The names identify which fashion designers developed the method. Because the names are essential to identify the designers, no commas should set them off."
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_number": 20,
+      "passage": "While studying jorō spiders, a large species originally from East Asia, University of Georgia researchers wondered if the spiders’ rapid spread throughout the southeastern US was a result of aggressive behavior. ______ they discovered that jorō spiders are gentle giants who react to even minor disturbances by “freezing” in place for an hour or more.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "In other words,"
+        },
+        {
+          "label": "B",
+          "text": "Therefore,"
+        },
+        {
+          "label": "C",
+          "text": "For example,"
+        },
+        {
+          "label": "D",
+          "text": "Instead,"
+        }
+      ],
+      "correct_answer": "D",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m1_020",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "The researchers expected aggressive behavior, but they found the spiders are “gentle giants.”",
+        "why_correct": "“Instead” signals the contrast between the expected explanation and the surprising finding.",
+        "choice_analysis": {
+          "A": "Incorrect. “In other words” would restate the same idea, but the second sentence contrasts with the first.",
+          "B": "Incorrect. “Therefore” would indicate a result, not an opposing discovery.",
+          "C": "Incorrect. “For example” would introduce an example, not a contrast.",
+          "D": "Correct. “Instead” marks the shift from expected aggression to gentle behavior."
+        },
+        "short": "“Instead” signals the contrast between the expected explanation and the surprising finding.",
+        "detailed": "The researchers expected aggressive behavior, but they found the spiders are “gentle giants.” “Instead” signals the contrast between the expected explanation and the surprising finding."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_number": 21,
+      "passage": "Some bands choose a name that's as unique as possible to distinguish themselves from other bands. The electronic rock band Primary, __________, took a different approach. They chose to name themselves after a song by a well-known band, the Cure.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "therefore,"
+        },
+        {
+          "label": "B",
+          "text": "by contrast,"
+        },
+        {
+          "label": "C",
+          "text": "for example,"
+        },
+        {
+          "label": "D",
+          "text": "secondly,"
+        }
+      ],
+      "correct_answer": "B",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m1_021",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "The passage says many bands choose unique names, but Primary \"took a different approach\" by naming itself after a song by the Cure.",
+        "why_correct": "Choice B, \"by contrast,\" correctly signals that Primary is being presented as a contrast to the general practice described in the first sentence.",
+        "choice_analysis": {
+          "A": "Incorrect. \"Therefore\" would make Primary's choice a result of the previous sentence, but the text presents a different approach instead.",
+          "B": "Correct. \"By contrast\" introduces a difference between the general pattern and Primary's naming choice.",
+          "C": "Incorrect. \"For example\" would make Primary an example of choosing a unique name, which contradicts \"took a different approach.\"",
+          "D": "Incorrect. \"Secondly\" would signal a list or sequence, but the passage is comparing two approaches."
+        },
+        "short": "\"By contrast\" fits because Primary's naming choice differs from the general practice.",
+        "detailed": "The first sentence describes bands choosing highly unique names. The next sentence says Primary \"took a different approach\" and named itself after a well-known band's song. That relationship is contrast, so B is correct."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_number": 22,
+      "passage": "Portuguese researcher Isabel C.F. Ferreira reports that the caffeic acid in termite mushrooms benefits the mushroom by combating harmful molecules called free radicals. ______ Ferreira suggests that the acid can promote cellular health in humans, who also experience free radical damage.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Conversely,"
+        },
+        {
+          "label": "B",
+          "text": "Moreover,"
+        },
+        {
+          "label": "C",
+          "text": "Rather,"
+        },
+        {
+          "label": "D",
+          "text": "For example,"
+        }
+      ],
+      "correct_answer": "B",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m1_022",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "Ferreira reports caffeic acid benefits termite mushrooms and also suggests it can promote cellular health in humans.",
+        "why_correct": "Choice B, \"Moreover,\" correctly adds a related benefit; the second sentence extends the same idea rather than contrasting with it.",
+        "choice_analysis": {
+          "A": "Incorrect. \"Conversely\" signals an opposite relationship, but both sentences describe benefits of caffeic acid.",
+          "B": "Correct. \"Moreover\" adds another related point about the acid's benefits.",
+          "C": "Incorrect. \"Rather\" would correct or replace the previous idea, which the second sentence does not do.",
+          "D": "Incorrect. \"For example\" would introduce a specific example of the mushroom benefit, but the human benefit is an additional related claim."
+        },
+        "short": "\"Moreover\" fits because the second sentence adds another related benefit.",
+        "detailed": "The first sentence explains a benefit for mushrooms; the second extends the discussion to a benefit for humans. The logical connector should add information, making B correct."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_number": 23,
+      "passage": "The Eloi are not real; they are fictional creatures that feature in H.G. Wells's acclaimed science fiction novella *The Time Machine*. _______ the Eloi were prime candidates for inclusion in Jorge Luis Borges and Margarita Guerrero's *The Book of Imaginary Beings*, a compendium of fantastical entities from legend and literature.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Granted,"
+        },
+        {
+          "label": "B",
+          "text": "In reality,"
+        },
+        {
+          "label": "C",
+          "text": "As such,"
+        },
+        {
+          "label": "D",
+          "text": "For example,"
+        }
+      ],
+      "correct_answer": "C",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m1_023",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "The first sentence identifies the Eloi as fictional creatures, and the second says they were candidates for a book of imaginary beings.",
+        "why_correct": "Choice C, \"As such,\" shows that their status as fictional beings leads naturally to their inclusion in a book about imaginary beings.",
+        "choice_analysis": {
+          "A": "Incorrect. \"Granted\" would concede a point before a contrast, but the second sentence follows from the first.",
+          "B": "Incorrect. \"In reality\" would suggest correction or contrast, which does not fit a claim about fictional creatures in a book of imaginary beings.",
+          "C": "Correct. \"As such\" means in that capacity, linking the Eloi's fictional nature to their suitability for the book.",
+          "D": "Incorrect. \"For example\" would make the book inclusion an example of the Eloi being fictional; the sentence is instead a consequence of that fact."
+        },
+        "short": "\"As such\" fits because being fictional makes the Eloi suitable for a book of imaginary beings.",
+        "detailed": "The passage first establishes that the Eloi are fictional. It then states that they were fitting candidates for Borges and Guerrero's compendium of imaginary beings. That is a consequence relationship, so C is correct."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_number": 24,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• A supercontinent is a single landmass made up of most or all of Earth's continents.\n• Over time, continents merge together to form supercontinents, which then break apart.\n• This process is believed to take hundreds of millions of years and is known as the supercontinent cycle.\n• Ur was a supercontinent that formed about 3.1 billion years ago.\n• Pangaea was a supercontinent that formed about 300 million years ago.",
+      "prompt": "The student wants to emphasize the order in which the supercontinents were formed. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The supercontinent Pangaea formed long after the supercontinent Ur."
+        },
+        {
+          "label": "B",
+          "text": "Forming and breaking apart over hundreds of millions of years, supercontinents are made up of most or all of Earth's continents."
+        },
+        {
+          "label": "C",
+          "text": "Ur and Pangaea were both supercontinents, single landmasses made up of most or all of Earth's continents."
+        },
+        {
+          "label": "D",
+          "text": "Ur formed about 3.1 billion years ago but eventually broke apart."
+        }
+      ],
+      "correct_answer": "A",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m1_024",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "The notes state that Ur formed about 3.1 billion years ago and Pangaea formed about 300 million years ago.",
+        "why_correct": "Choice A best emphasizes order because it directly compares the formation times and states that Pangaea formed long after Ur.",
+        "choice_analysis": {
+          "A": "Correct. It uses the relevant dates to express the chronological order of the two supercontinents.",
+          "B": "Incorrect. It gives general information about supercontinents but does not compare when Ur and Pangaea formed.",
+          "C": "Incorrect. It identifies both as supercontinents but omits their order of formation.",
+          "D": "Incorrect. It mentions only Ur and does not establish how Ur's formation relates to Pangaea's."
+        },
+        "short": "Choice A directly states the chronological relationship between Ur and Pangaea.",
+        "detailed": "The student wants to emphasize order. The notes give formation dates for Ur and Pangaea, and A uses those dates to show that Pangaea came much later than Ur."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_number": 25,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Charles Bertram Johnson (1880-1958) was an African American poet.\n• Johnson also worked as an educator and minister.\n• \"Old Things\" is a poem by Johnson.\n• It was published in the March 1923 issue of The Crisis.\n• The Crisis is an influential Black literary magazine.",
+      "prompt": "The student wants to provide an example of a poem by Johnson. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Johnson was an African American poet, educator, and minister."
+        },
+        {
+          "label": "B",
+          "text": "Johnson published poetry in a literary magazine called The Crisis."
+        },
+        {
+          "label": "C",
+          "text": "One example of a poem by Johnson is \"Old Things\" (1923)."
+        },
+        {
+          "label": "D",
+          "text": "The Crisis is an influential Black literary magazine that has published poetry."
+        }
+      ],
+      "correct_answer": "C",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m1_025",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "The notes identify \"Old Things\" as a poem by Charles Bertram Johnson and say it was published in 1923.",
+        "why_correct": "Choice C directly provides the requested example by naming a specific poem by Johnson.",
+        "choice_analysis": {
+          "A": "Incorrect. It describes Johnson's roles but does not give an example of a poem.",
+          "B": "Incorrect. It mentions a publication venue but does not name a poem by Johnson.",
+          "C": "Correct. It names \"Old Things\" as an example of a poem by Johnson.",
+          "D": "Incorrect. It describes The Crisis but does not provide a specific poem by Johnson."
+        },
+        "short": "Choice C names a specific poem by Johnson.",
+        "detailed": "The goal is to provide an example of a poem by Johnson. Only C names a specific poem, \"Old Things,\" and therefore uses the relevant note most directly."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_number": 26,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Body positions are an important part of dance.\n• In ballroom dance, there is a position called closed facing position.\n• It is one of several positions for partner dancing.",
+      "prompt": "The student wants to provide an example of a position in ballroom dance. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Closed facing position is an example of a position in ballroom dance."
+        },
+        {
+          "label": "B",
+          "text": "In dance, some positions are for partner dancing."
+        },
+        {
+          "label": "C",
+          "text": "Body positions are an important part of dance, including ballroom dance."
+        },
+        {
+          "label": "D",
+          "text": "Ballroom dance includes several dance positions for partner dancing."
+        }
+      ],
+      "correct_answer": "A",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m1_026",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "The notes state that closed facing position is a position used in ballroom dance.",
+        "why_correct": "Choice A directly gives the requested example by naming closed facing position as a ballroom dance position.",
+        "choice_analysis": {
+          "A": "Correct. It gives a specific example from the notes: closed facing position.",
+          "B": "Incorrect. It discusses partner dancing generally but gives no specific ballroom dance position.",
+          "C": "Incorrect. It makes a broad claim about body positions without giving the requested example.",
+          "D": "Incorrect. It says several positions exist but does not name one."
+        },
+        "short": "Choice A provides the specific example requested.",
+        "detailed": "The student wants an example of a position in ballroom dance. The notes name closed facing position, and A directly states that it is such an example."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_number": 27,
+      "passage": "Studying advertisements for defunct amusement parks, postcards from vanished tourist destinations, and handbills promoting long-forgotten political candidates may seem like a frivolous pursuit, but ephemeral objects like these are useful as evidence of cultural change: they can [vocab]______[/vocab] shifts in norms, values, and concerns that traditional objects of historical inquiry may not.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "dissociate from"
+        },
+        {
+          "label": "B",
+          "text": "attest to"
+        },
+        {
+          "label": "C",
+          "text": "collude with"
+        },
+        {
+          "label": "D",
+          "text": "compensate for"
+        }
+      ],
+      "correct_answer": "B",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m1_027",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "The passage says ephemeral objects are \"useful as evidence of cultural change\" and can ___ shifts in norms, values, and concerns.",
+        "why_correct": "Choice B, \"attest to,\" means provide evidence of, which matches the role assigned to ephemeral objects in the sentence.",
+        "choice_analysis": {
+          "A": "Incorrect. \"Dissociate from\" means separate from, the opposite of showing evidence of shifts.",
+          "B": "Correct. \"Attest to\" means serve as evidence of, matching the phrase \"useful as evidence.\"",
+          "C": "Incorrect. \"Collude with\" means secretly cooperate, which is illogical for objects and unrelated to evidence.",
+          "D": "Incorrect. \"Compensate for\" means make up for something; the passage says the objects reveal shifts, not make up for them."
+        },
+        "short": "\"Attest to\" fits because the objects serve as evidence of cultural shifts.",
+        "detailed": "The sentence explicitly frames ephemeral objects as evidence. The blank therefore needs a phrase meaning to provide evidence of, which is \"attest to.\""
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_number": 28,
+      "passage": "In the architectural process called modular construction, a building is manufactured in modules under controlled conditions and then assembled at its intended location. [vocab]______[/vocab] of this approach cite the production of less material waste and the need for fewer personnel.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Safeguards"
+        },
+        {
+          "label": "B",
+          "text": "Components"
+        },
+        {
+          "label": "C",
+          "text": "Epitomes"
+        },
+        {
+          "label": "D",
+          "text": "Proponents"
+        }
+      ],
+      "correct_answer": "D",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m2_001",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "The sentence says people cite advantages of modular construction, including less material waste and fewer personnel.",
+        "why_correct": "Choice D, \"Proponents,\" means supporters or advocates, the kind of people who would cite benefits of an approach.",
+        "choice_analysis": {
+          "A": "Incorrect. \"Safeguards\" are protective measures, not people who cite benefits.",
+          "B": "Incorrect. \"Components\" are parts, not advocates of a construction method.",
+          "C": "Incorrect. \"Epitomes\" are perfect examples, not people presenting arguments for the approach.",
+          "D": "Correct. \"Proponents\" are supporters who would cite advantages of modular construction."
+        },
+        "short": "\"Proponents\" fits because supporters of an approach cite its benefits.",
+        "detailed": "The blank must name a group that can cite benefits. Since the sentence lists advantages of modular construction, the people doing the citing are its supporters, or proponents."
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_number": 29,
+      "passage": "Run by researchers in multiple countries, the Study on Global Ageing and Adult Health (SAGE) is an examination of aging that has attempted to track approximately 66,000 people for several years. Long-running studies like this need a lot of participants not merely for statistical robustness but also because of [vocab]______[/vocab]: over such a length of time, a substantial number of participants will withdraw or fall out of contact with the researchers.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "impartiality"
+        },
+        {
+          "label": "B",
+          "text": "circumspection"
+        },
+        {
+          "label": "C",
+          "text": "replicability"
+        },
+        {
+          "label": "D",
+          "text": "attrition"
+        }
+      ],
+      "correct_answer": "D",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m2_002",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "The passage explains that many participants in a long-running study will withdraw or fall out of contact over time.",
+        "why_correct": "Choice D, \"attrition,\" precisely means a gradual reduction in number, which fits the loss of participants described.",
+        "choice_analysis": {
+          "A": "Incorrect. \"Impartiality\" means lack of bias, not participants leaving a study.",
+          "B": "Incorrect. \"Circumspection\" means caution and does not describe participant loss.",
+          "C": "Incorrect. \"Replicability\" concerns whether a study can be repeated, not whether participants drop out.",
+          "D": "Correct. \"Attrition\" describes the gradual loss of participants over time."
+        },
+        "short": "\"Attrition\" fits because the sentence describes participants dropping out over time.",
+        "detailed": "Long-running studies need many participants partly because some will withdraw or lose contact with researchers. That gradual loss is attrition, so D is correct."
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_number": 31,
+      "passage": "The Reckoning and Resilience (2022) exhibition at Duke University's Nasher Museum of Art in Durham, North Carolina, was curated to feature the work of thirty North Carolina artists. The included artists represent a wide variety of artistic disciplines, from painters such as William Paul Thomas to the mixed-media artist Johannes Barfield. In its inclusion of many borrowed works, the exhibition is atypical for the Nasher Museum, which tends to curate its exhibitions around the permanent collection of contemporary art that it owns.",
+      "prompt": "Which choice best describes the overall structure of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It discusses the wide range of disciplines represented in an art exhibition, then explains why curators included works in those disciplines."
+        },
+        {
+          "label": "B",
+          "text": "It provides an overview of an art exhibition, then explains what makes the exhibition unusual for the institution that organized it."
+        },
+        {
+          "label": "C",
+          "text": "It explains how an art exhibition differs from many other exhibitions, then analyzes the significance of that difference."
+        },
+        {
+          "label": "D",
+          "text": "It presents the unusual goals curators had for an art exhibition, then evaluates whether the curators achieved those goals."
+        }
+      ],
+      "correct_answer": "B",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m2_004",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "The text first introduces the exhibition and its artists, then says the exhibition is atypical because it includes many borrowed works rather than focusing on the Nasher Museum's permanent collection.",
+        "why_correct": "Choice B captures that structure: overview first, then explanation of what makes the exhibition unusual for the institution.",
+        "choice_analysis": {
+          "A": "Incorrect. The text lists artistic disciplines but does not explain why curators included those disciplines.",
+          "B": "Correct. It describes the exhibition and then identifies why it is unusual for the Nasher Museum.",
+          "C": "Incorrect. The text does not analyze the significance of the exhibition's difference from other exhibitions.",
+          "D": "Incorrect. The text does not present goals or evaluate whether curators achieved them."
+        },
+        "short": "The passage gives an overview of the exhibition and then explains why it is unusual for the museum.",
+        "detailed": "The first two sentences introduce the 2022 exhibition and the range of artists included. The final sentence shifts to what makes the exhibition atypical for the Nasher Museum: it includes many borrowed works rather than centering the museum's permanent collection. Thus B best describes the structure."
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_number": 32,
+      "passage": "The Heege Manuscript (HM) is a collection of booklets of once-unbound paper sheets on which Richard Heege copied various texts at his fifteenth-century home between Derbyshire and Nottinghamshire in England. [u]Most other contemporaneous personal manuscripts like the Findern Anthology (FA) consist primarily of pieces for polite society like courtly love poems and other readings favored by elites[/u], whereas the HM has a distinctive emphasis on the popular, including entertainments like nonsense verse, and the practical, with advice about medicine.",
+      "prompt": "Which choice best describes the function of the underlined portion in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To provide context for the text’s suggestion that the HM is an outlier among collections of its time"
+        },
+        {
+          "label": "B",
+          "text": "To suggest that the FA is a poor point of comparison for a collection like the HM"
+        },
+        {
+          "label": "C",
+          "text": "To emphasize the ubiquity of hand-copied collections like the FA and the HM in medieval England"
+        },
+        {
+          "label": "D",
+          "text": "To illustrate how the discussion of the HM earlier in the text can improve historians’ understanding of the FA"
+        }
+      ],
+      "correct_answer": "A",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m2_005",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "The underlined portion describes what most other contemporaneous personal manuscripts contained, before the text contrasts that norm with the HM's popular and practical emphasis.",
+        "why_correct": "Choice A is correct because the underlined comparison gives context for understanding the HM as unusual among collections of its time.",
+        "choice_analysis": {
+          "A": "Correct. The underlined portion establishes the typical pattern that makes the HM stand out.",
+          "B": "Incorrect. The FA is used as a representative comparison, not as a poor comparison.",
+          "C": "Incorrect. The underlined portion does not claim that such manuscripts were ubiquitous.",
+          "D": "Incorrect. The focus is on clarifying the HM, not improving historians' understanding of the FA."
+        },
+        "short": "The underlined portion establishes the typical manuscript context that makes the HM an outlier.",
+        "detailed": "By describing what most comparable manuscripts contained, the underlined portion creates a baseline. The text then contrasts that baseline with the HM's emphasis on popular entertainment and practical advice, so A is correct."
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "structural_function"
+      }
+    },
+    {
+      "question_number": 33,
+      "passage": "校订说明：编辑校订：来源将真核生物笼统等同于多细胞生物；术语括注已据 NCBI 定义更正，篇章关系与选项保留。\n\nVertical gene transfer involves the transmission of genetic material from a parent to offspring; horizontal gene transfer, on the other hand, involves the exchange of genetic material between organisms not in a parent-offspring relationship. [u]While horizontal gene transfer is common among prokaryotes—single-celled organisms, such as the bacteria Brevibacillus borstelensis and Lactobacillus curvatus—it has rarely been observed among eukaryotes (organisms whose cells have a nucleus).[/u] However, new studies suggest that horizontal gene transfer is more common in eukaryotes than originally thought.",
+      "prompt": "Which choice best states the function of the underlined sentence in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It argues that two biological phenomena are more similar than they may initially appear to be."
+        },
+        {
+          "label": "B",
+          "text": "It contrasts the frequency with which a biological phenomenon has been detected in two categories of organisms."
+        },
+        {
+          "label": "C",
+          "text": "It explains why a common perception of a biological process is flawed."
+        },
+        {
+          "label": "D",
+          "text": "It indicates a distinction between the mechanics of two kinds of biological processes."
+        }
+      ],
+      "correct_answer": "B",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m2_006",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "B：画线句对比同一种现象在原核生物与真核生物中被观察到的频率。",
+        "key_evidence": "画线句将 common among prokaryotes 与 rarely been observed among eukaryotes 对置。",
+        "why_correct": "两边讨论的都是 horizontal gene transfer；变化的是生物类别及已观察到的频率。因此 B 的“一个现象、两类生物、发现频率对比”与句子结构逐项对应。",
+        "detailed": "段首区分垂直与水平基因转移，画线句随后转向水平转移在不同生物类别中的观察情况，末句再用新研究修正旧有印象。必须把“画线句的作用”与段首定义、末句的新发现分开：画线句提供原有频率对比，本身没有解释这种差异的机制，也没有说明新研究为何推翻旧看法。科学术语括注已作透明校订，不改变这组篇章关系。",
+        "choice_analysis": {
+          "A": "说两种现象比表面上更相似；画线句只谈一种现象——水平基因转移——且突出不同类别中的频率差别。",
+          "B": "准确概括原核生物中常见、真核生物中少见的观察频率对比。",
+          "C": "新研究表明旧印象可能有误，是末句的作用；画线句并未解释旧印象为什么错误。",
+          "D": "垂直与水平转移的机制区别在段首，画线句比较的是发生或观察频率，不是机制。"
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "structural_function"
+      }
+    },
+    {
+      "question_number": 34,
+      "passage": "Text 1\n\nis T.L. Hulme's 1912 poem \"Above the Dock.\"\n\nText 2\n\nis from Amy Lowell's 1912 poem \"The Crescent Moon.\"\n\nText 1\n\nAbove the quiet dock in mid night, Tangled in the tall mast's corded height, Hangs the moon. What seemed so far away Is but a child's balloon, forgotten after play.\n\nText 2\n\nSlipping softly through the sky Little horned, happy moon, Can you hear me up so high? Will you come down soon?",
+      "prompt": "Which choice best describes a notable difference in how the speaker of Text 1 and the speaker of Text 2 portray the moon?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "While both speakers characterize the moon as an entrapped figure, only the speaker of Text 2 describes the moon as being content with this fate."
+        },
+        {
+          "label": "B",
+          "text": "While the speaker of Text 1 presents the moon as an object of play; the speaker of Text 2 presents the moon as an object of serious study."
+        },
+        {
+          "label": "C",
+          "text": "While the speaker of Text 1 presents the moon as seeming to be very close, the speaker of Text 2 emphasizes the moon’s distance from the speaker."
+        },
+        {
+          "label": "D",
+          "text": "While both speakers present the moon as a tangible object, only the speaker of Text 1 addresses the moon’s beauty."
+        }
+      ],
+      "correct_answer": "C",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m2_007",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "Text 1 says the moon that seemed far away is \"but a child's balloon,\" while Text 2 asks, \"Can you hear me up so high?\" and \"Will you come down soon?\"",
+        "why_correct": "Choice C is correct because Text 1 makes the moon seem near and tangible, whereas Text 2 emphasizes the moon's height and distance.",
+        "choice_analysis": {
+          "A": "Incorrect. Text 1 does not portray the moon as content, and Text 2 does not describe entrapped contentment.",
+          "B": "Incorrect. Text 2 treats the moon lyrically, not as an object of serious study.",
+          "C": "Correct. Text 1 makes the moon seem close; Text 2 stresses that it is high above the speaker.",
+          "D": "Incorrect. Text 2 does not present the moon as a tangible object in the same way, and beauty is not the main contrast."
+        },
+        "short": "Text 1 makes the moon seem close; Text 2 emphasizes its distance.",
+        "detailed": "In Text 1, the moon is compared to a child's balloon, making it seem close enough to grasp. In Text 2, the speaker addresses the moon as high in the sky and asks whether it will come down. The notable difference is C."
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Cross-Text Connections",
+        "subtype": "cross_text_analysis"
+      }
+    },
+    {
+      "question_number": 35,
+      "passage": "Biologist Abbigail Merrill and colleagues conducted a study of how butterfly color and weather conditions relate to butterfly behavior, which wouldn't have been possible without data gathered by students and other amateur science enthusiasts in the community. Considering over three years' worth of data, the researchers found that orange butterflies were observed in the evening more often than any other butterflies, and that butterflies tended to prefer orange and red flowers on cloudy days and multicolor flowers on partly cloudy days.",
+      "prompt": "According to the text, which factors seemed to be linked to the behavior of butterflies in Abigail Merrill and colleagues' study?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Butterfly color but not weather conditions"
+        },
+        {
+          "label": "B",
+          "text": "Weather conditions but not butterfly color"
+        },
+        {
+          "label": "C",
+          "text": "Neither butterfly color nor weather conditions"
+        },
+        {
+          "label": "D",
+          "text": "Both butterfly color and weather conditions"
+        }
+      ],
+      "correct_answer": "D",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m2_008",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "The study examined butterfly color and weather conditions; it found orange butterflies were observed in the evening more often and flower preferences varied by cloudy or partly cloudy weather.",
+        "why_correct": "Choice D is correct because both butterfly color and weather conditions are linked to observed butterfly behavior in the findings.",
+        "choice_analysis": {
+          "A": "Incorrect. The findings include weather-related flower preferences, so weather conditions are linked.",
+          "B": "Incorrect. The findings include orange butterflies being observed in the evening more often, so butterfly color is linked.",
+          "C": "Incorrect. The study findings connect behavior to both factors.",
+          "D": "Correct. The text identifies links involving both butterfly color and weather conditions."
+        },
+        "short": "Both butterfly color and weather conditions were linked to butterfly behavior.",
+        "detailed": "The text reports a relationship between color and behavior and also between weather and flower preference. Since both factors appear in the findings, D is correct."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "main_idea_or_detail"
+      }
+    },
+    {
+      "question_number": 36,
+      "passage": "Mauricio Drelichman and Hans-Joachim Voth's research into the debt defaults of Philip II (who ruled an empire including Spain and Sicily from 1556 to 1598) relates to other work on European early modern state finance, including Hoffman and Norberg's research on the relationship between state finance and political development. But Drelichman and Voth's unique contribution to the field is their reconstruction of the earliest extant set of annual fiscal records for any sovereign state, demonstrating in turn that Philip's defaults were caused by short-term cash shortages, not long-term unsustainable debts.",
+      "prompt": "Which choice best states the main idea of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The research by Drelichman and Voth suggests that the logistics of ruling both Spain and Sicily led to short-term problems with cash that forced Philip II to default on his debts."
+        },
+        {
+          "label": "B",
+          "text": "Drelichman and Voth advanced the field of research on European early modern state finance by assembling a novel collection of evidence that gave them insight into Philip II's debt defaults."
+        },
+        {
+          "label": "C",
+          "text": "Analysis of the earliest available records of a sovereign state's finances can be found not in the work of Hoffman and Norberg but in that of Drelichman and Voth."
+        },
+        {
+          "label": "D",
+          "text": "Drelichman and Voth's research on Philip II's debt defaults builds on earlier work by Hoffman and Norberg, adding nuance to the earlier work's findings."
+        }
+      ],
+      "correct_answer": "B",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m2_009",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "The text says Drelichman and Voth's unique contribution was reconstructing the earliest extant annual fiscal records, which showed Philip's defaults came from short-term cash shortages.",
+        "why_correct": "Choice B best states the main idea: they advanced research by assembling a novel body of evidence that clarified Philip II's defaults.",
+        "choice_analysis": {
+          "A": "Incorrect. The text does not claim that ruling Spain and Sicily caused the cash shortages.",
+          "B": "Correct. It captures both the novel evidence and the insight into Philip II's defaults.",
+          "C": "Incorrect. It overfocuses on where records can be found rather than the main contribution and conclusion.",
+          "D": "Incorrect. The text says their work relates to earlier work, but its main point is their unique contribution, not adding nuance to Hoffman and Norberg."
+        },
+        "short": "Drelichman and Voth advanced the field by reconstructing records that explained Philip II's defaults.",
+        "detailed": "The passage situates their research among work on early modern state finance, then identifies their unique contribution: reconstructing annual fiscal records that revealed the cause of Philip II's defaults. B best captures this main idea."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "main_idea_or_detail"
+      }
+    },
+    {
+      "question_number": 37,
+      "passage": "The following text is adapted from William Shakespeare's 1597 play *The Tragedy of King Richard III*. Richard is reflecting on the recent arrest of his brother, the Duke of Clarence, on suspicion of treason against King Edward IV. Derby, Hastings, Buckingham, Rivers, Dorset, and Grey are also members of the English nobility.\n\nRICHARD: I do the wrong, and first begin to brawl. The secret mischiefs that I set [flowing] I lay unto the grievous charge of others. Clarence, whom I indeed have cast in darkness, I do beweep to many simple [gullible people], Namely, to Derby, Hastings, Buckingham; And tell them 'tis the Queen and her allies That stir the King against the Duke my brother. Now they believe it, and withal whet me To be revenged on Rivers, Dorset, Grey.",
+      "prompt": "Which choice best describes what happens in the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Richard attributes Clarence's troubles to both his own secret plotting and the distrust of Clarence that the queen and her allies Derby, Hastings, and Buckingham have planted in the king's mind."
+        },
+        {
+          "label": "B",
+          "text": "Richard describes having wept as he informed Derby, Hastings, and Buckingham that the queen and her allies convinced the king to act against Clarence, and says that the earnestness of his grief caused them to accept his version of events."
+        },
+        {
+          "label": "C",
+          "text": "Richard indicates that he has pretended to be aggrieved about Clarence's situation and has proclaimed it to be the fault of the queen and her allies, but in reality, he has caused the hostility the king feels toward Clarence."
+        },
+        {
+          "label": "D",
+          "text": "Richard acknowledges that his mischievous nature has spurred him to commit misdeeds in the past, including instigating enmity between the king and Clarence, but he reports that he has hitherto not lost the trust of the queen and her allies."
+        }
+      ],
+      "correct_answer": "C",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m2_010",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "Richard says, \"I do the wrong,\" admits he cast Clarence into darkness, and says he tells others that the Queen and her allies stirred the king against Clarence.",
+        "why_correct": "Choice C is correct because Richard presents himself as falsely grieving and blaming others while admitting that he caused Clarence's trouble.",
+        "choice_analysis": {
+          "A": "Incorrect. Derby, Hastings, and Buckingham are people Richard deceives, not allies who planted distrust of Clarence.",
+          "B": "Incorrect. Richard says others believe him, but the choice omits his own guilt and misrepresents the main action.",
+          "C": "Correct. It captures both Richard's deception and his responsibility for the hostility toward Clarence.",
+          "D": "Incorrect. The passage does not say Richard retains the trust of the queen and her allies; he blames them to others."
+        },
+        "short": "Richard pretends to grieve and blames others, while admitting he caused Clarence's trouble.",
+        "detailed": "Richard openly states that he is doing wrong and has cast Clarence into darkness. He then explains that he weeps to others and blames the Queen and her allies, causing people to believe his false story. That sequence matches C."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_number": 38,
+      "passage": "In what is now southern Florida, the Calusa people (circa 1000-1600 CE) supported their relatively large population's dietary needs with hydrological engineering rather than terrestrial farming methods. They constructed watercourts (gated coastal enclosures) out of shells and sediments to trap a variety of fish as waters rose and fell with tides and seasonal sea-level shifts; watercourt pools then held the fish for later consumption. Archaeologist Theresa Schober has posited an additional purpose of these enclosures, suggesting that they were intended to foster conch. She ties this hypothesis to the high value the sea snails would have had for the Calusa, both nutritionally and as a building material (conch shells are highly durable).",
+      "prompt": "Which finding, if true, would most directly weaken Schober's hypothesis?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Samples of animal remains collected at Calusa sites reflect a greater diversity of marine species, particularly among sea snails, within the perimeter of watercourts than in locations known to have been devoted to the preparation and consumption of food."
+        },
+        {
+          "label": "B",
+          "text": "Radar surveys of Calusa sites reveal watercourt dimensions suitable for sustaining fish of many local species but not conducive for maintaining the shallow environments with ample seagrasses that allow sea snails to thrive."
+        },
+        {
+          "label": "C",
+          "text": "Sediment layers excavated from Calusa watercourt sites contain heterogeneous mixtures of scales from multiple species of fish and fragments of shells from various types of sea snails, but conch shells do not constitute the majority of the mixture in most of those layers."
+        },
+        {
+          "label": "D",
+          "text": "Historical population-size estimates suggest that the sea snails and fish most common in the Calusa diet were plentiful in open coastal waters when the watercourts were constructed but decreased in abundance in the years immediately after construction."
+        }
+      ],
+      "correct_answer": "B",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m2_011",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "Schober hypothesizes that watercourts fostered conch, but choice B says the watercourt dimensions were not conducive to the shallow, seagrass-rich environments sea snails need.",
+        "why_correct": "Choice B most directly weakens the hypothesis because it gives a physical reason the watercourts would not have been suitable for fostering conch.",
+        "choice_analysis": {
+          "A": "Incorrect. A greater diversity of sea snails inside watercourts could support, rather than weaken, a cultivation hypothesis.",
+          "B": "Correct. It directly challenges whether the enclosures could sustain the habitat conch need.",
+          "C": "Incorrect. Mixed shell fragments and conch not being the majority do not rule out an intended conch-fostering purpose.",
+          "D": "Incorrect. Changes in open-water abundance after construction do not directly address whether watercourts were designed to foster conch."
+        },
+        "short": "B directly challenges whether the watercourts could support the habitat conch need.",
+        "detailed": "To weaken Schober's hypothesis, the finding must show that watercourts were unlikely to foster conch. B does this by stating that their dimensions suit fish but not the shallow, seagrass-rich conditions sea snails require."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "textual_evidence"
+      }
+    },
+    {
+      "question_number": 39,
+      "passage": "Observed Traits in a Population of Broadleaf Arrowhead, by Flowering Date\n\nTrait | Day 5 | Day 10 | Day 15 | Day 20 Total number of open male and female flowers per growth unit | 25 | 65 | 110 | 45 Estimated reproductive success rate of male flowers | 0.29 | 0.29 | 0.29 | 0.29 Proportion of male flowers | 0.45 | 0.50 | 0.48 | 0.13\n\nThe mating environment hypothesis predicts that populations of flowering plants compensate for reduced mating opportunities due to dichogamy (a plant's expression of male and female functions at separate times to prevent self-pollination) by adjusting the bias of floral sex allocation during the flowering period, increasing the probability of successful cross-plant pollination. Researchers tested the hypothesis by examining a population of broadleaf arrowhead, a plant for which bloom onset generally takes longer for male flowers than for female flowers, during the flowering season. They concluded that the mating environment hypothesis is not well supported by their observational data.",
+      "prompt": "Which choice best describes data from the table that support the researchers' conclusion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Whereas the total number of open flowers per growth unit peaked on day 15, the proportion of male flowers experienced a peak earlier in the flowering season, on day 10."
+        },
+        {
+          "label": "B",
+          "text": "Despite the sharp reduction in the total number of open flowers per growth unit from day 15 to 20, there was no decline in the estimated reproductive success rate of male flowers in that interval."
+        },
+        {
+          "label": "C",
+          "text": "Although sex allocations became overwhelmingly female biased by day 20, male flowers' estimated reproductive success rate did not vary from day 5 to 20."
+        },
+        {
+          "label": "D",
+          "text": "Sex allocations were largely evenly distributed on days 10 and 15 but were female biased on days 5 and 20."
+        }
+      ],
+      "correct_answer": "C",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m2_012",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "By day 20, the proportion of male flowers fell to 0.13, but the estimated reproductive success rate of male flowers stayed 0.29 on every measured day.",
+        "why_correct": "Choice C supports the conclusion because it shows a major shift in sex allocation without any change in male reproductive success, undermining the hypothesis that allocation changes improve mating success.",
+        "choice_analysis": {
+          "A": "Incorrect. It identifies two peaks but does not connect the allocation shift to reproductive success.",
+          "B": "Incorrect. It notes no decline from day 15 to day 20, but it focuses on total flowers rather than the key sex-allocation pattern across the period.",
+          "C": "Correct. It pairs the strong female bias by day 20 with the unchanged male reproductive success rate.",
+          "D": "Incorrect. It describes allocation patterns but omits the reproductive-success data needed to support the conclusion."
+        },
+        "short": "C links the female-biased allocation by day 20 to unchanged male reproductive success.",
+        "detailed": "The researchers concluded that the mating environment hypothesis was not well supported. The table shows that even when sex allocation became strongly female-biased by day 20, male reproductive success stayed constant at 0.29. That pattern supports C."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "data_evidence"
+      },
+      "visual_assets": [
+        {
+          "type": "table",
+          "title": "Observed Traits in a Population of Broadleaf Arrowhead, by Flowering Date",
+          "columns": [
+            "Trait",
+            "Day 5",
+            "Day 10",
+            "Day 15",
+            "Day 20"
+          ],
+          "rows": [
+            [
+              "Total number of open male and female flowers per growth unit",
+              "25",
+              "65",
+              "110",
+              "45"
+            ],
+            [
+              "Estimated reproductive success rate of male flowers",
+              "0.29",
+              "0.29",
+              "0.29",
+              "0.29"
+            ],
+            [
+              "Proportion of male flowers",
+              "0.45",
+              "0.50",
+              "0.48",
+              "0.13"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "question_number": 40,
+      "passage": "Although Grant Tavinor concludes that computer games are art by virtue of their forming a subcategory of fiction, and Berys Gaut similarly places them within the realm of cinema, neither approach adequately captures a central aspect of playing these games: when the player no longer attends to the narrative and is instead simply absorbed in the instrumentalities of gameplay. This is among the reasons philosopher C. Thi Nguyen contends that the work of computer-game designers is in what he calls the medium of player agency, which the designer prescribes through rules and goals, and which elicits positive aesthetic experiences in the player who agrees to adopt it. Therefore, Nguyen’s position is that Tavinor’s and Gaut’s frameworks ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "subsume computer games under other categories of media that do not address a feature of games that is integral to player enjoyment."
+        },
+        {
+          "label": "B",
+          "text": "overstate the influence of fiction and cinema on the narrative elements of computer games."
+        },
+        {
+          "label": "C",
+          "text": "are helpful starting points for studying computer games as art, even though these frameworks are overly simplistic."
+        },
+        {
+          "label": "D",
+          "text": "are useful for analyzing the narrative aspects of computer games, even if neither attempts to address player agency."
+        }
+      ],
+      "correct_answer": "A",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m2_013",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "The passage says fiction- and cinema-based frameworks fail to capture absorption in gameplay mechanics, while Nguyen emphasizes player agency prescribed by rules and goals.",
+        "why_correct": "Choice A logically completes the text because it says Tavinor and Gaut place games under other media categories that miss an integral feature of game enjoyment.",
+        "choice_analysis": {
+          "A": "Correct. It matches the critique that those frameworks subsume games under fiction/cinema and miss player agency.",
+          "B": "Incorrect. The passage does not say they overstate influence on narrative elements.",
+          "C": "Incorrect. The passage presents Nguyen's view as a critique, not as a claim that those frameworks are helpful starting points.",
+          "D": "Incorrect. The passage does not concede that both frameworks are useful for narrative analysis; it stresses what they fail to capture."
+        },
+        "short": "Nguyen thinks those frameworks miss player agency by treating games as forms of other media.",
+        "detailed": "Tavinor treats games as fiction and Gaut places them within cinema, but the passage says neither captures gameplay absorption. Nguyen instead focuses on player agency. Therefore A best completes the inference."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_number": 41,
+      "passage": "As observed in a 1990 study by Kristina Sundbäck and colleagues, macroalgal proliferation may have a suppressive effect on the abundance of chlorophytes and other microphytobenthos (MPB)—chlorophyll-producing microbes inhabiting marine sediment—in part by reducing the amount of sunlight available to MPB. Examining benthic chlorophyll concentrations (a widely used proxy for MPB biomass) in mudflats in Hummock Cove and other coastal sites in Virginia, Alice F. Besterman and Michael L. Pace found that those concentrations did not negatively correlate with macroalgal proliferation. However, they noted that MPB may respond to low-light conditions by producing higher-than-normal concentrations of chlorophyll, and they thus concluded that ____",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "researchers ought to account for the possibility that because MPB have the capacity to compensate for reduced sunlight availability, benthic chlorophyll concentrations may not always be a reliable indicator of MPB biomass."
+        },
+        {
+          "label": "B",
+          "text": "although elevated levels of macroalgae do not always correspond to increased levels of benthic chlorophyll, there is likely a larger trend in MPB biomass that is related to macroalgal presence but unrelated to light conditions."
+        },
+        {
+          "label": "C",
+          "text": "the effect of macroalgal concentrations on MPB abundance that Sundbäck and colleagues reported was not observed in Hummock Cove and other Virginia sites because low-light conditions likely are not generalizable across the sites in the studies."
+        },
+        {
+          "label": "D",
+          "text": "although their finding was inconsistent with that of Sundbäck and colleagues, this discrepancy was not attributable to the ability of MPB to accelerate chlorophyll production to mitigate the negative impact of macroalgal accumulations."
+        }
+      ],
+      "correct_answer": "A",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m2_014",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "Besterman and Pace note that MPB can produce extra chlorophyll under low-light conditions.",
+        "why_correct": "Choice A follows because benthic chlorophyll may not reliably indicate MPB biomass if MPB can compensate for low light by producing more chlorophyll.",
+        "choice_analysis": {
+          "A": "Correct. It warns that chlorophyll concentration may not always be a reliable proxy for MPB biomass.",
+          "B": "Incorrect. The text does not propose a larger trend unrelated to light conditions.",
+          "C": "Incorrect. It overstates the site-specific conclusion and ignores the proxy-measure issue.",
+          "D": "Incorrect. It says the discrepancy was not attributable to MPB compensation, but the text raises MPB compensation as exactly the concern."
+        },
+        "short": "Choice A follows because benthic chlorophyll may not reliably indicate MPB biomass if MPB can compensate for low light by producing more chlorophyll.",
+        "detailed": "Besterman and Pace note that MPB can produce extra chlorophyll under low-light conditions. Choice A follows because benthic chlorophyll may not reliably indicate MPB biomass if MPB can compensate for low light by producing more chlorophyll."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_number": 42,
+      "passage": "Neuroscientist Artin Arshamian and his team sought to determine what affects a person's perception of an odor as pleasant: is it culture, personal taste, or aspects of human anatomy? The team assessed odor preferences in ten groups of people with different modes of living (urban, agricultural, and hunter-gatherer) including the Semaq Beri people from a small community in the Malay Peninsula and the Imbabura Quichua people from a small community in Ecuador. The team observed that across cultures, people generally rated odors about the same: phenethyl alcohol, which smells like roses, was typically rated more pleasant than mushroom alcohol, which smells like fungus. The team's study thus undermined the idea that ____",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a person who perceives certain odors as pleasant will likely perceive the odors as roughly equal in pleasantness."
+        },
+        {
+          "label": "B",
+          "text": "culture significantly influences whether a person perceives an odor as pleasant or unpleasant."
+        },
+        {
+          "label": "C",
+          "text": "people agree in their perception of odors as pleasant or unpleasant regardless of where they live."
+        },
+        {
+          "label": "D",
+          "text": "personal taste has little influence on whether odors are perceived as pleasant or unpleasant."
+        }
+      ],
+      "correct_answer": "B",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m2_015",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "Across cultures, people generally rated odors about the same: rose-like phenethyl alcohol was rated more pleasant than fungus-like mushroom alcohol.",
+        "why_correct": "Choice B is correct because the study undermines the idea that culture significantly determines odor pleasantness.",
+        "choice_analysis": {
+          "A": "Incorrect. The study does not say one person rates different odors as equal in pleasantness.",
+          "B": "Correct. Similar ratings across cultures weaken the claim that culture strongly shapes odor pleasantness.",
+          "C": "Incorrect. This is the finding the study supports, not the idea it undermines.",
+          "D": "Incorrect. The study tested culture along with other factors but does not specifically undermine the role of personal taste."
+        },
+        "short": "Choice B is correct because the study undermines the idea that culture significantly determines odor pleasantness.",
+        "detailed": "Across cultures, people generally rated odors about the same: rose-like phenethyl alcohol was rated more pleasant than fungus-like mushroom alcohol. Choice B is correct because the study undermines the idea that culture significantly determines odor pleasantness."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_number": 43,
+      "passage": "*Branching in Jurisprudential Schools* is one of the hundreds of thousands of manuscripts that have survived from roughly the sixteenth century to the present _____ being passed down through private libraries in the city of Timbuktu, Mali. Many of these manuscripts can be found at the Ahmad Baba Library.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "day by"
+        },
+        {
+          "label": "B",
+          "text": "day by,"
+        },
+        {
+          "label": "C",
+          "text": "day. By"
+        },
+        {
+          "label": "D",
+          "text": "day; by"
+        }
+      ],
+      "correct_answer": "A",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m2_016",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Keep the means phrase 'by being passed down' intact and connected to the manuscripts' survival.",
+        "key_evidence": "The sentence describes manuscripts surviving 'to the present day' through transmission in private libraries.",
+        "why_correct": "A completes the time expression present day and attaches by being passed down as the explanation of how the manuscripts survived.",
+        "detailed": "The preposition by takes the gerund phrase being passed down as its complement. These words should remain together within the existing sentence. A period or semicolon would leave the means phrase without an independent clause; a comma immediately after by would separate the preposition from its complement.",
+        "choice_analysis": {
+          "A": "Correct. Day completes the time expression and by introduces the means of survival.",
+          "B": "Incorrect. The comma comes after by and improperly separates that preposition from being passed down.",
+          "C": "Incorrect. By being passed down through private libraries is a fragment when made a separate sentence.",
+          "D": "Incorrect. A semicolon cannot introduce this nonfinite prepositional phrase as an independent clause."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_number": 45,
+      "passage": "As part of his Today series, Japanese conceptual artist On Kawara spent nearly fifty years—with near daily consistency—writing the date in simple white strokes on a monochrome background, resulting in pieces such as 2 JAN. 1971. Such meticulous documentation of mundane ______ artworks that \"resonate with existential, psychological and scientific implications about the time-space continuum,\" according to the New York Times, became Kawara's life's work.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "information, has generated"
+        },
+        {
+          "label": "B",
+          "text": "information, generating"
+        },
+        {
+          "label": "C",
+          "text": "information generated"
+        },
+        {
+          "label": "D",
+          "text": "information generates"
+        }
+      ],
+      "correct_answer": "B",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m2_018",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Generating introduces a supplementary description while became remains the main verb of documentation.",
+        "key_evidence": "The main-clause frame is 'Such meticulous documentation ... became Kawara's life's work.'",
+        "why_correct": "B makes generating artworks a nonfinite supplementary phrase about the documentation, leaving became as the one main finite verb.",
+        "detailed": "Identify the long sentence's subject and verb before choosing a form. Documentation is the subject; became, after the quotation, supplies its predicate. The inserted phrase describes the artworks produced by that activity. A participle can add that description, but another finite verb would leave uncoordinated predicates.",
+        "choice_analysis": {
+          "A": "Incorrect. Has generated introduces an extra finite verb and the preceding comma also separates it from the subject.",
+          "B": "Correct. Generating supplies a participial modifier set off from the main clause by the existing comma pair.",
+          "C": "Incorrect. Generated would serve as a finite verb taking artworks as its object, leaving the later became uncoordinated.",
+          "D": "Incorrect. Generates introduces another finite verb before the main verb became, without a conjunction linking them."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "mixed_convention"
+      }
+    },
+    {
+      "question_number": 46,
+      "passage": "For her film I Am Somebody (1970), a documentary about a successful months-long strike held by Black female hospital workers in Charleston, South Carolina, director Madeline Anderson chose a narrator who had participated in the ____ by allowing the narrative to be shaped by one of their own, amplified the agency and power the workers possessed.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "protest; a decision that,"
+        },
+        {
+          "label": "B",
+          "text": "protest a decision that,"
+        },
+        {
+          "label": "C",
+          "text": "protest. A decision that"
+        },
+        {
+          "label": "D",
+          "text": "protest, a decision that,"
+        }
+      ],
+      "correct_answer": "D",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m2_019",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "The phrase \"a decision that\" renames Anderson's choice of narrator and is interrupted by \"by allowing...\".",
+        "why_correct": "Choice D correctly sets off the appositive phrase with commas: \"protest, a decision that, by allowing..., amplified...\"",
+        "choice_analysis": {
+          "A": "Incorrect. A semicolon before \"a decision that\" does not fit because the following words do not form an independent clause.",
+          "B": "Incorrect. It runs \"protest\" and \"a decision\" together without needed punctuation.",
+          "C": "Incorrect. \"A decision that...\" is a sentence fragment.",
+          "D": "Correct. The commas properly set off the appositive and the interrupting phrase."
+        },
+        "short": "Choice D correctly sets off the appositive phrase with commas: \"protest, a decision that, by allowing..., amplified...\"",
+        "detailed": "The phrase \"a decision that\" renames Anderson's choice of narrator and is interrupted by \"by allowing...\". Choice D correctly sets off the appositive phrase with commas: \"protest, a decision that, by allowing..., amplified...\""
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_number": 47,
+      "passage": "At a time when many women writers used male pseudonyms to gain greater freedom of self-expression by evading gender conventions, Katherine Bradley and Edith Cooper adapted the practice by publishing poetry, prose, and drama for four decades under the shared name Michael Field. ______ the duo was able to express the joint creative vision that sustained their long personal and professional partnership.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "In this way,"
+        },
+        {
+          "label": "B",
+          "text": "On the other hand,"
+        },
+        {
+          "label": "C",
+          "text": "For instance,"
+        },
+        {
+          "label": "D",
+          "text": "Later,"
+        }
+      ],
+      "correct_answer": "A",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m2_020",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "Bradley and Cooper published for decades under the shared name Michael Field, and this enabled their joint creative vision.",
+        "why_correct": "Choice A, \"In this way,\" shows that the shared pseudonym was the method by which the duo expressed a joint vision.",
+        "choice_analysis": {
+          "A": "Correct. It points back to the shared pseudonym as the means of achieving the result.",
+          "B": "Incorrect. \"On the other hand\" signals contrast, but the second sentence gives a result.",
+          "C": "Incorrect. \"For instance\" would introduce an example, not an outcome.",
+          "D": "Incorrect. \"Later\" suggests chronology rather than method."
+        },
+        "short": "Choice A, \"In this way,\" shows that the shared pseudonym was the method by which the duo expressed a joint vision.",
+        "detailed": "Bradley and Cooper published for decades under the shared name Michael Field, and this enabled their joint creative vision. Choice A, \"In this way,\" shows that the shared pseudonym was the method by which the duo expressed a joint vision."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_number": 48,
+      "passage": "In a 1997 study by Mofareh et al., the researchers' aim was to analyze the diet composition of cattle in New Mexico. ______ they aimed to analyze the ratio of three different plant subtypes within these animals' diet: graminoids, forbs, and browse.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Specifically,"
+        },
+        {
+          "label": "B",
+          "text": "Instead,"
+        },
+        {
+          "label": "C",
+          "text": "All the same,"
+        },
+        {
+          "label": "D",
+          "text": "Therefore,"
+        }
+      ],
+      "correct_answer": "A",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m2_021",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "The first sentence gives the broad aim of analyzing cattle diet composition; the second narrows that aim to three plant subtypes.",
+        "why_correct": "Choice A, \"Specifically,\" correctly introduces a more precise version of the researchers' general aim.",
+        "choice_analysis": {
+          "A": "Correct. It signals that the second sentence gives specific details about the first.",
+          "B": "Incorrect. \"Instead\" would signal replacement, but the second sentence elaborates.",
+          "C": "Incorrect. \"All the same\" signals concession, which is not present.",
+          "D": "Incorrect. \"Therefore\" signals a result, but the second sentence is a specification."
+        },
+        "short": "Choice A, \"Specifically,\" correctly introduces a more precise version of the researchers' general aim.",
+        "detailed": "The first sentence gives the broad aim of analyzing cattle diet composition; the second narrows that aim to three plant subtypes. Choice A, \"Specifically,\" correctly introduces a more precise version of the researchers' general aim."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_number": 49,
+      "passage": "DeWitt Clinton employed the pseudonym \"Atticus\"—a reference to an ancient Roman figure—in political essays he wrote in 1795, a choice that accomplished far more than simply concealing his authorship. ______ it wasn’t an arbitrary pen name but rather a complex rhetorical strategy through which Clinton aligned his political views with the venerated republican ideals of the ancient world, thereby bolstering the authority of his writing.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Indeed,"
+        },
+        {
+          "label": "B",
+          "text": "However,"
+        },
+        {
+          "label": "C",
+          "text": "In addition,"
+        },
+        {
+          "label": "D",
+          "text": "Conversely,"
+        }
+      ],
+      "correct_answer": "A",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m2_022",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "The first sentence says the pseudonym did more than conceal authorship; the second explains it was a complex rhetorical strategy.",
+        "why_correct": "Choice A, \"Indeed,\" reinforces and explains the previous claim.",
+        "choice_analysis": {
+          "A": "Correct. It emphasizes and expands on the claim that the pseudonym did more than conceal authorship.",
+          "B": "Incorrect. \"However\" would signal contrast, but the second sentence supports the first.",
+          "C": "Incorrect. \"In addition\" merely adds another point and is weaker than the confirming explanation needed.",
+          "D": "Incorrect. \"Conversely\" signals an opposite idea, which is not present."
+        },
+        "short": "Choice A, \"Indeed,\" reinforces and explains the previous claim.",
+        "detailed": "The first sentence says the pseudonym did more than conceal authorship; the second explains it was a complex rhetorical strategy. Choice A, \"Indeed,\" reinforces and explains the previous claim."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_number": 50,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• - Brussels sprouts are vegetables that contain ascorbic acid, an essential nutrient for humans. - Grapes are fruits that contain ascorbic acid. - There is 80 milligrams (mg) of ascorbic acid per every 100 grams (g) of brussels sprouts. - There is 10 mg of ascorbic acid per every 100 g of grapes. - Humans cannot make ascorbic acid in their bodies, so they must get it from foods, including fruits and vegetables. - Ascorbic acid is also known as vitamin C.",
+      "prompt": "The student wants to refute a claim that grapes are a better source of vitamin C than brussels sprouts are. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Humans cannot make ascorbic acid in their bodies, but they can get it from brussels sprouts and grapes."
+        },
+        {
+          "label": "B",
+          "text": "Brussels sprouts contain vitamin C (also known as ascorbic acid); in fact, there is 80 mg of vitamin C in every 100 g of brussels sprouts."
+        },
+        {
+          "label": "C",
+          "text": "Brussels sprouts contain ascorbic acid (also known as vitamin C), and grapes do too."
+        },
+        {
+          "label": "D",
+          "text": "With 80 mg of vitamin C per every 100 g, brussels sprouts are actually a better source of vitamin C than grapes, which contain only 10 mg per every 100 g."
+        }
+      ],
+      "correct_answer": "D",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m2_023",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "The notes say brussels sprouts have 80 mg of vitamin C per 100 g, while grapes have 10 mg per 100 g.",
+        "why_correct": "Choice D directly refutes the claim by comparing both foods and showing that brussels sprouts contain more vitamin C.",
+        "choice_analysis": {
+          "A": "Incorrect. It says both foods contain vitamin C but does not compare amounts.",
+          "B": "Incorrect. It gives only the brussels sprouts amount, so it does not fully refute the claim about grapes.",
+          "C": "Incorrect. It merely says both contain vitamin C.",
+          "D": "Correct. It uses the comparative numerical evidence needed to refute the claim."
+        },
+        "short": "Choice D directly refutes the claim by comparing both foods and showing that brussels sprouts contain more vitamin C.",
+        "detailed": "The notes say brussels sprouts have 80 mg of vitamin C per 100 g, while grapes have 10 mg per 100 g. Choice D directly refutes the claim by comparing both foods and showing that brussels sprouts contain more vitamin C."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_number": 51,
+      "passage": "Snow hydrologist Julie Koeberle helps maintain automated snow measurement stations. * They are called SNOTEL sites. * There are around 90 stations throughout Wyoming. * One is at Castle Creek. * The data collected can help researchers make downstream water supply predictions.",
+      "prompt": "Which choice most effectively uses information from the given sentences to provide an example of a SNOTEL site?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Snow hydrologist Julie Koeberle helps maintain automated snow monitoring stations known as SNOTEL sites."
+        },
+        {
+          "label": "B",
+          "text": "The SNOTEL site at Castle Creek is one of around 90 automated snow measurement stations in Wyoming."
+        },
+        {
+          "label": "C",
+          "text": "The data collected by SNOTEL sites can help researchers predict downstream water supplies."
+        },
+        {
+          "label": "D",
+          "text": "Located throughout Wyoming, SNOTEL sites monitor snow conditions."
+        }
+      ],
+      "correct_answer": "B",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m2_024",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "The notes identify Castle Creek as one of the SNOTEL sites among about 90 automated snow measurement stations in Wyoming.",
+        "why_correct": "Choice B provides a specific example of a SNOTEL site by naming Castle Creek.",
+        "choice_analysis": {
+          "A": "Incorrect. It defines SNOTEL sites generally but does not give a specific example.",
+          "B": "Correct. It names Castle Creek as a SNOTEL site and situates it among Wyoming stations.",
+          "C": "Incorrect. It describes what SNOTEL data can do, not an example of a site.",
+          "D": "Incorrect. It gives general location and function information but no specific site."
+        },
+        "short": "Choice B provides a specific example of a SNOTEL site by naming Castle Creek.",
+        "detailed": "The notes identify Castle Creek as one of the SNOTEL sites among about 90 automated snow measurement stations in Wyoming. Choice B provides a specific example of a SNOTEL site by naming Castle Creek."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_number": 52,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• - The nautical mile (6,076 feet) is the measure of distance used in seafaring navigation. - A nautical mile directly correlates to one minute (1/60th of a degree) of latitude. - The curvature of Earth affects the accurate measurement of long distances when using flat maps. - Measuring distances with latitude and longitude coordinates takes into account Earth’s curvature. - Mariners use nautical charts marked with latitude and longitude to quickly calculate distances and positions.",
+      "prompt": "The student wants to explain why nautical miles are used to measure distances in seafaring navigation. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Using nautical miles for navigation at sea takes Earth’s curvature into account, whereas measuring distances with latitude and longitude coordinates does not."
+        },
+        {
+          "label": "B",
+          "text": "Nautical charts use latitude and longitude to measure long distances; these charts are more accurate than flat maps for measuring distances in seafaring navigation because they account for Earth’s curvature."
+        },
+        {
+          "label": "C",
+          "text": "Since they directly correlate to the coordinates on nautical charts, which take into account Earth’s curvature, nautical miles are an efficient way to calculate distances at sea."
+        },
+        {
+          "label": "D",
+          "text": "Nautical miles are a measure of distance equal to one minute of latitude, which is a feature nautical charts use to calculate distances and positions."
+        }
+      ],
+      "correct_answer": "C",
+      "source_set": "2025-10-亚太B卷",
+      "section": "reading_writing",
+      "question_id": "2025_10___b_m2_025",
+      "needs_manual_review": false,
+      "explanation": {
+        "key_evidence": "The notes say a nautical mile correlates to one minute of latitude and nautical charts use latitude and longitude to account for Earth's curvature.",
+        "why_correct": "Choice C explains why nautical miles are useful: they directly align with coordinates on nautical charts used for seafaring navigation.",
+        "choice_analysis": {
+          "A": "Incorrect. It falsely suggests latitude and longitude do not account for Earth's curvature.",
+          "B": "Incorrect. It explains nautical charts but does not connect nautical miles to the coordinate system.",
+          "C": "Correct. It links nautical miles to nautical-chart coordinates and Earth's curvature, explaining their navigational use.",
+          "D": "Incorrect. It defines nautical miles but does not fully explain why that makes them useful in seafaring navigation."
+        },
+        "short": "Choice C explains why nautical miles are useful: they directly align with coordinates on nautical charts used for seafaring navigation.",
+        "detailed": "The notes say a nautical mile correlates to one minute of latitude and nautical charts use latitude and longitude to account for Earth's curvature. Choice C explains why nautical miles are useful: they directly align with coordinates on nautical charts used for seafaring navigation."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    }
+  ]
+}

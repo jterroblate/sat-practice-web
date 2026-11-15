@@ -1,0 +1,819 @@
+{
+  "schemaVersion": "sat-canonical-question-collection-v1",
+  "contentId": "collection-wic-hard",
+  "title": "Words in Context · Hard",
+  "section": "reading_writing",
+  "questionCount": 18,
+  "questions": [
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "surmised"
+        },
+        {
+          "label": "B",
+          "text": "contrived"
+        },
+        {
+          "label": "C",
+          "text": "questioned"
+        },
+        {
+          "label": "D",
+          "text": "regretted"
+        }
+      ],
+      "passage": "Some economic historians [vocab]______[/vocab] that late nineteenth-and early twentieth-century households in the United States experienced an economy of scale when it came to food purchases-they assumed that large households spent less on food per person than did small households. Economist Trevon Logan showed, however, that a close look at the available data disproves this supposition.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-hard-153574",
+      "question_number": 1,
+      "section": "reading_writing",
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "difficulty_estimate": "hard",
+      "explanation": {
+        "short": "The historians surmised an economy of scale before evidence disproved it.",
+        "key_evidence": "They assumed large households spent less per person, but later data refuted that supposition.",
+        "why_correct": "The passage states that they assumed large households spent less per person, but later data refuted that supposition. Surmised means inferred without proof, matching an assumption that the evidence later overturns.",
+        "detailed": "The historians' claim was an inference about household spending that Logan's later data disproved. Surmised fits an idea supposed from incomplete evidence rather than a fact established by it. Contrived means artificially devised, so it would criticize how the claim was made rather than identify it as an assumption.",
+        "choice_analysis": {
+          "A": "Choice A (“surmised”): Surmised means inferred or supposed, fitting the unsupported economic assumption.",
+          "B": "Choice B (“contrived”): Contrived means artificially devised, not believed or inferred.",
+          "C": "Choice C (“questioned”): Questioned would express doubt, whereas the historians initially assumed the claim.",
+          "D": "Choice D (“regretted”): Regretted means felt remorse, an emotion absent from the discussion."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "Restricted"
+        },
+        {
+          "label": "B",
+          "text": "Described"
+        },
+        {
+          "label": "C",
+          "text": "Developed"
+        },
+        {
+          "label": "D",
+          "text": "Settled"
+        }
+      ],
+      "passage": "The following text is adapted from George Eliot's 1871–72 novel <i>Middlemarch</i>. \r\n\r\n[Mr. Brooke] had travelled in his younger years, and was held in this part of the country to have [vocab]contracted[/vocab] a too rambling habit of mind. Mr. Brooke's conclusions were as difficult to predict as the weather.",
+      "prompt": "As used in the text, what does the word \"contracted\" most nearly mean?",
+      "question_id": "wic-hard-153577",
+      "question_number": 2,
+      "section": "reading_writing",
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "difficulty_estimate": "hard",
+      "explanation": {
+        "short": "Contracted means developed or acquired a habit of mind.",
+        "key_evidence": "Mr. Brooke is said to have 'contracted a too rambling habit of mind,' and his conclusions are unpredictable.",
+        "why_correct": "The expression contracted a habit means acquired or developed it. Developed preserves the idea that Mr. Brooke came to possess this rambling way of thinking.",
+        "detailed": "Contract can mean become smaller, but its object matters: a person can contract a habit just as one can acquire a condition. Here the narrator describes how Brooke acquired his mental tendency, not how he limited it or explained it to others.",
+        "choice_analysis": {
+          "A": "Restricted means limited or constrained. It would describe controlling an existing habit, whereas contracted here describes acquiring it.",
+          "B": "Described means explained or portrayed. The text concerns Brooke possessing a habit, not giving an account of it.",
+          "C": "Developed means came to have or acquired, the contextual sense of contracted a habit.",
+          "D": "Settled can mean resolved or established, but settled a habit does not convey the idiomatic sense of having acquired the habit in this sentence."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "word_meaning_in_context"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "overlooked"
+        },
+        {
+          "label": "B",
+          "text": "powerful"
+        },
+        {
+          "label": "C",
+          "text": "routine"
+        },
+        {
+          "label": "D",
+          "text": "variable"
+        }
+      ],
+      "passage": "The güiro, a musical instrument traditionally made from a dried and hollowed gourd, is thought to have originated with the Taíno people of Puerto Rico. Players use a wooden stick to scrape along ridges cut into the side of the gourd, creating sounds that are highly [vocab]______[/vocab]: the sounds produced by güiros can differ based on the distance between the ridges, the types of strokes the player uses, and the thickness of the gourd.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-hard-153578",
+      "question_number": 3,
+      "section": "reading_writing",
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "difficulty_estimate": "hard",
+      "explanation": {
+        "short": "Variable means capable of differing with the instrument and playing technique.",
+        "key_evidence": "The text says sounds 'can differ' with ridge spacing, stroke types, and gourd thickness.",
+        "why_correct": "Variable describes outputs that can change under different conditions. The colon lists three conditions that produce different güiro sounds, directly explaining that adjective.",
+        "detailed": "The passage is about differences in the sound, not its loudness or the attention it receives. Those differences can depend systematically on physical construction and technique; variability does not require unpredictability.",
+        "choice_analysis": {
+          "A": "Overlooked means not noticed or given attention. Nothing in the passage discusses whether listeners ignore the sounds.",
+          "B": "Powerful concerns force or intensity. The listed factors establish differences in sound, not that all of the sounds are powerful.",
+          "C": "Routine means ordinary or customary. It does not express the sound's capacity to differ with the listed factors.",
+          "D": "Variable means capable of changing or differing, exactly what the explanation after the colon describes."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "deceptive"
+        },
+        {
+          "label": "B",
+          "text": "innocuous"
+        },
+        {
+          "label": "C",
+          "text": "novel"
+        },
+        {
+          "label": "D",
+          "text": "impractical"
+        }
+      ],
+      "passage": "In studying the use of external stimuli to reduce the itching sensation caused by an allergic histamine response, Louise Ward and colleagues found that while harmless applications of vibration or warming can provide a temporary distraction, such [vocab]______[/vocab] stimuli actually offer less relief than a stimulus that seems less benign, like a mild electric shock.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-hard-153579",
+      "question_number": 4,
+      "section": "reading_writing",
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "difficulty_estimate": "hard",
+      "explanation": {
+        "short": "Harmless vibration and warming are innocuous stimuli.",
+        "key_evidence": "The passage directly calls those applications harmless and contrasts them with mild electric shock.",
+        "why_correct": "The passage directly calls the vibration and warming applications harmless and contrasts them with a mild electric shock. Innocuous means benign or not harmful, the exact characterization of the temporary distractors.",
+        "detailed": "The passage labels vibration and warming harmless, then contrasts them with a less benign mild shock. Innocuous means harmless or unlikely to cause injury, so it precisely describes those first two stimuli. Impractical is a plausible distractor because they offer less relief, but they still work as temporary distractions; the comparison is about safety, not feasibility.",
+        "choice_analysis": {
+          "A": "Choice A (“deceptive”): Deceptive means misleading, not harmless.",
+          "B": "Choice B (“innocuous”): Innocuous means harmless or benign, matching vibration and warming applications.",
+          "C": "Choice C (“novel”): Novel means new; the contrast concerns danger rather than newness.",
+          "D": "Choice D (“impractical”): Impractical means not workable, but the stimuli do provide temporary distraction."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "refinements of"
+        },
+        {
+          "label": "B",
+          "text": "precursors of"
+        },
+        {
+          "label": "C",
+          "text": "commonalities with"
+        },
+        {
+          "label": "D",
+          "text": "animosities toward"
+        }
+      ],
+      "passage": "While scholars believe many Mesoamerican cities influenced each other, direct evidence of such influence is difficult to ascertain. However, recent excavations in a sector of Tikal (Guatemala) unearthed a citadel that shows [vocab]______[/vocab] Teotihuacán (Mexico) architecture—including a near replica of a famed Teotihuacán temple—providing tangible evidence of outside influence in portions of Tikal.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-hard-153580",
+      "question_number": 5,
+      "section": "reading_writing",
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "difficulty_estimate": "hard",
+      "explanation": {
+        "short": "The Tikal citadel has commonalities with Teotihuacán architecture.",
+        "key_evidence": "Excavators found a near replica of a famous Teotihuacán temple in Tikal.",
+        "why_correct": "The passage states that excavators found a near replica of a famous Teotihuacán temple in Tikal. A near replica supplies direct evidence of architectural similarities, or commonalities.",
+        "detailed": "A near replica of a Teotihuacán temple found at Tikal is concrete evidence that the two architectural traditions share features. Commonalities with names those shared features and fits directly before “Teotihuacán architecture.” Precursors of would claim that Tikal's buildings came earlier and led to Teotihuacán's, a historical direction the evidence does not establish.",
+        "choice_analysis": {
+          "A": "Choice A (“refinements of”): Refinements of would imply improved versions rather than shared features.",
+          "B": "Choice B (“precursors of”): Precursors of would make the Tikal structures earlier causes of Teotihuacán architecture.",
+          "C": "Choice C (“commonalities with”): Commonalities with means shared features, demonstrated by the temple replica.",
+          "D": "Choice D (“animosities toward”): Animosities toward means hostility, which has no architectural meaning here."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "disengage"
+        },
+        {
+          "label": "B",
+          "text": "annotate"
+        },
+        {
+          "label": "C",
+          "text": "buttress"
+        },
+        {
+          "label": "D",
+          "text": "reciprocate"
+        }
+      ],
+      "passage": "Whether the reign of a French monarch such as Hugh Capet or Henry I was historically consequential or relatively uneventful, its trajectory was shaped by questions of legitimacy and therefore cannot be understood without a corollary understanding of the factors that allowed the monarch to [vocab]______[/vocab] his right to hold the throne.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-hard-153581",
+      "question_number": 6,
+      "section": "reading_writing",
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "difficulty_estimate": "hard",
+      "explanation": {
+        "short": "A monarch needs to buttress, or strengthen, a claim to the throne.",
+        "key_evidence": "The passage centers questions of legitimacy and the factors supporting a ruler's right.",
+        "why_correct": "The sentence centers on questions of legitimacy and the factors supporting a ruler's right to hold the throne. Buttress is a metaphor for reinforce, making it apt for strengthening a monarch's claim.",
+        "detailed": "To buttress a claim is to reinforce or strengthen it, using the image of a structural support. Here the relevant claim is the monarch's legitimate right to the throne, and the sentence asks about factors that sustained that right. Annotate also relates to adding something, but it means adding notes to a text, not providing political support.",
+        "choice_analysis": {
+          "A": "Choice A (“disengage”): Disengage means withdraw from a claim, undermining rather than supporting legitimacy.",
+          "B": "Choice B (“annotate”): Annotate means add notes to a text, irrelevant to a political right.",
+          "C": "Choice C (“buttress”): Buttress means strengthen or support, matching factors that uphold a monarch's claim.",
+          "D": "Choice D (“reciprocate”): Reciprocate means return a benefit, not reinforce authority."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "quarrel about"
+        },
+        {
+          "label": "B",
+          "text": "paucity of"
+        },
+        {
+          "label": "C",
+          "text": "profusion of"
+        },
+        {
+          "label": "D",
+          "text": "verisimilitude in"
+        }
+      ],
+      "passage": "New and interesting research conducted by Suleiman A. Al-Sweedan and Moath Alhaj is inspired by their observation that though there have been many studies of the effect of high altitude on blood chemistry, there is a [vocab]______[/vocab] studies of the effect on blood chemistry of living in locations below sea level, such as the California towns of Salton City and Seeley.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-hard-153588",
+      "question_number": 7,
+      "section": "reading_writing",
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "difficulty_estimate": "hard",
+      "explanation": {
+        "short": "There is a paucity of below-sea-level blood-chemistry studies.",
+        "key_evidence": "The researchers contrast many high-altitude studies with few studies of Salton City and Seeley.",
+        "why_correct": "The passage states that the researchers contrast many high-altitude studies with few studies of Salton City and Seeley. Paucity means scarcity, the specific gap that motivates their research.",
+        "detailed": "The phrase “though there have been many” sets up a contrast with too few studies of below-sea-level living. Paucity of means scarcity of and forms the natural noun phrase “a paucity of studies.” Profusion of is its opposite—an abundance—and would erase the research gap motivating the new study.",
+        "choice_analysis": {
+          "A": "Choice A (“quarrel about”): Quarrel about means a dispute over research, not a shortage of it.",
+          "B": "Choice B (“paucity of”): Paucity of means too few studies, as the contrast with abundant high-altitude research shows.",
+          "C": "Choice C (“profusion of”): Profusion of means an abundance, the opposite of the research gap.",
+          "D": "Choice D (“verisimilitude in”): Verisimilitude in means realism in an account, unrelated to the number of studies."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "negating"
+        },
+        {
+          "label": "B",
+          "text": "prefiguring"
+        },
+        {
+          "label": "C",
+          "text": "entrenching"
+        },
+        {
+          "label": "D",
+          "text": "substantiating"
+        }
+      ],
+      "passage": "Close analysis of the painting <i>Girl with a Flute</i>, long attributed to the seventeenth-century Dutch painter Johannes Vermeer, has revealed subtle deviations from the artist's signature techniques. These variations suggest that the work may be that of a student under Vermeer's tutelage—potentially [vocab]______[/vocab] our understanding of Vermeer as a solitary artist.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-hard-153590",
+      "question_number": 8,
+      "section": "reading_writing",
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "difficulty_estimate": "hard",
+      "explanation": {
+        "short": "Possible student authorship would negate the image of Vermeer as a solitary artist.",
+        "key_evidence": "Technique deviations suggest that Girl with a Flute may have been painted by a student.",
+        "why_correct": "The passage states that technique deviations suggest that Girl with a Flute may have been painted by a student. If a student contributed work attributed to Vermeer, that evidence undermines the solitary-artist view.",
+        "detailed": "If *Girl with a Flute* was painted by a student rather than Vermeer alone, the evidence weakens the familiar image of Vermeer as a solitary artist. Negating captures that undermining effect on the interpretation. Substantiating would instead mean confirming the solitary-artist view, which the possible student authorship calls into question.",
+        "choice_analysis": {
+          "A": "Choice A (“negating”): Negating means undermining, which possible student authorship does to the solitary-artist understanding.",
+          "B": "Choice B (“prefiguring”): Prefiguring means foreshadowing something later, not challenging an existing interpretation.",
+          "C": "Choice C (“entrenching”): Entrenching means making an idea more secure, the opposite of the new evidence's effect.",
+          "D": "Choice D (“substantiating”): Substantiating means confirming, whereas the evidence casts doubt on the solitary view."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "a discernible"
+        },
+        {
+          "label": "B",
+          "text": "a straightforward"
+        },
+        {
+          "label": "C",
+          "text": "an inconclusive"
+        },
+        {
+          "label": "D",
+          "text": "an unbiased"
+        }
+      ],
+      "passage": "Given that the conditions in binary star systems should make planetary formation nearly impossible, it's not surprising that the existence of planets in such systems has lacked [vocab]______[/vocab] explanation. Roman Rafikov and Kedron Silsbee shed light on the subject when they used modeling to determine a complex set of factors that could support planets' development.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-hard-153604",
+      "question_number": 9,
+      "section": "reading_writing",
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "difficulty_estimate": "hard",
+      "explanation": {
+        "short": "A straightforward explanation is a simple, readily understood one, unlike the complex mechanism described.",
+        "key_evidence": "Conditions should make formation nearly impossible, and modeling identified 'a complex set of factors' that could support it.",
+        "why_correct": "The puzzle was not easily explained, and the eventual account involved multiple complex factors. That contrast supports saying the planets had lacked a straightforward explanation.",
+        "detailed": "Straightforward contrasts directly with complex. Keep lacked in view: saying the phenomenon lacked an inconclusive explanation would mean it did not have an unsettled explanation, which would not express the mystery the researchers helped clarify.",
+        "choice_analysis": {
+          "A": "Discernible means perceptible or recognizable. It is less precise than straightforward because the text specifically contrasts the difficult problem with a complex account, not with an explanation that cannot be detected.",
+          "B": "Straightforward means clear and uncomplicated, matching the kind of explanation missing for this difficult formation problem.",
+          "C": "Inconclusive means not settling a question. The phrase is grammatical, but lacking an inconclusive explanation would not state that the phenomenon remained hard to explain.",
+          "D": "Unbiased means impartial. The passage gives no concern about researchers' prejudice or partiality."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "hypothesis"
+        },
+        {
+          "label": "B",
+          "text": "affinity"
+        },
+        {
+          "label": "C",
+          "text": "anomaly"
+        },
+        {
+          "label": "D",
+          "text": "corroboration"
+        }
+      ],
+      "passage": "While most animals are incapable of passing somatic mutations—genetic alterations that arise in an organism's nonreproductive cells—on to their offspring, elkhorn coral (<i>Acropora palmata</i>) presents an intriguing [vocab]______[/vocab]: in a 2022 study, researchers found that elkhorn coral produced offspring that inherited somatic mutations from a parent.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-hard-153606",
+      "question_number": 10,
+      "section": "reading_writing",
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "difficulty_estimate": "hard",
+      "explanation": {
+        "short": "Elkhorn coral is an anomaly because it passes somatic mutations to offspring.",
+        "key_evidence": "Most animals cannot transmit such nonreproductive-cell mutations, but the coral can.",
+        "why_correct": "The passage states that most animals cannot transmit such nonreproductive-cell mutations, but the coral can. An anomaly is an exception to a general pattern, exactly the role the coral plays.",
+        "detailed": "The opening clause establishes a general biological pattern: somatic mutations normally are not inherited. Elkhorn coral breaks that pattern by producing offspring with such mutations, making it an anomaly, an unusual exception. A hypothesis would be a proposed idea, whereas the study reports an observed result.",
+        "choice_analysis": {
+          "A": "Choice A (“hypothesis”): Hypothesis is a proposed explanation, while the inherited mutations are an observed exception.",
+          "B": "Choice B (“affinity”): Affinity means a natural attraction or similarity, not a break from a rule.",
+          "C": "Choice C (“anomaly”): Anomaly means an unusual exception, matching the coral's inheritance pattern.",
+          "D": "Choice D (“corroboration”): Corroboration is confirming evidence, whereas the coral complicates the usual expectation."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "require"
+        },
+        {
+          "label": "B",
+          "text": "remember"
+        },
+        {
+          "label": "C",
+          "text": "foster"
+        },
+        {
+          "label": "D",
+          "text": "discourage"
+        }
+      ],
+      "passage": "Researcher Haesung Jung led a 2020 study showing that individual acts of kindness can [vocab]______[/vocab] prosocial behavior across a larger group. Jung and her team found that bystanders who witness a helpful act become more likely to offer help to someone else, and in doing so, can inspire still others to act.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-hard-153607",
+      "question_number": 11,
+      "section": "reading_writing",
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "difficulty_estimate": "hard",
+      "explanation": {
+        "short": "One helpful act can foster more prosocial behavior across a group.",
+        "key_evidence": "Bystanders who see help become more likely to help and then inspire others.",
+        "why_correct": "The passage states that bystanders who see help become more likely to help and then inspire others. Foster means encourage growth, matching the spreading chain of helpful acts.",
+        "detailed": "The evidence traces a chain reaction: one observed helpful act raises a bystander's likelihood of helping, which can prompt further people to act. Foster means encourage the growth or development of that behavior across the group. Require is too strong because the study reports increased likelihood, not an obligation to help.",
+        "choice_analysis": {
+          "A": "Choice A (“require”): Require means make mandatory, but kindness raises likelihood rather than imposes behavior.",
+          "B": "Choice B (“remember”): Remember means retain in memory, not cause more helping.",
+          "C": "Choice C (“foster”): Foster means encourage, matching the cascading increase in prosocial actions.",
+          "D": "Choice D (“discourage”): Discourage means reduce a tendency, the opposite of the observed spread of help."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "depleted"
+        },
+        {
+          "label": "B",
+          "text": "homogeneous"
+        },
+        {
+          "label": "C",
+          "text": "immature"
+        },
+        {
+          "label": "D",
+          "text": "dispersed"
+        }
+      ],
+      "passage": "Some foraging models predict that the distance bees travel when foraging will decline as floral density increases, but biologists Shalene Jha and Claire Kremen showed that bees' behavior is inconsistent with this prediction if flowers in dense patches are [vocab]______[/vocab]: bees will forage beyond patches of low species richness to acquire multiple resource types.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-hard-153608",
+      "question_number": 12,
+      "section": "reading_writing",
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "difficulty_estimate": "hard",
+      "explanation": {
+        "short": "A species-poor flower patch is homogeneous in composition.",
+        "key_evidence": "Bees leave dense patches with low species richness to obtain more kinds of resources.",
+        "why_correct": "The passage states that bees leave dense patches with low species richness to obtain more kinds of resources. Homogeneous means uniform in kind, which explains why a dense but species-poor patch is insufficient.",
+        "detailed": "A dense flower patch can still contain only one or a few species. Such a patch is homogeneous—uniform in kind—so bees may leave it to obtain the variety of resources it lacks. Depleted would mean used up, but the stated problem is low species richness, not that the flowers have been exhausted.",
+        "choice_analysis": {
+          "A": "Choice A (“depleted”): Depleted means used up or exhausted, not uniform in species makeup.",
+          "B": "Choice B (“homogeneous”): Homogeneous means uniform, matching a patch with low species richness.",
+          "C": "Choice C (“immature”): Immature describes an early developmental stage, not composition.",
+          "D": "Choice D (“dispersed”): Dispersed means scattered, whereas the issue is lack of species variety within a dense patch."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "predatory"
+        },
+        {
+          "label": "B",
+          "text": "obscure"
+        },
+        {
+          "label": "C",
+          "text": "diverse"
+        },
+        {
+          "label": "D",
+          "text": "localized"
+        }
+      ],
+      "passage": "Some scientists have suggested that mammals in the Mesozoic era were not a very [vocab]______[/vocab] group, but paleontologist Zhe-Xi Luo's research suggests that early mammals living in the shadow of dinosaurs weren't all ground-dwelling insectivores. Fossils of various plant-eating mammals have been found in China, including species like <i>Vilevolodon diplomylos</i>, which Luo says could glide like a flying squirrel.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-hard-153609",
+      "question_number": 13,
+      "section": "reading_writing",
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "difficulty_estimate": "hard",
+      "explanation": {
+        "short": "Diverse means varied, matching the different diets and ways of moving revealed by the fossils.",
+        "key_evidence": "Early mammals were not all ground-dwelling insectivores: some ate plants, and Vilevolodon could glide.",
+        "why_correct": "The blank describes the old view that the research challenges. Not very diverse suggests little variation; finding plant-eating and gliding mammals contradicts that uniform picture.",
+        "detailed": "Keep both not and but in the reasoning. The scientists' earlier view must be one that the varied fossil examples overturn. Diverse captures differences in diet and locomotion, so the claim of limited diversity contrasts logically with Luo's evidence.",
+        "choice_analysis": {
+          "A": "Predatory means hunting other animals. Not very predatory would claim limited predation; plant-eating examples would not contradict that claim as the but structure requires.",
+          "B": "Obscure means little known. The passage uses the fossils to establish variation among mammals, not to contrast their degree of obscurity.",
+          "C": "Diverse means varied. The fossils contradict the claim that mammals lacked diversity by revealing different diets and movement patterns.",
+          "D": "Localized means confined to a limited area. Finding the cited fossils in China does not address whether Mesozoic mammals as a group were geographically restricted."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "compliance with"
+        },
+        {
+          "label": "B",
+          "text": "exposure to"
+        },
+        {
+          "label": "C",
+          "text": "criteria for"
+        },
+        {
+          "label": "D",
+          "text": "forfeiture of"
+        }
+      ],
+      "passage": "Investigating whether shared false visual memories—specific but inaccurate and widely held recollections of images such as product logos—are caused by people's previous [vocab]______[/vocab] incorrect renditions of the images, researchers Deepasri Prasad and Wilma Bainbridge found that, in fact, such memories are often not explained by familiarity with erroneous versions of the images.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-hard-153610",
+      "question_number": 14,
+      "section": "reading_writing",
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "difficulty_estimate": "hard",
+      "explanation": {
+        "short": "The proposed cause is prior exposure to incorrect versions of images.",
+        "key_evidence": "Researchers ask whether people previously encountered erroneous logo renditions.",
+        "why_correct": "The passage states that researchers ask whether people previously encountered erroneous logo renditions. Exposure to means prior contact with something, which is the hypothesized source of false memories.",
+        "detailed": "The proposed explanation asks whether people had previously encountered incorrect logo images. Exposure to means prior contact with or experience of something, so it completes that causal question naturally. Compliance with would mean obeying an instruction and cannot describe seeing an erroneous rendition.",
+        "choice_analysis": {
+          "A": "Choice A (“compliance with”): Compliance with means obeying an instruction, not encountering an image.",
+          "B": "Choice B (“exposure to”): Exposure to means prior contact, matching familiarity with incorrect renditions.",
+          "C": "Choice C (“criteria for”): Criteria for means standards used to judge something, not a causal experience.",
+          "D": "Choice D (“forfeiture of”): Forfeiture of means giving something up, unrelated to seeing erroneous images."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "consistent with"
+        },
+        {
+          "label": "B",
+          "text": "representative of"
+        },
+        {
+          "label": "C",
+          "text": "overshadowed by"
+        },
+        {
+          "label": "D",
+          "text": "irrelevant to"
+        }
+      ],
+      "passage": "According to a US tax policy expert, state taxes are [vocab]______[/vocab] other factors when considering an interstate move. Even significant differences in state taxation have almost no effect on most people's decisions, while differences in employment opportunities, housing availability, and climate are strong influences.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-hard-153611",
+      "question_number": 15,
+      "section": "reading_writing",
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "difficulty_estimate": "hard",
+      "explanation": {
+        "short": "State taxes are overshadowed by stronger influences such as jobs, housing, and climate.",
+        "key_evidence": "Tax differences have 'almost no effect' on most decisions, whereas the other listed differences are 'strong influences.'",
+        "why_correct": "Overshadowed by means made relatively less important or prominent by something stronger. It captures the explicit comparison of the factors' influence on moving decisions.",
+        "detailed": "The sentence ranks factors rather than discussing whether the factors are related to each other. Employment, housing, and climate carry much more decision-making weight than taxes, so they overshadow taxes.",
+        "choice_analysis": {
+          "A": "Consistent with means compatible or in agreement. It does not express the contrast in how strongly these factors influence a move.",
+          "B": "Representative of means serving as an example of something. Taxes are one consideration, not a representation of jobs, housing, and climate.",
+          "C": "Overshadowed by means outstripped in importance or prominence, precisely the comparison between taxes and the stronger factors.",
+          "D": "Irrelevant to other factors would say taxes are unrelated to those factors. The passage instead compares their effects on a decision; it does not establish that relationship claim."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "disorienting"
+        },
+        {
+          "label": "B",
+          "text": "tenuous"
+        },
+        {
+          "label": "C",
+          "text": "nuanced"
+        },
+        {
+          "label": "D",
+          "text": "unoriginal"
+        }
+      ],
+      "passage": "The author's claim about the relationship between Neanderthals and <i>Homo sapiens</i> is [vocab]______[/vocab], as it fails to account for several recent archaeological discoveries. To be convincing, his argument would need to address recent finds of additional hominid fossils, such as the latest Denisovan specimens and <i>Homo longi</i>.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-hard-153612",
+      "question_number": 16,
+      "section": "reading_writing",
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "difficulty_estimate": "hard",
+      "explanation": {
+        "short": "The author's claim is tenuous because it omits several recent discoveries.",
+        "key_evidence": "Additional Denisovan and Homo longi fossils are not accounted for.",
+        "why_correct": "The passage states that additional Denisovan and Homo longi fossils are not accounted for. Tenuous means weakly supported, which follows from an argument leaving important evidence unaddressed.",
+        "detailed": "A claim is tenuous when its support is weak. Here it omits important evidence from Denisovan and *Homo longi* discoveries, so it cannot yet be convincing. Nuanced may sound scholarly, but it means showing fine distinctions, not failing to account for relevant evidence.",
+        "choice_analysis": {
+          "A": "Choice A (“disorienting”): Disorienting means confusing, not inadequately supported.",
+          "B": "Choice B (“tenuous”): Tenuous means weak or poorly supported, matching the claim's omissions.",
+          "C": "Choice C (“nuanced”): Nuanced means showing subtle distinctions, which does not identify the missing-evidence flaw.",
+          "D": "Choice D (“unoriginal”): Unoriginal means not new, irrelevant to whether the argument is convincing."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "unobtrusive"
+        },
+        {
+          "label": "B",
+          "text": "concealed"
+        },
+        {
+          "label": "C",
+          "text": "approximate"
+        },
+        {
+          "label": "D",
+          "text": "peripheral"
+        }
+      ],
+      "passage": "The province of Xoconochco was situated on the Pacific coast, hundreds of kilometers southeast of Tenochtitlan, the capital of the Aztec Empire. Because Xoconochco's location within the empire was so [vocab]______[/vocab], cacao and other trade goods produced there could reach the capital only after a long overland journey.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-hard-153614",
+      "question_number": 17,
+      "section": "reading_writing",
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "difficulty_estimate": "hard",
+      "explanation": {
+        "short": "Xoconochco's distant location makes it peripheral within the Aztec Empire.",
+        "key_evidence": "It lies hundreds of kilometers southeast of the capital and requires a long overland route.",
+        "why_correct": "The passage states that it lies hundreds of kilometers southeast of the capital and requires a long overland route. Peripheral means far from the center, exactly the geographical relation described.",
+        "detailed": "A province hundreds of kilometers from the imperial capital lies away from the center, so it is peripheral. The long overland journey for cacao supplies a practical consequence of that edge-of-the-empire location. Concealed concerns being hidden, whereas the issue is remoteness rather than visibility.",
+        "choice_analysis": {
+          "A": "Choice A (“unobtrusive”): Unobtrusive means not attracting notice, not far from a political center.",
+          "B": "Choice B (“concealed”): Concealed means hidden, whereas the issue is distance from Tenochtitlan.",
+          "C": "Choice C (“approximate”): Approximate means inexact, which cannot explain the long transport route.",
+          "D": "Choice D (“peripheral”): Peripheral means on the outer edge, matching a province far from the capital."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "inevitable"
+        },
+        {
+          "label": "B",
+          "text": "satisfactory"
+        },
+        {
+          "label": "C",
+          "text": "negligible"
+        },
+        {
+          "label": "D",
+          "text": "commonplace"
+        }
+      ],
+      "passage": "As an undergraduate researcher in anthropology, Jennifer C. Chen contributed to a groundbreaking study challenging the accepted view that among prehistoric peoples, female participation in hunting was [vocab]______[/vocab]. The research team's review of data from late Pleistocene and early Holocene burials in the Americas revealed that, in fact, as many as half of the hunters in those populations were female.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-hard-153615",
+      "question_number": 18,
+      "section": "reading_writing",
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "difficulty_estimate": "hard",
+      "explanation": {
+        "short": "The old view treated women's hunting as negligible, but burial data show up to half of hunters were female.",
+        "key_evidence": "The review of Pleistocene and Holocene burials found female hunters in numbers as high as one half.",
+        "why_correct": "The passage states that the review of Pleistocene and Holocene burials found female hunters in numbers as high as one half. Negligible means too small to matter, the belief overturned by the substantial female proportion.",
+        "detailed": "The old view would be that women's hunting participation was too small to matter, which is the meaning of negligible. Finding that women made up as many as half of the hunters directly overturns that assumption. Commonplace would mean ordinary or frequent, a description incompatible with the claim the study is said to challenge.",
+        "choice_analysis": {
+          "A": "Choice A (“inevitable”): Inevitable means unavoidable, not small in amount.",
+          "B": "Choice B (“satisfactory”): Satisfactory means adequate, unrelated to a participation rate.",
+          "C": "Choice C (“negligible”): Negligible means very limited, the accepted view challenged by evidence of many female hunters.",
+          "D": "Choice D (“commonplace”): Commonplace means ordinary or frequent; the passage identifies the prior view as a low proportion."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    }
+  ]
+}

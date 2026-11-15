@@ -1,0 +1,3204 @@
+{
+  "schemaVersion": "sat-canonical-question-collection-v1",
+  "contentId": "collection-wic-easy",
+  "title": "Words in Context · Easy",
+  "section": "reading_writing",
+  "questionCount": 71,
+  "questions": [
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "indicated by"
+        },
+        {
+          "label": "B",
+          "text": "handmade from"
+        },
+        {
+          "label": "C",
+          "text": "represented by"
+        },
+        {
+          "label": "D",
+          "text": "collected with"
+        }
+      ],
+      "passage": "Artist Marilyn Dingle's intricate, coiled baskets are [vocab]______[/vocab] sweetgrass and palmetto palm. Following a Gullah technique that originated in West Africa, Dingle skillfully winds a thin palm frond around a bunch of sweetgrass with the help of a \"sewing bone\" to create the basket's signature look that no factory can reproduce.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153437",
+      "question_number": 1,
+      "section": "reading_writing",
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "The baskets are made by hand from sweetgrass and palmetto palm, so B completes the sentence precisely.",
+        "key_evidence": "Dingle winds a palm frond around a bunch of sweetgrass with a sewing bone to form each basket.",
+        "why_correct": "The verb phrase must name both the materials and the nonfactory method described after the blank. “Handmade from” says that sweetgrass and palm are the substances used to create the baskets and that a person makes them, which matches Dingle’s coiling technique.",
+        "detailed": "Read the second sentence as an explanation of the first: Dingle physically combines palm and sweetgrass with a hand tool, producing a look that a factory cannot reproduce. The blank therefore needs a phrase that can be followed by the material names and that describes construction. Choice B supplies both ideas. It makes the completed sentence say that the baskets are handmade from sweetgrass and palmetto palm.",
+        "choice_analysis": {
+          "A": "“Indicated by” means signaled or shown by. Sweetgrass and palm are the basket-making materials, so a signal relationship is unsupported.",
+          "B": "“Handmade from” identifies the plant materials and fits the passage’s description of Dingle’s hand-coiling process.",
+          "C": "“Represented by” would mean symbolized by. A symbolic relationship is unsupported because the plants are woven into the baskets.",
+          "D": "“Collected with” describes using something while gathering items. The sentence concerns how the baskets are constructed, not how they are collected."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "Disorganized"
+        },
+        {
+          "label": "B",
+          "text": "Alarmed"
+        },
+        {
+          "label": "C",
+          "text": "Offended"
+        },
+        {
+          "label": "D",
+          "text": "Interrupted"
+        }
+      ],
+      "passage": "The following text is from Bram Stoker's 1897 novel<i> Dracula</i>. The narrator is being driven in a carriage through a remote region at night. \r\n\r\nThe baying of the wolves sounded nearer and nearer, as though they were closing round on us from every side. I grew dreadfully afraid, and the horses shared my fear. The driver, however, was not in the least [vocab]disturbed[/vocab]; he kept turning his head to left and right, but I could not see anything through the darkness.",
+      "prompt": "As used in the text, what does the word \"disturbed\" most nearly mean?",
+      "question_id": "wic-easy-153438",
+      "question_number": 2,
+      "section": "reading_writing",
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Because the driver remains calm while the narrator fears the wolves, “disturbed” means alarmed.",
+        "key_evidence": "The narrator and the horses are afraid as the wolves draw closer, but the driver is “not in the least” disturbed.",
+        "why_correct": "The word is negated: the driver is not disturbed despite a frightening situation. The surrounding contrast shows that disturbed refers to an emotional reaction of fear or concern. “Alarmed” gives that meaning, so “not alarmed” accurately describes the driver.",
+        "detailed": "The wolves seem to be closing in, and the narrator explicitly says, “I grew dreadfully afraid.” The driver is set against that frightened response with “however,” which signals that he does not share the alarm. In this context, disturbed does not describe disorder or interruption; it describes being upset by danger. Choice B is the closest match.",
+        "choice_analysis": {
+          "A": "“Disorganized” describes something lacking order, such as a room or plan. Nothing suggests that the driver’s thoughts or actions are disordered.",
+          "B": "“Alarmed” means frightened or worried by danger, the feeling the driver notably does not have.",
+          "C": "“Offended” means insulted. The passage gives a threat from wolves, not an insult that could offend the driver.",
+          "D": "“Interrupted” means stopped in the middle of an activity. The driver continues looking around, so interruption is not the contrast being made."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "word_meaning_in_context"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "nervous about"
+        },
+        {
+          "label": "B",
+          "text": "completed by"
+        },
+        {
+          "label": "C",
+          "text": "delayed by"
+        },
+        {
+          "label": "D",
+          "text": "involved in"
+        }
+      ],
+      "passage": "Dance choreographer Jawole Willa Jo Zollar aims to give people the opportunity to be [vocab]______[/vocab] her creative process. For example, live performances of her dance <i>HairStorie</i>s, which debuted in 2001, featured videos of people across the United States talking about their hair and audience members sharing pictures of their interesting hairstyles.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153439",
+      "question_number": 3,
+      "section": "reading_writing",
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "People contribute stories and photos, so they are involved in Zollar's creative process.",
+        "key_evidence": "The performance incorporates public hair stories and audience members' hairstyle pictures.",
+        "why_correct": "D describes participation: other people's contributions become part of the artistic work.",
+        "detailed": "The opportunity is for people to take part in creating the performance. In the completed sentence, the people are the subject of be involved. The distractor completed by would instead say the creative process completes the people, a different relationship not established by the examples.",
+        "choice_analysis": {
+          "A": "No anxiety about the process is described.",
+          "B": "People being completed by the process would mean the process makes them complete; it does not describe their participation and must not be misread as the audience finishing the process.",
+          "C": "The process is not described as delaying the people.",
+          "D": "Correct: involved in means participating in, as the contributions demonstrate."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "demands"
+        },
+        {
+          "label": "B",
+          "text": "speculates"
+        },
+        {
+          "label": "C",
+          "text": "doubts"
+        },
+        {
+          "label": "D",
+          "text": "establishes"
+        }
+      ],
+      "passage": "Former astronaut Ellen Ochoa says that although she doesn't have a definite idea of when it might happen, she [vocab]______[/vocab] that humans will someday need to be able to live in other environments than those found on Earth. This conjecture informs her interest in future research missions to the moon.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153440",
+      "question_number": 4,
+      "section": "reading_writing",
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Ochoa offers an uncertain prediction about future human needs; she speculates.",
+        "key_evidence": "She has no definite timeline, and the passage calls her idea a “conjecture.”",
+        "why_correct": "The passage calls Ochoa’s idea a conjecture and notes that she has no definite timeline. A conjecture is a thought offered without proof or certainty, so she is proposing that life elsewhere may become necessary rather than claiming to know it. “Speculates” accurately expresses that tentative prediction.",
+        "detailed": "Two clues make certainty inappropriate: Ochoa says she does not have a definite idea of when the event might occur, and the narrator calls the idea a conjecture. The blank needs a verb for putting forward a possibility about the future. Choice B lets the sentence say that she speculates humans will someday need other environments, a claim that can motivate research without being established fact.",
+        "choice_analysis": {
+          "A": "“Demands” means insists that something be done. Ochoa is expressing a possible future need, not ordering anyone to act.",
+          "B": "“Speculates” means proposes an idea without certainty, matching her conjecture about life beyond Earth.",
+          "C": "“Doubts” means questions whether a claim is true. She presents the possibility herself, so she is not doubting it.",
+          "D": "“Establishes” means proves or firmly demonstrates. The text emphasizes uncertainty rather than proof."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "prepared for"
+        },
+        {
+          "label": "B",
+          "text": "inexperienced with"
+        },
+        {
+          "label": "C",
+          "text": "skilled in"
+        },
+        {
+          "label": "D",
+          "text": "excited about"
+        }
+      ],
+      "passage": "A musician and member of the Quechua of Peru, Renata Flores Rivera was eager to promote the Quechua language in her music, but she was [vocab]______[/vocab] speaking it. She met this challenge by asking her grandmother, a native speaker of Quechua, to help her pronounce words in her song lyrics and also by taking classes in the language.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153441",
+      "question_number": 5,
+      "section": "reading_writing",
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Flores Rivera needs pronunciation help and classes, showing that she is inexperienced with speaking Quechua.",
+        "key_evidence": "She asks her grandmother for pronunciation help and takes Quechua language classes.",
+        "why_correct": "The word “but” contrasts Flores Rivera’s enthusiasm for promoting Quechua with a difficulty she faces in speaking it. Needing basic pronunciation guidance and instruction indicates limited prior practice. “Inexperienced with” names that lack of speaking experience.",
+        "detailed": "The passage does not say that Flores Rivera lacks interest in Quechua; it calls her eager to promote it. Her problem is practical: she needs a native speaker’s help with pronunciation and studies the language in classes. The blank must describe an absence of skill gained through experience. Choice B creates exactly that contrast between commitment to the language and inexperience speaking it.",
+        "choice_analysis": {
+          "A": "“Prepared for” means ready to face an event or task. Her need for instruction does not point to readiness; it points to lack of practice.",
+          "B": "“Inexperienced with” means not yet practiced in an activity, which explains why she seeks help speaking Quechua.",
+          "C": "“Skilled in” means proficient. That meaning conflicts with the pronunciation help and language classes she needs.",
+          "D": "“Excited about” describes enthusiasm, which the first clause already establishes; it does not identify the speaking challenge."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "Hidden"
+        },
+        {
+          "label": "B",
+          "text": "Discussed"
+        },
+        {
+          "label": "C",
+          "text": "Extended"
+        },
+        {
+          "label": "D",
+          "text": "Coated"
+        }
+      ],
+      "passage": "The following text is from Yann Martel's 2001 novel <i>Life of Pi</i>. The narrator's family owned a zoo when he was a child. \r\n\r\nIt was a huge zoo, [vocab]spread[/vocab] over numberless acres, big enough to require a train to explore it, though it seemed to get smaller as I grew older, train included. \r\n\r\n©2001 by Yann Martel",
+      "prompt": "As used in the text, what does the word \"spread\" most nearly mean?",
+      "question_id": "wic-easy-153442",
+      "question_number": 6,
+      "section": "reading_writing",
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "The zoo covers “numberless acres,” so “spread” means extended.",
+        "key_evidence": "It is so large that the family needs a train to explore it.",
+        "why_correct": "The sentence places “spread” before “over numberless acres,” an expression of physical area. The word therefore means stretched out across a large space. “Extended” preserves that spatial meaning.",
+        "detailed": "The narrator measures the zoo by the territory it occupies: it covers countless acres and requires a train to see. Those details rule out meanings connected with discussion, concealment, or a surface coating. In the phrase “spread over numberless acres,” choice C means extended over a broad area, which is how the zoo is being described.",
+        "choice_analysis": {
+          "A": "“Hidden” means concealed from view. The passage does not stress secrecy; it stresses the zoo’s size.",
+          "B": "“Discussed” refers to talking about a topic. Acres measure land area, so this meaning cannot fit the sentence.",
+          "C": "“Extended” means stretched across an area, matching a zoo that occupies numberless acres.",
+          "D": "“Coated” means covered with a layer of material. That meaning does not fit a zoo spread across land rather than covered by something."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "word_meaning_in_context"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "struggling"
+        },
+        {
+          "label": "B",
+          "text": "beneficial"
+        },
+        {
+          "label": "C",
+          "text": "simple"
+        },
+        {
+          "label": "D",
+          "text": "healthy"
+        }
+      ],
+      "passage": "According to botanists, a viburnum plant experiencing insect damage may develop erineum—a discolored, felty growth—on its leaf blades. A [vocab]______[/vocab] viburnum plant, on the other hand, will have leaves with smooth surfaces and uniformly green coloration.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153443",
+      "question_number": 7,
+      "section": "reading_writing",
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Smooth, uniformly green leaves contrast with insect damage, so the viburnum is healthy.",
+        "key_evidence": "Damaged plants can develop discolored, felty growths, whereas the other plant has smooth green leaves.",
+        "why_correct": "The text’s phrase “on the other hand” signals a contrast between an unhealthy plant showing insect damage and a plant without those symptoms. Smooth surfaces and even green color are evidence of normal plant condition. “Healthy” captures that condition.",
+        "detailed": "The first sentence supplies the negative condition: insect damage can leave leaf blades discolored and covered with erineum. The next sentence reverses those signs by describing smooth, uniformly green leaves. The blank thus calls for a word meaning free of the damage just described. Choice D makes the comparison logical: a healthy viburnum has normal-looking leaves.",
+        "choice_analysis": {
+          "A": "“Struggling” suggests poor health or difficulty, which belongs with the damaged plant rather than the contrasting one.",
+          "B": "“Beneficial” means helpful to someone or something. The leaf description evaluates the plant’s condition, not its usefulness.",
+          "C": "“Simple” means uncomplicated. It does not explain why smooth, green leaves differ from leaves harmed by insects.",
+          "D": "“Healthy” describes a plant without the discoloration and abnormal growth associated with insect damage."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "reflect"
+        },
+        {
+          "label": "B",
+          "text": "receive"
+        },
+        {
+          "label": "C",
+          "text": "evaluate"
+        },
+        {
+          "label": "D",
+          "text": "mimic"
+        }
+      ],
+      "passage": "Research conducted by planetary scientist Katarina Miljkovic suggests that the Moon's surface may not accurately[vocab]______[/vocab] early impact events. When the Moon was still forming, its surface was softer, and asteroid or meteoroid impacts would have left less of an impression; thus, evidence of early impacts may no longer be present.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153444",
+      "question_number": 8,
+      "section": "reading_writing",
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "The Moon may no longer accurately reflect early impacts because its soft early surface left little lasting evidence.",
+        "key_evidence": "Early impacts would have made less of an impression, so traces of them may have disappeared.",
+        "why_correct": "The sentence asks whether the Moon’s surface can serve as an accurate record of past impact events. A surface reflects those events when its present features show their effects. “Reflect” expresses that evidentiary relationship.",
+        "detailed": "Miljkovic’s point is not that the Moon failed to receive impacts; it certainly was struck by them. The concern is whether today’s surface preserves visible marks that reveal what happened long ago. Because the surface was softer during formation, impacts may have left weak or vanished traces. Choice A says the surface may not accurately reflect—that is, show evidence of—those early events.",
+        "choice_analysis": {
+          "A": "“Reflect” can mean reveal or show evidence of, fitting a lunar surface whose features record impact history.",
+          "B": "“Receive” means undergo or take in. The passage discusses whether impact evidence remains, not whether impacts originally reached the Moon.",
+          "C": "“Evaluate” means judge or assess. A physical surface does not analyze the events that affected it.",
+          "D": "“Mimic” means imitate an appearance or action. The Moon’s surface would record impacts, not copy them."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "replacing"
+        },
+        {
+          "label": "B",
+          "text": "inventing"
+        },
+        {
+          "label": "C",
+          "text": "preserving"
+        },
+        {
+          "label": "D",
+          "text": "counting"
+        }
+      ],
+      "passage": "Charles \"Teenie\" Harris was a photographer for the <i>Pittsburgh Courier </i>from 1936 to 1975. During his career he took over 70,000 photographs documenting everyday life in Pittsburgh's Black communities. The Carnegie Museum of Art maintains thousands of his photographs, carefully [vocab]______[/vocab] them so that audiences can continue to view them well into the future.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153445",
+      "question_number": 9,
+      "section": "reading_writing",
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "The museum protects Harris's photographs for future viewers, so C, preserving, is correct.",
+        "key_evidence": "The Carnegie Museum carefully maintains the photographs so audiences can view them well into the future.",
+        "why_correct": "The sentence supplies the decisive evidence: Preserving means protecting something from loss or damage. Future viewing requires that protection.",
+        "detailed": "Because the museum maintains existing photographs for future audiences, the blank needs a verb meaning safeguard, not create or replace.",
+        "choice_analysis": {
+          "A": "Replacing means substituting a new item for an old one; the museum keeps Harris's existing photographs available rather than swapping them out.",
+          "B": "Inventing means creating something that did not exist; the photographs were already taken by Harris, so the museum cannot invent them.",
+          "C": "Preserving means protecting material so it endures. That is exactly what careful maintenance for future viewers accomplishes.",
+          "D": "Counting means determining a number. Counting photographs would not ensure that audiences can still see them in the future."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "newfound"
+        },
+        {
+          "label": "B",
+          "text": "delicate"
+        },
+        {
+          "label": "C",
+          "text": "inevitable"
+        },
+        {
+          "label": "D",
+          "text": "habitual"
+        }
+      ],
+      "passage": "In the 1970s, video cameras became increasingly affordable for ordinary consumers and gave Ulysses Jenkins and other artists capabilities that were previously unavailable except to television broadcasters. Jenkins recognized and took full advantage of this [vocab]______[/vocab] access to powerful technology to create groundbreaking works of video art, such as <i>Mass of Imag</i>es (1978).",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153446",
+      "question_number": 10,
+      "section": "reading_writing",
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "A is correct: affordable cameras gave artists newly available access to video technology.",
+        "key_evidence": "Video cameras became affordable and gave Jenkins capabilities previously available only to television broadcasters.",
+        "why_correct": "The sentence supplies the decisive evidence: Newfound means newly gained or newly available. The contrast with earlier broadcaster-only access supplies that meaning.",
+        "detailed": "The sentence emphasizes a change in availability: ordinary consumers and artists could now use technology once restricted to broadcasters.",
+        "choice_analysis": {
+          "A": "Newfound means recently acquired. Jenkins could exploit this newly available access after cameras became affordable.",
+          "B": "Delicate means fragile or easily damaged; affordability and new artistic capability say nothing about technology's fragility.",
+          "C": "Inevitable means certain to happen; the sentence describes access that became available, not an unavoidable outcome.",
+          "D": "Habitual means customary or routine; access previously unavailable cannot be described as long-established routine access."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "accuracy"
+        },
+        {
+          "label": "B",
+          "text": "inactivity"
+        },
+        {
+          "label": "C",
+          "text": "complexity"
+        },
+        {
+          "label": "D",
+          "text": "restraint"
+        }
+      ],
+      "passage": "A brief book review cannot fully convey the [vocab]______[/vocab] of Olga Tokarczuk's novel <i>The Books of Jacob</i>, with its enormous cast of characters, its complicated, wandering plot, and its page numbers that count backward (beginning at 965 and ending at 1).",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153447",
+      "question_number": 11,
+      "section": "reading_writing",
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "C is correct because the novel's unusual features create complexity.",
+        "key_evidence": "The novel has an enormous cast, a complicated wandering plot, and backward-counting page numbers.",
+        "why_correct": "The sentence supplies the decisive evidence: Complexity is the quality of having many interconnected or difficult features, all of which the sentence lists.",
+        "detailed": "A brief review cannot capture a work with many characters, a convoluted plot, and unconventional numbering; these are signs of complexity.",
+        "choice_analysis": {
+          "A": "Accuracy means correctness. The listed features describe how intricate the novel is, not whether a review reports facts correctly.",
+          "B": "Inactivity means lack of action. A wandering plot and enormous cast do not indicate that the novel is inactive.",
+          "C": "Complexity means intricate variety and difficulty. The cast, plot, and reverse numbering all support that description.",
+          "D": "Restraint means deliberate limitation or moderation. The sentence stresses abundance and complication, the opposite of restraint."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "Demanding"
+        },
+        {
+          "label": "B",
+          "text": "Signaling"
+        },
+        {
+          "label": "C",
+          "text": "Inviting"
+        },
+        {
+          "label": "D",
+          "text": "Shifting"
+        }
+      ],
+      "passage": "The following text is from Nella Larsen's 1928 novel <i>Quicksand.</i>\r\n\r\nThe trees in their spring beauty sent through her restive mind a sharp thrill of pleasure. Seductive, charming, and [vocab]beckoning[/vocab] as cities were, they had not this easy unhuman loveliness.",
+      "prompt": "As used in the text, what does the word \"beckoning\" most nearly mean?",
+      "question_id": "wic-easy-153448",
+      "question_number": 12,
+      "section": "reading_writing",
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Beckoning means inviting or enticing, matching seductive and charming.",
+        "key_evidence": "The cities are called seductive and charming; the trees separately give her a thrill of pleasure.",
+        "why_correct": "C captures the attractive pull of cities without confusing it with the trees' different natural loveliness.",
+        "detailed": "The concession grants that cities attract her, then says they lack the trees' easy loveliness. Beckoning belongs with the paired words seductive and charming and means inviting her toward them. The pleasure in the first sentence comes from spring trees, not a statement that cities caused that particular feeling.",
+        "choice_analysis": {
+          "A": "Demanding requires compliance or effort rather than expressing the allure in the paired adjectives.",
+          "B": "Signaling is broader and misses the specific inviting force of beckoning here.",
+          "C": "Correct: inviting matches the cities' seductive, charming appeal.",
+          "D": "Shifting concerns change, which the description of attraction does not establish."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "word_meaning_in_context"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "acknowledges"
+        },
+        {
+          "label": "B",
+          "text": "produces"
+        },
+        {
+          "label": "C",
+          "text": "spans"
+        },
+        {
+          "label": "D",
+          "text": "advances"
+        }
+      ],
+      "passage": "Biologist Jane Edgeloe and colleagues have located what is believed to be the largest individual plant in the world in the Shark Bay area of Australia. The plant is a type of seagrass called<i> Posidonia australis</i>, and it [vocab]______[/vocab] approximately 200 square kilometers.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153449",
+      "question_number": 13,
+      "section": "reading_writing",
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "C is correct: the enormous seagrass plant spans 200 square kilometers.",
+        "key_evidence": "The plant is believed to be the world's largest individual plant and covers approximately 200 square kilometers.",
+        "why_correct": "The sentence supplies the decisive evidence: Spans means extends across a distance or area; an area measurement calls for that verb.",
+        "detailed": "The blank reports the plant's physical extent, so only a verb meaning stretch across an area works.",
+        "choice_analysis": {
+          "A": "Acknowledges means recognizes or admits; a plant cannot acknowledge an area measurement.",
+          "B": "Produces means makes or generates; 200 square kilometers is the plant's coverage, not something it creates.",
+          "C": "Spans means extends across. It precisely states the seagrass's 200-square-kilometer reach.",
+          "D": "Advances means moves forward or promotes progress; neither sense describes fixed geographic coverage."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "widespread"
+        },
+        {
+          "label": "B",
+          "text": "careful"
+        },
+        {
+          "label": "C",
+          "text": "unintended"
+        },
+        {
+          "label": "D",
+          "text": "infrequent"
+        }
+      ],
+      "passage": "In the early 1800s, the Cherokee scholar Sequoyah created the first script, or writing system, for an Indigenous language in the United States. Because it represented the sounds of spoken Cherokee so accurately, his script was easy to learn and thus quickly achieved [vocab]______[/vocab] use: by 1830, over 90 percent of the Cherokee people could read and write it.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153450",
+      "question_number": 14,
+      "section": "reading_writing",
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Over90% literacy demonstrates broad adoption, so widespread is precise.",
+        "key_evidence": "By1830, over90% of Cherokee people could read and write the script.",
+        "why_correct": "A describes how extensively the script was learned across the population.",
+        "detailed": "The statistic measures reach, not the care with which people wrote or whether every aspect of adoption was intended. The causal explanation links accurate sound representation to ease of learning and rapid adoption. That establishes extensive use without requiring an inference about the creator's exact intentions.",
+        "choice_analysis": {
+          "A": "Correct: widespread means broadly adopted across many people.",
+          "B": "Careful concerns manner, not how much of the population learned it.",
+          "C": "Unintended concerns whether an outcome was planned; the passage does not establish unplanned adoption, and deliberate creation alone would not settle every adoption intention.",
+          "D": "Infrequent means rare, inconsistent with the near-universal literacy figure."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "validate"
+        },
+        {
+          "label": "B",
+          "text": "interpret"
+        },
+        {
+          "label": "C",
+          "text": "relate"
+        },
+        {
+          "label": "D",
+          "text": "accommodate"
+        }
+      ],
+      "passage": "In 1929 the <i>Atlantic Monthly</i> published several articles based on newly discovered letters allegedly exchanged between President Abraham Lincoln and a woman named Ann Rutledge. Historians were unable to [vocab]______[/vocab] the authenticity of the letters, however, and quickly dismissed them as a hoax.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153451",
+      "question_number": 15,
+      "section": "reading_writing",
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "A is correct because historians could not validate the letters' authenticity.",
+        "key_evidence": "Historians quickly dismissed the alleged Lincoln-Rutledge letters as a hoax.",
+        "why_correct": "The sentence supplies the decisive evidence: Validate means confirm that something is genuine or accurate. A hoax cannot be authenticated.",
+        "detailed": "The historians' dismissal shows they could not establish the letters as real, so validate is the needed verb.",
+        "choice_analysis": {
+          "A": "Validate means verify authenticity. The inability to confirm the letters led historians to call them a hoax.",
+          "B": "Interpret means explain meaning. The problem was whether the letters were genuine, before any interpretation mattered.",
+          "C": "Relate means connect or tell about. Connecting the letters to someone would not test their authenticity.",
+          "D": "Accommodate means make room for or adapt to. That action has no connection to proving documents genuine."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "circumvents"
+        },
+        {
+          "label": "B",
+          "text": "eclipses"
+        },
+        {
+          "label": "C",
+          "text": "fabricates"
+        },
+        {
+          "label": "D",
+          "text": "exemplifies"
+        }
+      ],
+      "passage": "Following the principles of community-based participatory research, tribal nations and research institutions are equal partners in health studies conducted on reservations. A collaboration between the Crow Tribe and Montana State University [vocab]______[/vocab] this model: tribal citizens worked alongside scientists to design the methodology and continue to assist in data collection.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153452",
+      "question_number": 16,
+      "section": "reading_writing",
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "D, exemplifies, is correct because the Crow-Montana State partnership is a concrete instance of the model.",
+        "key_evidence": "Tribal citizens and scientists jointly designed the methodology and continue to collect data.",
+        "why_correct": "The sentence supplies the decisive evidence: Exemplifies means serves as a clear example of a principle; equal partnership is the stated research principle.",
+        "detailed": "The collaboration puts the model into practice by giving tribal citizens and scientists shared roles.",
+        "choice_analysis": {
+          "A": "Circumvents means avoids or bypasses. The collaboration follows the participatory model rather than evading it.",
+          "B": "Eclipses means overshadows or surpasses. The sentence identifies a case of the model, not a superior replacement for it.",
+          "C": "Fabricates means invents falsely. The partnership did not make up the model; it carried out its equal-partner principle.",
+          "D": "Exemplifies means illustrates through a real case. Shared design and data collection make this partnership an example."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "resilient"
+        },
+        {
+          "label": "B",
+          "text": "inadequate"
+        },
+        {
+          "label": "C",
+          "text": "dynamic"
+        },
+        {
+          "label": "D",
+          "text": "satisfactory"
+        }
+      ],
+      "passage": "The process of mechanically recycling plastics is often considered [vocab]______[/vocab] because of the environmental impact and the loss of material quality that often occurs. But chemist Takunda Chazovachii has helped develop a cleaner process of chemical recycling that converts superabsorbent polymers from diapers into a desirable reusable adhesive.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153453",
+      "question_number": 17,
+      "section": "reading_writing",
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "B, inadequate, describes mechanical recycling's environmental and quality drawbacks.",
+        "key_evidence": "Mechanical recycling often has environmental impact and causes loss of material quality.",
+        "why_correct": "The sentence supplies the decisive evidence: Inadequate means insufficient or not good enough for a purpose; the listed drawbacks explain that judgment.",
+        "detailed": "The cleaner chemical method is contrasted with a process that harms the environment and degrades material, showing why the older method is inadequate.",
+        "choice_analysis": {
+          "A": "Resilient means able to recover from difficulty. Environmental harm and quality loss do not show a process recovering well.",
+          "B": "Inadequate means not sufficient or effective enough. The stated impacts and quality loss supply those deficiencies.",
+          "C": "Dynamic means active or continually changing. The passage evaluates recycling's shortcomings, not its rate of change.",
+          "D": "Satisfactory means acceptable or adequate. Calling out serious environmental and quality problems contradicts an acceptable evaluation."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "quantities"
+        },
+        {
+          "label": "B",
+          "text": "decorations"
+        },
+        {
+          "label": "C",
+          "text": "patterns"
+        },
+        {
+          "label": "D",
+          "text": "agreements"
+        }
+      ],
+      "passage": "Bioluminescent beetles called fireflies may seem to create flashes of light randomly, but each species of firefly actually has its own special series of repeated flashes and pauses. These unique [vocab]______[/vocab] allow fireflies of the same species to find each other.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153454",
+      "question_number": 18,
+      "section": "reading_writing",
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "A repeated sequence of flashes and pauses is a pattern, so C is the precise choice.",
+        "key_evidence": "Each firefly species has its own special series of repeated flashes and pauses.",
+        "why_correct": "A pattern is an arrangement that repeats in a recognizable way. The passage defines the blank through a recurring series of flashes and pauses and explains that this series helps members of a species locate one another. “Patterns” names those repeated signal arrangements.",
+        "detailed": "The word “randomly” is corrected by “but”: fireflies only appear random because observers may not notice that each species repeats a particular flash-and-pause sequence. Such a sequence is not an amount, ornament, or agreement. Choice C describes a repeatable form of signaling, which explains how fireflies recognize others of the same species.",
+        "choice_analysis": {
+          "A": "“Quantities” are numerical amounts. The sentence does not describe how many flashes there are; it describes their order and repetition.",
+          "B": "“Decorations” are items added for visual ornament. Flashing does not function as ornamentation here; it is a communication signal.",
+          "C": "“Patterns” are repeated arrangements, matching each species’ characteristic sequence of flashes and pauses.",
+          "D": "“Agreements” are shared decisions or promises. Fireflies use inherited signaling sequences; they are not making agreements."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "selects"
+        },
+        {
+          "label": "B",
+          "text": "originates"
+        },
+        {
+          "label": "C",
+          "text": "conditions"
+        },
+        {
+          "label": "D",
+          "text": "replenishes"
+        }
+      ],
+      "passage": "According to Potawatomi ecologist Robin Wall Kimmerer, the Indigenous method of harvesting <i>Hierochloe odorata</i>, or sweetgrass, by snapping the plant off at the root actually [vocab]______[/vocab] wild populations: it may seem counterintuitive, she says, but this method of removal allows new sweetgrass plants to repopulate the space, with an overall increase in number and vigor.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153455",
+      "question_number": 19,
+      "section": "reading_writing",
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Harvesting lets new sweetgrass grow back with greater number and vigor, so it replenishes wild populations.",
+        "key_evidence": "After plants are snapped off, new sweetgrass repopulates the space and increases overall number and vigor.",
+        "why_correct": "To replenish a population is to restore or build it up after removal or depletion. Although harvesting sounds as if it would reduce the plants, the passage explains that this method creates room for new growth. The resulting increase makes “replenishes” the fitting verb.",
+        "detailed": "The colon introduces the reason for the counterintuitive claim. Snapping sweetgrass at the root enables new plants to fill the available space, and the result is a larger, more vigorous population. The blank must therefore describe a beneficial effect on wild sweetgrass after harvesting. Choice D says the practice replenishes the population by renewing its growth.",
+        "choice_analysis": {
+          "A": "“Selects” means chooses particular members of a group. The sentence explains population recovery, not a process of choosing plants.",
+          "B": "“Originates” means begins or comes into existence. Harvesting does not create the original wild population; it helps it regrow.",
+          "C": "“Conditions” means influences or prepares, but it does not directly express the stated increase in plants and vigor.",
+          "D": "“Replenishes” means restores or increases what is present, matching new sweetgrass repopulating the harvested space."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "vivid"
+        },
+        {
+          "label": "B",
+          "text": "unknown"
+        },
+        {
+          "label": "C",
+          "text": "definite"
+        },
+        {
+          "label": "D",
+          "text": "reserved"
+        }
+      ],
+      "passage": "Visual artist Gabriela Alemán states that the bold colors of comics, pop art, and Latinx culture have alwaysfascinated her. This passion for the rich history and colors of her Latinx community translates into the [vocab]______[/vocab]artworks she produces.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153456",
+      "question_number": 20,
+      "section": "reading_writing",
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Alemán’s attraction to bold colors appears in her vivid artworks.",
+        "key_evidence": "She is fascinated by the bold colors of comics, pop art, and Latinx culture and brings that passion into her art.",
+        "why_correct": "Vivid describes colors that are bright, intense, and striking. The passage links Alemán’s longstanding fascination with bold and rich colors to the artworks she produces. “Vivid” therefore describes the visual quality created by that influence.",
+        "detailed": "The sentence moves from source to result: Alemán values the rich colors in several artistic traditions, and that passion translates into her own work. The blank precedes “artworks,” so it needs an adjective that can characterize their appearance. Choice A makes the causal connection clear: artists inspired by bold color produce vivid artworks.",
+        "choice_analysis": {
+          "A": "“Vivid” means bright, intense, or richly colored, which follows directly from her fascination with bold colors.",
+          "B": "“Unknown” means not recognized or identified. The passage emphasizes a visible color style, not whether the artworks are familiar.",
+          "C": "“Definite” means clear or certain. It does not describe the color-rich appearance highlighted in the text.",
+          "D": "“Reserved” suggests restrained or subdued expression, the opposite of art shaped by bold, rich colors."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "impartial"
+        },
+        {
+          "label": "B",
+          "text": "offhand"
+        },
+        {
+          "label": "C",
+          "text": "persistent"
+        },
+        {
+          "label": "D",
+          "text": "mandatory"
+        }
+      ],
+      "passage": "Beginning in the 1950s, Navajo Nation legislator Annie Dodge Wauneka continuously worked to promote public health; this [vocab]______[/vocab] effort involved traveling throughout the vast Navajo homeland and writing a medical dictionary for speakers of <i>Diné bizaad</i>, the Navajo language.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153457",
+      "question_number": 21,
+      "section": "reading_writing",
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Wauneka worked continuously across years and distances, making her public-health effort persistent.",
+        "key_evidence": "Beginning in the 1950s, she kept promoting health by traveling throughout the homeland and creating a medical dictionary.",
+        "why_correct": "Persistent means continuing steadily despite the time or effort required. The passage presents Wauneka’s work as continuous and gives demanding examples of it: extensive travel and a major language resource. Choice C captures that sustained commitment.",
+        "detailed": "The opening time marker, “Beginning in the 1950s,” and the adverb “continuously” establish duration before the passage lists Wauneka’s actions. Traveling through a vast homeland and writing a medical dictionary are evidence of a long-running campaign, not a casual remark or a required task. Choice C describes an effort that endures over time.",
+        "choice_analysis": {
+          "A": "“Impartial” means fair and unbiased. The passage does not address whether Wauneka favored one side; it focuses on how long and steadily she worked.",
+          "B": "“Offhand” means casual or unplanned. That meaning does not fit her continuous travel and dictionary work, which show deliberate, sustained effort.",
+          "C": "“Persistent” means continuing with determination over time, which matches her ongoing public-health work.",
+          "D": "“Mandatory” means required by a rule or authority. No requirement is mentioned; the text emphasizes her commitment."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "selecting"
+        },
+        {
+          "label": "B",
+          "text": "inspecting"
+        },
+        {
+          "label": "C",
+          "text": "creating"
+        },
+        {
+          "label": "D",
+          "text": "deciding"
+        }
+      ],
+      "passage": "Particle physicists like Ayana Holloway Arce and Aida El-Khadra spend much of their time [vocab]______[/vocab] what is invisible to the naked eye: using sophisticated technology, they closely examine the behavior of subatomic particles, the smallest detectable parts of matter.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153458",
+      "question_number": 22,
+      "section": "reading_writing",
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Particle physicists use technology to inspect particles that cannot be seen with the naked eye.",
+        "key_evidence": "They closely examine the behavior of subatomic particles using sophisticated technology.",
+        "why_correct": "To inspect is to examine something carefully. The sentence immediately explains the scientists’ work as close examination of invisible subatomic particles. “Inspecting” restates that precise activity and fits grammatically after “spend much of their time.”",
+        "detailed": "The colon provides a direct definition of the work named in the blank: particle physicists use advanced instruments to closely examine how subatomic particles behave. The task is observational and analytical; it is not making particles or choosing among options. Choice B completes the sentence with a gerund that names careful examination of phenomena beyond ordinary sight.",
+        "choice_analysis": {
+          "A": "“Selecting” means choosing from alternatives. The passage says the physicists study particle behavior, not choose particular particles.",
+          "B": "“Inspecting” means examining closely, exactly the activity performed with sophisticated technology.",
+          "C": "“Creating” means bringing something into existence. The physicists observe existing subatomic particles rather than manufacture them.",
+          "D": "“Deciding” means reaching a judgment or choice. Close examination may inform decisions, but it is the stated activity itself."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "scholarly"
+        },
+        {
+          "label": "B",
+          "text": "melodic"
+        },
+        {
+          "label": "C",
+          "text": "jarring"
+        },
+        {
+          "label": "D",
+          "text": "personal"
+        }
+      ],
+      "passage": "In recommending Bao Phi's collection <i>Sông I Sing</i>, a librarian noted that pieces by the spoken-word poet don't lose their [vocab]______[/vocab] nature when printed: the language has the same pleasant musical quality on the page as it does when performed by Phi.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153459",
+      "question_number": 23,
+      "section": "reading_writing",
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "B is correct because Phi's printed language retains a melodic quality.",
+        "key_evidence": "The language has the same pleasant musical quality on the page as in performance.",
+        "why_correct": "The sentence supplies the decisive evidence: Melodic means musical and pleasing in sound; the librarian explicitly describes that quality.",
+        "detailed": "Although the poems are printed rather than performed, their language still sounds musical, so melodic is the precise descriptor.",
+        "choice_analysis": {
+          "A": "Scholarly means academic or learned. The evidence concerns musical sound, not academic research or style.",
+          "B": "Melodic means tuneful or musical. The phrase pleasant musical quality directly defines this choice.",
+          "C": "Jarring means harsh or unpleasant. Pleasant musical language is the opposite of a jarring effect.",
+          "D": "Personal means individual or private. The sentence evaluates sound quality, not the poet's private feelings."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "sturdily"
+        },
+        {
+          "label": "B",
+          "text": "carelessly"
+        },
+        {
+          "label": "C",
+          "text": "rarely"
+        },
+        {
+          "label": "D",
+          "text": "simply"
+        }
+      ],
+      "passage": "The recent discovery of a carved wooden figure dating to around 2,000 years ago in a ditch in England was truly surprising. Wooden objects [vocab]______[/vocab] survive for so long due to their high susceptibility to rot, but archaeologists suspect layers of sediment in the ditch preserved the figure by creating an oxygen-free environment.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153460",
+      "question_number": 24,
+      "section": "reading_writing",
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Because wood readily rots, a carved wooden object surviving for 2,000 years is unusual; the oxygen-free sediment explains the exception.",
+        "key_evidence": "Wood is described as highly susceptible to rot, while the ditch's sediment created an oxygen-free setting that preserved the figure.",
+        "why_correct": "The passage contrasts wood's normal tendency to decay with one exceptionally well-preserved figure. The blank must express how uncommon long-term survival is for wood. “Rarely” supplies that frequency meaning and makes the preservation conditions relevant.",
+        "detailed": "The first sentence calls the discovery surprising. The next sentence gives the reason: wood has a high susceptibility to rot, so it normally does not last for millennia. The archaeologists' oxygen-free-sediment hypothesis explains why this particular figure escaped that normal outcome. Thus the adverb before “survive” has to mean “not often,” which is exactly what “rarely” means.",
+        "choice_analysis": {
+          "A": "“Sturdily” means in a strong or durable way. It contradicts the statement that wooden objects are especially vulnerable to rot; the text presents this survival as an exception, not as normal durability.",
+          "B": "“Carelessly” describes a manner of acting. An inanimate wooden object cannot carelessly survive, and the sentence is about likelihood of preservation rather than anyone's behavior.",
+          "C": "“Rarely” means infrequently. It fits the surprise over a 2,000-year-old wooden figure and the explanation that most wood decays unless special conditions preserve it.",
+          "D": "“Simply” means merely or easily, neither of which states how often wood survives. It does not supply the frequency adverb demanded by the contrast."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "delegate"
+        },
+        {
+          "label": "B",
+          "text": "compose"
+        },
+        {
+          "label": "C",
+          "text": "interpret"
+        },
+        {
+          "label": "D",
+          "text": "renounce"
+        }
+      ],
+      "passage": "Due to their often strange images, highly experimental syntax, and opaque subject matter, many of John Ashbery's poems can be quite difficult to [vocab]______[/vocab] and thus are the object of heated debate among scholars.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153461",
+      "question_number": 25,
+      "section": "reading_writing",
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Ashbery's unusual imagery, experimental syntax, and opaque subjects make his poems hard to interpret.",
+        "key_evidence": "The poems contain strange images, highly experimental syntax, and opaque subject matter, and scholars debate them intensely.",
+        "why_correct": "The passage names three features that make a poem difficult to understand or explain. Scholarly debate follows because readers may reach competing readings. “Interpret” means determine or explain meaning, so it completes the logic of the sentence.",
+        "detailed": "The sentence does not say that Ashbery's poems are hard to write or reject; it lists qualities that make their meanings difficult to grasp. Strange images and opaque subject matter invite more than one possible reading, while experimental syntax can obscure relationships within a sentence. The resulting debate among scholars confirms that the task is interpretation. Choice C names that activity precisely.",
+        "choice_analysis": {
+          "A": "“Delegate” means assign a task to another person. It does not describe the intellectual work readers and scholars perform when they make sense of a poem.",
+          "B": "“Compose” means create or write. The passage discusses the difficulty readers have after the poems exist, not the difficulty of Ashbery's process of writing them.",
+          "C": "“Interpret” means work out a text's meaning. The poems' opaque subjects and unconventional forms explain why that work is difficult and debated.",
+          "D": "“Renounce” means give up or reject. Heated scholarly debate shows sustained efforts to make sense of the poems, not a decision to abandon them."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "borrow"
+        },
+        {
+          "label": "B",
+          "text": "postpone"
+        },
+        {
+          "label": "C",
+          "text": "protect"
+        },
+        {
+          "label": "D",
+          "text": "decorate"
+        }
+      ],
+      "passage": "The Appalachian Trail is a hiking path in the eastern United States. Much of the 2,000 mile trail passes through wilderness areas. In order to [vocab]______[/vocab] those areas, the United States Congress passed the National Trails System Act in 1968, ensuring that the trail would not be sold or commercially developed.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153462",
+      "question_number": 26,
+      "section": "reading_writing",
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Congress acted to protect wilderness along the Appalachian Trail from sale and commercial development.",
+        "key_evidence": "The National Trails System Act ensured that the wilderness areas would not be sold or commercially developed.",
+        "why_correct": "The passage says that preventing sale and development preserves the wilderness areas. The infinitive phrase “In order to” signals the purpose of the law, and “protect” states that purpose directly.",
+        "detailed": "The law is introduced after the passage identifies wilderness areas along the trail. Its stated effect is to keep those areas from being sold or commercially developed. Those restrictions safeguard the land's wilderness character. Therefore the blank needs a verb for conserving something from a threat, not one for using, delaying, or decorating it.",
+        "choice_analysis": {
+          "A": "“Borrow” means take something temporarily for use. It does not describe Congress's action on ownership and land use.",
+          "B": "“Postpone” means delay an event or action. It does not fit a permanent safeguard against sale and development.",
+          "C": "“Protect” means keep safe from harm or loss. Barring commercial development and sale protects the wilderness areas.",
+          "D": "“Decorate” means add ornament. No ornamentation is discussed; the act preserves the land by limiting what can happen to it."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "Denying"
+        },
+        {
+          "label": "B",
+          "text": "Entering"
+        },
+        {
+          "label": "C",
+          "text": "Carrying"
+        },
+        {
+          "label": "D",
+          "text": "Hearing"
+        }
+      ],
+      "passage": "The following text is adapted from Sui Sin Far's 1912 short story \"Mrs. Spring Fragrance.\" Mr. and Mrs. Spring Fragrance immigrated to the United States from China. \r\n\r\nMrs. Spring Fragrance was unaware that Mr. Spring Fragrance, tired with the day's business, had thrown himself down on the bamboo settee on the veranda, and that although his eyes were engaged in scanning the pages of the <i>Chinese World</i>, his ears could not help [vocab]receiving[/vocab] the words which were borne to him through the open window.",
+      "prompt": "As used in the text, what does the word \"receiving\" most nearly mean?",
+      "question_id": "wic-easy-153463",
+      "question_number": 27,
+      "section": "reading_writing",
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Here, Mr. Spring Fragrance's ears are “receiving” words through the open window, so he is hearing them.",
+        "key_evidence": "Although he is reading the Chinese World, words travel through the open window to his ears.",
+        "why_correct": "The passage makes “his ears” the subject and “the words” the object. Ears receive spoken words by hearing them. The surrounding contrast shows that he may be visually occupied with reading, yet he still hears what comes through the window.",
+        "detailed": "The sentence separates two kinds of attention: his eyes scan the newspaper, but his ears cannot help taking in words from outside. In this sensory context, “receiving” is figurative language for perceiving sound. “Hearing” preserves both the action of the ears and the involuntary quality expressed by “could not help.”",
+        "choice_analysis": {
+          "A": "“Denying” means refusing to admit something. It does not describe a sensory response, and the phrase says the words reach him despite his other activity.",
+          "B": "“Entering” means going into a place. The words may enter through the window, but the sentence says his ears receive them; it asks for the ears' sensory action.",
+          "C": "“Carrying” means transporting something. It does not fit the ears' role: wind or sound could carry words, whereas ears take them in.",
+          "D": "“Hearing” means perceiving sound. It matches words borne through an open window to a person's ears."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "word_meaning_in_context"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "invent"
+        },
+        {
+          "label": "B",
+          "text": "simulate"
+        },
+        {
+          "label": "C",
+          "text": "exaggerate"
+        },
+        {
+          "label": "D",
+          "text": "preserve"
+        }
+      ],
+      "passage": "While we can infer information about climate activity in Earth's distant past from physical evidence, we of course cannot observe past climates directly. To study early Earth's climate in action, we must [vocab]______[/vocab] that climate using computer models that represent various climate conditions consistent with the physical evidence.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153464",
+      "question_number": 28,
+      "section": "reading_writing",
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Simulate means reproduce conditions in a model, matching the computer study of ancient climate.",
+        "key_evidence": "The models represent conditions consistent with physical evidence because direct observation is impossible.",
+        "why_correct": "B describes an artificial representation used to study a real past system.",
+        "detailed": "Scientists cannot observe early Earth's climate directly, so they model how it behaved. Their goal is not to create a new climate or keep the original one unchanged. An invention can be informed by evidence, but invent is still not the precise term for reproducing past conditions in a model.",
+        "choice_analysis": {
+          "A": "Invent means devise or create something new. It does not precisely describe representing an already-existing past climate, even though inventions can be reality-based.",
+          "B": "Correct: simulate means imitate or reproduce conditions through a model.",
+          "C": "Exaggerate would make the conditions appear greater or more extreme, which is not the aim.",
+          "D": "Preserve would keep the original climate intact rather than study a representation of it."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "dominance"
+        },
+        {
+          "label": "B",
+          "text": "creativity"
+        },
+        {
+          "label": "C",
+          "text": "insignificance"
+        },
+        {
+          "label": "D",
+          "text": "neutrality"
+        }
+      ],
+      "passage": "In 1877, 85% of California's railways were already controlled by the Southern Pacific Railroad. The company further solidified its [vocab]______[/vocab] in rail access to the state's Pacific coast when it completed the Sunset Route in 1883: running from Louisiana to Southern California, the route established the first transcontinental rail line across the southern United States.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153465",
+      "question_number": 29,
+      "section": "reading_writing",
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Dominance means a commanding position, matching85% railway control strengthened by a new route.",
+        "key_evidence": "Southern Pacific already controlled85% of California railways and then completed the Sunset Route.",
+        "why_correct": "A names the strong position that the route further solidified.",
+        "detailed": "The numerical share measures control over rail access, and the new connection reinforces that position. The passage evaluates market power, not imagination, importance's absence, or impartiality. Neutrality concerns taking sides and does not itself mean having no power.",
+        "choice_analysis": {
+          "A": "Correct: dominance means commanding influence or control.",
+          "B": "Creativity means originality, not the controlling position established by the85% share.",
+          "C": "Insignificance contradicts the company's large share and consequential expansion.",
+          "D": "Neutrality means not taking sides; the text supplies no such stance. It should not be defined as simply lacking control."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "a disconcerting"
+        },
+        {
+          "label": "B",
+          "text": "an acceptable"
+        },
+        {
+          "label": "C",
+          "text": "an imperceptible"
+        },
+        {
+          "label": "D",
+          "text": "a substantial"
+        }
+      ],
+      "passage": "Mônica Lopes-Ferreira and others at Brazil's Butantan Institute are studying the freshwater stingray species <i>Potamotrygon rex</i> to determine whether biological characteristics such as the rays' age and sex have [vocab]______[/vocab] effect on the toxicity of their venom—that is, to see if differences in these traits are associated with considerable variations in venom potency.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153466",
+      "question_number": 30,
+      "section": "reading_writing",
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "The researchers are testing whether age and sex cause considerable differences in venom potency, so the effect would be substantial.",
+        "key_evidence": "The passage defines the question as whether trait differences are associated with considerable variations in venom potency.",
+        "why_correct": "The passage's phrase “considerable variations” identifies the size of the possible effect. An effect that is substantial is large enough to matter, which matches the researchers' stated question.",
+        "detailed": "The appositive after the dash explains the blank in plain terms: the scientists want to know whether age and sex correspond to considerable changes in toxicity. The missing phrase must therefore describe magnitude. “A substantial effect” means a large, meaningful influence on venom potency and restates that explanation accurately.",
+        "choice_analysis": {
+          "A": "“A disconcerting effect” would be troubling or unsettling. The passage measures the size of possible toxicity differences; it gives no emotional reaction to those differences.",
+          "B": "“An acceptable effect” would be judged satisfactory. No standard of acceptability is being applied; the study asks whether the effect is large.",
+          "C": "“An imperceptible effect” means one too small to notice. That clashes with the possibility of considerable variation in venom potency.",
+          "D": "“A substantial effect” means a large, consequential effect. It matches the question of whether the traits are linked to considerable differences in toxicity."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "verifying"
+        },
+        {
+          "label": "B",
+          "text": "multiplying"
+        },
+        {
+          "label": "C",
+          "text": "comforting"
+        },
+        {
+          "label": "D",
+          "text": "ensuring"
+        }
+      ],
+      "passage": "Cucurbits, a group of plants that includes squash and melons, relied on mastodons to spread their seeds in the Ice Age. When these animals died out, cucurbits faced extinction in turn, having lost their means of seed dispersal. Around this time, however, the ancestors of Indigenous peoples in North America began raising cucurbits as crops, thus [vocab]______[/vocab] the plants' survival.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153467",
+      "question_number": 31,
+      "section": "reading_writing",
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Cultivation secured continued survival after the plants lost their animal seed dispersers.",
+        "key_evidence": "Ancestors of Indigenous peoples began raising cucurbits as crops when the plants faced extinction.",
+        "why_correct": "D means making survival secure, matching cultivation's role in sustaining the plants.",
+        "detailed": "The people, not the plants' ancestors, supplied cultivation as a new means of propagation. Thus is a result-signaling adverb; ensuring is the participle describing cultivation's consequence. The focus is preventing extinction, not merely recording survival or counting more plants.",
+        "choice_analysis": {
+          "A": "Verifying confirms a fact; cultivation actively changes the plants' survival prospects.",
+          "B": "Multiplying the plants could describe increasing their number, but multiplying survival is not the precise relationship stated.",
+          "C": "Comforting describes emotional reassurance, not preserving a plant population.",
+          "D": "Correct: ensuring means securing the outcome, here continued survival."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "uncertainty about"
+        },
+        {
+          "label": "B",
+          "text": "indicator of"
+        },
+        {
+          "label": "C",
+          "text": "motivation for"
+        },
+        {
+          "label": "D",
+          "text": "criticism of"
+        }
+      ],
+      "passage": "According to statistician Nassim Nicholas Taleb, the best way to predict the amount of time a nonperishable entity (such as a building or a technology) will continue to exist is to examine how long it has survived so far. In this view, an item's age is the strongest [vocab]______[/vocab] how much longer it will last.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153468",
+      "question_number": 32,
+      "section": "reading_writing",
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "B, indicator of, fits because an item's age predicts how much longer it will last.",
+        "key_evidence": "Taleb says the best prediction of future duration is how long a nonperishable item has survived so far.",
+        "why_correct": "The sentence supplies the decisive evidence: An indicator is a sign that provides information about something else; age signals expected remaining duration.",
+        "detailed": "The passage makes age evidence for a future estimate, so the noun phrase must mean predictive sign.",
+        "choice_analysis": {
+          "A": "Uncertainty about means lack of knowledge. Taleb presents age as useful predictive evidence, not as ignorance.",
+          "B": "Indicator of means a sign of. Survival time gives information about how much longer the item may endure.",
+          "C": "Motivation for means a reason to act. An item's age is data for prediction, not a reason someone acts.",
+          "D": "Criticism of means an objection or negative judgment. No one is judging age negatively; it is being used as evidence."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "stimulated"
+        },
+        {
+          "label": "B",
+          "text": "assigned"
+        },
+        {
+          "label": "C",
+          "text": "opposed"
+        },
+        {
+          "label": "D",
+          "text": "disregarded"
+        }
+      ],
+      "passage": "In the mid-nineteenth century, some abolitionist newspapers [vocab]______[/vocab] westward migration in the United States; by printing a letter that described the easy fortunes and high salaries miners could make in California during the Gold Rush, Frederick Douglass's newspaper <i>North Star</i> was one such publication that inspired readers to relocate.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153469",
+      "question_number": 33,
+      "section": "reading_writing",
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "A, stimulated, is correct because abolitionist newspapers encouraged readers to move west.",
+        "key_evidence": "North Star printed claims of easy fortunes and high salaries in California, inspiring readers to relocate.",
+        "why_correct": "The sentence supplies the decisive evidence: Stimulated means encouraged or prompted activity; the favorable letter prompted westward migration.",
+        "detailed": "By publicizing attractive opportunities, the newspaper spurred readers toward relocation, which is stimulation.",
+        "choice_analysis": {
+          "A": "Stimulated means encouraged or prompted. The letter's promises of fortune inspired readers to relocate westward.",
+          "B": "Assigned means gave someone a duty or task. The newspapers did not order readers to move; they encouraged interest.",
+          "C": "Opposed means resisted or worked against. Printing attractive California opportunities promotes, rather than resists, migration.",
+          "D": "Disregarded means ignored. The detailed letter actively draws attention to westward opportunities instead of ignoring migration."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "implement"
+        },
+        {
+          "label": "B",
+          "text": "presume"
+        },
+        {
+          "label": "C",
+          "text": "improvise"
+        },
+        {
+          "label": "D",
+          "text": "mimic"
+        }
+      ],
+      "passage": "Like other tribal nations, the Muscogee (Creek) Nation is self-governing; its National Council generates laws regulating aspects of community life such as land use and healthcare, while the principal chief and cabinet officials [vocab]______[/vocab] those laws by devising policies and administering services in accordance with them.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153470",
+      "question_number": 34,
+      "section": "reading_writing",
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Officials implement laws by putting them into effect through policy and services.",
+        "key_evidence": "The council generates laws; the chief and cabinet devise policies and administer services in accordance with those laws.",
+        "why_correct": "A names the executive action of carrying out rules that already exist.",
+        "detailed": "The sentence divides lawmaking from execution. The council supplies the legislation, and executive officials act under it. The blank therefore describes applying laws, not assuming them, making them up spontaneously, or copying them. This does not imply that every administrative decision must be preplanned.",
+        "choice_analysis": {
+          "A": "Correct: implement means put into effect.",
+          "B": "Presume means suppose or take for granted, not carry out through services.",
+          "C": "Improvise those laws would suggest devising them on the spot; the laws have already been generated by the council. Improvisation in administration is not categorically impossible, but it is not the relation asked for.",
+          "D": "Mimic means imitate, not administer services under legislation."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "conceptualize"
+        },
+        {
+          "label": "B",
+          "text": "neglect"
+        },
+        {
+          "label": "C",
+          "text": "illustrate"
+        },
+        {
+          "label": "D",
+          "text": "overcome"
+        }
+      ],
+      "passage": "Artificially delivering biomolecules to plant cells is an important component of protecting plants from pathogens, but it is difficult to transmit biomolecules through the layers of the plant cell wall. Markita del Carpio Landry and her colleagues have shown that it may be possible to [vocab]______[/vocab] this problem by transmitting molecules through carbon nanotubes, which can cross cell walls.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153471",
+      "question_number": 35,
+      "section": "reading_writing",
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Carbon nanotubes may overcome the cell-wall barrier to delivering biomolecules.",
+        "key_evidence": "The nanotubes can cross plant cell walls, through which ordinary transmission is difficult.",
+        "why_correct": "The passage states that the nanotubes can cross plant cell walls, through which ordinary transmission is difficult. The text presents a method for solving a stated obstacle, so overcome is precise.",
+        "detailed": "The phrase \"this problem\" refers to the cell wall's blocking delivery, so the verb must describe removing an obstacle. Carbon nanotubes provide a route through the wall, making \"overcome this problem\" a logical cause-and-solution pairing. \"Conceptualize\" or \"illustrate\" might describe thinking about the barrier, but neither says that the barrier has been solved.",
+        "choice_analysis": {
+          "A": "Choice A (“conceptualize”): Conceptualize means form an idea of the barrier, rather than solve the barrier by crossing it.",
+          "B": "Choice B (“neglect”): Neglect means ignore the delivery problem, which would leave the cell-wall obstacle in place.",
+          "C": "Choice C (“illustrate”): Illustrate means show or explain an example; nanotubes are described as a practical route through the wall.",
+          "D": "Choice D (“overcome”): Overcome means successfully deal with an obstacle, matching the nanotubes' ability to cross cell walls."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "Pulled"
+        },
+        {
+          "label": "B",
+          "text": "Drained"
+        },
+        {
+          "label": "C",
+          "text": "Inspired"
+        },
+        {
+          "label": "D",
+          "text": "Sketched"
+        }
+      ],
+      "passage": "The following text is from Claude McKay's 1922 poem \"Morning Joy.\" The speaker is looking out a window and observing a wold, or large area of land. \r\n\r\nAt night the wide and level stretch of wold, \r\nWhich at high noon had basked in quiet gold, \r\nFar as the eye could see was ghostly white; \r\nDark was the night save for the snow's weird light. \r\n\r\nI [vocab]drew[/vocab] the shades far down, crept into bed; \r\nHearing the cold wind moaning overhead \r\nThrough the sad pines, my soul, catching its pain, \r\nWent sorrowing with it across the plain.",
+      "prompt": "As used in the text, what does the word \"drew\" most nearly mean?",
+      "question_id": "wic-easy-153473",
+      "question_number": 36,
+      "section": "reading_writing",
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Drew means pulled: the speaker lowers the window shades before bed.",
+        "key_evidence": "The phrase is 'drew the shades far down,' immediately before 'crept into bed.'",
+        "why_correct": "A gives the physical motion of operating the shades rather than another sense of draw.",
+        "detailed": "The object shades and directional phrase far down select the pulling sense. Someone could sketch window shades in another context, but this speaker is closing them at night, not making a picture.",
+        "choice_analysis": {
+          "A": "Correct: pulled describes moving the shades downward.",
+          "B": "Drained concerns emptying liquid, not closing shades.",
+          "C": "Inspired concerns mental stimulation rather than the directional action described.",
+          "D": "Sketched is grammatically possible with shades as an object, but it would mean depicting them, not lowering them before bed."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "word_meaning_in_context"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "overreacts"
+        },
+        {
+          "label": "B",
+          "text": "reciprocates"
+        },
+        {
+          "label": "C",
+          "text": "retaliates"
+        },
+        {
+          "label": "D",
+          "text": "deviates"
+        }
+      ],
+      "passage": "In habitats with limited nutrients, certain fungus species grow on the roots of trees, engaging in mutually beneficial relationships known as ectomycorrhizae: in this symbiotic exchange, the tree provides the fungus with carbon, a nutrient necessary for both species, and the fungus [vocab]______[/vocab] by enhancing the tree's ability to absorb nitrogen, another key nutrient, from the soil.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153474",
+      "question_number": 37,
+      "section": "reading_writing",
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "The fungus reciprocates by returning a nutrient benefit to the tree.",
+        "key_evidence": "The tree gives carbon, and the fungus improves the tree's nitrogen absorption.",
+        "why_correct": "The passage states that the tree gives carbon, and the fungus improves the tree's nitrogen absorption. Because each organism supplies the other with a resource, reciprocates is the exact verb for the mutual exchange.",
+        "detailed": "The colon sets up an exchange: the tree gives carbon first, and the fungus gives a different benefit back by improving nitrogen absorption. \"Reciprocates\" captures that return action, not merely any reaction by the fungus. \"Retaliates\" would turn a mutually beneficial relationship into a hostile one.",
+        "choice_analysis": {
+          "A": "Choice A (“overreacts”): Overreacts means responds excessively, not return a benefit in a symbiosis.",
+          "B": "Choice B (“reciprocates”): Reciprocates means gives something back, matching the fungus's nitrogen benefit after receiving carbon.",
+          "C": "Choice C (“retaliates”): Retaliates means responds with hostility, contradicting the relationship's stated mutual benefit.",
+          "D": "Choice D (“deviates”): Deviates means moves away from a course; the fungus instead participates in the exchange described."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "enhance"
+        },
+        {
+          "label": "B",
+          "text": "hinder"
+        },
+        {
+          "label": "C",
+          "text": "misrepresent"
+        },
+        {
+          "label": "D",
+          "text": "aggravate"
+        }
+      ],
+      "passage": "Although critics believed that customers would never agree to pay to pick their own produce on farms, such concerns didn't [vocab]______[/vocab] Booker T. Whatley's efforts to promote the practice. Thanks in part to Whatley's determined advocacy, farms that allow visitors to pick their own apples, pumpkins, and other produce can be found throughout the United States.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153475",
+      "question_number": 38,
+      "section": "reading_writing",
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "The critics' concerns did not hold back the successful campaign, so hinder fits.",
+        "key_evidence": "Although critics predicted failure, Whatley's determined advocacy helped establish pick-your-own farms nationwide.",
+        "why_correct": "B creates the concessive relationship: skepticism did not obstruct his efforts.",
+        "detailed": "Keep didn't when testing each option. Didn't hinder means the concerns failed to block progress, matching the later success. Didn't enhance merely says they did not help and does not capture the intended despite-skepticism contrast. Misrepresentation and aggravation do not describe the successful overcoming of opposition as precisely.",
+        "choice_analysis": {
+          "A": "Didn't enhance means did not improve the effort; that lacks the intended sense that an obstacle failed to impede progress.",
+          "B": "Correct: didn't hinder means did not obstruct or hold back.",
+          "C": "Didn't misrepresent concerns portrayal rather than whether skepticism impeded the campaign.",
+          "D": "Aggravate means worsen a problem or irritation; efforts are not the problem being worsened here."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "surpassed by"
+        },
+        {
+          "label": "B",
+          "text": "comparable to"
+        },
+        {
+          "label": "C",
+          "text": "independent of"
+        },
+        {
+          "label": "D",
+          "text": "obtained from"
+        }
+      ],
+      "passage": "Anthropologist Kristian J. Carlson and colleagues examined the fossilized clavicle and shoulder bones of a 3.6-million-year-old early hominin known as \"Little Foot.\" They found that these bones were [vocab]______[/vocab] the clavicle and shoulder bones of modern apes that are frequent climbers, such as gorillas and chimpanzees, suggesting that Little Foot had adapted to life in the trees.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153476",
+      "question_number": 39,
+      "section": "reading_writing",
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Little Foot's shoulder bones were comparable to those of frequent-climbing apes.",
+        "key_evidence": "Their similarity to gorilla and chimpanzee bones suggests adaptation to life in trees.",
+        "why_correct": "The passage states that their similarity to gorilla and chimpanzee bones suggests adaptation to life in trees. Comparable to means similar in relevant structure, the relationship that supports the researchers' inference.",
+        "detailed": "The comparison with gorillas and chimpanzees is evidence for an inference about climbing, not a claim that Little Foot's bones came from those animals. Calling the bones \"comparable to\" theirs means they share relevant anatomical features. \"Surpassed by\" would require a ranking, which the passage never supplies.",
+        "choice_analysis": {
+          "A": "Choice A (“surpassed by”): Surpassed by means exceeded in quality or amount, not resembled in anatomy.",
+          "B": "Choice B (“comparable to”): Comparable to means similar, linking Little Foot's bones with climbers' bones.",
+          "C": "Choice C (“independent of”): Independent of means unrelated to, contradicting the evidence-based comparison with apes.",
+          "D": "Choice D (“obtained from”): Obtained from means acquired from a source; the fossils are not said to come from modern apes."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "multifaceted"
+        },
+        {
+          "label": "B",
+          "text": "realistic"
+        },
+        {
+          "label": "C",
+          "text": "rousing"
+        },
+        {
+          "label": "D",
+          "text": "subtle"
+        }
+      ],
+      "passage": "Although the playwrights hoped that their play would be [vocab]______[/vocab] when performed live, critics generally agreed that the production and performances had the opposite effect, wearying audiences instead of energizing them.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153477",
+      "question_number": 40,
+      "section": "reading_writing",
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "The playwrights wanted a rousing performance, one that would energize audiences.",
+        "key_evidence": "Critics found that the production wearied audiences rather than energizing them.",
+        "why_correct": "The text contrasts the play's actual effect—wearing out audiences—with the hoped-for effect. “Rousing” means exciting or stirring an audience to energy, so it is the logical opposite of wearied.",
+        "detailed": "The phrase \"opposite effect\" requires an adjective whose meaning contrasts with making an audience tired. A \"rousing\" live performance would stir or energize viewers, whereas the actual production wearied them. \"Realistic\" and \"multifaceted\" could describe a play's qualities but do not name the energy-to-weariness contrast.",
+        "choice_analysis": {
+          "A": "Choice A (“multifaceted”): Multifaceted means having many aspects, which does not name the desired audience reaction.",
+          "B": "Choice B (“realistic”): Realistic means lifelike, whereas the contrast concerns energy versus weariness.",
+          "C": "Choice C (“rousing”): Rousing means exciting and energizing, the effect the playwrights hoped for.",
+          "D": "Choice D (“subtle”): Subtle means understated; it does not contrast with audiences being tired."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "a suitable"
+        },
+        {
+          "label": "B",
+          "text": "a determined"
+        },
+        {
+          "label": "C",
+          "text": "an arbitrary"
+        },
+        {
+          "label": "D",
+          "text": "an unpredictable"
+        }
+      ],
+      "passage": "Osage Nation citizen Randy Tinker-Smith produced and directed the ballet <i>Wahzhazhe</i>, which vividly chronicles Osage history and culture. Telling Osage stories through ballet is [vocab]______[/vocab] choice because two of the foremost ballet dancers of the twentieth century were Osage: sisters Maria and Marjorie Tallchief.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153478",
+      "question_number": 41,
+      "section": "reading_writing",
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Using ballet to tell Osage stories is a suitable choice given the Tallchief sisters' legacy.",
+        "key_evidence": "Two of the twentieth century's foremost ballet dancers, Maria and Marjorie Tallchief, were Osage.",
+        "why_correct": "The passage states that two of the twentieth century's foremost ballet dancers, Maria and Marjorie Tallchief, were Osage. That cultural and artistic connection makes suitable mean appropriate for the subject matter.",
+        "detailed": "The word \"because\" asks for a reason that ballet is an apt medium for an Osage story. The Tallchief sisters' prominence in ballet provides that direct cultural connection, so \"a suitable choice\" completes the claim. \"Arbitrary\" would deny that the choice has the stated reason.",
+        "choice_analysis": {
+          "A": "Choice A (“a suitable”): Suitable means appropriate, and the Tallchief sisters make ballet an apt medium for Osage stories.",
+          "B": "Choice B (“a determined”): Determined means resolute or fixed, not appropriate because of a historical connection.",
+          "C": "Choice C (“an arbitrary”): Arbitrary means chosen without reason, contradicted by the specific Osage ballet legacy.",
+          "D": "Choice D (“an unpredictable”): Unpredictable means uncertain in outcome, whereas the sentence evaluates the choice's appropriateness."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "attached"
+        },
+        {
+          "label": "B",
+          "text": "collected"
+        },
+        {
+          "label": "C",
+          "text": "followed"
+        },
+        {
+          "label": "D",
+          "text": "replaced"
+        }
+      ],
+      "passage": "The spacecraft OSIRIS-REx briefly made contact with the asteroid 101955 Bennu in 2020. NASA scientist Daniella DellaGiustina reports that despite facing the unexpected obstacle of a surface mostly covered in boulders, OSIRIS-REx successfully [vocab]______[/vocab] a sample of the surface, gathering pieces of it to bring back to Earth.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153480",
+      "question_number": 42,
+      "section": "reading_writing",
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Collected means gathered, matching the sample gathered for return to Earth.",
+        "key_evidence": "The spacecraft obtained a sample by 'gathering pieces of it to bring back to Earth.'",
+        "why_correct": "The phrase after the comma explains the action in the blank: OSIRIS-REx gathered pieces of Bennu's surface. Collected expresses that acquisition of material.",
+        "detailed": "Read the verb with its object, a sample of the surface. Collected a sample means obtained material for the return mission. Attached a sample would mean fastened the sample to something; it would not mean that the spacecraft touched or attached itself to the asteroid.",
+        "choice_analysis": {
+          "A": "Attached means fastened. Here the sample, not the spacecraft, would be what was fastened, which does not express gathering material.",
+          "B": "Collected means gathered or acquired, exactly the action described by gathering pieces for return to Earth.",
+          "C": "Followed means went after or tracked. Following a sample does not mean obtaining it.",
+          "D": "Replaced means substituted something or put it back. The text describes acquiring a sample, not replacing one."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "synchronization"
+        },
+        {
+          "label": "B",
+          "text": "hibernation"
+        },
+        {
+          "label": "C",
+          "text": "prediction"
+        },
+        {
+          "label": "D",
+          "text": "moderation"
+        }
+      ],
+      "passage": "The parasitic dodder plant increases its reproductive success by flowering at the same time as the host plant it has latched onto. In 2020, Jianqiang Wu and his colleagues determined that the tiny dodder achieves this [vocab]______[/vocab] with its host by absorbing and utilizing a protein the host produces when it is about to flower.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153481",
+      "question_number": 43,
+      "section": "reading_writing",
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Dodder achieves synchronization by flowering at the same time as its host.",
+        "key_evidence": "It absorbs a host protein produced when the host is about to flower.",
+        "why_correct": "The passage states that it absorbs a host protein produced when the host is about to flower. Matching the host's timing is synchronization, and the protein supplies the timing cue.",
+        "detailed": "Flowering at the same time is a matter of timing, so the blank needs a noun for coordinated timing with another organism. \"Synchronization\" makes the host's flowering protein a cue that lets dodder align its own flowering schedule. \"Prediction\" might involve knowing a time in advance, but it does not itself mean occurring at the same time.",
+        "choice_analysis": {
+          "A": "Choice A (“synchronization”): Synchronization means coordinated timing, specifically the dodder flowering with its host.",
+          "B": "Choice B (“hibernation”): Hibernation is seasonal dormancy, not matching another plant's flowering schedule.",
+          "C": "Choice C (“prediction”): Prediction means forecasting an event, whereas the dodder uses a signal to time its own flowering.",
+          "D": "Choice D (“moderation”): Moderation means restraint or balance, not simultaneous reproductive timing."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "transformed"
+        },
+        {
+          "label": "B",
+          "text": "introduced"
+        },
+        {
+          "label": "C",
+          "text": "inherited"
+        },
+        {
+          "label": "D",
+          "text": "overlooked"
+        }
+      ],
+      "passage": "Sumerian civilization (which lasted from around 3300 to 2000 BCE) [vocab]______[/vocab] many concepts that persist into present-day civilizations: for example, the first description of the seven-day week appears in the Sumerian <i>Epic of Gilgamesh</i>.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153482",
+      "question_number": 44,
+      "section": "reading_writing",
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Introduced best matches the passage's account of an early concept that persists in later civilizations.",
+        "key_evidence": "The colon gives 'the first description of the seven-day week' as the example supporting the blank.",
+        "why_correct": "The passage frames Sumerian civilization as bringing forward concepts subsequently retained by other civilizations. Introduced, meaning brought into use or presented, fits that framing and the example of an early description.",
+        "detailed": "The example emphasizes the concept's early appearance and subsequent persistence, not a change made to an existing version. An earliest recorded description need not prove who first invented a concept; it is the way this passage presents the example that makes introduced the best completion.",
+        "choice_analysis": {
+          "A": "Transformed would require an existing concept that Sumerians changed. No before-and-after change is described.",
+          "B": "Introduced means brought into use or presented, fitting the passage's emphasis on an early description of an enduring idea.",
+          "C": "Inherited would describe receiving a concept from an earlier source. The text gives no such source and instead emphasizes the concept's early Sumerian presentation.",
+          "D": "Overlooked means failed to notice or attend to. That does not fit the example of a concept described in a Sumerian text."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "foundational"
+        },
+        {
+          "label": "B",
+          "text": "supplementary"
+        },
+        {
+          "label": "C",
+          "text": "repetitive"
+        },
+        {
+          "label": "D",
+          "text": "ineffective"
+        }
+      ],
+      "passage": "Physicist Joseph Weber performed [vocab]______[/vocab] work in gravitational wave research in the 1960s and 1970s, conducting key experiments that scientists later used as the basis for their own investigations that led to the first verified detection of a gravitational wave in 2015.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153483",
+      "question_number": 45,
+      "section": "reading_writing",
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Weber's experiments were foundational because later researchers built on them.",
+        "key_evidence": "Scientists used his key experiments as the basis for investigations leading to a verified detection.",
+        "why_correct": "The passage states that scientists used his key experiments as the basis for investigations leading to a verified detection. Foundational means serving as a base for later work, precisely the role the passage assigns Weber's research.",
+        "detailed": "Later scientists treated Weber's experiments as a base for work that eventually produced a confirmed detection. That downstream dependence is what makes research \"foundational\": it supports subsequent investigations. \"Supplementary\" would mean merely additional rather than central to the later work.",
+        "choice_analysis": {
+          "A": "Choice A (“foundational”): Foundational means serving as a basis, matching later scientists' use of Weber's experiments.",
+          "B": "Choice B (“supplementary”): Supplementary means additional or secondary, rather than the stated basis of subsequent investigations.",
+          "C": "Choice C (“repetitive”): Repetitive means occurring again and again; the issue is influence on later research, not frequency.",
+          "D": "Choice D (“ineffective”): Ineffective would deny the value of experiments that helped lead to later detection."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "creative"
+        },
+        {
+          "label": "B",
+          "text": "bold"
+        },
+        {
+          "label": "C",
+          "text": "traditional"
+        },
+        {
+          "label": "D",
+          "text": "understandable"
+        }
+      ],
+      "passage": "As an architect in Los Angeles in the 1950s, Helen Liu Fong became known for avoiding [vocab]______[/vocab] designs in her buildings. Instead of using standard shapes and colors, she typically explored innovative forms and daring hues.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153484",
+      "question_number": 46,
+      "section": "reading_writing",
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Fong avoided traditional designs in favor of innovative forms and daring colors.",
+        "key_evidence": "She rejected standard shapes and colors in her Los Angeles buildings.",
+        "why_correct": "The passage states that she rejected standard shapes and colors in her Los Angeles buildings. Traditional means conventional or standard, the exact contrast created by the word instead.",
+        "detailed": "The transition \"Instead of\" contrasts the missing adjective with innovative forms and daring hues. A design that uses standard shapes and colors is \"traditional,\" exactly what Fong avoided. \"Creative\" and \"bold\" describe the alternatives she favored, so they cannot fill the contrast correctly.",
+        "choice_analysis": {
+          "A": "Choice A (“creative”): Creative describes inventive work, which Fong embraced rather than avoided.",
+          "B": "Choice B (“bold”): Bold matches daring hues, so it cannot be what her work was known for avoiding.",
+          "C": "Choice C (“traditional”): Traditional means conventional, contrasting with the innovative forms and colors she used.",
+          "D": "Choice D (“understandable”): Understandable means easy to comprehend; the passage contrasts style, not clarity."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "borrows"
+        },
+        {
+          "label": "B",
+          "text": "spans"
+        },
+        {
+          "label": "C",
+          "text": "judges"
+        },
+        {
+          "label": "D",
+          "text": "neglects"
+        }
+      ],
+      "passage": "<i>Sueño de Familia</i> is an exhibition of drawings, paintings, and ceramics that explores the artistic heritage of US-based artist Yolanda González. The exhibition [vocab]______[/vocab] five generations, featuring works by González's great-grandfather, grandmother, mother, and niece as well as González herself.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153485",
+      "question_number": 47,
+      "section": "reading_writing",
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "The exhibition spans five generations of González's family.",
+        "key_evidence": "It includes work by her great-grandfather, grandmother, mother, niece, and González herself.",
+        "why_correct": "The passage states that it includes work by her great-grandfather, grandmother, mother, niece, and González herself. Spans means extends across a range, here the range of five family generations.",
+        "detailed": "Listing a great-grandfather, grandmother, mother, the artist, and a niece traces the exhibition across a family timeline. \"Spans five generations\" is the standard way to say that something extends from one end of such a range to the other. \"Borrows\" would imply taking items temporarily and would not express the generational breadth.",
+        "choice_analysis": {
+          "A": "Choice A (“borrows”): Borrows means takes from another source, but the exhibition includes relatives' work across generations.",
+          "B": "Choice B (“spans”): Spans means extends across, accurately describing the five-generation range.",
+          "C": "Choice C (“judges”): Judges means evaluates, not covers a family time range.",
+          "D": "Choice D (“neglects”): Neglects means fails to include, whereas the sentence lists multiple generations represented."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "avoided"
+        },
+        {
+          "label": "B",
+          "text": "featured"
+        },
+        {
+          "label": "C",
+          "text": "appreciated"
+        },
+        {
+          "label": "D",
+          "text": "disregarded"
+        }
+      ],
+      "passage": "US traffic signals didn't always contain the familiar three lights (red, yellow, and green). Traffic lights only [vocab]______[/vocab] red and green lights until the three-light traffic signal was developed in the 1920s.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153486",
+      "question_number": 48,
+      "section": "reading_writing",
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Before the 1920s, traffic lights featured red and green lights only.",
+        "key_evidence": "The familiar three-light signal was developed later, adding a third light.",
+        "why_correct": "The passage states that the familiar three-light signal was developed later, adding a third light. Featured means included or displayed, which describes the earlier two-color traffic signals.",
+        "detailed": "The sentence compares an earlier signal design with the later invention of the three-light version. If early signals had only red and green, they \"featured\"—that is, included or displayed—those two lights. \"Avoided\" reverses the meaning by implying that the lights were absent.",
+        "choice_analysis": {
+          "A": "Choice A (“avoided”): Avoided means deliberately stayed away from, whereas the early signals contained red and green.",
+          "B": "Choice B (“featured”): Featured means included, matching the lights that appeared on early signals.",
+          "C": "Choice C (“appreciated”): Appreciated means valued, a human attitude rather than a property of a signal.",
+          "D": "Choice D (“disregarded”): Disregarded means ignored; the sentence says which colors the signals displayed."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "pretending"
+        },
+        {
+          "label": "B",
+          "text": "complaining"
+        },
+        {
+          "label": "C",
+          "text": "requiring"
+        },
+        {
+          "label": "D",
+          "text": "demonstrating"
+        }
+      ],
+      "passage": "Scientists previously thought that all electric eels belong to a single species, but a team of researchers led byzoologist C. David de Santana proved this idea wrong by [vocab]______[/vocab] that there are in fact three distinct species of electric eels.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153487",
+      "question_number": 49,
+      "section": "reading_writing",
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "The researchers demonstrated that electric eels comprise three species.",
+        "key_evidence": "Their evidence disproved the earlier belief that all electric eels belonged to one species.",
+        "why_correct": "The passage states that their evidence disproved the earlier belief that all electric eels belonged to one species. Demonstrating means showing with evidence, the action that overturns the single-species claim.",
+        "detailed": "The researchers overturn a single-species belief by supplying evidence for three distinct species. \"Demonstrating that\" correctly introduces a finding that proves a claim. \"Pretending that\" would make the conclusion false or performative, the opposite of evidence-based scientific proof.",
+        "choice_analysis": {
+          "A": "Choice A (“pretending”): Pretending means falsely acting as if something were true, rather than proving a scientific result.",
+          "B": "Choice B (“complaining”): Complaining expresses dissatisfaction, which cannot establish the number of species.",
+          "C": "Choice C (“requiring”): Requiring means making something necessary; the researchers supply evidence instead.",
+          "D": "Choice D (“demonstrating”): Demonstrating means showing with evidence, which is how the team disproved the old belief."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "secretive"
+        },
+        {
+          "label": "B",
+          "text": "efficient"
+        },
+        {
+          "label": "C",
+          "text": "outgoing"
+        },
+        {
+          "label": "D",
+          "text": "unsympathetic"
+        }
+      ],
+      "passage": "Studying how workload affects productivity, Maryam Kouchaki and colleagues found that people who chose to do relatively easy tasks first were less [vocab]______[/vocab] compared to those who did hard tasks first. Finishing easy tasks gave participants a sense of accomplishment, but those who tackled hard tasks first actually became more skilled and productive workers over time.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153488",
+      "question_number": 50,
+      "section": "reading_writing",
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Participants who began with hard tasks became more skilled and productive, so those who began with easy tasks were less efficient.",
+        "key_evidence": "Participants who tackled hard tasks first became more skilled and productive workers over time.",
+        "why_correct": "The sentence compares the two groups' workplace productivity. Because the hard-first group became more skilled and productive, describing the easy-first group as less efficient—less able to work productively—completes that comparison.",
+        "detailed": "The study contrasts the immediate sense of accomplishment from easy tasks with the longer-term skill and productivity gained from hard tasks. Efficient means able to accomplish work productively with little waste, so it names the quality in which the easy-first group lagged.",
+        "choice_analysis": {
+          "A": "Secretive means inclined to conceal information. The study compares work performance rather than the participants' willingness to share information.",
+          "B": "Efficient means able to work productively without unnecessary waste. That definition matches the finding that the hard-first group became more skilled and productive than the easy-first group.",
+          "C": "Outgoing means sociable and eager to interact with others. Choosing it would imply a difference in sociability, a claim unsupported by the workload findings.",
+          "D": "Unsympathetic means lacking concern for other people's feelings. That interpretation contradicts the passage's focus on skill and productivity, which says nothing about empathy."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "admired"
+        },
+        {
+          "label": "B",
+          "text": "disagreed with"
+        },
+        {
+          "label": "C",
+          "text": "warned"
+        },
+        {
+          "label": "D",
+          "text": "depended on"
+        }
+      ],
+      "passage": "Arturo A. Schomburg was dedicated to preserving books, art, and other materials from peoples of African descent around the world. To get these items, Schomburg [vocab]______[/vocab] friends and colleagues, whom he asked to bring back rare and valuable objects from their international travels. Now, Schomburg's collection is a valuable resource for scholars of Black history and culture.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153489",
+      "question_number": 51,
+      "section": "reading_writing",
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Schomburg relied on traveling friends and colleagues to obtain rare materials, so he depended on them.",
+        "key_evidence": "Schomburg asked friends and colleagues to bring rare and valuable objects back from their international travels.",
+        "why_correct": "The passage explains how Schomburg acquired materials he could not collect himself: he relied on contacts who traveled internationally. Depended on means relied on for help or support, precisely describing that arrangement.",
+        "detailed": "Schomburg built his collection through the assistance of people who could find objects abroad and return with them. His requests made those friends and colleagues necessary to his acquisition effort, so depended on expresses the relationship.",
+        "choice_analysis": {
+          "A": "Admired means regarded with approval or respect. Merely admiring his contacts would not obtain overseas objects; instead, Schomburg enlisted their practical help.",
+          "B": "Disagreed with means held an opposing opinion. That meaning contradicts the cooperation shown when his contacts fulfilled requests for rare materials.",
+          "C": "Warned means alerted someone to danger or trouble. It would imply that Schomburg was cautioning the travelers, whereas the passage says he asked them to bring objects home.",
+          "D": "Depended on means relied on someone for assistance. Schomburg relied on the travelers' access to other countries to expand his collection."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "skeptical"
+        },
+        {
+          "label": "B",
+          "text": "observant"
+        },
+        {
+          "label": "C",
+          "text": "critical"
+        },
+        {
+          "label": "D",
+          "text": "confident"
+        }
+      ],
+      "passage": "For painter Jacob Lawrence, being [vocab]______[/vocab] was an important part of the artistic process. Because he paid close attention to all the details of his Harlem neighborhood, Lawrence's artwork captured nuances in the beauty and vitality of the Black experience during the Harlem Renaissance and the Great Migration.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153490",
+      "question_number": 52,
+      "section": "reading_writing",
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Lawrence noticed the details of his neighborhood closely, making observant the precise description of him.",
+        "key_evidence": "Lawrence paid close attention to every detail of his Harlem neighborhood and captured subtle nuances in his art.",
+        "why_correct": "The sentence directly defines the relevant artistic quality through Lawrence's close attention to details. Observant means quick and careful to notice things, which explains how his artwork captured nuanced aspects of Harlem life.",
+        "detailed": "The causal word because links Lawrence's personal quality to his careful study of the neighborhood. His ability to notice fine details then allowed him to represent the beauty and vitality of the Black experience with nuance.",
+        "choice_analysis": {
+          "A": "Skeptical means doubtful or inclined to question a claim. Selecting it would imply that Lawrence distrusted what he saw rather than carefully noticing its details.",
+          "B": "Observant means attentive to one's surroundings. Lawrence's close attention to neighborhood details is a direct example of being observant.",
+          "C": "Critical can mean fault-finding or engaged in judgment. The text emphasizes receptive observation rather than negative evaluation of the Harlem community.",
+          "D": "Confident means self-assured. That trait is unsupported here because the passage describes what Lawrence noticed, not how certain he felt about himself."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "involuntarily"
+        },
+        {
+          "label": "B",
+          "text": "beneficially"
+        },
+        {
+          "label": "C",
+          "text": "strenuously"
+        },
+        {
+          "label": "D",
+          "text": "smoothly"
+        }
+      ],
+      "passage": "Researchers have struggled to pinpoint specific causes for hiccups, which happen when a person's diaphragm contracts [vocab]______[/vocab]. However, neuroscientist Kimberley Whitehead has found that these uncontrollable contractions may play an important role in helping infants regulate their breathing.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153491",
+      "question_number": 53,
+      "section": "reading_writing",
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "The diaphragm contractions are uncontrollable, so they occur involuntarily, without conscious control.",
+        "key_evidence": "Whitehead describes the diaphragm contractions that cause hiccups as uncontrollable.",
+        "why_correct": "The text calls the contractions uncontrollable, which means a person cannot consciously start or stop them. Involuntarily means without deliberate control, so it accurately describes how the diaphragm contracts during a hiccup.",
+        "detailed": "The second sentence restates the nature of the contractions and supplies the decisive definition. Although the contractions may benefit infant breathing, their possible function does not change the fact that they happen without a person's choice.",
+        "choice_analysis": {
+          "A": "Involuntarily means without conscious intention or control. That meaning is equivalent to the passage's description of the contractions as uncontrollable.",
+          "B": "Beneficially means in a helpful way. The contractions may have a useful effect in infants, but using this word would describe their benefit instead of their uncontrollable manner of occurring.",
+          "C": "Strenuously means with intense effort. It would imply forceful, effortful action by the diaphragm rather than an automatic contraction outside the person's control.",
+          "D": "Smoothly means evenly or without interruption. The passage gives no evidence about regularity; instead, it identifies the contractions by their lack of voluntary control."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "Arriving at"
+        },
+        {
+          "label": "B",
+          "text": "Consulting with"
+        },
+        {
+          "label": "C",
+          "text": "Running to"
+        },
+        {
+          "label": "D",
+          "text": "Clinging to"
+        }
+      ],
+      "passage": "The following text is adapted from Mohsin Hamid's 2017 novel Exit West. Saeed lives with his mother and father. On cloudless nights after a daytime rain, Saeed's father would sometimes bring out the telescope, and the family would sip green tea on their balcony, enjoying a breeze, and take turns to look up at objects whose light, often, had been emitted before any of these three viewers had been born-light from other centuries, only now [vocab]reaching[/vocab] Earth. \r\n\r\n©2017 by Mohsin Hamid",
+      "prompt": "As used in the text, what does the word \"reaching\" most nearly mean?",
+      "question_id": "wic-easy-153492",
+      "question_number": 54,
+      "section": "reading_writing",
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Reaching Earth means arriving at Earth after the light's long journey through space.",
+        "key_evidence": "Light emitted centuries ago is only now reaching Earth, where the family can observe it through a telescope.",
+        "why_correct": "In the passage, reaching names the moment when centuries-old light completes its travel to Earth. Arriving at has the same sense of coming to a destination, so it preserves both the direction and timing of the sentence.",
+        "detailed": "The light left distant objects before any of the viewers were born and became visible only when it came to Earth. The context therefore uses reaching in its destination sense: arriving at a place after traveling.",
+        "choice_analysis": {
+          "A": "Arriving at means coming to a destination. The light is described as completing a long journey and coming to Earth only now.",
+          "B": "Consulting with means seeking advice or exchanging views. It would personify the light as having a discussion with Earth rather than traveling to it.",
+          "C": "Running to means moving rapidly on foot toward a place. Light travels, but describing it as running would substitute a human physical action for the neutral arrival described in the passage.",
+          "D": "Clinging to means holding tightly to something. That choice would imply the light is already attached to Earth, contradicting the statement that it is only now completing its journey here."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "word_meaning_in_context"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "acknowledged"
+        },
+        {
+          "label": "B",
+          "text": "ensured"
+        },
+        {
+          "label": "C",
+          "text": "denied"
+        },
+        {
+          "label": "D",
+          "text": "underestimated"
+        }
+      ],
+      "passage": "When Mexican-American archaeologist Zelia Maria Magdalena Nuttall published her 1886 research paper on sculptures found at the ancient Indigenous city of Teotihuacan in present-day Mexico, other researchers readily [vocab]______[/vocab] her work as groundbreaking; this recognition stemmed from her convincing demonstration that the sculptures were much older than had previously been thought.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153493",
+      "question_number": 55,
+      "section": "reading_writing",
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "The researchers recognized Nuttall's paper as groundbreaking, so they acknowledged its importance.",
+        "key_evidence": "Other researchers readily recognized Nuttall's paper as groundbreaking after she showed the sculptures were older than previously believed.",
+        "why_correct": "The passage says Nuttall's convincing evidence earned recognition from other researchers. Acknowledged means openly recognized or accepted something as true or important, matching their treatment of her work as groundbreaking.",
+        "detailed": "The phrase as groundbreaking calls for a verb of recognition: the researchers accepted the exceptional importance of Nuttall's study. Their response followed from her persuasive redating of the sculptures.",
+        "choice_analysis": {
+          "A": "Acknowledged means recognized or accepted. The researchers' recognition of the paper as groundbreaking is exactly an acknowledgment of its significance.",
+          "B": "Ensured means made certain that something happened. The researchers did not cause the paper to become groundbreaking; instead, they recognized the value of Nuttall's already completed work.",
+          "C": "Denied means refused to accept or admit. That meaning contradicts their ready recognition and the convincing evidence that prompted it.",
+          "D": "Underestimated means judged something as less important than it really is. It would imply that the researchers discounted the paper, the opposite of calling it groundbreaking."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "anticipate"
+        },
+        {
+          "label": "B",
+          "text": "inspect"
+        },
+        {
+          "label": "C",
+          "text": "reveal"
+        },
+        {
+          "label": "D",
+          "text": "justify"
+        }
+      ],
+      "passage": "Some people have speculated that two helmets with attached horns discovered in Denmark in 1942 belonged to Vikings, but scholars have long been skeptical. Archaeologist Helle Vandkilde and colleagues recently provided radiocarbon dates for the helmets, and their findings [vocab]______[/vocab] scholar' skepticism: the helmets date to the Nordic Bronze Age, centuries before the Vikings existed.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153494",
+      "question_number": 56,
+      "section": "reading_writing",
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "The Bronze Age date proved that the helmets predated the Vikings, thereby justifying scholars' skepticism.",
+        "key_evidence": "Radiocarbon dating placed the helmets in the Nordic Bronze Age, centuries before the Viking era.",
+        "why_correct": "The text shows that the new dates gave factual grounds for scholars' longstanding doubts about a Viking origin. Justify means demonstrate that a belief is reasonable or well founded, which is what the dating evidence did.",
+        "detailed": "Scholars had already questioned the popular Viking attribution. By establishing that the helmets existed centuries before the Vikings, Vandkilde's team confirmed that those doubts had a sound basis.",
+        "choice_analysis": {
+          "A": "Anticipate means expect or predict something before it happens. The skepticism already existed, so the findings supported it rather than forecasting it.",
+          "B": "Inspect means examine closely. Treating the findings as if they inspected an attitude would misstate the relationship; the researchers inspected the helmets, while the findings validated the doubts.",
+          "C": "Reveal means make something previously unknown visible. The doubts were already known, and the dates revealed the helmets' age instead of revealing scholars' skepticism.",
+          "D": "Justify means provide a sound reason for a belief. A pre-Viking date provides precisely the reason that makes skepticism about Viking ownership well founded."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "Trace"
+        },
+        {
+          "label": "B",
+          "text": "Opinion"
+        },
+        {
+          "label": "C",
+          "text": "Dispute"
+        },
+        {
+          "label": "D",
+          "text": "Command"
+        }
+      ],
+      "passage": "The following text is adapted from Sadakichi Hartmann's 1894 short story \"Magnolia Blossoms.\" The narrator is standing on the deck of a boat. \r\n\r\nWhat a night it was! My soul had left its body to lose itself in the wild unrestrained beauty around me—from where it came—and only left a trembling [vocab]suggestion[/vocab] of its existence within me. The other passengers moved around me like shadows, and again and again my eyes drank in all the glory and wealth of that night.",
+      "prompt": "As used in the text, what does the word \"suggestion\" most nearly mean?",
+      "question_id": "wic-easy-153495",
+      "question_number": 57,
+      "section": "reading_writing",
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Suggestion refers to the faint remnant, or trace, of the narrator's soul that he still senses within himself.",
+        "key_evidence": "The narrator imagines his soul leaving his body and says only a trembling suggestion of its existence remains within him.",
+        "why_correct": "The passage uses suggestion figuratively for a slight indication that the soul is still present after it has seemingly left the body. A trace is a very small sign or remaining amount, which captures that image.",
+        "detailed": "The narrator feels absorbed by the night's beauty, as though almost all of his soul has departed. What remains is not a proposal or statement but a barely perceptible sign of the soul's continued existence.",
+        "choice_analysis": {
+          "A": "Trace means a very small sign or remnant. The 'trembling suggestion' is the faint remainder of the soul that the narrator can still sense.",
+          "B": "Opinion means a belief or judgment. Choosing it would imply that the soul left behind a viewpoint rather than a slight remnant of its presence.",
+          "C": "Dispute means an argument or disagreement. Conflict is unsupported by the scene, which describes the narrator's rapt response to the beautiful night.",
+          "D": "Command means an authoritative order. That forceful act contradicts the delicate image of only a trembling, barely present sign remaining within him."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "word_meaning_in_context"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "unpredictable"
+        },
+        {
+          "label": "B",
+          "text": "important"
+        },
+        {
+          "label": "C",
+          "text": "secretive"
+        },
+        {
+          "label": "D",
+          "text": "ordinary"
+        }
+      ],
+      "passage": "As Mexico's first president from an Indigenous community, Benito Juarez became one of the most [vocab]______[/vocab] figures in his country's history: among the many significant accomplishments of his long tenure in office (1858-1872), Juarez consolidated the authority of the national government and advanced the rights of Indigenous peoples.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153496",
+      "question_number": 58,
+      "section": "reading_writing",
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Juarez's historic presidency and major reforms made him an important figure in Mexico's history.",
+        "key_evidence": "Juarez was Mexico's first Indigenous president and achieved major reforms in government authority and Indigenous rights.",
+        "why_correct": "The text supports its description with Juarez's historic first and his many significant accomplishments. Important means having great consequence or influence, which summarizes the national impact of those achievements.",
+        "detailed": "The colon introduces evidence of Juarez's historical significance: he strengthened the national government and advanced Indigenous rights during a long presidency. Those consequential actions distinguish him as important.",
+        "choice_analysis": {
+          "A": "Unpredictable means difficult to foresee. The passage presents Juarez's consequential record rather than instability or surprising behavior.",
+          "B": "Important means significant or influential. His historic presidency and reforms had major effects on Mexico, establishing that importance.",
+          "C": "Secretive means inclined to hide information or intentions. Secrecy is unsupported because the text discusses public office and publicly consequential reforms.",
+          "D": "Ordinary means unexceptional. That description contradicts both his status as Mexico's first Indigenous president and the list of significant accomplishments."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "produced"
+        },
+        {
+          "label": "B",
+          "text": "denied"
+        },
+        {
+          "label": "C",
+          "text": "worried"
+        },
+        {
+          "label": "D",
+          "text": "predicted"
+        }
+      ],
+      "passage": "The fashion resale market, in which consumers purchase secondhand clothing from stores and online sellers, generated nearly $30 billion globally in 2019. Expecting to see continued growth, some analysts [vocab]______[/vocab] that revenues will more than double by 2028.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153497",
+      "question_number": 59,
+      "section": "reading_writing",
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "The analysts forecast that future resale revenues would more than double, so they predicted that growth.",
+        "key_evidence": "Analysts expected continued growth and estimated that 2019 revenue of nearly $30 billion would more than double by 2028.",
+        "why_correct": "The sentence reports an estimate about revenue in a future year. Predicted means stated in advance what one expects to happen, precisely describing the analysts' projection for 2028.",
+        "detailed": "The 2019 figure is known, but the 2028 figure lies in the future. Because the analysts expect the market to keep growing, their claim that revenue will double is a forecast rather than a report of an accomplished result.",
+        "choice_analysis": {
+          "A": "Produced means created or generated something. The analysts forecast revenue rather than generating the resale market's sales themselves.",
+          "B": "Denied means declared that a claim was untrue. That choice contradicts the analysts' affirmative expectation that revenues will rise sharply.",
+          "C": "Worried means felt anxious. It would imply an emotional response to growth, but the passage supplies a numerical projection without stating anxiety.",
+          "D": "Predicted means forecast a future outcome. Estimating that revenue will more than double by 2028 is a prediction."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "pragmatic"
+        },
+        {
+          "label": "B",
+          "text": "controversial"
+        },
+        {
+          "label": "C",
+          "text": "extensive"
+        },
+        {
+          "label": "D",
+          "text": "universal"
+        }
+      ],
+      "passage": "Ofelia Zepeda's contributions to the field of linguistics are [vocab]______[/vocab]: her many accomplishments include working as a linguistics professor and bilingual poet, authoring the first Tohono O'odham grammar book, and co-founding the American Indian Language Development Institute.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153498",
+      "question_number": 60,
+      "section": "reading_writing",
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Zepeda's numerous, wide-ranging achievements make her contributions to linguistics extensive.",
+        "key_evidence": "Zepeda has worked as a professor and poet, written the first Tohono O'odham grammar book, and co-founded a language institute.",
+        "why_correct": "The text follows the description with a varied list of major accomplishments. Extensive means large in amount or wide in range, accurately summarizing contributions that span teaching, poetry, scholarship, and institution building.",
+        "detailed": "The colon signals that the list will demonstrate the scope of Zepeda's work. Her several roles and landmark projects show both breadth and quantity, the two ideas conveyed by extensive.",
+        "choice_analysis": {
+          "A": "Pragmatic means practical in approach. The list establishes the range of Zepeda's contributions rather than describing her problem-solving style.",
+          "B": "Controversial means likely to provoke disagreement. Dispute over her work is unsupported; the passage emphasizes the number and variety of her accomplishments.",
+          "C": "Extensive means broad in scope or numerous. The many different forms of Zepeda's work directly demonstrate extensive contributions.",
+          "D": "Universal means applying to everyone or without exception. It would imply unlimited reach, whereas the text makes the narrower claim that her contributions are numerous and wide-ranging."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "catastrophic"
+        },
+        {
+          "label": "B",
+          "text": "elusive"
+        },
+        {
+          "label": "C",
+          "text": "abrupt"
+        },
+        {
+          "label": "D",
+          "text": "imminent"
+        }
+      ],
+      "passage": "The Cambrian explosion gets its name from the sudden appearance and rapid diversification of animal remains in the fossil record about 541 million years ago, during the Cambrian period. Some scientists argue that this [vocab]______[/vocab] change in the fossil record might be because of a shift in many organisms to body types that were more likely to be preserved.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153499",
+      "question_number": 61,
+      "section": "reading_writing",
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Abrupt means sudden, matching the rapid change described in the fossil record.",
+        "key_evidence": "The first sentence calls the appearance 'sudden' and the diversification 'rapid.'",
+        "why_correct": "The second sentence refers back to that same change. Abrupt restates its suddenness, the feature explicitly established in the first sentence.",
+        "detailed": "The possible shift toward more readily preserved bodies is offered as an explanation for why the record changed sharply. The blank labels that sharp change; it does not describe the event as destructive or merely difficult to understand.",
+        "choice_analysis": {
+          "A": "Catastrophic means disastrous or severely damaging. The passage describes a sudden diversification, not a disaster.",
+          "B": "Elusive means difficult to find, grasp, or understand. Although the scientists discuss a possible explanation, the explicitly described feature of the change is its suddenness, not elusiveness.",
+          "C": "Abrupt means sudden or sharply occurring, directly matching sudden appearance and rapid diversification.",
+          "D": "Imminent means about to occur. The sentence refers back to a change that occurred about 541 million years ago, not to an impending event."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "characterization"
+        },
+        {
+          "label": "B",
+          "text": "interpretation"
+        },
+        {
+          "label": "C",
+          "text": "collaboration"
+        },
+        {
+          "label": "D",
+          "text": "commercialization"
+        }
+      ],
+      "passage": "<i>The Mule Bone</i>, a 1930 play written by Zora Neale Hurston and Langston Hughes, is perhaps the best-known of the few examples of [vocab]______[/vocab] in literature. Most writers prefer working alone, and given that working together cost Hurston and Hughes their friendship, it is not hard to see why.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153500",
+      "question_number": 62,
+      "section": "reading_writing",
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Hurston and Hughes wrote the play together, making it a rare example of literary collaboration.",
+        "key_evidence": "The Mule Bone was written jointly by Hurston and Hughes, although most writers prefer to work alone.",
+        "why_correct": "The passage contrasts two authors working together with the usual practice of writing alone. Collaboration means people jointly contributing to a shared project, exactly the relationship between Hurston and Hughes.",
+        "detailed": "Both playwrights are credited as writers, and their joint work affected their friendship. Those details show that the unusual feature being identified is coauthorship, or collaboration.",
+        "choice_analysis": {
+          "A": "Characterization is the literary creation or depiction of characters. Choosing it would shift attention to a writing technique rather than the two authors' joint production of the play.",
+          "B": "Interpretation is an explanation or understanding of meaning. The passage describes creating a new work together instead of offering a reading of an existing work.",
+          "C": "Collaboration is joint work on a shared undertaking. Hurston and Hughes coauthored the play, so their work is a direct example of collaboration.",
+          "D": "Commercialization is adapting or promoting something for profit. That idea is unsupported because the passage discusses coauthorship and friendship, not sales or marketing."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "resolved"
+        },
+        {
+          "label": "B",
+          "text": "adjusted"
+        },
+        {
+          "label": "C",
+          "text": "offered"
+        },
+        {
+          "label": "D",
+          "text": "directed"
+        }
+      ],
+      "passage": "Logically, a damaged fossil should provide less information than an intact one, but for paleontologist Brigitte Schoenemann, a broken area on a fossilized trilobite (a crustacean-like creature) [vocab]______[/vocab] fresh insight, allowing her to view the inner structure of the organism's eye.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153501",
+      "question_number": 63,
+      "section": "reading_writing",
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "The broken fossil gave Schoenemann a new view of the trilobite's eye, so it offered fresh insight.",
+        "key_evidence": "The fossil's broken area let Schoenemann see the inner structure of the trilobite's eye and gain fresh insight.",
+        "why_correct": "The sentence explains that damage unexpectedly provided access to information hidden inside an intact fossil. Offered can mean gave or provided, so the broken area offered Schoenemann fresh insight.",
+        "detailed": "Although damage usually reduces available information, this particular break exposed the eye's internal structure. The contrast depends on the break supplying a benefit that paleontologists normally would not have.",
+        "choice_analysis": {
+          "A": "Resolved means settled a problem or dispute. The broken area opened a useful view rather than settling any specifically identified question.",
+          "B": "Adjusted means changed or fine-tuned something. It would imply that the fossil modified the insight, whereas the text says the fossil supplied new information.",
+          "C": "Offered means gave or made available. By exposing the inner eye, the damaged area made fresh insight available to Schoenemann.",
+          "D": "Directed means guided, managed, or aimed. The passage presents insight as something provided rather than something the broken area commanded or aimed."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "Staged"
+        },
+        {
+          "label": "B",
+          "text": "Priced"
+        },
+        {
+          "label": "C",
+          "text": "Stained"
+        },
+        {
+          "label": "D",
+          "text": "Watched"
+        }
+      ],
+      "passage": "The following text is from Booth Tarkington's 1921 novel <i>Alice Adams</i>.\r\n\r\nMrs. Adams had always been fond of vases, she said, and every year her husband's Christmas present to herwas a vase of one sort or another—whatever the clerk showed him, [vocab]marked[/vocab] at about twelve or fourteen dollars.",
+      "prompt": "As used in the text, what does the word \"marked\" most nearly mean?",
+      "question_id": "wic-easy-153502",
+      "question_number": 64,
+      "section": "reading_writing",
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "A vase marked at twelve or fourteen dollars is labeled with that price, so marked means priced.",
+        "key_evidence": "The clerk showed Mr. Adams vases marked at about twelve or fourteen dollars.",
+        "why_correct": "In the sentence, the dollar amount identifies the vase's sale price. Priced means assigned or labeled with a monetary value, which is the relevant sense of marked here.",
+        "detailed": "Mr. Adams routinely bought whichever vase the clerk presented within the stated price range. The wording marked at followed by a dollar amount indicates the value written or attached to the item for sale.",
+        "choice_analysis": {
+          "A": "Staged means arranged for presentation or performance. That could describe a display, but the sentence specifies a dollar amount rather than how the vase was arranged.",
+          "B": "Priced means assigned or labeled with a cost. The twelve- or fourteen-dollar mark tells what the vase costs.",
+          "C": "Stained means discolored or soiled. It would imply a blemish on the vase, contradicting the numerical price information after marked.",
+          "D": "Watched means observed. The buying scene gives no observer watching a vase at a dollar amount; instead, the amount labels its price."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "word_meaning_in_context"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "Harsh"
+        },
+        {
+          "label": "B",
+          "text": "Scratchy"
+        },
+        {
+          "label": "C",
+          "text": "Basic"
+        },
+        {
+          "label": "D",
+          "text": "Vague"
+        }
+      ],
+      "passage": "The following text is from Frances Hodgson Burnett's 1911 novel <i>The Secret Garden</i>. Mary, a young girl, is outside trying her new jump rope. \r\n\r\nThe sun was shining and a little wind was blowing-not a [vocab]rough[/vocab] wind, but one which came in delightful little gusts and brought a fresh scent of newly turned earth with it. She skipped round the fountain garden, and up one walk and down another.",
+      "prompt": "As used in the text, what does the word \"rough\" most nearly mean?",
+      "question_id": "wic-easy-153503",
+      "question_number": 65,
+      "section": "reading_writing",
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "The pleasant little gusts were not severe, so rough means harsh in this description of the wind.",
+        "key_evidence": "The wind came in delightful little gusts and carried the fresh scent of newly turned earth.",
+        "why_correct": "The passage contrasts a rough wind with gentle, delightful gusts. Harsh means severe or unpleasantly forceful, so not a harsh wind preserves the contrast with the pleasant weather Mary enjoys.",
+        "detailed": "The fresh scent, sunshine, and delightful gusts create a mild and enjoyable scene. Rough therefore concerns the wind's potentially severe force, not texture, simplicity, or clarity.",
+        "choice_analysis": {
+          "A": "Harsh means severe, unpleasant, or forceful. The statement that the wind was not rough means it was not harsh, as the delightful gusts confirm.",
+          "B": "Scratchy describes an abrasive texture or a rough sound. Using it would imply that the wind literally felt textured or sounded raspy rather than that it lacked severity.",
+          "C": "Basic means simple or fundamental. Simplicity is unsupported because the passage evaluates how mild and pleasant the wind feels.",
+          "D": "Vague means unclear or imprecise. That property belongs to ideas or descriptions; instead, this sentence contrasts the wind's physical force with gentle gusts."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "word_meaning_in_context"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "A useless"
+        },
+        {
+          "label": "B",
+          "text": "An empty"
+        },
+        {
+          "label": "C",
+          "text": "A forgotten"
+        },
+        {
+          "label": "D",
+          "text": "An incomplete"
+        }
+      ],
+      "passage": "校订说明：题干修复：来源 HTML 误将作品出处放入题干；现依据同题屏幕照片恢复词义问法，诗句和四个选项未改动。\n\nThe following text is adapted from Amy Lowell's 1912 poem \"Summer.\" \r\n\r\nIt is summer, glorious, deep-toned summer, \r\nThe very crown of nature's changing year \r\nWhen all her surging life is at its full. \r\nTo me alone it is a time of pause, \r\n[vocab]A void[/vocab] and silent space between two worlds, \r\nWhen inspiration lags, and feeling sleeps, \r\nGathering strength for efforts yet to come.",
+      "prompt": "As used in the text, what does the phrase \"a void\" most nearly mean?",
+      "question_id": "wic-easy-153504",
+      "question_number": 66,
+      "section": "reading_writing",
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "“A void” means an empty space in this description of suspended inspiration.",
+        "key_evidence": "The speaker calls summer a time of pause, when inspiration lags and feeling sleeps.",
+        "why_correct": "B conveys the emptiness of the speaker's silent interval between periods of activity. It fits the stillness described by the neighboring lines, rather than suggesting forgetting or an unfinished object.",
+        "detailed": "Read the target phrase as part of a void and silent space between two worlds. The following lines explain that inspiration and feeling are temporarily inactive while strength gathers for later efforts. Empty therefore captures the kind of space being described. The speaker does not label the pause worthless: gathering strength suggests a purpose. Nor is there a discussion of memory or of a partly finished whole. This is an existing highlighted expression, not a blank to be filled.",
+        "choice_analysis": {
+          "A": "A useless would call the interval without value, but the closing line describes gathering strength for future efforts rather than declaring the pause worthless.",
+          "B": "An empty matches a quiet gap in the speaker's inspiration, reinforced by pause, silent space and sleeping feelings.",
+          "C": "A forgotten introduces a failure of memory; the speaker is consciously describing the present interval, not a place or time that has been forgotten.",
+          "D": "An incomplete would describe something unfinished or missing a part, whereas the image here is a still, empty interval between active periods."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "word_meaning_in_context"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "reviewed"
+        },
+        {
+          "label": "B",
+          "text": "defied"
+        },
+        {
+          "label": "C",
+          "text": "respected"
+        },
+        {
+          "label": "D",
+          "text": "prevented"
+        }
+      ],
+      "passage": "As a young photographer in the 1950s, William Klein [vocab]______[/vocab] the conventions of photography by creating images that were high contrast and included blurred and distorted elements—features generally seen as flaws. So unorthodox was Klein's work that he had difficulty finding a publisher for his now-iconic 1956 photo book<i> Life is Good &amp; Good for You in New York</i>.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153505",
+      "question_number": 67,
+      "section": "reading_writing",
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Klein defied photographic conventions by using blur and distortion that contemporaries treated as flaws.",
+        "key_evidence": "His images used high contrast, blurred, and distorted elements, and their unorthodox character initially made publication difficult.",
+        "why_correct": "The passage shows that to defy a convention is to deliberately go against an accepted practice. Klein's use of elements viewed as flaws departs from standard photographic expectations, and the publishing difficulty confirms that departure.",
+        "detailed": "The phrase “by creating” supplies evidence for the verb: Klein adopted visual features that conventional photography regarded as defects. The next sentence labels his work “unorthodox,” showing that he challenged rather than followed the prevailing rules. “Defied” expresses active resistance to those conventions and explains why publishers initially hesitated.",
+        "choice_analysis": {
+          "A": "“Reviewed” means examined or evaluated. It does not describe how Klein's own images departed from photographic conventions.",
+          "B": "“Defied” means resisted or acted against an established rule. The blurred and distorted elements rejected the conventions that treated such features as flaws.",
+          "C": "“Respected” means followed or honored. The word “unorthodox” and the use of supposed flaws show the opposite relationship to convention.",
+          "D": "“Prevented” means stopped something from happening. It does not fit: Klein made photographs that violated conventions without stopping those conventions from existing."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "dismiss"
+        },
+        {
+          "label": "B",
+          "text": "provide"
+        },
+        {
+          "label": "C",
+          "text": "regulate"
+        },
+        {
+          "label": "D",
+          "text": "refuse"
+        }
+      ],
+      "passage": "Archaeologists studying an ancient amphitheater in Switzerland believe that it dates back to the fourth century CE. Their discoveries of a coin made between 337 and 341 CE and era-appropriate building materials [vocab]______[/vocab] evidence for this theory.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153506",
+      "question_number": 68,
+      "section": "reading_writing",
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "The dated coin and period-appropriate building materials provide evidence that the amphitheater is from the fourth century CE.",
+        "key_evidence": "A coin from 337–341 CE and building materials appropriate to that era support the proposed fourth-century date.",
+        "why_correct": "The passage presents archaeological discoveries as support for a historical claim. The coin's date and the materials' period fit give researchers grounds for their theory, so “provide evidence” is the natural and logical phrase.",
+        "detailed": "The theory concerns when the amphitheater was built. Both discoveries bear on that question: the coin supplies a narrow date range, and the construction materials are consistent with the same era. These findings do not regulate, refuse, or dismiss the theory; they furnish support for it. Choice B accurately states that evidentiary role.",
+        "choice_analysis": {
+          "A": "“Dismiss” means reject as unworthy of consideration. It contradicts findings that make the dating theory more credible.",
+          "B": "“Provide” means supply or furnish. The coin and building materials supply factual support for the fourth-century dating theory.",
+          "C": "“Regulate” means control by rules or restrictions. It does not describe the evidentiary role of physical discoveries.",
+          "D": "“Refuse” means decline to do something. Evidence has no act of refusal here, and the discoveries point toward rather than away from the proposed date."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "Faintly"
+        },
+        {
+          "label": "B",
+          "text": "Hastily"
+        },
+        {
+          "label": "C",
+          "text": "Easily"
+        },
+        {
+          "label": "D",
+          "text": "Foolishly"
+        }
+      ],
+      "passage": "The following text is adapted from Lewis Carroll's 1865 novel <i>Alice's Adventures in Wonderland. </i>\r\n\r\n\"The second thing is to find my way into that lovely garden. I think that will be the best plan.\" It sounded like an excellent plan, no doubt, and very neatly and [vocab]simply[/vocab] arranged; the only difficulty was, that Alice had not the smallest idea how to set about it.",
+      "prompt": "As used in the text, what does the word \"simply\" most nearly mean?",
+      "question_id": "wic-easy-153508",
+      "question_number": 69,
+      "section": "reading_writing",
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Simply means easily or without complication in the description of the plan's arrangement.",
+        "key_evidence": "The narrator describes the plan as 'very neatly and simply arranged,' then says Alice has no idea how to begin.",
+        "why_correct": "Easily is the closest available word for the plan's straightforward arrangement. The contrast is between an apparently simple statement of a goal and the difficulty of actually carrying it out.",
+        "detailed": "Alice states what she wants to do, and the narrator ironically remarks on the neatness of the plan before exposing its practical flaw. Simply describes that uncomplicated formulation, not a promise that entering the garden will be easy.",
+        "choice_analysis": {
+          "A": "Faintly means weakly or indistinctly, not in an uncomplicated way.",
+          "B": "Hastily concerns speed or insufficient deliberation. The phrase describes the plan's simplicity, not how quickly Alice made it.",
+          "C": "Easily gives the nearest sense of simply here: without complication in the plan's arrangement.",
+          "D": "Foolishly evaluates judgment. The narrator's irony may invite criticism of the plan, but it does not make simply itself mean foolishly."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "word_meaning_in_context"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "predicting"
+        },
+        {
+          "label": "B",
+          "text": "refusing"
+        },
+        {
+          "label": "C",
+          "text": "hiding"
+        },
+        {
+          "label": "D",
+          "text": "creating"
+        }
+      ],
+      "passage": "In the 1960s, Sam Gilliam, a Black painter from the southern United States, became the first artist to drape painted canvases into flowing shapes. He later explored a different style, [vocab]______[/vocab] quilt-like paintings inspired by the patchwork quilting tradition of Black communities in the South.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153509",
+      "question_number": 70,
+      "section": "reading_writing",
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Gilliam explored a new style by creating quilt-like paintings inspired by Southern Black quilting traditions.",
+        "key_evidence": "After pioneering draped canvases, Gilliam explored a different style consisting of quilt-like paintings.",
+        "why_correct": "The sentence describes an artistic action that produced paintings in a new style. “Creating” means making those works and forms a grammatical participial phrase after “explored a different style.”",
+        "detailed": "The passage first identifies Gilliam's earlier innovation with draped canvases, then shifts to a later, different style. The blank introduces the works through which he explored that style: quilt-like paintings inspired by a regional tradition. An artist creates paintings; predicting, refusing, and hiding do not name the productive act or connect naturally to the noun phrase that follows.",
+        "choice_analysis": {
+          "A": "“Predicting” means saying what will happen later. It does not describe Gilliam's artistic production; the sentence is not a forecast about quilt-like paintings.",
+          "B": "“Refusing” means declining to do something. He is described as exploring the style through paintings, which shows participation rather than rejection.",
+          "C": "“Hiding” means concealing something from view. It does not fit visible artistic works that define the new style.",
+          "D": "“Creating” means making. It fits an artist who explored a style by making quilt-like paintings inspired by Black Southern patchwork traditions."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "preventable"
+        },
+        {
+          "label": "B",
+          "text": "undeniable"
+        },
+        {
+          "label": "C",
+          "text": "common"
+        },
+        {
+          "label": "D",
+          "text": "concerning"
+        }
+      ],
+      "passage": "Researchers and conservationists stress that biodiversity loss due to invasive species is [vocab]______[/vocab]. For example, people can take simple steps such as washing their footwear after travel to avoid introducing potentially invasive organisms into new environments.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-easy-153510",
+      "question_number": 71,
+      "section": "reading_writing",
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "difficulty_estimate": "easy",
+      "explanation": {
+        "short": "Simple actions can stop people from spreading invasive organisms, showing that the resulting biodiversity loss is preventable.",
+        "key_evidence": "People can avoid introducing invasive organisms into new environments by washing their footwear after travel.",
+        "why_correct": "The passage gives an action that can keep invasive organisms from entering new environments. Preventable means capable of being stopped or avoided, which explains why the footwear example supports the opening claim.",
+        "detailed": "Washing footwear removes organisms that travelers might otherwise carry to a new ecosystem. Because people can interrupt that route of introduction, at least some biodiversity loss caused by invasive species can be prevented.",
+        "choice_analysis": {
+          "A": "Preventable means able to be avoided or stopped. The specific step of cleaning footwear demonstrates a way to prevent introducing invasive organisms.",
+          "B": "Undeniable means impossible to dispute. That word concerns certainty rather than whether human action can stop the loss, so it leaves the example's preventive purpose unexplained.",
+          "C": "Common means frequent or widespread. The footwear example provides no rate of occurrence, making frequency unsupported by the evidence offered.",
+          "D": "Concerning means worrying. Biodiversity loss may indeed cause concern, but this choice would express alarm instead of explaining why a simple avoidance measure matters."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    }
+  ]
+}

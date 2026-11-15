@@ -1,0 +1,244 @@
+{
+  "resources": [
+    {
+      "publicPath": "assets/question-media/1e5c680e31e282d388543e2d581838499edf2d780f45cf60c749c6b2b241f5cb.png",
+      "sha256": "1e5c680e31e282d388543e2d581838499edf2d780f45cf60c749c6b2b241f5cb",
+      "sizeBytes": 773344
+    },
+    {
+      "publicPath": "assets/question-media/886f7a29d56414a58f0093b256e557021759bb11e3db99cea97ef87270cf8395.png",
+      "sha256": "886f7a29d56414a58f0093b256e557021759bb11e3db99cea97ef87270cf8395",
+      "sizeBytes": 583987
+    },
+    {
+      "publicPath": "assets/question-media/887336593c9b87ac06f2f7aa92ad718526cf8d6d7591fb991af62bcadfd0e81b.png",
+      "sha256": "887336593c9b87ac06f2f7aa92ad718526cf8d6d7591fb991af62bcadfd0e81b",
+      "sizeBytes": 1346930
+    },
+    {
+      "publicPath": "assets/question-media/dd54da82d84e395a2d2c478d33da2c886447d26483a072ef0fecc823ded06a36.png",
+      "sha256": "dd54da82d84e395a2d2c478d33da2c886447d26483a072ef0fecc823ded06a36",
+      "sizeBytes": 448341
+    },
+    {
+      "publicPath": "categories/chart_images/apac_b15_q008_graph.png",
+      "sha256": "912ce55c713fbd0c9c9ec96c2fd0379df95bac50f4f5c508a14be29400bb097b",
+      "sizeBytes": 198867
+    },
+    {
+      "publicPath": "categories/chart_images/apac_b15_q010_graph.png",
+      "sha256": "b583e01c0b57246f548a806a439176fe4acc87685f429be3eee6cfa946362dbd",
+      "sizeBytes": 200782
+    },
+    {
+      "publicPath": "categories/chart_images/apac_b15_q011_graph.png",
+      "sha256": "d24c7bfdd540d0f6a0e38d4a0977e6f5dcb151555df8e3419334a305c989460f",
+      "sizeBytes": 100984
+    },
+    {
+      "publicPath": "categories/chart_images/apac_d_009_chart.png",
+      "sha256": "cce9ad56cb2c088d268424b4fe1303d54da7c16c0956b67b28b061aa296c91e3",
+      "sizeBytes": 112047
+    },
+    {
+      "publicPath": "categories/chart_images/apac_d_014_table.png",
+      "sha256": "f874e99e66f57292b70b35cdc886683b615aedbc6797bc88b570ca0c6f278b47",
+      "sizeBytes": 115827
+    },
+    {
+      "publicPath": "categories/chart_images/apac_d_028_table.png",
+      "sha256": "1034dacf5495177d5c217f1460ad06c34f6be6a6ee340ebabc3f72e0a69931fc",
+      "sizeBytes": 115044
+    },
+    {
+      "publicPath": "categories/chart_images/apac_d_030_table.png",
+      "sha256": "687d6b2adf33ecdff56809cdd68e144e8c07fa7589b7a517c65d781a88d21b66",
+      "sizeBytes": 60588
+    },
+    {
+      "publicPath": "categories/chart_images/apac_d_033_chart.png",
+      "sha256": "8c7a620dee59bed09e26218fecfdbb624cab026b602417b404c88b8275e58467",
+      "sizeBytes": 207467
+    },
+    {
+      "publicPath": "categories/chart_images/apac_d_054_table.png",
+      "sha256": "cb9206fd2f68142a864b43629f7054b65ca6f2a8a6c30d44567b7fdc3943a3b0",
+      "sizeBytes": 350473
+    },
+    {
+      "publicPath": "categories/chart_images/apac_d_2025_03_m1_q11_copper_mined_1995_2020.png",
+      "sha256": "4a89c171fa745585b8869daf2666ac02a54326a0ef8ef303806c2b75c8bd5326",
+      "sizeBytes": 34974
+    },
+    {
+      "publicPath": "categories/chart_images/apac_d_2025_03_m1_q13_story_rating_spoiled_unspoiled.png",
+      "sha256": "fd125db7cb27ab8a833b095325fd32366c9b36d38f538d39694577f48d36b031",
+      "sizeBytes": 183701
+    },
+    {
+      "publicPath": "categories/chart_images/apac_d_2025_03_m2_q09_chesapeake_bay_seagrass_2012_2019.png",
+      "sha256": "1431056dfaed2611c88bb94d1074870fc146f8a15e6e03006d0ebe00d4b3f5a5",
+      "sizeBytes": 214744
+    },
+    {
+      "publicPath": "categories/chart_images/apac_d_2025_03_m2_q10_migrating_animal_travel_distances.png",
+      "sha256": "ff63412bf16d245f639610c0c170dfd9ac6ab4abf43b2cbe7e1179fe949671b9",
+      "sizeBytes": 55922
+    },
+    {
+      "publicPath": "categories/chart_images/apac_d_2025_09_m1_q11_hours_worked_table.png",
+      "sha256": "ad9e04a12129e9fda68e897f6c159e836e8f5ae9f2ff7deeee96dd2fd54c85a1",
+      "sizeBytes": 68139
+    },
+    {
+      "publicPath": "categories/chart_images/apac_d_2025_09_m1_q12_oklahoma_industries_table.png",
+      "sha256": "4415506e951c88c42d06e45ce9965557f318e07969133dc02f7c66133187359a",
+      "sizeBytes": 77436
+    },
+    {
+      "publicPath": "categories/chart_images/apac_d_2025_09_m2_q09_form_4720_penalties_graph.png",
+      "sha256": "971ae79e42989012f8f5227cca1880198b9552bdf6703d84faccc4850aafd364",
+      "sizeBytes": 134285
+    },
+    {
+      "publicPath": "categories/chart_images/na_a_2025_09_m1_q11_irish_hoards.png",
+      "sha256": "493e7e74585cd6792b73520fb4b8f5e9ebcee8b4610c0e424efc43e1bd67298a",
+      "sizeBytes": 44365
+    },
+    {
+      "publicPath": "categories/chart_images/na_a_2025_09_m2_q08_forest_edge_density.png",
+      "sha256": "e33b625c156c6419a162510f993de9677383ac2c1f3d831ce7646a0f98f231b2",
+      "sizeBytes": 65033
+    },
+    {
+      "publicPath": "categories/chart_images/na_a_2025_09_m2_q09_cougar_density.png",
+      "sha256": "08d6b57e41841d1bc6d1f331cc9f2e726f4a00120e5b622ee9dfcdbff11f4b7c",
+      "sizeBytes": 79099
+    },
+    {
+      "publicPath": "categories/chart_images/na_b_2025_06_m1_q11_line_graph.png",
+      "sha256": "6766d18d240e2246da061efb0a7ede777f312dfdb9cddb1d13ac52a54cf59b1f",
+      "sizeBytes": 168912
+    },
+    {
+      "publicPath": "categories/chart_images/na_b_2025_06_m2_q13_table.png",
+      "sha256": "673566877617f0ac62063e810c03e438b6434520f5c1ecae3c2abad721535607",
+      "sizeBytes": 191895
+    },
+    {
+      "publicPath": "categories/chart_images/na_b_2025_09_m1_q12_tree_threats.png",
+      "sha256": "51588f29837426151495c90f0bc2deb2b27106e18100a780091f90f436608c0c",
+      "sizeBytes": 32542
+    },
+    {
+      "publicPath": "categories/chart_images/na_b_2025_09_m1_q14_dog_ratings.png",
+      "sha256": "3a67175e0d93374e3d4bf936b17df66c7ac83f98ea39c4262f3564dc1ddb35bd",
+      "sizeBytes": 55034
+    },
+    {
+      "publicPath": "categories/chart_images/na_b_2025_09_m2_q10_forest_edge_density.png",
+      "sha256": "c48b43f65bcfdf09d961a38650410c51dbd8a63b33bc527706a9fe52947c3b82",
+      "sizeBytes": 64727
+    },
+    {
+      "publicPath": "categories/chart_images/na_b_2025_09_m2_q11_cougar_density.png",
+      "sha256": "4878ef9ecac3d51cb6ec251a5a6c603347f548e9916a3b7fb1a8ae0473bf4515",
+      "sizeBytes": 87620
+    },
+    {
+      "publicPath": "categories/chart_images/na_c_2025_06_m1_q09_hours_worked.png",
+      "sha256": "08f642835cf9a814e14d6b7df8ff25369b0dd885e66cff2db3b1f178801ce244",
+      "sizeBytes": 45084
+    },
+    {
+      "publicPath": "categories/chart_images/na_c_2025_06_m1_q10_trade_reform_prices.png",
+      "sha256": "502be0e342f931f2e8509470ec4b47de3dc9d600965ab06f9f3452caccf0c08d",
+      "sizeBytes": 44717
+    },
+    {
+      "publicPath": "categories/chart_images/na_c_2025_06_m1_q11_us_coin_seigniorage.png",
+      "sha256": "3c19ae39c58ac4659e9a44b9d022cf17df9a6477f83854a04d6e2ab38a12cd80",
+      "sizeBytes": 46771
+    },
+    {
+      "publicPath": "categories/chart_images/na_c_2025_06_m2_q14_dog_ratings.png",
+      "sha256": "9ba870f1a56a790e192dd5b86b6fd6d8873b933c24027a4e29e4917ca6c68073",
+      "sizeBytes": 51301
+    },
+    {
+      "publicPath": "categories/chart_images/na_d_2025_09_m1_q12_tree_threats.png",
+      "sha256": "db699571c280685fc277941f6f8854fac526a3154b6192c0574dd92ae358f807",
+      "sizeBytes": 33349
+    },
+    {
+      "publicPath": "categories/chart_images/na_d_2025_09_m1_q14_dog_ratings.png",
+      "sha256": "8db273fbf858a3b54b4190a378b86bef5b5af90081eb8c612f3eb55bffae9fc6",
+      "sizeBytes": 55061
+    },
+    {
+      "publicPath": "categories/chart_images/na_d_2025_09_m2_q08_orangutan_diets.png",
+      "sha256": "eccc0c6072880e43b5f230759cf6219ba071e14d447bf634978265ca457a7ada",
+      "sizeBytes": 50020
+    },
+    {
+      "publicPath": "categories/chart_images/na_d_2025_09_m2_q09_broken_wing.png",
+      "sha256": "16a900862fd33e0d7dc50248b4b6287b97c024b382350d00ee81adf0346e1c96",
+      "sizeBytes": 57173
+    },
+    {
+      "publicPath": "categories/chart_images/na_e_2025_09_m1_q12_tree_threats.png",
+      "sha256": "33d35095155e232912aa40b11f0cef858a63aa766daae3724e78ed72494a0e81",
+      "sizeBytes": 31330
+    },
+    {
+      "publicPath": "categories/chart_images/na_e_2025_09_m1_q14_dog_ratings.png",
+      "sha256": "205cf37642310aeb478a0b21a0535bcb1376f3ef972a83a609bf9da16f30e2f1",
+      "sizeBytes": 55009
+    },
+    {
+      "publicPath": "categories/chart_images/na_e_2025_09_m2_q10_orangutan_diet_overlap.png",
+      "sha256": "a1d4d42d4820015b2b15a5558ee412467166d9dcde057fd37ab68c41dd30aa3a",
+      "sizeBytes": 48754
+    },
+    {
+      "publicPath": "categories/chart_images/na_e_2025_09_m2_q11_broken_wing_display.png",
+      "sha256": "29ea6a2a2c721ba7ceb5b4f1a346cb4d42d28c3d8463811067e12ad2a80a6376",
+      "sizeBytes": 58006
+    },
+    {
+      "publicPath": "categories/chart_images/na_f_2025_09_m1_q11.png",
+      "sha256": "8b50d29dc0709d6515a3fd9f1dfeb599fcbbb5004b5fc9c0e3d00438c3f2f270",
+      "sizeBytes": 28223
+    },
+    {
+      "publicPath": "categories/chart_images/na_f_2025_09_m1_q13.png",
+      "sha256": "4659b90fabac0f4efe3e214a5590eae87c42cf70a539b499c05b211b5b6102e3",
+      "sizeBytes": 48311
+    },
+    {
+      "publicPath": "categories/chart_images/na_f_2025_09_m2_q08.png",
+      "sha256": "9dbbf54520f9aff5ac4b81d7efd14da2ae758066afff4e5d5393af09902e3da6",
+      "sizeBytes": 54518
+    },
+    {
+      "publicPath": "categories/chart_images/na_f_2025_09_m2_q09.png",
+      "sha256": "b30beda0ca83f43ae39dcce51a94cb63597d5fd30a8576d8d109c6331136de49",
+      "sizeBytes": 32995
+    },
+    {
+      "publicPath": "categories/chart_images/na_f_2025_09_m2_q10.png",
+      "sha256": "c7989b1dbb56abd30e9fd64a883b1dca18834064e95e54a21c78b4e9c5d81feb",
+      "sizeBytes": 60725
+    },
+    {
+      "publicPath": "categories/chart_images/oct_ap_011_table.png",
+      "sha256": "2cf5d48d8b19317732a14854567815d904e3a30c919387f6f2f0f110ec973c6b",
+      "sizeBytes": 161426
+    },
+    {
+      "publicPath": "categories/chart_images/oct_ap_013_graph.png",
+      "sha256": "bb80d7426ae4bc7852d18909fcc6e4337569b249bf415b58d2784c358843409e",
+      "sizeBytes": 103708
+    }
+  ]
+}

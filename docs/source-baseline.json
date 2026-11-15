@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "sat-shared-source-baseline-v1",
+  "codeBaseline": "2026-11-05 maintained production core",
+  "files": [
+    {
+      "path": "skills/skill-sat-rw-classification/assets/templates/html_template_v1.1.html",
+      "sha256": "05e4ab5b58fd2e59b6eddd76071fdc3c09c1a8876850171692780a7a7dfc15a1"
+    },
+    {
+      "path": "skills/skill-sat-rw-classification/assets/templates/learning_index_v2.html",
+      "sha256": "c1e883deee55eb4a89fab6731eb09cf991db128c745d40a45800e96609080df1"
+    },
+    {
+      "path": "skills/skill-sat-rw-classification/assets/templates/learning_storage.js",
+      "sha256": "79c8f3185e32572a7a45eed406671c599e38449fa62650f9bca32ddf1b324860"
+    },
+    {
+      "path": "skills/skill-sat-rw-classification/assets/zen-interface/background.svg",
+      "sha256": "e8adbf365cd41a3d764d6984d49619ca645c8f480ab2b869e776f14888fb69d1"
+    },
+    {
+      "path": "skills/skill-sat-rw-classification/assets/zen-interface/pattern.svg",
+      "sha256": "6a6b30b79930afadd0afb4c0ee188b2070eaf58f2d3dbb106ffbff04c9905c6f"
+    },
+    {
+      "path": "skills/skill-sat-rw-classification/assets/zen-interface/texture.svg",
+      "sha256": "026ac9ec8c6961e85174d0909a9c8ff238f8e448694373152094a7054cb8bd16"
+    },
+    {
+      "path": "skills/skill-sat-rw-classification/config/sat_rw_taxonomy.json",
+      "sha256": "1b521982ec350c37d621657886680ebb3a8f50e3520bd6bd3a5c4a7438894d83"
+    },
+    {
+      "path": "skills/skill-sat-rw-classification/scripts/build_learning_experience.py",
+      "sha256": "5622199455ed8d2296e477bf00d013c0d874fbea51b7cf97f36225ceb0d05b89"
+    }
+  ],
+  "note": "Shared source imported byte for byte; public data is a separately sanitized development copy."
+}

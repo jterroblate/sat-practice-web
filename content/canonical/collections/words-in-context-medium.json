@@ -1,0 +1,954 @@
+{
+  "schemaVersion": "sat-canonical-question-collection-v1",
+  "contentId": "collection-wic-medium",
+  "title": "Words in Context · Medium",
+  "section": "reading_writing",
+  "questionCount": 21,
+  "questions": [
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "A lonely"
+        },
+        {
+          "label": "B",
+          "text": "A disagreeable"
+        },
+        {
+          "label": "C",
+          "text": "An acceptable"
+        },
+        {
+          "label": "D",
+          "text": "An extraordinary"
+        }
+      ],
+      "passage": "The following text is adapted from Nathaniel Hawthorne's 1837 story \"Dr. Heidegger's Experiment.\" The main character, a physician, is experimenting with rehydrating a dried flower. \r\n\r\nAt first [the rose] lay lightly on the surface of the fluid, appearing to imbibe none of its moisture. Soon, however, [vocab]a singular[/vocab] change began to be visible. The crushed and dried petals stirred and assumed a deepening tinge of crimson, as if the flower were reviving from a deathlike slumber.",
+      "prompt": "As used in the text, what does the phrase \"a singular\" most nearly mean?",
+      "question_id": "wic-medium-153511",
+      "question_number": 1,
+      "section": "reading_writing",
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "difficulty_estimate": "medium",
+      "explanation": {
+        "short": "The rose's revival is unusual, so singular means extraordinary.",
+        "key_evidence": "The dried petals regain crimson color as though reviving from death.",
+        "why_correct": "The passage states that the dried petals regain crimson color as though reviving from death. The startling transformation, not the flower's condition before it, supplies the clue.",
+        "detailed": "The flower does not merely change; its dried petals regain color and seem to revive after absorbing moisture. That striking transformation is \"singular\" in the sense of extraordinary or unusual. \"A lonely\" applies to being alone, not to the remarkable character of an event.",
+        "choice_analysis": {
+          "A": "Choice A (“A lonely”): Lonely describes isolation; the passage instead emphasizes a remarkable physical transformation.",
+          "B": "Choice B (“A disagreeable”): Disagreeable describes something unpleasant, whereas the narrator presents the revival as wondrous.",
+          "C": "Choice C (“An acceptable”): Acceptable means merely satisfactory and misses the exceptional nature of the change.",
+          "D": "Choice D (“An extraordinary”): Extraordinary names the unusual revival of a crushed, dried rose in liquid."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "word_meaning_in_context"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "waive"
+        },
+        {
+          "label": "B",
+          "text": "concede"
+        },
+        {
+          "label": "C",
+          "text": "refute"
+        },
+        {
+          "label": "D",
+          "text": "require"
+        }
+      ],
+      "passage": "During a 2014 archaeological dig in Spain, Vicente Lull and his team uncovered the skeleton of a woman from El Algar, an Early Bronze Age society, buried with valuable objects signaling a high position of power. This finding may persuade researchers who have argued that Bronze Age societies were ruled by men to [vocab]______[/vocab] that women may have also held leadership roles.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-medium-153513",
+      "question_number": 2,
+      "section": "reading_writing",
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "difficulty_estimate": "medium",
+      "explanation": {
+        "short": "The burial evidence may force scholars to concede that women held power.",
+        "key_evidence": "The woman's valuable grave goods signal a high position in El Algar society.",
+        "why_correct": "The passage states that the woman's valuable grave goods signal a high position in El Algar society. Because this evidence challenges an all-male leadership claim, concede means admit a point previously resisted.",
+        "detailed": "The burial evidence challenges researchers who had maintained that leadership was exclusively male. To \"concede\" is to acknowledge a point after contrary evidence makes the old position difficult to maintain. \"Refute\" would mean disproving women's leadership, which is the reverse of what the grave goods suggest.",
+        "choice_analysis": {
+          "A": "Choice A (“waive”): Waive means give up a right, not acknowledge a conclusion about leadership.",
+          "B": "Choice B (“concede”): Concede means admit that the burial evidence leaves room for women leaders.",
+          "C": "Choice C (“refute”): Refute would mean disprove the possibility of women leaders, the opposite of what the new evidence may do.",
+          "D": "Choice D (“require”): Require means make something mandatory; the sentence concerns changing a historical belief."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "Acquired"
+        },
+        {
+          "label": "B",
+          "text": "Acknowledged"
+        },
+        {
+          "label": "C",
+          "text": "Imitated"
+        },
+        {
+          "label": "D",
+          "text": "Speculated"
+        }
+      ],
+      "passage": "The following text is adapted from Nathaniel Hawthorne's 1844 short story \"Drowne's Wooden Image.\" Drowne, a young man, is carving a wooden figure to decorate the front of a ship. \r\n\r\nDay by day, the work [vocab]assumed[/vocab] greater precision, and settled its irregular and misty outline into distincter grace and beauty. The general design was now obvious to the common eye.",
+      "prompt": "As used in the text, what does the word \"assumed\" most nearly mean?",
+      "question_id": "wic-medium-153514",
+      "question_number": 3,
+      "section": "reading_writing",
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "difficulty_estimate": "medium",
+      "explanation": {
+        "short": "As the carving becomes more precise, assumed means acquired.",
+        "key_evidence": "The figure's misty outline gradually settles into distinct grace and beauty.",
+        "why_correct": "The passage states that the figure's misty outline gradually settles into distinct grace and beauty. The work takes on a quality over time, so acquired is the concrete contextual sense.",
+        "detailed": "The work gradually moves from an \"irregular and misty outline\" to a more distinct form, so precision is a quality it comes to possess. In this context, \"assumed\" means took on or acquired, not guessed. \"Speculated\" would require a thinker making a conjecture, whereas the subject is the developing carving.",
+        "choice_analysis": {
+          "A": "Choice A (“Acquired”): Acquired means gained greater precision as the carving developed day by day.",
+          "B": "Choice B (“Acknowledged”): Acknowledged means recognized, but the work itself is changing rather than recognizing anything.",
+          "C": "Choice C (“Imitated”): Imitated means copied another model; no copying is described in the carving process.",
+          "D": "Choice D (“Speculated”): Speculated means guessed, which cannot describe an outline becoming distinct."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "word_meaning_in_context"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "legitimate"
+        },
+        {
+          "label": "B",
+          "text": "impenetrable"
+        },
+        {
+          "label": "C",
+          "text": "compelling"
+        },
+        {
+          "label": "D",
+          "text": "indecipherable"
+        }
+      ],
+      "passage": "Although science fiction was dominated mostly by white male authors when Octavia Butler, a Black woman, began writing, she did not view the genre as [vocab]______[/vocab]: Butler broke into the field with the publication of several short stories and her 1976 novel <i>Patternmaster</i>, and she later became the first science fiction writer to win a prestigious MacArthur Fellowship.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-medium-153515",
+      "question_number": 4,
+      "section": "reading_writing",
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "difficulty_estimate": "medium",
+      "explanation": {
+        "short": "Butler's success shows she did not see science fiction as impenetrable.",
+        "key_evidence": "She entered the genre, published major work, and later won a MacArthur Fellowship.",
+        "why_correct": "The passage states that she entered the genre, published major work, and later won a MacArthur Fellowship. Those achievements show that access was difficult but not impossible, which is the sense of impenetrable here.",
+        "detailed": "The colon gives Butler's record of entering the field, publishing a novel, and receiving a major fellowship. Those successes show that she could get through a field dominated by others, so she did not regard it as \"impenetrable.\" \"Indecipherable\" concerns text that cannot be understood, not a profession that is hard to enter.",
+        "choice_analysis": {
+          "A": "Choice A (“legitimate”): Legitimate concerns validity, not whether a writer can enter a field.",
+          "B": "Choice B (“impenetrable”): Impenetrable means impossible to break into; Butler's career demonstrates the contrary.",
+          "C": "Choice C (“compelling”): Compelling means interesting or persuasive and has no connection to access to a profession.",
+          "D": "Choice D (“indecipherable”): Indecipherable means unreadable or impossible to decode, not closed to aspiring writers."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "epitomizing"
+        },
+        {
+          "label": "B",
+          "text": "transcending"
+        },
+        {
+          "label": "C",
+          "text": "anticipating"
+        },
+        {
+          "label": "D",
+          "text": "reinforcing"
+        }
+      ],
+      "passage": "The work of molecular biophysicist Enrique M. De La Cruz is known for [vocab]______[/vocab] traditional boundaries between academic disciplines. The university laboratory that De La Cruz runs includes engineers, biologists, chemists, and physicists, and the research the lab produces makes use of insights and techniques from all those fields.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-medium-153516",
+      "question_number": 5,
+      "section": "reading_writing",
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "difficulty_estimate": "medium",
+      "explanation": {
+        "short": "The lab crosses disciplines, so its work is transcending traditional boundaries.",
+        "key_evidence": "Engineers, biologists, chemists, and physicists work together and share techniques.",
+        "why_correct": "The passage states that engineers, biologists, chemists, and physicists work together and share techniques. Using methods from several fields goes beyond a single discipline rather than reinforcing its boundary.",
+        "detailed": "The laboratory includes four disciplines and combines their insights, so its work crosses the lines separating those disciplines. \"Transcending traditional boundaries\" expresses that movement beyond a single field. \"Reinforcing\" would mean making those separations stronger, contrary to the interdisciplinary setup.",
+        "choice_analysis": {
+          "A": "Choice A (“epitomizing”): Epitomizing means perfectly representing a boundary, whereas the lab crosses boundaries.",
+          "B": "Choice B (“transcending”): Transcending captures research that moves beyond separate academic categories.",
+          "C": "Choice C (“anticipating”): Anticipating means expecting something in advance; the sentence describes present interdisciplinary practice.",
+          "D": "Choice D (“reinforcing”): Reinforcing would make disciplinary divisions stronger, contrary to the mixed-field laboratory."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "responsiveness to"
+        },
+        {
+          "label": "B",
+          "text": "ambivalence toward"
+        },
+        {
+          "label": "C",
+          "text": "renunciation of"
+        },
+        {
+          "label": "D",
+          "text": "mastery over"
+        }
+      ],
+      "passage": "In <i>Nature Poem</i> (2017), Kumeyaay poet Tommy Pico portrays his [vocab]______[/vocab] the natural world by honoring the centrality of nature within his tribe's traditional beliefs while simultaneously expressing his distaste for being in wilderness settings himself.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-medium-153517",
+      "question_number": 6,
+      "section": "reading_writing",
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "difficulty_estimate": "medium",
+      "explanation": {
+        "short": "Pico's respect for nature and dislike of wilderness show ambivalence toward it.",
+        "key_evidence": "The poem honors nature in Kumeyaay belief while the speaker dislikes wilderness settings.",
+        "why_correct": "The passage states that the poem honors nature in Kumeyaay belief while the speaker dislikes wilderness settings. These simultaneous positive and negative responses establish mixed feelings, the defining sense of ambivalence.",
+        "detailed": "The poem presents two attitudes at once: respect for nature's cultural importance and personal dislike of wilderness. That tension makes the relationship \"ambivalence toward\" nature, meaning mixed feelings. \"Renunciation of\" would suggest abandoning nature entirely and misses the poem's reverence.",
+        "choice_analysis": {
+          "A": "Choice A (“responsiveness to”): Responsiveness means reacting to nature, but it omits the speaker's conflicting feelings.",
+          "B": "Choice B (“ambivalence toward”): Ambivalence names the coexistence of reverence and personal distaste.",
+          "C": "Choice C (“renunciation of”): Renunciation means giving up nature altogether, which the poem does not do.",
+          "D": "Choice D (“mastery over”): Mastery means control over nature, not a divided emotional response to it."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "Standard"
+        },
+        {
+          "label": "B",
+          "text": "Prestige"
+        },
+        {
+          "label": "C",
+          "text": "Characteristic"
+        },
+        {
+          "label": "D",
+          "text": "Accomplishment"
+        }
+      ],
+      "passage": "The following text is from F. Scott Fitzgerald's 1925 novel <i>The Great Gatsby</i>. \r\n\r\n[Jay Gatsby] was balancing himself on the dashboard of his car with that resourcefulness of movement that is so peculiarly American-that comes, I suppose, with the absence of lifting work in youth and, even more, with the formless grace of our nervous, sporadic games. This [vocab]quality[/vocab] was continually breaking through his punctilious manner in the shape of restlessness.",
+      "prompt": "As used in the text, what does the word \"quality\" most nearly mean?",
+      "question_id": "wic-medium-153518",
+      "question_number": 7,
+      "section": "reading_writing",
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "difficulty_estimate": "medium",
+      "explanation": {
+        "short": "The recurring movement trait is a characteristic breaking through Gatsby's formal manner.",
+        "key_evidence": "The narrator calls Gatsby's resourceful movement a quality that repeatedly appears as restlessness.",
+        "why_correct": "The passage states that the narrator calls Gatsby's resourceful movement a quality that repeatedly appears as restlessness. Quality here means a distinguishing feature, not a standard or an accomplishment.",
+        "detailed": "The sentence points back to Gatsby's \"resourcefulness of movement\" and says that it repeatedly appears as restlessness. A \"characteristic\" is a recurring personal trait, so it can break through his formal manner. \"Prestige\" is social standing, which does not describe a pattern in his movements.",
+        "choice_analysis": {
+          "A": "Choice A (“Standard”): Standard is a norm to measure against; the sentence identifies Gatsby's personal trait.",
+          "B": "Choice B (“Prestige”): Prestige is social status and does not describe his movement.",
+          "C": "Choice C (“Characteristic”): Characteristic means a distinguishing quality, matching the repeatedly visible restlessness.",
+          "D": "Choice D (“Accomplishment”): Accomplishment is something achieved, whereas the passage describes an inherent mannerism."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "word_meaning_in_context"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "a collaboration"
+        },
+        {
+          "label": "B",
+          "text": "an accessory"
+        },
+        {
+          "label": "C",
+          "text": "a contradiction"
+        },
+        {
+          "label": "D",
+          "text": "an analogy"
+        }
+      ],
+      "passage": "To develop a method for measuring snow depth with laser beams, NASA physicist Yongxiang Hu relied on [vocab]______[/vocab]; identifying broad similarities between two seemingly different phenomena, Hu used information about how ants move inside colonies to calculate how the particles of light that make up laser beams travel through snow.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-medium-153519",
+      "question_number": 8,
+      "section": "reading_writing",
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "difficulty_estimate": "medium",
+      "explanation": {
+        "short": "An analogy connects the similar movement patterns of ants and light particles.",
+        "key_evidence": "Hu identifies 'broad similarities between two seemingly different phenomena' and uses ant movement to calculate light movement.",
+        "why_correct": "An analogy is a comparison that uses similarities between different things to illuminate one of them. Hu uses a known pattern in one system to reason about another system.",
+        "detailed": "The text itself describes the comparison: ants moving within colonies help model light particles moving through snow. That cross-domain comparison is the method of reasoning named by analogy, rather than a contradiction or an added object.",
+        "choice_analysis": {
+          "A": "A collaboration is cooperative work by partners. The passage describes a comparison between phenomena, not people or institutions working together.",
+          "B": "An accessory is an additional object or aid. The blank names the reasoning method, not a piece of equipment.",
+          "C": "A contradiction involves incompatible claims. Hu relies on useful similarities, not a conflict between claims.",
+          "D": "An analogy is a comparison across different things based on shared features, matching the use of ant movement to understand light movement."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "exposed"
+        },
+        {
+          "label": "B",
+          "text": "asserted"
+        },
+        {
+          "label": "C",
+          "text": "discovered"
+        },
+        {
+          "label": "D",
+          "text": "doubted"
+        }
+      ],
+      "passage": "A journalist and well-respected art critic of nineteenth-century Britain, Lady Elizabeth Rigby Eastlake did not hesitate to publish reviews that went against popular opinion. One of her most divisive works was an essay questioning the idea of photography as an emerging medium for fine art: in the essay, Eastlake [vocab]______[/vocab] that the value of photographs was informational rather than creative.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-medium-153520",
+      "question_number": 9,
+      "section": "reading_writing",
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "difficulty_estimate": "medium",
+      "explanation": {
+        "short": "Eastlake asserted that photographs had informational rather than creative value.",
+        "key_evidence": "Her divisive essay explicitly advances a claim about what photographs are worth.",
+        "why_correct": "The passage states that her divisive essay explicitly advances a claim about what photographs are worth. The blank needs a verb for stating a position in an essay, which asserted supplies.",
+        "detailed": "Eastlake's essay advances a disputed evaluative claim about photography's value. The verb \"asserted\" fits a critic stating a position that readers may accept or reject. \"Discovered\" would present the claim as a newly found fact rather than an argument in a divisive essay.",
+        "choice_analysis": {
+          "A": "Choice A (“exposed”): Exposed means revealed something hidden; the essay is advancing a judgment.",
+          "B": "Choice B (“asserted”): Asserted means stated a claim, exactly what Eastlake does in the essay.",
+          "C": "Choice C (“discovered”): Discovered means found a new fact, not expressed a critical opinion.",
+          "D": "Choice D (“doubted”): Doubted would question the claim, whereas the passage says Eastlake made it."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "innovative"
+        },
+        {
+          "label": "B",
+          "text": "subversive"
+        },
+        {
+          "label": "C",
+          "text": "profound"
+        },
+        {
+          "label": "D",
+          "text": "accessible"
+        }
+      ],
+      "passage": "Stephen Hannock's luminous landscape paintings are appealing to viewers but have elicited little commentary from contemporary critics, a phenomenon that may be due to the very fact that the paintings seem so [vocab]______[/vocab]. Many critics focus their attention on art that is cryptic or overtly challenging.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-medium-153521",
+      "question_number": 10,
+      "section": "reading_writing",
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "difficulty_estimate": "medium",
+      "explanation": {
+        "short": "The paintings seem easy to understand, so accessible explains the critics' limited attention.",
+        "key_evidence": "Critics favor art that is cryptic or overtly challenging, unlike Hannock's paintings.",
+        "why_correct": "The passage states that critics favor art that is cryptic or overtly challenging, unlike Hannock's paintings. The contrast makes accessible mean readily understood by viewers.",
+        "detailed": "The final sentence contrasts Hannock's paintings with the cryptic or challenging art that critics prefer to discuss. If the paintings seem \"accessible,\" viewers can understand or approach them readily, explaining why challenge-seeking critics write less about them. \"Innovative\" does not establish that opposite-to-cryptic relationship.",
+        "choice_analysis": {
+          "A": "Choice A (“innovative”): Innovative means new, which is not the contrast with cryptic art.",
+          "B": "Choice B (“subversive”): Subversive means challenging social norms, not easy for viewers to grasp.",
+          "C": "Choice C (“profound”): Profound concerns depth of insight; it does not oppose cryptic or difficult art.",
+          "D": "Choice D (“accessible”): Accessible means readily understandable, explaining why challenge-seeking critics comment less."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "recognizable"
+        },
+        {
+          "label": "B",
+          "text": "intriguing"
+        },
+        {
+          "label": "C",
+          "text": "significant"
+        },
+        {
+          "label": "D",
+          "text": "useful"
+        }
+      ],
+      "passage": "Handedness, a preferential use of either the right or left hand, typically is easy to observe in humans. Because this trait is present but less [vocab]______[/vocab] in many other animals, animal-behavior researchers often employ tasks specially designed to reveal individual animals' preferences for a certain hand or paw.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-medium-153537",
+      "question_number": 11,
+      "section": "reading_writing",
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "difficulty_estimate": "medium",
+      "explanation": {
+        "short": "Animal handedness is less recognizable because special tasks are needed to detect it.",
+        "key_evidence": "Researchers use designed tasks to reveal which hand or paw an animal prefers.",
+        "why_correct": "The passage states that researchers use designed tasks to reveal which hand or paw an animal prefers. If a trait needs special testing to be noticed, it is less recognizable than human handedness.",
+        "detailed": "Researchers need specially designed tasks to make an animal's hand or paw preference visible, unlike the readily observed trait in humans. A trait that is hard to identify is less \"recognizable.\" \"Intriguing\" would describe how interesting the trait is, not whether observers can detect it.",
+        "choice_analysis": {
+          "A": "Choice A (“recognizable”): Recognizable means easy to identify, the quality that animal handedness has less of.",
+          "B": "Choice B (“intriguing”): Intriguing means interesting, not easy to observe.",
+          "C": "Choice C (“significant”): Significant means important; the passage concerns detectability instead.",
+          "D": "Choice D (“useful”): Useful describes practical value and says nothing about whether a preference can be seen."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "engulfs"
+        },
+        {
+          "label": "B",
+          "text": "encourages"
+        },
+        {
+          "label": "C",
+          "text": "comprises"
+        },
+        {
+          "label": "D",
+          "text": "provokes"
+        }
+      ],
+      "passage": "Like the 1945 play it reimagines—Federico García Lorca's <i>The House of Bernarda Alba</i>—Marcus Gardley's 2014 play <i>The House That Will Not Stand</i> prominently features women. In both plays, the all-female cast [vocab]______[/vocab] an array of female characters, including a strong mother and several daughters dealing with individual struggles.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-medium-153541",
+      "question_number": 12,
+      "section": "reading_writing",
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "difficulty_estimate": "medium",
+      "explanation": {
+        "short": "The all-female cast comprises the mother and daughters named in both plays.",
+        "key_evidence": "The cast consists of an array of female characters, including a mother and several daughters.",
+        "why_correct": "The passage states that the cast consists of an array of female characters, including a mother and several daughters. Comprises means consists of, making it the grammatical and logical match for a cast and its members.",
+        "detailed": "The noun after \"cast\" should state the relationship between the group of performers and its members. A cast \"comprises\" characters when it consists of them, so the mother and daughters fill out the all-female ensemble. \"Engulfs\" instead means surrounds or overwhelms and cannot describe membership.",
+        "choice_analysis": {
+          "A": "Choice A (“engulfs”): Engulfs means surrounds or overwhelms; characters are members of the cast, not overwhelmed by it.",
+          "B": "Choice B (“encourages”): Encourages means promotes an action, which cannot describe a cast's membership.",
+          "C": "Choice C (“comprises”): Comprises means consists of, accurately linking the cast to its female characters.",
+          "D": "Choice D (“provokes”): Provokes means causes a reaction, not contains characters."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "recommend"
+        },
+        {
+          "label": "B",
+          "text": "criticize"
+        },
+        {
+          "label": "C",
+          "text": "impede"
+        },
+        {
+          "label": "D",
+          "text": "construct"
+        }
+      ],
+      "passage": "Business researcher Melanie Brucks and colleagues found that remote video conference meetings may be less conducive to brainstorming than in-person meetings are. The researchers suspect that video meeting participants are focused on staring at the speaker on the screen and don't allow their eyes or mind to wander as much, which may ultimately [vocab]______[/vocab] creativity.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-medium-153548",
+      "question_number": 13,
+      "section": "reading_writing",
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "difficulty_estimate": "medium",
+      "explanation": {
+        "short": "Fixed attention in video meetings may impede creativity by limiting mental wandering.",
+        "key_evidence": "Participants stare at the speaker and let their eyes and minds wander less.",
+        "why_correct": "The passage states that participants stare at the speaker and let their eyes and minds wander less. Because that restriction makes brainstorming less conducive, impede means hinder or obstruct.",
+        "detailed": "The researchers connect restricted visual and mental wandering with video meetings being worse for brainstorming. Something that \"impedes\" creativity gets in its way, so the verb fits the proposed negative effect. \"Construct\" would mean build creativity, which conflicts with the finding that the meetings are less conducive to it.",
+        "choice_analysis": {
+          "A": "Choice A (“recommend”): Recommend means advise in favor of something, not reduce its occurrence.",
+          "B": "Choice B (“criticize”): Criticize means express disapproval, which does not describe an effect on creativity.",
+          "C": "Choice C (“impede”): Impede means obstruct; less wandering can obstruct the free association brainstorming needs.",
+          "D": "Choice D (“construct”): Construct means build or create, the reverse of limiting creativity."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "haphazard"
+        },
+        {
+          "label": "B",
+          "text": "premeditated"
+        },
+        {
+          "label": "C",
+          "text": "inspirational"
+        },
+        {
+          "label": "D",
+          "text": "fruitless"
+        }
+      ],
+      "passage": "Set in a world where science fiction tropes exist as everyday realities, Charles Yu's 2010 novel<i> How to Live Safely in a Science Fictional Universe</i> traces a time traveler's quest to find his father. Because the journey at the novel's center is so [vocab]______[/vocab], with the protagonist ricocheting chaotically across time, the reader often wonders whether the pair will ever be reunited.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-medium-153553",
+      "question_number": 14,
+      "section": "reading_writing",
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "difficulty_estimate": "medium",
+      "explanation": {
+        "short": "Chaotic jumps through time make the journey haphazard.",
+        "key_evidence": "The protagonist ricochets unpredictably across time while seeking his father.",
+        "why_correct": "The passage states that the protagonist ricochets unpredictably across time while seeking his father. A random, disorderly route is haphazard, which explains the reader's uncertainty about reunion.",
+        "detailed": "Substituting haphazard makes the journey's route random rather than planned: the traveler ricochets across time instead of following a controlled course. Premeditated is the closest distractor because it also concerns planning, but it means deliberately arranged—the opposite of the chaos described. The word does not predict whether the search succeeds, so fruitless addresses the wrong idea.",
+        "choice_analysis": {
+          "A": "Choice A (“haphazard”): Haphazard means random and disorderly, matching the protagonist's chaotic time travel.",
+          "B": "Choice B (“premeditated”): Premeditated means planned in advance, the opposite of ricocheting chaotically.",
+          "C": "Choice C (“inspirational”): Inspirational means motivating, which says nothing about the route's organization.",
+          "D": "Choice D (“fruitless”): Fruitless means unsuccessful; the blank describes the journey's disorder, not yet its outcome."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "neglected"
+        },
+        {
+          "label": "B",
+          "text": "redundant"
+        },
+        {
+          "label": "C",
+          "text": "ongoing"
+        },
+        {
+          "label": "D",
+          "text": "uniform"
+        }
+      ],
+      "passage": "Mineralogical differences are detectable in samples collected from two locations on the near-Earth asteroid Ryugu, but such differences may not indicate substantial compositional variations in the asteroid. Cosmochemist Kazuhide Nagashima and colleagues note that at the small scale of the samples, the distribution of minerals is unlikely to be [vocab]______[/vocab].",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-medium-153556",
+      "question_number": 15,
+      "section": "reading_writing",
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "difficulty_estimate": "medium",
+      "explanation": {
+        "short": "Mineral distribution in small samples is unlikely to be uniform.",
+        "key_evidence": "Differences between two Ryugu samples can arise even without large-scale compositional variation.",
+        "why_correct": "The passage states that differences between two Ryugu samples can arise even without large-scale compositional variation. At small scale, minerals need not be evenly spread, which is the meaning of uniform.",
+        "detailed": "At the scale of two small samples, minerals can be clustered differently from place to place even when Ryugu's overall composition is similar. Thus uniform—evenly distributed throughout—is the condition said to be unlikely. Redundant means unnecessarily repeated, not spatially even, and ongoing describes time rather than distribution.",
+        "choice_analysis": {
+          "A": "Choice A (“neglected”): Neglected means ignored, not evenly distributed.",
+          "B": "Choice B (“redundant”): Redundant means unnecessary repetition and does not describe mineral arrangement.",
+          "C": "Choice C (“ongoing”): Ongoing means continuing over time; the passage concerns spatial distribution.",
+          "D": "Choice D (“uniform”): Uniform means evenly distributed, the condition the researchers say is unlikely in small samples."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "dispute"
+        },
+        {
+          "label": "B",
+          "text": "withdraw"
+        },
+        {
+          "label": "C",
+          "text": "underscore"
+        },
+        {
+          "label": "D",
+          "text": "invalidate"
+        }
+      ],
+      "passage": "Interruptions in the supply chain for microchips used in personal electronics have challenged an economist' s assertion that retailers can expect robust growth in sales of those devices in the coming months. The delays are unlikely to [vocab]______[/vocab] her projection entirely but will almost certainly extend its time frame.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-medium-153562",
+      "question_number": 16,
+      "section": "reading_writing",
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "difficulty_estimate": "medium",
+      "explanation": {
+        "short": "The delays are unlikely to invalidate the whole forecast, although they will probably postpone its realization.",
+        "key_evidence": "The delays are 'unlikely to' affect the projection entirely but will 'almost certainly extend its time frame.'",
+        "why_correct": "Invalidate means make a claim no longer valid. The sentence distinguishes the possible loss of the forecast's validity from a much more likely change in when the predicted growth will happen.",
+        "detailed": "Entirely contrasts complete invalidation with a revised timetable: growth may still occur, but later than forecast. The wording is qualified, not absolute—the text says complete invalidation is unlikely, not impossible.",
+        "choice_analysis": {
+          "A": "Dispute means challenge or contest a claim. The first sentence already establishes a challenge; the second more precisely contrasts making the forecast invalid with merely postponing it.",
+          "B": "Withdraw means take back a claim or projection. That would be an action by its issuer, not the practical effect of supply-chain delays described here.",
+          "C": "Underscore means emphasize. It does not express the possible damage to the forecast that is contrasted with a timing adjustment.",
+          "D": "Invalidate means render no longer valid. The delays are unlikely to do this entirely, although they are expected to extend the forecast's time frame."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "proponent of"
+        },
+        {
+          "label": "B",
+          "text": "supplement to"
+        },
+        {
+          "label": "C",
+          "text": "beneficiary of"
+        },
+        {
+          "label": "D",
+          "text": "distraction for"
+        }
+      ],
+      "passage": "In addition to being an accomplished psychologist himself, Francis Cecil Sumner was a [vocab]______[/vocab] increasing the opportunity for Black students to study psychology, helping to found the psychology department at Howard University, a historically Black university, in 1930.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-medium-153564",
+      "question_number": 17,
+      "section": "reading_writing",
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "difficulty_estimate": "medium",
+      "explanation": {
+        "short": "Sumner was a proponent of wider psychology opportunities for Black students.",
+        "key_evidence": "He helped found Howard University's psychology department to expand those opportunities.",
+        "why_correct": "The passage states that he helped found Howard University's psychology department to expand those opportunities. Someone who actively advances a cause is its proponent, fitting Sumner's institution-building work.",
+        "detailed": "A proponent of a cause actively supports or advances it. Founding a psychology department at Howard is an action that expands access for Black students, so the phrase fits both the grammar and Sumner's role. A beneficiary of would reverse that relationship by making him the recipient rather than an advocate.",
+        "choice_analysis": {
+          "A": "Choice A (“proponent of”): Proponent of means advocate for, matching Sumner's work to expand educational opportunity.",
+          "B": "Choice B (“supplement to”): Supplement to means an addition, not a person promoting a cause.",
+          "C": "Choice C (“beneficiary of”): Beneficiary of would make Sumner the recipient of opportunity rather than its advocate.",
+          "D": "Choice D (“distraction for”): Distraction for means something diverting attention, contrary to his central contribution."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "infallible"
+        },
+        {
+          "label": "B",
+          "text": "atypical"
+        },
+        {
+          "label": "C",
+          "text": "lucrative"
+        },
+        {
+          "label": "D",
+          "text": "tedious"
+        }
+      ],
+      "passage": "Rydra Wong, the protagonist of Samuel R. Delany's 1966 novel <i>Babel-17</i>, is a poet, an occupation which, in Delany's work, is not [vocab]______[/vocab]: nearly a dozen of the characters that populate his novels are poets or writers.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-medium-153569",
+      "question_number": 18,
+      "section": "reading_writing",
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "difficulty_estimate": "medium",
+      "explanation": {
+        "short": "Poets recur throughout Delany's novels, so the occupation is not atypical.",
+        "key_evidence": "Nearly a dozen characters in his fiction are poets or writers.",
+        "why_correct": "The passage states that nearly a dozen characters in his fiction are poets or writers. Atypical means unusual; repeated poet characters make the occupation typical within his work.",
+        "detailed": "The colon supplies a frequency clue: nearly a dozen of Delany's characters are poets or writers. Therefore the occupation is not atypical, meaning not unusual within his fiction. Lucrative and tedious describe a job's financial or emotional qualities, neither of which the count of characters establishes.",
+        "choice_analysis": {
+          "A": "Choice A (“infallible”): Infallible means incapable of error and is unrelated to how common an occupation is.",
+          "B": "Choice B (“atypical”): Atypical means unusual, which the many poet characters show is not true here.",
+          "C": "Choice C (“lucrative”): Lucrative means profitable, not common or uncommon.",
+          "D": "Choice D (“tedious”): Tedious means boring and does not describe the frequency of poets in the novels."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "validated"
+        },
+        {
+          "label": "B",
+          "text": "created"
+        },
+        {
+          "label": "C",
+          "text": "challenged"
+        },
+        {
+          "label": "D",
+          "text": "restored"
+        }
+      ],
+      "passage": "For a 2020 exhibition, photographer and neurobiologist Okunola Jeyifous [vocab]______[/vocab] a series of new images based on a series of alphabet posters from the 1970s known as the \"Black ABCs,\" which featured Black children from Chicago. Jeyifous photographed the now-adult models and layered the photos over magnified images of the models' cells, resulting in what he called \"micro and macro portraiture.\"",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-medium-153570",
+      "question_number": 19,
+      "section": "reading_writing",
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "difficulty_estimate": "medium",
+      "explanation": {
+        "short": "Jeyifous created new portraits by photographing adult models and layering cell images.",
+        "key_evidence": "The 2020 exhibition contains a new image series based on the Black ABCs posters.",
+        "why_correct": "The passage states that the 2020 exhibition contains a new image series based on the Black ABCs posters. The action described is making a new series, so created is exact.",
+        "detailed": "Jeyifous did more than reuse the older posters: he photographed the former child models and layered those photographs with cellular images to make a new portrait series. That production process calls for created. Restored would mean returning the original Black ABCs images to an earlier condition, which is not what the new work does.",
+        "choice_analysis": {
+          "A": "Choice A (“validated”): Validated means confirmed as true; photographs and layering produce art rather than verify a claim.",
+          "B": "Choice B (“created”): Created means made the new series of micro and macro portraits.",
+          "C": "Choice C (“challenged”): Challenged means contested an idea, not made images.",
+          "D": "Choice D (“restored”): Restored means returned something to an earlier state, unlike Jeyifous's newly made work."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "derived from"
+        },
+        {
+          "label": "B",
+          "text": "recognized in"
+        },
+        {
+          "label": "C",
+          "text": "confined to"
+        },
+        {
+          "label": "D",
+          "text": "repressed by"
+        }
+      ],
+      "passage": "Diego Velázquez was the leading artist in the court of King Philip IV of Spain during the seventeenth century, but his influence was hardly [vocab]______[/vocab] Spain: realist and impressionist painters around the world employed his techniques and echoed elements of his style.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-medium-153571",
+      "question_number": 20,
+      "section": "reading_writing",
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "difficulty_estimate": "medium",
+      "explanation": {
+        "short": "Velázquez's influence was hardly confined to Spain because artists worldwide used his techniques.",
+        "key_evidence": "Realist and impressionist painters around the world echoed his style.",
+        "why_correct": "The passage states that realist and impressionist painters around the world echoed his style. Confined to means limited within one place, and the global examples negate that limit.",
+        "detailed": "The construction “hardly confined to Spain” means Velázquez's influence was not limited by Spain's borders. Painters around the world adopted his techniques, directly supplying the contrast required by confined to. Derived from reverses the relationship by treating Spain as a source rather than a geographic limit.",
+        "choice_analysis": {
+          "A": "Choice A (“derived from”): Derived from would make Spain the source of the influence rather than its boundary.",
+          "B": "Choice B (“recognized in”): Recognized in means noticed in Spain, which does not contrast with worldwide influence.",
+          "C": "Choice C (“confined to”): Confined to means limited to Spain, contradicted by artists around the world.",
+          "D": "Choice D (“repressed by”): Repressed by would mean suppressed by Spain, a relation not described."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "choices": [
+        {
+          "label": "A",
+          "text": "experiment with"
+        },
+        {
+          "label": "B",
+          "text": "adhere to"
+        },
+        {
+          "label": "C",
+          "text": "improve on"
+        },
+        {
+          "label": "D",
+          "text": "grapple with"
+        }
+      ],
+      "passage": "The artisans of the Igun Eronmwon guild in Benin City, Nigeria, typically [vocab]______[/vocab] the bronze-and brass-casting techniques that have been passed down through their families since the thirteenth century, but they don't strictly observe every tradition; for example, guild members now use air-conditioning motors instead of handheld bellows to help heat their forges.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "question_id": "wic-medium-153572",
+      "question_number": 21,
+      "section": "reading_writing",
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "difficulty_estimate": "medium",
+      "explanation": {
+        "short": "Guild artisans generally adhere to inherited casting techniques.",
+        "key_evidence": "The techniques have been passed down through families since the thirteenth century.",
+        "why_correct": "The passage states that the techniques have been passed down through families since the thirteenth century. Adhere to means follow a practice; the motor example shows flexibility without erasing the usual tradition.",
+        "detailed": "Guild members generally adhere to techniques when they continue to follow inherited practices. The motor-powered forge is a limited update, introduced after the contrast word “but,” rather than evidence that the guild normally abandons tradition. Experiment with overstates the novelty and ignores the passage's emphasis on customary observance.",
+        "choice_analysis": {
+          "A": "Choice A (“experiment with”): Experiment with emphasizes trying new methods, whereas the sentence says the inherited methods are typical.",
+          "B": "Choice B (“adhere to”): Adhere to means follow, matching the guild's usual observance of family techniques.",
+          "C": "Choice C (“improve on”): Improve on claims the old practices are being made better, which the passage does not assert.",
+          "D": "Choice D (“grapple with”): Grapple with means struggle with a problem, not follow a tradition."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    }
+  ]
+}

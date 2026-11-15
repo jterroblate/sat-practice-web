@@ -1,0 +1,2401 @@
+{
+  "schemaVersion": "sat-canonical-question-collection-v1",
+  "contentId": "set-26-2025-09-na-e",
+  "title": "26 2025 09 Na E",
+  "section": "reading_writing",
+  "questionCount": 54,
+  "questions": [
+    {
+      "question_id": "na_e_2025_09_m1_q01",
+      "section": "reading_writing",
+      "question_number": 1,
+      "passage": "[i]Farmhouse Interior[/i], painted in the realist style by Jan Hendrik Weissenbruch, depicts a peasant woman knitting at a table while a cat sits underneath. The realists’ emphasis on accurately portraying the experiences of average working people was largely a rejection of the romantic style evident in many paintings by Pierre-Auguste Cot, which instead [vocab]______[/vocab] their subjects’ positive traits, altering subjects to appear more beautiful or heroic than they actually were.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "rectify"
+        },
+        {
+          "label": "B",
+          "text": "apprehend"
+        },
+        {
+          "label": "C",
+          "text": "counteract"
+        },
+        {
+          "label": "D",
+          "text": "magnify"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Magnify means to make greater; it precisely contrasts with realist accuracy.",
+        "key_evidence": "Romantic paintings make subjects seem more beautiful or heroic, so they enlarge positive traits.",
+        "why_correct": "The local context fixes the needed meaning: Magnify means to make greater; it precisely contrasts with realist accuracy. That meaning is expressed precisely by “magnify”.",
+        "detailed": "The decisive evidence is that romantic portraits alter people to make positive traits appear greater. Magnify means to make greater; it precisely contrasts with realist accuracy.",
+        "choice_analysis": {
+          "A": "Choice A (“rectify”): Incorrect. Rectify means correct a fault; the Romantic painters are described as exaggerating attractive traits, not repairing them.",
+          "B": "Choice B (“apprehend”): Incorrect. Apprehend can mean understand or arrest, neither of which describes altering a subject to look more beautiful or heroic.",
+          "C": "Choice C (“counteract”): Incorrect. Counteract means work against an effect, but the paintings intensify their subjects’ positive traits.",
+          "D": "Choice D (“magnify”): Correct. Magnify means make something appear greater, exactly matching the enlargement of positive traits into greater beauty or heroism."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m1_q02",
+      "section": "reading_writing",
+      "question_number": 2,
+      "passage": "The tomato was domesticated in South America. Its physical structure is no longer identical to the structure of the wild plant it is descended from. Maize (corn) also [vocab]______[/vocab] its wild ancestor. That ancestor plant had a few small kernels. Indigenous people in Mexico carefully bred the crop until it had numerous fleshy kernels.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "varies from"
+        },
+        {
+          "label": "B",
+          "text": "helps with"
+        },
+        {
+          "label": "C",
+          "text": "reacts to"
+        },
+        {
+          "label": "D",
+          "text": "argues with"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The passage compares maize with tomato: each differs from its wild ancestor, so varies from fits.",
+        "key_evidence": "The text says maize, like tomato, no longer has the same physical structure as its wild ancestor.",
+        "why_correct": "The local context fixes the needed meaning: The passage compares maize with tomato: each differs from its wild ancestor, so varies from fits. That meaning is expressed precisely by “varies from”.",
+        "detailed": "The decisive evidence is that the text compares maize's altered physical structure with its ancestor's few small kernels. The passage compares maize with tomato: each differs from its wild ancestor, so varies from fits.",
+        "choice_analysis": {
+          "A": "Choice A (“varies from”): Correct. Varies from means differs from, which fits maize’s many fleshy kernels versus its ancestor’s few small kernels.",
+          "B": "Choice B (“helps with”): Incorrect. The passage compares the structures of maize and its ancestor; it does not say maize assists its ancestor.",
+          "C": "Choice C (“reacts to”): Incorrect. Domestication changed maize across generations, but the sentence does not describe maize responding to an action by its ancestor.",
+          "D": "Choice D (“argues with”): Incorrect. Plants do not literally dispute with their ancestors, and no conflict is described."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m1_q03",
+      "section": "reading_writing",
+      "question_number": 3,
+      "passage": "The collectibles market is one of the most difficult segments of the consumer economy to [vocab]______[/vocab]. Few economists would have predicted, for example, that the prices of vintage My Little Pony figures would soar in the 2010s, but soar they did.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "avoid"
+        },
+        {
+          "label": "B",
+          "text": "forecast"
+        },
+        {
+          "label": "C",
+          "text": "exchange"
+        },
+        {
+          "label": "D",
+          "text": "monitor"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "A price surge that economists did not anticipate shows the market is difficult to forecast.",
+        "key_evidence": "The unexpected rise in vintage-figure prices illustrates that market outcomes are difficult to predict.",
+        "why_correct": "The local context fixes the needed meaning: A price surge that economists did not anticipate shows the market is difficult to forecast. That meaning is expressed precisely by “forecast”.",
+        "detailed": "The decisive evidence is that economists failed to predict the later price increase, illustrating that this market is difficult to predict. A price surge that economists did not anticipate shows the market is difficult to forecast.",
+        "choice_analysis": {
+          "A": "Choice A (“avoid”): Incorrect. The unexpected price rise illustrates difficulty predicting the market, not difficulty staying away from it.",
+          "B": "Choice B (“forecast”): Correct. Forecast means predict, and the example expressly says economists would not have predicted the price surge.",
+          "C": "Choice C (“exchange”): Incorrect. Collectibles can be exchanged, but the example concerns anticipating their future prices rather than trading them.",
+          "D": "Choice D (“monitor”): Incorrect. Monitoring means observing an ongoing market; the passage instead emphasizes failure to predict what would happen later."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m1_q04",
+      "section": "reading_writing",
+      "question_number": 4,
+      "passage": "Cochabamba, Bolivia, was named a City of Gastronomy by UNESCO in 2017, a title that [vocab]______[/vocab] that Cochabamba has a unique and vibrant food culture worthy of celebration.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "complains"
+        },
+        {
+          "label": "B",
+          "text": "discovers"
+        },
+        {
+          "label": "C",
+          "text": "renounces"
+        },
+        {
+          "label": "D",
+          "text": "denotes"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "A designation denotes—signifies—the quality for which it was awarded.",
+        "key_evidence": "The UNESCO title signals that the city has a food culture worthy of celebration.",
+        "why_correct": "The local context fixes the needed meaning: A designation denotes—signifies—the quality for which it was awarded. That meaning is expressed precisely by “denotes”.",
+        "detailed": "The decisive evidence is that the UNESCO title signifies or indicates that the city has a notable food culture. A designation denotes—signifies—the quality for which it was awarded.",
+        "choice_analysis": {
+          "A": "Choice A (“complains”): Incorrect. A title cannot complain that a city has a notable food culture, and the sentence expresses no dissatisfaction.",
+          "B": "Choice B (“discovers”): Incorrect. The UNESCO title signifies a recognized quality; the title itself does not discover that quality.",
+          "C": "Choice C (“renounces”): Incorrect. Renounces means rejects or gives up, the opposite of a designation celebrating Cochabamba’s food culture.",
+          "D": "Choice D (“denotes”): Correct. Denotes means signifies, so the title denotes the city’s unique and vibrant culinary culture."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m1_q05",
+      "section": "reading_writing",
+      "question_number": 5,
+      "passage": "The following text is from Billie Jean King’s 2021 autobiography [i]All In[/i]. [P]eople on both sides of my family had repeatedly [u]demonstrated[/u] an independent streak. In the end, that was the temperament I gravitated toward, too. Both the Moffitts and the members of my mother’s clan, the Jermans, came from mining and oil-geyser towns on the western frontier. They kept their heads down and worked, worked, worked. But they also bucked convention. ©2021 by Billie Jean King Enterprises, Inc.",
+      "prompt": "As used in the text, what does the word “demonstrated” most nearly mean?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Protested"
+        },
+        {
+          "label": "B",
+          "text": "Defined"
+        },
+        {
+          "label": "C",
+          "text": "Exhibited"
+        },
+        {
+          "label": "D",
+          "text": "Confirmed"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Demonstrated means exhibited: the relatives showed independence through their behavior.",
+        "key_evidence": "They 'bucked convention,' an observable example of their independent streak.",
+        "why_correct": "Exhibited describes displaying a characteristic, which fits what the relatives' conduct reveals about their temperament.",
+        "detailed": "Substitute 'exhibited an independent streak': the sentence then says the relatives displayed independence, and the following examples explain how. The passage describes a trait in action, not a protest, definition, or verification of an earlier assertion.",
+        "choice_analysis": {
+          "A": "Protested means objected; no particular protest is being described.",
+          "B": "Defined would mean explained the meaning of independence, rather than displayed it.",
+          "C": "Exhibited means showed, matching the conduct described in the next sentences.",
+          "D": "Confirmed emphasizes verifying a prior claim; here demonstrated describes displaying a temperament."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "word_meaning_in_context"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m1_q06",
+      "section": "reading_writing",
+      "question_number": 6,
+      "passage": "The following text is from Louise Erdrich’s 1986 novel [i]The Beet Queen[/i]. Celestine takes her infant daughter with her to the butcher shop where she makes sausages. Sometimes Celestine turned around and met the direct gaze of her daughter, a look so penetrating that Celestine’s breath caught. She dropped the spice, the string, the knife she was using, and took the girl up in her arms, ready for her to speak as if a spell had suddenly lifted. When the baby flexed her entire body and struggled to free herself, Celestine put her down. No matter how thorough Celestine’s exhaustion, no matter how little sleep she’d had, there was a nerve of excitement running through each hour. ©1986 by Louise Erdrich",
+      "prompt": "Which choice best states the main purpose of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To portray Celestine’s excitement about her daughter"
+        },
+        {
+          "label": "B",
+          "text": "To show that Celestine enjoys imagining her daughter’s future life"
+        },
+        {
+          "label": "C",
+          "text": "To detail how Celestine’s coworkers express affection for her daughter"
+        },
+        {
+          "label": "D",
+          "text": "To establish Celestine’s unhappiness with her job"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The passage portrays Celestine's excitement about her daughter.",
+        "key_evidence": "Even with little sleep, 'a nerve of excitement' runs through each hour.",
+        "why_correct": "The intense response to the baby's gaze and the explicit final description both center Celestine's emotional excitement.",
+        "detailed": "The shop provides a setting, but the events concern Celestine's response to her infant: she drops her tools, picks up the baby, and expects speech. The final sentence states the feeling that connects these details. A captures that sustained focus without inventing coworkers, a future-life fantasy, or dissatisfaction with work.",
+        "choice_analysis": {
+          "A": "Correct: it captures both the affectionate reactions and the excitement named at the end.",
+          "B": "The imagined speech concerns the immediate moment, not an account of the daughter's future life.",
+          "C": "No coworker appears or expresses affection.",
+          "D": "Exhaustion is mentioned, but unhappiness with her job is not."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "structural_function"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m1_q07",
+      "section": "reading_writing",
+      "question_number": 7,
+      "passage": "In the late 1880s, Ida B. Wells-Barnett began her journalism career and served as a newspaper editor and civil rights activist. Wells-Barnett’s accomplishment is just one example of the rich history of Black journalism in the United States. That history is preserved by the National Association of Black Journalists, which was founded in Washington, DC, in 1975 to support Black media professionals and honor people like Wells-Barnett.",
+      "prompt": "Which choice best describes the overall structure of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It summarizes a theory about journalism, then explains how a journalistic practice has changed over time."
+        },
+        {
+          "label": "B",
+          "text": "It mentions a specific achievement in Black journalistic history, then describes an organization dedicated to upholding that history."
+        },
+        {
+          "label": "C",
+          "text": "It describes the career of a well-known figure in Black journalism, then compares that career to one of a figure who is lesser known."
+        },
+        {
+          "label": "D",
+          "text": "It introduces the history of an organization honoring Black journalists, then suggests how that organization might recruit more members."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The text moves from Wells-Barnett's achievement to an organization preserving Black journalistic history.",
+        "key_evidence": "'Just one example' connects her career to the broader history that 'is preserved' by the NABJ.",
+        "why_correct": "B follows both the opening example and the subsequent description of the association's purpose.",
+        "detailed": "The opening identifies Wells-Barnett's work as a journalist, editor, and activist. The next sentence frames it as one historical example, and the final sentence explains how the NABJ supports professionals and honors that history. Thus the structure is example followed by a related institution, not a theory, comparison between journalists, or recruitment proposal.",
+        "choice_analysis": {
+          "A": "There is no theory or account of a practice changing over time.",
+          "B": "Correct: a specific historical achievement precedes the organization upholding that history.",
+          "C": "A second journalist's career is never introduced.",
+          "D": "The organization comes later, and recruitment is not discussed."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "structural_function"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m1_q08",
+      "section": "reading_writing",
+      "question_number": 8,
+      "passage": "Though Vasily Grossman’s novel [i]Stalingrad[/i] is considered inferior to his later work [i]Life and Fate[/i], some critics praise it despite an arduous writing process required to satisfy Soviet censors (Aaron Lake Smith in [i]Harper’s Magazine[/i] called [i]Stalingrad[/i] “an accomplished historical war novel”). Of the novel’s eleven drafts, the first is largely illegible, the sixth closely hews to Soviet orthodoxy, and published versions most resemble the fifth. The English edition’s translators culled material from unpublished drafts and published Russian versions to create a comprehensive edition.",
+      "prompt": "Which choice best describes the overall structure of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It notes a novel’s critical reception, addresses the complicated history of the novel’s development, and suggests how that history informed the work of the novel’s English translators."
+        },
+        {
+          "label": "B",
+          "text": "It refers to a novel that has several different published and unpublished versions, identifies characteristics that have led critics to prefer one version to others, and tells how translators justified their choice to bring one particular version of the novel into another language."
+        },
+        {
+          "label": "C",
+          "text": "It describes a novel whose critical reputation has declined over time, explains the cause of that decline, and reports the effort of translators to rehabilitate a work they believe has been unjustly ignored."
+        },
+        {
+          "label": "D",
+          "text": "It mentions a novel whose quality critics do not agree on, discusses obstacles that make it difficult to determine what the best version of that novel might be, and offers a reason why some critics find a translation of the novel to be superior to the original."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The passage moves through critical reception, development of the novel, and the translators' use of that history.",
+        "key_evidence": "The eleven drafts differ; the translators 'culled material from unpublished drafts and published Russian versions.'",
+        "why_correct": "A preserves the order and the link between the complicated version history and the comprehensive English edition.",
+        "detailed": "The first sentence evaluates the novel's reception and mentions censorship. The next sentence describes divergent drafts. The last explains that translators drew on multiple versions rather than selecting a single preferred one. That progression matches A; no decline over time or judgment that the translation surpasses the original is stated.",
+        "choice_analysis": {
+          "A": "Correct: reception, development history, and its effect on translation appear in that order.",
+          "B": "The passage does not identify a draft preferred by critics or a single version chosen for translation.",
+          "C": "It reports neither a declining reputation nor an effort to rescue an ignored work.",
+          "D": "No critic calls the translation superior to the original."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "structural_function"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m1_q09",
+      "section": "reading_writing",
+      "question_number": 9,
+      "passage": "Vehicle drivetrains and many other widely used mechanical systems have moving parts that rub or slide against one another, creating friction. This friction increases energy consumption and causes wear, which decreases the stability and life span of the system. Using carbon nanotubes and oil, Jun Qu and colleagues at a US Department of Energy lab have created a coating for moving parts that reduces friction to the point where it is almost nonexistent. The new coating is suitable for common applications, unlike other approaches that require special conditions.",
+      "prompt": "What does the text most strongly suggest about the coating created by Qu and colleagues?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It is unlikely to be widely used because it can be applied only under special conditions."
+        },
+        {
+          "label": "B",
+          "text": "It is unlikely to reduce wear in mechanical systems that have multiple moving parts."
+        },
+        {
+          "label": "C",
+          "text": "It can likely be used to reduce energy consumption and wear in vehicle drivetrains and other common mechanical systems."
+        },
+        {
+          "label": "D",
+          "text": "It can likely improve the energy consumption of certain mechanical systems but not of vehicle drivetrains."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The coating could reduce energy consumption and wear in drivetrains and other common mechanical systems.",
+        "key_evidence": "Friction raises energy use and causes wear, while the new coating makes friction 'almost nonexistent.'",
+        "why_correct": "Reducing the stated cause of both problems supports expecting improvement in both, and the final sentence permits common applications.",
+        "detailed": "Trace the causal chain: moving parts create friction, and friction consumes energy and damages parts. The coating greatly reduces friction, so it can likely reduce both consequences. Vehicle drivetrains are an example of the affected systems, and nothing excludes them from the coating's common applications.",
+        "choice_analysis": {
+          "A": "Special conditions characterize other approaches, not this coating.",
+          "B": "It denies the expected reduction of wear even though friction causes that wear.",
+          "C": "Correct: it combines the coating's friction reduction with its practical suitability.",
+          "D": "The text gives drivetrains as a relevant example, not an exception."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "supported_inference"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m1_q10",
+      "section": "reading_writing",
+      "question_number": 10,
+      "passage": "Optimal foraging theory (OFT) holds that animals’ foraging behaviors reflect cost-benefit trade-offs that vary by species and with dynamic ecological circumstances. One such circumstance is lunar intensity, which W.J. Cresswell and Stephen Harris found to be negatively associated with foraging by European badgers but Deborah J. Curtis and colleagues found to be positively associated with foraging by mongoose lemurs. This discrepancy is explicable in terms of OFT: the lemurs’ greater reliance on vision means that higher lunar intensity benefits them more than it benefits the badgers.",
+      "prompt": "Information in the text best supports which statement about OFT?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It tends to allow for a better understanding of the benefits of ecological circumstances than the costs of those circumstances."
+        },
+        {
+          "label": "B",
+          "text": "It can explain why some species act in accordance with cost-benefit trade-offs and others do not."
+        },
+        {
+          "label": "C",
+          "text": "It can account for observations of different species responding differently to similar ecological circumstances."
+        },
+        {
+          "label": "D",
+          "text": "It may be weakened by the finding that the costs and benefits associated with a particular ecological circumstance vary by species."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "OFT can explain different species' different responses to the same ecological condition.",
+        "key_evidence": "Moonlight is negatively associated with badger foraging but positively associated with lemur foraging; lemurs rely more on vision.",
+        "why_correct": "The species-specific benefit of better visibility explains why the same lunar change can produce different foraging behavior.",
+        "detailed": "OFT explicitly allows trade-offs to vary by species. Higher lunar intensity need not affect all animals alike: the greater visual benefit to lemurs changes their balance of costs and benefits. The discrepancy therefore illustrates the theory's explanatory reach, rather than a failure of either species to follow trade-offs or evidence against the theory.",
+        "choice_analysis": {
+          "A": "Nothing compares the theory's ability to explain benefits with its ability to explain costs.",
+          "B": "Both species are explained through trade-offs; neither is said to disregard them.",
+          "C": "Correct: different responses to lunar intensity are accounted for by species differences.",
+          "D": "Variation across species is part of OFT's premise, not a finding that weakens it."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "textual_evidence"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m1_q11",
+      "section": "reading_writing",
+      "question_number": 11,
+      "passage": "High-speed rail (HSR) systems have trains that move at much higher speeds than traditional trains. HSR is expanding in the United Kingdom, Poland, and many other countries around the world. The United States, however, has been slow to build HSR systems. Researchers surveyed United States residents about their attitudes toward HSR. [u]The researchers claim that this survey reveals that there is strong support for building more HSR lines in the United States.[/u]",
+      "prompt": "Which quotation from a survey respondent would best illustrate the underlined claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "“I prefer riding buses instead of taking trains because buses travel to more locations.”"
+        },
+        {
+          "label": "B",
+          "text": "“I believe that the United States has enough high-speed rail lines. It should invest in airports instead.”"
+        },
+        {
+          "label": "C",
+          "text": "“I think high-speed rail is wonderful. The United States needs to build more high-speed rail lines.”"
+        },
+        {
+          "label": "D",
+          "text": "“I have traveled on high-speed rail lines in the United Kingdom but not in Poland.”"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "C directly illustrates support for expanding high-speed rail in the United States.",
+        "key_evidence": "The respondent calls HSR 'wonderful' and says the United States 'needs to build more' lines.",
+        "why_correct": "The claim concerns support for additional American lines, and C expresses both enthusiasm and that exact policy preference.",
+        "detailed": "Match the proposed evidence to the claim's action and location: building more HSR in the United States. Merely having used HSR abroad would not establish support for American expansion. C states that support explicitly; a single quotation illustrates the claim without by itself proving the survey's overall result.",
+        "choice_analysis": {
+          "A": "Preferring buses does not endorse additional HSR lines.",
+          "B": "Saying the country has enough lines directly opposes expansion.",
+          "C": "Correct: the respondent explicitly wants more US high-speed rail lines.",
+          "D": "Foreign travel experience reveals no position on US construction."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "textual_evidence"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m1_q12",
+      "section": "reading_writing",
+      "question_number": 12,
+      "passage": "Elisabeth Pötzelsberger and colleagues gathered data on 23 non-native tree species grown in Europe. They analyzed reports from Italy, Poland, and Ireland about the number of these species grown in those countries as well as the numbers of insect and fungus species that damage those trees. The researchers concluded that Italy had a greater number of damaging fungus species than either of the other countries did.",
+      "prompt": "Which choice best describes data from the table that support Pötzelsberger and colleagues’ conclusion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Ireland reported 14 damaging fungus species but only 6 damaging insect species."
+        },
+        {
+          "label": "B",
+          "text": "Italy reported 57 damaging fungus species, which is more than either Poland or Ireland reported."
+        },
+        {
+          "label": "C",
+          "text": "Italy reported 57 damaging fungus species, whereas Poland reported 105 damaging insect species."
+        },
+        {
+          "label": "D",
+          "text": "Poland and Ireland reported 10 and 7 damaging fungus species, respectively, which is far fewer than Italy reported."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "chart_image": "chart_images/na_e_2025_09_m1_q12_tree_threats.png",
+      "chart_image_data_uri": "../categories/chart_images/na_e_2025_09_m1_q12_tree_threats.png",
+      "chart_image_width": 1060,
+      "chart_image_height": 429,
+      "explanation": {
+        "short": "Italy's 57 damaging fungus species exceed Poland's 25 and Ireland's 14.",
+        "key_evidence": "The Fungi column reads Italy 57, Ireland 14, and Poland 25.",
+        "why_correct": "B compares the same measured quantity across all three countries and correctly identifies Italy as highest.",
+        "detailed": "Use the Fungi column, since the conclusion concerns damaging fungus species rather than trees or insects. Both comparisons support it: 57 is greater than 25 and greater than 14. D's 10 and 7 come from the Trees column; C mixes fungi with insects, and A does not compare Italy with either country.",
+        "choice_analysis": {
+          "A": "Ireland's fungi-versus-insects comparison does not establish Italy's ranking.",
+          "B": "Correct: 57 exceeds the other two fungus counts, 25 and 14.",
+          "C": "Italy's fungi and Poland's insects measure different categories.",
+          "D": "10 and 7 are tree-species counts, not the fungus counts 25 and 14."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "data_evidence"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m1_q13",
+      "section": "reading_writing",
+      "question_number": 13,
+      "passage": "[i]Life Among the Paiutes[/i] is an 1882 autobiographical narrative by Sarah Winnemucca Hopkins. In the work, Winnemucca explicitly indicates when and how she is shifting the focus of the narrative, as when she writes, ______",
+      "prompt": "Which quotation from [i]Life Among the Paiutes[/i] most effectively illustrates the claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "“I will now stop writing about myself and family and tribe customs, and tell about the wars, and the causes of the wars. I will jump over about six years.”"
+        },
+        {
+          "label": "B",
+          "text": "“But how can I describe the scene that followed? Some of you, dear readers, can imagine.”"
+        },
+        {
+          "label": "C",
+          "text": "“Oh, dear readers, these soldiers had gone only sixty miles away to Muddy Lake, where my people were then living and fishing.”"
+        },
+        {
+          "label": "D",
+          "text": "“The day we were to start we partook of the first gathering of food for that summer. So that morning everybody prayed, and sang songs, and danced, and ate before starting.”"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "A explicitly announces both a change of subject and a jump in time.",
+        "key_evidence": "'Stop writing about myself' leads to 'tell about the wars'; 'jump over about six years' marks the time shift.",
+        "why_correct": "The writer tells readers directly what focus will end, what will replace it, and how far ahead the narrative will move.",
+        "detailed": "The claim requires explicit guidance about a narrative shift, not simply a sentence that narrates another event. A supplies that guidance through future-directed statements about the writing itself. The other excerpts address readers or describe events without announcing a new narrative focus.",
+        "choice_analysis": {
+          "A": "Correct: it names the old subject, the new subject, and the skipped interval.",
+          "B": "It expresses difficulty describing a scene, not a shift to a new topic.",
+          "C": "It reports a location without announcing a narrative change.",
+          "D": "It recounts departure preparations rather than directing a change in focus."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "textual_evidence"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m1_q14",
+      "section": "reading_writing",
+      "question_number": 14,
+      "passage": "Studies have found that when looking at other people’s eyes, humans tend to perceive dilated pupils positively and constricted pupils negatively. Noting that a dark iris—the colored portion surrounding the pupil—is hard to distinguish from the black of the pupil (and thereby affects the pupil’s apparent size) and that many domestic dogs have dark irises, Akitsugu Konno et al. showed close-up images of dogs’ faces to human participants and asked them to rate the dogs’ traits and their own attitudes toward the dogs. Their findings suggest that ______",
+      "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "humans may not be as sensitive to pupil size in dogs as they are to pupil size in other people, as participants’ responses to the images show no relationship to differences in the shade of dogs’ irises that could affect how large the dogs’ pupils appear to be."
+        },
+        {
+          "label": "B",
+          "text": "differences in dogs’ pupil size may elicit a stronger response in humans than differences in people’s pupil size do, as participants’ responses to the images when dogs’ pupils were actually large were indistinguishable from participants’ responses when dogs’ pupils only appeared to be large due to iris color."
+        },
+        {
+          "label": "C",
+          "text": "iris color in domestic dogs may be an adaptation to elicit positive responses from humans, as participants responded more negatively to images of dogs whose iris colors can make pupils appear large than they did to images of dogs without such iris colors."
+        },
+        {
+          "label": "D",
+          "text": "humans’ responses to pupil size in other people may extend to dogs, as participants responded more positively to images of dogs whose iris colors were likely to make their pupils appear large than they did to images of dogs whose iris colors were unlikely to have that effect."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "chart_image": "chart_images/na_e_2025_09_m1_q14_dog_ratings.png",
+      "chart_image_data_uri": "../categories/chart_images/na_e_2025_09_m1_q14_dog_ratings.png",
+      "chart_image_width": 1690,
+      "chart_image_height": 520,
+      "explanation": {
+        "short": "Humans rated dark-irised dogs more positively, consistent with a positive response to apparently larger pupils.",
+        "key_evidence": "Dark-iris friendliness scores are 4.03 and 3.46, versus 2.08 and 1.61 for light irises; interaction scores are also higher for dark irises.",
+        "why_correct": "Dark irises make the black pupil look larger, so the ratings support the suggestion that the familiar human response to pupil size may extend to dogs.",
+        "detailed": "Compare the iris-color groups within the same columns: both dark-iris images score higher on friendliness and willingness to interact than either light-iris image. The willingness-to-keep scores are also higher: 1.85 for both dark images versus 1.50 and 1.30 for light images. These observations support D's cautious 'may extend' inference, not a stronger comparison with actual pupil dilation or proof of evolutionary adaptation.",
+        "choice_analysis": {
+          "A": "The ratings do vary systematically with iris shade, contrary to its claim of no relationship.",
+          "B": "No data compare actual versus apparent dilation or the strength of responses to dogs versus people.",
+          "C": "It reverses the observed positive response and also overstates evidence for adaptation.",
+          "D": "Correct: dark irises, which can make pupils seem larger, receive the more positive ratings."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "data_evidence"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m1_q15",
+      "section": "reading_writing",
+      "question_number": 15,
+      "passage": "The red-vented bulbul and other fruit-eating bird species introduced to the Hawaiian island of Oahu in the last 150 years have recently been found to spread seeds from the fruits of forest plants native to Oahu that are at risk of extinction, such as the kolea lau nui tree. Many of these vulnerable plant species rely on the activity of fruit-eating birds to help spread the plants’ seeds in the wild. All fruit-eating bird species native to Oahu have gone extinct, suggesting that ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "non-native birds, such as the red-vented bulbul, now spread more seeds from the kolea lau nui tree than birds native to Oahu did in the past."
+        },
+        {
+          "label": "B",
+          "text": "populations of red-vented bulbuls and other non-native birds will probably soon experience rapid growth."
+        },
+        {
+          "label": "C",
+          "text": "red-vented bulbuls and other non-native birds play an important role that used to be filled by birds that were native to Oahu."
+        },
+        {
+          "label": "D",
+          "text": "non-native birds, such as the red-vented bulbul, will also be at risk of extinction if they lose access to kolea lau nui trees."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Introduced birds now perform the seed-dispersal role formerly filled by native birds.",
+        "key_evidence": "Vulnerable native plants rely on fruit-eating birds, but all native fruit-eating species have gone extinct.",
+        "why_correct": "The introduced birds' observed seed dispersal provides a replacement for the ecological service that native fruit-eaters can no longer supply.",
+        "detailed": "Combine the plants' dependence on fruit-eating birds with the disappearance of native fruit-eaters. The introduced birds are documented spreading these plants' seeds, so C identifies the role they now fill. Nothing quantifies past versus present seed totals or predicts bird-population growth or extinction.",
+        "choice_analysis": {
+          "A": "There is no historical seed-count comparison establishing 'more.'",
+          "B": "Seed dispersal does not establish rapid future growth of bird populations.",
+          "C": "Correct: non-native fruit-eaters now supply the formerly native seed-dispersal function.",
+          "D": "Plant reliance on birds does not establish the birds' dependence on one plant species."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m1_q16",
+      "section": "reading_writing",
+      "question_number": 16,
+      "passage": "Laurence Engel is the director of the National Library of France in Paris. In this role, Engel ______ the library’s collections, which feature a large number of manuscripts by renowned French writers.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "having overseen"
+        },
+        {
+          "label": "B",
+          "text": "overseeing"
+        },
+        {
+          "label": "C",
+          "text": "oversees"
+        },
+        {
+          "label": "D",
+          "text": "to oversee"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Oversees supplies the finite main verb required after Engel.",
+        "key_evidence": "'In this role' is introductory; the main clause begins with singular subject Engel.",
+        "why_correct": "The singular present-tense verb oversees completes the independent clause describing Engel's duty.",
+        "detailed": "Ignore the introductory phrase and the later 'which' clause: the core is 'Engel oversees the library's collections.' The relative clause's verb cannot complete that main clause. The other options are participles or an infinitive and would leave the main subject without a finite predicate.",
+        "choice_analysis": {
+          "A": "Having overseen is a participial phrase, not a finite main verb.",
+          "B": "Overseeing needs an auxiliary to form the predicate here.",
+          "C": "Correct: oversees is a finite verb agreeing with singular Engel.",
+          "D": "To oversee is an infinitive and leaves the main clause incomplete."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m1_q17",
+      "section": "reading_writing",
+      "question_number": 17,
+      "passage": "The epic poem [i]The Ramakien[/i] dates back to the 17th century. Originally ______ in Thai, it has since been translated into other languages.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "is written"
+        },
+        {
+          "label": "B",
+          "text": "written"
+        },
+        {
+          "label": "C",
+          "text": "had been written"
+        },
+        {
+          "label": "D",
+          "text": "was written"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Written forms the introductory participial modifier 'Originally written in Thai.'",
+        "key_evidence": "The comma is followed by the main clause 'it has since been translated into other languages.'",
+        "why_correct": "The opening needs a nonfinite past participle describing the poem, not another finite passive predicate without a subject.",
+        "detailed": "The sentence already has its subject and finite verb after the comma: 'it has ... been translated.' 'Originally written in Thai' is a reduced passive modifier referring to that same poem. Adding is, was, or had been would create a subjectless finite clause at the start.",
+        "choice_analysis": {
+          "A": "Is written is finite, but the opening phrase has no subject for is.",
+          "B": "Correct: written introduces a grammatical passive participial modifier.",
+          "C": "Had been written produces a subjectless past-perfect clause.",
+          "D": "Was written likewise requires a subject in the introductory segment."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m1_q18",
+      "section": "reading_writing",
+      "question_number": 18,
+      "passage": "Though it was designated as mission ______ mission was actually the ninety-seventh flight under NASA’s Space Shuttle Program.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "STS-99. The"
+        },
+        {
+          "label": "B",
+          "text": "STS-99, and the"
+        },
+        {
+          "label": "C",
+          "text": "STS-99, the"
+        },
+        {
+          "label": "D",
+          "text": "STS-99 the"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "A comma separates the introductory Though clause from the independent clause.",
+        "key_evidence": "'Though it was designated as mission STS-99' cannot stand as a complete sentence.",
+        "why_correct": "C closes the subordinate clause and lets 'the mission was actually the ninety-seventh flight' supply the main assertion.",
+        "detailed": "Though makes the opening clause concessive and dependent. Complete the sentence as 'Though it was designated as mission STS-99, the mission was actually ...'. A period would strand the dependent clause, and and would improperly coordinate it with the main clause instead of completing the subordinate-main structure.",
+        "choice_analysis": {
+          "A": "The period leaves the Though clause as a fragment.",
+          "B": "And does not belong between this introductory subordinate clause and its main clause.",
+          "C": "Correct: the comma marks the dependent-to-independent clause boundary.",
+          "D": "It omits the comma required after this introductory dependent clause."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m1_q19",
+      "section": "reading_writing",
+      "question_number": 19,
+      "passage": "The grammar of the Chuvash language includes several noun cases common to most Turkic ______ the locative case, for instance, indicates that an action is occurring at, on, or near a particular noun.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "languages,"
+        },
+        {
+          "label": "B",
+          "text": "languages; such as"
+        },
+        {
+          "label": "C",
+          "text": "languages;"
+        },
+        {
+          "label": "D",
+          "text": "languages, such as"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Choice C uses a semicolon to join two complete clauses: the grammar “includes” noun cases, and the locative case “indicates” where an action occurs.",
+        "key_evidence": "Before the blank, “The grammar ... includes” is complete; after it, “the locative case ... indicates” is another independent clause.",
+        "why_correct": "Because the sentence places two closely related independent clauses side by side, a semicolon is the correct boundary. Choice C supplies that boundary without adding words that disrupt the second clause.",
+        "detailed": "The first clause has the subject “The grammar” and the finite verb “includes.” The second has the subject “the locative case” and the finite verb “indicates.” Each clause can stand alone, so choice C correctly joins them with a semicolon. Choice A creates a comma splice. In choices B and D, “such as” turns “the locative case” into part of an example phrase; the later “indicates” is then an uncoordinated finite verb rather than the predicate of a properly formed independent clause.",
+        "choice_analysis": {
+          "A": "Choice A (“languages,”): Incorrect. A comma alone separates the independent clause ending with “languages” from the independent clause beginning “the locative case,” creating a comma splice.",
+          "B": "Choice B (“languages; such as”): Incorrect. Although a semicolon can join independent clauses, “such as” turns “the locative case” into an example phrase, so the following finite verb “indicates” does not form a grammatical second clause.",
+          "C": "Choice C (“languages;”): Correct. The semicolon cleanly separates the independent clause with “includes” from the independent clause with “indicates.”",
+          "D": "Choice D (“languages, such as”): Incorrect. The comma plus “such as” embeds “the locative case” in an example phrase; the later “indicates” is an uncoordinated finite verb, not a valid continuation of the clause with “includes.”"
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m1_q20",
+      "section": "reading_writing",
+      "question_number": 20,
+      "passage": "The radial velocity method, a means of indirect planetary discovery, has detected previously unknown exoplanets at vast distances from ______ the gas giant 47 Ursae Majoris b; at 69 light-years away, the gas giant 16 Cygni B b; and, as of 2023, over 1,000 other exoplanets that are too far away and dim to be observed directly.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Earth: at 45 light-years away,"
+        },
+        {
+          "label": "B",
+          "text": "Earth at 45 light-years away,"
+        },
+        {
+          "label": "C",
+          "text": "Earth, at 45 light-years away,"
+        },
+        {
+          "label": "D",
+          "text": "Earth at 45 light-years away:"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "A colon after Earth introduces the examples of distant exoplanets.",
+        "key_evidence": "The list has parallel items: 'at 45 light-years away, [planet]'; 'at 69 light-years away, [planet]'; and other exoplanets.",
+        "why_correct": "A places the colon after the complete introductory clause and keeps the 45-light-year phrase with the first example.",
+        "detailed": "The general statement is complete at 'distances from Earth.' The following list specifies discoveries and their distances; its longer items are separated by semicolons. The colon belongs before the first item's introductory distance phrase, while the comma after 'away' separates that phrase from its planet name.",
+        "choice_analysis": {
+          "A": "Correct: colon introduces the list, and the comma follows the first item's distance phrase.",
+          "B": "It leaves the complete introduction without an appropriate boundary before the examples.",
+          "C": "A comma does not properly introduce this explanatory list after the complete clause.",
+          "D": "It places the first planet's distance in the introduction instead of inside the first list item."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m1_q21",
+      "section": "reading_writing",
+      "question_number": 21,
+      "passage": "Phillip Huber is well known for his work as a puppeteer. ______ he specializes in marionette puppetry. This style of puppetry involves controlling the puppet with strings from above.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "By doing so,"
+        },
+        {
+          "label": "B",
+          "text": "Second,"
+        },
+        {
+          "label": "C",
+          "text": "By contrast,"
+        },
+        {
+          "label": "D",
+          "text": "In particular,"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "In particular narrows Huber's general work to his specific puppetry specialty.",
+        "key_evidence": "The first sentence says puppeteer; the next identifies marionette puppetry.",
+        "why_correct": "Marionette puppetry is a subtype of puppetry, so a transition introducing a specific detail fits the relationship.",
+        "detailed": "The second sentence does not oppose the first or describe a consequence of an earlier action. It adds precision: Huber's field is puppetry, and his specialty is marionettes. 'In particular' marks that general-to-specific movement, which the final sentence then explains.",
+        "choice_analysis": {
+          "A": "There is no prior action whose performance causes the specialization.",
+          "B": "No ordered list supplies a first point for Second to follow.",
+          "C": "A specialty within puppetry does not contrast with being a puppeteer.",
+          "D": "Correct: In particular introduces the narrower specialty."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m1_q22",
+      "section": "reading_writing",
+      "question_number": 22,
+      "passage": "Unlike standard Western maps, which privileged static features like coastlines, the Marshallese stick charts used by Pacific Islands navigators for centuries depicted fluctuating ocean dynamics, such as ocean swells, through intricate lattice-like constructions of wood, fibers, and shells. ______ these stick charts were memorized prior to a voyage rather than consulted at sea.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Even so,"
+        },
+        {
+          "label": "B",
+          "text": "Moreover,"
+        },
+        {
+          "label": "C",
+          "text": "Subsequently,"
+        },
+        {
+          "label": "D",
+          "text": "However,"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Choice B, “Moreover,” is additive: after describing what the charts represented and how they were made, the passage adds another feature of their use—navigators memorized them before voyages.",
+        "key_evidence": "Sentence 1 describes the charts’ contents and construction; sentence 2 supplies the further fact that navigators memorized them rather than consulting them at sea.",
+        "why_correct": "The second sentence continues the passage’s description of the stick charts by adding a separate fact about how navigators used them; it does not contradict a stated claim. The additive transition “Moreover” therefore expresses the relationship precisely.",
+        "detailed": "The first sentence explains that the stick charts represented changing ocean conditions and describes their construction. The second sentence adds another use characteristic: navigators memorized the charts before departure instead of consulting them at sea. That additive relationship makes choice B correct. Choices A and D would require an unstated concession or contrast—namely, an expectation that useful charts must be consulted during a voyage. Choice C would require a chronological sequence of events, but the first sentence does not establish an event followed by memorization.",
+        "choice_analysis": {
+          "A": "Choice A (“Even so,”): Incorrect. “Even so” signals concession, but that reading depends on the unstated expectation that charts depicting navigational conditions must be consulted at sea. The text states no such expectation.",
+          "B": "Choice B (“Moreover,”): Correct. “Moreover” adds the charts’ memorization practice as another stated feature after the description of their contents and construction.",
+          "C": "Choice C (“Subsequently,”): Incorrect. “Subsequently” marks a chronological sequence, but sentence 1 describes the charts rather than narrating an earlier event followed by the memorization practice.",
+          "D": "Choice D (“However,”): Incorrect. “However” signals contrast, but that contrast would depend on an unstated assumption that the charts were expected to be consulted at sea. The two sentences instead present compatible facts."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m1_q23",
+      "section": "reading_writing",
+      "question_number": 23,
+      "passage": "Portuguese researcher Isabel C.F.R. Ferreira reports that the gentisic acid in almond mushrooms benefits the mushroom by combating harmful molecules called free radicals. ______ Ferreira suggests that the acid can promote cellular health in humans, who also experience free radical damage.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Rather,"
+        },
+        {
+          "label": "B",
+          "text": "Moreover,"
+        },
+        {
+          "label": "C",
+          "text": "Conversely,"
+        },
+        {
+          "label": "D",
+          "text": "For example,"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Moreover adds a possible human benefit to the acid's benefit for mushrooms.",
+        "key_evidence": "Gentisic acid combats free radicals in mushrooms; humans also experience free-radical damage.",
+        "why_correct": "The second sentence extends the acid's potential usefulness to another organism, supporting an additive transition.",
+        "detailed": "The claim about humans does not retract or reverse the claim about mushrooms. It adds a related possibility based on the same damaging molecules. Moreover marks that extension; For example would incorrectly present a human benefit as an example of a benefit specifically to the mushroom.",
+        "choice_analysis": {
+          "A": "Rather signals a correction or replacement, but the first benefit remains valid.",
+          "B": "Correct: Moreover adds the possible human-health benefit.",
+          "C": "Conversely suggests an opposite relationship, whereas both effects are protective.",
+          "D": "A benefit to humans is not an example of how mushrooms benefit."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m1_q24",
+      "section": "reading_writing",
+      "question_number": 24,
+      "passage": "In economics, wool is considered a soft commodity, while copper and crude oil are considered hard commodities. The categorical distinction between soft and hard commodities lies not in the products’ strength or durability but in their origin: the former type is grown or farmed, while the latter is mined or drilled. ______ pine lumber is as much a soft commodity as wool, despite its decidedly sturdier composition.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Though it is grown from the earth,"
+        },
+        {
+          "label": "B",
+          "text": "Summarizing this principle,"
+        },
+        {
+          "label": "C",
+          "text": "By this definition,"
+        },
+        {
+          "label": "D",
+          "text": "In a notable exception to this rule,"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "By this definition applies the origin-based rule to pine lumber.",
+        "key_evidence": "The distinction depends on being 'grown or farmed' versus 'mined or drilled,' not on strength.",
+        "why_correct": "Pine lumber comes from grown trees, making it a soft commodity under the stated definition regardless of its physical sturdiness.",
+        "detailed": "The final sentence gives an example that may seem surprising only if soft is read as physically weak. The passage has already rejected that meaning and defined the categories by origin. C connects the example to that definition; pine lumber follows the rule rather than contradicting or summarizing it.",
+        "choice_analysis": {
+          "A": "Growth is the reason for the classification, not a circumstance opposing it.",
+          "B": "The sentence applies the principle to an example rather than summarizing its general rule.",
+          "C": "Correct: By this definition explicitly applies the origin-based criterion.",
+          "D": "Pine lumber satisfies the rule and is not an exception."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m1_q25",
+      "section": "reading_writing",
+      "question_number": 25,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• A copyright prevents a book’s contents from being reproduced (published) without permission from the copyright holder. When a book’s copyright expires, the book enters the public domain and can be legally reproduced by anyone. [i]When We Were Very Young[/i] is a children’s book by A.A. Milne. It entered the public domain in 2020. [i]Mrs. Dalloway[/i] is a novel by Virginia Woolf. It entered the public domain in 2021.",
+      "prompt": "The student wants to emphasize the order in which [i]When We Were Very Young[/i] and [i]Mrs. Dalloway[/i] entered the public domain. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "[i]When We Were Very Young[/i], a children’s book by A.A. Milne, entered the public domain in 2020, with Virginia Woolf’s novel [i]Mrs. Dalloway[/i] following in 2021."
+        },
+        {
+          "label": "B",
+          "text": "The year was 2021, and the copyrights to [i]When We Were Very Young[/i] and [i]Mrs. Dalloway[/i] had finally expired."
+        },
+        {
+          "label": "C",
+          "text": "[i]When We Were Very Young[/i], a children’s book by A.A. Milne, and [i]Mrs. Dalloway[/i], a novel by Virginia Woolf, are both in the public domain."
+        },
+        {
+          "label": "D",
+          "text": "Though they once were copyrighted works, [i]When We Were Very Young[/i] and [i]Mrs. Dalloway[/i] are now in the public domain."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "A explicitly places the two public-domain entries in chronological order.",
+        "key_evidence": "The notes assign 2020 to When We Were Very Young and 2021 to Mrs. Dalloway.",
+        "why_correct": "The phrase 'following in 2021' makes clear that Milne's book entered first and Woolf's entered afterward.",
+        "detailed": "The requested emphasis is sequence, so the useful facts are the two entry dates and their relationship. A includes both and links them chronologically. B may correctly describe the situation by 2021, but an endpoint does not explain which book entered first; C and D omit the sequence entirely.",
+        "choice_analysis": {
+          "A": "Correct: it gives 2020 first and explicitly makes 2021 follow.",
+          "B": "It gives a shared endpoint without identifying the earlier entry.",
+          "C": "It states their present status but supplies no order.",
+          "D": "Past-versus-present status does not order the two books' entries."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m1_q26",
+      "section": "reading_writing",
+      "question_number": 26,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• The A.M. Turing Award is a prestigious award given by the Association for Computing Machinery (ACM). The ACM gives the award for “major contributions of lasting importance to computing.” It is named after groundbreaking British mathematician Alan Turing. Edgar F. Codd won the award in 1981 for contributions to the development of database management systems.",
+      "prompt": "The student wants to explain whom the award is named for. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The A.M. Turing Award is given for “major contributions of lasting importance to computing.”"
+        },
+        {
+          "label": "B",
+          "text": "The A.M. Turing Award is named for groundbreaking British mathematician Alan Turing."
+        },
+        {
+          "label": "C",
+          "text": "It was in 1981 that Edgar F. Codd won the A.M. Turing Award."
+        },
+        {
+          "label": "D",
+          "text": "In 1981, Edgar F. Codd won the A.M. Turing Award for contributions to the development of database management systems."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "B identifies Alan Turing as the person for whom the award is named.",
+        "key_evidence": "The notes say it is named after 'groundbreaking British mathematician Alan Turing.'",
+        "why_correct": "B directly answers the namesake question rather than discussing the award's criterion or a winner.",
+        "detailed": "Distinguish the person honored in an award's name from a recipient of the award. Alan Turing is the namesake; Edgar F. Codd is a 1981 recipient. The goal asks for the first relationship, which only B supplies.",
+        "choice_analysis": {
+          "A": "It explains what contributions qualify for the award, not its namesake.",
+          "B": "Correct: it explicitly connects the award's name to Alan Turing.",
+          "C": "Codd's winning year does not explain the award's name.",
+          "D": "Codd's contribution identifies why he won, not whom the award is named for."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m1_q27",
+      "section": "reading_writing",
+      "question_number": 27,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Mary Gaitskill is an acclaimed writer. Her first published work of fiction was a short story. It was called “Something Better Than This.” It first appeared in [i]Branching Out[/i] in 1978.",
+      "prompt": "The student wants to identify the title of Mary Gaitskill’s first published short story. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "In 1978, a short story by Mary Gaitskill appeared in [i]Branching Out[/i]."
+        },
+        {
+          "label": "B",
+          "text": "Mary Gaitskill’s first published work of fiction appeared in 1978."
+        },
+        {
+          "label": "C",
+          "text": "Mary Gaitskill’s first published short story was called “Something Better Than This.”"
+        },
+        {
+          "label": "D",
+          "text": "Acclaimed writer Mary Gaitskill’s first published work of fiction was a short story."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "C supplies the title of Gaitskill's first published short story.",
+        "key_evidence": "The notes name 'Something Better Than This' as the first published fiction, a short story.",
+        "why_correct": "It pairs the requested title with the identifying fact that this was her first published short story.",
+        "detailed": "The goal asks what the story was called, not its year, venue, or genre alone. C includes that missing title and identifies the story's place in Gaitskill's publication history. All other statements omit the essential title even though their details may be accurate.",
+        "choice_analysis": {
+          "A": "It gives the venue and year, but no story title.",
+          "B": "It gives the year rather than the title.",
+          "C": "Correct: it explicitly names the first published short story.",
+          "D": "It identifies the genre but never names the work."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m2_q01",
+      "section": "reading_writing",
+      "question_number": 28,
+      "passage": "Ella Katz and colleagues [vocab]______[/vocab] pots of sterilized soil with slurries of live microbes collected from soil in five sites across Colorado, including areas of ponderosa pine forest and dry pasture. Katz and team then grew mustard plants in the pots to see if the different microbial slurries affected levels of spicy glucosinolates like 3-methylthiopropyl in the plants’ seeds.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sanitized"
+        },
+        {
+          "label": "B",
+          "text": "populated"
+        },
+        {
+          "label": "C",
+          "text": "estimated"
+        },
+        {
+          "label": "D",
+          "text": "precluded"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Populated means supplied the soil pots with living microbial inhabitants.",
+        "key_evidence": "The soil is sterilized, and the researchers introduce 'slurries of live microbes.'",
+        "why_correct": "Populating something with organisms means establishing living inhabitants there, exactly the described procedure.",
+        "detailed": "The experiment deliberately adds microbes to previously sterilized soil so the researchers can compare their effects on plants. 'Populated ... with' captures that introduction of living communities. Sanitized reverses the action; estimated and precluded do not describe adding organisms.",
+        "choice_analysis": {
+          "A": "Sanitized means cleaned of microbes, opposite to introducing live ones.",
+          "B": "Correct: populated means supplied with living inhabitants.",
+          "C": "Estimated describes an approximation, not physically adding microbes.",
+          "D": "Precluded means prevented and cannot express the intended introduction."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m2_q02",
+      "section": "reading_writing",
+      "question_number": 29,
+      "passage": "The following text is adapted from John Matheus’s 1926 short story, “Mr. Bradford Teaches Sunday School.” Mr. Bradford is driving through the countryside in Florida. The moss in the towering water oaks had become enlivened with a verdant sheen of silver and hung like festoons of carnival or like funeral decorations for the mourning of the dead. The pine green was resplendent. The bald cypresses spread themselves along the water courses while the willows wept as they always did. Mr. Bradford was conscious of this gorgeous [u]display[/u] of nature.",
+      "prompt": "As used in the text, what does the word “display” most nearly mean?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Spectacle"
+        },
+        {
+          "label": "B",
+          "text": "Pretentiousness"
+        },
+        {
+          "label": "C",
+          "text": "Imitation"
+        },
+        {
+          "label": "D",
+          "text": "Trickery"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Display refers to the impressive natural spectacle before Bradford.",
+        "key_evidence": "The moss has a 'sheen of silver,' the pine is 'resplendent,' and the scene is 'gorgeous.'",
+        "why_correct": "Spectacle denotes a striking visual scene, matching the landscape imagery and Bradford's observation of it.",
+        "detailed": "Read display with its modifiers and surrounding images: Bradford is noticing the appearance of trees, moss, and water-side vegetation. 'This gorgeous spectacle of nature' preserves that visual meaning. The passage gives no suggestion of artificial self-importance, copying, or deception.",
+        "choice_analysis": {
+          "A": "Correct: spectacle captures a visually impressive scene.",
+          "B": "Pretentiousness describes affected self-importance, not the landscape.",
+          "C": "Imitation would imply a copy, which is not described.",
+          "D": "Trickery would imply deception rather than genuine natural beauty."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "word_meaning_in_context"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m2_q03",
+      "section": "reading_writing",
+      "question_number": 30,
+      "passage": "As a work of scholarship, [i]Advancing U.S. Latino Entrepreneurship[/i] (2020) is notable for its [vocab]______[/vocab]. Featuring contributions from Monika Mantilla, Kathleen Stewart, and others, it explores contemporary issues while also providing context dating all the way back to the sixteenth century on Latino populations and their experiences with business and commerce.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "impartiality"
+        },
+        {
+          "label": "B",
+          "text": "terseness"
+        },
+        {
+          "label": "C",
+          "text": "scope"
+        },
+        {
+          "label": "D",
+          "text": "reputation"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Scope means breadth of coverage, which the book's long historical range demonstrates.",
+        "key_evidence": "It explores contemporary issues while supplying context 'back to the sixteenth century.'",
+        "why_correct": "The evidence describes how widely the scholarship ranges across time and experience, a quality expressed by scope.",
+        "detailed": "The second sentence explains the quality named in the first. Present-day business issues are connected to several centuries of Latino history, emphasizing broad coverage. This establishes scope without establishing impartial treatment, a short writing style, or public reputation.",
+        "choice_analysis": {
+          "A": "Impartiality concerns bias, not the range of material covered.",
+          "B": "Terseness concerns brevity, which the historical span does not establish.",
+          "C": "Correct: scope describes the work's extensive range.",
+          "D": "Reputation requires evidence of others' opinion of the book, which is absent."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m2_q04",
+      "section": "reading_writing",
+      "question_number": 31,
+      "passage": "The [vocab]______[/vocab] of leaf-vein architectures—the branching venation of [i]Pteris cretica[/i], the hierarchical netlike venation of [i]Salix pedicellaris[/i], and others—likely resulted from competing selective pressures to maximize fluid transport, photosynthesis, and robustness against herbivory. The associated trade-offs may account for the range of adaptations in different lineages.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "culpability"
+        },
+        {
+          "label": "B",
+          "text": "multifariousness"
+        },
+        {
+          "label": "C",
+          "text": "obstinacy"
+        },
+        {
+          "label": "D",
+          "text": "entanglement"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Multifariousness means great variety, fitting the distinct leaf-vein architectures.",
+        "key_evidence": "The dash-enclosed examples differ in structure, and the final sentence calls them a 'range of adaptations.'",
+        "why_correct": "Different selective pressures and trade-offs explain why many architectural forms exist, making variety the needed concept.",
+        "detailed": "Use the examples to predict the blank: branching veins and hierarchical networks are different solutions to competing demands. The final reference to a range confirms that the sentence concerns diversity, not blame, stubbornness, or the physical tangling of veins.",
+        "choice_analysis": {
+          "A": "Culpability means blameworthiness and has no connection to these adaptations.",
+          "B": "Correct: multifariousness names the variety illustrated by the architectures.",
+          "C": "Obstinacy means stubbornness, not structural diversity.",
+          "D": "Entanglement focuses on tangling and does not describe the range of different forms."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m2_q05",
+      "section": "reading_writing",
+      "question_number": 32,
+      "passage": "Emerging bioacoustics technologies have [vocab]______[/vocab] long-standing challenges to wildlife research by enabling scientific observation without a human presence in the field. For example, these tools have been used for continuous, unattended monitoring of insect species and for tracking nocturnal birds when they move into inaccessible areas of wetlands where traditional observation methods fail.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "attributed"
+        },
+        {
+          "label": "B",
+          "text": "underpinned"
+        },
+        {
+          "label": "C",
+          "text": "surmounted"
+        },
+        {
+          "label": "D",
+          "text": "subjugated"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Surmounted means overcame the obstacles to wildlife observation.",
+        "key_evidence": "The tools permit continuous unattended monitoring and tracking in inaccessible wetlands.",
+        "why_correct": "Those examples show previously difficult observations becoming possible, so the technologies have overcome challenges.",
+        "detailed": "The phrase 'by enabling' explains how the challenges were addressed. Researchers no longer need to remain physically present or enter inaccessible terrain for the observations described. Surmounted expresses overcoming an obstacle; none of the alternatives appropriately describes that improvement.",
+        "choice_analysis": {
+          "A": "Attributed would assign the challenges to a cause, not overcome them.",
+          "B": "Underpinned would support the challenges rather than resolve them.",
+          "C": "Correct: surmounted means overcame and matches the successful new methods.",
+          "D": "Subjugated concerns bringing under domination, not resolving research obstacles."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m2_q06",
+      "section": "reading_writing",
+      "question_number": 33,
+      "passage": "校订说明：来源的通道名称及温度概括有误，现依据原始研究校订相关科学表述；本题为校订练习，四个选项未改。\n\nTaste receptor cells contain TRPM5 channels, which help transmit signals for sweet, bitter, and umami tastes. Research shows that these channels become more active as temperature increases from 15°C to 35°C. Their temperature sensitivity may help explain why warming can enhance perceived sweetness. Thus, an ice cream formulated to taste sweet when cold may taste excessively sweet as it warms and melts.",
+      "prompt": "Which choice best states the main purpose of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To suggest changes to the formulations of some foods to account for the temperatures at which they are meant to be consumed"
+        },
+        {
+          "label": "B",
+          "text": "To explain how discoveries related to taste receptors might influence the temperatures at which foods are typically consumed"
+        },
+        {
+          "label": "C",
+          "text": "To discuss how particular temperature-sensitive structures affect perceptions of flavor"
+        },
+        {
+          "label": "D",
+          "text": "To indicate why some flavors are consistently more prominent than others across a range of temperatures"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "C 概括了全文的解释方向：温敏通道的活动变化如何影响人对味道的感知。",
+        "key_evidence": "channels become more active as temperature increases; temperature sensitivity ... perceived sweetness",
+        "why_correct": "文段从通道的温敏性讲到甜味感知，再用冰淇淋说明结果。C 同时概括了生理结构和感知效果，没有把说明文误读成配方建议或饮食温度建议。",
+        "detailed": "读主旨题要区分“解释一种现象”与“建议采取一种行动”。本文的主体先说明温度会影响通道活动，再联系到甜度体验；最后的冰淇淋只是把这一机制具体化。文中没有提出应修改配方，也没有建议消费者改变食用温度。C 的 discuss how 正好描述这种机制性说明，并覆盖例子之前的主要内容。",
+        "choice_analysis": {
+          "A": "把冰淇淋例子扩张成改配方建议；原文只解释可能出现的甜度体验，没有要求重新配方。",
+          "B": "把因果方向改为研究发现促使人们调整食用温度；本文说明的是温度影响味觉，而非人们据研究改变饮食习惯。",
+          "C": "概括温敏结构与味觉感知的联系，能覆盖机制说明及随后例子。",
+          "D": "声称某些味道在不同温度下始终更突出，但文段强调温度变化可改变同一食物的甜味感受，并未比较各味道恒定的强弱排名。"
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "structural_function"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m2_q07",
+      "section": "reading_writing",
+      "question_number": 34,
+      "passage": "The metal featured in both the structure of the House in Kamiaraya by Kazuto Nishi Architects and the hardware in the House in Takamatsu by FujiwaraMuro Architects is representative of a trend in contemporary Japanese interior design to juxtapose sleek, modern accents with traditional organic materials such as paper. The prominent featuring of metal stems from the post–World War II emphasis on technological progress, while more traditional natural materials help preserve longstanding architectural and aesthetic approaches.",
+      "prompt": "Which choice best describes the overall structure of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The text cites examples of a design trend and then briefly establishes the principles underlying the trend."
+        },
+        {
+          "label": "B",
+          "text": "The text distinguishes between two aesthetic approaches to architecture and then submits that one approach has had more of a long-term impact than the other has had."
+        },
+        {
+          "label": "C",
+          "text": "The text names projects that are noteworthy for their inclusion of certain materials and then explains past important uses of the materials."
+        },
+        {
+          "label": "D",
+          "text": "The text introduces the salient characteristics of two buildings and then details the historical events that occasioned the buildings’ designs."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Examples of a design trend are followed by the ideas behind that trend.",
+        "key_evidence": "Metal reflects postwar technological progress; traditional natural materials preserve longstanding aesthetics.",
+        "why_correct": "A captures the move from specific houses to the broader principles explaining their modern-traditional combination.",
+        "detailed": "The first sentence uses two buildings to exemplify juxtaposing modern metal with organic materials. The second explains the rationale for each material type. It describes complementary design influences rather than ranking two approaches, cataloging historical uses, or recounting the events behind individual buildings.",
+        "choice_analysis": {
+          "A": "Correct: examples precede a brief explanation of the trend's principles.",
+          "B": "No comparison ranks the approaches by long-term impact.",
+          "C": "The text explains contemporary material choices, not earlier important uses.",
+          "D": "Broad postwar influence is mentioned, but no detailed building-specific historical events are given."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "structural_function"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m2_q08",
+      "section": "reading_writing",
+      "question_number": 35,
+      "passage": "Text 1\n\nIn separate studies, Marine Fernandez and colleagues and Sanâa Wahbi and colleagues examined whether plants transfer nutrients to one another using a common mycorrhizal network (CMN)—a lattice of fungal strands in the soil. Fernandez and colleagues excluded all pathways other than the CMN by using barriers to keep the plants’ root systems separate while allowing mycorrhizal strands through—an essential step Wahbi and colleagues’ study did not take.\n\nText 2\n\nFernandez and colleagues took the necessary precaution of separating the plants’ root systems (thereby excluding root-to-root transmission). However, any barrier used must allow the thread-like hyphae of a CMN to pass through, and this permeability would also allow liquids through. Thus, the researchers’ experimental design cannot ensure that any nutrient transfer observed can be attributed to a CMN and not to some other pathway.",
+      "prompt": "Based on the texts, the author of Text 1 and the author of Text 2 would most likely agree with which statement?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A barrier that is impervious to both roots and fungal strands is necessary to examine nutrient transfer via a CMN."
+        },
+        {
+          "label": "B",
+          "text": "Wahbi and colleagues’ study did not find convincing evidence of nutrient transfer between individual plants."
+        },
+        {
+          "label": "C",
+          "text": "It is impossible to determine whether a CMN is the mechanism for any observed nutrient transfer unless root-to-root transfer is precluded."
+        },
+        {
+          "label": "D",
+          "text": "Excluding root-to-root transfer of nutrients between plants is sufficient to evaluate whether any observed nutrient transfer involved a CMN."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Both authors regard excluding direct root transfer as necessary, though they differ on whether it is sufficient.",
+        "key_evidence": "Text 1 says root separation is 'essential'; Text 2 calls it a 'necessary precaution.'",
+        "why_correct": "C states a necessary condition: a CMN cannot be identified as the mechanism unless root-to-root transfer is ruled out.",
+        "detailed": "Keep necessary distinct from sufficient. Text 1 treats the barrier as excluding alternatives; Text 2 agrees that roots must be separated but adds that liquids can still pass. C states only their shared requirement, while D adds a sufficiency claim that Text 2 rejects.",
+        "choice_analysis": {
+          "A": "Blocking fungal strands would block the CMN pathway the experiment seeks to test.",
+          "B": "Text 2 says nothing about Wahbi's results, and Text 1 criticizes a control rather than establishing no nutrient transfer.",
+          "C": "Correct: both authors require exclusion of root-to-root transfer.",
+          "D": "Text 2 explicitly says root separation cannot by itself exclude liquid-mediated transfer."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Cross-Text Connections",
+        "subtype": "cross_text_analysis"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m2_q09",
+      "section": "reading_writing",
+      "question_number": 36,
+      "passage": "Mauricio Drelichman and Hans-Joachim Voth’s research into the debt defaults of Philip II (who ruled an empire including Spain and Northern Catalonia from 1556 to 1598) relates to other work on European early modern state finance, including John Brewer’s research on taxation and warfare. But Drelichman and Voth’s unique contribution to the field is their reconstruction of the earliest extant set of annual fiscal records for any sovereign state, demonstrating in turn that Philip’s defaults were caused by short-term cash shortages, not long-term unsustainable debts.",
+      "prompt": "Which choice best states the main idea of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Drelichman and Voth’s research on Philip II’s debt defaults builds on earlier work by Brewer, adding nuance to the earlier work’s findings."
+        },
+        {
+          "label": "B",
+          "text": "Analysis of the earliest available records of a sovereign state’s finances can be found not in the work of Brewer but in that of Drelichman and Voth."
+        },
+        {
+          "label": "C",
+          "text": "Drelichman and Voth advanced the field of research on European early modern state finance by assembling a novel collection of evidence that gave them insight into Philip II’s debt defaults."
+        },
+        {
+          "label": "D",
+          "text": "The research by Drelichman and Voth suggests that the logistics of ruling both Spain and Northern Catalonia led to short-term problems with cash that forced Philip II to default on his debts."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The researchers advanced their field with newly assembled records explaining Philip II's defaults.",
+        "key_evidence": "Their 'unique contribution' is reconstructing the earliest annual fiscal records and using them to identify short-term cash shortages.",
+        "why_correct": "C includes both the new evidentiary contribution and the historical insight it made possible.",
+        "detailed": "The reference to Brewer places the study in a field, but the sentence beginning 'But' identifies the central contribution. Drelichman and Voth assembled unusual records and used them to explain the defaults. C preserves both parts; the geography is background and is not presented as the cause of the shortages.",
+        "choice_analysis": {
+          "A": "'Relates to' does not establish that the study specifically builds on or modifies Brewer's findings.",
+          "B": "The archive contrast omits what the records revealed, a central part of the passage.",
+          "C": "Correct: it connects the novel records to insight about the defaults.",
+          "D": "The text does not attribute the cash shortages to governing Spain and Northern Catalonia."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "main_idea_or_detail"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m2_q10",
+      "section": "reading_writing",
+      "question_number": 37,
+      "passage": "Male orangutans typically disperse from the territory in which they were born when they reach maturity, whereas females typically do not. Beatrice Ehmann and her colleagues hypothesized that this difference in life trajectory should be reflected in the diets of immature orangutans: males should share fewer of their mothers’ dietary preferences than females do since those preferences tend to be particular to the food resources available in the local area and may be of relatively low utility beyond it. The researchers calculated the percent of mother orangutans’ diets shared with their offspring’s diets and the percent of immature orangutans’ diets not shared with their mothers’ diets.",
+      "prompt": "Which choice best describes data from the graph that support Ehmann and colleagues’ hypothesis?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The percent of individual 9’s mother’s diet that was shared with individual 9’s diet ranged from approximately 59% to approximately 81%, whereas the percent of individual 17’s mother’s diet that was shared with individual 17’s diet ranged from approximately 16% to approximately 19%."
+        },
+        {
+          "label": "B",
+          "text": "Neither individual 17 nor individual 9 had a diet that consisted mostly of food not shared with the individual’s mother’s diet, whereas more than half of both individuals’ mothers’ diets were shared with their offspring’s diets."
+        },
+        {
+          "label": "C",
+          "text": "The majority of the diet of the mother of individual 9 was shared with the diet of individual 9, whereas significantly less than half the diet of the mother of individual 17 was shared with the diet of individual 17."
+        },
+        {
+          "label": "D",
+          "text": "The percent of the mother’s diet shared with its offspring’s diet was smaller for individual 17 than for individual 9, and the percent of the individual’s diet not shared with its mother’s diet was greater for individual 17 than for individual 9."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "chart_image": "chart_images/na_e_2025_09_m2_q10_orangutan_diet_overlap.png",
+      "chart_image_data_uri": "../categories/chart_images/na_e_2025_09_m2_q10_orangutan_diet_overlap.png",
+      "chart_image_width": 1500,
+      "chart_image_height": 1100,
+      "explanation": {
+        "short": "Male 17 overlaps less with his mother's diet and eats a greater share of foods absent from her diet than female 9 does.",
+        "key_evidence": "Mother's diet shared: 59% for male 17 versus 81% for female 9. Offspring diet not shared: 19% versus 16%.",
+        "why_correct": "Both comparisons in D match the prediction that males' dietary preferences should be less tied to their mothers' local preferences.",
+        "detailed": "Read the two measures separately: one uses the mother's diet as its reference, and the other uses the offspring's diet. Male 17 shows lower overlap on the first and more unshared food on the second. B may describe broad majority patterns correctly, but it omits the male-female difference needed to support the hypothesis.",
+        "choice_analysis": {
+          "A": "It incorrectly treats values from different measures and individuals as ranges for mother's-diet overlap.",
+          "B": "It does not identify the predicted difference between the male and female.",
+          "C": "Male 17's 59% overlap is above half, not significantly below half.",
+          "D": "Correct: it accurately reports both directional sex differences."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "data_evidence"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m2_q11",
+      "section": "reading_writing",
+      "question_number": 38,
+      "passage": "While observing birds for a biology class, a group of students noticed a greater painted-snipe ([i]Rostratula benghalensis[/i]), a bird of the order Charadriiformes (shorebirds), slowly move away, make loud noises, and feign an injured wing as the group approached the bird’s ground nest. Researching this behavior, the students learned that this phenomenon is commonly referred to as “broken-wing display” and is meant to lure predators away from the nesting site and toward a seemingly vulnerable adult bird. Upon learning of other birds that also exhibit the behavior they had observed, the students hypothesized that the phenomenon is exclusive to shorebirds.",
+      "prompt": "Which choice best describes data from the table that weaken the students’ claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Both the great horned owl and the ringed teal are known to perform broken-wing display."
+        },
+        {
+          "label": "B",
+          "text": "The common sandpiper, in the order Charadriiformes, is known to perform broken-wing display, and the West Peruvian dove, in the order Columbiformes, is not."
+        },
+        {
+          "label": "C",
+          "text": "Neither the West Peruvian dove nor the purple sandpiper is known to perform broken-wing display."
+        },
+        {
+          "label": "D",
+          "text": "Unlike the common sandpiper, the purple sandpiper is not known to perform broken-wing display, even though both are in the order Charadriiformes."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "chart_image": "chart_images/na_e_2025_09_m2_q11_broken_wing_display.png",
+      "chart_image_data_uri": "../categories/chart_images/na_e_2025_09_m2_q11_broken_wing_display.png",
+      "chart_image_width": 1460,
+      "chart_image_height": 538,
+      "explanation": {
+        "short": "A gives two non-shorebirds that perform broken-wing display, contradicting exclusivity to shorebirds.",
+        "key_evidence": "The great horned owl is Strigiformes and the ringed teal Anseriformes; both are marked Yes.",
+        "why_correct": "If the behavior occurred only in Charadriiformes, no bird outside that order would perform it. A supplies direct counterexamples.",
+        "detailed": "The students claim that displaying implies being a shorebird, not that every shorebird displays. A weakens that claim by showing the behavior in two other orders. A shorebird that does not display, such as the purple sandpiper, does not contradict the claimed restriction.",
+        "choice_analysis": {
+          "A": "Correct: both displaying species belong to orders other than Charadriiformes.",
+          "B": "A displaying shorebird and a nondisplaying dove are consistent with exclusivity.",
+          "C": "Absence of display does not establish occurrence outside shorebirds.",
+          "D": "Variation within shorebirds does not refute a claim that only shorebirds can display."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "data_evidence"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m2_q12",
+      "section": "reading_writing",
+      "question_number": 39,
+      "passage": "The bird species [i]Monasa atra[/i] (the black nunbird) practices a foraging strategy known as sallying (catching insects in flight and returning to a perch to eat them), enabling it to scan for prey and predators simultaneously. Conversely, [i]Myrmotherula axillaris[/i] (the white-flanked antwren), with which [i]M. atra[/i] shares territory in French Guiana, practices foliage gleaning (picking insects off leaves), substantially limiting the bird’s field of vision while foraging. Biologist Ari Martínez and colleagues hypothesized that the greater vulnerability inherent in the latter strategy is reflected in greater sensitivity to predator warning signals from neighboring species.",
+      "prompt": "Which finding, if true, would most directly support Martínez and colleagues’ hypothesis?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "When Martínez and colleagues played alarm calls from another local bird species, [i]M. axillaris[/i] displayed predator-avoidance behavior, whereas [i]M. atra[/i] did not display any behavioral change."
+        },
+        {
+          "label": "B",
+          "text": "When Martínez and colleagues played [i]M. atra[/i] alarm calls, only [i]M. atra[/i] displayed predator-avoidance behavior, whereas both [i]M. atra[/i] and [i]M. axillaris[/i] displayed such behavior when [i]M. axillaris[/i] alarm calls were played."
+        },
+        {
+          "label": "C",
+          "text": "When Martínez and colleagues played control sounds of random noise, only [i]M. axillaris[/i] displayed predator-avoidance behavior, whereas both [i]M. axillaris[/i] and [i]M. atra[/i] displayed such behavior when alarm calls from another local bird species were played."
+        },
+        {
+          "label": "D",
+          "text": "When Martínez and colleagues played alarm calls from a species that does not share territory with [i]M. atra[/i] and [i]M. axillaris[/i], [i]M. atra[/i] displayed predator-avoidance behavior, whereas [i]M. axillaris[/i] did not display any behavioral change."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "A shows the more vulnerable antwren responding to a neighboring species' alarm while the nunbird does not.",
+        "key_evidence": "Foliage gleaning limits the antwren's field of vision; sallying lets the nunbird monitor predators.",
+        "why_correct": "A supplies the predicted comparison under the same local alarm signal: the vulnerable species shows predator avoidance and the less vulnerable one does not.",
+        "detailed": "The relevant test compares the two foraging strategies' sensitivity to neighboring species' warnings. In A, both birds hear another local species' alarm, but only the foliage gleaner reacts. This isolates the expected directional difference more directly than reactions to random noise, own-species calls, or nonlocal species.",
+        "choice_analysis": {
+          "A": "Correct: only the more vulnerable foliage gleaner responds to a local species' alarm.",
+          "B": "The cross-species pattern favors the nunbird's sensitivity, opposite to the prediction.",
+          "C": "Both respond to the alarm, and the antwren's response to random noise is not specific warning sensitivity.",
+          "D": "The species is nonlocal and the response difference runs opposite to the prediction."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "textual_evidence"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m2_q13",
+      "section": "reading_writing",
+      "question_number": 40,
+      "passage": "The Czech Republic, which, according to international indices, has relatively strong democratic institutions and low intranational income inequality, experienced an inflation rate of 2.84% in 2019, whereas Bahrain, which shows the opposite pattern on such indices, had an inflation rate of only 1.00% that year. Such a comparison may seem consistent with the theoretical critique that by diluting control over the economy, democratic institutions inhibit states’ ability to counteract inflationary pressures, but when Raj Desai et al. examined democratic strength, intranational inequality, and inflation in more than 100 countries, they found that democratic strength, if associated with low inequality, restrains inflationary pressures, which would suggest that ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the 2019 difference between the Czech Republic’s inflation rate and Bahrain’s inflation rate is primarily but not exclusively attributable to the different levels of intranational income inequality in the two countries."
+        },
+        {
+          "label": "B",
+          "text": "inflation in the Czech Republic in 2019 would have been higher if the Czech Republic’s government had less control over the economy."
+        },
+        {
+          "label": "C",
+          "text": "factors other than the Czech Republic’s political structure contributed to the country’s inflation rate exceeding that of Bahrain in 2019."
+        },
+        {
+          "label": "D",
+          "text": "international indices may have underestimated the strength of the Czech Republic’s democratic institutions relative to Bahrain’s."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The broader evidence suggests additional factors influenced the Czech Republic's higher inflation relative to Bahrain.",
+        "key_evidence": "Across over 100 countries, strong democracy with low inequality restrains inflation, whereas the Czech Republic's single-year rate exceeds Bahrain's.",
+        "why_correct": "C recognizes that the two-country outcome need not be caused by the Czech Republic's democratic structure alone.",
+        "detailed": "The first comparison might appear to support the critique of democracy. The broader study points in the other direction for democracies with low inequality, a description that fits the Czech Republic. The passage therefore suggests other influences on the observed 2019 difference, without identifying a primary cause or proving the indices inaccurate.",
+        "choice_analysis": {
+          "A": "No evidence ranks inequality as the primary cause of this specific difference.",
+          "B": "It imports the critique's economic-control mechanism rather than following the broader finding.",
+          "C": "Correct: other influences can account for the apparent exception in the two-country comparison.",
+          "D": "A difference in inflation is not evidence that democratic strength was measured incorrectly."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m2_q14",
+      "section": "reading_writing",
+      "question_number": 41,
+      "passage": "Natural monuments and other types of protected areas (PAs) are established to promote conservation, but because they restrict certain economic activities, it is widely believed that they hinder local economic development. However, a study by Anubhab Gupta and team investigating five PAs, including Lower Zambezi National Park (a terrestrial PA in Zambia) and Abrolhos Marine Park (a marine PA in Brazil), estimated the impact of tourism on these regions and concluded that tourism likely results in increased household incomes in local communities. But whereas terrestrial PAs were in remote places with few alternative amenities to attract tourists, marine PAs were close to additional amenities not part of the PA. Thus, the researchers conceded that although ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the establishment of both PAs likely benefited their respective local economies, such gains likely derived mainly from the tourism industry in Lower Zambezi and from industries unrelated to tourism in Abrolhos."
+        },
+        {
+          "label": "B",
+          "text": "economic activity in the tourism sector in communities around Lower Zambezi can likely be attributed to interest in it as a protected area, economic activity in tourism around Abrolhos may be unrelated to the PA."
+        },
+        {
+          "label": "C",
+          "text": "tourism at Abrolhos and surrounding regions likely fluctuated erratically in the period shortly after the PA was created, tourism at Lower Zambezi remained largely stable."
+        },
+        {
+          "label": "D",
+          "text": "household income increased in the areas surrounding both PAs, it likely grew at a much faster rate for households near Abrolhos than for households near Lower Zambezi."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Tourism is more clearly attributable to the remote terrestrial PA than to the marine PA near other attractions.",
+        "key_evidence": "Lower Zambezi has few alternative amenities, while Abrolhos is close to amenities outside the PA.",
+        "why_correct": "Nearby non-PA attractions could generate tourism income independently of Abrolhos's protected status, whereas that competing explanation is weaker at Lower Zambezi.",
+        "detailed": "The concession concerns causation: increased income from tourism does not automatically show that establishing a PA created that tourism. B retains tourism as the economic activity while distinguishing how confidently it can be attributed to the PA. The passage gives no tourism time series or relative income-growth rates.",
+        "choice_analysis": {
+          "A": "It incorrectly shifts Abrolhos's gains to industries unrelated to tourism.",
+          "B": "Correct: alternative amenities weaken attribution of Abrolhos tourism to the PA itself.",
+          "C": "There are no data about erratic or stable tourism over time.",
+          "D": "The text does not compare the two areas' rates of household-income growth."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m2_q15",
+      "section": "reading_writing",
+      "question_number": 42,
+      "passage": "The subscription economy has rapidly expanded to include a wide range of products—from books to video gaming services—in part because consumers appreciate the convenience of automatic payments. But as a study by Liran Einav and team shows, consumers are typically inattentive to automatic payments and remain subscribed to services long after their value has worn off. The study also found that subscribers were much more likely to discontinue a service when they had to make an active renewal decision (for example, when they need to update payment information to remain subscribed) than at other times. The researchers therefore concluded that a regulation requiring all subscribers to complete payments manually would likely ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "deter attentive consumers from subscribing in the first place but would have little effect on whether inattentive consumers decide to subscribe."
+        },
+        {
+          "label": "B",
+          "text": "decrease subscribers’ valuation of the subscription services at a faster rate than if no such regulation were implemented."
+        },
+        {
+          "label": "C",
+          "text": "result in reduced average subscription durations, but the overall experience of the longest-subscribing consumers would improve."
+        },
+        {
+          "label": "D",
+          "text": "enable dissatisfied subscribers to save more money than they would without such a regulation in place but at the expense of a feature that may have induced them to subscribe initially."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Manual payment could prevent unwanted charges while removing the convenience of automatic renewal.",
+        "key_evidence": "Subscribers cancel more often when making an active renewal decision, yet value automatic payments' convenience.",
+        "why_correct": "D combines the likely saving for dissatisfied subscribers with the loss of a feature that helped attract them.",
+        "detailed": "Requiring a manual payment would force attention at each renewal. People paying for a service they no longer value would then be more likely to cancel and avoid future charges. The trade-off is losing automatic payment convenience; the study does not show that services lose value faster or that long-term subscribers' experience improves.",
+        "choice_analysis": {
+          "A": "The evidence concerns renewal decisions, not initial subscription choices by attention type.",
+          "B": "A change in payment procedure does not establish faster decline in service value.",
+          "C": "It adds an unsupported improvement for the longest-subscribing consumers.",
+          "D": "Correct: it states both the likely savings and the lost convenience."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m2_q16",
+      "section": "reading_writing",
+      "question_number": 43,
+      "passage": "Should the US cut taxes? As of 2017, the US’s top tax rate (48%) was lower than the highest point on the country’s Laffer curve. A theoretical relationship between tax rates and revenues, the curve can be used to determine whether tax cuts will ultimately increase a country’s tax revenue, according to some ______ 2017 data suggested that the US was below the threshold for a tax cut.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "economists; as the"
+        },
+        {
+          "label": "B",
+          "text": "economists. The"
+        },
+        {
+          "label": "C",
+          "text": "economists the"
+        },
+        {
+          "label": "D",
+          "text": "economists, the"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "A period separates the complete explanation of the curve from the independent statement about 2017 data.",
+        "key_evidence": "The first main predicate is 'can be used'; the next subject-predicate pair is 'The 2017 data suggested.'",
+        "why_correct": "B gives each independent clause its own sentence without introducing a dependent clause after a semicolon.",
+        "detailed": "The introductory description 'A theoretical relationship...' belongs to the clause about the curve. That clause is complete after 'economists.' The following data statement is also complete, so a period works. In A, as subordinates the second clause, making it unsuitable after a semicolon.",
+        "choice_analysis": {
+          "A": "As makes the material after the semicolon dependent, rather than a complete independent clause.",
+          "B": "Correct: the period cleanly separates two complete statements.",
+          "C": "It leaves two independent clauses without a boundary.",
+          "D": "It joins independent clauses with a comma alone."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m2_q17",
+      "section": "reading_writing",
+      "question_number": 44,
+      "passage": "Breaking ties with the Soviet Union in 1991 catalyzed a host of infrastructural changes for the newly independent Tajikistan, among them a new country dialing code from the International Telegraph and Telephone Consultative Committee ______ incoming international telephone calls to reach the country.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "enabled"
+        },
+        {
+          "label": "B",
+          "text": "enabling"
+        },
+        {
+          "label": "C",
+          "text": "had enabled"
+        },
+        {
+          "label": "D",
+          "text": "would enable"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Enabling forms a participial modifier explaining the new dialing code's function.",
+        "key_evidence": "The sentence's main clause is 'Breaking ties ... catalyzed a host of infrastructural changes.'",
+        "why_correct": "The dialing code is introduced as one of those changes, so it needs a modifier rather than an unattached second finite predicate.",
+        "detailed": "The phrase 'among them a new country dialing code' lists an example of the infrastructural changes. Enabling attaches to that code and explains its effect on incoming calls. Enabled, had enabled, and would enable would require an additional grammatical link, such as a relative pronoun, to function here.",
+        "choice_analysis": {
+          "A": "Enabled supplies an unlinked finite predicate after the example noun phrase.",
+          "B": "Correct: enabling modifies the dialing code without adding a new main clause.",
+          "C": "Had enabled is a finite predicate with no suitable clause connection.",
+          "D": "Would enable requires a relative-clause or coordinated-clause structure that is absent."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m2_q18",
+      "section": "reading_writing",
+      "question_number": 45,
+      "passage": "Some places that were once part of the Spanish Empire, such as the Netherlands, reveal few traces of a past connection to Spain, linguistic or otherwise. In contrast, Panama broke free from the Spanish Empire in the nineteenth century yet still bears its imperial history in its language, Spanish ______ spoken by most current residents of Panama.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "is being"
+        },
+        {
+          "label": "B",
+          "text": "being"
+        },
+        {
+          "label": "C",
+          "text": "will be"
+        },
+        {
+          "label": "D",
+          "text": "is"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Being forms the supplementary absolute phrase 'Spanish being spoken by most current residents.'",
+        "key_evidence": "The main clause already has the finite predicates 'broke free' and 'bears.'",
+        "why_correct": "The noun Spanish plus nonfinite being spoken explains how Panama's linguistic connection to Spain persists without creating another independent clause.",
+        "detailed": "The words after the comma have their own noun, Spanish, but a nonfinite predicate, being spoken. This is an absolute construction supplying an explanation of the main claim. Is, is being, and will be would instead create a separate independent clause after a comma alone.",
+        "choice_analysis": {
+          "A": "Is being creates a finite clause and a comma splice.",
+          "B": "Correct: being spoken supplies the nonfinite predicate in the absolute construction.",
+          "C": "Will be creates a finite future clause without a proper connection to the main clause.",
+          "D": "Is spoken creates another independent clause joined only by a comma."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m2_q19",
+      "section": "reading_writing",
+      "question_number": 46,
+      "passage": "A single specimen of [i]N. vivans[/i], collected at a depth of 129 fathoms (236 meters) in the Indian Ocean, and a single specimen of [i]P. obliquiloculata[/i], collected at a depth of 260 fathoms (475 meters) in the South Atlantic, have been preserved as exemplars of their respective ______ former in a repository at Washington, DC’s Museum of Natural History and the latter in a repository at London’s Natural History Museum.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "species; the"
+        },
+        {
+          "label": "B",
+          "text": "species, the"
+        },
+        {
+          "label": "C",
+          "text": "species, and the"
+        },
+        {
+          "label": "D",
+          "text": "species. The"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Use a comma before the supplementary phrase that distinguishes where the former specimen and the latter specimen were preserved. The other choices incorrectly use punctuation that requires a complete clause or adds an unsupported conjunction.",
+        "key_evidence": "The full sentence first states that both specimens have been preserved, then uses a comma to add their respective repositories in the elliptical construction \"the former ... and the latter ...\".",
+        "why_correct": "The sentence's clause and phrase boundaries control the punctuation: Use a comma before the supplementary phrase that distinguishes where the former specimen and the latter specimen were preserved. The other choices incorrectly use punctuation that requires a complete clause or adds an unsupported conjunction. The form “species, the” preserves that structure.",
+        "detailed": "The decisive evidence is that the main clause is complete at ‘species.’ The following contrast between ‘the former’ and ‘the latter’ is a supplementary elliptical phrase, so it is properly attached with a comma. Use a comma before the supplementary phrase that distinguishes where the former specimen and the latter specimen were preserved. The other choices incorrectly use punctuation that requires a complete clause or adds an unsupported conjunction.",
+        "choice_analysis": {
+          "A": "Choice A (“species; the”): Incorrect. A semicolon would require an independent clause after it, but ‘the former in a repository ...’ is an elliptical location phrase without a verb.",
+          "B": "Choice B (“species, the”): Correct. The comma introduces paired supplemental location phrases—‘the former’ in Washington and ‘the latter’ in London—within the same sentence.",
+          "C": "Choice C (“species, and the”): Incorrect. And before ‘the former’ wrongly coordinates the completed preservation statement with a verb-less phrase, while another and already pairs former and latter.",
+          "D": "Choice D (“species. The”): Incorrect. A period makes ‘The former in a repository ...’ a sentence fragment because the new sentence has no finite verb."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m2_q20",
+      "section": "reading_writing",
+      "question_number": 47,
+      "passage": "Located on the Ijssel River in the Netherlands, the city of Zutphen was a member of a powerful mercantile alliance that dominated northern European trade between the 13th and 17th ______ a loose confederation of cities from eleven modern-day countries, it has been described as a precursor to today’s European Union.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "centuries: the Hanseatic League,"
+        },
+        {
+          "label": "B",
+          "text": "centuries—the Hanseatic League;"
+        },
+        {
+          "label": "C",
+          "text": "centuries, the Hanseatic League,"
+        },
+        {
+          "label": "D",
+          "text": "centuries; the Hanseatic League,"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The dash names the alliance, and the semicolon separates two independent clauses.",
+        "key_evidence": "The first clause has 'the city ... was'; the second has 'it has been described,' preceded by an appositive describing it.",
+        "why_correct": "B attaches the league's name to the first clause, then allows 'a loose confederation ...' to introduce the independent clause about that league.",
+        "detailed": "Read the first clause as 'Zutphen was a member of ... [the] alliance—the Hanseatic League.' After the semicolon, 'a loose confederation ...' is an introductory appositive referring to it, the subject of 'has been described.' D instead leaves both 'the Hanseatic League' and it competing for the second clause's subject role.",
+        "choice_analysis": {
+          "A": "The later comma cannot join the full first clause to the independent clause containing 'it has been described.'",
+          "B": "Correct: dash introduces the alliance's name, and semicolon marks the independent-clause boundary.",
+          "C": "Commas do not provide the required boundary between the two independent clauses.",
+          "D": "The second segment has an initial noun phrase 'the Hanseatic League' followed by the repeated subject it, rather than a well-formed single-subject clause."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m2_q21",
+      "section": "reading_writing",
+      "question_number": 48,
+      "passage": "Marisa Parham of Amherst College, along with researchers Joyce Jackson of Louisiana State University and Christina Zanfagna of Santa Clara University, ______ on the advisory team for the Timeline of African American Music, an interactive digital resource that explores African American musical history from the 1600s to the present day.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "have served"
+        },
+        {
+          "label": "B",
+          "text": "are serving"
+        },
+        {
+          "label": "C",
+          "text": "serve"
+        },
+        {
+          "label": "D",
+          "text": "serves"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "The main subject is “Marisa Parham.” Because it is singular, the verb must be singular: “serves.” The researchers named in the “along with” phrase do not change the verb form.",
+        "key_evidence": "The grammatical subject is the singular ‘Marisa Parham’; ‘along with’ introduces an accompanying phrase and does not make the subject plural.",
+        "why_correct": "The grammatical structure determines the required form: The main subject is “Marisa Parham.” Because it is singular, the verb must be singular: “serves.” The researchers named in the “along with” phrase do not change the verb form. Accordingly, “serves” supplies the form that the sentence needs.",
+        "detailed": "The decisive evidence is that the subject is the singular noun “Marisa Parham”; the “along with” phrase is parenthetical and does not make the subject plural. The main subject is “Marisa Parham.” Because it is singular, the verb must be singular: “serves.” The researchers named in the “along with” phrase do not change the verb form.",
+        "choice_analysis": {
+          "A": "Choice A (“have served”): Incorrect. Have served is plural, but the main subject Marisa Parham is singular; the along with phrase does not alter agreement.",
+          "B": "Choice B (“are serving”): Incorrect. Are serving is a plural progressive form and therefore disagrees with the singular main subject.",
+          "C": "Choice C (“serve”): Incorrect. Serve is the base/plural present form and does not agree with singular Marisa Parham.",
+          "D": "Choice D (“serves”): Correct. Serves is the singular present-tense verb required by Marisa Parham; the two accompanying researchers are inside an along with phrase."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m2_q22",
+      "section": "reading_writing",
+      "question_number": 49,
+      "passage": "Every US state has an associated state soil, which is typically selected by a group of experts, then passed through the state legislature to receive its official designation. For example, Vermont’s Tunbridge soil was formally designated in 1985, and Oregon’s Jory soil in 2011. ______ years pass between a soil’s selection and official designation, as the legislative process can be notoriously slow.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Similarly,"
+        },
+        {
+          "label": "B",
+          "text": "Indeed,"
+        },
+        {
+          "label": "C",
+          "text": "In many cases,"
+        },
+        {
+          "label": "D",
+          "text": "Therefore,"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "“In many cases” correctly introduces a general pattern that years pass before official designation.",
+        "key_evidence": "Official designation follows selection, and the next sentence generalizes that the legislative process can be slow.",
+        "why_correct": "The passage's logical relation between the surrounding claims is decisive: “In many cases” correctly introduces a general pattern that years pass before official designation. The transition “In many cases,” names that relation.",
+        "detailed": "The decisive evidence is that the prior examples of official designation are followed by a general statement that legislative processes can take years. “In many cases” correctly introduces a general pattern that years pass before official designation.",
+        "choice_analysis": {
+          "A": "Choice A (“Similarly,”): Incorrect. Similarly requires a prior case of a selection-to-designation delay, but the examples give only designation years.",
+          "B": "Choice B (“Indeed,”): Incorrect. Indeed would confirm an immediately preceding claim that delays occur; that claim has not yet been stated.",
+          "C": "Choice C (“In many cases,”): Correct. In many cases appropriately qualifies the generalization that a multiyear delay occurs during the slow legislative process.",
+          "D": "Choice D (“Therefore,”): Incorrect. Therefore would claim the listed designation dates cause or logically prove the delay, though no selection dates are supplied."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m2_q23",
+      "section": "reading_writing",
+      "question_number": 50,
+      "passage": "Although the Sino-Tibetan language of Baragaon has only about 7,500 living speakers, most in Nepal, the New York City–based Endangered Language Alliance has identified a group of Baragaon speakers in the city’s borough of Queens. ______ in the borough’s Richmond Hill neighborhood, these speakers are both helping to ensure Baragaon’s survival and contributing to the city’s unmatched linguistic diversity.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Consequently,"
+        },
+        {
+          "label": "B",
+          "text": "There,"
+        },
+        {
+          "label": "C",
+          "text": "For example,"
+        },
+        {
+          "label": "D",
+          "text": "Likewise,"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "“There” refers back to Queens and locates the speakers in its Richmond Hill neighborhood.",
+        "key_evidence": "The speakers are identified in Queens, and Richmond Hill is a neighborhood in that borough.",
+        "why_correct": "The passage's logical relation between the surrounding claims is decisive: “There” refers back to Queens and locates the speakers in its Richmond Hill neighborhood. The transition “There,” names that relation.",
+        "detailed": "The decisive evidence is that the preceding sentence identifies Queens and the next specifies Richmond Hill, a neighborhood in that borough. “There” refers back to Queens and locates the speakers in its Richmond Hill neighborhood.",
+        "choice_analysis": {
+          "A": "Choice A (“Consequently,”): Incorrect. The Richmond Hill location is not a consequence of the alliance identifying speakers in Queens.",
+          "B": "Choice B (“There,”): Correct. There refers directly to Queens, and the following phrase narrows that borough location to Richmond Hill.",
+          "C": "Choice C (“For example,”): Incorrect. The speakers in Richmond Hill are the same previously identified group, not an example of some broader set just introduced.",
+          "D": "Choice D (“Likewise,”): Incorrect. Likewise requires a parallel earlier group or action, but the passage discusses only this Baragaon-speaking community."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m2_q24",
+      "section": "reading_writing",
+      "question_number": 51,
+      "passage": "James Warren employed the pseudonym “Helvidius Priscus”—the name of an ancient Roman philosopher—in political essays he wrote in 1787, a choice that accomplished far more than simply concealing his authorship. ______ it wasn’t an arbitrary pen name but rather a complex rhetorical strategy through which Warren aligned his anti-federalist views with the venerated republican ideals of the ancient world, thereby bolstering the authority of his writing.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Indeed,"
+        },
+        {
+          "label": "B",
+          "text": "Conversely,"
+        },
+        {
+          "label": "C",
+          "text": "In addition,"
+        },
+        {
+          "label": "D",
+          "text": "However,"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "“Indeed” emphasizes and elaborates on the preceding claim about the pen name's purpose.",
+        "key_evidence": "The second sentence reinforces the assertion that the pseudonym did more than conceal authorship by explaining its rhetorical strategy.",
+        "why_correct": "The passage's logical relation between the surrounding claims is decisive: “Indeed” emphasizes and elaborates on the preceding claim about the pen name's purpose. The transition “Indeed,” names that relation.",
+        "detailed": "The decisive evidence is that the second sentence strengthens the first by explaining the pseudonym’s deliberate rhetorical role. “Indeed” emphasizes and elaborates on the preceding claim about the pen name's purpose.",
+        "choice_analysis": {
+          "A": "Choice A (“Indeed,”): Correct. Indeed confirms and intensifies the claim that the pseudonym did more than conceal authorship by explaining its deliberate rhetorical purpose.",
+          "B": "Choice B (“Conversely,”): Incorrect. The second sentence does not present an opposite interpretation; it supports the first sentence’s claim.",
+          "C": "Choice C (“In addition,”): Incorrect. In addition treats the rhetorical strategy as a separate point, but the sentence is specifically substantiating what ‘far more’ meant.",
+          "D": "Choice D (“However,”): Incorrect. However signals contradiction, whereas the explanation of classical republican alignment reinforces the preceding assertion."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m2_q25",
+      "section": "reading_writing",
+      "question_number": 52,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• A U-shaped curve in a river channel is called a meander. A meander forms when water erodes sediment from one side of the riverbank and redeposits that sediment on the opposite side. Meanders will gradually change shape and migrate downstream over time. A river with high sinuosity has many meanders, and a river with low sinuosity has few. The Fort Nelson River in Canada has high sinuosity.",
+      "prompt": "The student wants to describe how meanders are formed. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The U-shaped curves, or meanders, that form in a river will gradually change shape and migrate downstream."
+        },
+        {
+          "label": "B",
+          "text": "Over time, many meanders have formed in the Fort Nelson River, a river in Canada with high sinuosity."
+        },
+        {
+          "label": "C",
+          "text": "A high-sinuosity river, the Fort Nelson River has many meanders that will change shape and shift downstream over time."
+        },
+        {
+          "label": "D",
+          "text": "Over time, water erodes sediment from one side of a riverbank and redeposits it on the other, resulting in a U-shaped curve, or meander, in the river channel."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "This choice accurately describes the process that forms a meander.",
+        "key_evidence": "The notes explain that erosion on one bank and deposition on the other form a U-shaped river-channel curve.",
+        "why_correct": "The requested rhetorical goal controls which notes matter: This choice accurately describes the process that forms a meander. The sentence in choice D uses those facts to accomplish that exact goal.",
+        "detailed": "The decisive evidence is that a meander forms when erosion removes sediment from one bank and redeposition puts it on the opposite bank. This choice accurately describes the process that forms a meander.",
+        "choice_analysis": {
+          "A": "Choice A (“The U-shaped curves, or meanders, that form in a river will gradually change shape and migrate downstream.”): Incorrect. It describes how meanders change after formation, not the erosion-and-deposition process that creates them.",
+          "B": "Choice B (“Over time, many meanders have formed in the Fort Nelson River, a river in Canada with high sinuosity.”): Incorrect. The Fort Nelson example and high sinuosity concern how many meanders exist, not how any meander forms.",
+          "C": "Choice C (“A high-sinuosity river, the Fort Nelson River has many meanders that will change shape and shift downstream over time.”): Incorrect. It combines the river example with downstream change but omits the requested formation mechanism.",
+          "D": "Choice D (“Over time, water erodes sediment from one side of a riverbank and redeposits it on the other, resulting in a U-shaped curve, or meander, in the river channel.”): Correct. It states the full causal sequence: erosion on one bank, redeposition on the other, and the resulting U-shaped channel curve."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m2_q26",
+      "section": "reading_writing",
+      "question_number": 53,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Gabriel de Vallseca was a fifteenth-century Majorcan cartographer of portolan charts. Battista Beccario was a fifteenth-century Genoese cartographer of portolan charts. Portolan charts were early nautical charts that mapped the waterways of the Mediterranean and Black Seas. Portolan charts in the Genoese tradition tended to be sparse in illustrations. Those in the Majorcan tradition tended to be richly illustrated. In Majorcan charts, Bohemia is depicted as a horseshoe, and the Tagus River is depicted as a shepherd’s crook.",
+      "prompt": "The student wants to make a distinction between the two portolan traditions. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "While portolan charts in the Majorcan tradition tended to be richly illustrated, those in the Genoese tradition mapped the waterways of the Mediterranean and Black Seas."
+        },
+        {
+          "label": "B",
+          "text": "Unlike Genoese portolan charts, which could include illustrations of horseshoes and shepherds’ crooks, Majorcan charts were sparse in illustration."
+        },
+        {
+          "label": "C",
+          "text": "Being in the Majorcan tradition, the portolan charts of Gabriel de Vallseca differed from those of the Genoese cartographer Battista Beccario."
+        },
+        {
+          "label": "D",
+          "text": "Majorcan portolan charts, unlike their sparser Genoese counterparts, tended to be richly illustrated."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "D makes the requested distinction using the defining illustration difference between the traditions.",
+        "key_evidence": "Majorcan portolan charts tended to be richly illustrated, whereas Genoese charts tended to be sparse.",
+        "why_correct": "The requested rhetorical goal controls which notes matter: D makes the requested distinction using the defining illustration difference between the traditions. The sentence in choice D uses those facts to accomplish that exact goal.",
+        "detailed": "The decisive evidence is that the notes directly contrast richly illustrated Majorcan charts with sparse Genoese charts. D makes the requested distinction using the defining illustration difference between the traditions.",
+        "choice_analysis": {
+          "A": "Choice A (“While portolan charts in the Majorcan tradition tended to be richly illustrated, those in the Genoese tradition mapped the waterways of the Mediterranean and Black Seas.”): Incorrect. Both traditions mapped the Mediterranean and Black Seas, so the second half is not a distinguishing Genoese trait.",
+          "B": "Choice B (“Unlike Genoese portolan charts, which could include illustrations of horseshoes and shepherds’ crooks, Majorcan charts were sparse in illustration.”): Incorrect. It reverses the notes: the horseshoe and shepherd’s-crook imagery is Majorcan, while sparse illustration characterizes Genoese charts.",
+          "C": "Choice C (“Being in the Majorcan tradition, the portolan charts of Gabriel de Vallseca differed from those of the Genoese cartographer Battista Beccario.”): Incorrect. It merely asserts that two cartographers’ charts differed without identifying the substantive distinction between the traditions.",
+          "D": "Choice D (“Majorcan portolan charts, unlike their sparser Genoese counterparts, tended to be richly illustrated.”): Correct. It directly contrasts the defining visual tendencies: richly illustrated Majorcan charts versus sparser Genoese charts."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "na_e_2025_09_m2_q27",
+      "section": "reading_writing",
+      "question_number": 54,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Artistic works made readily accessible to the general public are categorized as public art. Artist Marco Cianfanelli’s metal sculpture [i]Release[/i] is on display at a public memorial in Howick, South Africa. This work of public art depicts the first democratically elected president of South Africa, Nelson Mandela. Artist Claes Oldenburg’s forty-five-foot-tall steel sculpture [i]Clothespin[/i] is on display in a public square in Philadelphia, Pennsylvania. This work of public art depicts a giant clothespin standing on its end.",
+      "prompt": "The student wants to contrast the two sculptures. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "[i]Release[/i] by Cianfanelli and [i]Clothespin[/i] by Oldenburg are two examples of public art."
+        },
+        {
+          "label": "B",
+          "text": "Oldenburg’s sculpture [i]Clothespin[/i], which depicts a giant clothespin standing on its end, is on display in Philadelphia, Pennsylvania."
+        },
+        {
+          "label": "C",
+          "text": "Cianfanelli’s [i]Release[/i], unlike Oldenburg’s [i]Clothespin[/i], depicts a human subject."
+        },
+        {
+          "label": "D",
+          "text": "In contrast to Cianfanelli’s [i]Release[/i], Oldenburg’s [i]Clothespin[/i] is displayed in a public place."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "C contrasts the sculptures by the most relevant difference: one depicts a human subject and the other does not.",
+        "key_evidence": "Release depicts Nelson Mandela, a human, while Clothespin depicts an oversized clothespin.",
+        "why_correct": "The requested rhetorical goal controls which notes matter: C contrasts the sculptures by the most relevant difference: one depicts a human subject and the other does not. The sentence in “Cianfanelli’s [i]Release[/i], unlike Oldenburg’s [i]Clothespin[/i], depicts a human subject” uses those facts to accomplish that exact goal.",
+        "detailed": "The decisive evidence is that [i]Release[/i] depicts Nelson Mandela, whereas Clothespin depicts a giant clothespin. C contrasts the sculptures by the most relevant difference: one depicts a human subject and the other does not.",
+        "choice_analysis": {
+          "A": "Choice A (“[i]Release[/i] by Cianfanelli and [i]Clothespin[/i] by Oldenburg are two examples of public art.”): Incorrect. It states a similarity—that both works are public art—rather than contrasting the sculptures.",
+          "B": "Choice B (“Oldenburg’s sculpture [i]Clothespin[/i], which depicts a giant clothespin standing on its end, is on display in Philadelphia, Pennsylvania.”): Incorrect. It describes only Clothespin’s subject and location, so it provides no two-work contrast.",
+          "C": "Choice C (“Cianfanelli’s [i]Release[/i], unlike Oldenburg’s [i]Clothespin[/i], depicts a human subject.”): Correct. Release portrays Nelson Mandela, a human, whereas Clothespin depicts an object, making the requested contrast accurate and direct.",
+          "D": "Choice D (“In contrast to Cianfanelli’s [i]Release[/i], Oldenburg’s [i]Clothespin[/i] is displayed in a public place.”): Incorrect. Both sculptures are displayed in public places, so public display cannot distinguish one from the other."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    }
+  ]
+}

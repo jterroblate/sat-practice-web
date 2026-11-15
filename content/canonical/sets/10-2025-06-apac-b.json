@@ -1,0 +1,2549 @@
+{
+  "schemaVersion": "sat-canonical-question-collection-v1",
+  "contentId": "set-10-2025-06-apac-b",
+  "title": "10 2025 06 Apac B",
+  "section": "reading_writing",
+  "questionCount": 53,
+  "questions": [
+    {
+      "question_id": "apac_b_001",
+      "section": "reading_writing",
+      "question_number": 1,
+      "passage": "Writer Lydia Davis observed that while [vocab]______[/vocab] literary forms, such as the poem, are recognizable as such even as they evolve, there are pathbreaking \"intergeneric\" forms that might, for example, use elements of both fables and realist narratives to create something unclassifiable. Davis's own very short literary pieces arguably fit in this category, since they straddle the line between prose and poetry.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "innovative"
+        },
+        {
+          "label": "B",
+          "text": "elusive"
+        },
+        {
+          "label": "C",
+          "text": "established"
+        },
+        {
+          "label": "D",
+          "text": "ambiguous"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 1,
+      "explanation": {
+        "key_evidence": "The sentence contrasts \"recognizable\" literary forms with \"pathbreaking\" unclassifiable forms.",
+        "why_correct": "\"Established\" fits because poems are presented as familiar, recognized forms even as they evolve; the other choices either imply novelty, uncertainty, or lack of clarity.",
+        "choice_analysis": {
+          "A": "Incorrect. Innovative describes the pathbreaking intergeneric forms, not the recognizable forms being contrasted with them.",
+          "B": "Incorrect. Elusive means difficult to grasp, but the passage says these forms are recognizable.",
+          "C": "Correct. Established means familiar and recognized, which matches forms such as the poem.",
+          "D": "Incorrect. Ambiguous means unclear, the opposite of the passage's emphasis on recognizability."
+        },
+        "short": "The sentence contrasts \"recognizable\" literary forms with \"pathbreaking\" unclassifiable forms.",
+        "detailed": "\"Established\" fits because poems are presented as familiar, recognized forms even as they evolve; the other choices either imply novelty, uncertainty, or lack of clarity."
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "apac_b_002",
+      "section": "reading_writing",
+      "question_number": 2,
+      "passage": "Mauricio Drelichman and Hans-Joachim Voth's analysis of the overall debt repayments and expenditure of the government of Philip II (who ruled an empire including Spain and Milan from 1556 to 1598) found a seeming contradiction: although the government had several short-term cash shortages, it ran an even larger overall surplus than did the government of eighteenth-century Britain, a nation considered [vocab]______[/vocab] of fiscal virtue.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a sanction"
+        },
+        {
+          "label": "B",
+          "text": "a paradox"
+        },
+        {
+          "label": "C",
+          "text": "an exemplar"
+        },
+        {
+          "label": "D",
+          "text": "an omen"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 2,
+      "explanation": {
+        "key_evidence": "The relevant phrase is \"a nation considered ______ of fiscal virtue.\"",
+        "why_correct": "\"An exemplar\" means an ideal example or model. The sentence is saying eighteenth-century Britain was regarded as a model of fiscal virtue, making Philip II's larger surplus surprising.",
+        "choice_analysis": {
+          "A": "Incorrect. A sanction is a penalty or authorization, not a model of fiscal virtue.",
+          "B": "Incorrect. A paradox is a contradiction; the contradiction is the broader finding, not Britain's reputation.",
+          "C": "Correct. An exemplar is a model or ideal example, which fits a nation considered a model of fiscal virtue.",
+          "D": "Incorrect. An omen is a sign of a future event, which does not describe a nation's fiscal reputation."
+        },
+        "short": "The relevant phrase is \"a nation considered ______ of fiscal virtue.\"",
+        "detailed": "\"An exemplar\" means an ideal example or model. The sentence is saying eighteenth-century Britain was regarded as a model of fiscal virtue, making Philip II's larger surplus surprising."
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "apac_b_003",
+      "section": "reading_writing",
+      "question_number": 3,
+      "passage": "The following text is adapted from Virginia Woolf's 1919 novel Night and Day. Katharine is the granddaughter of a celebrated poet.\n\n[Katharine's] descent from [a celebrated poet] was no surprise to her, but matter for satisfaction, until, as the years wore on, certain drawbacks made themselves very [vocab]manifest[/vocab]. Perhaps it is a little depressing to inherit not lands but an example of intellectual virtue; perhaps the conclusiveness of a great ancestor is a little discouraging to those who run the risk of comparison with him.",
+      "prompt": "As used in the text, what does the word \"manifest\" most nearly mean?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Possible"
+        },
+        {
+          "label": "B",
+          "text": "Evident"
+        },
+        {
+          "label": "C",
+          "text": "Complex"
+        },
+        {
+          "label": "D",
+          "text": "Particular"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 3,
+      "explanation": {
+        "key_evidence": "The drawbacks became \"very manifest\" over time.",
+        "why_correct": "In context, \"manifest\" means clear or obvious: the disadvantages of Katharine's ancestry became evident as time passed.",
+        "choice_analysis": {
+          "A": "Incorrect. Possible means merely able to happen, but the drawbacks are already becoming clear.",
+          "B": "Correct. Evident means clearly seen or understood, matching the context.",
+          "C": "Incorrect. Complex means complicated, not clearly noticeable.",
+          "D": "Incorrect. Particular means specific, which does not capture the meaning of manifest here."
+        },
+        "short": "The drawbacks became \"very manifest\" over time.",
+        "detailed": "In context, \"manifest\" means clear or obvious: the disadvantages of Katharine's ancestry became evident as time passed."
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "vocabulary_in_context"
+      }
+    },
+    {
+      "question_id": "apac_b_004",
+      "section": "reading_writing",
+      "question_number": 4,
+      "passage": "The discoverers of the minor planet 2731 Cucula named it after the animal genus that includes cuckoos. Most of the recently discovered minor planets, however, are given only an identification number, a trend that can be [vocab]______[/vocab] to there being over 500,000 such bodies known at present, making it nearly impossible to find a unique name for each.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "attributed"
+        },
+        {
+          "label": "B",
+          "text": "referred"
+        },
+        {
+          "label": "C",
+          "text": "alluded"
+        },
+        {
+          "label": "D",
+          "text": "entrusted"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 4,
+      "explanation": {
+        "key_evidence": "The trend \"can be ______ to\" there being over 500,000 known minor planets.",
+        "why_correct": "\"Attributed to\" is the idiomatic causal phrase meaning regarded as caused by. The huge number of minor planets explains why many receive only identification numbers.",
+        "choice_analysis": {
+          "A": "Correct. Attributed to means caused by or ascribed to.",
+          "B": "Incorrect. Referred to does not express cause in this sentence.",
+          "C": "Incorrect. Alluded to means hinted at, which does not fit the causal structure.",
+          "D": "Incorrect. Entrusted to means placed in someone's care, which is illogical here."
+        },
+        "short": "The trend \"can be ______ to\" there being over 500,000 known minor planets.",
+        "detailed": "\"Attributed to\" is the idiomatic causal phrase meaning regarded as caused by. The huge number of minor planets explains why many receive only identification numbers."
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "apac_b_005",
+      "section": "reading_writing",
+      "question_number": 5,
+      "passage": "Many visitors to Yellowstone National Park need airlines, car rentals, hotels, and restaurants during their visits. These services generate carbon emissions. Emily Wilkins and Jordan Smith found that most of the environmentally harmful emissions come from travel services to and from the park. [u]Wilkins and Smith found that policymakers could help reduce these emissions by encouraging people to visit state or national parks closer to their homes to cut down on their travel.[/u]",
+      "prompt": "Which choice best states the function of the underlined sentence in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It presents a harm that is unique to the location described earlier in the text."
+        },
+        {
+          "label": "B",
+          "text": "It indicates that policymakers have been working on a certain problem for a long time."
+        },
+        {
+          "label": "C",
+          "text": "It suggests a course of action to address the problem described earlier in the text."
+        },
+        {
+          "label": "D",
+          "text": "It rephrases the question raised in the first sentence of the text."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 5,
+      "explanation": {
+        "key_evidence": "The prior sentences identify travel-related emissions as the problem.",
+        "why_correct": "The underlined sentence proposes a way policymakers could reduce those emissions: encourage visits to closer parks and reduce travel.",
+        "choice_analysis": {
+          "A": "Incorrect. The sentence does not present a harm unique to Yellowstone.",
+          "B": "Incorrect. It does not say policymakers have long been working on the problem.",
+          "C": "Correct. It suggests a course of action for addressing the earlier emissions problem.",
+          "D": "Incorrect. The first sentence is not a question, and the underlined sentence gives a recommendation."
+        },
+        "short": "The prior sentences identify travel-related emissions as the problem.",
+        "detailed": "The underlined sentence proposes a way policymakers could reduce those emissions: encourage visits to closer parks and reduce travel."
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "structural_function"
+      }
+    },
+    {
+      "question_id": "apac_b_006",
+      "section": "reading_writing",
+      "question_number": 6,
+      "passage": "Though John Crowley, author of Flint and Mirror, is perhaps not as well known as the most commercially successful American writers of the past fifty years, his work has had several influential champions, including the poet James Merrill and the literary critic Harold Bloom. In his afterword to Crowley's book Little, Big, [u]Bloom praises how the novel adroitly blends what playwright Friedrich Schiller termed the naive and sentimental modes—while Schiller thought works could be classified as either naive (seeking to describe reality) or sentimental (seeking to develop ideas), Little, Big fuses both modes of writing.[/u]",
+      "prompt": "Which choice best describes the function of the underlined portion in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It gives a reason why a critic appreciates a certain book."
+        },
+        {
+          "label": "B",
+          "text": "It helps clarify the distinction between two categories."
+        },
+        {
+          "label": "C",
+          "text": "It compares the work of a writer with that of a poet who admired him."
+        },
+        {
+          "label": "D",
+          "text": "It contrasts the opinions of two critics."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 6,
+      "explanation": {
+        "key_evidence": "The underlined portion identifies what Bloom praises in Crowley's novel.",
+        "why_correct": "It explains why Bloom appreciates Little, Big: the novel fuses two modes of writing that Schiller treated as separate.",
+        "choice_analysis": {
+          "A": "Correct. It gives the reason for Bloom's praise of a specific book.",
+          "B": "Incorrect. The point is not mainly to clarify the categories but to show how the novel combines them.",
+          "C": "Incorrect. It does not compare Crowley's work with James Merrill's work.",
+          "D": "Incorrect. It does not contrast two critics' opinions."
+        },
+        "short": "The underlined portion identifies what Bloom praises in Crowley's novel.",
+        "detailed": "It explains why Bloom appreciates Little, Big: the novel fuses two modes of writing that Schiller treated as separate."
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "structural_function"
+      }
+    },
+    {
+      "question_id": "apac_b_007",
+      "section": "reading_writing",
+      "question_number": 7,
+      "passage": "The following text is adapted from Anthony Trollope's 1855 novel The Warden. The narrator is describing a rectory, the residence of a clergyperson.\n\nLet us observe the well-furnished breakfast-parlour at Plumstead Episcopi, and the comfortable air of all the belongings of the rectory. Comfortable they certainly were, but neither gorgeous nor even grand; indeed, considering the money that had been spent there, the eye and taste might have been better served; there was an air of heaviness about the rooms which might have been avoided without any sacrifice of propriety; colours might have been better chosen and lights more perfectly diffused; [u]but perhaps in doing so the thorough clerical aspect of the whole might have been somewhat marred.[/u]",
+      "prompt": "Which choice best states the function of the underlined portion in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It offers a potential explanation for the furnishing choices the narrator critiques."
+        },
+        {
+          "label": "B",
+          "text": "It emphasizes that the narrator finds it inappropriate for a clergyperson to have such grand furnishings."
+        },
+        {
+          "label": "C",
+          "text": "It signals how the inexpensive-looking ornaments in the rectory could be enhanced."
+        },
+        {
+          "label": "D",
+          "text": "It concedes that there is a lack of attention to the impression the rectory makes on people."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 7,
+      "explanation": {
+        "key_evidence": "The narrator says the rooms could have been more tasteful, \"but perhaps\" that would have marred the rectory's clerical aspect.",
+        "why_correct": "The underlined portion gives a possible reason for the criticized furnishings: changing them to better please the eye might have reduced the building's clerical character.",
+        "choice_analysis": {
+          "A": "Correct. It offers a potential explanation for why the furnishings remain as the narrator critiques them.",
+          "B": "Incorrect. The narrator says the rectory is not gorgeous or grand, so this choice misstates the passage.",
+          "C": "Incorrect. The underlined portion does not describe how to enhance ornaments.",
+          "D": "Incorrect. The lack of attention to visual impression appears before the underline; the underlined portion offers a possible reason for it."
+        },
+        "short": "The narrator says the rooms could have been more tasteful, \"but perhaps\" that would have marred the rectory's clerical aspect.",
+        "detailed": "The underlined portion gives a possible reason for the criticized furnishings: changing them to better please the eye might have reduced the building's clerical character."
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "structural_function"
+      }
+    },
+    {
+      "question_id": "apac_b_008",
+      "section": "reading_writing",
+      "question_number": 8,
+      "passage": "Text 1\n\nOllantay is a play in Quechua, an Indigenous language in South America. The play portrays life in the Inca Empire before Spain invaded in the 1500s. Yet the oldest known text of the play is from 1770, and in many places its writing style resembles the writing style of Spanish plays from the 1700s. Thus, Ollantay was probably created in the late 1700s by someone who knew much about the Inca past.\n\nText 2\n\nOllantay includes details of Inca society that a writer in the 1700s wouldn't have known about. Also, the play's structure matches descriptions of the structure of Inca drama from the 1500s. The obvious explanation is that Ollantay itself is an Inca work from the 1500s. It could have been performed continuously from the 1500s to the 1700s. By the time it was written down in 1770, it could have easily been influenced by later Spanish plays.",
+      "prompt": "Based on the texts, what do the author of Text 1 and the author of Text 2 mainly disagree about?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "What inspired a Spanish writer in the 1700s to write a play about the Inca Empire"
+        },
+        {
+          "label": "B",
+          "text": "Whether Ollantay is an Inca play from the 1500s or was instead created much later, in the 1700s"
+        },
+        {
+          "label": "C",
+          "text": "How the Inca author of Ollantay knew so much about plays from Spain"
+        },
+        {
+          "label": "D",
+          "text": "Why Inca plays became more popular in the 1700s than they had been when they were first performed in the 1500s"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 8,
+      "explanation": {
+        "key_evidence": "Text 1 says Ollantay was probably created in the late 1700s; Text 2 says it is an Inca work from the 1500s.",
+        "why_correct": "The disagreement is about the play's origin date and authorship: a later 1700s creation versus an Inca work from the 1500s.",
+        "choice_analysis": {
+          "A": "Incorrect. Neither text focuses on what inspired a Spanish writer.",
+          "B": "Correct. It states the central disagreement about whether the play is from the 1500s or the 1700s.",
+          "C": "Incorrect. Text 1 does not say there was an Inca author who knew Spanish plays.",
+          "D": "Incorrect. The texts do not discuss popularity of Inca plays."
+        },
+        "short": "Text 1 says Ollantay was probably created in the late 1700s; Text 2 says it is an Inca work from the 1500s.",
+        "detailed": "The disagreement is about the play's origin date and authorship: a later 1700s creation versus an Inca work from the 1500s."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "main_idea_or_detail"
+      }
+    },
+    {
+      "question_id": "apac_b_009",
+      "section": "reading_writing",
+      "question_number": 9,
+      "passage": "In a period of great prosperity during his reign, Egyptian pharaoh Amenemhat III (circa 1800 BCE) had a pyramid with a massive substructure built at Hawara. The underground complex was largely dismantled in antiquity, but accounts of its splendor remain, including one from Greek historian Herodotus, who claimed to have seen it. In his Histories (circa 425BCE), Herodotus writes of 3,000 chambers adorned with carved figures, a dozen courts flanked by white stone pillars, and many winding passages in the complex, characterizing it as a great labyrinth and \"an unending marvel.\"",
+      "prompt": "According to the text, what information did Herodotus include in his Histories?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "An account of the magnificence of the complex that once stood beneath the pyramid at Hawara"
+        },
+        {
+          "label": "B",
+          "text": "A record of how long it took for the pyramid and complex to be constructed at Hawara"
+        },
+        {
+          "label": "C",
+          "text": "A discussion of how building the pyramid and complex at Hawara led to a period of prosperity"
+        },
+        {
+          "label": "D",
+          "text": "An explanation of how Herodotus was able to arrange to see the pyramid and complex at Hawara"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 9,
+      "explanation": {
+        "key_evidence": "Herodotus described the complex as a labyrinth and \"an unending marvel.\"",
+        "why_correct": "The passage says Herodotus included details of the underground complex's splendor, including thousands of chambers, carved figures, courts, pillars, and winding passages.",
+        "choice_analysis": {
+          "A": "Correct. It accurately summarizes Herodotus's account of the magnificent complex beneath the pyramid.",
+          "B": "Incorrect. The passage gives no record of construction time.",
+          "C": "Incorrect. The period of prosperity preceded the building; Herodotus's account is not about the building causing prosperity.",
+          "D": "Incorrect. The passage says Herodotus claimed to have seen it but does not explain how he arranged the visit."
+        },
+        "short": "Herodotus described the complex as a labyrinth and \"an unending marvel.\"",
+        "detailed": "The passage says Herodotus included details of the underground complex's splendor, including thousands of chambers, carved figures, courts, pillars, and winding passages."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "main_idea_or_detail"
+      }
+    },
+    {
+      "question_id": "apac_b_010",
+      "section": "reading_writing",
+      "question_number": 10,
+      "passage": "Dubautia carrii is among the twenty-eight species of silversword plants found only on the Hawaiian archipelago that collectively illustrate the process of adaptive radiation, or the rapid diversification of an ancestral species into different, related species. Each silversword species is physically distinct, with mature plant forms ranging from trees and shrubs to vines. However, they all descended from a common tarweed plant species, with their unique physical characteristics emerging as they adapted to the archipelago's many specific habitats over time.",
+      "prompt": "Which choice best states the main idea of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "All silverswords that grow on the Hawaiian archipelago have similar physical characteristics."
+        },
+        {
+          "label": "B",
+          "text": "The Hawaiian archipelago exhibits many distinct habitats and species."
+        },
+        {
+          "label": "C",
+          "text": "Most plants that grow on the Hawaiian archipelago are descendants of a single founder species."
+        },
+        {
+          "label": "D",
+          "text": "Silverswords are good examples of adaptive radiation on the Hawaiian archipelago."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 10,
+      "explanation": {
+        "key_evidence": "Silverswords are introduced as plants that collectively illustrate adaptive radiation.",
+        "why_correct": "The whole passage explains that many physically distinct silversword species descended from a common ancestor and adapted to different Hawaiian habitats, so they are good examples of adaptive radiation.",
+        "choice_analysis": {
+          "A": "Incorrect. The passage says silversword species are physically distinct.",
+          "B": "Incorrect. Distinct habitats are part of the explanation, not the main idea.",
+          "C": "Incorrect. The passage discusses silverswords, not most Hawaiian plants.",
+          "D": "Correct. It captures the central claim that silverswords exemplify adaptive radiation."
+        },
+        "short": "Silverswords are introduced as plants that collectively illustrate adaptive radiation.",
+        "detailed": "The whole passage explains that many physically distinct silversword species descended from a common ancestor and adapted to different Hawaiian habitats, so they are good examples of adaptive radiation."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "main_idea_or_detail"
+      }
+    },
+    {
+      "question_id": "apac_b_011",
+      "section": "reading_writing",
+      "question_number": 11,
+      "passage": "Total Areas of Five Tribal Nations around the United States\n\nTribal nation | Location | Area (square miles) White Mountain Apache Tribe | Arizona | 2,631 Crow Tribe | Montana | 3,606 Leech Lake Band of Ojibwe | Minnesota | 1,311 Chickasaw Nation | Oklahoma | 7,648 Cheyenne River Sioux Tribe | South Dakota | 4,419\n\nA citizen of the Leech Lake Band of Ojibwe is a student in a geography class. The student wants to compare the total area covered by her tribal nation in Minnesota with the total areas covered by certain tribal nations in other states. Looking at the table, she finds that the area of the Leech Lake Band of Ojibwe is 1,311 square miles, while the area of the White Mountain Apache Tribe in Arizona is ______",
+      "prompt": "Which choice most effectively uses data from the table to complete the comparison?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "7,648 square miles."
+        },
+        {
+          "label": "B",
+          "text": "2,631 square miles."
+        },
+        {
+          "label": "C",
+          "text": "4,419 square miles."
+        },
+        {
+          "label": "D",
+          "text": "3,606 square miles."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 11,
+      "explanation": {
+        "key_evidence": "The table gives 2,631 square miles for the White Mountain Apache Tribe.",
+        "why_correct": "The sentence asks for the area of the White Mountain Apache Tribe in Arizona, and the table's Arizona row for that tribe lists 2,631 square miles.",
+        "choice_analysis": {
+          "A": "Incorrect. 7,648 square miles is the Chickasaw Nation's area.",
+          "B": "Correct. 2,631 square miles is the area of the White Mountain Apache Tribe.",
+          "C": "Incorrect. 4,419 square miles is the Cheyenne River Sioux Tribe's area.",
+          "D": "Incorrect. 3,606 square miles is the Crow Tribe's area."
+        },
+        "short": "The table gives 2,631 square miles for the White Mountain Apache Tribe.",
+        "detailed": "The sentence asks for the area of the White Mountain Apache Tribe in Arizona, and the table's Arizona row for that tribe lists 2,631 square miles."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "data_evidence"
+      },
+      "visual_assets": [
+        {
+          "chart_type": "table",
+          "chart_description": "Total Areas of Five Tribal Nations around the United States",
+          "chart_data": {
+            "headers": [
+              "Tribal nation",
+              "Location",
+              "Area (square miles)"
+            ],
+            "rows": [
+              [
+                "White Mountain Apache Tribe",
+                "Arizona",
+                "2,631"
+              ],
+              [
+                "Crow Tribe",
+                "Montana",
+                "3,606"
+              ],
+              [
+                "Leech Lake Band of Ojibwe",
+                "Minnesota",
+                "1,311"
+              ],
+              [
+                "Chickasaw Nation",
+                "Oklahoma",
+                "7,648"
+              ],
+              [
+                "Cheyenne River Sioux Tribe",
+                "South Dakota",
+                "4,419"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "question_id": "apac_b_012",
+      "section": "reading_writing",
+      "question_number": 12,
+      "passage": "As of 2023, Turkey has 1,015 kilometers of high-speed rail lines in operation and 614 kilometers under construction; in Germany, 1,630 kilometers are in operation with 3,262 kilometers under construction. In contrast, the United States has a relatively low amount of high-speed rail for its size: only 735 kilometers of high-speed rail in operation and 1,789 kilometers under construction. Many US transportation experts argue that this should change, claiming that high-speed rail is more cost-effective than highway systems are.",
+      "prompt": "Which finding, if true, would most directly support the US transportation experts' claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "In most locations in the US, increasing highway capacity is more expensive relative to the volume of traffic that can be accommodated than increasing high-speed rail capacity is."
+        },
+        {
+          "label": "B",
+          "text": "In much of the US, the existing rail infrastructure is so old that it would have to be replaced entirely in order to accommodate high-speed trains."
+        },
+        {
+          "label": "C",
+          "text": "Building successful high-speed rail infrastructure would require that the US government establish a fund to maintain the rail lines long-term."
+        },
+        {
+          "label": "D",
+          "text": "Unlike people in the United States, people in Turkey and Germany are less interested in traveling by highway than they are in traveling by high-speed rail."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 12,
+      "explanation": {
+        "key_evidence": "Choice A directly compares highway capacity and high-speed rail capacity by cost relative to traffic volume.",
+        "why_correct": "If expanding highways costs more per accommodated traffic volume than expanding high-speed rail, that supports the experts' claim that high-speed rail is more cost-effective.",
+        "choice_analysis": {
+          "A": "Correct. It gives direct cost-effectiveness evidence favoring high-speed rail over highways.",
+          "B": "Incorrect. Replacement needs would make rail expansion harder or costlier, weakening rather than supporting the claim.",
+          "C": "Incorrect. A long-term maintenance fund does not show rail is more cost-effective than highways.",
+          "D": "Incorrect. Travel preferences in Turkey and Germany do not directly support a US cost-effectiveness claim."
+        },
+        "short": "Choice A directly compares highway capacity and high-speed rail capacity by cost relative to traffic volume.",
+        "detailed": "If expanding highways costs more per accommodated traffic volume than expanding high-speed rail, that supports the experts' claim that high-speed rail is more cost-effective."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "textual_evidence"
+      }
+    },
+    {
+      "question_id": "apac_b_013",
+      "section": "reading_writing",
+      "question_number": 13,
+      "passage": "Graph: Number of women serving as judges or magistrates on various nations' highest courts by year.\n\nPhilippines: 1980 = 1, 1990 = 3, 2000 = 3, 2010 = 3 Singapore: 1980 = 0, 1990 = 0, 2000 = 2, 2010 = 3 Mexico: 1980 = 2, 1990 = 5, 2000 = 2, 2010 = 3\n\nA report from an international organization that monitors the numbers of women serving as judges or magistrates on various nations' highest courts, such as the Supreme Court of Justice in Mexico and the Supreme Court in the Philippines, found that the overall trend is toward more women serving on the high courts in 2010 than in 1980. For example, none of the countries in the graph had more than 2 women in these positions in 1980, but ______",
+      "prompt": "Which choice most effectively uses data from the graph to complete the example?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "in 2010, Singapore had 3 women on its high courts, the Philippines had 3, and Mexico had 3."
+        },
+        {
+          "label": "B",
+          "text": "neither Singapore nor the Philippines saw a reduction in the women on their high courts in any of the years shown on the graph, but Mexico did after 1990."
+        },
+        {
+          "label": "C",
+          "text": "the increase in the number of women on the high courts from 1980 to 2010 in Singapore was greater than that in either the Philippines or Mexico."
+        },
+        {
+          "label": "D",
+          "text": "Mexico had 2 women on its high courts in 1980 and 3 in 2010."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 13,
+      "explanation": {
+        "key_evidence": "The setup says no country had more than 2 women in 1980; the graph shows all three countries had 3 in 2010.",
+        "why_correct": "Choice A completes the example by directly contrasting the 1980 maximum of 2 with the 2010 data: Singapore, the Philippines, and Mexico each reached 3.",
+        "choice_analysis": {
+          "A": "Correct. It directly uses the 2010 values for all three countries to show the increase.",
+          "B": "Incorrect. It discusses reductions across years, not the 1980-to-2010 contrast in the sentence.",
+          "C": "Incorrect. Singapore's larger increase is true but does not most directly complete the example about all countries exceeding 2 in 2010.",
+          "D": "Incorrect. It mentions only Mexico and does not address the overall trend across the countries in the graph."
+        },
+        "short": "The setup says no country had more than 2 women in 1980; the graph shows all three countries had 3 in 2010.",
+        "detailed": "Choice A completes the example by directly contrasting the 1980 maximum of 2 with the 2010 data: Singapore, the Philippines, and Mexico each reached 3."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "data_evidence"
+      },
+      "visual_assets": [
+        {
+          "chart_type": "graph",
+          "chart_description": "Number of women serving as judges or magistrates on various nations' highest courts by year",
+          "chart_data": {
+            "type": "line_graph",
+            "x_axis": "Year (1980, 1990, 2000, 2010)",
+            "data": {
+              "Philippines": [
+                1,
+                3,
+                3,
+                3
+              ],
+              "Singapore": [
+                0,
+                0,
+                2,
+                3
+              ],
+              "Mexico": [
+                2,
+                5,
+                2,
+                3
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "question_id": "apac_b_014",
+      "section": "reading_writing",
+      "question_number": 14,
+      "passage": "Careful planning was essential for the success of the Deep Impact probe, which conducted a flyby of comet 9P/Tempel and then traveled to comet 103P/Hartley. The CONTOUR probe mission seemed similarly well planned, but engineers lost communications with the probe before it could achieve the mission goal of visiting comet 73P/Schwassmann-Wachmann. This shows that ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the Deep Impact was more successful than the CONTOUR because it had fewer tasks to accomplish."
+        },
+        {
+          "label": "B",
+          "text": "having multiple mission goals ensures that a probe will accomplish at least one of its tasks."
+        },
+        {
+          "label": "C",
+          "text": "the CONTOUR would likely have accomplished its tasks if it had been sent somewhere other than comet 73P/Schwassmann-Wachmann."
+        },
+        {
+          "label": "D",
+          "text": "careful planning alone does not guarantee that a probe will accomplish its mission."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 14,
+      "explanation": {
+        "key_evidence": "The contrast is between careful planning and a mission that still failed.",
+        "why_correct": "Deep Impact's success shows planning matters, but CONTOUR's failure despite similar planning shows planning alone cannot guarantee mission success.",
+        "choice_analysis": {
+          "A": "Incorrect. The text does not say Deep Impact had fewer tasks.",
+          "B": "Incorrect. CONTOUR failed before achieving its goal, so multiple goals do not ensure success.",
+          "C": "Incorrect. The destination is not identified as the cause of failure.",
+          "D": "Correct. The example supports the idea that planning alone is not enough to guarantee success."
+        },
+        "short": "The contrast is between careful planning and a mission that still failed.",
+        "detailed": "Deep Impact's success shows planning matters, but CONTOUR's failure despite similar planning shows planning alone cannot guarantee mission success."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "apac_b_015",
+      "section": "reading_writing",
+      "question_number": 15,
+      "passage": "Dermatological researchers and geneticists make regular use of representative cross-sections of hair fibers, but such a cross-section can be obtained only if the strand can be cut perpendicular to its length without distorting the cross-sectional shape, which necessitates embedding the hair in a stabilizing medium, often resin, before sectioning it. Resin is effective but slow due to its long curing time, which led Tina Lasisi and colleagues to try sheets of low-melt-point plastic as a stabilizer. They found that these sheets match resin's utility as a stabilizer while allowing for near-instantaneous embedding of hair, thereby demonstrating that using low-melt-point plastic sheeting rather than resin can enhance ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "an embedded hair's cross-sectional shape without reducing the researchers' likelihood of obtaining perpendicular cuts."
+        },
+        {
+          "label": "B",
+          "text": "the efficiency of preparatory steps before sectioning a hair without compromising the hair's cross-sectional shape."
+        },
+        {
+          "label": "C",
+          "text": "the rate at which hairs can be embedded before sectioning because no stabilizing agent is used."
+        },
+        {
+          "label": "D",
+          "text": "the researchers' likelihood of obtaining perpendicular cuts while simplifying the process of preparing a hair for sectioning."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 15,
+      "explanation": {
+        "key_evidence": "The new sheets preserve stabilizing utility and speed up embedding.",
+        "why_correct": "Because the plastic works as well as resin but embeds hair almost instantly, it improves preparation efficiency without compromising the cross-sectional shape.",
+        "choice_analysis": {
+          "A": "Incorrect. The plastic does not enhance the shape itself; it preserves it while speeding preparation.",
+          "B": "Correct. It captures both faster preparation and no compromise to the cross-sectional shape.",
+          "C": "Incorrect. A stabilizing agent is still used: low-melt-point plastic.",
+          "D": "Incorrect. The finding is about stabilizing and embedding speed, not increasing the likelihood of perpendicular cuts."
+        },
+        "short": "The new sheets preserve stabilizing utility and speed up embedding.",
+        "detailed": "Because the plastic works as well as resin but embeds hair almost instantly, it improves preparation efficiency without compromising the cross-sectional shape."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "apac_b_016",
+      "section": "reading_writing",
+      "question_number": 16,
+      "passage": "In the 1920s and 1930s, the singer Frank \"Machito\" Grillo performed with Cuba's most popular dance orchestras. However, the fusion of Latin music and American jazz that Machito innovated while performing in New York City is what has ______",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "earned him his enduring fame?"
+        },
+        {
+          "label": "B",
+          "text": "his enduring fame earned him?"
+        },
+        {
+          "label": "C",
+          "text": "his enduring fame earned him."
+        },
+        {
+          "label": "D",
+          "text": "earned him his enduring fame."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 16,
+      "explanation": {
+        "key_evidence": "The subject is the fusion of Latin music and American jazz.",
+        "why_correct": "Choice D supplies the correct predicate and final period: the fusion is what has earned Machito his enduring fame.",
+        "choice_analysis": {
+          "A": "Incorrect. The sentence is a statement, not a question.",
+          "B": "Incorrect. The word order is ungrammatical after 'has.'",
+          "C": "Incorrect. It also has incorrect word order.",
+          "D": "Correct. It has proper word order and punctuation."
+        },
+        "short": "The subject is the fusion of Latin music and American jazz.",
+        "detailed": "Choice D supplies the correct predicate and final period: the fusion is what has earned Machito his enduring fame."
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "apac_b_017",
+      "section": "reading_writing",
+      "question_number": 17,
+      "passage": "Before the Spanish arrived in the 1400s, the people of La Gomera, one of the Canary Islands, would use a whistled version of their native language to \"speak\" to each other from far away. Amazingly, under Spanish rule, the ______ adapted their whistling skills to whistle to each other in Spanish.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "island's residents"
+        },
+        {
+          "label": "B",
+          "text": "islands resident's"
+        },
+        {
+          "label": "C",
+          "text": "island's resident's"
+        },
+        {
+          "label": "D",
+          "text": "islands residents'"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 17,
+      "explanation": {
+        "short": "一座岛的多位居民：island's residents。",
+        "key_evidence": "La Gomera指一个岛；空格后的adapted说明居民是执行动作的主语，而非拥有后续名词的所有者。",
+        "why_correct": "A以单数所有格island's表示这座岛的，以普通复数residents表示多位居民，恰好构成完整主语。",
+        "detailed": "先确定两个名词各自的功能：island修饰居民所属的地点，需要单数所有格；residents是adapted的主语，需要复数普通形式。主语后直接接动词，不能把居民写成resident's或residents'。",
+        "choice_analysis": {
+          "A": "正确：island's表示一座岛的，residents表示多位居民。",
+          "B": "islands未标示所属关系，resident's又把居民写成单数所有格。",
+          "C": "island's正确，但resident's是单数所有格，不是所需的复数主语。",
+          "D": "islands没有所属关系的撇号，而residents'错误地把主语居民写成复数所有格；其后没有被拥有的名词。"
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "apac_b_018",
+      "section": "reading_writing",
+      "question_number": 18,
+      "passage": "Assembling ______ by hand and in painstaking detail, Nigerian American artist Njideka Akunyili Crosby works at a methodical pace when completing her massive collage-based paintings.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "it"
+        },
+        {
+          "label": "B",
+          "text": "that"
+        },
+        {
+          "label": "C",
+          "text": "her"
+        },
+        {
+          "label": "D",
+          "text": "them"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 18,
+      "explanation": {
+        "key_evidence": "The sentence describes Crosby assembling her paintings by hand.",
+        "why_correct": "\"Them\" is the correct plural object pronoun for the plural noun \"paintings.\"",
+        "choice_analysis": {
+          "A": "Incorrect. 'It' is singular and cannot refer to paintings.",
+          "B": "Incorrect. 'That' is not the right object pronoun here.",
+          "C": "Incorrect. 'Her' would refer to the artist, not the paintings.",
+          "D": "Correct. 'Them' properly refers to the plural paintings."
+        },
+        "short": "The sentence describes Crosby assembling her paintings by hand.",
+        "detailed": "\"Them\" is the correct plural object pronoun for the plural noun \"paintings.\""
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "mixed_convention"
+      }
+    },
+    {
+      "question_id": "apac_b_019",
+      "section": "reading_writing",
+      "question_number": 19,
+      "passage": "Like almost every country in the world, Britain has been allocated an international dialing prefix to help route incoming international calls. First assigned to Britain in the 1960s Red Book, a directory published by a United Nations telecommunications agency, ______",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "international direct dialing was not widely available until the 1970s, so initially, only switchboard operators used the prefix."
+        },
+        {
+          "label": "B",
+          "text": "not until the 1970s did international direct dialing become widely available, meaning that, initially, only switchboard operators used the prefix."
+        },
+        {
+          "label": "C",
+          "text": "initially, only switchboard operators used the prefix, as international direct dialing was not widely available until the 1970s."
+        },
+        {
+          "label": "D",
+          "text": "the prefix was used by only switchboard operators initially, as international direct dialing was not widely available until the 1970s."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 19,
+      "explanation": {
+        "key_evidence": "The opening modifier describes the prefix that was first assigned to Britain.",
+        "why_correct": "Choice D places 'the prefix' immediately after the modifier, avoiding a dangling modifier and forming a complete grammatical sentence.",
+        "choice_analysis": {
+          "A": "Incorrect. It makes international direct dialing, not the prefix, the thing assigned to Britain.",
+          "B": "Incorrect. It also fails to provide 'the prefix' as the modified subject.",
+          "C": "Incorrect. It makes switchboard operators the subject modified by 'First assigned to Britain.'",
+          "D": "Correct. 'The prefix' is the subject that logically matches the introductory modifier."
+        },
+        "short": "The opening modifier describes the prefix that was first assigned to Britain.",
+        "detailed": "Choice D places 'the prefix' immediately after the modifier, avoiding a dangling modifier and forming a complete grammatical sentence."
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "mixed_convention"
+      }
+    },
+    {
+      "question_id": "apac_b_020",
+      "section": "reading_writing",
+      "question_number": 20,
+      "passage": "Artist Yto Barrada's exhibition Ways to Baffle the Wind incorporates sculptures, textiles, and films. Barrada's pieces, utilizing elements as disparate as plant-dyed fabrics, wire crab traps filled with stones, and cotton balls dangling above a fan, ______ the ways humans attempt to organize and regulate nature.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "has explored"
+        },
+        {
+          "label": "B",
+          "text": "explore"
+        },
+        {
+          "label": "C",
+          "text": "explores"
+        },
+        {
+          "label": "D",
+          "text": "exploring"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 20,
+      "explanation": {
+        "key_evidence": "The subject 'Barrada's pieces' is plural.",
+        "why_correct": "The plural present-tense verb 'explore' agrees with 'pieces' and completes the sentence after the intervening modifier.",
+        "choice_analysis": {
+          "A": "Incorrect. 'Has explored' is singular and does not agree with 'pieces.'",
+          "B": "Correct. 'Explore' agrees with the plural subject.",
+          "C": "Incorrect. 'Explores' is singular.",
+          "D": "Incorrect. 'Exploring' does not create a finite main verb for the sentence."
+        },
+        "short": "The subject 'Barrada's pieces' is plural.",
+        "detailed": "The plural present-tense verb 'explore' agrees with 'pieces' and completes the sentence after the intervening modifier."
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "apac_b_021",
+      "section": "reading_writing",
+      "question_number": 21,
+      "passage": "A team led by Portuguese researcher Isabel C. F. R. Ferreira found that many species of mushrooms contain chemicals called phenolic compounds, such as cinnamic acid and catechin. ______ Ferreira detected cinnamic acid in Agaricus blazei mushrooms and catechin in Lentinius edodes mushrooms.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "For this reason,"
+        },
+        {
+          "label": "B",
+          "text": "However,"
+        },
+        {
+          "label": "C",
+          "text": "Nevertheless,"
+        },
+        {
+          "label": "D",
+          "text": "For example,"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 21,
+      "explanation": {
+        "key_evidence": "Ferreira's detections in two named mushroom species illustrate the general claim about phenolic compounds in mushrooms.",
+        "why_correct": "\"For example\" is the logical transition because the second sentence gives examples of the phenolic compounds mentioned in the first sentence.",
+        "choice_analysis": {
+          "A": "Incorrect. The second sentence is not a result of the first; it illustrates it.",
+          "B": "Incorrect. There is no contrast.",
+          "C": "Incorrect. Nevertheless also signals contrast, which is not present.",
+          "D": "Correct. The sentence gives examples of compounds in specific mushroom species."
+        },
+        "short": "Ferreira's detections in two named mushroom species illustrate the general claim about phenolic compounds in mushrooms.",
+        "detailed": "\"For example\" is the logical transition because the second sentence gives examples of the phenolic compounds mentioned in the first sentence."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "apac_b_022",
+      "section": "reading_writing",
+      "question_number": 22,
+      "passage": "Artist and writer Kameelah Janan Rasheed wanted to demonstrate the value of textual revision and to encourage audiences to embrace it as a sign of learning. ______ she was transparent about the revision process for her 2019 book No New Theories, adding annotations to the original text to indicate where her ideas had shifted or deepened.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Thus,"
+        },
+        {
+          "label": "B",
+          "text": "Nevertheless,"
+        },
+        {
+          "label": "C",
+          "text": "Instead,"
+        },
+        {
+          "label": "D",
+          "text": "Later,"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 22,
+      "explanation": {
+        "key_evidence": "The second sentence describes an action that follows from Rasheed's purpose.",
+        "why_correct": "\"Thus\" signals that being transparent about revisions was a result of Rasheed's desire to show the value of revision.",
+        "choice_analysis": {
+          "A": "Correct. Thus shows the action follows from the stated goal.",
+          "B": "Incorrect. Nevertheless would signal contrast, but the sentences align.",
+          "C": "Incorrect. Instead would imply replacement, not result.",
+          "D": "Incorrect. Later only marks time and misses the logical relationship."
+        },
+        "short": "The second sentence describes an action that follows from Rasheed's purpose.",
+        "detailed": "\"Thus\" signals that being transparent about revisions was a result of Rasheed's desire to show the value of revision."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "apac_b_023",
+      "section": "reading_writing",
+      "question_number": 23,
+      "passage": "In a hypothetical family tree, it is common for a parent in the first generation to exhibit a given trait, such as dimples, and for none of that parent's children (second generation) to inherit it. ______ the grandchildren (third generation) could inherit dimples or another such trait from the grandparent.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Nonetheless,"
+        },
+        {
+          "label": "B",
+          "text": "Specifically,"
+        },
+        {
+          "label": "C",
+          "text": "Besides,"
+        },
+        {
+          "label": "D",
+          "text": "In addition,"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 23,
+      "explanation": {
+        "key_evidence": "The second sentence contrasts with the expectation created by the children not inheriting the trait.",
+        "why_correct": "\"Nonetheless\" is logical because it introduces a contrast: despite the second generation lacking the trait, the third generation could inherit it.",
+        "choice_analysis": {
+          "A": "Correct. Nonetheless marks the needed contrast.",
+          "B": "Incorrect. Specifically would introduce a narrower detail, not a contrast.",
+          "C": "Incorrect. Besides adds information without signaling the contrast.",
+          "D": "Incorrect. In addition also merely adds information."
+        },
+        "short": "The second sentence contrasts with the expectation created by the children not inheriting the trait.",
+        "detailed": "\"Nonetheless\" is logical because it introduces a contrast: despite the second generation lacking the trait, the third generation could inherit it."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "apac_b_024",
+      "section": "reading_writing",
+      "question_number": 24,
+      "passage": "Teams from 32 countries gathered in Brazil in 2014 for the World Cup of men's soccer. The event, which is held every four years, now features teams from all over the world. The World Cup used to be much smaller and more limited geographically, ______ The 1934 event in Italy included only 16 teams, most from Europe and the Americas.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "indeed."
+        },
+        {
+          "label": "B",
+          "text": "though."
+        },
+        {
+          "label": "C",
+          "text": "for example."
+        },
+        {
+          "label": "D",
+          "text": "moreover."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 24,
+      "explanation": {
+        "short": "现在规模大、分布广，过去却较小且更局限：句末用though。",
+        "key_evidence": "前文说2014年有32国球队，现代世界杯参赛者来自全球；空格所在句说过去规模更小、地区更有限。",
+        "why_correct": "B的though放在句末，表示然而，清楚标出过去与现在的对照。随后1934年16队的事实为过去的情况提供例子。",
+        "detailed": "判断衔接关系时要先看空格属于哪一句。空格前已完整说出The World Cup used to be much smaller and more limited geographically，这一命题与上一句现在遍及全球形成反差。句末though能自然回接这一反差。下一句的历史实例不改变这个句末转折的功能。",
+        "choice_analysis": {
+          "A": "indeed表示强调或证实，不能准确标出过去与现在的反差。",
+          "B": "正确：句末though把过去较小、地域有限与现在规模更大、全球参与作对照。",
+          "C": "for example在这个位置附着于过去规模的句子，却没有前文的一般命题可供该句举例；真正例证在后一句。",
+          "D": "moreover表示递进补充，忽略现在与过去的对比。"
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "apac_b_025",
+      "section": "reading_writing",
+      "question_number": 25,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Most of the plant and bird species in Oahu, Hawaii, are non-native.\n• In a 2019 study, researchers wanted to know what role non-native birds play in dispersing plant seeds in Oahu.\n• Researchers catalogued plant seeds found in fecal samples from non-native birds.\n• Psydrax odorata, a flowering shrub, was one of fifteen native species catalogued.\n• Hedychium gardnerianum, an herbaceous vine, was one of twenty-nine non-native species catalogued.\n• Researchers concluded that non-native birds play a vital role in dispersing the seeds of native and non-native plants.",
+      "prompt": "The student wants to explain what Psydrax odorata is. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "In a 2019 study, researchers catalogued seeds from Psydrax odorata."
+        },
+        {
+          "label": "B",
+          "text": "Psydrax odorata is a flowering shrub species that is native to Oahu, Hawaii."
+        },
+        {
+          "label": "C",
+          "text": "Most plant species found in Oahu, Hawaii, like Hedychium gardnerianum, are non-native."
+        },
+        {
+          "label": "D",
+          "text": "Seeds from Psydrax odorata were found by researchers in the feces of non-native birds."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 25,
+      "explanation": {
+        "key_evidence": "The goal is to explain what Psydrax odorata is.",
+        "why_correct": "Choice B directly defines Psydrax odorata as a flowering shrub species native to Oahu, using only the relevant notes.",
+        "choice_analysis": {
+          "A": "Incorrect. It says seeds were catalogued but does not explain what Psydrax odorata is.",
+          "B": "Correct. It identifies the species type and native status.",
+          "C": "Incorrect. It focuses on Hedychium gardnerianum and non-native plants, not Psydrax odorata.",
+          "D": "Incorrect. It gives a study finding but not a direct explanation of what Psydrax odorata is."
+        },
+        "short": "The goal is to explain what Psydrax odorata is.",
+        "detailed": "Choice B directly defines Psydrax odorata as a flowering shrub species native to Oahu, using only the relevant notes."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "apac_b_027",
+      "section": "reading_writing",
+      "question_number": 27,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• 1905: US astronomer Percival Lowell begins searching beyond Neptune for a mysterious planet he calls \"Planet X.\"\n• 1916: Lowell dies but leaves money to upgrade his observatory.\n• 1929: A new telescope is built at the observatory.\n• February 1930: Observatory assistant Clyde Tombaugh records the first photographic evidence of Planet X.\n• March 1930: Astronomers rename Planet X, calling it Pluto to honor Lowell (the first two letters are Lowell's initials, PL).",
+      "prompt": "The student wants to specify Percival Lowell's contributions to the discovery of Pluto. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Astronomers renamed Planet X in 1930 to honor Lowell for his contributions to the discovery of Pluto."
+        },
+        {
+          "label": "B",
+          "text": "After a new telescope was built at Lowell's observatory in 1929, Clyde Tombaugh recorded the first photographic evidence of Plane X, later renamed Pluto."
+        },
+        {
+          "label": "C",
+          "text": "In 1930, Lowell became the first person to record photographic evidence of Pluto, known at the time as Planet X."
+        },
+        {
+          "label": "D",
+          "text": "Lowell began the search for Pluto in 1905 and later left money to upgrade the observatory where it was discovered in 1930."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 27,
+      "explanation": {
+        "key_evidence": "The goal is to specify Lowell's contributions to Pluto's discovery.",
+        "why_correct": "Choice D includes both of Lowell's relevant contributions: he began the search and funded the observatory upgrade that supported the later discovery.",
+        "choice_analysis": {
+          "A": "Incorrect. It says Lowell was honored but does not specify his actual contributions.",
+          "B": "Incorrect. It focuses on Tombaugh and contains the source's Plane X wording, not Lowell's contributions.",
+          "C": "Incorrect. Lowell died in 1916 and did not record the 1930 photographic evidence.",
+          "D": "Correct. It identifies Lowell's search and his funding for the observatory upgrade."
+        },
+        "short": "The goal is to specify Lowell's contributions to Pluto's discovery.",
+        "detailed": "Choice D includes both of Lowell's relevant contributions: he began the search and funded the observatory upgrade that supported the later discovery."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "apac_b_028",
+      "section": "reading_writing",
+      "question_number": 28,
+      "passage": "Scholars long thought that the initial spread of silk beyond China occurred in the second century CE, but this view has been [vocab]______[/vocab] by new archaeological evidence from South Asia that reveals that the people of the Indus Civilization made use of silk at least 1,000 years earlier.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "investigated"
+        },
+        {
+          "label": "B",
+          "text": "contradicted"
+        },
+        {
+          "label": "C",
+          "text": "misinterpreted"
+        },
+        {
+          "label": "D",
+          "text": "anticipated"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 28,
+      "explanation": {
+        "key_evidence": "The new archaeological evidence conflicts with the long-held view about when silk spread beyond China.",
+        "why_correct": "\"Contradicted\" fits because the evidence shows the earlier belief was wrong or incomplete.",
+        "choice_analysis": {
+          "A": "Incorrect. Investigated does not express that the evidence challenges the prior view.",
+          "B": "Correct. Contradicted means shown to be contrary to the evidence.",
+          "C": "Incorrect. Misinterpreted would mean the view was understood incorrectly, but the sentence says the view was challenged by new evidence.",
+          "D": "Incorrect. Anticipated means expected beforehand, which does not fit."
+        },
+        "short": "The new archaeological evidence conflicts with the long-held view about when silk spread beyond China.",
+        "detailed": "\"Contradicted\" fits because the evidence shows the earlier belief was wrong or incomplete."
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "apac_b_029",
+      "section": "reading_writing",
+      "question_number": 29,
+      "passage": "In a 2022 study, Nicolás M. Morato and colleagues attempted to resolve a long-standing paradox: although water is critical to most reactions that enable life, during the earliest stages of Earth's history — when most of the planet's surface was covered by oceans — the presence of water likely [vocab]______[/vocab] the formation of proteins and other biomolecules that are found in all living organisms.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "exploited"
+        },
+        {
+          "label": "B",
+          "text": "imitated"
+        },
+        {
+          "label": "C",
+          "text": "hampered"
+        },
+        {
+          "label": "D",
+          "text": "reflected"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 29,
+      "explanation": {
+        "key_evidence": "The word must express the negative side of the paradox.",
+        "why_correct": "\"Hampered\" means hindered or obstructed, which fits the idea that water likely made forming proteins and biomolecules more difficult.",
+        "choice_analysis": {
+          "A": "Incorrect. Exploited means used for advantage, not obstructed.",
+          "B": "Incorrect. Imitated means copied.",
+          "C": "Correct. Hampered means hindered, matching the paradox.",
+          "D": "Incorrect. Reflected means showed or mirrored, which does not fit the causal relation."
+        },
+        "short": "The word must express the negative side of the paradox.",
+        "detailed": "\"Hampered\" means hindered or obstructed, which fits the idea that water likely made forming proteins and biomolecules more difficult."
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "apac_b_030",
+      "section": "reading_writing",
+      "question_number": 30,
+      "passage": "A team of microbiologists measured surface temperatures of various wild mushrooms, including Amanita muscaria and a species from the genus Thelephora. The temperatures ranged from 1.4 to 5.9°C lower than the temperature of the surrounding air, a difference the team [vocab]______[/vocab] to water evaporating from the mushrooms and thus cooling them.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "conceded"
+        },
+        {
+          "label": "B",
+          "text": "prescribed"
+        },
+        {
+          "label": "C",
+          "text": "attributed"
+        },
+        {
+          "label": "D",
+          "text": "amended"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 30,
+      "explanation": {
+        "key_evidence": "The sentence needs a verb meaning the team explained the difference as being caused by evaporation.",
+        "why_correct": "\"Attributed\" fits the phrase \"attributed to,\" meaning regarded as caused by water evaporating from the mushrooms.",
+        "choice_analysis": {
+          "A": "Incorrect. Conceded means admitted reluctantly and does not fit the cause phrase.",
+          "B": "Incorrect. Prescribed means recommended or ordered, not explained as caused by.",
+          "C": "Correct. Attributed to means explained as caused by.",
+          "D": "Incorrect. Amended means changed or revised."
+        },
+        "short": "The sentence needs a verb meaning the team explained the difference as being caused by evaporation.",
+        "detailed": "\"Attributed\" fits the phrase \"attributed to,\" meaning regarded as caused by water evaporating from the mushrooms."
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "apac_b_031",
+      "section": "reading_writing",
+      "question_number": 31,
+      "passage": "Despite stated claims of the [vocab]______[/vocab] of the research, much analysis of income inequality performed in the 2010s suffered from a myopic focus on a few countries in North America and Western Europe, partly due to limited data availability. Researchers would later remedy this shortcoming after gaining new access to administrative records located in nations in Africa, such as Ivory Coast, and Eastern Europe, such as Poland.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "novelty"
+        },
+        {
+          "label": "B",
+          "text": "immutability"
+        },
+        {
+          "label": "C",
+          "text": "exhaustiveness"
+        },
+        {
+          "label": "D",
+          "text": "pervasiveness"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 31,
+      "explanation": {
+        "key_evidence": "The research was claimed to be broad, but it focused myopically on only a few countries.",
+        "why_correct": "\"Exhaustiveness\" means comprehensiveness or thoroughness, which fits the contrast between the stated claims and the later-described shortcoming.",
+        "choice_analysis": {
+          "A": "Incorrect. Novelty means newness, not broad coverage.",
+          "B": "Incorrect. Immutability means unchangeableness, but the passage says later researchers remedied the shortcoming.",
+          "C": "Correct. Exhaustiveness captures the claimed comprehensive scope that the research did not actually have.",
+          "D": "Incorrect. Pervasiveness means widespread occurrence, not thoroughness of research coverage."
+        },
+        "short": "The research was claimed to be broad, but it focused myopically on only a few countries.",
+        "detailed": "\"Exhaustiveness\" means comprehensiveness or thoroughness, which fits the contrast between the stated claims and the later-described shortcoming."
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "apac_b_032",
+      "section": "reading_writing",
+      "question_number": 32,
+      "passage": "The following text is from Yung Wing's 1909 memoir My Life in China and America. Yung Wing was the first person from China to graduate from a US university.\n\n[u]Little did I realize when in 1845 I wrote, while in the Morrison School, a composition on \"An Imaginary Voyage to New York and up the Hudson,\" that I was to see New York in reality.[/u] This incident leads me to the reflection that sometimes our imagination foreshadows what lies uppermost in our minds and brings possibilities within the sphere of realities.",
+      "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It foreshadows Yung's eventual success as a writer."
+        },
+        {
+          "label": "B",
+          "text": "It indicates Yung's unwillingness to distinguish between reality and fantasy as a child."
+        },
+        {
+          "label": "C",
+          "text": "It illustrates the sense of adventure that Yung developed as a child."
+        },
+        {
+          "label": "D",
+          "text": "It describes an event in Yung's life that exemplifies a phenomenon."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 32,
+      "explanation": {
+        "key_evidence": "The underlined sentence recounts an event that later becomes an example of imagination foreshadowing reality.",
+        "why_correct": "Choice D is correct because the underlined autobiographical event illustrates the phenomenon explained in the following sentence: imagination can foreshadow what later becomes real.",
+        "choice_analysis": {
+          "A": "Incorrect. The sentence does not foreshadow success as a writer.",
+          "B": "Incorrect. The passage does not show that Yung confused reality and fantasy.",
+          "C": "Incorrect. The sentence involves an imagined voyage, but its function is to set up the later reflection, not mainly to show a childhood sense of adventure.",
+          "D": "Correct. It describes an event in Yung's life that exemplifies the phenomenon named in the next sentence."
+        },
+        "short": "The underlined sentence recounts an event that later becomes an example of imagination foreshadowing reality.",
+        "detailed": "Choice D is correct because the underlined autobiographical event illustrates the phenomenon explained in the following sentence: imagination can foreshadow what later becomes real."
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "structural_function"
+      }
+    },
+    {
+      "question_id": "apac_b_033",
+      "section": "reading_writing",
+      "question_number": 33,
+      "passage": "The following text is from Jerome K. Jerome's 1889 novel Three Men in a Boat (To Say Nothing of the Dog). The narrator and two friends are taking a boat down the River Thames in England.\n\nIn a boat, I have always noticed that it is the fixed idea of each member of the crew that he is doing everything. [u]Harris's notion was, that it was he alone who had been working, and that both George and I had been imposing upon him.[/u] George, on the other hand, ridiculed the idea of Harris's having done anything more than eat and sleep, and had a cast-iron opinion that it was he — George himself — who had done all the labour worth speaking of.",
+      "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It establishes Harris's feelings about the narrator's idea of how boat trips usually proceed."
+        },
+        {
+          "label": "B",
+          "text": "It offers Harris's belief as a specific example of a trend the narrator has observed while boating."
+        },
+        {
+          "label": "C",
+          "text": "It suggests that Harris is focused on helping the group navigate a challenge."
+        },
+        {
+          "label": "D",
+          "text": "It demonstrates that Harris finds his experiences on the boat to be confusing."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 33,
+      "explanation": {
+        "key_evidence": "The underlined sentence gives Harris's version of the general trend introduced in the prior sentence.",
+        "why_correct": "Choice B is correct because the narrator first states a general boating pattern, then presents Harris's belief as a specific example.",
+        "choice_analysis": {
+          "A": "Incorrect. The sentence does not describe Harris's feelings about the narrator's idea of boat trips.",
+          "B": "Correct. It offers Harris's belief as an example of a trend the narrator has observed.",
+          "C": "Incorrect. The sentence is about perceived labor, not navigating a challenge.",
+          "D": "Incorrect. Harris is mistaken, but he is not described as confused."
+        },
+        "short": "The underlined sentence gives Harris's version of the general trend introduced in the prior sentence.",
+        "detailed": "Choice B is correct because the narrator first states a general boating pattern, then presents Harris's belief as a specific example."
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "structural_function"
+      }
+    },
+    {
+      "question_id": "apac_b_034",
+      "section": "reading_writing",
+      "question_number": 34,
+      "passage": "Driven to sell as many paintings as possible, Alfred Hair, an influential figure among the landscape artists known as the Florida Highwaymen, pioneered \"fast painting,\" a technique (which in part involved swift applications of paint) that many Highwaymen, including Livingston Roberts, adopted. [u]To conclude that this approach accounts for the ethereal qualities now synonymous with the Highwaymen aesthetic is tempting but inaccurate, as Hair's methods weren't universally practiced by his affiliates:[/u] George Buckner, for example, painted with greater deliberateness but achieved the same effects.",
+      "prompt": "Which choice best describes the function of the underlined portion in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It details evidence that contradicts a claim mentioned earlier in the text about a long-standing disagreement within a group of artists."
+        },
+        {
+          "label": "B",
+          "text": "It considers and rebuts an interpretation of the effect of a painting technique mentioned earlier in the text on the perception of work by a group of artists."
+        },
+        {
+          "label": "C",
+          "text": "It establishes a contrast between the aesthetic qualities of works by artists who were central to a movement introduced earlier in the text and those of an artist who was more peripheral to that movement."
+        },
+        {
+          "label": "D",
+          "text": "It explains how an artist mentioned earlier in the text developed a distinctive style by adapting a particular approach to painting originated by his colleagues."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 34,
+      "explanation": {
+        "key_evidence": "The underlined portion calls one interpretation tempting but inaccurate and gives the reason it is inaccurate.",
+        "why_correct": "Choice B is correct because the underlined portion considers and rebuts an interpretation of fast painting's effect on how the Highwaymen aesthetic is understood.",
+        "choice_analysis": {
+          "A": "Incorrect. The passage does not mention a long-standing disagreement within the group.",
+          "B": "Correct. The underlined portion raises an interpretation and rejects it by noting that Hair's method was not universal.",
+          "C": "Incorrect. The passage says Buckner achieved the same effects, not contrasting central artists' aesthetics with a peripheral artist's aesthetics.",
+          "D": "Incorrect. The underlined portion does not explain an artist's development of a distinctive style from colleagues' methods."
+        },
+        "short": "The underlined portion calls one interpretation tempting but inaccurate and gives the reason it is inaccurate.",
+        "detailed": "Choice B is correct because the underlined portion considers and rebuts an interpretation of fast painting's effect on how the Highwaymen aesthetic is understood."
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "structural_function"
+      }
+    },
+    {
+      "question_id": "apac_b_035",
+      "section": "reading_writing",
+      "question_number": 35,
+      "passage": "Studies of ocean wave breaking have predominantly focused on traveling waves (those propagating along the horizontal plane), so Mark McAllister et al. utilized a circular wave tank to produce and study spike waves, axisymmetric standing waves that can erupt vertically when traveling waves propagating in opposing directions intersect. Traveling waves break when wave steepness (height-to-length ratio) passes a critical threshold; breaking thus constrains wave height. McAllister et al. found that spike waves can exceed that constraint, as other factors than just steepness (e.g., jet stability and cavity shape) mediate spike-wave breaking.",
+      "prompt": "Which choice best states the main idea of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "McAllister et al. suggest that spike waves can form when traveling waves propagating in opposing directions intersect and that spike waves tend to be higher than traveling waves."
+        },
+        {
+          "label": "B",
+          "text": "The process of breaking limits the height of traveling waves, but the study by McAllister et al. suggests that spike waves can exceed those limits if their height-to-length ratio reaches a critical threshold."
+        },
+        {
+          "label": "C",
+          "text": "The study by McAllister et al. suggests that when traveling waves intersect in specific ways, the resulting wave may be higher than would be expected based on the properties of traveling waves."
+        },
+        {
+          "label": "D",
+          "text": "Previous studies have suggested that steepness mediates breaking in traveling waves, but the study by McAllister et al. shows that jet stability and cavity shape may also influence breaking in such waves."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 35,
+      "explanation": {
+        "key_evidence": "The text contrasts known constraints on traveling waves with McAllister et al.'s finding about spike waves.",
+        "why_correct": "Choice C is correct because it states the main idea: when traveling waves intersect in certain ways, the resulting spike wave may be higher than expected from the properties of traveling waves.",
+        "choice_analysis": {
+          "A": "Incorrect. The passage says spike waves can exceed a constraint on traveling-wave height, not that they generally tend to be higher than traveling waves.",
+          "B": "Incorrect. It falsely applies the height-to-length threshold condition to spike waves; the passage says other factors mediate spike-wave breaking.",
+          "C": "Correct. It captures the formation of spike waves and the finding that they can exceed expectations based on traveling-wave constraints.",
+          "D": "Incorrect. Jet stability and cavity shape are factors for spike-wave breaking, not for traveling-wave breaking."
+        },
+        "short": "The text contrasts known constraints on traveling waves with McAllister et al.'s finding about spike waves.",
+        "detailed": "Choice C is correct because it states the main idea: when traveling waves intersect in certain ways, the resulting spike wave may be higher than expected from the properties of traveling waves."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "main_idea_or_detail"
+      }
+    },
+    {
+      "question_id": "apac_b_036",
+      "section": "reading_writing",
+      "question_number": 36,
+      "passage": "Optimal foraging theory (OFT) holds that animals' foraging behaviors reflect cost-benefit trade-offs that vary by species and with dynamic ecological circumstances. One such circumstance is lunar intensity, which Joel Brown and colleagues found to be negatively associated with foraging by Arizona pocket mice but Patricia C. Wright found to be positively associated with foraging by three-striped night monkeys. This discrepancy is explicable in terms of OFT: the monkeys' greater reliance on vision means that higher lunar intensity benefits them more than it benefits the mice.",
+      "prompt": "Which choice best describes the finding made by Wright, as presented in the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "During periods of high lunar intensity, three-striped night monkeys increase their reliance on vision."
+        },
+        {
+          "label": "B",
+          "text": "As lunar intensity increases, Arizona pocket mice reduce their foraging activity."
+        },
+        {
+          "label": "C",
+          "text": "As lunar intensity increases, three-striped night monkeys increase their foraging activity."
+        },
+        {
+          "label": "D",
+          "text": "Increased lunar intensity is more beneficial for three-striped night monkeys than it is for Arizona pocket mice."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 36,
+      "explanation": {
+        "key_evidence": "Wright's finding is the positive association between lunar intensity and night monkey foraging.",
+        "why_correct": "Choice C is correct because a positive association means that as lunar intensity increases, three-striped night monkeys increase their foraging activity.",
+        "choice_analysis": {
+          "A": "Incorrect. The passage says the monkeys rely more on vision generally, not that they increase reliance during high lunar intensity.",
+          "B": "Incorrect. That describes Brown's finding about Arizona pocket mice.",
+          "C": "Correct. It restates Wright's finding.",
+          "D": "Incorrect. This is part of the explanation of the discrepancy, not Wright's finding itself."
+        },
+        "short": "Wright's finding is the positive association between lunar intensity and night monkey foraging.",
+        "detailed": "Choice C is correct because a positive association means that as lunar intensity increases, three-striped night monkeys increase their foraging activity."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "apac_b_037",
+      "section": "reading_writing",
+      "question_number": 37,
+      "passage": "Nautilids are marine mollusks that begin growing their shells before emerging from their eggs and continue to add shell segments throughout their lifetimes. The walls between their shells' chambers are called septa, and the deeper the water in which a septum forms, the greater the concentration of the isotope oxygen-18 the septum will contain. Since temperature falls as depth increases, if the area of ocean a nautilid inhabits is known, this isotopic signature can reveal the temperature at which its septa formed. Paleontologist Amane Tajika and colleagues examined each of the septa in two nautilid shells and concluded that septum sample M23 formed at a temperature of 14.0°C whereas sample F02 formed at 20.8°C.",
+      "prompt": "Which finding, if true, would most directly weaken the researchers' conclusion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "At a depth of 140 meters in the nautilids' habitat, the water is 20.8°C and the concentration of oxygen-18 is equal to that in sample F02."
+        },
+        {
+          "label": "B",
+          "text": "The concentration of oxygen-18 in F02 is higher than that in M23."
+        },
+        {
+          "label": "C",
+          "text": "The concentration of oxygen-18 in F02 is lower than that in M23."
+        },
+        {
+          "label": "D",
+          "text": "At a depth of 385 meters in the nautilids' habitat, the water is 14.0°C and the concentration of oxygen-18 is equal to that in sample M23."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 37,
+      "explanation": {
+        "key_evidence": "Greater oxygen-18 indicates formation in deeper, colder water.",
+        "why_correct": "Choice B would weaken the conclusion because F02 was concluded to have formed at 20.8 C while M23 formed at 14.0 C; if F02 had higher oxygen-18 than M23, the isotope evidence would point the other way.",
+        "choice_analysis": {
+          "A": "Incorrect. This is consistent with F02 forming at 20.8 C.",
+          "B": "Correct. It contradicts the expected isotope relationship for the inferred temperatures.",
+          "C": "Incorrect. Lower oxygen-18 in warmer F02 would support the conclusion.",
+          "D": "Incorrect. This is consistent with M23 forming at 14.0 C."
+        },
+        "short": "Greater oxygen-18 indicates formation in deeper, colder water.",
+        "detailed": "Choice B would weaken the conclusion because F02 was concluded to have formed at 20.8 C while M23 formed at 14.0 C; if F02 had higher oxygen-18 than M23, the isotope evidence would point the other way."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "textual_evidence"
+      }
+    },
+    {
+      "question_id": "apac_b_038",
+      "section": "reading_writing",
+      "question_number": 38,
+      "passage": "In Diné (Navajo) culture, ikaah (sandpaintings) are created and then erased as part of sacred healing ceremonies lasting no more than a few days, but Diné hataalii (chanter; healer; cultural guide) Fred Stevens developed fixatives to preserve desacralized sandpaintings. While on a US-sponsored cultural ambassadorial trip in Europe and the Americas in the 1960s, Stevens produced several such sandpaintings and gave them to cultural institutions. This may seem in tension with the role of cultural ambassador—how could static objects authentically represent an inherently ephemeral and dynamic practice?—but such a view is itself overly object-focused and neglects how Stevens strove to convey exactly those characteristics of ikaah as a cultural practice.",
+      "prompt": "Which quotation from an art historian would most directly support the claim made in the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"Stevens's ambassadorial sandpaintings are best understood not as self-contained objects but as reminders of the public creations of the sandpaintings, during which Stevens conducted appropriate ikaah rituals and encouraged viewers to closely track his movements and subtle shifts in the sand throughout the process.\""
+        },
+        {
+          "label": "B",
+          "text": "\"While Stevens's ambassadorial sandpaintings are undoubtedly educational for audiences that have little exposure to Diné culture, they should not be confused with authentic ikaah, which cannot be extricated from a practice that is intentionally and necessarily transitory nor condensed into a single persistent object.\""
+        },
+        {
+          "label": "C",
+          "text": "\"The most compelling way to reconcile the apparent tension between the temporary and performative nature of ikaah and the persistent and static nature of Stevens's ambassadorial sandpaintings is to recognize that Stevens was an ambassador not only of Diné culture but of a US art culture that tended to value permanent works over ephemeral ones.\""
+        },
+        {
+          "label": "D",
+          "text": "\"It is important to recall Stevens's own actions as a gift-giver—a temporary and performative role—of the sandpaintings, for by taking those actions, Stevens publicly enacted the transmission of knowledge of both traditional ikaah practices and cutting-edge chemistry (in the form of the preservative additives), a hybrid that reflects the dynamism of Diné culture.\""
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 38,
+      "explanation": {
+        "key_evidence": "The passage's claim is that Stevens conveyed the ephemeral and dynamic characteristics of ikaah rather than merely creating static objects.",
+        "why_correct": "Choice A is correct because it directly supports that claim by describing the sandpaintings as reminders of the public creation process, rituals, viewer attention, movements, and subtle shifts in the sand.",
+        "choice_analysis": {
+          "A": "Correct. It connects the preserved works to the dynamic public practice of creating ikaah.",
+          "B": "Incorrect. It says the preserved works should not be confused with authentic ikaah, which undercuts rather than supports the passage's claim.",
+          "C": "Incorrect. It shifts the explanation to US art culture's preference for permanence, not Stevens's effort to convey ikaah's dynamic characteristics.",
+          "D": "Incorrect. It emphasizes gift-giving and chemistry, but it does not as directly support the claim about conveying the sandpainting practice itself."
+        },
+        "short": "The passage's claim is that Stevens conveyed the ephemeral and dynamic characteristics of ikaah rather than merely creating static objects.",
+        "detailed": "Choice A is correct because it directly supports that claim by describing the sandpaintings as reminders of the public creation process, rituals, viewer attention, movements, and subtle shifts in the sand."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "textual_evidence"
+      }
+    },
+    {
+      "question_id": "apac_b_039",
+      "section": "reading_writing",
+      "question_number": 39,
+      "passage": "Table:\n\nCape type the spiders looked at first | spider attacks on termites with solid black capes | spider attacks on termites with solid white capes | attacks on termites with black-and-white striped capes solid black cape | 60% | 26% | 13% solid white cape | 14% | 86% | 0% black-and-white striped cape | 25% | 50% | 25%\n\nSome animals evade predation with the help of contrasting markings that signal toxicity. Lisa Taylor and team studied how jumping spiders behave toward termites (their regular prey) to which solid black, solid white, or black-and-white striped (i.e., contrasting) capes were affixed. Each spider was placed in a clear container in the center of a circular dish in which six termites, two with each of the three cape types, could be seen. Noting which termites the spiders first looked at and which termites they ultimately targeted, the researchers concluded that contrasting markings were a deterrent.",
+      "prompt": "Which choice best describes data from the table that support Taylor and team's conclusion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Half of the spiders that first looked at a termite wearing a black-and-white striped cape attacked a termite wearing a solid white cape, and the other half of those spiders were just as likely to attack a termite wearing a black-and-white striped cape as they were to attack a termite wearing a solid black cape."
+        },
+        {
+          "label": "B",
+          "text": "For each type of cape, a majority of the spiders that first looked at a termite wearing that type of cape attacked a termite wearing that same type of cape."
+        },
+        {
+          "label": "C",
+          "text": "Regardless of the type of cape worn by termites the spiders first looked at, the large majority of spider attacks were on termites wearing solid-color capes."
+        },
+        {
+          "label": "D",
+          "text": "None of the spiders that first looked at a termite wearing a solid white cape attacked a termite wearing a black-and-white striped cape."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 39,
+      "explanation": {
+        "key_evidence": "The table broadly shows that spiders attacked solid-color capes far more often than contrasting striped capes.",
+        "why_correct": "Choice C is correct because it uses the full table pattern: regardless of which cape type spiders first looked at, most attacks were on solid-color capes, supporting the conclusion that contrasting markings deterred attacks.",
+        "choice_analysis": {
+          "A": "Incorrect. It accurately describes one row but emphasizes a split within the striped-first row rather than the broad deterrence pattern.",
+          "B": "Incorrect. It is false; for the striped-first row, only 25% attacked striped capes.",
+          "C": "Correct. It captures the consistent full-table pattern supporting the researchers' conclusion.",
+          "D": "Incorrect. It is true for one row, but it is narrower than the best table-wide evidence."
+        },
+        "short": "The table broadly shows that spiders attacked solid-color capes far more often than contrasting striped capes.",
+        "detailed": "Choice C is correct because it uses the full table pattern: regardless of which cape type spiders first looked at, most attacks were on solid-color capes, supporting the conclusion that contrasting markings deterred attacks."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "data_evidence"
+      },
+      "visual_assets": [
+        {
+          "chart_type": "table",
+          "chart_description": "Spider attacks on termites with different cape types",
+          "chart_data": {
+            "headers": [
+              "Cape type looked at first",
+              "Solid black cape attacks",
+              "Solid white cape attacks",
+              "Black-and-white striped cape attacks"
+            ],
+            "rows": [
+              [
+                "Solid black cape",
+                "60%",
+                "26%",
+                "13%"
+              ],
+              [
+                "Solid white cape",
+                "14%",
+                "86%",
+                "0%"
+              ],
+              [
+                "Black-and-white striped cape",
+                "25%",
+                "50%",
+                "25%"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "question_id": "apac_b_040",
+      "section": "reading_writing",
+      "question_number": 40,
+      "passage": "Rafael Núñez and colleagues studied how members of the Yupno, an Indigenous group in Papua New Guinea, conceptualize time in both spoken language and gestures. The researchers recorded Yupno speakers explaining certain temporal words and phrases, such as omo-ropmo bilak, a past-oriented expression that translates to \"a couple of years ago,\" and coded each speaker's manual gestures. Previous research has found a tendency in many cultures to make temporal distinctions along imagined linear axes: for instance, English speakers often refer to the front/back axis to describe events in time. Some researchers believe this tendency is universal, but Núñez and colleagues claim this is not the case.",
+      "prompt": "Which finding, if true, would most directly support Núñez and colleagues' claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Yupno speakers typically use their left hand to make temporal gestures regardless of whether the gestures are past oriented or future oriented."
+        },
+        {
+          "label": "B",
+          "text": "Some Yupno grammatical structures used when talking about time are also used in English."
+        },
+        {
+          "label": "C",
+          "text": "Yupno speakers were observed making temporal gestures both indoors and outdoors, though with greater frequency when indoors."
+        },
+        {
+          "label": "D",
+          "text": "Future-oriented gestures used by Yupno speakers do not, on average, point in the opposite linear direction of past-oriented gestures."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 40,
+      "explanation": {
+        "key_evidence": "Nunez and colleagues claim that linear temporal-axis distinctions are not universal.",
+        "why_correct": "Choice D directly supports that claim because it shows Yupno past- and future-oriented gestures are not organized as opposite directions on a single imagined line.",
+        "choice_analysis": {
+          "A": "Incorrect. Handedness does not address whether temporal distinctions follow a linear axis.",
+          "B": "Incorrect. Shared grammar with English would not support a challenge to universality.",
+          "C": "Incorrect. Indoor versus outdoor frequency is irrelevant to linear temporal axes.",
+          "D": "Correct. It directly challenges the expected opposite-direction pattern of a linear time axis."
+        },
+        "short": "Nunez and colleagues claim that linear temporal-axis distinctions are not universal.",
+        "detailed": "Choice D directly supports that claim because it shows Yupno past- and future-oriented gestures are not organized as opposite directions on a single imagined line."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "textual_evidence"
+      }
+    },
+    {
+      "question_id": "apac_b_041",
+      "section": "reading_writing",
+      "question_number": 41,
+      "passage": "Whistler waves are low-frequency plasma waves that on Earth are typically generated by lightning. Numerous recordings of whistler waves on Venus have led many scientists to suggest that the planet's atmosphere is host to extensive amounts of lightning, and, in fact, Venusian whistler waves have similar energy signatures to those of whistler waves generated by lightning on Earth. The majority of Venusian whistler wave data come from two spacecraft missions—the Pioneer Venus Orbiter (PVO) and the Venus Express (VEX)—which have included few observations of other phenomena consistent with lightning occurrences (such as flashes of light), leading other scientists to suggest that ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "there are geophysical characteristics of Venus not shared with Earth that promote the generation of whistler waves."
+        },
+        {
+          "label": "B",
+          "text": "the purported Venusian whistler waves must actually be some other type of atmospheric activity than whistler waves."
+        },
+        {
+          "label": "C",
+          "text": "Venusian lightning has properties that make it unlikely to generate whistler waves."
+        },
+        {
+          "label": "D",
+          "text": "similarities in the energy signatures of Venusian and Earth whistler waves may reflect imprecisions in the PVO and VEX data."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 41,
+      "explanation": {
+        "key_evidence": "The skeptical scientists focus on the lack of other lightning evidence despite recordings of whistler waves.",
+        "why_correct": "Choice A is correct because it offers a non-lightning explanation for Venusian whistler waves: Venus may have geophysical characteristics not shared with Earth that promote their generation.",
+        "choice_analysis": {
+          "A": "Correct. It explains how whistler waves could occur without requiring extensive lightning evidence.",
+          "B": "Incorrect. The passage still treats the recordings as whistler wave data; the issue is their source.",
+          "C": "Incorrect. The passage says lightning generates whistler waves on Earth and does not suggest Venusian lightning could not do so.",
+          "D": "Incorrect. The lack of flashes or other lightning evidence does not point to imprecisions in the PVO and VEX energy-signature data."
+        },
+        "short": "The skeptical scientists focus on the lack of other lightning evidence despite recordings of whistler waves.",
+        "detailed": "Choice A is correct because it offers a non-lightning explanation for Venusian whistler waves: Venus may have geophysical characteristics not shared with Earth that promote their generation."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "apac_b_042",
+      "section": "reading_writing",
+      "question_number": 42,
+      "passage": "In the world's democracies, proportionally few elected representatives are young adults. While some philosophers argue that certain types of underrepresentation (of women, for example) are unfair in principle and should be remediated via quotas, there is broad agreement that youth underrepresentation is not inherently unfair since it is universal (all people are underrepresented when young), temporary (underrepresented young people become overrepresented older people), and reflective of a legitimate concern (lack of relevant experience). Accordingly, when philosopher Juliana Uhuru Bidadanure advocates for youth quotas for elected representatives, she does so on the basis of their instrumental value for promoting youth interests, arguing that ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "young adults may lack certain kinds of experience but those experiences are not relevant to the question of whether youth underrepresentation is fair in principle."
+        },
+        {
+          "label": "B",
+          "text": "age-related quotas would alleviate the inherently unfair overrepresentation of older people that tends to occur in the world's democracies."
+        },
+        {
+          "label": "C",
+          "text": "youth underrepresentation may be fair in principle but leads to worse outcomes for young adults than could be achieved with more proportionate youth representation."
+        },
+        {
+          "label": "D",
+          "text": "it does not matter that youth underrepresentation is universal, temporary, and reflective of a legitimate concern since it is inherently unfair."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 42,
+      "explanation": {
+        "key_evidence": "The passage separates fairness in principle from outcomes for young adults.",
+        "why_correct": "Choice C is correct because it allows youth underrepresentation to be fair in principle while explaining why quotas could still improve outcomes for young adults.",
+        "choice_analysis": {
+          "A": "Incorrect. It returns to fairness in principle and experience, but Bidadanure's stated basis is instrumental value for youth interests.",
+          "B": "Incorrect. The passage rejects the idea that older people's overrepresentation is inherently unfair.",
+          "C": "Correct. It matches the instrumental-value argument: more proportionate youth representation could produce better outcomes for young adults.",
+          "D": "Incorrect. It contradicts the stated agreement that youth underrepresentation is not inherently unfair."
+        },
+        "short": "The passage separates fairness in principle from outcomes for young adults.",
+        "detailed": "Choice C is correct because it allows youth underrepresentation to be fair in principle while explaining why quotas could still improve outcomes for young adults."
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "apac_b_043",
+      "section": "reading_writing",
+      "question_number": 43,
+      "passage": "\"Paper Dragons\" by James P. Blaylock, The Ape's Wife and Other Stories by Caitlin R. Kiernan, and \"Confess the Seasons\" by Charles L. Grant are all pieces of literature that have won the prestigious World Fantasy ______ the works received the honor in the categories of short story, collection, and novella, respectively.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Award,"
+        },
+        {
+          "label": "B",
+          "text": "Award;"
+        },
+        {
+          "label": "C",
+          "text": "Award and"
+        },
+        {
+          "label": "D",
+          "text": "Award"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 43,
+      "explanation": {
+        "key_evidence": "Both sides of the blank are independent clauses.",
+        "why_correct": "Choice B is correct because a semicolon can separate two closely related independent clauses without a coordinating conjunction.",
+        "choice_analysis": {
+          "A": "Incorrect. A comma alone would create a comma splice.",
+          "B": "Correct. The semicolon correctly joins the two independent clauses.",
+          "C": "Incorrect. Adding and after Award would not correctly connect the clauses as written.",
+          "D": "Incorrect. No punctuation would create a run-on sentence."
+        },
+        "short": "Both sides of the blank are independent clauses.",
+        "detailed": "Choice B is correct because a semicolon can separate two closely related independent clauses without a coordinating conjunction."
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "apac_b_044",
+      "section": "reading_writing",
+      "question_number": 44,
+      "passage": "All member nations of the North Atlantic Treaty Organization, or NATO — including Iceland, which joined in 1949; Hungary, which joined in 1999; and Bulgaria, which joined in ______ are committed to NATO's principle of collective defense, each member pledging to defend all others.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2004;"
+        },
+        {
+          "label": "B",
+          "text": "2004,"
+        },
+        {
+          "label": "C",
+          "text": "2004"
+        },
+        {
+          "label": "D",
+          "text": "2004 —"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 44,
+      "explanation": {
+        "key_evidence": "The sentence opens an em-dash interruption after NATO and must close it before 'are committed'.",
+        "why_correct": "Choice D is correct because the em dash after 2004 closes the parenthetical list of NATO members, allowing the main clause to resume.",
+        "choice_analysis": {
+          "A": "Incorrect. A semicolon would incorrectly separate the final list item from the main verb phrase.",
+          "B": "Incorrect. A comma would not close the dash-set-off interruption.",
+          "C": "Incorrect. No punctuation leaves the parenthetical interruption unclosed.",
+          "D": "Correct. The dash closes the phrase that began after NATO."
+        },
+        "short": "The sentence opens an em-dash interruption after NATO and must close it before 'are committed'.",
+        "detailed": "Choice D is correct because the em dash after 2004 closes the parenthetical list of NATO members, allowing the main clause to resume."
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "apac_b_045",
+      "section": "reading_writing",
+      "question_number": 45,
+      "passage": "Multidisciplinary at its core, ______",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Diné/Creek artist Anna Tsouhlarakis engages a range of art forms — primarily video, photography, and performance — in her body of work."
+        },
+        {
+          "label": "B",
+          "text": "video, photography, and performance are among the range of art forms that Diné/Creek artist Anna Tsouhlarakis primarily engages in her body of work."
+        },
+        {
+          "label": "C",
+          "text": "a range of art forms — primarily video, photography, and performance — are engaged by Diné/Creek artist Anna Tsouhlarakis in her body of work."
+        },
+        {
+          "label": "D",
+          "text": "Diné/Creek artist Anna Tsouhlarakis's body of work engages a range of art forms — primarily video, photography, and performance."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 45,
+      "explanation": {
+        "key_evidence": "The introductory modifier must logically describe the subject that immediately follows the comma.",
+        "why_correct": "Choice D is correct because 'Anna Tsouhlarakis's body of work' can be multidisciplinary at its core and agrees with the pronoun 'its'.",
+        "choice_analysis": {
+          "A": "Incorrect. It makes the artist herself the thing that is 'multidisciplinary at its core,' which is less precise and conflicts with 'its'.",
+          "B": "Incorrect. It places the art forms after the modifier, creating an illogical modification.",
+          "C": "Incorrect. It places 'a range of art forms' after the modifier and uses awkward passive structure.",
+          "D": "Correct. The modifier logically describes the body of work."
+        },
+        "short": "The introductory modifier must logically describe the subject that immediately follows the comma.",
+        "detailed": "Choice D is correct because 'Anna Tsouhlarakis's body of work' can be multidisciplinary at its core and agrees with the pronoun 'its'."
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "modifier_placement"
+      }
+    },
+    {
+      "question_id": "apac_b_046",
+      "section": "reading_writing",
+      "question_number": 46,
+      "passage": "At the Chicxulub asteroid impact crater in Mexico, the presence of many fossilized microbacteria, which seem to have thrived there despite the extreme heat that persisted after the Chicxulub impact, ______ claims that bacteria are among the planet's most resilient organisms.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "reinforce"
+        },
+        {
+          "label": "B",
+          "text": "have reinforced"
+        },
+        {
+          "label": "C",
+          "text": "reinforces"
+        },
+        {
+          "label": "D",
+          "text": "are reinforcing"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 46,
+      "explanation": {
+        "key_evidence": "The grammatical subject is 'the presence', not the plural 'microbacteria'.",
+        "why_correct": "Choice C is correct because 'reinforces' is singular and agrees with the singular subject 'presence'.",
+        "choice_analysis": {
+          "A": "Incorrect. 'Reinforce' is plural.",
+          "B": "Incorrect. 'Have reinforced' is plural.",
+          "C": "Correct. 'Reinforces' agrees with 'presence'.",
+          "D": "Incorrect. 'Are reinforcing' is plural and does not fit the sentence."
+        },
+        "short": "The grammatical subject is 'the presence', not the plural 'microbacteria'.",
+        "detailed": "Choice C is correct because 'reinforces' is singular and agrees with the singular subject 'presence'."
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "apac_b_047",
+      "section": "reading_writing",
+      "question_number": 47,
+      "passage": "In Xu Bing's art installation Book from the Sky, each one of the thousands of faux Chinese characters — printed in precise columns on the trio of long scrolls that swoop across the ceiling, on the rows of open books that undulate along the floor, and on the paper walls that stand to the sides — ______ no meaning. Invented by Bing, the characters present plausibly and grandiosely, inviting yet punishing those who yearn to decode them.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "hold"
+        },
+        {
+          "label": "B",
+          "text": "holds"
+        },
+        {
+          "label": "C",
+          "text": "have held"
+        },
+        {
+          "label": "D",
+          "text": "were holding"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 47,
+      "explanation": {
+        "key_evidence": "The long interrupting phrase does not change the singular subject 'each one'.",
+        "why_correct": "Choice B is correct because 'holds' agrees with the singular subject 'each one' and fits the general present-tense description.",
+        "choice_analysis": {
+          "A": "Incorrect. 'Hold' is plural.",
+          "B": "Correct. 'Holds' agrees with 'each one'.",
+          "C": "Incorrect. 'Have held' is plural.",
+          "D": "Incorrect. 'Were holding' is plural and past progressive."
+        },
+        "short": "The long interrupting phrase does not change the singular subject 'each one'.",
+        "detailed": "Choice B is correct because 'holds' agrees with the singular subject 'each one' and fits the general present-tense description."
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "apac_b_048",
+      "section": "reading_writing",
+      "question_number": 48,
+      "passage": "A loose confederation of cities from eleven modern-day countries, the Hanseatic League was a powerful mercantile alliance that dominated northern European trade between the 13th and 17th centuries. Hanseatic League member ______ was serendipitously located on the Warnow River in Germany, giving Rostock's merchants access to key maritime trade routes.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "city Rostock,"
+        },
+        {
+          "label": "B",
+          "text": "city, Rostock,"
+        },
+        {
+          "label": "C",
+          "text": "city, Rostock"
+        },
+        {
+          "label": "D",
+          "text": "city Rostock"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 48,
+      "explanation": {
+        "key_evidence": "The name Rostock is needed to identify the member city.",
+        "why_correct": "Choice D is correct because no commas are needed in the restrictive phrase 'member city Rostock'.",
+        "choice_analysis": {
+          "A": "Incorrect. The comma after Rostock unnecessarily interrupts the subject and verb.",
+          "B": "Incorrect. Commas around Rostock incorrectly treat the name as nonessential.",
+          "C": "Incorrect. The comma after city incorrectly separates city from Rostock.",
+          "D": "Correct. No punctuation is needed."
+        },
+        "short": "The name Rostock is needed to identify the member city.",
+        "detailed": "Choice D is correct because no commas are needed in the restrictive phrase 'member city Rostock'."
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "apac_b_049",
+      "section": "reading_writing",
+      "question_number": 49,
+      "passage": "A staunch supporter of women's voting rights, Wilhelmina Kekelaokalaninui Widemann Dowsett sought to coordinate the efforts of suffragists in her native Hawai'i. ______ in 1912, she founded the National Women's Equal Suffrage Association of Hawai'i, an organization that lobbied for women's voting rights in the US territory.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Conversely,"
+        },
+        {
+          "label": "B",
+          "text": "To that end,"
+        },
+        {
+          "label": "C",
+          "text": "Alternatively,"
+        },
+        {
+          "label": "D",
+          "text": "In other words,"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 49,
+      "explanation": {
+        "key_evidence": "The second sentence describes a step taken for the purpose stated in the first sentence.",
+        "why_correct": "Choice B is correct because 'To that end' means 'for that purpose,' linking Dowsett's goal to founding the association.",
+        "choice_analysis": {
+          "A": "Incorrect. Conversely signals contrast, but the sentences align.",
+          "B": "Correct. It shows purpose.",
+          "C": "Incorrect. Alternatively signals another option, not a purposeful step.",
+          "D": "Incorrect. In other words would restate the previous idea, but the sentence gives an action."
+        },
+        "short": "The second sentence describes a step taken for the purpose stated in the first sentence.",
+        "detailed": "Choice B is correct because 'To that end' means 'for that purpose,' linking Dowsett's goal to founding the association."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "apac_b_050",
+      "section": "reading_writing",
+      "question_number": 50,
+      "passage": "In quantum physics, Karen Barad's theory of agential realism — which emphasizes the entanglement, or \"intra-action,\" of human and nonhuman actors — is a foundational rebuke to the dualistic subject-object divide that has undergirded scientific epistemology for centuries. ______ Barad's theory presents a paradigmatic shift in the scientific understanding of reality and the quantum world.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "For example,"
+        },
+        {
+          "label": "B",
+          "text": "By contrast,"
+        },
+        {
+          "label": "C",
+          "text": "As such,"
+        },
+        {
+          "label": "D",
+          "text": "That said,"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 50,
+      "explanation": {
+        "key_evidence": "The second sentence summarizes the significance of the theory described in the first sentence.",
+        "why_correct": "Choice C is correct because 'As such' signals that, in that role, Barad's theory presents a paradigmatic shift.",
+        "choice_analysis": {
+          "A": "Incorrect. The second sentence is not an example.",
+          "B": "Incorrect. There is no contrast.",
+          "C": "Correct. It draws a logical conclusion from the preceding description.",
+          "D": "Incorrect. That said signals qualification or contrast, which is not present."
+        },
+        "short": "The second sentence summarizes the significance of the theory described in the first sentence.",
+        "detailed": "Choice C is correct because 'As such' signals that, in that role, Barad's theory presents a paradigmatic shift."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "apac_b_051",
+      "section": "reading_writing",
+      "question_number": 51,
+      "passage": "Upper-atmospheric jets — phenomena whereby electrical discharges cause narrow cones of blue light to briefly burst upward from the tops of thunderclouds — have been observed reaching the ionosphere. The extreme altitudes involved (the ionosphere begins about 80 km above Earth) mark these gigantic jets as outliers; ______ the majority of jets reach heights of only 20 to 50 km.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "consequently,"
+        },
+        {
+          "label": "B",
+          "text": "indeed,"
+        },
+        {
+          "label": "C",
+          "text": "in addition,"
+        },
+        {
+          "label": "D",
+          "text": "nevertheless,"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 51,
+      "explanation": {
+        "short": "多数仅20—50千米，正好证实巨型喷流是离群值，用indeed。",
+        "key_evidence": "前一分句说达到约80千米以上的巨型喷流是outliers，后一分句给出绝大多数喷流仅达20—50千米。",
+        "why_correct": "B的indeed引出支持或印证：多数喷流明显更低，印证前面将高空巨型喷流称为异常值的判断。",
+        "detailed": "不要只看到80与20—50的数值不同就选转折。前一分句不是说所有喷流都很高，而是已说这些极高者是例外。多数较低正是这一例外判断所预期的证据，故两个命题相互支持。",
+        "choice_analysis": {
+          "A": "consequently表示因果结果，但多数喷流较低不是把巨型喷流归为例外所造成的结果。",
+          "B": "正确：indeed引入多数喷流高度较低这一事实，证实前文的outliers判断。",
+          "C": "in addition仅表示另加信息，不如indeed准确表达证实关系。",
+          "D": "nevertheless表示尽管如此仍出现相反情况；多数较低并不违背巨型喷流属于例外，反而支持它。"
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "apac_b_052",
+      "section": "reading_writing",
+      "question_number": 52,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• In music theory, the term \"key\" refers to the set of musical notes that forms the foundation of a piece of music.\n• In Ideas Toward an Aesthetic of Music (1806), German poet and composer Christian Schubart describes the moods of various musical keys.\n• He describes the key of C minor as expressing \"longing.\"\n• In Règles de Composition (1682), French composer Marc-Antoine Charpentier undertakes the same task.\n• He describes the key of C minor as \"obscure and sad.\"\n• \"Don't Speak\" by No Doubt (1996) is a song written in C minor.",
+      "prompt": "The student wants to compare how Schubart and Charpentier describe the mood of C minor. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Schubart and Charpentier each undertook the task of describing the mood of various keys, including C minor."
+        },
+        {
+          "label": "B",
+          "text": "Schubart describes the mood of C minor as expressing \"longing,\" while Charpentier describes it as \"obscure and sad.\""
+        },
+        {
+          "label": "C",
+          "text": "The song \"Don't Speak\" by No Doubt is written in the key of C minor, the mood of which has been described as expressing \"longing.\""
+        },
+        {
+          "label": "D",
+          "text": "The key of C minor is one of various keys, which are sets of musical notes that form the foundations of pieces of music."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 52,
+      "explanation": {
+        "key_evidence": "The relevant notes give two descriptions of C minor: Schubart's 'longing' and Charpentier's 'obscure and sad'.",
+        "why_correct": "Choice B is correct because it directly compares the two composers' descriptions of the mood of C minor.",
+        "choice_analysis": {
+          "A": "Incorrect. It says both described musical keys but does not compare their descriptions of C minor.",
+          "B": "Correct. It gives both descriptions side by side.",
+          "C": "Incorrect. It omits Charpentier's description and adds irrelevant information about No Doubt.",
+          "D": "Incorrect. It defines key but does not compare the composers' descriptions."
+        },
+        "short": "The relevant notes give two descriptions of C minor: Schubart's 'longing' and Charpentier's 'obscure and sad'.",
+        "detailed": "Choice B is correct because it directly compares the two composers' descriptions of the mood of C minor."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "apac_b_053",
+      "section": "reading_writing",
+      "question_number": 53,
+      "passage": "· The Paralympic Games are a series of international sporting events involving athletes with an impairment. · A gold medal indicates that an athlete finished in first place. · Swimming has been an event at the Paralympics since 1960. · Béatrice Hess competed as a Paralympic swimmer from 1984 to 2004. · She won twenty-five medals. · Of these medals, twenty were gold.",
+      "prompt": "Which choice most effectively uses information from the given sentences to emphasize how long Hess's sport has been a Paralympic event?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "An accomplished Paralympian with multiple gold medal wins, Béatrice Hess competed as a swimmer from 1984 to 2004."
+        },
+        {
+          "label": "B",
+          "text": "Béatrice Hess competed at the Paralympic Games, a series of international sporting events."
+        },
+        {
+          "label": "C",
+          "text": "Swimming, a sport in which Béatrice Hess took home twenty gold medals, has been an event at the Paralympic Games since 1960."
+        },
+        {
+          "label": "D",
+          "text": "During her career in swimming, which started in 1984, Béatrice Hess took home a total of twenty-five medals, twenty of which were gold."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 53,
+      "explanation": {
+        "key_evidence": "The relevant note is that swimming has been a Paralympic event since 1960.",
+        "why_correct": "Choice C is correct because it identifies swimming as Hess's sport and states that it has been a Paralympic event since 1960.",
+        "choice_analysis": {
+          "A": "Incorrect. It focuses on Hess's career years and medals but omits since 1960.",
+          "B": "Incorrect. It defines the Paralympic Games but does not mention swimming's long history as an event.",
+          "C": "Correct. It includes Hess's sport and the since-1960 detail.",
+          "D": "Incorrect. It gives Hess's medal total and career start but not how long swimming has been a Paralympic event."
+        },
+        "short": "The relevant note is that swimming has been a Paralympic event since 1960.",
+        "detailed": "Choice C is correct because it identifies swimming as Hess's sport and states that it has been a Paralympic event since 1960."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "apac_b_054",
+      "section": "reading_writing",
+      "question_number": 54,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• A 2022 study analyzed geotagged social media posts to assess the effect of parks on happiness in 25 US cities.\n• The happiness benefit of a city's parks was the numeric difference between the calculated happiness scores of posts made in parks and posts made elsewhere.\n• A benefit above 0 indicates a positive effect.\n• The park happiness benefit in San Francisco, California, was greater than 0.10.\n• The park happiness benefit in Washington, DC, was greater than 0 but less than 0.10.\n• The average happiness benefit of parks across all cities was 0.10.",
+      "prompt": "The student wants to make a generalization based on the study's findings. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Geotagged social media posts were analyzed for expressed happiness in both San Francisco and Washington."
+        },
+        {
+          "label": "B",
+          "text": "Though it can vary from city to city, the overall effect of parks on happiness is a positive one."
+        },
+        {
+          "label": "C",
+          "text": "San Francisco's parks had a positive effect on happiness, but this was not true of Washington's parks, which had a below-average effect."
+        },
+        {
+          "label": "D",
+          "text": "By comparing the happiness scores of posts made in parks and posts made elsewhere, the study determined the effect of parks on happiness."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太B卷",
+      "source_question_number": 54,
+      "explanation": {
+        "key_evidence": "The student wants a generalization based on the study's findings.",
+        "why_correct": "Choice B is correct because it generalizes from the notes: park happiness benefits vary by city, but the overall average benefit is positive.",
+        "choice_analysis": {
+          "A": "Incorrect. It describes two locations in the study but does not make a generalization about findings.",
+          "B": "Correct. It states the general positive effect while allowing city-to-city variation.",
+          "C": "Incorrect. Washington's parks still had a positive effect because the benefit was greater than 0.",
+          "D": "Incorrect. It describes the study method rather than a general finding."
+        },
+        "short": "The student wants a generalization based on the study's findings.",
+        "detailed": "Choice B is correct because it generalizes from the notes: park happiness benefits vary by city, but the overall average benefit is positive."
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    }
+  ]
+}

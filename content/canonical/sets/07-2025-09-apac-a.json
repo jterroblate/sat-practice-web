@@ -1,0 +1,855 @@
+{
+  "schemaVersion": "sat-canonical-question-collection-v1",
+  "contentId": "set-07-2025-09-apac-a",
+  "title": "07 2025 09 Apac A",
+  "section": "reading_writing",
+  "questionCount": 18,
+  "questions": [
+    {
+      "question_id": "sep2025_apac_a_Q01",
+      "section": "reading_writing",
+      "question_number": 1,
+      "source_set": "2025-09-亚太A卷",
+      "source_question_number": 154,
+      "passage": "Text 1\n\nIn a seminal 1979 study, Daniel Kahneman and Amos Tversky presented students and college faculty from Israel, Sweden, and the United States with hypothetical questions involving financial decisions. Finding that participants’ responses indicated that losses have a greater psychological impact than equivalent gains do, the researchers formulated the concept of loss aversion, which has since informed research in fields ranging from cognitive psychology to transportation studies.\n\nText 2\n\nEyal Ert and Ido Erev conducted an experiment in which two groups of Israeli students were exposed to financial choices that involved potential losses of either relatively minor sums of money, such as 10 Israeli shekels (low-stakes contexts), or more substantial sums, such as 100 Israeli shekels (high-stakes contexts). The researchers concluded that only the latter contexts were associated with loss aversion.",
+      "prompt": "Based on the texts, how would Ert and Erev (Text 2) most likely respond to Kahneman and Tversky’s finding (Text 1)?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "By observing that researchers’ ability to assess feelings about financial decisions is contingent on gathering adequate data about gains and losses"
+        },
+        {
+          "label": "B",
+          "text": "By agreeing that experimental results support the idea that some people tend to be more cognizant of financial losses than of gains"
+        },
+        {
+          "label": "C",
+          "text": "By disputing Kahneman and Tversky’s claim that a tendency to place excessive emphasis on financial losses accounts for the loss aversion observed in fields such as cognitive psychology and transportation studies"
+        },
+        {
+          "label": "D",
+          "text": "By contending that the attitude toward financial losses that Kahneman and Tversky observed is contingent on the magnitude of outcomes"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Option D is correct because Text 2 limits loss aversion to higher-stakes outcomes.",
+        "key_evidence": "Text 2 concludes that only high-stakes contexts were associated with loss aversion.",
+        "why_correct": "Ert and Erev would say the effect Kahneman and Tversky observed depends on the magnitude of the financial outcome.",
+        "detailed": "Text 1 presents Kahneman and Tversky’s broad finding that losses have greater psychological impact than equivalent gains. Text 2 narrows that idea by reporting loss aversion only when the possible losses were relatively substantial. Therefore Text 2 would treat the attitude toward losses as contingent on outcome magnitude.",
+        "choice_analysis": {
+          "A": "Incorrect. Text 2 does not focus on whether researchers gathered enough data.",
+          "B": "Incorrect. Text 2 does not simply agree with the broad result; it limits when loss aversion appears.",
+          "C": "Incorrect. Text 2 does not dispute the role of psychological emphasis or the later research fields named in Text 1.",
+          "D": "Correct. It states that loss aversion depends on the magnitude of outcomes, matching Text 2."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Cross-Text Connections",
+        "subtype": "paired_text_relationship"
+      }
+    },
+    {
+      "question_id": "sep2025_apac_a_Q02",
+      "section": "reading_writing",
+      "question_number": 2,
+      "source_set": "2025-09-亚太A卷",
+      "source_question_number": 155,
+      "passage": "Tracks is a 1988 novel by Ojibwe writer Louise Erdrich. It explores how historical events affect families on a reservation in rural North Dakota. Tracks is typical of Erdrich’s work. Her writing usually focuses on portrayals of everyday life in Ojibwe communities. Yet some of her novels have fantastical plots and take place outside Ojibwe communities. For example, her 2016 novel The Antelope Woman is essentially fantasy fiction, and the otherworldly events in its plot are set in an urban Indigenous community in Minneapolis.",
+      "prompt": "According to the text, what is one way that The Antelope Woman differs from most of Erdrich’s work?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Its main characters are Ojibwe."
+        },
+        {
+          "label": "B",
+          "text": "It isn’t set in a rural Ojibwe community."
+        },
+        {
+          "label": "C",
+          "text": "It has been adapted into a movie."
+        },
+        {
+          "label": "D",
+          "text": "It contains very little dialogue."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Option B is correct because the novel is set in an urban Indigenous community rather than the usual rural Ojibwe setting.",
+        "key_evidence": "The passage says most of Erdrich’s work focuses on Ojibwe communities, while The Antelope Woman is set in an urban Indigenous community in Minneapolis.",
+        "why_correct": "This directly identifies a way the novel differs from most of Erdrich’s work.",
+        "detailed": "The text explains that Tracks is typical because it concerns life on a rural North Dakota reservation and says Erdrich’s writing usually portrays everyday life in Ojibwe communities. It then contrasts The Antelope Woman as fantasy fiction set in an urban Indigenous community in Minneapolis, so B is the supported difference.",
+        "choice_analysis": {
+          "A": "Incorrect. The passage does not say this is a difference from most of Erdrich’s work.",
+          "B": "Correct. The text contrasts the novel’s urban Indigenous setting with the usual rural Ojibwe community setting.",
+          "C": "Incorrect. No movie adaptation is mentioned.",
+          "D": "Incorrect. The amount of dialogue is not discussed."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "detail"
+      }
+    },
+    {
+      "question_id": "sep2025_apac_a_Q03",
+      "section": "reading_writing",
+      "question_number": 3,
+      "source_set": "2025-09-亚太A卷",
+      "source_question_number": 156,
+      "passage": "Lin-Manuel Miranda’s 2015 hip-hop musical Hamilton depicts historical political figure Alexander Hamilton as a self-made man who, through sheer determination, transcends his humble origins to become a key participant in the founding of the United States. This depiction of Hamilton establishes him as a compelling and well-defined protagonist but obscures other facets of the historical person’s views, namely his elitism and mistrust of the democratic politics of some of his contemporaries. In effect, the musical’s portrayal of Hamilton fails to convey the ideological complexity that a more nuanced portrayal might have suggested.",
+      "prompt": "The text most strongly suggests that particular aspects of Hamilton’s political beliefs may have been omitted from the musical in part to achieve which effect?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To suggest why certain contributions by Hamilton to US history have been overlooked"
+        },
+        {
+          "label": "B",
+          "text": "To encourage modern audiences to emulate Hamilton’s politics"
+        },
+        {
+          "label": "C",
+          "text": "To create an unambiguous thematic presentation of Hamilton’s life"
+        },
+        {
+          "label": "D",
+          "text": "To challenge the prevailing historical consensus about Hamilton"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Option C is correct because omitting complexity makes Hamilton’s portrayal more clear and thematically unified.",
+        "key_evidence": "The musical makes Hamilton a compelling, well-defined protagonist but obscures views that would add ideological complexity.",
+        "why_correct": "Removing those political complexities helps create an unambiguous thematic presentation.",
+        "detailed": "The passage says the musical presents Hamilton as a determined self-made protagonist while obscuring elitism and mistrust of democratic politics. Since those omitted views would have made the portrayal more nuanced and complex, the omission supports a clearer, less ambiguous thematic portrait.",
+        "choice_analysis": {
+          "A": "Incorrect. The passage does not discuss overlooked contributions.",
+          "B": "Incorrect. It does not say audiences should emulate Hamilton’s politics.",
+          "C": "Correct. A well-defined protagonist with obscured complexity creates a more unambiguous thematic presentation.",
+          "D": "Incorrect. The passage does not claim the musical challenges historical consensus."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "implied_effect"
+      }
+    },
+    {
+      "question_id": "sep2025_apac_a_Q04",
+      "section": "reading_writing",
+      "question_number": 4,
+      "source_set": "2025-09-亚太A卷",
+      "source_question_number": 157,
+      "passage": "The US Department of Agriculture’s Fruit and Tree Nuts Outlook is a document that covers a variety of subjects, from the causes of reductions in grapefruit supply to the forecast for yields of apple crops. A student studying agricultural economics is consulting a graph in the document that shows the prices for which several types of nuts have been sold by growers in the United States over four growing seasons from 2016 to 2020. The student wishes to determine in which season walnuts reached their lowest price. Consulting the graph, the student finds that this season was the ______\n\nGraph: Walnut prices are approximately 0.9 in 2016/17, 1.2 in 2017/18, 0.65 in 2018/19, and 0.95 in 2019/20.",
+      "prompt": "Which choice most effectively uses data from the graph to complete the statement?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2017/18 season."
+        },
+        {
+          "label": "B",
+          "text": "2016/17 season."
+        },
+        {
+          "label": "C",
+          "text": "2018/19 season."
+        },
+        {
+          "label": "D",
+          "text": "2019/20 season."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Option C is correct because the walnut bar is lowest in 2018/19.",
+        "key_evidence": "The visual graph shows the lowest walnut value in the 2018/19 season.",
+        "why_correct": "The sentence asks for the season when walnuts reached their lowest price, and 2018/19 is the lowest data point.",
+        "detailed": "Reading the walnut series across the four seasons shows values around 0.9, 1.2, 0.65, and 0.95. The smallest of these is the 2018/19 season, so C completes the statement accurately.",
+        "choice_analysis": {
+          "A": "Incorrect. The walnut price in 2017/18 is the highest, not the lowest.",
+          "B": "Incorrect. The 2016/17 price is higher than the 2018/19 price.",
+          "C": "Correct. The 2018/19 walnut value is the lowest on the graph.",
+          "D": "Incorrect. The 2019/20 price is above the 2018/19 price."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "graph_data_completion"
+      },
+      "visual_assets": [
+        {
+          "type": "graph",
+          "title": "Walnut prices, 2016/17 to 2019/20"
+        }
+      ]
+    },
+    {
+      "question_id": "sep2025_apac_a_Q05",
+      "section": "reading_writing",
+      "question_number": 5,
+      "source_set": "2025-09-亚太A卷",
+      "source_question_number": 158,
+      "passage": "Lin-Tai Ho and colleagues counted fish in a tide pool in Taiwan at several times during the year and found that some species had a significantly higher maximum population count than others. For example, the highest count for the combtooth blenny was 62 individuals in January of 2001, whereas the highest count for the yellowtail sergeant was ______\n\nGraph: Yellowtail sergeant values are about 3 in January 2001, 0 in April 2001, 0 in July 2001, and 1 in October 2001.",
+      "prompt": "Which choice most effectively uses data from the graph to complete the example?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "72 individuals in January of 2001."
+        },
+        {
+          "label": "B",
+          "text": "15 individuals in April of 2001."
+        },
+        {
+          "label": "C",
+          "text": "13 individuals in January of 2001."
+        },
+        {
+          "label": "D",
+          "text": "3 individuals in January of 2001."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Option D is correct because the yellowtail sergeant reaches its highest count at 3 individuals in January 2001.",
+        "key_evidence": "The yellowtail sergeant series is about 3 in January, 0 in April, 0 in July, and 1 in October.",
+        "why_correct": "The maximum yellowtail sergeant count is therefore 3 individuals in January 2001.",
+        "detailed": "The question asks for the highest count for the yellowtail sergeant. The graph’s yellowtail sergeant line is highest at the January 2001 point, where it is about 3 individuals. D is the only option that matches that species and month.",
+        "choice_analysis": {
+          "A": "Incorrect. 72 is not a yellowtail sergeant value in the graph.",
+          "B": "Incorrect. 15 in April belongs to a different species, not yellowtail sergeant.",
+          "C": "Incorrect. 13 in January does not match the yellowtail sergeant series.",
+          "D": "Correct. The yellowtail sergeant’s highest plotted value is 3 in January 2001."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "graph_data_completion"
+      },
+      "visual_assets": [
+        {
+          "type": "graph",
+          "title": "Yellowtail sergeant counts, January 2001 to October 2001"
+        }
+      ]
+    },
+    {
+      "question_id": "sep2025_apac_a_Q06",
+      "section": "reading_writing",
+      "question_number": 6,
+      "source_set": "2025-09-亚太A卷",
+      "source_question_number": 159,
+      "passage": "Population and Population Density of African Countries in 2015\n\nSão Tomé and Príncipe: density 189.8 inhabitants/km²; area 1,001 km²; estimated population 190,000. Ethiopia: density 88.2 inhabitants/km²; area 1,127,127 km²; estimated population 99,391,000. Mauritania: density 3.9 inhabitants/km²; area 1,030,700 km²; estimated population 4,068,000. Angola: density 20.1 inhabitants/km²; area 1,246,700 km²; estimated population 25,022,000.\n\nAs the second-most populous continent in the world, Africa was home to an estimated 1.186 billion people in 2015. In a paper for a social studies class, a student nonetheless notes that countries with very large populations may be less densely populated than are countries with much smaller populations, as can be seen by comparing ______",
+      "prompt": "Which choice most effectively uses data from the table to complete the example?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the geographic size of Angola (1,246,700 square kilometers) with its relatively high population of 25,022,000 inhabitants."
+        },
+        {
+          "label": "B",
+          "text": "Angola, which has a high population of 25,022,000 inhabitants and a relatively low density of 20.1 inhabitants/square kilometer, with São Tomé and Príncipe, which has a much lower population and a higher density."
+        },
+        {
+          "label": "C",
+          "text": "Mauritania, which has a low density, with Ethiopia, which has a similar density despite both countries having different geographic sizes."
+        },
+        {
+          "label": "D",
+          "text": "the populations of both São Tomé and Príncipe and Ethiopia in 2015 with their populations in 2010."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Option B is correct because it compares a populous, low-density country with a much less populous, high-density country.",
+        "key_evidence": "Angola has 25,022,000 people and density 20.1, while São Tomé and Príncipe has 190,000 people and density 189.8.",
+        "why_correct": "Those data show that a country with a larger population can be less densely populated than a much smaller country.",
+        "detailed": "The sentence needs an example that compares population size with population density. Angola has a far larger population than São Tomé and Príncipe but a much lower density, so B directly illustrates the student’s point.",
+        "choice_analysis": {
+          "A": "Incorrect. It compares Angola’s area and population, not two countries’ population densities.",
+          "B": "Correct. It contrasts high population/low density with low population/high density.",
+          "C": "Incorrect. Mauritania and Ethiopia do not have similar densities.",
+          "D": "Incorrect. The table does not provide 2010 populations."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "table_data_completion"
+      },
+      "visual_assets": [
+        {
+          "type": "table",
+          "title": "Population and Population Density of African Countries in 2015"
+        }
+      ]
+    },
+    {
+      "question_id": "sep2025_apac_a_Q07",
+      "section": "reading_writing",
+      "question_number": 7,
+      "source_set": "2025-09-亚太A卷",
+      "source_question_number": 160,
+      "passage": "Declining fishing technology costs and overexploitation of near-shore fishing grounds have made isolated oceanic reefs, which often lack regulatory protections, increasingly attractive to commercial and sport fishers. A team led by Octavio Aburto-Oropeza surveyed the biomass density and species composition of two isolated reefs: Alacranes, a protected (fishing prohibited) reef 135 kilometers from the Yucatan Peninsula, and Bajos del Norte, an unprotected reef 25 kilometers further out to sea. Species at the highest level of the trophic pyramid constituted 34% of the biomass at Alacranes and 10% of the biomass at Bajos del Norte. Aburto-Oropeza and colleagues attribute this difference to the two reefs’ difference in regulatory status.",
+      "prompt": "Which finding, if true, would most directly support Aburto-Oropeza and colleagues’ explanation?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Total biomass at Alacranes is much greater than total biomass at Bajos del Norte, though the reefs’ biomass densities are similar."
+        },
+        {
+          "label": "B",
+          "text": "It is somewhat more expensive for commercial and sport fishers to reach Bajos del Norte than it is to reach Alacranes."
+        },
+        {
+          "label": "C",
+          "text": "Some of the species that compose the highest trophic level at Bajos del Norte are not found at Alacranes."
+        },
+        {
+          "label": "D",
+          "text": "Commercial and sport fishers tend to disproportionately remove species at the highest trophic level."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Option D is correct because it links fishing pressure to the reduced share of high-trophic-level species at the unprotected reef.",
+        "key_evidence": "Bajos del Norte is unprotected and has a much lower share of highest-trophic-level biomass than protected Alacranes.",
+        "why_correct": "If fishers disproportionately remove highest-trophic-level species, that supports the regulatory-status explanation.",
+        "detailed": "The researchers explain the difference by regulatory status: fishing is prohibited at Alacranes but not at Bajos del Norte. A finding that fishers tend to remove species at the highest trophic level would directly explain why the unprotected reef has a lower share of those species.",
+        "choice_analysis": {
+          "A": "Incorrect. Total biomass does not explain why highest-trophic-level species make up a smaller percentage at the unprotected reef.",
+          "B": "Incorrect. Greater expense to reach Bajos del Norte would weaken, not support, a fishing-pressure explanation.",
+          "C": "Incorrect. Different species composition alone does not link the difference to regulatory status.",
+          "D": "Correct. It directly connects fishing activity to removal of highest-trophic-level species."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "supporting_finding"
+      }
+    },
+    {
+      "question_id": "sep2025_apac_a_Q08",
+      "section": "reading_writing",
+      "question_number": 8,
+      "source_set": "2025-09-亚太A卷",
+      "source_question_number": 161,
+      "passage": "Researchers Eugeni Vidal-Tortosa and Robin Lovelace looked at the relationship between street lighting in a city and people’s willingness to ride a bicycle. Their results suggest that poor street lighting can deter new or inexperienced cyclists from riding in a city but has little effect on experienced cyclists. Therefore, increasing the number of streetlights in a city could potentially ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "decrease the number of experienced cyclists riding in the city."
+        },
+        {
+          "label": "B",
+          "text": "increase the number of new or inexperienced cyclists riding in the city."
+        },
+        {
+          "label": "C",
+          "text": "increase the number of experienced cyclists riding in the city."
+        },
+        {
+          "label": "D",
+          "text": "decrease the number of new or inexperienced cyclists riding in the city."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Option B is correct because better lighting could remove a deterrent for new or inexperienced cyclists.",
+        "key_evidence": "Poor street lighting can deter new or inexperienced cyclists but has little effect on experienced cyclists.",
+        "why_correct": "Increasing streetlights would most plausibly increase the number of new or inexperienced cyclists riding.",
+        "detailed": "The passage identifies poor lighting as a barrier specifically for new or inexperienced cyclists. If the city adds streetlights, that barrier may be reduced, so the likely effect is an increase in new or inexperienced cyclists.",
+        "choice_analysis": {
+          "A": "Incorrect. The passage says lighting has little effect on experienced cyclists.",
+          "B": "Correct. More lighting could reduce the deterrent for new or inexperienced cyclists.",
+          "C": "Incorrect. The evidence points to new or inexperienced cyclists, not experienced cyclists.",
+          "D": "Incorrect. More streetlights would not be expected to decrease the group deterred by poor lighting."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "sep2025_apac_a_Q09",
+      "section": "reading_writing",
+      "question_number": 9,
+      "source_set": "2025-09-亚太A卷",
+      "source_question_number": 162,
+      "passage": "Research into whether floating mats of macroalgae affect the prevalence of microphytobenthos (MPB)—benthic, or bottom-dwelling, microalgae—has produced varying results: Amber Hardison and colleagues determined that macroalgae do not impact MPB, whereas Emilio García-Robledo and Alfonso Corzo observed that benthic chlorophyll concentrations (a common measure of MPB biomass) decreased in the presence of macroalgae. Hypothesizing that macroalgal mats have a negative effect on MPB biomass, Alice F. Besterman and Michael L. Pace surveyed mudflats in Curlew Bay and other coastal sites in Virginia. Because Besterman and Pace did not find a significant correlation between benthic chlorophyll concentrations and the abundance of macroalgal mats, it can be concluded that ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "their hypothesis about the relationship between macroalgae and MPB was not supported and their finding was instead consistent with that of Hardison and colleagues."
+        },
+        {
+          "label": "B",
+          "text": "although this finding was consistent with that of García-Robledo and Corzo, trends in MPB biomass are likely not a result of stresses caused by macroalgae."
+        },
+        {
+          "label": "C",
+          "text": "differences between their study design and that of García-Robledo and Corzo likely explain the discrepancy in the two studies’ findings about the responses of MPB to macroalgal mats."
+        },
+        {
+          "label": "D",
+          "text": "rather than inhibiting chlorophyll production in MPB, as they had hypothesized, macroalgal mats may positively affect chlorophyll production."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Option A is correct because the no-correlation result fails to support the negative-effect hypothesis and matches Hardison’s finding.",
+        "key_evidence": "Besterman and Pace did not find a significant correlation between chlorophyll concentrations and macroalgal mats.",
+        "why_correct": "A lack of significant correlation does not support their hypothesis of a negative effect and is consistent with the study finding no impact.",
+        "detailed": "Hardison and colleagues found that macroalgae do not impact MPB, while García-Robledo and Corzo found decreased chlorophyll in the presence of macroalgae. Besterman and Pace expected a negative effect but did not find a significant correlation, so their result undercuts their hypothesis and aligns with Hardison’s no-impact finding.",
+        "choice_analysis": {
+          "A": "Correct. It accurately states both implications of the no-correlation result.",
+          "B": "Incorrect. The result is not consistent with García-Robledo and Corzo’s decrease finding.",
+          "C": "Incorrect. The passage does not provide evidence about study-design differences.",
+          "D": "Incorrect. No significant correlation does not show a positive effect."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "sep2025_apac_a_Q10",
+      "section": "reading_writing",
+      "question_number": 10,
+      "source_set": "2025-09-亚太A卷",
+      "source_question_number": 163,
+      "passage": "Many ranching terms come from Spanish. For example, the word “stockade” (a fence) ______ from the Spanish word estacada, and “cinch” (a belt) derives from cincho. This is because the first Anglo, African, and Native American cattle ranchers in the southwestern US learned the trade from Spanish-speaking Mexican vaqueros, or cowboys.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "have derived"
+        },
+        {
+          "label": "B",
+          "text": "were deriving"
+        },
+        {
+          "label": "C",
+          "text": "derive"
+        },
+        {
+          "label": "D",
+          "text": "derives"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Option D is correct because the singular subject “the word stockade” takes the singular present-tense verb “derives.”",
+        "key_evidence": "The parallel clause says “cinch” derives from cincho, and “the word stockade” is also singular.",
+        "why_correct": "The sentence states a general fact, so the singular present-tense verb “derives” is needed.",
+        "detailed": "The subject of the blank is “the word ‘stockade,’” which is singular. In this factual present-tense sentence, the verb must agree with that singular subject. “Derives” is the only option that does so.",
+        "choice_analysis": {
+          "A": "Incorrect. “Have derived” is plural and does not agree with “the word.”",
+          "B": "Incorrect. “Were deriving” is plural/past progressive and does not fit the factual statement.",
+          "C": "Incorrect. “Derive” is plural/base form and does not agree with the singular subject.",
+          "D": "Correct. “Derives” is singular present tense and matches the subject."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "subject_verb_agreement"
+      }
+    },
+    {
+      "question_id": "sep2025_apac_a_Q11",
+      "section": "reading_writing",
+      "question_number": 11,
+      "source_set": "2025-09-亚太A卷",
+      "source_question_number": 164,
+      "passage": "A voluntary workforce established to make improvements to public lands, parks, and forests across the US, the Civilian Conservation Corps (CCC)—though widely popular—was not without its critics. For Aldo Leopold, the CCC was implicated in what ______ “Idle CCC camps,” he wrote, “presented a widespread temptation to build new and often needless roads.”",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "he viewed as unnecessary development."
+        },
+        {
+          "label": "B",
+          "text": "he viewed as unnecessary development?"
+        },
+        {
+          "label": "C",
+          "text": "did he view as unnecessary development?"
+        },
+        {
+          "label": "D",
+          "text": "did he view as unnecessary development."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Option A is correct because the sentence is a declarative statement, not a question.",
+        "key_evidence": "The sentence says the CCC was implicated in what Leopold viewed as unnecessary development, followed by his quotation about needless roads.",
+        "why_correct": "A keeps normal subject-verb order and ends the statement with a period.",
+        "detailed": "The words before the blank introduce a statement about Leopold’s view. The sentence is not asking a question, so it should not use question word order or a question mark. Choice A supplies the declarative wording and punctuation.",
+        "choice_analysis": {
+          "A": "Correct. It uses normal declarative order and a period.",
+          "B": "Incorrect. The question mark wrongly turns the statement into a question.",
+          "C": "Incorrect. “Did he view” uses question word order and a question mark.",
+          "D": "Incorrect. “Did he view” uses question word order even though the sentence is declarative."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "sentence_form_and_punctuation"
+      }
+    },
+    {
+      "question_id": "sep2025_apac_a_Q12",
+      "section": "reading_writing",
+      "question_number": 12,
+      "source_set": "2025-09-亚太A卷",
+      "source_question_number": 165,
+      "passage": "Though it was designated as mission ______ mission was actually the forty-sixth flight under NASA’s Space Shuttle Program.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "STS-45, the"
+        },
+        {
+          "label": "B",
+          "text": "STS-45, and the"
+        },
+        {
+          "label": "C",
+          "text": "STS-45. The"
+        },
+        {
+          "label": "D",
+          "text": "STS-45 the"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Option A is correct because the introductory though-clause needs a comma before the main clause.",
+        "key_evidence": "“Though it was designated as mission STS-45” is followed by the main clause “the mission was actually...”.",
+        "why_correct": "The comma after STS-45 separates the dependent clause from the main clause.",
+        "detailed": "A dependent clause beginning with “Though” cannot stand alone. It should be followed by a comma and then the main clause. Choice A creates “Though it was designated as mission STS-45, the mission was actually...,” which is grammatical and clear.",
+        "choice_analysis": {
+          "A": "Correct. It supplies the needed comma and main-clause subject.",
+          "B": "Incorrect. “And” is unnecessary after the dependent clause.",
+          "C": "Incorrect. A period after STS-45 leaves the “Though” clause as a fragment.",
+          "D": "Incorrect. It lacks the comma needed between the introductory clause and main clause."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "introductory_clause_punctuation"
+      }
+    },
+    {
+      "question_id": "sep2025_apac_a_Q13",
+      "section": "reading_writing",
+      "question_number": 13,
+      "source_set": "2025-09-亚太A卷",
+      "source_question_number": 166,
+      "passage": "The epic poem Theogony dates back to the 8th century BCE. Originally ______ in ancient Greek, it has since been translated into other languages.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "is written"
+        },
+        {
+          "label": "B",
+          "text": "had been written"
+        },
+        {
+          "label": "C",
+          "text": "written"
+        },
+        {
+          "label": "D",
+          "text": "was written"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Option C is correct because “Originally written in ancient Greek” is a participial phrase modifying the poem.",
+        "key_evidence": "The main clause is “it has since been translated into other languages.”",
+        "why_correct": "The introductory modifier needs the past participle “written,” not a finite verb.",
+        "detailed": "The sentence needs an introductory modifier: “Originally written in ancient Greek.” Choices with finite verbs would create an ungrammatical structure before the comma. The past participle “written” correctly modifies Theogony.",
+        "choice_analysis": {
+          "A": "Incorrect. “Originally is written” is not a correct introductory modifier here.",
+          "B": "Incorrect. “Had been written” is a finite verb phrase that does not fit before the comma.",
+          "C": "Correct. “Written” forms the needed participial phrase.",
+          "D": "Incorrect. “Was written” is a finite verb phrase and creates an incomplete clause before the comma."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "modifier_verb_form"
+      }
+    },
+    {
+      "question_id": "sep2025_apac_a_Q14",
+      "section": "reading_writing",
+      "question_number": 14,
+      "source_set": "2025-09-亚太A卷",
+      "source_question_number": 167,
+      "passage": "Trade with neighboring civilizations contributed to the success of the Roman Empire, which reigned in the Mediterranean from around 27 BCE to 476 CE. By supplying oil, grapes, and grain to societies that lacked these valuable ______ Roman Empire grew not only in wealth but also in power and influence.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "items; the"
+        },
+        {
+          "label": "B",
+          "text": "items, the"
+        },
+        {
+          "label": "C",
+          "text": "items the"
+        },
+        {
+          "label": "D",
+          "text": "items. The"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Option B is correct because a comma separates the introductory phrase from the main clause.",
+        "key_evidence": "“By supplying oil, grapes, and grain to societies that lacked these valuable items” introduces the main clause “the Roman Empire grew...”.",
+        "why_correct": "A comma after “items” is the proper boundary marker.",
+        "detailed": "The sentence begins with a long introductory phrase explaining how trade helped the empire. The main clause starts with “the Roman Empire grew.” A comma, not a semicolon or period, should separate the introductory phrase from that main clause.",
+        "choice_analysis": {
+          "A": "Incorrect. A semicolon cannot separate an introductory phrase from a main clause.",
+          "B": "Correct. The comma correctly marks the boundary after the introductory phrase.",
+          "C": "Incorrect. It lacks necessary punctuation.",
+          "D": "Incorrect. A period creates an incomplete sentence fragment before it."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "introductory_phrase_punctuation"
+      }
+    },
+    {
+      "question_id": "sep2025_apac_a_Q15",
+      "section": "reading_writing",
+      "question_number": 15,
+      "source_set": "2025-09-亚太A卷",
+      "source_question_number": 168,
+      "passage": "In his 2023 collection The Diaspora Sonnets, Filipino American poet Oliver de la Paz leverages the sonnet form’s “diamond-like quality of precision,” as he describes it. The poems often adhere scrupulously to the form’s centuries-old conventions, such as its characteristic fourteen-line length. In the twelve-line poem “Diaspora Sonnet at the Feeders Before the Freeze,” ______ de la Paz playfully subverts sonnet conventions, the poem’s truncated length conveying a sense of abruptness.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "for example,"
+        },
+        {
+          "label": "B",
+          "text": "similarly,"
+        },
+        {
+          "label": "C",
+          "text": "by contrast,"
+        },
+        {
+          "label": "D",
+          "text": "fittingly,"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Option C is correct because the final sentence contrasts with the previous claim about following sonnet conventions.",
+        "key_evidence": "The poems often adhere to sonnet conventions, but the twelve-line poem playfully subverts them.",
+        "why_correct": "“By contrast” signals that shift from adherence to subversion.",
+        "detailed": "The second sentence says the poems often follow conventional sonnet features such as fourteen-line length. The next sentence discusses a twelve-line poem that subverts those conventions. A contrast transition is needed, so “by contrast” is best.",
+        "choice_analysis": {
+          "A": "Incorrect. “For example” would imply the twelve-line poem exemplifies strict adherence, but it subverts the convention.",
+          "B": "Incorrect. “Similarly” signals similarity, not contrast.",
+          "C": "Correct. It marks the contrast between following and subverting sonnet conventions.",
+          "D": "Incorrect. “Fittingly” does not express the needed contrast."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_contrast"
+      }
+    },
+    {
+      "question_id": "sep2025_apac_a_Q16",
+      "section": "reading_writing",
+      "question_number": 16,
+      "source_set": "2025-09-亚太A卷",
+      "source_question_number": 169,
+      "passage": "Cornelia Konrads is a German sculptor who creates art that seems to be part of its surroundings. Her sculpture entitled the match is built between statues at a park in France. ______ appearing as large vases being tossed between statues at the park, it is cleverly placed into its environment, serving as an example of Konrads’s approach.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "There,"
+        },
+        {
+          "label": "B",
+          "text": "Later,"
+        },
+        {
+          "label": "C",
+          "text": "However,"
+        },
+        {
+          "label": "D",
+          "text": "For instance,"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Option A is correct because “There” refers back to the park in France.",
+        "key_evidence": "The sculpture is built between statues at a park in France; the next sentence describes it appearing between statues at that park.",
+        "why_correct": "“There” connects the description to the established location.",
+        "detailed": "The third sentence continues describing the sculpture in the park just mentioned. “There” appropriately points back to that location and smoothly introduces the description of how the sculpture appears in its environment.",
+        "choice_analysis": {
+          "A": "Correct. It refers to the park in France and links the location to the description.",
+          "B": "Incorrect. “Later” suggests time sequence, which is not the relationship.",
+          "C": "Incorrect. “However” suggests contrast, but the sentence continues the same idea.",
+          "D": "Incorrect. “For instance” would introduce an example, but the sculpture has already been specified."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "referential_transition"
+      }
+    },
+    {
+      "question_id": "sep2025_apac_a_Q17",
+      "section": "reading_writing",
+      "question_number": 17,
+      "source_set": "2025-09-亚太A卷",
+      "source_question_number": 170,
+      "passage": "A wind farm uses turbines to convert wind into electrical power. Offshore wind farms tend to produce more electricity than farms on land (onshore). Offshore wind farms tend to be more expensive to build and maintain than onshore ones. Muppandal Wind Farm is an onshore wind farm in Tamil Nadu, India.",
+      "prompt": "Which choice most effectively uses information from the given sentences to explain the advantages of onshore wind farms over offshore ones?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Though they don’t produce as much electricity as offshore wind farms, onshore farms are usually cheaper to build and maintain."
+        },
+        {
+          "label": "B",
+          "text": "Tamil Nadu, India, is home to Muppandal Wind Farm."
+        },
+        {
+          "label": "C",
+          "text": "Like other wind farms, Muppandal Wind Farm in Tamil Nadu, India, uses turbines to turn wind power into electricity."
+        },
+        {
+          "label": "D",
+          "text": "Whether onshore or offshore, wind farms harness the power of wind to generate electricity."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Option A is correct because it directly explains the cost advantage of onshore wind farms while acknowledging their lower electricity output.",
+        "key_evidence": "The notes state offshore farms produce more electricity but are more expensive to build and maintain than onshore farms.",
+        "why_correct": "A synthesizes both comparison points and highlights the onshore advantage requested by the prompt.",
+        "detailed": "The task asks for the advantages of onshore wind farms over offshore ones. The relevant advantage in the notes is that onshore farms are cheaper to build and maintain. Choice A includes that advantage and accurately contrasts it with offshore farms’ greater electricity production.",
+        "choice_analysis": {
+          "A": "Correct. It uses the relevant comparison and explains the onshore advantage.",
+          "B": "Incorrect. It gives a location detail but does not explain an advantage.",
+          "C": "Incorrect. It explains how wind farms work, not why onshore farms have an advantage.",
+          "D": "Incorrect. It describes all wind farms generally and does not compare onshore with offshore."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "student_notes_goal_synthesis"
+      }
+    },
+    {
+      "question_id": "sep2025_apac_a_Q18",
+      "section": "reading_writing",
+      "question_number": 18,
+      "source_set": "2025-09-亚太A卷",
+      "source_question_number": 18,
+      "passage": "Sociologist Alton Okinaka sits on the review board tasked with adding new sites to the Hawai‘i Register of Historic Places, which includes the Gulick-Rowell House and the Kukui Heiau. However, Okinaka doesn’t make such decisions ______ all historical designations must be approved by a group of nine other experts from the fields of architecture, archaeology, history, and Hawaiian culture.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "single-handedly and"
+        },
+        {
+          "label": "B",
+          "text": "single-handedly,"
+        },
+        {
+          "label": "C",
+          "text": "single-handedly"
+        },
+        {
+          "label": "D",
+          "text": "single-handedly;"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "explanation": {
+        "short": "Option D is correct because a semicolon can join two closely related independent clauses.",
+        "key_evidence": "“Okinaka doesn’t make such decisions single-handedly” and “all historical designations must be approved...” can each stand as an independent clause.",
+        "why_correct": "The semicolon correctly links the two clauses without a coordinating conjunction.",
+        "detailed": "The sentence contains two complete thoughts: Okinaka does not decide alone, and all designations require approval by nine other experts. A semicolon is the correct punctuation to join these closely related independent clauses.",
+        "choice_analysis": {
+          "A": "Incorrect. “And” without a comma after an adverb does not correctly complete the clause boundary here.",
+          "B": "Incorrect. A comma alone creates a comma splice between independent clauses.",
+          "C": "Incorrect. No punctuation creates a run-on sentence.",
+          "D": "Correct. The semicolon properly joins the two independent clauses."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "independent_clause_punctuation"
+      }
+    }
+  ]
+}
