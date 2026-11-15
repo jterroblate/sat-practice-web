@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Export explicitly supplied maintained content into this public development repo.
+"""Export maintained content once into a target without prior exported content.
 
-This is a one-way, field-whitelisted export. It does not modify the supplied
-source, preserve private review evidence, or deploy the resulting pages.
+Use --output for a new, separate export proposal. Existing canonical content
+and first-import provenance are never overwritten, even for identical input.
+The supplied maintained source remains read only.
 """
 
 from __future__ import annotations
@@ -80,10 +81,25 @@ def safe_relative(value: str) -> str:
     return relative.as_posix()
 
 
-def export_content(source: Path) -> dict:
+def export_content(source: Path, output: Path | None = None) -> dict:
+    target_input = output if output is not None else ROOT
+    if target_input.is_symlink():
+        raise ValueError("The initial export target must not be a symlink")
+    target_root = target_input.resolve()
+    markers = (
+        "content/canonical", "docs/content-export.json",
+        "sat-content-registry.json", "sat-practice-migrations.json",
+    )
+    if any((target_root / relative).exists() or (target_root / relative).is_symlink()
+           for relative in markers):
+        raise FileExistsError(
+            "Initial export refused: the target already contains canonical content "
+            "or import provenance. Use --output with a new clean directory, then "
+            "review field-level differences; existing public revisions are never overwritten."
+        )
     source = source.resolve()
-    if source == ROOT or source.is_relative_to(ROOT):
-        raise ValueError("The maintained source must be separate from this export checkout")
+    if source == target_root or source.is_relative_to(target_root) or target_root.is_relative_to(source):
+        raise ValueError("The maintained source and export target must be separate, non-nested directories")
     source_registry_bytes = (source / "sat-content-registry.json").read_bytes()
     registry = json.loads(source_registry_bytes)
     entries = [copy.deepcopy(e) for e in registry["entries"] if e["status"] == "published"]
@@ -254,7 +270,7 @@ def export_content(source: Path) -> dict:
     outputs["sat-content-registry.json"] = encoded(public_registry)
     migrations = (source / "sat-practice-migrations.json").read_bytes()
     outputs["sat-practice-migrations.json"] = migrations
-    resource_catalog_path = ROOT / "assets/content-resources.json"
+    resource_catalog_path = target_root / "assets/content-resources.json"
     catalog = {}
     if resource_catalog_path.is_file():
         existing = json.loads(resource_catalog_path.read_text(encoding="utf-8"))
@@ -303,11 +319,16 @@ def export_content(source: Path) -> dict:
             text = payload.decode("utf-8")
             if LOCAL_PATH.search(text) or EMAIL_LIKE.search(text):
                 raise ValueError("A public JSON still contains a local path or email-shaped text")
-        destination = ROOT / relative
-        if destination.is_symlink():
-            raise ValueError("An export target is a symlink")
+        destination = target_root / relative
+        if destination.is_symlink() or not destination.resolve().is_relative_to(target_root):
+            raise ValueError("An export target is a symlink or escapes the clean target directory")
+        parent = destination.parent
+        while parent != target_root:
+            if parent.is_symlink():
+                raise ValueError("An export target parent directory is a symlink")
+            parent = parent.parent
     for relative, payload in outputs.items():
-        destination = ROOT / relative
+        destination = target_root / relative
         destination.parent.mkdir(parents=True, exist_ok=True)
         destination.write_bytes(payload)
     return report
@@ -317,8 +338,10 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--source", required=True, type=Path,
                         help="Explicit local maintained workspace; this path is not written to the export report")
+    parser.add_argument("--output", type=Path,
+                        help="New clean export target; defaults to this checkout and refuses any prior exported content")
     args = parser.parse_args()
-    report = export_content(args.source)
+    report = export_content(args.source, args.output)
     print(json.dumps(report["summary"], ensure_ascii=False, indent=2))
     print("Public content and path-free export report written. Maintained source was read only.")
     return 0

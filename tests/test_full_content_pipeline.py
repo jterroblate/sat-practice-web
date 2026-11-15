@@ -44,6 +44,30 @@ def display_resource_references(value: object):
             yield from display_resource_references(item)
 
 
+def copy_public_inputs(source: Path, target: Path):
+    registry = load(source / "sat-content-registry.json")
+    current_resources = load(source / "assets/content-resources.json")
+    inputs = [
+        "scripts/build-site.py", "scripts/build-demo.py", "scripts/build_output.py",
+        "fixtures/original-demo.json", "sat-content-registry.json",
+        "sat-practice-migrations.json", "docs/content-export.json",
+        "assets/content-resources.json",
+        SKILL + "/scripts/build_learning_experience.py",
+        SKILL + "/assets/templates/html_template_v1.1.html",
+        SKILL + "/assets/templates/learning_index_v2.html",
+        SKILL + "/assets/templates/learning_storage.js",
+        *[SKILL + "/assets/zen-interface/" + name + ".svg"
+          for name in ("background", "texture", "pattern")],
+        *[entry["dataPath"] for entry in registry["entries"]
+          if entry["status"] == "published" and entry["kind"] in {"set", "collection"}],
+        *[item["publicPath"] for item in current_resources["resources"]],
+    ]
+    for relative in inputs:
+        destination = target / relative
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        destination.write_bytes((source / relative).read_bytes())
+
+
 class FullContentPipelineTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
@@ -51,26 +75,7 @@ class FullContentPipelineTests(unittest.TestCase):
         parent.mkdir(parents=True, exist_ok=True)
         cls.temporary = tempfile.TemporaryDirectory(prefix="clean-full-", dir=parent)
         cls.checkout = Path(cls.temporary.name)
-        registry = load(ROOT / "sat-content-registry.json")
-        report = load(ROOT / "docs/content-export.json")
-        inputs = [
-            "scripts/build-site.py", "scripts/build-demo.py", "scripts/build_output.py",
-            "fixtures/original-demo.json", "sat-content-registry.json",
-            "sat-practice-migrations.json", "docs/content-export.json",
-            SKILL + "/scripts/build_learning_experience.py",
-            SKILL + "/assets/templates/html_template_v1.1.html",
-            SKILL + "/assets/templates/learning_index_v2.html",
-            SKILL + "/assets/templates/learning_storage.js",
-            *[SKILL + "/assets/zen-interface/" + name + ".svg"
-              for name in ("background", "texture", "pattern")],
-            *[entry["dataPath"] for entry in registry["entries"]
-              if entry["kind"] in {"set", "collection"}],
-            *[item["publicPath"] for item in report["resources"]],
-        ]
-        for relative in inputs:
-            destination = cls.checkout / relative
-            destination.parent.mkdir(parents=True, exist_ok=True)
-            destination.write_bytes((ROOT / relative).read_bytes())
+        copy_public_inputs(ROOT, cls.checkout)
         completed = cls.run_build("build-site.py")
         if completed.returncode:
             cls.temporary.cleanup()
@@ -94,6 +99,7 @@ class FullContentPipelineTests(unittest.TestCase):
         self.assertEqual(self.manifest["pageCount"], 48)
         self.assertEqual(self.manifest["uniqueQuestionCount"], 1752)
         answers = {}
+        revisions = {}
         occurrences = 0
         for entry in registry["entries"]:
             self.assertFalse(entry["examEligible"])
@@ -119,6 +125,11 @@ class FullContentPipelineTests(unittest.TestCase):
             self.assertEqual([q["question_id"] for q in questions], page["questionIds"])
             for question in questions:
                 self.assertEqual(question["correct_answer"], answers[question["question_id"]])
+                qid = question["question_id"]
+                if qid in revisions:
+                    self.assertEqual(question["gradingRevision"], revisions[qid],
+                                     "Shared IDs must use one grading revision across every route")
+                revisions[qid] = question["gradingRevision"]
         # This is the immutable initial export provenance. Later reviewed text
         # changes need not rewrite its original package hashes.
         report = load(self.checkout / "docs/content-export.json")
@@ -202,6 +213,39 @@ class FullContentPipelineTests(unittest.TestCase):
             self.assertEqual((self.output / "index.html").read_bytes(), before)
         finally:
             registry_path.write_bytes(original)
+
+    def test_05_current_resources_support_new_images_and_retired_import_images(self):
+        catalog_path = self.checkout / "assets/content-resources.json"
+        catalog = load(catalog_path)
+        old = next(item for item in catalog["resources"]
+                   if item["publicPath"].startswith("categories/chart_images/"))
+        old_path = Path(old["publicPath"])
+        new_path = old_path.with_name("replacement-current-chart.png")
+        (self.checkout / new_path).write_bytes((self.checkout / old_path).read_bytes())
+        replacements = 0
+        for path in (self.checkout / "content/canonical").rglob("*.json"):
+            text = path.read_text(encoding="utf-8")
+            replacements += text.count(old_path.name)
+            path.write_text(text.replace(old_path.name, new_path.name), encoding="utf-8")
+        self.assertGreater(replacements, 0)
+        catalog["resources"] = [item for item in catalog["resources"]
+                                if item["publicPath"] != old["publicPath"]]
+        catalog["resources"].append({**old, "publicPath": new_path.as_posix()})
+        catalog_path.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        (self.checkout / old_path).unlink()
+        historical_report = (self.checkout / "docs/content-export.json").read_bytes()
+        self.assertIn(old["publicPath"], historical_report.decode("utf-8"))
+        parent = ROOT / "build/test-tmp"
+        with tempfile.TemporaryDirectory(prefix="changed-resources-", dir=parent) as temporary:
+            checkout = Path(temporary)
+            copy_public_inputs(self.checkout, checkout)
+            completed = subprocess.run([sys.executable, "scripts/build-site.py"], cwd=checkout,
+                                       text=True, capture_output=True)
+            self.assertEqual(completed.returncode, 0, completed.stderr)
+            self.assertTrue((checkout / "build/site" / new_path).is_file())
+            self.assertFalse((checkout / "build/site" / old_path).exists())
+            self.assertEqual(load(checkout / "build/site/sat-practice-manifest.json")["uniqueQuestionCount"], 1752)
+            self.assertEqual((checkout / "docs/content-export.json").read_bytes(), historical_report)
 
 
 if __name__ == "__main__":

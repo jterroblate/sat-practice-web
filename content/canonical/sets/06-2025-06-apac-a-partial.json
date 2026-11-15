@@ -307,15 +307,15 @@
       "source_set": "2025-06-亚太A卷",
       "source_question_number": 8,
       "explanation": {
-        "short": "Text 2 would say the results are not known with certainty.",
-        "key_evidence": "Text 2 says studies have methodological shortcomings and that a small sample makes it difficult to know whether training had an effect.",
-        "why_correct": "Because Text 2 questions the evidence quality, it would answer that the programs’ results are unknown due to flawed study designs.",
-        "detailed": "Because Text 2 questions the evidence quality, it would answer that the programs’ results are unknown due to flawed study designs.",
+        "short": "Option B is correct because Text 2 says the studies are too methodologically weak to support a definite conclusion.",
+        "key_evidence": "Text 2 says close analysis reveals methodological shortcomings and that a 19-student sample makes it difficult to say whether the training actually had an effect.",
+        "why_correct": "The author of Text 2 would answer Text 1’s question cautiously: the results are unknown because the studies do not allow definitive conclusions.",
+        "detailed": "Text 1 asks what results entrepreneurship programs produce and cites a study reporting positive effects. Text 2 responds that studies of such programs often have methodological shortcomings; its example notes that Hansemark’s study used only 19 students, making it difficult to say whether the training had an effect. That supports B, not A: Text 2 questions whether firm conclusions can be drawn, but it does not claim negative results occur just as frequently as positive ones.",
         "choice_analysis": {
-          "A": "Incorrect. Text 2 does not say negative results occur just as frequently.",
-          "B": "Correct. It states that study designs often do not permit definitive conclusions.",
-          "C": "Incorrect. Text 2 does not conclude most programs fail.",
-          "D": "Incorrect. Text 2 criticizes study methodology, not variation in program aims."
+          "A": "Incorrect. Text 2 identifies weak methods and uncertainty, not evidence that negative results are just as frequent as positive results.",
+          "B": "Correct. Text 2 says study designs make definitive conclusions difficult, so the results are unknown.",
+          "C": "Incorrect. Text 2 does not say most programs fail to produce positive results.",
+          "D": "Incorrect. Text 2 criticizes study methodology, not variation in program methods and aims."
         }
       },
       "classification": {
