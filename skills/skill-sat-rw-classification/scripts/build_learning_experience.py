@@ -274,6 +274,8 @@ def load_published_content(
     source_pages: dict[str, list[dict[str, Any]]] = {}
     canonical: dict[str, dict[str, Any]] = {}
     fingerprints_by_id: dict[str, str] = {}
+    grading_by_id: dict[str, str] = {}
+    first_routes_by_id: dict[str, str] = {}
     priorities_by_id: dict[str, int] = {}
     source_kind_order = {"set": 0, "collection": 1}
     for entry in sorted(
@@ -294,6 +296,16 @@ def load_published_content(
             if prior_fingerprint and prior_fingerprint != fingerprint:
                 raise ValueError(f"Question ID collision with different content: {question_id}")
             fingerprints_by_id[question_id] = fingerprint
+            revision = grading_revision(question)
+            prior_revision = grading_by_id.get(question_id)
+            if prior_revision is not None and prior_revision != revision:
+                raise ValueError(
+                    f"Shared question grading fields differ for {question_id}: "
+                    f"{first_routes_by_id[question_id]} and {route}. "
+                    "Update all occurrences of this question together."
+                )
+            grading_by_id[question_id] = revision
+            first_routes_by_id.setdefault(question_id, route)
             if question_id not in canonical or priority > priorities_by_id[question_id]:
                 canonical[question_id] = copy.deepcopy(question)
                 priorities_by_id[question_id] = priority

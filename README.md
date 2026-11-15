@@ -2,7 +2,7 @@
 
 SAT Reading and Writing 学习站的协作开发仓库，包含当前结构化题库、必要题图、静态生成器、练习与复习界面、本地学习记录逻辑及开发测试。Python 构建页面，原生 JavaScript 负责交互；不需要安装前端框架。
 
-导入基线的维护代码对应 2026-11-05 已发布的提交反馈修复。题库包含 **34 个套题、3 个专项、11 个题型、48 个练习路由、1,752 个唯一公共 question_id**；37 份 canonical JSON 是 set / collection 的内容输入，题型页由它们派生。同一道题可能出现在多份材料中，记录数不能当作唯一题数。
+导入基线的维护代码对应 2026-11-05 已发布的提交反馈修复。导入后的开发准备修订另见 [readiness-fixes.md](docs/readiness-fixes.md)，其中公共副本的内容对齐不代表已修改生产题库。题库包含 **34 个套题、3 个专项、11 个题型、48 个练习路由、1,752 个唯一公共 question_id**；37 份 canonical JSON 是 set / collection 的内容输入，题型页由它们派生。同一道题可能出现在多份材料中，记录数不能当作唯一题数。
 
 题库是供协作维护的去敏副本，包含经过编辑校订、出处尚未认证的材料，不能称为官方认证真题。当前全部 `examEligible=false`，仅提供普通练习；历史路由中的 `fixed-hard` 不代表具备正式模考资格。原始 PDF、审查截图、历史运行档案、学生记录、生产登录服务与凭证不在本仓库。
 
@@ -26,7 +26,7 @@ python3 scripts/build-demo.py
 python3 -m http.server 8001 --bind 127.0.0.1 --directory build/demo
 ```
 
-全库与演示分别写入 `build/site/`、`build/demo/`，可以并存。`build/` 是可重建产物，不提交；内容修改应写回 canonical，界面修改应写回模板或运行时。
+全库与演示分别写入 `build/site/`、`build/demo/`，可以并存。`build/` 是可重建产物，不提交；内容修改应写回 canonical，界面修改应写回模板或运行时。`scripts/export-current-content.py` 是维护者首次导入工具，不是日常构建或更新命令；已导入仓库通过 PR 修改，禁止重新导出覆盖当前协作内容。
 
 ## 检查
 
@@ -36,7 +36,7 @@ python3 -m unittest discover -s tests -p 'test_*.py'
 python3 -m unittest discover -s skills/skill-sat-rw-classification/tests -p 'test_*.py'
 ```
 
-仓库包含 GitHub Actions `checks` 工作流，用于构建和源码契约检查，不配置生产自动部署。检查通过不等于逐题教学审核、真实浏览器交互或真实账号跨设备验收。
+GitHub Actions `checks` 会执行公开范围检查、全库与演示构建、Python 测试和真实 Chrome 浏览器回归，浏览器中的学习记录与同步响应使用合成夹具。它不配置生产自动部署，也不能代替逐题教学审核或真实账号跨设备验收。
 
 安装 Chrome 后还可运行本地浏览器开发回归；自动发现失败时设置 `CHROME_PATH` 为 Chrome 可执行文件：
 
