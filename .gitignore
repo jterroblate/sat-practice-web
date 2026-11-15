@@ -1,0 +1,44 @@
+# Local build and private inputs
+/build/
+/data/
+/sets/*.html
+/categories/*.html
+/collections/*.html
+/index.html
+/sat-practice-manifest.json
+/runs/
+/audits/
+/reports/
+/00_待处理来源/
+/01_完整套题/
+/02_按题型分类/
+/03_刷题HTML汇总/
+/04_分类报告/
+/2025年 sat/
+/_过期文件归档/
+*.pdf
+*.docx
+*.ppm
+*.zip
+
+# Credentials, local config, caches
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*.json
+*service-account*.json
+.cloudbase/
+.tcb/
+.claude/settings.local.json
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+*.swp
+*.swo
+*~

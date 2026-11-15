@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sat-content-registry-fragment-v1.schema.json",
+  "additionalProperties": false,
+  "properties": {
+    "baseline": {
+      "type": "object"
+    },
+    "entries": {
+      "items": {
+        "additionalProperties": true,
+        "properties": {
+          "contentId": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "dataPath": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "difficulty": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "examEligible": {
+            "type": "boolean"
+          },
+          "examVariants": {
+            "type": "array"
+          },
+          "kind": {
+            "enum": [
+              "set",
+              "collection",
+              "category"
+            ]
+          },
+          "moduleSpec": {
+            "type": [
+              "object",
+              "null"
+            ]
+          },
+          "route": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "section": {
+            "enum": [
+              "reading_writing",
+              "math",
+              "mixed"
+            ]
+          },
+          "sourceFamily": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "status": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "title": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "required": [
+          "contentId",
+          "kind",
+          "section",
+          "title",
+          "sourceFamily",
+          "difficulty",
+          "dataPath",
+          "route",
+          "moduleSpec",
+          "examEligible",
+          "examVariants",
+          "status"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "schemaVersion": {
+      "const": "sat-content-registry-v1"
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "baseline",
+    "entries"
+  ],
+  "title": "SAT content registry or registry fragment",
+  "type": "object"
+}

@@ -1,0 +1,535 @@
+{
+  "schemaVersion": "sat-canonical-question-collection-v1",
+  "contentId": "demo-original-set",
+  "questionCount": 11,
+  "fixtureNotice": "Original synthetic development examples authored for this repository. Not official test questions; not a scored or validated examination.",
+  "questions": [
+    {
+      "question_id": "demo_original_01",
+      "section": "reading_writing",
+      "question_number": 1,
+      "passage": "The three ______ notebooks were stacked beside their chairs.",
+      "prompt": "Which choice correctly shows that the notebooks belong to all three students?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "students'"
+        },
+        {
+          "label": "B",
+          "text": "student's"
+        },
+        {
+          "label": "C",
+          "text": "students"
+        },
+        {
+          "label": "D",
+          "text": "students's"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Original development fixtures — not official test questions",
+      "difficulty_estimate": "demonstration-only",
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "original_development_fixture"
+      },
+      "explanation": {
+        "short": "The plural noun students takes an apostrophe after the s to show shared plural possession.",
+        "key_evidence": "The plural noun students takes an apostrophe after the s to show shared plural possession.",
+        "why_correct": "The plural noun students takes an apostrophe after the s to show shared plural possession.",
+        "detailed": "The plural noun students takes an apostrophe after the s to show shared plural possession.",
+        "choice_analysis": {
+          "A": "The plural noun students takes an apostrophe after the s to show shared plural possession.",
+          "B": "This spelling marks possession by one student, while the sentence names three.",
+          "C": "The plural noun alone does not mark possession.",
+          "D": "This form adds an extra s after the plural possessive apostrophe."
+        }
+      }
+    },
+    {
+      "question_id": "demo_original_02",
+      "section": "reading_writing",
+      "question_number": 2,
+      "passage": "Every Friday, residents bring broken household objects to a repair club. Volunteers teach the owners how to fix loose handles, torn fabric, and simple mechanical faults. The club aims to make repair skills more widely available.",
+      "prompt": "Which choice best states the main idea?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A repair club teaches residents to fix everyday objects."
+        },
+        {
+          "label": "B",
+          "text": "A repair club sells new household objects."
+        },
+        {
+          "label": "C",
+          "text": "Residents must replace all damaged fabric."
+        },
+        {
+          "label": "D",
+          "text": "Mechanical faults cannot be repaired."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Original development fixtures — not official test questions",
+      "difficulty_estimate": "demonstration-only",
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "original_development_fixture"
+      },
+      "explanation": {
+        "short": "The passage describes volunteers teaching practical repair skills to residents.",
+        "key_evidence": "The passage describes volunteers teaching practical repair skills to residents.",
+        "why_correct": "The passage describes volunteers teaching practical repair skills to residents.",
+        "detailed": "The passage describes volunteers teaching practical repair skills to residents.",
+        "choice_analysis": {
+          "A": "The passage describes volunteers teaching practical repair skills to residents.",
+          "B": "The passage describes repairs and teaching, not sales of new objects.",
+          "C": "The text includes torn fabric among items that can be repaired.",
+          "D": "Simple mechanical faults are explicitly included in the repair work."
+        }
+      }
+    },
+    {
+      "question_id": "demo_original_03",
+      "section": "reading_writing",
+      "question_number": 3,
+      "passage": "A fictional class recorded the number of books returned to its reading shelf on three days.",
+      "prompt": "Which choice accurately describes the table?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Tuesday had four more returns than Monday."
+        },
+        {
+          "label": "B",
+          "text": "Monday had more returns than Wednesday."
+        },
+        {
+          "label": "C",
+          "text": "Wednesday had twice as many returns as Tuesday."
+        },
+        {
+          "label": "D",
+          "text": "The same number of books was returned each day."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Original development fixtures — not official test questions",
+      "difficulty_estimate": "demonstration-only",
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "original_development_fixture"
+      },
+      "explanation": {
+        "short": "Tuesday has 9 returns and Monday has 5, so the difference is 4.",
+        "key_evidence": "Tuesday has 9 returns and Monday has 5, so the difference is 4.",
+        "why_correct": "Tuesday has 9 returns and Monday has 5, so the difference is 4.",
+        "detailed": "Tuesday has 9 returns and Monday has 5, so the difference is 4.",
+        "choice_analysis": {
+          "A": "Tuesday has 9 returns and Monday has 5, so the difference is 4.",
+          "B": "Monday has 5 returns while Wednesday has 7.",
+          "C": "Wednesday has 7 returns, which is not twice Tuesday's 9.",
+          "D": "The three counts are 5, 9, and 7, so they differ."
+        }
+      },
+      "table_data": {
+        "title": "Fictional reading shelf returns",
+        "headers": [
+          "Day",
+          "Books returned"
+        ],
+        "rows": [
+          [
+            "Monday",
+            "5"
+          ],
+          [
+            "Tuesday",
+            "9"
+          ],
+          [
+            "Wednesday",
+            "7"
+          ]
+        ]
+      }
+    },
+    {
+      "question_id": "demo_original_04",
+      "section": "reading_writing",
+      "question_number": 4,
+      "passage": "A fictional gardener claims that a shade cloth helps young lettuce plants retain water during hot afternoons.",
+      "prompt": "Which finding would most directly support the gardener's claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Plants under the cloth lost less water than otherwise similar uncovered plants."
+        },
+        {
+          "label": "B",
+          "text": "The cloth was available in several colors."
+        },
+        {
+          "label": "C",
+          "text": "The gardener stored tools beside the lettuce bed."
+        },
+        {
+          "label": "D",
+          "text": "Lettuce seeds were planted in labeled trays."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Original development fixtures — not official test questions",
+      "difficulty_estimate": "demonstration-only",
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "original_development_fixture"
+      },
+      "explanation": {
+        "short": "Lower water loss under the cloth directly supports the proposed effect on water retention.",
+        "key_evidence": "Lower water loss under the cloth directly supports the proposed effect on water retention.",
+        "why_correct": "Lower water loss under the cloth directly supports the proposed effect on water retention.",
+        "detailed": "Lower water loss under the cloth directly supports the proposed effect on water retention.",
+        "choice_analysis": {
+          "A": "Lower water loss under the cloth directly supports the proposed effect on water retention.",
+          "B": "The range of cloth colors provides no evidence about water retention.",
+          "C": "Tool storage does not measure how the cloth affects the plants.",
+          "D": "Labels and trays do not compare water loss with and without the cloth."
+        }
+      }
+    },
+    {
+      "question_id": "demo_original_05",
+      "section": "reading_writing",
+      "question_number": 5,
+      "passage": "Text 1\nA neighborhood planner recommends adding benches along a walking route so that people can rest.\n\nText 2\nA second planner supports the benches but argues that shade is also necessary because the route becomes hot at midday.",
+      "prompt": "How would the planner in Text 2 most likely respond to the recommendation in Text 1?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Support the benches and recommend an additional change."
+        },
+        {
+          "label": "B",
+          "text": "Reject all places to rest along the route."
+        },
+        {
+          "label": "C",
+          "text": "Claim that the route is always cool at midday."
+        },
+        {
+          "label": "D",
+          "text": "Argue that benches should be removed from every public space."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Original development fixtures — not official test questions",
+      "difficulty_estimate": "demonstration-only",
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Cross-Text Connections",
+        "subtype": "original_development_fixture"
+      },
+      "explanation": {
+        "short": "Text 2 explicitly supports benches and adds a recommendation for shade.",
+        "key_evidence": "Text 2 explicitly supports benches and adds a recommendation for shade.",
+        "why_correct": "Text 2 explicitly supports benches and adds a recommendation for shade.",
+        "detailed": "Text 2 explicitly supports benches and adds a recommendation for shade.",
+        "choice_analysis": {
+          "A": "Text 2 explicitly supports benches and adds a recommendation for shade.",
+          "B": "Text 2 supports benches rather than rejecting resting places.",
+          "C": "Text 2 states that the route becomes hot at midday.",
+          "D": "Neither text proposes removing benches from other public spaces."
+        }
+      }
+    },
+    {
+      "question_id": "demo_original_06",
+      "section": "reading_writing",
+      "question_number": 6,
+      "passage": "The box of colored pencils ______ on the desk beside the sketchbooks.",
+      "prompt": "Which choice completes the sentence with correct subject-verb agreement?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "is"
+        },
+        {
+          "label": "B",
+          "text": "are"
+        },
+        {
+          "label": "C",
+          "text": "were"
+        },
+        {
+          "label": "D",
+          "text": "have been"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Original development fixtures — not official test questions",
+      "difficulty_estimate": "demonstration-only",
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "original_development_fixture"
+      },
+      "explanation": {
+        "short": "The subject is the singular noun box; the phrase of colored pencils does not change its number.",
+        "key_evidence": "The subject is the singular noun box; the phrase of colored pencils does not change its number.",
+        "why_correct": "The subject is the singular noun box; the phrase of colored pencils does not change its number.",
+        "detailed": "The subject is the singular noun box; the phrase of colored pencils does not change its number.",
+        "choice_analysis": {
+          "A": "The subject is the singular noun box; the phrase of colored pencils does not change its number.",
+          "B": "Are is plural and does not agree with the singular subject box.",
+          "C": "Were is plural in this statement and does not agree with box.",
+          "D": "Have been is plural and does not agree with the singular subject."
+        }
+      }
+    },
+    {
+      "question_id": "demo_original_07",
+      "section": "reading_writing",
+      "question_number": 7,
+      "passage": "Before opening the gate each morning, a fictional keeper checks a small notebook and ticks a box next to the date. On mornings when the notebook is missing, the keeper searches for it before opening the gate.",
+      "prompt": "Which inference is best supported?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The notebook is part of the keeper's usual opening routine."
+        },
+        {
+          "label": "B",
+          "text": "The keeper never opens the gate in the morning."
+        },
+        {
+          "label": "C",
+          "text": "The notebook contains a map of every nearby road."
+        },
+        {
+          "label": "D",
+          "text": "Visitors are required to purchase a notebook."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Original development fixtures — not official test questions",
+      "difficulty_estimate": "demonstration-only",
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "original_development_fixture"
+      },
+      "explanation": {
+        "short": "The repeated checks and the search when it is missing show that the notebook is part of the usual routine.",
+        "key_evidence": "The repeated checks and the search when it is missing show that the notebook is part of the usual routine.",
+        "why_correct": "The repeated checks and the search when it is missing show that the notebook is part of the usual routine.",
+        "detailed": "The repeated checks and the search when it is missing show that the notebook is part of the usual routine.",
+        "choice_analysis": {
+          "A": "The repeated checks and the search when it is missing show that the notebook is part of the usual routine.",
+          "B": "The text describes the keeper opening the gate after checking the notebook.",
+          "C": "The passage gives no information about maps or roads.",
+          "D": "The passage says nothing about visitors purchasing notebooks."
+        }
+      }
+    },
+    {
+      "question_id": "demo_original_08",
+      "section": "reading_writing",
+      "question_number": 8,
+      "passage": "A student has written these notes about two fictional delivery routes:\n• Route Elm is 8 kilometers long.\n• Route Bay is 12 kilometers long.\n• Both routes start at the same depot.",
+      "prompt": "The student wants to emphasize a difference in route length. Which choice best accomplishes this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Route Bay is 4 kilometers longer than Route Elm."
+        },
+        {
+          "label": "B",
+          "text": "Both routes start at the same depot."
+        },
+        {
+          "label": "C",
+          "text": "The depot is the starting point for two routes."
+        },
+        {
+          "label": "D",
+          "text": "Route Elm and Route Bay are both delivery routes."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Original development fixtures — not official test questions",
+      "difficulty_estimate": "demonstration-only",
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "original_development_fixture"
+      },
+      "explanation": {
+        "short": "Subtracting 8 from 12 states the difference in length directly.",
+        "key_evidence": "Subtracting 8 from 12 states the difference in length directly.",
+        "why_correct": "Subtracting 8 from 12 states the difference in length directly.",
+        "detailed": "Subtracting 8 from 12 states the difference in length directly.",
+        "choice_analysis": {
+          "A": "Subtracting 8 from 12 states the difference in length directly.",
+          "B": "This statement describes a shared feature, not a difference in length.",
+          "C": "This statement identifies the common starting point but omits lengths.",
+          "D": "This statement identifies a shared purpose, not the length difference."
+        }
+      }
+    },
+    {
+      "question_id": "demo_original_09",
+      "section": "reading_writing",
+      "question_number": 9,
+      "passage": "Rainwater once collected beside a fictional workshop door, making the entrance slippery. The owner installed a shallow drainage channel that carries the water toward a planted bed.",
+      "prompt": "Which choice best describes the structure of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It presents a problem and then describes a response to it."
+        },
+        {
+          "label": "B",
+          "text": "It lists two unrelated events without connecting them."
+        },
+        {
+          "label": "C",
+          "text": "It compares two competing explanations for rainfall."
+        },
+        {
+          "label": "D",
+          "text": "It provides a definition and then contradicts that definition."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Original development fixtures — not official test questions",
+      "difficulty_estimate": "demonstration-only",
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "original_development_fixture"
+      },
+      "explanation": {
+        "short": "The first sentence identifies water collecting at the door, and the second describes a drainage response.",
+        "key_evidence": "The first sentence identifies water collecting at the door, and the second describes a drainage response.",
+        "why_correct": "The first sentence identifies water collecting at the door, and the second describes a drainage response.",
+        "detailed": "The first sentence identifies water collecting at the door, and the second describes a drainage response.",
+        "choice_analysis": {
+          "A": "The first sentence identifies water collecting at the door, and the second describes a drainage response.",
+          "B": "The drainage channel directly responds to the water problem.",
+          "C": "The text does not compare explanations for rainfall.",
+          "D": "The text gives no definition or contradiction of a definition."
+        }
+      }
+    },
+    {
+      "question_id": "demo_original_10",
+      "section": "reading_writing",
+      "question_number": 10,
+      "passage": "The first trial used a wide paper strip. ______ the second trial used a narrow strip, allowing the class to compare the two widths.",
+      "prompt": "Which transition best signals the contrast between the trials?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "By contrast,"
+        },
+        {
+          "label": "B",
+          "text": "For example,"
+        },
+        {
+          "label": "C",
+          "text": "Therefore,"
+        },
+        {
+          "label": "D",
+          "text": "Similarly,"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Original development fixtures — not official test questions",
+      "difficulty_estimate": "demonstration-only",
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "original_development_fixture"
+      },
+      "explanation": {
+        "short": "By contrast marks the difference between a wide strip and a narrow strip.",
+        "key_evidence": "By contrast marks the difference between a wide strip and a narrow strip.",
+        "why_correct": "By contrast marks the difference between a wide strip and a narrow strip.",
+        "detailed": "By contrast marks the difference between a wide strip and a narrow strip.",
+        "choice_analysis": {
+          "A": "By contrast marks the difference between a wide strip and a narrow strip.",
+          "B": "The second trial is a contrasting case rather than an example of a wide strip.",
+          "C": "The sentence does not present the second width as a consequence of the first.",
+          "D": "Similarly would emphasize likeness, while the point is a difference in width."
+        }
+      }
+    },
+    {
+      "question_id": "demo_original_11",
+      "section": "reading_writing",
+      "question_number": 11,
+      "passage": "The fictional archivist was meticulous: she checked every label twice and compared each date with the original record.",
+      "prompt": "As used in the text, meticulous most nearly means",
+      "choices": [
+        {
+          "label": "A",
+          "text": "careful"
+        },
+        {
+          "label": "B",
+          "text": "hurried"
+        },
+        {
+          "label": "C",
+          "text": "forgetful"
+        },
+        {
+          "label": "D",
+          "text": "indifferent"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Original development fixtures — not official test questions",
+      "difficulty_estimate": "demonstration-only",
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "original_development_fixture"
+      },
+      "explanation": {
+        "short": "The repeated checks and comparisons demonstrate careful attention to details.",
+        "key_evidence": "The repeated checks and comparisons demonstrate careful attention to details.",
+        "why_correct": "The repeated checks and comparisons demonstrate careful attention to details.",
+        "detailed": "The repeated checks and comparisons demonstrate careful attention to details.",
+        "choice_analysis": {
+          "A": "The repeated checks and comparisons demonstrate careful attention to details.",
+          "B": "Checking every label twice suggests care rather than haste.",
+          "C": "Comparing each date with a record does not suggest forgetfulness.",
+          "D": "The archivist's repeated attention shows concern rather than indifference."
+        }
+      }
+    }
+  ]
+}

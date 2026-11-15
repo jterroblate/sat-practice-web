@@ -1,0 +1,2668 @@
+{
+  "schemaVersion": "sat-canonical-question-collection-v1",
+  "contentId": "set-02-gold48",
+  "title": "02 Gold48",
+  "section": "reading_writing",
+  "questionCount": 48,
+  "questions": [
+    {
+      "question_id": "rw_002",
+      "section": "reading_writing",
+      "question_number": 2,
+      "source_question_number": 2,
+      "passage": "\"Eyes of Zapata\" is an English-language short story by Sandra Cisneros. It occasionally includes Spanish words and phrases. The English text surrounding these words and phrases [vocab]______[/vocab] their meaning, so readers who aren't familiar with Spanish can easily read the story. Ana Castillo takes the same approach in her novel So Far from God.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "loses"
+        },
+        {
+          "label": "B",
+          "text": "purchases"
+        },
+        {
+          "label": "C",
+          "text": "suspects"
+        },
+        {
+          "label": "D",
+          "text": "suggests"
+        }
+      ],
+      "correct_answer": "D",
+      "skills_tested": [],
+      "difficulty_estimate": "unknown",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "Suggests means indicates indirectly; the surrounding English provides clues to the Spanish expressions.",
+        "key_evidence": "Readers who are not familiar with Spanish can easily read the story because of the surrounding English text.",
+        "why_correct": "Context must communicate enough meaning to make the Spanish expressions understandable. Suggests describes that contextual indication.",
+        "detailed": "Use the result clause as the clue: readers need no prior Spanish knowledge. Therefore the English around the Spanish phrases must hint at their meaning rather than obscure it. D gives that relationship.",
+        "choice_analysis": {
+          "A": "Loses would remove meaning rather than make the Spanish comprehensible.",
+          "B": "Purchases describes buying, not how surrounding text conveys meaning.",
+          "C": "Suspects attributes uncertainty or suspicion to text, not contextual clarification.",
+          "D": "Suggests means implies or provides clues to, matching the effect on readers."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "rw_005",
+      "section": "reading_writing",
+      "question_number": 5,
+      "source_question_number": 5,
+      "passage": "The dinosaur displays at museums such as the American Museum of Natural History in New York (which has a mounted Allosaurus fragilis skeleton among its holdings) are notable for the [vocab]______[/vocab] of the research behind them; the museum staff consulted numerous sources to ensure the accuracy of the displays.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "novelty"
+        },
+        {
+          "label": "B",
+          "text": "obscurity"
+        },
+        {
+          "label": "C",
+          "text": "rigor"
+        },
+        {
+          "label": "D",
+          "text": "shallowness"
+        }
+      ],
+      "correct_answer": "C",
+      "skills_tested": [],
+      "difficulty_estimate": "unknown",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "Rigor describes the careful, thorough research used to make the displays accurate.",
+        "key_evidence": "Museum staff consulted numerous sources to ensure the accuracy of the displays.",
+        "why_correct": "Using many sources to check accuracy exemplifies strict care and thoroughness, the meaning of rigor.",
+        "detailed": "The semicolon introduces the explanation for the missing noun. It stresses verification through numerous sources, so the displays are notable for research quality, not for newness or obscurity.",
+        "choice_analysis": {
+          "A": "Novelty means newness; no comparison with earlier research establishes that quality.",
+          "B": "Obscurity means being little known or unclear; careful sourcing does not support that characterization.",
+          "C": "Rigor means thorough, exacting care, directly supported by the accuracy-checking process.",
+          "D": "Shallowness means lack of depth and conflicts with consulting numerous sources."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "rw_010",
+      "section": "reading_writing",
+      "question_number": 10,
+      "source_question_number": 10,
+      "passage": "Seventeenth-century Flemish artist Clara Peeters played a crucial role in the history of still-life painting. At a time when historical paintings were the preferred genre-indeed, at a time when there wasn't even a term for still-life painting in Peeters's language, Peeters painted food, flowers, fish, and game. Her influence spread throughout Western Europe and she became so strongly associated with the genre that painters who took up similar subjects were sometimes described as belonging to the \"circle of Peeters.\"",
+      "prompt": "Which choice best states the main idea of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Clara Peeters was an important figure in the development of still-life painting."
+        },
+        {
+          "label": "B",
+          "text": "Clara Peeters made significant contributions to multiple genres of painting."
+        },
+        {
+          "label": "C",
+          "text": "Clara Peeters introduced the term \"still-life painting\" to Western Europe."
+        },
+        {
+          "label": "D",
+          "text": "Some paintings attributed to Clara Peeters may have been painted by other artists in her circle."
+        }
+      ],
+      "correct_answer": "A",
+      "skills_tested": [],
+      "difficulty_estimate": "unknown",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "The passage presents Peeters as an influential pioneer of still-life painting.",
+        "key_evidence": "She painted still-life subjects before her language named the genre, and later artists were associated with the circle of Peeters.",
+        "why_correct": "A captures both her early contribution and her influence on the development of the genre, unifying the supporting details.",
+        "detailed": "The opening claim establishes the central idea. The remaining sentences explain her importance: she worked on still-life subjects when historical painting dominated and influenced artists across Western Europe. The passage does not discuss disputed attribution or several genres.",
+        "choice_analysis": {
+          "A": "Her early work and broad influence support her importance to still-life painting.",
+          "B": "The text describes contributions to still life, not to multiple genres.",
+          "C": "The absence of a term in her language does not mean she coined or introduced it.",
+          "D": "Circle of Peeters labels similar subjects and influence, not evidence of mistaken attribution."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "main_idea_or_detail"
+      }
+    },
+    {
+      "question_id": "rw_012",
+      "section": "reading_writing",
+      "question_number": 12,
+      "source_question_number": 12,
+      "passage": "Lin-Tai Ho and colleagues counted fish in a tide pool in Taiwan at several times during the year and found that some species had a significantly higher maximum population count than others. For example, the highest count for the Indo-Pacific sergeant was 28 individuals in October of 2001, whereas the highest count for the Biliton rockskipper was [vocab]______[/vocab]",
+      "prompt": "Which choice most effectively uses data from the graph to complete the example?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "2 individuals in July of 2001."
+        },
+        {
+          "label": "B",
+          "text": "16 individuals in October of 2001."
+        },
+        {
+          "label": "C",
+          "text": "12 individuals in July of 2001."
+        },
+        {
+          "label": "D",
+          "text": "38 individuals in October of 2001."
+        }
+      ],
+      "correct_answer": "A",
+      "skills_tested": [],
+      "difficulty_estimate": "unknown",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "table_data": {
+        "title": "Fish Population in a Taiwanese Tide Pool, January 2001 to October 2001",
+        "headers": [
+          "Species",
+          "January 2001",
+          "April 2001",
+          "July 2001",
+          "October 2001"
+        ],
+        "rows": [
+          [
+            "barred flagtail",
+            "14",
+            "9",
+            "7",
+            "16"
+          ],
+          [
+            "Indo-Pacific sergeant",
+            "2",
+            "3",
+            "21",
+            "28"
+          ],
+          [
+            "Biliton rockskipper",
+            "0",
+            "0",
+            "2",
+            "0"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "The Biliton rockskipper's highest count is 2 individuals in July 2001, so choice A completes the example.",
+        "key_evidence": "The graph/table shows Biliton rockskipper counts of 0, 0, 2, and 0 across the four months.",
+        "why_correct": "Choice A gives the only value that matches the Biliton rockskipper's maximum population count.",
+        "detailed": "The example compares the highest count for two species. The Indo-Pacific sergeant reached 28 in October, while the Biliton rockskipper reached its highest value, 2, in July. Therefore A is correct.",
+        "choice_analysis": {
+          "A": "Correct. It states the Biliton rockskipper's maximum count and month.",
+          "B": "Incorrect. Sixteen in October is the barred flagtail's October count, not the Biliton rockskipper's maximum.",
+          "C": "Incorrect. The graph does not show 12 Biliton rockskippers in July.",
+          "D": "Incorrect. The graph does not show 38 Biliton rockskippers in October."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "data_evidence"
+      },
+      "visual_assets": [
+        {
+          "type": "graph_data",
+          "title": "Fish Population in a Taiwanese Tide Pool, January 2001 to October 2001",
+          "columns": [
+            "Species",
+            "January 2001",
+            "April 2001",
+            "July 2001",
+            "October 2001"
+          ],
+          "rows": [
+            [
+              "barred flagtail",
+              "14",
+              "9",
+              "7",
+              "16"
+            ],
+            [
+              "Indo-Pacific sergeant",
+              "2",
+              "3",
+              "21",
+              "28"
+            ],
+            [
+              "Biliton rockskipper",
+              "0",
+              "0",
+              "2",
+              "0"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "question_id": "rw_015",
+      "section": "reading_writing",
+      "question_number": 15,
+      "source_question_number": 15,
+      "passage": "The kawau tree is one of many forest plant species native to Oahu (a Hawaiian island) that are at risk of extinction in the wild. Ecologists say that fruit-eating birds help support these species' population numbers by dropping seeds from the plants' fruits to different spots where new plants can grow. The birds native to Oahu that used to do this have all gone extinct over time. However, the common waxbill and other fruit-eating bird species brought to the island in the last 150 years have been found to spread plant seeds. Based on this finding, some ecologists suggest that kawau trees and other forest plants native to Oahu ____",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "were likely already close to extinction long before non-native birds arrived on the island."
+        },
+        {
+          "label": "B",
+          "text": "probably established themselves on the island at about the same time as common waxbills and other fruit-eating birds did."
+        },
+        {
+          "label": "C",
+          "text": "seem to produce fewer fruits per plant now than they did when fruit-eating birds native to the island were still present."
+        },
+        {
+          "label": "D",
+          "text": "may now depend on non-native birds, such as the common waxbill, to help maintain and increase their populations on the island."
+        }
+      ],
+      "correct_answer": "D",
+      "skills_tested": [],
+      "difficulty_estimate": "unknown",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "The text says non-native fruit-eating birds now spread seeds, so native plants may depend on those birds.",
+        "key_evidence": "Native seed-spreading birds are extinct, but introduced fruit-eating birds have been found to spread plant seeds.",
+        "why_correct": "Choice D draws the supported inference that the plants may now rely on non-native birds to maintain or increase populations.",
+        "detailed": "The passage explains that fruit-eating birds help forest plants reproduce by dispersing seeds. Since the native birds are gone but introduced fruit-eating birds spread seeds, the logical conclusion is that some native plants may now depend on those introduced birds.",
+        "choice_analysis": {
+          "A": "Incorrect. The passage does not claim the plants were already close to extinction before non-native birds arrived.",
+          "B": "Incorrect. The timing of the plants' establishment is not discussed.",
+          "C": "Incorrect. The passage gives no comparison of fruit production per plant.",
+          "D": "Correct. It follows from the seed-dispersal role now performed by non-native birds."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "rw_016",
+      "section": "reading_writing",
+      "question_number": 16,
+      "source_question_number": 16,
+      "passage": "Though they are in different countries, the towns of Entebbe, Uganda, and Booue, Gabon, ____ They are among the rare places that sit almost directly on the equator.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "do have something in common?"
+        },
+        {
+          "label": "B",
+          "text": "do they have something in common."
+        },
+        {
+          "label": "C",
+          "text": "do they have something in common?"
+        },
+        {
+          "label": "D",
+          "text": "do have something in common."
+        }
+      ],
+      "correct_answer": "D",
+      "skills_tested": [],
+      "difficulty_estimate": "unknown",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "D completes a statement: the towns do have something in common.",
+        "key_evidence": "The subject the towns of Entebbe...and Booue... appears before the blank; the next sentence identifies their common equatorial location.",
+        "why_correct": "A declarative predicate must follow the existing subject. D uses do have without an extra pronoun and ends the complete statement with a period.",
+        "detailed": "Though introduces a subordinate concessive clause. The main clause then has subject the towns and needs a statement predicate. Both towns share an equatorial location, which the following sentence explains. There is no direct question requiring inversion or a question mark.",
+        "choice_analysis": {
+          "A": "Its word order is declarative, but the question mark conflicts with the completed statement.",
+          "B": "Do they have inserts another subject and question-order inversion after the subject already given.",
+          "C": "It combines the same inappropriate inversion with question punctuation.",
+          "D": "Do have supplies the declarative predicate, and the period closes the statement."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "rw_017",
+      "section": "reading_writing",
+      "question_number": 17,
+      "source_question_number": 17,
+      "passage": "Pumpkins were among the many plant species from the Western Hemisphere introduced into the Eastern Hemisphere in the years following Christopher Columbus's first transatlantic voyage in 1492. This ongoing transfer of species between hemispheres ____ now known as the Columbian Exchange.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "being"
+        },
+        {
+          "label": "B",
+          "text": "are"
+        },
+        {
+          "label": "C",
+          "text": "is"
+        },
+        {
+          "label": "D",
+          "text": "were"
+        }
+      ],
+      "correct_answer": "C",
+      "skills_tested": [],
+      "difficulty_estimate": "unknown",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "The singular transfer requires the finite singular verb is.",
+        "key_evidence": "The second sentence begins This ongoing transfer of species between hemispheres and ends now known as the Columbian Exchange.",
+        "why_correct": "Is agrees with transfer and completes the predicate is now known. The intervening plural species is the object of a preposition, not the subject.",
+        "detailed": "Ignore the of-species and between-hemispheres phrases to identify the subject head: transfer. The present name of that transfer is being stated, so a singular present-tense finite verb is needed.",
+        "choice_analysis": {
+          "A": "Being is nonfinite and leaves the clause without a main verb.",
+          "B": "Are is plural and does not agree with transfer.",
+          "C": "Is is the required singular finite verb and fits now known.",
+          "D": "Were does not agree with the singular subject and does not fit the present identification."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "rw_018",
+      "section": "reading_writing",
+      "question_number": 18,
+      "source_question_number": 18,
+      "passage": "Among several noun cases used in Sanskrit and other Indo-Aryan languages ____ the locative case, used to indicate that an action is occurring in, at, on, or near a particular noun.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "have been"
+        },
+        {
+          "label": "B",
+          "text": "are"
+        },
+        {
+          "label": "C",
+          "text": "is"
+        },
+        {
+          "label": "D",
+          "text": "were"
+        }
+      ],
+      "correct_answer": "C",
+      "skills_tested": [],
+      "difficulty_estimate": "unknown",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "Because the subject is 'the locative case,' the correct verb is 'is.'",
+        "key_evidence": "主语在倒装谓语之后：the locative case为单数；句首Among...languages只是介词短语。",
+        "why_correct": "C的is与单数locative case一致。A的have been、B的are、D的were均不满足主语数的一致，不能被句首复数名词cases或languages误导。",
+        "detailed": "The opening prepositional phrase 'Among several noun cases used in Sanskrit and other Indo-Aryan languages' comes before the verb, but it is not the subject. The subject is the singular noun phrase 'the locative case.' In this inverted structure, Standard English requires the singular finite verb 'is': 'Among several noun cases ... is the locative case.'",
+        "choice_analysis": {
+          "A": "'Have been' does not agree with the singular subject 'the locative case'; present perfect does not by itself mean a past state has ended.",
+          "B": "'Are' is plural, but the subject 'the locative case' is singular.",
+          "C": "Correct: 'is' agrees with the singular subject that follows the verb.",
+          "D": "'Were' is plural/past tense and does not agree with 'the locative case.'"
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "rw_019",
+      "section": "reading_writing",
+      "question_number": 19,
+      "source_question_number": 19,
+      "passage": "It was long thought that maize was domesticated solely from parviglumis, a subspecies of teosinte, a wild grass, in Mexico's lowlands about 9,000 years ago. However, a 2024 analysis has revealed that between 15 and 25 percent of maize's genes can be traced to a second [vocab]______[/vocab] highland subspecies of teosinte that was hybridized with maize around 4,000 years after the initial domestication.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "ancestor; mexicana, a"
+        },
+        {
+          "label": "B",
+          "text": "ancestor: mexicana, a"
+        },
+        {
+          "label": "C",
+          "text": "ancestor mexicana a"
+        },
+        {
+          "label": "D",
+          "text": "ancestor, mexicana. A"
+        }
+      ],
+      "correct_answer": "B",
+      "skills_tested": [],
+      "difficulty_estimate": "unknown",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "The colon after 'ancestor' correctly introduces mexicana as the second ancestor.",
+        "key_evidence": "The sentence identifies the second ancestor as mexicana, a highland subspecies of teosinte.",
+        "why_correct": "Choice B uses a colon to introduce the identification and a comma to set off the appositive phrase.",
+        "detailed": "The words after the blank name and describe the second ancestor. A colon can introduce that explanation: 'ancestor: mexicana, a highland subspecies...' The comma after mexicana properly sets off the appositive description.",
+        "choice_analysis": {
+          "A": "Incorrect. A semicolon would require an independent clause after it, but 'mexicana, a highland subspecies...' is not one.",
+          "B": "Correct. The colon introduces the identity of the second ancestor, and the comma sets off the appositive.",
+          "C": "Incorrect. It lacks the punctuation needed between 'ancestor,' the name, and the description.",
+          "D": "Incorrect. It creates an unnecessary sentence break and fragment."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "rw_021",
+      "section": "reading_writing",
+      "question_number": 21,
+      "source_question_number": 21,
+      "passage": "The World Cup of men's soccer, one of the biggest sporting events on the planet, brought 32 national teams from six continents to the host country, Germany, in 2006. The event, which is held every four years, used to be much smaller and more limited geographically. ____ the 1930 World Cup in Uruguay included only 13 teams, all from Europe and the Americas.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "In addition,"
+        },
+        {
+          "label": "B",
+          "text": "At last,"
+        },
+        {
+          "label": "C",
+          "text": "For example,"
+        },
+        {
+          "label": "D",
+          "text": "However,"
+        }
+      ],
+      "correct_answer": "C",
+      "skills_tested": [],
+      "difficulty_estimate": "unknown",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "The 1930 tournament is an example of the World Cup's formerly smaller size and narrower geography.",
+        "key_evidence": "前句概括早期世界杯规模小、地域有限；1930年只有13队且全部来自欧美，是这个概括的具体事实。",
+        "why_correct": "C的For example引出前述历史概括的实例，13队与受限地域分别支持smaller和more limited geographically。",
+        "detailed": "The sentence before the blank makes a general claim: the World Cup used to be much smaller and more limited geographically. The following sentence supports that claim with the 1930 tournament's 13 teams from Europe and the Americas. A transition of exemplification is needed, so 'For example' is correct.",
+        "choice_analysis": {
+          "A": "'In addition' would add another separate point, but the sentence is evidence illustrating the previous claim.",
+          "B": "'At last' suggests a final occurrence after delay, which does not fit the historical example.",
+          "C": "Correct: it introduces the 1930 World Cup as an example of the general claim.",
+          "D": "'However' signals contrast, but the 1930 details support rather than oppose the previous sentence."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "rw_022",
+      "section": "reading_writing",
+      "question_number": 22,
+      "source_question_number": 22,
+      "passage": "Karel Capek's 1920 play R.U.R. (Rossum's Universal Robots), in which artificial workers overthrow their masters, left an indelible mark on the science fiction genre, and the English language, by introducing the term \"robot\" (derived from the Czech word robota, meaning \"indentured labor\" or \"drudgery\"). ____ Capek's play also contributed to a venerable literary and mythological tradition: using artificial beings as mirrors and foils for humanity.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "By achieving such a lofty goal,"
+        },
+        {
+          "label": "B",
+          "text": "Beyond the simple coining of a term,"
+        },
+        {
+          "label": "C",
+          "text": "Despite its creation of such an iconic trope,"
+        },
+        {
+          "label": "D",
+          "text": "Ultimately limited in its lasting influence,"
+        }
+      ],
+      "correct_answer": "B",
+      "skills_tested": [],
+      "difficulty_estimate": "unknown",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "The transition must move from coining 'robot' to an additional broader contribution, so choice B is best.",
+        "key_evidence": "第一句介绍R.U.R.创造robot一词；第二句由also引出另一贡献，即以人造生命映照人类的文学传统。",
+        "why_correct": "B把论述从词语创造推进到更广的文学贡献，既承接coining of a term，又体现also标出的补充扩展。",
+        "detailed": "The passage first credits the play with introducing the term 'robot' into English. The sentence after the blank adds that the play also participated in a long tradition of using artificial beings as mirrors for humanity. Choice B marks the move beyond the term itself to another contribution. The other choices either mischaracterize the first contribution, imply an unsupported contrast, or deny the play's lasting influence.",
+        "choice_analysis": {
+          "A": "'By achieving such a lofty goal' does not clearly refer to coining a term and does not set up the additional contribution.",
+          "B": "Correct: it signals that the next point goes beyond the play's coining of 'robot.'",
+          "C": "'Despite' would set up a contrast, but the second contribution complements rather than opposes the first.",
+          "D": "This contradicts the passage's claim that the play left an indelible mark."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "rw_023",
+      "section": "reading_writing",
+      "question_number": 23,
+      "source_question_number": 23,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• - Letters from a Peruvian Woman (1747) is an epistolary novel by French author Françoise de Graffigny. - Epistolary novels are novels written primarily as a series of fictional documents. - These documents can be letters, journal entries, newspaper clippings, and more. - Letters from a Peruvian Woman consists primarily of letters. - The letters are sent between a captured Incan princess and her fiancé.",
+      "prompt": "The student wants to define the term “epistolary novel.” Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Published in 1747, Letters from a Peruvian Woman is an epistolary novel by French author Françoise de Graffigny."
+        },
+        {
+          "label": "B",
+          "text": "Françoise de Graffigny’s novel Letters from a Peruvian Woman was published in 1747 and consists primarily of letters sent between a captured Incan princess and her fiancé."
+        },
+        {
+          "label": "C",
+          "text": "Consisting primarily of letters sent between a captured Incan princess and her fiancé, Françoise de Graffigny’s Letters from a Peruvian Woman is an epistolary novel."
+        },
+        {
+          "label": "D",
+          "text": "An epistolary novel is a novel written primarily as a series of fictional documents, such as letters, journal entries, or newspaper clippings."
+        }
+      ],
+      "correct_answer": "D",
+      "skills_tested": [],
+      "difficulty_estimate": "unknown",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "Choice D directly defines an epistolary novel using the notes.",
+        "key_evidence": "The notes say epistolary novels are written primarily as fictional documents, including letters, journal entries, and newspaper clippings.",
+        "why_correct": "The student's goal is to define the term, so the answer should state the general definition rather than only describe one example.",
+        "detailed": "Choices A, B, and C discuss Letters from a Peruvian Woman, but they do not fully define the term. Choice D gives the definition and examples of document types, matching the stated goal.",
+        "choice_analysis": {
+          "A": "Incorrect. It identifies one book as an epistolary novel but does not define the term.",
+          "B": "Incorrect. It describes the book and its letter format but omits the broader definition.",
+          "C": "Incorrect. It uses the term but still centers on the example rather than defining the term.",
+          "D": "Correct. It directly defines epistolary novels and gives examples of the fictional documents they use."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "rw_026",
+      "section": "reading_writing",
+      "question_number": 26,
+      "source_question_number": 26,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Albert Einstein's theory of general relativity allows for potential shortcuts through spacetime.\n\nThese hypothetical spacetime tunnels are known as wormholes.\n\nFor matter to travel through a wormhole, it would need to have negative energy density.\n• Negative energy density means that the matter would have less energy than empty space.\n\nSuch matter has not been shown to exist.",
+      "prompt": "The student wants to acknowledge a complication affecting travel through wormholes. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The hypothetical tunnels known as wormholes would be potential shortcuts through spacetime were it not for one complication: they have less energy than empty space."
+        },
+        {
+          "label": "B",
+          "text": "Einstein's theory of general relativity allows for potential spacetime shortcuts called wormholes but does not explain how matter with negative energy density could travel through them."
+        },
+        {
+          "label": "C",
+          "text": "For matter to travel through a wormhole, the matter would need to have less energy than empty space; such matter has not been shown to exist."
+        },
+        {
+          "label": "D",
+          "text": "For wormholes to be possible, according to Einstein's theory of general relativity, they would have to allow for potential shortcuts through spacetime."
+        }
+      ],
+      "correct_answer": "C",
+      "skills_tested": [],
+      "difficulty_estimate": "unknown",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "Choice C acknowledges the complication: wormhole travel would require matter with negative energy density, and such matter has not been shown to exist.",
+        "key_evidence": "The notes define negative energy density as less energy than empty space and say such matter has not been shown to exist.",
+        "why_correct": "Choice C combines the travel requirement with the fact that the required kind of matter is unproven.",
+        "detailed": "The student's goal is not merely to describe wormholes but to acknowledge a complication affecting travel through them. Choice C identifies the requirement for negative energy density and the unresolved problem that such matter may not exist.",
+        "choice_analysis": {
+          "A": "Incorrect. It incorrectly says wormholes themselves have less energy than empty space.",
+          "B": "Incorrect. The notes do not say general relativity fails to explain how negative-energy matter could travel.",
+          "C": "Correct. It states both the requirement and the unresolved complication.",
+          "D": "Incorrect. It describes wormholes as shortcuts but does not acknowledge the complication."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "rw_030",
+      "section": "reading_writing",
+      "question_number": 30,
+      "source_question_number": 30,
+      "passage": "People tend to [vocab]______[/vocab] the impact of acts of kindness. For example, participants in a study were asked to give a pencil to a stranger and then guess how much this action would improve the stranger’s mood. The researchers found that the guesses were generally wrong: the strangers’ happiness after getting the gift turned out to be greater than givers thought it would be.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "misjudge"
+        },
+        {
+          "label": "B",
+          "text": "remove"
+        },
+        {
+          "label": "C",
+          "text": "avoid"
+        },
+        {
+          "label": "D",
+          "text": "distract"
+        }
+      ],
+      "correct_answer": "A",
+      "skills_tested": [],
+      "difficulty_estimate": "easy",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "The givers guessed the impact incorrectly, so they misjudged it.",
+        "key_evidence": "The passage says the guesses were generally wrong and the strangers were happier than expected.",
+        "why_correct": "Choice A means estimate incorrectly, which matches the study result.",
+        "detailed": "The blank describes what people do when they underestimate how much an act of kindness will improve someone's mood. Since the guesses were wrong, 'misjudge' is the precise word.",
+        "choice_analysis": {
+          "A": "Correct. 'Misjudge' means estimate or assess incorrectly.",
+          "B": "Incorrect. People do not remove the impact of kindness.",
+          "C": "Incorrect. The passage is about estimating impact, not avoiding it.",
+          "D": "Incorrect. 'Distract' does not fit the study's finding about wrong guesses."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "rw_031",
+      "section": "reading_writing",
+      "question_number": 31,
+      "source_question_number": 31,
+      "passage": "Ethicist Ingrid Robeyns argues that to minimize wealth inequality, there should be a legally enforceable upper limit on the wealth one person can hold. Robeyns concedes that some [vocab]______[/vocab] in wealth should be tolerated—for example, some jobs are more dangerous than others, and those jobs should therefore earn a higher income than others. But this is not a license for limitless wealth inequality.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "disparity"
+        },
+        {
+          "label": "B",
+          "text": "security"
+        },
+        {
+          "label": "C",
+          "text": "confidentiality"
+        },
+        {
+          "label": "D",
+          "text": "assurances"
+        }
+      ],
+      "correct_answer": "A",
+      "skills_tested": [],
+      "difficulty_estimate": "easy",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "'Disparity' fits because the sentence discusses tolerable differences in wealth.",
+        "key_evidence": "Robeyns接受危险工作收入较高这样的有理由差别，但反对limitless wealth inequality。",
+        "why_correct": "A的disparity表示差距或不平等，恰好涵盖她愿意有限容许、而非无限放任的财富差异。",
+        "detailed": "The passage is about wealth inequality and an upper limit on personal wealth. Robeyns concedes that some inequality should be tolerated when there is a reason, such as dangerous jobs earning more. The blank therefore needs a noun meaning difference or inequality. 'Disparity' supplies that meaning; the other choices concern safety, privacy, or promises.",
+        "choice_analysis": {
+          "A": "Correct: 'disparity in wealth' means difference or inequality in wealth.",
+          "B": "'Security in wealth' would mean safety or stability, not unequal amounts of wealth.",
+          "C": "'Confidentiality' concerns privacy and has no role in the wealth-inequality argument.",
+          "D": "'Assurances' means promises or guarantees and does not fit 'some ___ in wealth.'"
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "rw_032",
+      "section": "reading_writing",
+      "question_number": 32,
+      "source_question_number": 32,
+      "passage": "Bioluminescence is most commonly found among marine organisms: [u]70% of known luminescent species inhabit ocean environments.[/u] This trait is remarkably stable and has evolved independently in many marine species over time. Light-emitting marine species, like the Humboldt squid with its flashing light displays, exhibit accelerated diversification compared to nonluminescent relatives. This increased genetic variety among related light-emitting species further underscores bioluminescence's crucial role in marine biodiversity and evolution.",
+      "prompt": "Which choice best describes the function of the underlined portion in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To provide a statistical comparison between two categories of bioluminescent species that is elaborated on in the rest of the text"
+        },
+        {
+          "label": "B",
+          "text": "To present a scientific finding that the text's discussion of the evolutionary history of bioluminescence calls into question"
+        },
+        {
+          "label": "C",
+          "text": "To provide data that support an argument made in the text about a particular light-emitting ocean species"
+        },
+        {
+          "label": "D",
+          "text": "To support the text's assertion that bioluminescence is associated with particular environments"
+        }
+      ],
+      "correct_answer": "D",
+      "skills_tested": [],
+      "difficulty_estimate": "easy",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "The statistic supports the claim that bioluminescence is especially associated with ocean environments.",
+        "key_evidence": "划线的70% of known luminescent species inhabit ocean environments紧接生物发光最常见于海洋生物这一断言。",
+        "why_correct": "D将该百分比定位为海洋环境关联的统计支持；它描述全部已知发光物种的分布，不是关于单一鱿鱼物种的证据。",
+        "detailed": "The opening sentence states that bioluminescence is most commonly found among marine organisms and immediately gives the statistic that 70% of known luminescent species inhabit ocean environments. That data supports the environmental association introduced in the sentence. It is not a comparison between two categories later developed, nor is it about questioning a scientific finding or proving a claim about only one species.",
+        "choice_analysis": {
+          "A": "The statistic is not a comparison between two categories that the rest of the text elaborates; it supports a broad environmental association.",
+          "B": "The later discussion does not call the statistic into question.",
+          "C": "The statistic is about luminescent species generally, not data about a particular species such as the Humboldt squid.",
+          "D": "Correct: the statistic supports the assertion that bioluminescence is associated with marine environments."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "structural_function"
+      }
+    },
+    {
+      "question_id": "rw_036",
+      "section": "reading_writing",
+      "question_number": 36,
+      "source_question_number": 36,
+      "passage": "Pacific hermit crabs live in shells that they either find empty or take from another hermit crab. Biologists Louise Roberts and Mark Laidre noticed that hermit crabs sometimes vibrate their shells and wondered if they do this to scare away other crabs. The researchers put a shell on a beach and set it up to remain still, gently vibrate, or strongly vibrate when another hermit crab approached it. They recorded how many of those crabs tried to flip the shell over, which is the first step in trying to take a shell from another crab.",
+      "prompt": "According to the table, what percentage of hermit crabs tried to flip the shell over when it was gently vibrating?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "35%"
+        },
+        {
+          "label": "B",
+          "text": "0%"
+        },
+        {
+          "label": "C",
+          "text": "19%"
+        },
+        {
+          "label": "D",
+          "text": "70%"
+        }
+      ],
+      "correct_answer": "C",
+      "skills_tested": [],
+      "difficulty_estimate": "easy",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "table_data": {
+        "title": "Hermit Crab Reactions to a Shell on a Beach",
+        "headers": [
+          "Level of shell vibration",
+          "Percentage of crabs that tried to flip the shell over"
+        ],
+        "rows": [
+          [
+            "None",
+            "70%"
+          ],
+          [
+            "Gentle vibration",
+            "19%"
+          ],
+          [
+            "Strong vibration",
+            "0%"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "The table gives 19% for gentle vibration, so choice C is correct.",
+        "key_evidence": "The row for 'Gentle vibration' lists 19% of crabs trying to flip the shell over.",
+        "why_correct": "Choice C exactly matches the table value for the condition named in the question.",
+        "detailed": "The question asks for the percentage when the shell was gently vibrating. In the table, the gentle-vibration row corresponds to 19%, not 35%, 0%, or 70%.",
+        "choice_analysis": {
+          "A": "Incorrect. 35% does not appear as the gentle-vibration value.",
+          "B": "Incorrect. 0% is the value for strong vibration.",
+          "C": "Correct. Gentle vibration corresponds to 19%.",
+          "D": "Incorrect. 70% is the value for no vibration."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "Interpreting Data"
+      },
+      "visual_assets": [
+        {
+          "type": "table",
+          "title": "Hermit Crab Reactions to a Shell on a Beach",
+          "columns": [
+            "Level of shell vibration",
+            "Percentage of crabs that tried to flip the shell over"
+          ],
+          "rows": [
+            [
+              "None",
+              "70%"
+            ],
+            [
+              "Gentle vibration",
+              "19%"
+            ],
+            [
+              "Strong vibration",
+              "0%"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "question_id": "rw_037",
+      "section": "reading_writing",
+      "question_number": 37,
+      "source_question_number": 37,
+      "passage": "Average Paperback Prices, 2016-19\n\nGenre | 2016 | 2017 | 2018 | 2019\nYoung adult | $25.49 | $18.40 | $18.02 | $18.40\nMathematics | $97.31 | $78.54 | $106.69 | $76.99\nComics and graphic novels | $18.60 | $18.49 | $19.12 | $20.60\nReference | $156.03 | $189.53 | $186.25 | $148.88\n\nAn intern at a publishing house who is writing a report is asked to determine which of several genres of books published in 2019 had paperbacks with the lowest average price. Consulting the table, she determines that, on average, the least expensive paperbacks in that year belonged to the genre of ____",
+      "prompt": "Which choice most effectively uses data from the table to complete the assertion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "comics and graphic novels."
+        },
+        {
+          "label": "B",
+          "text": "young adult."
+        },
+        {
+          "label": "C",
+          "text": "mathematics."
+        },
+        {
+          "label": "D",
+          "text": "reference."
+        }
+      ],
+      "correct_answer": "B",
+      "skills_tested": [],
+      "difficulty_estimate": "easy",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "table_data": {
+        "title": "Average Paperback Prices, 2016-19",
+        "headers": [
+          "Genre",
+          "2016",
+          "2017",
+          "2018",
+          "2019"
+        ],
+        "rows": [
+          [
+            "Young adult",
+            "$25.49",
+            "$18.40",
+            "$18.02",
+            "$18.40"
+          ],
+          [
+            "Mathematics",
+            "$97.31",
+            "$78.54",
+            "$106.69",
+            "$76.99"
+          ],
+          [
+            "Comics and graphic novels",
+            "$18.60",
+            "$18.49",
+            "$19.12",
+            "$20.60"
+          ],
+          [
+            "Reference",
+            "$156.03",
+            "$189.53",
+            "$186.25",
+            "$148.88"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "The 2019 table values show that young adult paperbacks had the lowest average price.",
+        "key_evidence": "题目限定2019；该列young adult为$18.40，comics为$20.60，mathematics为$76.99，reference为$148.88。",
+        "why_correct": "B对应四个2019值中的最小值$18.40，满足同一年内最低平均平装书价的比较。",
+        "detailed": "The question asks for the genre with the lowest average paperback price in 2019. Reading the 2019 column, young adult is $18.40, comics and graphic novels is $20.60, mathematics is $76.99, and reference is $148.88. Since $18.40 is the smallest value, the correct completion is 'young adult.'",
+        "choice_analysis": {
+          "A": "Comics and graphic novels averaged $20.60 in 2019, which is higher than young adult's $18.40.",
+          "B": "Correct: young adult has the lowest 2019 average price at $18.40.",
+          "C": "Mathematics averaged $76.99 in 2019, far above the lowest value.",
+          "D": "Reference averaged $148.88 in 2019, the highest of the listed genres."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "data_evidence"
+      },
+      "visual_assets": [
+        {
+          "type": "table",
+          "title": "Average Paperback Prices, 2016-19",
+          "columns": [
+            "Genre",
+            "2016",
+            "2017",
+            "2018",
+            "2019"
+          ],
+          "rows": [
+            [
+              "Young adult",
+              "$25.49",
+              "$18.40",
+              "$18.02",
+              "$18.40"
+            ],
+            [
+              "Mathematics",
+              "$97.31",
+              "$78.54",
+              "$106.69",
+              "$76.99"
+            ],
+            [
+              "Comics and graphic novels",
+              "$18.60",
+              "$18.49",
+              "$19.12",
+              "$20.60"
+            ],
+            [
+              "Reference",
+              "$156.03",
+              "$189.53",
+              "$186.25",
+              "$148.88"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "question_id": "rw_038",
+      "section": "reading_writing",
+      "question_number": 38,
+      "source_question_number": 38,
+      "passage": "Peter Pan is a 1911 novel by J.M. Barrie. In the fantasy novel, a dog named Nana is a nurse (nanny) for the children in the Darling family: Wendy, John, and Michael. The narrator describes Nana as planning for events like a human would: ____",
+      "prompt": "Which quotation from Peter Pan best illustrates the claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"Of course [Nana's] kennel was in the nursery.\""
+        },
+        {
+          "label": "B",
+          "text": "\"Mrs. Darling had come in, wearing her white evening--gown.\""
+        },
+        {
+          "label": "C",
+          "text": "\"Mrs. Darling loved to have everything just so, and Mr. Darling had a passion for being exactly like his neighbours.\""
+        },
+        {
+          "label": "D",
+          "text": "\"On John's [soccer] days [Nana] never once forgot his sweater, and she usually carried an umbrella in her mouth in case of rain.\""
+        }
+      ],
+      "correct_answer": "D",
+      "skills_tested": [],
+      "difficulty_estimate": "easy",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "The quote about Nana bringing a sweater and umbrella best shows humanlike planning.",
+        "key_evidence": "D写Nana在足球日记得John的毛衣，并为可能下雨预先带伞。",
+        "why_correct": "D的两个动作都为将来的需要作准备，直接展示题干所说像人类一样planning for events，而不只是狗所在位置或他人行为。",
+        "detailed": "To illustrate humanlike planning, the quote must show Nana anticipating needs or future conditions. Choice D does exactly that: she remembers John's sweater on soccer days and carries an umbrella in case of rain. The other quotes either place Nana's kennel, describe Mrs. Darling, or describe the Darlings' preferences rather than Nana's planning.",
+        "choice_analysis": {
+          "A": "This shows Nana's kennel is in the nursery but not that she plans for events.",
+          "B": "This describes Mrs. Darling's clothing, not Nana's behavior.",
+          "C": "This describes Mrs. and Mr. Darling, not Nana's planning.",
+          "D": "Correct: remembering a sweater and carrying an umbrella in case of rain are examples of anticipating future needs."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "textual_evidence"
+      }
+    },
+    {
+      "question_id": "rw_040",
+      "section": "reading_writing",
+      "question_number": 40,
+      "source_question_number": 40,
+      "passage": "The British Bronze Age began when sophisticated techniques for making tools, weapons, and other objects from metal were introduced to the British Isles around 2500 BCE, and it lasted until around 700 BCE. Collections of Bronze Age metal items (called hoards) have been found all over Britain, and while most of the objects found in these hoards are weapons or tools, some are purely decorative. For example, the Tisbury hoard included bronze tools, weapons, and jewelry, and the Urquhart hoard included gold jewelry. As ancient metalsmiths in Britain gained knowledge from working metals like bronze, they were able to apply those skills to work other metals as well, but gold was much rarer than bronze, so it’s not surprising that [vocab]______[/vocab]",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the Urquhart hoard contained jewelry made of gold."
+        },
+        {
+          "label": "B",
+          "text": "some hoards were found as a result of artifacts being dug up by accident."
+        },
+        {
+          "label": "C",
+          "text": "some hoards contained no gold, as was the case for the Tisbury hoard."
+        },
+        {
+          "label": "D",
+          "text": "bronze was highly valued for its utility in making durable tools and weapons."
+        }
+      ],
+      "correct_answer": "C",
+      "skills_tested": [],
+      "difficulty_estimate": "easy",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "Since gold was much rarer than bronze, it makes sense that some hoards, such as Tisbury, contained no gold.",
+        "key_evidence": "The text says the Tisbury hoard included bronze tools, weapons, and jewelry, while the Urquhart hoard included gold jewelry.",
+        "why_correct": "Choice C draws the logical conclusion from gold's rarity and the example of a bronze-only hoard.",
+        "detailed": "The sentence asks for a conclusion supported by gold being much rarer than bronze. The Tisbury hoard is described as having bronze items but no gold, so it is unsurprising that some hoards lacked gold.",
+        "choice_analysis": {
+          "A": "Incorrect. This merely repeats the Urquhart example and does not follow from gold's rarity.",
+          "B": "Incorrect. Accidental discovery is not discussed.",
+          "C": "Correct. It follows from the rarity of gold and the Tisbury example.",
+          "D": "Incorrect. The utility of bronze tools is not the conclusion prompted by gold's rarity."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "rw_041",
+      "section": "reading_writing",
+      "question_number": 41,
+      "source_question_number": 41,
+      "passage": "Ferns and conifers [vocab]______[/vocab] during the Triassic period (201 to 252 million years ago). These plants were well suited to the hot, dry climate of Pangaea, the sole landmass on Earth at the time.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "having thrived"
+        },
+        {
+          "label": "B",
+          "text": "to thrive"
+        },
+        {
+          "label": "C",
+          "text": "thriving"
+        },
+        {
+          "label": "D",
+          "text": "thrived"
+        }
+      ],
+      "correct_answer": "D",
+      "skills_tested": [],
+      "difficulty_estimate": "easy",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "'Ferns and conifers thrived' supplies the needed finite verb.",
+        "key_evidence": "Ferns and conifers之后尚无主句谓语，during the Triassic period只提供过去时间。",
+        "why_correct": "D的thrived是有限过去时动词，形成完整陈述；其他三个选项都是非限定动词短语，不能独立承担主句谓语。",
+        "detailed": "The subject 'Ferns and conifers' requires a predicate. Choice D, 'thrived,' creates the complete sentence 'Ferns and conifers thrived during the Triassic period.' The participial and infinitive choices do not provide a finite main verb, so they leave the sentence ungrammatical or fragmentary.",
+        "choice_analysis": {
+          "A": "'Having thrived' is a participial phrase, not a finite main verb for the sentence.",
+          "B": "'To thrive' is an infinitive and cannot serve as the main verb here.",
+          "C": "'Thriving' is a participle/gerund and leaves the sentence without a finite verb.",
+          "D": "Correct: 'thrived' is the finite past-tense verb needed for the plural subject."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "Verb Tense"
+      }
+    },
+    {
+      "question_id": "rw_046",
+      "section": "reading_writing",
+      "question_number": 46,
+      "source_question_number": 46,
+      "passage": "Established in 1933 for the specific purpose of stabilizing the US banking system, ____ helped the nation recover from the Great Depression.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the US government's many ways, just one of which was the Emergency Banking Act (EBA),"
+        },
+        {
+          "label": "B",
+          "text": "many ways, just one of which was the Emergency Banking Act (EBA), were how the US government"
+        },
+        {
+          "label": "C",
+          "text": "the US government in many ways, just one of which was the Emergency Banking Act (EBA),"
+        },
+        {
+          "label": "D",
+          "text": "the Emergency Banking Act (EBA) was just one of many ways the US government"
+        }
+      ],
+      "correct_answer": "D",
+      "skills_tested": [],
+      "difficulty_estimate": "easy",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "The introductory modifier must attach to the Emergency Banking Act, so choice D is correct.",
+        "key_evidence": "Established in1933...stabilizing theUS banking system描述的是Emergency Banking Act，而非US government或many ways。",
+        "why_correct": "D让EBA紧接前置修饰语作主句主语，再由was just one of many ways接上政府帮助复苏的内容，修饰对象和句子结构均完整。",
+        "detailed": "The phrase 'Established in 1933 for the specific purpose of stabilizing the US banking system' describes the Emergency Banking Act. Standard English requires the noun being modified to appear immediately after the introductory modifier. Choice D does that and then completes the sentence: the EBA was one of many ways the US government helped the nation recover. The other choices create dangling or illogical modifiers.",
+        "choice_analysis": {
+          "A": "This makes 'the US government's many ways' seem established in 1933 to stabilize banks, which is illogical and ungrammatical.",
+          "B": "This awkwardly makes 'many ways' the modified noun and produces a convoluted, unidiomatic sentence.",
+          "C": "This places 'the US government' after the modifier, implying the government was established in 1933 for that purpose.",
+          "D": "Correct: the Emergency Banking Act is the thing established in 1933, and the sentence remains grammatical."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "mixed_convention"
+      }
+    },
+    {
+      "question_id": "rw_047",
+      "section": "reading_writing",
+      "question_number": 47,
+      "source_question_number": 47,
+      "passage": "How a folktale begins depends largely on the language in which it ____ folktales told in the Korean language open with a phrase that roughly means \"on an old day, in the old times.\" English-language folktales, on the other hand, often begin with \"once upon a time.\"",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "originates. Many"
+        },
+        {
+          "label": "B",
+          "text": "originates, many"
+        },
+        {
+          "label": "C",
+          "text": "originates many"
+        },
+        {
+          "label": "D",
+          "text": "originates many,"
+        }
+      ],
+      "correct_answer": "A",
+      "skills_tested": [],
+      "difficulty_estimate": "easy",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "A period after 'originates' correctly separates two complete sentences.",
+        "key_evidence": "How a folktale begins depends...originates已有完整主谓；Many folktales...open则有另一组主谓。",
+        "why_correct": "A用句号结束第一独立句，并以大写Many开启韩国民间故事的具体说明；其余选项没有合法分开两句。",
+        "detailed": "'How a folktale begins depends largely on the language in which it originates' is a complete sentence. The following words introduce a new complete sentence about Korean-language folktales. Choice A correctly places a period between the two independent clauses and capitalizes 'Many.' The comma and no-punctuation choices create run-ons or fused clauses.",
+        "choice_analysis": {
+          "A": "Correct: it ends the first complete sentence and starts the next sentence with 'Many.'",
+          "B": "A comma alone cannot join two independent clauses here.",
+          "C": "This fuses two clauses without punctuation.",
+          "D": "The comma after 'many' is misplaced and still fails to separate the clauses correctly."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "rw_048",
+      "section": "reading_writing",
+      "question_number": 48,
+      "source_question_number": 48,
+      "passage": "In ArtMed inSight, a series of art-based medical education classes taught by Anne Willieme, medical students learn to use techniques more often associated with the arts, such as slowing down interpretation and considering multiple perspectives. ____ Willieme's students develop better observational skills, enhancing their ability to understand and diagnose patients effectively.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "In doing so,"
+        },
+        {
+          "label": "B",
+          "text": "For example,"
+        },
+        {
+          "label": "C",
+          "text": "By contrast,"
+        },
+        {
+          "label": "D",
+          "text": "Nevertheless,"
+        }
+      ],
+      "correct_answer": "A",
+      "skills_tested": [],
+      "difficulty_estimate": "easy",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "'In doing so' correctly links the students' use of art techniques to the skills they develop.",
+        "key_evidence": "学生使用放慢解释、考虑多重视角等艺术技巧，接着发展出更好的观察与诊断能力。",
+        "why_correct": "A的In doing so回指使用这些技巧这一行为，表达通过该行为获得技能的结果，而非举例或反向关系。",
+        "detailed": "The first sentence says students learn techniques such as slowing interpretation and considering multiple perspectives. The next sentence says that through this activity, they develop better observational skills. 'In doing so' is the logical transition because it points back to the action just described. The sentence is not giving an example, contrast, or concession.",
+        "choice_analysis": {
+          "A": "Correct: it means 'by using those techniques,' which matches the cause-effect relationship.",
+          "B": "'For example' would introduce an example of the techniques, not a result of using them.",
+          "C": "'By contrast' signals opposition, but the second sentence follows from the first.",
+          "D": "'Nevertheless' would signal concession; no contradiction or obstacle is being introduced."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "rw_049",
+      "section": "reading_writing",
+      "question_number": 49,
+      "source_question_number": 49,
+      "passage": "Rocket Geyser, found in Yellowstone National Park, is a cone geyser, a type of geyser that forms a mound of silica around the narrow geyser vent as volcanic rock dissolved in the water is deposited during eruptions. ____ Yellowstone's fountain geysers, such as Jewel Geyser, erupt from larger openings where water collects in a pool.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "In comparison,"
+        },
+        {
+          "label": "B",
+          "text": "Thus,"
+        },
+        {
+          "label": "C",
+          "text": "In turn,"
+        },
+        {
+          "label": "D",
+          "text": "Regardless,"
+        }
+      ],
+      "correct_answer": "A",
+      "skills_tested": [],
+      "difficulty_estimate": "easy",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "'In comparison' introduces the comparison between cone geysers and fountain geysers.",
+        "key_evidence": "cone geyser在狭窄喷口周围形成硅丘；fountain geyser从可蓄成水池的较大开口喷发。",
+        "why_correct": "A的In comparison引出两类间歇泉开口及结构的比较，第二类型不是第一类型造成的后果。",
+        "detailed": "The first sentence defines Rocket Geyser as a cone geyser with a mound around a narrow vent. The next sentence describes Yellowstone's fountain geysers as erupting from larger openings where water pools. This is a comparison between geyser types, so 'In comparison' is the appropriate transition. The other transitions indicate result, sequence, or irrelevance, none of which fits.",
+        "choice_analysis": {
+          "A": "Correct: it signals a comparison between cone geysers and fountain geysers.",
+          "B": "'Thus' would indicate a result, but the fountain geyser description is not a consequence of cone geyser formation.",
+          "C": "'In turn' suggests sequence or reciprocal effect, which is not the relationship here.",
+          "D": "'Regardless' suggests dismissal of a prior point, which does not fit the comparison."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "rw_050",
+      "section": "reading_writing",
+      "question_number": 50,
+      "source_question_number": 50,
+      "passage": "Nineteenth-century Modernista architects championed nature in their designs. Granted, the wavy stone facade and ornate floral tilework of Casa Batllo, a Modernista private home designed by Antoni Gaudi, couldn't exactly grow in a forest. ____ one sees natural influences in Gaudi's penchant for curves (rather than right angles) and plant- and animal-inspired flourishes.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Furthermore,"
+        },
+        {
+          "label": "B",
+          "text": "Still,"
+        },
+        {
+          "label": "C",
+          "text": "Similarly,"
+        },
+        {
+          "label": "D",
+          "text": "In other words,"
+        }
+      ],
+      "correct_answer": "B",
+      "skills_tested": [],
+      "difficulty_estimate": "easy",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "'Still' correctly marks the contrast between the concession and the continued evidence of natural influence.",
+        "key_evidence": "Granted先承认Casa Batllo不可能真正从森林生长；后句仍指出曲线及动植物装饰中的自然启发。",
+        "why_correct": "B的Still在让步后恢复核心论点：建筑虽非自然生长物，设计中仍能看见自然影响。",
+        "detailed": "The word 'Granted' introduces a concession: Casa Batllo's stone facade and tilework are not literally natural things. The next clause says one can nevertheless see natural influences in Gaudi's curves and plant- and animal-inspired details. A concession transition is needed, and 'Still' supplies it. 'Furthermore' and 'Similarly' would add or compare rather than concede; 'In other words' would restate rather than shift from concession to main point.",
+        "choice_analysis": {
+          "A": "'Furthermore' adds a similar point, but the sentence needs a concession after 'Granted.'",
+          "B": "Correct: 'Still' means nevertheless and fits the turn back to natural influences.",
+          "C": "'Similarly' would compare two similar cases, not respond to a concession.",
+          "D": "'In other words' would restate the previous sentence, but the second sentence qualifies it."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "rw_051",
+      "section": "reading_writing",
+      "question_number": 51,
+      "source_question_number": 51,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• The Great Salt Lake is located in Utah.\n\nIt is one of the saltiest bodies of water in the world.\n\nMore than 330 species of migratory birds stop at the lake each year.\n• One of these species is the tundra swan.",
+      "prompt": "The student wants to emphasize the number of migratory bird species that stop at the Great Salt Lake. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The Great Salt Lake in Utah is one of the saltiest bodies of water in the world."
+        },
+        {
+          "label": "B",
+          "text": "The tundra swan is a type of migratory bird."
+        },
+        {
+          "label": "C",
+          "text": "Migratory birds stop at the Great Salt Lake in Utah."
+        },
+        {
+          "label": "D",
+          "text": "Each year, more than 330 species of migratory birds stop at the Great Salt Lake in Utah."
+        }
+      ],
+      "correct_answer": "D",
+      "skills_tested": [],
+      "difficulty_estimate": "easy",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "Choice D directly emphasizes that more than 330 migratory bird species stop at the lake each year.",
+        "key_evidence": "笔记明确每年在Great Salt Lake停留的迁徙鸟类超过330种，目标正是突出种类数量。",
+        "why_correct": "D同时保留more than330 species、each year和湖名，直接报告所要求的数目；其他选项均省略该数量。",
+        "detailed": "The relevant note for the goal is the number: more than 330 species of migratory birds stop at the Great Salt Lake each year. Choice D includes that number and identifies the lake, so it accomplishes the goal. The other choices mention salinity, one species, or migratory birds in general but omit the number the student wants to emphasize.",
+        "choice_analysis": {
+          "A": "This describes salinity, not the number of migratory bird species.",
+          "B": "This identifies one migratory bird species but does not emphasize the total number.",
+          "C": "This says migratory birds stop at the lake but omits 'more than 330 species.'",
+          "D": "Correct: it includes the exact number and the location."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "rw_052",
+      "section": "reading_writing",
+      "question_number": 52,
+      "source_question_number": 52,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• - The Colorado River is the eighth longest river in North America. - It passes through the country of Mexico. - It passes through the country of the United States. - It ranks No. 46 among the longest rivers in the world. - It is 2,333 kilometers long.",
+      "prompt": "The student wants to specify which countries the Colorado River passes through. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The eighth longest river in North America, the Colorado River passes through both Mexico and the United States."
+        },
+        {
+          "label": "B",
+          "text": "The Colorado River is not the longest river in the world."
+        },
+        {
+          "label": "C",
+          "text": "Among the longest rivers in the world, the Colorado River ranks No. 46."
+        },
+        {
+          "label": "D",
+          "text": "At 2,333 kilometers long, the Colorado River is the eighth longest river in North America."
+        }
+      ],
+      "correct_answer": "A",
+      "skills_tested": [],
+      "difficulty_estimate": "easy",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "Choice A specifies the two countries the Colorado River passes through: Mexico and the United States.",
+        "key_evidence": "The notes say the river passes through Mexico and the United States.",
+        "why_correct": "The student's goal is to specify countries, and A directly names both countries.",
+        "detailed": "The other choices focus on length or world ranking. Choice A uses the relevant notes about countries and therefore best accomplishes the goal.",
+        "choice_analysis": {
+          "A": "Correct. It states that the Colorado River passes through Mexico and the United States.",
+          "B": "Incorrect. It discusses world ranking, not countries.",
+          "C": "Incorrect. It gives the world-river ranking, not the countries.",
+          "D": "Incorrect. It gives length and North American rank, not the countries."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "rw_053",
+      "section": "reading_writing",
+      "question_number": 53,
+      "source_question_number": 53,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• There are around 90 automated snow measurement sites in Wyoming.\n\nOne site is at Blind Bull Summit.\n• At the start of February 2021, the site's snow depth was 68 inches.\n\nAt the start of March 2021, the site's snow depth was 47 inches.",
+      "prompt": "The student wants to specify the snow depth at Blind Bull Summit at the start of March 2021. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "At the start of March 2021, 47 inches of snow covered the ground at the Blind Bull Summit site."
+        },
+        {
+          "label": "B",
+          "text": "At the Blind Bull Summit site, there were 68 inches of snow on the ground at the start of February 2021."
+        },
+        {
+          "label": "C",
+          "text": "Located in Wyoming, the Blind Bull Summit site monitors snow conditions, such as snow depth."
+        },
+        {
+          "label": "D",
+          "text": "In 2021, the site at Blind Bull Summit was one of about 90 automated snow measurement stations in Wyoming."
+        }
+      ],
+      "correct_answer": "A",
+      "skills_tested": [],
+      "difficulty_estimate": "easy",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "Choice A gives the March 2021 Blind Bull Summit snow depth: 47 inches.",
+        "key_evidence": "Blind Bull Summit在2021年3月初的积雪深度为47英寸；68英寸对应2月初。",
+        "why_correct": "A将47英寸、3月初和Blind Bull Summit正确绑定，完整回答特定地点与时间的测量值，而不混用2月数据。",
+        "detailed": "Only one note directly matches the goal: at the start of March 2021, Blind Bull Summit's snow depth was 47 inches. Choice A uses that exact value and date. Choice B gives the February value, while choices C and D provide background about the site rather than the requested March depth.",
+        "choice_analysis": {
+          "A": "Correct: it states the requested March 2021 snow depth of 47 inches at Blind Bull Summit.",
+          "B": "This gives the February 2021 value, 68 inches, not the March value.",
+          "C": "This gives background about the site and snow monitoring but not the requested date and depth.",
+          "D": "This describes the number of Wyoming measurement stations, not the March snow depth."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "rw_054",
+      "section": "reading_writing",
+      "question_number": 54,
+      "source_question_number": 54,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• - Elizabeth Catlett (1915-2012) was a celebrated African American artist. - She is best known for creating sculptures and prints that explore the Black experience. - Recognition is a 1970 marble sculpture by Catlett. - Magic Mask is a 1990 marble sculpture by Catlett.",
+      "prompt": "The student wants to emphasize a similarity between the two sculptures. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Elizabeth Catlett’s sculptures Recognition and Magic Mask are both made of marble."
+        },
+        {
+          "label": "B",
+          "text": "Elizabeth Catlett, a celebrated artist, was born in 1915."
+        },
+        {
+          "label": "C",
+          "text": "Recognition is a marble sculpture that celebrated artist Elizabeth Catlett created in 1970."
+        },
+        {
+          "label": "D",
+          "text": "Elizabeth Catlett was a celebrated artist who created prints as well as sculptures."
+        }
+      ],
+      "correct_answer": "A",
+      "skills_tested": [],
+      "difficulty_estimate": "easy",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "Choice A emphasizes the shared feature: both sculptures are made of marble.",
+        "key_evidence": "The notes identify Recognition as a marble sculpture and Magic Mask as a marble sculpture.",
+        "why_correct": "The student's goal is to emphasize a similarity between the two sculptures, and A states their common material.",
+        "detailed": "Choices B, C, and D provide facts about Catlett or only one sculpture. Choice A uses the relevant shared detail from the notes.",
+        "choice_analysis": {
+          "A": "Correct. It states the similarity that both sculptures are made of marble.",
+          "B": "Incorrect. It gives biographical information, not a similarity between the sculptures.",
+          "C": "Incorrect. It discusses only Recognition, not both sculptures.",
+          "D": "Incorrect. It describes Catlett's broader work but not the similarity between the two sculptures."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "Identifying and Analyzing Evidence"
+      }
+    },
+    {
+      "question_id": "rw_055",
+      "section": "reading_writing",
+      "question_number": 55,
+      "source_question_number": 55,
+      "passage": "Although more documentaries are being made than ever before, too many seem [vocab]______[/vocab], offering stories without any depth. In a refreshing contrast, Ahmir \"Questlove\" Thompson's 2021 documentary Summer of Soul (...or, When the Revolution Could Not Be Televised) draws from present-day interviews to supply compelling historical and social context for footage of the 1969 Harlem Cultural Festival.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "cryptic"
+        },
+        {
+          "label": "B",
+          "text": "inaccessible"
+        },
+        {
+          "label": "C",
+          "text": "haughty"
+        },
+        {
+          "label": "D",
+          "text": "perfunctory"
+        }
+      ],
+      "correct_answer": "D",
+      "skills_tested": [],
+      "difficulty_estimate": "hard",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "'Perfunctory' fits the criticism that many documentaries offer stories without depth.",
+        "key_evidence": "without any depth批评许多纪录片浅薄；Summer of Soul提供丰富历史社会背景，构成refreshing contrast。",
+        "why_correct": "D的perfunctory指敷衍、草率而缺少深入处理，准确对应无深度的问题，与后文充分背景形成对照。",
+        "detailed": "The passage contrasts shallow documentaries with Summer of Soul, which supplies compelling historical and social context. The blank therefore needs a word meaning superficial or lacking depth. 'Perfunctory' describes work done in a routine, cursory way, so it fits the criticism. The other choices refer to being mysterious, hard to access, or arrogant.",
+        "choice_analysis": {
+          "A": "'Cryptic' means puzzling or obscure, not necessarily lacking depth.",
+          "B": "'Inaccessible' means difficult to approach or understand; the passage criticizes lack of depth, not accessibility.",
+          "C": "'Haughty' means arrogant and describes attitude, not documentary depth.",
+          "D": "Correct: 'perfunctory' means cursory or superficial, matching 'without any depth.'"
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "rw_056",
+      "section": "reading_writing",
+      "question_number": 56,
+      "source_question_number": 56,
+      "passage": "Among saltwater fish species, there is a clear association between habitat latitude and morphological variety. While tropical species are [vocab]______[/vocab] deep-bodied physical forms (body shapes that are laterally compressed but vertically extended), polar and temperate species are highly dispersed across the morphological spectrum.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "authenticated by"
+        },
+        {
+          "label": "B",
+          "text": "concentrated among"
+        },
+        {
+          "label": "C",
+          "text": "habituated to"
+        },
+        {
+          "label": "D",
+          "text": "contemporary with"
+        }
+      ],
+      "correct_answer": "B",
+      "skills_tested": [],
+      "difficulty_estimate": "hard",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "Tropical species are clustered among deep-bodied forms, while other species are dispersed.",
+        "key_evidence": "While将热带鱼的体型分布与极地、温带鱼的highly dispersed分布对照；热带一侧围绕deep-bodied forms。",
+        "why_correct": "B的concentrated among表示集中于深体型类别，是dispersed across the morphological spectrum的恰当反向分布。",
+        "detailed": "The sentence sets up a contrast with 'While': tropical species are in one part of the morphological spectrum, whereas polar and temperate species are highly dispersed across it. The blank therefore requires a phrase meaning clustered or mostly found in a category. 'Concentrated among' fits deep-bodied physical forms. The other choices do not describe distribution across a morphological spectrum.",
+        "choice_analysis": {
+          "A": "'Authenticated by' means verified by and does not describe where species fall morphologically.",
+          "B": "Correct: 'concentrated among' means clustered within the deep-bodied forms, matching the contrast with 'dispersed.'",
+          "C": "'Habituated to' means accustomed to and does not fit body-form distribution.",
+          "D": "'Contemporary with' means existing at the same time as and is unrelated to morphology."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "rw_058",
+      "section": "reading_writing",
+      "question_number": 58,
+      "source_question_number": 58,
+      "passage": "The work of Tobias Gerstenberg et al. on tracking eye movements supports a theory that people envision [vocab]______[/vocab] scenarios when making causal judgments: when subjects were asked to look at two colliding billiard balls and judge whether one caused or prevented the other's movement through a gate, their eyes looked at where the target ball would have gone if the ball that altered its path did not exist.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "ambivalent"
+        },
+        {
+          "label": "B",
+          "text": "retrospective"
+        },
+        {
+          "label": "C",
+          "text": "counterfactual"
+        },
+        {
+          "label": "D",
+          "text": "analogical"
+        }
+      ],
+      "correct_answer": "C",
+      "skills_tested": [],
+      "difficulty_estimate": "hard",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "'Counterfactual' fits because the subjects considered what would have happened under different conditions.",
+        "key_evidence": "受试者注视假如另一球不存在时目标球本会经过的位置，而不是实际已改变的路线。",
+        "why_correct": "C的counterfactual表示与实际情况相反的假设情境，精确表达if...did not exist所构成的替代过程。",
+        "detailed": "The colon explains the blank: people judged causation by looking toward the path the target ball would have taken if the other ball had not altered it. This is a scenario contrary to fact, an imagined alternative outcome. 'Counterfactual' precisely names that kind of scenario. The other choices describe mixed feelings, looking backward, or analogy rather than an alternative-to-fact situation.",
+        "choice_analysis": {
+          "A": "'Ambivalent' means having mixed feelings; the passage is about imagined alternative outcomes, not feelings.",
+          "B": "'Retrospective' means looking back at past events, but the scenario is a hypothetical alternative.",
+          "C": "Correct: 'counterfactual' means contrary to what actually happened, matching 'where the target ball would have gone if...'",
+          "D": "'Analogical' means based on comparison; the passage is not about comparing one case to another."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "rw_059",
+      "section": "reading_writing",
+      "question_number": 59,
+      "source_question_number": 59,
+      "passage": "Paul Linebarger is often recognized as an influential science fiction writer (under the pen name Cordwainer Smith), but his most significant work was a 1940s classified US Army guide exploring the role of propaganda in times of war. Citing the uniquely absorbing nature of motion pictures, he contended that US propaganda should equal popular films in its appeal, entertaining audiences while engendering views of the nation as an ally. Linebarger’s work shaped the distinctive US approach to promoting national interests, one that continues to draw inspiration from elements of pop culture.",
+      "prompt": "Which choice best describes the overall structure of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It distinguishes a work from others in its genre, outlines the central objective of that work, and then addresses a recent resurgence of interest in that work."
+        },
+        {
+          "label": "B",
+          "text": "It sketches the development of a prominent work, familiarizes readers with an argument in that work, and then suggests that the work has had repercussions in other fields."
+        },
+        {
+          "label": "C",
+          "text": "It characterizes a work as having been underappreciated, describes a core concept in that work, and then argues that the influence of that concept is recognizable in other works."
+        },
+        {
+          "label": "D",
+          "text": "It introduces a significant work, summarizes a noteworthy idea in that work, and then places that idea into a context that demonstrates its broader implications."
+        }
+      ],
+      "correct_answer": "D",
+      "skills_tested": [],
+      "difficulty_estimate": "hard",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "The text introduces Linebarger's guide, explains its key propaganda idea, and then shows its broader influence.",
+        "key_evidence": "The passage says the guide was Linebarger's most significant work, summarizes his view that propaganda should match popular films, and says the work shaped the US approach to promoting national interests.",
+        "why_correct": "Choice D captures that sequence: introduction, idea, broader implications.",
+        "detailed": "The paragraph first identifies the work, then explains Linebarger's argument about propaganda and popular films, and finally places that idea in a broader historical context by describing its continuing influence.",
+        "choice_analysis": {
+          "A": "Incorrect. The text does not discuss a recent resurgence of interest.",
+          "B": "Incorrect. It does not sketch the development of the work or focus on repercussions in other fields.",
+          "C": "Incorrect. The text does not characterize the work as underappreciated.",
+          "D": "Correct. It matches the structure of introducing the guide, summarizing its idea, and explaining its broader implications."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "Identifying the overall structure of a text"
+      }
+    },
+    {
+      "question_id": "rw_060",
+      "section": "reading_writing",
+      "question_number": 60,
+      "source_question_number": 60,
+      "passage": "Text 1\n\nIn separate studies, Lingbo Meng and colleagues and Xinhua He and colleagues examined whether plants transfer nutrients to one another using a common mycorrhizal network (CMN), a lattice of fungal strands in the soil. Meng and colleagues excluded all pathways other than the CMN by using barriers to keep the plants’ root systems separate while allowing mycorrhizal strands through, a crucial step He and colleagues’ study did not take.\n\nText 2\n\nMeng and colleagues took the necessary precaution of separating the plants’ root systems, thereby excluding root-to-root transmission. However, any barrier used must allow the thread-like hyphae of a CMN to pass through, and this permeability would also allow liquids through. Thus, the researchers’ experimental design cannot ensure that any nutrient transfer observed can be attributed to a CMN and not to some other pathway.",
+      "prompt": "Based on the texts, how would the author of Text 2 most likely respond to the characterization of Meng and colleagues' study in Text 1?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "By asserting that the author of Text 1 has overstated the effectiveness of the method that Meng and colleagues used"
+        },
+        {
+          "label": "B",
+          "text": "By pointing out that the author of Text 1 has overlooked studies that reported results that contradict those reported by Meng and colleagues"
+        },
+        {
+          "label": "C",
+          "text": "By claiming that the author of Text 1 has misrepresented what Meng and colleagues were trying to achieve with their experimental design"
+        },
+        {
+          "label": "D",
+          "text": "By arguing that the author of Text 1 has conflated the method used by Meng and colleagues with that used by He and colleagues"
+        }
+      ],
+      "correct_answer": "A",
+      "skills_tested": [],
+      "difficulty_estimate": "hard",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "Text 2 would say Text 1 overstates the effectiveness of Meng's barrier method.",
+        "key_evidence": "Text 2 says the barrier can also allow liquids through, so the design cannot ensure the transfer occurred through a CMN.",
+        "why_correct": "Choice A matches Text 2's objection: the method does not rule out every non-CMN pathway as strongly as Text 1 suggests.",
+        "detailed": "Text 1 presents Meng's method as excluding all other pathways. Text 2 accepts that the method separated roots but argues that liquids could still pass through the barrier, leaving another possible pathway. That is a challenge to the method's effectiveness.",
+        "choice_analysis": {
+          "A": "Correct. Text 2 argues that the method's effectiveness is overstated.",
+          "B": "Incorrect. Text 2 does not cite contradictory studies.",
+          "C": "Incorrect. Text 2 does not say Text 1 misstates Meng's goal.",
+          "D": "Incorrect. Text 1 distinguishes Meng's method from He's rather than conflating them."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "main_idea_or_detail"
+      }
+    },
+    {
+      "question_id": "rw_064",
+      "section": "reading_writing",
+      "question_number": 64,
+      "source_question_number": 64,
+      "passage": "The late Hemphillian (Hh) North American Land Mammal Age includes the subdivisions Hh3, 6.8 million years ago (Ma) to 6 Ma, and Hh4, 6 Ma to 4.75 Ma. While mammalian fossils have indicated that Florida’s Montbrook Fossil Site (MFS) and Palmetto Fauna of the Bone Valley Region (PFBV) date to Hh4, a more precise determination of the sites’ ages has proved challenging. Stephanie R. Killingsworth et al. compared average ratios of strontium-87 to strontium-86 (87Sr/86Sr) in fossil shark teeth from MFS and PFBV—0.709000 and 0.709028, respectively—to 87Sr/86Sr ratios in the global strontium seawater curve, a record that shows how 87Sr/86Sr ratios in seawater correspond to numerical ages and that is used to date fossils and, by extension, fossil sites. The researchers concluded that [vocab]______[/vocab]",
+      "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "mammalian fossil evidence offers less dating precision than do 87Sr/86Sr ratios in fossil shark teeth and that PFBV likely was deposited closer to the Hh3-Hh4 boundary than was MFS."
+        },
+        {
+          "label": "B",
+          "text": "the average 87Sr/86Sr ratios in the fossil shark teeth from MFS and PFBV resolve previous uncertainty about the sites’ relative ages by indicating that both sites were deposited contemporaneously during the late Hh."
+        },
+        {
+          "label": "C",
+          "text": "the average 87Sr/86Sr ratios in the fossil shark teeth from MFS and PFBV only partially support the site age estimates previously established through mammalian fossil evidence."
+        },
+        {
+          "label": "D",
+          "text": "the average 87Sr/86Sr ratios in the fossil shark teeth from MFS and PFBV corroborate that both MFS and PFBV fall within Hh4 but suggest that PFBV was likely deposited more recently than MFS."
+        }
+      ],
+      "correct_answer": "D",
+      "skills_tested": [],
+      "difficulty_estimate": "hard",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "table_data": {
+        "title": "Global Strontium Seawater Curve",
+        "headers": [
+          "87Sr/86Sr",
+          "Age (Ma)"
+        ],
+        "rows": [
+          [
+            "0.708980",
+            "6.20"
+          ],
+          [
+            "0.709000",
+            "5.86"
+          ],
+          [
+            "0.709020",
+            "5.40"
+          ],
+          [
+            "0.709040",
+            "4.75"
+          ],
+          [
+            "0.709060",
+            "3.00"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "The ratios place both sites in Hh4, and PFBV's higher ratio indicates a more recent age than MFS.",
+        "key_evidence": "MFS has 0.709000, corresponding to 5.86 Ma; PFBV has 0.709028, between the 5.40 and 4.75 Ma rows.",
+        "why_correct": "Choice D accurately states both that the sites fall within Hh4 and that PFBV was likely deposited more recently.",
+        "detailed": "Hh4 spans 6 Ma to 4.75 Ma. The table maps MFS's ratio to 5.86 Ma and PFBV's ratio to a value between 5.40 and 4.75 Ma, so both are Hh4 and PFBV is younger.",
+        "choice_analysis": {
+          "A": "Incorrect. PFBV is not closer to the Hh3-Hh4 boundary than MFS.",
+          "B": "Incorrect. The sites are not contemporaneous.",
+          "C": "Incorrect. The ratios support the Hh4 estimate rather than only partially supporting it.",
+          "D": "Correct. It matches both the age range and the relative age indicated by the ratios."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "data_evidence"
+      },
+      "visual_assets": [
+        {
+          "type": "table",
+          "title": "Global Strontium Seawater Curve",
+          "columns": [
+            "87Sr/86Sr",
+            "Age (Ma)"
+          ],
+          "rows": [
+            [
+              "0.708980",
+              "6.20"
+            ],
+            [
+              "0.709000",
+              "5.86"
+            ],
+            [
+              "0.709020",
+              "5.40"
+            ],
+            [
+              "0.709040",
+              "4.75"
+            ],
+            [
+              "0.709060",
+              "3.00"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "question_id": "rw_065",
+      "section": "reading_writing",
+      "question_number": 65,
+      "source_question_number": 65,
+      "passage": "Researchers used anonymized location data from the US and Côte d’Ivoire to document people’s daily patterns of mobility, using these results to test the efficacy of the researchers’ predictive computer model. In each country, unidirectional cycles among two, three, or four locations were empirically the most common pattern types; the graph shows each of these pattern types as a proportion of all pattern instances found for that country. The researchers ran their model twice under different assumptions, concluding that emphasizing the salience of local population density over personal preferences generally yielded the best results.",
+      "prompt": "Which choice most effectively uses data from the graph to illustrate the researchers’ conclusion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Under the assumption that preferences are more salient than density, the US 2 and CI 2 proportions were predicted to be approximately 0.45 and 0.35, respectively, both below the measured values, whereas under the other assumption, the model overestimated the proportion for US 2 and overestimated that for CI 2."
+        },
+        {
+          "label": "B",
+          "text": "Under the assumption that preferences are more salient than density, the US 2 and CI 2 proportions were predicted to be in the range of 0.3 to 0.5, placing them farther from the measured values than were those predicted under the other assumption."
+        },
+        {
+          "label": "C",
+          "text": "Under the assumption that density is more salient than preferences, the US 2 and CI 2 proportions are approximately 0.65 and 0.85, respectively, significantly higher than the values predicted under the other assumption and thus farther than those predictions from the measured values."
+        },
+        {
+          "label": "D",
+          "text": "Under the assumption that preferences are more salient than density, the two-location patterns (US 2 and CI 2) were predicted to be most frequent in the data even though neither proportion was projected to exceed 0.5, well below the proportion predicted under the other assumption."
+        }
+      ],
+      "correct_answer": "B",
+      "skills_tested": [],
+      "difficulty_estimate": "hard",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "table_data": {
+        "title": "Proportion of the Three Most Common Exhibited Mobility Patterns",
+        "headers": [
+          "Pattern",
+          "Measured",
+          "Model: density",
+          "Model: preferences"
+        ],
+        "rows": [
+          [
+            "US 2",
+            "0.76",
+            "0.68",
+            "0.47"
+          ],
+          [
+            "US 3",
+            "0.12",
+            "0.19",
+            "0.18"
+          ],
+          [
+            "US 4",
+            "0.03",
+            "0.05",
+            "0.09"
+          ],
+          [
+            "CI 2",
+            "0.79",
+            "0.85",
+            "0.33"
+          ],
+          [
+            "CI 3",
+            "0.12",
+            "0.06",
+            "0.21"
+          ],
+          [
+            "CI 4",
+            "0.02",
+            "0.01",
+            "0.11"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "Choice B shows that preference-based predictions for US 2 and CI 2 are farther from measured values than density-based predictions.",
+        "key_evidence": "US 2 and CI 2 measured values are 0.76 and 0.79; preference predictions are 0.47 and 0.33, while density predictions are 0.68 and 0.85.",
+        "why_correct": "The data support the conclusion that the density model generally yielded better results.",
+        "detailed": "For the common two-location patterns, density predictions are close to the measured proportions, whereas preference predictions fall in the 0.3 to 0.5 range and are much farther away. This illustrates the researchers' conclusion.",
+        "choice_analysis": {
+          "A": "Incorrect. It wrongly says the density model overestimated US 2; 0.68 is below the measured 0.76.",
+          "B": "Correct. It accurately compares preference predictions with measured values and the better density predictions.",
+          "C": "Incorrect. It incorrectly says density predictions are farther from the measured values.",
+          "D": "Incorrect. It does not directly show why the density model fits better."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "data_evidence"
+      },
+      "visual_assets": [
+        {
+          "type": "graph_data",
+          "title": "Proportion of the Three Most Common Exhibited Mobility Patterns",
+          "columns": [
+            "Pattern",
+            "Measured",
+            "Model: density",
+            "Model: preferences"
+          ],
+          "rows": [
+            [
+              "US 2",
+              "0.76",
+              "0.68",
+              "0.47"
+            ],
+            [
+              "US 3",
+              "0.12",
+              "0.19",
+              "0.18"
+            ],
+            [
+              "US 4",
+              "0.03",
+              "0.05",
+              "0.09"
+            ],
+            [
+              "CI 2",
+              "0.79",
+              "0.85",
+              "0.33"
+            ],
+            [
+              "CI 3",
+              "0.12",
+              "0.06",
+              "0.21"
+            ],
+            [
+              "CI 4",
+              "0.02",
+              "0.01",
+              "0.11"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "question_id": "rw_069",
+      "section": "reading_writing",
+      "question_number": 69,
+      "source_question_number": 69,
+      "passage": "On April 12, 1985, the space shuttle Discovery blasted off into space, commencing Mission ____ six days and twenty-three hours, the mission ended when the shuttle landed at Kennedy Space Center in Florida.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "lasting"
+        },
+        {
+          "label": "B",
+          "text": "STS-51-D, lasting"
+        },
+        {
+          "label": "C",
+          "text": "STS-51-D lasting"
+        },
+        {
+          "label": "D",
+          "text": "STS-51-D. Lasting"
+        }
+      ],
+      "correct_answer": "D",
+      "skills_tested": [],
+      "difficulty_estimate": "hard",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "D ends the launch sentence and begins a complete sentence about the mission's duration and conclusion.",
+        "key_evidence": "Discovery blasted off...commencing Mission STS-51-D is one clause; the mission ended...is another.",
+        "why_correct": "After the period, Lasting six days and twenty-three hours is an introductory participial phrase modifying the mission, and the mission ended supplies the finite main clause.",
+        "detailed": "Identify each subject and finite verb. The first sentence has Discovery/blasted off; commencing names the mission. The second has the mission/ended, preceded by a duration modifier that correctly describes the mission. D separates the independent clauses with a period. The duration phrase does not make the second sentence a fragment because the main clause follows it.",
+        "choice_analysis": {
+          "A": "It omits the mission designation and leaves the two main clauses without the required sentence boundary.",
+          "B": "The comma after STS-51-D cannot connect Discovery blasted off with the mission ended; the inserted lasting phrase does not fix that comma splice.",
+          "C": "It likewise fails to separate the two independent clauses and leaves the mission name and duration run together.",
+          "D": "The period closes the first independent clause. Lasting...introduces the second, which is completed by the mission ended."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "rw_070",
+      "section": "reading_writing",
+      "question_number": 70,
+      "source_question_number": 70,
+      "passage": "Now seen as a mechanical precursor to the e-reader, Spanish educator and inventor Angela Ruiz Robles's Enciclopedia Mecanica eschewed pages in favor of three horizontal paper scrolls that could be easily swapped out to accommodate a range of subjects. Though Ruiz Robles's prototype had limited functionality, interactive features described in her 1949 patent, such as a button labeled \"verb\" that would illuminate relevant text when pressed, ____ an impressive early vision of hypertext.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "revealing"
+        },
+        {
+          "label": "B",
+          "text": "reveal"
+        },
+        {
+          "label": "C",
+          "text": "reveals"
+        },
+        {
+          "label": "D",
+          "text": "has revealed"
+        }
+      ],
+      "correct_answer": "B",
+      "skills_tested": [],
+      "difficulty_estimate": "hard",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "The plural subject `interactive features` requires the plural verb `reveal`.",
+        "key_evidence": "The subject of the verb is `interactive features described in her 1949 patent`, which is plural.",
+        "why_correct": "Choice B agrees with the plural subject and completes the sentence grammatically.",
+        "detailed": "The intervening examples do not change the subject-verb agreement. Because `features` is plural, the verb must be `reveal`, not `reveals` or `has revealed`.",
+        "choice_analysis": {
+          "A": "Incorrect. `Revealing` does not provide the needed finite verb.",
+          "B": "Correct. `Reveal` agrees with the plural subject `features`.",
+          "C": "Incorrect. `Reveals` is singular.",
+          "D": "Incorrect. `Has revealed` is singular and does not agree with `features`."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "rw_071",
+      "section": "reading_writing",
+      "question_number": 71,
+      "source_question_number": 71,
+      "passage": "Jane Austen's Northanger Abbey (1818) is considered a satire of another novel popular at the time: Ann Radcliffe's The Mysteries of Udolpho (1794), which Austen's heroine, Catherine Morland, is depicted reading. However, the similarity of the ____ experiences—the predicaments of both Catherine and Radcliffe's Emily St. Aubert result from men's greed—suggests that underlying the satire is a social critique.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "novel's protagonists'"
+        },
+        {
+          "label": "B",
+          "text": "novels' protagonists"
+        },
+        {
+          "label": "C",
+          "text": "novels' protagonists'"
+        },
+        {
+          "label": "D",
+          "text": "novel's protagonist's"
+        }
+      ],
+      "correct_answer": "C",
+      "skills_tested": [],
+      "difficulty_estimate": "hard",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "Both novels and protagonists require plural possessive forms before experiences.",
+        "key_evidence": "The passage names two novels and compares Catherine Morland's experiences with Emily St. Aubert's.",
+        "why_correct": "The experiences belong to the protagonists, and those protagonists belong to the two novels. Novels' protagonists' marks both plural ownership relationships.",
+        "detailed": "Work backward from experiences. They are the experiences of more than one protagonist, so write protagonists'. Those protagonists come from two novels, so the preceding noun must be novels'. C supplies both plural possessives.",
+        "choice_analysis": {
+          "A": "Novel's means one novel, conflicting with the comparison between Austen's and Radcliffe's novels; the option itself is not OCR-damaged.",
+          "B": "Novels' correctly marks multiple novels, but protagonists lacks the possessive apostrophe required before experiences.",
+          "C": "Novels' and protagonists' are both plural possessives, correctly expressing the experiences of the two novels' protagonists.",
+          "D": "Novel's protagonist's expresses one novel and one protagonist rather than the two being compared."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "rw_072",
+      "section": "reading_writing",
+      "question_number": 72,
+      "source_question_number": 72,
+      "passage": "Roger Angell's reputation as one of the greatest baseball writers of all ____ bolstered by dozens of New Yorker essays in which he demonstrated a deep affection for and knowledge of the game, has perhaps overshadowed his remarkable career as a fiction editor: during his decades-long tenure at the New Yorker, Angell helped shape the work of John Updike, Ann Beattie, and other contributors of note.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "time was"
+        },
+        {
+          "label": "B",
+          "text": "time,"
+        },
+        {
+          "label": "C",
+          "text": "time had been"
+        },
+        {
+          "label": "D",
+          "text": "time, was"
+        }
+      ],
+      "correct_answer": "B",
+      "skills_tested": [],
+      "difficulty_estimate": "hard",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "Choice B correctly sets off the modifier after 'time' with a comma.",
+        "key_evidence": "主干是Roger Angell's reputation...has perhaps overshadowed...；bolstered by dozens of essays是修饰reputation的非限定插入语。",
+        "why_correct": "B以逗号开启bolstered by修饰语，并与game后的逗号配对；句中已有has overshadowed作谓语，无需was或had been。",
+        "detailed": "The core sentence is 'Roger Angell's reputation ... has perhaps overshadowed his remarkable career as a fiction editor.' The phrase 'bolstered by dozens of New Yorker essays...' modifies that reputation and should be set off after 'time' with a comma. Choice B supplies the needed punctuation. Choices with 'was' or 'had been' introduce an extra finite verb and disrupt the main clause.",
+        "choice_analysis": {
+          "A": "'Was' would add a finite predicate for 'reputation' before the existing predicate 'has overshadowed,' with no connector between them. 'Time' is part of 'of all time,' not the grammatical subject.",
+          "B": "Correct: the comma after 'time' introduces the modifying phrase 'bolstered by...'",
+          "C": "'Had been' would create an additional finite predicate for 'reputation' before 'has overshadowed,' with no clause boundary or coordinating conjunction.",
+          "D": "'Time, was bolstered...' creates an unnecessary finite verb before the main verb 'has overshadowed.'"
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "mixed_convention"
+      }
+    },
+    {
+      "question_id": "rw_073",
+      "section": "reading_writing",
+      "question_number": 73,
+      "source_question_number": 73,
+      "passage": "Before the ratification of the 19th Amendment in 1920, many US territories extended voting rights to women, in part to spur westward migration that would help these territories meet population thresholds for statehood. The Territory of Wyoming approved women's suffrage in 1869 before attaining statehood in ____ while eastern states, lacking the same incentive, did not follow suit.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1890, for example;"
+        },
+        {
+          "label": "B",
+          "text": "1890, for example,"
+        },
+        {
+          "label": "C",
+          "text": "1890; for example,"
+        },
+        {
+          "label": "D",
+          "text": "1890, for example:"
+        }
+      ],
+      "correct_answer": "B",
+      "skills_tested": [],
+      "difficulty_estimate": "hard",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "Choice B correctly uses commas around 'for example' before the contrasting 'while' clause.",
+        "key_evidence": "Wyoming先在1869年给予妇女投票权、再于1890年建州，是西部领地政策的一例；while后对照缺同样动机的东部各州。",
+        "why_correct": "B用逗号夹住插入的for example，并把依附主句的while对比分句接回；分号会错误地把while从句当独立句。",
+        "detailed": "The sentence contrasts Wyoming, which approved women's suffrage before statehood, with eastern states, which lacked the same incentive. 'For example' marks Wyoming's extension of voting rights before statehood as an instance of the territorial policy described earlier and should be set off with commas. A semicolon before 'while' is not appropriate here because the 'while' clause is dependent, and a colon would not introduce a list or explanation in the right way.",
+        "choice_analysis": {
+          "A": "The semicolon before 'while' incorrectly separates a dependent contrast clause from the main clause.",
+          "B": "Correct: commas set off 'for example' and allow the 'while' clause to express contrast.",
+          "C": "The semicolon after 1890 incorrectly breaks the sentence before the parenthetical phrase.",
+          "D": "A colon after 'for example' is not appropriate before the contrasting 'while' clause."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "rw_074",
+      "section": "reading_writing",
+      "question_number": 74,
+      "source_question_number": 74,
+      "passage": "The legacy of the Spanish Empire, which once controlled portions of five continents, is evident in Spanish-speaking Panama, one of many places that reveal their imperial history in their language. Contrast Panama with the Netherlands, which ceased to be part of the empire in ____ the latter's connection to the empire is so attenuated that Spanish is seldom spoken there today.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1648 and"
+        },
+        {
+          "label": "B",
+          "text": "1648:"
+        },
+        {
+          "label": "C",
+          "text": "1648,"
+        },
+        {
+          "label": "D",
+          "text": "1648"
+        }
+      ],
+      "correct_answer": "B",
+      "skills_tested": [],
+      "difficulty_estimate": "hard",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "A colon after 1648 correctly introduces the explanation about the Netherlands' attenuated connection to the empire.",
+        "key_evidence": "Contrast Panama with the Netherlands...1648是完整祈使句，后句解释荷兰与帝国联系淡薄、现今少讲西语。",
+        "why_correct": "B的冒号在完整前句后引入作比较的理由，明确说明荷兰为何与仍讲西语的Panama不同。",
+        "detailed": "The sentence first says the Netherlands ceased to be part of the Spanish Empire in 1648. The following independent clause explains why the Netherlands contrasts with Panama: its connection to the empire is now attenuated, and Spanish is seldom spoken there. Choice B's colon appropriately introduces that explanation. The comma and no-punctuation choices create a run-on, and the 'and' option lacks a comma before the next independent clause.",
+        "choice_analysis": {
+          "A": "'And' lacks the comma needed before the new independent clause in this long sentence and does not mark the explanatory relationship as the colon does.",
+          "B": "Correct: the colon introduces the explanatory clause about the Netherlands' attenuated imperial connection.",
+          "C": "A comma alone would create a comma splice between independent clauses.",
+          "D": "No punctuation would fuse the clauses together."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "rw_075",
+      "section": "reading_writing",
+      "question_number": 75,
+      "source_question_number": 75,
+      "passage": "To determine the approximate age of stone tools excavated from ancient lake beds in Saudi Arabia, archaeologist Eleanor Scerri and colleagues collected samples of sediments surrounding the tools; these samples were then analyzed using a method known as optically stimulated luminescence (OSL) dating. ____ OSL dating indicated that the tools were around 400,000 years old.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "In addition,"
+        },
+        {
+          "label": "B",
+          "text": "By comparison,"
+        },
+        {
+          "label": "C",
+          "text": "Similarly,"
+        },
+        {
+          "label": "D",
+          "text": "Ultimately,"
+        }
+      ],
+      "correct_answer": "D",
+      "skills_tested": [],
+      "difficulty_estimate": "hard",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "'Ultimately' introduces the result of the OSL dating analysis.",
+        "key_evidence": "研究过程先收集石器周围沉积物，再用OSL测年，后句给出约40万年的测定结果。",
+        "why_correct": "D的Ultimately将句子推进到这套取样和分析程序最终得到的年龄结论，而不是另一个相似研究或比较对象。",
+        "detailed": "The first sentence describes the researchers' method: collect sediment samples and analyze them with OSL dating. The next sentence reports what the dating indicated, namely that the tools were around 400,000 years old. A result transition is needed. 'Ultimately' fits because it introduces the outcome of the process; addition, comparison, and similarity transitions do not.",
+        "choice_analysis": {
+          "A": "'In addition' would add another point, but the sentence states the result of the method just described.",
+          "B": "'By comparison' would compare two things, and no comparison is being made.",
+          "C": "'Similarly' would indicate likeness to another case, which is absent.",
+          "D": "Correct: it introduces the outcome of the dating process."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "rw_076",
+      "section": "reading_writing",
+      "question_number": 76,
+      "source_question_number": 76,
+      "passage": "The moon Lysithea orbits Jupiter in the same direction that the planet rotates. ____ Lysithea's orbit is described as prograde. Mneme, another of Jupiter's moons, orbits in the opposite direction, so its orbit is described with the opposite term: retrograde.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Likewise,"
+        },
+        {
+          "label": "B",
+          "text": "Next,"
+        },
+        {
+          "label": "C",
+          "text": "Thus,"
+        },
+        {
+          "label": "D",
+          "text": "However,"
+        }
+      ],
+      "correct_answer": "C",
+      "skills_tested": [],
+      "difficulty_estimate": "hard",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "'Thus' introduces the conclusion that Lysithea's orbit is prograde.",
+        "key_evidence": "Lysithea公转方向与木星自转相同；后文用Mneme反向公转对应retrograde作为反例说明。",
+        "why_correct": "C的Thus标出由同方向这一事实推出prograde分类名称的关系，分类不是对前句的转折。",
+        "detailed": "The first sentence gives the fact needed to classify Lysithea's orbit: it moves in the same direction as Jupiter's rotation. The next sentence names the classification that follows from that fact, 'prograde.' The logical transition is therefore 'Thus.' 'Likewise' would compare similar cases, 'Next' would signal sequence, and 'However' would signal contrast.",
+        "choice_analysis": {
+          "A": "'Likewise' suggests similarity to a previous example, but the sentence draws a conclusion from the definition.",
+          "B": "'Next' indicates sequence rather than logical result.",
+          "C": "Correct: it signals that the prograde label follows from the same-direction orbit.",
+          "D": "'However' would signal contrast, but the sentence is not opposing the previous fact."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "rw_077",
+      "section": "reading_writing",
+      "question_number": 77,
+      "source_question_number": 77,
+      "passage": "Macarena Garcia Marin is a space scientist who works on the James Webb Space Telescope, or JWST. Thanks in part to Garcia Marin's contributions, the telescope is now positioned near the Sun-Earth L2 Lagrange point, almost one million miles beyond Earth's orbit. ____ the JWST's predecessor, the Hubble Telescope, is only about 340 miles above Earth's surface.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Similarly,"
+        },
+        {
+          "label": "B",
+          "text": "Secondly,"
+        },
+        {
+          "label": "C",
+          "text": "By contrast,"
+        },
+        {
+          "label": "D",
+          "text": "Therefore,"
+        }
+      ],
+      "correct_answer": "C",
+      "skills_tested": [],
+      "difficulty_estimate": "hard",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "'By contrast' correctly compares JWST's distant position with Hubble's much lower orbit.",
+        "key_evidence": "JWST近L2点，距离尺度为近百万英里；Hubble只距地表约340英里，only强调明显不同。",
+        "why_correct": "C的By contrast准确连接两个望远镜位置的悬殊对照，不暗示前一位置造成后一位置。",
+        "detailed": "The passage gives a large distance for JWST's location near the Sun-Earth L2 Lagrange point. The following sentence contrasts that with Hubble's position only about 340 miles above Earth's surface. 'By contrast' is the precise transition. 'Similarly' would incorrectly suggest the distances are alike, and 'Therefore' would imply a cause-effect relation that is not present.",
+        "choice_analysis": {
+          "A": "'Similarly' is wrong because the locations are dramatically different.",
+          "B": "'Secondly' would merely enumerate points and does not show the contrast.",
+          "C": "Correct: it signals the contrast between JWST's distant location and Hubble's near-Earth orbit.",
+          "D": "'Therefore' would indicate a result, but Hubble's location is not a consequence of JWST's location."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "rw_078",
+      "section": "reading_writing",
+      "question_number": 78,
+      "source_question_number": 78,
+      "passage": "The Austronesian language of Nauruan has only about 10,300 living speakers. Although most Nauruan speakers live in Nauru, where the language originated, Nauruan is also spoken in New York City. ____ the New York-based Endangered Language Alliance has identified a group of Nauruan speakers in the city's Murray Hill neighborhood, in the borough of Manhattan.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Nonetheless,"
+        },
+        {
+          "label": "B",
+          "text": "In addition,"
+        },
+        {
+          "label": "C",
+          "text": "Meanwhile,"
+        },
+        {
+          "label": "D",
+          "text": "Specifically,"
+        }
+      ],
+      "correct_answer": "D",
+      "skills_tested": [],
+      "difficulty_estimate": "hard",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "'Specifically' introduces the precise New York City location of Nauruan speakers.",
+        "key_evidence": "前句只说Nauruan也在New York City使用；后句具体定位到Manhattan的Murray Hill一群使用者。",
+        "why_correct": "D的Specifically由城市层面的概述缩小到社区与人群的实例，体现信息精确化而非新添无关发展。",
+        "detailed": "The sentence before the blank makes a general statement that Nauruan is also spoken in New York City. The following sentence gives a more precise detail: a group of speakers in Murray Hill, Manhattan. The transition should indicate specification, so 'Specifically' is correct. The other choices suggest contrast, addition, or simultaneous unrelated action rather than narrowing from city to neighborhood.",
+        "choice_analysis": {
+          "A": "'Nonetheless' signals contrast, but the Murray Hill detail supports and specifies the New York City claim.",
+          "B": "'In addition' would add a separate point, not narrow the prior statement.",
+          "C": "'Meanwhile' suggests a separate simultaneous development, which is not the relationship.",
+          "D": "Correct: it introduces the specific location within New York City."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "rw_080",
+      "section": "reading_writing",
+      "question_number": 80,
+      "source_question_number": 80,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• - The A.M. Turing Award is a prestigious award given by the Association for Computing Machinery (ACM). - The ACM gives the award for “major contributions of lasting importance to computing.” - It is named after groundbreaking British mathematician Alan Turing. - Barbara Liskov won the award in 2008.",
+      "prompt": "The student wants to explain whom the award is named for and identify one recipient of it. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "In 2008, Barbara Liskov won the A.M. Turing Award, which is given for “major contributions of lasting importance to computing.”"
+        },
+        {
+          "label": "B",
+          "text": "The A.M. Turing Award, which is named for British mathematician Alan Turing, was given to Barbara Liskov in 2008."
+        },
+        {
+          "label": "C",
+          "text": "The A.M. Turing Award is given for “major contributions of lasting importance to computing.”"
+        },
+        {
+          "label": "D",
+          "text": "It was in 2008 that Barbara Liskov won the A.M. Turing Award."
+        }
+      ],
+      "correct_answer": "B",
+      "skills_tested": [],
+      "difficulty_estimate": "hard",
+      "needs_manual_review": false,
+      "source_set": "Gold48-黄金验证集",
+      "explanation": {
+        "short": "Choice B both names Alan Turing as the person honored by the award and identifies Barbara Liskov as a recipient.",
+        "key_evidence": "The notes say the award is named after Alan Turing and that Barbara Liskov won it in 2008.",
+        "why_correct": "The student's goal has two parts, and B satisfies both.",
+        "detailed": "Choices A, C, and D each omit either the named-for detail or the recipient detail. Choice B includes both relevant facts in one sentence.",
+        "choice_analysis": {
+          "A": "Incorrect. It identifies Liskov but not whom the award is named for.",
+          "B": "Correct. It names Alan Turing and identifies Barbara Liskov as a recipient.",
+          "C": "Incorrect. It states the award criterion but not the named-for person or recipient.",
+          "D": "Incorrect. It identifies Liskov but not Alan Turing."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    }
+  ]
+}

@@ -1,0 +1,781 @@
+{
+  "schemaVersion": "sat-canonical-question-collection-v1",
+  "contentId": "set-06-2025-06-apac-a-partial",
+  "title": "06 2025 06 Apac A Partial",
+  "section": "reading_writing",
+  "questionCount": 13,
+  "questions": [
+    {
+      "question_id": "jun2025_apac_a_01",
+      "passage": "Portable video game consoles and other small electronic devices tend to [vocab]______[/vocab] batteries that can't be easily taken out and swapped for new ones. Environmental policy researcher Carl Dalhammar warns that when these internal batteries stop working, the devices are usually thrown away, becoming harmful waste.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "contain"
+        },
+        {
+          "label": "B",
+          "text": "prepare"
+        },
+        {
+          "label": "C",
+          "text": "imagine"
+        },
+        {
+          "label": "D",
+          "text": "discover"
+        }
+      ],
+      "correct_answer": "A",
+      "section": "reading_writing",
+      "question_number": 1,
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太A卷",
+      "source_question_number": 1,
+      "explanation": {
+        "short": "The devices have internal batteries that can't be easily removed or swapped.",
+        "key_evidence": "空格后是难以取出更换的电池，后文又称这些电池为internal batteries。",
+        "why_correct": "A的contain表示设备内部装有电池，与internal形成直接对应；prepare、imagine和discover均不能表达内含关系。",
+        "detailed": "The blank describes the relationship between small electronic devices and their built-in batteries. Devices can contain batteries, and the later reference to internal batteries confirms that meaning.",
+        "choice_analysis": {
+          "A": "Correct. 'Contain' precisely means the devices have batteries inside them, matching the reference to internal batteries.",
+          "B": "Incorrect. 'Prepare' would mean making batteries ready, but the sentence is about batteries being inside devices.",
+          "C": "Incorrect. 'Imagine' illogically suggests devices think about batteries.",
+          "D": "Incorrect. 'Discover' would mean finding batteries, not having them installed internally."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "jun2025_apac_a_03",
+      "passage": "The following text is adapted from George Bernard Shaw's 1905 play Major Barbara.\n\nLADY BRITOMART: You must learn to face life seriously, Stephen. I really cannot bear the whole burden of our family affairs any longer. You must advise me: you must [vocab]assume[/vocab] the responsibility.\n\nSTEPHEN: I!\n\nLADY BRITOMART: Yes, you, of course. You were 24 last June.",
+      "prompt": "As used in the text, what does the word \"assume\" most nearly mean?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Infer"
+        },
+        {
+          "label": "B",
+          "text": "Mimic"
+        },
+        {
+          "label": "C",
+          "text": "Undertake"
+        },
+        {
+          "label": "D",
+          "text": "Presuppose"
+        }
+      ],
+      "correct_answer": "C",
+      "section": "reading_writing",
+      "question_number": 2,
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太A卷",
+      "source_question_number": 3,
+      "explanation": {
+        "short": "Lady Britomart says Stephen must advise her and take responsibility for family affairs.",
+        "key_evidence": "Lady Britomart说无法独自继续承担家务责任，要求Stephen给建议并assume the responsibility。",
+        "why_correct": "C的Undertake表示接下责任或任务，正好是她要求成年Stephen承担的行动，不是把某判断预设为真。",
+        "detailed": "In this context, 'assume the responsibility' means accept or take on the duty that Lady Britomart no longer wants to bear alone.",
+        "choice_analysis": {
+          "A": "Incorrect. 'Infer' means draw a conclusion, but Stephen is being asked to take responsibility, not deduce it.",
+          "B": "Incorrect. 'Mimic' means imitate, which has no connection to managing family affairs.",
+          "C": "Correct. 'Undertake' means take on a task or duty, matching Lady Britomart's demand.",
+          "D": "Incorrect. 'Presuppose' means assume as true beforehand, not accept responsibility."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "jun2025_apac_a_04",
+      "passage": "The following text is from Jerome K. Jerome's 1889 novel Three Men in a Boat (To Say Nothing of the Dog). The narrator and two friends are taking a boat down the River Thames in England.\n\nIn a boat, I have always noticed that it is the fixed idea of each member of the crew that he is doing everything. Harris's notion was, that it was he alone who had been working, and that both George and I had been imposing upon him. George, on the other hand, ridiculed the idea of Harris's having done anything more than eat and sleep, and had a cast-iron opinion that it was he--George himself--who had done all the labour worth speaking of.",
+      "prompt": "Which choice best describes the main purpose of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To give an overview of a particular situation that the narrator finds startling"
+        },
+        {
+          "label": "B",
+          "text": "To examine how the narrator and his friends each contributed to navigating a challenge"
+        },
+        {
+          "label": "C",
+          "text": "To present the narrator's generalization along with supporting examples from a specific situation"
+        },
+        {
+          "label": "D",
+          "text": "To convey the narrator's confidence that he understands the role expected of him in a group"
+        }
+      ],
+      "correct_answer": "C",
+      "section": "reading_writing",
+      "question_number": 3,
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太A卷",
+      "source_question_number": 4,
+      "explanation": {
+        "short": "The narrator says each crew member thinks he does everything, then describes Harris's and George's views.",
+        "key_evidence": "首句概括船员都认为自己在做全部工作，随后Harris和George各自声称只有自己付出了真正劳动。",
+        "why_correct": "C同时覆盖总述和两个支持例子，准确描述一般化判断如何由这次船程中的具体自我评价展示。",
+        "detailed": "The passage opens with a broad observation about boat crews and then illustrates it with Harris and George each believing he alone did the important work.",
+        "choice_analysis": {
+          "A": "Incorrect. The narrator treats the situation humorously as familiar, not as startling.",
+          "B": "Incorrect. The text does not objectively examine each person's contribution; it focuses on competing self-serving beliefs.",
+          "C": "Correct. The structure is a general claim followed by specific examples involving Harris and George.",
+          "D": "Incorrect. The narrator does not discuss confidence about his own expected role in the group."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "structural_function"
+      }
+    },
+    {
+      "question_id": "jun2025_apac_a_05",
+      "passage": "Saturn is the first planet in our solar system to be discovered to have more than 100 moons orbiting around it. A team of astronomers using the Canada-France-Hawaii Telescope (CFHT) in Hawaii detected 62 undiscovered moons that were previously too small or too dim to see. Saturn now outranks Jupiter as the planet in our solar system with the most observed moons.",
+      "prompt": "Which choice best states the main purpose of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To note a new finding about the number of Saturn's moons"
+        },
+        {
+          "label": "B",
+          "text": "To explain how the CFHT works"
+        },
+        {
+          "label": "C",
+          "text": "To describe the atmospheric conditions of Jupiter"
+        },
+        {
+          "label": "D",
+          "text": "To discuss the history of Hawaii"
+        }
+      ],
+      "correct_answer": "A",
+      "section": "reading_writing",
+      "question_number": 4,
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太A卷",
+      "source_question_number": 5,
+      "explanation": {
+        "short": "Astronomers detected 62 previously unknown moons, making Saturn the observed moon leader.",
+        "key_evidence": "CFHT团队新发现62颗此前过小过暗的月球，使文中土星月球总数超过100且多于木星。",
+        "why_correct": "A将这些数字和排名结果概括为关于土星月球数量的新发现，符合全文报道焦点；望远镜和夏威夷只是背景。",
+        "detailed": "The text reports a recent discovery about Saturn's moons and explains its consequence: Saturn now has more observed moons than Jupiter.",
+        "choice_analysis": {
+          "A": "Correct. This matches the focus on Saturn exceeding 100 moons after 62 newly detected moons.",
+          "B": "Incorrect. The CFHT is only named as the tool used; the text does not explain how it works.",
+          "C": "Incorrect. Jupiter is mentioned only for comparison, not for atmospheric conditions.",
+          "D": "Incorrect. Hawaii is only the telescope's location, not the subject of a historical discussion."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "structural_function"
+      }
+    },
+    {
+      "question_id": "jun2025_apac_a_06",
+      "passage": "The following text is from George Eliot's 1857 short story \"The Sad Fortunes of the Rev. Amos Barton.\" In the text, the narrator addresses the reader directly and alludes to a discussion among Rev. Amos Barton's neighbors.\n\nIt was happy for the Rev. Amos Barton that he did not, like us, overhear the conversation recorded in the last chapter. Indeed, what mortal is there of us, who would find his satisfaction enhanced by an opportunity of comparing the picture he presents to himself of his own doings, with the picture they make on the mental retina of his neighbours? We are poor plants buoyed up by the air-vessels of our own conceit: alas for us, if we get a few pinches that empty us of that windy self-subsistence! The very capacity for good would go out of us.",
+      "prompt": "Which choice best states the overall structure of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The narrator expresses relief that a disagreement was resolved more expediently than expected and then indicates how the situation might have gone differently."
+        },
+        {
+          "label": "B",
+          "text": "The narrator comments on the fact that a character remains unaware of how he is viewed by others and then generalizes about the problem of learning others' opinions of one's own actions."
+        },
+        {
+          "label": "C",
+          "text": "The narrator summarizes an earlier event involving a specific character and then anticipates the later significance it will have for that character."
+        },
+        {
+          "label": "D",
+          "text": "The narrator implies that a character is not well liked by his neighbors and then uses an extended comparison to demonstrate why their negative opinion of him is largely justified."
+        }
+      ],
+      "correct_answer": "B",
+      "section": "reading_writing",
+      "question_number": 5,
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太A卷",
+      "source_question_number": 6,
+      "explanation": {
+        "short": "Barton did not overhear his neighbors; the narrator asks whether anyone benefits from knowing others' views of them.",
+        "key_evidence": "开头说Barton幸而没听到邻居谈论他，随后以what mortal...及we讨论所有人面对他人评价的脆弱。",
+        "why_correct": "B准确描述从单一人物不知他人看法，扩展到获知外界评价可能伤害自我满足感的一般反思。",
+        "detailed": "The text begins with Barton's lucky ignorance of others' conversation, then broadens into a general reflection on how painful and damaging others' opinions can be.",
+        "choice_analysis": {
+          "A": "Incorrect. No disagreement is resolved, and the narrator does not discuss a faster-than-expected outcome.",
+          "B": "Correct. This captures both parts: Barton's unawareness and the broader generalization about learning others' opinions.",
+          "C": "Incorrect. The narrator alludes to a prior conversation but does not summarize an event or forecast its later significance.",
+          "D": "Incorrect. The plant metaphor explains human self-conceit, not why neighbors' negative view of Barton is justified."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "jun2025_apac_a_07",
+      "passage": "Allison Q. Byrne and colleagues relied on historical DNA (hDNA)--genomic data incidentally preserved in specimens housed in collections such as those at the Smithsonian National Museum of Natural History--to investigate the evolutionary origins of a pathogen affecting amphibians. Although this approach can yield many insights about the biological past, it remains a relatively underutilized resource in part because hDNA is often to some extent degraded, a situation not easily remediable under current methodological paradigms and with extant DNA extraction and analysis technologies.",
+      "prompt": "Which choice best describes the overall structure of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It presents a scientific study that relied on a particular approach, then describes a barrier to the widespread adoption of that approach."
+        },
+        {
+          "label": "B",
+          "text": "It evaluates a research methodology used in a particular study, then explains how scientists may overcome difficulties inherent to that methodology."
+        },
+        {
+          "label": "C",
+          "text": "It summarizes the findings of a scientific study, then discusses the possibility of other researchers replicating those findings in future studies."
+        },
+        {
+          "label": "D",
+          "text": "It exemplifies a common method of genomic data analysis, then details the difficulties in adapting that method to new circumstances."
+        }
+      ],
+      "correct_answer": "A",
+      "section": "reading_writing",
+      "question_number": 6,
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太A卷",
+      "source_question_number": 7,
+      "explanation": {
+        "short": "Byrne's team used hDNA; hDNA remains underutilized partly because it is often degraded.",
+        "key_evidence": "第一句举Byrne团队借馆藏标本hDNA研究两栖病原起源，第二句解释hDNA常降解且现有技术难补救。",
+        "why_correct": "A涵盖使用某研究方法的实例及其推广障碍；全文没有介绍克服降解的方法，反而说明难以补救。",
+        "detailed": "The first sentence identifies a study using historical DNA, and the second explains why this useful approach is not widely used: degradation is hard to remedy.",
+        "choice_analysis": {
+          "A": "Correct. This accurately describes the study's approach and the barrier limiting wider adoption.",
+          "B": "Incorrect. The text says the difficulty is not easily remedied, so it does not explain how to overcome it.",
+          "C": "Incorrect. The passage does not summarize Byrne's findings or discuss replication by other researchers.",
+          "D": "Incorrect. The method is presented as relatively underused, not common, and the issue is degradation rather than adaptation to new circumstances."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "jun2025_apac_a_08",
+      "passage": "Text 1\n\nYale University and the investment bank JPMorgan Chase are two of the many institutions offering training programs in entrepreneurship. But what results do [u]such programs produce?[/u] In a study of college students in Sweden, researcher Ove Hansemark addressed this question and found that participants showed strong belief in their entrepreneurial capabilities after receiving entrepreneurial training.\n\nText 2\n\nWhile studies of entrepreneurial training typically report positive results, a close look at these studies reveals widespread methodological shortcomings. For instance, a 1998 study by Ove Hansemark found benefits of entrepreneurial education for Swedish college students, but the study used a very small sample of only 19 students, making it difficult to say whether the training actually had an effect.",
+      "prompt": "Based on the texts, how would the author of Text 2 most likely answer the underlined question in Text 1?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Although the programs may seem to produce positive results, close analysis of studies of the programs shows that they produce negative results just as frequently."
+        },
+        {
+          "label": "B",
+          "text": "It is unknown what results the programs produce because studies of them are often designed in ways that do not allow for definitive conclusions."
+        },
+        {
+          "label": "C",
+          "text": "Most of the programs do not actually produce positive results even though program participants tend to regard them as beneficial."
+        },
+        {
+          "label": "D",
+          "text": "The programs tend to produce inconsistent results because they vary substantially in their methods and aims."
+        }
+      ],
+      "correct_answer": "B",
+      "section": "reading_writing",
+      "question_number": 7,
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太A卷",
+      "source_question_number": 8,
+      "explanation": {
+        "short": "Text 2 would say the results are not known with certainty.",
+        "key_evidence": "Text 2 says studies have methodological shortcomings and that a small sample makes it difficult to know whether training had an effect.",
+        "why_correct": "Because Text 2 questions the evidence quality, it would answer that the programs’ results are unknown due to flawed study designs.",
+        "detailed": "Because Text 2 questions the evidence quality, it would answer that the programs’ results are unknown due to flawed study designs.",
+        "choice_analysis": {
+          "A": "Incorrect. Text 2 does not say negative results occur just as frequently.",
+          "B": "Correct. It states that study designs often do not permit definitive conclusions.",
+          "C": "Incorrect. Text 2 does not conclude most programs fail.",
+          "D": "Incorrect. Text 2 criticizes study methodology, not variation in program aims."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Cross-Text Connections",
+        "subtype": "paired_text_response"
+      }
+    },
+    {
+      "question_id": "jun2025_apac_a_09",
+      "passage": "The 2020 novel The Only Good Indians confirmed that Stephen Graham Jones is one of the most talented writers of horror fiction today. By featuring main characters who are Blackfeet, like Jones himself, the novel also helped to ensure that Indigenous people have a place within the horror genre. But Jones is hardly the only Indigenous voice in horror. Metis author Cherie Dimaline has also written in the genre. Her acclaimed 2019 novel Empire of Wild is set in a Metis community in southern Canada.",
+      "prompt": "According to the text, Stephen Graham Jones and Cherie Dimaline are similar in what way?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Both have published fictional works featuring main characters who are Blackfeet."
+        },
+        {
+          "label": "B",
+          "text": "Both are citizens of the Blackfeet Nation."
+        },
+        {
+          "label": "C",
+          "text": "Both are Indigenous authors who have written horror fiction."
+        },
+        {
+          "label": "D",
+          "text": "Both have said that they don't like reading horror fiction even though they write it."
+        }
+      ],
+      "correct_answer": "C",
+      "section": "reading_writing",
+      "question_number": 8,
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太A卷",
+      "source_question_number": 9,
+      "explanation": {
+        "short": "Jones features Blackfeet characters and is Indigenous; Dimaline is a Metis author who has written horror.",
+        "key_evidence": "Jones的The Only Good Indians被称为恐怖小说，Dimaline为Metis作者且also written in the genre。",
+        "why_correct": "C给出双方同时具备的原住民作者身份及恐怖写作经历；Blackfeet身份和角色只明确属于Jones一侧。",
+        "detailed": "The passage identifies Jones as an Indigenous writer in horror and states that Dimaline, a Metis author, has also written in the genre.",
+        "choice_analysis": {
+          "A": "Incorrect. Only Jones's novel is said to feature Blackfeet main characters; Dimaline's is set in a Metis community.",
+          "B": "Incorrect. Jones is described as Blackfeet, but Dimaline is described as Metis, not Blackfeet.",
+          "C": "Correct. Both writers are Indigenous authors connected to horror fiction.",
+          "D": "Incorrect. The passage gives no information about either author's reading preferences."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "main_idea_or_detail"
+      }
+    },
+    {
+      "question_id": "jun2025_apac_a_10",
+      "passage": "Spanning the 1920s to the 1980s, Mexican architect Luis Barragan's prolific career evolved through distinct phases. After traveling to the United States and Europe in the early 1930s and immersing himself in an international architectural discourse, Barragan began incorporating principles derived from functionalism and modernism in his work, as seen in the Chavez Peon de Ochoa House, whose unadorned geometric forms contrast with the historically inspired architecture found in the Aguilar House, one of Barragan's early projects in Guadalajara.",
+      "prompt": "Which choice best states the main idea of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Barragan's designs of the Chavez Peon de Ochoa House and the Aguilar House are considered paragons of a functionalist and modernist aesthetic."
+        },
+        {
+          "label": "B",
+          "text": "A notable shift in Barragan's design aesthetic reflects the influence of his time abroad."
+        },
+        {
+          "label": "C",
+          "text": "Barragan's early work shows an initial dedication to a modernist aesthetic that he later abandoned."
+        },
+        {
+          "label": "D",
+          "text": "Barragan's design of the Aguilar House is considered more experimental than his design for the Chavez Peon de Ochoa House."
+        }
+      ],
+      "correct_answer": "B",
+      "section": "reading_writing",
+      "question_number": 9,
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太A卷",
+      "source_question_number": 10,
+      "explanation": {
+        "short": "After travel abroad, Barragan began using functionalist and modernist principles, unlike his earlier Aguilar House.",
+        "key_evidence": "Barragan在1930年代出国接触国际建筑后转用功能主义和现代主义，后期几何形式与早期Aguilar House对照。",
+        "why_correct": "B把时间上的风格转变与国外经历联系，概括全文的因果主线，而不把两阶段都错误称作现代主义。",
+        "detailed": "The text presents Barragan's career as evolving after exposure to international architecture, with Chavez Peon de Ochoa House contrasting with earlier historically inspired work.",
+        "choice_analysis": {
+          "A": "Incorrect. Only Chavez Peon de Ochoa House is linked to functionalist and modernist aesthetics, not Aguilar House.",
+          "B": "Correct. This captures the main idea that travel and international discourse influenced a shift in Barragan's style.",
+          "C": "Incorrect. The passage says his early work was historically inspired, not initially modernist.",
+          "D": "Incorrect. The text does not describe Aguilar House as more experimental than Chavez Peon de Ochoa House."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "main_idea_or_detail"
+      }
+    },
+    {
+      "question_id": "jun2025_apac_a_11",
+      "passage": "Plant | State | Mode | Generators in plant | Average power generation (MWh/yr) | Water source J. Woodruff | Florida | peaking | 3 | 193,864 | Lake Seminole Reservoir Superior Falls | Michigan | run-of-river | 2 | 10,693 | Montreal River Norway | Indiana | run-of-river | 4 | 19,751 | Tippecanoe River White River | Wisconsin | run-of-river | 2 | 3,999 | White River\n\nIn 2021, Rocio Uria-Martinez, Megan M. Johnson, and Rul Shan published a report on hydroelectric power plants operating in the US as recently as 2019, and data from their report are shown in the table. Of the plants in the table, the plant with the lowest average power generated per year in 2019 was located in the state of ______",
+      "prompt": "Which choice most effectively uses data from the table to complete the assertion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Wisconsin."
+        },
+        {
+          "label": "B",
+          "text": "Michigan."
+        },
+        {
+          "label": "C",
+          "text": "Florida."
+        },
+        {
+          "label": "D",
+          "text": "Indiana."
+        }
+      ],
+      "correct_answer": "A",
+      "section": "reading_writing",
+      "question_number": 10,
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太A卷",
+      "source_question_number": 11,
+      "table_data": {
+        "title": "Hydroelectric Power Plants Operating in the US as Recently as 2019",
+        "columns": [
+          "Plant",
+          "State",
+          "Mode",
+          "Generators in plant",
+          "Average power generation (MWh/yr)",
+          "Water source"
+        ],
+        "rows": [
+          [
+            "J. Woodruff",
+            "Florida",
+            "peaking",
+            "3",
+            "193,864",
+            "Lake Seminole Reservoir"
+          ],
+          [
+            "Superior Falls",
+            "Michigan",
+            "run-of-river",
+            "2",
+            "10,693",
+            "Montreal River"
+          ],
+          [
+            "Norway",
+            "Indiana",
+            "run-of-river",
+            "4",
+            "19,751",
+            "Tippecanoe River"
+          ],
+          [
+            "White River",
+            "Wisconsin",
+            "run-of-river",
+            "2",
+            "3,999",
+            "White River"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "White River generated 3,999 MWh/yr, the lowest value in the table, and is in Wisconsin.",
+        "key_evidence": "四厂年均发电量为193864、10693、19751和3999MWh；最低3999对应White River，州为Wisconsin。",
+        "why_correct": "A通过最低数值所在行定位Wisconsin，未把发电机数量、运行模式或厂名误作题目要求的州。",
+        "detailed": "Comparing the four average generation values, 3,999 is lower than 10,693, 19,751, and 193,864. The row with 3,999 is White River, whose state is Wisconsin.",
+        "choice_analysis": {
+          "A": "Correct. Wisconsin is the state for White River, which has the lowest listed average generation.",
+          "B": "Incorrect. Michigan's Superior Falls generated 10,693 MWh/yr, higher than White River.",
+          "C": "Incorrect. Florida's J. Woodruff generated 193,864 MWh/yr.",
+          "D": "Incorrect. Indiana's Norway plant generated 19,751 MWh/yr, above the lowest value."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "data_evidence"
+      },
+      "visual_assets": [
+        {
+          "type": "table",
+          "title": "Hydroelectric Power Plants Operating in the US as Recently as 2019",
+          "columns": [
+            "Plant",
+            "State",
+            "Mode",
+            "Generators in plant",
+            "Average power generation (MWh/yr)",
+            "Water source"
+          ],
+          "rows": [
+            [
+              "J. Woodruff",
+              "Florida",
+              "peaking",
+              "3",
+              "193,864",
+              "Lake Seminole Reservoir"
+            ],
+            [
+              "Superior Falls",
+              "Michigan",
+              "run-of-river",
+              "2",
+              "10,693",
+              "Montreal River"
+            ],
+            [
+              "Norway",
+              "Indiana",
+              "run-of-river",
+              "4",
+              "19,751",
+              "Tippecanoe River"
+            ],
+            [
+              "White River",
+              "Wisconsin",
+              "run-of-river",
+              "2",
+              "3,999",
+              "White River"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "question_id": "jun2025_apac_a_12",
+      "passage": "When a company has a new product, it has to decide when to tell people about it. Companies usually announce a new product before it is released and available for purchase. Those announcements can increase consumer excitement, which can mean that more people will buy the product. But the [u]effect fades quickly, so companies need to be careful in timing the announcement and the release of a new product.[/u]",
+      "prompt": "Which finding, if true, would most directly support the underlined claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Consumers tend to prefer new products over older products."
+        },
+        {
+          "label": "B",
+          "text": "Consumers are more likely to buy a new product when they already use products from the company making the new product."
+        },
+        {
+          "label": "C",
+          "text": "Consumer surveys show low excitement for new products that were announced a long time before they were released."
+        },
+        {
+          "label": "D",
+          "text": "The kind of information a company provides about a new product helps determine how likely consumers are to buy the product."
+        }
+      ],
+      "correct_answer": "C",
+      "section": "reading_writing",
+      "question_number": 11,
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太A卷",
+      "source_question_number": 12,
+      "table_data": null,
+      "explanation": {
+        "short": "Low excitement for products announced long before release supports the claim that announcement effects fade.",
+        "key_evidence": "划线主张预告的兴奋效应迅速衰退、须慎重安排预告与发售间隔；C调查恰显示久前预告的新品兴奋度低。",
+        "why_correct": "C把较长公告间隔与较低兴奋度直接连接，为随时间消退这一主张提供可观察支持；品牌与内容质量不检验该时间效应。",
+        "detailed": "The surrounding passage explains that announcements can increase excitement; the underlined claim says this effect fades quickly, so timing matters. Low excitement for products announced long before release directly supports that time-based fading effect.",
+        "choice_analysis": {
+          "A": "Incorrect. A general preference for new products does not address announcement timing.",
+          "B": "Incorrect. Brand familiarity may affect purchases, but it does not test whether announcement excitement fades.",
+          "C": "Correct. It directly links a long pre-release delay with low consumer excitement.",
+          "D": "Incorrect. Information quality is separate from the timing claim."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "textual_evidence"
+      }
+    },
+    {
+      "question_id": "jun2025_apac_a_13",
+      "passage": "Individual | Site | Sex | Total number of peering events observed | Proportion of peering events directed at permanent residents of immature orangutan's home region 1 | Suaq | female | 17 | 0.59 13 | Tuanan | male | 27 | 0.15 15 | Tuanan | male | 15 | 0.00 6 | Tuanan | female | 6 | 0.67\n\nOne way that young orangutans acquire foraging skills is through a behavior scientists call peering--closely watching older orangutans as they engage in an activity that the young have not yet mastered. Since female orangutans typically remain in the same area from youth through adulthood and males do not, Beatrice Ehmann and her colleagues hypothesized that it is more advantageous for immature females than males to devote attention to orangutans who are permanent residents of the immature individual's home region, and this should be reflected in sex-specific differences in peering behavior.",
+      "prompt": "Which choice best describes data from the table that support Ehmann and colleagues' hypothesis?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Individual 6 and individual 1 directed a higher proportion of peering events at permanent residents of their home regions than did individual 13 and individual 15."
+        },
+        {
+          "label": "B",
+          "text": "The proportion of peering events directed at permanent residents of the immature orangutans' home regions ranged from a low of 0.00 to a high of 0.67."
+        },
+        {
+          "label": "C",
+          "text": "Individual 6 directed a higher proportion of peering events at permanent residents of its home region than did individual 1, and individual 13 directed a higher proportion of peering events at permanent residents of its home region than did individual 15."
+        },
+        {
+          "label": "D",
+          "text": "Individual 13 engaged in 27 peering events, more than either individual 6 or individual 1."
+        }
+      ],
+      "correct_answer": "A",
+      "section": "reading_writing",
+      "question_number": 12,
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太A卷",
+      "source_question_number": 13,
+      "table_data": {
+        "title": "Peering Events Observed in Immature Orangutans",
+        "columns": [
+          "Individual",
+          "Site",
+          "Sex",
+          "Total number of peering events observed",
+          "Proportion of peering events directed at permanent residents of immature orangutan's home region"
+        ],
+        "rows": [
+          [
+            "1",
+            "Suaq",
+            "female",
+            "17",
+            "0.59"
+          ],
+          [
+            "13",
+            "Tuanan",
+            "male",
+            "27",
+            "0.15"
+          ],
+          [
+            "15",
+            "Tuanan",
+            "male",
+            "15",
+            "0.00"
+          ],
+          [
+            "6",
+            "Tuanan",
+            "female",
+            "6",
+            "0.67"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "The female orangutans directed higher proportions of peering to permanent residents than the males did.",
+        "key_evidence": "雌性1、6关注本地常住个体的比例为0.59、0.67，雄性13、15仅0.15、0.00。",
+        "why_correct": "A直接比较两只雌性与两只雄性的关注比例，方向与雌性留居而更重视本地常住个体的预测一致。",
+        "detailed": "The hypothesis predicts females should devote more attention to permanent residents. The table supports this because the female individuals have proportions 0.59 and 0.67, while the male individuals have 0.15 and 0.00.",
+        "choice_analysis": {
+          "A": "Correct. It compares the two females with the two males and shows the predicted sex-specific difference.",
+          "B": "Incorrect. The overall range does not connect the data to the sex-based hypothesis.",
+          "C": "Incorrect. It gives within-sex comparisons rather than evidence that females differ from males.",
+          "D": "Incorrect. Total peering events do not show attention to permanent residents."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "data_evidence"
+      },
+      "visual_assets": [
+        {
+          "type": "table",
+          "title": "Peering Events Observed in Immature Orangutans",
+          "columns": [
+            "Individual",
+            "Site",
+            "Sex",
+            "Total number of peering events observed",
+            "Proportion of peering events directed at permanent residents of immature orangutan's home region"
+          ],
+          "rows": [
+            [
+              "1",
+              "Suaq",
+              "female",
+              "17",
+              "0.59"
+            ],
+            [
+              "13",
+              "Tuanan",
+              "male",
+              "27",
+              "0.15"
+            ],
+            [
+              "15",
+              "Tuanan",
+              "male",
+              "15",
+              "0.00"
+            ],
+            [
+              "6",
+              "Tuanan",
+              "female",
+              "6",
+              "0.67"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "question_id": "jun2025_apac_a_15",
+      "passage": "In Switzerland, the white fuzzy mountain flowers known as edelweiss are widely treated as a symbol of strength and courage. Although edelweiss can thrive in extreme conditions, they aren't notably tougher or harder to reach than other mountain flowers growing in the Swiss Alps. Historian Tobias Scheidegger has shown that the popular view of the flowers originated in the mid-1800s when mountain climbing became popular in Switzerland. Mountain climbers spread the idea that the flowers grew only in steep, icy terrains that were dangerous to climb to. Scheidegger says that these claims were self-interested. He suggests that mountain climbers presented edelweiss in this way in order to ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "share their observations about the unusual characteristics of edelweiss with scientists."
+        },
+        {
+          "label": "B",
+          "text": "encourage more flower enthusiasts to explore the Swiss Alps."
+        },
+        {
+          "label": "C",
+          "text": "make themselves appear brave and strong for being able to climb to difficult places where edelweiss supposedly grew."
+        },
+        {
+          "label": "D",
+          "text": "prove that edelweiss were more common in the Swiss Alps than in other mountain regions in Europe."
+        }
+      ],
+      "correct_answer": "C",
+      "section": "reading_writing",
+      "question_number": 14,
+      "needs_manual_review": false,
+      "source_set": "2025-06-亚太A卷",
+      "source_question_number": 15,
+      "explanation": {
+        "short": "Climbers spread the idea that edelweiss grew only in dangerous, steep, icy terrain.",
+        "key_evidence": "山花并不比其他阿尔卑斯花更难接近，但登山者宣称它只生于陡峭冰冷险地，且这种说法被称为self-interested。",
+        "why_correct": "C说明登山者如何从传言获利：把能到达花朵生境的自己塑造得勇敢强壮，直接解释self-interested动机。",
+        "detailed": "If climbers promoted the false idea that edelweiss could be found only in hard-to-reach places, they made their own ability to obtain or encounter the flowers seem courageous.",
+        "choice_analysis": {
+          "A": "Incorrect. The text says the claims were self-interested and not scientifically accurate observations.",
+          "B": "Incorrect. Encouraging flower enthusiasts is not self-interested in the way the passage describes.",
+          "C": "Correct. This explains how the myth would enhance climbers' image as brave and strong.",
+          "D": "Incorrect. The passage says climbers exaggerated difficulty, not that they tried to prove edelweiss were more common in Switzerland."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2265 @@
+{
+  "schemaVersion": "sat-canonical-question-collection-v1",
+  "contentId": "set-32-2025-09-apac-d",
+  "title": "32 2025 09 Apac D",
+  "section": "reading_writing",
+  "questionCount": 51,
+  "questions": [
+    {
+      "question_id": "apac_d_2025_09_m1_q01",
+      "section": "reading_writing",
+      "question_number": 1,
+      "passage": "Amaranth grain was domesticated in Mexico. Its physical structure is no longer identical to the structure of the wild plant it is descended from. Summer squash also [vocab]______[/vocab] its wild ancestor. That ancestor plant had a hard rind and bitter flesh. Indigenous people in eastern North America carefully bred the crop until it had a soft rind and mild-tasting flesh.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "reacts to"
+        },
+        {
+          "label": "B",
+          "text": "varies from"
+        },
+        {
+          "label": "C",
+          "text": "helps with"
+        },
+        {
+          "label": "D",
+          "text": "argues with"
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "B",
+      "explanation": {
+        "short": "The sentence needs a phrase meaning ‘is different from.’ ‘Varies from’ directly expresses that contrast.",
+        "key_evidence": "The squash's soft rind and mild flesh contrast with its ancestor's hard, bitter traits.",
+        "why_correct": "The local context fixes the needed meaning: The sentence needs a phrase meaning ‘is different from.’ ‘Varies from’ directly expresses that contrast. That meaning is expressed precisely by “varies from”.",
+        "detailed": "The decisive evidence is that the squash described has changed in rind and flesh from its wild ancestor. The sentence needs a phrase meaning ‘is different from.’ ‘Varies from’ directly expresses that contrast.",
+        "choice_analysis": {
+          "A": "Choice A (“reacts to”): ‘reacts to’ does not express a difference from an ancestor.",
+          "B": "Choice B (“varies from”): Correct: Summer squash is described as physically changed from its wild ancestor.",
+          "C": "Choice C (“helps with”): ‘Helps with’ does not express comparison or fit the object ‘ancestor.’",
+          "D": "Choice D (“argues with”): ‘Argues with’ is figurative and illogical for a plant and its ancestor. It does not express the meaning required by the local context."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m1_q02",
+      "section": "reading_writing",
+      "question_number": 2,
+      "passage": "The adult io moth appears black, orange, and yellow with large eyespots as a result of pigmented scales that cover its wings and body. Although scales are widely known as the source of a moth’s color and pattern, the [vocab]______[/vocab] of these scales goes beyond visual display: they also detach when moths are caught in a spiderweb.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "attractiveness"
+        },
+        {
+          "label": "B",
+          "text": "utility"
+        },
+        {
+          "label": "C",
+          "text": "tendency"
+        },
+        {
+          "label": "D",
+          "text": "frailty"
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "B",
+      "explanation": {
+        "short": "Utility means usefulness: scales serve functions beyond visual display.",
+        "key_evidence": "Besides creating color and pattern, scales detach when a moth is caught in a spiderweb.",
+        "why_correct": "B summarizes the scales' multiple useful roles, including the nonvisual role introduced after the colon.",
+        "detailed": "The sentence expands from appearance to another function of the same structures. Utility is the broad term for usefulness that can cover both roles. The point is not that every useful structure must be physically strong; it is that the blank describes function rather than strength or weakness.",
+        "choice_analysis": {
+          "A": "Attractiveness concerns appearance and does not capture the additional nonvisual role.",
+          "B": "Utility means usefulness and covers the functions described.",
+          "C": "Tendency means propensity; the sentence is about what scales are useful for, not a general inclination.",
+          "D": "Frailty means weakness. It does not name the broader usefulness being expanded beyond visual display, even though a weak or detachable structure could be beneficial."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m1_q03",
+      "section": "reading_writing",
+      "question_number": 3,
+      "passage": "Despite a growing view among young people and others in South Africa that celebrated anti-apartheid leader Nelson Mandela should have taken greater strides as president to effect more substantive structural changes in the country’s stratified society, years after his death in 2013 Mandela continues to be [vocab]______[/vocab] by many worldwide.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "lauded"
+        },
+        {
+          "label": "B",
+          "text": "reinterpreted"
+        },
+        {
+          "label": "C",
+          "text": "evaluated"
+        },
+        {
+          "label": "D",
+          "text": "criticized"
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "A",
+      "explanation": {
+        "short": "‘Lauded’ means praised, which matches Mandela’s continuing admiration worldwide.",
+        "key_evidence": "The contrast signals that, despite criticism from some, many worldwide continue to praise Mandela.",
+        "why_correct": "The local context fixes the needed meaning: ‘Lauded’ means praised, which matches Mandela’s continuing admiration worldwide. That meaning is expressed precisely by “lauded”.",
+        "detailed": "The decisive evidence is that the sentence contrasts some criticism with continued worldwide admiration. ‘Lauded’ means praised, which matches Mandela’s continuing admiration worldwide.",
+        "choice_analysis": {
+          "A": "Choice A (“lauded”): Correct: the contrast introduced by 'Despite' requires continued praise, and 'lauded' means praised.",
+          "B": "Choice B (“reinterpreted”): 'Reinterpreted' means understood in a new way; it does not express the worldwide admiration needed after the contrast.",
+          "C": "Choice C (“evaluated”): 'Evaluated' means assessed, which is neutral and does not convey that Mandela remains celebrated.",
+          "D": "Choice D (“criticized”): 'Criticized' repeats the negative view in the opening clause instead of contrasting with it."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m1_q04",
+      "section": "reading_writing",
+      "question_number": 4,
+      "passage": "The dinosaur displays at museums such as the Naturmuseum Senckenberg in Frankfurt (which has a life-sized [i]Diplodocus longus[/i] statue among its holdings) are notable for the [vocab]______[/vocab] of the research behind them—the museum staff consulted numerous sources to ensure the accuracy of the displays.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "novelty"
+        },
+        {
+          "label": "B",
+          "text": "shallowness"
+        },
+        {
+          "label": "C",
+          "text": "rigor"
+        },
+        {
+          "label": "D",
+          "text": "obscurity"
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "C",
+      "explanation": {
+        "short": "Research is ‘rigorous’ when it is thorough and carefully checked, as the staff’s process is.",
+        "key_evidence": "Staff consulted numerous sources to ensure the displays were accurate.",
+        "why_correct": "The local context fixes the needed meaning: Research is ‘rigorous’ when it is thorough and carefully checked, as the staff’s process is. That meaning is expressed precisely by “rigor”.",
+        "detailed": "The decisive evidence is that consulting numerous sources to ensure accuracy demonstrates careful, rigorous research. Research is ‘rigorous’ when it is thorough and carefully checked, as the staff’s process is.",
+        "choice_analysis": {
+          "A": "Choice A (“novelty”): Novelty means newness, which the source consultation does not establish.",
+          "B": "Choice B (“shallowness”): Shallowness contradicts the numerous-source accuracy check.",
+          "C": "Choice C (“rigor”): Correct: Consulting numerous sources to ensure accuracy demonstrates rigor.",
+          "D": "Choice D (“obscurity”): Obscurity means lack of clarity or fame, not research quality. It does not express the meaning required by the local context."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m1_q05",
+      "section": "reading_writing",
+      "question_number": 5,
+      "passage": "The following text is adapted from Eugene O’Neill’s 1920 play [i]Beyond the Horizon[/i]. Andrew and Robert Mayo are brothers who grew up on their family’s farm. ANDREW: Farming ain’t your nature. There’s all the difference shown in just the way us two feel about the farm. You—well, you like the home part of it, I expect; but as a place to work and grow things, you hate it. Ain’t that right? ROBERT: Yes, I suppose it is. For you it’s different. You’re a Mayo through and through. You’re wedded to the soil. You’re as much a product of it as an ear of corn is, or a tree. Father is the same. This farm is his life-work.",
+      "prompt": "Which choice best states the main purpose of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It describes a place two characters visited on vacation."
+        },
+        {
+          "label": "B",
+          "text": "It illustrates that two characters share a goal."
+        },
+        {
+          "label": "C",
+          "text": "It emphasizes a difference between two characters."
+        },
+        {
+          "label": "D",
+          "text": "It shows how two characters solved a mystery."
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "C",
+      "explanation": {
+        "short": "The dialogue contrasts the brothers’ attitudes toward farming, so its purpose is to emphasize their difference.",
+        "key_evidence": "Andrew says Robert hates farming as work, while Robert says Andrew is devoted to the soil.",
+        "why_correct": "The passage's organization determines the answer: The dialogue contrasts the brothers’ attitudes toward farming, so its purpose is to emphasize their difference. That role is the one described by “It emphasizes a difference between two characters”.",
+        "detailed": "The decisive evidence is that the dialogue contrasts Andrew's attachment to farming with Robert's dislike of it. The dialogue contrasts the brothers’ attitudes toward farming, so its purpose is to emphasize their difference.",
+        "choice_analysis": {
+          "A": "Choice A (“It describes a place two characters visited on vacation.”): The farm is the brothers' home and workplace, so this choice does not describe the setting or purpose of their exchange.",
+          "B": "Choice B (“It illustrates that two characters share a goal.”): Andrew explicitly says that he and Robert feel differently about farm work rather than sharing a goal.",
+          "C": "Choice C (“It emphasizes a difference between two characters.”): Correct: Andrew says Robert dislikes farming while Robert describes Andrew as devoted to the soil.",
+          "D": "Choice D (“It shows how two characters solved a mystery.”): No mystery is posed or solved, so this choice does not describe the dialogue's purpose."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "structural_function"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m1_q06",
+      "section": "reading_writing",
+      "question_number": 6,
+      "passage": "In the past, historians who wanted to examine Frederick Douglass’s diary and other personal papers had to visit the Library of Congress in Washington, DC, to view them on microfilm ([u]film containing scaled-down reproductions of documents[/u]). But traveling to the library often added time and costs to research projects. Now, by going to the library’s website, researchers can access digitized versions of Douglass’s papers without physically going anywhere.",
+      "prompt": "Which choice best describes the function of the underlined portion in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It summarizes an unexpected finding."
+        },
+        {
+          "label": "B",
+          "text": "It describes a debate among historians."
+        },
+        {
+          "label": "C",
+          "text": "It gives information about a famous person."
+        },
+        {
+          "label": "D",
+          "text": "It explains the meaning of a word."
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "D",
+      "explanation": {
+        "short": "The parenthetical tells readers what ‘microfilm’ means, so it functions as a definition.",
+        "key_evidence": "The underlined parenthetical defines microfilm as film containing scaled-down document reproductions.",
+        "why_correct": "The passage's organization determines the answer: The parenthetical tells readers what ‘microfilm’ means, so it functions as a definition. That role is the one described by “It explains the meaning of a word”.",
+        "detailed": "The decisive evidence is that the underlined parenthetical defines microfilm as film containing scaled-down reproductions. The parenthetical tells readers what ‘microfilm’ means, so it functions as a definition.",
+        "choice_analysis": {
+          "A": "Choice A (“It summarizes an unexpected finding.”): It defines a term; it does not report a finding.",
+          "B": "Choice B (“It describes a debate among historians.”): No historical debate is described in the underlined words. It does not describe the underlined portion's actual role.",
+          "C": "Choice C (“It gives information about a famous person.”): It does not provide biographical information about Douglass.",
+          "D": "Choice D (“It explains the meaning of a word.”): Correct: it explains the meaning of ‘microfilm.’"
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "structural_function"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m1_q07",
+      "section": "reading_writing",
+      "question_number": 7,
+      "passage": "Built in the 1970s, Raccoon Mountain is a pumped-storage hydropower facility (a “water-battery”) located in the United States along the Tennessee River. When energy demand is low, excess power from the regional electric utility’s nuclear plants is used to pump water (from a lower reservoir filled from the Tennessee River) up a shaft to the summit lake, where the water is stored as gravitational potential energy. When energy demand peaks, the water drains down from the summit lake, spinning turbines and generating upward of 1,700 megawatts of power—enough to power one million homes for twenty hours.",
+      "prompt": "Which choice best states the main purpose of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To discuss the benefits of a new energy technology"
+        },
+        {
+          "label": "B",
+          "text": "To encourage regional electric utilities to build energy storage facilities"
+        },
+        {
+          "label": "C",
+          "text": "To point out the differences between two methods of energy generation"
+        },
+        {
+          "label": "D",
+          "text": "To explain the basics of how a specific energy technology works"
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "D",
+      "explanation": {
+        "short": "The text’s purpose is to explain how the specific pumped-storage facility works.",
+        "key_evidence": "The passage explains pumping water upward when demand is low and generating power as it drains when demand peaks.",
+        "why_correct": "The passage's organization determines the answer: The text’s purpose is to explain how the specific pumped-storage facility works. That role is the one described by “To explain the basics of how a specific energy technology works”.",
+        "detailed": "The decisive evidence is that the text traces the facility’s low-demand pumping and peak-demand generating cycle. The text’s purpose is to explain how the specific pumped-storage facility works.",
+        "choice_analysis": {
+          "A": "Choice A (“To discuss the benefits of a new energy technology”): The passage mentions power output as a benefit, but most of it traces the low-demand pumping and peak-demand generation cycle; it neither surveys benefits nor presents the decades-old facility as a new technology.",
+          "B": "Choice B (“To encourage regional electric utilities to build energy storage facilities”): The passage does not urge utilities to build anything.",
+          "C": "Choice C (“To point out the differences between two methods of energy generation”): It does not compare two generation methods.",
+          "D": "Choice D (“To explain the basics of how a specific energy technology works”): Correct: it explains how a particular energy-storage technology works."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "structural_function"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m1_q08",
+      "section": "reading_writing",
+      "question_number": 8,
+      "passage": "Text 1\n\n[i]The Roadmender[/i], [i]The Life of Martin R. Delany[/i], and twenty-three other works of the late 1800s and early 1900s were rereleased in 2020 as publicity for a prestigious prize for women writers of fiction. Recognizing that women long had to use male pseudonyms for their works to be granted serious consideration (by publishers and readers alike), the campaign restored the authors’ given female names in place of such pseudonyms and brought visibility to identities that should not have been hidden.\n\nText 2\n\nThe belief that women historically were barred from publishing under names perceived as female is persistent. That it is also an overgeneralization becomes obvious when considering writers such as Elizabeth Barrett Browning, who published [i]Poems[/i] and many other works under her own name in the 1800s, and Mary Mackay, who elected to use the female pseudonym Marie Corelli for her novels and stories in the late 1800s.",
+      "prompt": "Based on the texts, how would the author of Text 2 most likely respond to the overall characterization in Text 1 of the publicity campaign?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "By acknowledging that the circumstances of publication for Barrett Browning and Mackay differed from those for the authors whose works are the focus of Text 1, given that Barrett Browning and Mackay each published multiple works"
+        },
+        {
+          "label": "B",
+          "text": "By asserting that while it is clearly inappropriate to conclude that Barrett Browning was motivated by the same set of factors as the authors of the works discussed in Text 1 to publish under the names they did, it is appropriate to conclude that Mackay was"
+        },
+        {
+          "label": "C",
+          "text": "By agreeing that the authors of [i]The Roadmender[/i], [i]The Life of Martin R. Delany[/i], and the other works referred to in Text 1 were not afforded the same opportunities as Barrett Browning and Mackay to shape their own representations when publishing"
+        },
+        {
+          "label": "D",
+          "text": "By suggesting that Barrett Browning and Mackay are among the historical examples that challenge the assumption about the historical use of pseudonyms by female writers that is presented in Text 1"
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "D",
+      "explanation": {
+        "short": "The author of Text 2 would challenge Text 1’s broad claim by pointing to women who published under female names or chose one.",
+        "key_evidence": "Text 2 calls the belief a persistent overgeneralization and offers Barrett Browning and Mackay as counterexamples.",
+        "why_correct": "Reading the two texts together isolates the information gap: The author of Text 2 would challenge Text 1’s broad claim by pointing to women who published under female names or chose one. That makes choice D the relevant cross-text question.",
+        "detailed": "The decisive evidence is that text 2 gives examples that challenge Text 1's broad historical assumption. The author of Text 2 would challenge Text 1’s broad claim by pointing to women who published under female names or chose one.",
+        "choice_analysis": {
+          "A": "Choice A (“By acknowledging that the circumstances of publication for Barrett Browning and Mackay differed from those for the authors whose works are the focus of Text 1, given that Barrett…”): Publishing multiple works does not address the claimed reason for using male pseudonyms.",
+          "B": "Choice B (“By asserting that while it is clearly inappropriate to conclude that Barrett Browning was motivated by the same set of factors as the authors of the works discussed in Text 1 to…”): Text 2 says Mackay elected a female pseudonym, so it does not support this inference.",
+          "C": "Choice C (“By agreeing that the authors of [i]The Roadmender[/i], [i]The Life of Martin R. Delany[/i], and the other works referred to in Text 1 were not afforded the same opportunities as…”): Text 2 does not concede that the Text 1 authors lacked those opportunities.",
+          "D": "Choice D (“By suggesting that Barrett Browning and Mackay are among the historical examples that challenge the assumption about the historical use of pseudonyms by female writers that is…”): Correct: both examples are offered to challenge the generalized historical assumption."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Cross-Text Connections",
+        "subtype": "cross_text_analysis"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m1_q09",
+      "section": "reading_writing",
+      "question_number": 9,
+      "passage": "When people think of dinosaurs with feathers, they typically think of winged dinosaurs, such as the four-winged [i]Microraptor[/i]. However, many dinosaurs that didn’t have wings also had feathers on their bodies. For instance, research indicates that the wingless, speedy [i]Ornithomimus[/i] likely had feathers.",
+      "prompt": "Which choice best states the main topic of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Animals without feathers"
+        },
+        {
+          "label": "B",
+          "text": "Dinosaurs with feathers"
+        },
+        {
+          "label": "C",
+          "text": "The most valuable fossil"
+        },
+        {
+          "label": "D",
+          "text": "Bird species"
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "B",
+      "explanation": {
+        "short": "Both examples support the broad topic of dinosaurs with feathers.",
+        "key_evidence": "The text discusses feathered winged and wingless dinosaurs.",
+        "why_correct": "Across the passage, the controlling idea or detail is clear: Both examples support the broad topic of dinosaurs with feathers. The wording in “Dinosaurs with feathers” preserves that focus without adding a new claim.",
+        "detailed": "The decisive evidence is that both examples and the contrast concern feathered dinosaurs, including wingless ones. Both examples support the broad topic of dinosaurs with feathers.",
+        "choice_analysis": {
+          "A": "Choice A (“Animals without feathers”): The examples concern animals that do have feathers, so this choice reverses the text's defining feature.",
+          "B": "Choice B (“Dinosaurs with feathers”): Correct: both Microraptor and Ornithomimus illustrate the topic of feathered dinosaurs.",
+          "C": "Choice C (“The most valuable fossil”): The passage neither ranks fossils by value nor identifies any fossil as the most valuable.",
+          "D": "Choice D (“Bird species”): The text discusses dinosaur species, not bird species, even though feathers are the shared feature."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "main_idea"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m1_q10",
+      "section": "reading_writing",
+      "question_number": 10,
+      "passage": "The following text is from María Amparo Ruiz de Burton’s 1885 novel [i]The Squatter and the Don[/i]. Don Mariano Alamar was silently walking up and down the front piazza of his house at the rancho; his hands listlessly clasped behind and his head slightly bent forward in deep thought. He had pushed away to one side the many arm-chairs and wicker rockers with which the piazza was furnished. He wanted a long space to walk. That his meditations were far from agreeable, could easily be seen by the compressed lips, slight frown, and sad gaze of his mild and beautiful blue eyes.",
+      "prompt": "Based on the text, why does Don Mariano push aside the furniture on the piazza?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "He is making his home more comfortable for his family."
+        },
+        {
+          "label": "B",
+          "text": "He feels that walking an uninterrupted path will help him think through a difficult issue."
+        },
+        {
+          "label": "C",
+          "text": "He wishes to create the impression that he often receives important guests at his home."
+        },
+        {
+          "label": "D",
+          "text": "He wants to make space so that he can engage in vigorous exercise."
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "B",
+      "explanation": {
+        "short": "The clear path lets Don Mariano pace as he thinks through what is troubling him.",
+        "key_evidence": "He clears space to pace while thinking about an unpleasant matter.",
+        "why_correct": "Across the passage, the controlling idea or detail is clear: The clear path lets Don Mariano pace as he thinks through what is troubling him. The wording in “He feels that walking an uninterrupted path will help him think through a difficult issue” preserves that focus without adding a new claim.",
+        "detailed": "The decisive evidence is that he moves the chairs because he wants a long space to walk while in deep, unpleasant thought. The clear path lets Don Mariano pace as he thinks through what is troubling him.",
+        "choice_analysis": {
+          "A": "Choice A (“He is making his home more comfortable for his family.”): The furniture is moved away, not arranged for family comfort. It is not supported by the passage's evidence.",
+          "B": "Choice B (“He feels that walking an uninterrupted path will help him think through a difficult issue.”): Correct: the text explicitly links his need for walking space to deep thought.",
+          "C": "Choice C (“He wishes to create the impression that he often receives important guests at his home.”): Nothing suggests guests or an impression he seeks to create. It is not supported by the passage's evidence.",
+          "D": "Choice D (“He wants to make space so that he can engage in vigorous exercise.”): His listless walk is not vigorous exercise."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "main_idea_or_detail"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m1_q11",
+      "section": "reading_writing",
+      "question_number": 11,
+      "passage": "Average Hours Worked per Person per Year in 1950 and 2017 Country 1950 2017 Change in hours Percent change in hours United Kingdom 2,184 1,670 −514 −24% Australia 2,178 1,731 −447 −21% Germany 2,427 1,354 −1,074 −44% Mexico 2,432 2,255 −177 −7% Calculations may be inexact due to rounding. A student in an economics course is examining the decline since 1950 in average hours worked per person per year in various nations due to both increased productivity and the adoption of policies that limit working hours. The first task in this investigation is to determine how the decline in the United Kingdom compares to that in other countries. The student finds that ______",
+      "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "though the percent decrease in hours worked in the United Kingdom was greater than that in Germany and Mexico, it was less than that in Australia."
+        },
+        {
+          "label": "B",
+          "text": "while the number of hours worked rose in the United Kingdom from 1950 to 2017, it declined in Germany, Australia, and Mexico."
+        },
+        {
+          "label": "C",
+          "text": "the decline in number of hours worked was greater in the United Kingdom than it was in Germany, Australia, or Mexico."
+        },
+        {
+          "label": "D",
+          "text": "though the percent decrease in hours worked in the United Kingdom was less than that in Germany, it was greater than that in Australia and Mexico."
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "D",
+      "chart_image": "chart_images/apac_d_2025_09_m1_q11_hours_worked_table.png",
+      "chart_image_data_uri": "../categories/chart_images/apac_d_2025_09_m1_q11_hours_worked_table.png",
+      "chart_image_width": 1685,
+      "chart_image_height": 400,
+      "explanation": {
+        "short": "The UK’s percentage decrease was less than Germany’s but greater than Australia’s and Mexico’s.",
+        "key_evidence": "The UK's 24% decline is below Germany's 44% but above Australia's 21% and Mexico's 7%.",
+        "why_correct": "The table or graph must be matched to the claim in the passage: The UK’s percentage decrease was less than Germany’s but greater than Australia’s and Mexico’s. Those values support choice D.",
+        "detailed": "The decisive evidence is that the UK fell 24%, less than Germany’s 44% but more than Australia’s 21% and Mexico’s 7%. The UK’s percentage decrease was less than Germany’s but greater than Australia’s and Mexico’s.",
+        "choice_analysis": {
+          "A": "Choice A (“though the percent decrease in hours worked in the United Kingdom was greater than that in Germany and Mexico, it was less than that in Australia.”): It reverses the UK’s comparison with Germany and Australia.",
+          "B": "Choice B (“while the number of hours worked rose in the United Kingdom from 1950 to 2017, it declined in Germany, Australia, and Mexico.”): UK hours declined from 2,184 to 1,670 rather than rose.",
+          "C": "Choice C (“the decline in number of hours worked was greater in the United Kingdom than it was in Germany, Australia, or Mexico.”): Germany’s numerical decline, 1,074 hours, exceeds the UK’s 514. It does not match the cited table or graph values.",
+          "D": "Choice D (“though the percent decrease in hours worked in the United Kingdom was less than that in Germany, it was greater than that in Australia and Mexico.”): Correct: The UK's 24% decline is below Germany's 44% but above Australia's 21% and Mexico's 7%."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "data_evidence"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m1_q12",
+      "section": "reading_writing",
+      "question_number": 12,
+      "passage": "Impact of Three Key Industries on Oklahoma Economy in 2017 Approximate total Number of people Average contribution per Industry contribution by industry employed by industry employee by industry Construction $6,797,300,000 77,247 $87,994 Manufacturing $16,707,500,000 128,122 $130,403 Tribal economic $7,312,400,000 51,674 $141,510 activity The nearly forty tribes located in Oklahoma, including the Osage Nation and the Seminole Nation, operate numerous businesses, employ tens of thousands of people, and generate billions of dollars in revenue. A student in an economics class is researching the tribes’ collective activity as a single industry. The student wants to compare that industry’s role in Oklahoma in 2017 with the roles of other industries in the state. Looking at a table with information about three industries, the student finds that compared with the other two industries, tribal economic activity ______",
+      "prompt": "Which choice most effectively uses data from the table to complete the comparison?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "made the lowest total contribution by industry."
+        },
+        {
+          "label": "B",
+          "text": "made the highest average economic contribution per employee."
+        },
+        {
+          "label": "C",
+          "text": "ranked highest in all three economic measures listed in the table."
+        },
+        {
+          "label": "D",
+          "text": "employed the same number of people as construction."
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "B",
+      "chart_image": "chart_images/apac_d_2025_09_m1_q12_oklahoma_industries_table.png",
+      "chart_image_data_uri": "../categories/chart_images/apac_d_2025_09_m1_q12_oklahoma_industries_table.png",
+      "chart_image_width": 1685,
+      "chart_image_height": 455,
+      "explanation": {
+        "short": "Of the three industries, tribal activity has the largest average contribution for each employee.",
+        "key_evidence": "Tribal activity’s per-employee contribution is $141,510, above manufacturing’s $130,403 and construction’s $87,994.",
+        "why_correct": "The table or graph must be matched to the claim in the passage: Of the three industries, tribal activity has the largest average contribution for each employee. Those values support “made the highest average economic contribution per employee”.",
+        "detailed": "The decisive evidence is that tribal activity has the largest per-employee contribution, $141,510. Of the three industries, tribal activity has the largest average contribution for each employee.",
+        "choice_analysis": {
+          "A": "Choice A (“made the lowest total contribution by industry.”): Construction, not tribal activity, had the lowest total contribution. It does not match the cited table or graph values.",
+          "B": "Choice B (“made the highest average economic contribution per employee.”): Correct: Tribal activity has the largest per-employee contribution, $141,510.",
+          "C": "Choice C (“ranked highest in all three economic measures listed in the table.”): It is not highest in total contribution or number employed.",
+          "D": "Choice D (“employed the same number of people as construction.”): Tribal activity employed 51,674 people, not construction’s 77,247. It does not match the cited table or graph values."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "data_evidence"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m1_q13",
+      "section": "reading_writing",
+      "question_number": 13,
+      "passage": "A creole language is an amalgam of a lexifier, or primary contributor of grammar and vocabulary, with one or more substrates, or secondary contributors. English-lexifying creoles in North America, such as Afro-Seminole Creole, rely on West African substrates, while Hawaiian Pidgin relies on ‘Ōlelo Hawai‘i, the Polynesian language of the Native Hawaiian people, with further contributions from Korean and other East Asian languages, Portuguese, and Spanish. This is a heterogeneous history, even for a creole language. Moreover, numerous similarities are found among the East Asian substrates, as well as between Portuguese and Spanish. Thus, it can be challenging to credit certain words or features of grammar or pronunciation to any one substrate.",
+      "prompt": "Which statement, if true, would best illustrate the challenge described in the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "As is also the case with some first-language speakers of Afro-Seminole Creole, many first-language speakers of Hawaiian Pidgin align their pronunciation, word choice, and syntax more closely with English in certain conversational contexts than in others."
+        },
+        {
+          "label": "B",
+          "text": "Stative structures in which verbs modify subjects and serve a descriptive function comparable to that of adjectives are hallmarks of Hawaiian Pidgin as well as of East Asian languages such as Korean, yet the syntax of Hawaiian Pidgin’s stative structures confirms their origin in ‘Ōlelo Hawai‘i."
+        },
+        {
+          "label": "C",
+          "text": "Hawaiian Pidgin’s substitution of “d” for the voiced “th” consonant (as used in “that”) and of “t” for the unvoiced “th” consonant (as used in “thick”) can be credited to the absence of “th” consonants in ‘Ōlelo Hawai‘i, though most other Polynesian languages lack “th” consonants too."
+        },
+        {
+          "label": "D",
+          "text": "The usage of the Hawaiian Pidgin verb “ste” to convey a temporary state, as in the statement “da watah ste cold” (the water is cold), most nearly resembles that of the ‘Ōlelo Hawai‘i verb [i]noho[/i], though the Portuguese verb [i]ficar[/i] and the Spanish verb [i]estar[/i] have similar usages and may also exert an influence on “ste.”"
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "D",
+      "explanation": {
+        "short": "D illustrates the difficulty of assigning a feature to one substrate when several plausible sources share its use.",
+        "key_evidence": "Ste resembles Hawaiian noho, while Portuguese ficar and Spanish estar have similar uses and may also influence it.",
+        "why_correct": "D leaves more than one actual substrate as a plausible contributor to the same feature, exactly the attribution problem described.",
+        "detailed": "The question asks which hypothetical statement, if true, illustrates uncertainty about a feature's source. It does not require that each hypothetical detail already appear in the passage. D makes the uncertainty explicit by identifying multiple possible influences. A changes conversational register, B resolves the origin, and C assigns an origin despite similarities outside the identified substrate set.",
+        "choice_analysis": {
+          "A": "Context-dependent alignment with English is not uncertainty about which substrate contributed a particular feature.",
+          "B": "It says syntax confirms the Hawaiian origin, resolving rather than illustrating the attribution problem.",
+          "C": "It credits the feature to Hawaiian; other Polynesian languages sharing a trait are not presented as competing substrates of Hawaiian Pidgin here.",
+          "D": "Correct: Hawaiian, Portuguese, and Spanish are all plausible influences on the same usage, preventing a confident single-source attribution."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "hypothetical_support"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m1_q14",
+      "section": "reading_writing",
+      "question_number": 14,
+      "passage": "The great egret and the wood stork are long-legged birds that live in wetlands, like the Everglades in Florida. Laura D’Acunto and colleagues wanted to know how these birds choose an area in which to live. They looked at features of the birds’ habitats, such as the extent of tree-canopy coverage in the area and how deep the water is during the birds’ breeding season. They found that great egrets prefer areas with deep water during breeding season, but that was not true for wood storks. The researchers concluded that water management strategies that increase the depth of water in potential wetland bird habitats during breeding season are therefore more likely to ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "extend the average lifespan of great egrets already in the area than they are to attract a greater number of those birds to the area."
+        },
+        {
+          "label": "B",
+          "text": "attract birds that don’t typically live in wetlands to the area than they are to attract great egrets or wood storks to the area."
+        },
+        {
+          "label": "C",
+          "text": "attract great egrets to the area than they are to attract wood storks to the area."
+        },
+        {
+          "label": "D",
+          "text": "decrease the area’s appeal to both great egrets and wood storks than they are to increase the appeal to either."
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "C",
+      "explanation": {
+        "short": "Increasing water depth should therefore make an area more attractive to great egrets than to wood storks.",
+        "key_evidence": "Great egrets prefer deep breeding-season water; wood storks do not share that preference.",
+        "why_correct": "The passage establishes the premises needed for a supported inference: Increasing water depth should therefore make an area more attractive to great egrets than to wood storks. Thus “attract great egrets to the area than they are to attract wood storks to the area” follows without going beyond the evidence.",
+        "detailed": "The decisive evidence is that deep breeding-season water is preferred by great egrets but not by wood storks. Increasing water depth should therefore make an area more attractive to great egrets than to wood storks.",
+        "choice_analysis": {
+          "A": "Choice A (“extend the average lifespan of great egrets already in the area than they are to attract a greater number of those birds to the area.”): The research addresses habitat choice, not lifespan. It is not supported by the passage's evidence.",
+          "B": "Choice B (“attract birds that don’t typically live in wetlands to the area than they are to attract great egrets or wood storks to the area.”): It offers no basis about birds that do not live in wetlands. It is not supported by the passage's evidence.",
+          "C": "Choice C (“attract great egrets to the area than they are to attract wood storks to the area.”): Correct: Deep water is preferred by egrets but not by wood storks.",
+          "D": "Choice D (“decrease the area’s appeal to both great egrets and wood storks than they are to increase the appeal to either.”): The strategy should increase appeal to great egrets, not reduce appeal to both. It is not supported by the passage's evidence."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m1_q15",
+      "section": "reading_writing",
+      "question_number": 15,
+      "passage": "Filtration is a widely used method for removing microplastics—plastics with a width less than 5 millimeters (mm)—from waterways. However, filtration systems are typically unable to capture very small microplastics. Menake Piyasena and Nelum Perera designed a device that applies sound waves to water as it flows through a metal tube. The sound waves cause microplastics in the water to gather in the middle and along the sides of the tube. The microplastics can then be separated out by channeling polluted and clean water though different outlets. Testing indicated that the system removes even tiny microplastics, including ones as small as 10 microns, or 0.01 mm, wide. This result suggests that ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the sound wave treatment system may help solve a problem associated with filtration of microplastics."
+        },
+        {
+          "label": "B",
+          "text": "combining filtration with sound waves is likely the most efficient method for removing microplastics from water."
+        },
+        {
+          "label": "C",
+          "text": "directing water through filtration tubes with multiple outlets reduces microplastic pollution."
+        },
+        {
+          "label": "D",
+          "text": "unlike sound waves, filters have the ability to remove large microplastics from polluted waterways."
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "A",
+      "explanation": {
+        "short": "Because the system captures the tiny particles filters often cannot, it may address a filtration limitation.",
+        "key_evidence": "Filtration typically misses very small microplastics, while the sound-wave device removed particles as small as 0.01 mm.",
+        "why_correct": "The passage establishes the premises needed for a supported inference: Because the system captures the tiny particles filters often cannot, it may address a filtration limitation. Thus choice A follows without going beyond the evidence.",
+        "detailed": "The decisive evidence is that the system removes tiny particles that filtration usually misses. Because the system captures the tiny particles filters often cannot, it may address a filtration limitation.",
+        "choice_analysis": {
+          "A": "Choice A (“the sound wave treatment system may help solve a problem associated with filtration of microplastics.”): Correct: it makes the warranted link between the device and filtration’s small-particle problem.",
+          "B": "Choice B (“combining filtration with sound waves is likely the most efficient method for removing microplastics from water.”): No comparison establishes that it is the most efficient method. It is not supported by the passage's evidence.",
+          "C": "Choice C (“directing water through filtration tubes with multiple outlets reduces microplastic pollution.”): The device is not described as a filtration tube, so this misstates the method.",
+          "D": "Choice D (“unlike sound waves, filters have the ability to remove large microplastics from polluted waterways.”): The text says filters cannot capture very small particles; it does not establish this contrast about large ones."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m1_q16",
+      "section": "reading_writing",
+      "question_number": 16,
+      "passage": "A senior data scientist at Apple, Kate Niehaus works on developing artificial intelligence technology, with a specific focus on trustworthy machine ______ machine learning involves teaching computer algorithms to be accurate, safe, and fair.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "learning trustworthy"
+        },
+        {
+          "label": "B",
+          "text": "learning. Trustworthy"
+        },
+        {
+          "label": "C",
+          "text": "learning, trustworthy"
+        },
+        {
+          "label": "D",
+          "text": "learning, which trustworthy"
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "B",
+      "explanation": {
+        "short": "A period properly separates two independent clauses and capitalizes the new sentence.",
+        "key_evidence": "A complete sentence about Niehaus’s focus must be separated from a second complete sentence defining trustworthy machine learning.",
+        "why_correct": "The sentence's clause and phrase boundaries control the punctuation: A period properly separates two independent clauses and capitalizes the new sentence. The form “learning. Trustworthy” preserves that structure.",
+        "detailed": "The decisive evidence is that the first clause is a complete sentence and the next sentence defines trustworthy machine learning. A period properly separates two independent clauses and capitalizes the new sentence.",
+        "choice_analysis": {
+          "A": "Choice A (“learning trustworthy”): It creates a run-on with repeated words and no needed punctuation. It does not supply the sentence structure required here.",
+          "B": "Choice B (“learning. Trustworthy”): Correct: A period correctly separates the complete first statement from the complete next sentence.",
+          "C": "Choice C (“learning, trustworthy”): A comma splice cannot join the two independent clauses. It does not supply the sentence structure required here.",
+          "D": "Choice D (“learning, which trustworthy”): ‘Which trustworthy machine learning’ is ungrammatical and the comma is misplaced. It does not supply the sentence structure required here."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m1_q17",
+      "section": "reading_writing",
+      "question_number": 17,
+      "passage": "The Tuskegee University Archives’ collection includes an original 1957 photograph of Martin Luther King Jr. addressing a group of Tuskegee civil rights activists. Taken by P.H. Polk, the photo ______ King in profile, the glow of a stage light casting his silhouette onto the curtains behind him.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "showing"
+        },
+        {
+          "label": "B",
+          "text": "having shown"
+        },
+        {
+          "label": "C",
+          "text": "shows"
+        },
+        {
+          "label": "D",
+          "text": "to show"
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "C",
+      "explanation": {
+        "short": "‘Shows’ completes the independent clause: the photo shows King in profile.",
+        "key_evidence": "The subject ‘the photo’ needs a finite verb before the descriptive phrase about the stage light.",
+        "why_correct": "The grammatical structure determines the required form: ‘Shows’ completes the independent clause: the photo shows King in profile. Accordingly, “shows” supplies the form that the sentence needs.",
+        "detailed": "The decisive evidence is that the main verb is shows; the following phrase describes the visual effect. ‘Shows’ completes the independent clause: the photo shows King in profile.",
+        "choice_analysis": {
+          "A": "Choice A (“showing”): ‘showing’ is a fragment because it is not a finite verb.",
+          "B": "Choice B (“having shown”): ‘having shown’ does not form the needed main clause.",
+          "C": "Choice C (“shows”): Correct: ‘the photo shows’ is a complete clause.",
+          "D": "Choice D (“to show”): ‘to show’ is an infinitive and leaves the clause incomplete. It does not supply the sentence structure required here."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m1_q18",
+      "section": "reading_writing",
+      "question_number": 18,
+      "passage": "Sociologist Alton Okinaka sits on the review board tasked with adding new sites to the Hawai‘i Register of Historic Places, which includes Menehune Fishpond and the Wailuku School. However, Okinaka doesn’t make such decisions ______ all historical designations must be approved by a group of nine other experts from the fields of architecture, archaeology, history, and Hawaiian culture.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "single-handedly,"
+        },
+        {
+          "label": "B",
+          "text": "single-handedly;"
+        },
+        {
+          "label": "C",
+          "text": "single-handedly and"
+        },
+        {
+          "label": "D",
+          "text": "single-handedly"
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "B",
+      "explanation": {
+        "short": "A semicolon correctly joins the complete sentence about Okinaka with the complete explanatory sentence about approval.",
+        "key_evidence": "The sentence contains two related independent clauses: Okinaka does not decide alone, and nine experts must approve designations.",
+        "why_correct": "The sentence's clause and phrase boundaries control the punctuation: A semicolon correctly joins the complete sentence about Okinaka with the complete explanatory sentence about approval. The form “single-handedly;” preserves that structure.",
+        "detailed": "The decisive evidence is that both surrounding clauses are independent and the second explains the first. A semicolon correctly joins the complete sentence about Okinaka with the complete explanatory sentence about approval.",
+        "choice_analysis": {
+          "A": "Choice A (“single-handedly,”): A comma alone does not correctly join the two independent clauses; it creates a comma splice.",
+          "B": "Choice B (“single-handedly;”): Correct: a semicolon cleanly joins the complete clause about Okinaka with the complete explanatory clause about approval.",
+          "C": "Choice C (“single-handedly and”): The coordinating conjunction does not have the comma needed here to mark the boundary between the two independent clauses.",
+          "D": "Choice D (“single-handedly”): With no punctuation or conjunction, this choice does not prevent the two independent clauses from running together."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m1_q19",
+      "section": "reading_writing",
+      "question_number": 19,
+      "passage": "Most of the ice found on Earth is ice Ih, distinguished by a crystalline structure in which molecules form a hexagonal pattern. Amorphous ice, on the other hand, constitutes most of the ice in the ultrafrigid environment of outer space. Defined by a disorganized molecular structure, ______",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "ice Ih contains crystals, whereas amorphous ice, which lacks the thermal energy to form them, does not."
+        },
+        {
+          "label": "B",
+          "text": "amorphous ice lacks the thermal energy to form the crystals found in ice Ih."
+        },
+        {
+          "label": "C",
+          "text": "the lack of thermal energy in amorphous ice explains its inability to form the crystals found in ice Ih."
+        },
+        {
+          "label": "D",
+          "text": "ice Ih differs from amorphous ice in that it possesses the thermal energy to form crystals."
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "B",
+      "explanation": {
+        "short": "The opening modifier describes amorphous ice, which lacks energy to form crystals.",
+        "key_evidence": "The introductory modifier ‘Defined by a disorganized molecular structure’ must modify amorphous ice.",
+        "why_correct": "The grammatical structure determines the required form: The opening modifier describes amorphous ice, which lacks energy to form crystals. Accordingly, “amorphous ice lacks the thermal energy to form the crystals found in ice Ih” supplies the form that the sentence needs.",
+        "detailed": "The decisive evidence is that the opening modifier describes amorphous ice, which lacks energy to form crystals. The opening modifier describes amorphous ice, which lacks energy to form crystals.",
+        "choice_analysis": {
+          "A": "Choice A (“ice Ih contains crystals, whereas amorphous ice, which lacks the thermal energy to form them, does not.”): The modifier incorrectly appears to describe ice Ih.",
+          "B": "Choice B (“amorphous ice lacks the thermal energy to form the crystals found in ice Ih.”): Correct: The opening modifier describes amorphous ice, which lacks energy to form crystals.",
+          "C": "Choice C (“the lack of thermal energy in amorphous ice explains its inability to form the crystals found in ice Ih.”): The modifier illogically describes a lack of thermal energy. It does not supply the sentence structure required here.",
+          "D": "Choice D (“ice Ih differs from amorphous ice in that it possesses the thermal energy to form crystals.”): The modifier incorrectly attaches to ice Ih."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "modifier"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m1_q20",
+      "section": "reading_writing",
+      "question_number": 20,
+      "passage": "When, in 2018, scientists in Germany discovered a fossilized brittle star with three thick, spine-studded arms positioned opposite three thin, undeveloped ones, they found something never before seen in the fossil ______ clonal fragmentation, a type of asexual reproduction, an animal splits itself in two, each half then regrowing its missing limbs—just what the brittle star was doing.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "record. Evidence of cloning in"
+        },
+        {
+          "label": "B",
+          "text": "record: evidence of cloning. In"
+        },
+        {
+          "label": "C",
+          "text": "record—evidence of cloning in"
+        },
+        {
+          "label": "D",
+          "text": "record, evidence of cloning, in"
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "B",
+      "explanation": {
+        "short": "B separates the discovery statement from the complete sentence explaining clonal fragmentation.",
+        "key_evidence": "'They found something ... in the fossil record' is complete; 'an animal splits itself in two' begins the next main clause.",
+        "why_correct": "The colon names the discovery as evidence of cloning. The period then lets In clonal fragmentation introduce the separate explanatory sentence.",
+        "detailed": "There are two tasks for punctuation: specify what was discovered, then begin the explanation of the process. B performs both. In A/C, 'evidence of cloning in clonal fragmentation' is left attached to the next main clause without a grammatical connection. D can set off evidence of cloning, but then joins the original discovery clause and an animal splits with commas alone.",
+        "choice_analysis": {
+          "A": "After the period, the evidence noun phrase is not grammatically integrated with the following clause an animal splits.",
+          "B": "Correct: the colon introduces the specific discovery and the period begins a complete explanation.",
+          "C": "The dash introduces the evidence phrase, but no proper boundary then separates it from the next independent statement.",
+          "D": "The appositive commas do not supply a valid boundary between they found and an animal splits, producing a comma splice."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m1_q21",
+      "section": "reading_writing",
+      "question_number": 21,
+      "passage": "Typically, upon detecting the scent of another animal, a leopard will open its mouth. ______ the leopard allows the scent to reach sensory receptors on the roof of its mouth. These sensors help the leopard interpret the source of the scent.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "On the other hand,"
+        },
+        {
+          "label": "B",
+          "text": "Nowadays,"
+        },
+        {
+          "label": "C",
+          "text": "However,"
+        },
+        {
+          "label": "D",
+          "text": "By doing so,"
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "D",
+      "explanation": {
+        "short": "‘By doing so’ clearly links the mouth-opening action to its sensory result.",
+        "key_evidence": "Opening its mouth causes the scent to reach the leopard’s sensory receptors.",
+        "why_correct": "The passage's logical relation between the surrounding claims is decisive: ‘By doing so’ clearly links the mouth-opening action to its sensory result. The transition “By doing so,” names that relation.",
+        "detailed": "The decisive evidence is that opening the mouth enables the described sensory process. ‘By doing so’ clearly links the mouth-opening action to its sensory result.",
+        "choice_analysis": {
+          "A": "Choice A (“On the other hand,”): 'On the other hand' does not fit because the next sentence explains the effect of the same action rather than contrasting with it.",
+          "B": "Choice B (“Nowadays,”): 'Nowadays' does not fit because the passage describes typical behavior without any historical time shift.",
+          "C": "Choice C (“However,”): 'However' does not fit because reaching the receptors is the result of opening the mouth, not an opposing fact.",
+          "D": "Choice D (“By doing so,”): Correct: 'By doing so' refers to opening the mouth and links that action to the scent reaching sensory receptors."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m1_q22",
+      "section": "reading_writing",
+      "question_number": 22,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• The human tongue contains taste receptors for a rich, savory flavor called umami. Umami is triggered by the compounds in a variety of foods, including anchovies and mushrooms. Participants in a study tasted a sample of sea palm, a type of brown seaweed. They rated its umami intensity as moderate. The participants tasted a sample of ma-konbu, another type of brown seaweed. They rated its umami intensity as high.",
+      "prompt": "The student wants to emphasize a difference between the two seaweeds. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Participants in a research study found sea palm, a type of brown seaweed, to have moderate umami intensity, while ma-konbu’s umami was more intense."
+        },
+        {
+          "label": "B",
+          "text": "Both sea palm and ma-konbu are types of brown seaweed."
+        },
+        {
+          "label": "C",
+          "text": "Sea palm and ma-konbu both contain umami flavor, which can also be triggered by compounds in anchovies and mushrooms."
+        },
+        {
+          "label": "D",
+          "text": "Some types of brown seaweed, like sea palm and ma-konbu, trigger umami flavor in human taste buds."
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "A",
+      "explanation": {
+        "short": "Choice A directly contrasts the two seaweeds’ different umami ratings.",
+        "key_evidence": "Sea palm was rated moderate for umami intensity, while ma-konbu was rated high.",
+        "why_correct": "The requested rhetorical goal controls which notes matter: Choice A directly contrasts the two seaweeds’ different umami ratings. The sentence in choice A uses those facts to accomplish that exact goal.",
+        "detailed": "The decisive evidence is that choice A directly contrasts moderate sea-palm umami with higher ma-konbu umami. Choice A directly contrasts the two seaweeds’ different umami ratings.",
+        "choice_analysis": {
+          "A": "Choice A (“Participants in a research study found sea palm, a type of brown seaweed, to have moderate umami intensity, while ma-konbu’s umami was more intense.”): Correct: it contrasts sea palm's moderate umami rating with ma-konbu's higher rating, exactly the requested difference.",
+          "B": "Choice B (“Both sea palm and ma-konbu are types of brown seaweed.”): Calling both foods brown seaweeds states a similarity and omits their different umami intensities.",
+          "C": "Choice C (“Sea palm and ma-konbu both contain umami flavor, which can also be triggered by compounds in anchovies and mushrooms.”): This sentence emphasizes that both seaweeds have umami and adds anchovies and mushrooms, so it does not contrast the ratings.",
+          "D": "Choice D (“Some types of brown seaweed, like sea palm and ma-konbu, trigger umami flavor in human taste buds.”): This generalization treats sea palm and ma-konbu alike and never distinguishes moderate from high intensity."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m1_q23",
+      "section": "reading_writing",
+      "question_number": 23,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• NoViolet Bulawayo is an acclaimed writer. Her first published work of fiction was a short story. It was called “Hitting Budapest.” It first appeared in [i]Boston Review[/i] in 2010.",
+      "prompt": "The student wants to identify the title of NoViolet Bulawayo’s first published short story. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "NoViolet Bulawayo’s first published short story was called “Hitting Budapest.”"
+        },
+        {
+          "label": "B",
+          "text": "In 2010, a short story by NoViolet Bulawayo appeared in [i]Boston Review[/i]."
+        },
+        {
+          "label": "C",
+          "text": "NoViolet Bulawayo’s first published work of fiction appeared in 2010."
+        },
+        {
+          "label": "D",
+          "text": "Acclaimed writer NoViolet Bulawayo’s first published work of fiction was a short story."
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "A",
+      "explanation": {
+        "short": "A identifies exactly the requested title of her first published short story.",
+        "key_evidence": "The notes say Bulawayo’s first published fiction was a short story called ‘Hitting Budapest.’",
+        "why_correct": "The requested rhetorical goal controls which notes matter: A identifies exactly the requested title of her first published short story. The sentence in choice A uses those facts to accomplish that exact goal.",
+        "detailed": "The decisive evidence is that the notes identify Bulawayo’s first published fiction as the short story ‘Hitting Budapest.’ A identifies exactly the requested title of her first published short story.",
+        "choice_analysis": {
+          "A": "Choice A (“NoViolet Bulawayo’s first published short story was called “Hitting Budapest.””): Correct: it directly names 'Hitting Budapest' as Bulawayo's first published short story.",
+          "B": "Choice B (“In 2010, a short story by NoViolet Bulawayo appeared in [i]Boston Review[/i].”): It gives the publication year and venue but omits the requested title and does not identify the story as her first.",
+          "C": "Choice C (“NoViolet Bulawayo’s first published work of fiction appeared in 2010.”): It identifies when the first fiction appeared but omits the short story's title.",
+          "D": "Choice D (“Acclaimed writer NoViolet Bulawayo’s first published work of fiction was a short story.”): It identifies the work's form as a short story but omits the title 'Hitting Budapest.'"
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m1_q24",
+      "section": "reading_writing",
+      "question_number": 24,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• The El Tigre Mountains are a mountain range located in northwestern Mexico. The range is one of the dozens of “sky islands” in the southwestern US and northwestern Mexico. A sky island is an isolated mountain range whose environment differs drastically from that of the surrounding lowlands. The US Forest Service (USFS) said, “The mountains are ‘islands’ surrounded by deserts that are ‘seas.’” The USFS said, “Each Sky Island is a unique ecosystem.”",
+      "prompt": "The student wants to provide an example of a sky island. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Sky islands are isolated mountain ranges whose environments differ drastically from that of the surrounding lowlands; as the USFS puts it, “the mountains are ‘islands’ surrounded by deserts that are ‘seas.’”"
+        },
+        {
+          "label": "B",
+          "text": "The USFS considers each of the sky islands, whose environments differ drastically from that of the surrounding lowlands, to be a “unique ecosystem.”"
+        },
+        {
+          "label": "C",
+          "text": "In the southwestern US and northwestern Mexico, there are dozens of sky islands: isolated mountain ranges whose environments differ drastically from that of the surrounding lowlands."
+        },
+        {
+          "label": "D",
+          "text": "There are dozens of sky islands in the southwestern US and northwestern Mexico, such as the El Tigre Mountains."
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "D",
+      "explanation": {
+        "short": "To give an example, the response should name a specific sky island: the El Tigre Mountains.",
+        "key_evidence": "The notes name the El Tigre Mountains as one of the sky islands in the region.",
+        "why_correct": "The requested rhetorical goal controls which notes matter: To give an example, the response should name a specific sky island: the El Tigre Mountains. The sentence in choice D uses those facts to accomplish that exact goal.",
+        "detailed": "The decisive evidence is that the El Tigre Mountains are identified as a sky-island example. To give an example, the response should name a specific sky island: the El Tigre Mountains.",
+        "choice_analysis": {
+          "A": "Choice A (“Sky islands are isolated mountain ranges whose environments differ drastically from that of the surrounding lowlands; as the USFS puts it, “the mountains are ‘islands’ surrounded…”): It defines sky islands without naming an example. It does not accomplish the stated rhetorical goal.",
+          "B": "Choice B (“The USFS considers each of the sky islands, whose environments differ drastically from that of the surrounding lowlands, to be a “unique ecosystem.””): It describes the USFS view without an example. It does not accomplish the stated rhetorical goal.",
+          "C": "Choice C (“In the southwestern US and northwestern Mexico, there are dozens of sky islands: isolated mountain ranges whose environments differ drastically from that of the surrounding…”): It gives a regional generalization, not one named sky island. It does not accomplish the stated rhetorical goal.",
+          "D": "Choice D (“There are dozens of sky islands in the southwestern US and northwestern Mexico, such as the El Tigre Mountains.”): Correct: The El Tigre Mountains are identified as a sky-island example."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m1_q25",
+      "section": "reading_writing",
+      "question_number": 25,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Ike Taiga (1723–1776) was a Japanese painter. Li Bai (701–762) was a Chinese poet. Taiga created the artwork titled [i]Landscape and Couplet of Chinese Verse[/i]. The artwork is made up of two scrolls. Scroll 1 features a painting of a lone figure walking among tall, narrow mountains. Scroll 2 features a poem from Li Bai that is about being in nature.",
+      "prompt": "The student wants to emphasize a difference between the two scrolls. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Ike Taiga created [i]Landscape and Couplet of Chinese Verse[/i], which is made up of two scrolls that each depict nature."
+        },
+        {
+          "label": "B",
+          "text": "Made up of two scrolls that each depict nature, [i]Landscape and Couplet of Chinese Verse[/i] was created by Li Bai."
+        },
+        {
+          "label": "C",
+          "text": "In [i]Landscape and Couplet of Chinese Verse[/i], one scroll features a painting, while the other scroll features a poem."
+        },
+        {
+          "label": "D",
+          "text": "One of the two scrolls that make up [i]Landscape and Couplet of Chinese Verse[/i] features mountains, and one features a portrait of poet Li Bai."
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "C",
+      "explanation": {
+        "short": "Choice C plainly contrasts the scrolls by the different type of work each contains.",
+        "key_evidence": "The first scroll is a painting and the second is a poem.",
+        "why_correct": "The requested rhetorical goal controls which notes matter: Choice C plainly contrasts the scrolls by the different type of work each contains. The sentence in choice C uses those facts to accomplish that exact goal.",
+        "detailed": "The decisive evidence is that the choices distinguish the scroll with a painting from the one with a poem. Choice C plainly contrasts the scrolls by the different type of work each contains.",
+        "choice_analysis": {
+          "A": "Choice A (“Ike Taiga created [i]Landscape and Couplet of Chinese Verse[/i], which is made up of two scrolls that each depict nature.”): It states a similarity rather than the requested difference.",
+          "B": "Choice B (“Made up of two scrolls that each depict nature, [i]Landscape and Couplet of Chinese Verse[/i] was created by Li Bai.”): It wrongly credits the artwork to Li Bai and does not state the key difference.",
+          "C": "Choice C (“In [i]Landscape and Couplet of Chinese Verse[/i], one scroll features a painting, while the other scroll features a poem.”): Correct: The choices distinguish the scroll with a painting from the one with a poem.",
+          "D": "Choice D (“One of the two scrolls that make up [i]Landscape and Couplet of Chinese Verse[/i] features mountains, and one features a portrait of poet Li Bai.”): The second scroll contains a poem, not a portrait of Li Bai. It does not accomplish the stated rhetorical goal."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m1_q26",
+      "section": "reading_writing",
+      "question_number": 26,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Dame Ellen McArthur is a British sailor who completed a true circumnavigation of the globe in 2001. One of the requirements of a true circumnavigation is that the journey must begin and end in the same port. McArthur’s circumnavigation began and ended in the port of Les Sables d’Olonne, France. On her journey, McArthur passed the three great capes of the Southern Ocean. Her journey took 94 days.",
+      "prompt": "The student wants to provide evidence that McArthur’s journey was a true circumnavigation. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To be considered a true circumnavigation, a journey must begin and end in the same port, and McArthur’s lasted 94 days."
+        },
+        {
+          "label": "B",
+          "text": "McArthur is a British sailor who completed a true circumnavigation that ended in Les Sables d’Olonne, France."
+        },
+        {
+          "label": "C",
+          "text": "McArthur began and ended her trip in the same port (Les Sables d’Olonne, France), one of the requirements for a true circumnavigation."
+        },
+        {
+          "label": "D",
+          "text": "A true circumnavigation, McArthur’s journey also passed the three great capes of the Southern Ocean."
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "C",
+      "explanation": {
+        "short": "Choice C states the relevant requirement and the fact that satisfies it.",
+        "key_evidence": "A true circumnavigation must begin and end in the same port, and McArthur began and ended in Les Sables d’Olonne.",
+        "why_correct": "The requested rhetorical goal controls which notes matter: Choice C states the relevant requirement and the fact that satisfies it. The sentence in choice C uses those facts to accomplish that exact goal.",
+        "detailed": "The decisive evidence is that a true circumnavigation must start and end at the same port, and McArthur did so at Les Sables d’Olonne. Choice C states the relevant requirement and the fact that satisfies it.",
+        "choice_analysis": {
+          "A": "Choice A (“To be considered a true circumnavigation, a journey must begin and end in the same port, and McArthur’s lasted 94 days.”): It states the same-port requirement but pairs it with the irrelevant duration, not evidence that McArthur met the requirement.",
+          "B": "Choice B (“McArthur is a British sailor who completed a true circumnavigation that ended in Les Sables d’Olonne, France.”): Saying only where the voyage ended does not show that it began and ended at the same port.",
+          "C": "Choice C (“McArthur began and ended her trip in the same port (Les Sables d’Olonne, France), one of the requirements for a true circumnavigation.”): Correct: it states both the criterion and the fact that McArthur began and ended at Les Sables d'Olonne.",
+          "D": "Choice D (“A true circumnavigation, McArthur’s journey also passed the three great capes of the Southern Ocean.”): The notes do not identify passing the three capes as the cited requirement, and the sentence assumes rather than demonstrates that the voyage was a true circumnavigation."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m1_q27",
+      "section": "reading_writing",
+      "question_number": 27,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• In the 1800s, some actors also managed theaters. They were known as actor-managers. William Charles Macready managed the Covent Garden Theatre (London) from 1837 to 1839. He starred in a production of [i]Henry V[/i] there in 1838. Laura Keene managed Laura Keene’s Theatre (New York) from 1856 to 1863. She starred in a production of [i]The Seven Sisters[/i] there in 1860.",
+      "prompt": "The student wants to emphasize a similarity between Macready and Keene. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Macready managed a London theater, whereas Keene managed one in New York."
+        },
+        {
+          "label": "B",
+          "text": "Both Macready and Keene were managers of the Covent Garden Theatre in London, where they also starred in various plays."
+        },
+        {
+          "label": "C",
+          "text": "As actor-managers, both Macready and Keene managed theaters where they also performed."
+        },
+        {
+          "label": "D",
+          "text": "In the 1800s, some actors (such as Keene) also managed theaters; they were thus considered actor-managers."
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "C",
+      "explanation": {
+        "short": "Both people managed theaters in which they also performed.",
+        "key_evidence": "Each person managed a theater and starred in a production there.",
+        "why_correct": "The requested rhetorical goal controls which notes matter: Both people managed theaters in which they also performed. The sentence in “As actor-managers, both Macready and Keene managed theaters where they also performed” uses those facts to accomplish that exact goal.",
+        "detailed": "The decisive evidence is that both people managed theaters in which they also performed. Both people managed theaters in which they also performed.",
+        "choice_analysis": {
+          "A": "Choice A (“Macready managed a London theater, whereas Keene managed one in New York.”): It contrasts their locations instead of naming the similarity. It does not accomplish the stated rhetorical goal.",
+          "B": "Choice B (“Both Macready and Keene were managers of the Covent Garden Theatre in London, where they also starred in various plays.”): Keene did not manage Covent Garden in London. It does not accomplish the stated rhetorical goal.",
+          "C": "Choice C (“As actor-managers, both Macready and Keene managed theaters where they also performed.”): Correct: Both people managed theaters in which they also performed.",
+          "D": "Choice D (“In the 1800s, some actors (such as Keene) also managed theaters; they were thus considered actor-managers.”): It omits Macready, so it cannot establish the similarity."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m2_q01",
+      "section": "reading_writing",
+      "question_number": 28,
+      "passage": "Noah Fierer and colleagues [vocab]______[/vocab] pots of sterilized soil with slurries of live microbes collected from soil in five sites across Colorado, including areas of sagebrush and ponderosa pine forest. Fierer and team then grew mustard plants in the pots to see if the different microbial slurries affected levels of spicy glucosinolates like 3-methylthiopropyl in the plants’ seeds.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sanitized"
+        },
+        {
+          "label": "B",
+          "text": "precluded"
+        },
+        {
+          "label": "C",
+          "text": "estimated"
+        },
+        {
+          "label": "D",
+          "text": "populated"
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "D",
+      "explanation": {
+        "short": "To ‘populate’ the soil is to fill it with organisms, exactly what inoculating it with microbial slurries does.",
+        "key_evidence": "The researchers added living microbes to sterilized soil in different pots.",
+        "why_correct": "The local context fixes the needed meaning: To ‘populate’ the soil is to fill it with organisms, exactly what inoculating it with microbial slurries does. That meaning is expressed precisely by “populated”.",
+        "detailed": "The decisive evidence is that microbes were introduced into sterilized soil, meaning the pots were populated. To ‘populate’ the soil is to fill it with organisms, exactly what inoculating it with microbial slurries does.",
+        "choice_analysis": {
+          "A": "Choice A (“sanitized”): 'Sanitized' means made free of microbes, so it contradicts the act of adding live microbial slurries.",
+          "B": "Choice B (“precluded”): 'Precluded' means prevented and does not fit the action of introducing organisms into soil.",
+          "C": "Choice C (“estimated”): 'Estimated' means approximated a value and does not describe adding living microbes to the pots.",
+          "D": "Choice D (“populated”): Correct: adding live microbes filled, or populated, the previously sterilized soil with organisms."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m2_q02",
+      "section": "reading_writing",
+      "question_number": 29,
+      "passage": "The collectibles market is one of the most difficult segments of the consumer economy to [vocab]______[/vocab]. Few economists would have predicted, for example, that the prices of vintage G.I. Joe action figures would soar in the 2010s, but soar they did.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "exchange"
+        },
+        {
+          "label": "B",
+          "text": "forecast"
+        },
+        {
+          "label": "C",
+          "text": "avoid"
+        },
+        {
+          "label": "D",
+          "text": "monitor"
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "B",
+      "explanation": {
+        "short": "The example shows that the collectibles market is hard to forecast.",
+        "key_evidence": "The unexpected rise in vintage G.I. Joe prices is offered as an example economists would not have predicted.",
+        "why_correct": "The local context fixes the needed meaning: The example shows that the collectibles market is hard to forecast. That meaning is expressed precisely by “forecast”.",
+        "detailed": "The decisive evidence is that economists did not predict that vintage G.I. Joe prices would soar. The example shows that the collectibles market is hard to forecast.",
+        "choice_analysis": {
+          "A": "Choice A (“exchange”): 'Exchange' means trade and does not express economists' inability to predict a price increase.",
+          "B": "Choice B (“forecast”): Correct: 'forecast' means predict, and the unexpected rise in G.I. Joe prices illustrates that difficulty.",
+          "C": "Choice C (“avoid”): 'Avoid' means stay away from and does not fit a statement about an unexpectedly changing market.",
+          "D": "Choice D (“monitor”): 'Monitor' means observe developments as they occur rather than forecast them beforehand."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m2_q03",
+      "section": "reading_writing",
+      "question_number": 30,
+      "passage": "Derived from research conducted with factory workers from 1924 to 1933, the Hawthorne effect suggests that participants’ awareness that they are being studied alters their behavior and influences study outcomes. Since then, several researchers have claimed to invalidate this phenomenon, positing that the Hawthorne effect cannot be [vocab]______[/vocab] because attempts to detect it invariably involve faulty research methods.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "rectified"
+        },
+        {
+          "label": "B",
+          "text": "substantiated"
+        },
+        {
+          "label": "C",
+          "text": "inculcated"
+        },
+        {
+          "label": "D",
+          "text": "hypothesized"
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "B",
+      "explanation": {
+        "short": "‘Substantiated’ means supported by evidence, which faulty research methods cannot supply.",
+        "key_evidence": "Critics say faulty methods make attempts to detect the effect unable to provide sound supporting evidence.",
+        "why_correct": "The local context fixes the needed meaning: ‘Substantiated’ means supported by evidence, which faulty research methods cannot supply. That meaning is expressed precisely by “substantiated”.",
+        "detailed": "The decisive evidence is that researchers argue the effect cannot be supported because all detection attempts have faulty methods. ‘Substantiated’ means supported by evidence, which faulty research methods cannot supply.",
+        "choice_analysis": {
+          "A": "Choice A (“rectified”): 'Rectified' means corrected and does not fit a claim about whether evidence can verify the Hawthorne effect.",
+          "B": "Choice B (“substantiated”): Correct: 'substantiated' means supported with evidence, which critics say faulty detection methods cannot provide.",
+          "C": "Choice C (“inculcated”): 'Inculcated' means instilled through repeated teaching and does not describe empirically verifying a phenomenon.",
+          "D": "Choice D (“hypothesized”): The effect has already been hypothesized; this choice shifts the issue away from whether it can be substantiated with evidence."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m2_q04",
+      "section": "reading_writing",
+      "question_number": 31,
+      "passage": "Paleontologists think that [i]Ornithomimus[/i], [i]Phuwiangosaurus[/i], and other long-extinct theropods and sauropods may have breathed using air sacs connected to tubelike extensions inside the animals’ bones. Such structures are found in modern birds, which is why some paleontologists treat the respiratory systems of birds as [vocab]______[/vocab] those of [i]Ornithomimus[/i], [i]Phuwiangosaurus[/i], and other theropods and sauropods.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "harbingers of"
+        },
+        {
+          "label": "B",
+          "text": "proxies for"
+        },
+        {
+          "label": "C",
+          "text": "emissaries for"
+        },
+        {
+          "label": "D",
+          "text": "subordinates of"
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "B",
+      "explanation": {
+        "short": "A ‘proxy’ is a substitute used to represent something unavailable, as living birds represent extinct animals here.",
+        "key_evidence": "Modern birds’ respiratory structures are used as stand-ins for the unobservable systems of extinct dinosaurs.",
+        "why_correct": "The local context fixes the needed meaning: A ‘proxy’ is a substitute used to represent something unavailable, as living birds represent extinct animals here. That meaning is expressed precisely by “proxies for”.",
+        "detailed": "The decisive evidence is that modern birds’ respiratory systems are used to infer those of extinct animals. A ‘proxy’ is a substitute used to represent something unavailable, as living birds represent extinct animals here.",
+        "choice_analysis": {
+          "A": "Choice A (“harbingers of”): A 'harbinger' signals something that will happen later and does not fit modern birds' use as stand-ins for already-extinct dinosaurs.",
+          "B": "Choice B (“proxies for”): Correct: living birds serve as observable substitutes, or proxies, for the extinct animals' respiratory systems.",
+          "C": "Choice C (“emissaries for”): An 'emissary' is a messenger or diplomatic representative and does not denote a scientific stand-in for an unobservable system.",
+          "D": "Choice D (“subordinates of”): 'Subordinates' are lower-ranking entities and do not fit an anatomical comparison with no hierarchy."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m2_q05",
+      "section": "reading_writing",
+      "question_number": 32,
+      "passage": "Advancements like the emergence of glassmaking in Mesopotamia circa 3500 BCE are overemphasized in innovation studies, contributing to the idea that technological change always brings greater complexity. Research by Nathaniel Erb-Satullo reveals an important exception: gold metallurgy flourished in the Caucasus in the Bronze Age, but a steep drop during that time (circa 1500 BCE) in objects featuring gold filigree (in which fine threads of gold are arranged in intricate patterns) and other sophisticated goldsmithing techniques suggests that simpler processes supplanted advanced methods.",
+      "prompt": "Which choice best describes the overall structure of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It details the near-consensus among researchers in a particular field of study regarding how technology evolves and then indicates the controversial nature of a study challenging that broadly accepted view."
+        },
+        {
+          "label": "B",
+          "text": "It advances a claim made by researchers in one academic field about the nature of technological change and then critiques a contrasting claim presented by a researcher from a related academic field."
+        },
+        {
+          "label": "C",
+          "text": "It explains that a particular interpretation of technological development has been perpetuated in an academic field and then provides a counterexample demonstrating that the interpretation isn’t always accurate."
+        },
+        {
+          "label": "D",
+          "text": "It summarizes the findings of several studies into the origins of a particular invention and then presents additional evidence from a more recent study that contradicts those findings."
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "C",
+      "explanation": {
+        "short": "It presents a common interpretation of technological change and then gives evidence that the interpretation is not always true.",
+        "key_evidence": "The text identifies an overemphasized complexity narrative, then gives declining sophisticated goldwork as an exception.",
+        "why_correct": "The passage's organization determines the answer: It presents a common interpretation of technological change and then gives evidence that the interpretation is not always true. That role is the one described by choice C.",
+        "detailed": "The decisive evidence is that the text gives a counterexample to an overgeneralized view of technological change. It presents a common interpretation of technological change and then gives evidence that the interpretation is not always true.",
+        "choice_analysis": {
+          "A": "Choice A (“It details the near-consensus among researchers in a particular field of study regarding how technology evolves and then indicates the controversial nature of a study challenging…”): It does not establish near-consensus or call the counterexample controversial.",
+          "B": "Choice B (“It advances a claim made by researchers in one academic field about the nature of technological change and then critiques a contrasting claim presented by a researcher from a…”): It does not critique a claim from a related field.",
+          "C": "Choice C (“It explains that a particular interpretation of technological development has been perpetuated in an academic field and then provides a counterexample demonstrating that the…”): Correct: The text gives a counterexample to an overgeneralized view of technological change.",
+          "D": "Choice D (“It summarizes the findings of several studies into the origins of a particular invention and then presents additional evidence from a more recent study that contradicts those…”): It is not about several studies or the origins of one invention."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "structural_function"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m2_q06",
+      "section": "reading_writing",
+      "question_number": 33,
+      "passage": "In their study of the steering muscles regulating sclerites (minute hardened structures) in the [i]Drosophila[/i] (fruit fly) wing hinge, Johan M. Melis et al. used machine learning to devise a convolutional neural network (CNN) model capable of predicting the pattern of wing motion produced by the maximum activity of the muscles. The CNN model’s output aligned with results of prior studies by other researchers measuring muscle activity patterns directly—one of several indications, said Melis et al., that the model accurately represents important biomechanical processes underlying wing motion.",
+      "prompt": "Which choice best states the main purpose of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To present evidence from Melis et al.’s study in support of the efficacy of their CNN model"
+        },
+        {
+          "label": "B",
+          "text": "To compare results obtained by Melis et al. using their CNN model to prior results obtained from other researchers’ models"
+        },
+        {
+          "label": "C",
+          "text": "To account for Melis et al.’s reliance in their study on a CNN model in lieu of direct measurement"
+        },
+        {
+          "label": "D",
+          "text": "To provide an overview of how Melis et al. honed the accuracy of their CNN model"
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "A",
+      "explanation": {
+        "short": "The passage describes a result supporting the model’s accuracy, so its purpose is to present evidence for the model’s efficacy.",
+        "key_evidence": "The CNN output agrees with direct prior measurements, which the researchers cite as evidence that it accurately represents wing biomechanics.",
+        "why_correct": "The passage's organization determines the answer: The passage describes a result supporting the model’s accuracy, so its purpose is to present evidence for the model’s efficacy. That role is the one described by “To present evidence from Melis et al.’s study in support of the efficacy of their CNN model”.",
+        "detailed": "The decisive evidence is that the CNN output matched prior direct measurements, supporting the researchers’ claim that the model represents biomechanics accurately. The passage describes a result supporting the model’s accuracy, so its purpose is to present evidence for the model’s efficacy.",
+        "choice_analysis": {
+          "A": "Choice A (“To present evidence from Melis et al.’s study in support of the efficacy of their CNN model”): Correct: alignment with prior results supports the CNN model’s validity.",
+          "B": "Choice B (“To compare results obtained by Melis et al. using their CNN model to prior results obtained from other researchers’ models”): The prior studies measured muscle activity patterns directly; the passage does not compare Melis et al.’s CNN with other researchers’ models.",
+          "C": "Choice C (“To account for Melis et al.’s reliance in their study on a CNN model in lieu of direct measurement”): The text does not explain why direct measurement was avoided.",
+          "D": "Choice D (“To provide an overview of how Melis et al. honed the accuracy of their CNN model”): The passage presents evidence that the CNN is accurate, but it does not describe steps Melis et al. took to refine or hone the model."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "structural_function"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m2_q07",
+      "section": "reading_writing",
+      "question_number": 34,
+      "passage": "The following text is from Julia Alvarez’s 2000 novel [i]In the Name of Salomé[/i]. The narrator and her sister, daughters of a famous poet, are being tutored by Alejandro Román. Our tutor, Alejandro Román, brought his younger brother, Miguel, to class one day. By now I was eighteen and had learned everything Alejandro had to teach me, so I was glad for a new face. Miguel was an aspiring poet, and he had heard from his brother that the Ureña girls were none other than the daughters of Nicolás Ureña, and they were smart as clockwork. Miguel was hoping not only to meet us but to make the acquaintance of the poet himself at Mamá’s house. ©2000 by Julia Alvarez",
+      "prompt": "Based on the text, why does Miguel accompany his brother to the sisters’ house one day?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Miguel’s brother has shared with him all the knowledge he has, and Miguel wants to learn from the sisters now."
+        },
+        {
+          "label": "B",
+          "text": "Miguel wishes to share his poems with the sisters and ask them for feedback on his writing."
+        },
+        {
+          "label": "C",
+          "text": "Miguel anticipates having the opportunity to be introduced to both the sisters and their father."
+        },
+        {
+          "label": "D",
+          "text": "Miguel has not received formal instruction in poetry and wants to ask the sisters’ famous father to be his mentor."
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "C",
+      "explanation": {
+        "short": "He accompanies Alejandro because the visit may introduce him to both the Ureña girls and Nicolás Ureña.",
+        "key_evidence": "Miguel hopes to meet the sisters and to make the acquaintance of their poet father.",
+        "why_correct": "Across the passage, the controlling idea or detail is clear: He accompanies Alejandro because the visit may introduce him to both the Ureña girls and Nicolás Ureña. The wording in “Miguel anticipates having the opportunity to be introduced to both the sisters and their father” preserves that focus without adding a new claim.",
+        "detailed": "The decisive evidence is that miguel wants to meet the sisters and their poet father. He accompanies Alejandro because the visit may introduce him to both the Ureña girls and Nicolás Ureña.",
+        "choice_analysis": {
+          "A": "Choice A (“Miguel’s brother has shared with him all the knowledge he has, and Miguel wants to learn from the sisters now.”): Miguel is not seeking the sisters as new teachers.",
+          "B": "Choice B (“Miguel wishes to share his poems with the sisters and ask them for feedback on his writing.”): The text does not say he plans to share poems or seek feedback.",
+          "C": "Choice C (“Miguel anticipates having the opportunity to be introduced to both the sisters and their father.”): Correct: Miguel wants to meet the sisters and their poet father.",
+          "D": "Choice D (“Miguel has not received formal instruction in poetry and wants to ask the sisters’ famous father to be his mentor.”): He is aspiring, but no request for formal mentorship is stated. It is not supported by the passage's evidence."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "main_idea_or_detail"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m2_q08",
+      "section": "reading_writing",
+      "question_number": 35,
+      "passage": "Motivated to sell as many paintings as possible, Alfred Hair, an influential figure among the landscape artists known as the Florida Highwaymen, pioneered “fast painting,” which in part involved swift applications of paint. That many of Hair’s acolytes, including Livingston Roberts, imitated the technique accounts in part for the impressionistic qualities that are now synonymous with the group’s shared aesthetic. But not all Highwaymen fully embraced this approach; for instance, though Charles Walker was also prolific, his paintings were executed with greater attention to detail.",
+      "prompt": "What does the text most strongly suggest about paintings by Roberts?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Roberts’s reliance on the technique of fast painting likely accounts for his works being more aesthetically interesting than works by Walker are."
+        },
+        {
+          "label": "B",
+          "text": "Although it is evident that Roberts adopted some of Hair’s preferred techniques, Roberts’s works are less derivative of works by Hair than is typically acknowledged."
+        },
+        {
+          "label": "C",
+          "text": "The lack of precision with which they were executed suggests that they are inferior to works by either Hair or Walker."
+        },
+        {
+          "label": "D",
+          "text": "Because of the manner in which they were created, they likely have visual qualities that are regarded as more typical of Florida Highwaymen paintings than the qualities in works by Walker are."
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "D",
+      "explanation": {
+        "short": "Fast painting produced the impressionistic qualities typical of the group, so Roberts’s works likely look more typical than Walker’s.",
+        "key_evidence": "Roberts imitated Hair’s fast-painting method, whereas Walker’s work had greater attention to detail and did not fully embrace the approach.",
+        "why_correct": "The passage establishes the premises needed for a supported inference: Fast painting produced the impressionistic qualities typical of the group, so Roberts’s works likely look more typical than Walker’s. Thus choice D follows without going beyond the evidence.",
+        "detailed": "The decisive evidence is that roberts used fast painting, whose impressionistic look is typical of the group; Walker did not fully use it. Fast painting produced the impressionistic qualities typical of the group, so Roberts’s works likely look more typical than Walker’s.",
+        "choice_analysis": {
+          "A": "Choice A (“Roberts’s reliance on the technique of fast painting likely accounts for his works being more aesthetically interesting than works by Walker are.”): The passage does not rank Roberts’s work as more aesthetically interesting.",
+          "B": "Choice B (“Although it is evident that Roberts adopted some of Hair’s preferred techniques, Roberts’s works are less derivative of works by Hair than is typically acknowledged.”): It says Roberts imitated Hair, not that his work is less derivative. It is not supported by the passage's evidence.",
+          "C": "Choice C (“The lack of precision with which they were executed suggests that they are inferior to works by either Hair or Walker.”): The passage does not call reduced precision inferior.",
+          "D": "Choice D (“Because of the manner in which they were created, they likely have visual qualities that are regarded as more typical of Florida Highwaymen paintings than the qualities in works…”): Correct: Roberts used fast painting, whose impressionistic look is typical of the group; Walker did not fully use it."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "supported_inference"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m2_q09",
+      "section": "reading_writing",
+      "question_number": 36,
+      "passage": "While US public charities, like Kaiser Foundation Hospitals, must file Form 990 yearly with the IRS, private foundations, such as the Gordon and Betty Moore Foundation, must file a different form, 990-PF. In addition, foundations that engage in certain prohibited activities must also file Form 4720 and pay a penalty tax on the money involved. Private foundations are prohibited from holding excess interests in a business enterprise, “self-dealing” (conducting activities that benefit foundation insiders), making taxable expenditures such as outlays for lobbying, and failing to cross a required threshold in making charitable distributions from income. Out of the organizations that filed Form 990-PF in the years 2003–2005, ______",
+      "prompt": "Which choice most effectively uses data from the graph to complete the assertion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "those that also filed Form 4720 paid a larger penalty for failing to meet a minimum charitable distribution requirement than those organizations that filed Form 990 but also filed Form 4720 for the same reason."
+        },
+        {
+          "label": "B",
+          "text": "a smaller percentage of those that also filed Form 4720 did so because they held excess interests in a business enterprise than the percentage of those that filed Form 4720 because they did not meet the minimum charitable distribution requirement."
+        },
+        {
+          "label": "C",
+          "text": "those that were also required to file Form 4720 because they had excess holdings in a business enterprise paid, on average, a larger penalty than those organizations that filed Form 4720 because they made taxable expenditures."
+        },
+        {
+          "label": "D",
+          "text": "those that also filed Form 4720 collectively paid larger penalties for failing to meet the minimum charitable distribution requirement than for other reasons."
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "D",
+      "chart_image": "chart_images/apac_d_2025_09_m2_q09_form_4720_penalties_graph.png",
+      "chart_image_data_uri": "../categories/chart_images/apac_d_2025_09_m2_q09_form_4720_penalties_graph.png",
+      "chart_image_width": 1035,
+      "chart_image_height": 1375,
+      "explanation": {
+        "short": "Across all three years, penalties for undistributed income exceed those for self-dealing, taxable expenditures, and excess holdings.",
+        "key_evidence": "Undistributed income, the failure to meet distribution requirements, is the largest percentage of total penalties in 2003, 2004, and 2005.",
+        "why_correct": "The table or graph must be matched to the claim in the passage: Across all three years, penalties for undistributed income exceed those for self-dealing, taxable expenditures, and excess holdings. Those values support choice D.",
+        "detailed": "The decisive evidence is that undistributed income accounts for the largest share of total penalties in 2003 (79%), 2004 (77%), and 2005 (55%). Across all three years, penalties for undistributed income exceed those for self-dealing, taxable expenditures, and excess holdings.",
+        "choice_analysis": {
+          "A": "Choice A (“those that also filed Form 4720 paid a larger penalty for failing to meet a minimum charitable distribution requirement than those organizations that filed Form 990 but also filed…”): The graph has no data about organizations filing Form 990. It does not match the cited table or graph values.",
+          "B": "Choice B (“a smaller percentage of those that also filed Form 4720 did so because they held excess interests in a business enterprise than the percentage of those that filed Form 4720…”): The graph shows penalty shares, not percentages of organizations filing for each reason. It does not match the cited table or graph values.",
+          "C": "Choice C (“those that were also required to file Form 4720 because they had excess holdings in a business enterprise paid, on average, a larger penalty than those organizations that filed…”): The graph does not provide average penalty sizes.",
+          "D": "Choice D (“those that also filed Form 4720 collectively paid larger penalties for failing to meet the minimum charitable distribution requirement than for other reasons.”): Correct: Across every year, undistributed-income penalties form the largest share of total penalties."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "data_evidence"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m2_q10",
+      "section": "reading_writing",
+      "question_number": 37,
+      "passage": "Blandine Courel and her colleagues analyzed pottery fragments from thirty-five sites across the Volga and Don river basins to determine whether the ways in which hunter-gatherer societies used pottery in these regions around 6,500–8,000 years ago were influenced primarily by local food availability or primarily by cultural factors. Analysis of organic residues on the pottery fragments showed different prevailing uses for pottery in these locations—cooking and storing terrestrial animal protein at Volga sites and cooking and storing aquatic animal protein at Don sites—which Courel and colleagues attribute to cultural differences.",
+      "prompt": "Assuming that the Volga and Don basins supported similarly sized hunter-gatherer populations 6,500–8,000 years ago, which finding, if true, would most directly support Courel and colleagues’ explanation?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The people of the Volga basin acquired the techniques used to create pottery for cooking and storing food from the people of the Don basin."
+        },
+        {
+          "label": "B",
+          "text": "Across the Volga and Don basins, people had broadly similar access to the same terrestrial and aquatic animal resources."
+        },
+        {
+          "label": "C",
+          "text": "There were many more bodies of water in a comparably sized area in the Don basin than in the Volga basin."
+        },
+        {
+          "label": "D",
+          "text": "In both the Volga and Don basins, most of the sites from which pottery has been recovered appear to have been seasonal fishing and hunting encampments rather than year-round settlements."
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "B",
+      "explanation": {
+        "short": "Equal access to both resource types supports the researchers’ conclusion that cultural differences, not local food supply, drove the different uses.",
+        "key_evidence": "If both regions had similar access to terrestrial and aquatic animals, different pottery contents are less likely explained by food availability.",
+        "why_correct": "The passage asks for evidence that directly bears on the stated claim: Equal access to both resource types supports the researchers’ conclusion that cultural differences, not local food supply, drove the different uses. That evidentiary link is supplied by choice B.",
+        "detailed": "The decisive evidence is that the researchers attribute differing pottery uses to culture rather than local food availability. Equal access to both resource types supports the researchers’ conclusion that cultural differences, not local food supply, drove the different uses.",
+        "choice_analysis": {
+          "A": "Choice A (“The people of the Volga basin acquired the techniques used to create pottery for cooking and storing food from the people of the Don basin.”): Shared pottery techniques do not explain different contents as cultural rather than resource-driven.",
+          "B": "Choice B (“Across the Volga and Don basins, people had broadly similar access to the same terrestrial and aquatic animal resources.”): Correct: Similar resource access removes food availability as the likely cause, supporting cultural differences.",
+          "C": "Choice C (“There were many more bodies of water in a comparably sized area in the Don basin than in the Volga basin.”): More water in the Don basin supports an availability explanation instead. It is not supported by the passage's evidence.",
+          "D": "Choice D (“In both the Volga and Don basins, most of the sites from which pottery has been recovered appear to have been seasonal fishing and hunting encampments rather than year-round…”): Similar seasonal site types do not distinguish cultural and food-availability explanations. It is not supported by the passage's evidence."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "textual_evidence"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m2_q11",
+      "section": "reading_writing",
+      "question_number": 38,
+      "passage": "To boost the performance of oil-absorbing resins, which are used to remove oil and other organic compounds from wastewater, one team of materials researchers created a resin with a novel—albeit very expensive—monomer (a molecule that can chemically bond with analogous molecules to form polymers) synthesized from β-cyclodextrin. Other researchers have produced resins consisting of various much cheaper, commercially available methacrylate monomers, including one derived from benzyl methacrylate (BZMA). Testing all these resins’ capacity to absorb toluene and trichloromethane, two organic compounds, a scientist concluded that when practical considerations were taken into account, the BZMA-derived resin showed the greatest potential for use in wastewater cleanup.",
+      "prompt": "Which finding, if true, would most directly support the scientist’s conclusion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "For both toluene and trichloromethane, the BZMA-derived resin exhibited only modestly lower absorption capacity than the resin synthesized from β-cyclodextrin but higher absorption capacity than other resins consisting of commercially available methacrylate monomers."
+        },
+        {
+          "label": "B",
+          "text": "Relative to the resin synthesized from β-cyclodextrin and to other resins consisting of commercially available methacrylate monomers, the BZMA-derived resin exhibited superior absorption capacity for toluene but not for trichloromethane."
+        },
+        {
+          "label": "C",
+          "text": "Whereas the resin synthesized from β-cyclodextrin exhibited the highest absorption capacity for toluene, the BZMA-derived resin and other resins consisting of commercially available methacrylate monomers exhibited the highest absorption capacity for trichloromethane."
+        },
+        {
+          "label": "D",
+          "text": "For both toluene and trichloromethane, the BZMA-derived resin exhibited similar absorption capacity as other resins consisting of commercially available methacrylate monomers and a slightly higher absorption capacity than the resin synthesized from β-cyclodextrin."
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "A",
+      "explanation": {
+        "short": "A shows BZMA offers a strong performance-cost tradeoff, supporting its practical cleanup potential.",
+        "key_evidence": "The β-cyclodextrin resin is very expensive; BZMA is commercially available and its absorption is only modestly lower than the expensive resin while exceeding other cheaper resins.",
+        "why_correct": "The passage asks for evidence that directly bears on the stated claim: A shows BZMA offers a strong performance-cost tradeoff, supporting its practical cleanup potential. That evidentiary link is supplied by choice A.",
+        "detailed": "The decisive evidence is that the BZMA resin is cheaper than the β-cyclodextrin resin and nearly matches it on both compounds while outperforming other cheap resins. A shows BZMA offers a strong performance-cost tradeoff, supporting its practical cleanup potential.",
+        "choice_analysis": {
+          "A": "Choice A (“For both toluene and trichloromethane, the BZMA-derived resin exhibited only modestly lower absorption capacity than the resin synthesized from β-cyclodextrin but higher…”): Correct: BZMA nearly matches the costly resin for both compounds, beats the other inexpensive resins, and is much cheaper.",
+          "B": "Choice B (“Relative to the resin synthesized from β-cyclodextrin and to other resins consisting of commercially available methacrylate monomers, the BZMA-derived resin exhibited superior…”): Superior absorption for toluene but not trichloromethane is too weak to establish the broad two-compound performance behind the scientist's conclusion.",
+          "C": "Choice C (“Whereas the resin synthesized from β-cyclodextrin exhibited the highest absorption capacity for toluene, the BZMA-derived resin and other resins consisting of commercially…”): The expensive resin remains best for toluene, and a tie with other inexpensive resins for trichloromethane does not single out BZMA overall.",
+          "D": "Choice D (“For both toluene and trichloromethane, the BZMA-derived resin exhibited similar absorption capacity as other resins consisting of commercially available methacrylate monomers and…”): Matching the other inexpensive resins does not support selecting BZMA over those equally practical alternatives, even if it slightly exceeds the costly resin."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "textual_evidence"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m2_q12",
+      "section": "reading_writing",
+      "question_number": 39,
+      "passage": "Northern New York’s Hamilton County is among the most rural counties in the United States: the US Census Bureau classified it as 100% rural in 2010. Researchers often struggle to recruit residents of counties like Hamilton for inclusion in studies. Melissa Valerio and colleagues tested whether an approach called snowball sampling improves recruitment. Working in two rural counties, they recruited a few people (known as “seeds”) with the characteristics desired for a proposed study and asked them to recruit additional participants from their social networks. Though the seeds were given minimal guidance, many more people they recruited had the desired characteristics for the study than would be expected by chance alone, most likely because ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the characteristics that made the seeds desirable for inclusion in the proposed study may be unknown to some members of the seeds’ social networks."
+        },
+        {
+          "label": "B",
+          "text": "most seeds’ social networks include some people who do not know one another and who share few characteristics."
+        },
+        {
+          "label": "C",
+          "text": "the seeds’ social networks tend to be somewhat smaller than the networks of people who do not live in rural areas."
+        },
+        {
+          "label": "D",
+          "text": "the seeds’ social networks include a high proportion of people who share characteristics with the seeds."
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "D",
+      "explanation": {
+        "short": "D explains why recruits from the seeds' social networks disproportionately share the desired traits.",
+        "key_evidence": "Seeds already possess the target characteristics, and their network recruits match those characteristics more often than chance predicts.",
+        "why_correct": "If seeds' contacts often resemble them in relevant ways, recruitment through those contacts naturally reaches many suitable participants even with little guidance.",
+        "detailed": "The explanation must address the proportion of recruits with desired characteristics, not simply network size or what contacts know. Similarity between seeds and their contacts supplies the needed mechanism. The existence of some dissimilar contacts would neither explain the high matching rate nor prove it should be low.",
+        "choice_analysis": {
+          "A": "Other people's awareness of the seeds' characteristics does not explain how often recruits possess them.",
+          "B": "Some mutually unfamiliar, dissimilar contacts do not establish the network's overall trait distribution and do not explain the unusually high matching rate.",
+          "C": "A smaller network does not by itself imply a higher proportion of people with the desired characteristics.",
+          "D": "Correct: a high proportion of similar contacts directly explains the recruitment success."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m2_q13",
+      "section": "reading_writing",
+      "question_number": 40,
+      "passage": "In classical Greek and Roman mythology, female characters are typically cast as either villains lacking in psychological depth or passive victims who are marginal to these stories, which usually focus on the exploits of male characters. Recently, a subgenre has emerged in which writers reimagine these stories from the perspectives of their female characters, giving them agency and complex motivations. Purists argue that such efforts represent a distinctively modern tendency to impose our own values on past civilizations, obscuring those civilizations’ beliefs. Defenders of the subgenre counter that reimaginings of the myths for new cultural contexts are almost as old as the myths themselves, suggesting that ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "bringing female perspectives to the forefront is not indicative of a novel attitude regarding fidelity to Greek and Roman myths’ ideologies."
+        },
+        {
+          "label": "B",
+          "text": "the complex motivations given to female characters in modern retellings of Greek and Roman myths reflect a recent shift toward psychological depth in fictional representation."
+        },
+        {
+          "label": "C",
+          "text": "purists are overlooking a long tradition of adapting Greek and Roman myths to focus on female characters."
+        },
+        {
+          "label": "D",
+          "text": "modern writers’ foregrounding of female characters is chiefly motivated by a desire to counterbalance the primacy of male perspectives among earlier adaptations of Greek and Roman myths."
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "A",
+      "explanation": {
+        "short": "If reimagining myths is longstanding, foregrounding women is not evidence of a newly modern departure from past approaches.",
+        "key_evidence": "Defenders say adapting myths for new cultural contexts is nearly as old as the myths, rebutting the claim that such reinterpretation is distinctively modern.",
+        "why_correct": "The passage establishes the premises needed for a supported inference: If reimagining myths is longstanding, foregrounding women is not evidence of a newly modern departure from past approaches. Thus choice A follows without going beyond the evidence.",
+        "detailed": "The decisive evidence is that an old tradition of reimagining myths means foregrounding female perspectives is not a novel fidelity attitude. If reimagining myths is longstanding, foregrounding women is not evidence of a newly modern departure from past approaches.",
+        "choice_analysis": {
+          "A": "Choice A (“bringing female perspectives to the forefront is not indicative of a novel attitude regarding fidelity to Greek and Roman myths’ ideologies.”): Correct: a long history of adapting myths for new contexts undercuts the claim that this kind of reinterpretation is uniquely modern.",
+          "B": "Choice B (“the complex motivations given to female characters in modern retellings of Greek and Roman myths reflect a recent shift toward psychological depth in fictional representation.”): This choice reinforces the purists' claim of a recent shift instead of following the defenders' counterargument.",
+          "C": "Choice C (“purists are overlooking a long tradition of adapting Greek and Roman myths to focus on female characters.”): The passage establishes an old tradition of adaptation generally, not an old tradition specifically centered on female characters.",
+          "D": "Choice D (“modern writers’ foregrounding of female characters is chiefly motivated by a desire to counterbalance the primacy of male perspectives among earlier adaptations of Greek and Roman…”): The text never identifies modern writers' chief motivation, so the claimed desire to counterbalance male perspectives is unsupported."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m2_q14",
+      "section": "reading_writing",
+      "question_number": 41,
+      "passage": "The world’s many geothermal power plants leverage an array of ______ the Hellisheiði plant uses a flash steam system that transforms high-temperature geothermal fluid into steam; in Indonesia, the Darajat plant’s dry steam system pumps superheated steam from a reservoir; and in Turkey, the Pamukoren plant’s binary cycle system uses lower-temperature geothermal fluid in conjunction with a secondary fluid.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "technologies, in Iceland,"
+        },
+        {
+          "label": "B",
+          "text": "technologies in Iceland:"
+        },
+        {
+          "label": "C",
+          "text": "technologies: in Iceland,"
+        },
+        {
+          "label": "D",
+          "text": "technologies in Iceland;"
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "C",
+      "explanation": {
+        "short": "A colon correctly introduces examples of the various geothermal technologies.",
+        "key_evidence": "The independent clause about an array of technologies is followed by a list of three country-specific examples.",
+        "why_correct": "The sentence's clause and phrase boundaries control the punctuation: A colon correctly introduces examples of the various geothermal technologies. The form “technologies: in Iceland,” preserves that structure.",
+        "detailed": "The decisive evidence is that the first clause is complete and the following clauses provide examples of the array of technologies. A colon correctly introduces examples of the various geothermal technologies.",
+        "choice_analysis": {
+          "A": "Choice A (“technologies, in Iceland,”): The comma creates a splice before the independent clause about Iceland. It does not supply the sentence structure required here.",
+          "B": "Choice B (“technologies in Iceland:”): It incorrectly makes ‘in Iceland’ modify the array of technologies as a whole.",
+          "C": "Choice C (“technologies: in Iceland,”): Correct: A colon properly introduces examples after the complete clause about an array of technologies.",
+          "D": "Choice D (“technologies in Iceland;”): It similarly makes ‘in Iceland’ part of the first clause rather than the example list."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m2_q16",
+      "section": "reading_writing",
+      "question_number": 43,
+      "passage": "In ancient Rome, salt was used as a commodity currency. By using specific goods like salt as common units of exchange, commodity currency economies streamline trade, which is why they often replaced barter economies. Barter economies eschew ______ that requires what economist W.S. Jevons deems a “double coincidence of wants”—in other words, each trading party must want precisely what the other has.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "currency in favor of a direct trade system"
+        },
+        {
+          "label": "B",
+          "text": "currency—in favor of a direct trade system"
+        },
+        {
+          "label": "C",
+          "text": "currency, in favor of a direct trade system"
+        },
+        {
+          "label": "D",
+          "text": "currency, in favor of a direct trade system,"
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "A",
+      "explanation": {
+        "short": "No punctuation belongs inside the essential phrase 'eschew currency in favor of a direct trade system,' and the following restrictive clause must remain attached to 'system.'",
+        "key_evidence": "The words after the blank form one continuous predicate: barter economies eschew currency in favor of a direct trade system that requires a double coincidence of wants.",
+        "why_correct": "Choice A keeps both essential grammatical connections intact: 'in favor of' completes the verb phrase, and 'that requires' immediately modifies 'a direct trade system.'",
+        "detailed": "The sentence says what barter economies reject and what they use instead. 'Eschew currency in favor of a direct trade system' is a single predicate, so no dash or comma should interrupt it. The restrictive clause 'that requires a double coincidence of wants' identifies the kind of direct trade system, so it also takes no preceding comma. Therefore choice A is the only conventionally punctuated completion.",
+        "choice_analysis": {
+          "A": "Choice A (“currency in favor of a direct trade system”): Correct: no punctuation interrupts the essential phrase 'eschew currency in favor of a direct trade system,' and 'that requires' properly modifies 'system.'",
+          "B": "Choice B (“currency—in favor of a direct trade system”): The dash does not fit because it detaches the essential prepositional phrase 'in favor of a direct trade system' from 'eschew currency.'",
+          "C": "Choice C (“currency, in favor of a direct trade system”): The comma does not belong between the verb's object 'currency' and the essential phrase stating what barter uses instead.",
+          "D": "Choice D (“currency, in favor of a direct trade system,”): The first comma does not belong after 'currency,' and the second wrongly separates 'system' from the restrictive clause 'that requires.'"
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m2_q19",
+      "section": "reading_writing",
+      "question_number": 46,
+      "passage": "A single specimen of [i]G. hexagonus[/i], collected at a depth of 483 fathoms (884 meters) in the Pacific Ocean, and a single specimen of [i]G. rubescens[/i], collected at a depth of 769 fathoms (1,407 meters) in the Indian Ocean, have been preserved as exemplars of their respective ______ former in a repository at Washington, DC’s Museum of Natural History and the latter in a repository at the Netherlands’ Naturalis Biodiversity Center.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "species; the"
+        },
+        {
+          "label": "B",
+          "text": "species, the"
+        },
+        {
+          "label": "C",
+          "text": "species. The"
+        },
+        {
+          "label": "D",
+          "text": "species, and the"
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "B",
+      "explanation": {
+        "short": "The sentence is already complete at \"species.\" A comma correctly introduces the added phrase identifying where each specimen is preserved. A semicolon or period would need a complete clause afterward, and \"and\" does not fix the missing verb.",
+        "key_evidence": "After the complete main clause, \"the former in ... and the latter in ...\" is a supplementary phrase specifying the two repositories, so it is introduced with a comma rather than punctuation.",
+        "why_correct": "The sentence's clause and phrase boundaries control the punctuation: The sentence is already complete at \"species.\" A comma correctly introduces the added phrase identifying where each specimen is preserved. A semicolon or period would need a complete clause afterward, and \"and\" does not fix the missing verb. The form “species, the” preserves that structure.",
+        "detailed": "The decisive evidence is that after the complete clause ending in \"species,\" the text adds the supplementary verbless phrase \"the former in ... and the latter in ...\" to specify the two repositories. The sentence is already complete at \"species.\" A comma correctly introduces the added phrase identifying where each specimen is preserved. A semicolon or period would need a complete clause afterward, and \"and\" does not fix the missing verb.",
+        "choice_analysis": {
+          "A": "Choice A (“species; the”): Incorrect. A semicolon must be followed by an independent clause, but \"the former in a repository ...\" has no finite verb.",
+          "B": "Choice B (“species, the”): Correct. The comma introduces a supplementary phrase that maps the former and latter specimens to their respective repositories.",
+          "C": "Choice C (“species. The”): Incorrect. The period leaves \"The former in a repository ...\" as a sentence fragment.",
+          "D": "Choice D (“species, and the”): Incorrect: \"and the former in a repository...\" does not form an independent clause to coordinate with the completed main clause."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m2_q20",
+      "section": "reading_writing",
+      "question_number": 47,
+      "passage": "Writing in hieroglyphs, ancient Egyptians recorded measurements using units such as the [i]sa[/i], a unit of ______ and the [i]khar[/i], a unit of volume. The [i]sa[/i], for instance, is written as a hieroglyph that looks like a duck or goose.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "area; the [i]shesep[/i], a unit of length;"
+        },
+        {
+          "label": "B",
+          "text": "area; the [i]shesep[/i]; a unit of length;"
+        },
+        {
+          "label": "C",
+          "text": "area the [i]shesep[/i], a unit of length"
+        },
+        {
+          "label": "D",
+          "text": "area, the [i]shesep[/i]; a unit of length,"
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "A",
+      "explanation": {
+        "short": "Semicolons separate complex items in a series already containing commas.",
+        "key_evidence": "The sentence lists three parallel units, each followed by an appositive definition.",
+        "why_correct": "The sentence's clause and phrase boundaries control the punctuation: Semicolons separate complex items in a series already containing commas. The form “area; the [i]shesep[/i], a unit of length;” preserves that structure.",
+        "detailed": "The decisive evidence is that semicolons separate complex items in a series already containing commas. Semicolons separate complex items in a series already containing commas.",
+        "choice_analysis": {
+          "A": "Choice A (“area; the [i]shesep[/i], a unit of length;”): Correct: semicolons separate the three complex list items, while each comma keeps a unit with its appositive definition.",
+          "B": "Choice B (“area; the [i]shesep[/i]; a unit of length;”): The semicolon after 'shesep' does not fit because it separates that unit's name from its appositive definition, 'a unit of length.'",
+          "C": "Choice C (“area the [i]shesep[/i], a unit of length”): This choice omits the punctuation needed after 'area,' so the first complex item runs directly into 'the shesep.'",
+          "D": "Choice D (“area, the [i]shesep[/i]; a unit of length,”): A comma is too weak between the first two complex items, and the semicolon does not belong between 'the shesep' and its definition."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m2_q21",
+      "section": "reading_writing",
+      "question_number": 48,
+      "passage": "While most animals prefer the safety of nighttime migration, many poisonous amphibians—a category that includes the striped newt and the Asian common toad—safely engage in migratory behavior during the day. ______ with the sun in the sky, the amphibians’ striking color patterns deter visually oriented daytime predators by serving as a warning of toxicity.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "At that time,"
+        },
+        {
+          "label": "B",
+          "text": "In other words,"
+        },
+        {
+          "label": "C",
+          "text": "However,"
+        },
+        {
+          "label": "D",
+          "text": "For example,"
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "A",
+      "explanation": {
+        "short": "‘At that time’ refers to the daytime migration just mentioned and introduces the relevant visual warning mechanism.",
+        "key_evidence": "The second sentence explains what protects poisonous amphibians during daytime migration.",
+        "why_correct": "The passage's logical relation between the surrounding claims is decisive: ‘At that time’ refers to the daytime migration just mentioned and introduces the relevant visual warning mechanism. The transition “At that time,” names that relation.",
+        "detailed": "The decisive evidence is that daytime is the relevant time for visual predators to see warning colors. ‘At that time’ refers to the daytime migration just mentioned and introduces the relevant visual warning mechanism.",
+        "choice_analysis": {
+          "A": "Choice A (“At that time,”): Correct: Daytime is the relevant time for visual predators to see warning colors.",
+          "B": "Choice B (“In other words,”): The next sentence explains a mechanism rather than restating the prior sentence.",
+          "C": "Choice C (“However,”): No contrast follows; the warning colors explain the safety. It does not express the passage's logical relationship.",
+          "D": "Choice D (“For example,”): The second sentence is not an example of the first statement."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m2_q22",
+      "section": "reading_writing",
+      "question_number": 49,
+      "passage": "In a given rock formation, Chattian rock from 27.8 million years ago might directly abut Roadian rock from 273 million years ago, with millions of years of material missing in between. ______ time did not stand still during these intervening years; the unaccounted-for sedimentary material was likely removed from the stratigraphic record via erosion and weathering.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "As a result,"
+        },
+        {
+          "label": "B",
+          "text": "On the contrary,"
+        },
+        {
+          "label": "C",
+          "text": "Of course,"
+        },
+        {
+          "label": "D",
+          "text": "In particular,"
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "C",
+      "explanation": {
+        "short": "The missing record does not mean time stopped; Of course introduces that clarification.",
+        "key_evidence": "The missing layers could misleadingly suggest a time gap, but erosion and weathering explain that time continued.",
+        "why_correct": "The passage's logical relation between the surrounding claims is decisive: The missing record does not mean time stopped; Of course introduces that clarification. The transition “Of course,” names that relation.",
+        "detailed": "The decisive evidence is that the missing record does not mean time stopped; Of course introduces that clarification. The missing record does not mean time stopped; Of course introduces that clarification.",
+        "choice_analysis": {
+          "A": "Choice A (“As a result,”): Time continuing is not a result of missing rock layers, so 'As a result' gives the wrong causal relation.",
+          "B": "Choice B (“On the contrary,”): 'On the contrary' would directly refute a preceding claim that time stopped, but the first sentence merely reports absent material.",
+          "C": "Choice C (“Of course,”): Correct: 'Of course' introduces a common-sense clarification that missing strata do not mean missing time.",
+          "D": "Choice D (“In particular,”): The second sentence explains the apparent gap generally; it is not a particular example of the rock ages just stated."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m2_q23",
+      "section": "reading_writing",
+      "question_number": 50,
+      "passage": "Architect Victor Gruen, the designer of Indiana’s Woodmar Plaza shopping mall, conceived of the mall as an indoor version of the European town square, a communal space that encouraged visitors to stroll and linger. ______ he designed Woodmar Plaza with long, pedestrian-friendly promenades and ample seating areas clustered around fountains and greenery.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "In addition,"
+        },
+        {
+          "label": "B",
+          "text": "Regardless,"
+        },
+        {
+          "label": "C",
+          "text": "Accordingly,"
+        },
+        {
+          "label": "D",
+          "text": "By contrast,"
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "C",
+      "explanation": {
+        "short": "‘Accordingly’ marks the design features as a consequence of the town-square concept.",
+        "key_evidence": "The promenades, seating, fountains, and greenery implement Gruen’s goal of a communal strolling and lingering space.",
+        "why_correct": "The passage's logical relation between the surrounding claims is decisive: ‘Accordingly’ marks the design features as a consequence of the town-square concept. The transition “Accordingly,” names that relation.",
+        "detailed": "The decisive evidence is that gruen’s town-square concept calls for visitors to stroll and linger; promenades and seating implement that concept. ‘Accordingly’ marks the design features as a consequence of the town-square concept.",
+        "choice_analysis": {
+          "A": "Choice A (“In addition,”): The second sentence follows as a consequence, not merely an addition. It does not express the passage's logical relationship.",
+          "B": "Choice B (“Regardless,”): ‘Regardless’ contradicts the logical cause-and-effect relationship.",
+          "C": "Choice C (“Accordingly,”): Correct: The design follows from Gruen's town-square concept.",
+          "D": "Choice D (“By contrast,”): No contrast exists between the vision and the design. It does not express the passage's logical relationship."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m2_q24",
+      "section": "reading_writing",
+      "question_number": 51,
+      "passage": "Long thought to be sessile (immobile), adult [i]Chelonibia testudinaria[/i], barnacles that adhere to sea turtle shells, have been observed to shift slightly in position over time—a phenomenon that has been attributed to the barnacles’ passive displacement by water currents. ______ a research team found that adult [i]C. testudinaria[/i] moved toward the heads of their sea turtle hosts and thus against the prevailing water flow, behavior consistent with self-initiated locomotion.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Confirming this hypothesis,"
+        },
+        {
+          "label": "B",
+          "text": "Drawing a similar conclusion,"
+        },
+        {
+          "label": "C",
+          "text": "Undermining this explanation,"
+        },
+        {
+          "label": "D",
+          "text": "Contrary to this phenomenon,"
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "C",
+      "explanation": {
+        "short": "The researchers’ observation challenges the water-current explanation for the barnacles’ movement.",
+        "key_evidence": "Moving toward turtle heads against the prevailing flow is inconsistent with passive displacement by water currents and supports self-initiated movement.",
+        "why_correct": "The passage's logical relation between the surrounding claims is decisive: The researchers’ observation challenges the water-current explanation for the barnacles’ movement. The transition “Undermining this explanation,” names that relation.",
+        "detailed": "The decisive evidence is that moving toward turtle heads against the prevailing flow is inconsistent with passive displacement by water currents and supports self-initiated movement. The researchers’ observation challenges the water-current explanation for the barnacles’ movement.",
+        "choice_analysis": {
+          "A": "Choice A (“Confirming this hypothesis,”): Movement against the prevailing flow contradicts rather than confirms the hypothesis of passive displacement by currents.",
+          "B": "Choice B (“Drawing a similar conclusion,”): The research team infers self-initiated movement, which is not a conclusion similar to the earlier passive-current explanation.",
+          "C": "Choice C (“Undermining this explanation,”): Correct: moving toward the turtle's head against the current undermines the explanation that currents moved the barnacles passively.",
+          "D": "Choice D (“Contrary to this phenomenon,”): The finding confirms the phenomenon of positional shifting; it is contrary only to the proposed cause of that shifting."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m2_q25",
+      "section": "reading_writing",
+      "question_number": 52,
+      "passage": "In Annie Dillard’s [i]Pilgrim at Tinker Creek[/i]—where, early on, the author marvels at a single goldfish’s delicate fins but later winces when imagining a horde of goldfish laying and eating their own eggs—Dillard struggles to reconcile the complicated juxtapositions of the natural world. ______ nature’s mesmerizing intricacy and pitiless harshness prove inextricably linked for Dillard, like “two branches of the same creek.”",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To that end,"
+        },
+        {
+          "label": "B",
+          "text": "Hence,"
+        },
+        {
+          "label": "C",
+          "text": "Ultimately,"
+        },
+        {
+          "label": "D",
+          "text": "Moreover,"
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "C",
+      "explanation": {
+        "short": "‘Ultimately’ signals the text’s final conclusion that beauty and harshness are inseparable.",
+        "key_evidence": "The first sentence presents Dillard’s struggle with opposed aspects of nature; the second gives her concluding view that they are inseparable.",
+        "why_correct": "The passage's logical relation between the surrounding claims is decisive: ‘Ultimately’ signals the text’s final conclusion that beauty and harshness are inseparable. The transition “Ultimately,” names that relation.",
+        "detailed": "The decisive evidence is that the final statement gives Dillard's ultimate reconciliation of the juxtaposition. ‘Ultimately’ signals the text’s final conclusion that beauty and harshness are inseparable.",
+        "choice_analysis": {
+          "A": "Choice A (“To that end,”): ‘To that end’ introduces a purpose, which the second sentence does not express.",
+          "B": "Choice B (“Hence,”): ‘Hence’ makes the conclusion a direct logical result of her struggle rather than its eventual resolution.",
+          "C": "Choice C (“Ultimately,”): Correct: The final statement gives Dillard's ultimate reconciliation of the juxtaposition.",
+          "D": "Choice D (“Moreover,”): ‘Moreover’ merely adds information and misses the concluding relationship. It does not express the passage's logical relationship."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m2_q26",
+      "section": "reading_writing",
+      "question_number": 53,
+      "passage": "Silent films can be valuable historical documents of their time. Ninety percent of silent films made before 1930 are now lost. A film is considered lost when no remaining copies are known to exist. Director Richard Thorpe’s 1929 silent film [i]The Fatal Warning[/i] is lost. Director Oscar Micheaux’s 1920 silent film [i]Within Our Gates[/i] is archived at the UCLA Film Television Archive in Los Angeles, California.",
+      "prompt": "Which choice most effectively uses information from the given sentences to emphasize a difference between the two movies?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Richard Thorpe’s 1929 film [i]The Fatal Warning[/i] is among the many lost films of the era."
+        },
+        {
+          "label": "B",
+          "text": "Richard Thorpe’s [i]The Fatal Warning[/i] (1929) and Oscar Micheaux’s [i]Within Our Gates[/i] (1920) are just two examples of silent films from the 1920s."
+        },
+        {
+          "label": "C",
+          "text": "While Richard Thorpe’s [i]The Fatal Warning[/i] is considered lost to history, Oscar Micheaux’s film [i]Within Our Gates[/i] is archived at the UCLA Film Television Archive in Los Angeles, California."
+        },
+        {
+          "label": "D",
+          "text": "Oscar Micheaux’s film [i]Within Our Gates[/i] can be found at the UCLA Film Television Archive in Los Angeles, California."
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "C",
+      "explanation": {
+        "short": "Choice C directly contrasts the films’ preservation statuses, the requested difference.",
+        "key_evidence": "The Fatal Warning has no known copies and is lost, whereas Within Our Gates is preserved in the UCLA archive.",
+        "why_correct": "The requested rhetorical goal controls which notes matter: Choice C directly contrasts the films’ preservation statuses, the requested difference. The sentence in choice C uses those facts to accomplish that exact goal.",
+        "detailed": "The decisive evidence is that the Fatal Warning has no known remaining copies, while Within Our Gates is archived at UCLA. Choice C directly contrasts the films’ preservation statuses, the requested difference.",
+        "choice_analysis": {
+          "A": "Choice A (“Richard Thorpe’s 1929 film [i]The Fatal Warning[/i] is among the many lost films of the era.”): It describes only The Fatal Warning. It does not accomplish the stated rhetorical goal.",
+          "B": "Choice B (“Richard Thorpe’s [i]The Fatal Warning[/i] (1929) and Oscar Micheaux’s [i]Within Our Gates[/i] (1920) are just two examples of silent films from the 1920s.”): It names both films but gives no difference between them. It does not accomplish the stated rhetorical goal.",
+          "C": "Choice C (“While Richard Thorpe’s [i]The Fatal Warning[/i] is considered lost to history, Oscar Micheaux’s film [i]Within Our Gates[/i] is archived at the UCLA Film Television Archive in Los…”): Correct: Choice C directly contrasts one lost film with one archived film.",
+          "D": "Choice D (“Oscar Micheaux’s film [i]Within Our Gates[/i] can be found at the UCLA Film Television Archive in Los Angeles, California.”): It describes only Within Our Gates. It does not accomplish the stated rhetorical goal."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "given_sentences_synthesis"
+      }
+    },
+    {
+      "question_id": "apac_d_2025_09_m2_q27",
+      "section": "reading_writing",
+      "question_number": 54,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Founded in 2011, EMOTIV is a neurotechnology company that develops brain-computer interfaces (BCIs). BCIs interpret and execute brain signals to allow users to control external software or hardware with their thoughts. Founded in 2013, Saluda Medical is a neurotechnology company that develops neuromodulation technologies. Neuromodulation technologies use neural interfaces to stimulate nervous system structures and influence neural activity. Founded in 2009, BrainGate is a neurotechnology company that develops neuroprostheses. Neuroprostheses act as replacement brain functions to restore the user’s lost sensory, motor, or neural functions.",
+      "prompt": "The student wants to contrast the type of neurotechnology EMOTIV develops with the type of neurotechnology Saluda Medical develops. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Unlike Saluda Medical, which develops neurotechnology, EMOTIV develops BCIs."
+        },
+        {
+          "label": "B",
+          "text": "BCIs interpret and execute brain signals to allow users to control external software or hardware with their thoughts, whereas neuromodulation technologies restore sensory, motor, or neural functions."
+        },
+        {
+          "label": "C",
+          "text": "Founded in 2011, EMOTIV develops technology for interpreting and executing brain signals, which, unlike Saluda Medical and BrainGate, is categorized as a neuromodulation technology."
+        },
+        {
+          "label": "D",
+          "text": "BCIs allow users to control external software or hardware with their thoughts, but they don’t influence neural activity as neuromodulation technologies do."
+        }
+      ],
+      "needs_manual_review": false,
+      "correct_answer": "D",
+      "explanation": {
+        "short": "Choice D accurately contrasts the respective functions of BCIs and neuromodulation technologies.",
+        "key_evidence": "EMOTIV’s BCIs let users control external software or hardware with thoughts; Saluda’s neuromodulation technologies influence neural activity.",
+        "why_correct": "The requested rhetorical goal controls which notes matter: Choice D accurately contrasts the respective functions of BCIs and neuromodulation technologies. The sentence in choice D uses those facts to accomplish that exact goal.",
+        "detailed": "The decisive evidence is that bCIs let users control external systems through thought, whereas Saluda’s neuromodulation technologies influence neural activity. Choice D accurately contrasts the respective functions of BCIs and neuromodulation technologies.",
+        "choice_analysis": {
+          "A": "Choice A (“Unlike Saluda Medical, which develops neurotechnology, EMOTIV develops BCIs.”): It gives only a vague category for Saluda rather than the needed contrast.",
+          "B": "Choice B (“BCIs interpret and execute brain signals to allow users to control external software or hardware with their thoughts, whereas neuromodulation technologies restore sensory, motor…”): It incorrectly says neuromodulation technologies restore functions; that describes neuroprostheses.",
+          "C": "Choice C (“Founded in 2011, EMOTIV develops technology for interpreting and executing brain signals, which, unlike Saluda Medical and BrainGate, is categorized as a neuromodulation…”): It incorrectly classifies EMOTIV’s BCIs as neuromodulation technology.",
+          "D": "Choice D (“BCIs allow users to control external software or hardware with their thoughts, but they don’t influence neural activity as neuromodulation technologies do.”): Correct: BCIs control external systems with thoughts, unlike neuromodulation's influence on neural activity."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2613 @@
+{
+  "schemaVersion": "sat-canonical-question-collection-v1",
+  "contentId": "set-01-b-2025-10-apac-b",
+  "title": "01 2025 10 Apac B",
+  "section": "reading_writing",
+  "questionCount": 52,
+  "questions": [
+    {
+      "question_id": "rw_b_001",
+      "section": "reading_writing",
+      "question_number": 1,
+      "passage": "The National Heritage Fellowship was created to [vocab]______[/vocab] exceptional folk and traditional artists in the United States. One artist who received the fellowship, the Native Hawaiian singer and ukulele player Genoa Keawe, was chosen for her lifetime contributions to the arts.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "begin"
+        },
+        {
+          "label": "B",
+          "text": "distract"
+        },
+        {
+          "label": "C",
+          "text": "overshadow"
+        },
+        {
+          "label": "D",
+          "text": "honor"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "The fellowship was created to honor exceptional artists; Genoa Keawe was chosen for lifetime contributions to the arts.",
+        "key_evidence": "The text says the fellowship recognizes 'exceptional folk and traditional artists' and names a recipient chosen for 'lifetime contributions to the arts.'",
+        "why_correct": "'Honor' means to show respect or recognition, which fits an award given for exceptional artistic contributions.",
+        "detailed": "The sentence describes an award for exceptional folk and traditional artists, then gives Genoa Keawe as an example of someone selected for lifetime contributions. The blank therefore needs a verb meaning recognize or show respect. 'Honor' is the precise fit.",
+        "choice_analysis": {
+          "A": "Incorrect. 'Begin' would mean start the artists or their work, but the fellowship recognizes artists who have already made contributions.",
+          "B": "Incorrect. 'Distract' means draw attention away, the opposite of what an award for exceptional artists does.",
+          "C": "Incorrect. 'Overshadow' means make something seem less important; the fellowship is not described as diminishing artists.",
+          "D": "Correct. 'Honor' means recognize with respect, matching the fellowship's purpose and the example of a lifetime-contribution recipient."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "rw_b_002",
+      "section": "reading_writing",
+      "question_number": 2,
+      "passage": "Broods of periodical cicadas (inch-long winged insects) emerge for six weeks in late spring on a cycle of either 13 or 17 years. In 2024, the emergences of the Great Southern Brood (on a 13-year cycle) and the Northern Illinois Brood (on a 17-year cycle) coincided in the Midwest and Southeast United States, [vocab]______[/vocab] that happens only once every 221 years. Sixteen states were covered with a trillion cicadas.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a succession"
+        },
+        {
+          "label": "B",
+          "text": "a division"
+        },
+        {
+          "label": "C",
+          "text": "a convergence"
+        },
+        {
+          "label": "D",
+          "text": "an expiration"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "Two cicada broods with different cycles emerged at the same time, so the event was a convergence.",
+        "key_evidence": "The passage says the two brood emergences 'coincided' and that this happens only once every 221 years.",
+        "why_correct": "'A convergence' is a coming together of separate things or events, which describes the simultaneous emergence of the two broods.",
+        "detailed": "The Great Southern Brood and the Northern Illinois Brood have different 13- and 17-year cycles, but their emergences coincided in 2024. That shared timing is best described as a convergence.",
+        "choice_analysis": {
+          "A": "Incorrect. 'A succession' suggests events happening one after another, not at the same time.",
+          "B": "Incorrect. 'A division' suggests separation, while the passage describes two events coming together.",
+          "C": "Correct. 'A convergence' means separate things coming together, exactly matching the coinciding brood emergences.",
+          "D": "Incorrect. 'An expiration' means an ending and does not describe simultaneous emergence."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "rw_b_003",
+      "section": "reading_writing",
+      "question_number": 3,
+      "passage": "Japanese animator and director Hayao Miyazaki often includes fantasy elements in otherwise realistic settings in his movies, but he tends to [vocab]______[/vocab] details and exposition about those elements. Miyazaki simply presents fantastical characters and actions with little backstory or explanation, encouraging viewers to embrace the presence of the extraordinary in everyday life.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "celebrate"
+        },
+        {
+          "label": "B",
+          "text": "combine"
+        },
+        {
+          "label": "C",
+          "text": "invent"
+        },
+        {
+          "label": "D",
+          "text": "withhold"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "Miyazaki gives little backstory or explanation for fantasy elements, so he tends to withhold such details.",
+        "key_evidence": "The passage says Miyazaki presents fantastical characters and actions 'with little backstory or explanation.'",
+        "why_correct": "'Withhold' means refrain from giving something, which fits the idea that Miyazaki does not provide many details or explanations.",
+        "detailed": "The second sentence explains the blank: Miyazaki simply presents fantasy elements with little backstory or explanation. Therefore, he tends to withhold details and exposition about those elements.",
+        "choice_analysis": {
+          "A": "Incorrect. 'Celebrate' would suggest emphasizing or praising the details, but the passage says he gives little explanation.",
+          "B": "Incorrect. 'Combine' would mean join details together; the issue is that he does not supply them.",
+          "C": "Incorrect. 'Invent' would mean create details, but the passage emphasizes a lack of backstory and exposition.",
+          "D": "Correct. 'Withhold' means not provide, which matches the phrase 'with little backstory or explanation.'"
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "rw_b_004",
+      "section": "reading_writing",
+      "question_number": 4,
+      "passage": "Östersund, Sweden, was named a City of Gastronomy by UNESCO in 2010, a title that [vocab]______[/vocab] that Östersund has a unique and vibrant food culture worthy of celebration.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "renounces"
+        },
+        {
+          "label": "B",
+          "text": "complains"
+        },
+        {
+          "label": "C",
+          "text": "discovers"
+        },
+        {
+          "label": "D",
+          "text": "denotes"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "A UNESCO title indicates what the city is known for, so the correct verb is 'denotes.'",
+        "key_evidence": "The sentence says Östersund was named a City of Gastronomy, 'a title that' points to its unique and vibrant food culture.",
+        "why_correct": "'Denotes' means indicates or signifies; the title signifies that Östersund has a celebrated food culture.",
+        "detailed": "The blank connects the title 'City of Gastronomy' to what that title means about Östersund. The title does not reject, complain about, or discover the city's food culture; it indicates or signifies it. Thus, 'denotes' is the most precise choice.",
+        "choice_analysis": {
+          "A": "Incorrect. 'Renounces' means rejects or gives up, which contradicts the positive UNESCO recognition.",
+          "B": "Incorrect. 'Complains' means expresses dissatisfaction, which does not fit a celebratory title.",
+          "C": "Incorrect. 'Discovers' would mean finds something out; the title is not doing research or making a discovery.",
+          "D": "Correct. 'Denotes' means indicates or signifies, which describes how the title communicates the city's food-culture status."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "rw_b_005",
+      "section": "reading_writing",
+      "question_number": 5,
+      "passage": "Beth Shapiro and other researchers studying the history of organisms have long utilized ancient DNA—DNA recovered from ancient organic material that has been preserved under natural conditions. However, Michael G. Campana and colleagues' 2017 study of the evolutionary origins of a fungal pathogen affecting bats instead relied on historical DNA—genomic data incidentally preserved in specimens that are housed in natural history collections—[u]thus capitalizing on the research potential offered by a vast but hitherto relatively underutilized source of insight into the biological past.[/u]",
+      "prompt": "Which choice best describes the function of the underlined portion in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It specifies potential applications of the approach that Campana and colleagues used in their study."
+        },
+        {
+          "label": "B",
+          "text": "It emphasizes the importance of Campana and colleagues' findings about the DNA of pathogens."
+        },
+        {
+          "label": "C",
+          "text": "It offers commentary on the significance of the approach that Campana and colleagues used for their study."
+        },
+        {
+          "label": "D",
+          "text": "It explains why the research methodology selected by Campana and colleagues is not widely used."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "The underlined portion comments on the broader significance of Campana's historical-DNA approach.",
+        "key_evidence": "The underlined text says the study capitalized on 'the research potential' of a 'vast' but underused source.",
+        "why_correct": "That language evaluates the importance of the approach rather than listing applications, findings, or reasons the method is rare.",
+        "detailed": "The passage contrasts ancient DNA with Campana and colleagues' use of historical DNA from natural history collections. The underlined portion explains why that approach matters: it uses a large, underutilized source of insight into the biological past.",
+        "choice_analysis": {
+          "A": "Incorrect. The underlined portion does not list specific future applications of the approach.",
+          "B": "Incorrect. It focuses on the approach and source of data, not on the study's pathogen-DNA findings.",
+          "C": "Correct. It offers evaluative commentary on the significance of using historical DNA from museum specimens.",
+          "D": "Incorrect. It says the source was underutilized, but it does not explain why the method is not widely used."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "structural_function"
+      }
+    },
+    {
+      "question_id": "rw_b_006",
+      "section": "reading_writing",
+      "question_number": 6,
+      "passage": "Curious about how people visually perceive objects in their dreams, Stephen LaBerge and team recruited lucid dreamers—people aware that they're dreaming as it's happening—for a research study. These participants were reliably able to signal when they had entered a dream state; the team then observed participants' eye movements as they slept. [u]The smoothness with which participants' eyes tracked objects in their dreams closely matched how sighted people who are awake visually track objects around them,[/u] suggesting to the team that the brain perceives dream objects as the product of something other than pure imagination.",
+      "prompt": "Which choice best states the function of the underlined portion in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To illustrate an important real-world implication of LaBerge and team's main finding."
+        },
+        {
+          "label": "B",
+          "text": "To identify a comparable circumstance that helps justify LaBerge and team's conclusion."
+        },
+        {
+          "label": "C",
+          "text": "To show the unexpected result that led LaBerge and team to change the focus of their study."
+        },
+        {
+          "label": "D",
+          "text": "To offer key evidence that undermines LaBerge and team's initial hypothesis."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "The underlined comparison between dream tracking and awake tracking supports the team's conclusion about dream perception.",
+        "key_evidence": "The underlined portion states that participants' dream eye movements closely matched how sighted awake people visually track objects.",
+        "why_correct": "That comparison gives a comparable waking circumstance that helps justify the conclusion that dream objects are not perceived as pure imagination.",
+        "detailed": "The study observed eye movements in lucid dreamers. The underlined portion identifies a similarity between how participants tracked dream objects and how awake sighted people track real objects. This comparison supports the team's conclusion about how the brain perceives dream objects.",
+        "choice_analysis": {
+          "A": "Incorrect. The underlined portion does not discuss a real-world application or implication.",
+          "B": "Correct. It identifies a comparable circumstance: dream-object tracking resembles awake visual tracking, which supports the team's conclusion.",
+          "C": "Incorrect. The passage does not say the result changed the focus of the study.",
+          "D": "Incorrect. No initial hypothesis is presented, and the comparison supports rather than undermines the team's conclusion."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "structural_function"
+      }
+    },
+    {
+      "question_id": "rw_b_007",
+      "section": "reading_writing",
+      "question_number": 7,
+      "passage": "Text 1\n\nThomas Piketty's book Capital in the Twenty-First Century has a more rigorous structure than its sequel, Capital and Ideology. While the first book's chapters all contribute to bolstering a clear, coherent argument about income inequality, the second book's digressions on subjects such as the history of vegetarian diets in India do not just make the book tedious but also muddy its reasoning.\n\nText 2\n\nCapital and Ideology has different aims than Piketty's earlier books. It should be judged not just in the context of Piketty's previous work but placed next to books like Robert Burton's Anatomy of Melancholy, in which the stated theme of the varieties of melancholy is mainly an excuse for a polymath to map his own mind. Even when sections do not explicitly support the central thesis, they link to each other in intriguing ways. None of them should be considered extraneous.",
+      "prompt": "Based on the texts, the author of Text 1 would most likely agree with the author of Text 2 on which point?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Capital and Ideology is notably different in structure from some of Piketty's earlier work."
+        },
+        {
+          "label": "B",
+          "text": "The material in Capital and Ideology on vegetarian diets in India is essential reading."
+        },
+        {
+          "label": "C",
+          "text": "Capital in the Twenty-First Century is a superior book to Capital and Ideology."
+        },
+        {
+          "label": "D",
+          "text": "Capital and Ideology was influenced by the writing of Robert Burton."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "Both authors recognize that Capital and Ideology differs structurally from Piketty's earlier work.",
+        "key_evidence": "Text 1 contrasts the first book's rigorous structure with the sequel's digressions; Text 2 says Capital and Ideology has 'different aims' than Piketty's earlier books.",
+        "why_correct": "The shared point is structural difference, even though the two authors evaluate that difference differently.",
+        "detailed": "Text 1 criticizes Capital and Ideology as less rigorous and more digressive than Capital in the Twenty-First Century. Text 2 defends those digressions by saying the later book has different aims and should be judged differently. Both authors would therefore agree that the book is structurally different from some of Piketty's earlier work.",
+        "choice_analysis": {
+          "A": "Correct. Both texts support the claim that Capital and Ideology is structurally different from earlier Piketty work.",
+          "B": "Incorrect. Text 1 criticizes the vegetarian-diet material as tedious and muddying the reasoning.",
+          "C": "Incorrect. Text 1 favors the earlier book, but Text 2 does not agree that it is superior.",
+          "D": "Incorrect. Text 2 compares the book to Robert Burton's Anatomy of Melancholy, but it does not say Piketty was influenced by Burton, and Text 1 does not address Burton."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "main_idea_or_detail"
+      }
+    },
+    {
+      "question_id": "rw_b_008",
+      "section": "reading_writing",
+      "question_number": 8,
+      "passage": "Musician and astronomer Darsan Swaroop Bellie researches gravitational waves. These invisible waves move very quickly through space. They cannot be viewed through a telescope, but they do make sounds that can be detected with special equipment. In his musical composition Dance of the Black Holes, Bellie demonstrates what gravitational waves might sound like as two black holes merge in space. With this composition and others, Bellie hopes to make aspects of science more accessible.",
+      "prompt": "According to the text, what is the subject of Bellie's research?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Space travel"
+        },
+        {
+          "label": "B",
+          "text": "Gravitational waves"
+        },
+        {
+          "label": "C",
+          "text": "Music history"
+        },
+        {
+          "label": "D",
+          "text": "Ocean currents"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "The first sentence directly states that Bellie researches gravitational waves.",
+        "key_evidence": "The passage says, 'Musician and astronomer Darsan Swaroop Bellie researches gravitational waves.'",
+        "why_correct": "Because the question asks for the subject of Bellie's research, the directly stated subject is gravitational waves.",
+        "detailed": "The passage opens by identifying Bellie as a musician and astronomer who researches gravitational waves. The remaining sentences explain how he uses music to make those waves more accessible, but the research subject itself is gravitational waves.",
+        "choice_analysis": {
+          "A": "Incorrect. The text mentions space, but not space travel as Bellie's research subject.",
+          "B": "Correct. The passage explicitly states that Bellie researches gravitational waves.",
+          "C": "Incorrect. Bellie uses music in a composition, but the passage does not say he researches music history.",
+          "D": "Incorrect. Ocean currents are never discussed in the passage."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "main_idea_or_detail"
+      }
+    },
+    {
+      "question_id": "rw_b_009",
+      "section": "reading_writing",
+      "question_number": 9,
+      "passage": "The Late Devonian mass extinction happened approximately 365 million years ago, when about 75 percent of species (including many species of corals) died off. Researchers have proposed the effects of global cooling as one mechanism that may have brought on this mass extinction. But mass extinctions, while abrupt in geological terms, unfold over thousands or millions of years: it's likely that multiple factors drove widespread species loss.",
+      "prompt": "Based on the text, the author would most likely agree with which statement about the Late Devonian mass extinction?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It occurred over a long period of time and probably had multiple causes."
+        },
+        {
+          "label": "B",
+          "text": "It likely involved the extinction of more species than is typically believed."
+        },
+        {
+          "label": "C",
+          "text": "It is hard to detect in Earth's fossil or geological records."
+        },
+        {
+          "label": "D",
+          "text": "It was discovered only recently and is poorly understood."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "The author says the extinction unfolded over a long time and was likely caused by multiple factors.",
+        "key_evidence": "The passage says mass extinctions 'unfold over thousands or millions of years' and that 'multiple factors drove widespread species loss.'",
+        "why_correct": "Choice A restates both of those claims: long duration and multiple causes.",
+        "detailed": "Although global cooling is mentioned as one possible mechanism, the author broadens the explanation by noting that mass extinctions unfold over long periods and likely have multiple causes.",
+        "choice_analysis": {
+          "A": "Correct. This matches the passage's claims about duration and multiple contributing factors.",
+          "B": "Incorrect. The passage gives an approximate extinction percentage but does not challenge typical beliefs about the number of species.",
+          "C": "Incorrect. The passage does not discuss whether the extinction is hard to detect in fossil or geological records.",
+          "D": "Incorrect. The passage does not say the extinction was recently discovered or poorly understood."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "main_idea_or_detail"
+      }
+    },
+    {
+      "question_id": "rw_b_010",
+      "section": "reading_writing",
+      "question_number": 10,
+      "passage": "The following text is from Yung Wing's 1909 memoir My Life in China and America. We landed in New York on the 12th of April, 1847, after a passage of ninety-eight days of unprecedented fair weather. The New York of 1847 was altogether a different city from the New York of 1909. It was a city of only 250,000 or 300,000 inhabitants; now it is a metropolis rivaling London in population, wealth and commerce. The whole of Manhattan Island is turned into a city of skyscrapers, churches and palatial residences.",
+      "prompt": "Which choice best states the main idea of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "New York City has become more developed and populated since Yung's arrival in 1847."
+        },
+        {
+          "label": "B",
+          "text": "New York City is more modern than London is."
+        },
+        {
+          "label": "C",
+          "text": "The journey to New York City was dull and isolating for Yung."
+        },
+        {
+          "label": "D",
+          "text": "Yung has experienced significant personal growth in the time since his arrival to New York City in 1847."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "The passage contrasts New York's small 1847 population with its 1909 status as a major developed metropolis.",
+        "key_evidence": "Yung describes New York in 1847 as having 250,000 or 300,000 inhabitants and in 1909 as a metropolis with skyscrapers and palatial residences.",
+        "why_correct": "The main idea is New York City's growth in population and development after Yung's arrival.",
+        "detailed": "The excerpt centers on the difference between New York in 1847 and New York in 1909. Yung emphasizes that the city grew from a relatively small city into a wealthy, populous metropolis filled with large buildings.",
+        "choice_analysis": {
+          "A": "Correct. It captures the passage's central contrast between the smaller 1847 city and the more developed, populated 1909 metropolis.",
+          "B": "Incorrect. London is used only as a comparison for New York's size and importance, not as the main focus.",
+          "C": "Incorrect. The journey is described as having fair weather, and the passage does not portray it as dull or isolating.",
+          "D": "Incorrect. The passage describes changes in New York City, not Yung's personal growth."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "main_idea_or_detail"
+      }
+    },
+    {
+      "question_id": "rw_b_011",
+      "section": "reading_writing",
+      "question_number": 11,
+      "passage": "A team of public transportation experts in Detroit is creating a new streetcar stop for the Woodward Avenue Streetcar system that will service a neighborhood in which a stop does not currently exist. To decide where to place the stop, the team is using a survey from ten years ago that asked how far neighborhood residents would be willing to walk to a streetcar stop. The team also looked at studies showing that people's willingness to walk to public transit is influenced by factors like weather and the presence of paved sidewalks and available crosswalks. A researcher has argued that the survey does not accurately reflect the feelings of today's residents of this neighborhood.",
+      "prompt": "Which finding, if true, would most directly support the researcher's claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The number of sidewalks and crosswalks in the neighborhood that the streetcar stop will service has increased substantially in the last ten years."
+        },
+        {
+          "label": "B",
+          "text": "Residents of Detroit are much less likely to use public transit on rainy days than on clear days."
+        },
+        {
+          "label": "C",
+          "text": "There has been a sharp increase in the last ten years in cyclists who use the roads in the neighborhood that the streetcar stop will service."
+        },
+        {
+          "label": "D",
+          "text": "Current users of the Woodward Avenue Streetcar are satisfied with the number of stops along the line."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "More sidewalks and crosswalks would make the old walking-distance survey less reliable.",
+        "key_evidence": "Willingness to walk to transit depends partly on sidewalks/crosswalks, and the survey is ten years old.",
+        "why_correct": "If those features increased, current residents may walk farther than the old survey indicated.",
+        "detailed": "The researcher doubts the ten-year-old survey because willingness to walk to public transit depends on current neighborhood conditions. A substantial increase in sidewalks and crosswalks would be exactly the kind of change that could make old walking-distance responses inaccurate.",
+        "choice_analysis": {
+          "A": "Correct. It identifies a relevant neighborhood change since the old survey that would affect willingness to walk.",
+          "B": "Incorrect. Rainy-day transit use does not show that the old neighborhood walking-distance survey is inaccurate.",
+          "C": "Incorrect. More cyclists on roads does not directly address residents' willingness to walk to a streetcar stop.",
+          "D": "Incorrect. Satisfaction among current riders does not address residents in the neighborhood served by the proposed stop."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "textual_evidence"
+      }
+    },
+    {
+      "question_id": "rw_b_012",
+      "section": "reading_writing",
+      "question_number": 12,
+      "passage": "Memoirs of Elleanor Eldridge is an 1838 historical account by Elleanor Eldridge and Frances Harriet Whipple Green. In the book, the authors assert that all people naturally have an emotional attachment to where they live.",
+      "prompt": "Which quotation from Memoirs of Elleanor Eldridge most effectively illustrates the claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"Home is home, to the lowly as well as the great; and no rank, or color, destroys its sacred character, its power over the mind, and the affections.\""
+        },
+        {
+          "label": "B",
+          "text": "\"Let us, dear reader, remember the punishment of idle curiosity, as taught in the true and affecting history [named] 'Blue Beard;' and, striving to be content with the facts in the case, seek not to lift the veil, which the sensibility of true love, and feminine delicacy, have alike conspired to draw.\""
+        },
+        {
+          "label": "C",
+          "text": "\"There is often a kind of [deceptive] light, playing around such [famous] names, calculated to dazzle and mislead, by their false lustre, until the eye can no longer receive the pure light of Truth, or the mind appreciate real excellence, or intrinsic worth.\""
+        },
+        {
+          "label": "D",
+          "text": "\"Blessed are the slumbers of the innocent! They are kindlier than balm, and they refresh and gladden the spirit of childhood, like ministerings from a better world.\""
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "The quotation states that home has emotional power for all people regardless of status or color.",
+        "key_evidence": "Choice A says home is home to both the lowly and the great, and no rank or color destroys its power.",
+        "why_correct": "That directly supports the claim that people naturally feel attachment to where they live.",
+        "detailed": "The claim is broad: all people have a natural emotional attachment to home. Choice A is the only quotation that makes home universally meaningful across rank and color, so it provides the strongest direct evidence for that claim.",
+        "choice_analysis": {
+          "A": "Correct. It explicitly describes home's power over the mind and affections for people of any rank or color.",
+          "B": "Incorrect. It warns against idle curiosity and does not discuss attachment to home.",
+          "C": "Incorrect. It criticizes misleading fame and false judgment, not emotional ties to place.",
+          "D": "Incorrect. It praises innocent sleep in childhood and does not support the claim about home."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "textual_evidence"
+      }
+    },
+    {
+      "question_id": "rw_b_013",
+      "section": "reading_writing",
+      "question_number": 13,
+      "passage": "One antipredator defense that the masked lapwing uses to protect its nest and young chicks is called \"broken-wing display\"; this form of deceptive defense involves an adult bird pretending to be injured and unable to fly in order to distract an approaching predator. Broken-wing display has been documented in 285 bird species from 13 different avian orders. A student predicts that bird species with mean body masses greater than 150 grams do not use deceptive defenses because larger birds tend to be more effective than smaller birds at using aggressive defenses to protect nests from predators, making deceptive defenses unnecessary.",
+      "prompt": "Which choice most effectively uses data from the table to weaken the student's prediction?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The swamp palm bulbul uses broken-wing display, but the blue-winged teal does not."
+        },
+        {
+          "label": "B",
+          "text": "The ruddy turnstone uses broken-wing display even though it is larger than the swamp palm bulbul."
+        },
+        {
+          "label": "C",
+          "text": "The ruddy turnstone and the swamp palm bulbul both have a mean body mass under 150 grams and use broken-wing display."
+        },
+        {
+          "label": "D",
+          "text": "The blue-winged teal has a mean body mass of 398 grams and is known to perform broken-wing display."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "table_data": {
+        "title": "Mean Body Mass of Birds Known to Perform Broken-Wing Display",
+        "columns": [
+          "Bird",
+          "Mean body mass (grams)"
+        ],
+        "rows": [
+          [
+            "ruddy turnstone",
+            "137"
+          ],
+          [
+            "swamp palm bulbul",
+            "61"
+          ],
+          [
+            "blue-winged teal",
+            "398"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "The blue-winged teal is over 150 grams and still uses the broken-wing display.",
+        "key_evidence": "The prediction excludes birds over 150 grams, but the table lists the blue-winged teal at 398 grams using the display.",
+        "why_correct": "That is a direct counterexample to the student's prediction.",
+        "detailed": "To weaken the prediction, the evidence must show a bird with mean body mass above 150 grams using a deceptive defense. The table gives exactly that example: the blue-winged teal has a mean body mass of 398 grams and is known to perform the broken-wing display.",
+        "choice_analysis": {
+          "A": "Incorrect. This comparison does not provide a bird over 150 grams that uses the display.",
+          "B": "Incorrect. The ruddy turnstone is larger than the swamp palm bulbul but still below 150 grams.",
+          "C": "Incorrect. Both listed birds are below the 150-gram threshold, so they do not weaken the prediction.",
+          "D": "Correct. It identifies a bird above 150 grams that uses broken-wing display, contradicting the prediction."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "data_evidence"
+      },
+      "visual_assets": [
+        {
+          "type": "table",
+          "title": "Mean Body Mass of Birds Known to Perform Broken-Wing Display",
+          "columns": [
+            "Bird",
+            "Mean body mass (grams)"
+          ],
+          "rows": [
+            [
+              "ruddy turnstone",
+              "137"
+            ],
+            [
+              "swamp palm bulbul",
+              "61"
+            ],
+            [
+              "blue-winged teal",
+              "398"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "question_id": "rw_b_014",
+      "section": "reading_writing",
+      "question_number": 14,
+      "passage": "Antonia Olivia Dolan and colleagues conducted a study of participants' preferred listening volume, in decibels (dB), for various audio recordings, including heavy metal music, acoustic folk music, and nature sounds. The team found that participants listened to recordings they liked most at higher volumes (greater dB) than recordings they liked less and that musicians tended to listen at higher volumes than nonmusicians did. For example, if the favorite recording of both a participating musician and a participating nonmusician was Metallica's \"Sad but True\" and the musician played it at 85.5 dB, it was therefore likely that ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the musician and nonmusician would both play other music by Metallica at approximately 85.5 dB."
+        },
+        {
+          "label": "B",
+          "text": "the musician would not play music in the heavy metal genre at less than 85.5 dB."
+        },
+        {
+          "label": "C",
+          "text": "the nonmusician would play \"Sad but True\" at greater than 85.5 dB."
+        },
+        {
+          "label": "D",
+          "text": "the nonmusician would play \"Sad but True\" at less than 85.5 dB."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "Because musicians listen at higher volumes than nonmusicians, the nonmusician would likely choose a lower volume.",
+        "key_evidence": "Liked recordings were played louder, and musicians tended to listen at higher volumes than nonmusicians.",
+        "why_correct": "If the musician chose 85.5 dB for a favorite song, the nonmusician would likely choose less than 85.5 dB.",
+        "detailed": "The passage gives two relevant patterns: participants play music they like at higher volumes, and musicians generally choose higher volumes than nonmusicians. If both people like the same song but the musician plays it at 85.5 dB, the best-supported inference is that the nonmusician would play it at a lower volume.",
+        "choice_analysis": {
+          "A": "Incorrect. The passage discusses the selected song, not other Metallica music.",
+          "B": "Incorrect. The evidence does not support a rule about all heavy metal music for the musician.",
+          "C": "Incorrect. This reverses the musician/nonmusician volume pattern.",
+          "D": "Correct. It follows from musicians tending to listen at higher volumes than nonmusicians."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "rw_b_015",
+      "section": "reading_writing",
+      "question_number": 15,
+      "passage": "Right-handedness is overwhelmingly prevalent in humans. Among studies of laterality in nonhuman primates, Jane Goodall's 1963 study of wild chimpanzees reported no tendency toward right-handedness, while Margaret E. Redshaw's 1993 study of captive gorillas did. However, the latter study included only 2 individuals, and a meta-analysis of primate-laterality studies demonstrated that a minimum sample size of 176 individuals is required to be confident that a finding of population-level handedness is not mere statistical noise. The claim of right-handedness in the 1993 study should therefore be treated skeptically given that ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the sample size on which the claim is based is far below the threshold identified in the meta-analysis."
+        },
+        {
+          "label": "B",
+          "text": "the apparent difference between the two studies' results may be partly attributable to the 1963 study using a different standard to determine handedness than the 1993 study did."
+        },
+        {
+          "label": "C",
+          "text": "the study that did not find right-handedness in chimpanzees was also based on an insufficient population size."
+        },
+        {
+          "label": "D",
+          "text": "right-handedness does not occur frequently enough among gorillas to reliably appear in a sample of only 2 individuals."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "The gorilla study used only 2 individuals, far below the 176-individual threshold.",
+        "key_evidence": "The meta-analysis requires at least 176 individuals; the 1993 gorilla study included only 2.",
+        "why_correct": "That inadequate sample size explains why the right-handedness claim should be treated skeptically.",
+        "detailed": "The passage says a minimum sample size of 176 individuals is needed to draw a reliable conclusion about population-level handedness. Because the 1993 gorilla study was based on only 2 individuals, its claim about gorilla right-handedness rests on a sample far below the required threshold.",
+        "choice_analysis": {
+          "A": "Correct. It identifies the exact sample-size problem emphasized by the passage.",
+          "B": "Incorrect. The passage does not compare the standards used in the 1963 and 1993 studies.",
+          "C": "Incorrect. The chimpanzee study is not presented as the questionable claim in this sentence.",
+          "D": "Incorrect. The issue is not the true frequency of right-handedness among gorillas but the study's insufficient sample size."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "rw_b_016",
+      "section": "reading_writing",
+      "question_number": 16,
+      "passage": "\"What stories like this do for us is make the world just a smidge bigger,\" writes Stephen Graham Jones in the foreword to Never Whistle at Night: An Indigenous Dark Fiction Anthology. For Jones, dark fiction does more than entertain readers: ________ horror tropes to challenge familiar ways of knowing, blurring the \"borders of the real.\"",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "one uses"
+        },
+        {
+          "label": "B",
+          "text": "it uses"
+        },
+        {
+          "label": "C",
+          "text": "they use"
+        },
+        {
+          "label": "D",
+          "text": "we use"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "The blank refers back to singular 'dark fiction,' so the sentence needs 'it uses.'",
+        "key_evidence": "The clause before the colon says 'dark fiction does more than entertain readers.'",
+        "why_correct": "'It uses' gives a singular pronoun and verb that agree with the singular subject 'dark fiction.'",
+        "detailed": "After the colon, the sentence explains what dark fiction does beyond entertaining readers. Because 'dark fiction' is singular, the pronoun and verb must also be singular. 'It uses' is therefore grammatically correct and matches the source selection.",
+        "choice_analysis": {
+          "A": "Incorrect. 'One uses' introduces an unsupported vague subject.",
+          "B": "Correct. 'It uses' agrees with the singular antecedent 'dark fiction.'",
+          "C": "Incorrect. 'They use' is plural and does not agree with the singular antecedent.",
+          "D": "Incorrect. 'We use' shifts to first person and changes the sentence's subject."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "rw_b_017",
+      "section": "reading_writing",
+      "question_number": 17,
+      "passage": "Florida resident Frederick Hill, one of the nearly two thousand African Americans elected to public office during the decade that followed the Civil War, ________ his term as a member of the state senate in 1871.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "to begin"
+        },
+        {
+          "label": "B",
+          "text": "began"
+        },
+        {
+          "label": "C",
+          "text": "beginning"
+        },
+        {
+          "label": "D",
+          "text": "having begun"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "The sentence needs a finite past-tense main verb, so 'began' is correct.",
+        "key_evidence": "The sentence says Frederick Hill served after the Civil War and started his senate term in 1871.",
+        "why_correct": "'Began' is a finite simple-past verb that completes the sentence.",
+        "detailed": "The sentence is narrating a historical fact about Frederick Hill: he started his term as a state senator in 1871. A finite past-tense verb is required, and 'began' supplies that verb cleanly.",
+        "choice_analysis": {
+          "A": "Incorrect. 'To begin' is an infinitive and cannot serve as the sentence's main verb here.",
+          "B": "Correct. 'Began' is the needed finite past-tense verb.",
+          "C": "Incorrect. 'Beginning' is a participle/gerund form and leaves the sentence without a main verb.",
+          "D": "Incorrect. 'Having begun' creates a participial phrase rather than the required main verb."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "rw_b_018",
+      "section": "reading_writing",
+      "question_number": 18,
+      "passage": "Lily Everett and Mary Foote were among the 300 artists who exhibited at the 1913 Armory Show, a groundbreaking New York City art exhibition that introduced modernism to American audiences. Marcel Duchamp's abstract cubist aesthetic received the most skepticism from critics, as ________ represented a radical departure from the more realistic painting style that was popular at the time.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "these"
+        },
+        {
+          "label": "B",
+          "text": "it"
+        },
+        {
+          "label": "C",
+          "text": "we"
+        },
+        {
+          "label": "D",
+          "text": "they"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "The antecedent is singular, so the correct pronoun is 'it.'",
+        "key_evidence": "The pronoun refers to 'Marcel Duchamp's abstract cubist aesthetic,' a singular noun phrase.",
+        "why_correct": "'It' agrees with the singular antecedent and serves as the subject of 'represented.'",
+        "detailed": "The sentence explains why Duchamp's abstract cubist aesthetic received skepticism: it represented a radical departure from more realistic painting. Since the antecedent is singular, the singular pronoun 'it' is required.",
+        "choice_analysis": {
+          "A": "Incorrect. 'These' is plural and does not agree with the singular antecedent.",
+          "B": "Correct. 'It' agrees with 'Marcel Duchamp's abstract cubist aesthetic.'",
+          "C": "Incorrect. 'We' shifts to first person and does not refer to the aesthetic.",
+          "D": "Incorrect. 'They' is plural and does not agree with the singular antecedent."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "rw_b_019",
+      "section": "reading_writing",
+      "question_number": 19,
+      "passage": "The International Wheelchair Basketball Federation (IWBF) is one of many sports organizations that collect and analyze data on player performance. Coaches in the IWBF ________ these data to help them develop game strategies that have a high probability of success.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "is using"
+        },
+        {
+          "label": "B",
+          "text": "has used"
+        },
+        {
+          "label": "C",
+          "text": "use"
+        },
+        {
+          "label": "D",
+          "text": "uses"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "The plural subject 'Coaches' takes the plural present-tense verb 'use.'",
+        "key_evidence": "The sentence subject is 'Coaches in the IWBF.'",
+        "why_correct": "'Use' agrees with the plural subject and describes a general practice.",
+        "detailed": "The subject of the sentence is plural: coaches. The sentence describes how those coaches generally rely on the data, so the simple present plural verb 'use' is the grammatically correct form.",
+        "choice_analysis": {
+          "A": "Incorrect. 'Is using' is singular and progressive, so it does not agree with 'Coaches.'",
+          "B": "Incorrect. 'Has used' is singular and does not agree with the plural subject.",
+          "C": "Correct. 'Use' agrees with plural 'Coaches' and fits the general present-tense meaning.",
+          "D": "Incorrect. 'Uses' is singular and does not agree with the plural subject."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "rw_b_020",
+      "section": "reading_writing",
+      "question_number": 20,
+      "passage": "Polymers used in industrial applications are weakened by environmental stress, mechanical fatigue, and unexpected damage. However, new types of polymers have been engineered to repair ________ aided by embedded microcapsules, such materials begin to self-heal.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "themselves, upon fracture,"
+        },
+        {
+          "label": "B",
+          "text": "themselves—upon fracture—"
+        },
+        {
+          "label": "C",
+          "text": "themselves. Upon fracture,"
+        },
+        {
+          "label": "D",
+          "text": "themselves upon fracture,"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "A period correctly separates two independent clauses.",
+        "key_evidence": "One clause says polymers repair themselves; the next says such materials begin to self-heal upon fracture.",
+        "why_correct": "The period in choice C prevents a comma splice and cleanly starts the second sentence.",
+        "detailed": "The sentence contains two complete thoughts: new polymers have been engineered to repair themselves, and such materials begin to self-heal upon fracture. Choice C uses a period after 'themselves,' then begins the second sentence with the introductory phrase 'Upon fracture,' which creates correct boundaries.",
+        "choice_analysis": {
+          "A": "Incorrect. A comma after 'themselves' creates a comma splice between independent clauses.",
+          "B": "Incorrect. The dashes do not fix the need to separate the independent clauses.",
+          "C": "Correct. The period separates the two complete clauses, and the comma after 'fracture' sets off the introductory phrase.",
+          "D": "Incorrect. It runs the clauses together and makes 'upon fracture' attach awkwardly to 'repair themselves.'"
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "rw_b_021",
+      "section": "reading_writing",
+      "question_number": 21,
+      "passage": "Doha, the capital of Qatar, has a population of 1,450,000, which accounts for 92 percent of the country's total population. Having proportionally large populations ________ common for national capitals.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "were"
+        },
+        {
+          "label": "B",
+          "text": "is"
+        },
+        {
+          "label": "C",
+          "text": "are"
+        },
+        {
+          "label": "D",
+          "text": "have been"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "The gerund phrase is a singular subject, so it takes the singular verb 'is.'",
+        "key_evidence": "The subject is the gerund phrase 'Having proportionally large populations.'",
+        "why_correct": "A gerund phrase used as a subject is singular, so 'is' agrees with it.",
+        "detailed": "The blank supplies the verb for the subject 'Having proportionally large populations.' That whole gerund phrase functions as one singular concept, so the singular verb 'is' is required.",
+        "choice_analysis": {
+          "A": "Incorrect. 'Were' is plural/past and does not agree with the singular gerund phrase.",
+          "B": "Correct. 'Is' agrees with the singular gerund-phrase subject.",
+          "C": "Incorrect. 'Are' is plural and does not agree with the singular subject.",
+          "D": "Incorrect. 'Have been' is plural and does not agree with the singular subject."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "rw_b_022",
+      "section": "reading_writing",
+      "question_number": 22,
+      "passage": "Many past Olympic Games featured demonstration sports—nonmedal events—to showcase sports related to the host country. These events included icestocksport, a throwing sport popular in Austria, and canne de combat, a French combat sport. ________ they were chosen as demonstration sports at the Olympic Games in Innsbruck, Austria, and Paris, France, respectively.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Fittingly,"
+        },
+        {
+          "label": "B",
+          "text": "Nevertheless,"
+        },
+        {
+          "label": "C",
+          "text": "Additionally,"
+        },
+        {
+          "label": "D",
+          "text": "By contrast,"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "'Fittingly' shows that each demonstration sport matched its host country.",
+        "key_evidence": "Icestocksport was popular in Austria, and canne de combat was French.",
+        "why_correct": "Those origins make their selection in Innsbruck and Paris appropriate.",
+        "detailed": "The passage says demonstration sports were used to showcase sports related to host countries. Because icestocksport was popular in Austria and canne de combat was French, it was fitting that they appeared at Olympic Games in Austria and France.",
+        "choice_analysis": {
+          "A": "Correct. 'Fittingly' signals that the examples match the host-country principle.",
+          "B": "Incorrect. 'Nevertheless' would signal contrast, but the selection follows the prior idea.",
+          "C": "Incorrect. 'Additionally' merely adds information and does not capture the appropriateness of the selections.",
+          "D": "Incorrect. 'By contrast' would set up an opposition that the sentence does not contain."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "rw_b_023",
+      "section": "reading_writing",
+      "question_number": 23,
+      "passage": "In Amarna, Egypt, archaeologist Anna Hodgkinson unearthed bits of glass near lower-status dwellings, which she believes may refute the long-held notion that the material was enjoyed exclusively by Ancient Egyptian royalty. ________ archaeologist Thilo Rehren states flatly that glass doesn't appear to have been \"a closely controlled royal commodity,\" concurring, based on his own research, that the material was more common than once surmised.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "As such,"
+        },
+        {
+          "label": "B",
+          "text": "Similarly,"
+        },
+        {
+          "label": "C",
+          "text": "Nonetheless,"
+        },
+        {
+          "label": "D",
+          "text": "Consequently,"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "'Similarly' links two researchers who both reject the royalty-only view of glass.",
+        "key_evidence": "Hodgkinson's find challenges the royalty-only notion; Rehren also says glass was not a royal commodity.",
+        "why_correct": "The second sentence presents a similar conclusion, not a contrast or result.",
+        "detailed": "The first sentence describes evidence that glass may not have been limited to Ancient Egyptian royalty. The second sentence gives another archaeologist's concurring view that glass was more common than once thought. 'Similarly' correctly connects parallel ideas.",
+        "choice_analysis": {
+          "A": "Incorrect. 'As such' would present a result or restatement, not a parallel view.",
+          "B": "Correct. 'Similarly' introduces another researcher reaching a comparable conclusion.",
+          "C": "Incorrect. 'Nonetheless' signals contrast, but Rehren agrees with the challenge to the old notion.",
+          "D": "Incorrect. 'Consequently' suggests a causal result, which is not the relationship between the two claims."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "rw_b_024",
+      "section": "reading_writing",
+      "question_number": 24,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• The large tree finch is a species of bird. It has an average weight of 19 grams. It can be found on the Galapagos Island of Santa Fe. The Galapagos Islands are a group of islands that have many different species of birds.",
+      "prompt": "The student wants to specify the average weight of the large tree finch. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Many species of birds can be found in the Galapagos Islands, including the large tree finch."
+        },
+        {
+          "label": "B",
+          "text": "The large tree finch can be found on the Galapagos Island of Santa Fe."
+        },
+        {
+          "label": "C",
+          "text": "The Galapagos Islands, which include the island of Santa Fe, contain many different species of birds."
+        },
+        {
+          "label": "D",
+          "text": "The large tree finch has an average weight of 19 grams."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "Choice D directly specifies the finch's average weight.",
+        "key_evidence": "The notes state that the large tree finch has an average weight of 19 grams.",
+        "why_correct": "The student's goal is only to specify that average weight.",
+        "detailed": "The target is narrow: specify the average weight of the large tree finch. Choice D uses the exact relevant note and avoids unrelated information about location or bird diversity.",
+        "choice_analysis": {
+          "A": "Incorrect. It identifies the bird among Galapagos species but does not give its weight.",
+          "B": "Incorrect. It gives the bird's location, not its average weight.",
+          "C": "Incorrect. It describes the Galapagos Islands and Santa Fe but omits the weight.",
+          "D": "Correct. It directly states that the large tree finch averages 19 grams."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "rw_b_025",
+      "section": "reading_writing",
+      "question_number": 25,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• The willow oak is a species of deciduous tree. Its scientific name is Quercus phellos. It is native to the Southeastern ecoregion of the US.",
+      "prompt": "The student wants to indicate which ecoregion the willow oak is native to. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Deciduous trees are native to several ecoregions of the US."
+        },
+        {
+          "label": "B",
+          "text": "The willow oak's scientific name is Quercus phellos."
+        },
+        {
+          "label": "C",
+          "text": "The willow oak (Quercus phellos) is a species of deciduous tree."
+        },
+        {
+          "label": "D",
+          "text": "The willow oak is native to the Southeastern ecoregion of the US."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "Choice D directly identifies the willow oak's native ecoregion.",
+        "key_evidence": "The notes say the willow oak is native to the Southeastern ecoregion of the US.",
+        "why_correct": "That is exactly the information the student wants to indicate.",
+        "detailed": "The student's goal is to state which ecoregion the willow oak is native to. Choice D gives that ecoregion directly, while the other choices focus on tree type, scientific name, or broad claims not tied to the requested ecoregion.",
+        "choice_analysis": {
+          "A": "Incorrect. It makes a broad statement about deciduous trees, not the willow oak's ecoregion.",
+          "B": "Incorrect. It gives the scientific name rather than the native ecoregion.",
+          "C": "Incorrect. It identifies the species and scientific name but not the ecoregion.",
+          "D": "Correct. It states that the willow oak is native to the Southeastern ecoregion of the US."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "rw_b_026",
+      "section": "reading_writing",
+      "question_number": 26,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• In music theory, the term \"key\" refers to the set of musical notes that forms the foundation of a piece of music. In Ideas Toward an Aesthetic of Music (1806), German poet and composer Christian Schubart describes the mood of various musical keys. He describes the key of C minor as expressing \"longing.\" \"Don't Speak\" (1996) by No Doubt is a song written in C minor.",
+      "prompt": "The student wants to explain how Schubart describes C minor. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The key of C minor is one of various keys, which are sets of musical notes that form the foundations of pieces of music."
+        },
+        {
+          "label": "B",
+          "text": "In Ideas Toward an Aesthetic of Music, Schubart describes the mood of C minor."
+        },
+        {
+          "label": "C",
+          "text": "In Ideas Toward an Aesthetic of Music, Schubart describes the mood of C minor as expressing \"longing.\""
+        },
+        {
+          "label": "D",
+          "text": "The song \"Don't Speak\" could be described as expressing \"longing.\""
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "Choice C states Schubart's specific description of C minor as expressing longing.",
+        "key_evidence": "The notes say Schubart describes the key of C minor as expressing 'longing.'",
+        "why_correct": "The student's goal is to explain how Schubart describes C minor, and choice C gives that description.",
+        "detailed": "The answer must name Schubart and include his description of C minor. Choice C does both by linking Ideas Toward an Aesthetic of Music to the claim that C minor expresses longing.",
+        "choice_analysis": {
+          "A": "Incorrect. It defines keys generally but does not give Schubart's description of C minor.",
+          "B": "Incorrect. It says Schubart describes C minor's mood but omits the specific description.",
+          "C": "Correct. It directly states that Schubart describes C minor as expressing 'longing.'",
+          "D": "Incorrect. It applies the mood to a song rather than explaining Schubart's description of C minor."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "rw_b_027",
+      "section": "reading_writing",
+      "question_number": 27,
+      "passage": "While researching a topic, a student has taken the following notes:\n\nKumiko is a Japanese woodworking technique in which thin strips of wood are interlaced to create latticed panels that incorporate intricate patterns.\nThese wooden strips are fit together without the use of nails or other fasteners.\nMany of the geometric patterns used in kumiko designs are inspired by elements from nature.\nThe overlapping hexagons of the kikko pattern resemble a tortoise's shell.\nThe curved fan shapes of the seigaiha pattern resemble ocean waves.",
+      "prompt": "The student wants to make and support a claim about the inspiration for kumiko patterns. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The tortoiseshell-like overlapping hexagons of the kikko pattern are inspired by wooden strips from nature."
+        },
+        {
+          "label": "B",
+          "text": "Often resembling elements from nature, kumiko patterns are formed by fitting thin strips of wood together without the use of nails."
+        },
+        {
+          "label": "C",
+          "text": "The kumiko woodworking technique is used to create latticed panels with geometric designs, like overlapping hexagons, out of thin strips of wood."
+        },
+        {
+          "label": "D",
+          "text": "Like the seigaiha pattern's curved fan shapes, which resemble ocean waves, many of the geometric patterns used in kumiko designs are inspired by elements from nature."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "D makes the general claim that kumiko patterns draw on nature and supports it with the seigaiha pattern's resemblance to ocean waves.",
+        "key_evidence": "The notes identify nature as the inspiration and ocean waves as the model for seigaiha's curved fan shapes.",
+        "why_correct": "The goal requires both a claim and supporting information. D states the general nature-inspiration claim and supplies a specific pattern-to-natural-form example.",
+        "detailed": "Separate how kumiko is constructed from what inspires its designs. Wooden strips are the construction material; tortoise shells and ocean waves inspire geometric patterns. D connects the general claim about nature-inspired patterns to the concrete seigaiha/ocean-wave example, fulfilling both parts of the student's goal.",
+        "choice_analysis": {
+          "A": "The notes connect kikko's hexagons to a tortoise's shell, not to wooden strips. This confuses the design's inspiration with its construction material.",
+          "B": "The sentence mentions resemblance to nature but then explains nail-free construction. That construction detail does not support the claim about where the patterns' designs originate.",
+          "C": "The sentence describes woodworking materials and geometric designs without explaining how a natural form inspired a pattern.",
+          "D": "The nature-inspiration claim is supported by the specific example of seigaiha's curved shapes resembling ocean waves."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "rw_b_028",
+      "section": "reading_writing",
+      "question_number": 28,
+      "passage": "Danza Azteca arose in the 1500s when the traditions of the Chichimeca Jonaz people [vocab]______[/vocab] those of other tribes in Central Mexico, creating a hybrid dance form that spread across Mexico and later to Mexican communities in the US. Chichimeca Jonaz influences can still be seen in the performances by groups like Danza Azteca Citlaltonac, which is based in Coachella, California.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "deferred to"
+        },
+        {
+          "label": "B",
+          "text": "intermingled with"
+        },
+        {
+          "label": "C",
+          "text": "corresponded to"
+        },
+        {
+          "label": "D",
+          "text": "advocated for"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "'Intermingled with' best describes traditions blending to create a hybrid dance form.",
+        "key_evidence": "The passage says the combined traditions created a hybrid dance form.",
+        "why_correct": "'Intermingled with' means mixed or blended with, matching the idea of a hybrid form.",
+        "detailed": "The sentence explains that Danza Azteca arose when Chichimeca Jonaz traditions combined with those of other Central Mexican tribes. Since the result was a hybrid dance form, the best verb phrase is 'intermingled with.'",
+        "choice_analysis": {
+          "A": "Incorrect. 'Deferred to' means yielded to, not blended with.",
+          "B": "Correct. 'Intermingled with' describes traditions mixing to create a hybrid form.",
+          "C": "Incorrect. 'Corresponded to' means matched or related to, not merged with.",
+          "D": "Incorrect. 'Advocated for' means supported or argued for, which does not fit the creation of a hybrid dance form."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "rw_b_029",
+      "section": "reading_writing",
+      "question_number": 29,
+      "passage": "In a 2020 paper, Arya Udry et al. cautioned that although similarities in the isotopic signatures of elements detected in Mars's atmosphere and in Martian meteorites recovered on Earth make it tempting to treat the geochemical properties of the meteorites as [vocab]______[/vocab] those of Mars's interiors, Mars's geology cannot be ascertained based solely on meteorite-sample analyses.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "proxies for"
+        },
+        {
+          "label": "B",
+          "text": "contrivances of"
+        },
+        {
+          "label": "C",
+          "text": "catalysts of"
+        },
+        {
+          "label": "D",
+          "text": "deterrents to"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "'Proxies for' fits because meteorite properties might be treated as stand-ins for Mars's interiors.",
+        "key_evidence": "The passage warns against treating meteorite properties as ____ those of Mars's interiors.",
+        "why_correct": "'Proxies for' means substitutes or stand-ins for, which matches the cautioned assumption.",
+        "detailed": "The sentence says isotopic similarities make it tempting to use Martian meteorites as stand-ins for Mars's interiors, but the authors caution that Mars's geology cannot be determined solely from those samples. 'Proxies for' precisely names that stand-in relationship.",
+        "choice_analysis": {
+          "A": "Correct. 'Proxies for' means stand-ins for, fitting the idea of using meteorites to represent Mars's interiors.",
+          "B": "Incorrect. 'Contrivances of' means artificial devices or schemes and does not fit the scientific relationship.",
+          "C": "Incorrect. 'Catalysts of' would mean things that cause or accelerate Mars's interiors, which is illogical.",
+          "D": "Incorrect. 'Deterrents to' would mean things that prevent Mars's interiors, which is illogical."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "rw_b_030",
+      "section": "reading_writing",
+      "question_number": 30,
+      "passage": "As the use of non-oil energy resources has increased, the relationship between oil shocks—such as the 57% rise in oil prices from May 1979 to January 1980—and national economic activity has [vocab]______[/vocab]. Indeed, Gbadebo Oladosu and colleagues showed that the effect of recent oil shocks on the gross domestic product of India was only slightly greater than zero.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "reverted"
+        },
+        {
+          "label": "B",
+          "text": "acquiesced"
+        },
+        {
+          "label": "C",
+          "text": "oscillated"
+        },
+        {
+          "label": "D",
+          "text": "abated"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "'Abated' means weakened, matching the near-zero economic effect of recent oil shocks.",
+        "key_evidence": "Recent oil shocks had an effect on India's GDP that was only slightly greater than zero.",
+        "why_correct": "That evidence shows the oil-shock/economic-activity relationship has diminished.",
+        "detailed": "The passage contrasts rising use of non-oil energy with the very small GDP effect of recent oil shocks. This supports the idea that the relationship between oil shocks and national economic activity has weakened, or abated.",
+        "choice_analysis": {
+          "A": "Incorrect. 'Reverted' means returned to a former state, which the passage does not indicate.",
+          "B": "Incorrect. 'Acquiesced' means accepted reluctantly and cannot describe a relationship between oil shocks and economic activity.",
+          "C": "Incorrect. 'Oscillated' means varied back and forth, but the evidence points to weakening.",
+          "D": "Correct. 'Abated' means diminished or become less intense, matching the near-zero effect described."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context",
+        "subtype": "precise_word_choice"
+      }
+    },
+    {
+      "question_id": "rw_b_031",
+      "section": "reading_writing",
+      "question_number": 31,
+      "passage": "The Federalist Papers are a collection of 85 essays written by Alexander Hamilton, John Jay, and James Madison. They were published pseudonymously in the New York Packet and other New York newspapers in 1787-88 and argue that New Yorkers should vote to ratify the proposed United States Constitution. Though the authorship of most of the individual essays is certain, that of a few is in question: for instance, while No. 15, \"The Insufficiency of the Present Confederation to Preserve the Union,\" was surely penned by Hamilton, No. 52, \"The House of Representatives,\" may have been written by either Hamilton or Madison.",
+      "prompt": "Which choice best states the main purpose of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To summarize a contentious argument made in a collection of essays."
+        },
+        {
+          "label": "B",
+          "text": "To describe a collection of essays and address what is known about their authorship."
+        },
+        {
+          "label": "C",
+          "text": "To point out that some essays in a notable collection were written by one person, while others were written by two people."
+        },
+        {
+          "label": "D",
+          "text": "To present the publication history of a collection of essays."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "The text introduces The Federalist Papers and then discusses what is known about their authorship.",
+        "key_evidence": "The passage describes the essays, their publication, their purpose, and uncertain authorship for a few essays.",
+        "why_correct": "Choice B captures both parts: description of the collection and discussion of authorship.",
+        "detailed": "The passage first identifies The Federalist Papers as 85 essays published in 1787-88 to support ratification. It then explains that most authorship is certain while a few essays are disputed. The main purpose is therefore to describe the collection and address authorship.",
+        "choice_analysis": {
+          "A": "Incorrect. The text mentions the essays' argument for ratification but does not summarize that argument.",
+          "B": "Correct. It covers both the description of the essay collection and what is known about authorship.",
+          "C": "Incorrect. The issue is uncertain authorship, not essays written by two people together.",
+          "D": "Incorrect. Publication history is included, but it is not the whole purpose."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "structural_function"
+      }
+    },
+    {
+      "question_id": "rw_b_032",
+      "section": "reading_writing",
+      "question_number": 32,
+      "passage": "The Museum of Modern Art (MOMA) in New York City has an exhibition of video games that includes Yars' Revenge from 1982, which museum visitors can play on site, and SimCity 2000 from 1994, which visitors can see only in a video presentation. [u]MOMA claims the video presentations are only for games that would be impractical to display in a playable form[/u], but video games are an inherently interactive medium, a feature that is grossly absent in a video-only presentation.",
+      "prompt": "Which choice best describes the function of the underlined portion in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It details a criticism of MOMA that the author defends against in the remainder of the sentence."
+        },
+        {
+          "label": "B",
+          "text": "It provides MOMA's rationale for a decision that the author critiques."
+        },
+        {
+          "label": "C",
+          "text": "It introduces a fact about video games that the author thinks MOMA did not appropriately consider when choosing which video games to exhibit."
+        },
+        {
+          "label": "D",
+          "text": "It presents a misconception about video games that the author believes is evident in MOMA's choice about which video games to exhibit."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "The underlined portion gives MOMA's reason, which the author then criticizes.",
+        "key_evidence": "MOMA says video presentations are for games impractical to display playably; the author responds with 'but.'",
+        "why_correct": "The underlined claim is MOMA's rationale, and the rest of the sentence argues against the video-only choice.",
+        "detailed": "The underlined portion explains why MOMA uses video presentations for some games. The word 'but' then signals the author's critique: video-only presentation omits the interactive nature of games. Thus the underlined portion is a rationale the author critiques.",
+        "choice_analysis": {
+          "A": "Incorrect. The underlined portion is MOMA's rationale, not a criticism of MOMA.",
+          "B": "Correct. It presents MOMA's stated reason for a decision the author challenges.",
+          "C": "Incorrect. The fact about interactivity comes after the underlined portion, not within it.",
+          "D": "Incorrect. The underlined portion is not a misconception about games; it is a practical justification."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "structural_function"
+      }
+    },
+    {
+      "question_id": "rw_b_033",
+      "section": "reading_writing",
+      "question_number": 33,
+      "passage": "The following text is from Anne Spencer's 1922 poem \"Translation.\" We trekked into a far country, My friend and I. Our deeper content was never spoken, But each knew all the other said. He told me how calm his soul was laid By the lack of anvil and strife. \"The wooing kestrel,\" I said, \"mutes his mating-note To please the harmony of this sweet silence.\"",
+      "prompt": "Which choice best describes the function of the reference to \"anvil and strife\" in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It emphasizes the way that nature provides a contrast to the feelings of the speaker and her friend."
+        },
+        {
+          "label": "B",
+          "text": "It illustrates how the speaker and her friend understand each other's feelings without having to talk about them."
+        },
+        {
+          "label": "C",
+          "text": "It represents a strong contrast to the speaker's friend's current experience of tranquility."
+        },
+        {
+          "label": "D",
+          "text": "It symbolizes the speaker's friend's view that meaningful work and social engagement are core components of a fulfilling life."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "'Anvil and strife' contrast with the friend's present calm.",
+        "key_evidence": "The friend says his soul is calm because of the lack of 'anvil and strife.'",
+        "why_correct": "Anvil and strife suggest labor and conflict, the opposite of tranquility.",
+        "detailed": "The poem says the friend's soul is calm because anvil and strife are absent. Those images evoke noisy labor and conflict, so they function as a contrast to the friend's current peaceful experience.",
+        "choice_analysis": {
+          "A": "Incorrect. The contrast is between anvil/strife and tranquility, not nature versus the friends' feelings.",
+          "B": "Incorrect. The poem does show mutual understanding, but the phrase itself functions by contrast.",
+          "C": "Correct. The phrase represents labor and conflict that contrast with the friend's calm.",
+          "D": "Incorrect. The phrase is not presented as a positive view of work or social engagement."
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose",
+        "subtype": "structural_function"
+      }
+    },
+    {
+      "question_id": "rw_b_034",
+      "section": "reading_writing",
+      "question_number": 34,
+      "passage": "The following text is adapted from Matthew Arnold's 1869 nonfiction book Culture and Anarchy. The Times [a British newspaper], replying to some foreign strictures on the dress, looks, and behaviour of the English abroad, urges that the English ideal is that every one should be free to do and to look just as he likes. But culture indefatigably tries, not to make what each raw person may like, the rule by which he fashions himself; but to draw ever nearer to a sense of what is indeed beautiful, graceful, and becoming, and to get the raw person to like that.",
+      "prompt": "Which choice best states the main idea of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The process of determining what should be considered beautiful is likely to lead to disagreement."
+        },
+        {
+          "label": "B",
+          "text": "The English are unjustly derided for their sense of taste."
+        },
+        {
+          "label": "C",
+          "text": "Culture's duty is to use scientific methods to determine what is beautiful."
+        },
+        {
+          "label": "D",
+          "text": "One of the functions of culture is to create a consensus about matters of good taste."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "Arnold presents culture as guiding people toward shared standards of good taste.",
+        "key_evidence": "Culture tries to draw people toward what is beautiful, graceful, and becoming.",
+        "why_correct": "Choice D expresses that culture shapes consensus around good taste.",
+        "detailed": "The passage contrasts an ideal of everyone doing and looking as they like with culture's effort to move people toward a sense of what is truly beautiful and becoming. That makes D the best statement of the main idea.",
+        "choice_analysis": {
+          "A": "Incorrect. The text is not mainly about disagreement over beauty.",
+          "B": "Incorrect. The text does not defend English taste as unjustly criticized.",
+          "C": "Incorrect. The passage does not mention scientific methods.",
+          "D": "Correct. It captures culture's role in moving people toward shared standards of taste."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details",
+        "subtype": "main_idea_or_detail"
+      }
+    },
+    {
+      "question_id": "rw_b_035",
+      "section": "reading_writing",
+      "question_number": 35,
+      "passage": "Studies of the population density of cougars (Puma concolor) have yielded a range of results, which may in part reflect differences in the effectiveness of the methods that researchers have used in their studies. If, for example, the use of helicopter surveying tends to lead to overestimates of cougar population density, that may explain why the study by",
+      "prompt": "Which choice most effectively uses data from the table to complete the example?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Randy D. Johnson et al. required a study area of 1,179 square kilometers, while the study by David M. Choate et al. required a study area of 1,225 square kilometers."
+        },
+        {
+          "label": "B",
+          "text": "David M. Choate et al. reported a maximum density of 10.24 individuals per 100 square kilometers, higher than that reported by several other studies."
+        },
+        {
+          "label": "C",
+          "text": "Randy D. Johnson reported a maximum density of only 2.78 individuals per 100 square kilometers, lower than that reported by several other studies."
+        },
+        {
+          "label": "D",
+          "text": "Gregory A. Davidson et al. reported a maximum density of 5.50 individuals per 100 square kilometers, while the study by Juan I. Zanén-Martinez et al., which used regular camera trapping, reported a lower maximum density."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "table_data": {
+        "title": "Studies of Cougar Population Density",
+        "columns": [
+          "Study authors",
+          "Location",
+          "Methods",
+          "Study area (square kilometers)",
+          "Maximum density (cougars per 100 square kilometers)"
+        ],
+        "rows": [
+          [
+            "Randy D. Johnson",
+            "North Dakota (United States)",
+            "radio-collar tracking",
+            "6,467",
+            "2.78"
+          ],
+          [
+            "Gregory A. Davidson et al.",
+            "Oregon (United States)",
+            "scat-detecting dogs",
+            "1,225",
+            "5.50"
+          ],
+          [
+            "Juan I. Zanón-Martinez et al.",
+            "Argentina",
+            "regular camera trapping",
+            "1,179",
+            "4.90"
+          ],
+          [
+            "David M. Choate et al.",
+            "Utah (United States)",
+            "helicopter surveying",
+            "1,300",
+            "10.24"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "Choate's helicopter-survey study reported the highest density, supporting the overestimate example.",
+        "key_evidence": "Choate et al. used helicopter surveying and reported 10.24 cougars per 100 square kilometers.",
+        "why_correct": "That unusually high maximum density fits the idea that helicopter surveying may overestimate density.",
+        "detailed": "The sentence asks for data that would complete an example about helicopter surveying possibly causing overestimates. The table shows David M. Choate et al. used helicopter surveying and reported 10.24 cougars per 100 square kilometers, higher than the other listed studies.",
+        "choice_analysis": {
+          "A": "Incorrect. Study area sizes do not address the possible overestimate in population density.",
+          "B": "Correct. It links the helicopter-survey study to an unusually high reported density.",
+          "C": "Incorrect. Johnson did not use helicopter surveying and reported a low density.",
+          "D": "Incorrect. It compares two non-helicopter methods and does not support the helicopter-overestimate example."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "data_evidence"
+      },
+      "visual_assets": [
+        {
+          "type": "table",
+          "title": "Studies of Cougar Population Density",
+          "columns": [
+            "Study authors",
+            "Location",
+            "Methods",
+            "Study area (square kilometers)",
+            "Maximum density (cougars per 100 square kilometers)"
+          ],
+          "rows": [
+            [
+              "Randy D. Johnson",
+              "North Dakota (United States)",
+              "radio-collar tracking",
+              "6,467",
+              "2.78"
+            ],
+            [
+              "Gregory A. Davidson et al.",
+              "Oregon (United States)",
+              "scat-detecting dogs",
+              "1,225",
+              "5.50"
+            ],
+            [
+              "Juan I. Zanón-Martinez et al.",
+              "Argentina",
+              "regular camera trapping",
+              "1,179",
+              "4.90"
+            ],
+            [
+              "David M. Choate et al.",
+              "Utah (United States)",
+              "helicopter surveying",
+              "1,300",
+              "10.24"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "question_id": "rw_b_036",
+      "section": "reading_writing",
+      "question_number": 36,
+      "passage": "Autofiction is an emerging literary form that incorporates autobiographical writing into fiction. Practitioners of autofiction emphasize the autobiographical aspects of their work by patterning their protagonists' lives after their own, typically naming their protagonists after themselves. Autofiction usually borrows formal elements from autobiographical writing too, including its first person point of view and its use of a narrative voice so forthright that it borders on confessional. Ocean Vuong's 2019 novel On Earth We're Briefly Gorgeous is a representative work of autofiction, one that erases the distinction that fiction typically observes between authors and the characters they create.",
+      "prompt": "Which statement, if true, would most strongly support the text's description of On Earth We're Briefly Gorgeous?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The novel portrays the upbringing of the protagonist, a young writer, in a working-class Vietnamese American family that is virtually identical to Vuong's family, and the protagonist narrates the novel in a tone that many reviewers describe as surprisingly frank."
+        },
+        {
+          "label": "B",
+          "text": "Although the narrative of On Earth We're Briefly Gorgeous proceeds in a largely chronological fashion, as narratives do in most works of fiction, the form of Vuong's narrative is unique: the novel consists of a single long letter that the protagonist, a soft-spoken young man, has written to his mother."
+        },
+        {
+          "label": "C",
+          "text": "On Earth We're Briefly Gorgeous makes use of imagery in much the same way that contemporary poetry does, exploiting certain images—butterflies, for example—for their emotional or conceptual associations; in this way, Vuong blurs the distinction between poetry and fiction."
+        },
+        {
+          "label": "D",
+          "text": "The novel's protagonist bears an obvious resemblance to Vuong himself and in interviews Vuong speaks of the protagonist as a sort of alter ego, though the protagonist refers to himself as \"Little Dog\" throughout the novel and never divulges his actual name."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "Choice A shows both autobiographical similarity and a frank narrative voice.",
+        "key_evidence": "Autofiction patterns protagonists after authors and often uses a forthright, confessional voice.",
+        "why_correct": "Choice A gives a protagonist with Vuong-like upbringing and a surprisingly frank narration style.",
+        "detailed": "The passage describes autofiction as combining fiction with autobiographical features, including protagonists patterned after authors and a forthright, near-confessional narrative voice. Choice A supplies both kinds of support for On Earth We're Briefly Gorgeous.",
+        "choice_analysis": {
+          "A": "Correct. It supports the autobiographical patterning and confessional-style narration described in the text.",
+          "B": "Incorrect. A letter form and chronological narration do not directly support the autofiction description.",
+          "C": "Incorrect. Blurring poetry and fiction is not the author-character boundary discussed in the passage.",
+          "D": "Incorrect. It supports resemblance/alter ego only partly and lacks the first-person or confessional narrative evidence."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "textual_evidence"
+      }
+    },
+    {
+      "question_id": "rw_b_037",
+      "section": "reading_writing",
+      "question_number": 37,
+      "passage": "A tariff is a tax on imported goods intended to protect domestic producers of similar goods from international competition. Eliminating tariffs can lead to an influx of cheaper imported goods, lowering prices; in a place where domestic production is relatively expensive, this influx can suppress domestic production, as the country's consumers favor more cheaply produced imported goods over domestically produced ones. A student consults a table showing projected changes in production and average market prices of agricultural commodities in four countries in a tariff-elimination scenario. Based on the data, the student claims that compared with India and Russia, agricultural production in Argentina and the United States is likely relatively inexpensive.",
+      "prompt": "Which choice most effectively uses information from the text and data from the table to support the student's claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Although agricultural production in India and Russia would likely decrease if tariffs were eliminated, it would likely increase in both Argentina and the United States."
+        },
+        {
+          "label": "B",
+          "text": "Although eliminating tariffs would likely cause agricultural market prices to decrease in most locations, it would likely cause agricultural market prices to increase in both Argentina and the United States."
+        },
+        {
+          "label": "C",
+          "text": "Argentina and the United States are the only countries shown that are projected to see both an increase in agricultural production and a reduction in agricultural prices in the absence of tariffs."
+        },
+        {
+          "label": "D",
+          "text": "In the absence of tariffs, total agricultural production in Argentina and the United States would likely exceed that in India and Russia."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "table_data": {
+        "title": "Projected Percent Change in Agricultural Production and Market Price under Tariff-Elimination Scenario",
+        "columns": [
+          "Country",
+          "Percent change in total production",
+          "Percent change in market prices"
+        ],
+        "rows": [
+          [
+            "Argentina",
+            "+0.90",
+            "+1.02"
+          ],
+          [
+            "India",
+            "-1.34",
+            "-1.98"
+          ],
+          [
+            "Russia",
+            "-3.48",
+            "-0.99"
+          ],
+          [
+            "United States",
+            "+1.76",
+            "+0.44"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "Argentina and the United States show production increases while India and Russia show decreases.",
+        "key_evidence": "The table shows production rises in Argentina and the US but falls in India and Russia.",
+        "why_correct": "If tariff removal favors cheaper producers, that pattern supports Argentina/US being relatively inexpensive.",
+        "detailed": "The passage explains that eliminating tariffs can suppress production where domestic production is relatively expensive because cheaper imports enter. The table shows the opposite pattern for Argentina and the United States: production increases there while decreasing in India and Russia. That supports the claim that Argentina and US production is relatively inexpensive.",
+        "choice_analysis": {
+          "A": "Correct. It identifies the production-increase pattern for Argentina/US versus decreases for India/Russia.",
+          "B": "Incorrect. It focuses on price increases and falsely says prices decrease in most locations.",
+          "C": "Incorrect. Argentina and the United States show price increases, not reductions.",
+          "D": "Incorrect. The table gives percent changes, not total production amounts."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "data_evidence"
+      },
+      "visual_assets": [
+        {
+          "type": "table",
+          "title": "Projected Percent Change in Agricultural Production and Market Price under Tariff-Elimination Scenario",
+          "columns": [
+            "Country",
+            "Percent change in total production",
+            "Percent change in market prices"
+          ],
+          "rows": [
+            [
+              "Argentina",
+              "+0.90",
+              "+1.02"
+            ],
+            [
+              "India",
+              "-1.34",
+              "-1.98"
+            ],
+            [
+              "Russia",
+              "-3.48",
+              "-0.99"
+            ],
+            [
+              "United States",
+              "+1.76",
+              "+0.44"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "question_id": "rw_b_039",
+      "section": "reading_writing",
+      "question_number": 39,
+      "passage": "The Clouds is a 423 BCE play by Aristophanes, originally written in ancient Greek. At the time, professional intellectuals called sophists taught customers rhetorical techniques to use in public speaking, along with providing instruction in other subjects. In the play, Aristophanes satirizes sophists as having an exaggerated sense of their own wisdom, as seen when the character",
+      "prompt": "Which choice most effectively uses a quotation from a translation of The Clouds to illustrate the claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Strepsiades encourages his son to learn to be a sophist, saying, \"If you have any concern for your father's patrimony, become one of them.\""
+        },
+        {
+          "label": "B",
+          "text": "Strepsiades says of a sophist business, \"There dwell men who in speaking of the heavens persuade people that it is an oven, and that it encompasses us, and that we are the embers. These men teach, if one give them money, to conquer in speaking, right or wrong.\""
+        },
+        {
+          "label": "C",
+          "text": "Socrates, a sophist, says to a new customer, \"Come, then, take care that, whenever I propound any clever dogma about abstruse matters, you [seize] immediately.\""
+        },
+        {
+          "label": "D",
+          "text": "Socrates, a sophist, says of a new customer, \"I have not seen any man so boorish, nor so impracticable, nor so stupid, nor so forgetful; who, while learning some little petty quibbles, forgets them before he has learned them.\""
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "Socrates' reference to a 'clever dogma about abstruse matters' shows inflated intellectual self-regard.",
+        "key_evidence": "Choice C has Socrates call his teaching a 'clever dogma about abstruse matters.'",
+        "why_correct": "That quotation best illustrates sophists presenting themselves as especially wise.",
+        "detailed": "The claim is that Aristophanes satirizes sophists as having an exaggerated sense of their own wisdom. Choice C directly shows Socrates, labeled a sophist, speaking of his own clever doctrine on difficult subjects, which illustrates that exaggerated self-regard.",
+        "choice_analysis": {
+          "A": "Incorrect. It shows encouragement to become a sophist, not the sophist's exaggerated wisdom.",
+          "B": "Incorrect. It describes sophists' business and persuasion, but not their own sense of wisdom as directly.",
+          "C": "Correct. The phrase about a 'clever dogma' and 'abstruse matters' directly illustrates inflated intellectual self-presentation.",
+          "D": "Incorrect. It mocks a customer as stupid, but less directly illustrates the sophist's claimed wisdom than C."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual",
+        "subtype": "textual_evidence"
+      }
+    },
+    {
+      "question_id": "rw_b_040",
+      "section": "reading_writing",
+      "question_number": 40,
+      "passage": "Some studies of migrating animals measure how far the animals travel in a year by fitting individuals with GPS tracking collars. Other studies track annual round-trip distance (RTD), which is equal to double the distance separating the two habitats a population migrates between each year. A researcher argues that since GPS records all of an animal's movements, using the GPS method to track a population would result in significantly higher recorded travel distances than using the RTD method would.",
+      "prompt": "For example, it's very likely that the distance reported for the",
+      "choices": [
+        {
+          "label": "A",
+          "text": "caribou would be greater than 2,155 kilometers if the RTD method had been used."
+        },
+        {
+          "label": "B",
+          "text": "caribou would be less than 3,807 kilometers if the RTD method had been used."
+        },
+        {
+          "label": "C",
+          "text": "white-eared kob would be less than 400 kilometers if the GPS method had been used."
+        },
+        {
+          "label": "D",
+          "text": "white-eared kob would be greater than 3,807 kilometers if the GPS method had been used."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "table_data": {
+        "title": "Reported Annual Travel Distances in Four Studies of Migrating Animal Populations",
+        "columns": [
+          "Species",
+          "Continent",
+          "Distance (km)",
+          "Measurement method"
+        ],
+        "rows": [
+          [
+            "Mule deer",
+            "North America",
+            "772",
+            "RTD"
+          ],
+          [
+            "Caribou",
+            "North America",
+            "3,807",
+            "GPS"
+          ],
+          [
+            "Gray wolf",
+            "North America",
+            "2,155",
+            "GPS"
+          ],
+          [
+            "White-eared kob",
+            "Africa",
+            "400",
+            "RTD"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "Because GPS records more movement than RTD, caribou's RTD distance would likely be less than its GPS distance.",
+        "key_evidence": "Caribou is listed at 3,807 km using GPS, and GPS should yield higher distances than RTD.",
+        "why_correct": "Choice B applies the researcher's claim to a GPS-measured species in the table.",
+        "detailed": "The researcher argues that GPS records all movements and therefore gives higher distances than RTD. Since the caribou distance of 3,807 km was measured with GPS, the corresponding RTD value would likely be less than 3,807 km.",
+        "choice_analysis": {
+          "A": "Incorrect. It compares caribou to the gray wolf's distance rather than its own GPS value.",
+          "B": "Correct. It says caribou's distance would be lower if measured by RTD instead of GPS.",
+          "C": "Incorrect. It reverses the GPS/RTD relationship for the white-eared kob.",
+          "D": "Incorrect. It makes an unsupported comparison between white-eared kob and caribou."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative",
+        "subtype": "Interpreting Quantitative Data"
+      },
+      "visual_assets": [
+        {
+          "type": "table",
+          "title": "Reported Annual Travel Distances in Four Studies of Migrating Animal Populations",
+          "columns": [
+            "Species",
+            "Continent",
+            "Distance (km)",
+            "Measurement method"
+          ],
+          "rows": [
+            [
+              "Mule deer",
+              "North America",
+              "772",
+              "RTD"
+            ],
+            [
+              "Caribou",
+              "North America",
+              "3,807",
+              "GPS"
+            ],
+            [
+              "Gray wolf",
+              "North America",
+              "2,155",
+              "GPS"
+            ],
+            [
+              "White-eared kob",
+              "Africa",
+              "400",
+              "RTD"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "question_id": "rw_b_041",
+      "section": "reading_writing",
+      "question_number": 41,
+      "passage": "Many contemporary Indigenous painters practice a specifically Indigenous mode of abstraction; for example, Dyani White Hawk assembles compositions out of motifs common in the beadwork and other traditional arts of her tribe. In contrast, the prominent Indigenous practitioners of abstract painting during the mid-twentieth century, such as the Luiseño artist Fritz Scholder, typically aligned their compositional strategies with Abstract Expressionism—a school of painting dominated by European American artists—instead of with traditionally nonrepresentational forms of Indigenous art. Thus, in the case of Scholder's generation, the identification of an abstract painting as Indigenous art tends to ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "place a greater emphasis on the artist's biography than on the aesthetic merit of the painting."
+        },
+        {
+          "label": "B",
+          "text": "obscure the Indigenous origins of certain motifs associated with Abstract Expressionism."
+        },
+        {
+          "label": "C",
+          "text": "depend not on stylistic details but instead on an awareness of the artist's identity."
+        },
+        {
+          "label": "D",
+          "text": "deny the extent to which cultural identity influences an artist's work."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "For Scholder's generation, style alone would not identify a painting as Indigenous.",
+        "key_evidence": "Scholder's generation used Abstract Expressionist strategies rather than traditional Indigenous forms.",
+        "why_correct": "If the style comes from Abstract Expressionism, identification as Indigenous depends on knowing the artist's identity.",
+        "detailed": "The passage contrasts contemporary Indigenous abstraction rooted in Indigenous motifs with mid-century Indigenous artists who used Abstract Expressionist strategies. Therefore, with Scholder's generation, the Indigenous identification would tend to depend on awareness of who the artist is, not on visible stylistic details.",
+        "choice_analysis": {
+          "A": "Incorrect. The point is not biography versus aesthetic merit but identity versus style.",
+          "B": "Incorrect. The passage does not say Abstract Expressionist motifs originated in Indigenous art.",
+          "C": "Correct. It follows that the Indigenous identification depends on knowing the artist's identity.",
+          "D": "Incorrect. The passage does not deny cultural identity's influence."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "rw_b_042",
+      "section": "reading_writing",
+      "question_number": 42,
+      "passage": "Paleoanthropologists have struggled to determine the onset of consistent clothing use by hominids. The appearance of hide-scraping tools by 780,000 years ago (780 Ka) enabled clothing production but does not entail it, and while clothing is thought to have been thermally superfluous for anatomically modern humans in their African range around their emergence by 300 Ka, it was essential for the persistence of humans outside Africa by 70 Ka. Melissa Toups et al. proposed a novel proxy: the evolution of the clothing-exclusive variant of the human-exclusive parasite Pediculus humanus (head lice), which Toups et al. date to as early as 170 Ka. This variant could not have emerged and survived without ample ecological niches, so if Toups et al. are correct, then ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "it is unlikely that hominids other than anatomically modern humans produced or wore clothing even though tools enabling the production of clothing existed well before the emergence of humans."
+        },
+        {
+          "label": "B",
+          "text": "humans most likely began regularly wearing clothing at some point after 170 Ka but before approximately 70 Ka."
+        },
+        {
+          "label": "C",
+          "text": "a substantial proportion of humans must have regularly worn clothing long before humans permanently inhabited areas cold enough to necessitate doing so."
+        },
+        {
+          "label": "D",
+          "text": "the spread of regular clothing use among humans after approximately 70 Ka may have been motivated by factors other than the thermal benefits that clothing provides."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "The lice proxy implies widespread clothing use by 170 Ka, before cold regions required it by 70 Ka.",
+        "key_evidence": "The clothing-exclusive lice variant dates to as early as 170 Ka and needed ample clothing niches.",
+        "why_correct": "That means many humans wore clothing regularly well before clothing was thermally necessary outside Africa.",
+        "detailed": "The text says clothing was not thermally needed for modern humans in Africa around 300 Ka but was essential outside Africa by 70 Ka. If the clothing-exclusive lice variant existed by 170 Ka and needed ample clothing-based niches, substantial regular clothing use must have existed long before cold environments made clothing necessary.",
+        "choice_analysis": {
+          "A": "Incorrect. The lice evidence does not rule out clothing by other hominids.",
+          "B": "Incorrect. The evidence points to clothing use by as early as 170 Ka, not only after 170 Ka.",
+          "C": "Correct. It connects the 170 Ka lice proxy with clothing not yet being thermally required.",
+          "D": "Incorrect. The passage concerns clothing use before 70 Ka, not only after it."
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences",
+        "subtype": "logical_completion"
+      }
+    },
+    {
+      "question_id": "rw_b_043",
+      "section": "reading_writing",
+      "question_number": 43,
+      "passage": "In biology, many initially disordered systems will naturally move toward greater order according to the principle of self-organization, a conceptual framework for pattern ________ biologists believe can be used to explain a range of organic phenomena, from population dynamics to the sociality of bees and ants.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "formation. Some"
+        },
+        {
+          "label": "B",
+          "text": "formation; some"
+        },
+        {
+          "label": "C",
+          "text": "formation that some"
+        },
+        {
+          "label": "D",
+          "text": "formation, that some"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "'Formation that some' creates the needed noun plus relative clause.",
+        "key_evidence": "The sentence needs 'pattern formation that some biologists believe can be used...'",
+        "why_correct": "The relative pronoun 'that' links 'pattern formation' to the clause about biologists' belief.",
+        "detailed": "The phrase 'a conceptual framework for pattern formation' needs to be followed by a relative clause explaining what biologists believe about that framework. 'Formation that some' supplies that structure without creating a sentence break or comma error.",
+        "choice_analysis": {
+          "A": "Incorrect. A period creates a fragment after 'Some biologists believe...'",
+          "B": "Incorrect. A semicolon also creates an incomplete second clause.",
+          "C": "Correct. It produces 'pattern formation that some biologists believe can be used...'",
+          "D": "Incorrect. The comma before 'that' incorrectly separates the relative clause."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "rw_b_044",
+      "section": "reading_writing",
+      "question_number": 44,
+      "passage": "Dong Lai and Diego J. Muñoz's work on circumbinary disk accretion—a process in which, due to gravity, material from an orbiting disk spirals inward and accumulates onto two stars or black holes—relies heavily on simulations. Lai and Muñoz recognize the need for direct ________ recommending evolving binary star systems as a promising avenue for future study.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "observation, however,"
+        },
+        {
+          "label": "B",
+          "text": "observation; however,"
+        },
+        {
+          "label": "C",
+          "text": "observation. However,"
+        },
+        {
+          "label": "D",
+          "text": "observation, however;"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "Commas around 'however' correctly mark it as an interrupter.",
+        "key_evidence": "The sentence reads 'need for direct observation, however, recommending...'",
+        "why_correct": "The sentence does not need a semicolon or period because the later phrase continues the same clause.",
+        "detailed": "The phrase after the blank, 'recommending evolving binary star systems...', is not an independent clause. Therefore a semicolon or period before 'however' would break the sentence incorrectly. Choice A uses commas to set off 'however' within the sentence.",
+        "choice_analysis": {
+          "A": "Correct. It punctuates 'however' as an interrupter in a single sentence.",
+          "B": "Incorrect. The semicolon incorrectly treats the following material as an independent clause.",
+          "C": "Incorrect. A period creates a fragment beginning with 'However, recommending...'",
+          "D": "Incorrect. The semicolon after 'however' is not grammatical here."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "rw_b_046",
+      "section": "reading_writing",
+      "question_number": 46,
+      "passage": "In a 2022 study, Fa-Gang Wang et al. concluded that ocher artifacts excavated from an archaeological site in China date to between 39,000 and 41,000 years ago. The reliability of the dates that Wang et al. have posited, which were obtained through processes that determined when buried mineral grains surrounding the ocher artifacts were last exposed to sunlight, ________ in part upon the researchers' exclusion of mineral grains that lacked adequate sun exposure before burial.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "depending"
+        },
+        {
+          "label": "B",
+          "text": "depend"
+        },
+        {
+          "label": "C",
+          "text": "having depended"
+        },
+        {
+          "label": "D",
+          "text": "depends"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "'Depends' agrees with the singular subject 'reliability.'",
+        "key_evidence": "The main subject is 'The reliability of the dates.'",
+        "why_correct": "The singular subject requires the singular present-tense verb 'depends.'",
+        "detailed": "The long middle clause beginning with 'which were obtained...' separates the subject from the verb, but the subject is still singular: 'The reliability.' The sentence therefore needs the finite singular verb 'depends.'",
+        "choice_analysis": {
+          "A": "Incorrect. 'Depending' is not a finite main verb.",
+          "B": "Incorrect. 'Depend' is plural and does not agree with 'reliability.'",
+          "C": "Incorrect. 'Having depended' does not provide the needed main verb.",
+          "D": "Correct. 'Depends' agrees with the singular subject."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "rw_b_047",
+      "section": "reading_writing",
+      "question_number": 47,
+      "passage": "In recent years, the English writer Matilda Betham (1776-1852), whose poetry was widely read during her lifetime, has been rediscovered by contemporary audiences—a resurgence of interest that is largely due to literary scholars such as Elaine Bailey, whose work ________ the richness of Betham's poems and the poet's historical importance to the Romantic literary movement encourages a broader rethinking of British Romanticism itself.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "has highlighted"
+        },
+        {
+          "label": "B",
+          "text": "is highlighting"
+        },
+        {
+          "label": "C",
+          "text": "highlighting"
+        },
+        {
+          "label": "D",
+          "text": "highlights"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "'Highlighting' makes the scholarly work the subject that encourages rethinking.",
+        "key_evidence": "The sentence says Bailey's work, highlighting Betham's richness and importance, encourages rethinking.",
+        "why_correct": "The participle 'highlighting' modifies 'work' while leaving 'encourages' as the main verb.",
+        "detailed": "The subject of the final clause is 'whose work.' The sentence needs 'encourages' as the main verb for that subject, so the blank should be a modifier rather than another finite verb. 'Highlighting' correctly describes what Bailey's work does while preserving the sentence's main structure.",
+        "choice_analysis": {
+          "A": "Incorrect. 'Has highlighted' creates two finite verbs for 'work' without proper connection.",
+          "B": "Incorrect. 'Is highlighting' creates the same finite-verb problem.",
+          "C": "Correct. 'Highlighting' modifies 'work' and allows 'encourages' to be the main verb.",
+          "D": "Incorrect. 'Highlights' creates an ungrammatical sequence before 'encourages.'"
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense",
+        "subtype": "verb_form_or_agreement"
+      }
+    },
+    {
+      "question_id": "rw_b_048",
+      "section": "reading_writing",
+      "question_number": 48,
+      "passage": "In 1977, legendary Puerto Rican performer Rita Moreno won an Emmy Award, making her one of the rare talents to earn the highest honors in television, music, film, and stage entertainment—the Emmy, Grammy, Oscar, and Tony ________ the achievement is known as \"winning the EGOT.\"",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "awards, respectively,"
+        },
+        {
+          "label": "B",
+          "text": "awards; respectively"
+        },
+        {
+          "label": "C",
+          "text": "awards, respectively—"
+        },
+        {
+          "label": "D",
+          "text": "awards, respectively;"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "D uses a semicolon to separate the completed sentence about Moreno from the independent clause naming the EGOT achievement.",
+        "key_evidence": "The two main clauses are Moreno won an Emmy Award and the achievement is known as winning the EGOT.",
+        "why_correct": "The award list introduced by the earlier dash elaborates on highest honors and belongs to the first clause. After respectively, a semicolon can close that clause and introduce the next complete clause.",
+        "detailed": "Find the main predicates before judging the punctuation. Moreno won an Emmy Award forms the first independent clause; making her... is a participial extension, and the four award names explain highest honors. The achievement is known... begins a second independent clause. Choice D provides the necessary semicolon after the list; respectively maps television/music/film/stage to Emmy/Grammy/Oscar/Tony.",
+        "choice_analysis": {
+          "A": "The final comma joins two independent clauses without a coordinating conjunction, creating a comma splice.",
+          "B": "The semicolon occurs before respectively and places that linking adverb in the wrong position relative to the list it explains.",
+          "C": "The closing dash does not supply a grammatical independent-clause connection between Moreno won... and the achievement is known.... Treating it as a paired interruption leaves two main clauses unjoined.",
+          "D": "The comma attaches respectively to the award list, and the following semicolon separates the two independent clauses."
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries",
+        "subtype": "punctuation_and_clause_structure"
+      }
+    },
+    {
+      "question_id": "rw_b_049",
+      "section": "reading_writing",
+      "question_number": 49,
+      "passage": "In a given rock formation, Tortonian rock from 11.6 million years ago might directly abut Capitanian rock from 264.3 million years ago. But how could this happen? Time did not actually stand still during the intervening 252.7 million years; ________ this geologic unconformity likely resulted from natural processes removing sedimentary material from the stratigraphic record.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "however,"
+        },
+        {
+          "label": "B",
+          "text": "rather,"
+        },
+        {
+          "label": "C",
+          "text": "moreover,"
+        },
+        {
+          "label": "D",
+          "text": "for instance,"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "'Rather' corrects the idea that time stood still by giving the real explanation.",
+        "key_evidence": "The passage says time did not stand still; the unconformity resulted from removed sedimentary material.",
+        "why_correct": "'Rather' introduces the alternative explanation after rejecting the impossible one.",
+        "detailed": "The text asks how much older rock could directly abut younger rock, then rejects the idea that time stood still. The next clause gives the actual explanation: sedimentary material was removed. 'Rather' is the logical transition for that correction.",
+        "choice_analysis": {
+          "A": "Incorrect. 'However' signals contrast but not the precise correction of a rejected explanation.",
+          "B": "Correct. 'Rather' introduces the true explanation after rejecting the previous one.",
+          "C": "Incorrect. 'Moreover' would add another point rather than correct the preceding idea.",
+          "D": "Incorrect. 'For instance' would introduce an example, not the general explanation."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "rw_b_050",
+      "section": "reading_writing",
+      "question_number": 50,
+      "passage": "Many historical accounts of the 1930s focus on the widespread movement of people from dust bowl-ravaged Great Plains states to faraway California. However, a 2016 study of 1940 census data complicates this popular narrative; researchers determined, ________ migrants in states hardest hit by prolonged droughts and dust storms—Colorado, Kansas, Oklahoma, and Texas—merely relocated within the region.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "nevertheless,"
+        },
+        {
+          "label": "B",
+          "text": "additionally,"
+        },
+        {
+          "label": "C",
+          "text": "for this reason,"
+        },
+        {
+          "label": "D",
+          "text": "more often,"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "'More often' shows the study found regional relocation was the more common pattern.",
+        "key_evidence": "The study complicates the California-migration narrative by finding migrants merely relocated within the region.",
+        "why_correct": "'More often' fits because it states what happened more frequently than the popular account suggests.",
+        "detailed": "The first sentence describes a common historical focus on migration to California. The study complicates that narrative by finding that migrants in the hardest-hit states more often relocated within the same region. Thus 'more often' gives the logical transition into the study's finding.",
+        "choice_analysis": {
+          "A": "Incorrect. 'Nevertheless' would signal contrast but does not express the frequency comparison in the source.",
+          "B": "Incorrect. 'Additionally' would merely add information and miss the correction to the popular narrative.",
+          "C": "Incorrect. 'For this reason' would signal a cause-effect relationship not present here.",
+          "D": "Correct. 'More often' introduces the study's finding about what migrants typically did."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions",
+        "subtype": "logical_connector"
+      }
+    },
+    {
+      "question_id": "rw_b_051",
+      "section": "reading_writing",
+      "question_number": 51,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• The French Republican calendar was used in France from 1793 to 1805. Each month was divided into three weeks of ten days each, followed by five supplemental days. Each day was named after a plant, animal, agricultural tool, or mineral as a way of honoring an aspect of rural life. Brumaire is the second month in the calendar. The fifth day of Brumaire is named Oie, which means \"goose.\"",
+      "prompt": "The student wants to emphasize how the French Republican calendar honored rural life. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Each day in the French Republican calendar was given a name honoring an aspect of rural life; for example, a day in Brumaire was named for an animal, the goose."
+        },
+        {
+          "label": "B",
+          "text": "The second month in the French Republican calendar, Brumaire, had three weeks that were divided into ten days each."
+        },
+        {
+          "label": "C",
+          "text": "Each day in the French Republican calendar was given a unique name; the fifth day of Brumaire was no exception."
+        },
+        {
+          "label": "D",
+          "text": "Each day in the French Republican calendar's month of Brumaire had a unique name."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "Choice A explains the rural-life naming system and gives the goose example.",
+        "key_evidence": "The notes say each day honored rural life and that the fifth day of Brumaire is named Oie, meaning goose.",
+        "why_correct": "The student's goal is to emphasize how the calendar honored rural life, which choice A directly does.",
+        "detailed": "The answer must connect the calendar's day names to rural life. Choice A states that each day was named to honor rural life and supports that claim with the Brumaire day named for the goose.",
+        "choice_analysis": {
+          "A": "Correct. It states the rural-life purpose and gives a relevant animal-name example.",
+          "B": "Incorrect. It describes the month/week structure but not how rural life was honored.",
+          "C": "Incorrect. It mentions unique names but omits the rural-life emphasis.",
+          "D": "Incorrect. It focuses only on Brumaire having unique names and does not address rural life."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "rw_b_052",
+      "section": "reading_writing",
+      "question_number": 52,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• In a 2020 study, researchers in California investigated how many potential nesting sites female wood ducks visited during the nesting season. The researchers placed nest boxes throughout the survey area and tagged 138 female wood ducks with radio frequency ID trackers. These trackers recorded how many nest boxes each duck visited. 67 ducks (48.5%) visited only one nest box. 18 ducks (13.0%) visited 10 or more nest boxes. Younger ducks were more likely to visit multiple nest boxes.",
+      "prompt": "The student wants to present the methods used in the 2020 study. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "After tracking how many nest boxes the 138 wood ducks visited, the researchers found that the younger ducks tended to visit more nest boxes than the older ducks."
+        },
+        {
+          "label": "B",
+          "text": "The researchers investigated each nesting site for signs that it had been visited by the female wood ducks."
+        },
+        {
+          "label": "C",
+          "text": "By recording how many nest boxes each duck visited, the researchers discovered that only a relatively small percentage (13.0%) of the ducks visited 10 or more nest boxes."
+        },
+        {
+          "label": "D",
+          "text": "The researchers tagged 138 female wood ducks with radio frequency ID trackers and recorded how many nest boxes each duck visited during the nesting season."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "Choice D presents the study method: tagging ducks and recording nest-box visits.",
+        "key_evidence": "The notes say researchers tagged 138 female wood ducks with RFID trackers that recorded nest-box visits.",
+        "why_correct": "The student's goal is to present methods, and choice D states the tracking method without shifting to results.",
+        "detailed": "The methods in the notes are that researchers placed nest boxes, tagged 138 female wood ducks with radio frequency ID trackers, and recorded how many boxes each duck visited. Choice D accurately summarizes that method rather than presenting findings.",
+        "choice_analysis": {
+          "A": "Incorrect. It focuses on a result about younger ducks after the tracking.",
+          "B": "Incorrect. It suggests researchers inspected sites directly, not that trackers recorded visits.",
+          "C": "Incorrect. It mixes the method with a result about the 13.0% of ducks.",
+          "D": "Correct. It directly presents the tagging and recording method."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "rw_b_053",
+      "section": "reading_writing",
+      "question_number": 53,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Haym ibn Risch was a fourteenth-century Majorcan cartographer of portolan charts. Francesco Pizigano was a fourteenth-century Venetian cartographer of portolan charts. Portolan charts were early nautical charts that mapped the waterways of the Mediterranean and Black Seas. Portolan charts in the Venetian tradition tended to be sparse in illustrations. Those in the Majorcan tradition tended to be richly illustrated. In Majorcan charts, the Atlas Mountains are depicted as a palm tree, and Bohemia is depicted as a horseshoe.",
+      "prompt": "The student wants to make a distinction between the two portolan traditions. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Majorcan portolan charts, unlike their sparser Venetian counterparts, tended to be richly illustrated."
+        },
+        {
+          "label": "B",
+          "text": "Being in the Majorcan tradition, the portolan charts of Haym ibn Risch differed from those of the Venetian cartographer Francesco Pizigano."
+        },
+        {
+          "label": "C",
+          "text": "While portolan charts in the Majorcan tradition tended to be richly illustrated, those in the Venetian tradition mapped the waterways of the Mediterranean and Black Seas."
+        },
+        {
+          "label": "D",
+          "text": "Unlike Venetian portolan charts, which could include illustrations of palm trees and horseshoes, Majorcan charts were sparse in illustration."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "Choice A contrasts richly illustrated Majorcan charts with sparser Venetian charts.",
+        "key_evidence": "The notes say Venetian charts tended to be sparse while Majorcan charts tended to be richly illustrated.",
+        "why_correct": "That is the distinction the student wants to make between the two portolan traditions.",
+        "detailed": "The relevant distinction is the amount of illustration in the two traditions. Choice A directly contrasts Majorcan charts as richly illustrated with Venetian charts as sparser.",
+        "choice_analysis": {
+          "A": "Correct. It states the key contrast between the two traditions.",
+          "B": "Incorrect. It says the charts differed but does not specify how.",
+          "C": "Incorrect. It contrasts Majorcan illustration with a feature shared by portolan charts generally.",
+          "D": "Incorrect. It reverses the notes about which tradition was richly illustrated."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    },
+    {
+      "question_id": "rw_b_054",
+      "section": "reading_writing",
+      "question_number": 54,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Squirrel pelts were used as commodity money in medieval Russia. In a commodity money economy, specific goods act as a common unit of monetary exchange that can be used to buy and sell other goods. In a barter economy, goods are traded directly between parties without the use of money. Economists Bruce Champ and Scott Freeman: bartering requires that \"the person with whom you wish to trade must not only have what you want but also want what you have. The inefficiency is apparent; a great deal of time is spent merely finding someone with whom to trade.\" Champ and Freeman: when \"individuals might come to accept one particular good in exchange for others even if they do not wish to consume that good...barter economies essentially become monetary economies.\"",
+      "prompt": "The student wants to paraphrase a quotation from Champ and Freeman to explain the inefficiency of barter economies. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The precise alignment of desires that barter economies require, Champ and Freeman contend, makes them inefficient."
+        },
+        {
+          "label": "B",
+          "text": "Champ and Freeman argue that inefficient barter economies can become monetary economies if a good becomes a unit of exchange."
+        },
+        {
+          "label": "C",
+          "text": "According to Champ and Freeman, the inefficiencies of barter economies become apparent when goods are traded between parties without the use of money."
+        },
+        {
+          "label": "D",
+          "text": "In a barter economy, Champ and Freeman contend, goods are traded directly between parties without the use of money, leading to inefficiency."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025-10-亚太B卷",
+      "explanation": {
+        "short": "Choice A paraphrases the double coincidence of wants that makes barter inefficient.",
+        "key_evidence": "Champ and Freeman say each trader must both have what the other wants and want what the other has.",
+        "why_correct": "That requirement is the 'precise alignment of desires' described in choice A.",
+        "detailed": "The quotation explains that barter is inefficient because finding a trading partner requires matched desires on both sides. Choice A paraphrases this accurately as the precise alignment of desires required by barter economies.",
+        "choice_analysis": {
+          "A": "Correct. It paraphrases the quotation's explanation of barter inefficiency.",
+          "B": "Incorrect. It discusses how barter can become monetary exchange, not the inefficiency quotation.",
+          "C": "Incorrect. It is too general and does not identify the alignment-of-desires problem.",
+          "D": "Incorrect. It defines barter but does not paraphrase the specific quotation about inefficiency."
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis",
+        "subtype": "notes_synthesis"
+      }
+    }
+  ]
+}
