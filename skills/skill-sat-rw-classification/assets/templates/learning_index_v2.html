@@ -286,21 +286,57 @@
     .diagnosis-card dt { color: var(--zen-muted); font-size: 12px; }
     .diagnosis-card dd { margin: 0; font-weight: 600; }
 
-    .builder { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(270px, .65fr); gap: 16px; }
-    .command-panel { padding: 20px; border: 0; border-radius: var(--zen-radius-card); background: var(--zen-bg); }
-    .command-panel h2 { margin: 0 0 14px; font-size: 17px; font-weight: 600; }
-    .option-list { display: grid; gap: 8px; }
-    .option-row { display: flex; align-items: center; gap: 12px; min-height: 48px; padding: 10px 14px; border: 1px solid transparent; border-radius: 12px; background: var(--zen-surface); cursor: pointer; transition: background-color .16s ease, border-color .16s ease; }
-    .option-row:has(input:checked) { border-color: rgba(0, 113, 227, .4); background: var(--zen-blue); }
-    .option-row input { width: 20px; height: 20px; margin: 0; accent-color: var(--zen-primary); }
-    .amount-group { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; padding: 3px; border-radius: 12px; background: var(--zen-fill); }
-    .amount-choice { display: block; }
-    .amount-choice input { position: absolute; opacity: 0; pointer-events: none; }
-    .amount-choice span { display: flex; align-items: center; justify-content: center; min-height: 40px; border: 0; border-radius: 9px; background: transparent; font-size: 15px; font-weight: 500; cursor: pointer; transition: background-color .16s ease, box-shadow .16s ease; }
-    .amount-choice input:checked + span { background: var(--zen-surface); font-weight: 600; box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 1px rgba(0, 0, 0, .04); }
-    .amount-choice input:focus-visible + span { outline: 3px solid rgba(0, 113, 227, .5); outline-offset: 2px; }
-    .builder-hint { min-height: 48px; margin: 16px 0; color: var(--zen-muted); font-size: 14px; }
-    .builder .primary { width: 100%; }
+    .builder { display: grid; grid-template-columns: minmax(0, 1fr) minmax(280px, 340px); gap: 28px; align-items: start; }
+    .builder-form { display: grid; gap: 28px; min-width: 0; }
+    .builder-group { min-width: 0; margin: 0; padding: 0; border: 0; }
+    .builder-group legend { display: flex; align-items: baseline; gap: 8px; margin-bottom: 12px; padding: 0; font-size: 15px; font-weight: 600; }
+    .builder-group legend small { color: var(--zen-muted); font-size: 12px; font-weight: 400; }
+    .pick { position: relative; display: block; }
+    .pick input { position: absolute; opacity: 0; pointer-events: none; }
+    .pick > span { cursor: pointer; transition: background-color .16s ease, border-color .16s ease, color .16s ease, box-shadow .16s ease; }
+    .pick input:focus-visible + span { outline: 3px solid rgba(0, 113, 227, .5); outline-offset: 2px; }
+    .pick input:disabled + span { opacity: .42; cursor: not-allowed; }
+    .pick i { color: var(--zen-muted); font-size: 12px; font-style: normal; font-weight: 400; font-variant-numeric: tabular-nums; }
+    .subject-row { display: inline-flex; gap: 2px; max-width: 100%; padding: 3px; border-radius: 14px; background: var(--zen-fill); }
+    .subject-row .pick > span { display: flex; align-items: center; gap: 8px; min-height: 44px; padding: 8px 22px; border-radius: 11px; font-weight: 500; white-space: nowrap; }
+    .subject-row .pick input:checked + span { background: var(--zen-surface); color: var(--zen-primary-dark); font-weight: 600; box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 1px rgba(0, 0, 0, .04); }
+    .domain-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+    .domain-grid .pick > span { display: grid; align-content: center; gap: 3px; min-height: 116px; padding: 16px 18px; border: 1.5px solid transparent; border-radius: 18px; background: var(--zen-bg); }
+    .domain-grid .pick strong { font-size: 16px; font-weight: 600; letter-spacing: -.01em; }
+    .domain-grid .pick small { color: var(--zen-muted); font-size: 12px; line-height: 1.35; }
+    .domain-grid .pick i { margin-top: 6px; }
+    .domain-grid .pick > span:hover { background: #ececf0; }
+    .domain-grid .pick input:checked + span { border-color: var(--zen-primary); background: #eef5ff; }
+    .domain-grid .pick input:checked + span strong { color: var(--zen-primary-dark); }
+    .domain-grid .pick input:checked + span::after { content: ""; position: absolute; top: 14px; right: 14px; width: 18px; height: 18px; border-radius: 50%; background: var(--zen-primary) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 18'%3E%3Cpath d='M5 9.4l2.6 2.6L13 6.6' fill='none' stroke='white' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / 18px no-repeat; }
+    .chip-row { display: flex; flex-wrap: wrap; gap: 8px; }
+    .chip-row .pick > span { display: inline-flex; align-items: center; gap: 7px; min-height: 40px; padding: 7px 15px; border: 1px solid transparent; border-radius: var(--zen-radius-pill); background: var(--zen-bg); font-size: 14px; }
+    .chip-row .pick > span:hover { background: #ececf0; }
+    .chip-row .pick input:checked + span { border-color: rgba(0, 113, 227, .5); background: var(--zen-blue); color: var(--zen-primary-dark); font-weight: 600; }
+    .level-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+    .level-grid .pick > span { display: flex; align-items: center; justify-content: center; gap: 8px; min-height: 54px; border: 1.5px solid transparent; border-radius: 14px; background: var(--zen-bg); font-size: 16px; font-weight: 500; }
+    .level-grid .pick > span:hover { background: #ececf0; }
+    .level-grid .pick input:checked + span { border-color: var(--zen-primary); background: #eef5ff; color: var(--zen-primary-dark); font-weight: 600; }
+    .count-row { display: flex; flex-wrap: wrap; gap: 8px; }
+    .count-row .pick > span { display: flex; align-items: center; justify-content: center; min-width: 76px; min-height: 46px; padding: 8px 14px; border-radius: 12px; background: var(--zen-bg); font-weight: 600; font-variant-numeric: tabular-nums; }
+    .count-row .pick > span:hover { background: #ececf0; }
+    .count-row .pick input:checked + span { background: var(--zen-primary); color: #fff; }
+    .count-custom { width: 132px; min-height: 46px; padding: 8px 14px; border: 1.5px solid transparent; border-radius: 12px; background: var(--zen-bg); color: var(--zen-ink); font-weight: 600; }
+    .count-custom::placeholder { color: var(--zen-muted); font-weight: 400; }
+    .count-custom:focus, .count-custom.active { border-color: var(--zen-primary); background: var(--zen-surface); outline: 0; box-shadow: 0 0 0 4px rgba(0, 113, 227, .16); }
+    .builder-summary { position: sticky; top: 84px; padding: 22px; border: 1px solid rgba(0, 113, 227, .16); border-radius: 24px; background: linear-gradient(180deg, #f4f9ff 0%, #ffffff 46%); box-shadow: var(--zen-shadow); }
+    .builder-summary h2 { margin: 0; font-size: 20px; font-weight: 700; letter-spacing: -.02em; }
+    .summary-list { display: grid; margin: 16px 0 14px; overflow: hidden; border-radius: 16px; background: var(--zen-bg); }
+    .summary-list div { padding: 11px 16px; border-bottom: 1px solid var(--zen-line); }
+    .summary-list div:last-child { border-bottom: 0; }
+    .summary-list dt { color: var(--zen-muted); font-size: 12px; }
+    .summary-list dd { margin: 2px 0 0; font-size: 15px; font-weight: 600; line-height: 1.4; }
+    .builder-hint { min-height: 42px; margin: 0 0 14px; color: var(--zen-muted); font-size: 14px; }
+    .builder-hint.warn { color: var(--zen-orange); }
+    .builder-summary .primary { width: 100%; min-height: 50px; font-size: 16px; }
+    .builder-summary .primary::after { content: ""; width: 7px; height: 7px; margin-left: 10px; border: solid currentColor; border-width: 1.8px 1.8px 0 0; transform: rotate(45deg); }
+    .builder-reset { display: block; width: 100%; min-height: 40px; margin-top: 6px; border: 0; border-radius: var(--zen-radius-pill); background: transparent; color: var(--zen-primary-dark); font-size: 14px; }
+    .builder-reset:hover { background: var(--zen-blue); }
 
     .search-shell { padding: 0; border: 0; border-radius: 0; background: transparent; box-shadow: none; }
     .search-status { min-height: 24px; margin: 10px 0 0; color: var(--zen-muted); font-size: 13px; }
@@ -339,6 +375,13 @@
       .metric:nth-child(3) { border-right: 1px solid var(--zen-line); }
       .metric:last-child { grid-column: 1 / -1; border: 0; }
       .quick-grid, .resource-grid { grid-template-columns: 1fr; gap: 12px; }
+      .builder { gap: 22px; }
+      .builder-summary { position: static; }
+      .domain-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .domain-grid .pick > span { min-height: 96px; }
+      .subject-row { display: flex; }
+      .subject-row .pick { flex: 1 1 0; }
+      .subject-row .pick > span { justify-content: center; padding-inline: 10px; }
       .resource-card h3, .resource-card-subtitle { min-height: 0; }
       .section-title { align-items: stretch; flex-direction: column; }
       .section-meta { text-align: left; }
@@ -665,10 +708,10 @@
           <aside class="focus-queue" aria-label="今日学习重点">
             <div class="section-title"><div><p class="eyebrow">TODAY</p><h2>今日学习重点</h2></div><span class="section-meta">按当前进度更新</span></div>
             <div class="status-list">
-              <a class="status-row focus" href="#practice"><span><strong>今日到期复习</strong><br><span>1／3／7 天复习计划</span></span><span class="count">${overview.due}</span></a>
+              <a class="status-row focus" href="#practice/due"><span><strong>今日到期复习</strong><br><span>1／3／7 天复习计划</span></span><span class="count">${overview.due}</span></a>
               <a class="status-row soft-risk" href="#review/wrong"><span><strong>待掌握错题</strong><br><span>从空白重做开始</span></span><span class="count">${overview.wrong}</span></a>
               <a class="status-row pending" href="#review/unfinished"><span><strong>未完成套题</strong><br><span>继续已有进度</span></span><span class="count">${unfinished}</span></a>
-              <a class="status-row calm" href="#practice"><span><strong>低信心题</strong><br><span>答对也值得再练</span></span><span class="count">${lowConfidence}</span></a>
+              <a class="status-row calm" href="#practice/confidence"><span><strong>低信心题</strong><br><span>答对也值得再练</span></span><span class="count">${lowConfidence}</span></a>
             </div>
           </aside>
         </section>
@@ -813,44 +856,217 @@
       app.innerHTML = `<section class="panel" style="margin-top:0"><div class="section-title"><div><p class="eyebrow">DIAGNOSIS</p><h1>学习诊断</h1><p>按题型查看作答、错题和到期复习。</p></div><span class="section-meta">少于 5 道已作答题时不判定薄弱项</span></div><div class="diagnosis-wrap"><table class="diagnosis"><thead><tr><th>题型 / subtype</th><th>已作答</th><th>正确率</th><th>待掌握错题</th><th>到期复习</th><th>结论</th></tr></thead><tbody>${allRows.map(item => diagnosisRow(item.row, item.subtype)).join("")}</tbody></table></div><div class="diagnosis-cards">${allRows.map(item => diagnosisCard(item.row, item.subtype)).join("")}</div></section>`;
     }
 
-    function candidates(modes) {
-      const selected = new Set(modes), rows = skillRows(), weak = new Set(rows.filter(row => row.submitted >= 5 && row.correct / row.submitted < .7).map(row => row.skill));
-      if (selected.has("all")) return MANIFEST.questions;
-      return MANIFEST.questions.filter(question => {
-        const item = qState(question.questionId);
-        return (selected.has("weak") && weak.has(question.skill)) || (selected.has("wrong") && item.firstWrongAt && !item.mastered) ||
-          (selected.has("due") && item.nextDueAt && timeOf(item.nextDueAt) <= Date.now() && !item.mastered) ||
-          (selected.has("unseen") && !item.submitted) || (selected.has("starred") && item.starred) ||
-          (selected.has("confidence") && ["unsure", "guess"].includes(item.confidence));
+    /* ---------- 生成练习 ----------
+       接口说明见 docs/frontend-notes.md。题目元数据只在 builderMeta() 里归一化：
+       数据库补齐 subject / genre / difficulty 等字段后，只需要改这一处。 */
+    const BUILDER_SUBJECTS = [{ key: "reading_writing", label: "Reading & Writing" }, { key: "math", label: "Math" }];
+    const BUILDER_DOMAINS = [
+      { key: "Information and Ideas", label: "信息与观点", subject: "reading_writing" },
+      { key: "Craft and Structure", label: "技巧与构造", subject: "reading_writing" },
+      { key: "Expression of Ideas", label: "观点表达", subject: "reading_writing" },
+      { key: "Standard English Conventions", label: "标准英语用法", subject: "reading_writing" },
+      { key: "Algebra", label: "代数", subject: "math" },
+      { key: "Advanced Math", label: "高等数学", subject: "math" },
+      { key: "Problem-Solving and Data Analysis", label: "问题求解与数据分析", subject: "math" },
+      { key: "Geometry and Trigonometry", label: "几何与三角", subject: "math" }
+    ];
+    const BUILDER_GENRES = [{ key: "poetry", label: "诗歌类" }, { key: "fiction", label: "小说类" }];
+    const BUILDER_STATUSES = [
+      { key: "unseen", label: "未作答" }, { key: "wrong", label: "作答错误" },
+      { key: "repeat_wrong", label: "多次答错（≥2次）" }, { key: "redo_correct", label: "错题重做后做对" },
+      { key: "due", label: "到期复习" }, { key: "starred", label: "星标题" },
+      { key: "confidence", label: "低信心题" }, { key: "weak", label: "薄弱题型" }
+    ];
+    const BUILDER_LEVELS = [{ key: "easy", label: "Easy" }, { key: "medium", label: "Medium" }, { key: "hard", label: "Hard" }];
+    const BUILDER_COUNTS = [5, 10, 15, 20, 50, 100];
+    const BUILDER_MAX_COUNT = 200;
+    const BUILDER_MINUTES = { reading_writing: [1, 1.4], math: [1.3, 1.8] };
+    const sectionByRoute = new Map(MANIFEST.pages.map(page => [page.route, page.section]));
+    function builderDefaults() {
+      return { subject: "reading_writing", domains: new Set(), skills: new Set(), genres: new Set(), statuses: new Set(), levels: new Set(), count: 10, custom: false };
+    }
+    let builderFilters = builderDefaults(), builderPreset = "";
+    function inferGenre(passage) {
+      const match = String(passage || "").slice(0, 300).match(/^\s*(?:Text 1\s*)?(?:The following text is|This text is)[^.]*?\b(poem|poetry|novel|novella|short story|story)\b/i);
+      if (!match) return "";
+      return /^poe/i.test(match[1]) ? "poetry" : "fiction";
+    }
+    function builderMeta(question) {
+      const section = String(question.subject || question.section || sectionByRoute.get(question.route) || "");
+      const level = String(question.difficulty || "").toLowerCase();
+      return {
+        subject: /math/i.test(section) ? "math" : "reading_writing",
+        domain: question.domain || "",
+        skill: question.skill || "",
+        genre: question.genre || question.passageGenre || inferGenre(question.passage),
+        level: BUILDER_LEVELS.some(item => item.key === level) ? level : ""
+      };
+    }
+    const builderMetaById = new Map(MANIFEST.questions.map(question => [question.questionId, builderMeta(question)]));
+    function builderRows() {
+      const weak = new Set(skillRows().filter(row => row.submitted >= 5 && row.correct / row.submitted < .7).map(row => row.skill)), now = Date.now();
+      return MANIFEST.questions.map(question => {
+        const item = qState(question.questionId), meta = builderMetaById.get(question.questionId);
+        const wrongCount = (item.firstWrongAt ? 1 : 0) + (item.firstWrongAt && item.lastRedoCorrect === false ? 1 : 0);
+        return { question, meta, flags: {
+          unseen: !item.submitted,
+          wrong: Boolean(item.firstWrongAt && !item.mastered),
+          repeat_wrong: wrongCount >= 2,
+          redo_correct: Boolean(item.firstWrongAt && item.lastRedoCorrect === true),
+          due: Boolean(item.nextDueAt && timeOf(item.nextDueAt) <= now && !item.mastered),
+          starred: item.starred,
+          confidence: ["unsure", "guess"].includes(item.confidence),
+          weak: weak.has(question.skill)
+        } };
       });
     }
-    function selectedSources() { return [...document.querySelectorAll('input[name="source"]:checked')].map(input => input.value); }
+    function builderMatches(row, filters, skip = "") {
+      const meta = row.meta;
+      return meta.subject === filters.subject
+        && (skip === "domain" || !filters.domains.size || filters.domains.has(meta.domain))
+        && (skip === "skill" || !filters.skills.size || filters.skills.has(meta.skill))
+        && (skip === "genre" || !filters.genres.size || filters.genres.has(meta.genre))
+        && (skip === "status" || !filters.statuses.size || [...filters.statuses].some(key => row.flags[key]))
+        && (skip === "level" || !filters.levels.size || filters.levels.has(meta.level));
+    }
+    function candidates(filters = builderFilters, rows = builderRows()) {
+      return rows.filter(row => builderMatches(row, filters)).map(row => row.question);
+    }
+    function builderCount(filters = builderFilters) {
+      return Math.min(BUILDER_MAX_COUNT, Math.max(1, Math.floor(Number(filters.count) || 0)));
+    }
     function renderBuilder() {
-      const examCount = examEligiblePages().length;
-      app.innerHTML = `<section class="panel" style="margin-top:0"><div class="section-title"><div><p class="eyebrow">TODAY PRACTICE</p><h1>生成今日练习</h1><p>组合多个来源，让今天的训练更贴近当前需要。</p></div></div><div class="builder"><section class="command-panel"><h2>题目来源（可多选）</h2><div class="option-list">
-        <label class="option-row"><input type="checkbox" name="source" value="weak" checked><span>薄弱题型</span></label>
-        <label class="option-row"><input type="checkbox" name="source" value="wrong" checked><span>历史错题</span></label>
-        <label class="option-row"><input type="checkbox" name="source" value="due" checked><span>1／3／7 天到期复习</span></label>
-        <label class="option-row"><input type="checkbox" name="source" value="unseen" checked><span>从未做过</span></label>
-        <label class="option-row"><input type="checkbox" name="source" value="starred"><span>星标题</span></label>
-        <label class="option-row"><input type="checkbox" name="source" value="confidence"><span>低信心题</span></label>
-        <label class="option-row"><input type="checkbox" name="source" value="all"><span>全部题库</span></label>
-      </div></section><section class="command-panel"><h2>练习题量</h2><div class="amount-group">
-        <label class="amount-choice"><input type="radio" name="count" value="10" checked><span>10 题</span></label>
-        <label class="amount-choice"><input type="radio" name="count" value="20"><span>20 题</span></label>
-        <label class="amount-choice"><input type="radio" name="count" value="30"><span>30 题</span></label>
-      </div><p class="builder-hint" id="builderHint"></p><button class="action primary" id="buildSession" type="button">开始练习</button></section></div>${examCount ? `<div class="quiet-note">已有 ${examCount} 套正式模考，可从首页“正式模考”进入。</div>` : ""}</section>`;
-      const update = () => { const modes = selectedSources(); document.getElementById("builderHint").textContent = modes.length ? `当前有 ${candidates(modes).length} 道唯一候选题` : "请至少选择一个题目来源"; };
-      document.querySelectorAll('input[name="source"]').forEach(input => input.addEventListener("change", update));
-      update(); document.getElementById("buildSession").addEventListener("click", buildSession);
+      const examCount = examEligiblePages().length, preset = route().tab;
+      if (preset !== builderPreset && BUILDER_STATUSES.some(item => item.key === preset)) builderFilters.statuses = new Set([preset]);
+      builderPreset = preset;
+      app.innerHTML = `<section class="panel" style="margin-top:0"><div class="section-title"><div><p class="eyebrow">PRACTICE</p><h1>生成今日练习</h1><p>按科目、专项、作答情况和难度，组合出一组适合现在练的题。</p></div></div>
+        <div class="builder"><form class="builder-form" id="builderForm">
+          <fieldset class="builder-group"><legend>选择科目</legend><div class="subject-row" id="builderSubjects"></div></fieldset>
+          <fieldset class="builder-group"><legend>选择专项<small>可多选，不选即全部专项</small></legend><div class="domain-grid" id="builderDomains"></div></fieldset>
+          <fieldset class="builder-group"><legend>选择知识点<small>可多选，不选即全部知识点</small></legend><div class="chip-row" id="builderSkills"></div></fieldset>
+          <fieldset class="builder-group"><legend>选择分类<small>按文本类型</small></legend><div class="chip-row" id="builderGenres"></div></fieldset>
+          <fieldset class="builder-group"><legend>按作答情况<small>可多选，不选即不限</small></legend><div class="chip-row" id="builderStatuses"></div></fieldset>
+          <fieldset class="builder-group"><legend>选择难度<small>可多选，不选即不限难度</small></legend><div class="level-grid" id="builderLevels"></div></fieldset>
+          <fieldset class="builder-group"><legend>选择题量</legend><div class="count-row" id="builderCounts"></div></fieldset>
+        </form>
+        <aside class="builder-summary" aria-label="练习配置">
+          <h2 id="builderTitle"></h2>
+          <dl class="summary-list">
+            <div><dt>练习方向</dt><dd id="summaryDirection"></dd></div>
+            <div><dt>知识点</dt><dd id="summarySkills"></dd></div>
+            <div><dt>作答情况</dt><dd id="summaryStatuses"></dd></div>
+            <div><dt>难度与题量</dt><dd id="summaryLevel"></dd></div>
+            <div><dt>预计用时</dt><dd id="summaryTime"></dd></div>
+          </dl>
+          <p class="builder-hint" id="builderHint" role="status" aria-live="polite"></p>
+          <button class="action primary" id="buildSession" type="button">开始练习</button>
+          <button class="builder-reset" id="resetBuilder" type="button">重置条件</button>
+        </aside></div>${examCount ? `<div class="quiet-note">已有 ${examCount} 套正式模考，可从首页“正式模考”进入。</div>` : ""}</section>`;
+      const form = document.getElementById("builderForm");
+      form.addEventListener("submit", event => event.preventDefault());
+      form.addEventListener("change", event => {
+        const input = event.target, filters = builderFilters;
+        if (input.name === "subject") { builderFilters = { ...builderDefaults(), subject: input.value, count: filters.count, custom: filters.custom }; }
+        else if (input.name === "count") { filters.custom = false; filters.count = Number(input.value); }
+        else if (input.name === "customCount") { return; }
+        else {
+          const target = { domain: filters.domains, skill: filters.skills, genre: filters.genres, source: filters.statuses, level: filters.levels }[input.name];
+          if (!target) return;
+          if (input.checked) target.add(input.value); else target.delete(input.value);
+        }
+        updateBuilder({ name: input.name, value: input.value });
+      });
+      form.addEventListener("input", event => {
+        if (event.target.name !== "customCount") return;
+        const value = Math.floor(Number(event.target.value));
+        builderFilters.custom = value >= 1;
+        builderFilters.count = value >= 1 ? Math.min(BUILDER_MAX_COUNT, value) : 10;
+        updateBuilder(null, { keepCounts: true });
+      });
+      document.getElementById("buildSession").addEventListener("click", buildSession);
+      document.getElementById("resetBuilder").addEventListener("click", () => { builderFilters = builderDefaults(); updateBuilder(); });
+      updateBuilder();
+    }
+    function updateBuilder(focus = null, { keepCounts = false } = {}) {
+      const filters = builderFilters, rows = builderRows();
+      const subjectRows = rows.filter(row => row.meta.subject === filters.subject);
+      const domains = BUILDER_DOMAINS.filter(item => item.subject === filters.subject);
+      // 只保留仍然属于所选专项的知识点
+      const skillDomain = new Map(subjectRows.map(row => [row.meta.skill, row.meta.domain]));
+      filters.skills = new Set([...filters.skills].filter(skill => skillDomain.has(skill) && (!filters.domains.size || filters.domains.has(skillDomain.get(skill)))));
+      const count = (dimension, test) => rows.filter(row => builderMatches(row, filters, dimension) && test(row)).length;
+      const pick = (type, name, value, checked, body, disabled = false) =>
+        `<label class="pick"><input type="${type}" name="${name}" value="${escapeHtml(value)}"${checked ? " checked" : ""}${disabled ? " disabled" : ""}><span>${body}</span></label>`;
+      document.getElementById("builderSubjects").innerHTML = BUILDER_SUBJECTS.map(item => {
+        const total = rows.filter(row => row.meta.subject === item.key).length;
+        return pick("radio", "subject", item.key, filters.subject === item.key, `${item.label}${total ? "" : "<i>即将开放</i>"}`, !total);
+      }).join("");
+      document.getElementById("builderDomains").innerHTML = domains.map(item => {
+        const total = count("domain", row => row.meta.domain === item.key);
+        return pick("checkbox", "domain", item.key, filters.domains.has(item.key), `<strong>${item.label}</strong><small lang="en">${item.key}</small><i>${total} 题</i>`, !total && !filters.domains.has(item.key));
+      }).join("");
+      const skills = [...skillDomain.entries()].filter(([skill, domain]) => skill && (!filters.domains.size || filters.domains.has(domain)))
+        .sort((left, right) => domains.findIndex(item => item.key === left[1]) - domains.findIndex(item => item.key === right[1]) || left[0].localeCompare(right[0]));
+      document.getElementById("builderSkills").innerHTML = skills.map(([skill]) => {
+        const total = count("skill", row => row.meta.skill === skill);
+        return pick("checkbox", "skill", skill, filters.skills.has(skill), `${escapeHtml(SAT_SKILL_ZH[skill] || skill)}<i>${total}</i>`, !total && !filters.skills.has(skill));
+      }).join("");
+      const genreKeys = new Set(subjectRows.map(row => row.meta.genre).filter(Boolean));
+      const genres = [...BUILDER_GENRES, ...[...genreKeys].filter(key => !BUILDER_GENRES.some(item => item.key === key)).map(key => ({ key, label: key }))];
+      document.getElementById("builderGenres").innerHTML = genres.map(item => {
+        const total = count("genre", row => row.meta.genre === item.key);
+        return pick("checkbox", "genre", item.key, filters.genres.has(item.key), `${escapeHtml(item.label)}<i>${total}</i>`, !total && !filters.genres.has(item.key));
+      }).join("");
+      document.getElementById("builderStatuses").innerHTML = BUILDER_STATUSES.map(item => {
+        const total = count("status", row => row.flags[item.key]);
+        return pick("checkbox", "source", item.key, filters.statuses.has(item.key), `${item.label}<i>${total}</i>`, !total && !filters.statuses.has(item.key));
+      }).join("");
+      document.getElementById("builderLevels").innerHTML = BUILDER_LEVELS.map(item => {
+        const total = count("level", row => row.meta.level === item.key);
+        return pick("checkbox", "level", item.key, filters.levels.has(item.key), `${item.label}<i>${total} 题</i>`, !total && !filters.levels.has(item.key));
+      }).join("");
+      if (!keepCounts) {
+        document.getElementById("builderCounts").innerHTML = BUILDER_COUNTS.map(value =>
+          pick("radio", "count", String(value), !filters.custom && filters.count === value, `${value} 题`)).join("")
+          + `<input class="count-custom${filters.custom ? " active" : ""}" name="customCount" type="number" inputmode="numeric" min="1" max="${BUILDER_MAX_COUNT}" placeholder="自定义" aria-label="自定义题量" value="${filters.custom ? filters.count : ""}">`;
+      } else {
+        document.querySelectorAll('#builderCounts input[name="count"]').forEach(input => { input.checked = !filters.custom && Number(input.value) === filters.count; });
+        document.querySelector("#builderCounts .count-custom").classList.toggle("active", filters.custom);
+      }
+      if (focus) {
+        const input = [...document.querySelectorAll(`#builderForm input[name="${focus.name}"]`)].find(item => item.value === focus.value);
+        if (input) input.focus();
+      }
+      const pool = rows.filter(row => builderMatches(row, filters)), wanted = builderCount(filters), size = Math.min(wanted, pool.length);
+      const labels = (set, list) => list.filter(item => set.has(item.key)).map(item => item.label);
+      const subject = BUILDER_SUBJECTS.find(item => item.key === filters.subject).label;
+      const domainLabels = labels(filters.domains, domains), statusLabels = labels(filters.statuses, BUILDER_STATUSES), levelLabels = labels(filters.levels, BUILDER_LEVELS);
+      const skillLabels = [...filters.skills].map(skill => SAT_SKILL_ZH[skill] || skill).concat(labels(filters.genres, genres));
+      const [low, high] = BUILDER_MINUTES[filters.subject] || BUILDER_MINUTES.reading_writing;
+      document.getElementById("builderTitle").textContent = domainLabels.length === 1 ? `${domainLabels[0]}专项` : domainLabels.length ? "组合专项练习" : "综合练习";
+      document.getElementById("summaryDirection").textContent = `${subject} · ${domainLabels.length ? domainLabels.join("、") : "全部专项"}`;
+      document.getElementById("summarySkills").textContent = skillLabels.length ? skillLabels.join("、") : "全部知识点";
+      document.getElementById("summaryStatuses").textContent = statusLabels.length ? statusLabels.join("、") : "不限";
+      document.getElementById("summaryLevel").textContent = `${levelLabels.length ? levelLabels.join(" / ") : "不限难度"} · ${wanted} 题`;
+      document.getElementById("summaryTime").textContent = size ? `${Math.max(1, Math.round(size * low))}–${Math.max(1, Math.round(size * high))} 分钟` : "—";
+      const hint = document.getElementById("builderHint");
+      hint.classList.toggle("warn", pool.length < wanted);
+      hint.textContent = !pool.length ? "当前条件下没有题目，试着放宽筛选条件。"
+        : pool.length < wanted ? `符合条件的题目只有 ${pool.length} 道，将全部加入本次练习。`
+        : `符合条件的题目共 ${pool.length} 道，随机抽取 ${wanted} 道。`;
+      document.getElementById("buildSession").disabled = !pool.length;
     }
     function buildSession() {
-      const modes = selectedSources(), count = Number(document.querySelector('input[name="count"]:checked').value), pool = [...candidates(modes)];
-      if (!modes.length) { alert("请至少选择一个题目来源。"); return; }
+      const filters = builderFilters, pool = [...candidates(filters)], count = builderCount(filters);
       for (let index = pool.length - 1; index > 0; index -= 1) { const target = Math.floor(Math.random() * (index + 1)); [pool[index], pool[target]] = [pool[target], pool[index]]; }
       const selected = pool.slice(0, count);
       if (!selected.length) { alert("当前条件下没有可练习的题目。"); return; }
-      const session = { id: `session-${Date.now()}`, createdAt: nowIso(), sources: modes, answers: {}, questions: selected.map(question => ({ questionId: question.questionId, route: question.route })) };
+      const session = {
+        id: `session-${Date.now()}`, createdAt: nowIso(),
+        sources: filters.statuses.size ? [...filters.statuses] : ["all"],
+        filters: { subject: filters.subject, domains: [...filters.domains], skills: [...filters.skills], genres: [...filters.genres], statuses: [...filters.statuses], difficulties: [...filters.levels], count },
+        answers: {}, questions: selected.map(question => ({ questionId: question.questionId, route: question.route }))
+      };
       try {
         const payload = JSON.stringify(session);
         learningStorage.setItem(SESSION_KEY, payload);
