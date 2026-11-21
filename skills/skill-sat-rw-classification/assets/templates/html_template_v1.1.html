@@ -684,6 +684,45 @@
     .highlight-mark { background: #fff0a8; border-radius: 3px; padding: 0 1px; }
     .review-hint { color: var(--sat-text-muted); font-size: 12px; }
     .print-root { display: none; }
+    .question-list { display: none; }
+    #questionListBtn { display: none; }
+    #questionListBtn[aria-pressed="true"] { background: #ffffff; box-shadow: 0 1px 3px rgba(0, 0, 0, .12); }
+    .question-list-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 0 0 4px 4px; }
+    .question-list-head h2 { margin: 0; font-size: 15px; font-weight: 600; letter-spacing: -.01em; }
+    #questionListCollapse { min-height: 30px; padding: 4px 11px; background: transparent; color: var(--sat-blue-text); font-size: 13px; }
+    #questionListCollapse:hover { background: var(--sat-blue-muted); }
+    .question-list-summary { margin: 0 0 10px; padding-left: 4px; color: var(--sat-text-muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+    .question-list-items { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; margin: 0; padding: 0; list-style: none; }
+    .qlist-item {
+      width: 100%;
+      min-height: 40px;
+      padding: 0;
+      border-radius: 11px;
+      font-size: 14px;
+      font-weight: 600;
+      font-variant-numeric: tabular-nums;
+    }
+    .qlist-item.current { outline: 2px solid var(--sat-blue); outline-offset: 2px; }
+    .qlist-item.selected { background: var(--sat-blue-muted); color: var(--sat-blue-text); }
+    .qlist-item.correct { background: var(--sat-correct-bg); color: var(--sat-correct-text); }
+    .qlist-item.incorrect { background: var(--sat-incorrect-bg); color: var(--sat-incorrect-text); }
+    .qlist-item .star { color: #b25000; margin-left: 1px; font-size: 10px; }
+    @media (min-width: 1100px) {
+      #questionListBtn { display: inline-block; }
+      .layout.has-question-list { grid-template-columns: 212px minmax(280px, 1fr) minmax(300px, 1fr); }
+      body.chart-question .layout.has-question-list { grid-template-columns: 212px minmax(0, calc((100% - 244px) * var(--chart-left-ratio, .55))) minmax(0, 1fr); }
+      .layout.has-question-list > .question-list {
+        display: block;
+        position: sticky;
+        top: 73px;
+        max-height: calc(100vh - 73px - 88px);
+        overflow: auto;
+        padding: 14px 14px 16px;
+        border-radius: var(--sat-radius-card);
+        background: var(--sat-bg-panel);
+        box-shadow: var(--sat-shadow-card);
+      }
+    }
     @media (max-width: 820px) {
       .topbar {
         display: grid;
@@ -780,6 +819,7 @@
     <div class="progress" id="progressText">Question 0 of 0</div>
     <div class="toolbar">
       <div class="tools-group">
+        <button id="questionListBtn" type="button" aria-pressed="false" aria-controls="questionList" hidden>题目列表</button>
         <button id="overviewBtn" type="button">答题卡</button>
         <button id="checkAllBtn" type="button">提交已作答题</button>
         <button id="examModeBtn" type="button" hidden>正式模考</button>
@@ -819,6 +859,11 @@
   </aside>
 
   <main class="layout" id="practiceLayout">
+    <aside class="question-list" id="questionList" aria-label="题目列表" hidden>
+      <div class="question-list-head"><h2>题目列表</h2><button id="questionListCollapse" type="button" aria-controls="questionList">收起</button></div>
+      <p class="question-list-summary" id="questionListSummary"></p>
+      <ol class="question-list-items" id="questionListItems"></ol>
+    </aside>
     <section class="pane stimulus-pane">
       <div class="stimulus" id="stimulus"></div>
     </section>
@@ -945,6 +990,11 @@
       overviewBtn: document.getElementById("overviewBtn"),
       overviewPanel: document.getElementById("overviewPanel"),
       overviewGrid: document.getElementById("overviewGrid"),
+      questionList: document.getElementById("questionList"),
+      questionListItems: document.getElementById("questionListItems"),
+      questionListSummary: document.getElementById("questionListSummary"),
+      questionListBtn: document.getElementById("questionListBtn"),
+      questionListCollapse: document.getElementById("questionListCollapse"),
       checkCurrentBtn: document.getElementById("checkCurrentBtn"),
       checkAllBtn: document.getElementById("checkAllBtn"),
       exportJsonBtn: document.getElementById("exportJsonBtn"),
@@ -2110,10 +2160,12 @@
       if (!questionHasChart(question)) {
         document.body.classList.remove("chart-question");
         document.body.style.removeProperty("--chart-left-pct");
+        document.body.style.removeProperty("--chart-left-ratio");
         return;
       }
       document.body.classList.add("chart-question");
       document.body.style.setProperty("--chart-left-pct", `${chartLeftPercent(effectiveChartScale(question))}%`);
+      document.body.style.setProperty("--chart-left-ratio", String(chartLeftPercent(effectiveChartScale(question)) / 100));
     }
 
     function render() {
@@ -2229,6 +2281,7 @@
       els.returnOriginalBtn.hidden = !redoMode || Boolean(practiceSession);
       els.prevBtn.disabled = sessionIndex >= 0 ? sessionIndex === 0 : current === 0;
       els.nextBtn.disabled = sessionIndex >= 0 ? sessionIndex === session.questions.length - 1 : current === QUESTIONS.length - 1;
+      renderQuestionList(qs);
     }
 
     function updateChoiceSelection(qs) {
@@ -2240,6 +2293,7 @@
       renderFeedback(qs);
       els.checkCurrentBtn.disabled = qs.submitted || !qs.selected;
       updateCurrentOverviewButton(qs);
+      renderQuestionList(qs);
     }
 
     function updateCurrentOverviewButton(qs) {
@@ -2266,6 +2320,7 @@
       renderExplanation(question, qs);
       renderReflection(qs);
       updateCurrentOverviewButton(qs);
+      renderQuestionList(qs);
       els.starBtn.textContent = qs.starred ? "★ 已加入复习" : "☆ 加入复习";
       els.checkCurrentBtn.disabled = qs.submitted || !qs.selected;
       els.revealBtn.disabled = !qs.submitted;
@@ -2373,6 +2428,80 @@
         });
         els.overviewGrid.appendChild(button);
       });
+    }
+
+    // Whether the list is shown is a per-tab view preference, kept out of the learning store.
+    const QUESTION_LIST_VIEW_KEY = "sat-ui:question-list";
+    let questionListOpen = true;
+    try { questionListOpen = sessionStorage.getItem(QUESTION_LIST_VIEW_KEY) !== "closed"; } catch {}
+    function setQuestionListOpen(open) {
+      questionListOpen = open;
+      try { sessionStorage.setItem(QUESTION_LIST_VIEW_KEY, open ? "open" : "closed"); } catch {}
+      renderQuestionList();
+    }
+    els.questionListBtn.addEventListener("click", () => setQuestionListOpen(!questionListOpen));
+    els.questionListCollapse.addEventListener("click", () => {
+      setQuestionListOpen(false);
+      els.questionListBtn.focus();
+    });
+
+    let questionListCurrent = -1;
+    function renderQuestionList(currentState) {
+      const available = !redoMode && !activeSessionId && !requestedExamMode;
+      const open = available && questionListOpen;
+      els.questionListBtn.hidden = !available;
+      els.questionListBtn.setAttribute("aria-pressed", String(open));
+      els.questionList.hidden = !open;
+      els.practiceLayout.classList.toggle("has-question-list", open);
+      if (!open) { questionListCurrent = -1; return; }
+      if (els.questionListItems.children.length !== QUESTIONS.length) {
+        els.questionListItems.innerHTML = "";
+        QUESTIONS.forEach((question, index) => {
+          const item = document.createElement("li");
+          const button = document.createElement("button");
+          button.type = "button";
+          button.className = "qlist-item";
+          button.dataset.questionListIndex = String(index);
+          button.addEventListener("click", () => {
+            if (index === current) return;
+            current = index;
+            saveState({ markQuestion: false });
+            render();
+            scrollPracticeToStart();
+          });
+          item.appendChild(button);
+          els.questionListItems.appendChild(item);
+        });
+        questionListCurrent = -1;
+      }
+      let answered = 0;
+      QUESTIONS.forEach((question, index) => {
+        const qs = index === current && currentState
+          ? currentState
+          : state.answers[question.question_id]
+            ? normalizeQuestionState(state.answers[question.question_id], question)
+            : defaultQuestionState();
+        if (qs.checked || qs.selected) answered += 1;
+        const button = els.questionListItems.children[index].firstElementChild;
+        button.classList.toggle("current", index === current);
+        button.classList.toggle("selected", Boolean(qs.selected) && !qs.checked);
+        button.classList.toggle("correct", Boolean(qs.checked && qs.correct));
+        button.classList.toggle("incorrect", Boolean(qs.checked && !qs.correct));
+        button.innerHTML = `${escapeHtml(String(question.question_number ?? index + 1))}${qs.starred ? '<span class="star" aria-hidden="true">★</span>' : ""}`;
+        button.setAttribute("aria-label", overviewLabel(question, qs, index));
+        if (index === current) button.setAttribute("aria-current", "true");
+        else button.removeAttribute("aria-current");
+      });
+      els.questionListSummary.textContent = `已答 ${answered}/${QUESTIONS.length}`;
+      if (questionListCurrent !== current) {
+        questionListCurrent = current;
+        const list = els.questionList, active = els.questionListItems.children[current];
+        if (active && list.scrollHeight > list.clientHeight) {
+          const top = active.getBoundingClientRect().top - list.getBoundingClientRect().top + list.scrollTop, bottom = top + active.offsetHeight;
+          if (top < list.scrollTop + 80) list.scrollTop = Math.max(0, top - 90);
+          else if (bottom > list.scrollTop + list.clientHeight - 12) list.scrollTop = bottom - list.clientHeight + 20;
+        }
+      }
     }
 
     function renderStimulus(value) {
