@@ -110,7 +110,7 @@
     body {
       margin: 0;
       font-family: var(--sat-font-ui);
-      background: var(--sat-bg-page);
+      background: var(--sat-bg-panel);
       color: var(--sat-text-main);
       -webkit-font-smoothing: antialiased;
     }
@@ -136,6 +136,7 @@
     button.primary:hover, #checkCurrentBtn:hover { background: var(--sat-blue-hover); }
     button.primary:disabled, #checkCurrentBtn:disabled,
     button.primary:disabled:hover, #checkCurrentBtn:disabled:hover { background: var(--sat-bg-control); color: var(--sat-text-muted); opacity: .7; }
+    #revealBtn:disabled { display: none; }
     button.danger { background: var(--sat-incorrect-bg); color: var(--sat-incorrect-text); }
     button.danger:hover { background: #fbdcdc; }
     button.ghost { background: transparent; }
@@ -143,100 +144,91 @@
     .topbar {
       position: sticky;
       top: 0;
-      z-index: 5;
+      z-index: 20;
+      flex: 0 0 auto;
       display: flex;
       align-items: center;
-      gap: 12px;
-      min-height: 56px;
-      padding: 8px 20px;
-      background: rgba(255, 255, 255, .78);
+      gap: 14px;
+      min-height: 62px;
+      padding: 8px 24px;
+      background: rgba(255, 255, 255, .88);
       -webkit-backdrop-filter: var(--sat-glass);
       backdrop-filter: var(--sat-glass);
       border-bottom: 1px solid var(--sat-hairline);
-      box-shadow: none;
     }
-    .title { flex: 1 1 0; min-width: 0; overflow: hidden; text-overflow: ellipsis; font-size: 15px; font-weight: 600; letter-spacing: -.01em; color: var(--sat-text-main); white-space: nowrap; }
-    .progress {
-      flex: 0 0 auto;
-      padding: 5px 12px;
+    .topbar-main { flex: 1 1 0; min-width: 0; display: grid; gap: 1px; }
+    .title { min-width: 0; overflow: hidden; text-overflow: ellipsis; font-size: 17px; font-weight: 600; letter-spacing: -.01em; line-height: 1.3; color: var(--sat-text-main); white-space: nowrap; }
+    .progress { font-size: 14px; font-weight: 600; font-variant-numeric: tabular-nums; white-space: nowrap; }
+    .toolbar { flex: 0 0 auto; display: flex; align-items: center; gap: 8px; }
+    .toolbar > button, .more-menu > summary {
+      min-height: 36px;
+      padding: 6px 14px;
+      border: 1px solid transparent;
       border-radius: var(--sat-radius-pill);
       background: var(--sat-bg-control);
       color: var(--sat-text-main);
-      font-size: var(--sat-font-size-ui-sm);
-      font-weight: 600;
-      font-variant-numeric: tabular-nums;
+      font-size: 14px;
+      font-weight: 500;
       white-space: nowrap;
     }
-    .toolbar {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    .tools-group, .export-group {
-      display: flex;
+    .more-menu { position: relative; }
+    .more-menu > summary { display: inline-flex; align-items: center; gap: 7px; cursor: pointer; list-style: none; user-select: none; transition: background-color .15s ease; }
+    .more-menu > summary::-webkit-details-marker { display: none; }
+    .more-menu > summary::after { content: ""; width: 6px; height: 6px; margin-top: -3px; border: solid currentColor; border-width: 0 1.5px 1.5px 0; transform: rotate(45deg); }
+    .more-menu > summary:hover, .more-menu[open] > summary { background: var(--sat-bg-control-hover); }
+    .more-menu > summary:focus-visible { outline: 3px solid rgba(0, 113, 227, .5); outline-offset: 2px; }
+    .more-panel {
+      position: absolute;
+      top: calc(100% + 8px);
+      right: 0;
+      z-index: 25;
+      display: grid;
       gap: 2px;
-      padding: 2px;
-      border-radius: var(--sat-radius-pill);
-      background: var(--sat-bg-control);
-    }
-    .tools-group button, .export-group button {
-      min-height: 30px;
-      padding: 5px 13px;
-      font-size: var(--sat-font-size-ui-sm);
-      border: 0;
-      background: transparent;
-      color: var(--sat-text-main);
-      border-radius: var(--sat-radius-pill);
-      white-space: nowrap;
-    }
-    .tools-group button:hover, .export-group button:hover {
+      width: 236px;
+      padding: 8px;
+      border: 1px solid var(--sat-hairline);
+      border-radius: 16px;
       background: #ffffff;
-      box-shadow: 0 1px 3px rgba(0, 0, 0, .12);
+      box-shadow: var(--sat-shadow-popover);
     }
-    .export-label {
-      font-size: var(--sat-font-size-ui-xs);
-      color: var(--sat-text-soft);
-      margin: 0 -2px 0 4px;
-      white-space: nowrap;
-    }
-    #resetBtn {
-      min-height: 34px;
-      padding: 5px 13px;
-      font-size: var(--sat-font-size-ui-sm);
-      border: 0;
-      background: transparent;
-      color: var(--sat-text-soft);
-      white-space: nowrap;
-    }
-    #resetBtn:hover {
-      background: var(--sat-incorrect-bg);
-      color: var(--sat-incorrect-text);
-    }
+    .tools-group { display: grid; gap: 2px; }
+    .more-panel button { width: 100%; min-height: 44px; padding: 8px 12px; border-radius: 10px; background: transparent; font-size: 15px; font-weight: 400; text-align: left; }
+    .more-panel button:hover { background: var(--sat-bg-control); }
+    .export-label { padding: 8px 12px 2px; color: var(--sat-text-soft); font-size: var(--sat-font-size-ui-xs); }
+    .export-group { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; padding: 0 4px 6px; }
+    .more-panel .export-group button { min-height: 38px; background: var(--sat-bg-control); font-size: 14px; font-weight: 500; text-align: center; }
+    .more-panel .export-group button:hover { background: var(--sat-bg-control-hover); }
+    #resetBtn { color: var(--sat-incorrect-text); }
+    #resetBtn:hover { background: var(--sat-incorrect-bg); }
     .layout {
       display: grid;
-      grid-template-columns: minmax(280px, 1fr) minmax(300px, 1fr);
-      align-items: start;
-      gap: 16px;
-      max-width: 1480px;
-      min-height: calc(100vh - 160px);
-      margin: 0 auto 88px;
-      padding: 16px 20px 0;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 0;
+      margin: 0 0 76px;
+      padding: 0;
+      background: var(--sat-bg-panel);
       position: relative;
     }
     .layout::before { content: none; }
     .pane {
       min-width: 0;
       background: var(--sat-bg-panel);
-      padding: 28px 32px;
+      padding: 32px clamp(24px, 3.2vw, 48px) 44px;
       border: 0;
-      border-radius: var(--sat-radius-card);
-      box-shadow: var(--sat-shadow-card);
     }
-    .stimulus-pane {
-      position: sticky;
-      top: 73px;
-      max-height: calc(100vh - 73px - 88px);
-      overflow: auto;
+    .stimulus-pane { border-right: 3px solid var(--sat-explanation-accent); }
+    .stimulus, .pane-footnote { max-width: var(--sat-passage-max-width); margin-inline: auto; }
+    .question-pane > * { max-width: var(--sat-question-max-width); margin-inline: auto; }
+    .pane-footnote { margin-top: 28px; padding-top: 12px; border-top: 1px solid var(--sat-hairline); color: var(--sat-text-muted); font-size: 12px; line-height: 1.6; }
+    .pane-footnote + .pane-footnote { margin-top: 10px; padding-top: 0; border-top: 0; }
+    @media (min-width: 821px) {
+      html, body { height: 100%; }
+      body { display: flex; flex-direction: column; overflow: hidden; }
+      .mode-banner, .legacy-backup-notice { flex: 0 0 auto; }
+      #practiceLayout { flex: 1 1 0; min-height: 0; margin: 0; grid-template-rows: minmax(0, 1fr); }
+      #practiceLayout > .pane { overflow: auto; overscroll-behavior: contain; }
+      .nav { position: static; flex: 0 0 auto; }
+      .exam-shell.visible { flex: 1 1 0; min-height: 0; width: 100%; margin-bottom: 0; overflow: auto; }
     }
     .stimulus {
       font-family: var(--sat-font-reading);
@@ -401,19 +393,21 @@
     .question-meta {
       display: flex;
       align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-      margin-bottom: 12px;
+      gap: 8px;
+      margin-bottom: 18px;
+      padding: 5px;
+      border-radius: 12px;
+      background: var(--sat-bg-subtle);
     }
     #starBtn {
-      min-height: 36px;
-      padding: 6px 12px;
+      min-height: 34px;
+      padding: 5px 12px;
       background: transparent;
-      color: var(--sat-blue-text);
+      color: var(--sat-text-main);
       font-size: 14px;
       white-space: nowrap;
     }
-    #starBtn:hover { background: var(--sat-blue-muted); }
+    #starBtn:hover { background: var(--sat-bg-control); }
     .question-actions {
       display: flex;
       align-items: center;
@@ -421,8 +415,10 @@
       gap: 10px;
       margin-top: 12px;
     }
-    .question-number { margin: 0; font-size: 21px; font-weight: 700; letter-spacing: -.02em; }
+    .question-number { display: grid; place-items: center; min-width: 34px; height: 34px; margin: 0; padding: 0 9px; border-radius: 8px; background: var(--sat-text-main); color: #fff; font-size: 16px; font-weight: 700; font-variant-numeric: tabular-nums; }
+    .question-number:empty { display: none; }
     .prompt {
+      font-family: var(--sat-font-reading);
       font-size: var(--sat-font-size-question);
       line-height: var(--sat-line-height-question);
       margin: 0 0 18px;
@@ -462,14 +458,15 @@
     .choice.selected .label { border-color: var(--sat-blue); background: var(--sat-blue); color: #fff; }
     .choice.correct .label { border-color: var(--sat-correct-text); background: var(--sat-correct-text); color: #fff; }
     .choice.incorrect .label { border-color: var(--sat-incorrect-text); background: var(--sat-incorrect-text); color: #fff; }
+    .choice-text { font-family: var(--sat-font-reading); font-size: 17px; }
     .feedback {
-      min-height: 44px; margin-top: 14px; margin-bottom: 12px;
-      padding: 12px 16px; border-radius: var(--sat-radius-control);
-      font-family: var(--sat-font-ui); font-size: var(--sat-font-size-ui); line-height: 1.45;
-      border: 0; color: var(--sat-text-muted); background: var(--sat-bg-subtle);
+      min-height: 0; margin: 14px 0 0; padding: 0;
+      font-family: var(--sat-font-ui); font-size: var(--sat-font-size-ui-sm); line-height: 1.45;
+      border: 0; color: var(--sat-text-muted); background: transparent;
     }
-    .feedback.correct { color: var(--sat-correct-text); background: var(--sat-correct-bg); font-weight: 600; }
-    .feedback.incorrect { color: var(--sat-incorrect-text); background: var(--sat-incorrect-bg); font-weight: 600; }
+    .feedback.correct, .feedback.incorrect { padding: 12px 16px; border-radius: var(--sat-radius-control); font-size: var(--sat-font-size-ui); font-weight: 600; }
+    .feedback.correct { color: var(--sat-correct-text); background: var(--sat-correct-bg); }
+    .feedback.incorrect { color: var(--sat-incorrect-text); background: var(--sat-incorrect-bg); }
     .explanation {
       display: none; margin-top: 16px;
       border: 1px solid var(--sat-explanation-border); border-radius: var(--sat-radius-panel);
@@ -482,36 +479,60 @@
       left: 0;
       right: 0;
       bottom: 0;
-      z-index: 4;
-      display: flex;
-      justify-content: center;
+      z-index: 15;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+      align-items: center;
       gap: 12px;
-      padding: 12px 16px calc(12px + env(safe-area-inset-bottom, 0px));
-      background: rgba(255, 255, 255, .78);
+      min-height: 66px;
+      padding: 10px 24px calc(10px + env(safe-area-inset-bottom, 0px));
+      background: rgba(255, 255, 255, .92);
       -webkit-backdrop-filter: var(--sat-glass);
       backdrop-filter: var(--sat-glass);
       border-top: 1px solid var(--sat-hairline);
     }
-    .nav button { min-width: 132px; min-height: 44px; font-weight: 600; }
-    #nextBtn { background: var(--sat-blue-muted); color: var(--sat-blue-text); }
-    #nextBtn:hover { background: #d8e9ff; }
-    #nextBtn:disabled, #nextBtn:disabled:hover { background: var(--sat-bg-control); color: var(--sat-text-main); }
+    #overviewBtn {
+      grid-column: 2;
+      justify-self: center;
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      min-height: 40px;
+      padding: 6px 18px;
+      background: var(--sat-text-main);
+      color: #fff;
+    }
+    #overviewBtn:hover { background: #3a3a3c; }
+    #overviewBtn::after { content: ""; width: 6px; height: 6px; margin-top: 3px; border: solid currentColor; border-width: 1.5px 0 0 1.5px; transform: rotate(45deg); }
+    .nav-buttons { grid-column: 3; justify-self: end; display: flex; gap: 10px; }
+    .nav-buttons button { min-width: 96px; min-height: 40px; background: var(--sat-blue); color: #fff; font-weight: 600; }
+    .nav-buttons button:hover { background: var(--sat-blue-hover); }
+    .nav-buttons button:disabled, .nav-buttons button:disabled:hover { background: var(--sat-bg-control); color: var(--sat-text-muted); opacity: .7; }
     .overview {
       position: fixed;
-      inset: 68px 20px auto auto;
-      width: min(420px, calc(100vw - 40px));
-      max-height: calc(100vh - 110px);
+      left: 50%;
+      bottom: 78px;
+      transform: translateX(-50%);
+      width: min(520px, calc(100vw - 32px));
+      max-height: min(62vh, calc(100vh - 170px));
       overflow: auto;
-      padding: 16px;
-      background: rgba(255, 255, 255, .94);
-      -webkit-backdrop-filter: var(--sat-glass);
-      backdrop-filter: var(--sat-glass);
+      padding: 18px;
+      background: #ffffff;
       border: 1px solid var(--sat-hairline);
       border-radius: 20px;
       box-shadow: var(--sat-shadow-popover);
       display: none;
-      z-index: 10;
+      z-index: 18;
     }
+    .overview-head { margin-bottom: 10px; font-size: 16px; font-weight: 600; text-align: center; }
+    .overview-legend { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 14px; margin-bottom: 14px; padding: 10px 0; border-block: 1px solid var(--sat-hairline); color: var(--sat-text-muted); font-size: 12px; }
+    .overview-legend span { display: inline-flex; align-items: center; gap: 5px; }
+    .overview-legend span::before { content: ""; width: 12px; height: 12px; border-radius: 4px; background: var(--sat-bg-control); }
+    .overview-legend .legend-current::before { outline: 2px solid var(--sat-blue); outline-offset: 1px; }
+    .overview-legend .legend-selected::before { background: #b9d8fb; }
+    .overview-legend .legend-correct::before { background: #a9dfb6; }
+    .overview-legend .legend-incorrect::before { background: #f5b5b5; }
+    .overview-legend .legend-star::before { content: "★"; width: auto; height: auto; background: transparent; color: #b25000; font-size: 12px; line-height: 1; }
     .overview.visible { display: block; }
     .overview-grid {
       display: grid;
@@ -530,8 +551,8 @@
     .qnav.correct { background: var(--sat-correct-bg); color: var(--sat-correct-text); }
     .qnav.incorrect { background: var(--sat-incorrect-bg); color: var(--sat-incorrect-text); }
     .qnav .star { color: #b25000; margin-left: 2px; }
-    .home-link { display: inline-flex; align-items: center; min-height: 36px; color: var(--sat-blue-text); font-size: 15px; font-weight: 500; text-decoration: none; white-space: nowrap; border-radius: 8px; }
-    .home-link::before { content: "‹"; margin: -3px 3px 0 0; font-size: 24px; font-weight: 400; line-height: 1; }
+    .home-link { display: inline-flex; align-items: center; justify-self: start; color: var(--sat-blue-text); font-size: 13px; font-weight: 500; line-height: 1.4; text-decoration: none; white-space: nowrap; border-radius: 6px; }
+    .home-link::before { content: ""; width: 6px; height: 6px; margin: 0 4px 0 2px; border: solid currentColor; border-width: 0 0 1.5px 1.5px; transform: rotate(45deg); }
     .home-link:hover { opacity: .72; }
     .mode-banner { display: none; padding: 9px 14px; text-align: center; color: #5c4400; background: #fff6e0; border-bottom: 1px solid var(--sat-hairline); font-size: 13px; font-weight: 600; }
     .mode-banner.visible { display: block; }
@@ -608,8 +629,7 @@
       font-weight: 700;
     }
     .exam-timer.urgent { background: var(--sat-incorrect-bg); color: var(--sat-incorrect-text); }
-    .exam-layout { max-width: none; margin: 0; min-height: auto; padding: 16px; border: 1px solid var(--sat-hairline); background: var(--sat-bg-subtle); }
-    .exam-layout .stimulus-pane { position: static; max-height: none; }
+    .exam-layout { margin: 0; border: 1px solid var(--sat-hairline); }
     .exam-question-number { font-weight: 700; }
     .exam-actions {
       display: flex;
@@ -660,12 +680,19 @@
       white-space: nowrap !important;
       border: 0 !important;
     }
-    .sync-status { color: var(--sat-text-muted); font-size: 12px; white-space: normal; overflow-wrap: anywhere; max-width: 100%; min-width: 0; }
+    .sync-status { grid-column: 1; justify-self: start; color: var(--sat-text-muted); font-size: 13px; line-height: 1.35; white-space: normal; overflow-wrap: anywhere; max-width: 100%; min-width: 0; }
+    .sync-status[data-kind="error"] { color: var(--sat-incorrect-text); font-weight: 600; }
     .reflection {
       display: grid; gap: 14px; margin-top: 18px; padding: 16px 18px;
       border: 0; border-radius: 16px; background: var(--sat-bg-subtle);
     }
     .reflection[hidden] { display: none; }
+    .reflection:not(.is-submitted) { gap: 0; margin-top: 18px; padding: 0; background: transparent; }
+    .reflection:not(.is-submitted) > #errorTagsRow,
+    .reflection:not(.is-submitted) > label,
+    .reflection:not(.is-submitted) > .note-input,
+    .reflection:not(.is-submitted) > .review-hint,
+    .reflection.is-correct > #errorTagsRow { display: none; }
     .reflection-row { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; }
     .reflection-label { min-width: 70px; color: var(--sat-text-muted); font-size: 13px; font-weight: 600; }
     .confidence-option, .error-option {
@@ -686,7 +713,7 @@
     .print-root { display: none; }
     .question-list { display: none; }
     #questionListBtn { display: none; }
-    #questionListBtn[aria-pressed="true"] { background: #ffffff; box-shadow: 0 1px 3px rgba(0, 0, 0, .12); }
+    #questionListBtn[aria-pressed="true"] { background: var(--sat-blue-muted); color: var(--sat-blue-text); }
     .question-list-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 0 0 4px 4px; }
     .question-list-head h2 { margin: 0; font-size: 15px; font-weight: 600; letter-spacing: -.01em; }
     #questionListCollapse { min-height: 30px; padding: 4px 11px; background: transparent; color: var(--sat-blue-text); font-size: 13px; }
@@ -709,66 +736,30 @@
     .qlist-item .star { color: #b25000; margin-left: 1px; font-size: 10px; }
     @media (min-width: 1100px) {
       #questionListBtn { display: inline-block; }
-      .layout.has-question-list { grid-template-columns: 212px minmax(280px, 1fr) minmax(300px, 1fr); }
-      body.chart-question .layout.has-question-list { grid-template-columns: 212px minmax(0, calc((100% - 244px) * var(--chart-left-ratio, .55))) minmax(0, 1fr); }
+      .layout.has-question-list { grid-template-columns: 208px minmax(0, 1fr) minmax(0, 1fr); }
+      body.chart-question .layout.has-question-list { grid-template-columns: 208px minmax(0, calc((100% - 208px) * var(--chart-left-ratio, .55))) minmax(0, 1fr); }
       .layout.has-question-list > .question-list {
         display: block;
-        position: sticky;
-        top: 73px;
-        max-height: calc(100vh - 73px - 88px);
         overflow: auto;
-        padding: 14px 14px 16px;
-        border-radius: var(--sat-radius-card);
-        background: var(--sat-bg-panel);
-        box-shadow: var(--sat-shadow-card);
+        overscroll-behavior: contain;
+        padding: 18px 14px 20px;
+        border-right: 1px solid var(--sat-hairline);
+        background: #fafafc;
       }
     }
     @media (max-width: 820px) {
-      .topbar {
-        display: grid;
-        grid-template-columns: auto minmax(0, 1fr) auto;
-        grid-template-areas:
-          "home title progress"
-          "toolbar toolbar toolbar";
-        align-items: center;
-        gap: 6px 10px;
-        padding: 6px 12px 8px;
-      }
-      .home-link { grid-area: home; }
-      .title {
-        grid-area: title;
-        min-width: 0;
-        overflow: hidden;
-        text-overflow: ellipsis;
-      }
-      .progress {
-        grid-area: progress;
-        position: static;
-        left: auto;
-        transform: none;
-      }
-      .toolbar {
-        grid-area: toolbar;
-        width: 100%;
-        min-width: 0;
-        flex-wrap: wrap;
-        gap: 6px;
-      }
-      .tools-group,
-      .export-group {
-        max-width: 100%;
-        flex-wrap: wrap;
-      }
-      .tools-group button, .export-group button { min-height: 36px; }
-      #resetBtn { min-height: 36px; }
-      .layout { grid-template-columns: 1fr; gap: 12px; margin-top: 0; padding: 12px 12px 0; }
+      .topbar { min-height: 54px; gap: 10px; padding: 6px 14px; }
+      .title { font-size: 15px; }
+      .toolbar { gap: 6px; }
+      .toolbar > button, .more-menu > summary { padding: 6px 12px; font-size: 13px; }
+      .layout { grid-template-columns: 1fr; margin-bottom: 104px; }
       body.chart-question .layout { grid-template-columns: 1fr; }
       .pane,
       .stimulus,
       .question-pane,
       .choice-text { min-width: 0; }
-      .pane { padding: 22px 18px; border-radius: 18px; }
-      .stimulus-pane { position: static; max-height: none; overflow: visible; }
+      .pane { padding: 22px 18px 28px; }
+      .stimulus-pane { border-right: 0; border-bottom: 3px solid var(--sat-explanation-accent); }
       .stimulus,
       .prompt,
       .choice-text,
@@ -780,16 +771,15 @@
       .data-table td { overflow-wrap: anywhere; }
       .question-actions button { min-height: 44px; }
       .confidence-option, .error-option { min-height: 40px; }
-      .nav button { flex: 1 1 0; min-width: 0; max-width: 240px; }
-      .overview {
-        inset: auto 12px 84px;
-        width: auto;
-        max-height: min(60vh, calc(100vh - 170px));
-      }
+      .nav { grid-template-columns: minmax(0, 1fr) auto; gap: 4px 10px; min-height: 0; padding: 6px 14px calc(8px + env(safe-area-inset-bottom, 0px)); }
+      .sync-status { grid-column: 1 / -1; justify-self: center; font-size: 11px; text-align: center; }
+      #overviewBtn { grid-column: 1; justify-self: start; min-height: 44px; }
+      .nav-buttons { grid-column: 2; gap: 8px; }
+      .nav-buttons button { min-width: 78px; min-height: 44px; }
+      .overview { bottom: 100px; }
       .exam-shell { padding: 12px; }
       .exam-card { margin: 12px auto; }
-      .exam-layout { display: block; padding: 12px; }
-      .exam-layout .pane + .pane { margin-top: 12px; }
+      .exam-layout { display: block; }
       .exam-toolbar { align-items: stretch; min-width: 0; }
       .exam-toolbar-title { min-width: 0; }
       .exam-timer { width: 100%; }
@@ -814,23 +804,28 @@
 </head>
 <body data-sat-learning-v2="true">
   <header class="topbar">
-    <a class="home-link" href="../index.html">学习首页</a>
-    <div class="title">__SECTION_TITLE__</div>
-    <div class="progress" id="progressText">Question 0 of 0</div>
+    <div class="topbar-main">
+      <div class="title">__SECTION_TITLE__</div>
+      <a class="home-link" href="../index.html">学习首页</a>
+    </div>
     <div class="toolbar">
-      <div class="tools-group">
-        <button id="questionListBtn" type="button" aria-pressed="false" aria-controls="questionList" hidden>题目列表</button>
-        <button id="overviewBtn" type="button">答题卡</button>
-        <button id="checkAllBtn" type="button">提交已作答题</button>
-        <button id="examModeBtn" type="button" hidden>正式模考</button>
-      </div>
-      <span class="export-label">导出:</span>
-      <div class="export-group">
-        <button id="exportJsonBtn" type="button">JSON</button>
-        <button id="exportPdfBtn" type="button">PDF</button>
-      </div>
-      <button id="resetBtn" type="button">重置本页</button>
-      <span class="sync-status" id="syncStatus">本机已保存</span>
+      <button id="questionListBtn" type="button" aria-pressed="false" aria-controls="questionList" hidden>题目列表</button>
+      <button id="highlightBtn" type="button">保存选中文本</button>
+      <details class="more-menu" id="moreMenu">
+        <summary>更多</summary>
+        <div class="more-panel" id="morePanel">
+          <div class="tools-group">
+            <button id="checkAllBtn" type="button">提交已作答题</button>
+            <button id="examModeBtn" type="button" hidden>正式模考</button>
+          </div>
+          <span class="export-label">导出</span>
+          <div class="export-group">
+            <button id="exportJsonBtn" type="button">JSON</button>
+            <button id="exportPdfBtn" type="button">PDF</button>
+          </div>
+          <button id="resetBtn" type="button">重置本页</button>
+        </div>
+      </details>
     </div>
   </header>
 
@@ -842,8 +837,6 @@
       <div class="reset-confirm-actions"><button id="resetConfirmCancel" type="button">取消</button><button id="resetConfirmApply" type="button">确认重置</button></div>
     </div>
   </section>
-  <aside id="sourceNotice" role="note" hidden style="margin:12px 20px;padding:12px 16px;border:0;border-radius:14px;background:#fff6e0;color:#5c4400;font-size:13px;line-height:1.6"></aside>
-  <aside id="cloudMigrationNotice" role="note" hidden style="margin:12px 20px;padding:12px 16px;border:0;border-radius:14px;background:#fff6e0;color:#5c4400;font-size:13px;line-height:1.6"></aside>
   <aside id="satLegacyBackupNotice" class="legacy-backup-notice" role="note" hidden>
     <strong id="satLegacyBackupSummary"></strong>
     <p>云端仍按当前账号加载；这些旧本机记录保留在原处，尚未合并。备份可能包含过去使用者的记录，请仅在您有权访问时下载并妥善保管。</p>
@@ -855,6 +848,8 @@
   <section class="exam-shell" id="examShell" aria-label="SAT 正式模考" aria-live="polite"></section>
 
   <aside class="overview" id="overviewPanel" aria-label="题目答题卡">
+    <div class="overview-head">答题卡</div>
+    <div class="overview-legend" aria-hidden="true"><span class="legend-current">当前</span><span class="legend-selected">已选未提交</span><span class="legend-correct">答对</span><span class="legend-incorrect">答错</span><span class="legend-star">已加入复习</span></div>
     <div class="overview-grid" id="overviewGrid"></div>
   </aside>
 
@@ -866,6 +861,8 @@
     </aside>
     <section class="pane stimulus-pane">
       <div class="stimulus" id="stimulus"></div>
+      <aside class="pane-footnote" id="sourceNotice" role="note" hidden></aside>
+      <aside class="pane-footnote" id="cloudMigrationNotice" role="note" hidden></aside>
     </section>
     <section class="pane question-pane">
       <div class="question-meta">
@@ -880,8 +877,8 @@
         <button class="primary" id="revealBtn" type="button" disabled>查看答案与解析</button>
         <button id="retryBtn" type="button">空白再答一次</button>
         <button id="returnOriginalBtn" type="button" hidden>返回原作答</button>
-        <button id="highlightBtn" type="button">保存选中文本</button>
       </div>
+      <div class="explanation" id="explanation"></div>
       <section class="reflection" id="reflectionPanel">
         <div class="reflection-row">
           <span class="reflection-label">答题信心</span>
@@ -903,13 +900,16 @@
         <textarea class="note-input" id="noteInput" placeholder="记录自己的思路、证据或下次提醒……"></textarea>
         <div class="review-hint" id="reflectionHint">信心、错因、笔记和正文标注会保存到统一复习中心。</div>
       </section>
-      <div class="explanation" id="explanation"></div>
     </section>
   </main>
 
   <footer class="nav" id="practiceNav">
-    <button id="prevBtn" type="button">上一题</button>
-    <button id="nextBtn" type="button">下一题</button>
+    <span class="sync-status" id="syncStatus">本机已保存</span>
+    <button id="overviewBtn" type="button" aria-controls="overviewPanel"><span class="progress" id="progressText">Question 0 of 0</span></button>
+    <div class="nav-buttons">
+      <button id="prevBtn" type="button">上一题</button>
+      <button id="nextBtn" type="button">下一题</button>
+    </div>
   </footer>
 
   <div class="chart-lightbox" id="chartLightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="题目图表大图">
@@ -2203,7 +2203,7 @@
       els.progressText.textContent = sessionIndex >= 0
         ? `今日练习 ${sessionIndex + 1}/${session.questions.length}`
         : `第 ${current + 1}/${QUESTIONS.length} 题`;
-      els.questionNumber.textContent = `Question ${question.question_number ?? current + 1}`;
+      els.questionNumber.innerHTML = `<span class="exam-visually-hidden">Question </span>${escapeHtml(String(question.question_number ?? current + 1))}`;
       els.starBtn.textContent = qs.starred ? "★ 已加入复习" : "☆ 加入复习";
       els.starBtn.hidden = redoMode;
       els.reflectionPanel.hidden = redoMode;
@@ -2400,6 +2400,7 @@
 
     function scrollPracticeToStart() {
       window.scrollTo(0, 0);
+      els.practiceLayout.querySelectorAll(".pane").forEach(pane => { pane.scrollTop = 0; });
     }
 
     function renderOverview() {
@@ -2429,6 +2430,20 @@
         els.overviewGrid.appendChild(button);
       });
     }
+
+    const moreMenu = document.getElementById("moreMenu"), morePanel = document.getElementById("morePanel");
+    function syncMoreMenu() {
+      const usable = button => !button.hidden && (button.parentElement === morePanel || !button.parentElement.hidden);
+      moreMenu.hidden = ![...morePanel.querySelectorAll("button")].some(usable);
+      if (moreMenu.hidden) moreMenu.open = false;
+    }
+    new MutationObserver(syncMoreMenu).observe(morePanel, { subtree: true, attributes: true, attributeFilter: ["hidden"] });
+    syncMoreMenu();
+    morePanel.addEventListener("click", event => { if (event.target.closest("button")) moreMenu.open = false; });
+    document.addEventListener("click", event => { if (moreMenu.open && !moreMenu.contains(event.target)) moreMenu.open = false; });
+    document.addEventListener("keydown", event => {
+      if (event.key === "Escape" && moreMenu.open) { moreMenu.open = false; moreMenu.querySelector("summary").focus(); }
+    });
 
     // Whether the list is shown is a per-tab view preference, kept out of the learning store.
     const QUESTION_LIST_VIEW_KEY = "sat-ui:question-list";
@@ -2666,6 +2681,8 @@
 
     function renderReflection(qs) {
       if (redoMode) return;
+      els.reflectionPanel.classList.toggle("is-submitted", Boolean(qs.submitted));
+      els.reflectionPanel.classList.toggle("is-correct", Boolean(qs.submitted && qs.correct));
       document.querySelectorAll('input[name="confidence"]').forEach(input => {
         input.checked = input.value === qs.confidence;
         input.disabled = qs.submitted;
@@ -3026,7 +3043,7 @@
 
     function setSyncStatus(message, kind = "") {
       els.syncStatus.textContent = CLOUD_LOCAL_ONLY
-        ? message + " · 云端题号待核验"
+        ? message + " · 本套暂不同步云端"
         : message;
       els.syncStatus.dataset.kind = kind;
     }
@@ -3577,7 +3594,7 @@
     }
     if (CLOUD_LOCAL_ONLY) {
       const notice = document.getElementById("cloudMigrationNotice");
-      notice.textContent = "本套使用账号隔离的本机保存。云端旧题号迁移尚未核验，已暂停本套进度、作答和笔记的云端读取与上传；历史云端数据未删除，可在此继续练习。";
+      notice.textContent = "本套的进度、作答和笔记只保存在本机，暂不与云端同步；已有的云端记录不受影响。";
       notice.hidden = false;
     }
     if (!learningStorage.ready()) setSyncStatus("正在确认账号记录归属");

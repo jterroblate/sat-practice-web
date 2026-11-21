@@ -388,7 +388,6 @@
       </nav>
     </div>
   </header>
-  <aside class="shell" id="cloudMigrationSummary" role="note" style="margin-top:12px;font-size:12px;line-height:1.6;color:var(--zen-muted,#6e6e73)">06 Partial 的云端旧题号迁移待核验；相关共享题的云端汇总暂不合并，以本机记录为准。原有云端记录保留，其他套题可正常同步。</aside>
   <aside class="shell legacy-backup-notice" id="satLegacyBackupNotice" role="note" hidden>
     <span id="legacy-backup"></span>
     <strong id="satLegacyBackupSummary"></strong>
@@ -675,14 +674,14 @@
         </section>
         <section class="metric-rail" aria-label="学习概览">
           <div class="metric"><strong>${overview.submitted}</strong><span>已提交题目</span></div>
-          <div class="metric"><strong>${overview.accuracy === null ? "—" : overview.accuracy + "%"}</strong><span>当前版本已核验正确率${overview.needsRecheck ? ` · ${overview.needsRecheck} 题待复核` : ""}</span></div>
+          <div class="metric"><strong>${overview.accuracy === null ? "—" : overview.accuracy + "%"}</strong><span>正确率${overview.needsRecheck ? ` · ${overview.needsRecheck} 题有更新，待重做` : ""}</span></div>
           <div class="metric"><strong>${overview.wrong}</strong><span>待掌握错题</span></div>
           <div class="metric"><strong>${overview.due}</strong><span>今日到期复习</span></div>
           <div class="metric"><strong>${overview.mastered}</strong><span>已掌握错题</span></div>
         </section>
         <section class="quick-grid" aria-label="快捷入口">
           <a class="breathing-card" href="#review/wrong"><strong>统一错题本</strong><span>空白重做，保留首次错误与每次重做历史</span></a>
-          <a class="breathing-card" href="#diagnosis"><strong>学习诊断</strong><span>按官方 skill 和 subtype 查看真实表现</span></a>
+          <a class="breathing-card" href="#diagnosis"><strong>学习诊断</strong><span>按题型查看正确率和薄弱项</span></a>
           <a class="breathing-card" href="#practice"><strong>生成今日练习</strong><span>组合薄弱项、错题、未做题、星标和低信心题</span></a>
         </section>
         <section class="panel">
@@ -803,7 +802,7 @@
     }
     function diagnosisRow(row, subtype = false) {
       const info = diagnosisData(row);
-      return `<tr><td>${subtype ? "↳ " : ""}<strong>${escapeHtml(row.skill)}</strong>${!subtype && row.subtypes ? `<br><small>${row.subtypes.size} 个 subtype</small>` : ""}</td><td>${row.submitted}/${row.total}</td><td><div class="bar"><i style="width:${info.accuracy}%"></i></div>${info.accuracy}%</td><td>${row.wrong}</td><td>${row.due}</td><td><span class="pill ${info.tone}">${info.conclusion}</span></td></tr>`;
+      return `<tr><td>${subtype ? "↳ " : ""}<strong>${escapeHtml(row.skill)}</strong>${!subtype && row.subtypes ? `<br><small>${row.subtypes.size} 个细分题型</small>` : ""}</td><td>${row.submitted}/${row.total}</td><td><div class="bar"><i style="width:${info.accuracy}%"></i></div>${info.accuracy}%</td><td>${row.wrong}</td><td>${row.due}</td><td><span class="pill ${info.tone}">${info.conclusion}</span></td></tr>`;
     }
     function diagnosisCard(row, subtype = false) {
       const info = diagnosisData(row);
@@ -811,7 +810,7 @@
     }
     function renderDiagnosis() {
       const rows = skillRows(), allRows = rows.flatMap(row => [{ row, subtype: false }, ...subtypeRows(row.skill).map(item => ({ row: item, subtype: true }))]);
-      app.innerHTML = `<section class="panel" style="margin-top:0"><div class="section-title"><div><p class="eyebrow">DIAGNOSIS</p><h1>学习诊断</h1><p>按官方 skill 与 subtype 查看作答、错题和到期复习。</p></div><span class="section-meta">少于 5 道已作答题时不判定薄弱项</span></div><div class="diagnosis-wrap"><table class="diagnosis"><thead><tr><th>题型 / subtype</th><th>已作答</th><th>正确率</th><th>待掌握错题</th><th>到期复习</th><th>结论</th></tr></thead><tbody>${allRows.map(item => diagnosisRow(item.row, item.subtype)).join("")}</tbody></table></div><div class="diagnosis-cards">${allRows.map(item => diagnosisCard(item.row, item.subtype)).join("")}</div></section>`;
+      app.innerHTML = `<section class="panel" style="margin-top:0"><div class="section-title"><div><p class="eyebrow">DIAGNOSIS</p><h1>学习诊断</h1><p>按题型查看作答、错题和到期复习。</p></div><span class="section-meta">少于 5 道已作答题时不判定薄弱项</span></div><div class="diagnosis-wrap"><table class="diagnosis"><thead><tr><th>题型 / subtype</th><th>已作答</th><th>正确率</th><th>待掌握错题</th><th>到期复习</th><th>结论</th></tr></thead><tbody>${allRows.map(item => diagnosisRow(item.row, item.subtype)).join("")}</tbody></table></div><div class="diagnosis-cards">${allRows.map(item => diagnosisCard(item.row, item.subtype)).join("")}</div></section>`;
     }
 
     function candidates(modes) {
@@ -840,7 +839,7 @@
         <label class="amount-choice"><input type="radio" name="count" value="10" checked><span>10 题</span></label>
         <label class="amount-choice"><input type="radio" name="count" value="20"><span>20 题</span></label>
         <label class="amount-choice"><input type="radio" name="count" value="30"><span>30 题</span></label>
-      </div><p class="builder-hint" id="builderHint"></p><button class="action primary" id="buildSession" type="button">开始练习</button></section></div><div class="quiet-note">${examCount ? `已有 ${examCount} 套通过完整门禁的正式模考，可从首页“正式模考”进入。` : "模考模式将在套题 module 元数据完整并通过验证后开放；当前不会用不完整数据生成伪模考。"}</div></section>`;
+      </div><p class="builder-hint" id="builderHint"></p><button class="action primary" id="buildSession" type="button">开始练习</button></section></div>${examCount ? `<div class="quiet-note">已有 ${examCount} 套正式模考，可从首页“正式模考”进入。</div>` : ""}</section>`;
       const update = () => { const modes = selectedSources(); document.getElementById("builderHint").textContent = modes.length ? `当前有 ${candidates(modes).length} 道唯一候选题` : "请至少选择一个题目来源"; };
       document.querySelectorAll('input[name="source"]').forEach(input => input.addEventListener("change", update));
       update(); document.getElementById("buildSession").addEventListener("click", buildSession);
