@@ -21,6 +21,8 @@
       --zen-blue: #e8f2ff;
       --zen-warm: #fff1de;
       --zen-orange: #9a4a00;
+      --zen-purple: #6e41c4;
+      --zen-teal: #0b7285;
       --zen-fill: rgba(118, 118, 128, .12);
       --zen-fill-hover: rgba(118, 118, 128, .2);
       --zen-line: rgba(0, 0, 0, .08);
@@ -123,30 +125,39 @@
     .mobile-nav a { display: flex; align-items: center; min-height: 44px; padding: 10px 14px; border-radius: 12px; font-size: 16px; }
 
     main { padding: 24px 0 72px; }
-    .panel, .focus-copy, .focus-queue, .metric-rail, .breathing-card {
+    .panel, .entry-card, .metric-rail, .breathing-card {
       border: 0;
       background: var(--zen-surface);
       box-shadow: var(--zen-shadow);
     }
-    .focus-layout { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(320px, .65fr); gap: 16px; }
-    .focus-copy {
-      min-height: 300px;
-      padding: 40px;
-      border-radius: var(--zen-radius-panel);
-      background-color: var(--zen-surface);
-      background-image: url("assets/zen-interface/background.svg");
-      background-position: center;
-      background-size: cover;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
+    .visually-hidden { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+    .home-top { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+    .entry-card { display: flex; flex-direction: column; gap: 18px; min-width: 0; padding: 28px; border-radius: var(--zen-radius-panel); }
+    /* 同一套淡色点缀：右上角一抹颜色，每个板块换一个色相 */
+    .tint { --tint: 0, 113, 227; background: radial-gradient(120% 150% at 100% 0%, rgba(var(--tint), .13) 0%, rgba(var(--tint), 0) 58%), var(--zen-surface); }
+    .tint.blue { --tint: 0, 113, 227; }
+    .tint.orange { --tint: 255, 149, 0; }
+    .tint.purple { --tint: 137, 87, 229; }
+    .tint.teal { --tint: 20, 160, 180; }
+    .tint.green { --tint: 52, 199, 89; }
+    .eyebrow.blue { color: var(--zen-primary-dark); }
+    .eyebrow.orange { color: var(--zen-orange); }
+    .eyebrow.purple { color: var(--zen-purple); }
+    .eyebrow.teal { color: var(--zen-teal); }
+    .eyebrow.green { color: var(--zen-green); }
+    .entry-card h2 { margin: 0; font-size: 30px; font-weight: 700; letter-spacing: -.02em; line-height: 1.15; }
+    .entry-card .eyebrow { margin-bottom: 6px; }
+    .stat-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+    .stat-pair div { min-width: 0; padding: 14px 16px; border-radius: 16px; background: var(--zen-bg); }
+    .entry-card .stat-pair div { background: rgba(255, 255, 255, .8); box-shadow: 0 0 0 1px var(--zen-line); }
+    .stat-pair strong { display: block; font-size: 28px; font-weight: 700; letter-spacing: -.02em; line-height: 1.2; font-variant-numeric: tabular-nums; }
+    .stat-pair span { color: var(--zen-muted); font-size: 13px; }
+    .entry-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; }
+    .entry-links a { display: inline-flex; align-items: center; gap: 6px; min-height: 36px; padding: 6px 13px; border-radius: var(--zen-radius-pill); background: var(--zen-fill); color: #424245; font-size: 13px; transition: background-color .16s ease; }
+    .entry-links a:hover { background: var(--zen-fill-hover); }
+    .entry-links b { color: var(--zen-ink); font-weight: 600; font-variant-numeric: tabular-nums; }
     .eyebrow { margin: 0 0 8px; color: var(--zen-muted); font-size: 12px; font-weight: 600; letter-spacing: .06em; }
-    .focus-copy .eyebrow { color: var(--zen-primary-dark); }
     h1, h2, h3, p { overflow-wrap: anywhere; }
-    .focus-copy h1 { max-width: 640px; margin: 0; font-size: clamp(32px, 4.2vw, 48px); line-height: 1.12; letter-spacing: -.025em; font-weight: 700; }
-    .focus-copy h1 span { display: inline-block; }
-    .focus-copy > p:not(.eyebrow) { max-width: 560px; margin: 16px 0 26px; color: #515154; font-size: 17px; text-wrap: pretty; }
     .hero-actions, .actions { display: flex; flex-wrap: wrap; gap: 10px; }
     .button, button.action {
       display: inline-flex;
@@ -169,7 +180,6 @@
     .button.ghost:hover, button.action.ghost:hover { background: #d8e9ff; }
     button:disabled { opacity: .45; cursor: not-allowed; }
 
-    .focus-queue { padding: 24px; border-radius: var(--zen-radius-panel); }
     .section-title { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; margin-bottom: 16px; }
     .section-title h1, .section-title h2 { margin: 0; font-weight: 700; letter-spacing: -.02em; }
     .section-title h1 { font-size: clamp(28px, 4vw, 40px); line-height: 1.15; }
@@ -209,6 +219,12 @@
     .metric:last-child { border-right: 0; }
     .metric strong { display: block; font-size: 28px; line-height: 1.2; font-weight: 700; letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
     .metric span { color: var(--zen-muted); font-size: 13px; }
+    .metric span::before { content: ""; display: inline-block; width: 7px; height: 7px; margin-right: 6px; border-radius: 50%; background: rgb(var(--dot, 174, 174, 178)); vertical-align: 1px; }
+    .metric:nth-child(1) { --dot: 0, 113, 227; }
+    .metric:nth-child(2) { --dot: 20, 160, 180; }
+    .metric:nth-child(3) { --dot: 137, 87, 229; }
+    .metric:nth-child(4) { --dot: 52, 199, 89; }
+    .metric:nth-child(5) { --dot: 255, 149, 0; }
 
     .quick-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 16px; }
     .breathing-card { position: relative; padding: 20px 44px 20px 22px; border-radius: var(--zen-radius-card); transition: transform .16s ease, box-shadow .16s ease; }
@@ -261,6 +277,8 @@
     .review-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 18px; }
     .review-card h3 { margin: 8px 0 4px; font-size: 16px; font-weight: 600; }
     .review-card p { margin: 4px 0; color: var(--zen-muted); }
+    .review-card .source-line { font-size: 13px; }
+    .source-line span { display: inline-block; margin-left: 8px; padding: 0 9px; border-radius: var(--zen-radius-pill); background: var(--zen-surface); font-size: 12px; white-space: nowrap; }
     .review-card .button, .review-card button.action { background: var(--zen-surface); }
     .review-card .button:hover, .review-card button.action:hover { background: #fafafc; box-shadow: 0 1px 3px rgba(0, 0, 0, .1); }
     .review-card .button.primary, .review-card button.action.primary { background: var(--zen-primary); }
@@ -348,8 +366,7 @@
     .quiet-note { margin-top: 16px; padding: 14px 18px; border-radius: 14px; color: var(--zen-muted); background: var(--zen-bg); font-size: 14px; }
 
     @media (max-width: 960px) {
-      .focus-layout, .weekly-layout, .builder { grid-template-columns: 1fr; }
-      .focus-copy { min-height: 280px; }
+      .weekly-layout, .builder { grid-template-columns: 1fr; }
       .metric-rail { grid-template-columns: repeat(3, 1fr); }
       .metric:nth-child(3) { border-right: 0; }
       .metric:nth-child(-n+3) { border-bottom: 1px solid var(--zen-line); }
@@ -365,10 +382,9 @@
       .menu-button, .mobile-nav { display: block; }
       .sync-status { max-width: 98px; overflow: hidden; text-overflow: ellipsis; }
       main { padding-top: 16px; }
-      .focus-copy, .focus-queue, .panel { padding: 22px; border-radius: 22px; }
-      .focus-copy { min-height: 0; padding-block: 30px; }
-      .focus-copy h1 { font-size: clamp(30px, 9vw, 40px); }
-      .focus-copy > p:not(.eyebrow) { font-size: 15px; margin-bottom: 22px; }
+      .home-top { grid-template-columns: 1fr; }
+      .entry-card, .panel { padding: 22px; border-radius: 22px; }
+      .entry-card h2 { font-size: 26px; }
       .metric-rail { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .metric { border-bottom: 1px solid var(--zen-line); }
       .metric:nth-child(2n) { border-right: 0; }
@@ -399,8 +415,7 @@
       .shell { width: calc(100% - 24px); }
       .brand strong { font-size: 17px; }
       .sync-status { max-width: 84px; padding-inline: 8px; }
-      .focus-copy { padding: 26px 22px; }
-      .focus-copy h1 { font-size: 32px; }
+      .stat-pair strong { font-size: 24px; }
       .metric { padding: 14px 16px; }
       .metric strong { font-size: 24px; }
       .tabs { flex-wrap: nowrap; overflow-x: auto; }
@@ -684,7 +699,7 @@
       const pages = examEligiblePages();
       if (!pages.length) return "";
       return `<section class="panel" id="examLibrary">
-        <div class="section-title"><div><p class="eyebrow">OFFICIAL PRACTICE</p><h2>正式模考</h2><p>固定 Hard 分支，不模拟自适应分流，也不提供虚构换算分。</p></div><span class="section-meta">${pages.length} 套</span></div>
+        <div class="section-title"><div><p class="eyebrow orange">OFFICIAL PRACTICE</p><h2>正式模考</h2><p>固定 Hard 分支，不模拟自适应分流，也不提供虚构换算分。</p></div><span class="section-meta">${pages.length} 套</span></div>
         <div class="resource-grid">${pages.map(page => `<article class="resource-card exam-card"><h3>${escapeHtml(page.title)}</h3><span class="resource-card-subtitle">固定 Hard · 27+27 · 每模块 32 分钟</span><p>普通练习与模考记录相互独立。</p><div class="hero-actions"><a class="button ghost" href="${page.route}">普通练习</a><a class="button primary" href="${page.route}?mode=exam">开始正式模考</a></div></article>`).join("")}</div>
       </section>`;
     }
@@ -697,38 +712,44 @@
       const primaryLabel = last ? "继续上次练习" : "生成今日练习";
       const secondaryHref = last ? "#practice" : firstSet?.route || "#practice";
       const secondaryLabel = last ? "生成今日练习" : "浏览完整套题";
+      const study = summarizeSatStudyTime(learningStorage), today = satStudyDayKey();
+      const todayCount = (state.attempts || []).filter(item => item.submittedAt && satStudyDayKey(new Date(item.submittedAt)) === today).length;
       app.innerHTML = `
-        <section class="focus-layout">
-          <div class="focus-copy">
-            <p class="eyebrow">SAT READING &amp; WRITING</p>
-            <h1><span>今天应该练什么，</span><span>一眼就知道。</span></h1>
-            <p>从上次进度继续，或根据错题、薄弱项与到期复习生成今天的训练。</p>
-            <div class="hero-actions"><a class="button primary" href="${primaryHref}">${primaryLabel}</a><a class="button ghost" href="${secondaryHref}">${secondaryLabel}</a></div>
-          </div>
-          <aside class="focus-queue" aria-label="今日学习重点">
-            <div class="section-title"><div><p class="eyebrow">TODAY</p><h2>今日学习重点</h2></div><span class="section-meta">按当前进度更新</span></div>
-            <div class="status-list">
-              <a class="status-row focus" href="#practice/due"><span><strong>今日到期复习</strong><br><span>1／3／7 天复习计划</span></span><span class="count">${overview.due}</span></a>
-              <a class="status-row soft-risk" href="#review/wrong"><span><strong>待掌握错题</strong><br><span>从空白重做开始</span></span><span class="count">${overview.wrong}</span></a>
-              <a class="status-row pending" href="#review/unfinished"><span><strong>未完成套题</strong><br><span>继续已有进度</span></span><span class="count">${unfinished}</span></a>
-              <a class="status-row calm" href="#practice/confidence"><span><strong>低信心题</strong><br><span>答对也值得再练</span></span><span class="count">${lowConfidence}</span></a>
+        <h1 class="visually-hidden">学习首页</h1>
+        <section class="home-top">
+          <article class="entry-card today tint blue">
+            <div><p class="eyebrow blue">TODAY</p><h2>今日练习</h2></div>
+            <div class="stat-pair">
+              <div><strong>${formatSatStudyTime(study.today)}</strong><span>今日学习时长</span></div>
+              <div><strong>${todayCount}</strong><span>今日已做题目</span></div>
             </div>
-          </aside>
+            <div class="hero-actions"><a class="button primary" href="${primaryHref}">${primaryLabel}</a><a class="button ghost" href="${secondaryHref}">${secondaryLabel}</a></div>
+            <div class="entry-links"><a href="#review/unfinished">未完成套题<b>${unfinished}</b></a><a href="#practice/confidence">低信心题<b>${lowConfidence}</b></a></div>
+          </article>
+          <article class="entry-card review tint orange">
+            <div><p class="eyebrow orange">REVIEW</p><h2>错题复习</h2></div>
+            <div class="stat-pair">
+              <div><strong>${overview.wrong}</strong><span>待掌握错题</span></div>
+              <div><strong>${overview.due}</strong><span>今日到期复习</span></div>
+            </div>
+            <div class="hero-actions"><a class="button primary" href="#review/wrong">开始错题复习</a><a class="button ghost" href="#practice/due">练到期复习</a></div>
+            <div class="entry-links"><a href="#review/redo">最近重做正确</a><a href="#review/starred">星标题</a><a href="#review/notes">笔记与标注</a></div>
+          </article>
         </section>
         <section class="metric-rail" aria-label="学习概览">
+          <div class="metric"><strong>${formatSatStudyTime(study.total)}</strong><span>累计学习时长</span></div>
+          <div class="metric"><strong>${formatSatStudyTime(study.week)}</strong><span>近 7 天学习时长</span></div>
           <div class="metric"><strong>${overview.submitted}</strong><span>已提交题目</span></div>
           <div class="metric"><strong>${overview.accuracy === null ? "—" : overview.accuracy + "%"}</strong><span>正确率${overview.needsRecheck ? ` · ${overview.needsRecheck} 题有更新，待重做` : ""}</span></div>
-          <div class="metric"><strong>${overview.wrong}</strong><span>待掌握错题</span></div>
-          <div class="metric"><strong>${overview.due}</strong><span>今日到期复习</span></div>
           <div class="metric"><strong>${overview.mastered}</strong><span>已掌握错题</span></div>
         </section>
         <section class="quick-grid" aria-label="快捷入口">
-          <a class="breathing-card" href="#review/wrong"><strong>统一错题本</strong><span>空白重做，保留首次错误与每次重做历史</span></a>
-          <a class="breathing-card" href="#diagnosis"><strong>学习诊断</strong><span>按题型查看正确率和薄弱项</span></a>
-          <a class="breathing-card" href="#practice"><strong>生成今日练习</strong><span>组合薄弱项、错题、未做题、星标和低信心题</span></a>
+          <a class="breathing-card tint orange" href="#review/wrong"><strong>统一错题本</strong><span>空白重做，保留首次错误与每次重做历史</span></a>
+          <a class="breathing-card tint purple" href="#diagnosis"><strong>学习诊断</strong><span>按题型查看正确率和薄弱项</span></a>
+          <a class="breathing-card tint blue" href="#practice"><strong>生成今日练习</strong><span>组合薄弱项、错题、未做题、星标和低信心题</span></a>
         </section>
         <section class="panel">
-          <div class="section-title"><div><p class="eyebrow">WEEKLY REVIEW</p><h2>周学习报告</h2></div><span class="section-meta">最近 7 天</span></div>
+          <div class="section-title"><div><p class="eyebrow purple">WEEKLY REVIEW</p><h2>周学习报告</h2></div><span class="section-meta">最近 7 天</span></div>
           <div class="weekly-layout">
             <div class="status-list">
               <div class="status-row pending"><span><strong>练习量</strong><br><span>本周提交次数</span></span><span class="count">${report.week.length}</span></div>
@@ -736,11 +757,11 @@
               <div class="status-row calm"><span><strong>新掌握错题</strong><br><span>完成三个到期阶段</span></span><span class="count">${report.mastered}</span></div>
               <div class="status-row soft-risk"><span><strong>主要错因</strong><br><span>用于调整训练优先级</span></span><strong>${escapeHtml(report.topError)}</strong></div>
             </div>
-            <aside class="recommendation"><p class="eyebrow">NEXT STEP</p><strong>下一步建议</strong><p>${escapeHtml(report.recommendation)}</p></aside>
+            <aside class="recommendation"><p class="eyebrow blue">NEXT STEP</p><strong>下一步建议</strong><p>${escapeHtml(report.recommendation)}</p></aside>
           </div>
         </section>
         <section class="panel">
-          <div class="section-title"><div><p class="eyebrow">RECENT</p><h2>最近练习</h2></div></div>
+          <div class="section-title"><div><p class="eyebrow teal">RECENT</p><h2>最近练习</h2></div></div>
           <div class="recent-list">${recent.length ? recent.map(({ question, state: item }) => `
             <a class="recent-row" href="${question.route}?focus=${encodeURIComponent(question.questionId)}">
               <span class="pill ${item.correct ? "calm" : "soft-risk"}">${item.correct ? "回答正确" : "回答错误"}</span>
@@ -756,7 +777,7 @@
       const pages = MANIFEST.pages.filter(page => page.kind === resourceKind), visible = resourcesExpanded ? pages : pages.slice(0, 6);
       const hasCollections = MANIFEST.pages.some(page => page.kind === "collection");
       return `<section class="panel" id="resourceLibrary">
-        <div class="section-title"><div><p class="eyebrow">QUESTION LIBRARY</p><h2>题库入口</h2></div>
+        <div class="section-title"><div><p class="eyebrow green">QUESTION LIBRARY</p><h2>题库入口</h2></div>
           <div class="segment-group" role="tablist" aria-label="题库类型">
             <button class="segment ${resourceKind === "set" ? "active" : ""}" data-resource-kind="set" role="tab" aria-selected="${resourceKind === "set"}">完整套题</button>
             ${hasCollections ? `<button class="segment ${resourceKind === "collection" ? "active" : ""}" data-resource-kind="collection" role="tab" aria-selected="${resourceKind === "collection"}">专项练习</button>` : ""}
@@ -800,17 +821,19 @@
     }
     function reviewCard(question) {
       const item = qState(question.questionId), tags = [];
+      // 来源和年份只给已经提交过的题显示
+      const source = item.submitted ? describeSatSource(question.sourceRefs, { label: question.sourceSet, number: question.questionNumber, kind: question.sourceKind }) : null;
       if (item.firstWrongAt && !item.mastered) tags.push('<span class="pill soft-risk">历史错题</span>');
       if (item.mastered) tags.push(`<span class="pill calm">${item.needsRecheck ? "历史已掌握 · 待复核" : "已掌握"}</span>`);
       if (item.lastRedoCorrect) tags.push('<span class="pill calm">最近重做正确</span>');
       if (item.nextDueAt && !item.mastered) tags.push(`<span class="pill focus">${timeOf(item.nextDueAt) <= Date.now() ? "今日到期" : "等待复习"}</span>`);
       if (item.starred) tags.push('<span class="pill pending">已星标</span>');
-      return `<article class="review-card"><div class="review-top"><div><div>${tags.join(" ")}</div><h3>${escapeHtml(question.skill)} · ${escapeHtml(question.sourceSet || "SAT")}</h3><p>${escapeHtml(question.prompt.slice(0, 180))}${question.prompt.length > 180 ? "…" : ""}</p>${item.note ? `<p><strong>笔记：</strong>${escapeHtml(item.note)}</p>` : ""}</div><div class="actions"><a class="button primary" href="${question.route}?redo=${encodeURIComponent(question.questionId)}">空白重做</a><a class="button ghost" href="${question.route}?focus=${encodeURIComponent(question.questionId)}">打开原题</a></div></div></article>`;
+      return `<article class="review-card"><div class="review-top"><div><div>${tags.join(" ")}</div><h3>${escapeHtml(SAT_SKILL_ZH[question.skill] || question.skill)}</h3><p>${escapeHtml(question.prompt.slice(0, 180))}${question.prompt.length > 180 ? "…" : ""}</p>${source ? `<p class="source-line">来源：${escapeHtml(source.text)}${source.note ? `<span>${escapeHtml(source.note)}</span>` : ""}</p>` : ""}${item.note ? `<p><strong>笔记：</strong>${escapeHtml(item.note)}</p>` : ""}</div><div class="actions"><a class="button primary" href="${question.route}?redo=${encodeURIComponent(question.questionId)}">空白重做</a><a class="button ghost" href="${question.route}?focus=${encodeURIComponent(question.questionId)}">打开原题</a></div></div></article>`;
     }
     function renderReview(tab) {
       const names = { wrong: "错题", unfinished: "未完成套题", starred: "星标", notes: "笔记与标注", redo: "最近重做正确" };
       const items = tab === "unfinished" ? unfinishedPages() : MANIFEST.questions.filter(question => reviewMatches(question, tab));
-      app.innerHTML = `<section class="panel" style="margin-top:0"><div class="section-title"><div><p class="eyebrow">MY REVIEW</p><h1>我的复习</h1><p>把值得再看的题集中在一个安静的复习队列里。</p></div><span class="section-meta">${items.length} ${tab === "unfinished" ? "套" : "题"}</span></div><div class="tabs">${Object.entries(names).map(([key, label]) => `<button data-tab="${key}" class="${key === tab ? "active" : ""}">${label}</button>`).join("")}</div><div class="review-list">${items.length ? items.map(tab === "unfinished" ? unfinishedPageCard : reviewCard).join("") : renderEmpty("当前分类没有内容，完成练习后会自动更新。")}</div></section>`;
+      app.innerHTML = `<section class="panel" style="margin-top:0"><div class="section-title"><div><p class="eyebrow orange">MY REVIEW</p><h1>我的复习</h1><p>把值得再看的题集中在一个安静的复习队列里。</p></div><span class="section-meta">${items.length} ${tab === "unfinished" ? "套" : "题"}</span></div><div class="tabs">${Object.entries(names).map(([key, label]) => `<button data-tab="${key}" class="${key === tab ? "active" : ""}">${label}</button>`).join("")}</div><div class="review-list">${items.length ? items.map(tab === "unfinished" ? unfinishedPageCard : reviewCard).join("") : renderEmpty("当前分类没有内容，完成练习后会自动更新。")}</div></section>`;
       app.querySelectorAll("[data-tab]").forEach(button => button.addEventListener("click", () => { location.hash = `review/${button.dataset.tab}`; }));
     }
 
@@ -853,7 +876,7 @@
     }
     function renderDiagnosis() {
       const rows = skillRows(), allRows = rows.flatMap(row => [{ row, subtype: false }, ...subtypeRows(row.skill).map(item => ({ row: item, subtype: true }))]);
-      app.innerHTML = `<section class="panel" style="margin-top:0"><div class="section-title"><div><p class="eyebrow">DIAGNOSIS</p><h1>学习诊断</h1><p>按题型查看作答、错题和到期复习。</p></div><span class="section-meta">少于 5 道已作答题时不判定薄弱项</span></div><div class="diagnosis-wrap"><table class="diagnosis"><thead><tr><th>题型 / subtype</th><th>已作答</th><th>正确率</th><th>待掌握错题</th><th>到期复习</th><th>结论</th></tr></thead><tbody>${allRows.map(item => diagnosisRow(item.row, item.subtype)).join("")}</tbody></table></div><div class="diagnosis-cards">${allRows.map(item => diagnosisCard(item.row, item.subtype)).join("")}</div></section>`;
+      app.innerHTML = `<section class="panel" style="margin-top:0"><div class="section-title"><div><p class="eyebrow purple">DIAGNOSIS</p><h1>学习诊断</h1><p>按题型查看作答、错题和到期复习。</p></div><span class="section-meta">少于 5 道已作答题时不判定薄弱项</span></div><div class="diagnosis-wrap"><table class="diagnosis"><thead><tr><th>题型 / subtype</th><th>已作答</th><th>正确率</th><th>待掌握错题</th><th>到期复习</th><th>结论</th></tr></thead><tbody>${allRows.map(item => diagnosisRow(item.row, item.subtype)).join("")}</tbody></table></div><div class="diagnosis-cards">${allRows.map(item => diagnosisCard(item.row, item.subtype)).join("")}</div></section>`;
     }
 
     /* ---------- 生成练习 ----------
@@ -867,9 +890,10 @@
       { key: "Standard English Conventions", label: "标准英语用法", subject: "reading_writing" },
       { key: "Algebra", label: "代数", subject: "math" },
       { key: "Advanced Math", label: "高等数学", subject: "math" },
-      { key: "Problem-Solving and Data Analysis", label: "问题求解与数据分析", subject: "math" },
+      { key: "Problem-Solving and Data Analysis", label: "问题解决与数据分析", subject: "math" },
       { key: "Geometry and Trigonometry", label: "几何与三角", subject: "math" }
     ];
+    const BUILDER_KINDS = [{ key: "real_exam", label: "真题" }, { key: "practice", label: "模拟题" }];
     const BUILDER_GENRES = [{ key: "poetry", label: "诗歌类" }, { key: "fiction", label: "小说类" }];
     const BUILDER_STATUSES = [
       { key: "unseen", label: "未作答" }, { key: "wrong", label: "作答错误" },
@@ -883,7 +907,7 @@
     const BUILDER_MINUTES = { reading_writing: [1, 1.4], math: [1.3, 1.8] };
     const sectionByRoute = new Map(MANIFEST.pages.map(page => [page.route, page.section]));
     function builderDefaults() {
-      return { subject: "reading_writing", domains: new Set(), skills: new Set(), genres: new Set(), statuses: new Set(), levels: new Set(), count: 10, custom: false };
+      return { subject: "reading_writing", kinds: new Set(), domains: new Set(), skills: new Set(), genres: new Set(), statuses: new Set(), levels: new Set(), count: 10, custom: false };
     }
     let builderFilters = builderDefaults(), builderPreset = "";
     function inferGenre(passage) {
@@ -893,9 +917,10 @@
     }
     function builderMeta(question) {
       const section = String(question.subject || question.section || sectionByRoute.get(question.route) || "");
-      const level = String(question.difficulty || "").toLowerCase();
+      const level = String(question.difficultyLevel || question.difficulty || "").toLowerCase();
       return {
         subject: /math/i.test(section) ? "math" : "reading_writing",
+        kind: question.sourceKind || "",
         domain: question.domain || "",
         skill: question.skill || "",
         genre: question.genre || question.passageGenre || inferGenre(question.passage),
@@ -923,6 +948,7 @@
     function builderMatches(row, filters, skip = "") {
       const meta = row.meta;
       return meta.subject === filters.subject
+        && (skip === "kind" || !filters.kinds.size || filters.kinds.has(meta.kind))
         && (skip === "domain" || !filters.domains.size || filters.domains.has(meta.domain))
         && (skip === "skill" || !filters.skills.size || filters.skills.has(meta.skill))
         && (skip === "genre" || !filters.genres.size || filters.genres.has(meta.genre))
@@ -939,9 +965,10 @@
       const examCount = examEligiblePages().length, preset = route().tab;
       if (preset !== builderPreset && BUILDER_STATUSES.some(item => item.key === preset)) builderFilters.statuses = new Set([preset]);
       builderPreset = preset;
-      app.innerHTML = `<section class="panel" style="margin-top:0"><div class="section-title"><div><p class="eyebrow">PRACTICE</p><h1>生成今日练习</h1><p>按科目、专项、作答情况和难度，组合出一组适合现在练的题。</p></div></div>
+      app.innerHTML = `<section class="panel" style="margin-top:0"><div class="section-title"><div><p class="eyebrow blue">PRACTICE</p><h1>生成今日练习</h1><p>按科目、专项、作答情况和难度，组合出一组适合现在练的题。</p></div></div>
         <div class="builder"><form class="builder-form" id="builderForm">
           <fieldset class="builder-group"><legend>选择科目</legend><div class="subject-row" id="builderSubjects"></div></fieldset>
+          <fieldset class="builder-group"><legend>题目范围<small>可多选，不选即不限</small></legend><div class="chip-row" id="builderKinds"></div></fieldset>
           <fieldset class="builder-group"><legend>选择专项<small>可多选，不选即全部专项</small></legend><div class="domain-grid" id="builderDomains"></div></fieldset>
           <fieldset class="builder-group"><legend>选择知识点<small>可多选，不选即全部知识点</small></legend><div class="chip-row" id="builderSkills"></div></fieldset>
           <fieldset class="builder-group"><legend>选择分类<small>按文本类型</small></legend><div class="chip-row" id="builderGenres"></div></fieldset>
@@ -953,6 +980,7 @@
           <h2 id="builderTitle"></h2>
           <dl class="summary-list">
             <div><dt>练习方向</dt><dd id="summaryDirection"></dd></div>
+            <div><dt>题目范围</dt><dd id="summaryKinds"></dd></div>
             <div><dt>知识点</dt><dd id="summarySkills"></dd></div>
             <div><dt>作答情况</dt><dd id="summaryStatuses"></dd></div>
             <div><dt>难度与题量</dt><dd id="summaryLevel"></dd></div>
@@ -970,7 +998,7 @@
         else if (input.name === "count") { filters.custom = false; filters.count = Number(input.value); }
         else if (input.name === "customCount") { return; }
         else {
-          const target = { domain: filters.domains, skill: filters.skills, genre: filters.genres, source: filters.statuses, level: filters.levels }[input.name];
+          const target = { kind: filters.kinds, domain: filters.domains, skill: filters.skills, genre: filters.genres, source: filters.statuses, level: filters.levels }[input.name];
           if (!target) return;
           if (input.checked) target.add(input.value); else target.delete(input.value);
         }
@@ -1000,6 +1028,10 @@
       document.getElementById("builderSubjects").innerHTML = BUILDER_SUBJECTS.map(item => {
         const total = rows.filter(row => row.meta.subject === item.key).length;
         return pick("radio", "subject", item.key, filters.subject === item.key, `${item.label}${total ? "" : "<i>即将开放</i>"}`, !total);
+      }).join("");
+      document.getElementById("builderKinds").innerHTML = BUILDER_KINDS.map(item => {
+        const total = count("kind", row => row.meta.kind === item.key);
+        return pick("checkbox", "kind", item.key, filters.kinds.has(item.key), `${item.label}<i>${total}</i>`, !total && !filters.kinds.has(item.key));
       }).join("");
       document.getElementById("builderDomains").innerHTML = domains.map(item => {
         const total = count("domain", row => row.meta.domain === item.key);
@@ -1040,11 +1072,13 @@
       const pool = rows.filter(row => builderMatches(row, filters)), wanted = builderCount(filters), size = Math.min(wanted, pool.length);
       const labels = (set, list) => list.filter(item => set.has(item.key)).map(item => item.label);
       const subject = BUILDER_SUBJECTS.find(item => item.key === filters.subject).label;
+      const kindLabels = labels(filters.kinds, BUILDER_KINDS);
       const domainLabels = labels(filters.domains, domains), statusLabels = labels(filters.statuses, BUILDER_STATUSES), levelLabels = labels(filters.levels, BUILDER_LEVELS);
       const skillLabels = [...filters.skills].map(skill => SAT_SKILL_ZH[skill] || skill).concat(labels(filters.genres, genres));
       const [low, high] = BUILDER_MINUTES[filters.subject] || BUILDER_MINUTES.reading_writing;
       document.getElementById("builderTitle").textContent = domainLabels.length === 1 ? `${domainLabels[0]}专项` : domainLabels.length ? "组合专项练习" : "综合练习";
       document.getElementById("summaryDirection").textContent = `${subject} · ${domainLabels.length ? domainLabels.join("、") : "全部专项"}`;
+      document.getElementById("summaryKinds").textContent = kindLabels.length ? kindLabels.join("、") : "不限";
       document.getElementById("summarySkills").textContent = skillLabels.length ? skillLabels.join("、") : "全部知识点";
       document.getElementById("summaryStatuses").textContent = statusLabels.length ? statusLabels.join("、") : "不限";
       document.getElementById("summaryLevel").textContent = `${levelLabels.length ? levelLabels.join(" / ") : "不限难度"} · ${wanted} 题`;
@@ -1064,7 +1098,7 @@
       const session = {
         id: `session-${Date.now()}`, createdAt: nowIso(),
         sources: filters.statuses.size ? [...filters.statuses] : ["all"],
-        filters: { subject: filters.subject, domains: [...filters.domains], skills: [...filters.skills], genres: [...filters.genres], statuses: [...filters.statuses], difficulties: [...filters.levels], count },
+        filters: { subject: filters.subject, kinds: [...filters.kinds], domains: [...filters.domains], skills: [...filters.skills], genres: [...filters.genres], statuses: [...filters.statuses], difficulties: [...filters.levels], count },
         answers: {}, questions: selected.map(question => ({ questionId: question.questionId, route: question.route }))
       };
       try {
@@ -1079,7 +1113,7 @@
     }
 
     function renderSearch() {
-      app.innerHTML = `<section class="panel" style="margin-top:0"><div class="section-title"><div><p class="eyebrow">QUESTION SEARCH</p><h1>全库搜索</h1><p>搜索文章、题干、选项、题型和来源套题。</p></div><span class="section-meta">${MANIFEST.uniqueQuestionCount} 道唯一题</span></div><div class="search-shell"><div class="search-controls"><input id="searchInput" type="search" placeholder="输入关键词" aria-label="搜索题目" aria-controls="searchResults" aria-describedby="searchStatus"><select id="skillFilter" aria-label="按题型筛选" aria-controls="searchResults"><option value="">全部题型</option>${skillRows().map(row => `<option>${escapeHtml(row.skill)}</option>`).join("")}</select><button class="action ghost" id="clearSearch" type="button">清空</button></div><p class="search-status" id="searchStatus" role="status" aria-live="polite" aria-atomic="true"></p></div><div class="review-list" id="searchResults" aria-busy="false" style="margin-top:14px">${renderEmpty("输入关键词或选择题型开始搜索。")}</div></section>`;
+      app.innerHTML = `<section class="panel" style="margin-top:0"><div class="section-title"><div><p class="eyebrow teal">QUESTION SEARCH</p><h1>全库搜索</h1><p>搜索文章、题干、选项、题型和来源套题。</p></div><span class="section-meta">${MANIFEST.uniqueQuestionCount} 道唯一题</span></div><div class="search-shell"><div class="search-controls"><input id="searchInput" type="search" placeholder="输入关键词" aria-label="搜索题目" aria-controls="searchResults" aria-describedby="searchStatus"><select id="skillFilter" aria-label="按题型筛选" aria-controls="searchResults"><option value="">全部题型</option>${skillRows().map(row => `<option>${escapeHtml(row.skill)}</option>`).join("")}</select><button class="action ghost" id="clearSearch" type="button">清空</button></div><p class="search-status" id="searchStatus" role="status" aria-live="polite" aria-atomic="true"></p></div><div class="review-list" id="searchResults" aria-busy="false" style="margin-top:14px">${renderEmpty("输入关键词或选择题型开始搜索。")}</div></section>`;
       const input = document.getElementById("searchInput"), filter = document.getElementById("skillFilter"), results = document.getElementById("searchResults"), status = document.getElementById("searchStatus");
       let searchTimer, composing = false, active = true;
       const isCurrentView = () => active && route().root === "search" && document.getElementById("searchInput") === input;
@@ -1150,7 +1184,9 @@
     window.addEventListener("sat-cloudbase-session-ready", event => void bootstrapCloud(event.detail || window.satCloudbaseSession));
     window.addEventListener("sat-learning-owner-invalid", () => void bootstrapCloud({}));
     window.addEventListener("storage", event => {
-      if (learningStorage.eventKey(event) !== GLOBAL_KEY) return;
+      const scopedKey = learningStorage.eventKey(event);
+      if (scopedKey === SAT_STUDY_TIME_KEY) { if (route().root === "home") render(); return; }
+      if (scopedKey !== GLOBAL_KEY) return;
       state = learningStorage.mergeGlobal(state, normalizeState, merge);
       render();
     });

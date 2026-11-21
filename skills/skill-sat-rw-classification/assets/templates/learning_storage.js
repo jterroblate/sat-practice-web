@@ -173,3 +173,82 @@ function createSatLearningStore() {
     },
   };
 }
+
+/* Study time: seconds of active practice per local day, kept in the owner-scoped
+   store on this device only. It is not part of the cloud DTO and is never merged. */
+const SAT_STUDY_TIME_KEY = "sat-learning:study-time:v1";
+function satStudyDayKey(date = new Date()) {
+  const pad = value => String(value).padStart(2, "0");
+  return date.getFullYear() + "-" + pad(date.getMonth() + 1) + "-" + pad(date.getDate());
+}
+function readSatStudyDays(store) {
+  const days = {};
+  try {
+    const raw = JSON.parse(store.getItem(SAT_STUDY_TIME_KEY) || "null");
+    for (const [key, value] of Object.entries(raw && typeof raw.days === "object" && raw.days ? raw.days : {})) {
+      if (/^\d{4}-\d{2}-\d{2}$/.test(key) && Number.isFinite(value) && value > 0) days[key] = Math.floor(value);
+    }
+  } catch {}
+  return days;
+}
+function summarizeSatStudyTime(store, now = new Date()) {
+  const days = readSatStudyDays(store), week = new Set();
+  for (let offset = 0; offset < 7; offset += 1) {
+    week.add(satStudyDayKey(new Date(now.getFullYear(), now.getMonth(), now.getDate() - offset)));
+  }
+  let total = 0, weekTotal = 0;
+  for (const [key, value] of Object.entries(days)) { total += value; if (week.has(key)) weekTotal += value; }
+  return { today: days[satStudyDayKey(now)] || 0, week: weekTotal, total };
+}
+function formatSatStudyTime(seconds) {
+  const total = Math.max(0, Number(seconds) || 0), minutes = Math.floor(total / 60);
+  if (minutes < 1) return total >= 1 ? "<1 分钟" : "0 分钟";
+  if (minutes < 60) return minutes + " 分钟";
+  return Math.floor(minutes / 60) + " 小时" + (minutes % 60 ? " " + (minutes % 60) + " 分" : "");
+}
+// Counts time only while the page is visible and the learner has interacted recently.
+function startSatStudyClock(store, { idleMs = 180000, tickMs = 15000 } = {}) {
+  let lastActivity = Date.now(), lastTick = Date.now(), pending = 0;
+  const touch = () => { lastActivity = Date.now(); };
+  for (const type of ["pointerdown", "pointermove", "keydown", "wheel", "touchstart"]) {
+    window.addEventListener(type, touch, { passive: true, capture: true });
+  }
+  document.addEventListener("scroll", touch, { passive: true, capture: true });
+  function flush() {
+    const now = Date.now(), elapsed = Math.min(Math.max(0, now - lastTick), tickMs * 2);
+    lastTick = now;
+    if (document.visibilityState === "visible" && now - lastActivity < idleMs) pending += elapsed;
+    if (!store.ready()) { pending = 0; return; }
+    const seconds = Math.floor(pending / 1000);
+    if (seconds < 1) return;
+    try {
+      const days = readSatStudyDays(store), key = satStudyDayKey();
+      days[key] = (days[key] || 0) + seconds;
+      const kept = Object.keys(days).sort().slice(-400);
+      store.setItem(SAT_STUDY_TIME_KEY, JSON.stringify({ version: 1, days: Object.fromEntries(kept.map(day => [day, days[day]])) }));
+      pending -= seconds * 1000;
+    } catch {}
+  }
+  const timer = setInterval(flush, tickMs);
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "hidden") flush();
+    else { lastTick = Date.now(); touch(); }
+  });
+  window.addEventListener("pagehide", flush);
+  return { flush, stop() { clearInterval(timer); } };
+}
+
+/* Where a question comes from. Pages show this only after the question has been
+   answered. Recalled exam papers are labelled as such and never called official. */
+function describeSatSource(refs, fallback = {}) {
+  const ref = Array.isArray(refs) && refs[0] && typeof refs[0] === "object" ? refs[0] : null;
+  const label = String((ref && ref.label) || fallback.label || "").trim();
+  if (!label) return null;
+  const parts = [label];
+  if (ref && ref.year && !label.includes(String(ref.year))) parts.push(ref.year + " 年");
+  if (ref && ref.module) parts.push(String(ref.module));
+  const number = ref ? ref.number : fallback.number;
+  if (number !== null && number !== undefined && number !== "") parts.push("第 " + number + " 题");
+  const kind = String((ref && ref.kind) || fallback.kind || "");
+  return { text: parts.join(" · "), note: kind === "real_exam" ? "回忆版真题，来源未经认证" : kind === "practice" ? "模拟题" : "" };
+}
