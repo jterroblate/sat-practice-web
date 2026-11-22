@@ -88,6 +88,9 @@ CREATE TABLE source_module (
 --              the question came from, a 'rule', a 'model', or 'none' (unclassified).
 -- difficulty_basis: 'source_file' when the source states the difficulty,
 --              'model' when it is a model's estimate from the text alone.
+-- genre:       the literary kind of a Reading and Writing passage, set by
+--              scripts/tag_genre.py from the passage's own introduction;
+--              NULL for informational texts and for Math.
 
 CREATE TABLE question (
   question_id         TEXT PRIMARY KEY,
@@ -105,6 +108,7 @@ CREATE TABLE question (
   difficulty          TEXT CHECK (difficulty IN ('easy', 'medium', 'hard')),
   skill_basis         TEXT NOT NULL CHECK (skill_basis IN ('curated', 'source_file', 'rule', 'model', 'none')),
   difficulty_basis    TEXT CHECK (difficulty_basis IN ('source_file', 'model')),
+  genre               TEXT CHECK (genre IN ('poetry', 'fiction', 'drama')),
   CHECK ((format = 'choice') = (correct_answer IS NOT NULL)),
   CHECK ((difficulty IS NULL) = (difficulty_basis IS NULL)),
   CHECK (status = 'draft' OR (format = 'choice' AND markup = 'canonical')),
@@ -230,17 +234,43 @@ CREATE VIEW question_origin AS
    WHERE r.tier = r.best
    GROUP BY r.question_id;
 
+-- How much explanation a question has, one line per question:
+--   'full'  every explanation text is written and every choice is analysed;
+--   'brief' something is written, but not all of it (usually one or two
+--           sentences on the correct answer only);
+--   'none'  nothing is written.
+-- It is read off the explanation and choice rows, never stored, so it cannot
+-- disagree with them.
+CREATE VIEW question_explanation AS
+  WITH written AS (
+    SELECT q.question_id,
+           (coalesce(trim(e.short), '') <> '') + (coalesce(trim(e.key_evidence), '') <> '')
+             + (coalesce(trim(e.why_correct), '') <> '') + (coalesce(trim(e.detailed), '') <> '') AS texts,
+           (SELECT count(*) FROM choice c WHERE c.question_id = q.question_id) AS choices,
+           (SELECT count(*) FROM choice c
+             WHERE c.question_id = q.question_id AND coalesce(trim(c.analysis), '') <> '') AS analysed
+      FROM question q LEFT JOIN explanation e USING (question_id)
+  )
+  SELECT question_id,
+         CASE WHEN texts = 0 AND analysed = 0 THEN 'none'
+              WHEN texts = 4 AND analysed = choices THEN 'full'
+              ELSE 'brief' END AS level
+    FROM written;
+
 -- Everything needed to choose questions for practice, one line per question:
--- pick by section, category (domain), skill, real exam or practice, year and
--- difficulty. The site must use published rows only.
+-- pick by section, category (domain), skill, real exam or practice, year,
+-- difficulty, literary genre and how much explanation there is. The site must
+-- use published rows only.
 CREATE VIEW practice_pool AS
   SELECT q.question_id, q.status, d.section,
          d.domain_id, d.name AS domain, d.name_zh AS domain_zh,
          s.skill_id, s.name AS skill,
          o.kind, o.tier, o.tier_name, o.latest_year,
-         q.difficulty, q.difficulty_basis, q.format
+         q.difficulty, q.difficulty_basis, q.format,
+         q.genre, x.level AS explanation
     FROM question q
     JOIN subtype t USING (subtype_id)
     JOIN skill s USING (skill_id)
     JOIN domain d USING (domain_id)
+    JOIN question_explanation x USING (question_id)
     LEFT JOIN question_origin o USING (question_id);

@@ -24,7 +24,7 @@
 | 派生 category / 题型路由 | 11 |
 | 唯一公共 `question_id` | 4,054 |
 | 107 份 canonical 内的 occurrence | 4,067 |
-| 可进行正式模考的注册项 | 0 |
+| 可进行模考的注册项（读写固定两模块） | 19 |
 
 基线之外的 36 个套题、34 个专项和 2,302 道题由 `scripts/publish_drafts.py` 从 `content/db/` 的草稿生成，没有改动任何基线文件，也没有共用基线题号。它们是导入的回忆版真题与练习题：答案和文字未经逐题核对，1,397 道没有解析，`sourceFamily` 为 `question-bank-import-unverified` 或 `SAT机考题库/skill-difficulty`。发布条件、近似重复的处理和题型 / 难度的依据见 [content-db.md](content-db.md)。题型页因新增题目而变长，原有题型页的本地记录由 `baselineQuestionIds` 迁移。
 
@@ -48,7 +48,7 @@
 | `title` | 学生界面的公开材料名称 |
 | `questionIds` | 材料编排使用的题目 ID；保持顺序与数据一致 |
 | `status` | 控制是否纳入公开构建 |
-| `examEligible` / `examVariants` | 当前全部关闭正式模考 |
+| `examEligible` / `examVariants` / `moduleSpec` | 由 `scripts/exam_modules.py` 从题库表写入，不手工修改；只有一个固定方案（Module 1 + 第二模块） |
 | `sourceFamily` 等来源限定 | 描述已知来源状态，不等于官方认证 |
 
 类别页从已登记内容聚合，不应另造一份题库。对于重复 `question_id`，先找出它在所有材料里的 occurrence，核对展示优先级和上下文差异；不要只改一份再假定全站一致。同一 ID 在本公开副本中的评分字段须一致，测试会比较 `grading_revision()`；确有不同题面或解析语义时先评审身份 / 迁移方案，不能让共享记录同时绑定相互矛盾的版本。

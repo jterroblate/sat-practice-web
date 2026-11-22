@@ -269,6 +269,28 @@ SOURCE_KINDS = ("real_exam", "practice")
 DIFFICULTY_LEVELS = ("easy", "medium", "hard")
 DIFFICULTY_BASES = ("source_file", "estimate", "model")
 SOURCE_REGIONS = ("apac", "north_america")
+PASSAGE_GENRES = ("poetry", "fiction", "drama")
+EXPLANATION_TEXT_FIELDS = ("short", "key_evidence", "why_correct", "detailed")
+
+
+def explanation_level(question: dict[str, Any]) -> str:
+    """How much explanation the learner will see: 'full', 'brief' or 'none'.
+
+    Read off the question as it is published, the same way the view
+    question_explanation in content/db/schema.sql reads the tables: 'full' has
+    every explanation text and an analysis of every choice, 'none' has nothing
+    written, anything in between is 'brief'.
+    """
+    explanation = question.get("explanation") if isinstance(question.get("explanation"), dict) else {}
+    analysis = explanation.get("choice_analysis") if isinstance(explanation.get("choice_analysis"), dict) else {}
+    choices = [choice for choice in question.get("choices") or [] if isinstance(choice, dict)]
+    texts = sum(1 for field in EXPLANATION_TEXT_FIELDS if str(explanation.get(field) or "").strip())
+    analysed = sum(1 for choice in choices if str(analysis.get(choice.get("label")) or "").strip())
+    if texts == 0 and analysed == 0:
+        return "none"
+    if texts == len(EXPLANATION_TEXT_FIELDS) and analysed == len(choices):
+        return "full"
+    return "brief"
 
 
 def load_question_origins(root: Path) -> dict[str, dict[str, Any]]:
@@ -328,6 +350,7 @@ def question_origin(question: dict[str, Any]) -> dict[str, Any]:
         "year": whole(origin.get("year"), 2000, 2100),
         "level": level,
         "basis": basis,
+        "genre": origin.get("genre") if origin.get("genre") in PASSAGE_GENRES else "",
         "refs": refs,
     }
 
@@ -800,6 +823,8 @@ def compact_question(
         "sourceTier": origin["tier"],
         "sourceYear": origin["year"],
         "sourceRefs": origin["refs"],
+        "genre": origin["genre"],
+        "explanationLevel": explanation_level(question),
     }
 
 

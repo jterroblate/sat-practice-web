@@ -102,8 +102,10 @@ class FullContentPipelineTests(unittest.TestCase):
         revisions = {}
         occurrences = 0
         for entry in registry["entries"]:
-            self.assertFalse(entry["examEligible"])
-            self.assertEqual(entry["examVariants"], [])
+            # Mock exams are offered only as scripts/exam_modules.py derives them
+            # (tests/test_exam_modules.py); nothing else may switch one on.
+            self.assertEqual(bool(entry["examEligible"]), bool(entry["examVariants"]))
+            self.assertTrue(entry["kind"] == "set" or not entry["examEligible"])
             self.assertTrue((self.output / entry["route"]).is_file())
             if entry["kind"] not in {"set", "collection"}:
                 continue

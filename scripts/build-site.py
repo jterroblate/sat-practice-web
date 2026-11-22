@@ -97,8 +97,9 @@ def build_site() -> dict:
 
 def main() -> int:
     manifest = build_site()
+    exams = sum(1 for page in manifest["pages"] if page.get("examEligible") is True)
     print(f"Built full development site: {manifest['uniqueQuestionCount']} unique questions, "
-          f"{manifest['pageCount']} routes. Formal examinations remain disabled.")
+          f"{manifest['pageCount']} routes, {exams} fixed two-module mock exam(s).")
     print("Preview: python3 -m http.server --bind 127.0.0.1 --directory build/site 8000")
     print("This build has no production authentication or deployment step.")
     return 0

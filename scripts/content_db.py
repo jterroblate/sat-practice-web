@@ -355,8 +355,8 @@ def normalize(root: Path = ROOT, existing: Tables | None = None) -> Tables:
 
     Columns the set files determine are taken from them. Draft questions, where
     questions came from (source families, modules, placements in imported
-    sources) and a recorded difficulty with its basis are carried over from
-    `existing`. Rows that nothing uses any more are dropped.
+    sources), a recorded difficulty with its basis and the passage genre are
+    carried over from `existing`. Rows that nothing uses any more are dropped.
     """
     existing = existing or {}
     derived = derive(root, existing)
@@ -373,7 +373,8 @@ def normalize(root: Path = ROOT, existing: Tables | None = None) -> Tables:
         # A draft that is published keeps the record of how it was classified.
         "skill_basis": previous.get(row["question_id"], {}).get("skill_basis") or "curated",
         "difficulty": previous.get(row["question_id"], {}).get("difficulty"),
-        "difficulty_basis": previous.get(row["question_id"], {}).get("difficulty_basis")}
+        "difficulty_basis": previous.get(row["question_id"], {}).get("difficulty_basis"),
+        "genre": previous.get(row["question_id"], {}).get("genre")}
         for row in derived["question"]}
     drafts = {row["question_id"] for row in old("question")
               if row["status"] == "draft" and row["question_id"] not in questions}
@@ -490,21 +491,23 @@ DIFFICULTY_LEVELS = ("easy", "medium", "hard")
 
 
 def question_metadata(tables: Tables, root: Path = ROOT) -> dict[str, Any]:
-    """Origin and difficulty of every published question, for the site builder.
+    """Origin, difficulty, genre and explanation level of every published question, for the site builder.
 
     kind and tier come from the best source the question is known from, year is
     the latest year it appeared in a source of that tier. difficultyBasis says
     where the difficulty comes from: 'source_file', 'estimate' or 'model'. refs lists every
     known appearance, best first: imported sources before the labels carried by
-    the set files, then most recent.
+    the set files, then most recent. genre is 'poetry', 'fiction', 'drama' or
+    None; explanation is 'full', 'brief' or 'none' (view question_explanation).
     """
     connection = load_sqlite(tables, root)
     try:
         questions: dict[str, dict[str, Any]] = {}
-        for question_id, stated, basis, estimate, kind, tier, year in connection.execute(
+        for question_id, stated, basis, estimate, kind, tier, year, genre, explanation in connection.execute(
                 "SELECT q.question_id, q.difficulty, q.difficulty_basis, q.difficulty_estimate,"
-                "       o.kind, o.tier, o.latest_year"
-                "  FROM question q LEFT JOIN question_origin o USING (question_id)"
+                "       o.kind, o.tier, o.latest_year, q.genre, x.level"
+                "  FROM question q JOIN question_explanation x USING (question_id)"
+                "  LEFT JOIN question_origin o USING (question_id)"
                 " WHERE q.status = 'published'"):
             estimate = estimate.lower() if isinstance(estimate, str) else None
             # A source's own statement first, then the estimate carried by the
@@ -514,6 +517,7 @@ def question_metadata(tables: Tables, root: Path = ROOT) -> dict[str, Any]:
             questions[question_id] = {
                 "kind": kind, "tier": tier, "year": year,
                 "difficulty": stated, "difficultyBasis": basis if stated else None,
+                "genre": genre, "explanation": explanation,
                 "refs": [],
             }
         appearances = connection.execute(

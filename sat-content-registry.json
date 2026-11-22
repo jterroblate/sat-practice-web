@@ -5745,8 +5745,18 @@
       "contentId": "set-2026-06-apac-b-fixed-hard",
       "dataPath": "content/canonical/sets/34-2026-06-apac-b-fixed-hard.json",
       "difficulty": "mixed",
-      "examEligible": false,
-      "examVariants": [],
+      "examEligible": true,
+      "examVariants": [
+        {
+          "id": "fixed-hard",
+          "label": "Module 1 + Module 2 · Hard",
+          "branch": "hard",
+          "modules": [
+            "m1",
+            "m2_hard"
+          ]
+        }
+      ],
       "kind": "set",
       "moduleSpec": {
         "m1": {
@@ -5934,10 +5944,82 @@
       "contentId": "set-exam-2023-03",
       "dataPath": "content/canonical/sets/exam-2023-03.json",
       "difficulty": "mixed",
-      "examEligible": false,
-      "examVariants": [],
+      "examEligible": true,
+      "examVariants": [
+        {
+          "id": "fixed",
+          "label": "Module 1 + Module 2",
+          "branch": "hard",
+          "modules": [
+            "m1",
+            "m2"
+          ]
+        }
+      ],
       "kind": "set",
-      "moduleSpec": null,
+      "moduleSpec": {
+        "m1": {
+          "label": "Module 1",
+          "durationSeconds": 1740,
+          "questionIds": [
+            "bank_rw_000215",
+            "bank_rw_000216",
+            "bank_rw_000217",
+            "bank_rw_000218",
+            "bank_rw_000219",
+            "bank_rw_000220",
+            "bank_rw_000221",
+            "bank_rw_000222",
+            "bank_rw_000223",
+            "bank_rw_000225",
+            "bank_rw_000227",
+            "bank_rw_000228",
+            "bank_rw_000229",
+            "bank_rw_000230",
+            "bank_rw_000231",
+            "bank_rw_000232",
+            "bank_rw_000233",
+            "bank_rw_000234",
+            "bank_rw_000236",
+            "bank_rw_000237",
+            "bank_rw_000238",
+            "bank_rw_000239",
+            "bank_rw_000240",
+            "bank_rw_000241"
+          ]
+        },
+        "m2": {
+          "label": "Module 2",
+          "durationSeconds": 1800,
+          "questionIds": [
+            "bank_rw_000242",
+            "bank_rw_000243",
+            "bank_rw_000244",
+            "bank_rw_000245",
+            "bank_rw_000246",
+            "bank_rw_000247",
+            "bank_rw_000248",
+            "bank_rw_000249",
+            "bank_rw_000250",
+            "bank_rw_000251",
+            "bank_rw_000252",
+            "bank_rw_000253",
+            "bank_rw_000254",
+            "bank_rw_000255",
+            "bank_rw_000256",
+            "bank_rw_000257",
+            "bank_rw_000258",
+            "bank_rw_000259",
+            "bank_rw_000260",
+            "bank_rw_000261",
+            "bank_rw_000262",
+            "bank_rw_000263",
+            "bank_rw_000264",
+            "bank_rw_000265",
+            "bank_rw_000266"
+          ]
+        }
+      },
       "route": "sets/exam-2023-03.html",
       "section": "reading_writing",
       "sourceFamily": "question-bank-import-unverified",
@@ -6140,10 +6222,84 @@
       "contentId": "set-exam-2023-12-s1-a",
       "dataPath": "content/canonical/sets/exam-2023-12-s1-a.json",
       "difficulty": "mixed",
-      "examEligible": false,
-      "examVariants": [],
+      "examEligible": true,
+      "examVariants": [
+        {
+          "id": "fixed",
+          "label": "Module 1 + Module 2",
+          "branch": "hard",
+          "modules": [
+            "m1",
+            "m2"
+          ]
+        }
+      ],
       "kind": "set",
-      "moduleSpec": null,
+      "moduleSpec": {
+        "m1": {
+          "label": "Module 1",
+          "durationSeconds": 1860,
+          "questionIds": [
+            "bank_rw_000001",
+            "bank_rw_000002",
+            "bank_rw_000003",
+            "bank_rw_000004",
+            "bank_rw_000005",
+            "bank_rw_000006",
+            "bank_rw_000007",
+            "bank_rw_000008",
+            "bank_rw_000009",
+            "bank_rw_000010",
+            "bank_rw_000011",
+            "bank_rw_000012",
+            "bank_rw_000013",
+            "bank_rw_000014",
+            "bank_rw_000015",
+            "bank_rw_000016",
+            "bank_rw_000017",
+            "bank_rw_000019",
+            "bank_rw_000020",
+            "bank_rw_000021",
+            "bank_rw_000022",
+            "bank_rw_000023",
+            "bank_rw_000024",
+            "bank_rw_000025",
+            "bank_rw_000026",
+            "bank_rw_000027"
+          ]
+        },
+        "m2": {
+          "label": "Module 2",
+          "durationSeconds": 1800,
+          "questionIds": [
+            "bank_rw_000028",
+            "bank_rw_000029",
+            "bank_rw_000030",
+            "bank_rw_000031",
+            "bank_rw_000032",
+            "bank_rw_000033",
+            "bank_rw_000034",
+            "bank_rw_000035",
+            "bank_rw_000036",
+            "bank_rw_000037",
+            "bank_rw_000039",
+            "bank_rw_000040",
+            "bank_rw_000041",
+            "bank_rw_000042",
+            "bank_rw_000043",
+            "bank_rw_000044",
+            "bank_rw_000045",
+            "bank_rw_000046",
+            "bank_rw_000047",
+            "bank_rw_000048",
+            "bank_rw_000049",
+            "bank_rw_000050",
+            "bank_rw_000051",
+            "bank_rw_000052",
+            "bank_rw_000053"
+          ]
+        }
+      },
       "route": "sets/exam-2023-12-s1-a.html",
       "section": "reading_writing",
       "sourceFamily": "question-bank-import-unverified",
@@ -6260,10 +6416,83 @@
       "contentId": "set-exam-2023-12-s2-b",
       "dataPath": "content/canonical/sets/exam-2023-12-s2-b.json",
       "difficulty": "mixed",
-      "examEligible": false,
-      "examVariants": [],
+      "examEligible": true,
+      "examVariants": [
+        {
+          "id": "fixed",
+          "label": "Module 1 + Module 2",
+          "branch": "hard",
+          "modules": [
+            "m1",
+            "m2"
+          ]
+        }
+      ],
       "kind": "set",
-      "moduleSpec": null,
+      "moduleSpec": {
+        "m1": {
+          "label": "Module 1",
+          "durationSeconds": 1680,
+          "questionIds": [
+            "bank_rw_000054",
+            "bank_rw_000055",
+            "bank_rw_000056",
+            "bank_rw_000059",
+            "bank_rw_000060",
+            "bank_rw_000061",
+            "bank_rw_000062",
+            "bank_rw_000063",
+            "bank_rw_000064",
+            "bank_rw_000065",
+            "bank_rw_000066",
+            "bank_rw_000067",
+            "bank_rw_000068",
+            "bank_rw_000069",
+            "bank_rw_000070",
+            "bank_rw_000071",
+            "bank_rw_000073",
+            "bank_rw_000074",
+            "bank_rw_000075",
+            "bank_rw_000077",
+            "bank_rw_000078",
+            "bank_rw_000079",
+            "bank_rw_000080"
+          ]
+        },
+        "m2": {
+          "label": "Module 2",
+          "durationSeconds": 1920,
+          "questionIds": [
+            "bank_rw_000081",
+            "bank_rw_000082",
+            "bank_rw_000083",
+            "bank_rw_000084",
+            "bank_rw_000085",
+            "bank_rw_000086",
+            "bank_rw_000087",
+            "bank_rw_000088",
+            "bank_rw_000089",
+            "bank_rw_000090",
+            "bank_rw_000091",
+            "bank_rw_000092",
+            "bank_rw_000093",
+            "bank_rw_000094",
+            "bank_rw_000095",
+            "bank_rw_000096",
+            "bank_rw_000097",
+            "bank_rw_000098",
+            "bank_rw_000099",
+            "bank_rw_000100",
+            "bank_rw_000101",
+            "bank_rw_000102",
+            "bank_rw_000103",
+            "bank_rw_000104",
+            "bank_rw_000105",
+            "bank_rw_000106",
+            "bank_rw_000107"
+          ]
+        }
+      },
       "route": "sets/exam-2023-12-s2-b.html",
       "section": "reading_writing",
       "sourceFamily": "question-bank-import-unverified",
@@ -6377,10 +6606,81 @@
       "contentId": "set-exam-2023-12-s3-c",
       "dataPath": "content/canonical/sets/exam-2023-12-s3-c.json",
       "difficulty": "mixed",
-      "examEligible": false,
-      "examVariants": [],
+      "examEligible": true,
+      "examVariants": [
+        {
+          "id": "fixed",
+          "label": "Module 1 + Module 2",
+          "branch": "hard",
+          "modules": [
+            "m1",
+            "m2"
+          ]
+        }
+      ],
       "kind": "set",
-      "moduleSpec": null,
+      "moduleSpec": {
+        "m1": {
+          "label": "Module 1",
+          "durationSeconds": 1800,
+          "questionIds": [
+            "bank_rw_000108",
+            "bank_rw_000109",
+            "bank_rw_000110",
+            "bank_rw_000111",
+            "bank_rw_000112",
+            "bank_rw_000113",
+            "bank_rw_000114",
+            "bank_rw_000115",
+            "bank_rw_000116",
+            "bank_rw_000117",
+            "bank_rw_000119",
+            "bank_rw_000120",
+            "bank_rw_000121",
+            "bank_rw_000122",
+            "bank_rw_000123",
+            "bank_rw_000124",
+            "bank_rw_000125",
+            "bank_rw_000126",
+            "bank_rw_000127",
+            "bank_rw_000128",
+            "bank_rw_000129",
+            "bank_rw_000130",
+            "bank_rw_000131",
+            "bank_rw_000133",
+            "bank_rw_000134"
+          ]
+        },
+        "m2": {
+          "label": "Module 2",
+          "durationSeconds": 1680,
+          "questionIds": [
+            "bank_rw_000135",
+            "bank_rw_000136",
+            "bank_rw_000137",
+            "bank_rw_000138",
+            "bank_rw_000139",
+            "bank_rw_000140",
+            "bank_rw_000141",
+            "bank_rw_000142",
+            "bank_rw_000143",
+            "bank_rw_000144",
+            "bank_rw_000145",
+            "bank_rw_000146",
+            "bank_rw_000148",
+            "bank_rw_000149",
+            "bank_rw_000150",
+            "bank_rw_000151",
+            "bank_rw_000152",
+            "bank_rw_000154",
+            "bank_rw_000155",
+            "bank_rw_000156",
+            "bank_rw_000157",
+            "bank_rw_000159",
+            "bank_rw_000160"
+          ]
+        }
+      },
       "route": "sets/exam-2023-12-s3-c.html",
       "section": "reading_writing",
       "sourceFamily": "question-bank-import-unverified",
@@ -6492,10 +6792,81 @@
       "contentId": "set-exam-2023-12-s5-e",
       "dataPath": "content/canonical/sets/exam-2023-12-s5-e.json",
       "difficulty": "mixed",
-      "examEligible": false,
-      "examVariants": [],
+      "examEligible": true,
+      "examVariants": [
+        {
+          "id": "fixed",
+          "label": "Module 1 + Module 2",
+          "branch": "hard",
+          "modules": [
+            "m1",
+            "m2"
+          ]
+        }
+      ],
       "kind": "set",
-      "moduleSpec": null,
+      "moduleSpec": {
+        "m1": {
+          "label": "Module 1",
+          "durationSeconds": 1680,
+          "questionIds": [
+            "bank_rw_000161",
+            "bank_rw_000164",
+            "bank_rw_000165",
+            "bank_rw_000166",
+            "bank_rw_000167",
+            "bank_rw_000168",
+            "bank_rw_000170",
+            "bank_rw_000171",
+            "bank_rw_000172",
+            "bank_rw_000173",
+            "bank_rw_000174",
+            "bank_rw_000175",
+            "bank_rw_000176",
+            "bank_rw_000177",
+            "bank_rw_000178",
+            "bank_rw_000179",
+            "bank_rw_000180",
+            "bank_rw_000182",
+            "bank_rw_000183",
+            "bank_rw_000184",
+            "bank_rw_000185",
+            "bank_rw_000186",
+            "bank_rw_000187"
+          ]
+        },
+        "m2": {
+          "label": "Module 2",
+          "durationSeconds": 1800,
+          "questionIds": [
+            "bank_rw_000188",
+            "bank_rw_000189",
+            "bank_rw_000190",
+            "bank_rw_000191",
+            "bank_rw_000192",
+            "bank_rw_000193",
+            "bank_rw_000194",
+            "bank_rw_000195",
+            "bank_rw_000196",
+            "bank_rw_000198",
+            "bank_rw_000199",
+            "bank_rw_000200",
+            "bank_rw_000202",
+            "bank_rw_000203",
+            "bank_rw_000204",
+            "bank_rw_000205",
+            "bank_rw_000206",
+            "bank_rw_000207",
+            "bank_rw_000208",
+            "bank_rw_000209",
+            "bank_rw_000210",
+            "bank_rw_000211",
+            "bank_rw_000212",
+            "bank_rw_000213",
+            "bank_rw_000214"
+          ]
+        }
+      },
       "route": "sets/exam-2023-12-s5-e.html",
       "section": "reading_writing",
       "sourceFamily": "question-bank-import-unverified",
@@ -6607,10 +6978,81 @@
       "contentId": "set-exam-2024-03-s1-a",
       "dataPath": "content/canonical/sets/exam-2024-03-s1-a.json",
       "difficulty": "mixed",
-      "examEligible": false,
-      "examVariants": [],
+      "examEligible": true,
+      "examVariants": [
+        {
+          "id": "fixed",
+          "label": "Module 1 + Module 2",
+          "branch": "hard",
+          "modules": [
+            "m1",
+            "m2"
+          ]
+        }
+      ],
       "kind": "set",
-      "moduleSpec": null,
+      "moduleSpec": {
+        "m1": {
+          "label": "Module 1",
+          "durationSeconds": 1740,
+          "questionIds": [
+            "bank_rw_000358",
+            "bank_rw_000359",
+            "bank_rw_000360",
+            "bank_rw_000361",
+            "bank_rw_000362",
+            "bank_rw_000363",
+            "bank_rw_000364",
+            "bank_rw_000365",
+            "bank_rw_000367",
+            "bank_rw_000368",
+            "bank_rw_000371",
+            "bank_rw_000372",
+            "bank_rw_000373",
+            "bank_rw_000374",
+            "bank_rw_000375",
+            "bank_rw_000376",
+            "bank_rw_000377",
+            "bank_rw_000378",
+            "bank_rw_000379",
+            "bank_rw_000380",
+            "bank_rw_000381",
+            "bank_rw_000382",
+            "bank_rw_000383",
+            "bank_rw_000384"
+          ]
+        },
+        "m2": {
+          "label": "Module 2",
+          "durationSeconds": 1740,
+          "questionIds": [
+            "bank_rw_000385",
+            "bank_rw_000387",
+            "bank_rw_000388",
+            "bank_rw_000389",
+            "bank_rw_000390",
+            "bank_rw_000391",
+            "bank_rw_000392",
+            "bank_rw_000395",
+            "bank_rw_000396",
+            "bank_rw_000397",
+            "bank_rw_000398",
+            "bank_rw_000399",
+            "bank_rw_000400",
+            "bank_rw_000401",
+            "bank_rw_000402",
+            "bank_rw_000403",
+            "bank_rw_000404",
+            "bank_rw_000405",
+            "bank_rw_000406",
+            "bank_rw_000407",
+            "bank_rw_000408",
+            "bank_rw_000409",
+            "bank_rw_000410",
+            "bank_rw_000411"
+          ]
+        }
+      },
       "route": "sets/exam-2024-03-s1-a.html",
       "section": "reading_writing",
       "sourceFamily": "question-bank-import-unverified",
@@ -6724,10 +7166,83 @@
       "contentId": "set-exam-2024-03-s2-b",
       "dataPath": "content/canonical/sets/exam-2024-03-s2-b.json",
       "difficulty": "mixed",
-      "examEligible": false,
-      "examVariants": [],
+      "examEligible": true,
+      "examVariants": [
+        {
+          "id": "fixed",
+          "label": "Module 1 + Module 2",
+          "branch": "hard",
+          "modules": [
+            "m1",
+            "m2"
+          ]
+        }
+      ],
       "kind": "set",
-      "moduleSpec": null,
+      "moduleSpec": {
+        "m1": {
+          "label": "Module 1",
+          "durationSeconds": 1800,
+          "questionIds": [
+            "bank_rw_000412",
+            "bank_rw_000413",
+            "bank_rw_000414",
+            "bank_rw_000415",
+            "bank_rw_000416",
+            "bank_rw_000417",
+            "bank_rw_000418",
+            "bank_rw_000419",
+            "bank_rw_000420",
+            "bank_rw_000421",
+            "bank_rw_000423",
+            "bank_rw_000424",
+            "bank_rw_000425",
+            "bank_rw_000426",
+            "bank_rw_000428",
+            "bank_rw_000429",
+            "bank_rw_000430",
+            "bank_rw_000431",
+            "bank_rw_000432",
+            "bank_rw_000433",
+            "bank_rw_000434",
+            "bank_rw_000435",
+            "bank_rw_000436",
+            "bank_rw_000437",
+            "bank_rw_000438"
+          ]
+        },
+        "m2": {
+          "label": "Module 2",
+          "durationSeconds": 1800,
+          "questionIds": [
+            "bank_rw_000439",
+            "bank_rw_000440",
+            "bank_rw_000441",
+            "bank_rw_000442",
+            "bank_rw_000443",
+            "bank_rw_000444",
+            "bank_rw_000445",
+            "bank_rw_000446",
+            "bank_rw_000447",
+            "bank_rw_000449",
+            "bank_rw_000450",
+            "bank_rw_000452",
+            "bank_rw_000453",
+            "bank_rw_000454",
+            "bank_rw_000455",
+            "bank_rw_000456",
+            "bank_rw_000457",
+            "bank_rw_000458",
+            "bank_rw_000459",
+            "bank_rw_000460",
+            "bank_rw_000461",
+            "bank_rw_000462",
+            "bank_rw_000463",
+            "bank_rw_000464",
+            "bank_rw_000465"
+          ]
+        }
+      },
       "route": "sets/exam-2024-03-s2-b.html",
       "section": "reading_writing",
       "sourceFamily": "question-bank-import-unverified",
@@ -7054,10 +7569,82 @@
       "contentId": "set-exam-2024-05-s1-apac-a",
       "dataPath": "content/canonical/sets/exam-2024-05-s1-apac-a.json",
       "difficulty": "mixed",
-      "examEligible": false,
-      "examVariants": [],
+      "examEligible": true,
+      "examVariants": [
+        {
+          "id": "fixed",
+          "label": "Module 1 + Module 2",
+          "branch": "hard",
+          "modules": [
+            "m1",
+            "m2"
+          ]
+        }
+      ],
       "kind": "set",
-      "moduleSpec": null,
+      "moduleSpec": {
+        "m1": {
+          "label": "Module 1",
+          "durationSeconds": 1860,
+          "questionIds": [
+            "bank_rw_000566",
+            "bank_rw_000567",
+            "bank_rw_000568",
+            "bank_rw_000569",
+            "bank_rw_000570",
+            "bank_rw_000571",
+            "bank_rw_000572",
+            "bank_rw_000573",
+            "bank_rw_000574",
+            "bank_rw_000575",
+            "bank_rw_000576",
+            "bank_rw_000577",
+            "bank_rw_000579",
+            "bank_rw_000580",
+            "bank_rw_000581",
+            "bank_rw_000582",
+            "bank_rw_000583",
+            "bank_rw_000584",
+            "bank_rw_000585",
+            "bank_rw_000586",
+            "bank_rw_000587",
+            "bank_rw_000588",
+            "bank_rw_000589",
+            "bank_rw_000590",
+            "bank_rw_000591",
+            "bank_rw_000592"
+          ]
+        },
+        "m2": {
+          "label": "Module 2",
+          "durationSeconds": 1680,
+          "questionIds": [
+            "bank_rw_000593",
+            "bank_rw_000594",
+            "bank_rw_000595",
+            "bank_rw_000596",
+            "bank_rw_000598",
+            "bank_rw_000599",
+            "bank_rw_000600",
+            "bank_rw_000601",
+            "bank_rw_000603",
+            "bank_rw_000604",
+            "bank_rw_000605",
+            "bank_rw_000606",
+            "bank_rw_000607",
+            "bank_rw_000608",
+            "bank_rw_000609",
+            "bank_rw_000610",
+            "bank_rw_000611",
+            "bank_rw_000613",
+            "bank_rw_000614",
+            "bank_rw_000615",
+            "bank_rw_000616",
+            "bank_rw_000617",
+            "bank_rw_000618"
+          ]
+        }
+      },
       "route": "sets/exam-2024-05-s1-apac-a.html",
       "section": "reading_writing",
       "sourceFamily": "question-bank-import-unverified",
@@ -7172,10 +7759,83 @@
       "contentId": "set-exam-2024-05-s2-apac-b",
       "dataPath": "content/canonical/sets/exam-2024-05-s2-apac-b.json",
       "difficulty": "mixed",
-      "examEligible": false,
-      "examVariants": [],
+      "examEligible": true,
+      "examVariants": [
+        {
+          "id": "fixed",
+          "label": "Module 1 + Module 2",
+          "branch": "hard",
+          "modules": [
+            "m1",
+            "m2"
+          ]
+        }
+      ],
       "kind": "set",
-      "moduleSpec": null,
+      "moduleSpec": {
+        "m1": {
+          "label": "Module 1",
+          "durationSeconds": 1740,
+          "questionIds": [
+            "bank_rw_000619",
+            "bank_rw_000620",
+            "bank_rw_000621",
+            "bank_rw_000622",
+            "bank_rw_000623",
+            "bank_rw_000624",
+            "bank_rw_000625",
+            "bank_rw_000626",
+            "bank_rw_000627",
+            "bank_rw_000628",
+            "bank_rw_000629",
+            "bank_rw_000630",
+            "bank_rw_000632",
+            "bank_rw_000633",
+            "bank_rw_000635",
+            "bank_rw_000636",
+            "bank_rw_000637",
+            "bank_rw_000638",
+            "bank_rw_000639",
+            "bank_rw_000640",
+            "bank_rw_000641",
+            "bank_rw_000643",
+            "bank_rw_000644",
+            "bank_rw_000645"
+          ]
+        },
+        "m2": {
+          "label": "Module 2",
+          "durationSeconds": 1860,
+          "questionIds": [
+            "bank_rw_000646",
+            "bank_rw_000647",
+            "bank_rw_000648",
+            "bank_rw_000649",
+            "bank_rw_000650",
+            "bank_rw_000651",
+            "bank_rw_000652",
+            "bank_rw_000653",
+            "bank_rw_000654",
+            "bank_rw_000655",
+            "bank_rw_000656",
+            "bank_rw_000657",
+            "bank_rw_000658",
+            "bank_rw_000660",
+            "bank_rw_000661",
+            "bank_rw_000662",
+            "bank_rw_000663",
+            "bank_rw_000664",
+            "bank_rw_000665",
+            "bank_rw_000666",
+            "bank_rw_000667",
+            "bank_rw_000668",
+            "bank_rw_000669",
+            "bank_rw_000670",
+            "bank_rw_000671",
+            "bank_rw_000672"
+          ]
+        }
+      },
       "route": "sets/exam-2024-05-s2-apac-b.html",
       "section": "reading_writing",
       "sourceFamily": "question-bank-import-unverified",
@@ -7290,10 +7950,82 @@
       "contentId": "set-exam-2024-06-s1-a",
       "dataPath": "content/canonical/sets/exam-2024-06-s1-a.json",
       "difficulty": "mixed",
-      "examEligible": false,
-      "examVariants": [],
+      "examEligible": true,
+      "examVariants": [
+        {
+          "id": "fixed",
+          "label": "Module 1 + Module 2",
+          "branch": "hard",
+          "modules": [
+            "m1",
+            "m2"
+          ]
+        }
+      ],
       "kind": "set",
-      "moduleSpec": null,
+      "moduleSpec": {
+        "m1": {
+          "label": "Module 1",
+          "durationSeconds": 1680,
+          "questionIds": [
+            "bank_rw_000673",
+            "bank_rw_000675",
+            "bank_rw_000676",
+            "bank_rw_000678",
+            "bank_rw_000679",
+            "bank_rw_000680",
+            "bank_rw_000682",
+            "bank_rw_000684",
+            "bank_rw_000685",
+            "bank_rw_000686",
+            "bank_rw_000687",
+            "bank_rw_000688",
+            "bank_rw_000689",
+            "bank_rw_000690",
+            "bank_rw_000691",
+            "bank_rw_000692",
+            "bank_rw_000693",
+            "bank_rw_000694",
+            "bank_rw_000695",
+            "bank_rw_000696",
+            "bank_rw_000697",
+            "bank_rw_000698",
+            "bank_rw_000699"
+          ]
+        },
+        "m2": {
+          "label": "Module 2",
+          "durationSeconds": 1860,
+          "questionIds": [
+            "bank_rw_000700",
+            "bank_rw_000701",
+            "bank_rw_000702",
+            "bank_rw_000703",
+            "bank_rw_000704",
+            "bank_rw_000705",
+            "bank_rw_000706",
+            "bank_rw_000707",
+            "bank_rw_000708",
+            "bank_rw_000709",
+            "bank_rw_000711",
+            "bank_rw_000712",
+            "bank_rw_000713",
+            "bank_rw_000714",
+            "bank_rw_000715",
+            "bank_rw_000716",
+            "bank_rw_000717",
+            "bank_rw_000718",
+            "bank_rw_000719",
+            "bank_rw_000720",
+            "bank_rw_000721",
+            "bank_rw_000722",
+            "bank_rw_000723",
+            "bank_rw_000724",
+            "bank_rw_000725",
+            "bank_rw_000726"
+          ]
+        }
+      },
       "route": "sets/exam-2024-06-s1-a.html",
       "section": "reading_writing",
       "sourceFamily": "question-bank-import-unverified",
@@ -7407,10 +8139,82 @@
       "contentId": "set-exam-2024-06-s3-c1",
       "dataPath": "content/canonical/sets/exam-2024-06-s3-c1.json",
       "difficulty": "mixed",
-      "examEligible": false,
-      "examVariants": [],
+      "examEligible": true,
+      "examVariants": [
+        {
+          "id": "fixed",
+          "label": "Module 1 + Module 2",
+          "branch": "hard",
+          "modules": [
+            "m1",
+            "m2"
+          ]
+        }
+      ],
       "kind": "set",
-      "moduleSpec": null,
+      "moduleSpec": {
+        "m1": {
+          "label": "Module 1",
+          "durationSeconds": 1800,
+          "questionIds": [
+            "bank_rw_000727",
+            "bank_rw_000728",
+            "bank_rw_000729",
+            "bank_rw_000730",
+            "bank_rw_000731",
+            "bank_rw_000732",
+            "bank_rw_000733",
+            "bank_rw_000734",
+            "bank_rw_000735",
+            "bank_rw_000736",
+            "bank_rw_000737",
+            "bank_rw_000739",
+            "bank_rw_000740",
+            "bank_rw_000741",
+            "bank_rw_000742",
+            "bank_rw_000743",
+            "bank_rw_000744",
+            "bank_rw_000745",
+            "bank_rw_000746",
+            "bank_rw_000748",
+            "bank_rw_000749",
+            "bank_rw_000750",
+            "bank_rw_000751",
+            "bank_rw_000752",
+            "bank_rw_000753"
+          ]
+        },
+        "m2": {
+          "label": "Module 2",
+          "durationSeconds": 1740,
+          "questionIds": [
+            "bank_rw_000754",
+            "bank_rw_000755",
+            "bank_rw_000756",
+            "bank_rw_000758",
+            "bank_rw_000759",
+            "bank_rw_000760",
+            "bank_rw_000761",
+            "bank_rw_000762",
+            "bank_rw_000763",
+            "bank_rw_000764",
+            "bank_rw_000765",
+            "bank_rw_000766",
+            "bank_rw_000767",
+            "bank_rw_000768",
+            "bank_rw_000769",
+            "bank_rw_000770",
+            "bank_rw_000771",
+            "bank_rw_000772",
+            "bank_rw_000773",
+            "bank_rw_000775",
+            "bank_rw_000776",
+            "bank_rw_000777",
+            "bank_rw_000778",
+            "bank_rw_000779"
+          ]
+        }
+      },
       "route": "sets/exam-2024-06-s3-c1.html",
       "section": "reading_writing",
       "sourceFamily": "question-bank-import-unverified",
@@ -7610,10 +8414,83 @@
       "contentId": "set-exam-2024-11-s1-apac-a",
       "dataPath": "content/canonical/sets/exam-2024-11-s1-apac-a.json",
       "difficulty": "mixed",
-      "examEligible": false,
-      "examVariants": [],
+      "examEligible": true,
+      "examVariants": [
+        {
+          "id": "fixed",
+          "label": "Module 1 + Module 2",
+          "branch": "hard",
+          "modules": [
+            "m1",
+            "m2"
+          ]
+        }
+      ],
       "kind": "set",
-      "moduleSpec": null,
+      "moduleSpec": {
+        "m1": {
+          "label": "Module 1",
+          "durationSeconds": 1800,
+          "questionIds": [
+            "bank_rw_000304",
+            "bank_rw_000305",
+            "bank_rw_000306",
+            "bank_rw_000307",
+            "bank_rw_000308",
+            "bank_rw_000310",
+            "bank_rw_000311",
+            "bank_rw_000312",
+            "bank_rw_000313",
+            "bank_rw_000315",
+            "bank_rw_000316",
+            "bank_rw_000317",
+            "bank_rw_000318",
+            "bank_rw_000319",
+            "bank_rw_000320",
+            "bank_rw_000321",
+            "bank_rw_000322",
+            "bank_rw_000323",
+            "bank_rw_000324",
+            "bank_rw_000325",
+            "bank_rw_000326",
+            "bank_rw_000327",
+            "bank_rw_000328",
+            "bank_rw_000329",
+            "bank_rw_000330"
+          ]
+        },
+        "m2": {
+          "label": "Module 2",
+          "durationSeconds": 1800,
+          "questionIds": [
+            "bank_rw_000331",
+            "bank_rw_000332",
+            "bank_rw_000333",
+            "bank_rw_000334",
+            "bank_rw_000335",
+            "bank_rw_000336",
+            "bank_rw_000337",
+            "bank_rw_000339",
+            "bank_rw_000340",
+            "bank_rw_000342",
+            "bank_rw_000343",
+            "bank_rw_000344",
+            "bank_rw_000345",
+            "bank_rw_000346",
+            "bank_rw_000347",
+            "bank_rw_000348",
+            "bank_rw_000349",
+            "bank_rw_000350",
+            "bank_rw_000351",
+            "bank_rw_000352",
+            "bank_rw_000353",
+            "bank_rw_000354",
+            "bank_rw_000355",
+            "bank_rw_000356",
+            "bank_rw_000357"
+          ]
+        }
+      },
       "route": "sets/exam-2024-11-s1-apac-a.html",
       "section": "reading_writing",
       "sourceFamily": "question-bank-import-unverified",
@@ -8426,10 +9303,84 @@
       "contentId": "set-exam-2025-11-s1-apac-a",
       "dataPath": "content/canonical/sets/exam-2025-11-s1-apac-a.json",
       "difficulty": "mixed",
-      "examEligible": false,
-      "examVariants": [],
+      "examEligible": true,
+      "examVariants": [
+        {
+          "id": "fixed",
+          "label": "Module 1 + Module 2",
+          "branch": "hard",
+          "modules": [
+            "m1",
+            "m2"
+          ]
+        }
+      ],
       "kind": "set",
-      "moduleSpec": null,
+      "moduleSpec": {
+        "m1": {
+          "label": "Module 1",
+          "durationSeconds": 1740,
+          "questionIds": [
+            "bank_rw_000849",
+            "bank_rw_000850",
+            "bank_rw_000851",
+            "bank_rw_000852",
+            "bank_rw_000853",
+            "bank_rw_000854",
+            "bank_rw_000855",
+            "bank_rw_000856",
+            "bank_rw_000857",
+            "bank_rw_000860",
+            "bank_rw_000861",
+            "bank_rw_000862",
+            "bank_rw_000863",
+            "bank_rw_000864",
+            "bank_rw_000865",
+            "bank_rw_000866",
+            "bank_rw_000867",
+            "bank_rw_000868",
+            "bank_rw_000870",
+            "bank_rw_000871",
+            "bank_rw_000872",
+            "bank_rw_000873",
+            "bank_rw_000874",
+            "bank_rw_000875"
+          ]
+        },
+        "m2": {
+          "label": "Module 2",
+          "durationSeconds": 1920,
+          "questionIds": [
+            "bank_rw_000876",
+            "bank_rw_000877",
+            "bank_rw_000878",
+            "bank_rw_000879",
+            "bank_rw_000880",
+            "bank_rw_000881",
+            "bank_rw_000882",
+            "bank_rw_000883",
+            "bank_rw_000884",
+            "bank_rw_000885",
+            "bank_rw_000886",
+            "bank_rw_000887",
+            "bank_rw_000888",
+            "bank_rw_000889",
+            "bank_rw_000890",
+            "bank_rw_000891",
+            "bank_rw_000892",
+            "bank_rw_000893",
+            "bank_rw_000894",
+            "bank_rw_000895",
+            "bank_rw_000896",
+            "bank_rw_000897",
+            "bank_rw_000898",
+            "bank_rw_000899",
+            "bank_rw_000900",
+            "bank_rw_000901",
+            "bank_rw_000902"
+          ]
+        }
+      },
       "route": "sets/exam-2025-11-s1-apac-a.html",
       "section": "reading_writing",
       "sourceFamily": "question-bank-import-unverified",
@@ -8655,10 +9606,83 @@
       "contentId": "set-exam-2025-12-s1-apac-a",
       "dataPath": "content/canonical/sets/exam-2025-12-s1-apac-a.json",
       "difficulty": "mixed",
-      "examEligible": false,
-      "examVariants": [],
+      "examEligible": true,
+      "examVariants": [
+        {
+          "id": "fixed",
+          "label": "Module 1 + Module 2 · Hard",
+          "branch": "hard",
+          "modules": [
+            "m1",
+            "m2"
+          ]
+        }
+      ],
       "kind": "set",
-      "moduleSpec": null,
+      "moduleSpec": {
+        "m1": {
+          "label": "Module 1",
+          "durationSeconds": 1680,
+          "questionIds": [
+            "bank_rw_000952",
+            "bank_rw_000953",
+            "bank_rw_000954",
+            "bank_rw_000955",
+            "bank_rw_000956",
+            "bank_rw_000957",
+            "bank_rw_000959",
+            "bank_rw_000960",
+            "bank_rw_000961",
+            "bank_rw_000962",
+            "bank_rw_000964",
+            "bank_rw_000965",
+            "bank_rw_000966",
+            "bank_rw_000967",
+            "bank_rw_000968",
+            "bank_rw_000969",
+            "bank_rw_000971",
+            "bank_rw_000972",
+            "bank_rw_000973",
+            "bank_rw_000974",
+            "bank_rw_000975",
+            "bank_rw_000976",
+            "bank_rw_000977"
+          ]
+        },
+        "m2": {
+          "label": "Module 2 · Hard",
+          "durationSeconds": 1920,
+          "questionIds": [
+            "bank_rw_001004",
+            "bank_rw_001005",
+            "bank_rw_001006",
+            "bank_rw_001007",
+            "bank_rw_001008",
+            "bank_rw_001009",
+            "bank_rw_001010",
+            "bank_rw_001011",
+            "bank_rw_001012",
+            "bank_rw_001013",
+            "bank_rw_001014",
+            "bank_rw_001015",
+            "bank_rw_001016",
+            "bank_rw_001017",
+            "bank_rw_001018",
+            "bank_rw_001019",
+            "bank_rw_001020",
+            "bank_rw_001021",
+            "bank_rw_001022",
+            "bank_rw_001023",
+            "bank_rw_001024",
+            "bank_rw_001025",
+            "bank_rw_001026",
+            "bank_rw_001027",
+            "bank_rw_001028",
+            "bank_rw_001029",
+            "bank_rw_001030"
+          ]
+        }
+      },
       "route": "sets/exam-2025-12-s1-apac-a.html",
       "section": "reading_writing",
       "sourceFamily": "question-bank-import-unverified",
@@ -8797,10 +9821,82 @@
       "contentId": "set-exam-2025-12-s2-apac-b",
       "dataPath": "content/canonical/sets/exam-2025-12-s2-apac-b.json",
       "difficulty": "mixed",
-      "examEligible": false,
-      "examVariants": [],
+      "examEligible": true,
+      "examVariants": [
+        {
+          "id": "fixed",
+          "label": "Module 1 + Module 2",
+          "branch": "hard",
+          "modules": [
+            "m1",
+            "m2"
+          ]
+        }
+      ],
       "kind": "set",
-      "moduleSpec": null,
+      "moduleSpec": {
+        "m1": {
+          "label": "Module 1",
+          "durationSeconds": 1740,
+          "questionIds": [
+            "bank_rw_001031",
+            "bank_rw_001032",
+            "bank_rw_001033",
+            "bank_rw_001034",
+            "bank_rw_001035",
+            "bank_rw_001036",
+            "bank_rw_001037",
+            "bank_rw_001038",
+            "bank_rw_001039",
+            "bank_rw_001040",
+            "bank_rw_001043",
+            "bank_rw_001044",
+            "bank_rw_001045",
+            "bank_rw_001046",
+            "bank_rw_001047",
+            "bank_rw_001048",
+            "bank_rw_001049",
+            "bank_rw_001051",
+            "bank_rw_001052",
+            "bank_rw_001053",
+            "bank_rw_001054",
+            "bank_rw_001055",
+            "bank_rw_001056",
+            "bank_rw_001057"
+          ]
+        },
+        "m2": {
+          "label": "Module 2",
+          "durationSeconds": 1800,
+          "questionIds": [
+            "bank_rw_001058",
+            "bank_rw_001059",
+            "bank_rw_001060",
+            "bank_rw_001061",
+            "bank_rw_001062",
+            "bank_rw_001063",
+            "bank_rw_001064",
+            "bank_rw_001065",
+            "bank_rw_001066",
+            "bank_rw_001067",
+            "bank_rw_001069",
+            "bank_rw_001070",
+            "bank_rw_001071",
+            "bank_rw_001072",
+            "bank_rw_001073",
+            "bank_rw_001074",
+            "bank_rw_001075",
+            "bank_rw_001076",
+            "bank_rw_001077",
+            "bank_rw_001078",
+            "bank_rw_001079",
+            "bank_rw_001080",
+            "bank_rw_001081",
+            "bank_rw_001082",
+            "bank_rw_001083"
+          ]
+        }
+      },
       "route": "sets/exam-2025-12-s2-apac-b.html",
       "section": "reading_writing",
       "sourceFamily": "question-bank-import-unverified",
@@ -8971,10 +10067,78 @@
       "contentId": "set-exam-2026-03-s2-apac-b",
       "dataPath": "content/canonical/sets/exam-2026-03-s2-apac-b.json",
       "difficulty": "mixed",
-      "examEligible": false,
-      "examVariants": [],
+      "examEligible": true,
+      "examVariants": [
+        {
+          "id": "fixed",
+          "label": "Module 1 + Module 2 · Hard",
+          "branch": "hard",
+          "modules": [
+            "m1",
+            "m2"
+          ]
+        }
+      ],
       "kind": "set",
-      "moduleSpec": null,
+      "moduleSpec": {
+        "m1": {
+          "label": "Module 1",
+          "durationSeconds": 1680,
+          "questionIds": [
+            "bank_rw_001495",
+            "bank_rw_001496",
+            "bank_rw_001497",
+            "bank_rw_001498",
+            "bank_rw_001499",
+            "bank_rw_001500",
+            "bank_rw_001504",
+            "bank_rw_001505",
+            "bank_rw_001506",
+            "bank_rw_001507",
+            "bank_rw_001508",
+            "bank_rw_001509",
+            "bank_rw_001510",
+            "bank_rw_001511",
+            "bank_rw_001512",
+            "bank_rw_001513",
+            "bank_rw_001514",
+            "bank_rw_001515",
+            "bank_rw_001516",
+            "bank_rw_001517",
+            "bank_rw_001518",
+            "bank_rw_001519",
+            "bank_rw_001520"
+          ]
+        },
+        "m2": {
+          "label": "Module 2 · Hard",
+          "durationSeconds": 1620,
+          "questionIds": [
+            "bank_rw_001521",
+            "bank_rw_001523",
+            "bank_rw_001524",
+            "bank_rw_001525",
+            "bank_rw_001526",
+            "bank_rw_001527",
+            "bank_rw_001528",
+            "bank_rw_001529",
+            "bank_rw_001530",
+            "bank_rw_001531",
+            "bank_rw_001533",
+            "bank_rw_001534",
+            "bank_rw_001535",
+            "bank_rw_001536",
+            "bank_rw_001537",
+            "bank_rw_001538",
+            "bank_rw_001539",
+            "bank_rw_001540",
+            "bank_rw_001541",
+            "bank_rw_001542",
+            "bank_rw_001543",
+            "bank_rw_001544"
+          ]
+        }
+      },
       "route": "sets/exam-2026-03-s2-apac-b.html",
       "section": "reading_writing",
       "sourceFamily": "question-bank-import-unverified",
@@ -9084,10 +10248,82 @@
       "contentId": "set-exam-2026-05-s1-apac-a",
       "dataPath": "content/canonical/sets/exam-2026-05-s1-apac-a.json",
       "difficulty": "mixed",
-      "examEligible": false,
-      "examVariants": [],
+      "examEligible": true,
+      "examVariants": [
+        {
+          "id": "fixed",
+          "label": "Module 1 + Module 2 · Hard",
+          "branch": "hard",
+          "modules": [
+            "m1",
+            "m2"
+          ]
+        }
+      ],
       "kind": "set",
-      "moduleSpec": null,
+      "moduleSpec": {
+        "m1": {
+          "label": "Module 1",
+          "durationSeconds": 1800,
+          "questionIds": [
+            "bank_rw_001547",
+            "bank_rw_001548",
+            "bank_rw_001549",
+            "bank_rw_001550",
+            "bank_rw_001551",
+            "bank_rw_001552",
+            "bank_rw_001553",
+            "bank_rw_001555",
+            "bank_rw_001556",
+            "bank_rw_001557",
+            "bank_rw_001558",
+            "bank_rw_001559",
+            "bank_rw_001560",
+            "bank_rw_001561",
+            "bank_rw_001562",
+            "bank_rw_001563",
+            "bank_rw_001564",
+            "bank_rw_001565",
+            "bank_rw_001566",
+            "bank_rw_001567",
+            "bank_rw_001568",
+            "bank_rw_001569",
+            "bank_rw_001570",
+            "bank_rw_001571",
+            "bank_rw_001572"
+          ]
+        },
+        "m2": {
+          "label": "Module 2 · Hard",
+          "durationSeconds": 1740,
+          "questionIds": [
+            "bank_rw_001573",
+            "bank_rw_001574",
+            "bank_rw_001575",
+            "bank_rw_001576",
+            "bank_rw_001577",
+            "bank_rw_001578",
+            "bank_rw_001579",
+            "bank_rw_001580",
+            "bank_rw_001581",
+            "bank_rw_001582",
+            "bank_rw_001585",
+            "bank_rw_001586",
+            "bank_rw_001587",
+            "bank_rw_001588",
+            "bank_rw_001589",
+            "bank_rw_001590",
+            "bank_rw_001591",
+            "bank_rw_001592",
+            "bank_rw_001593",
+            "bank_rw_001594",
+            "bank_rw_001595",
+            "bank_rw_001596",
+            "bank_rw_001597",
+            "bank_rw_001598"
+          ]
+        }
+      },
       "route": "sets/exam-2026-05-s1-apac-a.html",
       "section": "reading_writing",
       "sourceFamily": "question-bank-import-unverified",
@@ -9202,10 +10438,83 @@
       "contentId": "set-exam-2026-05-s2-apac-b",
       "dataPath": "content/canonical/sets/exam-2026-05-s2-apac-b.json",
       "difficulty": "mixed",
-      "examEligible": false,
-      "examVariants": [],
+      "examEligible": true,
+      "examVariants": [
+        {
+          "id": "fixed",
+          "label": "Module 1 + Module 2 · Hard",
+          "branch": "hard",
+          "modules": [
+            "m1",
+            "m2"
+          ]
+        }
+      ],
       "kind": "set",
-      "moduleSpec": null,
+      "moduleSpec": {
+        "m1": {
+          "label": "Module 1",
+          "durationSeconds": 1800,
+          "questionIds": [
+            "bank_rw_001599",
+            "bank_rw_001600",
+            "bank_rw_001601",
+            "bank_rw_001602",
+            "bank_rw_001603",
+            "bank_rw_001604",
+            "bank_rw_001605",
+            "bank_rw_001606",
+            "bank_rw_001607",
+            "bank_rw_001608",
+            "bank_rw_001611",
+            "bank_rw_001612",
+            "bank_rw_001613",
+            "bank_rw_001614",
+            "bank_rw_001615",
+            "bank_rw_001616",
+            "bank_rw_001617",
+            "bank_rw_001618",
+            "bank_rw_001619",
+            "bank_rw_001620",
+            "bank_rw_001621",
+            "bank_rw_001622",
+            "bank_rw_001623",
+            "bank_rw_001624",
+            "bank_rw_001625"
+          ]
+        },
+        "m2": {
+          "label": "Module 2 · Hard",
+          "durationSeconds": 1800,
+          "questionIds": [
+            "bank_rw_001626",
+            "bank_rw_001627",
+            "bank_rw_001628",
+            "bank_rw_001629",
+            "bank_rw_001630",
+            "bank_rw_001631",
+            "bank_rw_001632",
+            "bank_rw_001633",
+            "bank_rw_001634",
+            "bank_rw_001635",
+            "bank_rw_001636",
+            "bank_rw_001638",
+            "bank_rw_001640",
+            "bank_rw_001641",
+            "bank_rw_001642",
+            "bank_rw_001643",
+            "bank_rw_001644",
+            "bank_rw_001645",
+            "bank_rw_001646",
+            "bank_rw_001647",
+            "bank_rw_001648",
+            "bank_rw_001649",
+            "bank_rw_001650",
+            "bank_rw_001651",
+            "bank_rw_001652"
+          ]
+        }
+      },
       "route": "sets/exam-2026-05-s2-apac-b.html",
       "section": "reading_writing",
       "sourceFamily": "question-bank-import-unverified",

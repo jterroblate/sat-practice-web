@@ -55,7 +55,7 @@ SQLite 强制执行的约束包括：
 - 每道题指向一个存在的细分，细分指向题型，题型指向大类。
 - 难度只能是 `easy`、`medium`、`hard` 或空；有难度就必须写明依据（`source_file` 或 `model`）。
 
-## 三个视图
+## 四个视图
 
 视图是算出来的，不存放数据。
 
@@ -63,7 +63,8 @@ SQLite 强制执行的约束包括：
 | --- | --- | --- |
 | `question_occurrence` | 一道题和它出现过的一个来源 | 显示题目的来源和年份 |
 | `question_origin` | 一道题的最高来源等级、真题还是练习、在该等级来源中最近出现的年份 | 区分真题和模拟题 |
-| `practice_pool` | 一道题的科目、大类、题型、真题或练习、年份、难度、状态 | 按范围选题、随机刷题 |
+| `question_explanation` | 一道题的解析完整度：`full`（四段解析都写了，每个选项都有分析）、`brief`（写了一部分，通常只有一两句）、`none`（没有解析） | 区分有解析和没解析的题 |
+| `practice_pool` | 一道题的科目、大类、题型、真题或练习、年份、难度、文体、解析完整度、状态 | 按范围选题、随机刷题 |
 
 一道题既在真题里出现过、又在题库文件里出现过时，按真题算。
 
@@ -75,6 +76,36 @@ sqlite3 build/content.sqlite "SELECT domain_zh, kind, count(*) FROM practice_poo
 ```
 
 `build/content.sqlite` 是生成物，不提交。
+
+## 文体和解析完整度
+
+- **文体**存在 `question.genre`：`poetry`、`fiction`、`drama` 或空。由 `scripts/tag_genre.py` 按规则写入，只认文章自己的出处说明（"The following text is from …'s 1899 novel …"）和引文题的开头（"… is a 1923 novel by …"）。只是谈论某部小说或诗歌的说明文不算，留空；数学题一律为空。规则是确定的，重复运行不会再改动任何行。目前已发布的读写题里有 200 道小说、49 道诗歌、30 道戏剧。
+- **解析完整度**不存，由视图 `question_explanation` 从 `explanation` 和 `choice` 两张表算出，所以不会和解析内容对不上。目前已发布的 4,054 道题里：完整 1,752，简要 905，暂无 1,397。
+
+```sh
+python3 scripts/tag_genre.py            # 只看会改多少
+python3 scripts/tag_genre.py --apply    # 写入 content/db/question.jsonl
+sqlite3 build/content.sqlite "SELECT explanation, count(*) FROM practice_pool WHERE status = 'published' GROUP BY 1"
+```
+
+构建站点时两项都写进 `MANIFEST.questions`：`genre`（空字符串表示没有）和 `explanationLevel`。`explanationLevel` 由构建脚本按同一规则从发布的题目内容算出，测试保证它和视图一致。
+
+## 模考
+
+`scripts/exam_modules.py` 从表里推出哪些真题套卷可以模考，并写进 `sat-content-registry.json` 的 `examEligible`、`moduleSpec`、`examVariants`：
+
+- 只做读写。Module 1 加第二模块：来源标明 Harder 的用 Harder 那个，否则用它唯一的 Module 2；标明 Easier 的不用。两个模块固定，不做自适应分流，不给换算分。
+- 题目按来源里的顺序排。没有发布的题（带图、标记不支持、近似重复）直接跳过，所以多数模块是 23–27 题；两个模块各自至少要有 22 题才开放。
+- 时间按题量折算：27 题 32 分钟，向上取整到分钟。
+- 注册表里手工配好 `m1` + `m2_hard` 的套卷原样开放，模块内容不改；如果手工模块里列了套卷已经没有的题，则保持关闭。
+
+```sh
+python3 scripts/exam_modules.py            # 列出可模考的套卷
+python3 scripts/exam_modules.py --apply    # 写入注册表
+python3 scripts/exam_modules.py --check    # 注册表和表不一致时失败
+```
+
+目前开放 19 套：18 套由表推出，1 套是手工配好的完整卷（27 + 27）。另有 16 套真题因收录题数不够没有开放。
 
 ## 页面数据里的来源和难度
 
