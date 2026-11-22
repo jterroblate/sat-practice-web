@@ -1632,7 +1632,7 @@
       if (active) els.overviewPanel.hidden = true;
       else els.overviewPanel.hidden = false;
       els.progressText.hidden = active;
-      els.overviewBtn.hidden = active || redoMode;
+      els.overviewBtn.hidden = active;
       els.checkAllBtn.hidden = active || redoMode;
       els.exportJsonBtn.closest(".export-group").hidden = active || redoMode;
       document.querySelector(".export-label").hidden = active || redoMode;
@@ -2545,7 +2545,7 @@
       els.starBtn.hidden = redoMode;
       els.reflectionPanel.hidden = redoMode;
       els.highlightBtn.hidden = redoMode;
-      els.overviewBtn.hidden = redoMode;
+      els.overviewBtn.hidden = false;
       els.checkAllBtn.hidden = redoMode;
       els.exportJsonBtn.closest(".export-group").hidden = redoMode;
       els.returnOriginalBtn.hidden = !redoMode || Boolean(practiceSession);
@@ -2634,13 +2634,15 @@
     }
 
     function updateCurrentOverviewButton(qs) {
-      const overviewButton = els.overviewGrid.querySelector(`[data-question-index="${current}"]`);
+      // The current entry, whichever run of questions the answer sheet shows.
+      const overviewButton = els.overviewGrid.querySelector('[aria-current="true"]');
       if (overviewButton) {
+        const index = Number(overviewButton.dataset.questionIndex);
         overviewButton.classList.toggle("selected", Boolean(qs.selected) && !qs.checked);
         overviewButton.classList.toggle("correct", Boolean(qs.checked && qs.correct));
         overviewButton.classList.toggle("incorrect", Boolean(qs.checked && !qs.correct));
-        overviewButton.innerHTML = `${current + 1}${qs.starred ? '<span class="star">★</span>' : ""}`;
-        overviewButton.setAttribute("aria-label", overviewLabel(currentQuestion(), qs, current));
+        overviewButton.innerHTML = `${index + 1}${qs.starred ? '<span class="star">★</span>' : ""}`;
+        overviewButton.setAttribute("aria-label", overviewLabel(currentQuestion(), qs, index));
       }
     }
 
@@ -2750,29 +2752,66 @@
       els.practiceLayout.querySelectorAll(".pane").forEach(pane => { pane.scrollTop = 0; });
     }
 
+    // The questions the learner is moving through, for the question list and
+    // the answer sheet: the practice session's when this question belongs to
+    // one, otherwise this page's. A blank redo shows its own fresh state, never
+    // the earlier answer.
+    function navigatorEntries(currentState) {
+      const here = currentQuestion();
+      if (!here) return [];
+      const session = practiceSession && practiceSession.questions.some(item => item.questionId === here.question_id)
+        ? practiceSession : null;
+      if (session) {
+        return session.questions.map((item, index) => {
+          const isCurrent = item.questionId === here.question_id;
+          const qs = isCurrent ? (currentState || activeState(here)) : asRecord(session.answers[item.questionId]);
+          return {
+            index, isCurrent, inSession: true, selected: Boolean(qs.selected), checked: qs.checked === true,
+            correct: qs.correct === true, starred: false,
+            go() {
+              if (isCurrent) return;
+              location.href = `../${item.route}?session=${encodeURIComponent(session.id)}&focus=${encodeURIComponent(item.questionId)}`;
+            }
+          };
+        });
+      }
+      return QUESTIONS.map((question, index) => {
+        const isCurrent = index === current;
+        const qs = isCurrent && currentState ? currentState
+          : redoMode && redoSession && question.question_id === redoQuestionId ? redoSession
+          : state.answers[question.question_id] ? normalizeQuestionState(state.answers[question.question_id], question)
+          : defaultQuestionState();
+        return {
+          index, isCurrent, inSession: false, selected: Boolean(qs.selected), checked: Boolean(qs.checked),
+          correct: Boolean(qs.correct), starred: Boolean(qs.starred),
+          go() {
+            if (isCurrent) return;
+            if (redoMode) els.returnOriginalBtn.click();
+            current = index;
+            saveState({ markQuestion: false });
+            render();
+            scrollPracticeToStart();
+          }
+        };
+      });
+    }
+
     function renderOverview() {
       els.overviewGrid.innerHTML = "";
-      if (redoMode) return;
-      QUESTIONS.forEach((question, index) => {
-        const qs = state.answers[question.question_id]
-          ? normalizeQuestionState(state.answers[question.question_id], question)
-          : defaultQuestionState();
+      navigatorEntries().forEach(entry => {
         const button = document.createElement("button");
         button.type = "button";
-        button.dataset.questionIndex = String(index);
+        button.dataset.questionIndex = String(entry.index);
         button.className = "qnav";
-        if (index === current) button.classList.add("current");
-        if (qs.checked) button.classList.add(qs.correct ? "correct" : "incorrect");
-        else if (qs.selected) button.classList.add("selected");
-        button.setAttribute("aria-label", overviewLabel(question, qs, index));
-        if (index === current) button.setAttribute("aria-current", "true");
-        button.innerHTML = `${index + 1}${qs.starred ? '<span class="star">★</span>' : ""}`;
+        if (entry.isCurrent) button.classList.add("current");
+        if (entry.checked) button.classList.add(entry.correct ? "correct" : "incorrect");
+        else if (entry.selected) button.classList.add("selected");
+        button.setAttribute("aria-label", overviewLabel(null, entry, entry.index));
+        if (entry.isCurrent) button.setAttribute("aria-current", "true");
+        button.innerHTML = `${entry.index + 1}${entry.starred ? '<span class="star">★</span>' : ""}`;
         button.addEventListener("click", () => {
-          current = index;
-          saveState({ markQuestion: false });
-          render();
           els.overviewPanel.classList.remove("visible");
-          scrollPracticeToStart();
+          entry.go();
         });
         els.overviewGrid.appendChild(button);
       });
@@ -2807,59 +2846,51 @@
       els.questionListBtn.focus();
     });
 
-    let questionListCurrent = -1;
+    let questionListCurrent = -1, questionListEntries = [];
     function renderQuestionList(currentState) {
-      const available = !redoMode && !activeSessionId && !requestedExamMode;
+      const entries = requestedExamMode || (activeSessionId && !practiceSession) ? [] : navigatorEntries(currentState);
+      const available = entries.length > 0;
       const open = available && questionListOpen;
+      questionListEntries = entries;
       els.questionListBtn.hidden = !available;
       els.questionListBtn.setAttribute("aria-pressed", String(open));
       els.questionList.hidden = !open;
       els.practiceLayout.classList.toggle("has-question-list", open);
       if (!open) { questionListCurrent = -1; return; }
-      if (els.questionListItems.children.length !== QUESTIONS.length) {
+      if (els.questionListItems.children.length !== entries.length) {
         els.questionListItems.innerHTML = "";
-        QUESTIONS.forEach((question, index) => {
+        entries.forEach((entry, index) => {
           const item = document.createElement("li");
           const button = document.createElement("button");
           button.type = "button";
           button.className = "qlist-item";
           button.dataset.questionListIndex = String(index);
-          button.addEventListener("click", () => {
-            if (index === current) return;
-            current = index;
-            saveState({ markQuestion: false });
-            render();
-            scrollPracticeToStart();
-          });
+          button.addEventListener("click", () => { if (questionListEntries[index]) questionListEntries[index].go(); });
           item.appendChild(button);
           els.questionListItems.appendChild(item);
         });
         questionListCurrent = -1;
       }
-      let answered = 0;
-      QUESTIONS.forEach((question, index) => {
-        const qs = index === current && currentState
-          ? currentState
-          : state.answers[question.question_id]
-            ? normalizeQuestionState(state.answers[question.question_id], question)
-            : defaultQuestionState();
-        if (qs.checked || qs.selected) answered += 1;
+      let answered = 0, active = -1;
+      entries.forEach((entry, index) => {
+        if (entry.checked || entry.selected) answered += 1;
+        if (entry.isCurrent) active = index;
         const button = els.questionListItems.children[index].firstElementChild;
-        button.classList.toggle("current", index === current);
-        button.classList.toggle("selected", Boolean(qs.selected) && !qs.checked);
-        button.classList.toggle("correct", Boolean(qs.checked && qs.correct));
-        button.classList.toggle("incorrect", Boolean(qs.checked && !qs.correct));
-        button.innerHTML = `${index + 1}${qs.starred ? '<span class="star" aria-hidden="true">★</span>' : ""}`;
-        button.setAttribute("aria-label", overviewLabel(question, qs, index));
-        if (index === current) button.setAttribute("aria-current", "true");
+        button.classList.toggle("current", entry.isCurrent);
+        button.classList.toggle("selected", entry.selected && !entry.checked);
+        button.classList.toggle("correct", entry.checked && entry.correct);
+        button.classList.toggle("incorrect", entry.checked && !entry.correct);
+        button.innerHTML = `${index + 1}${entry.starred ? '<span class="star" aria-hidden="true">★</span>' : ""}`;
+        button.setAttribute("aria-label", overviewLabel(null, entry, index));
+        if (entry.isCurrent) button.setAttribute("aria-current", "true");
         else button.removeAttribute("aria-current");
       });
-      els.questionListSummary.textContent = `已答 ${answered}/${QUESTIONS.length}`;
-      if (questionListCurrent !== current) {
-        questionListCurrent = current;
-        const list = els.questionList, active = els.questionListItems.children[current];
-        if (active && list.scrollHeight > list.clientHeight) {
-          const top = active.getBoundingClientRect().top - list.getBoundingClientRect().top + list.scrollTop, bottom = top + active.offsetHeight;
+      els.questionListSummary.textContent = `${entries[0].inSession ? "本次练习 · " : ""}已答 ${answered}/${entries.length}`;
+      if (questionListCurrent !== active) {
+        questionListCurrent = active;
+        const list = els.questionList, target = els.questionListItems.children[active];
+        if (target && list.scrollHeight > list.clientHeight) {
+          const top = target.getBoundingClientRect().top - list.getBoundingClientRect().top + list.scrollTop, bottom = top + target.offsetHeight;
           if (top < list.scrollTop + 80) list.scrollTop = Math.max(0, top - 90);
           else if (bottom > list.scrollTop + list.clientHeight - 12) list.scrollTop = bottom - list.clientHeight + 20;
         }
@@ -3708,7 +3739,7 @@
         .replaceAll("'", "&#039;");
     }
 
-    els.overviewBtn.hidden = redoMode;
+    els.overviewBtn.hidden = false;
     els.checkAllBtn.hidden = redoMode;
     els.exportJsonBtn.closest(".export-group").hidden = redoMode;
     els.examModeBtn.addEventListener("click", () => {

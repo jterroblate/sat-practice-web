@@ -684,6 +684,15 @@ try {
   assert.equal((await snapshot()).correctChoices, 1);
   await reload();
   assert.equal((await snapshot()).correctChoices, 1, "Today's reveal may resume only after this session's submit/reveal");
+  const todayNavigator = await evaluate(`(() => {
+    const entries = navigatorEntries(), session = JSON.parse(learningStorage.getItem(SESSION_KEY));
+    return {entries:entries.length, session:session.questions.length, inSession:entries.every(entry => entry.inSession),
+      wrong:entries.filter(entry => entry.checked && !entry.correct).length,
+      listButton:document.getElementById("questionListBtn").hidden, answerSheet:document.getElementById("overviewBtn").hidden};
+  })()`);
+  assert.equal(todayNavigator.entries, todayNavigator.session, "A practice session lists its own questions");
+  assert.deepEqual({inSession:todayNavigator.inSession, wrong:todayNavigator.wrong, listButton:todayNavigator.listButton, answerSheet:todayNavigator.answerSheet},
+    {inSession:true, wrong:1, listButton:false, answerSheet:false}, "The question list and answer sheet stay available in a practice session");
   assert.deepEqual(await evaluate(originalAttemptExpression), originalBeforeToday, "Today practice may update shared review history but must not overwrite the original occurrence's attempt");
   await navigate(`${practiceUrl}?focus=${encodeURIComponent(question.id)}`);
   assert.equal(await evaluate('Boolean(practiceSession) || redoMode'), false, "Open original must not reuse today's blank-redo mode");
@@ -776,6 +785,13 @@ try {
     await evaluate(`location.hash = ${JSON.stringify(hash)}`);
     await new Promise(resolve => setTimeout(resolve, 20));
     routeViews[hash] = await evaluate(`document.querySelector("h1")?.textContent === ${JSON.stringify(heading)}`);
+    if (hash === "#practice") {
+      const basis = await evaluate(`(() => ({hidden:document.getElementById("builderBasisGroup").hidden,
+        options:[...document.querySelectorAll("#builderBases input")].map(input => input.value),
+        withBasis:MANIFEST.questions.some(question => question.difficultyBasis && question.difficultyLevel)}))()`);
+      assert.deepEqual(basis.options, ["stated", "estimated"]);
+      assert.equal(basis.hidden, !basis.withBasis, "The difficulty-basis filter shows only when the data says where a difficulty comes from");
+    }
   }
   await evaluate(`(() => {
     const search = document.querySelector('input[type="search"]');
