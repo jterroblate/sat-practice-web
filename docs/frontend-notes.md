@@ -133,14 +133,27 @@
 
 读取的字段（首页驼峰、练习页下划线）：`sourceKind` / `source_kind`、`sourceYear` / `source_year`、`difficultyLevel` / `difficulty_level`、`sourceRefs` / `source_refs`。`undefined`、空字符串、`null`、空数组都当作未知。
 
-## 5. 首页与学习时长
+## 5. 模考
 
-首页顶部是两个板块：
+模考在练习页里进行，入口是 `套题页?mode=exam`；学习中心多了一个「模考」页面（`#exam`）作为入口和记录列表。
 
-- **今日练习**：今日学习时长、今日已做题目（当天的提交次数，含重做），按钮是「继续上次练习」和「生成今日练习」，下面是未完成套题和低信心题的入口。
-- **错题复习**：待掌握错题、今日到期复习，按钮是「开始错题复习」（`#review/wrong`）和「练到期复习」（`#practice/due`）。
+- **资格没有变。** 只有 `examEligible === true` 并且带有合法 `moduleSpec`、`examVariants` 的套题才能模考，判定逻辑（`normalizeExamConfig()`）没有动。当前题库里没有一套符合，所以「可用模考」是空的。要让某套题可以模考，需要数据侧在 registry 里补齐模块划分，前端不需要改。
+- **界面**：开始页 → 模块做题（顶栏是模块名、倒计时和「隐藏计时」，题目栏有「标记待查」，底栏中间的按钮打开题目导航）→ 最后一题的「下一题」进入检查页 → 提交 → 模块间休息 → 第二个模块 → 成绩页 → 答案与解析。做题过程中不显示对错和解析。
+- **标记待查**存在会话的 `modules[key].marked` 数组里，是新增的可选字段，旧会话没有它也能正常读取。
+- **模考记录**：每场模考完成时归档一份到按账号隔离的本机存储，键是 `sat-exam-history:v1`，最多 50 条。结构是 `{ version, records: [{ id, pageId, title, variantId, branch, createdAt, completedAt, modules: [{ key, label, durationSeconds, startedAt, submittedAt, submitReason, questionIds, answers, marked, score }] }] }`。只在本机，不上传云端。
+- **回看记录**：`套题页?mode=exam&history=<id>`，先显示成绩，再进解析。回看只需要题目还在，不要求这套题现在仍可模考。成绩按当前的正确答案重新计算。
+- 成绩页和解析页的文案保留了「不是 SAT 换算分」「不自适应分流」的限定，不要删。
+- 本地想看模考界面，可以运行工作区里的 `tools/make_exam_fixture.py`（在仓库外面），它只改 `build/demo` 里的生成物，把演示题临时标成可模考。
 
-概览条依次是：累计学习时长、近 7 天学习时长、已提交题目、正确率、已掌握错题。
+## 6. 首页与学习时长
+
+首页由七个板块组成，在 `renderHome()` 里按固定顺序输出：今日练习、练习日历、错题复习、全真模考、学习概览、周学习报告、最近练习。排版只靠 CSS 网格的 `grid-template-areas` 决定，板块自己用容器查询适应宽度。
+
+- **排版**：三列网格（两列等宽 + 右侧 330px），`.home` 的 `grid-template-areas` 为 `today today calendar / review exam stats / weekly weekly recent`，外层 `.home-wrap` 最宽 1120px；860px 以下改成单列，按上面的输出顺序排列。
+- **练习日历**：`calendarBlock()`。有练习的日期 = 当天有学习时长，或者当天有提交记录。可以切换本周 / 本月。连续学习天数在今天还没练时从昨天往前数。
+- **今日练习**：今日学习时长、今日已做题目（当天的提交次数，含重做）。
+- **错题复习**：待掌握错题、今日到期复习。
+- **全真模考**：可用模考数量、上次成绩，按钮进入模考中心；有进行中的模考时变成「继续模考」。
 
 学习时长由练习页记录，代码在共享脚本 `learning_storage.js` 的末尾：
 
@@ -149,7 +162,7 @@
 - **只在本机，不上传云端，也不跨设备合并。** 换设备或清除浏览器数据后会归零。如果后端要同步它，建议按天取各设备的较大值或按设备分别累加，不要简单覆盖。
 - 首页用 `summarizeSatStudyTime(learningStorage)` 读取，返回 `{ today, week, total }`（秒）；显示用 `formatSatStudyTime()`。
 
-## 6. 已知问题和建议
+## 7. 已知问题和建议
 
 - **套题标题是内部标识。** 例如 `01 2025 10 Apac B`、`04 OCT SAT Na 2`。建议数据库里给每套题一个显示用的标题（如「2025 年 10 月 · 亚太 B 卷」）以及年份、地区、卷别字段，首页卡片就能按年份和地区分组。
 - **学习诊断的细分题型是原始标签。** 例如 `precise_word_choice`、`vocabulary_in_context`、「未细分」，同一个意思有多种写法。建议数据库把 `subtype` 归并成固定的一组，并提供中文名。

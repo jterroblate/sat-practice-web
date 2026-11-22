@@ -131,7 +131,67 @@
       box-shadow: var(--zen-shadow);
     }
     .visually-hidden { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
-    .home-top { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+    /* 首页：同一组板块，四种排版。板块宽度不固定，靠容器查询自己适应。 */
+    .home-wrap { max-width: 1120px; margin-inline: auto; }
+    .home { display: grid; gap: 16px; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) 330px; grid-template-areas: "today today calendar" "review exam stats" "weekly weekly recent"; }
+    .home > * { min-width: 0; margin: 0; }
+    .home .panel { margin-top: 0; padding: 24px; }
+    .hb-today { grid-area: today; }
+    .hb-review { grid-area: review; }
+    .hb-exam { grid-area: exam; }
+    .hb-calendar { grid-area: calendar; }
+    .hb-stats { grid-area: stats; }
+    .hb-weekly { grid-area: weekly; }
+    .hb-recent { grid-area: recent; }
+    .hb-stats, .hb-weekly, .hb-calendar, .entry-card { container-type: inline-size; }
+    @container (max-width: 290px) {
+      .entry-card h2 { font-size: 24px; }
+      .stat-pair span { white-space: nowrap; }
+      .stat-pair { grid-template-columns: minmax(0, 1fr); gap: 8px; }
+      .stat-pair div { display: flex; flex-direction: row-reverse; align-items: baseline; justify-content: space-between; gap: 10px; padding: 10px 14px; }
+      .stat-pair strong { font-size: 20px; }
+      .hero-actions .button { flex: 1 1 100%; }
+    }
+    @container (max-width: 560px) { .weekly-layout { grid-template-columns: 1fr; } }
+    .hb-calendar { display: flex; flex-direction: column; gap: 14px; padding: 24px; border-radius: var(--zen-radius-panel); background: var(--zen-surface); box-shadow: var(--zen-shadow); }
+    .cal-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+    .cal-head h2 { margin: 0; font-size: 20px; font-weight: 700; letter-spacing: -.02em; }
+    .cal-head .segment { min-height: 30px; padding: 4px 12px; font-size: 13px; }
+    .cal-names, .cal-grid { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 6px; }
+    .cal-names span { color: var(--zen-muted); font-size: 12px; text-align: center; }
+    .cal-day { display: grid; align-content: center; justify-items: center; gap: 1px; min-height: 58px; padding: 6px 2px; border-radius: 14px; background: var(--zen-bg); }
+    .cal-day strong { font-size: 16px; font-weight: 600; line-height: 1.2; font-variant-numeric: tabular-nums; }
+    .cal-day span { color: var(--zen-muted); font-size: 11px; line-height: 1.2; }
+    .cal-day.done { background: var(--zen-blue); color: var(--zen-primary-dark); }
+    .cal-day.done span { color: var(--zen-primary-dark); }
+    .cal-day.today { box-shadow: inset 0 0 0 2px var(--zen-primary); }
+    .cal-day.today.done { background: var(--zen-primary); color: #fff; box-shadow: none; }
+    .cal-day.today.done span { color: #fff; }
+    .cal-day.future { background: transparent; box-shadow: inset 0 0 0 1px var(--zen-line); }
+    .cal-day.future strong { color: var(--zen-muted); font-weight: 500; }
+    .cal-day.outside { visibility: hidden; }
+    .cal-grid.month .cal-day { min-height: 38px; border-radius: 11px; }
+    .cal-grid.month .cal-day strong { font-size: 14px; }
+    .cal-grid.month .cal-day span { display: none; }
+    .hb-calendar .stat-pair div { padding: 12px 14px; }
+    .hb-calendar .stat-pair strong { font-size: 24px; }
+    @container (min-width: 640px) {
+      .cal-body { display: grid; grid-template-columns: minmax(0, 1fr) 220px; gap: 18px; align-items: start; }
+      .cal-body .stat-pair { grid-template-columns: 1fr; }
+    }
+    .cal-body { display: grid; gap: 14px; }
+    .cal-main { display: grid; gap: 8px; min-width: 0; }
+    .exam-list { display: grid; gap: 10px; }
+    .exam-row { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 16px 20px; border-radius: 18px; background: var(--zen-bg); }
+    .exam-row h3 { margin: 6px 0 2px; font-size: 16px; font-weight: 600; }
+    .exam-row p { margin: 2px 0; color: var(--zen-muted); font-size: 13px; }
+    .exam-row .score { font-size: 24px; font-weight: 700; letter-spacing: -.02em; font-variant-numeric: tabular-nums; white-space: nowrap; }
+    .exam-row .score small { color: var(--zen-muted); font-size: 13px; font-weight: 400; }
+    .exam-row .actions { flex: 0 0 auto; align-items: center; }
+    .exam-row .button { background: var(--zen-surface); }
+    .exam-row .button.primary { background: var(--zen-primary); }
+    .subhead { margin: 26px 0 12px; font-size: 17px; font-weight: 600; }
+    .subhead:first-of-type { margin-top: 4px; }
     .entry-card { display: flex; flex-direction: column; gap: 18px; min-width: 0; padding: 28px; border-radius: var(--zen-radius-panel); }
     /* 同一套淡色点缀：右上角一抹颜色，每个板块换一个色相 */
     .tint { --tint: 0, 113, 227; background: radial-gradient(120% 150% at 100% 0%, rgba(var(--tint), .13) 0%, rgba(var(--tint), 0) 58%), var(--zen-surface); }
@@ -150,7 +210,7 @@
     .stat-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
     .stat-pair div { min-width: 0; padding: 14px 16px; border-radius: 16px; background: var(--zen-bg); }
     .entry-card .stat-pair div { background: rgba(255, 255, 255, .8); box-shadow: 0 0 0 1px var(--zen-line); }
-    .stat-pair strong { display: block; font-size: 28px; font-weight: 700; letter-spacing: -.02em; line-height: 1.2; font-variant-numeric: tabular-nums; }
+    .stat-pair strong { display: block; white-space: nowrap; font-size: 28px; font-weight: 700; letter-spacing: -.02em; line-height: 1.2; font-variant-numeric: tabular-nums; }
     .stat-pair span { color: var(--zen-muted); font-size: 13px; }
     .entry-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; }
     .entry-links a { display: inline-flex; align-items: center; gap: 6px; min-height: 36px; padding: 6px 13px; border-radius: var(--zen-radius-pill); background: var(--zen-fill); color: #424245; font-size: 13px; transition: background-color .16s ease; }
@@ -214,9 +274,8 @@
     .status-row.pending::before { background: #aeaeb2; }
     .status-row.soft-risk::before { background: #ff9f0a; }
 
-    .metric-rail { display: grid; grid-template-columns: repeat(5, 1fr); margin-top: 16px; border-radius: var(--zen-radius-card); overflow: hidden; }
-    .metric { min-width: 0; padding: 18px 20px; border-right: 1px solid var(--zen-line); }
-    .metric:last-child { border-right: 0; }
+    .metric-rail { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); border-radius: var(--zen-radius-card); overflow: hidden; }
+    .metric { min-width: 0; padding: 18px 20px; box-shadow: 0 0 0 .5px var(--zen-line-strong); }
     .metric strong { display: block; font-size: 28px; line-height: 1.2; font-weight: 700; letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
     .metric span { color: var(--zen-muted); font-size: 13px; }
     .metric span::before { content: ""; display: inline-block; width: 7px; height: 7px; margin-right: 6px; border-radius: 50%; background: rgb(var(--dot, 174, 174, 178)); vertical-align: 1px; }
@@ -367,10 +426,6 @@
 
     @media (max-width: 960px) {
       .weekly-layout, .builder { grid-template-columns: 1fr; }
-      .metric-rail { grid-template-columns: repeat(3, 1fr); }
-      .metric:nth-child(3) { border-right: 0; }
-      .metric:nth-child(-n+3) { border-bottom: 1px solid var(--zen-line); }
-      .metric:nth-child(4) { grid-column: span 1; }
       .resource-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     }
 
@@ -382,14 +437,12 @@
       .menu-button, .mobile-nav { display: block; }
       .sync-status { max-width: 98px; overflow: hidden; text-overflow: ellipsis; }
       main { padding-top: 16px; }
-      .home-top { grid-template-columns: 1fr; }
+      .home { grid-template-columns: minmax(0, 1fr); grid-template-areas: none; }
+      .home > * { grid-area: auto; }
+      .hb-calendar, .home .panel { padding: 22px; border-radius: 22px; }
+      .exam-row { flex-direction: column; align-items: stretch; }
       .entry-card, .panel { padding: 22px; border-radius: 22px; }
       .entry-card h2 { font-size: 26px; }
-      .metric-rail { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-      .metric { border-bottom: 1px solid var(--zen-line); }
-      .metric:nth-child(2n) { border-right: 0; }
-      .metric:nth-child(3) { border-right: 1px solid var(--zen-line); }
-      .metric:last-child { grid-column: 1 / -1; border: 0; }
       .quick-grid, .resource-grid { grid-template-columns: 1fr; gap: 12px; }
       .builder { gap: 22px; }
       .builder-summary { position: static; }
@@ -436,13 +489,13 @@
       <a class="brand" href="#home" aria-label="SAT 学习中心首页"><strong>SAT 学习中心</strong><span>READING &amp; WRITING</span></a>
       <nav class="desktop-nav" aria-label="学习中心主导航">
         <a href="/app/">返回学习项目</a>
-        <a href="#home">首页</a><a href="#review/wrong">我的复习</a><a href="#diagnosis">学习诊断</a><a href="#practice">今日练习</a><a href="#search">全库搜索</a>
+        <a href="#home">首页</a><a href="#review/wrong">我的复习</a><a href="#diagnosis">学习诊断</a><a href="#practice">今日练习</a><a href="#exam">模考</a><a href="#search">全库搜索</a>
       </nav>
       <span class="sync-status pending" id="syncStatus" aria-live="polite">本机模式</span>
       <button class="menu-button" id="mobileMenuBtn" type="button" aria-expanded="false" aria-controls="mobileNav">菜单</button>
       <nav class="mobile-nav" id="mobileNav" aria-label="移动端学习导航" hidden>
         <a href="/app/">返回学习项目</a>
-        <a href="#home">首页</a><a href="#review/wrong">我的复习</a><a href="#diagnosis">学习诊断</a><a href="#practice">今日练习</a><a href="#search">全库搜索</a>
+        <a href="#home">首页</a><a href="#review/wrong">我的复习</a><a href="#diagnosis">学习诊断</a><a href="#practice">今日练习</a><a href="#exam">模考</a><a href="#search">全库搜索</a>
       </nav>
     </div>
   </header>
@@ -658,6 +711,7 @@
       else if (currentRoute.root === "diagnosis") renderDiagnosis();
       else if (currentRoute.root === "practice") renderBuilder();
       else if (currentRoute.root === "search") renderSearch();
+      else if (currentRoute.root === "exam") renderExamCenter();
       else renderHome();
     }
 
@@ -699,8 +753,97 @@
       const pages = examEligiblePages();
       if (!pages.length) return "";
       return `<section class="panel" id="examLibrary">
-        <div class="section-title"><div><p class="eyebrow orange">OFFICIAL PRACTICE</p><h2>正式模考</h2><p>固定 Hard 分支，不模拟自适应分流，也不提供虚构换算分。</p></div><span class="section-meta">${pages.length} 套</span></div>
-        <div class="resource-grid">${pages.map(page => `<article class="resource-card exam-card"><h3>${escapeHtml(page.title)}</h3><span class="resource-card-subtitle">固定 Hard · 27+27 · 每模块 32 分钟</span><p>普通练习与模考记录相互独立。</p><div class="hero-actions"><a class="button ghost" href="${page.route}">普通练习</a><a class="button primary" href="${page.route}?mode=exam">开始正式模考</a></div></article>`).join("")}</div>
+        <div class="section-title"><div><p class="eyebrow orange">MOCK EXAM</p><h2>全真模考</h2><p>固定 Hard 分支，不模拟自适应分流，也不提供虚构换算分。</p></div><span class="section-meta">${pages.length} 套</span></div>
+        <div class="resource-grid">${pages.map(page => `<article class="resource-card exam-card"><h3>${escapeHtml(page.title)}</h3><span class="resource-card-subtitle">${escapeHtml(examShape(page))}</span><p>普通练习与模考记录相互独立。</p><div class="hero-actions"><a class="button ghost" href="${page.route}">普通练习</a><a class="button primary" href="${page.route}?mode=exam">${examProgress(page) === "active" ? "继续模考" : "开始模考"}</a></div></article>`).join("")}</div>
+      </section>`;
+    }
+
+    /* ---------- 模考：入口、记录 ----------
+       模考本身在练习页里进行（?mode=exam）。这里只读两类本机记录：
+       sat-exam:v1:<pageId> 是每套题当前这一场，sat-exam-history:v1 是已完成的全部场次。 */
+    function examShape(page) {
+      const variant = (page.examVariants || [])[0], modules = page.moduleSpec || {};
+      const parts = (variant?.modules || []).map(key => modules[key]).filter(Boolean);
+      if (!parts.length) return "两个模块，分别计时";
+      return `${parts.map(item => (item.questionIds || []).length).join(" + ")} 题 · ${parts.map(item => Math.round((item.durationSeconds || 0) / 60)).join(" + ")} 分钟`;
+    }
+    function examProgress(page) {
+      try {
+        const raw = JSON.parse(learningStorage.getItem("sat-exam:v1:" + page.pageId) || "null");
+        return raw && ["m1", "m2"].includes(raw.phase) ? "active" : raw && ["complete", "review"].includes(raw.phase) ? "done" : "";
+      } catch { return ""; }
+    }
+    function examHistory() {
+      try {
+        const raw = JSON.parse(learningStorage.getItem("sat-exam-history:v1") || "null");
+        return (Array.isArray(raw && raw.records) ? raw.records : [])
+          .filter(item => item && typeof item.id === "string" && Array.isArray(item.modules))
+          .sort((left, right) => Number(right.completedAt || 0) - Number(left.completedAt || 0));
+      } catch { return []; }
+    }
+    function examRecordScore(record) {
+      return record.modules.reduce((sum, module) => ({
+        correct: sum.correct + Number(module.score?.correct || 0), total: sum.total + Number(module.score?.total || 0)
+      }), { correct: 0, total: 0 });
+    }
+    function renderExamCenter() {
+      const pages = examEligiblePages(), records = examHistory();
+      const available = pages.length ? `<div class="exam-list">${pages.map(page => {
+        const progress = examProgress(page), taken = records.filter(item => item.pageId === page.pageId).length;
+        return `<article class="exam-row"><div>${progress === "active" ? '<span class="pill focus">进行中</span>' : taken ? `<span class="pill calm">已完成 ${taken} 次</span>` : '<span class="pill pending">未开始</span>'}<h3>${escapeHtml(page.title)}</h3><p>${escapeHtml(examShape(page))} · 固定卷，不自适应分流</p></div><div class="actions"><a class="button primary" href="${page.route}?mode=exam">${progress === "active" ? "继续模考" : progress === "done" ? "查看本次成绩" : "开始模考"}</a></div></article>`;
+      }).join("")}</div>` : renderEmpty("题库里暂时没有可以完整模考的试卷。");
+      const history = records.length ? `<div class="exam-list">${records.map(record => {
+        const page = pageById.get(record.pageId), score = examRecordScore(record);
+        const detail = record.modules.map(module => `${escapeHtml(module.label || "Module")} ${Number(module.score?.correct || 0)}/${Number(module.score?.total || 0)}`).join(" · ");
+        return `<article class="exam-row"><div><span class="pill pending">${escapeHtml(formatTime(new Date(Number(record.completedAt || 0)).toISOString()))}</span><h3>${escapeHtml(page?.title || record.title || "模考")}</h3><p>${detail}</p></div><div class="actions"><span class="score">${score.correct}<small> / ${score.total}</small></span>${page ? `<a class="button primary" href="${page.route}?mode=exam&history=${encodeURIComponent(record.id)}">查看答案与解析</a>` : ""}</div></article>`;
+      }).join("")}</div>` : renderEmpty("完成一场模考后，这里会保存每一次的成绩和作答，可以单独回看。");
+      app.innerHTML = `<section class="panel" style="margin-top:0"><div class="section-title"><div><p class="eyebrow orange">MOCK EXAM</p><h1>模考中心</h1><p>按考试的模块和计时完整做一套，全部交卷之后再看答案和解析。</p></div><span class="section-meta">${pages.length} 套可用 · ${records.length} 条记录</span></div>
+        <h2 class="subhead">可用模考</h2>${available}
+        <h2 class="subhead">模考记录</h2>${history}</section>`;
+    }
+
+    /* ---------- 首页 ---------- */
+    let calendarMode = "week";
+    function practiceDayKeys() {
+      const days = new Set(Object.keys(readSatStudyDays(learningStorage)));
+      for (const item of state.attempts || []) if (timeOf(item.submittedAt)) days.add(satStudyDayKey(new Date(item.submittedAt)));
+      return days;
+    }
+    function practiceStreak(days, now = new Date()) {
+      const cursor = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+      // 今天还没练时，从昨天往前数，连续天数不会在当天清零
+      if (!days.has(satStudyDayKey(cursor))) cursor.setDate(cursor.getDate() - 1);
+      let count = 0;
+      while (days.has(satStudyDayKey(cursor))) { count += 1; cursor.setDate(cursor.getDate() - 1); }
+      return count;
+    }
+    function calendarBlock() {
+      const days = practiceDayKeys(), now = new Date(), todayStart = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+      const offset = (todayStart.getDay() + 6) % 7, monday = new Date(todayStart.getFullYear(), todayStart.getMonth(), todayStart.getDate() - offset);
+      const dayAt = (base, shift) => new Date(base.getFullYear(), base.getMonth(), base.getDate() + shift);
+      const cell = (date, outside = false) => {
+        const done = days.has(satStudyDayKey(date)), isToday = date.getTime() === todayStart.getTime(), future = date.getTime() > todayStart.getTime();
+        const label = isToday ? "今天" : future ? "" : done ? "已练" : "未练";
+        return `<div class="cal-day${done ? " done" : ""}${isToday ? " today" : ""}${future ? " future" : ""}${outside ? " outside" : ""}" role="listitem" aria-label="${date.getMonth() + 1} 月 ${date.getDate()} 日${done ? "，已练习" : future ? "" : "，未练习"}"><strong>${date.getDate()}</strong><span>${label}</span></div>`;
+      };
+      const week = Array.from({ length: 7 }, (_, index) => dayAt(monday, index));
+      let cells = week.map(date => cell(date)).join("");
+      if (calendarMode === "month") {
+        const first = new Date(now.getFullYear(), now.getMonth(), 1), start = dayAt(first, -((first.getDay() + 6) % 7));
+        const last = new Date(now.getFullYear(), now.getMonth() + 1, 0), total = Math.ceil((((first.getDay() + 6) % 7) + last.getDate()) / 7) * 7;
+        cells = Array.from({ length: total }, (_, index) => { const date = dayAt(start, index); return cell(date, date.getMonth() !== now.getMonth()); }).join("");
+      }
+      const weekDone = week.filter(date => days.has(satStudyDayKey(date))).length;
+      return `<section class="hb-calendar" aria-label="练习日历">
+        <div class="cal-head"><h2>练习日历</h2><div class="segment-group" role="tablist" aria-label="日历范围">
+          <button class="segment ${calendarMode === "week" ? "active" : ""}" data-calendar-mode="week" role="tab" aria-selected="${calendarMode === "week"}">本周</button>
+          <button class="segment ${calendarMode === "month" ? "active" : ""}" data-calendar-mode="month" role="tab" aria-selected="${calendarMode === "month"}">${now.getMonth() + 1} 月</button>
+        </div></div>
+        <div class="cal-body"><div class="cal-main">
+          <div class="cal-names" aria-hidden="true"><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span></div>
+          <div class="cal-grid ${calendarMode}" role="list">${cells}</div>
+        </div>
+        <div class="stat-pair"><div><strong>${practiceStreak(days, now)}</strong><span>连续学习天数</span></div><div><strong>${weekDone}/7</strong><span>本周已练</span></div></div></div>
       </section>`;
     }
     function renderHome() {
@@ -714,10 +857,13 @@
       const secondaryLabel = last ? "生成今日练习" : "浏览完整套题";
       const study = summarizeSatStudyTime(learningStorage), today = satStudyDayKey();
       const todayCount = (state.attempts || []).filter(item => item.submittedAt && satStudyDayKey(new Date(item.submittedAt)) === today).length;
+      const examPages = examEligiblePages(), examRecords = examHistory(), activeExam = examPages.find(page => examProgress(page) === "active");
+      const lastExam = examRecords[0], lastExamScore = lastExam ? examRecordScore(lastExam) : null;
       app.innerHTML = `
         <h1 class="visually-hidden">学习首页</h1>
-        <section class="home-top">
-          <article class="entry-card today tint blue">
+        <div class="home-wrap">
+        <section class="home">
+          <article class="entry-card hb-today tint blue">
             <div><p class="eyebrow blue">TODAY</p><h2>今日练习</h2></div>
             <div class="stat-pair">
               <div><strong>${formatSatStudyTime(study.today)}</strong><span>今日学习时长</span></div>
@@ -726,52 +872,60 @@
             <div class="hero-actions"><a class="button primary" href="${primaryHref}">${primaryLabel}</a><a class="button ghost" href="${secondaryHref}">${secondaryLabel}</a></div>
             <div class="entry-links"><a href="#review/unfinished">未完成套题<b>${unfinished}</b></a><a href="#practice/confidence">低信心题<b>${lowConfidence}</b></a></div>
           </article>
-          <article class="entry-card review tint orange">
+          ${calendarBlock()}
+          <article class="entry-card hb-review tint orange">
             <div><p class="eyebrow orange">REVIEW</p><h2>错题复习</h2></div>
             <div class="stat-pair">
               <div><strong>${overview.wrong}</strong><span>待掌握错题</span></div>
               <div><strong>${overview.due}</strong><span>今日到期复习</span></div>
             </div>
             <div class="hero-actions"><a class="button primary" href="#review/wrong">开始错题复习</a><a class="button ghost" href="#practice/due">练到期复习</a></div>
-            <div class="entry-links"><a href="#review/redo">最近重做正确</a><a href="#review/starred">星标题</a><a href="#review/notes">笔记与标注</a></div>
           </article>
-        </section>
-        <section class="metric-rail" aria-label="学习概览">
-          <div class="metric"><strong>${formatSatStudyTime(study.total)}</strong><span>累计学习时长</span></div>
-          <div class="metric"><strong>${formatSatStudyTime(study.week)}</strong><span>近 7 天学习时长</span></div>
-          <div class="metric"><strong>${overview.submitted}</strong><span>已提交题目</span></div>
-          <div class="metric"><strong>${overview.accuracy === null ? "—" : overview.accuracy + "%"}</strong><span>正确率${overview.needsRecheck ? ` · ${overview.needsRecheck} 题有更新，待重做` : ""}</span></div>
-          <div class="metric"><strong>${overview.mastered}</strong><span>已掌握错题</span></div>
-        </section>
-        <section class="quick-grid" aria-label="快捷入口">
-          <a class="breathing-card tint orange" href="#review/wrong"><strong>统一错题本</strong><span>空白重做，保留首次错误与每次重做历史</span></a>
-          <a class="breathing-card tint purple" href="#diagnosis"><strong>学习诊断</strong><span>按题型查看正确率和薄弱项</span></a>
-          <a class="breathing-card tint blue" href="#practice"><strong>生成今日练习</strong><span>组合薄弱项、错题、未做题、星标和低信心题</span></a>
-        </section>
-        <section class="panel">
-          <div class="section-title"><div><p class="eyebrow purple">WEEKLY REVIEW</p><h2>周学习报告</h2></div><span class="section-meta">最近 7 天</span></div>
-          <div class="weekly-layout">
-            <div class="status-list">
-              <div class="status-row pending"><span><strong>练习量</strong><br><span>本周提交次数</span></span><span class="count">${report.week.length}</span></div>
-              <div class="status-row focus"><span><strong>本周正确率</strong><br><span>${report.delta === null ? "等待上周数据" : `较上周 ${report.delta >= 0 ? "+" : ""}${report.delta}%`}</span></span><span class="count">${report.currentAccuracy}%</span></div>
-              <div class="status-row calm"><span><strong>新掌握错题</strong><br><span>完成三个到期阶段</span></span><span class="count">${report.mastered}</span></div>
-              <div class="status-row soft-risk"><span><strong>主要错因</strong><br><span>用于调整训练优先级</span></span><strong>${escapeHtml(report.topError)}</strong></div>
+          <article class="entry-card hb-exam tint purple">
+            <div><p class="eyebrow purple">MOCK EXAM</p><h2>全真模考</h2></div>
+            <div class="stat-pair">
+              <div><strong>${examPages.length}</strong><span>可用模考</span></div>
+              <div><strong>${lastExamScore ? `${lastExamScore.correct}/${lastExamScore.total}` : "—"}</strong><span>${lastExamScore ? "上次成绩" : `已完成 ${examRecords.length} 次`}</span></div>
             </div>
-            <aside class="recommendation"><p class="eyebrow blue">NEXT STEP</p><strong>下一步建议</strong><p>${escapeHtml(report.recommendation)}</p></aside>
-          </div>
-        </section>
-        <section class="panel">
-          <div class="section-title"><div><p class="eyebrow teal">RECENT</p><h2>最近练习</h2></div></div>
-          <div class="recent-list">${recent.length ? recent.map(({ question, state: item }) => `
-            <a class="recent-row" href="${question.route}?focus=${encodeURIComponent(question.questionId)}">
-              <span class="pill ${item.correct ? "calm" : "soft-risk"}">${item.correct ? "回答正确" : "回答错误"}</span>
-              <span><strong>${escapeHtml(question.skill)}</strong><p>${escapeHtml(question.prompt.slice(0, 120))}${question.prompt.length > 120 ? "…" : ""}</p></span>
-              <time>${formatTime(item.lastAttemptAt)}</time>
-            </a>`).join("") : renderEmpty("完成第一道题后，这里会显示最近练习。")}</div>
+            <div class="hero-actions">${activeExam ? `<a class="button primary" href="${activeExam.route}?mode=exam">继续模考</a><a class="button ghost" href="#exam">模考中心</a>` : `<a class="button primary" href="#exam">进入模考中心</a>`}</div>
+          </article>
+          <section class="metric-rail hb-stats" aria-label="学习概览">
+            <div class="metric"><strong>${formatSatStudyTime(study.total)}</strong><span>累计学习时长</span></div>
+            <div class="metric"><strong>${formatSatStudyTime(study.week)}</strong><span>近 7 天学习时长</span></div>
+            <div class="metric"><strong>${overview.submitted}</strong><span>已提交题目</span></div>
+            <div class="metric"><strong>${overview.accuracy === null ? "—" : overview.accuracy + "%"}</strong><span>正确率${overview.needsRecheck ? ` · ${overview.needsRecheck} 题有更新，待重做` : ""}</span></div>
+            <div class="metric"><strong>${overview.mastered}</strong><span>已掌握错题</span></div>
+          </section>
+          <section class="panel hb-weekly">
+            <div class="section-title"><div><p class="eyebrow purple">WEEKLY REVIEW</p><h2>周学习报告</h2></div><span class="section-meta">最近 7 天</span></div>
+            <div class="weekly-layout">
+              <div class="status-list">
+                <div class="status-row pending"><span><strong>练习量</strong><br><span>本周提交次数</span></span><span class="count">${report.week.length}</span></div>
+                <div class="status-row focus"><span><strong>本周正确率</strong><br><span>${report.delta === null ? "等待上周数据" : `较上周 ${report.delta >= 0 ? "+" : ""}${report.delta}%`}</span></span><span class="count">${report.currentAccuracy}%</span></div>
+                <div class="status-row calm"><span><strong>新掌握错题</strong><br><span>完成三个到期阶段</span></span><span class="count">${report.mastered}</span></div>
+                <div class="status-row soft-risk"><span><strong>主要错因</strong><br><span>用于调整训练优先级</span></span><strong>${escapeHtml(report.topError)}</strong></div>
+              </div>
+              <aside class="recommendation"><p class="eyebrow blue">NEXT STEP</p><strong>下一步建议</strong><p>${escapeHtml(report.recommendation)}</p></aside>
+            </div>
+          </section>
+          <section class="panel hb-recent">
+            <div class="section-title"><div><p class="eyebrow teal">RECENT</p><h2>最近练习</h2></div></div>
+            <div class="recent-list">${recent.length ? recent.map(({ question, state: item }) => `
+              <a class="recent-row" href="${question.route}?focus=${encodeURIComponent(question.questionId)}">
+                <span class="pill ${item.correct ? "calm" : "soft-risk"}">${item.correct ? "回答正确" : "回答错误"}</span>
+                <span><strong>${escapeHtml(SAT_SKILL_ZH[question.skill] || question.skill)}</strong><p>${escapeHtml(question.prompt.slice(0, 120))}${question.prompt.length > 120 ? "…" : ""}</p></span>
+                <time>${formatTime(item.lastAttemptAt)}</time>
+              </a>`).join("") : renderEmpty("完成第一道题后，这里会显示最近练习。")}</div>
+          </section>
         </section>
         ${examLibrary()}
-        ${resourceLibrary()}`;
+        ${resourceLibrary()}
+        </div>`;
       bindResourceControls();
+      app.querySelectorAll("[data-calendar-mode]").forEach(button => button.addEventListener("click", () => {
+        calendarMode = button.dataset.calendarMode;
+        renderHome();
+      }));
     }
     function resourceLibrary() {
       const pages = MANIFEST.pages.filter(page => page.kind === resourceKind), visible = resourcesExpanded ? pages : pages.slice(0, 6);

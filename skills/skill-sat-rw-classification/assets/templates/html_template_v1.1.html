@@ -558,24 +558,23 @@
     .home-link:hover { opacity: .72; }
     .mode-banner { display: none; padding: 9px 14px; text-align: center; color: #5c4400; background: #fff6e0; border-bottom: 1px solid var(--sat-hairline); font-size: 13px; font-weight: 600; }
     .mode-banner.visible { display: block; }
-    .exam-shell {
-      display: none;
-      max-width: 1180px;
-      margin: 0 auto 76px;
-      padding: clamp(18px, 4vw, 40px);
-    }
+    body.exam-active .topbar { display: none; }
+    .exam-shell { display: none; }
     .exam-shell.visible { display: block; }
+    .exam-shell[data-view="card"] { padding: clamp(18px, 4vw, 44px); background: var(--sat-bg-subtle); }
     .exam-card {
-      max-width: 760px;
-      margin: 28px auto;
-      padding: clamp(20px, 4vw, 36px);
+      max-width: 720px;
+      margin: 0 auto;
+      padding: clamp(22px, 4vw, 40px);
       border: 0;
       border-radius: var(--sat-radius-card);
       background: var(--sat-bg-panel);
       box-shadow: var(--sat-shadow-card);
     }
-    .exam-card h1, .exam-card h2 { margin-top: 0; letter-spacing: -.02em; }
+    .exam-card h1, .exam-card h2 { margin: 0 0 8px; font-size: 28px; line-height: 1.2; letter-spacing: -.02em; }
+    .exam-card h1:focus, .exam-card h2:focus { outline: none; }
     .exam-card p { line-height: 1.6; }
+    .exam-kicker { margin: 0 0 6px; color: var(--sat-blue-text); font-size: 12px; font-weight: 600; letter-spacing: .06em; }
     .exam-note {
       padding: 12px 16px;
       border-left: 0;
@@ -584,6 +583,12 @@
       color: var(--sat-text-muted);
       line-height: 1.55;
     }
+    .exam-rules { display: grid; gap: 10px; margin: 18px 0; padding: 0; list-style: none; counter-reset: rule; }
+    .exam-rules li { display: grid; grid-template-columns: 26px 1fr; gap: 10px; font-size: 15px; line-height: 1.55; counter-increment: rule; }
+    .exam-rules li::before { content: counter(rule); display: grid; place-items: center; width: 24px; height: 24px; border-radius: 50%; background: var(--sat-bg-control); font-size: 12px; font-weight: 600; }
+    .exam-card-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: 22px; }
+    .exam-link { display: inline-flex; align-items: center; min-height: 40px; padding: 8px 16px; border-radius: var(--sat-radius-pill); color: var(--sat-blue-text); font-size: 15px; font-weight: 500; text-decoration: none; }
+    .exam-link:hover { background: var(--sat-blue-muted); }
     .exam-persistence-alert {
       max-width: 760px;
       margin: 12px auto;
@@ -595,7 +600,7 @@
       font-weight: 600;
     }
     .exam-persistence-alert button { margin-left: 10px; }
-    .exam-variants { display: grid; gap: 12px; margin: 20px 0; }
+    .exam-variants { display: grid; gap: 12px; margin: 20px 0 0; }
     .exam-variant {
       display: grid;
       grid-template-columns: 1fr auto;
@@ -608,50 +613,85 @@
     }
     .exam-variant strong, .exam-variant span { display: block; }
     .exam-variant span { margin-top: 4px; color: var(--sat-text-muted); font-size: var(--sat-font-size-ui-sm); }
-    .exam-toolbar {
-      display: flex;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 10px;
-      padding: 12px 16px;
-      border: 1px solid var(--sat-hairline);
-      border-bottom: 0;
-      border-radius: var(--sat-radius-card) var(--sat-radius-card) 0 0;
-      background: var(--sat-bg-panel);
-    }
-    .exam-toolbar-title { flex: 1 1 260px; font-weight: 600; }
-    .exam-timer {
-      min-width: 96px;
-      padding: 7px 14px;
-      border: 1px solid transparent;
-      border-radius: var(--sat-radius-pill);
-      background: var(--sat-bg-control);
-      text-align: center;
-      font-variant-numeric: tabular-nums;
-      font-weight: 700;
-    }
-    .exam-timer.urgent { background: var(--sat-incorrect-bg); color: var(--sat-incorrect-text); }
-    .exam-layout { margin: 0; border: 1px solid var(--sat-hairline); }
-    .exam-question-number { font-weight: 700; }
-    .exam-actions {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 10px;
-      padding: 14px 16px;
-      border: 1px solid var(--sat-hairline);
-      border-top: 0;
-      border-radius: 0 0 var(--sat-radius-card) var(--sat-radius-card);
-      background: var(--sat-bg-panel);
-    }
-    .exam-actions-group { display: flex; flex-wrap: wrap; gap: 8px; }
-    .exam-overview {
+    .exam-variant > strong { padding: 8px 18px; border-radius: var(--sat-radius-pill); background: var(--sat-blue); color: #fff; }
+    .exam-header {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      flex: 0 0 auto;
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(44px, 1fr));
-      gap: 8px;
-      margin: 16px 0;
+      grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+      align-items: center;
+      gap: 12px;
+      min-height: 64px;
+      padding: 8px 24px;
+      background: rgba(255, 255, 255, .92);
+      -webkit-backdrop-filter: var(--sat-glass);
+      backdrop-filter: var(--sat-glass);
+      border-bottom: 1px solid var(--sat-hairline);
     }
-    .exam-overview .qnav.answered { background: var(--sat-blue-muted); color: var(--sat-blue-text); }
+    .exam-header-main { min-width: 0; display: grid; gap: 1px; }
+    .exam-header-main strong { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 17px; font-weight: 600; letter-spacing: -.01em; }
+    .exam-header-main span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--sat-text-muted); font-size: 13px; }
+    .exam-clock { display: grid; justify-items: center; gap: 3px; }
+    .exam-timer { position: relative; min-width: 96px; text-align: center; font-size: 22px; font-weight: 700; line-height: 1.2; font-variant-numeric: tabular-nums; }
+    .exam-timer.urgent { color: var(--sat-incorrect-text); }
+    .exam-clock.concealed .exam-timer:not(.urgent) { color: transparent; }
+    .exam-clock.concealed .exam-timer:not(.urgent)::after { content: "计时已隐藏"; position: absolute; inset: 0; display: grid; place-items: center; color: var(--sat-text-muted); font-size: 13px; font-weight: 500; }
+    #examTimerToggle { min-height: 26px; padding: 2px 12px; font-size: 12px; }
+    .exam-header-actions { justify-self: end; display: flex; gap: 8px; }
+    .exam-header-actions button { min-height: 36px; padding: 6px 14px; font-size: 14px; white-space: nowrap; }
+    .exam-layout { margin: 0; }
+    #examMark[aria-pressed="true"] { color: #b25000; font-weight: 600; }
+    .exam-footer {
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 15;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+      align-items: center;
+      gap: 12px;
+      min-height: 66px;
+      padding: 10px 24px calc(10px + env(safe-area-inset-bottom, 0px));
+      background: rgba(255, 255, 255, .92);
+      -webkit-backdrop-filter: var(--sat-glass);
+      backdrop-filter: var(--sat-glass);
+      border-top: 1px solid var(--sat-hairline);
+    }
+    .exam-footer-title { grid-column: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--sat-text-muted); font-size: 13px; }
+    .exam-nav-toggle { grid-column: 2; justify-self: center; display: inline-flex; align-items: center; gap: 9px; min-height: 40px; padding: 6px 18px; background: var(--sat-text-main); color: #fff; font-size: 14px; font-weight: 600; font-variant-numeric: tabular-nums; white-space: nowrap; }
+    .exam-nav-toggle:hover { background: #3a3a3c; }
+    .exam-nav-toggle::after { content: ""; width: 6px; height: 6px; margin-top: 3px; border: solid currentColor; border-width: 1.5px 0 0 1.5px; transform: rotate(45deg); }
+    .exam-navigator {
+      position: fixed;
+      left: 50%;
+      bottom: 78px;
+      z-index: 18;
+      transform: translateX(-50%);
+      width: min(560px, calc(100vw - 32px));
+      max-height: min(62vh, calc(100vh - 170px));
+      overflow: auto;
+      padding: 18px;
+      background: #ffffff;
+      border: 1px solid var(--sat-hairline);
+      border-radius: 20px;
+      box-shadow: var(--sat-shadow-popover);
+    }
+    .exam-navigator h3 { margin: 0 0 10px; font-size: 16px; font-weight: 600; text-align: center; }
+    .exam-navigator-foot { display: flex; justify-content: center; margin-top: 14px; }
+    .overview-legend .legend-unanswered::before { background: transparent; border: 1.5px dashed var(--sat-border-medium); }
+    .exam-overview { display: grid; grid-template-columns: repeat(auto-fill, minmax(44px, 1fr)); gap: 10px; }
+    .exam-overview .qnav { position: relative; background: transparent; border: 1.5px dashed var(--sat-border-medium); }
+    .exam-overview .qnav.answered { border: 1.5px solid transparent; background: var(--sat-blue-muted); color: var(--sat-blue-text); }
+    .exam-overview .qnav.correct { border: 1.5px solid transparent; background: var(--sat-correct-bg); color: var(--sat-correct-text); }
+    .exam-overview .qnav.incorrect { border: 1.5px solid transparent; background: var(--sat-incorrect-bg); color: var(--sat-incorrect-text); }
+    .exam-overview .qnav.marked::after { content: "★"; position: absolute; top: -7px; right: -4px; color: #b25000; font-size: 12px; line-height: 1; }
+    .exam-check { flex: 1 1 0; min-height: 0; overflow: auto; padding: clamp(18px, 4vw, 40px) clamp(18px, 4vw, 40px) 110px; background: var(--sat-bg-subtle); }
+    .exam-score { display: flex; align-items: baseline; gap: 10px; margin: 16px 0 4px; }
+    .exam-score strong { font-size: 48px; font-weight: 700; line-height: 1; letter-spacing: -.03em; font-variant-numeric: tabular-nums; }
+    .exam-score span { color: var(--sat-text-muted); font-size: 15px; }
     .exam-summary-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
@@ -659,14 +699,27 @@
       margin: 20px 0;
     }
     .exam-summary-card { padding: 18px; border: 0; border-radius: var(--sat-radius-panel); background: var(--sat-bg-subtle); }
-    .exam-summary-card h3 { margin: 0 0 10px; }
+    .exam-summary-card h3 { margin: 0 0 4px; font-size: 16px; }
+    .exam-summary-card > p { margin: 0 0 10px; color: var(--sat-text-muted); font-size: 13px; }
     .exam-stats { display: grid; grid-template-columns: repeat(2, minmax(90px, 1fr)); gap: 8px; }
     .exam-stat { padding: 10px 12px; background: var(--sat-bg-panel); border-radius: var(--sat-radius-control); }
     .exam-stat strong, .exam-stat span { display: block; }
+    .exam-stat strong { font-size: 20px; font-variant-numeric: tabular-nums; }
     .exam-stat span { margin-top: 3px; color: var(--sat-text-muted); font-size: var(--sat-font-size-ui-xs); }
+    @media (min-width: 821px) {
+      .exam-shell.visible[data-view="stage"] { display: flex; flex-direction: column; overflow: hidden; }
+      .exam-shell[data-view="stage"] .exam-layout { flex: 1 1 0; min-height: 0; grid-template-rows: minmax(0, 1fr); }
+      .exam-shell[data-view="stage"] .exam-layout > .pane { overflow: auto; overscroll-behavior: contain; }
+      .exam-shell[data-view="stage"] .exam-footer { position: static; flex: 0 0 auto; }
+      .exam-shell[data-view="stage"] .exam-check { padding-bottom: clamp(18px, 4vw, 40px); }
+    }
     .exam-review-answer { margin: 14px 0 0; }
     .exam-review-answer .choice { cursor: default; }
     .exam-review-explanation { display: block; margin-top: 16px; }
+    .exam-review-result { margin: 14px 0 0; padding: 12px 16px; border-radius: var(--sat-radius-control); font-size: 14px; font-weight: 600; }
+    .exam-review-result.correct { background: var(--sat-correct-bg); color: var(--sat-correct-text); }
+    .exam-review-result.incorrect { background: var(--sat-incorrect-bg); color: var(--sat-incorrect-text); }
+    .exam-review-result.blank { background: var(--sat-bg-subtle); color: var(--sat-text-muted); }
     .explanation-detail { padding: 14px 16px; border-bottom: 1px solid var(--sat-explanation-border); }
     .explanation-detail summary { cursor: pointer; font-size: 13px; font-weight: 700; }
     .explanation-detail p { margin: 10px 0 0; font-family: var(--sat-font-reading); font-size: var(--sat-font-size-body); line-height: var(--sat-line-height-reading); white-space: pre-line; }
@@ -779,15 +832,19 @@
       .nav-buttons { grid-column: 2; gap: 8px; }
       .nav-buttons button { min-width: 78px; min-height: 44px; }
       .overview { bottom: 100px; }
-      .exam-shell { padding: 12px; }
-      .exam-card { margin: 12px auto; }
-      .exam-layout { display: block; }
-      .exam-toolbar { align-items: stretch; min-width: 0; }
-      .exam-toolbar-title { min-width: 0; }
-      .exam-timer { width: 100%; }
-      .exam-actions, .exam-actions-group { width: 100%; }
-      .exam-actions button { flex: 1 1 120px; }
+      .exam-header { grid-template-columns: minmax(0, 1fr) auto auto; gap: 8px; min-height: 56px; padding: 6px 14px; }
+      .exam-header-main strong { font-size: 15px; }
+      .exam-header-main span { font-size: 12px; }
+      .exam-timer { min-width: 76px; font-size: 19px; }
+      .exam-header-actions button { padding: 6px 12px; font-size: 13px; }
+      .exam-shell[data-view="stage"] .exam-layout { margin-bottom: 96px; }
+      .exam-footer { grid-template-columns: minmax(0, 1fr) auto; padding: 8px 14px calc(8px + env(safe-area-inset-bottom, 0px)); }
+      .exam-footer-title { display: none; }
+      .exam-nav-toggle { grid-column: 1; justify-self: start; min-height: 44px; }
+      .exam-footer .nav-buttons { grid-column: 2; }
+      .exam-navigator { bottom: 74px; }
       .exam-variant { grid-template-columns: 1fr; }
+      .exam-variant > strong { justify-self: start; }
     }
     @media (prefers-reduced-motion: reduce) {
       *, *::before, *::after { transition-duration: .01ms !important; }
@@ -944,6 +1001,10 @@
     const PAGE_META = readPageMeta();
     const EXAM_CONFIG = normalizeExamConfig(PAGE_META);
     const EXAM_STORAGE_KEY = "sat-exam:v1:" + PAGE_ID;
+    // 每次完成的模考都会存一份到这里，按账号隔离、只在本机，可以单独回看
+    const EXAM_HISTORY_KEY = "sat-exam-history:v1";
+    const requestedExamHistoryId = requestedExamMode ? safeExamToken(params.get("history") || "") : "";
+    let examHistoryView = null, examCheckOpen = false, examNavigatorOpen = false, examTimerConcealed = false;
     const EXAM_TAB_ID = createExamSessionId();
     let examSession = requestedExamMode && EXAM_CONFIG ? loadExamSession() : null;
     let examTimer = null;
@@ -1179,7 +1240,7 @@
     }
 
     function blankExamModuleState() {
-      return { answers: {}, current: 0, startedAt: null, deadlineAt: null, submittedAt: null, submitReason: "" };
+      return { answers: {}, marked: [], current: 0, startedAt: null, deadlineAt: null, submittedAt: null, submitReason: "" };
     }
 
     function normalizeExamModuleState(value, moduleSpec) {
@@ -1196,6 +1257,7 @@
       const timestamp = key => Number.isFinite(Number(source[key])) && Number(source[key]) > 0 ? Number(source[key]) : null;
       return {
         answers,
+        marked: [...new Set(Array.isArray(source.marked) ? source.marked : [])].filter(questionId => moduleSpec.questionIds.includes(questionId)),
         current: currentIndex,
         startedAt: timestamp("startedAt"),
         deadlineAt: timestamp("deadlineAt"),
@@ -1286,7 +1348,7 @@
         reload.textContent = "重新载入最新进度";
         reload.addEventListener("click", () => location.reload());
         notice.appendChild(reload);
-        els.examShell.querySelectorAll("[data-exam-start], [data-exam-choice], [data-exam-index], #examPrev, #examNext, #examSubmitModule, #examStartM2, #examEnterReview, #examCompleteReset, #examReviewPrev, #examReviewNext, #examReviewResults")
+        els.examShell.querySelectorAll("[data-exam-start], [data-exam-choice], [data-exam-index], #examPrev, #examNext, #examSubmitModule, #examMark, #examNavToggle, #examOpenCheck, #examCheckBack, #examStartM2, #examEnterReview, #examCompleteReset, #examReviewPrev, #examReviewNext, #examReviewResults, [data-exam-review-index]")
           .forEach(control => { control.disabled = true; });
       }
       els.examShell.prepend(notice);
@@ -1418,11 +1480,13 @@
       active.state.submittedAt = Date.now();
       active.state.submitReason = reason === "timeout" ? "timeout" : "manual";
       clearExamTimer();
+      examCheckOpen = false;
+      examNavigatorOpen = false;
       if (active.moduleIndex === 1) {
         examSession.phase = "complete";
         examSession.completedAt = active.state.submittedAt;
       }
-      saveExamSession();
+      if (saveExamSession()) archiveExamSession();
       renderExam();
     }
 
@@ -1441,20 +1505,100 @@
       renderExam();
     }
 
-    function scoreExamModule(moduleKey) {
-      const spec = EXAM_CONFIG.modules[moduleKey];
-      const moduleState = examSession.modules[moduleKey];
+    function scoreExamAnswers(questionIds, answers) {
       let correct = 0;
       let incorrect = 0;
       let blank = 0;
-      for (const questionId of spec.questionIds) {
-        const selected = moduleState.answers[questionId] || "";
+      for (const questionId of questionIds) {
+        const selected = answers[questionId] || "";
         if (!selected) blank += 1;
         else if (selected === examQuestionById(questionId).correct_answer) correct += 1;
         else incorrect += 1;
       }
-      const total = spec.questionIds.length;
+      const total = questionIds.length;
       return { correct, incorrect, blank, total, accuracy: total ? Math.round(correct / total * 1000) / 10 : 0 };
+    }
+
+    function scoreExamModule(moduleKey) {
+      return scoreExamAnswers(EXAM_CONFIG.modules[moduleKey].questionIds, examSession.modules[moduleKey].answers);
+    }
+
+    function loadExamHistory() {
+      try {
+        const raw = JSON.parse(learningStorage.getItem(EXAM_HISTORY_KEY) || "null");
+        return (Array.isArray(raw && raw.records) ? raw.records : []).filter(item => item && typeof item === "object" && typeof item.id === "string");
+      } catch (error) {
+        return [];
+      }
+    }
+
+    // 只归档已经完成的模考；同一场模考只存一次
+    function archiveExamSession() {
+      if (!examSession || !["complete", "review"].includes(examSession.phase)) return;
+      const variant = examVariantById(examSession.variantId);
+      if (!variant) return;
+      try {
+        const records = loadExamHistory();
+        if (records.some(item => item.id === examSession.sessionId)) return;
+        records.push({
+          version: 1, id: examSession.sessionId, pageId: PAGE_ID, title: document.title,
+          variantId: variant.id, variantLabel: variant.label, branch: variant.branch,
+          createdAt: examSession.createdAt, completedAt: examSession.completedAt,
+          modules: variant.moduleKeys.map(moduleKey => {
+            const spec = EXAM_CONFIG.modules[moduleKey], moduleState = examSession.modules[moduleKey], score = scoreExamModule(moduleKey);
+            return {
+              key: moduleKey, label: spec.label, durationSeconds: spec.durationSeconds,
+              startedAt: moduleState.startedAt, submittedAt: moduleState.submittedAt, submitReason: moduleState.submitReason,
+              questionIds: [...spec.questionIds], answers: { ...moduleState.answers }, marked: [...moduleState.marked],
+              score: { correct: score.correct, incorrect: score.incorrect, blank: score.blank, total: score.total }
+            };
+          })
+        });
+        learningStorage.setItem(EXAM_HISTORY_KEY, JSON.stringify({ version: 1, records: records.slice(-50) }));
+      } catch (error) {
+        console.warn("[sat exam] history could not be saved", error);
+      }
+    }
+
+    function loadExamHistoryView(recordId) {
+      const record = loadExamHistory().find(item => item.id === recordId && item.pageId === PAGE_ID);
+      if (!record || !Array.isArray(record.modules)) return null;
+      const modules = record.modules.map(value => {
+        const source = asRecord(value);
+        const questionIds = (Array.isArray(source.questionIds) ? source.questionIds : []).filter(questionId => examQuestionById(questionId));
+        return {
+          label: safeExamLabel(source.label, "Module"), questionIds, answers: asRecord(source.answers),
+          startedAt: Number(source.startedAt) || null, submittedAt: Number(source.submittedAt) || null,
+          durationSeconds: Number(source.durationSeconds) || null, submitReason: source.submitReason === "timeout" ? "timeout" : ""
+        };
+      }).filter(item => item.questionIds.length);
+      return modules.length ? { record, modules, phase: "result", index: 0 } : null;
+    }
+
+    // 成绩页和解析页共用：既能读正在进行的这场模考，也能读历史记录
+    function examResultSource() {
+      if (examHistoryView) {
+        return { history: true, title: `${formatExamDate(examHistoryView.record.completedAt)} 的模考记录`, modules: examHistoryView.modules };
+      }
+      const variant = examVariantById(examSession.variantId);
+      return {
+        history: false, title: fixedBranchLabel(variant),
+        modules: variant.moduleKeys.map(moduleKey => {
+          const spec = EXAM_CONFIG.modules[moduleKey], moduleState = examSession.modules[moduleKey];
+          return { label: spec.label, questionIds: spec.questionIds, answers: moduleState.answers, startedAt: moduleState.startedAt, submittedAt: moduleState.submittedAt, durationSeconds: spec.durationSeconds, submitReason: moduleState.submitReason };
+        })
+      };
+    }
+
+    function formatExamDate(value) {
+      const date = new Date(Number(value) || 0);
+      if (!Number(value) || Number.isNaN(date.getTime())) return "未知时间";
+      const pad = number => String(number).padStart(2, "0");
+      return `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())} ${pad(date.getHours())}:${pad(date.getMinutes())}`;
+    }
+
+    function exitToExamCenter() {
+      location.assign("../index.html#exam");
     }
 
     function exitExamMode() {
@@ -1472,6 +1616,7 @@
     }
 
     function setExamChrome(active) {
+      document.body.classList.toggle("exam-active", active);
       els.examShell.classList.toggle("visible", active);
       els.practiceLayout.hidden = active;
       els.practiceNav.hidden = active;
@@ -1499,13 +1644,29 @@
 
     function renderExamUnavailable() {
       applyChartLayout(null);
+      els.examShell.dataset.view = "card";
       els.examShell.innerHTML = `
         <div class="exam-card">
-          ${examShellHeading("此页暂不支持正式模考")}
-          <p>页面没有通过模考模块元数据校验。为避免计时、分支或计分错位，已安全降级，不会启动模考会话。</p>
-          <button class="primary" id="examUnavailableExit" type="button">返回普通练习</button>
+          <p class="exam-kicker">全真模考</p>
+          ${examShellHeading("这套题暂时不能用于模考")}
+          <p>这套题还没有完整的模块划分，无法按考试的计时和顺序进行。你可以先做普通练习。</p>
+          <div class="exam-card-actions"><button class="primary" id="examUnavailableExit" type="button">返回普通练习</button><a class="exam-link" href="../index.html#exam">模考中心</a></div>
         </div>`;
       document.getElementById("examUnavailableExit").addEventListener("click", exitExamMode);
+      focusExamHeading();
+    }
+
+    function renderExamHistoryMissing() {
+      applyChartLayout(null);
+      els.examShell.dataset.view = "card";
+      els.examShell.innerHTML = `
+        <div class="exam-card">
+          <p class="exam-kicker">模考记录</p>
+          ${examShellHeading("找不到这条模考记录")}
+          <p>记录只保存在做这场模考的设备和账号里，也可能已经被清除。</p>
+          <div class="exam-card-actions"><button class="primary" id="examHistoryMissingExit" type="button">返回模考中心</button></div>
+        </div>`;
+      document.getElementById("examHistoryMissingExit").addEventListener("click", exitToExamCenter);
       focusExamHeading();
     }
 
@@ -1514,25 +1675,29 @@
       const branchSummary = EXAM_CONFIG.variants
         .map(variant => `M1 + ${variant.branch === "easy" ? "Easy" : "Hard"}`)
         .join(" / ");
-      const branchPrompt = EXAM_CONFIG.variants.length === 1
-        ? "此页仅提供该固定卷，点击下方开始。"
-        : "请在开始前选定分支。";
       const variants = EXAM_CONFIG.variants.map(variant => {
         const first = EXAM_CONFIG.modules[variant.moduleKeys[0]];
         const second = EXAM_CONFIG.modules[variant.moduleKeys[1]];
         return `
           <button class="exam-variant" type="button" data-exam-start="${escapeHtml(variant.id)}">
-            <span><strong>${escapeHtml(fixedBranchLabel(variant))}</strong><span>${escapeHtml(variant.label)} · ${first.questionIds.length} + ${second.questionIds.length} 题</span></span>
-            <strong>开始</strong>
+            <span><strong>${escapeHtml(fixedBranchLabel(variant))}</strong><span>${escapeHtml(variant.label)} · ${first.questionIds.length} + ${second.questionIds.length} 题 · ${escapeHtml(formatExamDuration(first.durationSeconds))} + ${escapeHtml(formatExamDuration(second.durationSeconds))}</span></span>
+            <strong>开始模考</strong>
           </button>`;
       }).join("");
+      els.examShell.dataset.view = "card";
       els.examShell.innerHTML = `
         <div class="exam-card">
-          ${examShellHeading("SAT 正式模考")}
+          <p class="exam-kicker">全真模考</p>
+          ${examShellHeading(document.title)}
           <p class="exam-note">这是预先固定的 ${escapeHtml(branchSummary)} 卷，<strong>不会根据 M1 表现自适应切换分支</strong>，也不提供换算分。</p>
-          <p>${branchPrompt}每个模块有独立倒计时；刷新页面后会按原截止时间继续。</p>
+          <ol class="exam-rules">
+            <li>共两个模块，每个模块单独计时，时间到会自动提交。</li>
+            <li>模块提交后不能返回。两个模块都完成之后，才能查看答案和解析。</li>
+            <li>作答自动保存。刷新或关闭页面不会暂停计时，回来后按原截止时间继续。</li>
+            <li>每次完成的模考都会存入模考记录，之后可以随时回看。</li>
+          </ol>
           <div class="exam-variants">${variants}</div>
-          <button id="examStartExit" type="button">返回普通练习</button>
+          <div class="exam-card-actions"><button id="examStartExit" type="button">返回普通练习</button><a class="exam-link" href="../index.html#exam">模考中心</a></div>
         </div>`;
       els.examShell.querySelectorAll("[data-exam-start]").forEach(button => {
         button.addEventListener("click", () => createExamSession(button.dataset.examStart));
@@ -1552,11 +1717,45 @@
 
     function renderExamOverview(active, moduleState) {
       return active.spec.questionIds.map((questionId, index) => {
-        const classes = ["qnav"];
+        const classes = ["qnav"], answered = Boolean(moduleState.answers[questionId]), marked = moduleState.marked.includes(questionId);
         if (index === moduleState.current) classes.push("current");
-        if (moduleState.answers[questionId]) classes.push("answered");
-        return `<button type="button" class="${classes.join(" ")}" data-exam-index="${index}" aria-label="第 ${index + 1} 题${moduleState.answers[questionId] ? "，已作答" : "，未作答"}">${index + 1}</button>`;
+        if (answered) classes.push("answered");
+        if (marked) classes.push("marked");
+        return `<button type="button" class="${classes.join(" ")}" data-exam-index="${index}" aria-label="第 ${index + 1} 题${answered ? "，已作答" : "，未作答"}${marked ? "，已标记待查" : ""}">${index + 1}</button>`;
       }).join("");
+    }
+
+    function examHeaderHtml(active) {
+      return `
+        <header class="exam-header">
+          <div class="exam-header-main"><strong>${escapeHtml(active.spec.label)}</strong><span>${escapeHtml(document.title)} · ${escapeHtml(fixedBranchLabel(active.variant))}</span></div>
+          <div class="exam-clock${examTimerConcealed ? " concealed" : ""}" id="examClock">
+            <div class="exam-timer" id="examTimer" role="timer" aria-live="off">--:--</div>
+            <button id="examTimerToggle" type="button">${examTimerConcealed ? "显示计时" : "隐藏计时"}</button>
+          </div>
+          <div class="exam-header-actions"><button id="examQuit" type="button">保存并退出</button></div>
+        </header>`;
+    }
+
+    function bindExamHeader() {
+      document.getElementById("examTimerToggle").addEventListener("click", event => {
+        examTimerConcealed = !examTimerConcealed;
+        document.getElementById("examClock").classList.toggle("concealed", examTimerConcealed);
+        event.currentTarget.textContent = examTimerConcealed ? "显示计时" : "隐藏计时";
+      });
+      document.getElementById("examQuit").addEventListener("click", exitExamMode);
+    }
+
+    function bindExamOverview(moduleState) {
+      els.examShell.querySelectorAll("[data-exam-index]").forEach(button => {
+        button.addEventListener("click", () => {
+          moduleState.current = Number(button.dataset.examIndex);
+          examCheckOpen = false;
+          examNavigatorOpen = false;
+          saveExamSession();
+          renderExam();
+        });
+      });
     }
 
     function updateExamTimer(active) {
@@ -1589,37 +1788,48 @@
         submitExamModule("timeout");
         return;
       }
+      if (examCheckOpen) {
+        renderExamCheck(active);
+        return;
+      }
+      const total = active.spec.questionIds.length, isLast = moduleState.current === total - 1;
       const questionId = active.spec.questionIds[moduleState.current];
       const question = examQuestionById(questionId);
       const selected = moduleState.answers[questionId] || "";
+      const marked = moduleState.marked.includes(questionId);
       applyChartLayout(question);
       const choices = (question.choices || []).map(choice => `
         <button type="button" class="choice${selected === String(choice.label) ? " selected" : ""}" data-exam-choice="${escapeHtml(choice.label)}" aria-pressed="${selected === String(choice.label)}">
           <span class="label">${escapeHtml(choice.label)}</span><span class="choice-text">${formatStimulusInline(choice.text || "")}</span>
         </button>`).join("");
+      els.examShell.dataset.view = "stage";
       els.examShell.innerHTML = `
-        <div class="exam-toolbar">
-          <div class="exam-toolbar-title">${escapeHtml(fixedBranchLabel(active.variant))} · ${escapeHtml(active.spec.label)}</div>
-          <div class="exam-timer" id="examTimer" role="timer" aria-live="off">--:--</div>
-          <button id="examQuit" type="button">退出到练习</button>
-        </div>
-        <div class="exam-overview" aria-label="本模块答题卡">${renderExamOverview(active, moduleState)}</div>
+        ${examHeaderHtml(active)}
         <main class="layout exam-layout">
           <section class="pane stimulus-pane"><div class="stimulus">${renderExamStimulus(question)}</div></section>
           <section class="pane question-pane">
-            ${examShellHeading(`${active.spec.label} · 第 ${moduleState.current + 1}/${active.spec.questionIds.length} 题`, 2)}
+            <div class="question-meta">
+              <h2 class="question-number" id="examHeading" tabindex="-1"><span class="exam-visually-hidden">${escapeHtml(active.spec.label)} 第 </span>${moduleState.current + 1}<span class="exam-visually-hidden"> 题，共 ${total} 题</span></h2>
+              <button id="examMark" type="button" aria-pressed="${marked}">${marked ? "★ 已标记待查" : "☆ 标记待查"}</button>
+            </div>
             <p class="prompt">${formatStimulusInline(question.prompt || "")}</p>
             <div class="choices">${choices}</div>
-            <p class="exam-footer-note">模考进行中不显示正误、正确答案或解析。选择会自动保存。</p>
           </section>
         </main>
-        <div class="exam-actions">
-          <div class="exam-actions-group">
+        <aside class="exam-navigator" id="examNavigator" aria-label="本模块题目导航"${examNavigatorOpen ? "" : " hidden"}>
+          <h3>${escapeHtml(active.spec.label)}</h3>
+          <div class="overview-legend" aria-hidden="true"><span class="legend-current">当前</span><span class="legend-selected">已作答</span><span class="legend-unanswered">未作答</span><span class="legend-star">标记待查</span></div>
+          <div class="exam-overview">${renderExamOverview(active, moduleState)}</div>
+          <div class="exam-navigator-foot"><button id="examOpenCheck" type="button">前往检查页</button></div>
+        </aside>
+        <footer class="exam-footer">
+          <span class="exam-footer-title">${escapeHtml(document.title)}</span>
+          <button class="exam-nav-toggle" id="examNavToggle" type="button" aria-controls="examNavigator" aria-expanded="${examNavigatorOpen}">第 ${moduleState.current + 1}/${total} 题</button>
+          <div class="nav-buttons">
             <button id="examPrev" type="button"${moduleState.current === 0 ? " disabled" : ""}>上一题</button>
-            <button id="examNext" type="button"${moduleState.current === active.spec.questionIds.length - 1 ? " disabled" : ""}>下一题</button>
+            <button id="examNext" type="button">${isLast ? "检查作答" : "下一题"}</button>
           </div>
-          <button class="primary" id="examSubmitModule" type="button">提交本模块</button>
-        </div>`;
+        </footer>`;
       els.examShell.querySelectorAll("[data-exam-choice]").forEach(button => {
         button.addEventListener("click", () => {
           moduleState.answers[questionId] = button.dataset.examChoice;
@@ -1636,29 +1846,72 @@
           }
         });
       });
-      els.examShell.querySelectorAll("[data-exam-index]").forEach(button => {
-        button.addEventListener("click", () => {
-          moduleState.current = Number(button.dataset.examIndex);
-          saveExamSession();
-          renderExam();
-        });
+      document.getElementById("examMark").addEventListener("click", () => {
+        moduleState.marked = moduleState.marked.includes(questionId) ? moduleState.marked.filter(item => item !== questionId) : [...moduleState.marked, questionId];
+        saveExamSession();
+        renderExam();
+      });
+      document.getElementById("examNavToggle").addEventListener("click", () => {
+        examNavigatorOpen = !examNavigatorOpen;
+        document.getElementById("examNavigator").hidden = !examNavigatorOpen;
+        document.getElementById("examNavToggle").setAttribute("aria-expanded", String(examNavigatorOpen));
+      });
+      document.getElementById("examOpenCheck").addEventListener("click", () => {
+        examCheckOpen = true;
+        examNavigatorOpen = false;
+        renderExam();
       });
       document.getElementById("examPrev").addEventListener("click", () => {
         moduleState.current = Math.max(0, moduleState.current - 1);
+        examNavigatorOpen = false;
         saveExamSession();
         renderExam();
       });
       document.getElementById("examNext").addEventListener("click", () => {
-        moduleState.current = Math.min(active.spec.questionIds.length - 1, moduleState.current + 1);
+        examNavigatorOpen = false;
+        if (isLast) examCheckOpen = true;
+        else moduleState.current = Math.min(total - 1, moduleState.current + 1);
         saveExamSession();
         renderExam();
       });
-      document.getElementById("examSubmitModule").addEventListener("click", () => {
-        const answered = Object.keys(moduleState.answers).length;
-        const unanswered = active.spec.questionIds.length - answered;
-        if (confirm(`本模块已作答 ${answered} 题，未作答 ${unanswered} 题。提交后不能返回，是否继续？`)) submitExamModule("manual");
+      bindExamOverview(moduleState);
+      bindExamHeader();
+      startExamTimer(active);
+      focusExamHeading();
+    }
+
+    // 模块最后的检查页：看清哪些题没做、哪些标记了，再决定提交
+    function renderExamCheck(active) {
+      const moduleState = active.state, total = active.spec.questionIds.length;
+      const answered = Object.keys(moduleState.answers).length;
+      applyChartLayout(null);
+      els.examShell.dataset.view = "stage";
+      els.examShell.innerHTML = `
+        ${examHeaderHtml(active)}
+        <main class="exam-check">
+          <div class="exam-card">
+            <p class="exam-kicker">${escapeHtml(active.spec.label)}</p>
+            ${examShellHeading("检查作答", 2)}
+            <p>已作答 ${answered} 题，未作答 ${total - answered} 题，标记待查 ${moduleState.marked.length} 题。点题号可以回到那一题；提交后不能再返回本模块。</p>
+            <div class="overview-legend" aria-hidden="true"><span class="legend-selected">已作答</span><span class="legend-unanswered">未作答</span><span class="legend-star">标记待查</span></div>
+            <div class="exam-overview">${renderExamOverview(active, { ...moduleState, current: -1 })}</div>
+          </div>
+        </main>
+        <footer class="exam-footer">
+          <span class="exam-footer-title">${escapeHtml(document.title)}</span>
+          <span></span>
+          <div class="nav-buttons">
+            <button id="examCheckBack" type="button">返回题目</button>
+            <button id="examSubmitModule" type="button">提交本模块</button>
+          </div>
+        </footer>`;
+      document.getElementById("examCheckBack").addEventListener("click", () => {
+        examCheckOpen = false;
+        renderExam();
       });
-      document.getElementById("examQuit").addEventListener("click", exitExamMode);
+      document.getElementById("examSubmitModule").addEventListener("click", () => submitExamModule("manual"));
+      bindExamOverview(moduleState);
+      bindExamHeader();
       startExamTimer(active);
       focusExamHeading();
     }
@@ -1667,29 +1920,31 @@
       applyChartLayout(null);
       const answered = Object.keys(active.state.answers).length;
       const unanswered = active.spec.questionIds.length - answered;
+      els.examShell.dataset.view = "card";
       els.examShell.innerHTML = `
         <div class="exam-card">
+          <p class="exam-kicker">模块间休息</p>
           ${examShellHeading(`${active.spec.label} 已提交`)}
-          <p class="exam-note">本阶段只显示作答完成情况，不显示正误、答案或解析。</p>
+          <p class="exam-note">现在不显示对错、答案或解析，两个模块都完成后再统一查看。休息时间不计时。</p>
           <div class="exam-summary-grid">
             <div class="exam-stat"><strong>${answered}</strong><span>已作答</span></div>
             <div class="exam-stat"><strong>${unanswered}</strong><span>未作答</span></div>
           </div>
           ${active.state.submitReason === "timeout" ? "<p><strong>本模块因计时结束已自动提交。</strong></p>" : ""}
-          <button class="primary" id="examStartM2" type="button">开始 Module 2</button>
-          <button id="examTransitionExit" type="button">退出到练习</button>
+          <div class="exam-card-actions"><button class="primary" id="examStartM2" type="button">开始 Module 2</button><button id="examTransitionExit" type="button">保存并退出</button></div>
         </div>`;
       document.getElementById("examStartM2").addEventListener("click", startExamSecondModule);
       document.getElementById("examTransitionExit").addEventListener("click", exitExamMode);
       focusExamHeading();
     }
 
-    function examStatsHtml(moduleKey) {
-      const spec = EXAM_CONFIG.modules[moduleKey];
-      const score = scoreExamModule(moduleKey);
+    function examStatsHtml(module) {
+      const score = scoreExamAnswers(module.questionIds, module.answers);
+      const used = module.startedAt && module.submittedAt ? Math.max(0, Math.round((module.submittedAt - module.startedAt) / 1000)) : null;
       return `
         <article class="exam-summary-card">
-          <h3>${escapeHtml(spec.label)}</h3>
+          <h3>${escapeHtml(module.label)}</h3>
+          <p>${used === null ? "" : `用时 ${escapeHtml(formatExamDuration(used))}`}${module.submitReason === "timeout" ? " · 计时结束自动提交" : ""}</p>
           <div class="exam-stats">
             <div class="exam-stat"><strong>${score.correct}</strong><span>正确</span></div>
             <div class="exam-stat"><strong>${score.incorrect}</strong><span>错误</span></div>
@@ -1701,26 +1956,41 @@
 
     function renderExamComplete() {
       applyChartLayout(null);
-      const variant = examVariantById(examSession.variantId);
+      if (!examHistoryView) archiveExamSession();
+      const source = examResultSource();
+      const totals = source.modules.map(module => scoreExamAnswers(module.questionIds, module.answers))
+        .reduce((sum, score) => ({ correct: sum.correct + score.correct, total: sum.total + score.total }), { correct: 0, total: 0 });
+      els.examShell.dataset.view = "card";
       els.examShell.innerHTML = `
         <div class="exam-card">
-          ${examShellHeading("整套模考已完成")}
-          <p><strong>${escapeHtml(fixedBranchLabel(variant))}</strong></p>
+          <p class="exam-kicker">${source.history ? "模考记录" : "模考完成"}</p>
+          ${examShellHeading(document.title)}
+          <p>${escapeHtml(source.title)}</p>
+          <div class="exam-score"><strong>${totals.correct}</strong><span>/ ${totals.total} 题答对</span></div>
           <p class="exam-note">以下仅为各模块原始作答统计，<strong>不是 SAT 换算分</strong>，也不代表自适应路由结果。</p>
-          <div class="exam-summary-grid">${variant.moduleKeys.map(examStatsHtml).join("")}</div>
-          <button class="primary" id="examEnterReview" type="button">进入解析复盘</button>
-          <button id="examCompleteReset" type="button">重新开始模考</button>
-          <button id="examCompleteExit" type="button">返回普通练习</button>
+          <div class="exam-summary-grid">${source.modules.map(examStatsHtml).join("")}</div>
+          <div class="exam-card-actions">
+            <button class="primary" id="examEnterReview" type="button">查看答案与解析</button>
+            ${source.history
+              ? '<button id="examHistoryExit" type="button">返回模考中心</button>'
+              : '<button id="examCompleteReset" type="button">重新开始模考</button><button id="examCompleteExit" type="button">返回普通练习</button><a class="exam-link" href="../index.html#exam">模考中心</a>'}
+          </div>
         </div>`;
       document.getElementById("examEnterReview").addEventListener("click", () => {
-        examSession.phase = "review";
-        examSession.reviewEnteredAt = Date.now();
-        examSession.reviewIndex = 0;
-        saveExamSession();
+        if (examHistoryView) {
+          examHistoryView.phase = "review";
+          examHistoryView.index = 0;
+        } else {
+          examSession.phase = "review";
+          examSession.reviewEnteredAt = Date.now();
+          examSession.reviewIndex = 0;
+          saveExamSession();
+        }
         renderExam();
       });
-      document.getElementById("examCompleteReset").addEventListener("click", resetExamSession);
-      document.getElementById("examCompleteExit").addEventListener("click", exitExamMode);
+      document.getElementById("examHistoryExit")?.addEventListener("click", exitToExamCenter);
+      document.getElementById("examCompleteReset")?.addEventListener("click", resetExamSession);
+      document.getElementById("examCompleteExit")?.addEventListener("click", exitExamMode);
       focusExamHeading();
     }
 
@@ -1747,18 +2017,19 @@
         ${rows ? `<div style="padding:14px 16px;"><div style="font-size:13px;font-weight:700;margin-bottom:8px;">选项分析</div><div class="choice-analysis">${rows}</div></div>` : ""}`;
     }
 
-    function reviewQuestionList(variant) {
-      return variant.moduleKeys.flatMap((moduleKey, moduleIndex) => EXAM_CONFIG.modules[moduleKey].questionIds.map((questionId, index) => ({ moduleKey, moduleIndex, index, questionId })));
+    function reviewQuestionList(modules) {
+      return modules.flatMap((module, moduleIndex) => module.questionIds.map((questionId, index) => ({ module, moduleIndex, index, questionId })));
     }
 
     function renderExamReview() {
-      const variant = examVariantById(examSession.variantId);
-      const reviewQuestions = reviewQuestionList(variant);
-      examSession.reviewIndex = Math.min(Math.max(examSession.reviewIndex, 0), reviewQuestions.length - 1);
-      const item = reviewQuestions[examSession.reviewIndex];
-      const spec = EXAM_CONFIG.modules[item.moduleKey];
+      const source = examResultSource();
+      const reviewQuestions = reviewQuestionList(source.modules);
+      const holder = examHistoryView || examSession, indexKey = examHistoryView ? "index" : "reviewIndex";
+      holder[indexKey] = Math.min(Math.max(holder[indexKey], 0), reviewQuestions.length - 1);
+      const position = holder[indexKey], item = reviewQuestions[position];
       const question = examQuestionById(item.questionId);
-      const selected = examSession.modules[item.moduleKey].answers[item.questionId] || "";
+      const selected = item.module.answers[item.questionId] || "";
+      const outcome = !selected ? "blank" : selected === String(question.correct_answer) ? "correct" : "incorrect";
       applyChartLayout(question);
       const choices = (question.choices || []).map(choice => {
         const label = String(choice.label);
@@ -1768,44 +2039,66 @@
         else if (label === selected) classes.push("incorrect");
         return `<div class="${classes.join(" ")}" aria-label="${escapeHtml(label)}${label === String(question.correct_answer) ? "，正确答案" : label === selected ? "，你的错误答案" : ""}"><span class="label">${escapeHtml(label)}</span><span class="choice-text">${formatStimulusInline(choice.text || "")}</span></div>`;
       }).join("");
+      const navigator = reviewQuestions.map((entry, index) => {
+        const answer = entry.module.answers[entry.questionId] || "";
+        const state = !answer ? "" : answer === String(examQuestionById(entry.questionId).correct_answer) ? " correct" : " incorrect";
+        const first = entry.index === 0 ? `<h3 style="grid-column:1/-1;margin:${index ? "14px" : "0"} 0 2px;text-align:left;font-size:13px;color:var(--sat-text-muted)">${escapeHtml(entry.module.label)}</h3>` : "";
+        return `${first}<button type="button" class="qnav${state}${index === position ? " current" : ""}" data-exam-review-index="${index}" aria-label="${escapeHtml(entry.module.label)} 第 ${entry.index + 1} 题，${!answer ? "未作答" : state === " correct" ? "答对" : "答错"}">${entry.index + 1}</button>`;
+      }).join("");
+      els.examShell.dataset.view = "stage";
       els.examShell.innerHTML = `
-        <div class="exam-toolbar">
-          <div class="exam-toolbar-title">解析复盘 · ${escapeHtml(fixedBranchLabel(variant))} · ${escapeHtml(spec.label)}</div>
-          <button id="examReviewResults" type="button">返回结果</button>
-          <button id="examReviewExit" type="button">退出到练习</button>
-        </div>
+        <header class="exam-header">
+          <div class="exam-header-main"><strong>答案与解析 · ${escapeHtml(item.module.label)}</strong><span>${escapeHtml(document.title)} · ${escapeHtml(source.title)}</span></div>
+          <div></div>
+          <div class="exam-header-actions"><button id="examReviewResults" type="button">返回成绩</button><button id="examReviewExit" type="button">${source.history ? "返回模考中心" : "退出到练习"}</button></div>
+        </header>
         <main class="layout exam-layout">
           <section class="pane stimulus-pane"><div class="stimulus">${renderExamStimulus(question)}</div></section>
           <section class="pane question-pane">
-            ${examShellHeading(`${spec.label} · 第 ${item.index + 1} 题`, 2)}
+            <div class="question-meta">
+              <h2 class="question-number" id="examHeading" tabindex="-1"><span class="exam-visually-hidden">${escapeHtml(item.module.label)} 第 </span>${item.index + 1}<span class="exam-visually-hidden"> 题</span></h2>
+            </div>
             <p class="prompt">${formatStimulusInline(question.prompt || "")}</p>
             <div class="choices exam-review-answer">${choices}</div>
+            <p class="exam-review-result ${outcome}">${outcome === "correct" ? "回答正确" : outcome === "incorrect" ? "回答错误" : "未作答"}</p>
             <section class="explanation exam-review-explanation" aria-label="答案与解析">${examExplanationHtml(question, selected)}</section>
           </section>
         </main>
-        <div class="exam-actions">
-          <div class="exam-actions-group">
-            <button id="examReviewPrev" type="button"${examSession.reviewIndex === 0 ? " disabled" : ""}>上一题</button>
-            <button id="examReviewNext" type="button"${examSession.reviewIndex === reviewQuestions.length - 1 ? " disabled" : ""}>下一题</button>
+        <aside class="exam-navigator" id="examNavigator" aria-label="全部题目"${examNavigatorOpen ? "" : " hidden"}>
+          <div class="overview-legend" aria-hidden="true"><span class="legend-current">当前</span><span class="legend-correct">答对</span><span class="legend-incorrect">答错</span><span class="legend-unanswered">未作答</span></div>
+          <div class="exam-overview">${navigator}</div>
+        </aside>
+        <footer class="exam-footer">
+          <span class="exam-footer-title">${escapeHtml(document.title)}</span>
+          <button class="exam-nav-toggle" id="examNavToggle" type="button" aria-controls="examNavigator" aria-expanded="${examNavigatorOpen}">第 ${position + 1}/${reviewQuestions.length} 题</button>
+          <div class="nav-buttons">
+            <button id="examReviewPrev" type="button"${position === 0 ? " disabled" : ""}>上一题</button>
+            <button id="examReviewNext" type="button"${position === reviewQuestions.length - 1 ? " disabled" : ""}>下一题</button>
           </div>
-          <span>${examSession.reviewIndex + 1}/${reviewQuestions.length}</span>
-        </div>`;
-      document.getElementById("examReviewPrev").addEventListener("click", () => {
-        examSession.reviewIndex = Math.max(0, examSession.reviewIndex - 1);
-        saveExamSession();
+        </footer>`;
+      const move = index => {
+        holder[indexKey] = Math.min(reviewQuestions.length - 1, Math.max(0, index));
+        examNavigatorOpen = false;
+        if (!examHistoryView) saveExamSession();
         renderExam();
+      };
+      document.getElementById("examReviewPrev").addEventListener("click", () => move(position - 1));
+      document.getElementById("examReviewNext").addEventListener("click", () => move(position + 1));
+      els.examShell.querySelectorAll("[data-exam-review-index]").forEach(button => {
+        button.addEventListener("click", () => move(Number(button.dataset.examReviewIndex)));
       });
-      document.getElementById("examReviewNext").addEventListener("click", () => {
-        examSession.reviewIndex = Math.min(reviewQuestions.length - 1, examSession.reviewIndex + 1);
-        saveExamSession();
-        renderExam();
+      document.getElementById("examNavToggle").addEventListener("click", () => {
+        examNavigatorOpen = !examNavigatorOpen;
+        document.getElementById("examNavigator").hidden = !examNavigatorOpen;
+        document.getElementById("examNavToggle").setAttribute("aria-expanded", String(examNavigatorOpen));
       });
       document.getElementById("examReviewResults").addEventListener("click", () => {
-        examSession.phase = "complete";
-        saveExamSession();
+        examNavigatorOpen = false;
+        if (examHistoryView) examHistoryView.phase = "result";
+        else { examSession.phase = "complete"; saveExamSession(); }
         renderExam();
       });
-      document.getElementById("examReviewExit").addEventListener("click", exitExamMode);
+      document.getElementById("examReviewExit").addEventListener("click", source.history ? exitToExamCenter : exitExamMode);
       focusExamHeading();
     }
 
@@ -1813,6 +2106,15 @@
       clearExamTimer();
       setExamChrome(true);
       els.modeBanner.classList.remove("visible");
+      if (requestedExamHistoryId) {
+        // 回看历史记录只需要题目本身，不要求这套题现在仍可模考
+        if (!examHistoryView) examHistoryView = loadExamHistoryView(requestedExamHistoryId);
+        if (!examHistoryView) renderExamHistoryMissing();
+        else if (examHistoryView.phase === "review") renderExamReview();
+        else renderExamComplete();
+        syncExamPersistenceNotice();
+        return;
+      }
       if (!EXAM_CONFIG) {
         renderExamUnavailable();
       } else if (!examSession) {
