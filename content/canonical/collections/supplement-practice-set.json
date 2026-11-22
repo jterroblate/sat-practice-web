@@ -1,0 +1,236 @@
+{
+  "schemaVersion": "sat-canonical-question-collection-v1",
+  "contentId": "collection-supplement-practice-set",
+  "title": "SAT机考套卷 Practice 补充题",
+  "section": "reading_writing",
+  "questionCount": 4,
+  "questions": [
+    {
+      "question_id": "bank_rw_002588",
+      "section": "reading_writing",
+      "question_number": 1,
+      "passage": "[b]Text 1[/b]\nWhen companies in the same industry propose merging with one another, they often claim that the merger will benefit consumers by increasing efficiency and therefore lowering prices. Economist Ying Fan investigated this notion in the context of the United States newspaper market. She modeled a hypothetical merger of Minneapolis-area newspapers and found that subscription prices would rise following a merger.\n\n[b]Text 2[/b]\nEconomists Dario Focarelli and Fabio Panetta have argued that research on the effect of mergers on prices has focused excessively on short-term effects, which tend to be adverse for consumers. Using the case of consumer banking in Italy, they show that over the long term (several years, in their study), the efficiency gains realized by merged companies do result in economic benefits for consumers.",
+      "prompt": "Based on the texts, how would Focarelli and Panetta (Text 2) most likely respond to Fan’s findings (Text 1)?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "They would argue that over the long term the expenses incurred by the merged newspaper company will also increase."
+        },
+        {
+          "label": "B",
+          "text": "They would recommend that Fan compare the near-term effect of a merger on subscription prices in the Minneapolis area with the effect of a merger in another newspaper market."
+        },
+        {
+          "label": "C",
+          "text": "They would encourage Fan to investigate whether the projected effect on subscription prices persists over an extended period."
+        },
+        {
+          "label": "D",
+          "text": "They would claim that mergers have a different effect on consumer prices in the newspaper industry than in most other industries."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "SAT机考套卷 Practice 1",
+      "source_question_number": 5,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Cross-Text Connections"
+      }
+    },
+    {
+      "question_id": "bank_rw_002667",
+      "section": "reading_writing",
+      "question_number": 2,
+      "passage": "\"Hot Jupiters\" are gas planets that have a mass of at least 0.25 Jupiters (meaning that their mass is at least 25% of that of Jupiter) and an orbital period of less than 10 days (meaning that they complete one orbit around their star in less than 10 days), while \"warm Jupiters\" are gas planets that meet the same mass criterion but have orbital periods of more than 10 days. In 2021, Michigan State University astronomer Joseph Rodriguez and colleagues announced the discovery of five new gas exoplanets and asserted that four are hot Jupiters and one is a warm Jupiter.",
+      "prompt": "Which choice best describes data from the table that support Rodriguez and colleagues' assertion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "None of the planets have an orbital period of more than 10 days, and TOI-628 b has a mass of 6.33 Jupiters."
+        },
+        {
+          "label": "B",
+          "text": "TOI-1478 b has an orbital period of 153 days, and the masses of all the planets range from 0.85 to 6.33 Jupiters."
+        },
+        {
+          "label": "C",
+          "text": "All the plants have a radius between 1.060 and 1.771 Jupiters, and only TOI-1333 b has an orbital period of more than 10 days."
+        },
+        {
+          "label": "D",
+          "text": "Each of the plants has a mass greater than 0.25 Jupiters, and all except for TOI-1478 b have an orbital period of less than 10 days."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "SAT机考套卷 Practice 3",
+      "source_question_number": 14,
+      "table_data": {
+        "title": "Characteristics of Five Recently Discovered Gas Exoplanets",
+        "columns": [
+          "Exoplanet designation",
+          "Mass (Jupiters)",
+          "Radius (Jupiters)",
+          "Orbital period (days)",
+          "Distance from the Sun (parsecs)"
+        ],
+        "rows": [
+          [
+            "TOI–640 b",
+            "0.88",
+            "1.771",
+            "5.003",
+            "340"
+          ],
+          [
+            "TOI–1601 b",
+            "0.99",
+            "1.239",
+            "5.331",
+            "336"
+          ],
+          [
+            "TOI–628 b",
+            "6.33",
+            "1.060",
+            "3.409",
+            "178"
+          ],
+          [
+            "TOI–1478 b",
+            "0.85",
+            "1.060",
+            "10.180",
+            "153"
+          ],
+          [
+            "TOI–1333 b",
+            "2.37",
+            "1.396",
+            "4.720",
+            "200"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer because it accurately describes data from the table that support Rodriguez and colleagues’ assertion about the classifications of the five new gas exoplanets. The text describes two categories of gas planets: hot Jupiters, which have a mass of at least 0.25 Jupiters and an orbital period of less than 10 days, and warm Jupiters, which have the same mass characteristic but have orbital periods of more than 10 days. According to the table, four of the gas exoplanets discovered by Rodriguez and colleagues have a mass of at least 0.25 Jupiters and an orbital period of less than 10 days, while one of the planets has a mass of at least 0.25 Jupiters and an orbital period of more than 10 days. These data therefore support Rodriguez and colleagues’ assertion that four of the new exoplanets are hot Jupiters and one is a warm Jupiter.\n\nChoice A is incorrect because it doesn’t accurately describe the data from the table. Although the table shows that TOI-628 b has a mass equivalent to 6.33 Jupiters, the table also shows that one of the planets—TOI-1478 b—does indeed have an orbital period of more than 10 days.Choice B is incorrect because it doesn’t accurately describe the data from the table. Although the table does show that the masses of the five planets range from 0.85 to 6.33 Jupiters, the table also shows that TOI-1478 b has an orbital period of 10.180 days, not 153 days.Choice C is incorrect. According to the table, TOI-1333 b has an orbital period of only 4.720 days, not more than 10 days. Additionally, although the table does show that all the planets have a radius between 1.060 and 1.771 Jupiters, the text indicates that a planet may be classified as a hot Jupiter or a warm Jupiter based on its mass and orbital period, not on its radius, making the information about the range of the five planets’ radius values irrelevant.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_002699",
+      "section": "reading_writing",
+      "question_number": 3,
+      "passage": "While researching a topic, a student has taken the following notes:\n• Samuel Selvon was a Trinidadian author.\n• [i]The Lonely Londoners[/i] is one of his most celebrated novels.\n• Selvon published the novel in 1956.\n• It is about a group of men who emigrate from the Caribbean to Great Britain after World War II\n• Some of [i]The Lonely Londoners[/i]' characters also appear in Selvon's later novel [i]Moses Ascending[/i].",
+      "prompt": "The student wants to introduce Samuel Selvon and his novel [i]The Lonely Londoners[/i] to a new audience. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "In 1956, Trinidadian author Samuel Selvon published one of his most celebrated novels, [i]The Lonely Londoners[/i], which is about a group of men who emigrate from the Caribbean to Great Britain after World War Ⅱ."
+        },
+        {
+          "label": "B",
+          "text": "Samuel Selvon wrote the novel [i]Moses Ascending [/i]after he wrote [i]The Lonely Londoners[/i]."
+        },
+        {
+          "label": "C",
+          "text": "[i]The Lonely Londoners[/i], a celebrated novel that was published in 1956, depicts post-World War Ⅱ Caribbean migration from the perspective of a Trinidadian author."
+        },
+        {
+          "label": "D",
+          "text": "Some of the characters who appear in Samuel Selvon's [i]Moses Ascending[/i] also appear in [i]The Lonely Londoners[/i]."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "SAT机考套卷 Practice 4",
+      "source_question_number": 24,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. By noting that Selvon is a Trinidadian author and indicating that The Lonely Londoners, published in 1956, is about a group of men who emigrate from the Caribbean to Great Britain after World War II, the sentence effectively introduces Samuel Selvon and his novel to a new audience.\nChoice B is incorrect. The sentence indicates the order in which two of Selvon’s novels were written; it doesn’t introduce Samuel Selvon and The Lonely Londoners to a new audience. Choice C is incorrect. While the sentence describes the novel The Lonely Londoners, it doesn’t mention its author, Samuel Selvon, by name and thus doesn’t effectively introduce him to a new audience. Choice D is incorrect. The sentence indicates that two of Selvon’s novels include the same characters; it doesn’t introduce Samuel Selvon and The Lonely Londoners to a new audience.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_002706",
+      "section": "reading_writing",
+      "question_number": 4,
+      "passage": "\"The Poet Walt Whitman\" is an 1887 essay by Jose Marti, a Cuban author and political activist, originally written in Spanish. In the essay, Marti explores the value of literature, arguing that a society's spiritual well-being depends on the character of its literary culture: _____",
+      "prompt": "Which quotation from a translation of \"The Poet Walt Whitman\" most effectively illustrates the claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"Poetry, which brings together or separates, which fortifies or brings anguish, which shores up or demolishes souls, which gives or robs men of faith and vigor, is more necessary to a people than industry itself, for industry provides them with a means of subsistence, while literature gives them the desire and strength for life.\""
+        },
+        {
+          "label": "B",
+          "text": "\"Every society brings to literature its own form of expression, and the history of the nations can be told with greater truth by the stages of literature than by chronicles and decades.\""
+        },
+        {
+          "label": "C",
+          "text": "\"Where will a race of men go when they have lost the habit of thinking with faith about the scope and meaning of their actions? The best among them, those who consecrate Nature with their sacred desire for the future, will lose, in a sordid and painful annihilation, all stimulus to alleviate the ugliness of humanity.\""
+        },
+        {
+          "label": "D",
+          "text": "\"Listen to the song of this hardworking and satisfied nation; listen to Walt Whitman. The exercise of himself exalts him to majesty, tolerance exalts him to justice, and order to joy.\""
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "SAT机考套卷 Practice 4",
+      "source_question_number": 14,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because it most effectively illustrates the claim that Martí argues that a society’s spiritual well-being depends on the character of its literary culture. In the quotation, Martí asserts that poetry is “more necessary to a people than industry itself” and that it has the power to provide people with “faith and vigor.” He also adds that literature gives people “the desire and strength for life.” Therefore, this quotation shows that Martí believes that literature is a societal necessity because it uplifts people and nourishes their spiritual well-being.\nChoice B is incorrect. Although this quotation emphasizes the importance of literature, it focuses on how the nature of a society is reflected in that society’s literature rather than on literature’s value for people’s spiritual well-being. Choice C is incorrect. Although this quotation involves an element of spirituality, it doesn’t discuss literature. The quotation instead focuses on humanity’s actions. Choice D is incorrect because this quotation mainly focuses on the importance of Walt Whitman rather than on the value of literature in general.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    }
+  ]
+}

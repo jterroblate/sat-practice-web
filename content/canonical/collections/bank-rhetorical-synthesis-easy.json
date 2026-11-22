@@ -1,0 +1,864 @@
+{
+  "schemaVersion": "sat-canonical-question-collection-v1",
+  "contentId": "collection-bank-rhetorical-synthesis-easy",
+  "title": "Rhetorical Synthesis · Easy",
+  "section": "reading_writing",
+  "questionCount": 19,
+  "questions": [
+    {
+      "question_id": "bank_rw_001802",
+      "section": "reading_writing",
+      "question_number": 1,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• The Philadelphia and Lancaster Turnpike was a road built between 1792 and 1794.\n• It was the first private turnpike in the United States.\n• It connected the cities of Philadelphia and Lancaster in the state of Pennsylvania.\n• It was sixty-two miles long.",
+      "prompt": "The student wants to emphasize the distance covered by the Philadelphia and Lancaster Turnpike. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The sixty-two-mile-long Philadelphia and Lancaster Turnpike connected the Pennsylvania cities of Philadelphia and Lancaster."
+        },
+        {
+          "label": "B",
+          "text": "The Philadelphia and Lancaster Turnpike was the first private turnpike in the United States."
+        },
+        {
+          "label": "C",
+          "text": "The Philadelphia and Lancaster Turnpike, which connected two Pennsylvania cities, was built between 1792 and 1794."
+        },
+        {
+          "label": "D",
+          "text": "A historic Pennsylvania road, the Philadelphia and Lancaster Turnpike was completed in 1794."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Easy",
+      "source_question_number": 1,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. The sentence emphasizes the distance covered by the Philadelphia and Lancaster Turnpike, noting that the turnpike, which connected the two Pennsylvania cities in its name, was sixty-two miles long.\n\nChoice B is incorrect. The sentence emphasizes the significance of the turnpike; it doesn't emphasize the distance that the turnpike covered. Choice C is incorrect. While the sentence mentions that the turnpike connected two Pennsylvania cities, it doesn't emphasize the specific distance covered by the turnpike. Choice D\nis incorrect. The sentence emphasizes when the turnpike was built; it doesn't emphasize the distance that the turnpike covered.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001803",
+      "section": "reading_writing",
+      "question_number": 2,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Oracles of the [i]Pink Universe[/i] was a 2021 exhibition at the Denver Museum of Art in Colorado.\n• It featured eight artworks by South African artist Simphiwe Ndzube.\n• One of these works is a painting titled [i]Assertion of Will[/i].\n• [i]Assertion of Will[/i] depicts three standing figures.\n• The figures wear clothing made of fabric pieces stitched to the painting's canvas.",
+      "prompt": "The student wants to describe how fabric is used in [i]Assertion of Will[/i]. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "In [i]Assertion of Will[/i], the figures' clothing is made of fabric pieces stitched to the painting's canvas."
+        },
+        {
+          "label": "B",
+          "text": "The exhibition [i]Oracles of the Pink Universe[/i] featured artworks by artist Simphiwe Ndzube."
+        },
+        {
+          "label": "C",
+          "text": "Depicting three standing, clothed figures, [i]Assertion of Will[/i] is a painting by Simphiwe Ndzube."
+        },
+        {
+          "label": "D",
+          "text": "Simphiwe Ndzube's [i]Assertion of Will[/i] was one of eight artworks exhibited in [i]Oracles of the Pink Universe[/i] at the Denver Museum of Art."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Easy",
+      "source_question_number": 2,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. This choice directly describes how fabric is used in [i]Assertion of Will[/i], by explaining that the fabric pieces are part of the painting itself.\n\nChoice B is incorrect. This choice provides contextual information about the exhibition, but it doesn't mention anything about the painting or the fabric. Choice C is incorrect. This choice mentions that the figures are clothed, but it doesn't explain how the fabric is integrated into the painting. Choice D is incorrect. This choice provides contextual information about the painting, but it doesn’t mention anything about the fabric or how it is used.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001804",
+      "section": "reading_writing",
+      "question_number": 3,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Muslins are woven cotton fabrics with a variety of uses.\n• Dhaka muslin is a handmade fabric produced in Dhaka, Bangladesh.\n• It has an extremely fine weave and is primarily used to make luxury clothing.\n• Sheeting muslin is a machine-made fabric produced in factories.\n• It has a coarse weave and is primarily used to upholster furniture and create backdrops for theater sets.",
+      "prompt": "The student wants to emphasize a difference between the two muslins. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Dhaka muslin is a handmade fabric with an extremely fine weave, while sheeting muslin is machine made with a coarse weave."
+        },
+        {
+          "label": "B",
+          "text": "Dhaka muslin and sheeting muslin are two different types of woven cotton fabrics."
+        },
+        {
+          "label": "C",
+          "text": "Muslins can be used in a variety of ways, from making luxury clothing to upholstering furniture and creating backdrops for theater sets."
+        },
+        {
+          "label": "D",
+          "text": "Sheeting muslin is machine made, has a coarse weave, and is used for furniture and theater sets."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Easy",
+      "source_question_number": 3,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. The difference between the two different kinds of muslin is emphasized.\n\nChoice B is incorrect. This choice lists two kinds of muslins, but does not say how they are different from one another. Choice C is incorrect. This choice does not emphasize a difference between the two muslins. Choice D is incorrect. This choice does not emphasize a difference between the two muslins. It only describes sheeting muslin.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001805",
+      "section": "reading_writing",
+      "question_number": 4,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• The Azores is a group of islands about 870 miles off the coast of Portugal.\n• Historians have long believed that in the fifteenth century Portuguese mariners were the first humans to populate the Azores.\n• A 2015 study coauthored by Sofia Gabriel and Maria da Luz Mathias found that Vikings from Scandinavia may have populated the Azores as early as the ninth century.\n• The researchers found a genetic connection between house mice in the Azores and house mice in Scandinavia.\n• House mice may have traveled from Scandinavia to the Azores on Viking ships.",
+      "prompt": "The student wants to specify who may have first populated the Azores, according to the 2015 study. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Historians have long believed that the first humans to populate the Azores, a group of islands about 870 miles off the coast of Portugal, arrived in the fifteenth century."
+        },
+        {
+          "label": "B",
+          "text": "Portuguese mariners may not have been the first humans to populate the Azores."
+        },
+        {
+          "label": "C",
+          "text": "In their 2015 study, the researchers found a genetic connection between house mice in the Azores and those in Scandinavia."
+        },
+        {
+          "label": "D",
+          "text": "According to a 2015 study, the first humans to populate the Azores may have been Vikings from Scandinavia, not mariners from Portugal as previously believed."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Easy",
+      "source_question_number": 4,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. This choice effectively specifies who may have first populated the Azores, according to the 2015 study: the Vikings.\n\nChoice A is incorrect. This choice doesn't effectively specify who may have first populated the Azores, according to the 2015 study. It only mentions the historical belief that the Portuguese were first. The 2015 study drew a different conclusion. Choice B is incorrect. This choice casts doubt on the Portuguese claim but doesn't name the group of people who may have arrived before the Portuguese. Choice C is incorrect. This choice mentions the evidence that the researchers found but not the conclusion they drew from it. It doesn't name the possible group of people who may have arrived before the Portuguese.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001806",
+      "section": "reading_writing",
+      "question_number": 5,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Yellowstone is a national park in the northwest United States.\n• In 1995, gray wolves were reintroduced into the park.\n• Since then, the number of gray wolves in the park has stabilized at roughly 100.\n• This number is believed to be the park's carrying capacity.\n• Carrying capacity describes the maximum number of a species that a specific environment's resources can sustain over time.",
+      "prompt": "The student wants to specify the number of gray wolves in Yellowstone. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Gray wolves were reintroduced into Yellowstone, a national park in the northwest United States, in 1995."
+        },
+        {
+          "label": "B",
+          "text": "As of 1995, there were gray wolves living in Yellowstone, a national park in the northwest United States."
+        },
+        {
+          "label": "C",
+          "text": "The carrying capacity of an environment, such as Yellowstone, describes the maximum number of species that the environment can sustain over time."
+        },
+        {
+          "label": "D",
+          "text": "Yellowstone is a national park that has roughly 100 gray wolves living in it."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Easy",
+      "source_question_number": 5,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. This choice uses relevant information from the third bullet point to state the approximate number of gray wolves in Yellowstone.\n\nChoice A is incorrect. This choice mentions the year gray wolves in Yellowstone were reintroduced but not how many there are currently. Choice B is incorrect. This choice mentions the year gray wolves in Yellowstone were reintroduced but not how many there are currently. Choice C is incorrect. This choice defines the term carrying\ncapacity but doesn't connect it to the specific number of gray wolves currently living in Yellowstone.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001807",
+      "section": "reading_writing",
+      "question_number": 6,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Novelist Willa Cather grew up in Nebraska and attended the University of Nebraska-Lincoln.\n• Some of Cather's best-known novels are set in Nebraska.\n• Two such novels are [i]O Pioneers![/i] (1913) and [i]My Ántonia[/i] (1918).\n• Cather's novels describe the experiences of immigrants who settled in the Great Plains.",
+      "prompt": "The student wants to identify the setting of Cather's novel [i]My Ántonia[/i]. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "[i]My Ántonia[/i] is set in Nebraska, where Cather grew up."
+        },
+        {
+          "label": "B",
+          "text": "Cather, author of [i]My Ántonia[/i], described the experiences of immigrants in her novels."
+        },
+        {
+          "label": "C",
+          "text": "Among Cather's best-known novels are [i]O Pioneers! [/i](1913) and [i]My Ántonia (1918).[/i]"
+        },
+        {
+          "label": "D",
+          "text": "Cather attended the University of Nebraska-Lincoln and set some of her novels in Nebraska."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Easy",
+      "source_question_number": 6,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. This choice directly identifies the setting of Cather's novel [i]My Ántonia[/i] as Nebraska.\n\nChoice B is incorrect. This choice mentions that Cather wrote about immigrants, but\nit doesn't indicate where they lived. Choice C is incorrect. This choice mentions that [i]My Ántonia[/i] is one of Cather's best-known novels but doesn't state where it takes place. Choice D is incorrect. This choice mentions that some of Cather's novels are set in Nebraska, but it doesn't specify which ones, so we can't be certain that [i]My Ántonia [/i]is one of them. It also includes irrelevant information about Cather's education.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001808",
+      "section": "reading_writing",
+      "question_number": 7,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• In 2013, paleontology professor Hesham Sallam and his students from Mansoura University in Egypt made a discovery.\n• The team found a partial dinosaur skeleton at a site in Egypt's Dakhla Oasis.\n• The skeleton belonged to a dinosaur species that lived approximately 80 million years ago.\n• The new species was named [i]Mansourasaurus[/i] to recognize the team that discovered it.",
+      "prompt": "The student wants to explain the origin of the species' name. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "[i]Mansourasaurus[/i], a new species discovered in Egypt in 2013, lived approximately 80 million years ago."
+        },
+        {
+          "label": "B",
+          "text": "A partial dinosaur skeleton found in Egypt's Dakhla Oasis belonged to a species named [i]Mansourasaurus.[/i]"
+        },
+        {
+          "label": "C",
+          "text": "[i]Mansourasaurus[/i], a species that lived approximately 80 million years ago, was discovered in 2013 by Egyptian paleontologist Hesham Sallam and a team of university students."
+        },
+        {
+          "label": "D",
+          "text": "The new species was named [i]Mansourasaurus[/i] to recognize the team that discovered it, a professor and students from Mansoura University."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Easy",
+      "source_question_number": 7,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. It explains where the dinosaur's name came from.\n\nChoice A is incorrect. This choice does not explain the origin of the dinosaur's name. Choice B is incorrect. This choice does not explain the origin of the dinosaur's name. Choice C is incorrect. This choice does not explain the origin of the dinosaur's name.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001809",
+      "section": "reading_writing",
+      "question_number": 8,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n•The tundra is a type of environment characterized by especially harsh winter conditions.\n•Winter temperatures in the tundra average a frigid-30 degrees Fahrenheit.\n•Animals that have adapted to these conditions can survive tundra winters.\n•During the tundra's short growing season, average temperatures can reach a relatively mild 54 degrees Fahrenheit.\n•Around 1,700 different kinds of plants are able to grow in the tundra.",
+      "prompt": "The student wants to emphasize how harsh the conditions can be in the tundra. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Winters in the tundra are especially harsh, with temperatures averaging a frigid—30 degrees Fahrenheit."
+        },
+        {
+          "label": "B",
+          "text": "Animals that have adapted to harsh winter conditions can survive tundra winters."
+        },
+        {
+          "label": "C",
+          "text": "There are around 1,700 different kinds of plants that can live in the tundra, where average temperatures can reach a mild 54 degrees Fahrenheit."
+        },
+        {
+          "label": "D",
+          "text": "Along with animals that have adapted to the tundra's conditions, around 1,700 different kinds of plants can live in the tundra."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Easy",
+      "source_question_number": 8,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. The sentence emphasizes how harsh the conditions in the tundra can be, noting that the winters are especially harsh and describing the average temperatures as \"frigid.\"\n\nChoice B is incorrect because the sentence explains that some animals can survive harsh tundra winters; it doesn't emphasize how harsh the conditions can be. Choice C is incorrect because the sentence specifies how many different kinds of plants can live in the tundra; it doesn't emphasize how harsh the conditions in the tundra can be. Choice D is incorrect because the sentence explains that both plants and animals can survive in the tundra; it doesn't emphasize how harsh the conditions in the tundra can be.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001810",
+      "section": "reading_writing",
+      "question_number": 9,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n•The Seikan Tunnel is a rail tunnel in Japan.\n•It connects the island of Honshu to the island of Hokkaido.\n•It is roughly 33 miles long.\n•The Channel Tunnel is a rail tunnel in Europe.\n•It connects Folkestone, England, to Coquelles, France.\n•It is about 31 miles long.",
+      "prompt": "The student wants to compare the lengths of the two rail tunnels. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Some of the world's rail tunnels, including one tunnel that extends from Folkestone, England, to Coquelles, France, are longer than 30 miles."
+        },
+        {
+          "label": "B",
+          "text": "The Seikan Tunnel is roughly 33 miles long, while the slightly shorter Channel Tunnel is about 31 miles long."
+        },
+        {
+          "label": "C",
+          "text": "The Seikan Tunnel, which is roughly 33 miles long, connects the Japanese islands of Honshu and Hokkaido."
+        },
+        {
+          "label": "D",
+          "text": "Both the Seikan Tunnel, which is located in Japan, and the Channel Tunnel, which is located in Europe, are examples of rail tunnels."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Easy",
+      "source_question_number": 9,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer. The sentence compares the lengths of the two rail tunnels, noting that the Channel Tunnel (about 31 miles long) is slightly shorter than the Seikan Tunnel (roughly 33 miles long).\n\nChoice A is incorrect. The sentence makes a generalization about the length of some rail tunnels; it doesn't compare the lengths of the two rail tunnels. Choice C is incorrect. The sentence describes a single rail tunnel; it doesn't compare the lengths of the two rail tunnels. Choice D is incorrect. While the sentence mentions the two rail tunnels, it doesn't compare their lengths.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001811",
+      "section": "reading_writing",
+      "question_number": 10,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• A wok is a cooking pan that originated in China during the Han dynasty (206 BCE-220 CE).\n• The wok's round, wide base helps to cook food evenly.\n• The wok's high, angled sides help to contain oil splatters.\n• Grace Young is a cook and culinary historian.\n• Her book [i]The Breath of a Wok[/i] (2004) traces the history of the wok.",
+      "prompt": "The student wants to describe the wok's shape. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Grace Young's 2004 book, [i]The Breath of a Wok[/i], traces the history of the cooking pan."
+        },
+        {
+          "label": "B",
+          "text": "Able to cook food evenly and contain oil splatters, the wok is the subject of Grace Young's 2004 book."
+        },
+        {
+          "label": "C",
+          "text": "A wok is a cooking pan with a round, wide base and high, angled sides."
+        },
+        {
+          "label": "D",
+          "text": "The design of a wok, a type of cooking pan that originated in China during the Han dynasty, helps the pan cook food evenly and contain oil splatters."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Easy",
+      "source_question_number": 10,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer. It summarizes the information that describes the wok's shape from the second and third bullet points.\n\nChoice A is incorrect. This choice doesn't describe the shape of a wok. Choice B is incorrect. This choice doesn't describe the shape of a wok, just some of its features. Choice D is incorrect. This choice doesn't describe the shape of a wok, only some of its benefits or functions.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001812",
+      "section": "reading_writing",
+      "question_number": 11,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• NASA uses rovers, large remote vehicles with wheels, to explore the surface of Mars.\n• NASA's rovers can't explore regions inaccessible to wheeled vehicles.\n• Rovers are also heavy, making them difficult to land on the planet's surface.\n• Microprobes, robotic probes that weigh as little as 50 milligrams, could be deployed virtually anywhere on the surface of Mars.\n• Microprobes have been proposed as an alternative to rovers.",
+      "prompt": "The student wants to explain an advantage of microprobes. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Despite being heavy, NASA's rovers can land successfully on the surface of Mars."
+        },
+        {
+          "label": "B",
+          "text": "Microprobes, which weigh as little as 50 milligrams, could explore areas of Mars that are inaccessible to NASA's heavy, wheeled rovers."
+        },
+        {
+          "label": "C",
+          "text": "NASA currently uses its rovers on Mars, but microprobes have been proposed as an alternative."
+        },
+        {
+          "label": "D",
+          "text": "Though they are different sizes, both microprobes and rovers can be used to explore the surface of Mars."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Easy",
+      "source_question_number": 11,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer. The sentence explains an advantage of microprobes, noting that because microprobes weigh as little as 50 milligrams, they can explore areas inaccessible to rovers.\n\nChoice A is incorrect. The sentence indicates that rovers can land successfully on Mars despite their weight; it doesn't explain an advantage of microprobes. Choice C is incorrect. While the sentence mentions that microprobes have been proposed as an alternative to rovers, it doesn't explain an advantage of microprobes. Choice D is incorrect. The sentence emphasizes a similarity between microprobes and rovers; it doesn't explain an advantage of microprobes.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001813",
+      "section": "reading_writing",
+      "question_number": 12,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• The Sasanian Empire lasted about 400 years (AD 224 to AD 651).\n• The Sasanians controlled an area spanning 1.4 million square miles.\n• This area included present-day Iran and Iraq.\n• The empire's capital was the ancient city of Ctesiphon.\n• Ctesiphon was located near present-day Baghdad, Iraq.",
+      "prompt": "The student wants to specify the location of Ctesiphon. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The Sasanian Empire began in AD 224 and ended in AD 651."
+        },
+        {
+          "label": "B",
+          "text": "The capital of the Sasanian Empire, which spanned 1.4 million square miles, was Ctesiphon."
+        },
+        {
+          "label": "C",
+          "text": "The Sasanians controlled an area of 1.4 million square miles, including present-day Iran and Iraq."
+        },
+        {
+          "label": "D",
+          "text": "Ctesiphon, the capital of the Sasanian Empire, was located near present-day Baghdad, Iraq."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Easy",
+      "source_question_number": 12,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. The sentence specifies the location of Ctesiphon, noting that it was located near present-day Baghdad, Iraq.\n\nChoice A is incorrect because the sentence explains when the Sasanian Empire began and ended; it doesn't specify the location of Ctesiphon. Choice B is incorrect because the sentence emphasizes that Ctesiphon was the capital of the Sasanian Empire; it doesn't specify Ctesiphon's location. Choice C is incorrect because it emphasizes the size of the Sasanian Empire; it doesn't specify the location of Ctesiphon.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001814",
+      "section": "reading_writing",
+      "question_number": 13,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Archaeologist Dr. Sada Mire founded the Horn Heritage Foundation to preserve the cultural history of regions in the Horn of Africa.\n• Horn Heritage has overseen a preservation project to create 3D digital scans of ancient rock art in Somaliland.\n• Paintings found at the Laas Geel caves are included in the scans.\n• The Laas Geel paintings feature human figures and animals.\n• Paintings found at the Dhagah Nabi Galay caves are included in the scans.\n• The Dhagah Nabi Galay caves feature what are thought to be the earliest examples of writing in East Africa.",
+      "prompt": "The student wants to emphasize a similarity between the Laas Geel paintings and the Dhagah Nabi Galay paintings. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The earliest examples of writing in East Africa are thought to be featured in the paintings at the Dhagah Nabi Galay caves in Somaliland."
+        },
+        {
+          "label": "B",
+          "text": "The paintings at the Dhagah Nabi Galay caves feature examples of writing, while those at the Laas Geel caves feature humans and animals."
+        },
+        {
+          "label": "C",
+          "text": "In Somaliland, the paintings in the Laas Geel caves feature human figures and animals."
+        },
+        {
+          "label": "D",
+          "text": "The Laas Geel paintings and the Dhagah Nabi Galay paintings are both examples of ancient rock art found in Somaliland."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Easy",
+      "source_question_number": 13,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. This choice compares the Laas Geel paintings and the Dhagah Nabi Galay paintings to one another and emphasizes what they have in common: they are both ancient rock art found in the same region.\n\nChoice A is incorrect. This choice only mentions the Dhagah Nabi Galay paintings. It doesn't compare them to the Laas Geel paintings. Choice B is incorrect. This choice doesn't emphasize a similarity between the two paintings. Instead, it emphasizes a difference: the type of content they depict. Choice C is incorrect. This choice only mentions the Laas Geel paintings. It doesn't compare them to the Dhagah Nabi Galay paintings.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001815",
+      "section": "reading_writing",
+      "question_number": 14,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• In 1897, African American inventor Andrew Beard invented an automatic coupler.\n• It improved on the existing design of train car couplers.\n• It made the job of connecting train cars safer.\n• In 1938, African American inventor Frederick Jones invented a mobile refrigeration system.\n• It improved on the existing design of food transport trucks.\n• It enabled trucks to carry perishable foods farther.",
+      "prompt": "The student wants to emphasize a similarity between Beard's invention and Jones's invention. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Beard's automatic coupler and Jones's mobile refrigeration system both improved on existing designs."
+        },
+        {
+          "label": "B",
+          "text": "In 1897, Beard invented an automatic coupler, which made the job of connecting train cars safer."
+        },
+        {
+          "label": "C",
+          "text": "Beard's invention made the job of connecting train cars safer, whereas Jones's invention enabled food transport trucks to carry perishables farther."
+        },
+        {
+          "label": "D",
+          "text": "Jones's mobile refrigeration system, which he invented in 1938, made it possible for food transport trucks to carry perishable foods farther."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Easy",
+      "source_question_number": 14,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. It compares Beard's and Jones's inventions to one another, and emphasizes what they have in common.\n\nChoice B is incorrect. This choice doesn't emphasize a similarity. It only mentions Beard's invention. It doesn't compare it to Jones's invention. Choice C is incorrect. This choice doesn't emphasize a similarity between the two inventions. Instead, it emphasizes a difference. Choice D is incorrect. This choice doesn't emphasize a similarity. It only mentions Jones's invention. It doesn't compare it to Beard's invention.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001816",
+      "section": "reading_writing",
+      "question_number": 15,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Jon Ching is a Los Angeles-based painter.\n• He uses the term \"flauna\" to describe the plant-animal hybrids that he depicts in his surreal paintings.\n• \"Flauna\" is a combination of the words \"flora\" and \"fauna.\"\n• His painting [i]Necta[/i]r depicts a parrot with leaves for feathers.\n• His painting [i]Primaveral[/i] depicts a snow leopard whose fur sprouts flowers.",
+      "prompt": "The student wants to provide an explanation and example of \"flauna.\" Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The term \"flauna,\" used by Los Angeles-based painter Jon Ching, is a combination of the words \"flora\" and \"fauna.\""
+        },
+        {
+          "label": "B",
+          "text": "Jon Ching uses the term \"flauna,\" a combination of the words \"flora\" and \"fauna,\" to describe the subjects of his surreal paintings: plant-animal hybrids such as a parrot with leaves for feathers."
+        },
+        {
+          "label": "C",
+          "text": "Jon Ching, who created [i]Nectar[/i], refers to the subjects of his paintings as \"flauna.\""
+        },
+        {
+          "label": "D",
+          "text": "The subjects of [i]Nectar and Primaveral[/i] are types of \"flauna,\" a term that the paintings' creator, Jon Ching, uses when describing his surreal artworks."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Easy",
+      "source_question_number": 15,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer because it provides both an explanation and an example of \"flauna.\" The sentence explains that flauna, a combination of the words \"flora\" and \"fauna,\" is a term used by Jon Ching to describe the plant-animal hybrids in his paintings. The sentence also mentions an example of Ching's flauna: a parrot with leaves for feathers.\n\nChoice A is incorrect. While the sentence partially explains what \"flauna\" is, it doesn't provide a full explanation or specific example of Ching's flauna. Choice C is incorrect. While the sentence partially explains what \"flauna\" is and includes a title of a Ching painting, it doesn't provide a full explanation or specific example of Ching's flauna. Choice D is incorrect. While the sentence partially explains what \"flauna\" is and includes the titles of two Ching paintings, it doesn't provide a full explanation of Ching's flauna.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001817",
+      "section": "reading_writing",
+      "question_number": 16,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• The painter Frida Kahlo is one of the most influential artists of the twentieth century.\n• She was born in Coyoacán, Mexico, in 1907.\n• She is best known for her vivid and richly symbolic self-portraits.\n• [i]The Two Fridas[/i] (1939) features two versions of Kahlo sitting together.\n• One version wears a European-style dress and the other a traditional Tehuana dress.",
+      "prompt": "The student wants to introduce Kahlo to an audience unfamiliar with the artist. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Known for being vivid and richly symbolic, Frida Kahlo's self-portraits include [i]The Two Fridas[/i] (1939)."
+        },
+        {
+          "label": "B",
+          "text": "The 1939 painting [i]The Two Fridas[/i] is one example of a self-portrait by Frida Kahlo."
+        },
+        {
+          "label": "C",
+          "text": "One painting by Frida Kahlo features two versions of herself, with one version wearing a European-style dress and the other a traditional Tehuana dress."
+        },
+        {
+          "label": "D",
+          "text": "One of the most influential artists of the twentieth century, Mexican painter Frida Kahlo is best known for her self-portraits, which are vivid and richly symbolic."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Easy",
+      "source_question_number": 16,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. By identifying Kahlo as an influential artist from Mexico, and by describing the work she's best known for, this choice provides the background information necessary to introduce Kahlo to an unfamiliar audience.\n\nChoice A is incorrect. This choice doesn't effectively introduce Kahlo. It doesn't include any background information about who Kahlo is or where she's from. It simply identifies one of her paintings. Choice B is incorrect. This choice doesn't effectively introduce Kahlo. It doesn't include any background information about who Kahlo is or where she's from. It simply identifies one of her paintings. Choice C is incorrect. This choice doesn't effectively introduce Kahlo. It doesn't include any background information about who Kahlo is or where she's from. Instead, it describes one of her paintings in detail.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001818",
+      "section": "reading_writing",
+      "question_number": 17,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Bioluminescence is the emission of light by living organisms.\n• This light is produced by chemical reactions in organisms' cells.\n• Jellyfish emit flashes of blue light.\n• This behavior serves to startle predators.\n• Black dragonfish emit a steady red light.\n• This behavior helps them locate prey in deep waters.",
+      "prompt": "The student wants to emphasize a difference between the behavior of jellyfish and that of black dragonfish. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Both jellyfish and black dragonfish are organisms that emit light, which is produced by chemical reactions in these organisms' cells."
+        },
+        {
+          "label": "B",
+          "text": "Black dragonfish emit a steady red light, which helps them locate prey in deep waters."
+        },
+        {
+          "label": "C",
+          "text": "Bioluminescence, the emission of light by living organisms, results from chemical reactions in organisms' cells."
+        },
+        {
+          "label": "D",
+          "text": "Jellyfish emit light to startle predators, whereas black dragonfish do so to locate prey."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Easy",
+      "source_question_number": 17,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. The sentence emphasizes a difference between the behavior of jellyfish and that of black dragonfish, noting that jellyfish and black dragonfish emit light as part of different behaviors (protection and predation, respectively).\n\nChoice A is incorrect. The sentence emphasizes a similarity between jellyfish and black dragonfish; it doesn't emphasize a difference between the behavior of the two animals. Choice B is incorrect. The sentence emphasizes the type of bioluminescence exhibited by black dragonfish, noting that it's used in predation; it doesn't emphasize a difference between the behavior of the two animals. Choice C is incorrect. The sentence defines bioluminescence and explains how it works; the sentence doesn't mention either animal or emphasize a difference between them.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001819",
+      "section": "reading_writing",
+      "question_number": 18,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Annie Wu is a prominent American flutist who graduated from the New England Conservatory.\n• She has won multiple national flute competitions.\n• She is best known for a 2011 YouTube video that has been viewed over two million times.\n• The video shows her performing [i]Three Beats for Beatbox Flute[/i], an original work by composer Greg Pattillo.\n• Wu combines flute playing and beatboxing in the video.",
+      "prompt": "The student wants to emphasize Wu's most well-known achievement. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Annie Wu, who has won multiple national flute competitions, has also combined flute playing and beatboxing."
+        },
+        {
+          "label": "B",
+          "text": "Among her many achievements, prominent American flutist Annie Wu graduated from the New England Conservatory and has won multiple national flute competitions."
+        },
+        {
+          "label": "C",
+          "text": "Annie Wu is best known for a 2011 YouTube video performance of [i]Three Beats for Beatbox Flute[/i] that has been viewed over two million times."
+        },
+        {
+          "label": "D",
+          "text": "Composer Greg Pattillo's original work [i]Three Beats for Beatbox Flute[/i] combines flute playing and beatboxing."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Easy",
+      "source_question_number": 18,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer. This describes the achievement for which Wu is best known.\n\nChoice A is incorrect. This choice doesn't emphasize Wu's most well-known achievement. It mentions some of her general achievements, but not the one for which she is \"best known.\" Choice B is incorrect. This choice doesn't emphasize Wu's most well-known achievement-it describes several of her achievements equally. Choice D is incorrect. This choice doesn't emphasize Wu's most well-known achievement. It describes a piece of music featured in her most well-known achievement.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001820",
+      "section": "reading_writing",
+      "question_number": 19,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• The calendar used by most of the world (the Gregorian calendar) has 365 days.\n• Because 365 days can't be divided evenly by 7 (the number of days in a week), calendar dates fall on a different day of the week each year.\n• The Hanke-Henry permanent calendar, developed as an alternative to the Gregorian calendar, has 364 days.\n• Because 364 can be divided evenly by 7, calendar dates fall on the same day of the week each year, which supports more predictable scheduling.",
+      "prompt": "The student wants to explain an advantage of the Hanke-Henry calendar. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The Gregorian calendar has 365 days, which is one day longer than the Hanke-Henry permanent calendar."
+        },
+        {
+          "label": "B",
+          "text": "Adopting the Hanke-Henry permanent calendar would help solve a problem with the Gregorian calendar."
+        },
+        {
+          "label": "C",
+          "text": "Designed so calendar dates would occur on the same day of the week each year, the Hanke-Henry calendar supports more predictable scheduling than does the Gregorian calendar."
+        },
+        {
+          "label": "D",
+          "text": "The Hanke-Henry permanent calendar was developed as an alternative to the Gregorian calendar, which is currently the most-used calendar in the world."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Easy",
+      "source_question_number": 19,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer. The sentence explains an advantage of the Hanke-Henry calendar, noting that it supports more predictable scheduling than does the Gregorian calendar and describing how it does so (by having calendar dates occur on the same day each year).\n\nChoice A is incorrect. The sentence compares the number of days in the Gregorian and Hanke-Henry calendars; it doesn't explain an advantage of the Hanke-Henry calendar. Choice B is incorrect. While the sentence refers to a possible reason to adopt the Hanke-Henry calendar-that doing so would help solve a problem with the\nGregorian calendar-it doesn't identify the problem or the solution and thus doesn't explain the advantage of the Hanke-Henry calendar. Choice D is incorrect. The sentence describes the origins of the Hanke-Henry calendar; it doesn't explain an advantage of it.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    }
+  ]
+}

@@ -1,0 +1,3368 @@
+{
+  "schemaVersion": "sat-canonical-question-collection-v1",
+  "contentId": "set-exam-2025-12-s1-apac-a",
+  "title": "2025年12月机考真题第1套(亚太A卷)",
+  "section": "reading_writing",
+  "questionCount": 74,
+  "questions": [
+    {
+      "question_id": "bank_rw_000952",
+      "section": "reading_writing",
+      "question_number": 1,
+      "passage": "The following text is from Mark Twain's 1876 novel [i]The Adventures of Tom Sawyer[/i]. Tom, a child, has been told by his aunt to paint their house's fence.\n\nTom appeared on the sidewalk with a bucket of whitewash and a long-handled brush. He [u]surveyed[/u] the fence, and all gladness left him and a deep melancholy settled down upon his spirit. Thirty yards of board fence nine feet high.",
+      "prompt": "As used in the text, what does the word \"surveyed\" most nearly mean?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "transformed"
+        },
+        {
+          "label": "B",
+          "text": "organized"
+        },
+        {
+          "label": "C",
+          "text": "examined"
+        },
+        {
+          "label": "D",
+          "text": "guaranteed"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 1,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_000953",
+      "section": "reading_writing",
+      "question_number": 2,
+      "passage": "The influence of William Shakespeare' s writings is clear in a vast range of subsequent literary works and is similarly ______ in many works in other media, from fine art (such as Richard Kindersley's sculpture [i]The Seven Ages of Man[/i]) to popular music (such as the band the Lumineers' song \"Ophelia\").",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "subtle"
+        },
+        {
+          "label": "B",
+          "text": "unusual"
+        },
+        {
+          "label": "C",
+          "text": "excessive"
+        },
+        {
+          "label": "D",
+          "text": "apparent"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 2,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_000954",
+      "section": "reading_writing",
+      "question_number": 3,
+      "passage": "The Apollo Moon landings (1969-1972) brought atmospheric sensors and soil sensors to the Moon and produced large amounts of data, much of which was stored on technologies that are now obsolete. A data-transfer project is working to ________ these data so that the information is available to researcher Noah Petro, who is investigating the geology of the Moon.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "salvage"
+        },
+        {
+          "label": "B",
+          "text": "improve"
+        },
+        {
+          "label": "C",
+          "text": "amend"
+        },
+        {
+          "label": "D",
+          "text": "simplify"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 3,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_000955",
+      "section": "reading_writing",
+      "question_number": 4,
+      "passage": "Mastering 'ajami, a Syrian art of creating intricately painted wood panels, demands a skill set that _____ innate talent: crafting the panels requires not just the ability to draw but also an understanding of traditional techniques, materials, and design elements, necessitating expertise gained through dedicated guidance from experienced artisans.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "restrains"
+        },
+        {
+          "label": "B",
+          "text": "replicates"
+        },
+        {
+          "label": "C",
+          "text": "characterizes"
+        },
+        {
+          "label": "D",
+          "text": "transcends"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 5,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_000956",
+      "section": "reading_writing",
+      "question_number": 5,
+      "passage": "In factories, humans and robots often work together. A research team ran an experiment to find out how working with robots affects relationships between human coworkers. The experiment included teams working together to make electric motor parts. [u]One type of team included only humans and the other type included both humans and robots.[/u] Participants were paid for their work and were asked about their willingness to share their earnings with their human teammates. Participants from teams with robots were more likely to share with each other than participants from teams with only humans were.",
+      "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It states the results of the experiment discussed in the text."
+        },
+        {
+          "label": "B",
+          "text": "It indicates the question that the study discussed in the text was meant to answer."
+        },
+        {
+          "label": "C",
+          "text": "It explains an important part of the design of the experiment discussed in the text."
+        },
+        {
+          "label": "D",
+          "text": "It illustrates a problem that inspired the study discussed in the text."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 6,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_000957",
+      "section": "reading_writing",
+      "question_number": 6,
+      "passage": "Steve Carter's award-winning play [i]Eden[/i] was produced in 1976 by the groundbreaking Negro Ensemble Company (NEC). NEC cofounder Douglas Turner Ward, who worked as an actor, director, and playwright, had met actor and producer Robert Hooks while they were performing in a 1960 touring production of Lorraine Hansberry's play [i]A Raisin in the Sun[/i]. Together, they envisioned a theater company that would nurture and showcase the work of Black theater professionals. [u]Since NEC's founding in 1967, its workshops and performances have given Black playwrights, including Carter, a forum for their compelling stories.[/u]",
+      "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It illustrates the widespread influence of a play discussed earlier in the text."
+        },
+        {
+          "label": "B",
+          "text": "It provides additional information about a person mentioned in the text."
+        },
+        {
+          "label": "C",
+          "text": "It emphasizes the ongoing significance of the theater company discussed in the text."
+        },
+        {
+          "label": "D",
+          "text": "It explains the circumstances that led to the formation of the theater company discussed in the text."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 7,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_000959",
+      "section": "reading_writing",
+      "question_number": 7,
+      "passage": "Given the immense scope of space, the search for extraterrestrial life is almost necessarily concentrated on the exoplanets deemed to have the most plausible chance of success—typically, atmosphere-bearing terrestrial planets orbiting within a certain range of their stars (termed the habitable zone). Claiming that Earth experienced a long transition from single-lid to plate tectonics that accelerated the emergence and evolution of complex organisms, researchers Robert J. Stern and Taras V. Gerya hold that consideration of tectonics, an often overlooked factor, could help further narrow the search for advanced extraterrestrial species.",
+      "prompt": "Based on the text, what do Stern and Gerya most likely believe about the development of complex life on exoplanets?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It is more likely to occur on habitable zone planets with atmospheres and plate tectonics than on otherwise similar planets that lack plate tectonics."
+        },
+        {
+          "label": "B",
+          "text": "It is more likely to occur if habitable zone planets with atmospheres transition from single-lid to plate tectonics late in their history than if they transition early in their history."
+        },
+        {
+          "label": "C",
+          "text": "It is probably more dependent on the presence of plate tectonics than on orbital distance from a host star or the presence of an atmosphere."
+        },
+        {
+          "label": "D",
+          "text": "It is unlikely unless the transition from single-lid to plate tectonics occurs before the acquisition of a lasting atmosphere."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 9,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_000960",
+      "section": "reading_writing",
+      "question_number": 8,
+      "passage": "In what is now Washington state, the Tulalip Tribes operate the Hibulb Cultural Center. Relying on traditional knowledge to guide the design of exhibits, this institution presents Tulalip history and culture to the tribes' citizens. The Turtle Mountain Band of Chippewa, a tribe in North Dakota, employs a similar strategy in its own cultural center. Both centers contrast with museums that aren't Indigenous-led; when displaying Indigenous artifacts, such museums tend to anticipate mainly non-Indigenous audiences and rely on Euro-centric strategies for designing exhibits.",
+      "prompt": "Which choice best states the main idea of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "When staging Indigenous exhibits, non-Indigenous institutions should follow the example of the cultural centers operated by the Tulalip Tribes and the Turtle Mountain Band of Chippewa."
+        },
+        {
+          "label": "B",
+          "text": "The cultural centers operated by the Tulalip Tribes and the Turtle Mountain Band of Chippewa differ in strategy from non-Indigenous museums that stage Indigenous exhibits."
+        },
+        {
+          "label": "C",
+          "text": "Whereas non-Indigenous institutions stage exhibits on a wide array of subjects, the cultural centers operated by the Tulalip Tribes and the Turtle Mountain Band of Chippewa serve primarily to present Indigenous history and cultures."
+        },
+        {
+          "label": "D",
+          "text": "The strategy used by the Tulalip Tribes to present history and culture to tribal citizens differs only slightly from the strategy used by museums that aren't Indigenous-led."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 10,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_000961",
+      "section": "reading_writing",
+      "question_number": 9,
+      "passage": "[i]The Wonderful Wizard of Oz[/i] is a 1900 novel by L. Frank Baum. In the novel, Dorothy, who is from Kansas, finds herself in an unfamiliar place called Oz. Kansas is presented as being less appealing than Oz, as is clear when ______",
+      "prompt": "Which quotation from [i]The Wonderful Wizard of Oz[/i] most effectively illustrates the claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a character says to Dorothy, \"I cannot understand why you should wish to leave this beautiful country and go back to the dry, gray place you call Kansas.\""
+        },
+        {
+          "label": "B",
+          "text": "a character says to others, \"But it will take more than imagination to carry Dorothy back to Kansas, and I'm sure I don't know how it can be done.\""
+        },
+        {
+          "label": "C",
+          "text": "the narrator states, \"Once more they could see fences built beside the road; but these were painted green, and when they came to a small house, in which a farmer evidently lived, that also was painted green.\""
+        },
+        {
+          "label": "D",
+          "text": "the narrator states, “when Dorothy stood in the doorway and looked around, she could see nothing but the great gray prairie on every side.\""
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 11,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_000962",
+      "section": "reading_writing",
+      "question_number": 10,
+      "passage": "Andrea Sommese, Ákos Pogány, and team investigated head-tilting behavior in a group of forty dogs, which included thirty-four typical dogs from five different breeds (including Enzo, a whippet) and six dogs that had previously demonstrated giftedness at learning words, all of which were border collies. The researchers recorded the dogs' head-tilting behavior in response to requests to fetch a toy that had been introduced early in the study. They found that all six gifted dogs tilted their heads at least some of the time when asked to retrieve the toy by name, while the typical dogs almost never tilted their heads. After reviewing the study, a student concludes that a tendency to tilt their heads is a characteristic trait of all border collies.",
+      "prompt": "Which finding from the study, if true, would most directly challenge the student's conclusion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The typical dogs that tilted their heads appeared to be processing the meaning of the requests."
+        },
+        {
+          "label": "B",
+          "text": "The border collies successfully fetched the toy more often than the dogs of other breeds did."
+        },
+        {
+          "label": "C",
+          "text": "The majority of dogs in the typical group were border collies."
+        },
+        {
+          "label": "D",
+          "text": "Most of the gifted dogs tilted their heads to the same side in each trial."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 12,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_000964",
+      "section": "reading_writing",
+      "question_number": 11,
+      "passage": "[i]The Man-Made World: Or, Our Androcentric Culture[/i] is a 1911 nonfiction work by Charlotte Perkins Gilman. In the text, the author emphasizes the importance of cultivating individuals rather than comparing them: _______",
+      "prompt": "Which quotation from[i] The Man-Made World: Or, Our Androcentric Culture[/i] most effectively illustrates the claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"That every child on earth shall have right conditions to make the best growth possible to it; that every citizen, from birth to death, shall have a chance to learn all he or she can [absorb], to develop every power that is in them.\""
+        },
+        {
+          "label": "B",
+          "text": "\"We do not sadly measure the cabbage-stalk by the corn-stalk, and praise the corn for getting ahead of the cabbage—nor incite the cabbage to [imitate] the corn. We nourish both, to its best growth—and are the richer.\""
+        },
+        {
+          "label": "C",
+          "text": "\"We have but to learn the [i]real[/i] elements in humanity; its true powers and natural characteristics.\""
+        },
+        {
+          "label": "D",
+          "text": "\"We are now to consider the growth of the family in humanity.\""
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 14,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_000965",
+      "section": "reading_writing",
+      "question_number": 12,
+      "passage": "Zooarchaeologist Ophélie Lebrasseur and her team examined a fox skeleton discovered in 1991 at an archaeological site alongside artifacts of human habitation (like spear points) in central Argentina. Lebrasseur et al. determined that the fox was [i]Dusicyon avus[/i], an extinct species resembling a jackal, and radiocarbon dating placed the fox at the site at the same time as human inhabitants. (Indeed, the inhabitants may have deliberately buried the fox.) In addition, while wild foxes have a diet entirely made of meat, isotopic signatures of the skeleton's teeth indicated that the fox's diet, like that of the humans, was partly composed of plant material. Lebrasseur et al. therefore concluded that ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the humans who were alive at the same time as the fox most likely ate more meat than the fox did."
+        },
+        {
+          "label": "B",
+          "text": "the humans who were alive at the same time as the fox hunted using the spears whose points were also found at the site."
+        },
+        {
+          "label": "C",
+          "text": "the fox may have been a companion animal of the humans who inhabited the site at the same time."
+        },
+        {
+          "label": "D",
+          "text": "the fox had a diet more similar to that of jackals than to that of wild foxes."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 15,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_000966",
+      "section": "reading_writing",
+      "question_number": 13,
+      "passage": "In the nineteenth century, Elizabeth Cady Stanton and Susan B. Anthony _____ for women's right to vote in the United States.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "having campaigned"
+        },
+        {
+          "label": "B",
+          "text": "campaigned"
+        },
+        {
+          "label": "C",
+          "text": "campaigning"
+        },
+        {
+          "label": "D",
+          "text": "to campaign"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 16,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_000967",
+      "section": "reading_writing",
+      "question_number": 14,
+      "passage": "While conducting an interview for her book [i]Latina Authors and Their Muses[/i], editor Mayra Calvani asked Sarah Cortez, author of the memoir [i]Walking Home[/i], what ______ Cortez's response was [i]Bury Me Deep[/i] by Megan Abbott.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "her favorite book was."
+        },
+        {
+          "label": "B",
+          "text": "was her favorite book?"
+        },
+        {
+          "label": "C",
+          "text": "her favorite book was?"
+        },
+        {
+          "label": "D",
+          "text": "was her favorite book!"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 17,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries"
+      }
+    },
+    {
+      "question_id": "bank_rw_000968",
+      "section": "reading_writing",
+      "question_number": 15,
+      "passage": "Choreographers George Balanchine and Martha Graham both contributed sections to the dance piece [i]Episodes[/i], which premiered at New York's City Center of Music and Drama in 1959. This cross-genre collaboration brought together the distinct features of Balanchine's neoclassical ballet and Graham's modern _____ the stylistic diversity and creative innovation within the dance world.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "dance, it showcased"
+        },
+        {
+          "label": "B",
+          "text": "dance. Which showcased"
+        },
+        {
+          "label": "C",
+          "text": "dance, showcasing"
+        },
+        {
+          "label": "D",
+          "text": "dance. Showcasing"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 18,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries"
+      }
+    },
+    {
+      "question_id": "bank_rw_000969",
+      "section": "reading_writing",
+      "question_number": 16,
+      "passage": "In the book [i]A Theory of Harmony[/i] (1985), Swiss musicologist Ernst Levy argued that every chord has an opposite that can be substituted for it. For example, a pianist could replace the vi chord for the bill chord while ______ chord is a given chord's opposite can be determined using a music visualization tool called the circle of fifths.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "improvising which"
+        },
+        {
+          "label": "B",
+          "text": "improvising and which"
+        },
+        {
+          "label": "C",
+          "text": "improvising. Which"
+        },
+        {
+          "label": "D",
+          "text": "improvising, which"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 19,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries"
+      }
+    },
+    {
+      "question_id": "bank_rw_000971",
+      "section": "reading_writing",
+      "question_number": 17,
+      "passage": "As volcanologists like Tamsin Mather are apt to make clear, not all volcanoes are the same. Tendürek in Turkey, for example, is a shield volcano, a type of volcano named for its low profile, resembling a warrior's shield lying on the ground. Opala in Russia, _____ is a caldera, a large cauldron-like hollow that forms shortly after the emptying of a magma chamber in a volcanic eruption.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "in any case,"
+        },
+        {
+          "label": "B",
+          "text": "in contrast,"
+        },
+        {
+          "label": "C",
+          "text": "in conclusion,"
+        },
+        {
+          "label": "D",
+          "text": "in fact,"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 21,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_000972",
+      "section": "reading_writing",
+      "question_number": 18,
+      "passage": "The United Nations' Trade and Development organization divides exports into five key categories: food items, agricultural materials, fuels, ores and raw metals, and manufactured goods (i.e., most nonfood goods made by machinery or by hand). In 2022, the majority (62 percent) of Belgium's exports were manufactured goods. _____ vaccines, medicines, and cars were its top exports.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "In a broader sense,"
+        },
+        {
+          "label": "B",
+          "text": "Within this category,"
+        },
+        {
+          "label": "C",
+          "text": "In the future,"
+        },
+        {
+          "label": "D",
+          "text": "Despite this majority,"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 22,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_000973",
+      "section": "reading_writing",
+      "question_number": 19,
+      "passage": "A research team led by Gal Badihi has discovered that chimpanzees communicate through exchanges of gestures occurring at a pace similar to that of human conversations. _____ chimpanzee gesture exchanges have short pauses of about 120 milliseconds between communications, comparable to the 200-millisecond average pause between turns in human speech.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Specifically,"
+        },
+        {
+          "label": "B",
+          "text": "As a result,"
+        },
+        {
+          "label": "C",
+          "text": "By contrast,"
+        },
+        {
+          "label": "D",
+          "text": "Nevertheless,"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 23,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_000974",
+      "section": "reading_writing",
+      "question_number": 20,
+      "passage": "While researching a topic, a student has taken the following notes:\n· The Great Salt Lake in Utah is one of the world's saltiest bodies of water.\n· The northern portion of the lake has a higher concentration of salt than the southern portion.\n· Crustaceans called [i]Artemia franciscana[/i] live in the southern portion.\n· Bacteria called [i]Nodularia[/i] live in the southern portion.",
+      "prompt": "The student wants to emphasize a difference between [i]Artemia franciscana and Nodularia[/i]. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "[i]Artemia franciscana[/i] are crustaceans that live in the southern portion of the Great Salt Lake."
+        },
+        {
+          "label": "B",
+          "text": "[i]Artemia franciscana[/i] and [i]Nodularia[/i] both live in the Great Salt Lake's southern portion."
+        },
+        {
+          "label": "C",
+          "text": "The northern portion of the Great Salt Lake has a higher concentration of salt than does the southern portion."
+        },
+        {
+          "label": "D",
+          "text": "[i]Artemia franciscana[/i] and [i]Nodularia[/i] are different types of organisms: [i]Artemia franciscana[/i] are crustaceans, whereas [i]Nodularia[/i] are bacteria."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 24,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_000975",
+      "section": "reading_writing",
+      "question_number": 21,
+      "passage": "While researching a topic, a student has taken the following notes:\n· Extravehicular activities (EVAs) are activities performed outside a spacecraft by astronauts in outer space.\n· EVAs are also known as spacewalks.\n· Richard Mastracchio is a former US astronaut who has performed 9 spacewalks.\n· The total time of Mastracchio's spacewalks was 53 hours and 4 minutes.\n· Garrett Reisman is a former US astronaut who has performed 3 spacewalks.\n· The total time of Reisman's spacewalks was 21 hours and 21 minutes.",
+      "prompt": "The student wants to emphasize a similarity between the astronauts Mastracchio and Reisman. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Reisman has spent less time performing spacewalks than Mastracchio has."
+        },
+        {
+          "label": "B",
+          "text": "EVAs, also known as spacewalks, are activities done by astronauts outside a spacecraft."
+        },
+        {
+          "label": "C",
+          "text": "Mastracchio and Reisman have each performed multiple spacewalks."
+        },
+        {
+          "label": "D",
+          "text": "Mastracchio has performed spacewalks, but Reisman has performed EVAs."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 25,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_000976",
+      "section": "reading_writing",
+      "question_number": 22,
+      "passage": "While researching a topic, a student has taken the following notes:\n· The Tijuana Slough National Wildlife Refuge (NWR) is a protected natural area in California.\n· It encompasses 1,023 acres.\n· The Tijuana Slough NWR was established to safeguard the habitat of the light-footed clapper rail, an endangered species.\n· The Tijuana Slough NWR is managed by the US Fish & Wildlife Service.\n· The US Fish & Wildlife Service limits human activities in the area.",
+      "prompt": "The student wants to emphasize the role the US Fish & Wildlife Service plays in safeguarding the habitat of the light-footed clapper rail. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "By limiting human activities in the Tijuana Slough NWR, the US Fish & Wildlife Service safeguards the habitat of the light-footed clapper rail."
+        },
+        {
+          "label": "B",
+          "text": "Human activities are limited in the Tijuana Slough NWR, a protected natural area in California."
+        },
+        {
+          "label": "C",
+          "text": "Home to the light-footed clapper rail, the Tijuana Slough NWR is located in California, where it encompasses 1,023 acres."
+        },
+        {
+          "label": "D",
+          "text": "The 1,023-acre Tijuana Slough NWR was established to safeguard the habitat of the light-footed clapper rail, an endangered species."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 26,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_000977",
+      "section": "reading_writing",
+      "question_number": 23,
+      "passage": "While researching a topic, a student has taken the following notes:\n· The cuneiform script is the earliest known set of symbols used for writing.\n· Sumerian was one of the first languages to be written using the cuneiform script.\n· Sumerian was a language in ancient Mesopotamia (present-day Iraq).\n· Clay tablets with Sumerian writing have been found there.\n· Some of these tablets are almost 5,000 years old.",
+      "prompt": "The student wants to identify a language that was written using the cuneiform script. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Examples of Mesopotamian writing that are nearly 5,000 years old have been found."
+        },
+        {
+          "label": "B",
+          "text": "A language in ancient Mesopotamia used the cuneiform script for writing."
+        },
+        {
+          "label": "C",
+          "text": "Clay tablets with cuneiform script have been found in present-day Iraq."
+        },
+        {
+          "label": "D",
+          "text": "Sumerian, an ancient Mesopotamian language, was written using the cuneiform script."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 27,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_000978",
+      "section": "reading_writing",
+      "question_number": 24,
+      "passage": "The following text is adapted from Jhumpa Lahiri's 2003 novel [i]The Namesake[/i]. Gogol is an elementary school student in Massachusetts.\n\nIn art class, his favorite hour of the week, he [u]carves[/u] his name with paper clips into the bottoms of clay cups and bowls. He pastes uncooked pasta to cardboard, and leaves his signature in fat brush strokes below paintings.\n\n©2003 by Jhumpa Lahiri",
+      "prompt": "As used in the text, what does the word \"carves\" most nearly mean?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "raises"
+        },
+        {
+          "label": "B",
+          "text": "shifts"
+        },
+        {
+          "label": "C",
+          "text": "chases"
+        },
+        {
+          "label": "D",
+          "text": "signs"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 1,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_000979",
+      "section": "reading_writing",
+      "question_number": 25,
+      "passage": "Portable video game consoles and wireless headphones tend to rely on batteries that can't be easily taken out and swapped for new ones. Environmental policy researcher Carl Dalhammar warns that because these gadgets can't ______ without working batteries, once the batteries stop working, the devices are typically disposed of as trash.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "expand"
+        },
+        {
+          "label": "B",
+          "text": "function"
+        },
+        {
+          "label": "C",
+          "text": "decide"
+        },
+        {
+          "label": "D",
+          "text": "separate"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 2,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_000980",
+      "section": "reading_writing",
+      "question_number": 26,
+      "passage": "Featuring contributions from Geraldo L. Cadava, Elsie L. Echeverri-Carroll, and other scholars, [i]Advancing U.S. Latino Entrepreneurship[/i] (2020) is intended to _______ two kinds of readers. According to Alfonso Morales and the book's other editors, it should be of interest to researchers as well as current and aspiring entrepreneurs.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "evaluate"
+        },
+        {
+          "label": "B",
+          "text": "bewilder"
+        },
+        {
+          "label": "C",
+          "text": "detract from"
+        },
+        {
+          "label": "D",
+          "text": "appeal to"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 3,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_000981",
+      "section": "reading_writing",
+      "question_number": 27,
+      "passage": "Jemura Shōen's 1944 piece [i]Feathered Snow[/i] is an important work of [i]Nihonga[/i], or traditional Japanese painting. To produce the piece, Uemura used a centuries-old Japanese approach, applying color pigments to a silk surface. By contrast, Asai Chū _______ European methods, using oil on canvas to produce Western-style paintings.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "employed"
+        },
+        {
+          "label": "B",
+          "text": "imagined"
+        },
+        {
+          "label": "C",
+          "text": "punished"
+        },
+        {
+          "label": "D",
+          "text": "overheard"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 4,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_000982",
+      "section": "reading_writing",
+      "question_number": 28,
+      "passage": "Vertical gene transfer involves the transmission of genetic material from a parent to offspring; horizontal gene transfer, on the other hand, involves the exchange of genetic material between organisms not in a parent-offspring relationship. [u]While horizontal gene transfer is common among prokaryotes—single-celled organisms, such as the bacteria [i]Brevundimonas diminuta[/i] and [i]Lactobacillus curvatus[/i]—it has rarely been observed among eukaryotes (multicellular organisms).[/u] However, new studies suggest that horizontal gene transfer is more common in eukaryotes than originally thought.",
+      "prompt": "Which choice best states the function of the underlined sentence in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It indicates a distinction between the mechanics of two kinds of biological processes."
+        },
+        {
+          "label": "B",
+          "text": "It explains why a common perception of a biological process is flawed."
+        },
+        {
+          "label": "C",
+          "text": "It argues that two biological phenomena are more similar than they may initially appear to be."
+        },
+        {
+          "label": "D",
+          "text": "It contrasts the frequency with which a biological phenomenon has been detected in two categories of organisms."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 5,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_000983",
+      "section": "reading_writing",
+      "question_number": 29,
+      "passage": "Researcher Ingrid Robeyns argues in her work that taxes on the very wealthy should be increased so that governments will be enabled to solve problems of collective action, such as mitigating climate change. Robeyns cites the work of economist Mariana Mazzucato, who shows that government subsidies are a more effective engine of innovation than private sector investments; in addition, government-funded innovations tend to lead to further developments in disparate fields (such as the United States mission to land a person on the Moon, which accelerated developments in nutrition as well as navigation).",
+      "prompt": "Which choice best describes the overall structure of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It summarizes the research of one scholar, then presents a study by another scholar that was inspired by the findings of that research."
+        },
+        {
+          "label": "B",
+          "text": "It introduces a proposition by a scholar, then describes that scholar's use of findings by another scholar to support that proposition."
+        },
+        {
+          "label": "C",
+          "text": "It details the findings of a research project by one scholar, then puts forward the suggestions of another scholar for further investigation."
+        },
+        {
+          "label": "D",
+          "text": "It offers a claim by a scholar, then uses the results of a project by another scholar to show why that claim should be rejected."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 6,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_000985",
+      "section": "reading_writing",
+      "question_number": 30,
+      "passage": "High-speed rail systems—in which trains can move at great speeds—are expanding in many countries because high-speed rail can reduce the number of automobiles on the road and ultimately conserve energy. In Austria, for instance, 254 kilometers of high-speed rail lines are in operation as of 2023, and 231 kilometers are under construction.",
+      "prompt": "Based on the text, why might Austria be expanding its high-speed rail system?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "High-speed rail systems are a more energy-efficient choice for residents of Austria than automobile use is."
+        },
+        {
+          "label": "B",
+          "text": "Residents of Austria demand that high-speed rail be expanded despite the cost of doing so."
+        },
+        {
+          "label": "C",
+          "text": "The current high-speed rail systems in Austria are getting older and need improvements."
+        },
+        {
+          "label": "D",
+          "text": "High-speed rail systems in Austria are currently viewed more favorably than they have been in the past."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 8,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_000986",
+      "section": "reading_writing",
+      "question_number": 31,
+      "passage": "Stores often play background music to create a pleasant shopping experience. Based on a survey, Amir Manzoor found that such music was linked to reduced enjoyment among customers. Manzoor thinks that one explanation for this result is that the surveyed customers may have wanted to finish their shopping as quickly as possible. They therefore weren't focused on enjoying the experience. It's possible that background music could improve the experience of other customers whose main goal is to have a good time while they shop.",
+      "prompt": "Based on the text, which research question was Manzoor's study most likely intended to answer?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "What genres of music do customers prefer to listen to while they are shopping?"
+        },
+        {
+          "label": "B",
+          "text": "Does the volume of a store's background music affect how much time customers spend in the store?"
+        },
+        {
+          "label": "C",
+          "text": "Do customers spend more money when shopping for music in stores or online?"
+        },
+        {
+          "label": "D",
+          "text": "How does the use of background music in stores affect customers' shopping experience?"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 9,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_000988",
+      "section": "reading_writing",
+      "question_number": 32,
+      "passage": "It may seem that works of art are best experienced in person. However, in an online collection from the Albertina Museum in Vienna, Austria, people can zoom in on a high-quality image of the drawing [i]Self-Portrait[/i] by Hendrick Goltzius. A student argues that [u]viewers usually can't examine works of art in a museum as carefully as they can examine works in online collections.[/u]",
+      "prompt": "Which statement, if true, would most directly support the underlined argument?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Most museums don't allow visitors to get very close to the works of art on display."
+        },
+        {
+          "label": "B",
+          "text": "Many museums have started adding images of works from their collections to their websites."
+        },
+        {
+          "label": "C",
+          "text": "Most museums have signs that provide basic information about the works of art on display."
+        },
+        {
+          "label": "D",
+          "text": "Museums don't always put works by different artists together in one room."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 11,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_000989",
+      "section": "reading_writing",
+      "question_number": 33,
+      "passage": "Many studies have found a positive association between levels of dissolved organic carbon and mercury in bodies of fresh water undisturbed by human activity. But Stéphane Guédron, Delphine Tisserand, and colleagues did not find this correlation in an examination of freshwater bodies impacted by wastewater, leading some scientists to hypothesize that the association could be particular to undisturbed waters. However, Michael E. Berndt and Travis K. Bavin carried out a study on freshwater bodies disturbed by mining that showed similar results to the studies on undisturbed waters, suggesting that _______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Guédron, Tisserand, and colleagues' study used different methods to measure the concentration of mercury in fresh water than Berndt and Bavin's study did."
+        },
+        {
+          "label": "B",
+          "text": "levels of dissolved organic carbon and mercury are both much higher in bodies of fresh water impacted by wastewater than they are in bodies of fresh water disturbed by mining."
+        },
+        {
+          "label": "C",
+          "text": "the effects of wastewater on the association between levels of dissolved organic carbon and mercury should not be taken as indicative of the effects of every type of human disturbance."
+        },
+        {
+          "label": "D",
+          "text": "disturbances linked to wastewater affect significantly more bodies of fresh water than disturbances linked to mining do."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 13,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_000990",
+      "section": "reading_writing",
+      "question_number": 34,
+      "passage": "Coffee farming around the world has changed greatly over time. Originally, coffee plants grew in the shade of tropical forests. Today coffee is often grown without shade cover. This is because full-sun coffee farms can produce more coffee beans. But the lack of trees on such farms means a lack of spaces for many species of birds to roost. Therefore, compared with full-sun coffee farms, shaded farms tend to _____",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "be home to a more diverse range of birds."
+        },
+        {
+          "label": "B",
+          "text": "have better soil quality."
+        },
+        {
+          "label": "C",
+          "text": "have fewer problems with insects and other pests."
+        },
+        {
+          "label": "D",
+          "text": "experience generally milder weather conditions."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 14,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_000991",
+      "section": "reading_writing",
+      "question_number": 35,
+      "passage": "As jazz singer Sarah Vaughan honed her vocal abilities—acquiring a sophisticated timbre and precise control over pitch, dynamics, and _____ she earned comparisons to opera icon Leontyne Price, one of her personal heroes. The comparisons highlight how Vaughan, a jazz star, had transcended genre boundaries with her singing prowess.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "vibrato:"
+        },
+        {
+          "label": "B",
+          "text": "vibrato—"
+        },
+        {
+          "label": "C",
+          "text": "vibrato,"
+        },
+        {
+          "label": "D",
+          "text": "vibrato"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 15,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries"
+      }
+    },
+    {
+      "question_id": "bank_rw_000992",
+      "section": "reading_writing",
+      "question_number": 36,
+      "passage": "Through the process of photosynthesis, plants use sunlight, water, and carbon dioxide to create their own food. This amazing ability allows plants ____ and provides oxygen for other living things to breathe.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "grows"
+        },
+        {
+          "label": "B",
+          "text": "growing"
+        },
+        {
+          "label": "C",
+          "text": "to grow"
+        },
+        {
+          "label": "D",
+          "text": "having grown"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 16,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_000993",
+      "section": "reading_writing",
+      "question_number": 37,
+      "passage": "When searching for clues about how Neolithic peoples lived, British archaeologist Lisa-Marie Shillito starts by examining ______ trash. Buried trash deposits (known as middens) are a rich source of information for archaeologists like Shillito.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "it's"
+        },
+        {
+          "label": "B",
+          "text": "their"
+        },
+        {
+          "label": "C",
+          "text": "they're"
+        },
+        {
+          "label": "D",
+          "text": "its"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 17,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_000994",
+      "section": "reading_writing",
+      "question_number": 38,
+      "passage": "Chandni Chowk is a public market in Delhi, India. Both locals and visitors _____ the market, buying everything from street food to handmade textiles and jewelry.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "browsing"
+        },
+        {
+          "label": "B",
+          "text": "browse"
+        },
+        {
+          "label": "C",
+          "text": "to browse"
+        },
+        {
+          "label": "D",
+          "text": "having browsed"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 18,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_000995",
+      "section": "reading_writing",
+      "question_number": 39,
+      "passage": "One example of public art (art that's readily accessible to the general public) ______ the work [i]Release[/i]. This sculpture is installed at a public memorial in Howick, South Africa.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "were"
+        },
+        {
+          "label": "B",
+          "text": "is"
+        },
+        {
+          "label": "C",
+          "text": "are"
+        },
+        {
+          "label": "D",
+          "text": "being"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 19,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_000996",
+      "section": "reading_writing",
+      "question_number": 40,
+      "passage": "Many ranching terms come from Spanish. For example, the word \"rodeo\" (a roundup) comes from the Spanish word [i]rodear[/i], and \"mustang\" (a wild horse) _______ from [i]mesteñas[/i]. This is because the first Anglo, African, and Native American cattle ranchers in the southwestern US learned the trade from Spanish-speaking Mexican [i]vaqueros[/i], or cowboys.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "will be coming"
+        },
+        {
+          "label": "B",
+          "text": "had come"
+        },
+        {
+          "label": "C",
+          "text": "comes"
+        },
+        {
+          "label": "D",
+          "text": "will come"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 20,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_000997",
+      "section": "reading_writing",
+      "question_number": 41,
+      "passage": "The pronghorn ([i]Antilocapra americana[/i]) has a species population of approximately 700,000 _______ less than that of the water buffalo ([i]Bubalus bubalis[/i]), which has a species population of roughly 172,000,000.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "members: this amount is,"
+        },
+        {
+          "label": "B",
+          "text": "members. This amount is:"
+        },
+        {
+          "label": "C",
+          "text": "members; this amount is"
+        },
+        {
+          "label": "D",
+          "text": "members, this amount is"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 21,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries"
+      }
+    },
+    {
+      "question_id": "bank_rw_000998",
+      "section": "reading_writing",
+      "question_number": 42,
+      "passage": "Born in Lyon, Mississippi, in 1902, musician Edward James \"Son\" House is best known as a key figure in the development of the Delta blues, a variant of blues that originated in the Mississippi Delta region. ______ steeped in the fertile music scene that sprung up in the alluvial delta between the Mississippi and Yazoo Rivers, House and his peers developed their distinctive stripped-down, guitar-driven style.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "There,"
+        },
+        {
+          "label": "B",
+          "text": "Thus,"
+        },
+        {
+          "label": "C",
+          "text": "Nevertheless,"
+        },
+        {
+          "label": "D",
+          "text": "Moreover,"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 22,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_000999",
+      "section": "reading_writing",
+      "question_number": 43,
+      "passage": "In 1965, Morrie Turner's comic strip [i]Wee Pals[/i] became the first serial comic by a Black cartoonist to be syndicated, appearing in papers nationwide. Comics by other Black cartoonists followed. ____ Robb Armstrong ([i]Jump Start[/i]) and Charlos Gary ([i]Working It Out[/i]) joined the ranks of syndicated Black cartoonists in 1989 and 2001, respectively.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Alternatively,"
+        },
+        {
+          "label": "B",
+          "text": "For instance,"
+        },
+        {
+          "label": "C",
+          "text": "Previously,"
+        },
+        {
+          "label": "D",
+          "text": "However,"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 23,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001000",
+      "section": "reading_writing",
+      "question_number": 44,
+      "passage": "While researching a topic, a student has taken the following notes:\n· The Congo River is 2,922 kilometers long.\n· It is in Africa.\n· It ranks No. 9 among the longest rivers in the world.\n· The Saint Lawrence River is 1,900 kilometers long.\n· It is in North America.\n· It ranks No. 27 among the longest rivers in the world.",
+      "prompt": "The student wants to indicate where the Congo River is located. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The Congo and Saint Lawrence rivers are among the longest rivers in the world."
+        },
+        {
+          "label": "B",
+          "text": "The Congo River is 2,922 kilometers long."
+        },
+        {
+          "label": "C",
+          "text": "The Congo River is located in Africa."
+        },
+        {
+          "label": "D",
+          "text": "The Saint Lawrence River is ranked No. 27 among the longest rivers in the world."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 24,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001001",
+      "section": "reading_writing",
+      "question_number": 45,
+      "passage": "While researching a topic, a student has taken the following notes:\n· Tepetitlán is a municipality in the state of Hidalgo, Mexico.\n· It had a population of 10,830 in 2020.\n· Singuilucan is a municipality in Hidalgo.\n· It had a population of 15,142 in 2020.\n· Municipalities are governmental regions responsible for providing many public services to their residents.\n· Hidalgo is divided into 84 municipalities.",
+      "prompt": "The student wants to emphasize a similarity between Tepetitlán and Singuilucan. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Both Tepetitlán and Singuilucan are municipalities in Hidalgo, Mexico."
+        },
+        {
+          "label": "B",
+          "text": "As a municipality of Hidalgo, Singuilucan is responsible for providing many public services."
+        },
+        {
+          "label": "C",
+          "text": "As of 2020, Tepetitlán was not as populous as Singuilucan."
+        },
+        {
+          "label": "D",
+          "text": "Tepetitlán is one of 84 governmental regions, known as municipalities, in Hidalgo, Mexico."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 25,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001002",
+      "section": "reading_writing",
+      "question_number": 46,
+      "passage": "While researching a topic, a student has taken the following notes:\n· The [i]Incarnations[/i] (2015) is an epistolary novel by English author Susan Barker.\n· Epistolary novels are novels written primarily as a series of fictional documents.\n· These documents can be letters, journal entries, newspaper clippings, and more.\n· The [i]Incarnations[/i] consists primarily of letters.\n· The letters are sent between a taxi driver named Wang Jun and a mysterious woman.",
+      "prompt": "The student wants to provide an example of an epistolary novel. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "In 2015, English author Susan Barker published a novel of letters sent between a taxi driver named Wang Jun and a mysterious woman."
+        },
+        {
+          "label": "B",
+          "text": "Consisting primarily of letters sent between a taxi driver named Wang Jun and a mysterious woman, Susan Barker's [i]The Incarnations[/i] is an epistolary novel."
+        },
+        {
+          "label": "C",
+          "text": "It was Susan Barker who published the novel [i]The Incarnations[/i] in 2015."
+        },
+        {
+          "label": "D",
+          "text": "An epistolary novel is a novel written primarily as a series of fictional documents, such as letters, journal entries, or newspaper clippings."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 26,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001003",
+      "section": "reading_writing",
+      "question_number": 47,
+      "passage": "While researching a topic, a student has taken the following notes:\n· Ukiyo-e woodblock prints were a popular artistic form in Japan from the 1600s through the 1800s.\n· Ukiyo-e prints were produced by teams of artisans that included artists, wood-carvers, printers, and publishers.\n· Sōsaku-hanga was a popular Japanese printmaking movement that emerged in the early 1900s.\n· Sōsaku-hanga prioritized individual artistic expression.\n· An artist working in this style typically handled all aspects of print creation, from drawing to wood carving to printing",
+      "prompt": "The student wants to contrast ukiyo-e and sōsaku-hanga production methods. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Teams of artisans produced ukiyo-e prints, whereas individual artists typically handled all aspects of sōsaku-hanga printmaking themselves."
+        },
+        {
+          "label": "B",
+          "text": "In contrast to ukiyo-e prints, sōsaku-hanga prints were produced using methods such as drawing and wood carving."
+        },
+        {
+          "label": "C",
+          "text": "Ukiyo-e prints were popular in Japan from the 1600s through the 1800s, while sōsaku-hanga prints emerged later, in the early 1900s."
+        },
+        {
+          "label": "D",
+          "text": "One notable distinction between ukiyo-e and sōsaku-hanga prints is sōsaku-hanga's emphasis on individual artistic expression."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 27,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001004",
+      "section": "reading_writing",
+      "question_number": 48,
+      "passage": "Quantitative analysis of vast historical data sets and other tools of abstraction allow historians to examine broad phenomena, but such methods ______ the particularity of individual actors. By focusing on singular individuals and incidents in exhaustive detail, Paul Seaver's [i]Wallington's World[/i] and other microhistories aim to show how broader phenomena were experienced at a human level.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "misconstrue"
+        },
+        {
+          "label": "B",
+          "text": "efface"
+        },
+        {
+          "label": "C",
+          "text": "preempt"
+        },
+        {
+          "label": "D",
+          "text": "accentuate"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 1,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_001005",
+      "section": "reading_writing",
+      "question_number": 49,
+      "passage": "Because blue holes (such as the Blue Hole of Gozo in the Maltese Islands) and cenotes (such as Cenote Yaxmuul in Mexico) differ in their size, water composition, and type of location, they are not usually viewed as being ______, but both are water-filled sinkholes typically produced by the natural dissolution and collapse of rocks.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "distinct"
+        },
+        {
+          "label": "B",
+          "text": "incongruous"
+        },
+        {
+          "label": "C",
+          "text": "analogous"
+        },
+        {
+          "label": "D",
+          "text": "explicable"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 2,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_001006",
+      "section": "reading_writing",
+      "question_number": 50,
+      "passage": "Wind power and solar power constitute over 60% of Chile’s electricity production. Due to the geographical availability of renewable resources of energy, Chile is in an advantageous position to potentially ______ the proportion of electricity it produces from renewable resources in the future.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "induce"
+        },
+        {
+          "label": "B",
+          "text": "augment"
+        },
+        {
+          "label": "C",
+          "text": "alleviate"
+        },
+        {
+          "label": "D",
+          "text": "exhaust"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 3,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_001007",
+      "section": "reading_writing",
+      "question_number": 51,
+      "passage": "City planners need accurate maps of their city’s sidewalks to properly maintain them, but mapping manually is slow. Maryam Hosseini and her team addressed this by training a computer program to identify sidewalks in aerial images of Boston. When they used the program on aerial images of Brooklyn, it accurately ______ sidewalks and could even distinguish between concrete and brick.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "mistook"
+        },
+        {
+          "label": "B",
+          "text": "approved"
+        },
+        {
+          "label": "C",
+          "text": "detected"
+        },
+        {
+          "label": "D",
+          "text": "neglected"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 4,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_001008",
+      "section": "reading_writing",
+      "question_number": 52,
+      "passage": "The desirability of minimizing the use of adverbs, especially those ending in -[i]ly[/i] (e.g., \"obediently\"), in prose fiction is a point of agreement among many novelists, including Graham Greene, who described adverbs as \"damaging to a writer.\" To investigate whether -[i]ly[/i] adverb avoidance is associated with literary achievement, statistician Ben Blatt calculated the frequency with which such adverbs occur in the works of E.M. Forster and other prominent English-language novelists and found that there is a positive correlation between low -[i]ly[/i] adverb frequency and novels' perceived literary merit.",
+      "prompt": "Which choice best describes the overall structure of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It makes a claim about a trait of prose fiction, details an observation about that trait's increasing proliferation, and then makes a supposition based on that observation."
+        },
+        {
+          "label": "B",
+          "text": "It mentions a popular strategy for crafting prose fiction, outlines a benefit of that strategy, and then presents research that provides a more nuanced view of that benefit."
+        },
+        {
+          "label": "C",
+          "text": "It describes a phenomenon inherent to prose fiction, summarizes a procedure used to investigate that phenomenon, and then notes a benefit of that procedure."
+        },
+        {
+          "label": "D",
+          "text": "It introduces a widely held view on prose fiction, offers an example of what a proponent of that view has asserted, and then discusses a study examining data relevant to that view."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 5,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_001009",
+      "section": "reading_writing",
+      "question_number": 53,
+      "passage": "Technological advances have prompted companies to increasingly rely on automation to streamline production. Armin Granulo and colleagues, however, found that for products with higher symbolic value (those viewed as contributing to individual self-expression), consumers prefer products made by humans rather than by robots, likely because human-made products are more strongly associated with uniqueness. [u]When considering automation, therefore, companies—especially those specializing in products of symbolic value—should weigh trade-offs between efficiency gains and consumer preferences.[/u]",
+      "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It presents evidence supporting the text’s argument that consumers prefer products with high symbolic value over products with low symbolic value."
+        },
+        {
+          "label": "B",
+          "text": "It illustrates the need for additional research to evaluate the claim in the previous sentence that automation affects how consumers rate product uniqueness."
+        },
+        {
+          "label": "C",
+          "text": "It emphasizes that a research finding discussed in the text has practical implications that are particularly relevant for businesses making a certain class of product."
+        },
+        {
+          "label": "D",
+          "text": "It refers to a finding presented in the previous sentence to recommend that companies that value product quality reconsider their reliance on automation."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 6,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_001010",
+      "section": "reading_writing",
+      "question_number": 54,
+      "passage": "[b]Text 1[/b]\n[i]Kikko[/i] (tortoiseshell) and other Japanese sashiko embroidery patterns use motifs drawn from nature and daily activities, classic sources of inspiration in folk-art traditions. A category that resists firm delineation, folk art is generally defined by an intimate connection to quotidian life. \"The beauty of such objects,\" writes Sōetsu Yanagi in [i]The Unknown Craftsman[/i], \"is not so much of the noble, the huge, or the lofty as a beauty of the warm and familiar.\"\n\n[b]Text 2[/b]\nThrough their beautiful handmade aesthetic, painting and textiles from Japan's twentieth-century [i]mingei[/i] (folk art) movement represent an unambiguous rejection of mass-produced consumer goods. At the same time, [i]mingei[/i], properly considered, stands apart from fine art, as its rootedness in commonplace craft traditions gives it an authenticity and accessibility that fine art, with its prizing of sophistication and innovation, cannot match.",
+      "prompt": "Which choice best describes how Text 1 differs from Text 2?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Both texts highlight the principally utilitarian nature of folk-art objects, but Text 1 acknowledges a complementary decorative function that is not mentioned in Text 2."
+        },
+        {
+          "label": "B",
+          "text": "Text 1 suggests that the nature-based aesthetic of folk art is inherently resistant to change, while Text 2 implies that the pressures of consumer culture have indirectly altered how folk art is made."
+        },
+        {
+          "label": "C",
+          "text": "Text 1 identifies characteristics shared by folk art across cultural contexts, while Text 2 describes how a universal characteristic of folk art is manifest within a specific tradition."
+        },
+        {
+          "label": "D",
+          "text": "Both texts valorize folk-art traditions, but Text 1 does so by emphasizing qualities that are intrinsic to folk art, whereas Text 2 makes reference to other modes of cultural production."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 7,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Cross-Text Connections"
+      }
+    },
+    {
+      "question_id": "bank_rw_001011",
+      "section": "reading_writing",
+      "question_number": 55,
+      "passage": "From polar bears to short-tailed crickets, many animals practice some form of brood care (caring for offspring). Chenyang Cai and team claim to have found the earliest evidence of this behavior in insects in 163.5-million-year-old remains from the Haifanggou Formation in China, a location that has yielded many fossils, including those of feathered dinosaurs. Cai and team examined 157 specimens of the extinct water boatman species [i]Karataua popovi[/i] and noted thirty individuals that appear to carry eggs on one of their legs. This finding establishes brood care in insects approximately 38 million years earlier than previously known.",
+      "prompt": "Which choice best states the main idea of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Research shows that feathered dinosaurs inhabited the location that is now the Haifanggou Formation long before [i]K. popovi[/i] did."
+        },
+        {
+          "label": "B",
+          "text": "Cai and team's study of [i]K. popovi[/i] fossils suggests that brood care in insects began earlier than formerly established."
+        },
+        {
+          "label": "C",
+          "text": "Cai and team concluded that [i]K. popovi[/i] likely carried their offspring on one of their legs."
+        },
+        {
+          "label": "D",
+          "text": "The Haifanggou Formation is an abundant source of fossilized dinosaurs and [i]K. popovi[/i]."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 8,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_001012",
+      "section": "reading_writing",
+      "question_number": 56,
+      "passage": "The following text is from William Carlos Williams's 1925 creative nonfiction book [i]In the American Grain[/i]. Williams is discussing how works by nineteenth-century US poet and fiction writer Edgar Allan Poe were received by American readers.\n\nPoe must suffer by his originality. Invent that which is new, even if it be made of pine from your own yard, and there's none to know what you have done. It is because there's no name. This is the cause of Poe's lack of recognition. He was American. He was the astounding, inconceivable growth of his locality. Gape at him they did, and he at them in amazement. Afterward with mutual hatred; he in disgust, they in mistrust. It is only that which is under your nose, that which has been named before, that the American reader can take to his bosom. Poe was not a fault of nature, a find for French eyes, ripe but unaccountable, as through our woolyheadedness we've sought to designate him, but a genius intimately shaped by his locality and time. His language is a remarkable history of the locality he springs from, a record of the American soil and air, of the very breath of the New World.",
+      "prompt": "What does the text most strongly suggest about Poe's work and American readers?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Poe's work was so innovative that there was not even terminology to describe it, which led American readers to regard both the work and Poe himself as strange but quintessentially American."
+        },
+        {
+          "label": "B",
+          "text": "American readers failed to appreciate Poe's work because of its novelty and the fact that it reflected aspects of the American character too ingrained in those readers for them to comprehend."
+        },
+        {
+          "label": "C",
+          "text": "Poe's work had few fans among American readers because it tended to present a negative image of American life and institutions."
+        },
+        {
+          "label": "D",
+          "text": "American readers largely ignored Poe's work because its tone and subject matter were out of keeping with mainstream literature."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 9,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_001013",
+      "section": "reading_writing",
+      "question_number": 57,
+      "passage": "An anthropologist is recording the metal contents of various historical deposits of valuables, called hoards, found in Ireland and Northern Ireland. She notes that the hoards differed in their contents; for example, ______",
+      "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the Balline Hoard and the Ardagh Hoard each contained bronze."
+        },
+        {
+          "label": "B",
+          "text": "the Coggalbeg Hoard was the only hoard that contained just gold."
+        },
+        {
+          "label": "C",
+          "text": "the Coggalbeg Hoard contained no gold or silver."
+        },
+        {
+          "label": "D",
+          "text": "the Ardagh Hoard was the only hoard that contained silver."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 10,
+      "table_data": {
+        "title": "[b]Examples of Hoards Found in Ireland and Northern Ireland[/b]",
+        "columns": [
+          "Hoard name",
+          "Date of contents",
+          "Year of discovery",
+          "Description"
+        ],
+        "rows": [
+          [
+            "Coggalbeg Hoard",
+            "24th-19th century BCE",
+            "1945",
+            "gold pieces"
+          ],
+          [
+            "Balline Hoard",
+            "4th century CE",
+            "1940",
+            "silver pieces"
+          ],
+          [
+            "Ardagh Hoard",
+            "10th century CE",
+            "1868",
+            "silver and bronze pieces"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_001014",
+      "section": "reading_writing",
+      "question_number": 58,
+      "passage": "A student is writing a research paper on the history of irrigation in the southwestern United States, situating the development of Searsville Lake (a man-made body of water created in San Mateo County, California, in 1890) in a larger historical context. The student claims that some modern-day irrigation methods used in southwestern states, such as California, Arizona, and New Mexico, have a lineage that long predates the completion of Searsville Lake.",
+      "prompt": "Which quotation from a historian best supports the student's claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"The irrigation system developed by the Hohokam people in what is now central Arizona in the 7th century CE was simple but made use of hydraulic engineering design principles that are still utilized by today's engineers.\""
+        },
+        {
+          "label": "B",
+          "text": "\"The importance of the development of irrigation infrastructure in the American Southwest today cannot be overstated, since it is the most common means of conveying water for food production.\""
+        },
+        {
+          "label": "C",
+          "text": "\"In the decades following the Second World War, irrigation of arid areas for agriculture increased to such a degree that it now accounts for roughly 70% of the world's water usage.\""
+        },
+        {
+          "label": "D",
+          "text": "\"Sprinkler irrigation systems, which were developed in the late 20th century, are a convenient technique of irrigating that makes use of machinery in order to spray water in all directions. Many areas of the Southwestern United States are currently irrigated by this method.\""
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 11,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_001015",
+      "section": "reading_writing",
+      "question_number": 59,
+      "passage": "With its adaptation of established fiction genres to Southern contexts, Mark Twain derived his episodic narrative structures and roguish heroes from the picaresque novel, and William Faulkner realized the decadent aristocrat, the imperiled heroine, and other character types of the Gothic novel as rural Southerners who were more contingent, more caught in the net of societal relations and history than the fantastical figures of the Gothic had been. Some of the region's poets, such as James Dickey, have shown even greater dexterity by adapting these sources in an altogether different literary form.",
+      "prompt": "Which quotation would most effectively support the claim about James Dickey?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"With its rural settings and rustic characters, Dickey's poems suggest the influence of the genre of pastoral fiction, yet Dickey may have instead obtained these elements from pastoral poetry, which preceded its namesake in fiction.\""
+        },
+        {
+          "label": "B",
+          "text": "\"The Gothic genre emerged in England and Ireland in the 1700s and was later naturalized to the cultural landscape of the Northeastern US, as in the novels of Nathaniel Hawthorne, which Dickey had almost certainly read.\""
+        },
+        {
+          "label": "C",
+          "text": "\"What is the disturbed, and disturbing, speaker of Dickey's best poems if not a stock character of the Gothic novel, refracted through the speech and ethos of the South and conditioned by the structures of lyric poetry?\""
+        },
+        {
+          "label": "D",
+          "text": "\"When Dickey invokes one genre of poetry and, within the space of a few lines, abandons it for another genre of poetry, what can we infer from this gesture if not the poet's fascination with genre per se, as well as his discomfort with it?\""
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 12,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_001016",
+      "section": "reading_writing",
+      "question_number": 60,
+      "passage": "[i]Sir Gawain and the Green Knight[/i] is a circa 1400 poem written in Middle English—an archaic form of the English spoken today. Over the last several centuries, the English language has undergone such transformations in vocabulary, spelling, and grammar that most readers now rely on translations to read [i]Sir Gawain[/i]. In the introduction to his 2007 translation, Simon Armitage remarks that the sonic patterns of the poem, which was written in alliterative verse (a verse form featuring extensive repetition of initial consonant sounds), are essential to its structure. Because many Modern English words begin with different sounds than their Middle English equivalents do, a strictly literal translation of [i]Sir Gawain[/i] would therefore likely ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "be more faithful to the original intentions of the poem than most strictly literal translations of alliterative Middle English poems are to their originals."
+        },
+        {
+          "label": "B",
+          "text": "appeal more to modern readers than would translations like Armitage’s that instead prioritize the original text’s sonic and structural qualities."
+        },
+        {
+          "label": "C",
+          "text": "be preferable to modern readers who are primarily interested in learning what the poem reveals about historical conditions during the time it was originally written."
+        },
+        {
+          "label": "D",
+          "text": "preserve much of the original text’s meaning at the expense of other qualities that are also integral to the experience of reading the poem."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 13,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_001017",
+      "section": "reading_writing",
+      "question_number": 61,
+      "passage": "Blue holes, such as the Far Side Blue Hole in the Abaco Islands, are large seawater sinkholes that tend to have varying water density and irregularities in their steep walls. In 2021, researchers studied the previously unexplored Taam Ja' Blue Hole (TJBH) in Chetumal Bay, Mexico; using echo sounder mapping, they determined its maximum depth to be about 274 meters. In the complex environments of blue holes, however, echo sounder mapping has limitations. So, in 2023, Joan A. Sánchez-Sánchez and colleagues employed a conductivity, temperature, and depth (CTD) profiler to remeasure the depth of the TJBH. The profiler recorded depths around 420 meters but was unable to confirm detection of the bottom of the hole, suggesting that ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "although both echo sounder mapping and the CTD profiler have known limitations, they produce reliable estimations of the depth of blue holes when used together."
+        },
+        {
+          "label": "B",
+          "text": "while the CTD profiler may be better suited than echo sounder mapping for measuring the depth of blue holes, another measurement approach is likely needed to ascertain the maximum depth of the TJBH."
+        },
+        {
+          "label": "C",
+          "text": "although the maximum depth of the TJBH has yet to be conclusively detected, the bottom of the hole is most likely between 274 and 420 meters below sea level."
+        },
+        {
+          "label": "D",
+          "text": "while the CTD profiler can discern the properties of underwater terrains more comprehensively than echo sounder mapping can, echo sounder mapping produces more accurate measurements at greater underwater depths."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 14,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_001018",
+      "section": "reading_writing",
+      "question_number": 62,
+      "passage": "To better understand consumer loyalty to specific online retailers, Branislav Dudic and colleagues created a survey using 58 statements as proxy indicators of customer experience with receiving goods purchased online. The statements are categorized as relevant to one of six topics—e.g., statement 37, “I like when packages delivered to me are tightly packed,” is categorized as relevant to the topic of visual appeal—and respondents rate the importance of each statement to their experience. The researchers propose that the survey can be adapted for use by companies and other researchers, and they note that same-category responses show very low same-participant heterogeneity, which suggests that ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "responses to statements in the visual appeal topic are highly predictive of responses in the other five topics."
+        },
+        {
+          "label": "B",
+          "text": "the reliability of the survey data for each topic would be largely unaffected by the number of survey respondents."
+        },
+        {
+          "label": "C",
+          "text": "it may be possible to collect meaningful data about all six customer experience topics without using all 58 of the original statements."
+        },
+        {
+          "label": "D",
+          "text": "the six topics into which the 58 statements are grouped may actually represent more than six different topics."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 15,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_001019",
+      "section": "reading_writing",
+      "question_number": 63,
+      "passage": "Arms outstretched, right wrist over left with both hands dangling, South Korean musician Psy galloped from one foot to the other in the iconic dance of his 2012 international hit song “Gangnam Style.” Later, a statue depicting Psy’s arm-positioning during the dance was erected in the place that inspired the song’s ______ Gangnam District in Seoul, South Korea.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "name."
+        },
+        {
+          "label": "B",
+          "text": "name—"
+        },
+        {
+          "label": "C",
+          "text": "name"
+        },
+        {
+          "label": "D",
+          "text": "name;"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 16,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries"
+      }
+    },
+    {
+      "question_id": "bank_rw_001020",
+      "section": "reading_writing",
+      "question_number": 64,
+      "passage": "At Ramla l-Hamra Beach in Malta, deposits of iron oxide and other organic matter ______ to lend a unique red tint to the sand.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "is helping"
+        },
+        {
+          "label": "B",
+          "text": "helps"
+        },
+        {
+          "label": "C",
+          "text": "help"
+        },
+        {
+          "label": "D",
+          "text": "has helped"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 17,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_001021",
+      "section": "reading_writing",
+      "question_number": 65,
+      "passage": "Dating to around 1500, the Unicorn Tapestries are seven large tapestries depicting a unicorn hunt that hang in The Cloisters, a museum of medieval art in New York City. Attempting to explain the tapestries' symbolism, art historian and former Cloisters head curator Margaret B. ______ that while some have interpreted the tapestries as a Christian allegory, unicorns in that era were typically featured in secular rather than religious contexts.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Freeman, who noted"
+        },
+        {
+          "label": "B",
+          "text": "Freeman, noted"
+        },
+        {
+          "label": "C",
+          "text": "Freeman, noting"
+        },
+        {
+          "label": "D",
+          "text": "Freeman noted"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 18,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_001022",
+      "section": "reading_writing",
+      "question_number": 66,
+      "passage": "The [i]shesep[/i], which is written as a long, horizontal hieroglyph shaped like a thumbless hand, and the [i]heqat[/i], which is written as a hieroglyph that looks like four oval items pouring out of a barrel, were ancient Egyptian units of ______ to record length and volume, respectively, the [i]shesep[/i] and [i]heqat[/i] have since fallen out of use.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "measurement, used"
+        },
+        {
+          "label": "B",
+          "text": "measurement and used"
+        },
+        {
+          "label": "C",
+          "text": "measurement used"
+        },
+        {
+          "label": "D",
+          "text": "measurement. Used"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 19,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries"
+      }
+    },
+    {
+      "question_id": "bank_rw_001023",
+      "section": "reading_writing",
+      "question_number": 67,
+      "passage": "Nicknamed \"The Borinqueneers,\" the US Army's 65th Infantry Regiment has a membership that has included Colonel Juan Cordero Davila, Sergeant First Class Felix Nieves, and thousands of other Puerto Rican servicepeople. In 2016, these soldiers were honored for ______ historic service when President Barack Obama awarded the 65th Infantry Regiment with the Congressional Gold Medal.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "their"
+        },
+        {
+          "label": "B",
+          "text": "there"
+        },
+        {
+          "label": "C",
+          "text": "it's"
+        },
+        {
+          "label": "D",
+          "text": "they're"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 20,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_001024",
+      "section": "reading_writing",
+      "question_number": 68,
+      "passage": "The extensive impact that chitosan nanoparticles (ChNPs) have had on medicine belies their minuscule size, the nanoparticles typically ______ from only 33 to 75 billionths of a meter.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "ranging"
+        },
+        {
+          "label": "B",
+          "text": "can range"
+        },
+        {
+          "label": "C",
+          "text": "range"
+        },
+        {
+          "label": "D",
+          "text": "will range"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 21,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_001025",
+      "section": "reading_writing",
+      "question_number": 69,
+      "passage": "Because of its bulky body, the world's first airplane, the 1903 Wright Flyer, was not very aerodynamic. Modern planes, like the Northrop F-5 jet, have much sleeker, more streamlined bodies. ____ they are much more aerodynamic.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "However,"
+        },
+        {
+          "label": "B",
+          "text": "Lastly,"
+        },
+        {
+          "label": "C",
+          "text": "Nevertheless,"
+        },
+        {
+          "label": "D",
+          "text": "For this reason,"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 22,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001026",
+      "section": "reading_writing",
+      "question_number": 70,
+      "passage": "In 1845, the United States District Court for the state of lowa was established. Initially, the court's jurisdiction was a single district that encompassed the entire state, but as lowa's population grew, this single district began to struggle to serve the needs of everyone in the state. ____ the court's jurisdiction was subdivided into two districts, each with its own district court.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Ultimately,"
+        },
+        {
+          "label": "B",
+          "text": "For example,"
+        },
+        {
+          "label": "C",
+          "text": "Nevertheless,"
+        },
+        {
+          "label": "D",
+          "text": "Additionally,"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 23,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001027",
+      "section": "reading_writing",
+      "question_number": 71,
+      "passage": "Unlike the sprawling, permanent mural installations of David Alfaro Siqueiros and other contemporaries of the Muralismo Mexicano movement, the easily reproducible block print posters that Francisco Mora and Elizabeth Catlett created as part of the printmaking collective Taller de Gráfica Popular (TGP) were highly portable. ______ the prints were a boon to the TGP’s goal of spreading their artwork throughout Mexico and the world beyond.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "For instance,"
+        },
+        {
+          "label": "B",
+          "text": "As such,"
+        },
+        {
+          "label": "C",
+          "text": "Despite this,"
+        },
+        {
+          "label": "D",
+          "text": "To be exact,"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 24,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001028",
+      "section": "reading_writing",
+      "question_number": 72,
+      "passage": "The Mundrabilla I meteorite, discovered in Australia in 1911, weighs approximately 27,300 pounds and is the twelfth-largest iron meteorite ever discovered on Earth. The Estherville meteorite, discovered in the United States in 1879, is much smaller at 710 pounds. ______ the latter is a stony-iron meteorite, and a size difference between meteorites of different compositions isn’t unexpected.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "In other words,"
+        },
+        {
+          "label": "B",
+          "text": "Admittedly,"
+        },
+        {
+          "label": "C",
+          "text": "As a result,"
+        },
+        {
+          "label": "D",
+          "text": "In conclusion,"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 25,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001029",
+      "section": "reading_writing",
+      "question_number": 73,
+      "passage": "While researching a topic, a student has taken the following notes:\n● Louis Ballard was a classical composer and citizen of the Quapaw Tribe.\n● His works blend Western classical music with elements of various Native musical traditions.\n● His 1970 composition [i]Cacéga Ayuwípi[/i] incorporates a Pueblo water drum, a traditional Native instrument.\n● Critic Peter Altman commended Ballard's ability to synthesize \"strong, idiomatically modern expressions.\"",
+      "prompt": "The student wants to present Altman's claim to an audience already familiar with Louis Ballard. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Ballard was commended for his musical compositions, many of which blend Western classical music with elements of various Native musical traditions, by the critic Peter Altman."
+        },
+        {
+          "label": "B",
+          "text": "Ballard's works demonstrate what Peter Altman refers to as an ability to synthesize \"strong, idiomatically modern expressions.\""
+        },
+        {
+          "label": "C",
+          "text": "Peter Altman praised Ballard—a classical composer whose works blend Western classical music with elements of Native musical traditions—for creating \"strong, idiomatically modern expressions.\""
+        },
+        {
+          "label": "D",
+          "text": "Ballard's 1970 [i]Cacéga Ayuwípi[/i] blends Western classical music and elements of various Native musical traditions by incorporating a Pueblo water drum."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 26,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001030",
+      "section": "reading_writing",
+      "question_number": 74,
+      "passage": "While researching a topic, a student has taken the following notes:\n● A nonnative species is considered invasive if it causes environmental or economic harm in an ecosystem.\n● Curly pondweed is a species of aquatic plant native to parts of Eurasia.\n● It can also be found in the northern and western US.\n● There, it crowds out native plants and impedes aquatic recreation.\n● It is considered an invasive species in the US.",
+      "prompt": "The student wants to provide an example of an invasive species. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "In the northern and western US, curly pondweed is an invasive aquatic plant that crowds out native plants and impedes aquatic recreation."
+        },
+        {
+          "label": "B",
+          "text": "One way a nonnative species of plant could cause harm in an ecosystem is by crowding out native plants and impeding aquatic recreation."
+        },
+        {
+          "label": "C",
+          "text": "A nonnative species that crowds out native plants and impedes aquatic recreation, causing environmental or economic harm, is considered invasive."
+        },
+        {
+          "label": "D",
+          "text": "Curly pondweed is an example of an invasive species that causes environmental or economic harm in parts of Eurasia."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025年12月机考真题第1套(亚太A卷) 读写3个Module",
+      "source_question_number": 27,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    }
+  ]
+}

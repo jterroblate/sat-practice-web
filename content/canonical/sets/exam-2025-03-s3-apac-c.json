@@ -1,0 +1,504 @@
+{
+  "schemaVersion": "sat-canonical-question-collection-v1",
+  "contentId": "set-exam-2025-03-s3-apac-c",
+  "title": "2025年3月机考真题第3套(亚太C卷) · 补充",
+  "section": "reading_writing",
+  "questionCount": 11,
+  "questions": [
+    {
+      "question_id": "bank_rw_001112",
+      "section": "reading_writing",
+      "question_number": 1,
+      "passage": "Io is among Jupiter's four largest moons and was discovered in 1610 by Galileo. Advances in space exploration and imaging technologies have since enabled scientists to discover even more moons orbiting Jupiter. For example, scientists used the [i]Voyager 1[/i] space probe to discover Adrastea in 1979. And more recently, researchers discovered 12 moons using the Dark Energy Camera at the Cerro Tololo Inter-American Observatory in Chile. As of 2023, the number of confirmed moons orbiting Jupiter was 95, and scientists think further exploration will reveal more.",
+      "prompt": "According to the text, in which year was Adrastea discovered?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1979"
+        },
+        {
+          "label": "B",
+          "text": "1892"
+        },
+        {
+          "label": "C",
+          "text": "2001"
+        },
+        {
+          "label": "D",
+          "text": "1610"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025年3月机考真题第3套(亚太C卷)",
+      "source_question_number": 7,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_001113",
+      "section": "reading_writing",
+      "question_number": 2,
+      "passage": "[i]The Wonderful Wizard of Oz[/i] is a 1900 novel by L. Frank Baum. In the novel, the narrator describes a character's house as having become very faded in appearance over time: ______",
+      "prompt": "Which quotation from [i]The Wonderful Wizard of Oz[/i] most effectively illustrates the claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"Before [Dorothy and her companions] was a great stretch of country having a floor as smooth and shining and white as the bottom of a big platter. Scattered around were many houses made entirely of china and painted in the brightest colors.\""
+        },
+        {
+          "label": "B",
+          "text": "\"There were four walls, a floor and a roof, which made one room; and this room contained a rusty looking cookstove, a cupboard for the dishes, a table, three or four chairs, and the beds.\""
+        },
+        {
+          "label": "C",
+          "text": "\"When Dorothy stood in the doorway and looked around, she could see nothing but the great gray prairie on every side. Not a tree nor a house broke the broad sweep of flat country.\""
+        },
+        {
+          "label": "D",
+          "text": "\"Once the house had been painted, but the sun blistered the paint and the rains washed it away, and now the house was as dull and gray as everything else.\""
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025年3月机考真题第3套(亚太C卷)",
+      "source_question_number": 9,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_001114",
+      "section": "reading_writing",
+      "question_number": 3,
+      "passage": "To help combat the growing rate of microplastic pollution, a team of researchers developed a synthetic sponge that can soak up microplastic particles from liquid. The sponge, composed mainly of starch and gelatin, does this by trapping the tiny particles within its pores. Guoqing Wang, one of the researchers, says that the formula for the sponge can be adjusted to best suit the size of particle the sponge is intended to trap, making it versatile in its potential applications. Chemist Christian Adlhart, however, claims that this sponge would be difficult to mass-produce.",
+      "prompt": "Which finding, if true, would most directly support Adlhart's claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Textiles are one of the largest sources of microplastic pollution in our oceans."
+        },
+        {
+          "label": "B",
+          "text": "The sponge created by Wang and his team has a relatively light weight for its volume, making it potentially easy to ship to different locations."
+        },
+        {
+          "label": "C",
+          "text": "The absorption capabilities of the sponge created by Wang and his team varied depending on the liquid solution used in the team's experiments."
+        },
+        {
+          "label": "D",
+          "text": "The worldwide supply of starch and gelatin is in high demand from the food industry, so those substances would be difficult to source in significant quantities."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025年3月机考真题第3套(亚太C卷)",
+      "source_question_number": 10,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_001118",
+      "section": "reading_writing",
+      "question_number": 4,
+      "passage": "While researching a topic, a student has taken the following notes:\n● Dinosaur fossil specimens can be found at science museums all over the world.\n● Many dinosaur fossil specimens are given nicknames.\n● The Denver Museum of Nature and Science in Denver, Colorado, houses a dinosaur fossil specimen nicknamed Pops.\n● Pops lived in the Late Cretaceous period, which ended more than 65 million years ago.\n● It is a member of the genus [i]Triceratops[/i].",
+      "prompt": "The student wants to provide an example of a dinosaur fossil specimen's nickname. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Nicknames are given to many dinosaur fossil specimens, including one housed at a museum in Denver, Colorado."
+        },
+        {
+          "label": "B",
+          "text": "A [i]Triceratops[/i] fossil specimen from the Late Cretaceous period, which ended more than 65 million years ago, is housed at the Denver Museum of Nature and Science."
+        },
+        {
+          "label": "C",
+          "text": "Dinosaur fossil specimens can be found at museums all over the world, and many of these specimens are given nicknames."
+        },
+        {
+          "label": "D",
+          "text": "Pops is the nickname of a [i]Triceratops[/i] fossil specimen housed at the Denver Museum of Nature and Science in Denver, Colorado."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025年3月机考真题第3套(亚太C卷)",
+      "source_question_number": 25,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001119",
+      "section": "reading_writing",
+      "question_number": 5,
+      "passage": "Mexican architect Luis Barragán's prolific career, which spanned the 1920s to the 1980s, evolved through distinct phases. After traveling to the United States and Europe in the early 1930s and immersing himself in a broader architectural discourse, Barragán shifted his style to incorporate principles of modernism, as seen in the Pizarro Suárez House. The project's unadorned geometric forms, typical of the modernist aesthetic, contrasted with the historically inspired architecture seen in his earlier projects in Guadalajara, such as the house in Calle Pedro Loza.",
+      "prompt": "Which choice best describes the overall structure of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It summarizes the career of a particular architect, states how a journey influenced that architect's career, and then emphasizes how influential that architect's career has been."
+        },
+        {
+          "label": "B",
+          "text": "It presents a general claim about a particular architect's career, describes the early stages of the architect's career, and then explains a later shift in that career."
+        },
+        {
+          "label": "C",
+          "text": "It explains the design aesthetic of a particular architect, acknowledges the sources of those design choices, and then contrasts that aesthetic with the designs of earlier architects."
+        },
+        {
+          "label": "D",
+          "text": "It provides a general statement about the career of a particular architect, highlights a transition in that career, and then expounds on the ways that transition is evident in the architect's work."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025年3月机考真题第3套(亚太C卷)",
+      "source_question_number": 5,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_001121",
+      "section": "reading_writing",
+      "question_number": 6,
+      "passage": "When Kenyan writer Ngũgĩ wa Thiong'o, who had previously published four novels in English, began writing in his native language, Gĩkũyũ, in the 1970s, several fellow writers and critics cautioned that doing so might make his works inaccessible outside his own community. Some noted that Kiswahili—widely spoken in Kenya and elsewhere in Africa—would be a more practical choice. Rejecting their arguments, Ngũgĩ went on to author dozens of acclaimed works in Gĩkũyũ that have been translated into a total of more than thirty languages.",
+      "prompt": "Which choice best states the main idea of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Although Ngũgĩ insisted on publishing his first works in Gĩkũyũ, they have since been translated into many other languages."
+        },
+        {
+          "label": "B",
+          "text": "Although Ngũgĩ's decision to write in Gĩkũyũ was met with some skepticism, it didn't prevent him from achieving literary success."
+        },
+        {
+          "label": "C",
+          "text": "The reaction to Ngũgĩ's rejection of English illustrates that some literary experts believe that fame is most easily gained by writing in a widely understood language,such as Gĩkũyũ."
+        },
+        {
+          "label": "D",
+          "text": "In the 1970s, Ngũgĩ became convinced that literature ought to be written in authors' native languages, and he proceeded to publish many works in Gĩkũyũ."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025年3月机考真题第3套(亚太C卷)",
+      "source_question_number": 8,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_001123",
+      "section": "reading_writing",
+      "question_number": 7,
+      "passage": "Like many other genera of wild bees, bumblebees have in recent decades experienced population collapse caused by, among other factors, habitat destruction and climate variation. Bumblebees are also one of the most researched bee genera, second only to honeybees. As a result, ecologists have gained much of their insight about wild-bee declines from bumblebees. In a 2021 paper, zoologist Guillaume Ghisbain notes that bumblebees are among the relatively few wild-bee genera that display social behaviors and dietary generalism (ability to obtain nectar and pollen from a diversity of plant species), two traits that are associated with increased resilience to some specific environmental changes. Ghisbain therefore contends that ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "because bumblebees and other bees with generalist diets are less negatively affected by environmental stress than bees with specialized diets are, they are less likely to experience major population changes in the future than bees with specialized diets are."
+        },
+        {
+          "label": "B",
+          "text": "although bumblebees have been more extensively studied than most wild bees, researchers should not use bumblebees to draw conclusions about the decline of other wild bees, even ones with feeding patterns and levels of sociability that are similar to those of bumblebees."
+        },
+        {
+          "label": "C",
+          "text": "although bumblebees and many other wild bees have experienced similar population declines in the past, compared with other wild bees, bumblebees are likely at greater risk of being harmed by climate variation than by habitat destruction."
+        },
+        {
+          "label": "D",
+          "text": "because the responses of bumblebees and other wild bees to environmental threats are not always comparable, researchers need to exercise caution when extrapolating information about wild-bee population declines from bumblebees."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025年3月机考真题第3套(亚太C卷)",
+      "source_question_number": 12,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_001124",
+      "section": "reading_writing",
+      "question_number": 8,
+      "passage": "The Austronesian language family comprises some 1,200 languages—including the ______ Gilbertese and Tongan, which are spoken by 120,000 and 108,000 speakers, respectively—and accounts for one-fifth of the world's languages, making it of keen interest to linguists like Marian Klamer.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "languages,"
+        },
+        {
+          "label": "B",
+          "text": "languages:"
+        },
+        {
+          "label": "C",
+          "text": "languages"
+        },
+        {
+          "label": "D",
+          "text": "languages—"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年3月机考真题第3套(亚太C卷)",
+      "source_question_number": 17,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries"
+      }
+    },
+    {
+      "question_id": "bank_rw_001125",
+      "section": "reading_writing",
+      "question_number": 9,
+      "passage": "Recent analysis of 1999 OX3—an outer solar system object orbiting the Sun between Jupiter and Neptune—has determined its color to be red, suggesting a rocky composition. Such interpretations are ultimately ______ the object's red coloration may be an incidental effect of radiation, solar wind, or collisions with other objects rather than evidence of its physical makeup.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "speculative; though"
+        },
+        {
+          "label": "B",
+          "text": "speculative, though,"
+        },
+        {
+          "label": "C",
+          "text": "speculative, though"
+        },
+        {
+          "label": "D",
+          "text": "speculative, though;"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025年3月机考真题第3套(亚太C卷)",
+      "source_question_number": 19,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries"
+      }
+    },
+    {
+      "question_id": "bank_rw_001126",
+      "section": "reading_writing",
+      "question_number": 10,
+      "passage": "Despite its great distance from Earth—it is 570 light-years away-the star Shaula is one of the brightest stars in the sky, ranking 23rd. Although not as bright as Shaula, the star Alsephina also ranks among the 50 brightest stars (45th, to be exact). ______ Alsephina's brightness is likely due to the star's relative proximity: Alsephina is only 80 light-years from Earth.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Indeed,"
+        },
+        {
+          "label": "B",
+          "text": "As a result,"
+        },
+        {
+          "label": "C",
+          "text": "Granted,"
+        },
+        {
+          "label": "D",
+          "text": "Similarly,"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年3月机考真题第3套(亚太C卷)",
+      "source_question_number": 22,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001127",
+      "section": "reading_writing",
+      "question_number": 11,
+      "passage": "• The South Sudan Workers Trade Union Federation (SSWTUF) is a national union federation for the African nation of south sudan.\n• It helps improve conditions for workers in that nation.\n• ITUC-Africa is a regional union federation that represents national union federations across Africa.\n• It represents the SSWTUE.",
+      "prompt": "Which choice most effectively uses information from the given sentences to explain the purpose of national union federations?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The SSWTUF is one of the national union federations represented by ITUC-Africa."
+        },
+        {
+          "label": "B",
+          "text": "Regional union federations like ITUC-Arica represent the national union federations in a specific area."
+        },
+        {
+          "label": "C",
+          "text": "National union federations, such as the SSWTUE, work to improve conditions for workers in their member nations."
+        },
+        {
+          "label": "D",
+          "text": "The SSWTUF is a national union federation in Africa."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年3月机考真题第3套(亚太C卷)",
+      "source_question_number": 25,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    }
+  ]
+}

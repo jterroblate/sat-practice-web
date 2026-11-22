@@ -1,0 +1,1044 @@
+{
+  "schemaVersion": "sat-canonical-question-collection-v1",
+  "contentId": "collection-bank-rhetorical-synthesis-hard",
+  "title": "Rhetorical Synthesis · Hard",
+  "section": "reading_writing",
+  "questionCount": 23,
+  "questions": [
+    {
+      "question_id": "bank_rw_001821",
+      "section": "reading_writing",
+      "question_number": 1,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• As engineered structures, many bird nests are uniquely flexible yet cohesive.\n• A research team led by Yashraj Bhosale wanted to better understand the mechanics behind these structural properties.\n• Bhosale's team used laboratory models that simulated the arrangement of flexible sticks into nest-like structures.\n• The researchers analyzed the points where sticks touched one another.\n• When pressure was applied to the model nests, the number of contact points between the sticks increased, making the structures stiffer.",
+      "prompt": "The student wants to present the primary aim of the research study. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Bhosale's team wanted to better understand the mechanics behind bird nests' uniquely flexible yet cohesive structural properties."
+        },
+        {
+          "label": "B",
+          "text": "The researchers used laboratory models that simulated the arrangement of flexible sticks and analyzed the points where sticks touched one another."
+        },
+        {
+          "label": "C",
+          "text": "After analyzing the points where sticks touched, the researchers found that the structures became stiffer when pressure was applied."
+        },
+        {
+          "label": "D",
+          "text": "As analyzed by Bhosale's team, bird nests are uniquely flexible yet cohesive engineered structures."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Hard",
+      "source_question_number": 1,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. It describes the reason Bhosale's team wanted to study the structures of bird nests-that is to say, the study's primary aim.\n\nChoice B is incorrect. This choice doesn't present the primary aim of the research study. It describes how the study worked, but not why it was done. Choice C is incorrect. This choice doesn't present the primary aim of the research study. It describes a result of the experiment, but not why it was carried out. Choice D is incorrect. This choice doesn't present the primary aim of the research study.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001822",
+      "section": "reading_writing",
+      "question_number": 2,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• The [i]Atlantic Monthly[/i] magazine was first published in 1857.\n• The magazine focused on politics, art, and literature.\n• In 2019, historian Cathryn Halverson published the book [i]Faraway Women and the \"Atlantic Monthly[/i].\"\n• Its subject is female authors whose autobiographies appeared in the magazine in the early 1900s.\n• One of the authors discussed is Juanita Harrison.",
+      "prompt": "The student wants to introduce Cathryn Halverson's book to an audience already familiar with the [i]Atlantic Monthly[/i]. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Cathryn Halverson's [i]Faraway Women and the \"Atlantic Monthly\"[/i] discusses female authors whose autobiographies appeared in the magazine in the early 1900s."
+        },
+        {
+          "label": "B",
+          "text": "A magazine called the [i]Atlantic Monthly[/i], referred to in Cathryn Halverson's book title, was first published in 1857."
+        },
+        {
+          "label": "C",
+          "text": "[i]Faraway Women and the \"Atlantic Monthly\" [/i]features contributors to the [i]Atlantic Monthly[/i], first published in 1857 as a magazine focusing on politics, art, and literature."
+        },
+        {
+          "label": "D",
+          "text": "An author discussed by Cathryn Halverson is Juanita Harrison, whose autobiography appeared in the [i]Atlantic Monthly[/i] in the early 1900s."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Hard",
+      "source_question_number": 2,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. The sentence effectively introduces Cathryn Halverson's book to an audience already familiar with the [i]Atlantic Monthly[/i], noting the title of Halverson's book and describing its content without providing background information about the[i] Atlantic Monthly[/i].\n\nChoice B is incorrect. The sentence introduces the [i]Atlantic Monthly[/i] and mentions that it's referred to in Cathryn Halverson's book title; it doesn't effectively introduce Halverson's book. Choice C is incorrect. The sentence assumes that the audience is unfamiliar with the [i]Atlantic Monthly[/i], providing background information about the magazine; it doesn't effectively introduce Halverson's book to an audience already familiar with the [i]Atlantic Monthly[/i]. Choice D is incorrect. While the sentence assumes that the audience is familiar with the [i]Atlantic Monthly[/i], it doesn't effectively introduce Cathryn Halverson's book.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001823",
+      "section": "reading_writing",
+      "question_number": 3,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• The Million Song Dataset (MSD) includes main audio features and descriptive tags for popular songs.\n• Audio features include acoustic traits such as loudness and pitch intervals.\n• Many algorithms use these audio features to predict a new song's popularity.\n• These algorithms may fail to accurately identify main audio features of a song with varying acoustic traits.\n• Algorithms based on descriptive tags that describe fixed traits such as genre are more reliable predictors of song popularity.",
+      "prompt": "The student wants to explain a disadvantage of relying on audio features to predict a song's popularity. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Many popularity-predicting algorithms are based on a song's audio features, such as loudness and pitch intervals."
+        },
+        {
+          "label": "B",
+          "text": "Algorithms based on audio features may misidentify the main features of a song with varying acoustic traits, making such algorithms less reliable predictors of popularity than those based on fixed traits."
+        },
+        {
+          "label": "C",
+          "text": "Audio features describe acoustic traits such as pitch intervals, which may vary within a song, whereas descriptive tags describe fixed traits such as genre, which are reliable predictors of popularity."
+        },
+        {
+          "label": "D",
+          "text": "The MSD's descriptive tags are reliable predictors of a song's popularity, as the traits they describe are fixed."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Hard",
+      "source_question_number": 3,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer. This choice uses relevant information from the notes to explain a disadvantage of relying on audio features to predict a song's popularity-namely, that it may misidentify features of certain songs. It also contrasts audio features with descriptive tags, which are more reliable predictors.\n\nChoice A is incorrect. This choice only states a fact about the algorithms without evaluating their reliability or accuracy. Choice C is incorrect. This choice only describes the difference between audio features and descriptive tags without indicating why this difference matters for predicting popularity. Choice D is incorrect. This choice only mentions descriptive tags, which are not the focus of the student’s rhetorical goal.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001824",
+      "section": "reading_writing",
+      "question_number": 4,
+      "passage": "While researching a topic, a student has taken the following notes:\n• Some powerful works of literature have so influenced readers that new legislation has been passed as a result.\n• [i]The Interesting Narrativeof the Life of Olaudah Equiano[/i] (1789) is the autobiography of a man who endured slavery on both sides of the Atlantic.\n• Equiano's book contributed to the passage of the Slave Trade Act of 1807.\n• [i]The Jungle [/i] (1906) is a fictional work by Upton Sinclair that describes unsanitary conditions in US meatpacking plants.\n• Sinclair's book contributed to the passage of the Pure Food and Drug Act in 1906.",
+      "prompt": "The student wants to emphasize a difference between the two books. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Although both are powerful works of literature that contributed to new legislation, Equiano's book is an autobiography, while Sinclair's is fictional."
+        },
+        {
+          "label": "B",
+          "text": "They may have written about different topics, but Equiano and Sinclair both influenced readers."
+        },
+        {
+          "label": "C",
+          "text": "The 1807 Slave Trade Act resulted in part from a book by Equiano, while the 1906 Pure Food and Drug Act resulted in part from a book by Sinclair."
+        },
+        {
+          "label": "D",
+          "text": "[i]The Interesting Narrative of the Life of Olaudah Equiano[/i] and [i]The Jungle[/i] are two works of literature that contributed to new legislation (concerning the slave trade and food safety, respectively)."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Hard",
+      "source_question_number": 4,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. This choice emphasizes a difference between the two books by using relevant information from the notes to contrast their genres.\n\nChoice B is incorrect. This choice mentions a difference between the books (their different topics), but it emphasizes a similarity between the books (their influence on readers). Choice C is incorrect. This choice provides information about the books that reflects both a similarity (both resulted in new laws) and a difference (the specific laws that resulted), without emphasizing either. Choice D is incorrect. This choice doesn't emphasize a difference between the two books. Instead, it [i]emphasizes a similarity[/i].",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001825",
+      "section": "reading_writing",
+      "question_number": 5,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• One of history's greatest libraries was the House of Wisdom in Baghdad, Iraq.\n• It was founded in the eighth century with the goal of preserving all the world's knowledge.\n• Scholars at the House of Wisdom collected ancient and contemporary texts from Greece, India, and elsewhere and translated them into Arabic.\n• Writings included those of the Greek philosopher Aristotle and the Indian mathematician Aryabhata.\n• The House of Wisdom used Chinese papermaking technology to create paper versions to be studied and shared.",
+      "prompt": "The student wants to explain how the House of Wisdom preserved the world's knowledge. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The House of Wisdom was known for bringing together knowledge from around the world, including from Greece, India, and China."
+        },
+        {
+          "label": "B",
+          "text": "Founded in Iraq in the eighth century, the House of Wisdom employed many scholars as translators."
+        },
+        {
+          "label": "C",
+          "text": "Writings from the Greek philosopher Aristotle and the Indian mathematician Aryabhata were preserved at the House of Wisdom."
+        },
+        {
+          "label": "D",
+          "text": "The House of Wisdom collected writings from different countries and created paper versions in Arabic to be studied and shared."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Hard",
+      "source_question_number": 5,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. The sentence explains how the House of Wisdom preserved the world's knowledge, noting that the library collected, translated, and printed writings from different countries.\n\nChoice A is incorrect. While the sentence indicates that the House of Wisdom was known for bringing together knowledge from around the world, it doesn't explain how the library preserved this knowledge. Choice B is incorrect. The sentence makes a generalization about the scholars who were employed by the House of Wisdom; it doesn't explain how the library preserved the world's knowledge. Choice C is incorrect. The sentence identifies two authors whose writings were preserved at the House of Wisdom; it doesn't explain how the library preserved the world's knowledge.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001826",
+      "section": "reading_writing",
+      "question_number": 6,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• In 1971, experimental musician Pauline Oliveros created [i]Sonic Meditations.[/i]\n• [i]Sonic Meditations[/i] is not music but rather a series of sound-based exercises called meditations.\n• Each meditation consists of instructions for participants to make, imagine, listen to, or remember sounds.\n• The instructions for Meditation V state, \"walk so silently that the bottoms of your feet become ears.\"\n• Those for Meditation XVIII state, \"listen to a sound until you no longer recognize it.\"",
+      "prompt": "The student wants to provide an explanation and an example of Oliveros's [i]Sonic Meditations[/i]. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "[i]Sonic Meditations[/i] is not music but rather a series of sound-based meditations that consist of instructions; Meditation XVIII, for instance, instructs participants to \"listen to a sound until you no longer recognize it.\""
+        },
+        {
+          "label": "B",
+          "text": "In 1971, Oliveros created [i]Sonic Meditations[/i], a series of meditations that consist of instructions for participants to make, imagine, listen to, or remember sounds."
+        },
+        {
+          "label": "C",
+          "text": "\"Walk so silently that the bottoms of your feet become ears\" is one example of the instructions found in Oliveros's [i]Sonic Meditations.[/i]"
+        },
+        {
+          "label": "D",
+          "text": "While both meditations consist of instructions, Meditation XVIII instructs participants to \"listen,\" whereas Meditation V instructs participants to \"walk.\""
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Hard",
+      "source_question_number": 6,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. It describes what a \"Sonic Meditation\" is, and then gives an example in the form of Meditation XVIII.\n\nChoice B is incorrect. This choice describes what a \"Sonic Meditation\" is, but doesn't give an example of one. Choice C is incorrect. This choice gives an example of a \"Sonic Meditation,\" but doesn't explain what the meditations are. Choice D is incorrect. This choice doesn't describe what a \"Sonic Meditation\" is.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001827",
+      "section": "reading_writing",
+      "question_number": 7,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• British musicians John Lennon and Paul McCartney shared writing credit for numerous Beatles songs.\n• Many Lennon-McCartney songs were actually written by either Lennon or McCartney, not by both.\n• The exact authorship of specific parts of many Beatles songs, such as the verse for \"In My Life,\" is disputed.\n• Mark Glickman, Jason Brown, and Ryan Song used statistical methods to analyze the musical content of Beatles songs.\n• They concluded that there is 18.9% probability that McCartney wrote the verse for \"In My Life,\" stating that the verse is \"consistent with Lennon's songwriting style.\"",
+      "prompt": "The student wants to make a generalization about the kind of study conducted by Glickman, Brown, and Song. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Based on statistical analysis, Glickman, Brown, and Song claim that John Lennon wrote the verse of \"In My Life.\""
+        },
+        {
+          "label": "B",
+          "text": "There is only an 18.9% probability that Paul McCartney wrote the verse for \"In My Life\"; John Lennon is the more likely author."
+        },
+        {
+          "label": "C",
+          "text": "It is likely that John Lennon, not Paul McCartney, wrote the verse for \"In My Life.\""
+        },
+        {
+          "label": "D",
+          "text": "Researchers have used statistical methods to address questions of authorship within the field of music."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Hard",
+      "source_question_number": 7,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. The sentence uses information from the notes to make a generalization about the kind of study Glickman, Brown, and Song conducted. Specifically, the sentence indicates that the study was of a kind that used statistical methods to address questions of authorship within the field of music.\n\nChoice A is incorrect because the sentence summarizes the methodology and findings of a particular analysis of a single song; it doesn't make a generalization about the kind of study conducted. Choice B is incorrect because the sentence mentions the data and conclusion of a particular analysis of a single song; it doesn't make a generalization about the kind of study conducted. Choice C is incorrect because the sentence focuses on a specific conclusion from a particular analysis of a single song; it doesn't make a generalization about the kind of study conducted.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001828",
+      "section": "reading_writing",
+      "question_number": 8,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Freddie Wong (born 1985) is a director and special effects artist from the United States.\n• He is best known for the action-comedy web series [i]Video Game High School (VGHS)[/i].\n• [i]VGHS[/i] premiered in 2012 on RocketJump, a YouTube channel that Wong cocreated.\n• The series was celebrated for its inventive video game-centric world and high-quality special effects.\n• [i]VGHS[/i] was nominated for a Producers Guild Award for Outstanding Digital Series.",
+      "prompt": "The student wants to begin a narrative about Wong's award-nominated web series. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "In 2012, director and visual effects artist Freddie Wong launched a new action-comedy web series: [i]Video Game High School.[/i]"
+        },
+        {
+          "label": "B",
+          "text": "[i]Video Game High School[/i] was celebrated for its inventive video game-centric world and high-quality special effects, and it was nominated for a Producer's Guild Award for Outstanding Digital Series."
+        },
+        {
+          "label": "C",
+          "text": "Wong, cocreator of the YouTube channel RocketJump, would go on to see his web series be nominated for a Producers Guild Award."
+        },
+        {
+          "label": "D",
+          "text": "In 2012, [i]Video Game High School[/i] premiered on RocketJump; it would later be nominated for an award."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Hard",
+      "source_question_number": 8,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. This choice introduces Wong and [i]VGHS[/i] in an active and specific way, as if to an audience unfamiliar with the series. It also sets up the time and genre of the web series, which are useful ways to introduce the series of events in a narrative.\n\nChoice B is incorrect. This choice isn't suited for beginning a narrative. A narrative is a story that follows a sequence of events and creates interest and suspense for the reader. This choice jumps to the end, explaining the success of [i]VGHS[/i] without explaining what it is. Choice C is incorrect. This choice isn't suited for beginning a narrative. It doesn't actually introduce the web series by name. It just jumps to later in the story without sufficient explanation. Choice D is incorrect. This choice is not very effective for beginning a narrative. It doesn't explain what [i]VGHS[/i] is, and it doesn't mention Wong.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001829",
+      "section": "reading_writing",
+      "question_number": 9,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• The magnificent frigatebird ([i]fregata magnificens[/i]) is a species of seabird that feeds mainly on fish, tuna, squid, and other small sea animals.\n• It is unusual among seabirds in that it doesn't dive into the water for prey.\n• One way it acquires food is by using its hook-tipped bill to snatch prey from the surface of the water.\n• Another way it acquires food is by taking it from weaker birds by force.\n• This behavior is known as kleptoparasitism.",
+      "prompt": "The student wants to emphasize a similarity between the two ways a magnificent frigatebird acquires food. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A magnificent frigatebird never dives into the water, instead using its hook-tipped bill to snatch prey from the surface."
+        },
+        {
+          "label": "B",
+          "text": "Neither of a magnificent frigatebird's two ways of acquiring food requires the bird to dive into the water."
+        },
+        {
+          "label": "C",
+          "text": "Of the magnificent frigatebird's two ways of acquiring food, only one is known as kleptoparasitism."
+        },
+        {
+          "label": "D",
+          "text": "In addition to snatching prey from the water with its hook-tipped bill, a magnificent frigatebird takes food from other birds by force."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Hard",
+      "source_question_number": 9,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer. The sentence emphasizes a similarity between the two ways a magnificent frigatebird acquires food, noting that neither way requires the seabird to dive into the water.\n\nChoice A is incorrect. The sentence describes how a magnificent frigatebird captures prey without diving into water; it doesn't emphasize a similarity between the two ways the seabird acquires food. Choice C is incorrect. The sentence notes the term used to describe one of the two ways that magnificent frigatebirds acquire food; it doesn't emphasize a similarity between the two ways. Choice D is incorrect. The sentence describes the two ways that a magnificent frigatebird acquires food; it doesn't emphasize a similarity between the two ways.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001830",
+      "section": "reading_writing",
+      "question_number": 10,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Ulaanbaatar is the capital of Mongolia.\n• The city's population is 907,802.\n• Ulaanbaatar contains 31.98 percent of Mongolia's population.\n• Hanoi is the capital of Vietnam.\n• The city's population is 7,781,631.\n• Hanoi contains 8.14 percent of Vietnam's population.",
+      "prompt": "The student wants to emphasize the relative sizes of the two capitals' populations. Which choice most effectively uses information from the given sentences to emphasize the relative sizes of the two capitals' populations?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Mongolia's capital is Ulaanbaatar, which has 907,802 people, and Vietnam's capital is Hanoi, which has 7,781,631 people."
+        },
+        {
+          "label": "B",
+          "text": "Comparing Vietnam and Mongolia, 7,781,631 is 8.14 percent of Vietnam's population, and 907,802 is 31.98 percent of Mongolia's."
+        },
+        {
+          "label": "C",
+          "text": "Even though Hanoi (population 7,781,631) is larger than Ulaanbaatar (population 907,802), Ulaanbaatar accounts for more of its country's population."
+        },
+        {
+          "label": "D",
+          "text": "The populations of the capitals of Mongolia and Vietnam are 907,802 (Ulaanbaatar) and 7,781,631 (Hanoi), respectively."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Hard",
+      "source_question_number": 10,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer. The sentence emphasizes the relative sizes of the capital cities' populations, noting that even though Hanoi has more people overall, Ulaanbaatar accounts for a larger percentage of the people in its country.\n\nChoice A is incorrect. While the sentence indicates the population size of each capital, it fails to emphasize their sizes relative to each other or to their countries’ overall population sizes. Choice B is incorrect. The sentence emphasizes the population sizes of the two countries; it fails to mention the capitals. Choice D is incorrect. While the sentence indicates the population size of each capital, it fails to emphasize their sizes relative to each other or to their countries' overall population sizes.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001831",
+      "section": "reading_writing",
+      "question_number": 11,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• The popular wood-wide web theory posits that trees can communicate and exchange resources with one another via common mycorrhizal networks (CMNs) of fungi.\n• Ecologist Dr. Suzanne Simard first suggested this theory in 1997.\n• She described trees as \"super-cooperators.\"\n• In the 2022 study \"The Decay of the Wood-Wide Web?,\" mycologist Dr. Justine Karst and colleagues evaluated dozens of CMN studies.\n• They write that CMNs \"have captured the interest of broad audiences. We are concerned, however, that recent claims about CMNs in forests are disconnected from evidence.\"",
+      "prompt": "The student wants to use a quotation to emphasize a potential problem with the wood-wide web theory. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Describing trees as \"super-cooperators,\" Simard first suggested that trees can exchange resources with one another in 1997."
+        },
+        {
+          "label": "B",
+          "text": "In \"The Decay of the Wood-Wide Web?,\" Karst and colleagues note that common mycorrhizal networks \"have captured the interest of broad audiences.\""
+        },
+        {
+          "label": "C",
+          "text": "After evaluating dozens of CMN studies, Karst and colleagues expressed concern that recent claims about common mycorrhizal networks are \"disconnected from evidence.\""
+        },
+        {
+          "label": "D",
+          "text": "Despite the concerns expressed in the 2022 study \"The Decay of the Wood-Wide Web?,\" the wood-wide web theory remains popular."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Hard",
+      "source_question_number": 11,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer. This choice uses a quotation to convey the authors' criticism and challenge to the wood-wide web theory due to an absence of evidence.\n\nChoice A is incorrect. This choice doesn't emphasize a potential problem with the wood-wide web theory. It uses a quotation to introduce the theory and its originator. It doesn't mention any criticism or challenge to the theory. Choice B is incorrect. This choice uses a quotation, but it doesn't emphasize a potential problem with the wood-wide web theory. It uses a quotation to describe the appeal and interest of the theory, but it doesn't indicate why the authors are concerned or what evidence they have. Choice D is incorrect. This choice doesn't use a quotation at all. It paraphrases the main idea of the 2022 study, but it doesn't include any specific words or phrases from the notes. It also doesn't emphasize a potential problem with the theory, but rather its popularity.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001832",
+      "section": "reading_writing",
+      "question_number": 12,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• The Gullah are a group of African Americans who have lived in parts of the southeastern United States since the 18th century.\n• Gullah culture is influenced by West African and Central African traditions.\n• Louise Miller Cohen is a Gullah historian, storyteller, and preservationist.\n• She founded the Gullah Museum of Hilton Head Island, South Carolina, in 2003.\n• Vermelle Rodrigues is a Gullah historian, artist, and preservationist.\n• She founded the Gullah Museum of Georgetown, South Carolina, in 2003.",
+      "prompt": "The student wants to emphasize the duration and purpose of Cohen's and Rodrigues's work. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "At the Gullah Museums in Hilton Head Island and Georgetown, South Carolina, visitors can learn more about the Gullah people who have lived in the region for centuries."
+        },
+        {
+          "label": "B",
+          "text": "Louise Miller Cohen and Vermelle Rodrigues have worked to preserve the culture of the Gullah people, who have lived in the United States since the 18th century."
+        },
+        {
+          "label": "C",
+          "text": "Since 2003, Louise Miller Cohen and Vermelle Rodrigues have worked to preserve Gullah culture through their museums."
+        },
+        {
+          "label": "D",
+          "text": "Influenced by the traditions of West and Central Africa, Gullah culture developed in parts of the southeastern United States in the 18th century."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Hard",
+      "source_question_number": 12,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer. The sentence emphasizes both the duration (the length of time) and the purpose of Cohen's and Rodrigues's work by noting that the women have been working since 2003 to preserve Gullah culture.\n\nChoice A is incorrect. While the sentence emphasizes what visitors to Cohen's and Rodrigues's museums can learn, it doesn't mention the duration or purpose of the women's work. Choice B is incorrect. While the sentence emphasizes the purpose of Cohen's and Rodrigues's work, it doesn't mention the duration of that work (the length of time the women have been working to preserve Gullah culture). Choice D is incorrect. While the sentence emphasizes where and when Gullah culture developed, it doesn't mention the duration or purpose of Cohen's and Rodrigues's work.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001833",
+      "section": "reading_writing",
+      "question_number": 13,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• A thermal inversion is a phenomenon where a layer of atmosphere is warmer than the layer beneath it.\n• In 2022, a team of researchers studied the presence of thermal inversions in twenty-five gas giants.\n• Gas giants are planets largely composed of helium and hydrogen.\n• The team found that gas giants featuring a thermal inversion were also likely to contain heat-absorbing metals.\n• One explanation for this relationship is that these metals may reside in a planet's upper atmosphere, where their absorbed heat causes an increase in temperature.",
+      "prompt": "The student wants to present the study's findings to an audience already familiar with thermal inversions. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Heat-absorbing metals may reside in a planet's upper atmosphere."
+        },
+        {
+          "label": "B",
+          "text": "The team studied thermal inversions in twenty-five gas giants, which are largely composed of helium and hydrogen."
+        },
+        {
+          "label": "C",
+          "text": "Researchers found that gas giants featuring a thermal inversion were likely to contain heat-absorbing metals, which may reside in the planets' upper atmospheres."
+        },
+        {
+          "label": "D",
+          "text": "Gas giants were likely to contain heat-absorbing metals when they featured a layer of atmosphere warmer than the layer beneath it, researchers found; this phenomenon is known as a thermal inversion."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Hard",
+      "source_question_number": 13,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer. It describes the study's findings in a way that assumes the audience is already familiar with thermal inversions.\n\nChoice A is incorrect. This choice doesn't fully describe the findings of the study, because it doesn't include anything about thermal inversions. Choice B is incorrect. This choice doesn't describe the study's findings. Choice D is incorrect. This choice isn't suited for an audience already familiar with thermal inversion. A familiar audience wouldn't need to have the term defined.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001834",
+      "section": "reading_writing",
+      "question_number": 14,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• A commodity chain is the series of links connecting the production and purchase of a commodity on the world market.\n• Chinese American anthropologist Anna Tsing studies the contemporary commodity chain of matsutake mushrooms.\n• At one end of the matsutake chain are mushroom pickers in Oregon.\n• At the other end are wealthy consumers who buy the costly matsutake in Japan.\n• According to Tsing, \"Japanese traders began importing matsutake in the 1980s, when the scarcity of matsutake in Japan first became clear.\"",
+      "prompt": "The student wants to provide an overview of the matsutake commodity chain. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The contemporary matsutake commodity chain has its origins in the 1980s when, according to Tsing, \"the scarcity of matsutake in Japan first became clear.\""
+        },
+        {
+          "label": "B",
+          "text": "Commodity chains include the linked production and purchase of commodities, such as the matsutake mushroom, on the world market."
+        },
+        {
+          "label": "C",
+          "text": "Decades after the Japanese import of matsutake began, a commodity chain now links matsutake pickers in Oregon with wealthy consumers of the costly mushrooms in Japan."
+        },
+        {
+          "label": "D",
+          "text": "Wealthy consumers who buy the costly mushrooms in Japan are at one end of the matsutake commodity chain."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Hard",
+      "source_question_number": 14,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer. The sentence provides an overview of the matsutake commodity chain, connecting the Oregon mushroom pickers at one end to the Japanese consumers at the other.\n\nChoice A is incorrect. While the sentence mentions the matsutake commodity chain, it focuses only on its origins; it does not provide an overview. Choice B is incorrect. The sentence provides a general definition of commodity chains, not an overview of the matsutake chain. Choice D is incorrect. While the sentence mentions the matsutake commodity chain, it focuses only on one end of the chain (the consumers); it does not provide an overview.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001835",
+      "section": "reading_writing",
+      "question_number": 15,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Archaeologist Jon Erlandson and colleagues argue that humans first arrived in the Americas by sea.\n• They propose that humans traveled between Pacific Ocean islands and coastlines from northeast Asia to the Americas.\n• Many of these islands and coastal zones were later submerged as glaciers melted and sea levels rose.\n• The researchers think that \"a coastal route, including kelp forests and estuaries, would have provided a rich mix of marine, estuarine, riverine, and terrestrial resources\" such as seaweeds, fish, and birds.\n• This proposed scenario is known as the kelp highway hypothesis.",
+      "prompt": "The student wants to summarize the kelp highway hypothesis. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Pacific Ocean islands and coastlines likely contained \"a rich mix of marine, estuarine, riverine, and terrestrial resources\" such as seaweeds, fish, and birds, according to researchers."
+        },
+        {
+          "label": "B",
+          "text": "One argument about how humans first arrived in the Americas is the kelp highway hypothesis proposed by Jon Erlandson and colleagues."
+        },
+        {
+          "label": "C",
+          "text": "Humans may have first arrived in the Americas by sea, traveling between Pacific Ocean islands and coastlines and subsisting on a variety of resources."
+        },
+        {
+          "label": "D",
+          "text": "As glaciers melted and sea levels rose, many Pacific Ocean islands and coastal zones were submerged."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Hard",
+      "source_question_number": 15,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer. This choice summarizes the main idea of the kelp highway hypothesis, providing a high-level overview of how the hypothesis explains human migration to the Americas.\n\nChoice A is incorrect. This choice describes one aspect of the proposed scenario but doesn't discuss human migration, which is the main focus of the kelp highway hypothesis. Choice B is incorrect. This choice introduces the kelp highway hypothesis but doesn't explain what it entails. Choice D is incorrect. This choice describes one element of the proposed scenario but doesn't discuss human migration, which is the main focus of the kelp highway hypothesis.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001836",
+      "section": "reading_writing",
+      "question_number": 16,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Astronomers estimate that the number of comets orbiting the Sun is in the billions.\n• 81P/Wild is one of many comets whose orbit has changed over time.\n• 81P/Wild's orbit once lay between the orbits of Uranus and Jupiter.\n• The comet's orbit is now positioned between the orbits of Jupiter and Mars.",
+      "prompt": "The student wants to make and support a generalization about the orbits of comets. Which choice most effectively uses relevant information from the notes to accomplish these goals?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Astronomers estimate that the number of comets orbiting the Sun is in the billions; the comets' orbits may change over time."
+        },
+        {
+          "label": "B",
+          "text": "Like Uranus, Jupiter, and Mars, billions of comets orbit the Sun."
+        },
+        {
+          "label": "C",
+          "text": "One example of a comet is 81P/Wild, whose orbit around the Sun once lay between Uranus's and Jupiter's orbits but is now positioned between those of Jupiter and Mars."
+        },
+        {
+          "label": "D",
+          "text": "A comet's orbit around the Sun may change over time: the orbit of comet 81P/Wild once lay between the orbits of Uranus and Jupiter but is now positioned between those of Jupiter and Mars."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Hard",
+      "source_question_number": 16,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. The sentence makes a generalization-that a comet's orbit around the Sun may change over time-and supports the generalization with the example of the orbit of comet 81P/Wild, which once lay between the orbits of Uranus and Jupiter but is now positioned between the orbits of Jupiter and Mars.\n\nChoice A is incorrect. The sentence emphasizes the number of comets orbiting the Sun and makes a generalization about their orbits, but it doesn't support the generalization with an example. Choice B is incorrect. The sentence makes a generalization about comets and compares them to the planets Uranus, Jupiter, and Mars; it doesn't make and support a generalization about comets' orbits. Choice C is incorrect. While the sentence provides an example of a comet whose orbit has changed, it doesn't make a generalization about the orbits of comets.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001837",
+      "section": "reading_writing",
+      "question_number": 17,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Neuroscientists Krishnan Padmanabhan and Zhen Chen sought to better understand the workings of the brain's olfactory system.\n• They devised a study using mathematical models.\n• They found that certain fibers allow the brain to toggle from one method of processing smells to another.\n• In one method, cells in the piriform cortex (where the perception of odor forms) capture olfactory information at a given moment.\n• In the other, the cells track changes in olfactory information over time.",
+      "prompt": "The student wants to summarize the study's findings. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To arrive at these findings, which describe dual methods of processing smells in the piriform cortex, Padmanabhan and Chen devised a study using mathematical models."
+        },
+        {
+          "label": "B",
+          "text": "Padmanabhan and Chen showed that olfactory information is captured by cells in the piriform cortex, where the perception of odor forms."
+        },
+        {
+          "label": "C",
+          "text": "Using mathematical models, Padmanabhan and Chen devised a study to better understand the workings of the brain's olfactory system."
+        },
+        {
+          "label": "D",
+          "text": "According to Padmanabhan and Chen, the brain can toggle between capturing olfactory information at a given moment and tracking changes in that information over time."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Hard",
+      "source_question_number": 17,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. The sentence effectively summarizes the study's findings, explaining what Padmanabhan and Chen found: that the brain can toggle between one method of processing smells (capturing information at a given moment) and another (tracking changes in information over time).\n\nChoice A is incorrect. While the sentence mentions findings, it mainly focuses on Padmanabhan and Chen's methodology. It doesn't effectively summarize the study's findings. Choice B is incorrect. The sentence notes a fact about the olfactory system-that the perception of odor forms in the piriform cortex-but doesn't summarize the findings of Padmanabhan and Chen's study. Choice C is incorrect. The sentence presents the goal of Padmanabhan and Chen's study; it doesn't summarize the study's findings.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001838",
+      "section": "reading_writing",
+      "question_number": 18,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Nissologists are scientists who study islands.\n• Some nissologists define an island as any piece of land surrounded by water.\n• Using that definition, they determined that Sweden has 221,000 islands.\n• Other nissologists define an island as being 1 kilometer square, a certain distance from the mainland, and having at least 50 permanent residents.\n• Using that definition, they determined that Sweden has 24 islands.",
+      "prompt": "The student wants to make and support a generalization about nissologists' definition of an island. Which choice most effectively uses relevant information from the notes to accomplish these goals?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The definition of an island as any piece of land surrounded by water is supported by some nissologists, scientists who study islands."
+        },
+        {
+          "label": "B",
+          "text": "Multiple counts of Sweden's islands have been based on different definitions of an island."
+        },
+        {
+          "label": "C",
+          "text": "Based on a recent count, Sweden has a relatively small number of islands with at least 50 permanent residents."
+        },
+        {
+          "label": "D",
+          "text": "Nissologists' different definitions can result in huge disparities in counts of islands, as the example of Sweden shows."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Hard",
+      "source_question_number": 18,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. The sentence makes a generalization about nissologists' definition of an island-specifically, that the use of one definition rather than another can result in huge disparities in the number of islands counted-and supports that generalization by citing Sweden as an example.\n\nChoice A is incorrect. The sentence introduces one definition of an island to an audience unfamiliar with nissologists; it doesn't make a generalization about nissologists' definition of an island. Choice B is incorrect. While the sentence synthesizes information from the notes about counts of Sweden's islands, it doesn't make and support a generalization about nissologists' definition of an island. Choice C is incorrect. The sentence makes an inference about islands in Sweden; it doesn't mention nissologists' definition of an island or make a generalization about it.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001839",
+      "section": "reading_writing",
+      "question_number": 19,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• In 1978, Sámi activists staged protests to block the construction of a dam on the Alta River in Norway.\n• The dam would disrupt Sámi fishing and reindeer herding.\n• The dam was ultimately built, but the Alta conflict had a lasting impact.\n• It brought international attention to the issue of Sámi rights.\n• It led to a set of 2005 legal protections establishing Sámi rights to lands, waters, and resources.",
+      "prompt": "The student wants to make and support a generalization about the Alta conflict. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "During the Alta conflict, Sámi activists staged protests to block the construction of a dam on the Alta River in Norway that would disrupt local fishing and reindeer herding."
+        },
+        {
+          "label": "B",
+          "text": "Although the dam that the Sámi activists had protested was ultimately built, the Alta conflict had a lasting impact."
+        },
+        {
+          "label": "C",
+          "text": "Sámi rights to lands, waters, and resources received international attention and legal protections as a result of the Alta conflict."
+        },
+        {
+          "label": "D",
+          "text": "The Alta conflict had a lasting impact, resulting in international attention and legal protections for Sámi rights to lands, waters, and resources."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Hard",
+      "source_question_number": 19,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. It makes a generalization-the conflict had a lasting impact-and then supports it with evidence-the attention and protections were results of the conflict.\n\nChoice A is incorrect. This choice doesn't make a generalization about the conflict. It describes a specific event from the conflict. Choice B is incorrect. This choice makes a generalization about the Alta conflict, but doesn't support it. Choice C is incorrect. This choice makes a statement about the aftermath of the conflict, but doesn't support it. The statement is also a little too specific to be a generalization.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001840",
+      "section": "reading_writing",
+      "question_number": 20,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• Cambodia's Angkor Wat was built in the 1100s to honor the Hindu god Vishnu.\n• It has been a Buddhist temple since the sixteenth century.\n• Decorrelation stretch analysis is a novel digital imaging technique that enhances the contrast between colors in a photograph.\n• Archaeologist Noel Hidalgo Tan applied decorrelation stretch analysis to photographs he had taken of Angkor Wat's plaster walls.\n• Tan's analysis revealed hundreds of images unknown to researchers.",
+      "prompt": "The student wants to present Tan's research to an audience unfamiliar with Angkor Wat. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Tan photographed Angkor Wat's plaster walls and then applied decorrelation stretch analysis to the photographs."
+        },
+        {
+          "label": "B",
+          "text": "Decorrelation stretch analysis is a novel digital imaging technique that Tan used to enhance the contrast between colors in a photograph."
+        },
+        {
+          "label": "C",
+          "text": "Using a novel digital imaging technique, Tan revealed hundreds of images hidden on the walls of Angkor Wat, a Cambodian temple."
+        },
+        {
+          "label": "D",
+          "text": "Built to honor a Hindu god before becoming a Buddhist temple, Cambodia's Angkor Wat concealed hundreds of images on its plaster walls."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Hard",
+      "source_question_number": 20,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer. The sentence effectively presents Tan's research to an audience unfamiliar with Angkor Wat, explaining the results of the research and identifying Angkor Wat as a temple in Cambodia.\n\nChoice A is incorrect. While the sentence presents Tan's research, it fails to explain what Angkor Wat is for an audience unfamiliar with the temple. Choice B is incorrect. The sentence emphasizes the role that decorrelation stretch analysis played in Tan's research; it doesn't present the research, which would require specifying where it was conducted. Choice D is incorrect. While the sentence explains what Angkor Wat is, it fails to present Tan's research.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001841",
+      "section": "reading_writing",
+      "question_number": 21,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• In North America, woodlands have expanded into areas that were once grasslands.\n• Thomas Rogers and F. Leland Russell of Wichita State University investigated whether woodland expansion is related to changes in climate.\n• Rogers and Russell analyzed core samples from oak trees on a site that was not wooded in the past and indexed the age of the trees with historical climate data to see if tree populations and climate were correlated.\n• Tree population growth was associated with dry intervals.\n• Droughts may have played a role in woodland expansion.",
+      "prompt": "The student wants to emphasize the aim of the research study. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Thomas Rogers and F. Leland Russell, researchers at Wichita State University, wanted to know if woodland expansion is related to changes in climate."
+        },
+        {
+          "label": "B",
+          "text": "Thanks to the work done by Thomas Rogers and F. Leland Russell, we now know that droughts may have played a role in woodland expansion."
+        },
+        {
+          "label": "C",
+          "text": "Wichita State University researchers have determined that tree population growth was associated with dry intervals."
+        },
+        {
+          "label": "D",
+          "text": "Thomas Rogers and F. Leland Russell analyzed core samples from oak trees on a site that was not wooded in the past, indexing the age of the trees with historical climate data."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Hard",
+      "source_question_number": 22,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. The sentence effectively emphasizes the aim, or goal, of the research study (in other words, what the researchers hoped to learn from the study): Rogers and Russell wanted to know if woodland expansion is related to changes in climate.\n\nChoice B is incorrect. The sentence emphasizes the researchers' findings; it doesn't emphasize the aim of the study. Choice C is incorrect. The sentence emphasizes the results of the study; it doesn't emphasize the aim. Choice D is incorrect. The sentence emphasizes the methodology of the study; it doesn't emphasize the aim.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001842",
+      "section": "reading_writing",
+      "question_number": 22,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• African American women played prominent roles in the Civil Rights Movement, including at the famous 1963 March on Washington.\n• Civil rights activist Anna Hedgeman, one of the march's organizers, was a political adviser who had worked for President Truman.\n• Civil rights activist Daisy Bates was a well-known journalist and advocate for school desegregation.\n• Hedgeman worked behind the scenes to make sure a woman was included in the lineup of speakers at the march.\n• Bates was the sole woman to speak, delivering a brief but memorable address to the cheering crowd.",
+      "prompt": "The student wants to compare the two women's contributions to the March on Washington. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Hedgeman and Bates contributed to the march in different ways; Bates, for example, delivered a brief but memorable address."
+        },
+        {
+          "label": "B",
+          "text": "Hedgeman worked in politics and helped organize the march, while Bates was a journalist and school desegregation advocate."
+        },
+        {
+          "label": "C",
+          "text": "Although Hedgeman worked behind the scenes to make sure a woman speaker was included, Bates was the sole woman to speak at the march."
+        },
+        {
+          "label": "D",
+          "text": "Many African American women, including Bates and Hedgeman, fought for civil rights, but only one spoke at the march."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Hard",
+      "source_question_number": 24,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer. The sentence compares the two women's contributions to the march: Hedgeman worked behind the scenes to make sure a woman speaker was included, whereas Bates actually spoke at the event.\n\nChoice A is incorrect. While it acknowledges that the two women both contributed to the march, it doesn't indicate what Hedgeman did, so no comparison is made. Choice B is incorrect. While the sentence provides information about the two women, it doesn't mention anything about Bates's contribution to the march. Choice D is incorrect. While the sentence indicates that the two women both fought for civil rights, it doesn't compare their individual contributions to the march.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001843",
+      "section": "reading_writing",
+      "question_number": 23,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n• The factors that affect clutch size (the number of eggs laid at one time) have been well studied in birds but not in lizards.\n• A team led by Shai Meiri of Tel Aviv University investigated which factors influence lizard clutch size.\n• Meiriʼs team obtained clutch-size and habitat data for over 3,900 lizard species and analyzed the data with statistical models.\n• Larger clutch size was associated with environments in higher latitudes that have more seasonal change.\n• Lizards in higher-latitude environments may lay larger clutches to take advantage of shorter windows of favorable conditions.",
+      "prompt": "The student wants to emphasize the aim of the research study. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Researchers wanted to know which factors influence lizard egg clutch size because such factors have been well studied in birds but not in lizards."
+        },
+        {
+          "label": "B",
+          "text": "After they obtained data for over 3,900 lizard species, researchers determined that larger clutch size was associated with environments in higher latitudes that have more seasonal change."
+        },
+        {
+          "label": "C",
+          "text": "We now know that lizards in higher-latitude environments may lay larger clutches to take advantage of shorter windows of favorable conditions."
+        },
+        {
+          "label": "D",
+          "text": "Researchers obtained clutch-size and habitat data for over 3,900 lizard species and analyzed the data with statistical models."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Rhetorical Synthesis/Hard",
+      "source_question_number": 25,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. The sentence emphasizes the aim of the research study by highlighting what the researchers conducting the study wanted to know-specifically, which factors influence clutch size among lizards.\n\nChoice B is incorrect because the sentence emphasizes what researchers determined at the end of the study, not what the study's aim was. Choice C is incorrect because the sentence emphasizes a finding from the research study, not the aim of the study. Choice D is incorrect because the sentence emphasizes the research study's methodology, not its aim.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    }
+  ]
+}

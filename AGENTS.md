@@ -6,6 +6,7 @@
 
 - 本仓库管理共同开发主线。任务从最新 `main` 建 `feat/*` 或 `fix/*`；开始前检查当前分支与 `git status`，保留已有未提交修改。
 - 真实结构化题库与必要题图已获仓库所有者授权纳入本仓，可进行有依据的内容修订。源码在生成器、模板和运行时修改，题目在 `content/canonical/` 修改；不从生成 HTML 反向提取内容，不只手改生成页。首次导出工具不是日常更新入口，禁止用重导出覆盖已经评审的协作内容。
+- `content/db/` 是题库的规范化表，其中已发布的题须与 `content/canonical/` 保持一致。改了 canonical 后运行 `python3 scripts/content_db.py normalize`，改了表后运行 `python3 scripts/content_db.py export`，两边一起提交。表里的草稿题（`status = draft`）不在站点上，发布前须逐题核对答案、转换正文并补齐必要图；说明见 `docs/content-db.md`。第三方教辅（来源等级 3）的来源和题目不进入这些表，导入脚本默认跳过。
 - `build/site/` 是全库产物，`build/demo/` 是原创 fixture 产物，均不提交。测试账号、状态和学习记录使用合成数据；本仓公开题目不等于可以读取真实学生数据。
 - 题型工具是开发工具，不是自动确认答案、题源身份或模考资格的审核者。内容更改在 PR 中列明 `question_id`、字段、理由与可公开依据；不编造来源或共识记录。
 
@@ -14,7 +15,7 @@
 - 保留永久 `question_id`、`contentId`、公开路由 / `pageId`、题目顺序与既有迁移。身份调整、删除或评分变化先写兼容方案，再实现并测试。
 - `gradingRevision` 由构建器计算。题面、选项、答案、解析变动须检查版本与旧成绩行为；不要手工钉旧 hash 或让未知版本旧记录冒充当前成绩。
 - 保留 owner 隔离、异步身份 fence、提交与主动 Reveal 分离、刷新恢复、重置 / 重做和云端 DTO / 事件约定。禁止自动认领未知归属旧记录。
-- 所有当前内容 `examEligible=false`。不要开启正式模考，不把历史模考状态机或测试当作当前题库资格。保留来源未经认证、编辑校订等限定。
+- 模考资格只由 `scripts/exam_modules.py` 从 `content/db/` 推出（真题来源的读写 Module 1 + 第二模块，固定两模块，不做自适应分流，不给换算分）；不要手工把 `examEligible` 改成 `true`，不把历史模考状态机或测试当作题库资格。保留来源未经认证、编辑校订等限定。
 - 公开题库是去敏协作副本；私有生产 canonical 还有来源和审查证据。回流按 `question_id` 和字段级 diff 合并，不整包覆盖生产来源 / 证据，不用公开版本 hash 代替生产版本证明。
 
 ## 公开与生产边界
@@ -30,6 +31,7 @@
 python3 scripts/build-site.py
 python3 scripts/build-demo.py
 python3 scripts/check-repository-scope.py
+python3 scripts/content_db.py check
 python3 -m unittest discover -s tests -p 'test_*.py'
 python3 -m unittest discover -s skills/skill-sat-rw-classification/tests -p 'test_*.py'
 ```

@@ -24,6 +24,6 @@ jobs:
       - run: python3 -m unittest discover -s tests -p 'test_*.py'
       - run: python3 -m unittest discover -s skills/skill-sat-rw-classification/tests -p 'test_*.py'
       - name: Real browser regression with synthetic learning records
-        run: node scripts/verify-sat-learning-browser.mjs --expected-unique 1752 --expected-pages 48 --report build/reports/browser.json
+        run: node scripts/verify-sat-learning-browser.mjs --expected-unique 4054 --expected-pages 118 --report build/reports/browser.json
         env:
           CHROME_PATH: google-chrome

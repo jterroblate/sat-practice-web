@@ -48,7 +48,7 @@ sat-content-registry.json + content/canonical/ + migrations + 必要图
 3. owner 隔离采用 `sat-owner:v1` 命名空间及身份 fence。未知归属的旧记录不自动认领；迟到请求不能落入新账号。
 4. 选择和改选后，提交按屏幕对应的有效记录判分；用户主动 Reveal 才展开答案与解析。云端回包、多标签与刷新不能令按钮写入失效对象。
 5. 重置与空白重做有各自语义，不能为修 UI 静默删除历史作答、收藏或笔记。
-6. 当前所有内容 `examEligible=false`。模板保留模考状态机不代表可以开启正式模考；Partial 云端编号等未决兼容问题不能靠猜测迁移。
+6. `examEligible` 只由 `scripts/exam_modules.py` 写入（见 [content-db.md](content-db.md)），提供的是读写固定两模块模考，结果只有原始正确率和错题题号；模板保留模考状态机不代表可以手工开启其他模考；Partial 云端编号等未决兼容问题不能靠猜测迁移。
 
 ## 验证分层
 

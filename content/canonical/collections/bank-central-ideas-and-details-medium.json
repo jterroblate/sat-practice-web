@@ -1,0 +1,1179 @@
+{
+  "schemaVersion": "sat-canonical-question-collection-v1",
+  "contentId": "collection-bank-central-ideas-and-details-medium",
+  "title": "Central Ideas and Details · Medium",
+  "section": "reading_writing",
+  "questionCount": 26,
+  "questions": [
+    {
+      "question_id": "bank_rw_002029",
+      "section": "reading_writing",
+      "question_number": 1,
+      "passage": "A common assumption among art historians is that the invention of photography in the mid-nineteenth century displaced the painted portrait in the public consciousness. The diminishing popularity of the portrait miniature, which coincided with the rise of photography, seems to support this claim. However, photography's impact on the portrait miniature may be overstated. Although records from art exhibitions in the Netherlands from 1820 to 1892 show a decrease in the number of both full-sized and miniature portraits submitted, this trend was established before the invention of photography.",
+      "prompt": "Based on the text, what can be concluded about the diminishing popularity of the portrait miniature in the nineteenth century?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Factors other than the rise of photography may be more directly responsible for the portrait miniature's decline."
+        },
+        {
+          "label": "B",
+          "text": "Although portrait miniatures became less common than photographs, they were widely regarded as having more artistic merit."
+        },
+        {
+          "label": "C",
+          "text": "The popularity of the portrait miniature likely persisted for longer than art historians have assumed."
+        },
+        {
+          "label": "D",
+          "text": "As demand for portrait miniatures decreased, portrait artists likely shifted their creative focus to photography."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Central Ideas and Details/Medium",
+      "source_question_number": 1,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. The text says that the impact of photography on the portrait miniature might be \"overstated,\" as some records show a decrease in the number of portrait miniatures before the invention of photography. From this, we can conclude that factors other than the rise of photography may be more directly responsible for the portrait miniature's decline.\n\nChoice B is incorrect. The text never discusses the \"artistic merit\" of either art form. Choice C is incorrect. The text never suggests that the portrait miniature was popular for longer than historians thought-if anything, it suggests that the portrait miniature started losing its popularity earlier than historians thought. Choice D is incorrect. The text never suggests that portrait painters shifted to become photographers.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_002030",
+      "section": "reading_writing",
+      "question_number": 2,
+      "passage": "Believing that living in an impractical space can heighten awareness and even improve health, conceptual artists Madeline Gins and Shusaku Arakawa designed an apartment building in Japan to be more fanciful than functional. A kitchen counter is chest-high on one side and knee-high on the other; a ceiling has a door to nowhere. The effect is disorienting but invigorating: after four years there, filmmaker Nobu Yamaoka reported significant health benefits.",
+      "prompt": "Which choice best states the main idea of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Although inhabiting a home surrounded by fanciful features such as those designed by Gins and Arakawa can be rejuvenating, it is unsustainable."
+        },
+        {
+          "label": "B",
+          "text": "Designing disorienting spaces like those in the Gins and Arakawa building is the most effective way to create a physically stimulating environment."
+        },
+        {
+          "label": "C",
+          "text": "As a filmmaker, Yamaoka has long supported the designs of conceptual artists such as Gins and Arakawa."
+        },
+        {
+          "label": "D",
+          "text": "Although impractical, the design of the apartment building by Gins and Arakawa may improve the well-being of the building's residents."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Central Ideas and Details/Medium",
+      "source_question_number": 2,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer because it most accurately states the main idea of the text. According to the text, conceptual artists Gins and Arakawa have designed an apartment building that is disorienting because of several unconventional elements, such as uneven kitchen counters and \"a door to nowhere.\" The text goes on to suggest that there may be benefits to this kind of design because filmmaker Yamaoka lived in the apartment building for four years and reported health benefits. Thus, although the design is impractical, it may improve the well-being of the apartment building's residents.\n\nChoice A is incorrect. Although the text mentions that Yamaoka lived in the apartment for four years, it doesn't address how long someone can beneficially live in a home surrounded by fanciful features or whether doing so can be sustained. Choice B is incorrect. Although the text mentions the potential benefits of living in a home with disorienting design features, it doesn't suggest that this is the most effective method to create a physically stimulating environment. Choice C is incorrect because the text refers to Yamaoka to support the claim that Gins and Arakawa's apartment building design may be beneficial, but the text doesn't indicate that Yamaoka supports the designs of other conceptual artists.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_002031",
+      "section": "reading_writing",
+      "question_number": 3,
+      "passage": "Utah is home to Pando, a colony of about 47,000 quaking aspen trees that all share a single root system. Pando is one of the largest single organisms by mass on Earth, but ecologists are worried that its growth is declining in part because of grazing by animals. The ecologists say that strong fences could prevent deer from eating young trees and help Pando start thriving again.",
+      "prompt": "According to the text, why are ecologists worried about Pando?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It isn't growing at the same rate it used to."
+        },
+        {
+          "label": "B",
+          "text": "It isn't producing young trees anymore."
+        },
+        {
+          "label": "C",
+          "text": "It can't grow into new areas because it is blocked by fences."
+        },
+        {
+          "label": "D",
+          "text": "Its root system can't support many more new trees."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Central Ideas and Details/Medium",
+      "source_question_number": 3,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because it presents an explanation that is directly stated in the text for why ecologists are worried about Pando. The text states that Pando is a colony of about 47,000 quaking aspen trees that represents one of the largest organisms on Earth. According to the text, ecologists are worried that Pando's growth is declining, partly because animals are feeding on the trees. In other words, the ecologists are worried that Pando isn't growing at the same rate it used to.\n\nChoice B is incorrect. Rather than indicating that Pando isn't producing young trees anymore, the text reveals that Pando is indeed producing young trees, stating that those trees can be protected from grazing deer by strong fences. Choice C is incorrect because the text states that fences can be used to prevent deer from eating Pando's young trees, not that Pando itself can't grow in new areas because it's blocked by fences. Choice D is incorrect because the text offers no evidence that Pando's root system is incapable of supporting new trees or is otherwise a cause of worry for ecologists.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_002032",
+      "section": "reading_writing",
+      "question_number": 4,
+      "passage": "Biologists have predicted that birds'feather structures vary with habitat temperature, but this hadn't been tested in mountain environments. Ornithologist Sahas Barve studied feathers from 249 songbird species inhabiting different elevations-and thus experiencing different temperatures-in the Himalaya Mountains. He found that feathers of high-elevation species not only have a greater proportion of warming downy sections to flat and smooth sections than do feathers of low-elevation species, but high-elevation species'feathers also tend to be longer, providing a thicker layer of insulation.",
+      "prompt": "Which choice best states the main idea of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Barve's investigation shows that some species of Himalayan songbirds have evolved feathers that better regulate body temperature than do the feathers of other species, contradicting previous predictions."
+        },
+        {
+          "label": "B",
+          "text": "Barve found an association between habitat temperature and feather structure among Himalayan songbirds, lending new support to a general prediction."
+        },
+        {
+          "label": "C",
+          "text": "Barve discovered that songbirds have adapted to their environment by growing feathers without flat and smooth sections, complicating an earlier hypothesis."
+        },
+        {
+          "label": "D",
+          "text": "The results of Barve's study suggest that the ability of birds to withstand cold temperatures is determined more strongly by feather length than feather structure, challenging an established belief."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Central Ideas and Details/Medium",
+      "source_question_number": 4,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer. The text describes how Barve found an association between habitat temperature and feather structure among Himalayan songbirds, which supports the general prediction that birds'feather structures vary with habitat temperature.\n\nChoice A is incorrect. Barve's study isn't said to contradict previous predictions. In fact, the study supports the prediction described in the first sentence, which is that birds' feather structures vary with habitat temperature. Choice C is incorrect. Barve's study isn't said to \"complicate an earlier hypothesis.\" In fact, the study supports the earlier prediction described in the first sentence, which is that birds'feather structures vary with habitat temperature. Choice D is incorrect. The text doesn't compare the importance of feather length and feather structure, and it doesn't say that Barve's study challenges any established beliefs. In fact, the study supports the prediction described in the first sentence, which is that birds' feather structures vary with habitat temperature.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_002033",
+      "section": "reading_writing",
+      "question_number": 5,
+      "passage": "Paleontologists searching for signs of ancient life have found many fossilized specimens of prehistoric human ancestors, including several from the Pleistocene era discovered in a geological formation in the Minatogawa quarry in Japan. However, to study the emergence of the earliest multicellular organisms to appear on Earth, researchers must turn elsewhere, such as to the Ediacaran geological formation at Mistaken Point in Canada. A UNESCO World Heritage Site, the 146-hectare reserve contains more than 10,000 fossils that together document a critical moment in evolutionary history.",
+      "prompt": "What does the text indicate about the geological formation at Mistaken Point?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It holds a greater number of fossils but from a smaller variety of species than the formation in the Minatogawa quarry does."
+        },
+        {
+          "label": "B",
+          "text": "It has provided evidence that the earliest human species may have emerged before the Pleistocene era."
+        },
+        {
+          "label": "C",
+          "text": "It is widely considered by paleontologists to be the most valuable source of information about prehistoric life forms."
+        },
+        {
+          "label": "D",
+          "text": "It contains specimens from an older time period than those found in the formation in the Minatogawa quarry."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Central Ideas and Details/Medium",
+      "source_question_number": 5,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. The text says that the formation at Mistaken Point contains fossils of \"the earliest multicellular organisms,\" which implies that these fossils are from an older time period than the fossils of \"prehistoric human ancestors\" found in the Minatogawa quarry.\n\nChoice A is incorrect. The text says that the formation at Mistake Point contains \"more than 10,000 fossils,\" but it doesn't compare this number to the number of fossils in the Minatogawa quarry. It also doesn't say anything about the variety of species in either formation. Choice B is incorrect. The text says that the formation at Mistaken Point contains fossils of \"the earliest multicellular organisms,\" but it never says that the site contains early human fossils too. Rather, the early human fossils mentioned in the text were found in the formation at Minatogawa quarry. Choice C is incorrect. The text says that the fossils at Mistaken Point \"document a critical moment in evolutionary history,\" but it never says that Mistaken Point is the most valuable source of information about prehistoric life forms.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_002034",
+      "section": "reading_writing",
+      "question_number": 6,
+      "passage": "The following text is adapted from Edgar Allan Poe's 1849 story \"Landor's Cottage.\"\n\nDuring a pedestrian trip last summer, through one or two of the river counties of New York, I found myself, as the day declined, somewhat embarrassed about the road I was pursuing. The land undulated very remarkably; and my path, for the last hour, had wound about and about so confusedly, in its effort to keep in the valleys, that I no longer knew in what direction lay the sweet village of B——, where I had determined to stop for the night.",
+      "prompt": "Which choice best states the main idea of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The narrator remembers a trip he took and admits to getting lost."
+        },
+        {
+          "label": "B",
+          "text": "The narrator recalls fond memories of a journey that he took through some beautiful river counties."
+        },
+        {
+          "label": "C",
+          "text": "The narrator describes what he saw during a long trip through a frequently visited location."
+        },
+        {
+          "label": "D",
+          "text": "The narrator explains the difficulties he encountered on a trip and how he overcame them."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Central Ideas and Details/Medium",
+      "source_question_number": 6,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. The narrator is \"embarrassed\" about the route he took, which ends up leaving him lost and confused about how to get to his destination for the evening.\n\nChoice B is incorrect. This choice doesn't match the passage. The narrator is embarrassed, rather than fond, and he doesn't describe the beauty of the place. Choice C is incorrect. This choice doesn't match the passage. We don't know from this excerpt whether or not the narrator has visited this part of New York multiple times. Choice D is incorrect. This choice doesn't match the passage. The narrator doesn't explain how he overcame being lost in this excerpt.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_002035",
+      "section": "reading_writing",
+      "question_number": 7,
+      "passage": "In 1934 physicist Eugene Wigner posited the existence of a crystal consisting entirely of electrons in a honeycomb-like structure. The so-called Wigner crystal remained largely conjecture, however, until Feng Wang and colleagues announced in 2021 that they had captured an image of one. The researchers trapped electrons between two semiconductors and then cooled the apparatus, causing the electrons to settle into a crystalline structure. By inserting an ultrathin sheet of graphene above the crystal, the researchers obtained an impression-the first visual confirmation of the Wigner crystal.",
+      "prompt": "Which choice best states the main idea of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Researchers have obtained the most definitive evidence to date of the existence of the Wigner crystal."
+        },
+        {
+          "label": "B",
+          "text": "Researchers have identified an innovative new method for working with unusual crystalline structures."
+        },
+        {
+          "label": "C",
+          "text": "Graphene is the most important of the components required to capture an image of a Wigner crystal."
+        },
+        {
+          "label": "D",
+          "text": "It's difficult to acquire an image of a Wigner crystal because of the crystal's honeycomb structure."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Central Ideas and Details/Medium",
+      "source_question_number": 7,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because it most accurately states the main idea of the text. According to the text, Eugene Wigner hypothesized that a crystal could exist that would be composed of electrons and have a honeycomb-like shape. The text goes on to say that the existence of the Wigner crystal remained unconfirmed until Feng Wang and colleagues were able to make an impression of one using two semiconductors and an ultrathin sheet of graphene. Thus, the main idea is that researchers have obtained the most definitive evidence to date of the existence of the Wigner crystal.\n\nChoice B is incorrect because the text focuses on one kind of crystal—the Wigner crystal- and doesn't discuss crystalline structures in general. And although the text conveys that Wang and colleagues figured out a way to capture an image of a Wigner crystal, it doesn't address the idea of applying this approach to other types of crystals. Choice C is incorrect because the text describes in general the process Wang and colleagues followed to obtain an impression of the Wigner crystal; it doesn't address the relative importance of each component in that process. Choice D is incorrect because the text doesn't state that researchers had a hard time getting an impression of the Wigner crystal because of its honeycomb structure. Nothing in the text indicates why it took so long to prove the existence of this crystal or take an impression of it.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_002036",
+      "section": "reading_writing",
+      "question_number": 8,
+      "passage": "Philadelphia's Black Pearl Chamber Orchestra, founded by Jeri Lynne Johnson, performs classical music, from well-known compositions by Beethoven to contemporary works by Jessie Montgomery. For the orchestra's iConduct! program, Johnson invites community members to learn some basic elements of conducting and then experience conducting the Black Pearl orchestra themselves.",
+      "prompt": "Which choice best states the main idea of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The Black Pearl orchestra performs music from all over the world but mostly performs music composed by Philadelphians."
+        },
+        {
+          "label": "B",
+          "text": "Johnson founded the Black Pearl orchestra to perform classical music by contemporary artist Jessie Montgomery."
+        },
+        {
+          "label": "C",
+          "text": "The Black Pearl orchestra gives community members the chance to both listen to and participate in classical music performance."
+        },
+        {
+          "label": "D",
+          "text": "Johnson has community members conduct an orchestra to demonstrate how difficult the task is."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Central Ideas and Details/Medium",
+      "source_question_number": 8,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer because it most accurately states the main idea of the text. The text begins by stating that the Black Pearl orchestra performs classical music, and then goes on to explain that the orchestra offers an iConduct! program. According to the text, this program offers community members the opportunity to learn some basics about conducting and then apply what they learn by conducting the orchestra themselves. Thus, the main idea of the text is that community members can both listen to and participate in a classical music performance.\n\nChoice A is incorrect. Although the text states that the Black Pearl orchestra is based in Philadelphia, it doesn't indicate that most of the music it plays was composed by Philadelphians. Choice B is incorrect. Although the text does state that Johnson founded the Black Pearl orchestra, this is just a detail and not the main focus of the text. Moreover, while the text does say that the orchestra sometimes plays music by Montgomery, it doesn't assert that the orchestra was founded solely for the purpose of performing Montgomery's work. Choice D is incorrect. Although the text explains that community members are invited to conduct the Black Pearl orchestra after participating in the iConduct! program, the text doesn't indicate that Johnson allows community members to do this for the specific purpose of showing how difficult the task is.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_002037",
+      "section": "reading_writing",
+      "question_number": 9,
+      "passage": "In West Africa, jalis have traditionally been keepers of information about family histories and records of important events. They have often served as teachers and advisers, too. New technologies may have changed some aspects of the role today, but jalis continue to be valued for knowing and protecting their peoples'stories.",
+      "prompt": "Which choice best states the main idea of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Even though there have been some changes in their role, jalis continue to preserve their communities' histories."
+        },
+        {
+          "label": "B",
+          "text": "Although jalis have many roles, many of them like teaching best."
+        },
+        {
+          "label": "C",
+          "text": "Jalis have been entertaining the people within their communities for centuries."
+        },
+        {
+          "label": "D",
+          "text": "Technology can now do some of the things jalis used to be responsible for."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Central Ideas and Details/Medium",
+      "source_question_number": 9,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because it best states the main idea of the text. According to the text, jalis' traditional role has been to maintain information about families'histories and significant events. The text goes on to say that although technological changes have altered jalis' role somewhat, jalis are still valued for preserving the histories of their communities.\n\nChoice B is incorrect because the text says nothing about jalis' views of the various tasks they perform. There is no information to support the idea that many jalis prefer teaching to other tasks. Choice C is incorrect because the text doesn't describe jalis as being sources of entertainment. Rather, jalis are presented as valued sources of knowledge. Additionally, the text gives no indication of how long jalis have been serving their communities. Choice D is incorrect because the main focus of the text is on jalis' role and their continued value despite the effects of technology, not on what technology can now do. Although the text indicates that jalis' role has changed as a result of technological changes, the text doesn't present any specific information about technology performing tasks that jalis once performed.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_002038",
+      "section": "reading_writing",
+      "question_number": 10,
+      "passage": "To dye wool, Navajo (Diné) weaver Lillie Taylor uses plants and vegetables from Arizona, where she lives. For example, she achieved the deep reds and browns featured in her 2003 rug [i]In the Path of the Four Seasons [/i]by using Arizona dock roots, drying and grinding them before mixing the powder with water to create dye bath. To intensify the appearance of certain colors, Taylor also sometimes mixes in clay obtained from nearby soil.",
+      "prompt": "Which choice best states the main idea of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Reds and browns are not commonly featured in most of Taylor's rugs."
+        },
+        {
+          "label": "B",
+          "text": "Taylor draws on local resources in the approach she uses to dye wool."
+        },
+        {
+          "label": "C",
+          "text": "Taylor finds it difficult to locate Arizona dock root in the desert."
+        },
+        {
+          "label": "D",
+          "text": "In the Path of the Four Seasons is widely acclaimed for its many colors and innovative weaving techniques."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Central Ideas and Details/Medium",
+      "source_question_number": 10,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer. It best states the main idea of the text. The text opens with the statement that Taylor uses local plants and vegetables to dye wool. The rest of the text describes how she does this.\nChoice A is incorrect. This doesn't state the main idea of the text. The text only mentions one rug: [i]In the Path of the Four Seasons[/i], in which reds and browns are featured. It never mentions whether or not these colors are featured in her other rugs. Choice C is incorrect. This doesn't state the main idea of the text. The text never says that Taylor finds it difficult to locate Arizona dock roots. Choice D is incorrect. This doesn't state the main idea of the text. The text never says that[i] In the Path of the Four Seasons[/i] is widely acclaimed. Rather, it discusses the rug to illustrate the point made earlier in the passage: that Taylor uses local plants and vegetables to dye wool.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_002039",
+      "section": "reading_writing",
+      "question_number": 11,
+      "passage": "The painter María Izquierdo played an important role in the development of twentieth-century Mexican art, but her work has never been well-known in the United States except among art historians. One reason for Izquierdo's relative obscurity is the enormous popularity of some of her peers. In particular, the painters Frida Kahlo and Diego Rivera have so captivated the interest of US audiences that Izquierdo and other Mexican artists from the period often get overlooked, despite the high quality of their work.",
+      "prompt": "Which choice best states the main idea of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Izquierdo's work is not as well-known in the United States as it should be because Kahlo and Rivera draw so much of the public's attention."
+        },
+        {
+          "label": "B",
+          "text": "During Izquierdo's lifetime, her paintings were displayed in galleries in the United States much more frequently than paintings by Kahlo and Rivera were."
+        },
+        {
+          "label": "C",
+          "text": "Izquierdo painted some of the same subjects that Kahlo and Rivera painted but used different techniques than they used."
+        },
+        {
+          "label": "D",
+          "text": "Few of Izquierdo's works are in galleries today because she produced only a small number of paintings."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Central Ideas and Details/Medium",
+      "source_question_number": 11,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because it most accurately states the main idea of the text. The text begins by stating that María Izquierdo was an important figure in the history of twentieth-century Mexican art, but despite her importance, her work hasn't received widespread recognition in the United States. According to the text, one reason for this is that Frida Kahlo and Diego Rivera are so famous in the US that they overshadow other important Mexican artists, including Izquierdo. Thus, the main idea of the text is that Izquierdo's work is less well known in the US than it should be because Kahlo and Rivera draw most of the public's attention.\n\nChoice B is incorrect because the text doesn't discuss the appearance of Izquierdo's paintings in galleries in the US during her lifetime, nor does it suggest that her paintings were displayed more frequently than paintings by Kahlo or Rivera were. Instead, the text focuses on the fact that Izquierdo has been overlooked in the US because of Kahlo's and Rivera's greater popularity. Choice C is incorrect because the text doesn't discuss either the subject matter of Izquierdo's paintings or the techniques she used, nor does it compare these aspects of her paintings with those of Kahlo's and Rivera's paintings. Choice D is incorrect because the text doesn't mention how many of Izquierdo's paintings appear in galleries today, nor does it state that she produced only a small number of paintings.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_002040",
+      "section": "reading_writing",
+      "question_number": 12,
+      "passage": "Choctaw/Cherokee artist Jeffrey Gibson turns punching bags used by boxers into art by decorating them with beadwork and elements of Native dressmaking. These elements include leather fringe and jingles, the metal cones that cover the dresses worn in the jingle dance, a women's dance of the Ojibwe people. Thus, Gibson combines an object commonly associated with masculinity (a punching bag) with art forms traditionally practiced by women in most Native communities (beadwork and dressmaking). In this way, he rejects the division of male and female gender roles.",
+      "prompt": "Which choice best describes Gibson's approach to art, as presented in the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "He draws from traditional Native art forms to create his original works."
+        },
+        {
+          "label": "B",
+          "text": "He has been influenced by Native and non-Native artists equally."
+        },
+        {
+          "label": "C",
+          "text": "He finds inspiration from boxing in designing the dresses he makes."
+        },
+        {
+          "label": "D",
+          "text": "He rejects expectations about color and pattern when incorporating beadwork."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Central Ideas and Details/Medium",
+      "source_question_number": 12,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because it most accurately describes Gibson's approach to art. As the text explains, Gibson, who is Cherokee and Choctaw, transforms punching bags into art pieces by applying (or attaching) to them beadwork and elements of Native dressmaking, including leather fringe and the jingles of the jingle dress. The text goes on to say that in most Native communities, the art forms of beadwork and dressmaking are traditionally practiced by women. Therefore, Gibson's approach to art consists of creating original works by drawing from traditional Native art forms.\n\nChoice B is incorrect. Because Gibson incorporates Native art forms into his own original artwork, it can be inferred that he has been influenced by other Native artists, but the text never suggests that non-Native artists have influenced him. Choice C is incorrect because the text doesn't indicate that Gibson designs dresses influenced by boxing but instead that he turns punching bags, which are used in boxing, into works of art by applying elements of Native dressmaking to them. Choice D is incorrect. Although Gibson does incorporate beadwork into his art, the text never mentions the colors or patterns that he uses or suggests that his art defies the expectations that people might have about color and pattern in beadwork.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_002041",
+      "section": "reading_writing",
+      "question_number": 13,
+      "passage": "NASA's Aspera mission, led by Carlos Vargas, will investigate the circumgalactic medium (CGM), the huge swaths of low-density gas that fill and surround galaxies. Specifically, the team will focus on portions of the gas that exist in a \"warm-hot\" phase: these portions haven't previously been observable but are thought to fuel new star formation and hold most of the mass that makes up a galaxy. Using a telescope capable of revealing these parts of the CGM, the Aspera mission should help answer long-standing questions about how galaxies emerge, change, and even interact.",
+      "prompt": "Which choice best states the main idea of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "As the leader of NASA's Aspera mission, Vargas will be the first person to investigate the makeup of the CGM."
+        },
+        {
+          "label": "B",
+          "text": "Although galaxies that are surrounded by the CGM have been studied, researchers have been unable to directly observe low-density gas in the CGM in the \"warm-hot\" phase."
+        },
+        {
+          "label": "C",
+          "text": "Researchers don't yet have a complete understanding of the process of galaxy evolution but have raised the possibility that galaxies interact with each other at times."
+        },
+        {
+          "label": "D",
+          "text": "The Aspera mission is expected to produce the first direct observations of CGM gas in the :warm-hot\" phase, which likely has an important role in the evolution of galaxies."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Central Ideas and Details/Medium",
+      "source_question_number": 13,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer because it most accurately states the main idea of the text. The text begins by mentioning NASA's Aspera mission, which will investigate the low-density gas that makes up the circumgalactic medium (CGM). According to the text, this mission will focus on a portion of the CGM's gas that exists in a \"warm-hot\" phase; this \"warm-hot\" gas has not been previously observed, but it is thought to make up most of the mass of galaxies and play a part in star formation. Finally, the text mentions a telescope capable of examining this previously unobservable \"warm-hot\" gas: the Aspera mission will use this telescope in the hope of answering questions about galaxy formation and change. Therefore, the main idea of the text is that the Aspera mission is likely to produce the first direct observations of CGM gas in the \"warm-hot\" phase, which likely has an important role in the evolution of galaxies.\n\nChoice A is incorrect. Although this choice mentions the Aspera mission, names its leader, and generally states the mission's purpose, it does not reference the \"warm-hot\" gas or fully convey the reason why the Aspera mission is significant. Choice B is incorrect. Although this choice mentions the \"warm-hot\" gas that makes up a portion of the CGM, it does not reference the Aspera mission or describe its importance. The text also does not mention that galaxies surrounded by the CGM have been studied. Choice C is incorrect. Although this choice describes a problem related to the CGM that researchers have been attempting to solve and presents the speculation of those researchers, it does not mention the Aspera mission or describe its purpose.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_002042",
+      "section": "reading_writing",
+      "question_number": 14,
+      "passage": "Many intellectual histories of the Black Power movement of the 1960s and 1970s rely heavily on essays and other explicitly ideological works as primary sources, a tendency that can overrepresent the perspectives of a small number of thinkers, most of whom were male. Historian Ashley D. Farmer has shown that expanding the array of primary sources to encompass more types of print material-including political cartoons, advertisements, and artwork-leads to a much better understanding of the movement and the crucial and diverse roles that Black women played in shaping it.",
+      "prompt": "Which choice best describes the main idea of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Farmer's methods and research have enriched the historical understanding of the Black Power movement and Black women's contributions to it."
+        },
+        {
+          "label": "B",
+          "text": "Before Farmer's research, historians had largely ignored the intellectual dimensions of the Black Power movement."
+        },
+        {
+          "label": "C",
+          "text": "Other historians of the Black Power movement have criticized Farmer's use of unconventional primary sources."
+        },
+        {
+          "label": "D",
+          "text": "The figures in the Black Power movement whom historians tend to cite would have agreed with Farmer's conclusions about women's roles in the movement."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Central Ideas and Details/Medium",
+      "source_question_number": 14,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. It best describes the main idea of the text. The text starts by saying that historians of the Black Power movement are too reliant on openly ideological works, which were written mostly by men, as sources. The text then describes Farmer's research: she has shown that including other kinds of sources leads to a better understanding of the Black Power movement and the role Black women played in it.\n\nChoice B is incorrect. This doesn't describe the main idea of the text. In fact, it conflicts with the text. The text says that historians have relied on \"essays and other explicitly ideological works,\" which suggests that they have studied at least some of the intellectual dimensions of the Black Power movement. Choice C is incorrect. This doesn't describe the main idea of the text. The text never mentions how other historians of the Black Power movement view Farmer's use of unconventional sources. In fact, the text itself argues in favor of Farmer's research, claiming that it has led to a \"much better understanding of the movement.\" Choice D is incorrect. This doesn't describe the main idea of the text. The text never mentions what any figures in the Black Power movement thought about women's roles in the movement.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_002043",
+      "section": "reading_writing",
+      "question_number": 15,
+      "passage": "In many of his sculptures, artist Richard Hunt uses broad forms rather than extreme accuracy to hint at specific people or ideas. In his first major work,[i] Arachne[/i] (1956), Hunt constructed the mythical character Arachne, a weaver who was changed into a spider, by welding bits of steel together into something that, although vaguely human, is strange and machine-like. And his large bronze sculpture [i]The Light of Truth[/i] (2021) commemorates activist and journalist Ida B. Wells using mainly flowing, curved pieces of metal that create stylized flame.",
+      "prompt": "Which choice best states the text's main idea about Hunt?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "He often depicts the subjects of his sculptures using an unrealistic style."
+        },
+        {
+          "label": "B",
+          "text": "He uses different kinds of materials depending on what kind of sculpture he plans to create."
+        },
+        {
+          "label": "C",
+          "text": "He tends to base his art on important historical figures rather than on fictional characters."
+        },
+        {
+          "label": "D",
+          "text": "He has altered his approach to sculpture over time, and his works have become increasingly abstract."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Central Ideas and Details/Medium",
+      "source_question_number": 15,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because it most accurately states the main idea of the text. According to the text, many of Richard Hunt's sculptures \"use broad forms rather than extreme accuracy\" -in other words, they are more abstract than realistic. To illustrate Hunt's abstract approach, the text characterizes his sculpture of Arachne as \"vaguely human\" and his work in honor of Ida B. Wells as \"using mainly flowing, curved pieces of metal that create stylized flame.\" Thus, the main idea is that Hunt often depicts the subjects of his sculptures using an unrealistic style.\n\nChoice B is incorrect. Although the text indicates that one of Hunt's sculptures is made of steel and another of bronze, there is no mention of why he chose these materials. Choice C is incorrect because the text says nothing about how Hunt chose the subjects for his sculptures. Furthermore, of the two examples provided in the text, only Ida B. Wells is an important historical figure; Arachne is a \"mythical character.\" Choice D is incorrect because the text says nothing about how Hunt's style changed over time. In fact, although the two examples of Hunt's work discussed in the text were created 65 years apart, they are both described as heavily stylized rather than realistic, which may suggest that some aspects of Hunt's style haven't changed over that time.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_002044",
+      "section": "reading_writing",
+      "question_number": 16,
+      "passage": "The following text is adapted from Robert Louis Stevenson's 1883 novel[i] Treasure Island[/i]. Bill is a sailor staying at the Admiral Benbow, an inn run by the narrator's parents.\n\nEvery day when [Bill] came back from his stroll he would ask if any seafaring men had gone by along the road. At first we thought it was the want of company of his own kind that made him ask this question, but at last we began to see he was desirous to avoid them. When a seaman did [stay] at the Admiral Benbow (as now and then some did) he would look in at him through the curtained door before he entered the parlour; and he was always sure to be as silent as a mouse when any such was present.",
+      "prompt": "According to the text, why does Bill regularly ask about \"seafaring men\" ?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "He's hoping to find an old friend and fellow sailor."
+        },
+        {
+          "label": "B",
+          "text": "He's trying to secure a job as part of the crew on a new ship."
+        },
+        {
+          "label": "C",
+          "text": "He isn't sure that other guests at the inn will be welcoming of sailors."
+        },
+        {
+          "label": "D",
+          "text": "He doesn't want to encounter any other sailor unexpectedly."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Central Ideas and Details/Medium",
+      "source_question_number": 16,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. The narrator says that, at first, they thought Bill asked regularly about other seafarers because he wanted their company, but eventually they realized that Bill actually wanted to avoid them.\n\nChoice A is incorrect. This isn't the reason the text gives for why Bill regularly asks about \"seafaring men.\" The narrator says that, at first, they thought Bill asked regularly about other seafarers because he wanted their company, but eventually they realized that Bill wanted to avoid them. Choice B is incorrect. This isn't the reason the text gives for why Bill regularly asks about \"seafaring men.\" The narrator says that, at first, they thought Bill asked regularly about other seafarers because he wanted their company, but eventually they realized that Bill wanted to avoid them. Choice C is incorrect. This isn't the reason the text gives for why Bill regularly asks about \"seafaring men.\" The narrator says that, at first, they thought Bill asked regularly about other seafarers because he wanted their company, but eventually they realized that Bill wanted to avoid them.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_002045",
+      "section": "reading_writing",
+      "question_number": 17,
+      "passage": "The following text is adapted from Guy de Maupassant's nineteenth-century short story \"The Trip of Le Horla\" (translated by Albert M. C. McMaster, A. E. Henderson, Mme. Quesada, et al.). The narrator is part of a group traveling in a hot-air balloon at night.\n\nThe earth no longer seems to exist, it is buried in milky vapors that resemble a sea. We are now alone in space with the moon, which looks like another balloon travelling opposite us; and our balloon, which shines in the air, appears like another, larger moon, a world wandering in the sky amid the stars, through infinity. We no longer speak, think nor live; we float along through space in delicious inertia. The air which is bearing us up has made of us all beings which resemble itself, silent, joyous, irresponsible beings, peculiarly alert, although motionless.",
+      "prompt": "Which choice best states the main idea of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The narrator feels a growing sense of isolation even though his companions are nearby during the balloon ride."
+        },
+        {
+          "label": "B",
+          "text": "The narrator and his companions are completely absorbed in the change in perspective they gain while riding in the balloon."
+        },
+        {
+          "label": "C",
+          "text": "The narrator and his companions are troubled by the disorienting effects of the altitude while riding in the balloon."
+        },
+        {
+          "label": "D",
+          "text": "The narrator is pleasantly surprised by his companions'unrestrained enthusiasm about the sensation of riding in the balloon."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Central Ideas and Details/Medium",
+      "source_question_number": 17,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer because it most accurately states the main idea of the text. The narrator describes the view he and his companions have from the balloon: the earth lies beneath \"milky vapors,\" and the balloon itself looks like another moon. The narrator goes on to explain how the people riding in the balloon are affected by the ride, explaining that they are immersed in the experience: floating along in \"delicious inertia,\" or inactivity, like \"silent, joyous, irresponsible beings.\" Thus, the main idea is that the narrator and his companions are completely absorbed in the change in perspective they gain while riding in the balloon.\n\nChoice A is incorrect because the narrator never describes himself as feeling isolated from his companions; instead, he characterizes riding in the balloon as an experience he is sharing with them. And although he does imply a sense of isolation, it is isolation from those on the ground, as when he says of himself and his companions, \"We are now alone.\" Choice C is incorrect because the narrator doesn't suggest that he or his companions are troubled by the effects of the balloon ride. Instead, he describes himself and his companions as \"joyous\" and the experience of floating in the balloon as \"delicious.\" Choice D is incorrect because nothing in the text suggests that the narrator is surprised by his companions'response to the balloon ride. In fact, the text indicates that the narrator and his companions are having the same experience: they're described as \"silent\" and \"motionless,\" rather than as having unrestrained enthusiasm.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_002046",
+      "section": "reading_writing",
+      "question_number": 18,
+      "passage": "The recovery of a 1,000-year-old Chinese shipwreck in the Java Sea near present-day Indonesia has yielded a treasure trove of artifacts, including thousands of small ceramic bowls. Using a portable X-ray fluorescence analyzer tool, Lisa Niziolek and her team were able to detect the chemical composition of these bowls without damaging them. By comparing the chemical signatures of the bowls with those of the materials still at old Chinese kiln sites, Niziolek and her team can pinpoint which Chinese kilns likely produced the ceramic bowls.",
+      "prompt": "Which choice best states the main idea of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Because of a new technology, researchers can locate and recover more shipwrecks than they could in the past."
+        },
+        {
+          "label": "B",
+          "text": "Researchers have been able to identify the location of a number of Chinese kilns in operation 1,000 years ago."
+        },
+        {
+          "label": "C",
+          "text": "With the help of a special tool, researchers have determined the likely origin of bowls recovered from a shipwreck."
+        },
+        {
+          "label": "D",
+          "text": "Before the invention of portable X-ray fluorescence, researchers needed to take a small piece out of an artifact to analyze its components."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Central Ideas and Details/Medium",
+      "source_question_number": 18,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer because it most accurately states the main idea of the text. According to the text, thousands of ceramic bowls were found in a recovered Chinese shipwreck. The text goes on to say that Niziolek and her team used a special tool, a portable X-ray fluorescence analyzer, to determine the bowls'chemical signatures. Comparing these chemical signatures with the chemical signatures of materials they had collected from old Chinese kiln sites, the text says, allowed the researchers to identify which kilns had produced the bowls. In other words, the researchers determined the bowls'origin.\n\nChoice A is incorrect. Although the text indicates that the researchers used technology in the form of a portable X-ray fluorescence analyzer, it doesn't specifically state that this technology is new. In addition, the text says that Niziolek and her team used the tool to determine the chemical composition of bowls that were found in a Chinese shipwreck, not to locate and recover the shipwreck itself. There's no indication in the text that a new technology can help researchers locate and recover shipwrecks. Choice B is incorrect because the text indicates that the researchers collected materials from old kiln sites for chemical comparison with the ceramic bowls, which means that the researchers must have already known the location of those kiln sites. Rather than identifying the location of the kilns, the researchers determined which kilns in operation 1,000 years ago had likely produced the bowls that were found in the shipwreck. Choice D is incorrect. Although the text says that using a portable X-ray fluorescence analyzer tool enabled Niziolek and her team to analyze artifacts in the form of ceramic bowls without damaging them, the text doesn’t discuss how researchers analyzed artifacts before this tool was invented. Moreover, the point that the bowls were left undamaged isn't the text's main idea. Rather, it's a detail that's provided to develop the main idea, which is that the researchers used a special tool to determine where the bowls had been produced.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_002047",
+      "section": "reading_writing",
+      "question_number": 19,
+      "passage": "The following text is adapted from Christina Rossetti's 1881 poem \"Monna Innominata 2.\"\nI wish I could remember that first day,\nFirst hour, first moment of your meeting me,\nIf bright or dim the season, it might be\nSummer or Winter for [all] I can say;\nSo unrecorded did it slip away,\nSo blind was I to see and to foresee,\nSo dull to mark the budding of my tree\nThat would not blossom yet for many a May.",
+      "prompt": "Which choice best states the main idea of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The speaker celebrates how the passage of time has strengthened a relationship that once seemed unimportant."
+        },
+        {
+          "label": "B",
+          "text": "Because the speaker did not anticipate how important a relationship would become, she cannot recall how the relationship began, which she regrets."
+        },
+        {
+          "label": "C",
+          "text": "As the anniversary of the beginning of an important relationship approaches, the speaker feels conflicted about how best to commemorate it."
+        },
+        {
+          "label": "D",
+          "text": "After years of neglecting a once valuable relationship, the speaker worries it may be too late for her to salvage the relationship."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Central Ideas and Details/Medium",
+      "source_question_number": 19,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer. The speaker says that they wish they could remember when they first met someone, but they can't remember the meeting at all, because they didn't know at the time that the relationship would \"blossom\" later on.\n\nChoice A is incorrect. The speaker does say that the relationship has \"blossomed\" over time, but only briefly at the end-and they don't really \"celebrate\" that fact. Rather, the text has a more regretful tone: it's about how the speaker can't remember first meeting this person, and they wish they could. Choice C is incorrect. The speaker doesn't mention an anniversary-in fact, the speaker can't remember when they met the person they're talking about. Choice D is incorrect. The speaker doesn't say that they neglected the relationship. In fact, the speaker suggests that the relationship has become very important to them-that's why the speaker wishes that they could remember their first meeting.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_002048",
+      "section": "reading_writing",
+      "question_number": 20,
+      "passage": "The following text is from Ezra Pound's 1909 poem \"Hymn III,\" based on the work of Marcantonio Flaminio.\n\nAs a fragile and lovely flower unfolds its gleaming\nfoliage on the breast of the fostering earth, if\nthe dew and the rain draw it forth;\nSo doth my tender mind flourish, if it be fed with the\nsweet dew of the fostering spirit,\nLacking this, it beginneth straightway to languish,\neven as a floweret born upon dry earth, if the\ndew and the rain tend it not.",
+      "prompt": "Based on the text, in what way is the human mind like a flower?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It becomes increasingly vigorous with the passage of time."
+        },
+        {
+          "label": "B",
+          "text": "It draws strength from changes in the weather."
+        },
+        {
+          "label": "C",
+          "text": "It requires proper nourishment in order to thrive."
+        },
+        {
+          "label": "D",
+          "text": "It perseveres despite challenging circumstances."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Central Ideas and Details/Medium",
+      "source_question_number": 20,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer because it presents a description of how the human mind is like a flower that is directly supported by the text. The text compares the needs of a \"fragile and lovely flower\" to those of the speaker's \"tender mind\" : both need to be fed if they're going to survive. Without such feeding, they'll \"beginneth straightway to languish,\" or weaken. Thus, the text suggests that the human mind is like a flower in that they both need proper nourishment in order to thrive.\n\nChoice A is incorrect because the text doesn't address the passage of time or describe either the human mind or a flower as becoming increasingly vigorous. Choice B is incorrect because the text doesn't suggest that human minds or flowers draw strength from changes in weather. The references to rain in the text pertain to a flower's need for water rather than the general effects of changing weather. Choice D is incorrect because the text doesn't suggest that the human mind or a flower will persist regardless of challenging circumstances. In fact, the text indicates that they'll both languish right away if not given what they need.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_002049",
+      "section": "reading_writing",
+      "question_number": 21,
+      "passage": "The ice melted on a Norwegian mountain during a particularly warm summer in 2019, revealing a 1,700-year-old sandal to a mountaineer looking for artifacts. The sandal would normally have degraded quickly, but it was instead well preserved for centuries by the surrounding ice. According to archaeologist Espen Finstad and his team, the sandal, like those worn by imperial Romans, wouldn't have offered any protection from the cold in the mountains, so some kind of insulation, like fabric or animal skin, would have needed to be worn on the feet with the sandal.",
+      "prompt": "What does the text indicate about the discovery of the sandal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Temperatures contributed to both protecting and revealing the sandal."
+        },
+        {
+          "label": "B",
+          "text": "The discovery revealed that the Roman Empire had more influence on Norway than archaeologists previously assumed."
+        },
+        {
+          "label": "C",
+          "text": "Archaeologists would have found the sandal eventually without help from the general public."
+        },
+        {
+          "label": "D",
+          "text": "The sandal would have degraded if it hadn't been removed from the ice."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Central Ideas and Details/Medium",
+      "source_question_number": 21,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. A \"particularly warm summer\" revealed the sandal, and centuries of ice kept it \"well preserved.\"\n\nChoice B is incorrect. This choice doesn't refl ect the information in the text. The sandal is similar to Roman sandals, but there is no indication that it was a result of Roman infl uence. Choice C is incorrect. The text doesn't support this choice. We don't have enough information to know whether or not archaeologists would have found the sandal without people like the treasure-hunting mountaineer. Choice D is incorrect. The text says the opposite of this choice. The sandal was preserved by the ice for centuries.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_002050",
+      "section": "reading_writing",
+      "question_number": 22,
+      "passage": "The following text is adapted from Jack London's 1903 novel[i] The Call of the Wild[/i]. Buck is a sled dog living with John Thornton in Yukon, Canada.\n\nThornton alone held [Buck] . The rest of mankind was as nothing. Chance travellers might praise or pet him; but he was cold under it all, and from a too demonstrative man he would get up and walk away. When Thornton's partners, Hans and Pete, arrived on the long-expected raft, Buck refused to notice them till he learned they were close to Thornton; after that he tolerated them in a passive sort of way, accepting favors from them as though he favored them by accepting.",
+      "prompt": "Which choice best states the main idea of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Buck has become less social since he began living with Thornton."
+        },
+        {
+          "label": "B",
+          "text": "Buck mistrusts humans and does his best to avoid them."
+        },
+        {
+          "label": "C",
+          "text": "Buck has been especially well liked by most of Thorntonʼs friends."
+        },
+        {
+          "label": "D",
+          "text": "Buck holds Thornton in higher regard than any other person."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Central Ideas and Details/Medium",
+      "source_question_number": 22,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer because it most accurately states the main idea of the text. After establishing that Buck views most people \"as nothing,\" the text explains that Buck won't acknowledge people other than Thornton unless they appear friendly toward Thornton, and even then he's only reluctantly accepting. Thus, the text focuses on the idea that Thornton has a special status in Buck's mind, with Buck holding him in higher regard than other people.\n\nChoice A is incorrect because the text conveys that Buck isn't social with people other than Thornton but doesn't address Buck's life or temperament before he lived with Thornton. Choice B is incorrect because the text conveys that Buck doesn't really care about people other than Thornton and is aloof toward them. However, there's no indication that Buck mistrusts and avoids people generally; indeed, he accepts Thornton, who is a human. Choice C is incorrect because the text refers to random travelers praising and petting Buck and Thornton's partners giving Buck favors, but there's no indication that any of these people are Thornton's friends or that they have a particular fondness for Buck.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_002051",
+      "section": "reading_writing",
+      "question_number": 23,
+      "passage": "To protect themselves when being attacked, hagfish-jawless marine animals that resemble eels-will release large quantities of slimy, mucus-like threads. Because these threads are unusually strong and elastic, scientist Atsuko Negishi and her colleagues have been trying to recreate them in a lab as an eco-friendly alternative to petroleum-based fibers that are often used in fabrics. The researchers want to reproduce the threads in the lab because farming hagfish for their slime would be expensive and potentially harmful to the hagfish.",
+      "prompt": "Which choice best states the text's main idea?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The slimy threads that hagfish release might help researchers create a new kind of fabric."
+        },
+        {
+          "label": "B",
+          "text": "Hagfish have inspired researchers to develop a new petroleum-based fabric."
+        },
+        {
+          "label": "C",
+          "text": "Hagfish are not well suited to being raised in captivity."
+        },
+        {
+          "label": "D",
+          "text": "The ability of hagfish to slime their attackers compensates for their being jawless."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Central Ideas and Details/Medium",
+      "source_question_number": 23,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "​",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_002052",
+      "section": "reading_writing",
+      "question_number": 24,
+      "passage": "Culinary anthropologist Vertamae Smart-Grosvenor may be known for her decades of work in national public television and radio, but her book[i] Vibration Cooking: or, the Travel Notes of a Geechee Girl [/i]is likely her most influential project. The 1970 book, whose title refers to Smart-Grosvenor's roots in the Low Country of South Carolina, was unusual for its time. It combined memoir, recipes, travel writing, and social commentary and challenged notions about conventions of food and cooking. Long admired by many, the book and its author have shaped contemporary approaches to writing about cuisine.",
+      "prompt": "Which choice best describes the main idea of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Smart-Grosvenor's unconventional book Vibration Cooking: or, the Travel Notes of a Geechee Girl is an important contribution to food writing."
+        },
+        {
+          "label": "B",
+          "text": "Smart-Grosvenor held many different positions over her life, including reporter and food writer."
+        },
+        {
+          "label": "C",
+          "text": "Smart-Grosvenor's groundbreaking book Vibration Cooking: or, the Travel Notes of a Geechee Girl didn't receive the praise it deserved when it was first published in 1970."
+        },
+        {
+          "label": "D",
+          "text": "Smart-Grosvenor was a talented chef whose work inspired many people to start cooking for themselves."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Central Ideas and Details/Medium",
+      "source_question_number": 24,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because it most accurately states the main idea of the text. The text describes the book [i]Vibration Cooking: or, the Travel Notes of a Geechee Girl [/i]as Smart-Grosvenor's \"most influential project\" and as \"unusual for its time.\" The text also notes that the book and author have influenced contemporary approaches to writing about food and cooking. Therefore, the text mainly conveys that[i] Vibration Cooking: or, the Travel Notes of a Geechee Girl[/i] is an unconventional and important contribution to food writing.\n\nChoice B is incorrect. Although the text mentions that Smart-Grosvenor worked in national public television and radio and was a food writer, these details aren't the main focus. Rather than focusing on Smart-Grosvenor's various jobs, the text focuses specifically on one specific book she wrote. Choice C is incorrect. Although the text suggests that [i]Vibration Cooking: or, the Travel Notes of a Geechee Girl [/i]was groundbreaking, it doesn't suggest that the book didn't receive praise when it was published. In fact, the text states that the book is \"long admired.\" Choice D is incorrect because the text states that Smart-Grosvenor was a culinary anthropologist and that her book infl uenced later approaches to food writing but doesn't indicate that Smart-Grosvenor or her book influenced people to begin cooking for themselves.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_002053",
+      "section": "reading_writing",
+      "question_number": 25,
+      "passage": "The following text is adapted from Charles W. Chesnutt's 1901 novel The Marrow of Tradition.\n\nMrs. Ochiltree was a woman of strong individuality, whose comments upon her acquaintance[s], present or absent, were marked by a frankness at times no less than startling. This characteristic caused her to be more or less avoided. Mrs. Ochiltree was aware of this sentiment on the part of her acquaintance[s], and rather exulted in it.",
+      "prompt": "Based on the text, what is true about Mrs. Ochiltree's acquaintances?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "They try to refrain from discussing topics that would upset Mrs. Ochiltree."
+        },
+        {
+          "label": "B",
+          "text": "They are unable to spend as much time with Mrs. Ochiltree as she would like."
+        },
+        {
+          "label": "C",
+          "text": "They are too preoccupied with their own concerns to speak with Mrs. Ochiltree."
+        },
+        {
+          "label": "D",
+          "text": "They are likely offended by what Mrs. Ochiltree has said about them."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Central Ideas and Details/Medium",
+      "source_question_number": 25,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer because it presents a statement about Mrs. Ochiltree's acquaintances that is supported by the text. The text indicates that Mrs. Ochiltree makes comments about her acquaintances that are frank, or direct and blunt, and sometimes startling. It also states that because of this behavior, the acquaintances tend to avoid Mrs. Ochiltree. Together, these details suggest that the acquaintances choose not to be around Mrs. Ochiltree because they are offended by the things she has said about them.\n\nChoice A is incorrect because the text doesn't suggest that Mrs. Ochiltree's acquaintances avoid discussing topics that would upset Mrs. Ochiltree; instead, it states that they avoid being around Mrs. Ochiltree at all. Choice B is incorrect because the text makes it clear that Mrs. Ochiltree knows her acquaintances often avoid her and is pleased about it (she \"rather exulted in it\" ), not that she wants to spend more time with them. Choice C is incorrect because the text doesn't suggest that Mrs. Ochiltree's acquaintances don't speak with Mrs. Ochiltree because they are too focused on their own concerns, but rather because they don't like the frank comments she makes.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_002054",
+      "section": "reading_writing",
+      "question_number": 26,
+      "passage": "Cats can judge unseen people's positions in space by the sound of their voices and thus react with surprise when the same person calls to them from two different locations in a short span of time. Saho Takagi and colleagues reached this conclusion by measuring cats' levels of surprise based on their ear and head movements while the cats heard recordings of their owners'voices from two speakers spaced far apart. Cats exhibited a low level of surprise when owners'voices were played twice from the same speaker, but they showed a high level of surprise when the voice was played once each from the two different speakers.",
+      "prompt": "According to the text, how did the researchers determine the level of surprise displayed by the cats in the study?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "They watched how each cat moved its ears and head."
+        },
+        {
+          "label": "B",
+          "text": "They examined how each cat reacted to the voice of a stranger."
+        },
+        {
+          "label": "C",
+          "text": "They studied how each cat physically interacted with its owner."
+        },
+        {
+          "label": "D",
+          "text": "They tracked how each cat moved around the room."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Central Ideas and Details/Medium",
+      "source_question_number": 26,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because it explains how the researchers determined the level of surprise displayed by the cats in the study. The text states that Saho Takagi and colleagues played recordings of the voice of each cat's owner and measured how surprised the cat was by the recording based on how it moved its ears and head.\n\nChoice B is incorrect because, as the text explains, the recordings played for each cat in the study were of the voice of the cat's owner, not a stranger's voice. Choice C is incorrect because the text explains that during the study, the cats didn't interact directly with their owners; instead, the cats listened to recordings of their owners' voices. Choice D is incorrect because the text doesn't indicate that the researchers monitored the cats'movement around the room in which the study was conducted.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    }
+  ]
+}

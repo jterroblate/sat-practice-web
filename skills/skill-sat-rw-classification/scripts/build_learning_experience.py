@@ -263,6 +263,98 @@ def load_question_package(root: Path, entry: dict[str, Any]) -> list[dict[str, A
     return normalized
 
 
+QUESTION_METADATA = "sat-question-metadata.json"
+QUESTION_METADATA_SCHEMA = "sat-question-metadata-v1"
+SOURCE_KINDS = ("real_exam", "practice")
+DIFFICULTY_LEVELS = ("easy", "medium", "hard")
+DIFFICULTY_BASES = ("source_file", "estimate", "model")
+SOURCE_REGIONS = ("apac", "north_america")
+PASSAGE_GENRES = ("poetry", "fiction", "drama")
+EXPLANATION_TEXT_FIELDS = ("short", "key_evidence", "why_correct", "detailed")
+
+
+def explanation_level(question: dict[str, Any]) -> str:
+    """How much explanation the learner will see: 'full', 'brief' or 'none'.
+
+    Read off the question as it is published, the same way the view
+    question_explanation in content/db/schema.sql reads the tables: 'full' has
+    every explanation text and an analysis of every choice, 'none' has nothing
+    written, anything in between is 'brief'.
+    """
+    explanation = question.get("explanation") if isinstance(question.get("explanation"), dict) else {}
+    analysis = explanation.get("choice_analysis") if isinstance(explanation.get("choice_analysis"), dict) else {}
+    choices = [choice for choice in question.get("choices") or [] if isinstance(choice, dict)]
+    texts = sum(1 for field in EXPLANATION_TEXT_FIELDS if str(explanation.get(field) or "").strip())
+    analysed = sum(1 for choice in choices if str(analysis.get(choice.get("label")) or "").strip())
+    if texts == 0 and analysed == 0:
+        return "none"
+    if texts == len(EXPLANATION_TEXT_FIELDS) and analysed == len(choices):
+        return "full"
+    return "brief"
+
+
+def load_question_origins(root: Path) -> dict[str, dict[str, Any]]:
+    """Optional per-question origin written by the site build from content/db."""
+    path = root / QUESTION_METADATA
+    if not path.is_file():
+        return {}
+    value = json.loads(path.read_text(encoding="utf-8"))
+    if (not isinstance(value, dict) or value.get("schemaVersion") != QUESTION_METADATA_SCHEMA
+            or not isinstance(value.get("questions"), dict)):
+        raise ValueError("Unsupported question metadata file")
+    return value["questions"]
+
+
+def question_origin(question: dict[str, Any]) -> dict[str, Any]:
+    """Origin and difficulty in the one shape both public DTOs use.
+
+    Every key is always present, so pages built without content/db (the demo,
+    a checkout with only the set files) read the same fields with empty values.
+    """
+    origin = question.get("_origin") if isinstance(question.get("_origin"), dict) else {}
+    question_id = str(question.get("question_id") or "")
+
+    def whole(value: Any, low: int, high: int) -> int | None:
+        return value if type(value) is int and low <= value <= high else None
+
+    def plain(value: Any, context: str) -> str:
+        text = str(value or "")
+        if PUBLIC_HTML_TAG_RE.search(text) or any(pattern in text for pattern in PUBLIC_PATH_PATTERNS):
+            raise ValueError(f"Question origin text is not plain: {question_id}.{context}")
+        return text
+
+    estimate = str(question.get("difficulty_estimate") or "").lower()
+    if origin.get("difficulty") in DIFFICULTY_LEVELS:
+        level = origin["difficulty"]
+        basis = origin.get("difficultyBasis") if origin.get("difficultyBasis") in DIFFICULTY_BASES else ""
+    else:
+        level = estimate if estimate in DIFFICULTY_LEVELS else ""
+        basis = "estimate" if level else ""
+    refs = []
+    for index, ref in enumerate(origin.get("refs") if isinstance(origin.get("refs"), list) else []):
+        if not isinstance(ref, dict) or ref.get("kind") not in SOURCE_KINDS:
+            raise ValueError(f"Invalid question origin reference: {question_id}")
+        refs.append({
+            "label": plain(ref.get("label"), f"refs.{index}.label"),
+            "kind": ref["kind"],
+            "tier": whole(ref.get("tier"), 1, 3),
+            "year": whole(ref.get("year"), 2000, 2100),
+            "month": whole(ref.get("month"), 1, 12),
+            "region": ref.get("region") if ref.get("region") in SOURCE_REGIONS else "",
+            "module": plain(ref.get("module"), f"refs.{index}.module"),
+            "number": whole(ref.get("number"), 1, 999),
+        })
+    return {
+        "kind": origin.get("kind") if origin.get("kind") in SOURCE_KINDS else "",
+        "tier": whole(origin.get("tier"), 1, 3),
+        "year": whole(origin.get("year"), 2000, 2100),
+        "level": level,
+        "basis": basis,
+        "genre": origin.get("genre") if origin.get("genre") in PASSAGE_GENRES else "",
+        "refs": refs,
+    }
+
+
 def load_published_content(
     root: Path, registry: dict[str, Any]
 ) -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]], dict[str, dict[str, Any]]]:
@@ -278,6 +370,7 @@ def load_published_content(
     first_routes_by_id: dict[str, str] = {}
     priorities_by_id: dict[str, int] = {}
     source_kind_order = {"set": 0, "collection": 1}
+    origins = load_question_origins(root)
     for entry in sorted(
         source_entries,
         key=lambda item: (source_kind_order[str(item.get("kind"))], str(item.get("route"))),
@@ -287,6 +380,10 @@ def load_published_content(
         ids = [str(question["question_id"]) for question in questions]
         if len(ids) != len(set(ids)):
             raise ValueError(f"Duplicate question ID inside {route}")
+        for question in questions:
+            origin = origins.get(str(question["question_id"]))
+            if origin is not None:
+                question["_origin"] = origin
         source_pages[route] = questions
         priority = int(entry.get("canonicalPriority") or 100) + (1000 if entry.get("kind") == "set" else 0)
         for question in questions:
@@ -627,6 +724,11 @@ def public_question(root: Path, route: str, question: dict[str, Any]) -> dict[st
     ):
         if field in question:
             result[field] = copy.deepcopy(question[field])
+    origin = question_origin(question)
+    result.update(
+        source_kind=origin["kind"], source_tier=origin["tier"], source_year=origin["year"],
+        source_refs=origin["refs"], difficulty_level=origin["level"], difficulty_basis=origin["basis"],
+    )
 
     assets = public_question_assets(
         root,
@@ -694,6 +796,7 @@ def compact_question(
     # prove that every source-local asset was consumed by the same strict
     # placeholder binding used for the full student DTO.
     public_question_assets(root, question.get("visual_assets"), bound_assets, question_id)
+    origin = question_origin(question)
     return {
         "contentVersion": "sat-learning-v2",
         "gradingRevision": grading_revision(question),
@@ -714,6 +817,14 @@ def compact_question(
         ),
         "sourceFamily": str(question.get("source_family") or ""),
         "difficulty": question.get("difficulty_estimate") or "",
+        "difficultyLevel": origin["level"],
+        "difficultyBasis": origin["basis"],
+        "sourceKind": origin["kind"],
+        "sourceTier": origin["tier"],
+        "sourceYear": origin["year"],
+        "sourceRefs": origin["refs"],
+        "genre": origin["genre"],
+        "explanationLevel": explanation_level(question),
     }
 
 

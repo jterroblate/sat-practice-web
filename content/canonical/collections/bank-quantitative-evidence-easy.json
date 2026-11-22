@@ -1,0 +1,1013 @@
+{
+  "schemaVersion": "sat-canonical-question-collection-v1",
+  "contentId": "collection-bank-quantitative-evidence-easy",
+  "title": "Quantitative Evidence · Easy",
+  "section": "reading_writing",
+  "questionCount": 13,
+  "questions": [
+    {
+      "question_id": "bank_rw_002129",
+      "section": "reading_writing",
+      "question_number": 1,
+      "passage": "To make sure they got the nutrition they needed while in space, the astronauts of NASA's Gemini missions were given menus for three meals a day (meals A, B, and C) on a four-day rotating schedule. Looking at the sample of food items from these menus, a student notes that on day 1, the menu included ______",
+      "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "shrimp cocktail for meal B."
+        },
+        {
+          "label": "B",
+          "text": "hot cocoa for meal C."
+        },
+        {
+          "label": "C",
+          "text": "sugar cookie cubes for meal B."
+        },
+        {
+          "label": "D",
+          "text": "chicken and vegetables for meal A."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Quantitative Evidence/Easy",
+      "source_question_number": 1,
+      "table_data": {
+        "title": "Sample of Food Items from Gemini Mission Menus",
+        "columns": [
+          "Food item",
+          "Day",
+          "Meal"
+        ],
+        "rows": [
+          [
+            "Sugar cookie cubes",
+            "1",
+            "B"
+          ],
+          [
+            "Chicken and vegetables",
+            "2",
+            "B"
+          ],
+          [
+            "Shrimp cocktail",
+            "4",
+            "C"
+          ],
+          [
+            "Hot cocoa",
+            "3",
+            "A"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer because it most effectively uses data from the table to complete the statement. The table shows that on day 1, the menu for NASA's Gemini missions included sugar cookie cubes for meal B.\n\nChoice A is incorrect because according to the table, shrimp cocktail was served on day 4, not day 1; moreover, the item was served for meal C, not meal B, as this choice claims. Choice B is incorrect because according to the table, hot cocoa was served on day 3, not on day 1; moreover, the item was served for meal A, not for meal C, as this choice claims. Choice D is incorrect because according to the table, chicken and vegetables were served on day 2, not on day 1; moreover, the item was served for meal B, not for meal A, as this choice claims.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_002131",
+      "section": "reading_writing",
+      "question_number": 2,
+      "passage": "The table shows data from paleontologist Angélica Torices and colleagues' 2021 study of two sets of dinosaur tracks preserved in a fossilized lake bed in Spain. The tracks, referred to as La Torre 6A and La Torre 6B, were left by two individual theropods (dinosaurs that walked on two legs). The team's findings suggest that of the two theropods, the one that left the La Torre 6B tracks had a higher maximum mean speed, ______",
+      "prompt": "Which choice most effectively uses data from the table to complete the claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a longer footprint, and a longer average stride."
+        },
+        {
+          "label": "B",
+          "text": "a longer footprint, and a shorter average stride."
+        },
+        {
+          "label": "C",
+          "text": "a shorter footprint, and a longer average stride."
+        },
+        {
+          "label": "D",
+          "text": "a shorter footprint, and a shorter average stride."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Quantitative Evidence/Easy",
+      "source_question_number": 3,
+      "table_data": {
+        "title": "Results of Footprint Analysis for Two Sets of Theropod Tracks",
+        "columns": [
+          "Tracks",
+          "Estimated footprint length (centimeters)",
+          "Average stride length (meters)",
+          "Estimated mean speed (meters per second)"
+        ],
+        "rows": [
+          [
+            "La Torre 6A",
+            "32.8",
+            "5.23",
+            "6.5–10.3"
+          ],
+          [
+            "La Torre 6B",
+            "28.9",
+            "5.57",
+            "8.8–12.4"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer because it most effectively uses data from the table to complete the claim about the tracks left by two therapods. The table indicates that the set of tracks labeled La Torre 6A has an estimated footprint length of 32.8 centimeters, an average stride length of 5.23 meters, and an estimated mean speed of 6.5-10.3 meters per second. For the set of tracks labeled La Torre 6B, on the other hand, the estimated footprint length is 28.9 centimeters, the average stride length is 5.57 meters, and the estimated mean speed is 8.8-12.4 meters per second. Therefore, the therapod that left the La Torre 6B tracks had a shorter footprint and a longer average stride than the one that left the La Torre 6A tracks.\n\nChoice A is incorrect. While it is true that of the two therapods, the one that left the La Torre 6B tracks had a longer average stride, it didn't have a longer footprint: the table shows that its estimated footprint length is 28.9 centimeters, while La Torre 6A's estimated footprint length is 32.8 centimeters. Choice B is incorrect because the table shows that of the two therapods, the one that left the La Torre 6B tracks had a footprint length estimated at 28.9 centimeters, which is shorter than the 32.8 centimeters estimated for the other set of tracks. Moreover, the therapod that left the La Torre 6B tracks had a longer average stride, not shorter: 5.57 meters, compared with 5.23 meters for the other set of tracks. Choice D is incorrect. While it is true that of the two therapods, the one that left the La Torre 6B tracks had a shorter footprint, it didn't have a shorter average stride: the table shows that its\naverage stride length is 5.57 meters, while La Torre 6A's average stride length is 5.23 meters.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_002132",
+      "section": "reading_writing",
+      "question_number": 3,
+      "passage": "The Navajo Nation has the largest land area of any tribal nation in the United States: over 27,000 square miles in the Southwest. Because this area is so huge and its communities are located at various elevations, the people of the Navajo Nation can experience different climate conditions depending on where they live. For example, in July, ______",
+      "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the lowest temperature for both Cameron and Teec Nos Pos was 65°."
+        },
+        {
+          "label": "B",
+          "text": "Tuba City's average highest temperature was 94°, while Teec Nos Pos's was 93°."
+        },
+        {
+          "label": "C",
+          "text": "Ramah's average highest temperature was 83°, while Cameron's was 99°."
+        },
+        {
+          "label": "D",
+          "text": "the lowest temperature for both Ramah and Tuba City was 50°."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Quantitative Evidence/Easy",
+      "source_question_number": 4,
+      "table_data": {
+        "title": "Average Temperatures in July in Four Locations in the Navajo Nation",
+        "columns": [
+          "Location",
+          "Average highest temperature (Fahrenheit)",
+          "Average lowest temperature (Fahrenheit)"
+        ],
+        "rows": [
+          [
+            "Teec Nos Pos",
+            "94°",
+            "65°"
+          ],
+          [
+            "Cameron",
+            "99°",
+            "65°"
+          ],
+          [
+            "Ramah",
+            "83°",
+            "50°"
+          ],
+          [
+            "Tuba City",
+            "83°",
+            "50°"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer because it effectively uses data from the table to complete the statement, providing an example of how the people of the Navajo Nation can experience different climate conditions depending on where they live. The table shows the average highest temperatures and average lowest temperatures in four locations in the Navajo Nation in July. According to the table, Ramah's average highest temperature for July was 83°, whereas Cameron's average highest temperature was much higher, at 99°. This difference illustrates the statement that the people of the Navajo Nation can experience different climate conditions depending on where they live.\n\nChoice A is incorrect because it states that Cameron and Teec Nos Pos had the same average lowest temperature (65°) for July, which suggests a similarity in climate conditions in those locations rather than a difference. Choice B is incorrect because it misrepresents the data from the table, which shows that the average highest temperature in July for Tuba City was 83°, not 94°, and for Teec Nos Pos it was 94°, not 93°. Even if the cited data accurately reflected the data in the table, the similarity between the two values for average highest temperature would suggest that people in the two locations likely experience similar climate conditions, not different climate conditions. Choice D is incorrect because it states that Ramah and Tuba City had the same average lowest temperature (50°) for July, which suggests a similarity in climate conditions in those locations rather than a difference.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_002134",
+      "section": "reading_writing",
+      "question_number": 4,
+      "passage": "Nan Gao and her team conducted multiple surveys to determine participants' levels of comfort in a room where the temperature was regulated by a commercial climate control system. Participants filled out surveys several times a day to indicate their level of comfort on a scale from -3 (very cold) to +3 (very hot), with 0 indicating neutral (neither warm nor cool), and to indicate how they would prefer the temperature to be adjusted. The table shows three participants' responses in one of the surveys. According to the table, all three participants wanted the room to be cooler, ______",
+      "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "and they each reported the same level of comfort."
+        },
+        {
+          "label": "B",
+          "text": "even though each participant's ratings varied throughout the day."
+        },
+        {
+          "label": "C",
+          "text": "but participant 20 reported feeling significantly colder than the other two participants did."
+        },
+        {
+          "label": "D",
+          "text": "but participant 1 reported feeling warmer than the other two participants did."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Quantitative Evidence/Easy",
+      "source_question_number": 6,
+      "table_data": {
+        "title": "Comfort Ratings and Temperature-Adjustment Preferences from One Survey",
+        "columns": [
+          "Participant",
+          "Comfort rating",
+          "Preferred temperature adjustment"
+        ],
+        "rows": [
+          [
+            "20",
+            "−2",
+            "Cooler"
+          ],
+          [
+            "1",
+            "1",
+            "Cooler"
+          ],
+          [
+            "21",
+            "1",
+            "Cooler"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer. The text describes the comfort rating scale: from -3 (very cold) to +3 (very hot), with 0 being neutral. Participant 20 gave a - 2 comfort rating, a full three points colder on the scale than the other two participants.\n\nChoice A is incorrect. This choice misreads the table. Participant 1 and participant 21 reported the same level of comfort, but participant 20's comfort level was three points lower. Choice B is incorrect. This choice doesn't use data from the table. The table only shows us one survey, so we don't know if the participants' ratings varied throughout the day. Choice D is incorrect. This choice misreads the table. Participant 1 and participant 21 reported the same level of comfort.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_002137",
+      "section": "reading_writing",
+      "question_number": 5,
+      "passage": "Huge international exhibitions known as world's fairs have been held since 1851, but the United States hasn't hosted one since 1984. Architecture expert Mina Chow argues that this is because some people think the events are too expensive and not popular enough. For example, the 1984 World's Fair cost $350 million and had only ______",
+      "prompt": "Which choice most effectively uses data from the table to complete the example?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "7.35 million visitors."
+        },
+        {
+          "label": "B",
+          "text": "9.60 million visitors."
+        },
+        {
+          "label": "C",
+          "text": "6.40 million visitors."
+        },
+        {
+          "label": "D",
+          "text": "5.60 million visitors."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Quantitative Evidence/Easy",
+      "source_question_number": 9,
+      "table_data": {
+        "title": "Attendance and Cost of Hosting for Past Four US World's Fairs",
+        "columns": [
+          "World's fairs held in the US",
+          "Cost (in US dollars)",
+          "Number of visitors"
+        ],
+        "rows": [
+          [
+            "Century 21 Exposition (1962)",
+            "$47 million",
+            "9.60 million"
+          ],
+          [
+            "HemisFair '68",
+            "$156 million",
+            "6.40 million"
+          ],
+          [
+            "1984 World's Fair",
+            "$350 million",
+            "7.35 million"
+          ],
+          [
+            "Expo '74",
+            "$78 million",
+            "5.60 million"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because it most effectively uses data from the table to complete the example of the high cost and low popularity of world's fairs. The text presents Chow's argument that the United States hasn't hosted a world's fair since 1984 because people think these exhibitions are overly expensive and insufficiently popular. The text then cites the 1984 World's Fair as an example, noting that it cost $350 million. Since the example should illustrate both high cost and insufficient popularity, the best completion of the example is the information from the table that the 1984 World's Fair had 7.35 million visitors.\n\nChoice B is incorrect because it misrepresents data from the table. The table indicates that the 1984 World's Fair, which is the world's fair used as an example in the text, had 7.35 million, not 9.60 million, visitors. Choice C is incorrect because it misrepresents data from the table. The table indicates that the 1984 World's Fair, which is the world's fair used as an example in the text, had 7.35 million, not 6.40 million, visitors. Choice D is incorrect because it misrepresents data from the table. The table indicates that the 1984 World's Fair, which is the world's fair used as an example in the text, had 7.35 million, not 5.60 million, visitors.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_002139",
+      "section": "reading_writing",
+      "question_number": 6,
+      "passage": "Like Earth, some dwarf planets in the solar system have exactly one moon. Two examples of such dwarf planets are ______",
+      "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Eris and Makemake."
+        },
+        {
+          "label": "B",
+          "text": "Haumea and Eris."
+        },
+        {
+          "label": "C",
+          "text": "Pluto and Haumea."
+        },
+        {
+          "label": "D",
+          "text": "Makemake and Ceres."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Quantitative Evidence/Easy",
+      "source_question_number": 11,
+      "table_data": {
+        "title": "Moons of Dwarf Planets",
+        "columns": [
+          "Dwarf planet name",
+          "Number of moons",
+          "Name of moons"
+        ],
+        "rows": [
+          [
+            "Haumea",
+            "2",
+            "Hi'iaka, Namaka"
+          ],
+          [
+            "Ceres",
+            "0",
+            "N/A"
+          ],
+          [
+            "Makemake",
+            "1",
+            "MK 2"
+          ],
+          [
+            "Eris",
+            "1",
+            "Dysnomia"
+          ],
+          [
+            "Pluto",
+            "5",
+            "Charon, Nix, Kerberos, Styx, Hydra"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because it most effectively uses data from the table to complete the statement about dwarf planets that have exactly one moon. The table lists several dwarf planets in one column and the number of moons that each of those dwarf planets has in another column. The text states that some dwarf planets have exactly one moon and indicates that there are two examples. Only two dwarf planets in the table have exactly one moon: Eris and Makemake.\n\nChoice B is incorrect. According to the table, Eris has exactly one moon, but Haumea has two moons. Choice C is incorrect. According to the table, Haumea has two moons, and Pluto has five moons. Thus, they are not examples of dwarf planets with exactly one moon. Choice D is incorrect because while the table indicates that Makemake has exactly one moon, the table shows that Ceres has no moons at all.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_002141",
+      "section": "reading_writing",
+      "question_number": 7,
+      "passage": "For a school project, a forestry student needs to recommend a maple tree that is native to North America and won't grow more than 60 feet in height. Based on the characteristics of five common maple trees, she has decided to select a ______",
+      "prompt": "Which choice most effectively uses data from the table to complete the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "silver maple."
+        },
+        {
+          "label": "B",
+          "text": "sugar maple."
+        },
+        {
+          "label": "C",
+          "text": "red maple."
+        },
+        {
+          "label": "D",
+          "text": "Norway maple."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Quantitative Evidence/Easy",
+      "source_question_number": 13,
+      "table_data": {
+        "title": "Maximum Height of Maple Trees When Fully Grown",
+        "columns": [
+          "Tree type",
+          "Maximum height (feet)",
+          "Native to North America"
+        ],
+        "rows": [
+          [
+            "Sugar maple",
+            "75",
+            "yes"
+          ],
+          [
+            "Silver maple",
+            "70",
+            "yes"
+          ],
+          [
+            "Red maple",
+            "60",
+            "yes"
+          ],
+          [
+            "Japanese maple",
+            "25",
+            "no"
+          ],
+          [
+            "Norway maple",
+            "50",
+            "no"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer because it most effectively uses data from the table to complete the statement about the forestry student's project. The table shows five types of maple trees, each tree's maximum height, and whether each tree is native to North America. The text indicates that the student needs to recommend a maple tree that's native to North America and won't reach a height greater than 60 feet. The red maple is the only tree listed in the table that meets these criteria: its maximum height is 60 feet-meaning that it won't grow higher than 60 feet-and it's native to North America.\n\nChoice A is incorrect because the text states that the student needs to recommend a tree that's native to North America and won't grow higher than 60 feet, but the table shows that the maximum height of the silver maple is 70 feet. Choice B is incorrect because the text states that the student needs to recommend a tree that's native to North America and won't grow higher than 60 feet, but the table shows that the maximum height of the sugar maple is 75 feet. Choice D is incorrect because the text states that the student needs to recommend a tree that's native to North America and won't grow higher than 60 feet, but the table shows that the Norway maple isn't native to North America.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_002145",
+      "section": "reading_writing",
+      "question_number": 8,
+      "passage": "Digital paywalls restrict access to online content to those with a paid subscription. In an investigation of the effect of paywalls on newspaper company revenues for print and digital subscriptions and advertising, Doug J. Chung and colleagues compared actual outcomes (with a paywall) to control estimates (without a paywall). The researchers concluded that introducing a paywall is generally more beneficial for larger newspapers, which have high circulation and tend to offer a substantial amount of unique online content.",
+      "prompt": "Which choice best describes data from the table that support Chung and colleagues' conclusion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The [i]Chicago Tribune[/i] and the [i]Los Angeles Times[/i] had similar total revenue changes, but the [i]Los Angeles Times[/i] had a smaller percentage change."
+        },
+        {
+          "label": "B",
+          "text": "The [i]Los Angeles[/i] Times had a 12.5% revenue change, while the[i] Chicago Tribune[/i] had a 19% revenue change."
+        },
+        {
+          "label": "C",
+          "text": "[i]The New York Times[/i] had a 20% revenue change, while the [i]Denver Post[/i] had a -1% revenue change."
+        },
+        {
+          "label": "D",
+          "text": "The [i]Denver Post[/i] had only a -1% revenue change, which was the smallest percentage change of the selected companies."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Quantitative Evidence/Easy",
+      "source_question_number": 17,
+      "table_data": {
+        "title": "Effect of Paywall Introduction on Newspaper Companies' Revenues",
+        "columns": [
+          "Newspaper",
+          "Total revenue change ($ in thousands)",
+          "Percentage change (%)",
+          "Newspaper size"
+        ],
+        "rows": [
+          [
+            "Los Angeles Times",
+            "93,966",
+            "12.5",
+            "large"
+          ],
+          [
+            "The New York Times",
+            "235,788",
+            "20",
+            "large"
+          ],
+          [
+            "The Denver Post",
+            "−3,765",
+            "−1",
+            "small"
+          ],
+          [
+            "Sun Sentinel",
+            "−24,899",
+            "−11.9",
+            "small"
+          ],
+          [
+            "Chicago Tribune",
+            "94,492",
+            "19",
+            "large"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer. The conclusion is that paywalls are more beneficial for large newspapers. This data supports that conclusion by comparing the revenue increase of a large newspaper to the revenue decrease of a small newspaper.\n\nChoice A is incorrect. This choice doesn't support the conclusion. It doesn't include any small newspapers for comparison. Choice B is incorrect. This choice doesn't support the conclusion. It doesn't include any small newspapers for comparison. Choice D is incorrect. This choice doesn't support the conclusion. It doesn't include any large newspapers for comparison.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_002146",
+      "section": "reading_writing",
+      "question_number": 9,
+      "passage": "Wildlife researcher Dana L. Karelus and her colleagues tracked the movements of female and male adult mountain lions over three seasons: the cold-dry season, the hot-dry season, and the monsoon season. They found that the least amount of travel per day occurred in ______",
+      "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the cold-dry season for both females and males."
+        },
+        {
+          "label": "B",
+          "text": "the cold-dry season for females and the hot-dry season for males."
+        },
+        {
+          "label": "C",
+          "text": "the hot-dry season for females and the monsoon season for males."
+        },
+        {
+          "label": "D",
+          "text": "the monsoon season for both females and males."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Quantitative Evidence/Easy",
+      "source_question_number": 18,
+      "table_data": {
+        "title": "Daily Distance Traveled by Adult Mountain Lions in Three Seasons",
+        "columns": [
+          "Season",
+          "Kilometers per day traveled by adult females",
+          "Kilometers day traveled by adult males"
+        ],
+        "rows": [
+          [
+            "cold-dry",
+            "9.28",
+            "15.81"
+          ],
+          [
+            "monsoon",
+            "12.64",
+            "18.93"
+          ],
+          [
+            "hot-dry",
+            "12.48",
+            "18.87"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. Females only traveled 9.28 km per day in the cold-dry season, versus 12.64 and 12.48 km per day in the monsoon and hot-dry seasons, respectively. Males only traveled 15.81 km per day per day in the cold-dry season, versus 18.93 and 18.87 km per day in the monsoon and hot-dry seasons, respectively. So, the cold-dry season was the season where both males and females had the least daily travel.\n\nChoice B is incorrect. Although females traveled least in the cold-dry season, males didn’t travel least in the hot-dry season. Instead, they traveled less per day in the cold-dry season as well. Choice C is incorrect. Females had less daily travel in the cold-dry season than in the hot-dry season (9.28 versus 12.48 km per day), and males had less daily travel in the cold-dry season than in the monsoon season (15.81 versus 18.93 km per day). Choice D is incorrect. In fact, both females and males traveled the most kilometers per day in the monsoon season.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_002147",
+      "section": "reading_writing",
+      "question_number": 10,
+      "passage": "A city's Parks and Recreation department is interested in providing residents with more opportunities for bicycling in their neighborhoods. They're considering adding more bike paths and conducted a survey to understand where demand for more bike paths is highest. The survey indicated the highest level of demand, with 88 percent of the residents interested in adding more bike paths, is in the city's ______",
+      "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "South West area."
+        },
+        {
+          "label": "B",
+          "text": "South Central area."
+        },
+        {
+          "label": "C",
+          "text": "North East area."
+        },
+        {
+          "label": "D",
+          "text": "North Central area."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Quantitative Evidence/Easy",
+      "source_question_number": 19,
+      "table_data": {
+        "title": "Percent of Residents of City Areas in Favor of Adding More Bike Paths",
+        "columns": [
+          "City Area",
+          "Percent of area's residents in favor of adding more bike paths"
+        ],
+        "rows": [
+          [
+            "North East",
+            "12%"
+          ],
+          [
+            "North Central",
+            "26%"
+          ],
+          [
+            "North West",
+            "46%"
+          ],
+          [
+            "South West",
+            "88%"
+          ],
+          [
+            "South Central",
+            "33%"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because it most effectively uses data from the table to complete the statement about the bike path survey. The table presents the percent of residents from five city areas who are in favor of adding more bike paths. With 88 percent of residents in favor of adding bike paths, the city's South West area has the highest level of demand.\n\nChoice B is incorrect because, according to the data in the table, 33 percent of residents in the South Central area of the city are in favor of additional bike paths. The area of the city that has 88 percent of its surveyed residents in favor of additional bike paths will best complete the statement. Choice C is incorrect because, according to the data in the table, 12 percent of residents in the North East area of the city are in favor of additional bike paths. The area of the city that has 88 percent of its surveyed residents in favor of additional bike paths will best complete the statement. Choice D is incorrect because, according to the data in the table, 26 percent of residents in the North Central area of the city are in favor of additional bike paths. The area of the city that has 88 percent of its surveyed residents in favor of additional bike paths will best complete the statement.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_002148",
+      "section": "reading_writing",
+      "question_number": 11,
+      "passage": "Guilds—local associations of artisans and merchants in the same industry—were widespread in France from the medieval period until the late eighteenth century. But guilds were much more numerous relative to the population in some cities than in others: for example, ______",
+      "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "there were 49 guilds in Bordeaux but 72 guilds in Lyon despite the two cities having nearly equal numbers of inhabitants."
+        },
+        {
+          "label": "B",
+          "text": "Lyon had far fewer inhabitants than Paris did but had many more guilds."
+        },
+        {
+          "label": "C",
+          "text": "there was one guild for every 661 inhabitants in Rouen but one guild for every 4,511 inhabitants in Paris."
+        },
+        {
+          "label": "D",
+          "text": "Paris had 133 guilds and 600,000 inhabitants, or one guild for every 4,511 inhabitants."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Quantitative Evidence/Easy",
+      "source_question_number": 20,
+      "table_data": {
+        "title": "Guilds in French Cities in the Late Eighteenth Century",
+        "columns": [
+          "City",
+          "Date",
+          "Inhabitants",
+          "Number of guilds",
+          "Inhabitants per guild"
+        ],
+        "rows": [
+          [
+            "Paris",
+            "1766",
+            "600,000",
+            "133",
+            "4,511"
+          ],
+          [
+            "Bordeaux",
+            "1762",
+            "80,000",
+            "49",
+            "1,633"
+          ],
+          [
+            "Rouen",
+            "1775",
+            "74,000",
+            "112",
+            "661"
+          ],
+          [
+            "Lyon",
+            "1789",
+            "143,000",
+            "72",
+            "1,986"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer. The claim we're trying to prove is that guilds were much more numerous relative to population in some cities than others. This choice describes the guilds per number of inhabitants in two cities (Rouen and Paris), showing significant differences between guilds relative to population in these cities.\n\nChoice A is incorrect. This choice misreads the table. Bordeaux had 80,000 inhabitants, according to the table, while Lyon had 143,000, so it isn't correct to say that they had \"nearly equal numbers of inhabitants.\" Lyon had almost twice as many inhabitants. Choice B is incorrect. This choice misreads the table. Although Lyon did have fewer inhabitants than Paris, it didn't have more guilds-Paris had 133 guilds versus Lyon's 72. Choice D is incorrect. This choice doesn't support the claim. To show that guilds were more numerous relative to population in some cities than others, we would need to compare at least two cities, and this choice only mentions one.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_002149",
+      "section": "reading_writing",
+      "question_number": 12,
+      "passage": "Two kinds of clamshell tools used by Neanderthals were dug up in a cave on the western coast of Italy. Archaeologist Paola Villa and her colleagues studied the tools and determined that Neanderthals either collected clams that had washed onto the beach or harvested clams from the seafloor and then sharpened the shells to make tools. The highest number of tools made from clamshells that were collected from the beach was found at a depth of ______",
+      "prompt": "Which choice most effectively uses data from the table to complete the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "5-6 meters below the surface."
+        },
+        {
+          "label": "B",
+          "text": "4-5 meters below the surface."
+        },
+        {
+          "label": "C",
+          "text": "3-4 meters below the surface."
+        },
+        {
+          "label": "D",
+          "text": "6-7 meters below the surface."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Quantitative Evidence/Easy",
+      "source_question_number": 21,
+      "table_data": {
+        "title": "Number and Origin of Clamshell Tools Found at Different Depths below the Surface in Neanderthal Cave",
+        "columns": [
+          "Depth of tools found below surface in cave (meters)",
+          "Clamshells that Neanderthals collected from the beach",
+          "Clamshells that Neanderthals harvested from the seafloor"
+        ],
+        "rows": [
+          [
+            "2–3",
+            "7",
+            "0"
+          ],
+          [
+            "3–4",
+            "99",
+            "33"
+          ],
+          [
+            "4–5",
+            "2",
+            "0"
+          ],
+          [
+            "5–6",
+            "18",
+            "7"
+          ],
+          [
+            "6–7",
+            "1",
+            "0"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer because it most effectively uses data from the table to complete the statement about the depth at which the highest number of tools made from clamshells that Neanderthals collected from the beach was found. The table presents the depths at which Neanderthal clamshell tools were found, and, for each depth, the number of those tools made from clamshells that washed up on the beach and the number made from clamshells harvested from the seafloor. The table indicates that the highest number made from clamshells collected from the beach was 99 and that these tools were found at a depth of 3-4 meters.\n\nChoice A is incorrect because the table indicates that 18 tools made from clamshells collected from the beach were found at a depth of 5-6 meters, which is fewer than the 99 tools found at a depth of 3-4 meters. Choice B is incorrect because the table indicates that 2 tools made from clamshells collected from the beach were found at a depth of 4-5 meters, which is fewer than the 99 tools found at a depth of 3-4 meters. Choice D is incorrect because the table indicates that 1 tool made from clamshells collected from the beach was found at a depth of 6-7 meters, which is fewer than the 99 tools found at a depth of 3-4 meters.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_002150",
+      "section": "reading_writing",
+      "question_number": 13,
+      "passage": "Researchers recently conducted an experiment to understand how we use rankings to make decisions. They created a fictitious travel website describing five museums in London. Then, they invited two groups of participants, who had never visited the museums, to review the site and select the museum they would be most likely to visit. Meanwhile, the researchers tracked the amount of time each participant spent reading about each museum. For one group, the website ranked each museum, titling the page \"The Top 5 Museums in London.\" For the other group, the museums and their descriptions were not ranked. The researchers concluded that when reviewing ranked lists, we tend to focus on the top-ranked option.",
+      "prompt": "Which choice best describes data in the table that support the researchers' conclusion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Participants who were not provided with a ranking of the museums spent roughly equal amounts of time reading about each museum."
+        },
+        {
+          "label": "B",
+          "text": "Participants who were provided with a ranking of the museums spent disproportionately more time reading about the British museum."
+        },
+        {
+          "label": "C",
+          "text": "Participants who were provided with a ranking of the museums spent the least amount of time reading about the Natural History Museum."
+        },
+        {
+          "label": "D",
+          "text": "Participants who were not provided with a ranking of the museums spent the most time reading about the Victoria and Albert Museum."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Quantitative Evidence/Easy",
+      "source_question_number": 22,
+      "table_data": {
+        "title": "Time Participants Spent Reading about Five London Museums",
+        "columns": [
+          "Museum Name",
+          "Ranking",
+          "Percentage of total time spent reading about museum by participants provided with ranking",
+          "Percentage of total time spent reading about museum by participants not provided with ranking"
+        ],
+        "rows": [
+          [
+            "British Museum",
+            "1",
+            "36",
+            "18"
+          ],
+          [
+            "National Gallery",
+            "2",
+            "21",
+            "20"
+          ],
+          [
+            "Tate Modern",
+            "4",
+            "16",
+            "17"
+          ],
+          [
+            "Victoria and Albert Museum",
+            "5",
+            "14",
+            "23"
+          ],
+          [
+            "Natural History Museum",
+            "3",
+            "13",
+            "22"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer. By looking at the top-ranked option, we can see that people provided with ranked lists spent more time reading about the British Museum than reading about other museums (36% of the time versus 21% for the second-ranked option).\n\nChoice A is incorrect. The claim is about people with ranked lists, and these data are about those with unranked lists. Choice C is incorrect. The claim is about people with ranked lists looking at the top-ranked option, and these data are about the third-ranked option. Choice D is incorrect. The claim is about people with ranked lists, and these data are about those with unranked lists.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    }
+  ]
+}

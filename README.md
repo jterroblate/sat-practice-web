@@ -2,9 +2,9 @@
 
 SAT Reading and Writing 学习站的协作开发仓库，包含当前结构化题库、必要题图、静态生成器、练习与复习界面、本地学习记录逻辑及开发测试。Python 构建页面，原生 JavaScript 负责交互；不需要安装前端框架。
 
-导入基线的维护代码对应 2026-11-05 已发布的提交反馈修复。导入后的开发准备修订另见 [readiness-fixes.md](docs/readiness-fixes.md)，其中公共副本的内容对齐不代表已修改生产题库。题库包含 **34 个套题、3 个专项、11 个题型、48 个练习路由、1,752 个唯一公共 question_id**；37 份 canonical JSON 是 set / collection 的内容输入，题型页由它们派生。同一道题可能出现在多份材料中，记录数不能当作唯一题数。
+导入基线的维护代码对应 2026-11-05 已发布的提交反馈修复。导入后的开发准备修订另见 [readiness-fixes.md](docs/readiness-fixes.md)，其中公共副本的内容对齐不代表已修改生产题库。导入基线包含 34 个套题、3 个专项、11 个题型、48 个练习路由、1,752 个唯一公共 question_id。此后从外部题库导入并发布了 2,302 道读写题，当前题库为 **70 个套题、37 个专项、11 个题型、118 个练习路由、4,054 个唯一公共 question_id**；107 份 canonical JSON 是 set / collection 的内容输入，题型页由它们派生。新增题未经逐题教学审核，其中 1,397 道没有解析，题型和难度的依据见 [content-db.md](docs/content-db.md)。同一道题可能出现在多份材料中，记录数不能当作唯一题数。
 
-题库是供协作维护的去敏副本，包含经过编辑校订、出处尚未认证的材料，不能称为官方认证真题。当前全部 `examEligible=false`，仅提供普通练习；历史路由中的 `fixed-hard` 不代表具备正式模考资格。原始 PDF、审查截图、历史运行档案、学生记录、生产登录服务与凭证不在本仓库。
+题库是供协作维护的去敏副本，包含经过编辑校订、出处尚未认证的材料，不能称为官方认证真题。模考只提供读写部分的固定两模块练习（Module 1 + 第二模块），资格由 `scripts/exam_modules.py` 从题库表推出，不模拟自适应分流，也不给换算分；历史路由中的 `fixed-hard` 本身不代表具备模考资格。原始 PDF、审查截图、历史运行档案、学生记录、生产登录服务与凭证不在本仓库。
 
 ## 本地启动
 
@@ -32,6 +32,7 @@ python3 -m http.server 8001 --bind 127.0.0.1 --directory build/demo
 
 ```sh
 python3 scripts/check-repository-scope.py
+python3 scripts/content_db.py check
 python3 -m unittest discover -s tests -p 'test_*.py'
 python3 -m unittest discover -s skills/skill-sat-rw-classification/tests -p 'test_*.py'
 ```
@@ -50,7 +51,8 @@ node scripts/verify-sat-learning-browser.mjs --report build/reports/browser.json
 
 | 路径 | 用途 |
 | --- | --- |
-| `content/canonical/` | 34 个 set 与 3 个 collection 的公开结构化内容 |
+| `content/canonical/` | 70 个 set 与 37 个 collection 的公开结构化内容 |
+| `content/db/` | 规范化表，每道题只存一次：已发布的题与 canonical 由 `scripts/content_db.py` 互相生成；另含从外部题库导入、尚未发布的草稿题，见 [content-db.md](docs/content-db.md) |
 | `sat-content-registry.json` | 内容身份、发布状态与稳定路由 |
 | `sat-practice-migrations.json` | 历史记录迁移协议，不是学生记录 |
 | `assets/`、`categories/chart_images/` | 构建需要的题图与页面资源 |
@@ -68,6 +70,7 @@ node scripts/verify-sat-learning-browser.mjs --report build/reports/browser.json
 - [贡献和完整 Git 操作流程](CONTRIBUTING.md)
 - [架构与兼容边界](docs/architecture.md)
 - [题库数据与修改约定](docs/data-contract.md)
+- [规范化题库 content/db](docs/content-db.md)
 - [本地回流、生产发布与回滚](docs/production-handoff.md)
 
 当前尚未选择统一开源许可证。请勿自行添加许可声明，或把仓库公开视为所有题目、图像与第三方素材均已获得任意用途授权。

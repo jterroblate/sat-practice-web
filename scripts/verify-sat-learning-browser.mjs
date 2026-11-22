@@ -153,7 +153,14 @@ async function auditManifestRoutes() {
 
   const quantitativeHtml = manifestRouteHtml.get("categories/command-of-evidence-quantitative.html");
   assert.equal(typeof quantitativeHtml, "string", "Manifest must include the quantitative evidence category route");
-  assert.ok(Buffer.byteLength(quantitativeHtml) < 700_000, "Quantitative practice page should keep charts outside the HTML payload");
+  // An inlined chart costs tens of kilobytes per question; text, table data and
+  // explanations stay well under this budget however many questions the category holds.
+  const quantitativeQuestions = manifest.pages
+    .find(page => page.route === "categories/command-of-evidence-quantitative.html").questionIds.length;
+  assert.ok(
+    Buffer.byteLength(quantitativeHtml) < 300_000 + 6_000 * quantitativeQuestions,
+    "Quantitative practice page should keep charts outside the HTML payload",
+  );
   assert.doesNotMatch(quantitativeHtml, /"chart_image_data_uri":"data:/);
   return { loadedChartReferences, canonicalChartReferences };
 }
@@ -748,14 +755,21 @@ try {
   })()`);
   assert.deepEqual(categoryLibrary, { selected: "true", expanded: "true", cards: 11, first: "句子边界", firstEnglish: "Boundaries", translated: 11, collapsed: { expanded: "false", cards: 6 }, sets: { expanded: "false", cards: 6 } });
 
-  const examLibrary = await evaluate(`(() => ({
-    cards: document.querySelectorAll("#examLibrary .resource-card").length,
-    titles: [...document.querySelectorAll("#examLibrary .resource-card h3")].map(node => node.textContent.trim()),
+  // Mock exams live on their own page; the home page only links to it.
+  await evaluate(`location.hash = "#exam"`);
+  await new Promise(resolve => setTimeout(resolve, 20));
+  const examCenter = await evaluate(`(() => ({
+    heading: document.querySelector("h1")?.textContent,
+    rows: document.querySelectorAll(".exam-list .exam-row").length,
+    titles: [...document.querySelectorAll(".exam-list .exam-row h3")].map(node => node.textContent.trim()),
+    onHome: document.querySelectorAll("#examLibrary").length,
   }))()`);
-  assert.deepEqual(examLibrary, {
-    cards: manifestSetPages.filter(page => page.examEligible === true).length,
+  assert.deepEqual(examCenter, {
+    heading: "模考中心",
+    rows: manifestSetPages.filter(page => page.examEligible === true).length,
     titles: manifestSetPages.filter(page => page.examEligible === true).map(page => page.title),
-  }, "formal exam cards must remain separate from the resource-library tab counts");
+    onHome: 0,
+  }, "the mock exam centre must list exactly the exam-eligible sets");
 
   const routeViews = {};
   for (const [hash, heading] of [["#review/wrong", "我的复习"], ["#diagnosis", "学习诊断"], ["#practice", "生成今日练习"], ["#search", "全库搜索"]]) {

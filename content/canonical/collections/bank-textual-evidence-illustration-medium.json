@@ -1,0 +1,819 @@
+{
+  "schemaVersion": "sat-canonical-question-collection-v1",
+  "contentId": "collection-bank-textual-evidence-illustration-medium",
+  "title": "Textual Evidence (illustration/quotation) · Medium",
+  "section": "reading_writing",
+  "questionCount": 18,
+  "questions": [
+    {
+      "question_id": "bank_rw_002218",
+      "section": "reading_writing",
+      "question_number": 1,
+      "passage": "\"Loon Point\" is a 1912 poem by Amy Lowell. In the poem, which presents a nighttime scene on a body of water, Lowell describes an element of nature as an active participant in the experience, writing, [u]______[/u]",
+      "prompt": "Which quotation from \"Loon Point\" most effectively illustrates the claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"Through the water the moon writes her legends / In light, on the smooth, wet sand.\""
+        },
+        {
+          "label": "B",
+          "text": "\"Softly the water ripples / Against the canoe's curving side.\""
+        },
+        {
+          "label": "C",
+          "text": "\"Or like the snow-white petals / Which drop from an overblown rose.\""
+        },
+        {
+          "label": "D",
+          "text": "\"But the moon in her wayward beauty / Is ever and always the same.\""
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (illustration/quotation)/Medium",
+      "source_question_number": 1,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because it most effectively illustrates the claim that Lowell describes an element of nature as an active participant in the experience of a nighttime scene on a body of water. The quotation presents the image of the moon shining on a body of water. However, instead of describing the moon in passive terms or simply stating that it reflects through the water and onto the sandy shore, the quotation portrays the moon as being engaged in the humanlike action of writing a legend. In other words, the moon is participating actively in the nighttime scene.\n\nChoice B is incorrect. Although the quotation describes a nighttime scene on a body of water, the element of nature in these lines-the waves-isn't portrayed as an active participant in an experience; instead, the waves merely ripple softly against a canoe, as waves would normally do. Choice C is incorrect because the quotation doesn't present a nighttime scene on a body of water; instead, it describes petals falling from a rose. Choice D is incorrect. Although the quotation presents an image of an element of nature-the moon-it doesn't mention a body of water; moreover, it portrays the moon not as an active participant in a scene but instead as static or unchanging (\"ever and always the same\").",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002219",
+      "section": "reading_writing",
+      "question_number": 2,
+      "passage": "Accomplished printmaker and sculptor Elizabeth Catlett (1915-2012) used her art to explore the Black experience in the United States. In a paper for an art history class, a student claims that Catlett had a particular talent for unifying various artistic traditions and styles in her work.",
+      "prompt": "Which quotation from a scholar describing Catlett's work would best support the student's claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"In [i]Mother and Child[/i], a sculpture of two Black figures, Catlett used an ancient Indigenous sculpting technique and combined the visual aesthetic of modern Mexican muralists with that of German artist Kathe Kollwitz.\""
+        },
+        {
+          "label": "B",
+          "text": "\"In her collage [i]New Generation[/i], Catlett overlaid fabric onto the canvas to represent the clothing of a father and his toddler, positioned to evoke classic images of a mother and child.\""
+        },
+        {
+          "label": "C",
+          "text": "\"Created in 1968, Catlett's sculpture [i]Black Unity[/i], a stylized fist sculpted from mahogany and measuring two feet across, remains an important piece and has received renewed and well-deserved attention in recent years.\""
+        },
+        {
+          "label": "D",
+          "text": "\"One series of Catlett's prints, made by the artist using the linoleum cut method, depicts several notable African American women, including Harriet Tubman and Sojourner Truth.\""
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (illustration/quotation)/Medium",
+      "source_question_number": 2,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because it presents a quotation about Elizabeth Catlett that supports the student's claim that this artist had a talent for unifying various traditions and styles in her work. The quotation explains that to create the work, Catlett combined Indigenous sculpture with the visual aesthetic of modern muralists from Mexico as well as that of German artist Kathe Kollwitz. In other words, Catlett was able to unify several artistic traditions and styles within a single sculpture.\n\nChoice B is incorrect because in discussing the technique and subject matter of Catlett's collage, the quotation makes no reference to particular traditions or styles. Choice C is incorrect because in describing the sculpture, the quotation doesn't mention any artistic traditions or styles that Catlett may have synthesized to create the work. Choice D is incorrect because in discussing Catlett's prints of notable African American women, the quotation doesn't characterize those prints as having fused different traditions or styles.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002220",
+      "section": "reading_writing",
+      "question_number": 3,
+      "passage": "\"Mrs. Spring Fragrance\" is a 1912 short story by Sui Sin Far. In the story, Mrs. Spring Fragrance, a Chinese immigrant living in Seattle, is traveling in California. In letters to her husband and friend, she demonstrates her concern for what's happening at her home in Seattle while she is away: _______",
+      "prompt": "Which quotation from Mrs. Spring Fragrance's letters most effectively illustrates the claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"My honorable cousin is preparing for the Fifth Moon Festival, and wishes me to compound for the occasion some American 'fudge,' for which delectable sweet, made by my clumsy hands, you have sometimes shown a slight prejudice.\""
+        },
+        {
+          "label": "B",
+          "text": "\"Next week I accompany Ah Oi to the beauteous town of San José. There will we be met by the son of the Illustrious Teacher.\""
+        },
+        {
+          "label": "C",
+          "text": "\"Forget not to care for the cat, the birds, and the flowers. Do not eat too quickly nor fan too vigorously now that the weather is warming.\""
+        },
+        {
+          "label": "D",
+          "text": "\"I am enjoying a most agreeable visit, and American friends, as also our own, strive benevolently for the accomplishment of my pleasure.\""
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (illustration/quotation)/Medium",
+      "source_question_number": 3,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer because it presents a quotation that illustrates the claim that Mrs. Spring Fragrance demonstrates concern for what's happening at home while she's in California. By giving reminders to \"care for the cat, the birds, and the flowers,\" \"not eat too quickly,\" and avoid engaging in strenuous activity in the heat, Mrs. Spring Fragrance shows that she's thinking about what's happening at home and wants to ensure everything is taken care of.\n\nChoice A is incorrect because the quotation, while it does suggest that Mrs. Spring Fragrance has made fudge at home before, is focused on preparations for an upcoming festival, not on concerns for anything happening at home while Mrs. Spring Fragrance is away. Choice B is incorrect because the quotation has to do with an upcoming event during Mrs. Spring Fragrance's trip-visiting San José and meeting someone new-rather than her concern for what's happening at home. Choice D is incorrect because the quotation is focused on how Mrs. Spring Fragrance feels about her trip and the friends she's seeing, not on her concern for what's happening at home.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002221",
+      "section": "reading_writing",
+      "question_number": 4,
+      "passage": "[i]The Land of Enchantment[/i] is a 1906 travel book by Lilian Whiting. In the book, which describes the experience of traveling through the southwestern United States by train, Whiting reflects on the escape from everyday life that such a journey provides: ______",
+      "prompt": "Which quotation from [i]The Land of Enchantment[/i] most effectively illustrates the claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"The opportunities and advantages already offered and constantly increasing are greater than would at first be considered possible.\""
+        },
+        {
+          "label": "B",
+          "text": "\"The social and the picturesque charm of the long journey is singularly enhanced by the leisurely stops made for refreshment.\""
+        },
+        {
+          "label": "C",
+          "text": "\"The real journey begins, of course, at Chicago, and as these trains leave in the evening the traveller fares forth in the seclusion of his berth.\""
+        },
+        {
+          "label": "D",
+          "text": "\"One experiences a certain sense of detachment from ordinary day and daylight duties that is exhilarating.\""
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (illustration/quotation)/Medium",
+      "source_question_number": 4,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer because. This quotation specifically describes a \"sense of detachment from ordinary day,\" which matches the claim's focus on \"escape from everyday life.\"\n\nChoice A is incorrect. While this quotation describes new opportunities associated with Whiting's experience, it doesn't frame these opportunities as \"an escape,\" and it doesn't directly compare Whiting's journey with \"everyday life.\" Choice B is incorrect. While this quotation includes a positive characterization of Whiting's journey, it doesn't specifically address the idea of an \"escape from everyday life,\" which is the focus of the claim. Choice C is incorrect. This quotation focuses on where the journey begins, not on how it feels like an \"escape from everyday life.\"",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002222",
+      "section": "reading_writing",
+      "question_number": 5,
+      "passage": "[i]Sense and Sensibility[/i] is an 1811 novel by Jane Austen. In the novel, Austen describes Marianne Dashwood's ability to persuade others of the rightness of her artistic judgments, as is evident when Marianne visits with John Willoughby, a potential suitor: ______",
+      "prompt": "Which quotation from [i]Sense and Sensibility[/i] most effectively illustrates the claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"Above all, when she heard him declare, that of music and dancing he was passionately fond, she gave him such a look of approbation as secured the largest share of his discourse to herself for the rest of his stay.\""
+        },
+        {
+          "label": "B",
+          "text": "\"Their taste was strikingly alike. The same books, the same passages were idolized by each-or if any difference appeared, any objection arose, it lasted no longer than till the force of her arguments and the brightness of her eyes could be displayed.\""
+        },
+        {
+          "label": "C",
+          "text": "\"It was only necessary to mention any favourite amusement to engage her to talk. She could not be silent when such points were introduced, and she had neither shyness nor reserve in their discussion.\""
+        },
+        {
+          "label": "D",
+          "text": "\"They speedily discovered that their enjoyment of dancing and music was mutual, and that it arose from a general conformity of judgment in all that related to either. Encouraged by this to a further examination of his opinions, she proceeded to question him on the subject of books.\""
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (illustration/quotation)/Medium",
+      "source_question_number": 5,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer. By showing that \"any difference\" in taste was quickly overcome by \"the force of [Marianne's] arguments,\" this choice effectively demonstrates Marianne's \"ability to persuade others.\"\n\nChoice A is incorrect. This choice doesn't effectively illustrate the claim. This choice shows that Marianne and John share an interest in music and dancing, but it doesn't provide evidence of Marianne's \"ability to persuade others.\" Choice C is incorrect. This choice doesn't effectively illustrate the claim. This choice shows that Marianne enjoys talking about her interests, but it doesn't provide evidence of Marianne's \"ability to persuade others.\" Choice D is incorrect. This choice doesn't effectively illustrate the claim. This choice shows that Marianne and John share many interests and generally agree on music and dancing, but it doesn't provide evidence of Marianne's \"ability to persuade others.\"",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002223",
+      "section": "reading_writing",
+      "question_number": 6,
+      "passage": "\"Mr. Cornelius Johnson, Office-Seeker\" is a 1900 short story by Paul Laurence Dunbar. In the story, the narrator describes Mr. Cornelius Johnson's appearance as conveying his exaggerated sense of his importance: ______",
+      "prompt": "Which quotation from \"Mr. Cornelius Johnson, Office-Seeker\" most effectively illustrates the claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"He carried himself always as if he were passing under his own triumphal arch.\""
+        },
+        {
+          "label": "B",
+          "text": "\"The grey Prince Albert was scrupulously buttoned about his form, and a shiny top hat replaced the felt of the afternoon.\""
+        },
+        {
+          "label": "C",
+          "text": "\"It was a beautiful day in balmy May and the sun shone pleasantly on Mr. Cornelius Johnson's very spruce Prince Albert suit of grey as he alighted from the train in Washington.\""
+        },
+        {
+          "label": "D",
+          "text": "\"Mr. Cornelius Johnson always spoke in a large and important tone.\""
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (illustration/quotation)/Medium",
+      "source_question_number": 6,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. This quote most effectively illustrates the claim. The claim is that the narrator describes Mr. Johnson as arrogant and self-important. This basically says that Mr. Johnson always looks like he's congratulating himself for something, which definitely supports the idea that Mr. Johnson is arrogant! .\n\nChoice B is incorrect. This quote doesn't illustrate the claim. The claim is that the narrator describes Mr. Johnson's appearance as conveying his arrogance. This describes his appearance, but the description doesn't suggest a sense of arrogance. Choice C is incorrect. This quote doesn't illustrate the claim. The claim is that the narrator describes Mr. Johnson's appearance as conveying his arrogance. This doesn't describe Mr. Johnson's appearance very much, and it doesn't suggest a sense of arrogance. Choice D is incorrect. This quote doesn't effectively illustrate the claim. It describes Mr. Johnson's tone of voice as \"large and important,\" but it doesn't describe his appearance as conveying a sense of self-importance.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002224",
+      "section": "reading_writing",
+      "question_number": 7,
+      "passage": "\"Often Rebuked, Yet Always Back Returning\" is an 1846 poem by Emily Brontë. The poem conveys the speaker's determination to experience the countryside around her: ______",
+      "prompt": "Which quotation from the poem most effectively illustrates the claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"Often rebuked, yet always back returning / To those first feelings that were born with me, / And leaving busy chase of wealth and learning / For idle dreams of things which cannot be.\""
+        },
+        {
+          "label": "B",
+          "text": "\"I'll walk, but not in old heroic traces, / And not in paths of high morality, / And not among the half-distinguished faces, / The clouded forms of long-past history.\""
+        },
+        {
+          "label": "C",
+          "text": "\"I'll walk where my own nature would be leading: / It vexes me to choose another guide: / Where the grey flocks in ferny glens are feeding; / Where the wild wind blows on the mountain side.\""
+        },
+        {
+          "label": "D",
+          "text": "\"To-day, I will seek not the shadowy region; / Its unsustaining vastness waxes drear; / And visions rising, legion after legion, / Bring the unreal world too strangely near.\""
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (illustration/quotation)/Medium",
+      "source_question_number": 7,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer because it presents the quotation that best illustrates the claim that the speaker is determined to experience the countryside around her. In the quotation, the speaker makes it clear that she plans to walk somewhere based on her own wishes (\"where my own nature would be leading\") rather than follow anything else (\"another guide\"), and that she'll walk \"in ferny glens\" alongside the mountain.\n\nChoice A is incorrect because this quotation suggests that the speaker wants to avoid pursuing money and education (\"busy chase of wealth and learning\") and instead return to some earlier interests (her \"first feelings\"); the quotation doesn't address her determination to experience the countryside. Choice B is incorrect because the speaker is describing the circumstances under which she won't walk, which doesn't address her determination to experience the countryside. Choice D is incorrect because rather than conveying her determination to experience the countryside, the speaker is explaining a particular thing she won't do (\"seek not the shadowy region\").",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002225",
+      "section": "reading_writing",
+      "question_number": 8,
+      "passage": "\"On Virtue\" is a 1766 poem by Phillis Wheatley. Wheatley addresses the poem directly to the quality of virtue, imploring it to assist her in reaching a future goal: ______",
+      "prompt": "Which quotation from \"On Virtue\" most effectively illustrates the claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"Attend me, [i]Virtue[/i], thro' my youthful years! / O leave me not to the false joys of time! / But guide my steps to endless life and bliss.\""
+        },
+        {
+          "label": "B",
+          "text": "\"I cease to wonder, and no more attempt / Thine height t'explore, or fathom thy profound.\""
+        },
+        {
+          "label": "C",
+          "text": "\"O thou bright jewel in my aim I strive / To comprehend thee. Thine own words declare / Wisdom is higher than a fool can reach.\""
+        },
+        {
+          "label": "D",
+          "text": "\"But, O my soul, sink not into despair, / Virtue is near thee, and with gentle hand / Would now embrace thee, hovers o'er thine head.\""
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (illustration/quotation)/Medium",
+      "source_question_number": 8,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because it most effectively illustrates the claim that Wheatley addresses her poem \"On Virtue\" to the quality of virtue, imploring it to assist her in reaching a future goal. In the quotation, Wheatley begs virtue to accompany her, or \"attend [her],\" through her youth and to \"guide [her] steps to\" the future goal of \"endless life and bliss.\"\n\nChoice B is incorrect because this quotation suggests the difficulty of fully comprehending virtue. Rather than asking virtue for help, Wheatley presents it as a quality that is impossible to entirely understand because it is so grand and deep. Choice C is incorrect because this quotation describes Wheatley's effort to comprehend virtue despite virtue itself declaring that such wisdom is beyond her grasp, or \"higher than a fool can reach.\" Choice D is incorrect because rather than asking virtue for help in this quotation, Wheatley urges herself to \"sink not into despair\" because virtue is always nearby.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002226",
+      "section": "reading_writing",
+      "question_number": 9,
+      "passage": "\"When Dawn Comes to the City\" is a 1922 poem by Claude McKay, who immigrated to the United States from the island nation of Jamaica as an adult. The poem conveys McKay's contrasting feelings about New York City—his adopted home in the US—and his home country: ______",
+      "prompt": "Which quotation from \"When Dawn Comes to the City\" most effectively illustrates the claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"A lonely newsboy hurries by, / Humming a recent ditty; / Red streaks strike through the gray of the sky, / The dawn comes to the city [New York City].\""
+        },
+        {
+          "label": "B",
+          "text": "\"Dark figures start for work; / I watch them sadly shuffle on, / 'Tis dawn, dawn in New York. / But I would be on the island of the sea, / In the heart of the island of the sea.\""
+        },
+        {
+          "label": "C",
+          "text": "\"And the shaggy Nannie goat is calling, calling, calling / From her little trampled corner of the long wide lea / That stretches to the waters of the hill-stream falling / Sheer upon the flat rocks joyously!\""
+        },
+        {
+          "label": "D",
+          "text": "\"The tired cars go grumbling by, / The moaning, groaning cars, / And the old milk carts go rumbling by / Under the same dull stars.\""
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (illustration/quotation)/Medium",
+      "source_question_number": 9,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer because it presents a quotation illustrating the claim that the poem conveys McKay's contrasting feelings about New York City and Jamaica. McKay first presents a somewhat negative view of New York City, describing watching \"dark figures\" who \"sadly shuffle\" to work at dawn, and then indicates that he would instead like to be \"in the heart of the island of the sea.\"\n\nChoice A is incorrect because the quotation focuses on a description of only one place (New York City, with its \"lonely newsboy\" and \"red streaks\" in the sky at dawn) rather than on different feelings about two places. Choice C is incorrect because the quotation focuses on a description of only one place (which isn't named) rather than on McKay's different feelings about two places. Choice D is incorrect because though McKay presents a negative image of an unnamed place with \"tired cars\" that grumble, moan, and groan, and \"old milk carts\" that rumble by under \"dull stars,\" the quotation focuses on McKay's feelings about only one place rather than on different feelings about two places.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002227",
+      "section": "reading_writing",
+      "question_number": 10,
+      "passage": "\"John of God, the Water - Carrier\" is a 1913 short story by María Cristina Mena. In the story, the narrator presents John as being a hard worker who is fully dedicated to his job as water carrier, or [i]aguador[/i]: ______",
+      "prompt": "Which quotation from \"John of God, the Water - Carrier\" most effectively illustrates the claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"Very happy, he would jog home, the heavy silver pieces in his leather pockets making a discreet and dulcet [i]'trink-trak' [/i]between his jugs and his body.\""
+        },
+        {
+          "label": "B",
+          "text": "\"He learned that the city aguador may not blow his whistle to halt the traffic while he gravely crosses the street, but must wait for the passing of many vehicles, some with horses and some outlandishly without.\""
+        },
+        {
+          "label": "C",
+          "text": "“From early morn to the fall of the afternoon he would go from fountain to fountain and from portal to portal, his lean body so accustomed to bending that he never thought of straightening it, his head bowed as if in prayer.”"
+        },
+        {
+          "label": "D",
+          "text": "\"When his first jugs had worn out—the sweet-scented, porous red clay becomes perforated in time—he had buried them to their necks in the corner where he slept, and they were now his treasury.\""
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (illustration/quotation)/Medium",
+      "source_question_number": 10,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer because it most effectively illustrates the claim in the text that John is hard-working and dedicated to his job. In the quotation, John is portrayed as spending \"early morn to the fall of the afternoon\" working hard as a water carrier. John is also described as \"so accustomed to bending\" while doing his work \"that he never thought of straightening\" his body, instead remaining deeply focused on his work. These details portray John as a dedicated worker.\n\nChoice A is incorrect because this quotation portrays John as happy about heading home after being paid. It doesn't showcase John being hard at work. Choice B is incorrect because this quotation doesn't pertain to John's commitment to his work; it describes difficulties the traffic in the city causes John in the performance of his work. Choice D is incorrect because this quotation doesn't pertain to John's commitment to his work; it discusses what John does with his worn-out water jugs.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002228",
+      "section": "reading_writing",
+      "question_number": 11,
+      "passage": "\"Odalie\" is an 1899 short story by Alice Dunbar-Nelson. In the story, a young woman named Odalie attends the annual Mardi Gras carnival in New Orleans, where she lives with her guardian Tante Louise. Dunbar-Nelson portrays Odalie as eager to escape the monotony of her everyday life: ______",
+      "prompt": "Which quotation from \"Odalie\" most effectively illustrates the claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"Mardi Gras was a tiresome day, after all, she sighed, and Tante Louise agreed with her for once.\""
+        },
+        {
+          "label": "B",
+          "text": "\"In the old French house on Royal Street, with its quaint windows and Spanish courtyard green and cool, and made musical by the plashing of the fountain and the trill of caged birds, lived Odalie in convent-like seclusion.\""
+        },
+        {
+          "label": "C",
+          "text": "\"When one is shut up in a great French house with a grim sleepy tante and no companions of one's own age, life becomes a dull thing, and one is ready for any new sensation.\""
+        },
+        {
+          "label": "D",
+          "text": "\"It was Mardi Gras day at last, and early through her window Odalie could hear the jingle of folly bells on the [participants'] costumes, the tinkle of music, and the echoing strains of songs.\""
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (illustration/quotation)/Medium",
+      "source_question_number": 11,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer because it most effectively uses a quotation from \"Odalie\" to illustrate the claim that Odalie is eager to escape the monotony, or tedious lack of variety, of her everyday life. In the quotation, Odalie describes feeling \"shut up\" and complains that she has \"no companions\" except for her \"sleepy tante.\" Odalie goes on to say that, as a result, her life is \"dull\" and she is \"ready for any new sensation,\" meaning she wants a change. This suggests that Odalie wishes to get away from her monotonous everyday life.\n\nChoice A is incorrect. Although this quotation includes the word \"tiresome,\" which means dull, it does so to suggest Odalie's negative feelings about Mardi Gras, which is a once-a-year celebration, not her feelings about her everyday life. This quotation therefore doesn't express that Odalie's everyday life is monotonous or that she wishes to escape. Choice B is incorrect. Although this quotation ends by saying that Odalie lives in seclusion, or isolation, it doesn't express that Odalie's everyday life is monotonous or that she wishes to escape. Instead, it describes the pleasant qualities of the house Odalie lives in, saying that it has \"quaint windows\" and a \"green and cool\" courtyard that is \"made musical\" by the sounds of a fountain and pet birds. Choice D is incorrect because this quotation describes the lively sounds of a Mardi Gras celebration that Odalie hears through her window, not the monotony of Odalie's everyday life or her wish to escape.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002229",
+      "section": "reading_writing",
+      "question_number": 12,
+      "passage": "[i]The Post Office[/i] is a 1912 play by Rabindranath Tagore, originally written in Bengali. The character Amal is a young boy who imagines that the people he sees passing the window of his home are carefree even when engaged in work or chores, as is evident when he says to the daughter of a flower seller, ______",
+      "prompt": "Which quotation from [i]The Post Office[/i] most effectively illustrates the claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"I see, you don't wish to stop; I don't care to stay on here either.\""
+        },
+        {
+          "label": "B",
+          "text": "\"Oh, flower gathering? That is why your feet seem so glad and your anklets jingle so merrily as you walk.\""
+        },
+        {
+          "label": "C",
+          "text": "\"I'll pay when I grow up—before I leave to look for work out on the other side of that stream there.\""
+        },
+        {
+          "label": "D",
+          "text": "\"Wish I could be out too. Then I would pick some flowers for you from the very topmost branches right out of sight.\""
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (illustration/quotation)/Medium",
+      "source_question_number": 12,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer because it most effectively illustrates the claim that Amal imagines the people he sees are carefree even when engaged in work. In the quotation, Amal observes that the flower seller's daughter is \"flower gathering,\" or working, as the text indicates. Moreover, Amal notes that the daughter's feet \"seem so glad\" and her \"anklets jingle so merrily,\" suggesting that Amal believes that the flower seller's daughter is cheerful.\n\nChoice A is incorrect because the quotation makes no observation about the cheerful mood of the flower seller's daughter. Choice C is incorrect because the quotation discusses how Amal envisions his future, not the feelings of the flower seller's daughter. Choice D is incorrect because the quotation discusses Amal's wishes, not the feelings of the flower seller's daughter.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002230",
+      "section": "reading_writing",
+      "question_number": 13,
+      "passage": "\"To You\" is an 1856 poem by Walt Whitman. In the poem, Whitman suggests that he deeply understands the reader, whom he addresses directly, writing, ______",
+      "prompt": "Which quotation from \"To You\" most effectively illustrates the claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"Your true soul and body appear before me.\""
+        },
+        {
+          "label": "B",
+          "text": "\"Whoever you are, now I place my hand upon you, that you be my poem.\""
+        },
+        {
+          "label": "C",
+          "text": "\"I should have made my way straight to you long ago.\""
+        },
+        {
+          "label": "D",
+          "text": "\"Whoever you are, I fear you are walking the walks of dreams.\""
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (illustration/quotation)/Medium",
+      "source_question_number": 13,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because it most directly illustrates the text's claim about Whitman's poem, \"To You.\" The text says that in this poem, Whitman suggests that he deeply understands the poem's reader. This quotation says that the reader's \"true soul and body appear before\" Whitman, thereby asserting that he can see the reader as the reader truly is, suggesting that he deeply understands the reader.\n\nChoice B is incorrect because this quotation describes Whitman making the reader the subject of the poem (\"you be my poem\"), not Whitman deeply understanding the reader. Choice C is incorrect because instead of suggesting that Whitman deeply understands the reader, it emphasizes Whitman's regret at not having addressed the reader sooner. Choice D is incorrect. Although this quotation shows Whitman directly addressing the reader and expressing concern about the reader, it doesn't illustrate the idea that Whitman suggests that he deeply understands the reader. The quotation is simply expressing concern about the reader, which doesn't necessarily imply deep understanding of the reader.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002231",
+      "section": "reading_writing",
+      "question_number": 14,
+      "passage": "Pulitzer Prize-winning writer Héctor Tobar has built a multifaceted career as both a journalist and an author of short stories and novels. In an essay about Tobar's work, a student claims that Tobar blends his areas of expertise by applying journalism techniques to his creation of works of fiction.",
+      "prompt": "Which quotation from a literary critic best supports the student's claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"For one novel, an imagined account of a real person's global travels, Tobar approached his subject like a reporter, interviewing people the man had met along the way and researching the man's own writings.\""
+        },
+        {
+          "label": "B",
+          "text": "\"Tobar got his start as a volunteer for El Tecolote, a community newspaper in San Francisco, and wrote for newspapers for years before earning a degree in creative writing and starting to publish works of fiction.\""
+        },
+        {
+          "label": "C",
+          "text": "\"Many of Tobar's notable nonfiction articles are marked by the writer's use of techniques usually associated with fiction, such as complex narrative structures and the incorporation of symbolism.\""
+        },
+        {
+          "label": "D",
+          "text": "\"The protagonist of Tobar's third novel is a man who wants to be a novelist and keeps notes about interesting people he encounters so he can use them when developing characters for his stories.\""
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (illustration/quotation)/Medium",
+      "source_question_number": 14,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. The example of Tobar approaching his subject \"like a reporter,\" including conducting \"interviews\" and \"research,\" shows Tobar applying journalism techniques to his fiction-writing.\n\nChoice B is incorrect. This choice doesn't support the claim. It tells us about Tobar's initial career as a journalist, but it doesn't say anything about him \"applying journalism techniques\" to his fiction-writing. Choice C is incorrect. This choice doesn't support the claim. It tells us that Tobar applied fiction techniques to his nonfiction writing, but we're looking for evidence of the other way around: that Tobar applied journalism techniques to his fiction-writing. Choice D is incorrect. This choice doesn't support the claim. It tells us that a character in one of Tobar's novels applied a journalism technique to his fiction-writing, but it doesn't tell us that Tobar did that himself.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002232",
+      "section": "reading_writing",
+      "question_number": 15,
+      "passage": "[i]An Ideal Husband[/i] is an 1895 play by Oscar Wilde. In the play, which is a satire, Wilde suggests that a character named Lady Gertrude Chiltern is perceived as both extremely virtuous and unforgiving, as is evident when another character says ______",
+      "prompt": "Which quotation from [i]An Ideal Husband[/i] most effectively illustrates the claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"Lady Chiltern is a woman of the very highest principles, I am glad to say. I am a little too old now, myself, to trouble about setting a good example, but I always admire people who do.\""
+        },
+        {
+          "label": "B",
+          "text": "\"Do you know, [Lady Chiltern], I don't mind your talking morality a bit. Morality is simply the attitude we adopt towards people whom we personally dislike.\""
+        },
+        {
+          "label": "C",
+          "text": "\"[Lady Chiltern] does not know what weakness or temptation is. I am of clay like other men. She stands apart as good women do-pitiless in her perfection-cold and stern and without mercy.\""
+        },
+        {
+          "label": "D",
+          "text": "\"Lady Chiltern, you are a sensible woman, the most sensible woman in London, the most sensible woman I know.\""
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (illustration/quotation)/Medium",
+      "source_question_number": 15,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer because it most effectively uses a quotation to illustrate the claim that Lady Gertrude Chiltern is perceived as \"both extremely virtuous and unforgiving.\" In the quotation, a man describes Lady Chiltern as someone who \"does not know what weakness or temptation is.\" In other words, the man regards her as someone who is strong and adheres to a strict definition of moral perfection. However, he ironically suggests that this definition excludes mercy and forgiveness-qualities that are also thought of as virtues; according to him, Lady Chiltern is \"pitiless in her perfection-cold and stern and without mercy.\" This description supports the idea that Lady Chiltern is perceived by others as virtuous as well as unforgiving.\n\nChoice A is incorrect. The quotation supports the claim that Lady Chiltern is perceived as virtuous, in that it describes her as 'a woman of the very highest principles.\" However, it doesn't characterize her as unforgiving or being perceived as such. Choice B is incorrect. The quotation suggests that Lady Chiltern is concerned with morality, but it suggests that her interest in discussing it is fundamentally hypocritical and functions as a means by which to judge others. However, the quotation doesn't address the question of whether Lady Chiltern is unmerciful to those who seek forgiveness for harm they have caused. Choice D is incorrect because it doesn't address either Lady Chiltern's perceived virtuousness or her perceived lack of forgiveness; instead, it expresses the belief that she is sensible.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002233",
+      "section": "reading_writing",
+      "question_number": 16,
+      "passage": "In 1967 the US Congress created the Corporation for Public Broadcasting, which in turn created National Public Radio (NPR). NPR began producing and distributing high-quality news and cultural programming to affiliate stations across the United States in 1971. In a research paper, a student claims that the Corporation for Public Broadcasting and NPR were inspired by the British Broadcasting System (BBC), which had been established in the 1920s.",
+      "prompt": "Which quotation from a work by a historian would be the most effective evidence for the student to include in support of this claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"Although the BBC had begun as a private corporation, politicians successfully argued to make it a public company because they believed a public broadcaster could help build national unity in the aftermath of World War I.\""
+        },
+        {
+          "label": "B",
+          "text": "\"For many decades, the BBC had no competition since it held Britain's only broadcasting license, whereas in the United States, the Corporation for Public Broadcasting launched NPR in a broadcasting market already filled with competitors.\""
+        },
+        {
+          "label": "C",
+          "text": "\"Congress's embrace of publicly funded broadcasting reflected a common belief among US politicians that the role of government was not only to ensure people's safety and liberty but also to enrich people's lives in other ways.\""
+        },
+        {
+          "label": "D",
+          "text": "\"The goal of the BBC was to support British democracy by promoting an informed citizenry, and US legislators believed that ensuring access to high-quality programming could do the same for democracy in the United States.\""
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (illustration/quotation)/Medium",
+      "source_question_number": 16,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer because this quotation would be the most effective evidence to include in support of the claim that the Corporation for Public Broadcasting and NPR were inspired by the British Broadcasting System (BBC). The quotation states that the goal of the BBC was to support British democracy and that US legislators believed high-quality programming could accomplish the same goal for democracy in the United States. In other words, US legislators looked to the BBC as a model, taking direct inspiration from it when they created the Corporation for Public Broadcasting, which in turn created NPR.\n\nChoice A is incorrect because this quotation provides historical information about the BBC, not information about the inspiration for the creation of the Corporation for Public Broadcasting and NPR. This quotation, therefore, is irrelevant to the student's claim that the BBC inspired the creation of the Corporation for Public Broadcasting, which in turn created NPR. Choice B is incorrect because this quotation contrasts the lack of competition faced by the BBC with the substantial competition faced by NPR, which has no bearing on the student's claim that the Corporation for Public Broadcasting and NPR were inspired by the BBC. Choice C is incorrect because this quotation focuses on a common belief among US politicians that inspired Congress's embrace of publicly funded broadcasting. The quotation doesn't say anything about the BBC and therefore doesn't support the claim that the BBC inspired Congress to create the Corporation for Public Broadcasting, which in turn created NPR.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002234",
+      "section": "reading_writing",
+      "question_number": 17,
+      "passage": "[i]Hedda Gabler[/i] is an 1890 play by Henrik Ibsen. As a woman in the Victorian era, Hedda, the play's central character, is unable to freely determine her own future. Instead, she seeks to influence another person's fate, as is evident when she says to another character, ______",
+      "prompt": "Which quotation from a translation of Hedda Gabler most effectively illustrates the claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"Then what in heaven's name would you have me do with myself?\""
+        },
+        {
+          "label": "B",
+          "text": "\"I want for once in my life to have power to mould a human destiny.\""
+        },
+        {
+          "label": "C",
+          "text": "\"Then I, poor creature, have no sort of power over you?\""
+        },
+        {
+          "label": "D",
+          "text": "\"Faithful to your principles, now and for ever! Ah, that is how a man should be!\""
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (illustration/quotation)/Medium",
+      "source_question_number": 17,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer because it most effectively illustrates the claim in the text that Hedda seeks to influence another character's fate. In the quotation, Hedda says that she wants \"to have power to mould a human destiny,\" or shape a person's fate, just as the text indicates. Additionally, the phrase \"for once in my life\" suggests that Hedda feels that she has never been able to shape anyone's life, including her own, supporting the text's assertion that she \"is unable to freely determine her own future.\"\n\nChoice A is incorrect because this quotation shows Hedda being uncertain about what to do with her own life, not wanting to influence another person's fate. Choice C is incorrect because while this quotation shows Hedda's interest in finding out whether she has any power over another character, it doesn't clearly show that she wants to influence that person's fate. In this quotation, Hedda seems to have inferred or concluded (\"then\") that she doesn't have any influence over the person to whom she's speaking, and she's asking that person to confirm her lack of influence. Choice D is incorrect because this quotation expresses Hedda's belief that a man should be true to his principles, not her desire to influence another person's fate.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002235",
+      "section": "reading_writing",
+      "question_number": 18,
+      "passage": "\"Ghosts of the Old Year\" is an early 1900s poem by James Weldon Johnson. In the poem, the speaker describes experiencing an ongoing cycle of anticipation followed by regretful reflection: ______",
+      "prompt": "Which quotation from \"Ghosts of the Old Year\" most effectively illustrates the claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"What does this brazen tongue declare, / That falling on the midnight air / Brings to my heart a sense of care / Akin to fright?\""
+        },
+        {
+          "label": "B",
+          "text": "\"The snow has ceased its fluttering flight, / The wind sunk to a whisper light, / An ominous stillness fills the night, / A pause-a hush.\""
+        },
+        {
+          "label": "C",
+          "text": "\"It tells of many a squandered day, / Of slighted gems and treasured clay, / Of precious stores not laid away, / Of fields unreaped.\""
+        },
+        {
+          "label": "D",
+          "text": "\"And so the years go swiftly by, / Each, coming, brings ambitions high, / And each, departing, leaves a sigh / Linked to the past.\""
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (illustration/quotation)/Medium",
+      "source_question_number": 18,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer because it presents the quotation that most effectively illustrates the claim that the speaker of the poem describes experiencing an ongoing cycle of anticipation followed by regretful reflection. In this quotation, the speaker notes that as years go by, \"Each, coming\" - that is, each new year as it comes- \"brings ambitions high.\" In other words, the speaker begins each new year with large goals. But the speaker goes on to say that as each year ends (\"each, departing\"), it \"leaves a sigh / Linked to the past.\" A sigh is an expression of longing or regret, so in the context of the whole quotation, this portion suggests that at the end of each year, the speaker regretfully reflects on not having achieved the ambitions formed at the beginning of the year. The phrases \"the years go swiftly by,\" \"Each, coming,\" and \"each, departing\" indicate that this experience happens over and over again: the speaker experiences a cycle of anticipation followed by regretful reflection.\n\nChoice A is incorrect because this quotation does not describe an ongoing cycle of anticipation followed by regretful reflection. Instead, the speaker describes experiencing a sensation similar to fright as a result of something that has occurred at midnight. Specifically, the speaker has heard a \"brazen tongue,\" a figurative way of saying that the speaker has heard the clang of a bronze bell being rung. Choice B is incorrect because although this quotation does convey a sense of anticipation through its reference to \"ominous stillness,\" there is no suggestion of regretful reflection or any indication that the speaker is describing an ongoing cycle of anticipation followed by such reflection. Instead, the speaker is describing a particular moment when a winter storm appears to have momentarily calmed. Choice C is incorrect because although this quotation does convey a sense of regret (\"many a squandered day\"), nothing in the quotation suggests an ongoing cycle of anticipation followed by regret. Instead, the speaker is simply lamenting wasted time and opportunities.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    }
+  ]
+}
