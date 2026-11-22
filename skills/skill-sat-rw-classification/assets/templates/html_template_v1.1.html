@@ -702,6 +702,14 @@
     .exam-summary-card h3 { margin: 0 0 4px; font-size: 16px; }
     .exam-summary-card > p { margin: 0 0 10px; color: var(--sat-text-muted); font-size: 13px; }
     .exam-stats { display: grid; grid-template-columns: repeat(2, minmax(90px, 1fr)); gap: 8px; }
+    .explanation-empty { margin: 0; padding: 14px 16px; color: var(--sat-text-muted); font-family: var(--sat-font-ui); font-size: 14px; }
+    .exam-wrong { display: grid; gap: 8px; }
+    .exam-wrong-label { color: var(--sat-text-muted); font-size: var(--sat-font-size-ui-xs); font-weight: 600; }
+    .exam-wrong-none { margin: 0; color: var(--sat-correct-text); font-size: 14px; font-weight: 600; }
+    .exam-numbers { display: flex; flex-wrap: wrap; gap: 6px; }
+    .exam-number { min-width: 36px; height: 32px; padding: 0 8px; border: 1px solid var(--sat-incorrect-border); border-radius: var(--sat-radius-pill); background: var(--sat-incorrect-bg); color: var(--sat-incorrect-text); font: inherit; font-size: 14px; font-weight: 600; font-variant-numeric: tabular-nums; cursor: pointer; }
+    .exam-number.blank { border-color: var(--sat-border-medium); background: var(--sat-bg-panel); color: var(--sat-text-muted); }
+    .exam-number:hover { filter: brightness(.97); }
     .exam-stat { padding: 10px 12px; background: var(--sat-bg-panel); border-radius: var(--sat-radius-control); }
     .exam-stat strong, .exam-stat span { display: block; }
     .exam-stat strong { font-size: 20px; font-variant-numeric: tabular-nums; }
@@ -1154,7 +1162,7 @@
 
     function safeExamToken(value) {
       const token = typeof value === "string" ? value.trim() : "";
-      return token && token.length <= 80 && /^[A-Za-z0-9._:-]+$/.test(token) ? token : "";
+      return token && token.length <= 80 && /^[A-Za-z0-9_.:-]+$/.test(token) ? token : "";
     }
 
     function safeExamLabel(value, fallback) {
@@ -1399,7 +1407,7 @@
     }
 
     function fixedBranchLabel(variant) {
-      return `固定卷：M1 + ${variant.branch === "easy" ? "Easy" : "Hard"}`;
+      return `固定卷：${variant.label}`;
     }
 
     function formatExamDuration(seconds) {
@@ -1672,15 +1680,13 @@
 
     function renderExamStart() {
       applyChartLayout(null);
-      const branchSummary = EXAM_CONFIG.variants
-        .map(variant => `M1 + ${variant.branch === "easy" ? "Easy" : "Hard"}`)
-        .join(" / ");
+      const branchSummary = EXAM_CONFIG.variants.map(variant => variant.label).join(" / ");
       const variants = EXAM_CONFIG.variants.map(variant => {
         const first = EXAM_CONFIG.modules[variant.moduleKeys[0]];
         const second = EXAM_CONFIG.modules[variant.moduleKeys[1]];
         return `
           <button class="exam-variant" type="button" data-exam-start="${escapeHtml(variant.id)}">
-            <span><strong>${escapeHtml(fixedBranchLabel(variant))}</strong><span>${escapeHtml(variant.label)} · ${first.questionIds.length} + ${second.questionIds.length} 题 · ${escapeHtml(formatExamDuration(first.durationSeconds))} + ${escapeHtml(formatExamDuration(second.durationSeconds))}</span></span>
+            <span><strong>${escapeHtml(variant.label)}</strong><span>${first.questionIds.length} + ${second.questionIds.length} 题 · ${escapeHtml(formatExamDuration(first.durationSeconds))} + ${escapeHtml(formatExamDuration(second.durationSeconds))}</span></span>
             <strong>开始模考</strong>
           </button>`;
       }).join("");
@@ -1689,10 +1695,10 @@
         <div class="exam-card">
           <p class="exam-kicker">全真模考</p>
           ${examShellHeading(document.title)}
-          <p class="exam-note">这是预先固定的 ${escapeHtml(branchSummary)} 卷，<strong>不会根据 M1 表现自适应切换分支</strong>，也不提供换算分。</p>
+          <p class="exam-note">这是预先固定的两个模块（${escapeHtml(branchSummary)}），<strong>不会根据 M1 表现自适应切换分支</strong>，也不提供换算分。</p>
           <ol class="exam-rules">
             <li>共两个模块，每个模块单独计时，时间到会自动提交。</li>
-            <li>模块提交后不能返回。两个模块都完成之后，才能查看答案和解析。</li>
+            <li>模块提交后不能返回。两个模块都完成之后，给出正确率和错题题号，并可查看答案和解析。</li>
             <li>作答自动保存。刷新或关闭页面不会暂停计时，回来后按原截止时间继续。</li>
             <li>每次完成的模考都会存入模考记录，之后可以随时回看。</li>
           </ol>
@@ -1938,18 +1944,31 @@
       focusExamHeading();
     }
 
-    function examStatsHtml(module) {
+    // 模块内题号从 1 开始；错题和未作答分开列出，点题号可以直接看这道题的答案
+    function examWrongNumbers(module) {
+      const wrong = [], blank = [];
+      module.questionIds.forEach((questionId, index) => {
+        const selected = module.answers[questionId] || "";
+        if (!selected) blank.push(index);
+        else if (selected !== examQuestionById(questionId).correct_answer) wrong.push(index);
+      });
+      return { wrong, blank };
+    }
+
+    function examStatsHtml(module, offset) {
       const score = scoreExamAnswers(module.questionIds, module.answers);
       const used = module.startedAt && module.submittedAt ? Math.max(0, Math.round((module.submittedAt - module.startedAt) / 1000)) : null;
+      const { wrong, blank } = examWrongNumbers(module);
+      const numbers = (list, kind) => list.map(index =>
+        `<button class="exam-number ${kind}" type="button" data-exam-review-index="${offset + index}" aria-label="${escapeHtml(module.label)} 第 ${index + 1} 题，查看答案">${index + 1}</button>`).join("");
       return `
         <article class="exam-summary-card">
           <h3>${escapeHtml(module.label)}</h3>
-          <p>${used === null ? "" : `用时 ${escapeHtml(formatExamDuration(used))}`}${module.submitReason === "timeout" ? " · 计时结束自动提交" : ""}</p>
-          <div class="exam-stats">
-            <div class="exam-stat"><strong>${score.correct}</strong><span>正确</span></div>
-            <div class="exam-stat"><strong>${score.incorrect}</strong><span>错误</span></div>
-            <div class="exam-stat"><strong>${score.blank}</strong><span>空白</span></div>
-            <div class="exam-stat"><strong>${score.accuracy}%</strong><span>原始正确率</span></div>
+          <p>正确率 ${score.accuracy}% · ${score.correct} / ${score.total}${used === null ? "" : ` · 用时 ${escapeHtml(formatExamDuration(used))}`}${module.submitReason === "timeout" ? " · 计时结束自动提交" : ""}</p>
+          <div class="exam-wrong">
+            <span class="exam-wrong-label">错题题号</span>
+            ${wrong.length ? `<div class="exam-numbers">${numbers(wrong, "wrong")}</div>` : '<p class="exam-wrong-none">没有错题</p>'}
+            ${blank.length ? `<span class="exam-wrong-label">未作答</span><div class="exam-numbers">${numbers(blank, "blank")}</div>` : ""}
           </div>
         </article>`;
     }
@@ -1960,15 +1979,17 @@
       const source = examResultSource();
       const totals = source.modules.map(module => scoreExamAnswers(module.questionIds, module.answers))
         .reduce((sum, score) => ({ correct: sum.correct + score.correct, total: sum.total + score.total }), { correct: 0, total: 0 });
+      const accuracy = totals.total ? Math.round(totals.correct / totals.total * 1000) / 10 : 0;
+      const offsets = source.modules.map((module, index) => source.modules.slice(0, index).reduce((sum, item) => sum + item.questionIds.length, 0));
       els.examShell.dataset.view = "card";
       els.examShell.innerHTML = `
         <div class="exam-card">
           <p class="exam-kicker">${source.history ? "模考记录" : "模考完成"}</p>
           ${examShellHeading(document.title)}
           <p>${escapeHtml(source.title)}</p>
-          <div class="exam-score"><strong>${totals.correct}</strong><span>/ ${totals.total} 题答对</span></div>
-          <p class="exam-note">以下仅为各模块原始作答统计，<strong>不是 SAT 换算分</strong>，也不代表自适应路由结果。</p>
-          <div class="exam-summary-grid">${source.modules.map(examStatsHtml).join("")}</div>
+          <div class="exam-score"><strong>${accuracy}%</strong><span>正确率 · ${totals.correct} / ${totals.total} 题答对</span></div>
+          <p class="exam-note">以下是原始正确率和错题题号，<strong>不是 SAT 换算分</strong>，也不代表自适应路由结果。</p>
+          <div class="exam-summary-grid">${source.modules.map((module, index) => examStatsHtml(module, offsets[index])).join("")}</div>
           <div class="exam-card-actions">
             <button class="primary" id="examEnterReview" type="button">查看答案与解析</button>
             ${source.history
@@ -1976,18 +1997,21 @@
               : '<button id="examCompleteReset" type="button">重新开始模考</button><button id="examCompleteExit" type="button">返回普通练习</button><a class="exam-link" href="../index.html#exam">模考中心</a>'}
           </div>
         </div>`;
-      document.getElementById("examEnterReview").addEventListener("click", () => {
+      const enterReview = index => {
         if (examHistoryView) {
           examHistoryView.phase = "review";
-          examHistoryView.index = 0;
+          examHistoryView.index = index;
         } else {
           examSession.phase = "review";
           examSession.reviewEnteredAt = Date.now();
-          examSession.reviewIndex = 0;
+          examSession.reviewIndex = index;
           saveExamSession();
         }
         renderExam();
-      });
+      };
+      document.getElementById("examEnterReview").addEventListener("click", () => enterReview(0));
+      els.examShell.querySelectorAll("[data-exam-review-index]").forEach(button =>
+        button.addEventListener("click", () => enterReview(Number(button.dataset.examReviewIndex))));
       document.getElementById("examHistoryExit")?.addEventListener("click", exitToExamCenter);
       document.getElementById("examCompleteReset")?.addEventListener("click", resetExamSession);
       document.getElementById("examCompleteExit")?.addEventListener("click", exitExamMode);
@@ -1997,7 +2021,11 @@
     function examExplanationHtml(question, selected) {
       const explanation = asRecord(question.explanation);
       const choiceAnalysis = asRecord(explanation.choice_analysis);
-      const rows = Object.keys(choiceAnalysis).sort().map(label => `<p><strong>${escapeHtml(label)}.</strong> ${formatStimulusInline(choiceAnalysis[label])}</p>`).join("");
+      const rows = Object.keys(choiceAnalysis).sort().filter(label => String(choiceAnalysis[label] || "").trim())
+        .map(label => `<p><strong>${escapeHtml(label)}.</strong> ${formatStimulusInline(choiceAnalysis[label])}</p>`).join("");
+      const keyText = String(explanation.key_evidence || explanation.short || "").trim();
+      const reasonText = String(explanation.why_correct || explanation.detailed || explanation.short || "").trim();
+      const noExplanation = !keyText && !reasonText && !rows;
       return `
         <div style="padding:14px 16px;border-bottom:1px solid var(--sat-explanation-border);background:var(--sat-bg-subtle);">
           <div style="display:flex;gap:12px;flex-wrap:wrap;">
@@ -2005,15 +2033,16 @@
             <div style="flex:1;min-width:120px;"><span style="display:block;font-size:11px;font-weight:700;color:var(--sat-text-muted);">你的答案</span><strong>${escapeHtml(selected || "未作答")}</strong></div>
           </div>
         </div>
-        <div style="padding:14px 16px;border-bottom:1px solid var(--sat-explanation-border);">
+        ${noExplanation ? `<p class="explanation-empty">这道题暂无解析。</p>` : ""}
+        ${keyText ? `<div style="padding:14px 16px;border-bottom:1px solid var(--sat-explanation-border);">
           <div style="font-size:13px;font-weight:700;margin-bottom:6px;">关键证据</div>
-          <p>${formatStimulusInline(explanation.key_evidence || explanation.short || "")}</p>
-        </div>
-        <div style="padding:14px 16px${rows ? ";border-bottom:1px solid var(--sat-explanation-border)" : ""};">
+          <p>${formatStimulusInline(keyText)}</p>
+        </div>` : ""}
+        ${reasonText ? `<div style="padding:14px 16px${rows ? ";border-bottom:1px solid var(--sat-explanation-border)" : ""};">
           <div style="font-size:13px;font-weight:700;margin-bottom:6px;">正确思路</div>
-          <p>${formatStimulusInline(explanation.why_correct || explanation.detailed || explanation.short || "")}</p>
-        </div>
-        ${detailedExplanationHtml(explanation, explanation.why_correct || explanation.detailed || explanation.short || "")}
+          <p>${formatStimulusInline(reasonText)}</p>
+        </div>` : ""}
+        ${detailedExplanationHtml(explanation, reasonText)}
         ${rows ? `<div style="padding:14px 16px;"><div style="font-size:13px;font-weight:700;margin-bottom:8px;">选项分析</div><div class="choice-analysis">${rows}</div></div>` : ""}`;
     }
 
@@ -2679,9 +2708,13 @@
       }
       const explanation = question.explanation || {};
       const choiceAnalysis = explanation.choice_analysis || {};
-      const rows = Object.keys(choiceAnalysis).sort().map(label => {
+      const rows = Object.keys(choiceAnalysis).sort().filter(label => String(choiceAnalysis[label] || "").trim()).map(label => {
         return `<p><strong>${escapeHtml(label)}.</strong> ${formatStimulusInline(choiceAnalysis[label])}</p>`;
       }).join("");
+      // 没写的部分不显示空标题；一点解析都没有时只说明“暂无解析”
+      const keyText = String(explanation.key_evidence || explanation.short || "").trim();
+      const reasonText = String(explanation.key_evidence && explanation.why_correct ? explanation.why_correct : explanation.detailed || explanation.short || "").trim();
+      const noExplanation = !keyText && !reasonText && !rows;
       els.explanation.innerHTML = `
         <div style="padding:14px 16px;border-bottom:1px solid var(--sat-explanation-border);background:var(--sat-bg-subtle);border-radius:var(--sat-radius-panel) var(--sat-radius-panel) 0 0;">
           <div style="display:flex;gap:12px;flex-wrap:wrap;">
@@ -2689,24 +2722,20 @@
             <div style="flex:1;min-width:120px;"><span style="display:block;font-size:11px;font-weight:700;color:var(--sat-text-muted);margin-bottom:2px;font-family:var(--sat-font-ui);">你的答案</span><strong style="font-family:var(--sat-font-ui);">${escapeHtml(qs.selected || "未作答")}</strong></div>
           </div>
         </div>
-        <div style="padding:14px 16px;border-bottom:1px solid var(--sat-explanation-border);">
+        ${noExplanation ? `<p class="explanation-empty">这道题暂无解析。</p>` : ""}
+        ${keyText ? `<div style="padding:14px 16px;border-bottom:1px solid var(--sat-explanation-border);">
           <div style="font-size:13px;font-weight:700;margin-bottom:6px;color:var(--sat-text-main);font-family:var(--sat-font-ui);">关键证据</div>
-          <p style="font-family:var(--sat-font-reading);font-size:var(--sat-font-size-body);line-height:var(--sat-line-height-reading);color:var(--sat-text-main);margin:0;">${formatStimulusInline(explanation.key_evidence || explanation.short || "")}</p>
-        </div>
-        ${explanation.key_evidence && explanation.why_correct ? `
-        <div style="padding:14px 16px;border-bottom:1px solid var(--sat-explanation-border);">
+          <p style="font-family:var(--sat-font-reading);font-size:var(--sat-font-size-body);line-height:var(--sat-line-height-reading);color:var(--sat-text-main);margin:0;">${formatStimulusInline(keyText)}</p>
+        </div>` : ""}
+        ${reasonText ? `<div style="padding:14px 16px;border-bottom:1px solid var(--sat-explanation-border);">
           <div style="font-size:13px;font-weight:700;margin-bottom:6px;color:var(--sat-text-main);font-family:var(--sat-font-ui);">正确思路</div>
-          <p style="font-family:var(--sat-font-reading);font-size:var(--sat-font-size-body);line-height:var(--sat-line-height-reading);color:var(--sat-text-main);margin:0;">${formatStimulusInline(explanation.why_correct || "")}</p>
-        </div>` : `
-        <div style="padding:14px 16px;border-bottom:1px solid var(--sat-explanation-border);">
-          <div style="font-size:13px;font-weight:700;margin-bottom:6px;color:var(--sat-text-main);font-family:var(--sat-font-ui);">正确思路</div>
-          <p style="font-family:var(--sat-font-reading);font-size:var(--sat-font-size-body);line-height:var(--sat-line-height-reading);color:var(--sat-text-main);margin:0;">${formatStimulusInline(explanation.detailed || explanation.short || "")}</p>
-        </div>`}
-        ${detailedExplanationHtml(explanation, explanation.key_evidence && explanation.why_correct ? explanation.why_correct : explanation.detailed || explanation.short || "")}
-        <div style="padding:14px 16px;">
+          <p style="font-family:var(--sat-font-reading);font-size:var(--sat-font-size-body);line-height:var(--sat-line-height-reading);color:var(--sat-text-main);margin:0;">${formatStimulusInline(reasonText)}</p>
+        </div>` : ""}
+        ${detailedExplanationHtml(explanation, reasonText)}
+        ${rows ? `<div style="padding:14px 16px;">
           <div style="font-size:13px;font-weight:700;margin-bottom:8px;color:var(--sat-text-main);font-family:var(--sat-font-ui);">选项分析</div>
           <div class="choice-analysis" style="font-family:var(--sat-font-reading);font-size:var(--sat-font-size-choice);line-height:var(--sat-line-height-choice);">${rows}</div>
-        </div>
+        </div>` : ""}
         ${(question.skills_tested && question.skills_tested.length) ? `<div style="padding:10px 16px;border-top:1px solid var(--sat-explanation-border);"><div style="font-size:12px;font-weight:700;color:var(--sat-text-muted);font-family:var(--sat-font-ui);">Skills: ${escapeHtml(question.skills_tested.join(", "))}</div></div>` : ""}
       `;
     }

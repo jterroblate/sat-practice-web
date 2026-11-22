@@ -57,8 +57,9 @@
 | 题目范围 | `kind` | `real_exam`（真题）/ `practice`（模拟题） | 多选，不选即不限 |
 | 选择专项 | `domain` | 题目的 `domain` 原文 | 多选，不选即全部 |
 | 选择知识点 | `skill` | 题目的 `skill` 原文 | 多选，不选即全部 |
-| 选择分类 | `genre` | `poetry` / `fiction`，以及数据里出现的其他值 | 多选，不选即全部 |
+| 选择分类 | `genre` | `poetry` / `fiction` / `drama`，以及数据里出现的其他值 | 多选，不选即全部 |
 | 按作答情况 | `source` | 见下表 | 多选，不选即不限 |
+| 解析情况 | `explanation` | `full`（完整解析）/ `brief`（简要解析）/ `none`（暂无解析） | 多选，不选即不限。数据里没有 `explanationLevel` 时整组隐藏 |
 | 选择难度 | `level` | `easy` / `medium` / `hard` | 多选，不选即不限 |
 | 选择题量 | `count` / `customCount` | 5、10、15、20、50、100，或 1–200 的自定义值 | 单选 |
 
@@ -88,7 +89,8 @@
 | 科目 | `question.subject` → `question.section` → 所在页面的 `section` | 题目上没有这两个字段，靠页面的 `section` 推断，全部是 `reading_writing` | 每道题带 `subject`：`reading_writing` 或 `math` |
 | 专项 | `question.domain` | 四个读写专项都有 | 数学题用 `Algebra`、`Advanced Math`、`Problem-Solving and Data Analysis`、`Geometry and Trigonometry`，中文名已经在 `BUILDER_DOMAINS` 里 |
 | 知识点 | `question.skill` | 11 个读写题型，中文名在 `SAT_SKILL_ZH` | 数学知识点需要补中文名，否则显示英文原文 |
-| 分类 | `question.genre` → `question.passageGenre` → 从文章开头推断 | 没有字段。现在靠「The following text is from …'s 1857 novel / poem …」这句话识别，只认出小说类 68 题、诗歌类 8 题 | 每道题带 `genre`，如 `poetry`、`fiction`。出现新值时界面会自动多出一个选项，但需要在 `BUILDER_GENRES` 里补中文名 |
+| 分类 | `question.genre` → `question.passageGenre` → 从文章开头推断 | 数据库分支在 `content/db` 里按规则标好了 `genre`（`poetry` / `fiction` / `drama`），合并后直接读字段；没有字段的旧构建仍靠文章开头那句出处说明推断 | 出现新值时界面会自动多出一个选项 |
+| 解析情况 | `question.explanationLevel` | 构建时从题目的解析内容算出：`full` 四段解析和每个选项的分析都有，`brief` 只写了一部分，`none` 没有。合并后是 1,752 / 905 / 1,397 | 没有这个字段的旧构建不显示这一组 |
 | 题目范围 | `question.sourceKind` | 数据库分支合并前没有这个字段，两个选项都是 0 题并且变灰 | `real_exam` / `practice`。为空的题只在「不限」时出现 |
 | 难度 | `question.difficultyLevel` → 旧的 `question.difficulty`，只认 `easy` / `medium` / `hard` | 只有 145 题有标注，其余当作未标注 | 未标注的题在选了难度之后不会被抽到 |
 | 多次答错 | 记录里没有答错次数，用「首次答错 + 最近重做仍错」近似 | 只能区分「至少错两次」 | 学习记录里加 `wrongCount`，并在 `normalize()` 里保留，然后把 `builderRows()` 里的 `wrongCount` 改成直接读它 |
@@ -137,11 +139,14 @@
 
 模考在练习页里进行，入口是 `套题页?mode=exam`；学习中心多了一个「模考」页面（`#exam`）作为入口和记录列表。
 
-- **资格没有变。** 只有 `examEligible === true` 并且带有合法 `moduleSpec`、`examVariants` 的套题才能模考，判定逻辑（`normalizeExamConfig()`）没有动。当前题库里没有一套符合，所以「可用模考」是空的。要让某套题可以模考，需要数据侧在 registry 里补齐模块划分，前端不需要改。
+- **资格由数据决定。** 只有 `examEligible === true` 并且带有合法 `moduleSpec`、`examVariants` 的套题才能模考，判定逻辑是 `normalizeExamConfig()`。数据侧的 `scripts/exam_modules.py` 从题库表推出读写 Module 1 + 第二模块的固定两模块模考（不做自适应分流，没有换算分），合并后有 19 套；只有前端分支时没有一套可模考，「可用模考」是空的。题号允许下划线（`safeExamToken`），否则真实题库的 `question_id` 会被判为非法。
+- **成绩页只给两样东西**：总正确率，以及每个模块的正确率和错题题号（未作答的题号单独列出）。题号是模块内的顺序号，点题号直接进入这道题的答案与解析。
 - **界面**：开始页 → 模块做题（顶栏是模块名、倒计时和「隐藏计时」，题目栏有「标记待查」，底栏中间的按钮打开题目导航）→ 最后一题的「下一题」进入检查页 → 提交 → 模块间休息 → 第二个模块 → 成绩页 → 答案与解析。做题过程中不显示对错和解析。
 - **标记待查**存在会话的 `modules[key].marked` 数组里，是新增的可选字段，旧会话没有它也能正常读取。
 - **模考记录**：每场模考完成时归档一份到按账号隔离的本机存储，键是 `sat-exam-history:v1`，最多 50 条。结构是 `{ version, records: [{ id, pageId, title, variantId, branch, createdAt, completedAt, modules: [{ key, label, durationSeconds, startedAt, submittedAt, submitReason, questionIds, answers, marked, score }] }] }`。只在本机，不上传云端。
 - **回看记录**：`套题页?mode=exam&history=<id>`，先显示成绩，再进解析。回看只需要题目还在，不要求这套题现在仍可模考。成绩按当前的正确答案重新计算。
+- 没有解析的题在解析页只显示「这道题暂无解析」，不再出现空的「关键证据」「正确思路」标题；普通练习的解析面板同样处理。
+- 首页不再列出全部模考卡片（原来的 `#examLibrary`），只保留「全真模考」入口块，列表在 `#exam`。
 - 成绩页和解析页的文案保留了「不是 SAT 换算分」「不自适应分流」的限定，不要删。
 - 本地想看模考界面，可以运行工作区里的 `tools/make_exam_fixture.py`（在仓库外面），它只改 `build/demo` 里的生成物，把演示题临时标成可模考。
 

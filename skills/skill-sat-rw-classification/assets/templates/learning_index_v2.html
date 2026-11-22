@@ -405,6 +405,7 @@
     .builder-summary h2 { margin: 0; font-size: 20px; font-weight: 700; letter-spacing: -.02em; }
     .summary-list { display: grid; margin: 16px 0 14px; overflow: hidden; border-radius: 16px; background: var(--zen-bg); }
     .summary-list div { padding: 11px 16px; border-bottom: 1px solid var(--zen-line); }
+    .builder-group[hidden], .summary-list div[hidden] { display: none; }
     .summary-list div:last-child { border-bottom: 0; }
     .summary-list dt { color: var(--zen-muted); font-size: 12px; }
     .summary-list dd { margin: 2px 0 0; font-size: 15px; font-weight: 600; line-height: 1.4; }
@@ -749,15 +750,6 @@
     function examEligiblePages() {
       return MANIFEST.pages.filter(page => page.kind === "set" && page.examEligible === true);
     }
-    function examLibrary() {
-      const pages = examEligiblePages();
-      if (!pages.length) return "";
-      return `<section class="panel" id="examLibrary">
-        <div class="section-title"><div><p class="eyebrow orange">MOCK EXAM</p><h2>全真模考</h2><p>固定 Hard 分支，不模拟自适应分流，也不提供虚构换算分。</p></div><span class="section-meta">${pages.length} 套</span></div>
-        <div class="resource-grid">${pages.map(page => `<article class="resource-card exam-card"><h3>${escapeHtml(page.title)}</h3><span class="resource-card-subtitle">${escapeHtml(examShape(page))}</span><p>普通练习与模考记录相互独立。</p><div class="hero-actions"><a class="button ghost" href="${page.route}">普通练习</a><a class="button primary" href="${page.route}?mode=exam">${examProgress(page) === "active" ? "继续模考" : "开始模考"}</a></div></article>`).join("")}</div>
-      </section>`;
-    }
-
     /* ---------- 模考：入口、记录 ----------
        模考本身在练习页里进行（?mode=exam）。这里只读两类本机记录：
        sat-exam:v1:<pageId> 是每套题当前这一场，sat-exam-history:v1 是已完成的全部场次。 */
@@ -765,7 +757,7 @@
       const variant = (page.examVariants || [])[0], modules = page.moduleSpec || {};
       const parts = (variant?.modules || []).map(key => modules[key]).filter(Boolean);
       if (!parts.length) return "两个模块，分别计时";
-      return `${parts.map(item => (item.questionIds || []).length).join(" + ")} 题 · ${parts.map(item => Math.round((item.durationSeconds || 0) / 60)).join(" + ")} 分钟`;
+      return `${variant.label ? variant.label + " · " : ""}${parts.map(item => (item.questionIds || []).length).join(" + ")} 题 · ${parts.map(item => Math.round((item.durationSeconds || 0) / 60)).join(" + ")} 分钟`;
     }
     function examProgress(page) {
       try {
@@ -786,6 +778,9 @@
         correct: sum.correct + Number(module.score?.correct || 0), total: sum.total + Number(module.score?.total || 0)
       }), { correct: 0, total: 0 });
     }
+    function examAccuracy(score) {
+      return score.total ? `${Math.round(score.correct / score.total * 1000) / 10}%` : "—";
+    }
     function renderExamCenter() {
       const pages = examEligiblePages(), records = examHistory();
       const available = pages.length ? `<div class="exam-list">${pages.map(page => {
@@ -795,9 +790,9 @@
       const history = records.length ? `<div class="exam-list">${records.map(record => {
         const page = pageById.get(record.pageId), score = examRecordScore(record);
         const detail = record.modules.map(module => `${escapeHtml(module.label || "Module")} ${Number(module.score?.correct || 0)}/${Number(module.score?.total || 0)}`).join(" · ");
-        return `<article class="exam-row"><div><span class="pill pending">${escapeHtml(formatTime(new Date(Number(record.completedAt || 0)).toISOString()))}</span><h3>${escapeHtml(page?.title || record.title || "模考")}</h3><p>${detail}</p></div><div class="actions"><span class="score">${score.correct}<small> / ${score.total}</small></span>${page ? `<a class="button primary" href="${page.route}?mode=exam&history=${encodeURIComponent(record.id)}">查看答案与解析</a>` : ""}</div></article>`;
+        return `<article class="exam-row"><div><span class="pill pending">${escapeHtml(formatTime(new Date(Number(record.completedAt || 0)).toISOString()))}</span><h3>${escapeHtml(page?.title || record.title || "模考")}</h3><p>${detail}</p></div><div class="actions"><span class="score">${examAccuracy(score)}<small> ${score.correct}/${score.total}</small></span>${page ? `<a class="button primary" href="${page.route}?mode=exam&history=${encodeURIComponent(record.id)}">查看成绩与错题</a>` : ""}</div></article>`;
       }).join("")}</div>` : renderEmpty("完成一场模考后，这里会保存每一次的成绩和作答，可以单独回看。");
-      app.innerHTML = `<section class="panel" style="margin-top:0"><div class="section-title"><div><p class="eyebrow orange">MOCK EXAM</p><h1>模考中心</h1><p>按考试的模块和计时完整做一套，全部交卷之后再看答案和解析。</p></div><span class="section-meta">${pages.length} 套可用 · ${records.length} 条记录</span></div>
+      app.innerHTML = `<section class="panel" style="margin-top:0"><div class="section-title"><div><p class="eyebrow orange">MOCK EXAM</p><h1>模考中心</h1><p>读写部分的固定两模块模考：Module 1 加第二模块，分别计时。交卷后给出正确率和错题题号。</p></div><span class="section-meta">${pages.length} 套可用 · ${records.length} 条记录</span></div>
         <h2 class="subhead">可用模考</h2>${available}
         <h2 class="subhead">模考记录</h2>${history}</section>`;
     }
@@ -885,7 +880,7 @@
             <div><p class="eyebrow purple">MOCK EXAM</p><h2>全真模考</h2></div>
             <div class="stat-pair">
               <div><strong>${examPages.length}</strong><span>可用模考</span></div>
-              <div><strong>${lastExamScore ? `${lastExamScore.correct}/${lastExamScore.total}` : "—"}</strong><span>${lastExamScore ? "上次成绩" : `已完成 ${examRecords.length} 次`}</span></div>
+              <div><strong>${lastExamScore ? examAccuracy(lastExamScore) : "—"}</strong><span>${lastExamScore ? "上次正确率" : `已完成 ${examRecords.length} 次`}</span></div>
             </div>
             <div class="hero-actions">${activeExam ? `<a class="button primary" href="${activeExam.route}?mode=exam">继续模考</a><a class="button ghost" href="#exam">模考中心</a>` : `<a class="button primary" href="#exam">进入模考中心</a>`}</div>
           </article>
@@ -918,7 +913,6 @@
               </a>`).join("") : renderEmpty("完成第一道题后，这里会显示最近练习。")}</div>
           </section>
         </section>
-        ${examLibrary()}
         ${resourceLibrary()}
         </div>`;
       bindResourceControls();
@@ -1048,7 +1042,8 @@
       { key: "Geometry and Trigonometry", label: "几何与三角", subject: "math" }
     ];
     const BUILDER_KINDS = [{ key: "real_exam", label: "真题" }, { key: "practice", label: "模拟题" }];
-    const BUILDER_GENRES = [{ key: "poetry", label: "诗歌类" }, { key: "fiction", label: "小说类" }];
+    const BUILDER_GENRES = [{ key: "poetry", label: "诗歌类" }, { key: "fiction", label: "小说类" }, { key: "drama", label: "戏剧类" }];
+    const BUILDER_EXPLANATIONS = [{ key: "full", label: "完整解析" }, { key: "brief", label: "简要解析" }, { key: "none", label: "暂无解析" }];
     const BUILDER_STATUSES = [
       { key: "unseen", label: "未作答" }, { key: "wrong", label: "作答错误" },
       { key: "repeat_wrong", label: "多次答错（≥2次）" }, { key: "redo_correct", label: "错题重做后做对" },
@@ -1061,7 +1056,7 @@
     const BUILDER_MINUTES = { reading_writing: [1, 1.4], math: [1.3, 1.8] };
     const sectionByRoute = new Map(MANIFEST.pages.map(page => [page.route, page.section]));
     function builderDefaults() {
-      return { subject: "reading_writing", kinds: new Set(), domains: new Set(), skills: new Set(), genres: new Set(), statuses: new Set(), levels: new Set(), count: 10, custom: false };
+      return { subject: "reading_writing", kinds: new Set(), domains: new Set(), skills: new Set(), genres: new Set(), statuses: new Set(), explanations: new Set(), levels: new Set(), count: 10, custom: false };
     }
     let builderFilters = builderDefaults(), builderPreset = "";
     function inferGenre(passage) {
@@ -1078,6 +1073,7 @@
         domain: question.domain || "",
         skill: question.skill || "",
         genre: question.genre || question.passageGenre || inferGenre(question.passage),
+        explanation: BUILDER_EXPLANATIONS.some(item => item.key === question.explanationLevel) ? question.explanationLevel : "",
         level: BUILDER_LEVELS.some(item => item.key === level) ? level : ""
       };
     }
@@ -1107,6 +1103,7 @@
         && (skip === "skill" || !filters.skills.size || filters.skills.has(meta.skill))
         && (skip === "genre" || !filters.genres.size || filters.genres.has(meta.genre))
         && (skip === "status" || !filters.statuses.size || [...filters.statuses].some(key => row.flags[key]))
+        && (skip === "explanation" || !filters.explanations.size || filters.explanations.has(meta.explanation))
         && (skip === "level" || !filters.levels.size || filters.levels.has(meta.level));
     }
     function candidates(filters = builderFilters, rows = builderRows()) {
@@ -1127,6 +1124,7 @@
           <fieldset class="builder-group"><legend>选择知识点<small>可多选，不选即全部知识点</small></legend><div class="chip-row" id="builderSkills"></div></fieldset>
           <fieldset class="builder-group"><legend>选择分类<small>按文本类型</small></legend><div class="chip-row" id="builderGenres"></div></fieldset>
           <fieldset class="builder-group"><legend>按作答情况<small>可多选，不选即不限</small></legend><div class="chip-row" id="builderStatuses"></div></fieldset>
+          <fieldset class="builder-group" id="builderExplanationGroup"><legend>解析情况<small>可多选，不选即不限</small></legend><div class="chip-row" id="builderExplanations"></div></fieldset>
           <fieldset class="builder-group"><legend>选择难度<small>可多选，不选即不限难度</small></legend><div class="level-grid" id="builderLevels"></div></fieldset>
           <fieldset class="builder-group"><legend>选择题量</legend><div class="count-row" id="builderCounts"></div></fieldset>
         </form>
@@ -1137,13 +1135,14 @@
             <div><dt>题目范围</dt><dd id="summaryKinds"></dd></div>
             <div><dt>知识点</dt><dd id="summarySkills"></dd></div>
             <div><dt>作答情况</dt><dd id="summaryStatuses"></dd></div>
+            <div id="summaryExplanationRow"><dt>解析情况</dt><dd id="summaryExplanations"></dd></div>
             <div><dt>难度与题量</dt><dd id="summaryLevel"></dd></div>
             <div><dt>预计用时</dt><dd id="summaryTime"></dd></div>
           </dl>
           <p class="builder-hint" id="builderHint" role="status" aria-live="polite"></p>
           <button class="action primary" id="buildSession" type="button">开始练习</button>
           <button class="builder-reset" id="resetBuilder" type="button">重置条件</button>
-        </aside></div>${examCount ? `<div class="quiet-note">已有 ${examCount} 套正式模考，可从首页“正式模考”进入。</div>` : ""}</section>`;
+        </aside></div>${examCount ? `<div class="quiet-note">已有 ${examCount} 套全真模考，可从顶部“模考”进入。</div>` : ""}</section>`;
       const form = document.getElementById("builderForm");
       form.addEventListener("submit", event => event.preventDefault());
       form.addEventListener("change", event => {
@@ -1152,7 +1151,7 @@
         else if (input.name === "count") { filters.custom = false; filters.count = Number(input.value); }
         else if (input.name === "customCount") { return; }
         else {
-          const target = { kind: filters.kinds, domain: filters.domains, skill: filters.skills, genre: filters.genres, source: filters.statuses, level: filters.levels }[input.name];
+          const target = { kind: filters.kinds, domain: filters.domains, skill: filters.skills, genre: filters.genres, source: filters.statuses, explanation: filters.explanations, level: filters.levels }[input.name];
           if (!target) return;
           if (input.checked) target.add(input.value); else target.delete(input.value);
         }
@@ -1207,6 +1206,14 @@
         const total = count("status", row => row.flags[item.key]);
         return pick("checkbox", "source", item.key, filters.statuses.has(item.key), `${item.label}<i>${total}</i>`, !total && !filters.statuses.has(item.key));
       }).join("");
+      // 解析情况来自构建时写入的 explanationLevel；旧数据没有这个字段时整组隐藏。
+      const hasExplanationData = subjectRows.some(row => row.meta.explanation);
+      document.getElementById("builderExplanationGroup").hidden = !hasExplanationData;
+      document.getElementById("summaryExplanationRow").hidden = !hasExplanationData;
+      document.getElementById("builderExplanations").innerHTML = BUILDER_EXPLANATIONS.map(item => {
+        const total = count("explanation", row => row.meta.explanation === item.key);
+        return pick("checkbox", "explanation", item.key, filters.explanations.has(item.key), `${item.label}<i>${total}</i>`, !total && !filters.explanations.has(item.key));
+      }).join("");
       document.getElementById("builderLevels").innerHTML = BUILDER_LEVELS.map(item => {
         const total = count("level", row => row.meta.level === item.key);
         return pick("checkbox", "level", item.key, filters.levels.has(item.key), `${item.label}<i>${total} 题</i>`, !total && !filters.levels.has(item.key));
@@ -1228,6 +1235,8 @@
       const subject = BUILDER_SUBJECTS.find(item => item.key === filters.subject).label;
       const kindLabels = labels(filters.kinds, BUILDER_KINDS);
       const domainLabels = labels(filters.domains, domains), statusLabels = labels(filters.statuses, BUILDER_STATUSES), levelLabels = labels(filters.levels, BUILDER_LEVELS);
+      const explanationLabels = labels(filters.explanations, BUILDER_EXPLANATIONS);
+      document.getElementById("summaryExplanations").textContent = explanationLabels.length ? explanationLabels.join("、") : "不限";
       const skillLabels = [...filters.skills].map(skill => SAT_SKILL_ZH[skill] || skill).concat(labels(filters.genres, genres));
       const [low, high] = BUILDER_MINUTES[filters.subject] || BUILDER_MINUTES.reading_writing;
       document.getElementById("builderTitle").textContent = domainLabels.length === 1 ? `${domainLabels[0]}专项` : domainLabels.length ? "组合专项练习" : "综合练习";
@@ -1252,7 +1261,7 @@
       const session = {
         id: `session-${Date.now()}`, createdAt: nowIso(),
         sources: filters.statuses.size ? [...filters.statuses] : ["all"],
-        filters: { subject: filters.subject, kinds: [...filters.kinds], domains: [...filters.domains], skills: [...filters.skills], genres: [...filters.genres], statuses: [...filters.statuses], difficulties: [...filters.levels], count },
+        filters: { subject: filters.subject, kinds: [...filters.kinds], domains: [...filters.domains], skills: [...filters.skills], genres: [...filters.genres], statuses: [...filters.statuses], explanations: [...filters.explanations], difficulties: [...filters.levels], count },
         answers: {}, questions: selected.map(question => ({ questionId: question.questionId, route: question.route }))
       };
       try {
