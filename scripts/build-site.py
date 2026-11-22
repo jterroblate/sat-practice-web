@@ -16,6 +16,24 @@ sys.dont_write_bytecode = True
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "build/site"
 BUILDER_PATH = ROOT / "skills/skill-sat-rw-classification/scripts/build_learning_experience.py"
+QUESTION_METADATA = "sat-question-metadata.json"
+
+
+def write_question_metadata(output: Path) -> Path | None:
+    """Give the builder each question's origin and difficulty from content/db.
+
+    The set files alone still build the site; without the tables the pages just
+    carry no origin.
+    """
+    if not (ROOT / "content/db/schema.sql").is_file() or not (ROOT / "scripts/content_db.py").is_file():
+        return None
+    import content_db
+    tables, problems = content_db.read_tables(ROOT)
+    if problems:
+        raise ValueError("content/db is not readable: " + problems[0])
+    target = output / QUESTION_METADATA
+    target.write_text(json.dumps(content_db.question_metadata(tables, ROOT), ensure_ascii=False), encoding="utf-8")
+    return target
 
 
 def content_resources(value: object):
@@ -60,12 +78,16 @@ def _build_into(output: Path) -> dict:
         destination = output / path
         destination.parent.mkdir(parents=True, exist_ok=True)
         shutil.copyfile(source, destination)
+    metadata = write_question_metadata(output)
     spec = importlib.util.spec_from_file_location("sat_public_site_builder", BUILDER_PATH)
     if spec is None or spec.loader is None:
         raise RuntimeError("The repository page generator is missing")
     builder = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(builder)
-    return builder.build(output)
+    manifest = builder.build(output)
+    if metadata is not None:
+        metadata.unlink()  # an input to the pages, not part of the site
+    return manifest
 
 
 def build_site() -> dict:

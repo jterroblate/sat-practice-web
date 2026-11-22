@@ -1,0 +1,2034 @@
+{
+  "schemaVersion": "sat-canonical-question-collection-v1",
+  "contentId": "set-exam-2026-03-s2-apac-b",
+  "title": "2026年3月机考真题第2套(亚太B卷)",
+  "section": "reading_writing",
+  "questionCount": 45,
+  "questions": [
+    {
+      "question_id": "bank_rw_001495",
+      "section": "reading_writing",
+      "question_number": 1,
+      "passage": "The Apollo Moon landings (1969-1972) left charged particle detectors and seismic sensors on the Moon and produced large amounts of data. Researcher Renee Weber, who is investigating tectonic activity on the Moon, continues to use Apollo's data, demonstrating that the missions' value to science _______.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "arrives"
+        },
+        {
+          "label": "B",
+          "text": "persists"
+        },
+        {
+          "label": "C",
+          "text": "responds"
+        },
+        {
+          "label": "D",
+          "text": "agrees"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 1,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_001496",
+      "section": "reading_writing",
+      "question_number": 2,
+      "passage": "The traditional Puerto Rican dish mofongo, characterized broadly by its base of mashed plantains, is often ______ in its preparation and serving style. Coastal families typically serve it with fresh-caught octopus and shrimp, mountain families tend to prepare it with chicharrones, and restaurant chefs in San Juan explore innovations like topping the dish with guarapo (juice from sugarcane).",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "meticulous"
+        },
+        {
+          "label": "B",
+          "text": "seasonal"
+        },
+        {
+          "label": "C",
+          "text": "localized"
+        },
+        {
+          "label": "D",
+          "text": "proprietary"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 2,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_001497",
+      "section": "reading_writing",
+      "question_number": 3,
+      "passage": "Hawai'i has a rich literary history that originated with the traditional stories of the [i]Kānaka Maoli[/i], or the Native Hawaiian people. Anwei Skinsnes Law, Imaikalani Kalahele, and other writers have built on this tradition and brought Hawaiian literature to international prominence, ______ the manifold experiences of the Hawaiian people for readers around the world.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "excising"
+        },
+        {
+          "label": "B",
+          "text": "illuminating"
+        },
+        {
+          "label": "C",
+          "text": "controlling"
+        },
+        {
+          "label": "D",
+          "text": "presupposing"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 3,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_001498",
+      "section": "reading_writing",
+      "question_number": 4,
+      "passage": "[u]People tend to assume that being happy is the ideal emotional state and should be an ongoing aspiration;[/u] recently, however, research has suggested that it is at times beneficial to embrace negative emotions. To test whether anger can contribute to problem-solving abilities, researcher Heather Lench led an experiment in which participants were randomly assigned to view images designed to create an emotional condition—either neutral or one of anger, amusement, desire, or sadness. When asked to then solve a series of challenging puzzles, the participants in the anger condition had greater success than those in the other conditions.",
+      "prompt": "Which choice best describes the function of the underlined portion in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It describes a general psychological tendency that the study discussed in the text was designed to explain."
+        },
+        {
+          "label": "B",
+          "text": "It suggests a psychological basis for the behaviors of the participants in the experiment reported in the text."
+        },
+        {
+          "label": "C",
+          "text": "It explains an assumption underlying the hypothesis investigated in the study discussed in the text."
+        },
+        {
+          "label": "D",
+          "text": "It notes a generally accepted belief that is called into question by a finding of the experiment outlined in the text."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 4,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_001499",
+      "section": "reading_writing",
+      "question_number": 5,
+      "passage": "The following text is adapted from María Amparo Ruiz de Burton’s 1885 novel [i]The Squatter and the Don[/i]. Mercedes and Clarence, who develop a romantic relationship in the novel, have been traveling with a group of friends.\n\n[Mercedes] was still very pale, and her hands yet trembled, when the thundering of the east-bound train was heard in the distance. Two shrieks pierced the air simultaneously, as the two trains passed each other. Her heart gave accelerated throbs when she heard those shrieks, because she knew that one of them came from the train which bore Clarence away, and it seemed to her as if expressive of his pain at being torn from her. Yes, that magician, the locomotive, understood it all, and shrieked to say he did so, because he knew she, too, wished to shriek like that.",
+      "prompt": "Which choice best states the main idea of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Mercedes shares a passion for locomotive travel with Clarence."
+        },
+        {
+          "label": "B",
+          "text": "The sounds at the train station irritate Mercedes."
+        },
+        {
+          "label": "C",
+          "text": "Clarence boarded his train at the last minute."
+        },
+        {
+          "label": "D",
+          "text": "Mercedes feels heartbroken to be separated from Clarence."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 5,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_001500",
+      "section": "reading_writing",
+      "question_number": 6,
+      "passage": "The following text is from an 1894 translation of Alexandre Dumas's 1844 novel [i]The Count of Monte-Cristo[/i]. Dantès is searching for a treasure and finds a cave whose opening has been deliberately blocked by a large rock. Hercules is a hero of Greek mythology.\n\nDantès dug away the earth carefully, and detected, or fancied he detected, the ingenious artifice. He attacked this wall, cemented by the hand of time, with his pickaxe. After ten minutes' labor the wall gave way, and a hole large enough to insert the arm was opened. Dantès went and cut the strongest olive-tree he could find, stripped off its branches, inserted it in the hole, and used it as a lever. But the rock was too heavy, and too firmly wedged, to be moved by any one man, were he Hercules himself.",
+      "prompt": "Which statement about Dantès is best supported by the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "He is determined in his efforts to move the rock away from the opening of the cave."
+        },
+        {
+          "label": "B",
+          "text": "He is worried he will lack the courage to enter the cave when the entrance is finally opened."
+        },
+        {
+          "label": "C",
+          "text": "He is unsure why the cave's opening was purposely hidden behind a wall and a large rock."
+        },
+        {
+          "label": "D",
+          "text": "He is aware that his impatience is causing him to make clumsy errors as he enlarges the hole in the wall."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 6,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_001504",
+      "section": "reading_writing",
+      "question_number": 7,
+      "passage": "In the early 1970s, art historian Michael Baxandall created an approach to viewing art called the \"period eye,\" which explains how to look at art through the lens of its historical period. Baxandall argued that it is critical that art historians understand and communicate the original social and cultural contexts of older works of art so that it is clear what the artists intended and how the pieces would have been understood by their original viewers. [u]Since it was first introduced, Baxandall's period eye has significantly influenced the practice of art history.[/u]",
+      "prompt": "Which statement, if true, would most strongly support the claim in the underlined sentence?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Many art historians working before the 1970s produced detailed analyses of the social and cultural contexts of older artworks, though few extended that approach to artworks produced in their own lifetimes."
+        },
+        {
+          "label": "B",
+          "text": "For some historical periods, it is difficult for art historians to reconstruct how the original viewers of artworks understood what artists' intentions for their works were."
+        },
+        {
+          "label": "C",
+          "text": "Art historians working today have largely rejected the idea, common among Baxandall's predecessors, that artists' intentions should influence how artworks are interpreted."
+        },
+        {
+          "label": "D",
+          "text": "Numerous art historians of the late twentieth century and twenty-first century have focused their scholarship on how various artworks were interpreted at the time of their creation."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 10,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_001505",
+      "section": "reading_writing",
+      "question_number": 8,
+      "passage": "Accurately measuring the sizes of marine fish populations is challenging because predation, reproduction, and fishing are constantly affecting those populations' numbers. To avoid overfishing, many commercial fishers rely on complex computer models that estimate current and historical fish population sizes. These models incorporate various biological factors, such as fish size, age distribution, and reproductive rates. Recently, a team of researchers examined decades of modeled predictions for 230 major commercially fished species. They discovered that the models often overestimated fish population sizes. And contrary to their expectations, the researchers found that accuracy did not improve as the data grew over time. The team's discovery most directly suggests that ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "it is important to incorporate more diverse data sources, including commercial fishers' observations, into population size models."
+        },
+        {
+          "label": "B",
+          "text": "researchers should be cautious when considering findings about commercially fished populations that predate the development of the models."
+        },
+        {
+          "label": "C",
+          "text": "some commercial fishers have likely been unknowingly overfishing and may need to decrease their catches going forward."
+        },
+        {
+          "label": "D",
+          "text": "environmental factors, rather than commercial fishing, are primarily responsible for changes in marine fish population sizes."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 11,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_001506",
+      "section": "reading_writing",
+      "question_number": 9,
+      "passage": "Some geologists have proposed designating the period from 1950 to the present as a new geological epoch (the Anthropocene) characterized by human impact on Earth, but they have struggled to identify reliable stratigraphic markers of the epoch's onset. Inta Dimante-Deimantovica and a research team investigated whether the initial appearance of primary microplastics—invented and mass-produced for industrial and other purposes, beginning around the middle of the twentieth century—in sedimentary layers could serve this role. The researchers analyzed European lake sediment profiles from the late eighteenth century to the present. Microplastics were present in all layers, likely because certain microplastic shapes enabled rapid downward migration. The researchers therefore concluded that _____",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "microplastics are not prevalent enough in sediment to serve as a reliable sign of the human impact characteristic of the Anthropocene."
+        },
+        {
+          "label": "B",
+          "text": "using the earliest presence of microplastics as a stratigraphic marker of the beginning of the Anthropocene is likely to be viable in some locations but is not viable in Europe."
+        },
+        {
+          "label": "C",
+          "text": "the lowest sedimentary layer in which microplastics are found cannot be treated as indicative of the chronological beginning of the Anthropocene."
+        },
+        {
+          "label": "D",
+          "text": "the presence of microplastics in sediment dating to the late eighteenth century demonstrates that human impact on the environment began earlier than the 1950s."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 12,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_001507",
+      "section": "reading_writing",
+      "question_number": 10,
+      "passage": "Louis-Ferdinand Céline's 1932 novel [i]Journey to the End of the Night[/i] is regularly described as autobiographical. That characterization is apt—there are many parallels between the experiences of the novel's protagonist, Ferdinand Bardamu, and those of Céline—but it should not be taken to mean that every person or event depicted in [i]Journey to the End of the Night[/i] has a real-life analogue. Much of the novel is pure invention, and readers who neglect this fact and instead focus excessively on correspondences between the novel and Céline's life can thus ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "misrepresent [i]Journey to the End of the Night[/i] as being more widely read than it actually is."
+        },
+        {
+          "label": "B",
+          "text": "fail to appreciate how much creativity Céline shows in the book."
+        },
+        {
+          "label": "C",
+          "text": "refuse to acknowledge that Céline drew on real-world material when writing [i]Journey to the End of the Night[/i]."
+        },
+        {
+          "label": "D",
+          "text": "overemphasize the extent to which Céline took inspiration from earlier writers."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 13,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_001508",
+      "section": "reading_writing",
+      "question_number": 11,
+      "passage": "Many linguists have claimed that the lyricism of Alexander Pushkin's Russian novel in verse [i]Eugene Onegin[/i] makes the work incapable of being faithfully translated, especially into English. The original work is written much like a long poem, featuring linguistic patterns and flourishes specific to the Russian language. Rather than striving to portray each scene of the novel literally, John Cranko, in his ballet adaption of [i]Eugene Onegin[/i], opted to let the essence of the work's emotions inspire the passion of the dancers. Critic Emma Golden writes that Cranko's \"choreography uses the poetry of the human body to summon the parts of Pushkin's novel that were deemed untranslatable—its commitments to rhythm, cadence, symmetry.\" It seems then, that ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "English is a particularly difficult language into which to translate poetic works, as its rhythms differ from those of many other languages."
+        },
+        {
+          "label": "B",
+          "text": "most critics believe that, like other English translations of [i]Eugene Onegin[/i], Cranko's ballet adaptation fails to capture the essence of the original's meaning."
+        },
+        {
+          "label": "C",
+          "text": "Cranko's loose adaptation of [i]Eugene Onegin[/i] into a different medium may have preserved fundamental elements of the source material better than a strictly literal written translation of the text would have."
+        },
+        {
+          "label": "D",
+          "text": "though written works are frequently adapted into other mediums, such adaptations rarely succeed in capturing the original work’s most essential qualities."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 14,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_001509",
+      "section": "reading_writing",
+      "question_number": 12,
+      "passage": "An emulsifier is a type of compound that serves to stabilize an emulsion—a mixture of two or more liquids that otherwise would not easily blend together, like oil and water. Though modern chemists commonly use emulsifiers like poloxamer 407 in their formulations, emulsifiers that have been employed for millennia, such as beeswax and egg yolk, ______ used to this day by chemists as well.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "are"
+        },
+        {
+          "label": "B",
+          "text": "would have been"
+        },
+        {
+          "label": "C",
+          "text": "were being"
+        },
+        {
+          "label": "D",
+          "text": "were"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 15,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_001510",
+      "section": "reading_writing",
+      "question_number": 13,
+      "passage": "How a folktale begins depends largely on the language in which it ______ folktales told in the Czech language open with a phrase that roughly means \"there was, there was not.\" English-language folktales, on the other hand, often begin with \"once upon a time.\"",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "originates, many"
+        },
+        {
+          "label": "B",
+          "text": "originates many,"
+        },
+        {
+          "label": "C",
+          "text": "originates. Many"
+        },
+        {
+          "label": "D",
+          "text": "originates many"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 16,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries"
+      }
+    },
+    {
+      "question_id": "bank_rw_001511",
+      "section": "reading_writing",
+      "question_number": 14,
+      "passage": "Established in 1934 for the specific purpose of protecting US investors from market manipulation, _____ helped the nation recover from the Great Depression.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "many ways, just one of which was the Securities and Exchange Commission (SEC), were how the US government"
+        },
+        {
+          "label": "B",
+          "text": "the US government's many ways, just one of which was the Securities and Exchange Commission (SEC),"
+        },
+        {
+          "label": "C",
+          "text": "the US government in many ways, just one of which was the Securities and Exchange Commission (SEC),"
+        },
+        {
+          "label": "D",
+          "text": "the Securities and Exchange Commission (SEC) was just one of many ways the US government"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 17,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_001512",
+      "section": "reading_writing",
+      "question_number": 15,
+      "passage": "Many ranching terms come from Spanish. For example, the word \"mustang\" (a wild horse) _____ from the Spanish word [i]mesteñas[/i], and \"stockade\" (a fence) derives from [i]estacada[/i]. This is because the first Anglo, African, and Native American cattle ranchers in the southwestern US learned the trade from Spanish-speaking Mexican [i]vaqueros[/i], or cowboys.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "derives"
+        },
+        {
+          "label": "B",
+          "text": "have derived"
+        },
+        {
+          "label": "C",
+          "text": "derive"
+        },
+        {
+          "label": "D",
+          "text": "were deriving"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 18,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_001513",
+      "section": "reading_writing",
+      "question_number": 16,
+      "passage": "As water in oceans, lakes, and rivers is heated by the Sun, it turns into water vapor and rises into the atmosphere, where it cools and forms clouds before falling back to Earth as rain or _____ process is called the water cycle.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "snow this"
+        },
+        {
+          "label": "B",
+          "text": "snow? This"
+        },
+        {
+          "label": "C",
+          "text": "snow, this"
+        },
+        {
+          "label": "D",
+          "text": "snow. This"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 19,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries"
+      }
+    },
+    {
+      "question_id": "bank_rw_001514",
+      "section": "reading_writing",
+      "question_number": 17,
+      "passage": "With an average summer temperature of 69 degrees Fahrenheit, Odessa is one European _______ many travelers recommend, especially from June to September.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "city in which,"
+        },
+        {
+          "label": "B",
+          "text": "city that"
+        },
+        {
+          "label": "C",
+          "text": "city, which"
+        },
+        {
+          "label": "D",
+          "text": "city, that"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 20,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries"
+      }
+    },
+    {
+      "question_id": "bank_rw_001515",
+      "section": "reading_writing",
+      "question_number": 18,
+      "passage": "It's tempting to think that the comic strips [i]Jump Start[/i] and [i]Wee Pals[/i] have the same main purpose—to amuse—because both feature humorous situations. _____ [i]Wee Pals[/i] focuses just as much on challenging readers with sociopolitical commentary as it does on making them laugh.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "In other words,"
+        },
+        {
+          "label": "B",
+          "text": "Likewise,"
+        },
+        {
+          "label": "C",
+          "text": "Next,"
+        },
+        {
+          "label": "D",
+          "text": "In reality,"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 22,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001516",
+      "section": "reading_writing",
+      "question_number": 19,
+      "passage": "For millennia, acorns were a staple food for the Tongva people, the Indigenous inhabitants of what is now the Los Angeles basin. Raw acorns have an extremely bitter taste, though, due to their high tannin levels. _____ it was necessary to process the acorns—which involved grinding, rinsing, and shaping the nuts into a dough—before eating them.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "However,"
+        },
+        {
+          "label": "B",
+          "text": "Afterward,"
+        },
+        {
+          "label": "C",
+          "text": "Similarly,"
+        },
+        {
+          "label": "D",
+          "text": "Therefore,"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 23,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001517",
+      "section": "reading_writing",
+      "question_number": 20,
+      "passage": "In a given rock formation, Rhaetian rock from 208.5 million years ago might directly abut Lochkovian rock from 419.2 million years ago, with millions of years of material missing in between. _____ time did not stand still during these intervening years; the unaccounted-for sedimentary material was likely removed from the stratigraphic record via erosion and weathering.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "In particular,"
+        },
+        {
+          "label": "B",
+          "text": "On the contrary,"
+        },
+        {
+          "label": "C",
+          "text": "Of course,"
+        },
+        {
+          "label": "D",
+          "text": "As a result,"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 24,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001518",
+      "section": "reading_writing",
+      "question_number": 21,
+      "passage": "● India Arie is an African American singer and songwriter.\n● The media outlet BBC Music has described her music as a \"blend of hip hop, soul and folk [that is] as subtle as it [is] inspired.\"\n● Her first studio album, [i]Acoustic Soul[/i], was released in 2001.\n● It features the song \"Strength, Courage & Wisdom.\"\n● Avery Johnson played bass on the album.",
+      "prompt": "Which choice most effectively uses information from the given sentences to introduce [i]Acoustic Soul[/i] to an audience already familiar with India Arie?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Avery Johnson played bass on singer and songwriter India Arie's 2001 album, [i]Acoustic Soul[/i]."
+        },
+        {
+          "label": "B",
+          "text": "India Arie's music has been described as a \"blend of hip hop, soul and folk [that is] as subtle as it [is] inspired.\""
+        },
+        {
+          "label": "C",
+          "text": "Featuring the song \"Strength, Courage & Wisdom,\" [i]Acoustic Soul[/i] is India Arie's first studio album."
+        },
+        {
+          "label": "D",
+          "text": "\"Strength, Courage & Wisdom,\" a song by singer and songwriter India Arie, is featured on the album [i]Acoustic Soul[/i]."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 25,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001519",
+      "section": "reading_writing",
+      "question_number": 22,
+      "passage": "While researching a topic, a student has taken the following notes:\n● Receptors in the human tongue can detect sweetness, saltiness, sourness, bitterness, and umami.\n● Umami is a rich, savory flavor.\n● Umami is triggered by the compounds in a variety of foods, including beef and caramelized onions.\n● Participants in a research study tasted samples of winged kelp (a type of brown seaweed) collected from Stykkishólmur, Iceland.\n● On average, they rated its umami intensity as moderate.",
+      "prompt": "The student wants to emphasize the umami intensity of winged kelp. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Participants in a research study found the umami intensity of winged kelp, a brown seaweed, to be moderate."
+        },
+        {
+          "label": "B",
+          "text": "Umami is triggered by compounds in winged kelp, beef, and caramelized onions."
+        },
+        {
+          "label": "C",
+          "text": "Samples of winged kelp, a brown seaweed, have been collected in Stykkishólmur, Iceland."
+        },
+        {
+          "label": "D",
+          "text": "Umami is a rich, savory flavor triggered by compounds in foods such as beef and caramelized onions."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 26,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001520",
+      "section": "reading_writing",
+      "question_number": 23,
+      "passage": "While researching a topic, a student has taken the following notes:\n● The Chacoan peccary is a mammal species.\n● It was believed to be extinct until a living Chacoan peccary was identified in Argentina in 1974.\n● The jellyfish tree is a tree species.\n● It was believed to be extinct until a living jellyfish tree was identified in the Seychelles in 1978.\n● They are considered Lazarus species.\n● \"Lazarus species\" is a term for living species of organisms that were once believed to be extinct.",
+      "prompt": "The student wants to specify when the Chacoan peccary was identified. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Previously believed to be extinct, a living Chacoan peccary was identified in Argentina."
+        },
+        {
+          "label": "B",
+          "text": "Identified in the Seychelles, a living jellyfish tree was found in 1978."
+        },
+        {
+          "label": "C",
+          "text": "An example of a Lazarus species was found in 1978."
+        },
+        {
+          "label": "D",
+          "text": "A living Chacoan peccary, once believed to be extinct, was identified in 1974."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 27,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001521",
+      "section": "reading_writing",
+      "question_number": 24,
+      "passage": "Because it appears merely to reflect and rearrange the creative labor of human artists, art generated by artificial intelligence programs has been scorned by some as hackneyed. One can also argue, however, that all art is in some sense ______ because it draws on what has already been created by others for inspiration, making genuine artistic originality elusive.",
+      "prompt": "Which choice completes the test with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "obsolete"
+        },
+        {
+          "label": "B",
+          "text": "aesthetic"
+        },
+        {
+          "label": "C",
+          "text": "counterproductive"
+        },
+        {
+          "label": "D",
+          "text": "derivative"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 1,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_001523",
+      "section": "reading_writing",
+      "question_number": 25,
+      "passage": "Recitals by Catherine Kautsky, known for her virtuosity on the piano, are rightly described as ______ given that they can feature not just the performance of a musical piece but also a lecture on the piece's composer and a slideshow contextualizing the time in which it was composed.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "multifaceted"
+        },
+        {
+          "label": "B",
+          "text": "circumscribed"
+        },
+        {
+          "label": "C",
+          "text": "exuberant"
+        },
+        {
+          "label": "D",
+          "text": "undiscerning"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 3,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_001524",
+      "section": "reading_writing",
+      "question_number": 26,
+      "passage": "Alternative-history fiction is a subgenre of science fiction in which plots center on \"what if?\" questions. [u]What if India had started the Industrial Revolution? What if Soviet cosmonauts had been first to land on the moon?[/u] Speculative counterfactuals like these can be great fodder for stories, but they're also commonly deployed by academic historians to better understand factors influencing historical events. Well-realized and coherent alternative-history stories can thus complement historians' speculations about the past.",
+      "prompt": "Which choice best describes the function of the underlined portion in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It provides examples of the types of scenarios addressed in alternative-history fiction."
+        },
+        {
+          "label": "B",
+          "text": "It illustrates how academic historians have influenced writers of alternative-history fiction."
+        },
+        {
+          "label": "C",
+          "text": "It indicates specific ideas that were first raised by writers of alternative-history fiction and that subsequently inspired scholarship by academic historians."
+        },
+        {
+          "label": "D",
+          "text": "It acknowledges counterfactual questions that academic historians have largely overlooked."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 4,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_001525",
+      "section": "reading_writing",
+      "question_number": 27,
+      "passage": "[u]On receiving good news, people's first instinct might be to immediately share it[/u], but a recent experiment suggests that keeping it a secret can be psychologically beneficial. Study participants were randomly assigned to reflect on an experience in which they either shared good news or kept it to themselves. On average, those who kept good news secret reported feeling more energized by the experience than participants who shared did, perhaps, as the researchers suggest, because the choice to savor good news is usually a personal one and autonomous motivation is linked with feelings of vitality.",
+      "prompt": "Which choice best describes the function of the underlined portion in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It presents a scenario whose psychological impact was investigated in the study summarized in the text."
+        },
+        {
+          "label": "B",
+          "text": "It indicates a reason why skepticism about the conclusions of the psychological study mentioned in the text is likely warranted."
+        },
+        {
+          "label": "C",
+          "text": "It reports the main conclusion of a study into a social phenomenon whose methodology is critiqued in the text."
+        },
+        {
+          "label": "D",
+          "text": "It provides an observation about human behavior that was validated by the experiment summarized in the text."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 5,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_001526",
+      "section": "reading_writing",
+      "question_number": 28,
+      "passage": "Several sociologists have observed that the word \"culture,\" though commonly used in academic literature, is an ultimately hazy concept—for example, Renate Mayntz has noted that \"there is (still) no agreement on the meaning of this core term of sociological analysis.\" Does the idea of culture encompass art, or customs, or both these things and others? For casual usage, such haziness is permissible—we know culture when we see it—but for researchers, a standardization of the term is called for if sociology is to truly progress.",
+      "prompt": "Which choice best states the main idea of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Nonspecialists and specialists have different ideas of what the word \"culture\" means."
+        },
+        {
+          "label": "B",
+          "text": "There is no widely agreed-upon definition of the word \"culture,\" though the field of sociology would benefit if there were."
+        },
+        {
+          "label": "C",
+          "text": "In her research, Mayntz presented reasons why sociologists disagree on how to analyze \"culture.\""
+        },
+        {
+          "label": "D",
+          "text": "Art and customs are key components of what nonspecialists refer to as \"culture.\""
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 6,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_001527",
+      "section": "reading_writing",
+      "question_number": 29,
+      "passage": "In her book [i]Limitarianism[/i], researcher Ingrid Robeyns criticizes economic policies that allow businesses to profit from their successes while displacing the burden of failure onto taxpayers. As an example she cites the US financial crisis of 2008 in which dozens of institutions including JPMorgan Chase and SunTrust received a collective $700 billion of government support. Had the US government previously exercised stricter regulation of risky financial instruments, Robeyns argues, this enormous expenditure of taxpayer dollars would not have been necessary.",
+      "prompt": "Which choice best states the main topic of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Consequences of the 2008 financial crisis for JPMorgan Chase and SunTrust"
+        },
+        {
+          "label": "B",
+          "text": "How the US government used money received from taxation to help institutions recover from a period of financial instability"
+        },
+        {
+          "label": "C",
+          "text": "Techniques of assessing the risks of particular methods of financial investment"
+        },
+        {
+          "label": "D",
+          "text": "Why a scholar believes it would be beneficial for certain governmental economic practices to be reconsidered"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 7,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_001528",
+      "section": "reading_writing",
+      "question_number": 30,
+      "passage": "Since 2012, a consortium of research institutions has released an annual report that ranks countries by their populations' well-being, which the authors of the report derive using data from a globally administered survey of respondents' self-assessed levels of happiness. However, some other scholars caution that this approach reflects a tendentious understanding of the relationship between these two metrics. For example, studies have revealed a tendency among people in some non-Western countries to regard individual happiness as less important to their wellbeing than other ideals (e.g., a sense of harmony or balance).",
+      "prompt": "Based on the text, what is a potential weakness of the annual report issued by the consortium of research institutions?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It includes survey data from a wide range of Western countries but only from a narrow set of non-Western countries."
+        },
+        {
+          "label": "B",
+          "text": "It overlooks how philosophies regarding a particular concept have evolved over time."
+        },
+        {
+          "label": "C",
+          "text": "It may not adequately account for cultural variations in the value attached to a particular concept."
+        },
+        {
+          "label": "D",
+          "text": "It relies on survey responses from participants who may not be representative of their countries' cultural norms."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 8,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_001529",
+      "section": "reading_writing",
+      "question_number": 31,
+      "passage": "The following text is from Ralph Waldo Emerson's 1841 essay \"The Method of Nature.\"\n\nThe scholars are the priests of that thought which establishes the foundations of the earth. No matter what is their special work or profession, they stand for the spiritual interest of the world, and it is a common calamity if they neglect their post in a country where the material interest is so predominant as it is in America.",
+      "prompt": "Which choice best states the main idea of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "In a country whose citizens are largely preoccupied with tangible gains, it is crucial that some people work to foster and preserve ideas."
+        },
+        {
+          "label": "B",
+          "text": "Many descriptions of the role of scholars in society unfairly diminish their importance."
+        },
+        {
+          "label": "C",
+          "text": "It is unfortunate that so many intellectuals are concerned with material things rather than ideas."
+        },
+        {
+          "label": "D",
+          "text": "Military experience encourages Americans to contemplate aspects of human life that they would not choose to otherwise."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 9,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_001530",
+      "section": "reading_writing",
+      "question_number": 32,
+      "passage": "While no one doubts that politicians are influenced by a variety of incentives, it is generally agreed that they seek to support policies their constituents favor—after all, they risk losing office if they do not. Direct contact with constituents via such means as public events and emails from voters is a major source of politicians' beliefs about their constituents' views, but it is susceptible to a selection effect. There is little reason to presume that individuals with the time, resources, and strength of feeling to directly engage with their representatives are themselves broadly representative.",
+      "prompt": "Which choice best states the main idea of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "People who are likely to contact their elected representatives do not tend to be representative of politicians' constituents generally."
+        },
+        {
+          "label": "B",
+          "text": "Direct contact with constituents shapes politicians' beliefs about policies their constituents favor, and they try to act in accordance with those beliefs."
+        },
+        {
+          "label": "C",
+          "text": "Politicians aim to advocate for their constituents' policy preferences, but politicians' understanding of those preferences may be skewed."
+        },
+        {
+          "label": "D",
+          "text": "Although politicians have an incentive to act in accordance with their constituents' views, that is not the only incentive."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 10,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_001531",
+      "section": "reading_writing",
+      "question_number": 33,
+      "passage": "Throughout history, tall structures such as Ruwanwelisaya in Sri Lanka or the Minarets of Selimiye Mosque in Turkey have posed a challenge to their architects, since these structures are more susceptible to physical forces than smaller structures. For example, the lower floors of a building must be able to support the enormous weight of the upper floors. To test a hypothesis that steel is more suitable than concrete for construction of a tall building's lower floors, researchers created a computer model of two buildings that were identical except that one had concrete lower floors while one had steel lower floors, and simulated the effects of the forces of wind and gravity on those structures over the course of a century.",
+      "prompt": "Which finding, if true, would best support the hypothesis?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "At the end of the simulation, the structure with steel lower floors had slightly larger dimensions at its base than it did at the beginning of the simulation."
+        },
+        {
+          "label": "B",
+          "text": "During the simulation, the structure with steel lower floors bent in high wind to a greater degree than did the structure with concrete lower floors."
+        },
+        {
+          "label": "C",
+          "text": "During the simulation, when sudden forces caused vibrations in the structures, those vibrations took longer to disappear in the structure with steel lower floors than in the structure with concrete lower floors."
+        },
+        {
+          "label": "D",
+          "text": "At the end of the simulation, the structure with concrete lower floors was several inches shorter than the structure with steel lower floors."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 11,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_001533",
+      "section": "reading_writing",
+      "question_number": 34,
+      "passage": "The interiors of many temples in the ancient Middle East needed to satisfy a precise set of acoustic demands: the sounds of chants and hymns should travel with clarity, while profound silences should be fully felt and appreciated. In a research paper, a student claims that the users of one such temple were aware of how the materials that were used within the structure could affect sound quality and that they deliberately applied this knowledge to influence how sound was experienced in the space.",
+      "prompt": "Which quotation from a work by a historian would most directly support the student's claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"The acoustic environment of the temple was best suited for music that eschewed ornamentation in favor of simple melodies, harmonies, and rhythms.\""
+        },
+        {
+          "label": "B",
+          "text": "\"Many researchers believe that the central chamber of the temple had a high ceiling, a feature that has since become essential to the acoustic design of modern concert halls.\""
+        },
+        {
+          "label": "C",
+          "text": "\"During special occasions, curtains were placed inside the temple to minimize reverberation and confine the sound to designated locations.\""
+        },
+        {
+          "label": "D",
+          "text": "\"The innermost room of the temple was likely among the quietest spaces in the interior of the temple.\""
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 13,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_001534",
+      "section": "reading_writing",
+      "question_number": 35,
+      "passage": "There are over 150 species of the cactus genus [i]Mammillaria[/i] throughout the Americas, but their survival can be threatened by high precipitation and dense vegetation that blocks sunlight. Researchers have located species from the genus in almost every state in Mexico, with several of them, like [i]M. schumannii[/i], restricted to only one state. The fact that this genus has not been observed in parts of the Sierra Madre Occidental mountain range has been attributed to a lack of appropriate habitat, but much of the landscape in this area is notoriously inaccessible, which suggests that ______",
+      "prompt": "Which choice most logically complete the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the dense vegetation and high annual precipitation levels in parts of the Sierra Madre Occidental mountain range impede the ability of [i]Mammillaria[/i] species to survive."
+        },
+        {
+          "label": "B",
+          "text": "the perceived absence of [i]Mammillaria[/i] in parts of the Sierra Madre Occidental mountain range may be due to insufficient exploration of the region."
+        },
+        {
+          "label": "C",
+          "text": "[i]M. schumannii[/i] may have been overlooked in parts of the Sierra Madre Occidental mountain range because of its similarity to another species."
+        },
+        {
+          "label": "D",
+          "text": "the current methods of collecting and tracking [i]Mammillaria[/i] species throughout Mexico may cause an overestimation of the number of species in this genus."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 14,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_001535",
+      "section": "reading_writing",
+      "question_number": 36,
+      "passage": "Some farms are expanding their mix of crop species in an effort to reduce nonagricultural biodiversity loss caused by increasing agricultural specialization, in which farmers focus on a limited range of crops or livestock species to improve yields and, thus, their revenues. To study the joint environmental and economic effects of diversification practices (which can encompass improved soil and water management as well as increased variety in crops and livestock), Laura Vang Rasmussen and team analyzed data from 2,655 farms in eleven countries. They found that using multiple diversification practices concurrently had greater potential for improving both nonagricultural biodiversity and yields than using a single strategy did. Their finding suggests that ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "farmers who focus primarily on increasing crop variety without engaging in other diversification practices will likely help reverse nonagricultural biodiversity loss, but their farms will produce smaller yields than if they had continued to focus on developing a single crop."
+        },
+        {
+          "label": "B",
+          "text": "it is more expensive to increase crop variety while simultaneously implementing other diversification practices than it is to increase crop variety and then subsequently implement other diversification practices."
+        },
+        {
+          "label": "C",
+          "text": "farmers who are reluctant to switch from specializing in a single crop to cultivating a variety of crops incorrectly assume that any improvements in yields will be insufficient to offset the costs associated with making that transition."
+        },
+        {
+          "label": "D",
+          "text": "agricultural diversification doesn't inherently involve a tradeoff between environmental and economic considerations, but farmers' chances of avoiding that outcome may be diminished if they focus on crop variety to the exclusion of other diversification practices."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 15,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_001536",
+      "section": "reading_writing",
+      "question_number": 37,
+      "passage": "That Chaucer's [i]Canterbury Tales[/i] inspired imitators is evident from the existence of three near-contemporary \"continuations\" of the collection: [i]The Siege of Thebes[/i], which purports to be a new tale told during the pilgrims' _____ [i]The Tale of Beryn[/i], which depicts the pilgrims as tourists; and [i]The Ploughman's Tale[/i], which features a minor character from the original work.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "return"
+        },
+        {
+          "label": "B",
+          "text": "return;"
+        },
+        {
+          "label": "C",
+          "text": "return."
+        },
+        {
+          "label": "D",
+          "text": "return,"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 16,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries"
+      }
+    },
+    {
+      "question_id": "bank_rw_001537",
+      "section": "reading_writing",
+      "question_number": 38,
+      "passage": "As part of his effort to identify Bronze Age pathways across Sicily, archaeologist Dario Calderone created three-dimensional digital models of the terrain via aerial photogrammetry. The drone ______ the landscape, which included archaeological sites from as far back as the Early Neolithic Period, flew in a pattern that ensured 60 percent forward overlap and 20 percent side overlap between individual images.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "photographed"
+        },
+        {
+          "label": "B",
+          "text": "was photographing"
+        },
+        {
+          "label": "C",
+          "text": "photographing"
+        },
+        {
+          "label": "D",
+          "text": "photographs"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 17,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_001538",
+      "section": "reading_writing",
+      "question_number": 39,
+      "passage": "In economics, mustard seeds are considered a commodity because they are essentially interchangeable, \"essentially\" being a word that admits a degree of latitude. In 2021, researchers J. Shorish, M. Stephenson, and M. Zargham devised a mathematical model of fungibility (interchangeability) that would account for such variation. Distinguishing \"exactly the same\" and \"nearly the same\" commodities—whether crops, lumber, or precious metals—______ among their primary aims.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "having been"
+        },
+        {
+          "label": "B",
+          "text": "being"
+        },
+        {
+          "label": "C",
+          "text": "was"
+        },
+        {
+          "label": "D",
+          "text": "were"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 18,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_001539",
+      "section": "reading_writing",
+      "question_number": 40,
+      "passage": "Traveling to India between 1935 and 1952, African American intellectuals Sue Bailey Thurman, Blanche Wright Nelson, and Sadie T.M. Alexander met with Mahatma Gandhi, an influential proponent of nonviolent resistance, and forged meaningful connections with local Indian women as part of an effort to promote women's ______ but also around the world.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "empowerment—not only in India—"
+        },
+        {
+          "label": "B",
+          "text": "empowerment not only in India,"
+        },
+        {
+          "label": "C",
+          "text": "empowerment, not only in India,"
+        },
+        {
+          "label": "D",
+          "text": "empowerment—not only in India"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 19,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries"
+      }
+    },
+    {
+      "question_id": "bank_rw_001540",
+      "section": "reading_writing",
+      "question_number": 41,
+      "passage": "Native to the Yangtze River in China, the Chinese river dolphin is one of many species to have recently gone extinct in what some are calling \"the sixth great mass extinction\" in Earth's history. Far from being caused by humans, though, the five prior such events—the Ordovician-Silurian (440 million years ago, or mya), the Devonian (365 mya), the Permian-Triassic (250 mya), the Triassic-Jurassic (201 mya), and the Cretaceous-Tertiary ______ all predate us.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "(65 mya)—"
+        },
+        {
+          "label": "B",
+          "text": "(65 mya);"
+        },
+        {
+          "label": "C",
+          "text": "(65 mya)"
+        },
+        {
+          "label": "D",
+          "text": "(65 mya),"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 20,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries"
+      }
+    },
+    {
+      "question_id": "bank_rw_001541",
+      "section": "reading_writing",
+      "question_number": 42,
+      "passage": "In the seventeenth century, market-savvy British greenhouses scrambled to cultivate ______ the small group of wealthy consumers who could afford to import them from the Caribbean, the fruits had become a status symbol.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "pineapples. For"
+        },
+        {
+          "label": "B",
+          "text": "pineapples, for"
+        },
+        {
+          "label": "C",
+          "text": "pineapples for"
+        },
+        {
+          "label": "D",
+          "text": "pineapples, which for"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 21,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries"
+      }
+    },
+    {
+      "question_id": "bank_rw_001542",
+      "section": "reading_writing",
+      "question_number": 43,
+      "passage": "A bias toward studying diversity at a local rather than a continental scale was one of the many shortcomings researcher Sonia Llorente-Culebras and her team ______ analyzing nearly 400 biodiversity studies from around the globe.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "discovered while"
+        },
+        {
+          "label": "B",
+          "text": "discovered, while"
+        },
+        {
+          "label": "C",
+          "text": "discovered. While"
+        },
+        {
+          "label": "D",
+          "text": "discovered: while"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 22,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries"
+      }
+    },
+    {
+      "question_id": "bank_rw_001543",
+      "section": "reading_writing",
+      "question_number": 44,
+      "passage": "In a 1993 study by Vales and Peek, the researchers used microhistological fecal analysis to determine the ratio of three plant subtypes (graminoids, forbs, and browse) within the diets of North American ungulates. The researchers did not perform this analysis on all such ungulates, ______ they focused exclusively on elk in Wyoming.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "for instance;"
+        },
+        {
+          "label": "B",
+          "text": "regardless;"
+        },
+        {
+          "label": "C",
+          "text": "however;"
+        },
+        {
+          "label": "D",
+          "text": "in other words;"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 23,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001544",
+      "section": "reading_writing",
+      "question_number": 45,
+      "passage": "When it was built in the nineteenth century, the Eiffel Tower was criticized—even protested—for its unique appearance. ______ the spire-like structure earned not just acceptance but adoration, and its iconic design is now echoed in everything from the Eiffel Tower replica in Klagenfurt, Austria, to the Tokyo Tower in Tokyo, Japan.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "For example,"
+        },
+        {
+          "label": "B",
+          "text": "Thus,"
+        },
+        {
+          "label": "C",
+          "text": "Ultimately,"
+        },
+        {
+          "label": "D",
+          "text": "Similarly,"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2026年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 24,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    }
+  ]
+}

@@ -1,0 +1,999 @@
+{
+  "schemaVersion": "sat-canonical-question-collection-v1",
+  "contentId": "collection-bank-form-structure-and-sense-hard",
+  "title": "Form, Structure, and Sense · Hard",
+  "section": "reading_writing",
+  "questionCount": 22,
+  "questions": [
+    {
+      "question_id": "bank_rw_002442",
+      "section": "reading_writing",
+      "question_number": 1,
+      "passage": "Despite being cheap, versatile, and easy to produce, ______ they are made from nonrenewable petroleum, and most do not biodegrade in landfills.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "there are two problems associated with commercial plastics:"
+        },
+        {
+          "label": "B",
+          "text": "two problems are associated with commercial plastics:"
+        },
+        {
+          "label": "C",
+          "text": "commercial plastics' two associated problems are that"
+        },
+        {
+          "label": "D",
+          "text": "commercial plastics have two associated problems:"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Standard English Conventions/Form, Structure, and Sense/Hard",
+      "source_question_number": 1,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. The convention being tested is subject-modifier placement. This choice ensures that the modifying phrase \"despite being cheap, versatile, and easy to produce\" appears immediately before the noun it modifies, \"commercial plastics,\" clearly establishing that the commercial plastics-and not another noun in the sentence-are being described as cheap, versatile, and easy to produce.\n\nChoice A is incorrect because it results in a dangling modifier. The placement of the function word \"there\" immediately after the modifying phrase illogically and confusingly suggests that \"there\" is cheap, versatile, and easy to produce. Choice B is incorrect because it results in a dangling modifier. The placement of the noun \"two problems\" immediately after the modifying phrase illogically suggests that the \"problems\" are cheap, versatile, and easy to produce. Choice C is incorrect because it results in a dangling modifier. The placement of the noun phrase \"commercial plastics' two associated problems\" immediately after the modifying phrase illogically suggests that the \"problems\" are cheap, versatile, and easy to produce.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_002443",
+      "section": "reading_writing",
+      "question_number": 2,
+      "passage": "[i]Rabinal Achí[/i] is a precolonial Maya dance drama performed annually in Rabinal, a town in the Guatemalan highlands. Based on events that occurred when Rabinal was a city-state ruled by a king, ______ had once been an ally of the king but was later captured while leading an invading force against him.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "[i]Rabinal Achí[/i] tells the story of K'iche' Achí, a military leader who"
+        },
+        {
+          "label": "B",
+          "text": "K'iche' Achí, the military leader in the story of [i]Rabinal Achí[/i],"
+        },
+        {
+          "label": "C",
+          "text": "the military leader whose story is told in [i]Rabinal Achí[/i], K'iche' Achí,"
+        },
+        {
+          "label": "D",
+          "text": "there was a military leader, K'iche' Achí, who in [i]Rabinal Achí[/i]"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Standard English Conventions/Form, Structure, and Sense/Hard",
+      "source_question_number": 2,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. The modifier \"Based on events…by a king,\" is describing the drama \"Rabinal Achí.\" Modifiers need to be next to the subjects they describe, so \"Rabinal Achí\" needs to be the first word after the comma.\n\nChoice B is incorrect. This doesn't complete the text in a way that conforms to the conventions of Standard English. The modifier \"Based on events…by a king,\" is describing the drama \"Rabinal Achí.\" Modifiers need to be next to the subjects they describe, so \"Rabinal Achí\" needs to be the first word after the comma. Choice C is incorrect. This doesn't complete the text in a way that conforms to the conventions of Standard English. The modifier \"Based on events…by a king,\" is describing the drama \"Rabinal Achí.\" Modifiers need to be next to the subjects they describe, so \"Rabinal Achí\" needs to be the first word after the comma. Choice D is incorrect. This doesn't complete the text in a way that conforms to the conventions of Standard English. The modifier \"Based on events…by a king,\" is describing the drama \"Rabinal Achí.\" Modifiers need to be next to the subjects they describe, so \"Rabinal Achí\" needs to be the first word after the comma.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_002444",
+      "section": "reading_writing",
+      "question_number": 3,
+      "passage": "During the American Civil War, Thomas Morris Chester braved the front lines as a war correspondent for the [i]Philadelphia Press[/i]. Amplifying the voices and experiences of Black soldiers ______ of particular importance to Chester, who later became an activist and lawyer during the postwar Reconstruction period.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "were"
+        },
+        {
+          "label": "B",
+          "text": "have been"
+        },
+        {
+          "label": "C",
+          "text": "are"
+        },
+        {
+          "label": "D",
+          "text": "was"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Standard English Conventions/Form, Structure, and Sense/Hard",
+      "source_question_number": 3,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. The convention being tested is subject-verb agreement. The singular verb \"was\" agrees in number with the singular subject \"amplifying.\" Gerunds such as \"amplifying\" are always singular.\n\nChoice A is incorrect because the plural verb \"were\" doesn't agree in number with the singular subject \"amplifying.\" Choice B is incorrect because the plural verb \"have been\" doesn't agree in number with the singular subject \"amplifying.\" Choice C is incorrect because the plural verb \"are\" doesn't agree in number with the singular subject \"amplifying.\"",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_002445",
+      "section": "reading_writing",
+      "question_number": 4,
+      "passage": "In the 1970s, Janaki Ammal, a prominent botanist, emerged as a powerful voice in India's environmental conservation movement. Her exhaustive chromosomal survey of plants in Silent Valley, a pristine tropical forest in Kerala, India, that is home to nearly 1,000 species of native flora (many of which are endangered), ______ instrumental in the government's decision to preserve the forest.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "are"
+        },
+        {
+          "label": "B",
+          "text": "were"
+        },
+        {
+          "label": "C",
+          "text": "have been"
+        },
+        {
+          "label": "D",
+          "text": "was"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Standard English Conventions/Form, Structure, and Sense/Hard",
+      "source_question_number": 4,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. The subject \"survey\" is singular, and so is the verb \"was.\"\n\nChoice A is incorrect. The subject \"survey\" is singular, but the verb \"are\" is plural. Choice B is incorrect. The subject \"survey\" is singular, but the verb \"were\" is plural. Choice C is incorrect. The subject \"survey\" is singular, but the verb \"have been\" is plural.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_002446",
+      "section": "reading_writing",
+      "question_number": 5,
+      "passage": "The artistic talents of Barbara Chase-Riboud, most known for her 1979 historical novel [i]Sally Hemings[/i] and the conversation it inspired, ______ limited to the realm of prose: she first excelled in sculpture, where her affinity for bronze—a material she described as \"timeless\" due to its use across eras and cultures—became part of her artistic identity.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "hasn't been"
+        },
+        {
+          "label": "B",
+          "text": "wasn't"
+        },
+        {
+          "label": "C",
+          "text": "isn't"
+        },
+        {
+          "label": "D",
+          "text": "aren't"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Standard English Conventions/Form, Structure, and Sense/Hard",
+      "source_question_number": 5,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. The subject \"talents\" is plural, and so is the verb \"aren't\": \"the artistic talents…aren't limited.\"\n\nChoice A is incorrect. The subject \"talents\" is plural, but the verb \"hasn't been\" is singular. Choice B is incorrect. The subject \"talents\" is plural, but the verb \"wasn't\" is singular. Choice C is incorrect. The subject \"talents\" is plural, but the verb \"isn't\" is singular.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_002447",
+      "section": "reading_writing",
+      "question_number": 6,
+      "passage": "Working from an earlier discovery of Charpentier's, chemists Emmanuelle Charpentier and Jennifer Doudna—winners of the 2020 Nobel Prize in Chemistry—re-created and then reprogrammed the so-called \"genetic scissors\" of a species of DNA-cleaving bacteria ______ a tool that is revolutionizing the field of gene technology.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "to forge"
+        },
+        {
+          "label": "B",
+          "text": "forging"
+        },
+        {
+          "label": "C",
+          "text": "forged"
+        },
+        {
+          "label": "D",
+          "text": "and forging"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Standard English Conventions/Form, Structure, and Sense/Hard",
+      "source_question_number": 6,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. The convention being tested is the use of finite and nonfinite verb forms within a sentence. The nonfinite to-infinitive \"to forge\" is correctly used to form a nonfinite (infinitive) clause that explains why the chemists re-created and reprogrammed the DNA-cleaving bacteria.\n\nChoice B is incorrect. Without a comma separating the main clause (\"chemists...bacteria\") from the participle \"forging,\" this choice illogically suggests that the bacteria are forging a tool, which doesn't make sense. Choice C is incorrect. Without a coordinating conjunction such as \"and\" placed before it, the finite past tense verb \"forged\" can't be used in this way to describe the chemists' actions. Choice D is incorrect. If read as a finite verb, the present progressive verb \"forging\" isn't consistent with the past tense verbs used in this sentence to describe the actions of the chemists. If read as a nonfinite verb, the participle \"forging\" can't be used in this way because there is no following main clause for it to modify.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_002448",
+      "section": "reading_writing",
+      "question_number": 7,
+      "passage": "In assessing the films of Japanese director Akira Kurosawa, ______ have missed his equally deep engagement with Japanese artistic traditions such as Noh theater.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "many critics have focused on Kurosawa's use of Western literary sources but"
+        },
+        {
+          "label": "B",
+          "text": "Kurosawa's use of Western literary sources has been the focus of many critics, who"
+        },
+        {
+          "label": "C",
+          "text": "there are many critics who have focused on Kurosawa's use of Western literary sources, but they"
+        },
+        {
+          "label": "D",
+          "text": "the focus of many critics has been on Kurosawa's use of Western literary sources; they"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Standard English Conventions/Form, Structure, and Sense/Hard",
+      "source_question_number": 7,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. The convention being tested is subject-modifier placement. This choice makes the noun phrase \"many critics\" the subject of the sentence and places it immediately after the modifying phrase \"in assessing…Kurosawa.\" In doing so, this choice clearly establishes that it is the critics-and not another noun in the sentence-who assess Kurosawa's films.\n\nChoice B is incorrect because it results in a dangling modifier. The placement of the noun phrase \"Kurosawa's… sources\" immediately after the modifying phrase illogically suggests that his use of Western literary sources is what assesses Kurosawa's films. Choice C is incorrect because it results in a dangling modifier. The placement of the function word \"there\" immediately after the modifying phrase illogically suggests that \"there\" is what assesses Kurosawa's films. Choice D is incorrect because it results in a dangling modifier. The placement of the noun phrase \"the focus…critics\" immediately after the modifying phrase illogically suggests that the critics' focus is what assesses Kurosawa's films.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_002449",
+      "section": "reading_writing",
+      "question_number": 8,
+      "passage": "When they were first discovered in Australia in 1798, duck-billed, beaver-tailed platypuses so defied categorization that one scientist assigned them the name [i]Ornithorhynchus paradoxus[/i]: \"paradoxical bird-snout.\" The animal, which lays eggs but also nurses ______ young with milk, has since been classified as belonging to the monotremes group.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "they're"
+        },
+        {
+          "label": "B",
+          "text": "their"
+        },
+        {
+          "label": "C",
+          "text": "its"
+        },
+        {
+          "label": "D",
+          "text": "it's"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Standard English Conventions/Form, Structure, and Sense/Hard",
+      "source_question_number": 8,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer. The singular possessive pronoun \"its\" agrees with the singular antecedent \"the animal\" and indicates that the \"young\" belong to it.\n\nChoice A is incorrect. This choice creates a pronoun-antecedent agreement error. \"They're\" is a contraction of \"they are,\" a plural pronoun and verb, but the antecedent \"the animal\" is singular. Also, we don't need the extra verb \"are\"-we already have a main verb in this clause, so adding \"are\" would be confusing and ungrammatical. Choice B is incorrect. This choice creates a pronoun-antecedent agreement error. \"Their\" is a plural pronoun, but the subject of the sentence is \"the animal,\" a singular noun. Choice D is incorrect. This choice creates a confusing\nand ungrammatical sentence. \"It's\" is a contraction for \"it is.\" We already have the verb \"nurses\" in this clause, so we shouldn't add the verb \"is.\"",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_002450",
+      "section": "reading_writing",
+      "question_number": 9,
+      "passage": "Known as Earth's \"living skin,\" biocrusts are thin layers of soil held together by surface-dwelling microorganisms such as fungi, lichens, and cyanobacteria. Fortifying soil in arid ecosystems against erosion, ______",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a recent study's estimate is that these crusts reduce global dust emissions by 60 percent each year."
+        },
+        {
+          "label": "B",
+          "text": "an estimated 60 percent reduction in global dust emissions each year is due to these crusts, according to a recent study."
+        },
+        {
+          "label": "C",
+          "text": "these crusts reduce global dust emissions by an estimated 60 percent each year, according to a recent study."
+        },
+        {
+          "label": "D",
+          "text": "a recent study has estimated that these crusts reduce global dust emissions by 60 percent each year."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Standard English Conventions/Form, Structure, and Sense/Hard",
+      "source_question_number": 9,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer. The subject of the modifier \"fortifying soil in arid ecosystems against erosion\" is \"biocrusts.\" Subject-modifier placement requires a modifier and its subject to be next to each other, so \"biocrusts\" or some variant meaning \"biocrusts\" (in this case, \"these crusts\") must begin the missing clause.\n\nChoice A is incorrect. Modifiers and their subjects must go next to each other. The subject of the modifier \"fortifying soil in arid ecosystems against erosion\" is \"biocrusts,\" not \"a recent study's estimate.\" Choice B is incorrect. Modifiers and their subjects must go next to each other. The subject of the modifier \"fortifying soil in arid ecosystems against erosion\" is \"biocrusts,\" not \"an estimated 60 percent reduction.\" Choice D is incorrect. Modifiers and their subjects must go next to each other. The subject of the modifier \"fortifying soil in arid ecosystems against erosion\" is \"biocrusts,\" not \"a recent study.\"",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_002451",
+      "section": "reading_writing",
+      "question_number": 10,
+      "passage": "Ten of William Shakespeare's plays are classified as histories. Although each one of these plays, which include [i]Henry V[/i] and [i]Richard III[/i], ______ on a single historical figure (specifically, an English king), some, such as [i]Henry VI Part One[/i] and [i]Henry VI Part Two[/i], feature different episodes from the same monarch's life.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "focuses"
+        },
+        {
+          "label": "B",
+          "text": "focus"
+        },
+        {
+          "label": "C",
+          "text": "are focused"
+        },
+        {
+          "label": "D",
+          "text": "were focused"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Standard English Conventions/Form, Structure, and Sense/Hard",
+      "source_question_number": 10,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. The convention being tested is subject-verb agreement. The singular verb \"focuses\" agrees in number with the singular subject \"each one of these plays,\" which refers to each play individually.\n\nChoice B is incorrect because the plural verb \"focus\" doesn't agree in number with the singular subject \"each one of these plays.\" Choice C is incorrect because the plural verb \"are focused\" doesn't agree in number with the singular subject \"each one of these plays.\" Choice D is incorrect because the plural verb \"were focused\" doesn't agree in number with the singular subject \"each one of these plays.\"",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_002452",
+      "section": "reading_writing",
+      "question_number": 11,
+      "passage": "In the canon of North African literature, Moroccan author Driss Chraïbi's 1954 novel [i]The Simple Past (Le Passé simple)[/i] looms large. A coming-of-age story, a social meditation, and a sober gaze into the dark maw of French colonialism, ______ interrogates systemic power with memorable intensity.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Morocco gained its independence two years before the publication of Chraïbi's debut novel, which"
+        },
+        {
+          "label": "B",
+          "text": "Chraïbi's debut novel, published two years before Morocco gained its independence,"
+        },
+        {
+          "label": "C",
+          "text": "Chraïbi wrote a debut novel that, published two years before Morocco gained its independence,"
+        },
+        {
+          "label": "D",
+          "text": "published two years before Morocco gained its independence, Chraïbi wrote a debut novel that"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Standard English Conventions/Form, Structure, and Sense/Hard",
+      "source_question_number": 11,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer. Subject-modifier placement requires a modifier and its subject to be next to each other. The subject of the modifier \"a coming-of-age story…colonialism\" is Chraïbi's novel The Simple Past, so the subject \"Chraïbi's debut novel\" fits perfectly after this introductory modifying phrase.\n\nChoice A is incorrect. Modifiers and their subjects must go next to each other. The introductory modifier \"a coming-of-age story…colonialism\" is describing Chraïbi's novel, not Morocco. However, this choice places Morocco directly next to that modifier. Choice C is incorrect. Modifiers and their subjects must go next to each other. The introductory modifier \"a coming-of-age story…colonialism\" all describes Chraïbi's novel, not Chraïbi himself. However, this choice places Chraïbi directly next to that modifier. Choice D is incorrect. Modifiers and their subjects must go next to each other. The modifier \"a coming-of-age story…\" is describing Chraïbi's novel, so that needs to be the subject immediately after the modifier. This choice adds another modifier that describes Chraïbi's novel, but then puts \"Chraïbi\" himself-not the novel-right after that modifier, which doesn't make sense. Chraïbi wasn't \"published two years before\" Moroccan independence; his novel [i]The Simple Past was[/i].",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_002453",
+      "section": "reading_writing",
+      "question_number": 12,
+      "passage": "Planetary scientist Briony Horgan and her colleagues have determined that as much as 25 percent of the sand on Mars is composed of impact spherules. These spherical bits of glass form when asteroids collide with the planet, ejecting bits of molten rock into the atmosphere that, after cooling and solidifying into glass, ______ back onto Mars's surface.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "to rain"
+        },
+        {
+          "label": "B",
+          "text": "raining"
+        },
+        {
+          "label": "C",
+          "text": "having rained"
+        },
+        {
+          "label": "D",
+          "text": "rain"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Standard English Conventions/Form, Structure, and Sense/Hard",
+      "source_question_number": 12,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. \"That…[rain] back onto Mars's surface\" is a relative clause that describes the \"bits of molten rock.\" Forming the clause requires a conjugated, finite verb, and this is the only choice that provides that.\n\nChoice A is incorrect. \"To rain\" is an infinitive and can't serve as the main verb of a clause. A conjugated verb is needed here to form the main verb of the relative clause \"that…[rain] back onto Mars's surface,\" which describes the \"bits of molten rock.\" Choice B is incorrect. \"Raining\" is a present participle and, on its own, can't serve as the main verb of a clause. A conjugated verb is needed here to form the main verb of the relative clause \"that…[rain] back onto Mars's surface,\" which describes the \"bits of molten rock.\" Choice C is incorrect. \"Having rained\" is a\nperfect participle and can't serve as the main verb of a clause. A conjugated verb is needed here to form the main verb of the relative clause \"that…[rain] back onto Mars's surface,\" which describes the \"bits of molten rock.\"",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_002454",
+      "section": "reading_writing",
+      "question_number": 13,
+      "passage": "Compared to that of alumina glass, ______ silica glass atoms are so far apart that they are unable to re-form bonds after being separated.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "silica glass is at a significant disadvantage due to its more dispersed atomic arrangement:"
+        },
+        {
+          "label": "B",
+          "text": "silica glass has a more dispersed atomic arrangement, resulting in a significant disadvantage:"
+        },
+        {
+          "label": "C",
+          "text": "a significant disadvantage of silica glass is that its atomic arrangement is more dispersed:"
+        },
+        {
+          "label": "D",
+          "text": "silica glass's atomic arrangement is more dispersed, resulting in a significant disadvantage:"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Standard English Conventions/Form, Structure, and Sense/Hard",
+      "source_question_number": 13,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. The convention being tested is subject-modifier placement. This choice makes \"silica glass's atomic arrangement\" the subject of the sentence and places it immediately after the modifying phrase \"compared to that of alumina glass.\" In doing so, this choice clearly establishes that silica glass's atomic arrangement-and not another noun in the sentence-is being compared to the atomic arrangement (\"that\") of alumina glass.\n\nChoice A is incorrect because it results in a dangling modifier. The placement of the noun phrase \"silica glass\" immediately after the modifying phrase illogically suggests that silica glass itself (rather than its atomic arrangement) is being compared to alumina glass's atomic arrangement. Choice B is incorrect because it results in a dangling modifier. The placement of the noun phrase \"silica glass\" immediately after the modifying phrase illogically suggests that silica glass itself (rather than its atomic arrangement) is being compared to alumina glass's atomic arrangement. Choice C is incorrect because it results in a dangling modifier. The placement of the noun phrase \"a significant disadvantage” immediately after the modifying phrase illogically suggests that \"a significant disadvantage\" is being compared to alumina glass's atomic arrangement.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_002455",
+      "section": "reading_writing",
+      "question_number": 14,
+      "passage": "In 2016, engineer Vanessa Galvez oversaw the installation of 164 bioswales, vegetated channels designed to absorb and divert stormwater, along the streets of Queens, New York. By reducing the runoff flowing into city sewers, ______",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the mitigation of both street flooding and the resulting pollution of nearby waterways has been achieved by bioswales."
+        },
+        {
+          "label": "B",
+          "text": "the bioswales have mitigated both street flooding and the resulting pollution of nearby waterways."
+        },
+        {
+          "label": "C",
+          "text": "the bioswales' mitigation of both street flooding and the resulting pollution of nearby waterways has been achieved."
+        },
+        {
+          "label": "D",
+          "text": "both street flooding and the resulting pollution of nearby waterways have been mitigated by bioswales."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Standard English Conventions/Form, Structure, and Sense/Hard",
+      "source_question_number": 14,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer. The convention being tested is subject-modifier placement. This choice makes the noun phrase \"the bioswales\" the subject of the sentence and places it immediately after the modifying phrase \"By reducing…sewers.\" In doing so, this choice clearly establishes that the bioswales-and not another noun in the sentence-are reducing runoff flowing into city sewers.\n\nChoice A is incorrect because it results in a dangling modifier. The placement of the noun phrase \"the mitigation…waterways\" immediately after the modifying phrase results in unclear modification. The resulting sentence makes it hard to determine what is responsible for \"reducing the runoff\": the bioswales or some other noun in the sentence. Choice C is incorrect because it results in a dangling modifier. The placement of the noun phrase \"the bioswales' mitigation…waterways\" immediately after the modifying phrase results in unclear modification. The resulting sentence makes it hard to determine what is responsible for \"reducing the runoff\": the bioswales or some other noun in the sentence. Choice D is incorrect because it results in a dangling modifier. The placement of the noun phrase \"street flooding and the resulting pollution\" immediately after the modifying phrase illogically suggests that the \"flooding and pollution\" are reducing runoff flowing into city sewers.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_002456",
+      "section": "reading_writing",
+      "question_number": 15,
+      "passage": "Author Madeline L'Engle, ______ to create a suspenseful tone that draws the reader in, begins her novel [i]A Wrinkle in Time[/i] with descriptions of \"wraithlike shadows\" and \"the frenzied lashing of the wind.\"",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "looked"
+        },
+        {
+          "label": "B",
+          "text": "looks"
+        },
+        {
+          "label": "C",
+          "text": "is looking"
+        },
+        {
+          "label": "D",
+          "text": "looking"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Standard English Conventions/Form, Structure, and Sense/Hard",
+      "source_question_number": 15,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. The convention being tested is the use of verb forms within a sentence. The nonfinite present participle verb \"looking\" is correctly used to form a subordinate clause that describes the intent behind how L'Engle begins her novel.\n\nChoice A is incorrect because the finite past tense verb \"looked\" can't be used in this way to form a subordinate clause. Choice B is incorrect because the finite present tense verb \"looks\" can't be used in this way to form a subordinate clause. Choice C is incorrect because the finite present progressive tense verb \"is looking\" can't be used in this way to form a subordinate clause.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_002457",
+      "section": "reading_writing",
+      "question_number": 16,
+      "passage": "A second-generation Japanese American, Wataru Misaka ______ in World War II (1941-45) and won two amateur national basketball championships at the University of Utah when he joined the New York Knicks for the 1947-48 season, becoming the first non-white basketball player in the US's top professional league.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "already served"
+        },
+        {
+          "label": "B",
+          "text": "was already serving"
+        },
+        {
+          "label": "C",
+          "text": "already serves"
+        },
+        {
+          "label": "D",
+          "text": "had already served"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Standard English Conventions/Form, Structure, and Sense/Hard",
+      "source_question_number": 16,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. Misaka served in World War II before he joined the New York Knicks in 1947. To show that a past occurrence took place before another past occurrence, we need to use \"had\" + the past tense form of the verb. This is called the past perfect tense.\n\nChoice A is incorrect. Misaka served in World War II before he joined the Knicks. Both events are in the past, but his service in World War II happened earlier, so we need a verb that makes it clear that his service (and the two national championships) had ended by the time he joined the Knicks. Choice B is incorrect. \"Was already serving\" forms the continuous past tense, which we use when we're showing a past action that was ongoing. Misaka served in World War II before he joined the Knicks. Both events are in the past, but they're not happening at the same time, so we shouldn't use the continuous past tense here. Choice C is incorrect. Misaka served in World War II in the past, so we shouldn't use the present tense \"serves.\"",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_002458",
+      "section": "reading_writing",
+      "question_number": 17,
+      "passage": "Bengali author Toru Dutt's [i]A Sheaf Gleaned in French Fields[/i] (1876), a volume of English translations of French poems, ______ scholars' understanding of the transnational and multilingual contexts in which Dutt lived and worked.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "has enhanced"
+        },
+        {
+          "label": "B",
+          "text": "are enhancing"
+        },
+        {
+          "label": "C",
+          "text": "have enhanced"
+        },
+        {
+          "label": "D",
+          "text": "enhance"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Standard English Conventions/Form, Structure, and Sense/Hard",
+      "source_question_number": 17,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. The convention being tested is subject-verb agreement. The singular verb \"has enhanced\" agrees in number with the singular subject \"[i]A Sheaf Gleaned in French Fields[/i],\" which is the title of a book of poems.\n\nChoice B is incorrect because the plural verb \"are enhancing\" doesn't agree in number with the singular subject \"[i]A Sheaf Gleaned in French Fields[/i].\" Choice C is incorrect because the plural verb \"have enhanced\" doesn't agree in number with the singular subject \"[i]A Sheaf Gleaned in French Fields[/i].\" Choice D is incorrect because the plural verb \"enhance\" doesn't agree in number with the singular subject \"[i]A Sheaf Gleaned in French Fields[/i].\"",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_002459",
+      "section": "reading_writing",
+      "question_number": 18,
+      "passage": "In 1994, almost 200 years after the death of Wang Zhenyi, the International Astronomical ______ the contributions of the barrier-breaking 18th-century astronomer and author of \"Dispute of the Procession of the Equinoxes,\" naming a crater on Venus after her.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Union would finally acknowledge"
+        },
+        {
+          "label": "B",
+          "text": "Union to finally acknowledge"
+        },
+        {
+          "label": "C",
+          "text": "Union, having finally acknowledged"
+        },
+        {
+          "label": "D",
+          "text": "Union, finally acknowledging"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Standard English Conventions/Form, Structure, and Sense/Hard",
+      "source_question_number": 18,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. It's the only choice that offers a form of the verb \"acknowledge\" that can go with the subject \"International Astronomical Union\" to make a complete sentence. This might seem like an odd use of \"would,\" but when speaking from a point of view in the past, we can actually use \"would\" to express something that happened later. That's the case here: 200 years after Wang Zhenyi's death, the IAU would finally acknowledge her contributions.\n\nChoice B is incorrect. This choice creates a sentence fragment. There's no main verb elsewhere in the sentence, so we need a form of the verb \"acknowledge\" that can go with the subject \"the International Astronomical Union\" and serve as that main verb. \"To acknowledge\" can't do that. Choice C is incorrect. This choice creates a sentence fragment. There's no main verb elsewhere in the sentence, so we need a form of the verb \"acknowledge\" that can go with the subject \"the International Astronomical Union\" and serve as that main verb. \"Having acknowledged\" can't do that. Choice D is incorrect. This choice creates a sentence fragment. There's no main verb elsewhere in the sentence, so we need a form of the verb \"acknowledge\" that can go with the subject \"the International Astronomical Union\" and serve as that main verb. The \"-ing\" form can't do that.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_002460",
+      "section": "reading_writing",
+      "question_number": 19,
+      "passage": "In 2015, a team led by materials scientists Anirudha Sumant and Diana Berman succeeded in reducing the coefficient of friction (COF) between two surfaces to the lowest possible level—superlubricity. A nearly frictionless (and, as its name suggests, extremely slippery) state, ______",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "when their COF drops below 0.01, two surfaces reach superlubricity."
+        },
+        {
+          "label": "B",
+          "text": "two surfaces, when their COF drops below 0.01, reach superlubricity."
+        },
+        {
+          "label": "C",
+          "text": "reaching superlubricity occurs when two surfaces' COF drops below 0.01."
+        },
+        {
+          "label": "D",
+          "text": "superlubricity is reached when two surfaces' COF drops below 0.01."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Standard English Conventions/Form, Structure, and Sense/Hard",
+      "source_question_number": 19,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. The subject of the modifier \"a nearly frictionless state\" is \"superlubricity.\" Subject-modifier placement requires a modifier and its subject to be next to one another, so \"superlubricity\" must be the first word in the missing clause.\n\nChoice A is incorrect. This choice creates a subject-modifier placement error. The subject of the modifier \"a nearly frictionless state\" is \"superlubricity.\" Subject-modifier placement requires a modifier and its subject to be next to one another, so \"superlubricity\" must be the first word in the missing clause. Choice B is incorrect. This choice creates a subject-modifier placement error. The subject of the modifier \"a nearly frictionless state\" is \"superlubricity.\" Subject-modifier placement requires a modifier and its subject to be next to one another, so \"superlubricity\" must be the first word in the missing clause. Choice C is incorrect. This choice creates a subject-modifier placement error. The subject of the modifier \"a nearly frictionless state\" is \"superlubricity.\" Subject-modifier placement requires a modifier and its subject to be next to one another, so \"superlubricity\" must be the first word in the missing clause.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_002461",
+      "section": "reading_writing",
+      "question_number": 20,
+      "passage": "Researchers studying the \"terra-cotta army,\" the thousands of life-size statues of warriors found interred near the tomb of Emperor Qin Shi Huang of China, were shocked to realize that the shape of each statue's ears, like the shape of each person's ears, ______ unique.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "are"
+        },
+        {
+          "label": "B",
+          "text": "is"
+        },
+        {
+          "label": "C",
+          "text": "were"
+        },
+        {
+          "label": "D",
+          "text": "have been"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Standard English Conventions/Form, Structure, and Sense/Hard",
+      "source_question_number": 20,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer. The convention being tested is subject-verb agreement. because the singular verb \"is\" agrees in number with the singular subject \"the shape.\"\n\nChoice A is incorrect because the plural verb \"are\" doesn't agree in number with the singular subject \"the shape.\" Choice C is incorrect because the plural verb \"were\" doesn't agree in number with the singular subject \"the shape.\" Choice D is incorrect because the plural verb \"have been\" doesn't agree in number with the singular subject \"the shape.\"",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_002462",
+      "section": "reading_writing",
+      "question_number": 21,
+      "passage": "In 1453, English King Henry VI became unfit to rule after falling gravely ill. As a result, Parliament appointed Richard, Third Duke of York, who had a strong claim to the English throne, to rule as Lord Protector. Upon recovering two years later, ______ forcing an angered Richard from the royal court and precipitating a series of battles later known as the Wars of the Roses.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Henry resumed his reign,"
+        },
+        {
+          "label": "B",
+          "text": "the reign of Henry resumed,"
+        },
+        {
+          "label": "C",
+          "text": "Henry's reign resumed,"
+        },
+        {
+          "label": "D",
+          "text": "it was Henry who resumed his reign,"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Standard English Conventions/Form, Structure, and Sense/Hard",
+      "source_question_number": 21,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. The convention being tested is subject-modifier placement. This choice ensures that the introductory phrase \"upon recovering two years later\" appears immediately before the noun it modifies (\"Henry\"), clearly establishing that Henry recovered two years later.\n\nChoice B is incorrect because it results in a dangling modifier. The placement of the noun phrase \"the reign of Henry\" immediately after the introductory phrase illogically suggests that the reign of Henry recovered two years later. Choice C is incorrect because it results in a dangling modifier. The placement of the noun phrase \"Henry's reign\" immediately after the introductory phrase illogically suggests that Henry's reign recovered two years later. Choice D is incorrect because it results in a dangling modifier. The placement of the function word \"it\" immediately after the introductory phrase illogically suggests that \"it\" recovered two years later.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_002463",
+      "section": "reading_writing",
+      "question_number": 22,
+      "passage": "A model created by biologist Luis Valente predicts that the rate of speciation—the rate at which new species form—on an isolated island located approximately 5,000 kilometers from the nearest mainland ______ triple the rate of speciation on an island only 500 kilometers from the mainland.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "being"
+        },
+        {
+          "label": "B",
+          "text": "to be"
+        },
+        {
+          "label": "C",
+          "text": "to have been"
+        },
+        {
+          "label": "D",
+          "text": "will be"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Standard English Conventions/Form, Structure, and Sense/Hard",
+      "source_question_number": 22,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. The convention being tested is finite and nonfinite verb forms within a sentence. Relative clauses, such as the one beginning with \"that,\" require a finite verb, a verb that can function as the main verb of a clause. This choice correctly supplies the clause with the finite future tense verb \"will be.\"\n\nChoice A is incorrect because the nonfinite participle \"being\" doesn't supply the clause with a finite verb. Choice B is incorrect because the nonfinite to-infinitive \"to be\" doesn't supply the clause with a finite verb. Choice C is incorrect because the nonfinite to-infinitive \"to have been\" doesn't supply the clause with a finite verb.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    }
+  ]
+}

@@ -1,0 +1,549 @@
+{
+  "schemaVersion": "sat-canonical-question-collection-v1",
+  "contentId": "collection-bank-textual-evidence-strengthen-medium",
+  "title": "Textual Evidence (strengthen/weaken) · Medium",
+  "section": "reading_writing",
+  "questionCount": 12,
+  "questions": [
+    {
+      "question_id": "bank_rw_002268",
+      "section": "reading_writing",
+      "question_number": 1,
+      "passage": "Although many transposons, DNA sequences that move within an organism's genome through shuffling or duplication, have become corrupted and inactive over time, those from the long interspersed nuclear elements (LINE) family appear to remain active in the genomes of some species. In humans, they are functionally important within the hippocampus, a brain structure that supports complex cognitive processes. When the results of molecular analysis of two species of octopus—an animal known for its intelligence—were announced in 2022, the confirmation of a LINE transposon in[i] Octopus vulgaris [/i]and [i]Octopus bimaculoides[/i] genomes prompted researchers to hypothesize that that transposon family is tied to a species' capacity for advanced cognition.",
+      "prompt": "Which finding, if true, would most directly support the researchers' hypothesis?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The LINE transposon in [i]O. vulgaris[/i] and [i]O. bimaculoides [/i]genomes is active in an octopus brain structure that functions similarly to the human hippocampus."
+        },
+        {
+          "label": "B",
+          "text": "The human genome contains multiple transposons from the LINE family that are all primarily active in the hippocampus."
+        },
+        {
+          "label": "C",
+          "text": "A consistent number of copies of LINE transposons is present across the genomes of most octopus species, with few known corruptions."
+        },
+        {
+          "label": "D",
+          "text": "[i]O. vulgaris[/i] and [i]O. bimaculoides[/i] have smaller brains than humans do relative to body size, but their genomes contain sequences from a wider variety of transposon families."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Medium",
+      "source_question_number": 1,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. The text says that LINE transposons are important in the human hippocampus, which supports complex cognition. If the LINE transposon found in octopuses is active in a similar part of their brain, that would suggest that LINE transposons support complex cognition in octopuses too, which in turn supports the hypothesis that LINE transposons are linked to advanced cognition in general.\n\nChoice B is incorrect. This choice doesn't support the hypothesis. It doesn't include anything about how LINE transposons function in species other than humans. Choice C is incorrect. This choice doesn't support the hypothesis. It doesn't include anything about how the LINE transposon in octopuses might support advanced cognition. Choice D is incorrect. This choice doesn't support the hypothesis. It doesn't include anything about how the LINE transposon in octopuses might support advanced cognition.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002269",
+      "section": "reading_writing",
+      "question_number": 2,
+      "passage": "A student is examining a long, challenging poem that was initially published in a quarterly journal without explanatory notes, then later republished in a stand-alone volume containing only that poem and accompanying explanatory notes written by the poet. The student asserts that the explanatory notes were included in the republication primarily as a marketing device to help sell the stand-alone volume.",
+      "prompt": "Which statement, if true, would most directly support the student's claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The text of the poem as published in the quarterly journal is not identical to the text of the poem published in the stand-alone volume."
+        },
+        {
+          "label": "B",
+          "text": "Many critics believe that the poet's explanatory notes remove certain ambiguities of the poem and make it less interesting as a result."
+        },
+        {
+          "label": "C",
+          "text": "The publishers of the stand-alone volume requested the explanatory notes from the poet in order to make the book attractive to readers who already had a copy of the poem in a journal issue."
+        },
+        {
+          "label": "D",
+          "text": "Correspondence between the poet and the publisher reveals that the poet's explanatory notes went through several drafts."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Medium",
+      "source_question_number": 2,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer because it would most directly support the student's claim about the motivation for including explanatory notes with the stand-alone volume of the poem. The text explains that the poem had previously been published without the notes in a quarterly journal. It stands to reason that readers who had purchased the journal issue containing the poem would be unlikely to purchase an unchanged version of the poem in a stand-alone volume. However, the inclusion of notes in that volume would encourage the purchase of a stand-alone volume, since the later text would differ from the original by including the author's own explanation of the poem. Therefore, if it were true that the publishers of the stand-alone volume had requested the notes to make the book attractive to readers who already had a copy of the journal issue, this fact would support the student's claim that the notes were included primarily as a marketing device.\n\nChoice A is incorrect because the student's claim is about the motivation for including the explanatory notes in the stand-alone volume, not about changes that might have been made to the poem itself for publication in that volume; moreover, the text never suggests that such changes were made. Choice B is incorrect because the student's claim is about why the explanatory notes were included in the stand-alone volume, not about how the notes affected readers' and critics' subsequent experience of the poem. Choice D is incorrect because the fact that the poet drafted multiple versions of the explanatory notes doesn't directly address the issue of whether the notes were intended as a marketing device, as the student claims; the correspondence would support this claim only if it showed that the poet had revised the notes specifically to make them useful to the marketing of the stand-alone volume.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002270",
+      "section": "reading_writing",
+      "question_number": 3,
+      "passage": "Sandra Cisneros's 1984 novella The House on Mango Street made a lasting impact on US literature. Its depiction of Mexican American culture inspired later authors to examine their own heritage within their fictional works. Also influential was the book's portrayal of the main character, Esperanza, during a pivotal year of her youth. [u]This insightful depiction of a preteen girl encouraged authors who, like Cisneros herself, are Latina to use fictional works to examine experiences from their own youth.[/u]",
+      "prompt": "Which statement, if true, would most strongly support the claim in the underlined sentence?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "In interviews, a number of Latina authors say that [i]The House on Mango Street [/i]inspired them to write about their own adolescence in their novels."
+        },
+        {
+          "label": "B",
+          "text": "In published writings, several prominent authors who are not Latina say that reading [i]The House on Mango Street[/i] influenced their approach to writing fiction."
+        },
+        {
+          "label": "C",
+          "text": "[i]The House on Mango Street[/i] has sold over six million copies and is one of the most commonly read books among high school and university students in the US."
+        },
+        {
+          "label": "D",
+          "text": "Since 1984, new novels about young Latina characters by Latina authors have often been compared to [i]The House on Mango Street[/i]."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Medium",
+      "source_question_number": 3,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because it presents a finding that, if true, would most strongly support the claim in the underlined sentence. The text begins by explaining that the portrayal of Mexican American culture in Sandra Cisneros's The House on Mango Street inspired later authors to explore their own heritage. Noting that Cisneros's novella was also influential for its depiction of a formative year in a female character's youth, the text then claims that this depiction inspired other Latina authors to use fiction to explore their own experiences of youth. Since this claim addresses how Cisneros encouraged Latina authors specifically to portray their youthful experiences, it would be directly supported by such authors stating that her novella influenced them to write about their own adolescence, or the transitional period between childhood and adulthood.\n\nChoice B is incorrect. The text states that with its portrayal of Mexican American culture, The House on Mango Street inspired later authors to explore their own heritage, and since this statement isn't limited to only Latina authors, it can be inferred that authors who aren't Latina were also likely influenced by the novella. But because the claim in the underlined sentence concerns the novella's influence on Latina authors specifically, the finding that the book also influenced authors who weren't Latina would fail to provide support for the claim. Choice C is incorrect because the finding that The House on Mango Street has sold millions of copies and is widely read among students in the US doesn't relate directly to the text's claim that the novella has influenced Latina authors specifically. Choice D is incorrect. While comparisons of new novels about young Latina characters by Latina authors to Cisneros's The House on Mango Street would likely be founded on similarities between those novels and Cisneros's novella, such similarities wouldn't necessarily be evidence of the novella's influence; such similarities might arise if Cisneros and younger Latina authors alike depicted certain basic cultural and historical features of their communities. Testimony from younger Latina authors about how The House on Mango Street had inspired them would be far more persuasive evidence of the novella's influence.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002271",
+      "section": "reading_writing",
+      "question_number": 4,
+      "passage": "Rivers rich in sediment appear yellow, while increases in red algae make rivers appear red. To track things like the sediment or algae content of large US rivers, John R. Gardner and colleagues used satellite data to determine the dominant visible wavelengths of light measured for various segments of these rivers. The researchers classified wavelengths of 495 nanometers (nm) and below as red, wavelengths between 495 and 560 nm as blue, and wavelengths of 560 nm and above as yellow. The researchers concluded that for the Missouri River, segments flowing into lakes tend to carry more sediment than those flowing out of lakes.",
+      "prompt": "Which finding, if true, would most directly support the researchers' conclusion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The segments of the Missouri River that had higher levels of chlorophyll-a, which contributes to the green color of photosynthetic organisms, have dominant wavelengths of light between 490 and 560 nm."
+        },
+        {
+          "label": "B",
+          "text": "In lakes through which segments of the Missouri River pass, the dominant wavelength of light tended to be above 560 nm near the lakes' shores and below 560 nm in the lakes' centers."
+        },
+        {
+          "label": "C",
+          "text": "The majority of the segments of the Missouri River were found to have dominant wavelengths of light significantly higher than 560 nm."
+        },
+        {
+          "label": "D",
+          "text": "Segments of the Missouri River flowing into lakes typically had dominant wavelengths of light above 560 nm, while segments flowing out of lakes typically had dominant wavelengths below 560 nm."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Medium",
+      "source_question_number": 4,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer because it presents a finding that, if true, would support Gardner and colleagues' conclusion that segments of the Missouri River flowing into lakes tend to carry more sediment than do segments of the river flowing out of lakes. The text says that rivers appear yellow when they contain a lot of sediment and appear red when they contain a lot of algae. It goes on to explain that Gardner and colleagues measured the wavelengths of light for different segments of rivers in the United States and classified those wavelength measurements into colors: red for wavelengths of 495 nanometers and below, blue for wavelengths between 495 and 560 nanometers, and yellow for wavelengths of 560 nanometers and above. Combined with the earlier information about river colors, this suggests that rivers rich in sediment will have wavelengths of 560 nanometers and above (since such rivers appear yellow). If researchers found that Missouri River segments flowing into lakes tend to have wavelengths above 560 nanometers and segments flowing out of lakes tend to have wavelengths below 560 nanometers, this finding would support Gardner and colleagues' conclusion, since it would suggest that the river tends to carry more sediment when it flows into lakes than when it flows out of lakes.\n\nChoice A is incorrect because finding that sections of the Missouri River with high chlorophyll-a levels have wavelengths between 490 and 560 nanometers would be irrelevant to the researchers' conclusion that segments of the river flowing into lakes are richer in sediment than are segments of the river flowing out of lakes. This finding would not indicate anything about segments flowing into or out of lakes. Choice B is incorrect because finding that lakes through which the Missouri River passes have higher wavelengths near their shores than in the center would not support the researchers' conclusion that segments of the river flowing into lakes have more sediment than segments flowing out of lakes. This finding would suggest only that there is more sediment around the edges of lakes than in their centers, which does not have any direct bearing on the researchers' conclusion about river segments flowing into and out of lakes. Choice C is incorrect because finding that most segments of the Missouri River have wavelengths significantly higher than 560 nanometers would suggest that most segments of the river are high in sediment, not that segments flowing into lakes are higher in sediment than segments flowing out of lakes. Only a comparison of river segments flowing into lakes with segments flowing out of lakes can support the researchers' conclusion.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002272",
+      "section": "reading_writing",
+      "question_number": 5,
+      "passage": "Plants like potatoes, tomatoes, and soybeans are susceptible to bacterial wilt disease caused by the bacteria [i]Ralstonia solanacearum[/i]. A multinational team of scientists led by Zhong Wei studied whether other microbes in the soil might influence the degree to which plants are affected by the disease. The team sampled soil surrounding individual tomato plants over time and compared the results of plants that became diseased with those that remained healthy. They concluded that the presence of certain microbes in the soil might explain the difference between healthy and diseased plants.",
+      "prompt": "Which finding, if true, would most directly support the team's conclusion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The soil surrounding healthy plants contained significantly higher concentrations of microbes known to inhibit [i]Ralstonia solanacearum[/i] than the soil surrounding diseased plants did."
+        },
+        {
+          "label": "B",
+          "text": "The soil surrounding the plants contained high concentrations of [i]Ralstonia solanacearum[/i] regardless of whether the plants were affected by wilt disease."
+        },
+        {
+          "label": "C",
+          "text": "The soil surrounding healthy plants tended to have significantly higher moisture levels than the soil surrounding diseased plants did."
+        },
+        {
+          "label": "D",
+          "text": "By the end of the experiment, over half the plants had been affected by wilt disease regardless of differences in the types and concentrations of microbes in the surrounding soil."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Medium",
+      "source_question_number": 5,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. This choice provides evidence that directly links the presence of [i]R. solanacearum[/i]-inhibiting microbes in the soil to the health of tomato plants.\n\nChoice B is incorrect. This choice would weaken the team's conclusion. It suggests that the presence of the disease-causing bacteria had no effect on the health of the tomato plants. Choice C is incorrect. This choice doesn't support the team's conclusion. The conclusion is about microbes, not soil moisture. Choice D is incorrect. This choice would weaken the team's conclusion. It suggests that the presence of the bacteria-inhibiting microbe in soil had no effect on the health of the tomato plants.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002273",
+      "section": "reading_writing",
+      "question_number": 6,
+      "passage": "Although it's clear that Mars once had liquid water on its surface, astronomers have debated whether the evidence of ancient water reflects a prolonged phase of warm, wet conditions—the so-called wet and warm scenario—or a brief period of melting in an otherwise consistently frozen environment. Researchers Benjamin T. Cardenas and Michael P. Lamb recently added to this debate by using data from NASA and the Mars Orbiter Laser Altimeter to map the topography of what is now a large basin in Mars's northern hemisphere. Cardenas and Lamb concluded that the wet and warm scenario is likely correct.",
+      "prompt": "Which finding about the basin, if true, would most directly support Cardenas and Lamb's conclusion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Its dimensions and shape indicate that it is unlikely to have formed as the result of an asteroid or comet impact."
+        },
+        {
+          "label": "B",
+          "text": "It has features suggesting that it once held an ocean that underwent gradual sea-level changes over an extended time."
+        },
+        {
+          "label": "C",
+          "text": "Its physical characteristics are most consistent with it having formed as a result of a massive but short-lived influx of liquid water."
+        },
+        {
+          "label": "D",
+          "text": "It is surrounded by channels that could have been formed either by running water or by flowing lava."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Medium",
+      "source_question_number": 6,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer. This choice provides direct support for the researchers' conclusion. If the basin once held an ocean of liquid water for \"an extended time,\" that supports the \"wet and warm scenario\" on Mars, which involved a \"prolonged\" period of temperate conditions (and not just a \"brief period of melting\").\n\nChoice A is incorrect. This choice doesn't provide support for the researchers' conclusions. The dimensions of the basin have little bearing on whether or not it was filled with liquid water, and for how long, and that's the evidence that would support the \"wet and warm\" theory. Similarly, whether or not the basin was formed by an asteroid or a comet is irrelevant to the question of whether or not there was water in the basin for a long period. Choice C is incorrect. This choice does not provide support for the researchers' conclusions, but rather the opposite. A \"massive but short lived influx\" of liquid water is not the same as a \"prolonged phase of warm, wet conditions.\" It more reflects the opposing theory, a \"brief period of melting.\" Choice D is incorrect. This choice does not support Cardenas and Lamb's conclusion. Both theories about liquid water on Mars (\"wet and warm\" and \"brief period of melting\") involve flowing water, but lava isn't mentioned at all in the text. Therefore, this choice doesn't provide exclusive support for either theory.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002274",
+      "section": "reading_writing",
+      "question_number": 7,
+      "passage": "Many insects are iridescent,or have colors that appear to shimmer and change when seen from different angles. Scientists have assumed that this feature helps to attract mates but could also attract predators. But biologist Karin Kjernsmo and a team had the idea that the shifting appearance of colors might actually make it harder for other animals to see iridescent insects. To test this idea, the team put beetle forewings on leaves along a forest path and then asked human participants to look for them. Some of the wings were naturally iridescent. Others were painted with a nonchanging color from the iridescent spectrum, such as purple or blue.",
+      "prompt": "Which finding, if true, would most directly support the team's idea?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "On average, participants found most of the purple wings and blue wings and far fewer of the iridescent wings."
+        },
+        {
+          "label": "B",
+          "text": "On average, participants found the iridescent wings faster than they found the purple wings or blue wings."
+        },
+        {
+          "label": "C",
+          "text": "Some participants reported that the purple wings were easier to see than the blue wings."
+        },
+        {
+          "label": "D",
+          "text": "Some participants successfully found all of the wings on the leaves."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Medium",
+      "source_question_number": 7,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because it presents the finding that, if true, would most strongly support the research team's idea about the effect of iridescence, or colors that appear to shimmer and change. The text indicates that although some scientists have assumed that iridescence could attract predators, Kjernsmo's team wondered if iridescent insects might be harder for other animals to see. The team tested this idea by asking human participants to look for both iridescent beetle wings and beetle wings that weren't iridescent but that had been painted colors such as purple or blue. If participants located most of the purple or blue wings but far fewer of the iridescent wings, that finding would support the team's idea since it would suggest that noniridescent wings are easier to see than iridescent wings.\n\nChoice B is incorrect because if participants located the iridescent wings more quickly than the purple or blue wings, that finding would weaken the team's idea, not support the team's idea, since it would suggest that the iridescent wings were easier to see than the noniridescent wings. Choice C is incorrect because finding that some participants believed that the purple wings were easier to see than the blue wings would be irrelevant to the team's idea. The purple and blue wings were both noniridescent, so any difference in how easy those two colors were to see would have nothing to do with the idea that iridescent insects are harder to see than noniridescent insects. Choice D is incorrect because if some participants found all the wings, that wouldn't support the team's idea that iridescent insects may be harder to see than noniridescent insects. If anything, this finding might weaken the team's idea since it could suggest that iridescence had no effect on how difficult the wings were to see. cent spectrum, such as purple or blue.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002275",
+      "section": "reading_writing",
+      "question_number": 8,
+      "passage": "Matthew D. Rocklage and team examined whether consumer ratings of movies can predict box office success. The team considered both numeric star ratings and written reviews in their research. To analyze the written reviews, the team measured the emotionality—the degree to which a written review expresses an emotional reaction—of user reviews on a movie rating website, assigning each review an emotionality score. After reviewing this research, a student argues that the emotionality of movie reviews is unrelated to a movie's success at the box office.",
+      "prompt": "Which finding, if true, would most directly weaken the student's conclusion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Movies that had the highest average emotionality scores received the lowest average star ratings on the movie rating website."
+        },
+        {
+          "label": "B",
+          "text": "The average emotionality score of a movie's reviews was a positive predictor of that movie's box office earnings."
+        },
+        {
+          "label": "C",
+          "text": "More than half of the movies that the team examined received an average star rating of 3 out of 5 stars."
+        },
+        {
+          "label": "D",
+          "text": "The movies that were most successful at the box office tended to have high average star ratings."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Medium",
+      "source_question_number": 8,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer. This choice weakens the student's conclusion by suggesting that the emotionality of movie reviews is related to box office success: the higher the emotionality score, the better the movie performs at the box office.\n\nChoice A is incorrect. While this choice does mention emotionality scores, it only connects them to star ratings, not to box office success. Choice C is incorrect. The fact that many movies received an average star rating doesn't tell us anything about the relationship between emotionality and box office success. Choice D is incorrect. While this choice suggests that star ratings can predict box office success, it doesn't address the issue of emotionality in written reviews, which is the focus of the student's conclusion.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002276",
+      "section": "reading_writing",
+      "question_number": 9,
+      "passage": "Jan Gimsa, Robert Sleigh, and Ulrike Gimsa have hypothesized that the sail-like structure running down the back of the dinosaur [i]Spinosaurus aegyptiacus[/i] improved the animal's success in underwater pursuits of prey species capable of making quick, evasive movements. To evaluate their hypothesis, a second team of researchers constructed two battery-powered mechanical models of [i]S. aegyptiacus[/i], one with a sail and one without, and subjected the models to a series of identical tests in a water-filled tank.",
+      "prompt": "Which finding from the model tests, if true, would most strongly support Gimsa and colleagues' hypothesis?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The model with a sail took significantly less time to complete a sharp turn while submerged than the model without a sail did."
+        },
+        {
+          "label": "B",
+          "text": "The model with a sail displaced significantly more water while submerged than the model without a sail did."
+        },
+        {
+          "label": "C",
+          "text": "The model with a sail had significantly less battery power remaining after completing the tests than the model without a sail did."
+        },
+        {
+          "label": "D",
+          "text": "The model with a sail took significantly longer to travel a specified distance while submerged than the model without a sail did."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Medium",
+      "source_question_number": 9,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. This finding would most strongly support the hypothesis. The hypothesis is that the sail improved the dinosaur's ability to chase quick, evasive prey. This finding suggests that the sail helped the dinosaur make sharp turns more quickly, which supports that hypothesis.\n\nChoice B is incorrect. This finding wouldn't necessarily support the hypothesis. The hypothesis is that the sail improved the dinosaur's ability to chase quick, evasive prey. It's unclear how the sail displacing more water would relate to that hypothesis-it doesn't seem to be relevant. Choice C is incorrect. This finding wouldn't necessarily support the hypothesis. The hypothesis is that the sail improved the dinosaur's ability to chase quick, evasive prey. It's unclear how the difference in battery power between the models would relate to that hypothesis-it doesn't seem to be relevant. Choice D is incorrect. This finding would actually weaken the hypothesis. The hypothesis is that the sail improved the dinosaur's ability to chase quick, evasive prey. This finding suggests that the sail slowed the dinosaur down-which would probably make it worse at catching quick, evasive prey.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002277",
+      "section": "reading_writing",
+      "question_number": 10,
+      "passage": "Born in 1891 to a Quechua-speaking family in the Andes Mountains of Peru, Martín Chambi is today considered to be one of the most renowned figures of Latin American photography. In a paper for an art history class, a student claims that Chambi's photographs have considerable ethnographic value—in his work, Chambi was able to capture diverse elements of Peruvian society, representing his subjects with both dignity and authenticity.",
+      "prompt": "Which finding, if true, would most directly support the student's claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Chambi took many commissioned portraits of wealthy Peruvians, but he also produced hundreds of images carefully documenting the peoples, sites, and customs of Indigenous communities of the Andes."
+        },
+        {
+          "label": "B",
+          "text": "Chambi's photographs demonstrate a high level of technical skill, as seen in his strategic use of illumination to create dramatic light and shadow contrasts."
+        },
+        {
+          "label": "C",
+          "text": "During his lifetime, Chambi was known and celebrated both within and outside his native Peru, as his work was published in places like Argentina, Spain, and Mexico."
+        },
+        {
+          "label": "D",
+          "text": "Some of the peoples and places Chambi photographed had long been popular subjects for Peruvian photographers."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Medium",
+      "source_question_number": 10,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because it presents a finding that, if true, would support the claim about Chambi's photographs. The text describes a student advancing the claim that Chambi's photographs \"have considerable ethnographic value\"-meaning that they are valuable as records of cultures-and that they \"capture diverse elements of Peruvian society\" in a respectful way. If it's true that Chambi carefully photographed people from a range of different communities in Peru as well as photographed the customs and sites of different communities, that would lend support to the claim that the photographs have ethnographic value as depictions of diverse elements of society in Peru.\n\nChoice B is incorrect because the student's claim is that Chambi's photographs have considerable ethnographic value because they depict diverse elements of Peruvian society; the student doesn't claim anything about the technical skill demonstrated in the photographs. Choice C is incorrect because neither Chambi's reputation nor the locations where his photographs may have been published would be relevant to the student's claim that his photographs are valuable as an ethnographic record of Peru's diverse society. Choice D is incorrect because the popularity among other photographers of the people and places that Chambi photographed would be irrelevant to the student's claim that Chambi's photographs are valuable as an ethnographic record of Peru's diverse society .",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002278",
+      "section": "reading_writing",
+      "question_number": 11,
+      "passage": "Although most songbirds build open, cupped nests, some species build domed nests with roofs that provide much more protection.[u] Many ecologists have assumed that domed nests would provide protection from weather conditions and thus would allow species that build them to have larger geographic ranges than species that build open nests do. [/u]To evaluate this assumption, a research team led by evolutionary biologist Iliana Medina analyzed data for over 3,000 species of songbirds.",
+      "prompt": "Which finding from Medina and her colleagues' study, if true, would most directly challenge the assumption in the underlined sentence?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Species that build open nests tend to have higher extinction rates than species that build domed nests."
+        },
+        {
+          "label": "B",
+          "text": "Species that build open nests tend to be smaller in size than species that build domed nests."
+        },
+        {
+          "label": "C",
+          "text": "Species that build open nests tend to use fewer materials to build their nests than species that build domed nests do."
+        },
+        {
+          "label": "D",
+          "text": "Species that build open nests tend to have larger ranges than species that build domed nests."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Medium",
+      "source_question_number": 11,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer because it presents a finding that, if true, would challenge the assumption that many ecologists have made about the connection between the building of domed nests and geographic range in songbirds. The text says that many ecologists have assumed that since domed nests provide protection from weather conditions, songbird species that build such nests should be able to have larger geographic ranges than songbird species that build open nests do. If Medina and her colleagues found that species that build open nests tend to have larger geographic ranges than species that build domed nests do, their finding would show the opposite of what the ecologists have assumed. It would therefore challenge the ecologists' assumption.\n\nChoice A is incorrect because nothing in the text suggests that there's a relationship between songbird species' extinction rates and their geographic ranges. The finding that species that build open nests tend to have higher extinction rates than species that build domed nests do would therefore have no clear bearing on the ecologists' assumption that domed nests allow species that build them to have larger geographic ranges than those of species that build open nests. Choice B is incorrect because nothing in the text suggests that there's a relationship between songbird species' sizes and their geographic ranges. The finding that species that build\nopen nests tend to be smaller in size than species that build domed nests are would therefore have no clear bearing on the ecologists' assumption that domed nests allow species that build them to have larger geographic ranges than those of species that build open nests. Choice C is incorrect because although the text indicates that many ecologists have assumed that there's a connection between how songbird species build their nests and the species' geographic ranges, the text says that this assumption is based on the shape of the nests-that is, whether the nests are domed or open-not the number of materials used. The finding that species that build open\nnests tend to use fewer materials to build their nests than species that build domed nests do would therefore have no clear bearing on the ecologists' assumption that domed nests allow species that build them to have larger geographic ranges than those of species that build open nests.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002279",
+      "section": "reading_writing",
+      "question_number": 12,
+      "passage": "In the 1970s, a roughly 60,000-year-old piece of hyena bone marked with nine notches was discovered at a site in western France once inhabited by Neanderthals. Although many believe that only modern humans developed systems for notating numbers, one archaeologist asserts that this artifact may be a sign that Neanderthals also recorded numerical information. The notches on the bone are unevenly spaced but approximately parallel, and microscopic analysis reveals that they were made with a single stone tool; according to the archaeologist, [u]this suggests that the notches were all made at one time by one individual as a means of counting something.[/u]",
+      "prompt": "Which finding, if true, would most directly weaken the underlined claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Parallel lines are a common feature in modern humans' early systems for recording numerical information."
+        },
+        {
+          "label": "B",
+          "text": "More than nine approximately parallel notches made with a different stone tool are present on another artifact found at a site in western France."
+        },
+        {
+          "label": "C",
+          "text": "It would have taken careful effort to make evenly spaced lines on bone with the stone tools typically used by Neanderthals."
+        },
+        {
+          "label": "D",
+          "text": "Decorative art discovered at another Neanderthal site in western France primarily features patterns of unevenly spaced parallel lines."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Medium",
+      "source_question_number": 12,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. The archeologist bases their claim on the fact that the hyena bone features unevenly spaced parallel notches. But if unevenly spaced parallel lines were found on \"decorative art\" at another Neanderthal site, it would suggest that the hyena bone is probably decorative art as well-not a counting tool.\n\nChoice A is incorrect. This choice doesn't weaken the underlined claim. If anything, it might actually strengthen the claim: assuming we can make an inference about Neanderthals using a fact about early humans, it provides more support for the idea that the person who made the notches was counting something. Choice B is incorrect. This choice doesn't weaken the underlined claim. The fact that another artifact had parallel notches made with a different stone tool doesn't tell us anything about the use of either artifact. For all we know, they could both have been used for counting. Choice C is incorrect. This choice doesn't weaken the underlined claim. The fact that it took effort to make the lines doesn't tell us anything about what the lines were for.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    }
+  ]
+}

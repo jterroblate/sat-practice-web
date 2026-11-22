@@ -153,7 +153,14 @@ async function auditManifestRoutes() {
 
   const quantitativeHtml = manifestRouteHtml.get("categories/command-of-evidence-quantitative.html");
   assert.equal(typeof quantitativeHtml, "string", "Manifest must include the quantitative evidence category route");
-  assert.ok(Buffer.byteLength(quantitativeHtml) < 700_000, "Quantitative practice page should keep charts outside the HTML payload");
+  // An inlined chart costs tens of kilobytes per question; text, table data and
+  // explanations stay well under this budget however many questions the category holds.
+  const quantitativeQuestions = manifest.pages
+    .find(page => page.route === "categories/command-of-evidence-quantitative.html").questionIds.length;
+  assert.ok(
+    Buffer.byteLength(quantitativeHtml) < 300_000 + 6_000 * quantitativeQuestions,
+    "Quantitative practice page should keep charts outside the HTML payload",
+  );
   assert.doesNotMatch(quantitativeHtml, /"chart_image_data_uri":"data:/);
   return { loadedChartReferences, canonicalChartReferences };
 }

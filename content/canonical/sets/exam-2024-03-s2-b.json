@@ -1,0 +1,2333 @@
+{
+  "schemaVersion": "sat-canonical-question-collection-v1",
+  "contentId": "set-exam-2024-03-s2-b",
+  "title": "2024年3月机考真题第2套(B卷)",
+  "section": "reading_writing",
+  "questionCount": 50,
+  "questions": [
+    {
+      "question_id": "bank_rw_000412",
+      "section": "reading_writing",
+      "question_number": 1,
+      "passage": "The following text is from Darcie little Badger's 2021 novel [i]A Snake Falls to Earth[/i]. Nina is looking at old family photographs.\n\nNina couldn't stop looking at the sepia-toned photograph in an oak frame. Propped on the window ledge, it [u]featured[/u] a portrait of Great-Great-Grandmother Rosita as a young woman.\n\n©2021 by Darcie little Badger",
+      "prompt": "As used in the text, what does the word \"featured\" most nearly mean?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Approved"
+        },
+        {
+          "label": "B",
+          "text": "Displayed"
+        },
+        {
+          "label": "C",
+          "text": "Ignored"
+        },
+        {
+          "label": "D",
+          "text": "Questioned"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 1,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_000413",
+      "section": "reading_writing",
+      "question_number": 2,
+      "passage": "The following text is from Mark Twain's 1876 novel [i]The Adventures of Tom Sawyer[/i]. Tom, a child, has been told by his aunt to paint their house's fence.\n\nTom appeared on the sidewalk with a bucket of whitewash and a long-handled brush. He [u]surveyed[/u] the fence, and all gladness left him and a deep melancholy settled down upon his spirit. Thirty yards of board fence nine feet high.",
+      "prompt": "As used in the text, what does the word \"surveyed\" most nearly mean?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Praised"
+        },
+        {
+          "label": "B",
+          "text": "Organized"
+        },
+        {
+          "label": "C",
+          "text": "Examined"
+        },
+        {
+          "label": "D",
+          "text": "Converted"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 2,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_000414",
+      "section": "reading_writing",
+      "question_number": 3,
+      "passage": "Politicians routinely claim that journalists are ________, but while it's true that some journalists allow their own views to creep into their reporting more than others do, most journalists make a good faith effort to be neutral in their reporting.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "sensitive"
+        },
+        {
+          "label": "B",
+          "text": "biased"
+        },
+        {
+          "label": "C",
+          "text": "misinformed"
+        },
+        {
+          "label": "D",
+          "text": "irrelevant"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 3,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_000415",
+      "section": "reading_writing",
+      "question_number": 4,
+      "passage": "The Nile River delta system is located in Northern Egypt, where the river drains into the Mediterranean Sea, and is shaped by ________ factors: for example, the geography of the coastline influences sedimentary deposition, which over time alters coastal geography.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "comprehensive"
+        },
+        {
+          "label": "B",
+          "text": "interdependent"
+        },
+        {
+          "label": "C",
+          "text": "tenuous"
+        },
+        {
+          "label": "D",
+          "text": "unyielding"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 4,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_000416",
+      "section": "reading_writing",
+      "question_number": 5,
+      "passage": "Few religious buildings can be said to ________ the astonishing size of Djamaa el Djazair in Algeria, which, with the capacity to accommodate approximately 120.000 people at once, is one of the largest mosques in the world.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "conceal"
+        },
+        {
+          "label": "B",
+          "text": "symbolize"
+        },
+        {
+          "label": "C",
+          "text": "minimize"
+        },
+        {
+          "label": "D",
+          "text": "match"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 5,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_000417",
+      "section": "reading_writing",
+      "question_number": 6,
+      "passage": "The following text is adapted from Jason Reynolds's 2016 novel [i]Ghost[/i]. The narrator, who is in middle school, is at a bus stop.\n\nI just go there [to the bus stop] to look at the people working out. See, the gym across the street has this big window—like the whole wall is a window—and they have those machines that make you feel like you walking up steps and so everybody just be facing the bus stop, looking all crazy like they're about to pass out. And trust me, there ain't nothing funnier than that. So I check that out for a little while like it's some kind of movie: [i]The About to Pass Out Show[/i], starring stair-stepper person one through ten.\n©2016 by Jason Reynolds",
+      "prompt": "Which choice best states the main purpose of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To explain a problem that the narrator has overcome"
+        },
+        {
+          "label": "B",
+          "text": "To give a reason why the narrator is excited to start middle school"
+        },
+        {
+          "label": "C",
+          "text": "To discuss a movie that the narrator saw in a theater"
+        },
+        {
+          "label": "D",
+          "text": "To describe an activity that the narrator finds amusing"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 6,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_000418",
+      "section": "reading_writing",
+      "question_number": 7,
+      "passage": "In 1827, Rev, John Wilk and other free Black men in New York City founded [i]Freedom's Journal[/i]. America's first Black-owned-and-operated newspaper. Wilk's accomplishment is just one example of the rich history of Black journalism in the United States. [u]That history is preserved by the National Association of Black Journalists, which was founded in Washington, Dc, in 1975 to support Black media professionals and honor people like Wilk.[/u]",
+      "prompt": "Which choice best describes the function of the underlined sentence?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It highlights several important members of the National Association of Black Journalists."
+        },
+        {
+          "label": "B",
+          "text": "It emphasizes the challenges that the National Association of Black Journalists has overcome."
+        },
+        {
+          "label": "C",
+          "text": "It lists the achievements of the National Association of Black Journalists."
+        },
+        {
+          "label": "D",
+          "text": "It summarizes the purpose of founding the National Association of Black Journalists."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 7,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_000419",
+      "section": "reading_writing",
+      "question_number": 8,
+      "passage": "Sheep and barn owls see in three dimensions (3D) by combining two images in their brains, one from each eye. This produces a sense of depth, helping the animals judge how close or far away an object is. Researchers have investigated 3D vision in praying mantises as well. In one study, Vivek Nityananda and his team fitted mantises' faces with two different color filters, one covering each eye, much like the filters in 3D glasses once worn at movies. By observing the mantises' reaction to projected images, the team confirmed that mantises do indeed have 3D vision, but it's unlike that of other animals.",
+      "prompt": "Which choice best describes the overall structure of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The text explains the general differences between the vision of sheep and barn owls, then introduces a study of praying mantises' vision."
+        },
+        {
+          "label": "B",
+          "text": "The text discusses 3D vision in sheep and barn owls, then introduces a study about this kind of vision in praying mantises."
+        },
+        {
+          "label": "C",
+          "text": "The text describes how sheep and barn owls see, then presents a study about praying mantises that challenges the accuracy of that description."
+        },
+        {
+          "label": "D",
+          "text": "The test reviews the similarities in how sheep and barn owls see, then provides details of a study about praying mantises to confirm these similarities."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 8,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_000420",
+      "section": "reading_writing",
+      "question_number": 9,
+      "passage": "\"Coyote\" is one example of an English word that has an indigenous origin. The word came to English indirectly from [i]coyote[/i], the Spanish word for the wild canine species. Spanish had borrowed it from Nahuatl, an Indigenous language of Central Mexico, in which the word's original form is [i]coyoti[/i]. \"Iguana\" also has an indigenous origin and entered English through Spanish. But in this case, the original source was Taino, a language of the Caribbean islands, in which the word for the group of related lizard species is [i]iwana[/i].",
+      "prompt": "According to the text, what is one difference between the English words \"coyote\" and \"iguana\"?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"Coyote\" is known for being Indigenous in origin, while \"iguana\" is mistakenly regarded as Spanish in origin."
+        },
+        {
+          "label": "B",
+          "text": "\"Coyote\" changed in meaning significantly when English borrowed the word from Spanish, whereas \"iguana\" retained its original meaning."
+        },
+        {
+          "label": "C",
+          "text": "\"Coyote\" can be traced to the Nahuatl language, while \"iguana\" can be traced to the Taino language."
+        },
+        {
+          "label": "D",
+          "text": "\"Coyote\" entered English recently, but \"iguana\" entered English many centuries ago."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 9,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_000421",
+      "section": "reading_writing",
+      "question_number": 10,
+      "passage": "In present-day Chiapas, Mexico, archaeologist Robert Rosenswig, remote-sensing specialist Ricardo Lopez-Torrijos, and colleagues have located 41 smaller settlements surrounding the ancient Mesoamerican city of lzapa. The researchers have concluded that these settlements were culturally linked to lzapa because each of the settlements is the same age and configured in the same manner as lzapa, with a pyramid to the north and a plaza to the south. Their shared structural orientation suggests that residents of the settlements likely performed some of the same cultural ceremonies as residents in lzapa did.",
+      "prompt": "Which choice best states the main idea of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Although archaeologists have learned much about lzapa over years of research, they have only recently found the smaller settlements that surrounded it."
+        },
+        {
+          "label": "B",
+          "text": "Cultural ceremonies in lzapa seem to have played a more important role for its residents than those in smaller surrounding settlements did."
+        },
+        {
+          "label": "C",
+          "text": "Researchers have inferred that lzapa was related to the smaller settlements that surrounded it based in part on the similarity of their construction."
+        },
+        {
+          "label": "D",
+          "text": "Researchers have determined that the arrangement of lzapa's structures was based on those of other nearby settlements."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 10,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_000423",
+      "section": "reading_writing",
+      "question_number": 11,
+      "passage": "Elisabeth Pötzelsberger and colleagues gathered data on 23 non-native tree species grown in Europe. They analyzed reports from Austria, Poland, and Lithuania about the number of these species grown in those countries as well as the numbers of insect and fungus species that damage those trees. The researchers concluded that in only one of these countries are there more insect species than fungus species that pose risks to these trees.",
+      "prompt": "Which choice best describes data from the table that support Potzelsberger and colleagues' conclusion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Austria reported 51 damaging fungus species, which is a greater number of them than either Poland or Lithuania reported."
+        },
+        {
+          "label": "B",
+          "text": "Poland reported 25 damaging fungus species and 105 damaging insect species, while both Austria and Lithuania reported a greater number of damaging fungus species than insect species."
+        },
+        {
+          "label": "C",
+          "text": "Austria reported 51 damaging fungus species, whereas Lithuania reported 7 damaging insect species."
+        },
+        {
+          "label": "D",
+          "text": "Austria and Lithuania both reported fewer damaging insect species than damaging fungus species, whereas Poland reported 105 fungus species and only 10 insect species."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 12,
+      "table_data": {
+        "title": "Numbers of the 23 Non-native Tree Species Reported and the Insect and Fungus Threats to Them",
+        "columns": [
+          "Country",
+          "Trees",
+          "Fungi",
+          "Insects"
+        ],
+        "rows": [
+          [
+            "Lithuania",
+            "8",
+            "12",
+            "7"
+          ],
+          [
+            "Poland",
+            "10",
+            "25",
+            "105"
+          ],
+          [
+            "Austria",
+            "13",
+            "51",
+            "50"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_000424",
+      "section": "reading_writing",
+      "question_number": 12,
+      "passage": "In countries with right-hand traffic, drivers who want to make a left turn at a traffic intersection with stoplights have to wait for either a gap in oncoming traffic or a designated left-turn signal to turn green. At busy intersections, this often causes a backup of vehicles waiting to turn left or being prevented from proceeding by left-turning vehicles in front of them. Transportation researcher Vikash V, Gayah claims that in urban areas eliminating the option to turn left at busy intersections—both with and without dedicated left-turn signals—would improve traffic flow and, as a result, reduce overall travel times even if such a restriction would require drivers to sometimes travel a slightly longer distance.",
+      "prompt": "Which finding, if true, would most directly support the researcher's claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "In a town that installed left-turn signals at all busy intersections, seven out often survey respondents agreed with the statement \"the streets in my community are easier to navigate by motor vehicle than before.\""
+        },
+        {
+          "label": "B",
+          "text": "After a city eliminated left turns at busy intersections, a package-delivery company reports that its drivers have been able to reach more addresses in the city daily, on average, and therefore deliver more packages there annually."
+        },
+        {
+          "label": "C",
+          "text": "Statistics reveal that school buses in a city that eliminated left turns at most intersections took on average two minutes longer to complete their routes after the restriction took effect than they did before."
+        },
+        {
+          "label": "D",
+          "text": "A traffic study of intersections in a large city shows that on average drivers wait longer to make a left turn at intersections without left-turn signals than at intersections with such signals."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 13,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_000425",
+      "section": "reading_writing",
+      "question_number": 13,
+      "passage": "lt is common for freshwater lakes near or above a latitude of 45° north of the equator, like Lake Stechlin in Germany, to accumulate surface ice in winter. A study from 1980 to 2006 showed that, in general, the number of days per winter that such lakes have measurable amounts of surface ice is declining. However, a researcher claimed that some lakes have instead seen an increase in the duration of ice.",
+      "prompt": "Which choice best describes data in the table that support the researcher's claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Näckten had more days of ice in the winter of 1980-81 than it did in the winter of 2005-06."
+        },
+        {
+          "label": "B",
+          "text": "Spirit Lake had fewer days of ice in the winter of 1980-81 than it did in the winter of 2005-06."
+        },
+        {
+          "label": "C",
+          "text": "Näckten is at a higher latitude than Lake Kegonsa and typically had fewer days of ice per winter than Lake Kegonsa did."
+        },
+        {
+          "label": "D",
+          "text": "Näckten is at a higher latitude than Lake Kegonsa and typically had more days of ice per winter than Lake Kegonsa did."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 14,
+      "table_data": {
+        "title": "Days per Winter That Lakes Have Surface Ice",
+        "columns": [
+          "Lake",
+          "Latitude (degrees)",
+          "1980-81",
+          "1985-86",
+          "1990-91",
+          "1995-96",
+          "2000-01",
+          "2005-06"
+        ],
+        "rows": [
+          [
+            "Spirit Lake",
+            "43.46",
+            "102",
+            "135",
+            "121",
+            "134",
+            "147",
+            "126"
+          ],
+          [
+            "Lake Kegonsa",
+            "42.97",
+            "94",
+            "116",
+            "104",
+            "113",
+            "124",
+            "101"
+          ],
+          [
+            "Näckten",
+            "62.913",
+            "177",
+            "168",
+            "144",
+            "174",
+            "133",
+            "134"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_000426",
+      "section": "reading_writing",
+      "question_number": 14,
+      "passage": "The state of Maryland has designated the flathead catfish as an invasive species that could outcompete some of the state's native species. Many other states draw similar distinctions between invasive and native species. But researchers Alejandro Camacho and Jason McLachlan have pointed out that Earth's climate is changing in ways that challenge such designations. Climate changes may cause animals to leave their current ranges and establish new ones. Climate changes may also create good habitats in areas where a species couldn't live previously. These observations suggest that ________",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "it's useful at present for Maryland to distinguish between invasive and native species in some instances but not in the case of the flathead catfish."
+        },
+        {
+          "label": "B",
+          "text": "Maryland should coordinate with other states to protect their native species from invasive species."
+        },
+        {
+          "label": "C",
+          "text": "Maryland was previously home to some flathead catfish but they were outcompeted by invading species."
+        },
+        {
+          "label": "D",
+          "text": "states such as Maryland may need to reevaluate their classifications of species."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 15,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_000428",
+      "section": "reading_writing",
+      "question_number": 15,
+      "passage": "On Humphreys Peak, which ________ an elevation of 12,637 feet, one can find the highest point in Arizona.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "reaches"
+        },
+        {
+          "label": "B",
+          "text": "reach"
+        },
+        {
+          "label": "C",
+          "text": "reaching"
+        },
+        {
+          "label": "D",
+          "text": "to reach"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 17,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_000429",
+      "section": "reading_writing",
+      "question_number": 16,
+      "passage": "A recipient of the King Faisal International Prize and the Othmer Gold Medal, ________ known as femtochemistry when he devised an optical spectroscopy technique that allowed researchers to study ultrafast chemical reactions occurring within molecules.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the limits of measurability were expanded by chemist Ahmed Zewail who introduced a new scientific discipline"
+        },
+        {
+          "label": "B",
+          "text": "chemist Ahmed Zewail expanded the limits of measurability and introduced anew scientific discipline"
+        },
+        {
+          "label": "C",
+          "text": "the introduction of a new scientific discipline by chemist Ahmed Zewail led to the expansion of the limits of measurability"
+        },
+        {
+          "label": "D",
+          "text": "the result of chemist Ahmed Zewail's expansion of the limits of measurability was the introduction of a new scientific discipline"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 18,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_000430",
+      "section": "reading_writing",
+      "question_number": 17,
+      "passage": "\"Coalition\" is the term for a group of male lions, and across the Greater Kruger National Park in South Africa, many coalitions vie for territory. Between 2010 and 2018, the lions of the Majingilane ________ including Dark Mane, Golden Mane, and Scar-Nose—thrived within a part of the park called the Londolozi Game Reserve.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "coalition"
+        },
+        {
+          "label": "B",
+          "text": "coalition,"
+        },
+        {
+          "label": "C",
+          "text": "coalition:"
+        },
+        {
+          "label": "D",
+          "text": "coalition—"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 19,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries"
+      }
+    },
+    {
+      "question_id": "bank_rw_000431",
+      "section": "reading_writing",
+      "question_number": 18,
+      "passage": "Several advantages—the ability to react strongly with chip components, to avoid interference from other waves, and to be confined within tiny circuits—________ acoustic waves as a promising alternative to electrical waves for transmitting data on computer chips; as a result, researchers are invested in developing more acoustic wave-based chips.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "having positioned"
+        },
+        {
+          "label": "B",
+          "text": "positioning"
+        },
+        {
+          "label": "C",
+          "text": "by positioning"
+        },
+        {
+          "label": "D",
+          "text": "have positioned"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 20,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_000432",
+      "section": "reading_writing",
+      "question_number": 19,
+      "passage": "Like much scientific research, a noted 2021 study of moon jellyfish published in [i]Proceedings of the Royal Society B[/i] reflects the combined efforts and expertise of multiple ________ Brad Gemmell is listed first, Kevin Du Clos, Kelly Sutherland, and other coauthors also made important contributions to the study.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "researchers: while"
+        },
+        {
+          "label": "B",
+          "text": "researchers;"
+        },
+        {
+          "label": "C",
+          "text": "researchers, while"
+        },
+        {
+          "label": "D",
+          "text": "researchers."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 21,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries"
+      }
+    },
+    {
+      "question_id": "bank_rw_000433",
+      "section": "reading_writing",
+      "question_number": 20,
+      "passage": "Broadcasting from the Spirit Lake Tribe's lands in North Dakota, the Native-run radio station KABU 90.7 FM serves its local Dakota-speaking community in several ways. ________ it broadcasts local news and music and also hosts programming in the Dakota language.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "As a result,"
+        },
+        {
+          "label": "B",
+          "text": "By contrast,"
+        },
+        {
+          "label": "C",
+          "text": "In the end,"
+        },
+        {
+          "label": "D",
+          "text": "For instance,"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 22,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_000434",
+      "section": "reading_writing",
+      "question_number": 21,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n● Spike is the nickname of a dinosaur fossil specimen from the Late Cretaceous period.\n● The Late Cretaceous period ended more than 65 million years ago.\n● Spike is a member of the genus [i]Pentaceratops[/i].\n● Spike is housed at the New Mexico Museum of Natural History.\n● The New Mexico Museum of Natural History is in Albuquerque, New Mexico.",
+      "prompt": "The student wants to identify the institution in which Spike is housed. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Spike is housed at the New Mexico Museum of Natural History in Albuquerque, New Mexico."
+        },
+        {
+          "label": "B",
+          "text": "Spike is the nickname of a dinosaur fossil specimen belonging to the genus [i]Pentaceratops.[/i]"
+        },
+        {
+          "label": "C",
+          "text": "Albuguerque, New Mexico, is home to a [i]Pentaceratops[/i] fossil specimen nicknamed Spike."
+        },
+        {
+          "label": "D",
+          "text": "The [i]Pentaceratops[/i] fossil specimen Spike lived more than 65 million years ago, in the Late Cretaceous period."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 23,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_000435",
+      "section": "reading_writing",
+      "question_number": 22,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n● A supercontinent is a single landmass made up of most or all of Earth's continents.\n● Over time, continents merge together to form supercontinents, which then break apart.\n● This process is believed to take hundreds of millions of years and is known as the supercontinent cycle.\n● Rodinia and Euramerica were supercontinents.\n● Rodinia formed about 1.1 billion years ago.\n● Euramerica formed about 300 million years ago.",
+      "prompt": "The student wants to correct a misunderstanding that Euramerica formed before Rodinia. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Rodinia and Euramerica were both supercontinents, single landmasses made up of most or all of the Earth's continents."
+        },
+        {
+          "label": "B",
+          "text": "Rodinia formed about 1.1 billion years ago, long before Euramerica's formation about 300 million years ago."
+        },
+        {
+          "label": "C",
+          "text": "Forming and breaking apart over hundreds of millions of years, supercontinents are made up of most or all of Earth's continents."
+        },
+        {
+          "label": "D",
+          "text": "Euramerica and Rodinia formed at different times in Earth's history."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 24,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_000436",
+      "section": "reading_writing",
+      "question_number": 23,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n● A merchant ship is any ship hired to carry cargo or passengers.\n● A ship's carrying capacity is also known as its deadweight tonnage (DWT).\n● In 2021, there were a total of 1,769 merchant ships registered in Malaysia.\n● The combined DWT of these ships was 10.2 million tons.",
+      "prompt": "The student wants to identify the combined carrying capacity of Malaysia's merchant ships in 2021. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The carrying capacity of a merchant ship is also known as its deadweight tonnage."
+        },
+        {
+          "label": "B",
+          "text": "In 2021, Malaysia had 1,769 merchant ships hired to carry cargo or passengers."
+        },
+        {
+          "label": "C",
+          "text": "The combined carrying capacity of Malaysia's merchant ships was 10.2 million tons in 2021."
+        },
+        {
+          "label": "D",
+          "text": "There were a total of 1,769 merchant ships (ships hired to carry cargo or passengers) registered in Malaysia in 2021."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 25,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_000437",
+      "section": "reading_writing",
+      "question_number": 24,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n● The United States has designated more than 500 areas National Wildlife Refuges(NWRS).\n● Some NWRs were established specifically to protect endangered species.\n● The Mason Neck NWR is a 2,276-acre area in Virginia, on the Atlantic coast.\n● It was established to protect the endangered bald eagle.\n● The Bitter Creek NWR is a 14,054-acre area in California, on the Pacific coast.\n● It was established to protect the endangered California condor.",
+      "prompt": "The student wants to contrast the two NWRs. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "While the Mason Neck NWR is in Virginia, on the Atlantic coast, the Bitter Creek NWR is in California, on the Pacific coast."
+        },
+        {
+          "label": "B",
+          "text": "Some NWRs were established specifically to protect endangered species such as the California condor."
+        },
+        {
+          "label": "C",
+          "text": "Both the Mason Neck NWR and the Bitter Creek NWR were established to protect endangered species."
+        },
+        {
+          "label": "D",
+          "text": "The US has designated more than 500 areas NWRs, including the Mason Neck NWR in Virginia."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 26,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_000438",
+      "section": "reading_writing",
+      "question_number": 25,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n● The French Republican calendar was developed during the French Revolution.\n● It had twelve months divided into three weeks of ten days each, followed by five supplemental days.\n● Each day was named after a plant, animal, agricultural tool, or mineral as a way of honoring an aspect of rural life.\n● Messidor is the tenth month of the French Republican calendar.\n● The fifth day of Messidor is named Mulet, which means \"mule.\"",
+      "prompt": "The student wants to explain why a day in the French Republican calendar's month of Messidor was named Mulet. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "When the French Republican calendar was developed during the French Revolution, the fifth of Messidor was named Mulet."
+        },
+        {
+          "label": "B",
+          "text": "The month of Messidor was divided into three weeks of ten days each, and one of those days was named Mulet."
+        },
+        {
+          "label": "C",
+          "text": "Developed during the French Revolution, the French Republican calendar has twelve months, including Messidor."
+        },
+        {
+          "label": "D",
+          "text": "Each day of the french Republican calendar year honors an aspect of rural life, which is why the fifth of Messidor is named after an animal, the mule."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 27,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_000439",
+      "section": "reading_writing",
+      "question_number": 26,
+      "passage": "Although Alfred E. Green's 1950 film [i]The Jackie Robinson Story[/i] and Ossie Davis's 1970 film [i]Cotton Comes to Harlem[/i] may have had some ________ at the time of their initial release, their place in critics' estimations is now more secure. In 2018, for example, critics for the [i]New York Times[/i] described the former as \"irresistible\" and the latter as \"especially pointed.\"",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "imitators"
+        },
+        {
+          "label": "B",
+          "text": "collaborators"
+        },
+        {
+          "label": "C",
+          "text": "precursors"
+        },
+        {
+          "label": "D",
+          "text": "detractors"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 1,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_000440",
+      "section": "reading_writing",
+      "question_number": 27,
+      "passage": "Political scientists have found that although voters claim to prefer candidates who have nuanced perspectives on issues and who show a willingness to compromise, when asked to compare speeches expressing such views with speeches expressing ________ views, voters tend to regard the unyielding rhetoric of the latter more favorably.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "dogmatic"
+        },
+        {
+          "label": "B",
+          "text": "vacillating"
+        },
+        {
+          "label": "C",
+          "text": "banal"
+        },
+        {
+          "label": "D",
+          "text": "disingenuous"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 2,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_000441",
+      "section": "reading_writing",
+      "question_number": 28,
+      "passage": "According to a board-gaming website, the game The Resistance: Avalon has an average website-user rating of 7.6 out of 10. Although average ratings can be misleading when only a few users have rated the game. The Resistance: Avalon has been rated by over 22,000 users, which is an ________ number to feel confident that the average rating is reliable.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "excessive"
+        },
+        {
+          "label": "B",
+          "text": "adequate"
+        },
+        {
+          "label": "C",
+          "text": "accurate"
+        },
+        {
+          "label": "D",
+          "text": "insufficient"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 3,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_000442",
+      "section": "reading_writing",
+      "question_number": 29,
+      "passage": "A number of recording artists ________ distinctions between indigenous music and other musical styles. For example, Wolastoq musician Jeremy Dutcher incorporated traditional Wolastoq songs into experimental pop on his album [i]Wolastoqiyik Lintuwakonawa[/i], and Wayuu singer-songwriter Lido Pimienta combined Afro-Indigenous music from Colombia with Latin pop on her album [i]Miss Colombia[/i].",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "replace"
+        },
+        {
+          "label": "B",
+          "text": "observe"
+        },
+        {
+          "label": "C",
+          "text": "reject"
+        },
+        {
+          "label": "D",
+          "text": "disguise"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 4,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_000443",
+      "section": "reading_writing",
+      "question_number": 30,
+      "passage": "Today composer Scott Joplin is mainly celebrated for his catchy ragtime pieces \"Maple Leaf Rag\" and \"The Entertainer.\" However, by overlooking his less famous works, listeners will miss the full range of Joplin's creativity. For instance, his waltz \"Pleasant Moments\" and his opera [i]Treemonisha[/i] skillfully blend ragtime and classical music. These masterpieces deserve as much fame as Joplin's biggest hits.",
+      "prompt": "Which choice best states the main purpose of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To explain how Joplin learned to compose and perform ragtime music"
+        },
+        {
+          "label": "B",
+          "text": "To describe the similarities and differences between ragtime music and opera"
+        },
+        {
+          "label": "C",
+          "text": "To encourage music lovers to listen to music by many different composers"
+        },
+        {
+          "label": "D",
+          "text": "To argue that more attention should be given to Joplin's lesser-known works"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 5,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_000444",
+      "section": "reading_writing",
+      "question_number": 31,
+      "passage": "The [i]Ionian Mission[/i], first published in 1981, is a novel in Patrick O'Brian's Aubrey, Maturin series, which includes twenty completed books. Some critics have found fault with the abrupt endings of [i]The Ionian Mission[/i] and other books in the series, saying that they do not finish conclusively but arbitrarily stop. But other critics argue that the books should not be thought of as discrete texts with traditional beginnings and endings but as a single incredibly long work, similar to other multivolume stories, such as Marcel Proust's [i]In Search of Lost Time.[/i]",
+      "prompt": "Which choice best states the main purpose of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To present a reason the unusual structure that O'Brian uses for [i]The Ionian Mission[/i] makes it one of his most complex books"
+        },
+        {
+          "label": "B",
+          "text": "To describe a characteristic of the Aubrey/Maturin novels and offer two differing viewpoints on this characteristic"
+        },
+        {
+          "label": "C",
+          "text": "To explain why many critics find the Aubrey/Maturin novels to be remarkably entertaining despite flaws an the novels' structures"
+        },
+        {
+          "label": "D",
+          "text": "To argue that the Aubrey/Maturn series should have the literary renown of [i]In Search of Lost Time[/i]"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 6,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_000445",
+      "section": "reading_writing",
+      "question_number": 32,
+      "passage": "[b]Text 1[/b]\n[u]Isaac Asimov, author of [i]Nemesis[/i] and [i]The Stars, Like Dust[/i], is highly regarded despite his mediocre writing style. His prose is workmanlike: his characters are flat and discuss ideas rather than emotions.[/u] That his work is enjoyable despite this is a testament to his prodigious imagination—even if people read his books only for the ideas, they will have plenty to consider.\n\n[b]Text 2[/b]\nAsimov is critiqued for his style, but it is wrong to fault a writer for failing to do what he never intended to do. For example, although most of his novel [i]Foundation[/i] consists of people discussing science and politics and we find out little about his characters' lives. Asimov wanted to convey the vast sweep of human history over centuries, and one of his points is that at such a timescale, individuals don't matter. Thus his lack of characterization is central to Asimov's thematic aims.",
+      "prompt": "Based on the texts, how would the author of Text 2 most likely respond to the evaluation of Asimov's writing style in the underlined claim in Text 1?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "By arguing that Asimov's writing style should be judged against the styles of historians rather than those of fiction writers"
+        },
+        {
+          "label": "B",
+          "text": "By asserting that Asimov's minimal characterization is likely a conscious choice that helps him convey an important idea"
+        },
+        {
+          "label": "C",
+          "text": "By pointing out that the flatness of Asimov's characters is a feature of [i]Nemesis[/i] and [i]The Stars. Like Dust[/i] but not of [i]Foundation[/i]"
+        },
+        {
+          "label": "D",
+          "text": "By agreeing that Asimov's prose is flawed but disagreeing about the quality of his characters"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 7,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Cross-Text Connections"
+      }
+    },
+    {
+      "question_id": "bank_rw_000446",
+      "section": "reading_writing",
+      "question_number": 33,
+      "passage": "Shanlin Liu and colleagues relied on historical DNA (hDNA)—genomic data incidentally preserved in specimens housed in natural history collections—to investigate the evolutionary history of the rhinoceros family (Rhinocerotidae). Although this approach offers unique benefits, such as the ability to ascertain the biogeographical origins of organisms, it remains a relatively underutilized resource because hDNA is often to some extent degraded, a situation not easily remediable under current methodological paradigms and with extant DNA extraction and analysis technologies.",
+      "prompt": "Information in the text best supports which statement about hDNA?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It may be underused because of its controversial status among scientists."
+        },
+        {
+          "label": "B",
+          "text": "It tends to be much more degraded than other types of DNA of comparable age."
+        },
+        {
+          "label": "C",
+          "text": "It may yield insights that other types of genomic data cannot."
+        },
+        {
+          "label": "D",
+          "text": "It has thus far proved valuable mainly to researchers studying mammals."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 8,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_000447",
+      "section": "reading_writing",
+      "question_number": 34,
+      "passage": "Meredith E. Protas and colleagues have explored how convergent evolution—a phenomenon that occurs when the same trait evolves independently in two reproductively separate lineages—can result from a genetic mechanism shared by both lineages. Meanwhile, Cynthia C. Steiner and colleagues have investigated how convergence occurs through different genetic mechanisms, but the relative prevalence of convergence through shared and different genetic processes is still poorly understood. This motivated biologists Delbert A. Green II and Cassandra G. Extavour to evaluate both types of convergence in a single study for their 2012 paper.",
+      "prompt": "Which choice best states the main idea of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Before Green and Extavour's study, convergent evolution was assumed to require a shared genetic mechanism between two lineages that share the trait."
+        },
+        {
+          "label": "B",
+          "text": "Both the study by Protas and colleagues and that by Green and Extavour compare convergence through shared genetic mechanisms to convergence through different genetic mechanisms."
+        },
+        {
+          "label": "C",
+          "text": "Green and Extavour's study addresses convergent evolution more comprehensively than the studies by Protas and colleagues and Steiner and colleagues do."
+        },
+        {
+          "label": "D",
+          "text": "Green and Extavour's study was conducted using data from the studies by Protas and colleagues and Steiner and colleagues."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 9,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_000449",
+      "section": "reading_writing",
+      "question_number": 35,
+      "passage": "Over time, marine mollusks called nautilids continually add segments to their shells, and the chemical composition of each segment is influenced by the available materials in the surrounding water when the segment forms. Paleontologist Amane Taiika and colleagues analyzed the septa (the walls between shell chambers) of one male (samples labeled \"M\") and one female (samples labeled \"F\") nautilid, finding that sample F07 had the same concentration of oxygen-18 as did water approximately 135 meters deep and that the oxygen-18 concentration in sample M28 matched that of water at approximately 365 meters deep. Tajika et al, concluded that sample F07 formed at a higher point in the water column than did M28.",
+      "prompt": "Which finding, if true, would most directly support the researchers' conclusion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "In nautilids, sex predicts septa growth rate more strongly than does oxygen-18 concentration in the surrounding water."
+        },
+        {
+          "label": "B",
+          "text": "Among nautilids, there is no effect of sex on the uptake of oxygen-18 from water or its deposition in septa."
+        },
+        {
+          "label": "C",
+          "text": "Male nautilids tend to show higher concentrations of oxygen-l8 than do female nautilids inhabiting the same point in the water column."
+        },
+        {
+          "label": "D",
+          "text": "Regardless of sex, nautilids spend most of their lives at depths of 50 meters or greater, where oxygen-18 concentrations typically differ from those higher in the water column."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 11,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_000450",
+      "section": "reading_writing",
+      "question_number": 36,
+      "passage": "Callie W. Babbitt, Hema Madaka, and colleagues assembled a database of materials used in consumer electronics by studying products in the lab and by gathering data from similar product studies. The team gave each of these studies a rating for level of traceability (with a higher rating for clearer descriptions of procedures) and for category consistency (with a higher rating for using materials categories more closely aligned with the categories in the team's database). Based on these ratings, a second research team concluded that the methodology was better explained in a study by Lee Ching-Hwa and Hsi Chi-Shiung than it was in a study by Jef R. Peeters and colleagues.",
+      "prompt": "Which finding, if true, would most directly challenge the second research team's conclusion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The study by Lee and Hsi had a lower consistency rating than the study by Peeters and colleagues did."
+        },
+        {
+          "label": "B",
+          "text": "The study by Lee and Hsi had a lower traceability rating than the study by Peeter's and colleagues did."
+        },
+        {
+          "label": "C",
+          "text": "The study by Peeters and colleagues had a medium consistency rating and a low traceability rating."
+        },
+        {
+          "label": "D",
+          "text": "The study by Lee and Hsi had a high consistency rating and a medium traceability rating."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 12,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_000452",
+      "section": "reading_writing",
+      "question_number": 37,
+      "passage": "The Canadian Longitudinal Study on Aging (CLSA-ÉLCV) is a longitudinal study surveying approximately 1,000 individuals in Canada to glean extended trends in aging. To carry out the necessary sampling of the population over many years, CLSA-ÉLCV needs extensive financial support, but this method provides valuable insights into causal relationships. However, when questions of causation are irrelevant, as with a fitness study seeking only to reveal the percentage of regular exercisers in a city who do weight training, longitudinal methods are unnecessary, and so ________",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the success of the fitness study likely requires significantly less financial outlay than that needed for CLSA-ÉLCV."
+        },
+        {
+          "label": "B",
+          "text": "the expense of CLSA-ÉLCV is likely greater than the cost of longitudinal studies of fitness."
+        },
+        {
+          "label": "C",
+          "text": "longitudinal methods are suitable for studies of aging but ought to be avoided for those of fitness."
+        },
+        {
+          "label": "D",
+          "text": "conclusions drawn from CLSA-ÉLCV are likely to be more authoritative than those from the fitness study."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 14,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_000453",
+      "section": "reading_writing",
+      "question_number": 38,
+      "passage": "The many editions of James Joyce's 1922 novel [i]Ulysses[/i] are not textually identical, and scholars debate which versions reflect Joyce's authorial intent. One no longer widely read edition is the 1984 \"critical and synoptic edition\" edited by Hans Walter Gabler, which followed French and German editorial theories rather than editorial traditions of the United States and United Kingdom and which was later found to have introduced errors due to Gabler's choice to consult facsimile manuscripts rather than using only originals. However, few Joyce scholars worldwide had expertise in such textual issues, and most of those who did worked on the edition with Gabler. So, it is unsurprising that initial scholarly reviews of the 1984 edition were mostly ________",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "positive, since [i]Ulysses[/i] is a novel in English and the 1984 edition would therefore be more widely reviewed in United States and United Kingdom publications than in French and German publications."
+        },
+        {
+          "label": "B",
+          "text": "negative, since any scholar with expertise in editorial theories of the United States and United Kingdom as well as french and German editorial theories most likely worked with Gabler on the 1984 edition and would therefore not review it."
+        },
+        {
+          "label": "C",
+          "text": "negative, since those Joyce scholars with the necessary expertise to write a review of the 1984 edition would be aware that facsimile manuscripts cannot be produced with a high enough fidelity to the original to ensure that relying on them will not introduce editorial errors."
+        },
+        {
+          "label": "D",
+          "text": "positive, since scholars who reviewed the 1984 edition were unaffiliated with its production and were mostly either Joyce specialists who were largely unfamiliar with editorial theories and practices or specialists in such theories and practices who were insufficiently familiar with Joyce."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 15,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_000454",
+      "section": "reading_writing",
+      "question_number": 39,
+      "passage": "In Puerto Rico, it's not unusual for a city or town to be known by a nickname that corresponds to one of its notable features, like landscape, climate, famous residents, or chief exports. For example, the Puerto Rican municipality of Adjuntas has also been called \"the Switzerland of Puerto Rico,\" a nickname that alludes to what the area is well ________ its chillier temperatures.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "known for:"
+        },
+        {
+          "label": "B",
+          "text": "known for;"
+        },
+        {
+          "label": "C",
+          "text": "known for"
+        },
+        {
+          "label": "D",
+          "text": "known: for"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 16,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries"
+      }
+    },
+    {
+      "question_id": "bank_rw_000455",
+      "section": "reading_writing",
+      "question_number": 40,
+      "passage": "A region of the Soviet Union encompassing the present-day city of Sukhumi, Georgia, the Abkhazian-speaking Abkhaz Autonomous Soviet Socialist Republic was in fact only nominally autonomous. President Mikhail Gorbachev's reforms, by helping the Abkhaz Republic and other Soviet republics established along ethnolinguistic lines assert their prerogatives, ________ to the Soviet Union's breakup.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "contributing"
+        },
+        {
+          "label": "B",
+          "text": "having contributed"
+        },
+        {
+          "label": "C",
+          "text": "contributed"
+        },
+        {
+          "label": "D",
+          "text": "which contributed"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 17,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_000456",
+      "section": "reading_writing",
+      "question_number": 41,
+      "passage": "Minerals can be classified by how much light passes through them. For example, all (or almost all) light passes through kainite, which is classified as ________ only some light to pass through, hauyne is instead classified as translucent.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "transparent and allowing"
+        },
+        {
+          "label": "B",
+          "text": "transparent. Allowing"
+        },
+        {
+          "label": "C",
+          "text": "transparent, allowing"
+        },
+        {
+          "label": "D",
+          "text": "transparent allowing"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 18,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries"
+      }
+    },
+    {
+      "question_id": "bank_rw_000457",
+      "section": "reading_writing",
+      "question_number": 42,
+      "passage": "The artist Edvard Much's painting [i]The Scream[/i], symbolically ________ to portray the existential anxiety that can occur when facing the unknown, is a highly regarded example of allegory.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "functioning"
+        },
+        {
+          "label": "B",
+          "text": "was functioning"
+        },
+        {
+          "label": "C",
+          "text": "functions"
+        },
+        {
+          "label": "D",
+          "text": "has functioned"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 19,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_000458",
+      "section": "reading_writing",
+      "question_number": 43,
+      "passage": "The relationship between genomes and epigenomes reveals how cells with identical DNA develop different ________ whereas the genome in each cell contains a complete DNA sequence, the epigenome consists of chemical compounds that determine which traits in the sequence will be expressed.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "functions:"
+        },
+        {
+          "label": "B",
+          "text": "functions,"
+        },
+        {
+          "label": "C",
+          "text": "functions and,"
+        },
+        {
+          "label": "D",
+          "text": "functions"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 20,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries"
+      }
+    },
+    {
+      "question_id": "bank_rw_000459",
+      "section": "reading_writing",
+      "question_number": 44,
+      "passage": "That the geographic center of North America lay in the state of North Dakota was conceded by all ________ establishing its precise coordinates proved more divisive.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "involved"
+        },
+        {
+          "label": "B",
+          "text": "involved;"
+        },
+        {
+          "label": "C",
+          "text": "involved:"
+        },
+        {
+          "label": "D",
+          "text": "involved,"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 21,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries"
+      }
+    },
+    {
+      "question_id": "bank_rw_000460",
+      "section": "reading_writing",
+      "question_number": 45,
+      "passage": "Monument 4 is the name given to a 19.8-ton stone statue of a human head that was created during the ancient Olmec civilization. It was discovered in Tabasco, Mexico, at the La Venta archaeological site. ________ at the Tres Zapotes site in the state of Veracruz, another colossal head statue called Monument Q was discovered.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Elsewhere,"
+        },
+        {
+          "label": "B",
+          "text": "As a result,"
+        },
+        {
+          "label": "C",
+          "text": "Specifically,"
+        },
+        {
+          "label": "D",
+          "text": "For example,"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 22,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_000461",
+      "section": "reading_writing",
+      "question_number": 46,
+      "passage": "In the West African country of the Gambia, the percentage of the population living in cities increased from 59.2% to 62.6% between 2015 and 2020: this upward trend in urbanization was seen throughout that part of the continent. ________ from 2015 to 2020, the overall percentage of the West African population living in cities rose from 44.5% to 47.7%.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Later,"
+        },
+        {
+          "label": "B",
+          "text": "In reality,"
+        },
+        {
+          "label": "C",
+          "text": "Nevertheless,"
+        },
+        {
+          "label": "D",
+          "text": "Indeed,"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 23,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_000462",
+      "section": "reading_writing",
+      "question_number": 47,
+      "passage": "Ugandan American professor Peter Nazareth believed that Elvis Presley's music is best understood not as a homogeneous collection but as an anthology (because Elvis showcased the contributions of a wide range of gospel, blues, and rock artists). ________ Nazareth entitled his college course on Elvis and his music, which focused on Elvis's many musical influences. \"Elvis as Anthology.\"",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "In addition,"
+        },
+        {
+          "label": "B",
+          "text": "To that end,"
+        },
+        {
+          "label": "C",
+          "text": "In sum,"
+        },
+        {
+          "label": "D",
+          "text": "That is,"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 24,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_000463",
+      "section": "reading_writing",
+      "question_number": 48,
+      "passage": "● A copyright prevents a book's contents from being reproduced (published) without permission from the copyright holder.\n● When a book's copyright expires, the book enters the public domain.\n● Public domain books can be legally reproduced by anyone.\n● [i]New Hampshire[/i] is a poetry collection Dy Robert Frost.\n● It was published in 1923 and entered the public domain on January 1, 2019 (ninety-six years later).",
+      "prompt": "Which choice most effectively uses information from the given sentences to explain why [i]New Hampshire[/i] entered the public domain?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "[i]New Hampshire[/i], a poetry collection by Robert Frost, is freely available to the public."
+        },
+        {
+          "label": "B",
+          "text": "The copyright to [i]New Hampshire[/i] expired in 2019, causing the poetry collection to enter the public domain."
+        },
+        {
+          "label": "C",
+          "text": "Before [i]New Hampshire[/i] entered the public domain, only its copyright holder could give permission for others to reproduce its contents."
+        },
+        {
+          "label": "D",
+          "text": "Once [i]New Hampshire[/i] entered the public domain, anyone could publish its contents."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 25,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_000464",
+      "section": "reading_writing",
+      "question_number": 49,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n● Ixmiquilpan is a municipality in the state of Hidalgo, Mexico.\n● Municipalities are governmental regions responsible for providing many public services to their residents.\n● One service they provide is water treatment.\n● Ixmiquilpan's population was 98.654 in 2020.\n● Hidalgo is divided into 84 municipalities.",
+      "prompt": "The student wants to provide a specific example of what municipalities provide. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Ixmiquilpan is one of 84 municipalities in Hidalgo. Mexico"
+        },
+        {
+          "label": "B",
+          "text": "In 2020, the municipality of Ixmiquilpan had a population of 98.654"
+        },
+        {
+          "label": "C",
+          "text": "Water treatment is just one of the many public services that municipalities provide."
+        },
+        {
+          "label": "D",
+          "text": "The municipality Ixmiquilpan in Hidalgo is responsible for providing many public services."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 26,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_000465",
+      "section": "reading_writing",
+      "question_number": 50,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n● The Mohs scale of mineral hardness is a ten-point scale that orders minerals by hardness based on their ability to scratch other minerals.\n● Minerals with larger numbers are harder than minerals with smaller numbers and can leave visible scratches on them.\n● Minerals with smaller numbers are softer than minerals with larger numbers and cannot leave visible scratches on them.\n● The mineral calcite has a Mohs scale number of 3.\n● The mineral orthoclase has a Mohs scale number of 6.\n● The mineral topaz has a Mohs scale number of 8.",
+      "prompt": "The student wants to compare the hardness of calcite and topaz. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A mineral with a Mohs number of 6, like orthoclase, is harder than one with a Mohs number of 3, like calcite."
+        },
+        {
+          "label": "B",
+          "text": "Topaz can leave visible scratches on calcite, which means that topaz is harder than calcite."
+        },
+        {
+          "label": "C",
+          "text": "Topaz can leave visible scratches on orthoclase, which is why topaz has a higher number than orthoclase on the Mohs scale of mineral hardness."
+        },
+        {
+          "label": "D",
+          "text": "The Mohs scale of muneral hardness can be used to order orthoclase, calcite, and topaz by their ability to scratch other minerals."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2024年3月机考真题第2套(B卷)",
+      "source_question_number": 27,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    }
+  ]
+}

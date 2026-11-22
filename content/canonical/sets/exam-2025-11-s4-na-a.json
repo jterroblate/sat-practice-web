@@ -1,0 +1,1494 @@
+{
+  "schemaVersion": "sat-canonical-question-collection-v1",
+  "contentId": "set-exam-2025-11-s4-na-a",
+  "title": "2025年11月机考真题第4套(北美A卷)",
+  "section": "reading_writing",
+  "questionCount": 33,
+  "questions": [
+    {
+      "question_id": "bank_rw_000905",
+      "section": "reading_writing",
+      "question_number": 1,
+      "passage": "The following text is adapted from the 1895 poem \"Ojistoh\" by Emily Pauline Johnson, a Kanienkahagen (Mohawk) writer also known as Tekahionwake.\n\nI am Ojistoh, I am she, the wife\nOf him whose name [u]breathes[/u] bravery and life\nAnd courage to the tribe who calls him chief.\nI am Ojistoh, his white star, and he\nIs land, and lake, and sky—and soul to me.",
+      "prompt": "As used in the text, what does the word \"breathes\" most nearly mean?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "absorbs"
+        },
+        {
+          "label": "B",
+          "text": "rejects"
+        },
+        {
+          "label": "C",
+          "text": "acquiesces"
+        },
+        {
+          "label": "D",
+          "text": "imparts"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025年11月机考真题第4套(北美A卷)",
+      "source_question_number": 3,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_000906",
+      "section": "reading_writing",
+      "question_number": 2,
+      "passage": "Bing Xie and her team have discovered that plains zebras make at least four types of vocalizations: \"snorts,\" \"soft snorts,\" \"squeals,\" and \"quagga quagga\" calls. The researchers used machine-learning algorithms to _____ recorded vocalizations according to type, finding that snorts vary across individual zebras, while squeals are more uniform across zebra populations.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "suppress"
+        },
+        {
+          "label": "B",
+          "text": "extend"
+        },
+        {
+          "label": "C",
+          "text": "collapse"
+        },
+        {
+          "label": "D",
+          "text": "categorize"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025年11月机考真题第4套(北美A卷)",
+      "source_question_number": 4,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_000907",
+      "section": "reading_writing",
+      "question_number": 3,
+      "passage": "Understanding juvenile sea turtles' migratory patterns is crucial for conservation efforts. While adult sea turtles are well studied, little is known about juveniles during their oceanic stage, when they spend most of their time in the open ocean. To learn about this stage, researchers tagged and released six juvenile green sea turtles ([i]Chelonia mydas[/i]) into the eastern Caribbean Sea. Their findings revealed that the majority of the turtles passively drifted with ocean currents throughout the region. However, two individuals swam against the currents, possibly in search of foraging grounds off the coast of South America.",
+      "prompt": "Which choice best states the main purpose of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To compare the behavior of adult and juvenile sea turtles during migration"
+        },
+        {
+          "label": "B",
+          "text": "To summarize research on an understudied stage of sea turtle development"
+        },
+        {
+          "label": "C",
+          "text": "To suggest reasons why some juvenile sea turtles swim against the ocean currents"
+        },
+        {
+          "label": "D",
+          "text": "To describe successful conservation efforts for sea turtles"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025年11月机考真题第4套(北美A卷)",
+      "source_question_number": 6,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_000908",
+      "section": "reading_writing",
+      "question_number": 4,
+      "passage": "The following text is from Robert Lowell's 1964 poem \"For the Union Dead.\" The South Boston Aquarium closed permanently in 1954.\n\nThe old South Boston Aquarium stands in a Sahara of snow now.\nIts broken windows are boarded.\nThe bronze weathervane cod has lost half its scales.\nThe airy tanks are dry.\n\n©2003 by Robert Lowell",
+      "prompt": "Which choice best states the main purpose of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To contrast the effects of different kinds of weather on a building"
+        },
+        {
+          "label": "B",
+          "text": "To argue that a building should be rehabilitated"
+        },
+        {
+          "label": "C",
+          "text": "To describe details of the deteriorated state of a building"
+        },
+        {
+          "label": "D",
+          "text": "To explain why a once-popular building was abandoned"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年11月机考真题第4套(北美A卷)",
+      "source_question_number": 7,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_000909",
+      "section": "reading_writing",
+      "question_number": 5,
+      "passage": "Linguist John McWhorter asserts that translation apps for smartphones and computers are—despite generally failing to convey many nuances—increasingly obviating the need to learn new languages. Advances in language processing technology have greatly boosted the utility of these apps for perfunctory tasks, like inquiring about an item on a menu, and passing interactions; be that as it may, richer communication (e.g., in business dealings or meaningful personal exchanges) often hinges on conversational patterns and gradations of meaning.",
+      "prompt": "What does the text most directly suggest about translation apps?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "They have improved remarkably over time but remain insufficient to support the complexity called for in certain interactions."
+        },
+        {
+          "label": "B",
+          "text": "They have gained impressive capabilities but continue to be widely viewed as inadequate for most practical purposes."
+        },
+        {
+          "label": "C",
+          "text": "They are becoming simpler to use but are inconsistent in how comprehensively they cover different languages."
+        },
+        {
+          "label": "D",
+          "text": "They are coming to be embraced by international tourists but are viewed with skepticism by many business professionals."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025年11月机考真题第4套(北美A卷)",
+      "source_question_number": 8,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_000913",
+      "section": "reading_writing",
+      "question_number": 6,
+      "passage": "[i]Peter Pan[/i] is a 1911 novel by J.M. Barrie. In the fantasy novel, Peter is a young boy who can fly. He brings Wendy, John, and Michael to Neverland, the mythical island where he lives. The narrator suggests that activity on the island stops when Peter is away and starts again when he is about to return: _______",
+      "prompt": "Which quotation from [i]Peter Pan[/i] best supports the claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"There is no entrance to be seen.\""
+        },
+        {
+          "label": "B",
+          "text": "\"Wendy and John and Michael stood on tip-toe in the air to get their first sight of the island.\""
+        },
+        {
+          "label": "C",
+          "text": "\"Feeling that Peter was on his way back, the Neverland had again woke into life.\""
+        },
+        {
+          "label": "D",
+          "text": "\"[Wendy] was often at the lagoon on sunny days after rain.\""
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年11月机考真题第4套(北美A卷)",
+      "source_question_number": 12,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_000917",
+      "section": "reading_writing",
+      "question_number": 7,
+      "passage": "While some biologists cite the general lineage species concept (Queiroz 1998), others adhere to the biological species concept (Coyne and Orr 2004), with at least fourteen other concepts used across the field. Such lack of consensus, however, isn't necessarily cause for alarm. Scholars supporting a pluralist approach—in place of a single, monistic concept—to defining a species _____ that a diversity of species concepts fits their equally diverse applications throughout the discipline.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "is arguing"
+        },
+        {
+          "label": "B",
+          "text": "to argue"
+        },
+        {
+          "label": "C",
+          "text": "argue"
+        },
+        {
+          "label": "D",
+          "text": "argues"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年11月机考真题第4套(北美A卷)",
+      "source_question_number": 16,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_000918",
+      "section": "reading_writing",
+      "question_number": 8,
+      "passage": "Brigadier General Virgilio Cordero was a soldier in the United States 65th Infantry Regiment, a Puerto Rico-based regiment of the US Army. In 2016, the United States Congress honored Cordero and the other servicepeople of the 65th Infantry Regiment with one of its highest ______ Congressional Gold Medal.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "honors; the"
+        },
+        {
+          "label": "B",
+          "text": "honors the"
+        },
+        {
+          "label": "C",
+          "text": "honors: the"
+        },
+        {
+          "label": "D",
+          "text": "honors (the"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年11月机考真题第4套(北美A卷)",
+      "source_question_number": 17,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries"
+      }
+    },
+    {
+      "question_id": "bank_rw_000919",
+      "section": "reading_writing",
+      "question_number": 9,
+      "passage": "Bertie Marshall, a key figure in the history of steel band music in Trinidad and Tobago, made several innovations to the steel _____ wheels so the instrument could be easily transported during Carnival, a cover to protect the pans from the sun, and amplification so the sound of the pans could be better heard over large crowds and other instrumentation.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "drum,"
+        },
+        {
+          "label": "B",
+          "text": "drum;"
+        },
+        {
+          "label": "C",
+          "text": "drum"
+        },
+        {
+          "label": "D",
+          "text": "drum:"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025年11月机考真题第4套(北美A卷)",
+      "source_question_number": 18,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries"
+      }
+    },
+    {
+      "question_id": "bank_rw_000920",
+      "section": "reading_writing",
+      "question_number": 10,
+      "passage": "The city of Seoul, South Korea, is home to an office of the International Criminal Police Organization (Interpol). However, you won't see Interpol agents chasing international criminals in Seoul. Interpol can help with investigations, but only South Korean authorities ____ permitted to make arrests there.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "were"
+        },
+        {
+          "label": "B",
+          "text": "had been"
+        },
+        {
+          "label": "C",
+          "text": "are"
+        },
+        {
+          "label": "D",
+          "text": "were being"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年11月机考真题第4套(北美A卷)",
+      "source_question_number": 19,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_000921",
+      "section": "reading_writing",
+      "question_number": 11,
+      "passage": "Astronomers Annie and Edward Maunder meticulously studied historical records of dark areas on the sun's surface known as sunspots. Their work in the late 1800s led to the identification of a period from 1645 to 1715—now known as the Maunder ______ sunspots were notably scarce, a phenomenon that solar physicists continue to investigate.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Minimum—when"
+        },
+        {
+          "label": "B",
+          "text": "Minimum: when"
+        },
+        {
+          "label": "C",
+          "text": "Minimum, when"
+        },
+        {
+          "label": "D",
+          "text": "Minimum when"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025年11月机考真题第4套(北美A卷)",
+      "source_question_number": 20,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries"
+      }
+    },
+    {
+      "question_id": "bank_rw_000922",
+      "section": "reading_writing",
+      "question_number": 12,
+      "passage": "When ordering the branches of the Susitna River system, cartographers tend to begin with the riverway's lowest point, the Susitna River. _____ hydrologists begin at the top of the river system, with the Skwentna River and other tributaries fed by the riverway's source, Alaska's Susitna Glacier.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "For example,"
+        },
+        {
+          "label": "B",
+          "text": "In other words,"
+        },
+        {
+          "label": "C",
+          "text": "In a similar way,"
+        },
+        {
+          "label": "D",
+          "text": "By contrast,"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025年11月机考真题第4套(北美A卷)",
+      "source_question_number": 21,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_000924",
+      "section": "reading_writing",
+      "question_number": 13,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n· The waved albatross is a species of bird found in the Galápagos Islands.\n· It has an average weight of 3,800 grams.\n· The vegetarian finch is a species of bird found in the Galápagos Islands.\n· It has an average weight of 34 grams.",
+      "prompt": "The student wants to emphasize a difference between the two bird species. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "On average, the waved albatross weighs 3,800 grams, while the vegetarian finch weighs only 34 grams."
+        },
+        {
+          "label": "B",
+          "text": "The vegetarian finch and the waved albatross can be found in the Galápagos Islands."
+        },
+        {
+          "label": "C",
+          "text": "The waved albatross is a bird with an average weight of 3,800 grams."
+        },
+        {
+          "label": "D",
+          "text": "The vegetarian finch and the waved albatross are both bird species."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025年11月机考真题第4套(北美A卷)",
+      "source_question_number": 23,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_000925",
+      "section": "reading_writing",
+      "question_number": 14,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n· The human tongue contains taste receptors for a rich, savory flavor called umami.\n· Umami is triggered by the compounds in a variety of foods, including tuna and blue cheese.\n· Participants in a study tasted a sample of sea palm, a type of brown seaweed.\n· They rated its umami intensity as moderate.\n· The participants tasted a sample of bull kelp, another type of brown seaweed.\n· They rated its umami intensity as high.",
+      "prompt": "The student wants to emphasize a difference between the two seaweeds. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "After tasting two types of brown seaweed, sea palm and bull kelp, participants in a study found bull kelp's umami flavor to be the more intense of the two."
+        },
+        {
+          "label": "B",
+          "text": "While sea palm and bull kelp contain umami flavor, umami can also be found in tuna and blue cheese."
+        },
+        {
+          "label": "C",
+          "text": "Sea palm is a type of brown seaweed, but so is bull kelp."
+        },
+        {
+          "label": "D",
+          "text": "Some types of brown seaweed, like sea palm and bull kelp, trigger umami flavor in human taste buds."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025年11月机考真题第4套(北美A卷)",
+      "source_question_number": 24,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_000926",
+      "section": "reading_writing",
+      "question_number": 15,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n· Usually, a country's capital is also its largest city by population.\n· The capital of Kazakhstan is Nur-Sultan.\n· Its largest city by population is Almaty.\n· The capital of New Zealand is Wellington.\n· Its largest city by population is Auckland.",
+      "prompt": "The student wants to emphasize a similarity between Almaty and Auckland. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "While Almaty is in Kazakhstan, Auckland is in New Zealand."
+        },
+        {
+          "label": "B",
+          "text": "The capital of Kazakhstan is Nur-Sultan; the capital of New Zealand is Wellington."
+        },
+        {
+          "label": "C",
+          "text": "Although neither is a capital city, both Almaty and Auckland are the most populous cities in their countries."
+        },
+        {
+          "label": "D",
+          "text": "The most populous city in Kazakhstan is Almaty, but its capital is Nur-Sultan."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年11月机考真题第4套(北美A卷)",
+      "source_question_number": 25,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_000927",
+      "section": "reading_writing",
+      "question_number": 16,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n· Lighthouses send out crucial light signals to help ships and other watercraft navigate at night.\n· Before automation, lighthouses were run by lighthouse keepers.\n· Fannie May Salter was the lighthouse keeper at Turkey Point Light in Maryland.\n· She held this position for twenty-two years (1925-1947).\n· Ida Lewis was the lighthouse keeper at Lime Rock Light in Rhode Island.\n· She held this position for fifty-four years (1857-1911).",
+      "prompt": "The student wants to compare the length of time Fannie May Salter and Ida Lewis worked as lighthouse keepers. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Fannie May Salter and Ida Lewis were both lighthouse keepers at a time when such a person was needed to operate a lighthouse."
+        },
+        {
+          "label": "B",
+          "text": "From 1925 to 1947, the nighttime waters of Maryland were more navigable thanks to lighthouse keepers Fannie May Salter and Ida Lewis."
+        },
+        {
+          "label": "C",
+          "text": "Fannie May Salter worked as a lighthouse keeper for twenty-two years, but Ida Lewis did so for even longer: fifty-four years."
+        },
+        {
+          "label": "D",
+          "text": "Before automation, lighthouse keepers like Fannie May Salter, who served for twenty-two years, and Ida Lewis were crucial to ensuring safe navigation for watercraft."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年11月机考真题第4套(北美A卷)",
+      "source_question_number": 26,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_000928",
+      "section": "reading_writing",
+      "question_number": 17,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n· Bert terHart is a Canadian sailor.\n· [i]Seaburban[/i] is a sailboat.\n· terHart sailed [i]Seaburban[/i] on a nonstop, 266-day journey around the world.\n· Jesse Martin is an Australian sailor.\n· [i]Lionheart[/i] is a sailboat.\n· Martin sailed [i]Lionheart[/i] on a nonstop, 328-day journey around the world.",
+      "prompt": "The student wants to compare the durations of the two sailors' journeys. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Both Martin and terHart embarked on sailing journeys around the world."
+        },
+        {
+          "label": "B",
+          "text": "Martin's journey took place aboard [i]Lionheart[/i], while terHart sailed on [i]Seaburban[/i]."
+        },
+        {
+          "label": "C",
+          "text": "Canadian sailor Bert terHart sailed [i]Seaburban[/i] around the world in 266 days."
+        },
+        {
+          "label": "D",
+          "text": "Martin's 328-day journey around the world took longer than terHart's 266-day journey."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025年11月机考真题第4套(北美A卷)",
+      "source_question_number": 27,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_000929",
+      "section": "reading_writing",
+      "question_number": 18,
+      "passage": "Exposed to harsh environmental conditions for centuries, lighthouses such as La Jument lighthouse off the coast of Brittany, France, exemplify the ______ between marine structures and ocean forces: the continuous impact of breaking waves necessitates periodic reinforcements to or redesigns of the structures that in turn may alter local wave patterns.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "interplay"
+        },
+        {
+          "label": "B",
+          "text": "incongruity"
+        },
+        {
+          "label": "C",
+          "text": "tension"
+        },
+        {
+          "label": "D",
+          "text": "continuum"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025年11月机考真题第4套(北美A卷)",
+      "source_question_number": 1,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_000930",
+      "section": "reading_writing",
+      "question_number": 19,
+      "passage": "The Yupno people of the remote Finisterre Range of Papua New Guinea do not measure age and have no artificial means (e.g., clocks) of tracking time, but this does not imply that the Yupno are _____ time. As Rafael Núñez and colleagues have recently shown, the Yupno language contains many temporal expressions, such as [i]usa-don sonda[/i], which translates to \"next week.\"",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "dependent on"
+        },
+        {
+          "label": "B",
+          "text": "meticulous about"
+        },
+        {
+          "label": "C",
+          "text": "inattentive to"
+        },
+        {
+          "label": "D",
+          "text": "preoccupied with"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年11月机考真题第4套(北美A卷)",
+      "source_question_number": 2,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_000932",
+      "section": "reading_writing",
+      "question_number": 20,
+      "passage": "Establishing protected areas (PAs), such as South Luangwa National Park in Zambia, is a common conservation strategy, but because PAs restrict some kinds of economic activity, it's widely thought that they hinder economic development. This perception is driven in part by the fact that economic assessments often don't capture the indirect effects of tourism linked to PAs. But Hasita Bhammar et al. found that tourism associated with South Luangwa boosts local demand for goods and services in other economic sectors, resulting in, for instance, increased income from livestock production in nearby areas.",
+      "prompt": "Which choice best describes the overall structure of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It makes a generalization about the difficulty of using PAs to reconcile economic and conservation priorities, demonstrates why most PAs fall short of achieving that goal, and then holds up a particular PA as an example of how that goal can be achieved."
+        },
+        {
+          "label": "B",
+          "text": "It explains how PAs typically affect economic development in the regions where they are established, summarizes the findings of several economic studies that support this explanation, and then concedes that a particular PA is an exception to the general trend."
+        },
+        {
+          "label": "C",
+          "text": "It introduces a widely held belief about the effect PAs have on the economy, proposes a reason for that belief's prevalence, and then details a study whose findings seemingly conflict with that belief."
+        },
+        {
+          "label": "D",
+          "text": "It states a hypothesis that accounts for why PAs generally negatively impact local economies, outlines how a research team's findings support that hypothesis, and then suggests how a novel methodology led a separate team of researchers to a different conclusion."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年11月机考真题第4套(北美A卷)",
+      "source_question_number": 4,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_000933",
+      "section": "reading_writing",
+      "question_number": 21,
+      "passage": "Most Native languages belong to language families, or groups of languages whose structural and lexical correspondence likely derives from their descent from a single language spoken long ago. A minority—such as Zuni, which is spoken in New Mexico, and Haida, which is spoken in Alaska—are isolates, having no demonstrable genealogical relationship to other languages. [u]Yet Zuni and Haida, like all isolates, are potentially remnants of families whose other members vanished before the historical record could attest to them, perhaps through the geographical expansion of extant families.[/u]",
+      "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It implies that a nonisolate language may have influenced both Zuni and Haida to such a degree that their relationship to their former families is no longer discernible."
+        },
+        {
+          "label": "B",
+          "text": "It asserts that the historical record tends to overrepresent nonisolate languages relative to isolates, such that the origins of Zuni and Haida are obscure to scholars in the present day."
+        },
+        {
+          "label": "C",
+          "text": "It suggests that the ancestral languages of both Zuni and Haida were likely isolates that replaced nonisolate languages through geographic expansion in the distant past."
+        },
+        {
+          "label": "D",
+          "text": "It proposes that the distinction made between present-day nonisolate languages and isolates like Zuni and Haida may not have been applicable in the distant past."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025年11月机考真题第4套(北美A卷)",
+      "source_question_number": 6,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_000937",
+      "section": "reading_writing",
+      "question_number": 22,
+      "passage": "From steel production to fuel for residential heating, hydrogen has many applications. Currently, producing hydrogen is carbon intensive, but Rebecca R. Beswick is one of many scholars investigating the feasibility of large-scale production of hydrogen through electrolysis, a process that emits no carbon when renewable energy is used. Beswick suggests that although some obstacles may prevent electrolytic hydrogen from dominating energy systems, there is utility in its ability to decarbonize the steel and heating industries, where reducing carbon emissions is especially challenging.",
+      "prompt": "Which statement about the use of hydrogen in the steel and heating industries is most strongly supported by the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Development of applications for electrolytic hydrogen is less advanced in these industries than it is in most other carbon-intensive industries."
+        },
+        {
+          "label": "B",
+          "text": "The fact that large-scale electrolytic hydrogen production is not yet available has limited these industries' interest in pursuing hydrogen-based applications."
+        },
+        {
+          "label": "C",
+          "text": "The adoption of electrolytic hydrogen by these industries has been impeded by concerns about how carbon intensive its production is."
+        },
+        {
+          "label": "D",
+          "text": "At least some of electrolytic hydrogen's potential to lessen these industries' carbon emissions is as yet unrealized."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025年11月机考真题第4套(北美A卷)",
+      "source_question_number": 11,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_000938",
+      "section": "reading_writing",
+      "question_number": 23,
+      "passage": "Pablo Picasso famously subverted the norms of traditional painting: in his cubist paintings he refused to let his expression be constrained, fragmenting objects and figures to present multiple perspectives simultaneously. Though less widely known, Picasso—who once lamented that writers of his time had \"limited themselves to moving around words somewhat while respecting the syntax\"—also wrote poetry that defied conventional grammar, semantic relationships, and text structure. Thus, the paintings and poems are linked in that ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the poems are intended to be understood as explanations of the artistic inclinations reflected in the paintings."
+        },
+        {
+          "label": "B",
+          "text": "the poems present many of the same subjects as the paintings but with different thematic approaches."
+        },
+        {
+          "label": "C",
+          "text": "both exhibit Picasso's prioritization of creative expression over the standard rules of the art forms."
+        },
+        {
+          "label": "D",
+          "text": "both types of work are characterized by the simultaneous representation of multiple points of view that Picasso is known for."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年11月机考真题第4套(北美A卷)",
+      "source_question_number": 13,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_000939",
+      "section": "reading_writing",
+      "question_number": 24,
+      "passage": "Duckweed is a small freshwater plant that is often exposed to zinc pollution. Sofia Vámos and colleagues collected samples of four duckweed ecotypes (genetically and geographically distinct populations within a species), along with water from each ecotype's habitat. Hypothesizing that each ecotype is adapted to its local conditions in ways that bolster its growth and resistance to pollutants, the researchers grew each ecotype in all four water samples and with three levels of zinc (none, low, high). (The researchers did not replicate local differences in light or temperature.) They found that the ecotypes grew equally well in all four water samples and that adding zinc consistently enhanced growth, regardless of concentration, suggesting that ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "if each ecotype is indeed locally adapted as the researchers hypothesized, those adaptations are to other environmental conditions than the water each ecotype inhabits."
+        },
+        {
+          "label": "B",
+          "text": "there may not be significant differences in the water that each ecotype inhabits, but there are significant differences in each ecotype's resistance to zinc pollution."
+        },
+        {
+          "label": "C",
+          "text": "although the researchers' hypothesis does not appear to be supported, this may be because the levels of zinc exposure the plants in the experiment received did not match their exposure in their natural environments."
+        },
+        {
+          "label": "D",
+          "text": "while the ecotypes are genetically and geographically distinct, those differences do not represent adaptations to local environmental conditions."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025年11月机考真题第4套(北美A卷)",
+      "source_question_number": 14,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_000941",
+      "section": "reading_writing",
+      "question_number": 25,
+      "passage": "To British musician Jacob Collier, substituting the iii7 chord for the bVI6 chord—its opposite in pitch and tone—adds expression to improvisation without creating dissonance. This conceptualization of harmonic opposites did not originate with _____ in 1985, the idea was first articulated in Swiss musicologist Ernst Levy's posthumously published book[i] A Theory of Harmony[/i].",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Collier, though,"
+        },
+        {
+          "label": "B",
+          "text": "Collier, though"
+        },
+        {
+          "label": "C",
+          "text": "Collier, though;"
+        },
+        {
+          "label": "D",
+          "text": "Collier; though,"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年11月机考真题第4套(北美A卷)",
+      "source_question_number": 16,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries"
+      }
+    },
+    {
+      "question_id": "bank_rw_000943",
+      "section": "reading_writing",
+      "question_number": 26,
+      "passage": "Many works of the Greek poet Nicander (2nd century BCE) are _____ his [i]Theriaca[/i], a poem about venomous animals, is an extant work: it can still be read.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "lost, conversely,"
+        },
+        {
+          "label": "B",
+          "text": "lost, and conversely"
+        },
+        {
+          "label": "C",
+          "text": "lost. Conversely,"
+        },
+        {
+          "label": "D",
+          "text": "lost and conversely,"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年11月机考真题第4套(北美A卷)",
+      "source_question_number": 18,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries"
+      }
+    },
+    {
+      "question_id": "bank_rw_000944",
+      "section": "reading_writing",
+      "question_number": 27,
+      "passage": "On December 2, 1992, the space shuttle [i]Discovery[/i] blasted off into space, commencing Mission _______ seven days and seven hours, the mission ended when the shuttle landed at Edwards Air Force Base in California.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "STS-53, it lasted"
+        },
+        {
+          "label": "B",
+          "text": "STS-53. Lasting"
+        },
+        {
+          "label": "C",
+          "text": "STS-53, lasting"
+        },
+        {
+          "label": "D",
+          "text": "STS-53 lasting"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025年11月机考真题第4套(北美A卷)",
+      "source_question_number": 20,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries"
+      }
+    },
+    {
+      "question_id": "bank_rw_000945",
+      "section": "reading_writing",
+      "question_number": 28,
+      "passage": "Nineteenth-century Modernista architects championed nature in their designs. Granted, the domed rooftop and painted floral designs of Casa Estapé, a Modernista private home designed by Bernardí Martorell i Rius, couldn't exactly grow in a forest. _____ one sees natural influences in Martorell i Rius's penchant for curves (rather than right angles) and plant- and animal-inspired flourishes.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Still,"
+        },
+        {
+          "label": "B",
+          "text": "Similarly,"
+        },
+        {
+          "label": "C",
+          "text": "Furthermore,"
+        },
+        {
+          "label": "D",
+          "text": "In other words,"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025年11月机考真题第4套(北美A卷)",
+      "source_question_number": 21,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_000946",
+      "section": "reading_writing",
+      "question_number": 29,
+      "passage": "The Republic of Pisa, a sea power based in the Mediterranean port city of Pisa that reached its height around 1100 CE, is considered a thalassocracy—a geopolitical entity whose hegemony resulted from control of the sea rather than of land. Historians classify thalassocracies as distinct from tellurocracies, or land-based powers. ____ the British Empire (1600s-1900s CE) is known for both land and sea supremacy.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "In other words, empires are classified according to their source of power:"
+        },
+        {
+          "label": "B",
+          "text": "For example, tellurocracies have long overpowered their rivals:"
+        },
+        {
+          "label": "C",
+          "text": "Of course, the distinction is not always so neat:"
+        },
+        {
+          "label": "D",
+          "text": "Likewise, thalassocracies are sea-based powers:"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年11月机考真题第4套(北美A卷)",
+      "source_question_number": 22,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_000947",
+      "section": "reading_writing",
+      "question_number": 30,
+      "passage": "Brain imaging research led by neuroscientist Dwaynica Greaves found that actors showed suppressed responses in the left anterior prefrontal cortex (the portion of the brain associated with self-awareness) when their names were called during performances; ____ the actors' responses were normal in nonacting contexts. These findings suggest that when embodying characters, performers may temporarily set aside their personal identities.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "thus,"
+        },
+        {
+          "label": "B",
+          "text": "likewise,"
+        },
+        {
+          "label": "C",
+          "text": "conversely,"
+        },
+        {
+          "label": "D",
+          "text": "specifically,"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年11月机考真题第4套(北美A卷)",
+      "source_question_number": 23,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_000948",
+      "section": "reading_writing",
+      "question_number": 31,
+      "passage": "Though its onboard laboratory allowed it to analyze rock samples on-site, the 2011 Mars [i]Curiosity[/i] rover was unable to preserve samples for future analysis. _____ when creating the 2020 Mars [i]Perseverance[/i] rover, electrical engineer Dania Lazo and other members of NASA'S Jet Propulsion Laboratory sought to implement a mechanism that could do exactly that.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Specifically,"
+        },
+        {
+          "label": "B",
+          "text": "Earlier,"
+        },
+        {
+          "label": "C",
+          "text": "Similarly,"
+        },
+        {
+          "label": "D",
+          "text": "Hence,"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025年11月机考真题第4套(北美A卷)",
+      "source_question_number": 24,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_000949",
+      "section": "reading_writing",
+      "question_number": 32,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n· Melissa Cody is a Diné (Navajo) textile artist known for blending traditional Diné designs (stripes, zigzags, and diamond patterns) with nontraditional elements.\n· Cody's work incorporates arrangements of shapes or text inspired by video game graphics and pop culture references.\n· Cody: \"I'm a child of '80s video game culture...I grew up with this world of pixelization.\"\n· Cody: \"The things we consider tradition now weren't considered tradition when they first came about!\"\n· Her tapestry [i]Rainbow Road[/i] features words in a blocky digital font surrounded by a pattern of colored diamonds.\n· Her tapestry [i]Lightning Storm[/i] features a blank column of undyed wool next to a blue zigzag stripe.",
+      "prompt": "The student wants to connect a quotation to a particular nontraditional design element in Cody's work. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The words in a blocky digital font in [i]Rainbow Road[/i] reflect Cody's childhood familiarity with blocky video game graphics—what she calls \"this world of pixelization.\""
+        },
+        {
+          "label": "B",
+          "text": "Cody's background as \"a child of '80s video game culture\" factored into her decision to blend traditional and nontraditional design elements in [i]Lightning Storm[/i]."
+        },
+        {
+          "label": "C",
+          "text": "Cody's tapestry [i]Rainbow Road[/i] features a pattern of colored diamonds, a traditional design element that \"we consider tradition now.\""
+        },
+        {
+          "label": "D",
+          "text": "According to Cody, some elements of [i]Lightning Storm[/i], such as a blue zigzag stripe, \"weren't considered tradition when they first came about.\""
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025年11月机考真题第4套(北美A卷)",
+      "source_question_number": 25,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_000950",
+      "section": "reading_writing",
+      "question_number": 33,
+      "passage": "While researching a topic, a student has taken the following notes:\n\n· In the Electoral College system that determines the outcome of US presidential elections, the winner of Minnesota's popular vote receives all 10 of Minnesota's electoral votes.\n· A 2001 article written by law professors Akhil and Vikram Amar proposed that states could instead agree to award their electoral votes to the winner of the national popular vote.\n· The Amars' idea is the basis of the National Popular Vote Interstate Compact (NPVIC).\n· If states holding a majority of electoral college votes (270) adopt the NPVIC, the compact will take effect and adopters will award their electoral votes accordingly.\n· Minnesota adopted the NPVIC in 2023.",
+      "prompt": "The student wants to explain the significance of Minnesota's NPVIC adoption. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Because it has adopted the NPVIC, Minnesota will award its electoral votes to the winner of the state's popular vote—once states holding a majority of electoral college votes (270) do the same."
+        },
+        {
+          "label": "B",
+          "text": "According to the idea proposed by the Amars, the winner of Minnesota's popular vote will receive all of the state's electoral votes if the NPVIC takes effect."
+        },
+        {
+          "label": "C",
+          "text": "If the NPVIC takes effect, adopter Minnesota will award all 10 of its electoral votes to the winner of the national, rather than the state's, popular vote."
+        },
+        {
+          "label": "D",
+          "text": "An agreement among US states to award their electoral votes to the presidential candidate who wins the national popular vote was adopted by Minnesota in 2023."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年11月机考真题第4套(北美A卷)",
+      "source_question_number": 26,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    }
+  ]
+}

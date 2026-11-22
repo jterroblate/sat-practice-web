@@ -95,9 +95,9 @@ class FullContentPipelineTests(unittest.TestCase):
     def test_01_full_identity_answer_and_route_contract(self):
         registry = load(self.checkout / "sat-content-registry.json")
         self.assertEqual(Counter(e["kind"] for e in registry["entries"]),
-                         {"set": 34, "collection": 3, "category": 11})
-        self.assertEqual(self.manifest["pageCount"], 48)
-        self.assertEqual(self.manifest["uniqueQuestionCount"], 1752)
+                         {"set": 70, "collection": 37, "category": 11})
+        self.assertEqual(self.manifest["pageCount"], 118)
+        self.assertEqual(self.manifest["uniqueQuestionCount"], 4054)
         answers = {}
         revisions = {}
         occurrences = 0
@@ -114,8 +114,8 @@ class FullContentPipelineTests(unittest.TestCase):
                 if qid in answers:
                     self.assertEqual(answer, answers[qid], "Shared question IDs must use the same answer")
                 answers[qid] = answer
-        self.assertEqual(occurrences, 1765)
-        self.assertEqual(len(answers), 1752)
+        self.assertEqual(occurrences, 4067)
+        self.assertEqual(len(answers), 4054)
         category_coverage = Counter(qid for page in self.manifest["pages"]
                                     if page["kind"] == "category" for qid in page["questionIds"])
         self.assertEqual(set(category_coverage), set(answers))
@@ -244,7 +244,7 @@ class FullContentPipelineTests(unittest.TestCase):
             self.assertEqual(completed.returncode, 0, completed.stderr)
             self.assertTrue((checkout / "build/site" / new_path).is_file())
             self.assertFalse((checkout / "build/site" / old_path).exists())
-            self.assertEqual(load(checkout / "build/site/sat-practice-manifest.json")["uniqueQuestionCount"], 1752)
+            self.assertEqual(load(checkout / "build/site/sat-practice-manifest.json")["uniqueQuestionCount"], 4054)
             self.assertEqual((checkout / "docs/content-export.json").read_bytes(), historical_report)
 
 

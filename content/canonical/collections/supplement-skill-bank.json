@@ -1,0 +1,1748 @@
+{
+  "schemaVersion": "sat-canonical-question-collection-v1",
+  "contentId": "collection-supplement-skill-bank",
+  "title": "分类题库补充题",
+  "section": "reading_writing",
+  "questionCount": 33,
+  "questions": [
+    {
+      "question_id": "bank_rw_001781",
+      "section": "reading_writing",
+      "question_number": 1,
+      "passage": "Nigerian American author Teju Cole's ______ his two passions—photography and the written word—culminates in his 2017 book, [i]Blind Spot[/i], which evocatively combines his original photographs from his travels with his poetic prose.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "indifference to"
+        },
+        {
+          "label": "B",
+          "text": "enthusiasm for"
+        },
+        {
+          "label": "C",
+          "text": "concern about"
+        },
+        {
+          "label": "D",
+          "text": "surprise at"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Craft and Structure/Words in Context/Easy",
+      "source_question_number": 36,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer because it most logically completes the text's discussion of Cole's book [i]Blind Spot[/i]. In this context, \"enthusiasm for\" means excitement about. The text explains that [i]Blind Spot [/i]consists of original photographs as well as poetic prose-two elements that correspond to Cole's passions, identified in the text, for photography and the written word. This context suggests that Cole's excitement about photography and writing led him to create a book that successfully combines the two mediums.\n\nChoice A is incorrect because describing Cole as feeling \"indifference to\" his two passions wouldn't make sense in context. If Cole is indifferent to his passions, that would mean he doesn't care about photography or writing-in which case they wouldn't be his passions at all. Choice C is incorrect because there's nothing in the text to suggest that Cole feels \"concern about,\" or uneasiness about, his passions. The text's use of the word \"culminates\" indicates that [i]Blind Spot[/i] represents a triumphant climax of Cole's passions, not a work that results from his sense of discomfort with photography and writing. Choice D is incorrect because there's nothing in the text to suggest that Cole feels \"surprise at,\" or astonished by, his passions. The text indicates that Cole's feeling about his passions \"culminates\" in a book that \"evocatively\" combines photographs and writing, suggesting that Cole has a long-standing and skillful relationship to his passions, not that he is startled by them.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_001782",
+      "section": "reading_writing",
+      "question_number": 2,
+      "passage": "The printing of Virginia Woolf's novels featured a creative ______ between Woolf and her sister Vanessa Bell: a talented painter, Bell worked closely with Woolf to create original cover art for most of the novels.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "rebellion"
+        },
+        {
+          "label": "B",
+          "text": "partnership"
+        },
+        {
+          "label": "C",
+          "text": "discovery"
+        },
+        {
+          "label": "D",
+          "text": "disagreement"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Craft and Structure/Words in Context/Easy",
+      "source_question_number": 3,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer because it most logically completes the text's discussion of the cover art of Virginia Woolf's novels. In this context, \"partnership\" means collaboration or joint effort. The text states that Woolf's sister Vanessa Bell was a talented painter and that Bell worked with Woolf to provide the cover art for most of Woolf's novels. Thus, this context suggests that Woolf and Bell pursued a creative partnership in order to produce several of Woolf's novels.\n\nChoice A is incorrect because there is no indication that Woolf or Bell were undergoing a \"rebellion,\" or revolt, against anything in particular. Instead, the text focuses on how they worked together in some aspects of the production of Woolf's novels. Choice C is incorrect because there is nothing in the text to indicate that Woolf or Bell made a \"discovery,\" or encountered anything new for the first time as they worked together. The text suggests that Woolf had already written her novels and that Bell then assisted Woolf with the cover art for many of them. Choice D is incorrect because the text implies that Woolf and Bell had a positive relationship. According to the text, the sisters \"worked closely\" together to produce the cover art for many of Woolf's novels; the text doesn't mention whether while working together, Woolf and Bell had a \"disagreement,\" or conflict.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_001783",
+      "section": "reading_writing",
+      "question_number": 3,
+      "passage": "The following text is adapted from Amy Lowell's 1912 poem \"Summer.\"\n\nIt is summer, glorious, deep-toned summer,\nThe very crown of nature's changing year\nWhen all her surging life is at its full.\nTo me alone it is a time of pause,\n[u]A void[/u] and silent space between two worlds,\nWhen inspiration lags, and feeling sleeps,\nGathering strength for efforts yet to come.",
+      "prompt": "The following text is adapted from Amy Lowell's 1912 poem \"Summer.\"",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A useless"
+        },
+        {
+          "label": "B",
+          "text": "An empty"
+        },
+        {
+          "label": "C",
+          "text": "A forgotten"
+        },
+        {
+          "label": "D",
+          "text": "An incomplete"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Craft and Structure/Words in Context/Easy",
+      "source_question_number": 28,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer because as used in the text, a span of time is described as \"a void\" space, which most nearly means an empty or vacant one. In the text, the speaker describes summertime in counterintuitive terms: although nature's \"surging life is at its full\" during the season, the speaker feels summer to be \"a time of pause, / A void and silent space between two worlds.\" The speaker says further that during summer, \"feeling sleeps / Gathering strength\" for future efforts. Thus, the speaker regards summer as an empty stretch of time, to be followed by a period of greater activity.\n\nChoice A is incorrect. Although the text does present summer as a time of inactivity, it doesn't characterize that inactivity as useless, or as having no purpose; in fact, the speaker regards summer as a time when \"feeling\" gathers \"strength for efforts yet to come.\" Choice C is incorrect. Although the text characterizes summer as a time \"when inspiration lags, and feeling sleeps,\" it doesn't discuss the season's relationship to the speaker's memory or suggest that summer can easily be forgotten. Choice D is incorrect. In some contexts, \"void\" can mean devoid of, or lacking, a particular element, and such a lack could be conceived of as incompleteness. However, the text doesn't portray summer as not being complete or whole; instead, it characterizes vacancy or inactivity as being an essential quality of the season, as experienced by the speaker.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_001794",
+      "section": "reading_writing",
+      "question_number": 4,
+      "passage": "Bicycle sharing systems allow users to rent a bicycle at one location within a city and return it to any other designated location in that city, which can cause serious problems of bicycle supply and user demand within the city's system. Tohru Ikeguchi uses open-source data and statistical modeling to identify when a high number of users making one-way trips is likely to leave some locations within the system ______ bicycles and other areas with insufficient supply.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "susceptible to"
+        },
+        {
+          "label": "B",
+          "text": "contingent on"
+        },
+        {
+          "label": "C",
+          "text": "saturated with"
+        },
+        {
+          "label": "D",
+          "text": "depleted of"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Craft and Structure/Words in Context/Medium",
+      "source_question_number": 11,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer because it most logically completes the text's discussion of Ikeguchi's model of bicycle supply. In this context, \"saturated with\" means thoroughly or completely supplied with. The text explains a problem encountered by some bicycle-sharing programs: users can return bicycles to different locations than where the users picked up the bicycles to start, which can result in a mismatch between bicycle supply (that is, where the bicycles are currently located) and user demand (that is, the locations where users are hoping to pick up bicycles). The text goes on to explain that Ikeguchi developed a way to identify when this mismatch is likely to occur. This context suggests that Ikeguchi's method will show when it is likely that some locations have an insufficient supply and other locations, by implicit contrast, are saturated with bicycles.\n\nChoice A is incorrect because nothing in the text suggests that some locations are \"susceptible to,\" or sensitive to or easily influenced by, bicycles. The text describes the phenomenon of bicycles being redistributed away from locations where users want them, not anything about those locations being influenced by the bicycles. Choice B is incorrect because the text describes situations in which some locations have an insufficient supply of bicycles because the bicycles have been relocated elsewhere, which suggests that the other locations have many bicycles, not that the other locations are \"contingent on,\" or dependent on, the bicycles. Nothing in the text suggests that the locations themselves depend on the bicycles for anything. Choice D is incorrect because it would not make sense in context to say that some locations are \"depleted of,\" or empty of, bicycles while others have an insufficient supply. The text describes situations in which bicycles have been relocated such that there is a mismatch between bicycle supply and user demand-the bicycles are no longer at the locations where users want to pick them up. This means that some locations do not have enough bicycles, while other locations must have many bicycles, not be depleted of bicycles.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_001795",
+      "section": "reading_writing",
+      "question_number": 5,
+      "passage": "In the Indigenous intercropping system known as the Three Sisters, maize, squash, and beans form an ______ web of relations: maize provides the structure on which the bean vines grow; the squash vines cover the soil, discouraging competition from weeds; and the beans aid their two \"sisters\" by enriching the soil with essential nitrogen.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "indecipherable"
+        },
+        {
+          "label": "B",
+          "text": "ornamental"
+        },
+        {
+          "label": "C",
+          "text": "obscure"
+        },
+        {
+          "label": "D",
+          "text": "intricate"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Craft and Structure/Words in Context/Medium",
+      "source_question_number": 12,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer because it most logically completes the text's discussion of the Three Sisters intercropping system. As used in this context, \"intricate\" would mean made up of complexly related elements. The text indicates that in the Three Sisters system, maize, squash, and beans form a \"web of relations\" in which the crops interact in various ways. The text's description of these interactions-the bean vines growing on the maize stalks, the squash vines keeping weeds away, and the beans adding nutrients that the maize and squash use-provides context suggesting that this \"web of relations\" is intricate.\n\nChoice A is incorrect because describing the relationship among the crops in the Three Sisters system as \"indecipherable,\" or impossible to comprehend, would not make sense in context. Although the text presents the relationship as complex, the text's description of the role that each crop plays makes it clear that the relationship is well understood, not indecipherable. Choice B is incorrect because the text discusses the practical benefits that each plant in the Three Sisters system provides to other members of the system, showing that the relationship among the crops that make up the system is not \"ornamental,\" or mainly serving a decorative purpose. Choice C is incorrect because describing the relationship among the crops in the Three Sisters system as \"obscure,\" or unknown or poorly understood, would not make sense in context. Although the text presents the relationship as complex, the text's description of the role that each crop plays makes it clear that the relationship is well understood, not obscure.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_001796",
+      "section": "reading_writing",
+      "question_number": 6,
+      "passage": "In 2008 a complete set of ancient [i]pessoi[/i] (glass game pieces) was uncovered from beneath a paving stone in modern-day Israel. Due to their small size, [i]pessoi[/i] were easily misplaced, making a whole set a rare find. This has led some experts to suggest that the set may have been buried intentionally; however, without clear evidence, archaeologists are left to ______ what happened.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "speculate about"
+        },
+        {
+          "label": "B",
+          "text": "dismiss"
+        },
+        {
+          "label": "C",
+          "text": "expand on"
+        },
+        {
+          "label": "D",
+          "text": "catalog"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Craft and Structure/Words in Context/Medium",
+      "source_question_number": 13,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. \"Speculate\" means \"to form a theory or guess without any clear evidence.\" This makes sense because, due to the lack of \"clear evidence,\" the archaeologists can only guess how the [i]pessoi[/i] set might have come to be there.\n\nChoice B is incorrect. \"Dismiss\" can mean \"send away\" or \"treat as unworthy of consideration.\" The text implies that the archaeologists are trying to figure out the truth-they wouldn't \"dismiss\" what really happened. Choice C is incorrect. \"Expand on\" means \"give more details about,\" but there aren't any details to give. Without any \"clear evidence,\" the archaeologists can't give any more details. Choice D is incorrect. \"Catalog\" means \"carefully record\" or \"make a list of.\" However, there's no \"clear evidence,\" so there's no real information to \"catalog.\"",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_001797",
+      "section": "reading_writing",
+      "question_number": 7,
+      "passage": "Some researchers believe that the genes that enable groundhogs and certain other mammals to hibernate through the winter by slowing their breathing and heart rates and lowering their body temperature may be ______ in humans: present yet having essentially no effect on our bodily processes.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "decisive"
+        },
+        {
+          "label": "B",
+          "text": "lacking"
+        },
+        {
+          "label": "C",
+          "text": "variable"
+        },
+        {
+          "label": "D",
+          "text": "dormant"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Craft and Structure/Words in Context/Medium",
+      "source_question_number": 14,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer because it logically completes the text's discussion about genes related to hibernation. In this context, \"dormant\" means inactive. The text explains that the same genes that enable certain nonhuman mammal species to hibernate during the winter by altering their bodily processes are also found in our species but have \"essentially no effect\" on humans' bodily processes. In other words, these genes don't function in humans.\n\nChoice A is incorrect because in this context, \"decisive\" means has the power to affect the outcome of something, but the text states that genes related to hibernation are instead inactive in humans-that is, the genes don't affect humans' bodily processes, although they are present in their bodies. Choice B is incorrect\nbecause in this context, \"lacking\" means missing, but the text states that the genes are present in humans, though inactive. Choice C is incorrect because \"variable\" means characterized by the potential to change, but the text indicates that these genes don't change in their effect on humans' bodily processes; instead, the genes are consistently inactive in humans.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_001798",
+      "section": "reading_writing",
+      "question_number": 8,
+      "passage": "The following text is adapted from Zora Neale Hurston's 1921 short story \"John Redding Goes to Sea.\" John wants to travel far beyond the village where he lives near his mother, Matty.\n\n[John] had on several occasions attempted to[u] reconcile his mother to[/u] the notion, but found it a difficult task. Matty always took refuge in self-pity and tears. Her son's desires were incomprehensible to her, that was all.",
+      "prompt": "As used in the text, what does the phrase \"reconcile his mother to\" most nearly mean?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Get his mother to accept"
+        },
+        {
+          "label": "B",
+          "text": "Get his mother to apologize for"
+        },
+        {
+          "label": "C",
+          "text": "Get his mother to match"
+        },
+        {
+          "label": "D",
+          "text": "Get his mother to reunite with"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Craft and Structure/Words in Context/Medium",
+      "source_question_number": 16,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. The expression \"reconcile to\" means \"to cause (a person) to accept something difficult or disagreeable.\" The text suggests that John wants his mother to accept his desire to travel, even though she doesn't like that idea.\n\nChoice B is incorrect. This doesn't make sense. John doesn't want his mother to apologize for his own desire to travel-he wants her to accept his desire to travel. Choice C is incorrect. The text doesn't suggest that John wants his mother to match his desire to travel. Rather, he wants her to accept his desire to travel even though she doesn't like it. Choice D is incorrect. This is tempting, because it seems to pick up on the idea of people \"reconciling\" after a fight, but it actually doesn't make sense. The text never suggests that John's mother was \"united with\" the idea of him traveling in the past-if anything, it seems like she's always been against it. Besides, it would be strange to say that a person \"reunites with\" a notion.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_001799",
+      "section": "reading_writing",
+      "question_number": 9,
+      "passage": "The following text is adapted from Karel Čapek's 1920 play [i]R.U.R. (Rossum's Universal Robots)[/i], translated by Paul Selver and Nigel Playfair in 1923. Fabry and Busman are telling Miss Glory why their company manufactures robots.\n\nFABRY: One Robot can replace two and a half [i]workmen[/i]. The human machine, Miss Glory, was terribly [i]imperfect[/i]. It had to be removed sooner or later.\nBUSMAN: It was too expensive.\nFABRY: It was not [i]effective[/i]. It no longer[u] answers[/u] the requirements of [i]modern engineering[/i]. Nature has no idea of keeping pace with [i]modern labor[/i].",
+      "prompt": "As used in the text, what does the word \"answers\" most nearly mean?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Explains"
+        },
+        {
+          "label": "B",
+          "text": "Rebuts"
+        },
+        {
+          "label": "C",
+          "text": "Defends"
+        },
+        {
+          "label": "D",
+          "text": "Fulfills"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Craft and Structure/Words in Context/Medium",
+      "source_question_number": 18,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer because as used in the text, \"answers\" most nearly means fulfills. In the text, Fabry and Busman claim that the robots manufactured by their company are more efficient than human workers, which they refer to as \"the human machine.\" Fabry observes that the human machine \"no longer answers the\nrequirements of [i]modern engineering[/i].\" That is, human workers are incapable of meeting the rigorous needs of modern, industrialized workplaces.\n\nChoice A is incorrect. Although in some contexts \"answers\" can mean explains, it doesn't have that meaning in this context because the topic under discussion is human beings' inability to perform labor efficiently, not their inability to engage in discussion or explanation. Choice B is incorrect. Although in some contexts \"answers\" can mean rebuts, or proves a claim or argument to be false, it wouldn't make sense to speak of proving requirements to be false; requirements might or might not be reasonable, but they can't be verified as truthful or untruthful, as\nclaims or accusations can. Choice C is incorrect. Although in some contexts, \"answers\" can mean defends against criticism, or justifies, it doesn't have that meaning in this context because the opinion that Fabry expresses is that human workers can no longer fulfill the requirements of modern workplaces, not that they have ceased to justify those requirements or to defend them against criticism; indeed, there is no suggestion in the text that workers ever defended those requirements.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_001800",
+      "section": "reading_writing",
+      "question_number": 10,
+      "passage": "In a 2019 study, Jeremy Gunawardena and colleagues found that the single-celled protozoan S[i]tentor roeseli[/i] not only uses strategies to escape irritating stimuli but also switches strategies when one fails. This evidence of protozoans sophisticatedly \"changing their minds\" demonstrates that single-celled organisms may not be limited to ______ behaviors.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "aggressive"
+        },
+        {
+          "label": "B",
+          "text": "rudimentary"
+        },
+        {
+          "label": "C",
+          "text": "evolving"
+        },
+        {
+          "label": "D",
+          "text": "advantageous"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Craft and Structure/Words in Context/Medium",
+      "source_question_number": 24,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer because it most logically completes the text's discussion of single-celled organism behavior. As used in this context, \"rudimentary\" means basic or unsophisticated. According to the text, a study of the single-celled protozoan[i] Stentor roeseli [/i]showed that the organisms can switch strategies for escaping certain stimuli, \"sophisticatedly 'changing their minds'\" and using new strategies should other strategies fail. This context suggests that single-celled organisms may not be limited to behaviors that are basic or rudimentary, since the study showed that single-celled protozoans can respond complexly to irritating stimuli.\n\nChoice A is incorrect because the text doesn't suggest that single-celled organisms may not be limited to behavior that is \"aggressive,\" or threatening. Rather, the text suggests that single-celled organisms may not be limited to behaviors that are basic, since the study of [i]Stentor roeseli[/i] showed that single-celled protozoans can respond complexly to irritating stimuli. Choice C is incorrect because the text doesn't suggest that single-celled organisms may not be limited to behavior that is \"evolving,\" or advancing. Rather, the text suggests that single-celled organisms may not be limited to behaviors that are basic, since the study of [i]Stentor roeseli[/i] showed that single-celled protozoans can respond complexly to irritating stimuli. Choice D is incorrect because the text doesn't suggest that single-celled organisms may not be limited to behavior that is \"advantageous,\" or helpful. Rather, the text suggests that single-celled organisms may not be limited to behaviors that are basic, since the study of [i]Stentor roeseli[/i] showed that single-celled protozoans can respond complexly to irritating stimuli.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_001801",
+      "section": "reading_writing",
+      "question_number": 11,
+      "passage": "Novelist N. K. Jemisin declines to ______ the conventions of the science fiction genre in which she writes, and shehas suggested that her readers appreciate her work precisely because of this willingness to thwart expectations and avoid formulaic plots and themes.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "question"
+        },
+        {
+          "label": "B",
+          "text": "react to"
+        },
+        {
+          "label": "C",
+          "text": "perceive"
+        },
+        {
+          "label": "D",
+          "text": "conform to"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Craft and Structure/Words in Context/Medium",
+      "source_question_number": 25,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer because it most logically completes the text's discussion of Jemisin's writing. In this context, \"conform to\" means to act in accordance with something. The text suggests that in her science fiction writing, Jemisin's willingness to go against expectations and not use plots and themes that seem to follow a formula reflects how she treats the standard practices of the genre. This context conveys that Jemisin chooses not to act in accordance with those conventions.\n\nChoice A is incorrect. In this context, \"question\" would mean doubt or object to. The text indicates that Jemisin is willing to go against expectations and not use formulaic plots and themes in her science fiction writing, suggesting that she may actually object to those conventions of the genre, not that she chooses not to question them. Choice B is incorrect because the text indicates that in her science fiction writing, Jemisin is willing to go against expectations and not use formulaic plots and themes. Rather than suggesting that Jemisin chooses not to \"react to,\" or act in response to, the standard practices of the genre, this context suggests that she is acting in response to such conventions by deliberately avoiding them. Choice C is incorrect. In this context, \"perceive\" would mean become aware of or understand. The text indicates that in her science fiction writing, Jemisin is willing to go against expectations and not use formulaic plots and themes. This context conveys that Jemisin is aware of and deliberately avoids those conventions of the genre, not that she chooses not to be aware of them.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_002183",
+      "section": "reading_writing",
+      "question_number": 12,
+      "passage": "After a volcanic eruption spilled lava into North Pacific Ocean waters, a dramatic increase of diatoms (a kind of phytoplankton) near the surface occurred. Scientists assumed the diatoms were thriving on nutrients such as phosphate from the lava, but analysis showed these nutrients weren't present near the surface in forms diatoms can consume. However, there was an abundance of usable nitrate, a nutrient usually found in much deeper water and almost never found in lava. Microbial oceanographer Sonya Dyhrman and colleagues believe that as the lava plunged nearly 300 meters below the surface it dislodged pockets of this nutrient, releasing it to float upward, given that ______",
+      "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "at 5-45 meters below the surface, the average concentration of phosphate was about the same in the seawater in the lava-affected area as in the seawater outside of the lava-affected area."
+        },
+        {
+          "label": "B",
+          "text": "for both depth ranges measured, the average concentrations of nitrate were substantially higher in the seawater in the lava-affected area than in the seawater outside of the lava-affected area."
+        },
+        {
+          "label": "C",
+          "text": "for both depth ranges measured in the seawater in the lava-affected area, the average concentrations of nitrate were substantially higher than the average concentrations of phosphate."
+        },
+        {
+          "label": "D",
+          "text": "in the seawater outside of the lava-affected area, there was little change in the average concentration of nitrate from 75-125 meters below the surface to 5-45 meters below the surface."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Quantitative Evidence/Medium",
+      "source_question_number": 8,
+      "table_data": {
+        "title": "Average Nitrate and Phosphate Concentrations in Seawater after Volcanic Eruption",
+        "columns": [
+          "Nutrient",
+          "Seawater in lava-affected area, 5-45 meters below surface",
+          "Seawater in lava affected area,75-125 meters below surface",
+          "Seawater outside of lava-affected area, 5-45 meters below surface",
+          "Seawater outside of lava-affected area, 75-125 meters below surface"
+        ],
+        "rows": [
+          [
+            "Nitrate (micromoles per liter)",
+            "3.1",
+            "0.4",
+            "≤0.03",
+            "≤0.01"
+          ],
+          [
+            "Phosphate (micromoles per liter)",
+            "0.17",
+            "0.09",
+            "0.14",
+            "0.06"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer. The claim is that the lava freed the deep nitrate, allowing it to float upward. The table supports this by showing that there was more nitrate in the lava-affected seawater at various depths above 300 meters (the depth to which the lava plunged) than in unaffected seawater.\n\nChoice A is incorrect. This choice doesn't complete the statement in a way that supports the claim. The claim is about nitrate, not phosphate. Choice C is incorrect. This choice doesn't complete the statement in a way that supports the claim. The claim is only about nitrate-the concentrations of phosphate aren't relevant. Choice D is incorrect. This choice doesn't complete the statement in a way that supports the claim. It doesn't say anything about the seawater inside the lava-affected area.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_002185",
+      "section": "reading_writing",
+      "question_number": 13,
+      "passage": "Some whale species practice lunge feeding, in which they lunge toward prey with their mouths open at wide angles, collect the prey and the surrounding water, and then filter out the water through baleen plates in their mouths. Although the volume of water engulfed increases with whales' body length, the surface area of whales' baleen plates, which influences the rate at which water can be filtered, does not increase with body length to the same degree, which helps explain why ______",
+      "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "minke whales and humpback whales show similar average filter times."
+        },
+        {
+          "label": "B",
+          "text": "humpback whales show an average of 6.28 lunges per dive."
+        },
+        {
+          "label": "C",
+          "text": "fin whales show a longer average filter time than minke whales do."
+        },
+        {
+          "label": "D",
+          "text": "blue whales show the longest average filter time and the highest average number of lunges per dive."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Quantitative Evidence/Medium",
+      "source_question_number": 10,
+      "table_data": {
+        "title": "Body Length, Filter Time, and Lunges per Dive for Four Whale Species",
+        "columns": [
+          "Whale species",
+          "Typical adult body length (meters)",
+          "Average time to filter all engulfed water (seconds)",
+          "Average number of lunges per dive deeper than 50 meters"
+        ],
+        "rows": [
+          [
+            "fin",
+            "18–22",
+            "31.30",
+            "3.95"
+          ],
+          [
+            "humpback",
+            "11–17",
+            "17.12",
+            "6.28"
+          ],
+          [
+            "minke",
+            "7–10",
+            "8.88",
+            "7.48"
+          ],
+          [
+            "blue",
+            "24–34",
+            "60.27",
+            "4.02"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer. To support the claim, we need to show that longer whales take more time to filter all the water they engulf than shorter whales do. This choice accurately reflects that a longer whale (the fin whale) takes more time to filter engulfed water (31.30 seconds on average) compared to a shorter whale (the minke whale, which only took 8.88 seconds on average).\n\nChoice A is incorrect. The table shows that minke whales take an average of 8.88 seconds to filter engulfed water, while humpback whales take an average of 17.12 seconds to complete the same task. Choice B is incorrect. This choice doesn't reflect the claim about baleen plates. The claim explains why whales of differing lengths take different amounts of time to filter engulfed water. This choice doesn't compare whales of different lengths, and it focuses on the number of lunges, which isn't shown to be relevant to filter time. Choice D is incorrect. The table shows that blue whales average 4.02 lunges per dive, which is not the highest average among the whales in the table.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_002187",
+      "section": "reading_writing",
+      "question_number": 14,
+      "passage": "E-books became an increasingly popular means of reading in the United States in the 2000s and 2010s, though that popularity was concentrated in titles that, like those in most fiction genres, are meant to be read straight through from beginning to end. For books in nonfiction genres that do not tell stories and require the reader to flip back and forth through a volume, e-books were significantly less commercially successful. This can be seen by comparing ______",
+      "prompt": "Which choice most effectively uses data from the table to illustrate the claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the percentage of 2016 cookbook sales that were e-books with the percentage of 2016 science fiction and fantasy sales that were e-books."
+        },
+        {
+          "label": "B",
+          "text": "the percentage of 2006 romance sales that were e-books with the percentage of 2016 romance sales that were e-books."
+        },
+        {
+          "label": "C",
+          "text": "the percentage of 2006 romance sales that were e-books with the 2006 science fiction and fantasy sales that were e-books."
+        },
+        {
+          "label": "D",
+          "text": "the percentage of 2011 travel guide sales that were e-books with the percentage of 2016 travel guide sales that were e-books."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Quantitative Evidence/Medium",
+      "source_question_number": 12,
+      "table_data": {
+        "title": "E-book Sales as a Percentage of Total Unit Sales in All Book Formats for a Large US Trade Publisher, by Genre, 2006, 2011, 2016",
+        "columns": [
+          "Genre",
+          "2006",
+          "2011",
+          "2016"
+        ],
+        "rows": [
+          [
+            "science fiction and fantasy",
+            "0.6",
+            "27.7",
+            "36.7"
+          ],
+          [
+            "cookbooks",
+            "0",
+            "2.9",
+            "10.5"
+          ],
+          [
+            "travel guides",
+            "0",
+            "5.5",
+            "24.6"
+          ],
+          [
+            "romance",
+            "0.3",
+            "40.6",
+            "56.2"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because it uses data from the table to effectively support the claim that book genres that typically require the reader to start at the beginning of the story and read straight through are more commercially successful as e-books than other genres. For each of three years, the table presents four book genres and the percentage of total sales for each genre in e-book format. Cookbooks, a nonfiction genre, do not require the reader to read straight through. According to the table, 10.5 percent of total cookbook sales in 2016 were in the e-book format. The 2016 percentage of e-book sales was 36.7 percent in the science fiction and fantasy genre, which are typically stories read straight through from start to finish. The higher percentage of total sales of the story-based e-books in 2016 supports the claim in the text.\n\nChoice B is incorrect because it compares the e-book sales of romance books in 2006 to those in 2016. Romance books are meant to be read straight through from start to finish. The text claims that books that are not stories and do not require reading straight through are not as commercially successful in e-book format as those that do. As this choice is only comparing e-book sales for one genre, it does not support the claim. Choice C is incorrect because both science fiction and fantasy and romance novels are fiction books meant to be read straight through from beginning to end. The text claims that books that are not stories and do not require reading straight through are less commercially successful in e-book format than those that do. As this choice does not compare e-book sales of story genres to e-book sales in genres that are not stories, it does not support the claim. Choice D is incorrect. Although the data in the table show that the travel guide e-books made up a greater percentage of total sales in 2016 than in 2011, this doesn't illustrate the claim in the text that e-books in nonfiction genres not meant to be read straight through are less commercially successful. The claim cannot be supported without comparing the percentage of e-book sales between fiction and nonfiction book genres from the table.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_002188",
+      "section": "reading_writing",
+      "question_number": 15,
+      "passage": "\"Hot Jupiters\" are gas planets that have a mass of at least 0.25 Jupiters (meaning that their mass is at least 25% of that of Jupiter) and an orbital period of less than 10 days (meaning that they complete one orbit around their star in less than 10 days), while \"warm Jupiters\" are gas planets that meet the same mass criterion but have orbital periods of more than 10 days. In 2021, Michigan State University astronomer Joseph Rodriguez and colleagues announced the discovery of five new gas exoplanets and asserted that four are hot Jupiters and one is a warm Jupiter.",
+      "prompt": "Which choice best describes data from the table that support Rodriguez and colleagues' assertion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "None of the planets have an orbital period of more than 10 days, and TOI-628 b has a mass of 6.33 Jupiters."
+        },
+        {
+          "label": "B",
+          "text": "TOI-1478 b has an orbital period of 153 days, and the masses of all the planets range from 0.85 to 6.33 Jupiters."
+        },
+        {
+          "label": "C",
+          "text": "All the planets have a radius between 1.060 and 1.771 Jupiters, and only TOI-1333 b has an orbital period of more than 10 days."
+        },
+        {
+          "label": "D",
+          "text": "Each of the planets has a mass greater than 0.25 Jupiters, and all except for TOI-1478 b have an orbital period of less than 10 days."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Quantitative Evidence/Medium",
+      "source_question_number": 13,
+      "table_data": {
+        "title": "Characteristics of Five Recently Discovered Gas Exoplanets",
+        "columns": [
+          "Exoplanet designation",
+          "Mass (Jupiters)",
+          "Radius (Jupiters)",
+          "Orbital period (days)",
+          "Distance from the Sun (parsecs)"
+        ],
+        "rows": [
+          [
+            "TOI-640 b",
+            "0.88",
+            "1.771",
+            "5.003",
+            "340"
+          ],
+          [
+            "TOI-1601 b",
+            "0.99",
+            "1.239",
+            "5.331",
+            "336"
+          ],
+          [
+            "TOI-628 b",
+            "6.33",
+            "1.060",
+            "3.409",
+            "178"
+          ],
+          [
+            "TOI-1478 b",
+            "0.85",
+            "1.060",
+            "10.180",
+            "153"
+          ],
+          [
+            "TOI-1333 b",
+            "2.37",
+            "1.396",
+            "4.720",
+            "200"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer because it accurately describes data from the table that support Rodriguez and colleagues' assertion about the classifications of the five new gas exoplanets. The text describes two categories of gas planets: hot Jupiters, which have a mass of at least 0.25 Jupiters and an orbital period of less than 10 days, and warm Jupiters, which have the same mass characteristic but have orbital periods of more than 10 days. According to the table, four of the gas exoplanets discovered by Rodriguez and colleagues have a mass of at least 0.25 Jupiters and an orbital period of less than 10 days, while one of the planets has a mass of at least 0.25 Jupiters and an orbital period of more than 10 days. These data therefore support Rodriguez and colleagues' assertion that four of the new exoplanets are hot Jupiters and one is a warm Jupiter.\n\nChoice A is incorrect because it doesn't accurately describe the data from the table. Although the table shows that TOI-628 b has a mass equivalent to 6.33 Jupiters, the table also shows that one of the planets-TOI-1478 b- does indeed have an orbital period of more than 10 days. Choice B is incorrect because it doesn't accurately describe the data from the table. Although the table does show that the masses of the five planets range from 0.85 to 6.33 Jupiters, the table also shows that TOI-1478 b has an orbital period of 10.180 days, not 153 days. Choice C is incorrect. According to the table, TOI-1333 b has an orbital period of only 4.720 days, not more than 10 days. Additionally, although the table does show that all the planets have a radius between 1.060 and 1.771 Jupiters, the text indicates that a planet may be classified as a hot Jupiter or a warm Jupiter based on its mass and orbital period, not on its radius, making the information about the range of the five planets' radius values irrelevant.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_002191",
+      "section": "reading_writing",
+      "question_number": 16,
+      "passage": "Rows in table may not add up to 100 due to rounding.\n\nGeorgia Tech roboticists De'Aira Bryant and Ayanna Howard, along with ethicist Jason Borenstein, were interested in people's perceptions of robots' competence. They recruited participants and asked them how likely they think it is that a robot could do the work required in various occupations. Participants' evaluations varied widely depending on which occupation was being considered; for example, ______",
+      "prompt": "Which choice most effectively uses data from the table to complete the example?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "47% of participants believe that it is somewhat or very likely that a robot could work effectively as a teacher, but 37% of respondents believe that it is somewhat or very unlikely that a robot could do so."
+        },
+        {
+          "label": "B",
+          "text": "9% of participants were neutral about whether a robot could work effectively as a television news anchor, which is the same percent of participants who were neutral when asked about a robot working as a surgeon."
+        },
+        {
+          "label": "C",
+          "text": "82% of participants believe that it is somewhat or very likely that a robot could work effectively as a tour guide, but only 16% believe that it is somewhat or very likely that a robot could work as a surgeon."
+        },
+        {
+          "label": "D",
+          "text": "62% of participants believe that it is somewhat or very unlikely that a robot could work effectively as a firefighter."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Quantitative Evidence/Medium",
+      "source_question_number": 16,
+      "table_data": {
+        "title": "Participants' Evaluation of the Likelihood That Robots Can Work Effectively in Different Occupations",
+        "columns": [
+          "Occupation",
+          "Somewhat or very unlikely (%)",
+          "Neutral (%)",
+          "Somewhat or very likely (%)"
+        ],
+        "rows": [
+          [
+            "television news anchor",
+            "24",
+            "9",
+            "67"
+          ],
+          [
+            "teacher",
+            "37",
+            "16",
+            "47"
+          ],
+          [
+            "firefighter",
+            "62",
+            "9",
+            "30"
+          ],
+          [
+            "surgeon",
+            "74",
+            "9",
+            "16"
+          ],
+          [
+            "tour guide",
+            "10",
+            "8",
+            "82"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer because it effectively uses data from the table to complete the example of variations in participants' evaluations. The table shows participants' evaluations of the likelihood that robots could work effectively in different occupations. The text asserts that participants' evaluations varied widely depending on the occupation being considered and introduces an example supporting that assertion. The data from the table showing that 82% of participants believe that it is somewhat or very likely that a robot could work effectively as a tour guide but only 16% of participants believe that it is somewhat or very likely that a robot could work effectively as a surgeon illustrate this assertion: those data show participants' views changing substantially with the occupation being considered.\n\nChoice A is incorrect because it does not describe data that illustrate the assertion that participants' evaluations varied widely depending on which occupation was being considered. Although this choice accurately describes data in the table, data about participants' responses when considering a single occupation-teaching-could not be an example of people's views changing substantially depending on the occupation being considered. Choice B is incorrect because it identifies a similarity in participants' responses when considering two different occupations, but the assertion that the example is intended to illustrate is that participants' evaluations varied widely depending on the occupation being considered. Although this choice accurately describes data in the table, those data do not illustrate the assertion in the text. Choice D is incorrect because it does not describe data that illustrate the assertion that participants' evaluations varied widely depending on which occupation was being considered. Although this choice accurately describes data in the table, data showing participants' evaluation of just one occupation could not be an example of participants' evaluations changing depending on the occupation under evaluation.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_002193",
+      "section": "reading_writing",
+      "question_number": 17,
+      "passage": "In a survey of public perceptions of energy use, researcher Shahzeen Attari and her team asked respondents to name the most effective action ordinary people can take to conserve energy. The team categorized each action as either an efficiency or a curtailment and found that respondents tended to name curtailments more often than they did efficiencies. For example, 19.6% of respondents stated that the most effective way to conserve energy is to turn off the lights, while only ______",
+      "prompt": "Which choice most effectively uses data from the table to complete the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "6.3% of respondents said it was most effective to use efficient cars or hybrids."
+        },
+        {
+          "label": "B",
+          "text": "2.8% of respondents said it was most effective to change the thermostat setting."
+        },
+        {
+          "label": "C",
+          "text": "12.9% of respondents said it was most effective to use a bike or public transportation."
+        },
+        {
+          "label": "D",
+          "text": "3.6% of respondents said it was most effective to use efficient light bulbs."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Quantitative Evidence/Medium",
+      "source_question_number": 18,
+      "table_data": {
+        "title": "Five of the Responses to Survey about Actions to Conserve Energy",
+        "columns": [
+          "Action",
+          "Action category",
+          "Percentage of respondents selecting action (%)"
+        ],
+        "rows": [
+          [
+            "Use efficient cars/hybrids",
+            "efficiency",
+            "2.8"
+          ],
+          [
+            "Change thermostat setting",
+            "curtailment",
+            "6.3"
+          ],
+          [
+            "Use bike or public transportation instead of car",
+            "curtailment",
+            "12.9"
+          ],
+          [
+            "Use efficient light bulbs",
+            "efficiency",
+            "3.6"
+          ],
+          [
+            "Turn off lights",
+            "curtailment",
+            "19.6"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer because it most effectively uses data from the table to complete the text's discussion of Attari and her team's survey results. The text states that the team asked respondents to identify the most effective action people can take to save energy, with the team classifying each action as either an efficiency or a curtailment. According to the text, respondents named curtailments more often than they did efficiencies. The text then offers an example that begins by citing a curtailment, turning off the lights, that was selected by a relatively high percentage of respondents (19.6%). Given that the example is presented in support of the idea that more respondents selected curtailments than efficiencies, the most effective way to complete the example is by citing an efficiency, using efficient light bulbs, that was selected by a relatively low percentage of respondents (only 3.6%).\n\nChoice A is incorrect because it inaccurately describes data in the table. The data indicate that 6.3% of respondents said the most effective action was to change the thermostat setting, not to use efficient cars or hybrids. Choice B is incorrect because it inaccurately describes data in the table. The data indicate that 2.8% of respondents said the most effective action was to use efficient cars/hybrids, not to change the thermostat setting. Choice C is incorrect because it mentions a curtailment (using a bike or public transportation) and not an efficiency. The text states that a research team asked respondents to identify the most effective action people can take to save energy, with the team classifying each action as either an efficiency or a curtailment. According to the text, respondents named curtailments more often than they did efficiencies. The text then offers an example that begins by citing a curtailment, turning off the lights, that was selected by a relatively high percentage of respondents (19.6%). Given that the example is presented in support of the idea that more people selected curtailments than efficiencies, the most effective way to complete the example is not by referring to another curtailment but rather by referring to an efficiency that was selected by a relatively low percentage of respondents.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_002195",
+      "section": "reading_writing",
+      "question_number": 18,
+      "passage": "A group of researchers working in Europe, Asia, and Oceania conducted a study to determine how quickly different Eurasian languages are typically spoken (in syllables per second) and how much information they can effectively convey (in bits per second). They found that, although languages vary widely in the speed at which they are spoken, the amount of information languages can effectively convey tends to vary much less. Thus, they claim that two languages with very different spoken rates can nonetheless convey the same amount of information in a given amount of time.",
+      "prompt": "Which choice most effectively uses data in the graph to complete the statement?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Among the five languages in the table, Thai and Hungarian have the lowest rates of speech and the lowest rates of information conveyed."
+        },
+        {
+          "label": "B",
+          "text": "Vietnamese conveys information at approximately the same rate as Spanish despite being spoken at a slower rate."
+        },
+        {
+          "label": "C",
+          "text": "Among the five languages in the table, the language that is spoken the fastest is also the language that conveys information the fastest."
+        },
+        {
+          "label": "D",
+          "text": "Serbian and Spanish are spoken at approximately the same rate, but Serbian conveys information faster than Spanish does."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Quantitative Evidence/Medium",
+      "source_question_number": 20,
+      "table_data": {
+        "title": "Approximate Rates of Speech and Information Conveyed for Five Languages",
+        "columns": [
+          "Language",
+          "Rate of speech (syllables per second)",
+          "Rate of information conveyed (bits per second)"
+        ],
+        "rows": [
+          [
+            "Serbian",
+            "7.2",
+            "39.1"
+          ],
+          [
+            "Spanish",
+            "7.7",
+            "42.0"
+          ],
+          [
+            "Vietnamese",
+            "5.3",
+            "42.5"
+          ],
+          [
+            "Thai",
+            "4.7",
+            "33.8"
+          ],
+          [
+            "Hungarian",
+            "5.9",
+            "34.6"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer because it provides the most direct support from the table for the claim that two languages can convey similar amounts of information even if they're spoken at different rates. The table shows the approximate rates at which five languages are spoken and the rates at which those five languages convey information. Vietnamese is spoken at around 5.3 syllables per second, whereas Spanish is spoken at around 7.7 syllables per second, but the two languages convey information at very similar rates: Vietnamese at a rate of around 42.5 bits per second and Spanish at a rate of around 42.0 bits per second. Thus, the description of Vietnamese conveying information at around the same rate that Spanish does despite being spoken more slowly supports the claim in the text that languages can convey the same amount of information even if spoken at different rates.\n\nChoice A is incorrect because it isn't true that Thai and Hungarian have the lowest rates of speech of the five languages shown. According to the table, Hungarian is spoken at around 5.9 syllables per second, which is faster than Vietnamese (5.3 syllables per second). Additionally, even if this statement were true, the assertion that two languages are spoken the slowest and convey information the slowest wouldn't support the claim that languages can convey the same amount of information even if they're spoken at different rates. Choice C is incorrect because it isn't true that the fastest-spoken language (Spanish, at 7.7 syllables per second) also conveys information the fastest: Spanish conveys information at 42.0 bits per second, which is slower than the 42.5 bits-per-second rate at which Vietnamese conveys information. Additionally, even if this statement were true, the assertion that the language spoken the fastest also conveys information the fastest has no bearing on the claim that languages can convey the same amount of information even if they're spoken at different rates. Choice D is incorrect because it isn't true that Serbian conveys information faster than Spanish does. According to the table, Serbian conveys information at a rate of around 39.1 bits per second, which is slower than the 42.0 bits-per-second rate at which Spanish conveys information.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_002196",
+      "section": "reading_writing",
+      "question_number": 19,
+      "passage": "[i]O Pioneers![/i] is a 1913 novel by Willa Cather. In the novel, Cather portrays Alexandra Bergson as having a deep emotional connection to her natural surroundings: ______",
+      "prompt": "Which quotation from [i]O Pioneers![/i] most effectively illustrates the claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"She had never known before how much the country meant to her. The chirping of the insects down in the long grass had been like the sweetest music. She had felt as if her heart were hiding down there, somewhere, with the quail and the plover and all the little wild things that crooned or buzzed in the sun. Under the long shaggy ridges, she felt the future stirring.\""
+        },
+        {
+          "label": "B",
+          "text": "\"Alexandra talked to the men about their crops and to the women about their poultry. She spent a whole day with one young farmer who had been away at school, and who was experimenting with a new kind of clover hay. She learned a great deal.\""
+        },
+        {
+          "label": "C",
+          "text": "\"Alexandra drove off alone. The rattle of her wagon was lost in the howling of the wind, but her lantern, held firmly between her feet, made a moving point of light along the highway, going deeper and deeper into the dark country.\""
+        },
+        {
+          "label": "D",
+          "text": "\"It was Alexandra who read the papers and followed the markets, and who learned by the mistakes of their neighbors. It was Alexandra who could always tell about what it had cost to fatten each steer, and who could guess the weight of a hog before it went on the scales closer than John Bergson [her father] himself.\""
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (illustration/quotation)/Easy",
+      "source_question_number": 1,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because it presents the quotation that most directly illustrates the claim that Cather portrays Alexandra as having a deep emotional connection to her natural surroundings. This quotation states that the country meant a great deal to Alexandra and then goes on to detail several ways in which her natural surroundings affect her emotionally: the insects sound like \"the sweetest music,\" she feels as though \"her heart were hiding\" in the grass \"with the quail and the plover,\" and near the ridges she feels \"the future stirring.\"\n\nChoice B is incorrect because the quotation doesn't suggest that Alexandra had a deep emotional connection to her natural surroundings but instead describes how she interacts with the people around her to learn more about crops, poultry, and experiments with clover hay. Choice C is incorrect because the quotation doesn't suggest that Alexandra has a deep emotional connection to her natural surroundings but instead describes her nighttime departure in a wagon. The quotation says nothing about Alexandra's emotional state. Choice D is incorrect because the quotation doesn't convey Alexandra's deep emotional connection to her natural surroundings; instead, this quotation describes how well she understands the markets and livestock.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002197",
+      "section": "reading_writing",
+      "question_number": 20,
+      "passage": "\"To You\" is an 1856 poem by Walt Whitman. In the poem, Whitman suggests that readers, whom he addresses directly, have not fully understood themselves, writing, ______",
+      "prompt": "Which quotation from \"To You\" most effectively illustrates the claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"You have not known what you are, you have slumber'd upon yourself / all your life, / Your eyelids have been the same as closed most of the time.\""
+        },
+        {
+          "label": "B",
+          "text": "\"These immense meadows, these interminable rivers, you are immense / and interminable as they.\""
+        },
+        {
+          "label": "C",
+          "text": "\"I should have made my way straight to you long ago, / I should have blabb'd nothing but you, I should have chanted nothing / but you.\""
+        },
+        {
+          "label": "D",
+          "text": "\"I will leave all and come and make the hymns of you, / None has understood you, but I understand you.\""
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (illustration/quotation)/Easy",
+      "source_question_number": 2,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because it presents the quotation that most directly illustrates the claim that Whitman's poem suggests that its readers haven't fully understood themselves. This quotation makes that point directly by saying to readers, \"You have not known what you are.\" The quotation goes on to reinforce this point using a metaphor of sleep, saying that readers have \"slumber'd\" and that their \"eyelids have been the same as closed most of the time.\"\n\nChoice B is incorrect because this quotation doesn't suggest that readers haven't fully understood themselves but instead characterizes readers as \"immense\" and \"interminable.\" Although immense and interminable things can be difficult to understand, this quotation doesn't make that point. Choice C is incorrect because this quotation doesn't suggest that readers haven't fully understood themselves but instead conveys the speaker's regret over not having celebrated readers sooner. In fact, this quotation says nothing at all about readers themselves-it's focused solely on the speaker's feelings about readers. Choice D is incorrect because this quotation doesn't suggest that readers haven't fully understood themselves; instead, this quotation makes the point that the speaker has understood readers and is determined to create \"hymns\" about them.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002198",
+      "section": "reading_writing",
+      "question_number": 21,
+      "passage": "\"Valia\" is a 1907 short story by Leonid Andreyev. In the story, the author emphasizes that the setting where the character Valia is reading is nearly silent: ______",
+      "prompt": "Which quotation from \"Valia\" most effectively illustrates the claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"The hand in which he carried his book was getting stiff with cold, but he would not ask his mother to take the book from him.\""
+        },
+        {
+          "label": "B",
+          "text": "\"Valia was reading a huge, very huge book, almost half as large as himself.\""
+        },
+        {
+          "label": "C",
+          "text": "\"Valia approached the window and examined the toys.\""
+        },
+        {
+          "label": "D",
+          "text": "\"Everything in the room was quiet, so quiet that the only thing to be heard was the rustling of the pages he turned.\""
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (illustration/quotation)/Easy",
+      "source_question_number": 3,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer because this quotation most effectively illustrates the claim that the author emphasizes the near silence of the setting where the character Valia is reading. In the quotation, the author highlights the near silence of the setting by twice using the word \"quiet\" to describe the room. The author also calls attention to the fact that Valia is reading in a nearly silent setting by noting that the only sound to be heard is that of the pages being turned.\n\nChoice A is incorrect because this quotation suggests that Valia is in a chilly setting that causes his hand to become cold, not that he's in a nearly silent setting. Choice B is incorrect because this quotation emphasizes the size of the book Valia is reading, not a quality of the setting where he's reading it. Choice C is incorrect because this quotation describes Valia approaching a window and looking at toys, not reading in a quiet setting.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002199",
+      "section": "reading_writing",
+      "question_number": 22,
+      "passage": "A researcher conducted an experiment inspired by studies suggesting that people may benefit from feeling frightened in certain circumstances, such as when watching scary movies or visiting haunted attractions. The researcher recruited several participants and had them walk through a local haunted house attraction. Immediately after exiting the attraction, each participant completed a survey about their experience. Based on the survey responses, the researcher claims that feeling frightened in controlled situations can boost a person's mood and confidence.",
+      "prompt": "Which quotation from a participant would best illustrate the researcher's claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"After I came out of the haunted house, I felt very accomplished and less stressed.\""
+        },
+        {
+          "label": "B",
+          "text": "\"My friends kept laughing as we were walking through the haunted house.\""
+        },
+        {
+          "label": "C",
+          "text": "\"The haunted house was scary at first, but I knew everyone was just acting, so I felt less scared after a few minutes.\""
+        },
+        {
+          "label": "D",
+          "text": "\"The sense of relief I felt at the end of the haunted house was similar to the feelings I have when I finish a scary movie.\""
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (illustration/quotation)/Easy",
+      "source_question_number": 4,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. This choice illustrates both \"feeling frightened in controlled situations\" (the haunted house) and the benefit of a boosted mood (\"less stressed\") and confidence (\"very accomplished\").\n\nChoice B is incorrect. This choice isn't the best illustration of the claim. While laughing may indicate a good mood, this choice provides no evidence of \"feeling frightened\" or boosted confidence. Another choice provides better evidence. Choice C is incorrect. This choice isn't the best illustration of the claim. This choice demonstrates \"feeling frightened\" in a controlled environment, but it doesn't provide strong evidence of boosted mood or confidence. Another choice provides better evidence. Choice D is incorrect. This choice isn't the best illustration of the claim. While a \"sense of relief\" could be interpreted as a boosted mood, this choice doesn't provide direct evidence of \"feeling frightened\" or of increased confidence. This choice simply suggests that haunted houses and scary movies have a similar effect. Another choice provides better evidence for the researcher's claim.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002200",
+      "section": "reading_writing",
+      "question_number": 23,
+      "passage": "A museum curator is writing a biographical statement about Trinidadian-born Chinese dancer, choreographer, and teacher Dai Ailian for a new exhibit on Chinese dance. The curator claims that some of the pieces Dai created shortly after arriving in mainland China in 1941, such as the solo dance [i]Yao Drum[/i], reflect a desire to represent the dances of local communities Dai visited during her travels through China.",
+      "prompt": "Which quotation from a work by a dance historian would be the most effective evidence for the curator to include in support of this claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"There is no sound or music accompanying Dai's movements in[i] Yao Drum[/i], aside from the sounds of drumsticks beating against a drum and against each other.\""
+        },
+        {
+          "label": "B",
+          "text": "\"Unlike some of the works Dai created in the early 1940s, [i]Yao Drum[/i] does not feature a narrative structure, humorous elements, or references to real-life events.\""
+        },
+        {
+          "label": "C",
+          "text": "\"[i]Yao Drum[/i] was inspired by a ceremonial dance Dai witnessed during her time performing field research among the Yao people in the province of Guizhou in 1941 or 1942.\""
+        },
+        {
+          "label": "D",
+          "text": "\"Yao Drum is notable for its intense physicality, with Dai performing sharp jumps, swift turns, and dramatic sweeps of her legs through the air as she moves in circles on the stage.\""
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (illustration/quotation)/Easy",
+      "source_question_number": 5,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer. This choice clearly states that [i]Yao Drum[/i] was inspired by a ceremonial dance of the Yao people. This directly supports the curator's claim that some of Dai's pieces \"represent the dances of local communities\" she visited.\n\nChoice A is incorrect. This choice discusses the sound and music in [i]Yao Drum[/i], but it doesn't connect these elements to \"the dances of local communities,\" which is the focus of the claim. Choice B is incorrect. This choice doesn't mention the dances of local communities, but instead discusses how [i]Yao Drum[/i] is different from some of Dai's earlier works. Choice D is incorrect. This choice describes the choreography of [i]Yao Drum[/i], but it doesn't connect these elements to \"the dances of local communities,\" which is the focus of the claim.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002201",
+      "section": "reading_writing",
+      "question_number": 24,
+      "passage": "\"The Rock and the Sea\" is an 1893 poem by Charlotte Perkins Gilman. In the poem, a rock is portrayed as intending to confront and restrain the sea: ______",
+      "prompt": "Which quotation from \"The Rock and the Sea\" most effectively illustrates the claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"I am the Rock. Black midnight falls; / The terrible breakers rise like walls; / With curling lips and gleaming teeth / They plunge and tear at my bones beneath.\""
+        },
+        {
+          "label": "B",
+          "text": "\"I am the Sea. I hold the land / As one holds an apple in his hand, / Hold it fast with sleepless eyes, / Watching the continents sink and rise.\""
+        },
+        {
+          "label": "C",
+          "text": "\"I am the Rock, presumptuous Sea! / I am set to encounter thee. / Angry and loud or gentle and still, / I am set here to limit thy power, and I will!\""
+        },
+        {
+          "label": "D",
+          "text": "\"I am the Sea. The earth I sway; / Granite to me is potter's clay; / Under the touch of my careless waves / It rises in turrets and sinks in caves.\""
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (illustration/quotation)/Easy",
+      "source_question_number": 6,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer. This quotation focuses on the rock, which yells at the sea and announces its intent to \"limit [the sea's] power.\" This matches the idea of confrontation and restraint in the claim we're trying to support.\n\nChoice A is incorrect. This choice doesn't illustrate the claim. While this quotation does focus on the rock, it suggests that the rock fears the sea. It lacks the sense of boldness and strength implied by the phrase \"confront and restrain the sea.\" Choice B is incorrect. This choice doesn't illustrate the claim. This quotation focuses on the sea, not the rock. Choice D is incorrect. This choice doesn't illustrate the claim. This quotation focuses on the sea, not the rock.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002202",
+      "section": "reading_writing",
+      "question_number": 25,
+      "passage": "American fashion designer Patrick Kelly was known for his love of colorful buttons. Many of his signature dresses feature bold assortments of buttons throughout the garment. In a paper, a fashion design student claims that Kelly's use of buttons as decoration was inspired by his childhood observations of the styles and actions of the women in his family.",
+      "prompt": "Which quotation from a work by a historian would be the most effective evidence for the student to include in support of this claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"Although some of the assortments of buttons appear to be mismatched pieces scattered randomly throughout Kelly's dresses, his most famous designs feature carefully crafted patterns of matching buttons.\""
+        },
+        {
+          "label": "B",
+          "text": "\"Many of Kelly's contemporaries were inspired by his designs to incorporate buttons, as well as zippers and snaps, as decorative items in their work.\""
+        },
+        {
+          "label": "C",
+          "text": "\"Kelly's grandmother, who would repair clothing when he was a child, frequently added mismatched buttons to the clothes to draw attention away from any flaws in the garments.\""
+        },
+        {
+          "label": "D",
+          "text": "\"Kelly was destined to be a designer from a young age: he learned how to sew clothing from his aunt Bertha, and his love of drawing was developed by his mother.\""
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (illustration/quotation)/Easy",
+      "source_question_number": 7,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer. This quotation draws a direct connection between the use of buttons and Kelly's stylish female relatives.\n\nChoice A is incorrect. This choice mentions Kelly's use of buttons, but it doesn't connect that design choice to the influence of women in Kelly's family. Choice B is incorrect. This choice discusses how other designers were inspired by Kelly, which doesn't provide evidence that Kelly was inspired by his family. Choice D is incorrect. While this choice does refer to fashionable women in Kelly's family, it doesn't connect their influence to Kelly's use of buttons.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002203",
+      "section": "reading_writing",
+      "question_number": 26,
+      "passage": "In addition to her technical skill and daring feats, American stunt pilot Bessie Coleman was also known for dazzling the crowds that came to watch her air shows in the 1920s with her exuberant personality. During her career, she was careful and purposeful about how she crafted her public persona. An aviation researcher has claimed that Coleman intentionally defied social norms of the time by how she chose to present herself to the public.",
+      "prompt": "Which quotation from an article about Coleman would most directly support the aviation researcher's claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"For her air shows, Coleman frequently used the Curtiss JN-4, or 'Jenny,' which at that time was one of the most well-known types of planes.\""
+        },
+        {
+          "label": "B",
+          "text": "\"While Coleman was beloved by spectators for her charisma, she had a more complicated relationship with her managers and staff, who at times found her behavior too impulsive and demanding.\""
+        },
+        {
+          "label": "C",
+          "text": "\"Coleman once considered leaving her career as a stunt pilot to focus her efforts on giving speeches, which she felt would better support her public image.\""
+        },
+        {
+          "label": "D",
+          "text": "\"Although female pilots were typically expected to wear traditional but impractical attire that included dresses or skirts, photographs of Coleman show her wearing pants and leather jackets.\""
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (illustration/quotation)/Easy",
+      "source_question_number": 8,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. This choice supports the claim of Coleman's intentional defiance of social norms: female pilots were expected to wear skirts, but Coleman wore pants and leather jackets instead.\n\nChoice A is incorrect. Coleman flew a well-known, common plane, which would not have defied social norms among pilots. Choice B is incorrect. Her complicated relationship with managers and staff would not have been a component of Coleman's public persona. This choice also fails to mention any \"social norms of the time.\" Choice C is incorrect. While this quotation suggests that Coleman was careful and purposeful about her public image, it doesn't directly mention anything about \"social norms of the time.\"",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002204",
+      "section": "reading_writing",
+      "question_number": 27,
+      "passage": "Some residents in a neighborhood in Atlanta recently founded a community garden inside a local park. The residents agreed to volunteer to take care of the garden together. Students at a local high school surveyed some of the volunteers as part of a project to understand the impact of the new garden. The students concluded that the new garden benefited the community overall by fostering connections and relationships between the volunteers and other residents of the neighborhood who weren't volunteering at the garden.",
+      "prompt": "Which quotation from a survey respondent would best illustrate the students' conclusion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\"Our first challenge was deciding what plants would be most suitable to the climate and soil here in Atlanta. We needed plants that could survive the hot and humid summers.\""
+        },
+        {
+          "label": "B",
+          "text": "\"We're lucky to have a few expert gardeners living in the neighborhood. Some volunteers and I have gone to them a few times with questions, and they've been eager to help us and to learn more about the project.\""
+        },
+        {
+          "label": "C",
+          "text": "\"I love getting the opportunity to be outside and around nature, especially on days when the weather is nice.\""
+        },
+        {
+          "label": "D",
+          "text": "\"My favorite thing about the garden is the feeling of pride I get when I walk by each day. As I see the plants growing, I feel good knowing I had a small part in creating this beautiful space in the neighborhood.\""
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (illustration/quotation)/Easy",
+      "source_question_number": 9,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer. This choice shows how volunteers have been interacting with nonvolunteer neighbors and benefiting from their gardening expertise: proof of the connections enabled by the garden.\n\nChoice A is incorrect. This volunteer describes the challenges of developing the garden, which isn't connected to the conclusion about the garden fostering connections between volunteers and neighbors. Choice C is incorrect. While the volunteer expresses enthusiasm for the garden, they don't mention any interactions with other people, which is what the students need to show for their conclusion. Choice D is incorrect. The respondent enjoys and takes pride in the garden, but they don't mention interacting with neighbors or other volunteers.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002236",
+      "section": "reading_writing",
+      "question_number": 28,
+      "passage": "Roasted green chiles are a popular ingredient in Southwestern cuisine, but the traditional roasting method of burning propane is not environmentally friendly. To see if solar power could provide a better alternative, engineer Kenneth Armijo and his team roasted batches of green chiles using between 38 and 42 heliostats, which are devices that concentrate sunlight. The team was successful in reaching the same roasting temperature used in traditional propane roasting, but they found that propane yielded faster results. While the fastest solar-roasted green chiles took six minutes, batches using propane took only four. Armijo hypothesizes that they can reduce the roasting time for solar-roasted green chiles by using more heliostats.",
+      "prompt": "Which finding, if true, would most directly support Armijo's hypothesis?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The temperature inside the roasting drum is distributed more evenly when roasting green chiles with solar power than with propane."
+        },
+        {
+          "label": "B",
+          "text": "Attempts to roast green chiles using 50 heliostats yields results in fewer than six minutes."
+        },
+        {
+          "label": "C",
+          "text": "Green chile connoisseurs prefer the flavor of solar-roasted green chiles over the flavor of propane-roasted green chiles."
+        },
+        {
+          "label": "D",
+          "text": "The skins of solar-roasted green chiles are easier to peel than the skins of propane-roasted green chiles."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Easy",
+      "source_question_number": 1,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer. Armijo believes that using more heliostats will speed up the roasting process, and this finding shows that with 50 heliostats-more than the number of heliostats already used-the roasting time is indeed reduced.\n\nChoice A is incorrect. The evenness of temperature in the roasting drum doesn't tell us about the speed of the roasting process, which is what Armijo's hypothesis is concerned with. Choice C is incorrect. Armijo's hypothesis is focused on the speed of the roasting process, not the flavor of the resulting roasted chiles. Choice D is incorrect. Though Armijo's hypothesis mentions a benefit of solar-roasting green chiles (easier peeling), it doesn't address the speed of the roasting process.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002237",
+      "section": "reading_writing",
+      "question_number": 29,
+      "passage": "As a monthly newsletter formed in 1969 by a group of Asian American students at the University of California, Los Angeles, [i]Gidra[/i] helped raise awareness about social and political issues concerning the Asian American community on campus and at large. The newsletter had an expansive reach for a publication of its kind: around 4,000 copies were published each month. A student writing a history paper, however, hypothesizes that [i]Gidra's[/i] influence cannot be measured by the number of newsletters published monthly alone.",
+      "prompt": "Which finding, if true, would most directly support the student's hypothesis?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The students who initially formed [i]Gidra[/i] each contributed financially to its creation."
+        },
+        {
+          "label": "B",
+          "text": "In addition to covering current events, [i]Gidra[/i] also featured works of art and literature."
+        },
+        {
+          "label": "C",
+          "text": "[i]Gidra[/i] was initially based out of the Asian American Studies Center at UCLA."
+        },
+        {
+          "label": "D",
+          "text": "People would often give their copies of [i]Gidra[/i] to others once they had finished reading an issue."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Easy",
+      "source_question_number": 2,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. If there were more [i]Gidra[/i] readers than there were copies of the newsletter, then the newsletter's influence would be much greater than its 4,000 monthly copies.\n\nChoice A is incorrect. Information about the newsletter's initial funding doesn't tell us about the influence that the newsletter eventually had. Choice B is incorrect. While the content of[i] Gidra[/i] was undoubtedly related to the newsletter's influence, this information isn't relevant to the specific hypothesis about monthly circulation numbers. Choice C is incorrect. Where the publishers of[i] Gidra[/i] were initially based doesn't tell us about the newsletter's overall influence",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002238",
+      "section": "reading_writing",
+      "question_number": 30,
+      "passage": "Many scientists have believed that giraffes are solitary creatures, preferring to spend their time alone instead of with others. But observations of giraffes and their behavior in recent years has suggested that these animals may be more social than we once thought. For example, scientists Zoe Muller and Stephen Harris claim that giraffes may even help each other care for one another's newborns.",
+      "prompt": "Which finding, if true, would most directly support Muller and Harris's conclusion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Female giraffes have been observed feeding young giraffes that aren't their direct offspring."
+        },
+        {
+          "label": "B",
+          "text": "Confrontations between a younger and an older male giraffe are frequently observed."
+        },
+        {
+          "label": "C",
+          "text": "Some female giraffes have been observed sniffing and licking their newborn offspring."
+        },
+        {
+          "label": "D",
+          "text": "Giraffes are able to make sounds but are rarely observed communicating with others."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Easy",
+      "source_question_number": 3,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. If female giraffes feed nonoffspring young, that's direct evidence that \"giraffes may even help each other care for one another's newborns.\"\n\nChoice B is incorrect. Confrontations between males doesn't tell us anything about whether giraffes help each other care for newborns. Choice C is incorrect. While this option does mention newborn offspring, it only discusses a mother's behavior toward her own child, not another giraffe's child. Choice D is incorrect. Whether or not giraffes are observed communicating with each other doesn't tell us anything about whether they help each other care for newborns.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002239",
+      "section": "reading_writing",
+      "question_number": 31,
+      "passage": "Hip-hop pedagogy is a form of teaching that's gaining popularity across school subjects. It involves incorporating hip-hop and rap music into lessons as well as using hip-hop elements when teaching other subject matters. For example, Quan Neloms's students look for college-level vocabulary and historical events in rap songs. Researchers claim that in addition to developing students' social justice awareness,[u] hip-hop pedagogy encourages student success by raising students' interest and engagement. [/u]",
+      "prompt": "Which finding, if true, would most strongly support the underlined claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Students tend to be more enthusiastic about rap music than they are about hip-hop music."
+        },
+        {
+          "label": "B",
+          "text": "Students who are highly interested in social justice issues typically don't sign up for courses that incorporate hip-hop and rap music."
+        },
+        {
+          "label": "C",
+          "text": "Educators report that they enjoy teaching courses that involve hip-hop and rap music more than teaching courses that don't."
+        },
+        {
+          "label": "D",
+          "text": "Courses that incorporate hip-hop and rap music are among the courses with the highest enrollment and attendance rates."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Easy",
+      "source_question_number": 4,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. Enrollment and attendance are logical ways to measure whether students are interested and engaged. High enrollment and attendance suggests a high level of interest and engagement.\n\nChoice A is incorrect. This choice doesn't support the claim. Students' preferences between hip-hop and rap aren't relevant to the claim, which is focused on whether or not students like classes that use hip-hop pedagogy (which includes the educational use of both hip-hop and rap). Choice B is incorrect. This choice doesn't support the claim. While the first part of the sentence discusses social justice, the underlined claim focuses on student success, which is unrelated. Choice C is incorrect. This choice doesn't support the claim. This tells us about teacher enjoyment, which isn't relevant to a claim about student interest and engagement.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002240",
+      "section": "reading_writing",
+      "question_number": 32,
+      "passage": "The Milky Way galaxy is composed of millions of stars in a relatively flat structure containing a thin disk and a thick disk. Based on computer simulations and analysis of data on the brightness, position, and chemical composition of about 250,000 stars in the thick disk (collected from two telescopes, one in China and one orbiting in space), astrophysicists Maosheng Xiang and Hans-Walter Rix claim that the thick disk of the Milky Way formed in two distinct phases rather than a single one.",
+      "prompt": "Which finding, if true, would most directly support the researchers' claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The telescopes used by the researchers have detected stars of similar ages in galaxies other than the Milky Way."
+        },
+        {
+          "label": "B",
+          "text": "There's an age difference of about 2 billion years between certain stars in the thick disk."
+        },
+        {
+          "label": "C",
+          "text": "The thin disk contains about twice as many stars that can be seen from Earth as the thick disk does."
+        },
+        {
+          "label": "D",
+          "text": "The stars in the Milky Way tend to have very similar chemical compositions."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Easy",
+      "source_question_number": 5,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer. A consistent age difference of 2 billion years between certain stars within the thick disk would support the claim that the thick disk formed in two phases instead of one, with the second phase beginning 2 billion years after the first phase.\n\nChoice A is incorrect. This choice doesn't support the claim. The researchers base their claim on their study of stars inside the thick disk of the Milky Way. This choice makes a comparison to stars in other galaxies, which isn't relevant. Choice C is incorrect. This choice doesn't support the claim. The researchers base their claim on their study of stars inside the thick disk. This choice makes a comparison to the thin disk, which isn't relevant. Choice D is incorrect. This choice doesn't support the claim. It's too general. The claim is specifically about the thick disk.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002241",
+      "section": "reading_writing",
+      "question_number": 33,
+      "passage": "Scientists have long believed that giraffes are mostly silent and communicate only visually with one another. But biologist Angela Stöger and her team analyzed hundreds of hours of recordings of giraffes in three European zoos and found that giraffes make a very low-pitched humming sound. The researchers claim that the giraffes use these sounds to communicate when it's not possible for them to signal one another visually.",
+      "prompt": "Which finding, if true, would most directly support Stöger and her team's claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Giraffes have an excellent sense of vision and can see in color."
+        },
+        {
+          "label": "B",
+          "text": "The giraffes only produced the humming sounds at night when they couldn't see one another."
+        },
+        {
+          "label": "C",
+          "text": "Wild giraffes have never been recorded making humming sounds."
+        },
+        {
+          "label": "D",
+          "text": "Researchers observed other animals in European zoos humming."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Easy",
+      "source_question_number": 6,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer because it presents a finding that, if true, would support Stöger and her team's claim that giraffes use humming to communicate when they cannot signal to one another visually. The text indicates that scientists have long thought that giraffes produce little sound and exclusively rely on visual signals to communicate with one another. The text goes on to say, however, that Stöger and her team have recorded giraffes in three European zoos making a low-pitched humming sound, which the team claims the giraffes use to communicate when they cannot see each other. If the giraffes produced these sounds when visual communication was impossible and never produced them otherwise, that would support Stöger and her team's claim about the circumstance in which giraffes make the sound.\n\nChoice A is incorrect because finding that giraffes have excellent vision and can see in color would have no bearing on Stöger and her team's claim that giraffes produce a low-pitched humming noise to communicate when they cannot communicate visually. As presented in the text, Stöger and her team's claim is restricted to circumstances in which giraffes cannot signal one another visually; if the giraffes are unable to signal visually, their sense of vision is irrelevant to their communication. Choice C is incorrect because finding that wild giraffes have never been recorded making humming noises would not support Stöger and her team's claim about the function of the humming noise that the researchers recorded from the giraffes in European zoos. The text provides no information about whether researchers have even attempted to record low-pitched humming in wild giraffes, so nothing can be concluded about the implications of the lack of such recordings. Choice D is incorrect because finding that other animals in European zoos had been observed humming would not support Stöger and her team's claim, since it would not indicate anything about why giraffes produce humming sounds. Different species could produce similar sounds for different purposes, so scientists could not conclude anything about the function of giraffe humming from a finding that some other animals in zoos also hum.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    }
+  ]
+}

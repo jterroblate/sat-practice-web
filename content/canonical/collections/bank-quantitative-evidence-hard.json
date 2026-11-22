@@ -1,0 +1,1212 @@
+{
+  "schemaVersion": "sat-canonical-question-collection-v1",
+  "contentId": "collection-bank-quantitative-evidence-hard",
+  "title": "Quantitative Evidence · Hard",
+  "section": "reading_writing",
+  "questionCount": 15,
+  "questions": [
+    {
+      "question_id": "bank_rw_002154",
+      "section": "reading_writing",
+      "question_number": 1,
+      "passage": "Studying tools unearthed at a cave site on the western coast of Italy, archaeologist Paola Villa and colleagues have determined that prehistoric Neanderthal groups fashioned them from shells of clams that they harvested from the seafloor while wading or diving or that washed up on the beach. Clamshells become thin and eroded as they wash up on the beach, while those on the seafloor are smooth and sturdy, so the research team suspects that Neanderthals prized the tools made with seafloor shells. However, the team also concluded that those tools were likely more challenging to obtain, noting that ______",
+      "prompt": "Which choice most effectively uses data from the table to support the research team's conclusion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "at each depth below the surface in the cave, the difference in the numbers of tools of each type suggests that shells were easier to collect from the beach than to harvest from the seafloor."
+        },
+        {
+          "label": "B",
+          "text": "the highest number of tools were at a depth of 3-4 meters below the surface, which suggests that the Neanderthal population at the site was highest during the related period of time."
+        },
+        {
+          "label": "C",
+          "text": "at each depth below the surface in the cave, the difference in the numbers of tools of each type suggests that Neanderthals preferred to use clamshells from the beach because of their durability."
+        },
+        {
+          "label": "D",
+          "text": "the higher number of tools at depths of 5-6 meters below the surface in the cave than at depths of 4–5 meters below the surface suggests that the size of clam populations changed over time."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Quantitative Evidence/Hard",
+      "source_question_number": 4,
+      "table_data": {
+        "title": "Number and Origin of Clamshell Tools Found at Different Levels Below the Surface in Neanderthal Cave",
+        "columns": [
+          "Depth of tools found below surface in cave (meters)",
+          "Clamshells that Neanderthals collected from the beach",
+          "Clamshells that Neanderthals harvested from the seafloor"
+        ],
+        "rows": [
+          [
+            "3–4",
+            "99",
+            "33"
+          ],
+          [
+            "6–7",
+            "1",
+            "0"
+          ],
+          [
+            "4–5",
+            "2",
+            "0"
+          ],
+          [
+            "2–3",
+            "7",
+            "0"
+          ],
+          [
+            "5–6",
+            "18",
+            "7"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because it most effectively uses data from the table to support the researchers' conclusion about the harvesting of clamshells by Neanderthals for use as tools. The text explains that Neanderthals used clamshells to make tools and that the sturdiest, and therefore the most desirable, shells for this purpose are found on the seafloor, not on the beach. However, the researchers also concluded that the clamshell tools made from shells from the seafloor are rarer than those made from shells from the beach. Meanwhile the table shows that at each depth, the number of tools made from shells from the beach exceeds thenumber made from the more desirable shells from the seafloor. The fact that the more desirable shells are less common suggests that it was significantly more difficult to harvest shells from the seafloor than from the beach.\n\nChoice B is incorrect because knowing which depth represents the period of time with the highest Neanderthal population does not help answer the question of why the Neanderthals consistently made more tools from the less desirable shells from the beach than they made from the more desirable shells from the seafloor. Choice C is incorrect because it claims that the beach shells are more durable than the seafloor shells, which contradicts the text's description of shells from the seafloor as smoother and sturdier than shells from the beach. Choice D is incorrect because knowing which depth has the most artifacts or whether the clam population fluctuated does not help explain why tools made from the less desirable shells from the beach outnumber tools made from the more desirable shells from the seafloor.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_002158",
+      "section": "reading_writing",
+      "question_number": 2,
+      "passage": "Rows in table may not add up to 100 due to rounding.\n\nOver the past two hundred years, the percentage of the population employed in the agricultural sector has declined in both France and the United States, while employment in the service sector (which includes jobs in retail, consulting, real estate, etc.) has risen. However, this transition happened at very different rates in the two countries. This can be seen most clearly by comparing the employment by sector in both countries in ______",
+      "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "1900 with the employment by sector in 1950."
+        },
+        {
+          "label": "B",
+          "text": "1800 with the employment by sector in 2012."
+        },
+        {
+          "label": "C",
+          "text": "1900 with the employment by sector in 2012."
+        },
+        {
+          "label": "D",
+          "text": "1800 with the employment by sector in 1900."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Quantitative Evidence/Hard",
+      "source_question_number": 8,
+      "table_data": {
+        "title": "Employment by Sector in France and the United States, 1800-2012 (% of total employment)",
+        "columns": [
+          "Year",
+          "Agriculture in France",
+          "Manufacturing in France",
+          "Services in France",
+          "Agriculture in US",
+          "Manufacturing in US",
+          "Services in US"
+        ],
+        "rows": [
+          [
+            "1800",
+            "64",
+            "22",
+            "14",
+            "68",
+            "18",
+            "13"
+          ],
+          [
+            "1900",
+            "43",
+            "29",
+            "28",
+            "41",
+            "28",
+            "31"
+          ],
+          [
+            "1950",
+            "32",
+            "33",
+            "35",
+            "14",
+            "33",
+            "53"
+          ],
+          [
+            "2012",
+            "3",
+            "21",
+            "76",
+            "2",
+            "18",
+            "80"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because it presents data from the table that most effectively complete the statement about the rates at which employment shifted in France and the United States. The text states that over the last two hundred years employment in the agricultural sector has declined while employment in the service sector has risen in both France and the US, and the data from the table reflect these trends. The text asserts, however, that the transition from agriculture to services \"happened at very different rates in the two countries.\" This assertion is best supported by a comparison of data from 1900 and 1950: the table shows that in those years, employment in agriculture went from 43% to 32% in France (a decline of 11 percentage points) and from 41% to 14% in the US (a decline of 27 percentage points), and that employment in services went from 28% to 35% in France (an increase of 7 percentage points) and from 31% to 53% in the US (an increase of 22 percentage points). In other words, the rate of change was greater in the US than in France for both sectors.\n\nChoice B is incorrect because comparing the data for 1800 and 2012 would suggest a similar rate of change in the two countries, not very different rates: employment in agriculture went from 64% in 1800 to 3% in 2012 in France, which is close to the change from 68% in 1800 to 2% in 2012 in the US, while employment in services went from 14% in 1800 to 76% in 2012 in France, which is close to the change from 13% in 1800 to 80% in 2012 in the US. Choice C is incorrect because comparing the data for 1900 and 2012 would suggest a similar rate of change in the two countries rather than very different rates: employment in agriculture went from 43% in 1900 to 3% in 2012 in France, which is close to the change from 41% in 1900 to 2% in 2012 in the US, while employment in services went from 28% in 1900 to 76% in 2012 in France, which is close to the change from 31% in 1900 to 80% in 2012 in the US. Choice D is incorrect because comparing the data for 1800 and 1900 would suggest a similar rate of change in the two countries, not very different rates: employment in agriculture went from 64% in 1800 to 43% in 1900 in France, which is fairly close to the change from 68% in 1800 to 41% in 1900 in the US, while employment in services went from 14% in 1800 to 28% in 1900 in France, which is close to the change from 13% in 1800 to 31% in 1900 in the US.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_002160",
+      "section": "reading_writing",
+      "question_number": 3,
+      "passage": "Mycorrhizal fungi in soil benefits many plants, substantially increasing the mass of some. A student conducted an experiment to illustrate this effect. The student chose three plant species for the experiment, including two that are mycorrhizal hosts (species known to benefit from mycorrhizal fungi) and one nonmycorrhizal species (a species that doesn't benefit from and may even be harmed by mycorrhizal fungi). The student then grew several plants from each species both in soil containing mycorrhizal fungi and in soil that had been treated to kill mycorrhizal and other fungi. After several weeks, the student measured the plants' average mass and was surprised to discover that ______",
+      "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "broccoli grown in soil containing mycorrhizal fungi had a slightly higher average mass than broccoli grown in soil that had been treated to kill fungi."
+        },
+        {
+          "label": "B",
+          "text": "corn grown in soil containing mycorrhizal fungi had a higher average mass than broccoli grown in soil containing mycorrhizal fungi."
+        },
+        {
+          "label": "C",
+          "text": "marigolds grown in soil containing mycorrhizal fungi had a much higher average mass than marigolds grown in soil that had been treated to kill fungi."
+        },
+        {
+          "label": "D",
+          "text": "corn had the highest average mass of all three species grown in soil that had been treated to kill fungi, while marigolds had the lowest."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Quantitative Evidence/Hard",
+      "source_question_number": 10,
+      "table_data": {
+        "title": "Effects of Mycorrhizal Fungi on 3 Plant Species",
+        "columns": [
+          "Plant species",
+          "Mycorrhizal host",
+          "Average mass of plants grown in soil containing mycorrhizal fungi (in grams)",
+          "Average mass of plants grown in soil treated to kill fungi (in grams)"
+        ],
+        "rows": [
+          [
+            "Corn",
+            "yes",
+            "15.1",
+            "3.8"
+          ],
+          [
+            "Marigold",
+            "yes",
+            "10.2",
+            "2.4"
+          ],
+          [
+            "Broccoli",
+            "no",
+            "7.5",
+            "7"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because it most effectively uses data from the table to complete the statement. The text explains that mycorrhizal hosts are plants that benefit from the presence of mycorrhizal fungi in the soil and that some such plants produce more mass when grown in the presence of these fungi, while for nonmycorrhizal species the fungi either have no effect or may be harmful. The experiment included two mycorrhizal hosts (corn and marigold) and one nonmycorrhizal species (broccoli). Given the claim in the text that nonmycorrhizal species will see either no difference or a decrease in mass when exposed to mycorrhizal fungi, the student would likely have been surprised by the higher average mass for broccoli grown in the presence of the fungi than the broccoli grown in the soil treated to kill fungi.\n\nChoice B is incorrect. Although this choice accurately describes the corn data from the table, the fact that the mycorrhizal host corn is more massive in the presence of the fungi likely fits with what the student expected and would therefore not be surprising. Choice C is incorrect. Although this choice accurately describes the\nmarigold data from the table, the fact that the mycorrhizal host marigold is more massive in the presence of the fungi is likely what the student expected and thus would not be surprising. Choice D is incorrect because it does not accurately represent the data in the table-when grown in soil treated to kill fungi, corn had an average mass of 3.8 g while broccoli had an average mass of 7g-and because making comparisons among the plants in the no-fungi condition, by itself, does not provide a basis to compare the average mass of mycorrhizal hosts and nonmycorrhizal species grown in the presence of the fungi with those grown in the soil treated to kill fungi.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_002162",
+      "section": "reading_writing",
+      "question_number": 4,
+      "passage": "Earth's atmosphere is bombarded by cosmic dust originating from several sources: short-period comets (SPCs), particles from the asteroid belt (ASTs), Halley-type comets (HTCs), and Oort cloud comets (OCCs). Some of the dust's material vaporizes in the atmosphere in a process called ablation, and the faster the particles move, the higher the rate of ablation. Astrophysicist Juan Diego Carrillo-Sánchez led a team that calculated average ablation rates for elements in the dust (such as iron and potassium) and showed that material in slower-moving SPC or AST dust has a lower rate than the same material in faster-moving HTC or OCC dust. For example, whereas the average ablation rate for iron from AST dust is 28%, the average rate for ______",
+      "prompt": "Which choice most effectively uses data from the table to complete the example?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "iron from SPC dust is 20%."
+        },
+        {
+          "label": "B",
+          "text": "sodium from OCC dust is 100%."
+        },
+        {
+          "label": "C",
+          "text": "iron from HTC dust is 90%."
+        },
+        {
+          "label": "D",
+          "text": "sodium from AST dust is 75%."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Quantitative Evidence/Hard",
+      "source_question_number": 12,
+      "table_data": {
+        "title": "Ablation Rates for Three Elements in Cosmic Dust, by Dust Source",
+        "columns": [
+          "Element",
+          "SPC",
+          "AST",
+          "HTC",
+          "OCC"
+        ],
+        "rows": [
+          [
+            "iron",
+            "20%",
+            "28%",
+            "90%",
+            "98%"
+          ],
+          [
+            "potassium",
+            "44%",
+            "74%",
+            "97%",
+            "100%"
+          ],
+          [
+            "sodium",
+            "45%",
+            "75%",
+            "99%",
+            "100%"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer because it most effectively completes the example regarding the ablation rate of iron. The table shows the ablation rates for three elements-iron, potassium, and sodium-found in cosmic dust that comes from one of four sources. The text says that the ablation rate for a given element in slower-moving SPC and AST dust was lower than the ablation rate for that same element in faster-moving HTC or OCC dust. The text then presents the first part of an example of this pattern, describing an ablation rate of 28% for iron in AST dust. The information that iron from HTC dust had an ablation rate of 90% is therefore the most effective way to complete this example-the comparison of a relatively low ablation rate for iron in slower-moving AST dust with a relatively high ablation rate for iron in faster-moving HTC dust illustrates the tendency of ablation rates for a given element to be lower in slower-moving dust than in faster-moving dust.\n\nChoice A is incorrect because the text indicates that SPC dust, like AST dust, moves relatively slowly; a comparison of the ablation rates of iron from two slower-moving dust sources could not be an example of the difference between ablation rates in slower-moving dust and faster-moving dust, which is the pattern that the example is supposed to illustrate. Choice B is incorrect because the example in the text is supposed to illustrate the difference in the ablation rates of the same element from slower-moving dust and faster-moving dust, and the first part of the example provides data about the ablation rate of iron, which means the second part of the\nexample must also be about the ablation rate of iron, not the ablation rate of sodium. Choice D is incorrect because the example in the text is supposed to illustrate the difference in the ablation rates of the same element from slower-moving dust and faster-moving dust, and the first part of the example provides data about the ablation rate of iron, which means the second part of the example must also be about the ablation rate of iron, not the ablation rate of sodium. Additionally, any ablation rate from AST dust would be ineffective in this example since AST dust is referenced in the first part of the example and thus additional data focused on AST dust would not illustrate a variation across dust types.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_002163",
+      "section": "reading_writing",
+      "question_number": 5,
+      "passage": "Native to Latin America, the cane toad was introduced to Australia in the 1930s. In recent decades, tadpoles in the Australian population have been shown to consume eggs of their own species. A 2022 study showed that when presented with cane toad eggs as well as eggs of native Australian amphibians, cane toad tadpoles disproportionately consumed eggs of their own species. This behavior results from their attraction to bufadienolide, a chemical produced by the eggs of cane toads but not by the eggs of native amphibians. However, using data from this study, a student wishes to argue that the presence of bufadienolide doesn't entirely explain the cane toad tadpoles' preference for certain eggs over others.",
+      "prompt": "Which choice best describes data from the table that support the student's argument?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The tadpoles consumed a higher percentage of the striped burrowing frog eggs than they did of the eggs of the dainty green tree frog."
+        },
+        {
+          "label": "B",
+          "text": "The tadpoles left a certain percentage of the eggs of each of the five species unharmed, thus ultimately allowing them to hatch."
+        },
+        {
+          "label": "C",
+          "text": "The tadpoles consumed a lower percentage of the short-footed frog eggs than they did of the eggs of their own species."
+        },
+        {
+          "label": "D",
+          "text": "The tadpoles consumed the same percentage of the dainty green tree frog eggs as they did of the little red tree frog eggs."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Quantitative Evidence/Hard",
+      "source_question_number": 1,
+      "table_data": {
+        "title": "Percentage of Available Eggs Eaten by Cane Toad Tadpoles",
+        "columns": [
+          "Amphibian species (common name)",
+          "Percentage of eggs eaten",
+          "Native to Australia",
+          "Produces bufadienolide"
+        ],
+        "rows": [
+          [
+            "Little red tree frog",
+            "1%",
+            "yes",
+            "no"
+          ],
+          [
+            "Cane toad",
+            "90%",
+            "no",
+            "yes"
+          ],
+          [
+            "Short-footed frog",
+            "7%",
+            "yes",
+            "no"
+          ],
+          [
+            "Striped burrowing frog",
+            "10%",
+            "yes",
+            "no"
+          ],
+          [
+            "Dainty green tree frog",
+            "1%",
+            "yes",
+            "no"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because it most effectively uses data from the table to support the student's argument about the role of bufadienolide in the egg preferences of cane toad tadpoles. For each of five amphibian species included in the 2022 study, the table gives the percentage of available eggs that the cane toad tadpoles ate. According to the table, the tadpoles ate 10% of striped burrowing frog eggs and 1% of dainty green tree frog eggs, which suggests a preference for striped burrowing frog eggs over dainty green tree frog eggs. The table also indicates that neither of these species' eggs produces bufadienolide. Thus, these data suggest that something other than the presence or absence of bufadienolide is needed to adequately explain the tadpoles' egg preferences.\n\nChoice B is incorrect. Although the table shows that for each of the five amphibian species, the cane toad tadpoles ate less than 100% of that species' eggs, which demonstrates that the tadpoles did indeed leave some eggs for each species unharmed, this fact alone is irrelevant to the tadpoles' preferences for some species' eggs over other species' eggs. Choice C is incorrect. Although the table indicates that the cane toad tadpoles ate 90% of the cane toad eggs and 7% of the short-footed frog eggs, which suggests that they prefer cane toad eggs over short-footed frog eggs, the table also indicates that cane toad eggs produce bufadienolide, whereas short-footed frog eggs do not. Therefore, these data are not sufficient to exclude that bufadienolide alone could explain the tadpoles' preference for some species' eggs over other species' eggs. Choice D is incorrect. Although the table shows that for both dainty green tree frog eggs and little red tree frog eggs, the cane toad tadpoles ate 1% of those species' eggs, it also indicates that neither produces bufadienolide. Thus, these data alone don't indicate bufadienolide's role in the tadpoles' egg preferences.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_002165",
+      "section": "reading_writing",
+      "question_number": 6,
+      "passage": "The largest tyrannosaurids—the family of carnivorous dinosaurs that includes [i]Tarbosaurus, Albertosaurus[/i], and, most famously, [i]Tyrannosaurus rex—[/i]are thought to have had the strongest bites of any land animals in Earth's history. Determining the bite force of extinct animals can be difficult, however, and paleontologists Paul Barrett and Emily Rayfield have suggested that an estimate of dinosaur bite force may be significantly influenced by the methodology used in generating that estimate.",
+      "prompt": "Which choice best describes data from the table that support Barrett and Rayfield's suggestion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The study by Meers used body-mass scaling and produced the lowest estimated maximum bite force, while the study by Cost et al. used muscular and skeletal modeling and produced the highest estimated maximum."
+        },
+        {
+          "label": "B",
+          "text": "In their study, Gignac and Erickson used tooth-bone interaction analysis to produce an estimated bite force range with a minimum of 8,000 newtons and a maximum of 34,000 newtons."
+        },
+        {
+          "label": "C",
+          "text": "The bite force estimates produced by Bates and Falkingham and by Cost et al. were similar to each other, while the estimates produced by Meers and by Gignac and Erickson each differed substantially from any other estimate."
+        },
+        {
+          "label": "D",
+          "text": "The estimated maximum bite force produced by Cost et al. exceeded the estimated maximum produced by Bates and Falkingham, even though both groups of researchers used the same method to generate their estimates."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Quantitative Evidence/Hard",
+      "source_question_number": 3,
+      "table_data": {
+        "title": "Estimates of Tyrannosaurid Bite Force",
+        "columns": [
+          "Study",
+          "Year",
+          "Estimation method",
+          "Approximate bite force (newtons)"
+        ],
+        "rows": [
+          [
+            "Cost et al.",
+            "2019",
+            "muscular and skeletal modeling",
+            "35,000–63,000"
+          ],
+          [
+            "Gignac and Erickson",
+            "2017",
+            "tooth-bone interaction analysis",
+            "8,000–34,000"
+          ],
+          [
+            "Meers",
+            "2002",
+            "body-mass scaling",
+            "183,000–235,000"
+          ],
+          [
+            "Bates and Falkingham",
+            "2012",
+            "muscular and skeletal modeling",
+            "35,000–57,000"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer because it accurately describes data from the table that support Barrett and Rayfield's suggestion about bite force estimates. According to the text, Barrett and Rayfield believe that estimates of dinosaur bite force may be strongly influenced by the methods used to produce them-that is, that different methods may produce significantly different results. The table shows that the studies by Bates and Falkingham and by Cost et al. used the same estimation method (muscular and skeletal modeling) and produced similar bite force estimates (approximately 35,000-57,000 newtons and 35,000-63,000 newtons, respectively). The study by Meers, however, used body-mass scaling and produced a much higher bite force estimate (183,000-235,000 newtons), while the study by Gignac and Erickson used tooth-bone interaction analysis and produced a much lower bite force estimate (8,000-34,000 newtons). The fact that one method produced similar estimates in two different studies and that two different methods used in other studies produced substantially different estimates supports the idea that dinosaur bite force estimates are significantly influenced by the methodology used to produce them.\n\nChoice A is incorrect because it inaccurately describes data from the table. The table does show that the studies by Meers and by Cost et al. used different estimation methods and produced very different ranges of estimated dinosaur bite force, which would support Barrett and Rayfield's suggestion that different methodologies may produce significantly different estimates. However, the table doesn't show that the study by Meers produced the lowest estimated maximum bite force while the study by Cost et al. produced the highest. In fact, the study by Meers estimated a maximum bite force of approximately 235,000 newtons, which is the highest of all the estimated maximums. Choice B is incorrect. Although the data from Gignac and Ericson's study are accurately described, a single set of findings from one study using only one methodology can't show that different methodologies may produce significantly different dinosaur bite force estimates, as Barrett and Rayfield suggest. Choice D is incorrect. Although the table shows that the maximum bite force estimated by Cost et al. was higher than that estimated by Bates and Falkingham, the difference is relatively small; in fact, both teams estimated a minimum bite force of approximately 35,000 newtons and a maximum bite force close to approximately 60,000 newtons. Because these findings demonstrate that a single methodology (muscular and skeletal modeling) produced similar overall results in two studies, the findings don't support Barrett and Rayfield's suggestion that different methodologies may produce significantly different dinosaur bite force estimates.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_002166",
+      "section": "reading_writing",
+      "question_number": 7,
+      "passage": "Ecologist Veronika Bókony and colleagues investigated within-species competition among common toads ([i]Bufo bufo[/i]), a species that secretes various unpleasant-tasting toxins called bufadienolides in response to threats. The researchers tested [i]B. bufo[/i] tadpoles' responses to different levels of competition by creating ponds with different tadpole population densities but a fixed amount of food. Based on analysis of the tadpoles after three weeks, the researchers concluded that increased competition drove bufadienolide production at the expense of growth.",
+      "prompt": "Which choice uses data from the table to most effectively support the researchers' conclusion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The difference in average tadpole body mass was small between the low and medium population density conditions and substantially larger between the low and high population density conditions."
+        },
+        {
+          "label": "B",
+          "text": "Tadpoles in the low and medium population density conditions had substantially lower average bufadienolide concentrations but had greater average body masses than those in the high population density condition."
+        },
+        {
+          "label": "C",
+          "text": "Tadpoles in the high population density condition displayed a relatively modest increase in the average amount of bufadienolide but roughly double the average bufadienolide concentration compared to those in the low population density condition."
+        },
+        {
+          "label": "D",
+          "text": "Tadpoles produced approximately the same number of different bufadienolide toxins per individual across the population density conditions, but average tadpole body mass decreased as population density increased."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Quantitative Evidence/Hard",
+      "source_question_number": 4,
+      "table_data": {
+        "title": "Tadpole Body Mass and Toxin Production after Three Weeks in Ponds",
+        "columns": [
+          "Population density",
+          "Average tadpole body mass (milligrams)",
+          "Average number of distinct bufadienolide toxins per tadpole",
+          "Average amount of bufadienolide per tadpole (nanograms)",
+          "Average bufadienolide concentration (nanograms per milligram of tadpole body mass)"
+        ],
+        "rows": [
+          [
+            "High",
+            "193.87",
+            "22.69",
+            "5815.51",
+            "374.22"
+          ],
+          [
+            "Medium",
+            "254.56",
+            "21.65",
+            "5525.72",
+            "230.10"
+          ],
+          [
+            "Low",
+            "258.97",
+            "22.08",
+            "4664.99",
+            "171.43"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer. This data shows that the tadpoles in the high-density pond (meaning those with the most competition) didn't grow as big as the other two groups but produced more bufadienolide.\n\nChoice A is incorrect. This doesn't fully support the conclusion. It doesn't include any data about bufadienolide production. Choice C is incorrect. This doesn't fully support the conclusion. It doesn't include any data about growth. Choice D is incorrect. This doesn't fully support the conclusion. It doesn't demonstrate that the tadpoles in the high-density pond produced more bufadienolide overall. The fact that they didn't produce more kinds of bufadienolide isn't relevant to the conclusion.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_002167",
+      "section": "reading_writing",
+      "question_number": 8,
+      "passage": "Swahili is estimated to be the first language of up to 15 million people worldwide. It's also an officially recognized language in Tanzania, Kenya, and the Democratic Republic of the Congo, which means these countries use Swahili in government documents and proceedings. [u]But even in countries where almost everyone speaks Swahili, for many it isn't their first language but is instead their second, third, or even fourth language.[/u]",
+      "prompt": "Which choice most effectively uses data from the table to support the underlined claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Tanzania has approximately 61 million Swahili speakers, which is much more than the estimated total number of people worldwide for whom Swahili is their first language."
+        },
+        {
+          "label": "B",
+          "text": "Tanzania is estimated to have at most 15 million Swahili speakers, while the country's total population is approximately 61 million people."
+        },
+        {
+          "label": "C",
+          "text": "Approximately 100 percent of the people who speak Swahili as their first language live in Kenya, which has a total population of approximately 55 million people."
+        },
+        {
+          "label": "D",
+          "text": "Approximately 100 percent of Kenya's population speaks Swahili, while only about 25 percent of the Democratic Republic of the Congo's population speaks Swahili."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Quantitative Evidence/Hard",
+      "source_question_number": 5,
+      "table_data": {
+        "title": "Swahili Speakers in Three African Countries",
+        "columns": [
+          "Country",
+          "Approximate number of speakers (in millions)",
+          "Estimated % of population"
+        ],
+        "rows": [
+          [
+            "Democratic Republic of the Congo",
+            "22",
+            "25"
+          ],
+          [
+            "Kenya",
+            "55",
+            "100"
+          ],
+          [
+            "Tanzania",
+            "61",
+            "100"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because it most effectively uses data from the table to support the underlined claim. The text indicates that Swahili is the first language of up to 15 million people worldwide. The text goes on to claim, in the underlined portion, that even in countries where nearly everyone speaks Swahili, many of the language's speakers don't have Swahili as their first language. The table indicates that 61 million people in Tanzania, which amounts to 100 percent of the population, speak Swahili. If 61 million people in Tanzania speak Swahili, but only 15 million people worldwide have Swahili as their first language, that means there are many people in Tanzania who speak Swahili as a language other than their first language. This information about Swahili speakers in Tanzania therefore supports the claim that many Swahili speakers in countries where nearly everyone speaks Swahili speak it as a language other than their first language (such as their second, third, or fourth language).\n\nChoice B is incorrect because it doesn't accurately describe information in the table. According to the table, Tanzania has 61 million Swahili speakers, not at most 15 million Swahili speakers. Additionally, the table indicates that 100 percent of Tanzania's population speak Swahili, which means that the number of Swahili\nspeakers in the country and the country's total population should be the same, not that they should differ by such a large amount. Choice C is incorrect because there's no information in the table or the text that indicates where people who speak Swahili as their first language live. Although Kenya's total population can be inferred\nfrom the table-if Kenya has 55 million Swahili speakers and 100% of Kenya's population speak Swahili, then Kenya must have a population of 55 million people-nothing suggests that all the people who speak Swahili as their first language live in a single country, let alone that they all live in Kenya. Choice D is incorrect. Although the table does indicate that 100 percent of Kenya's population and 25 percent of the Democratic Republic of the Congo's population speak Swahili, this comparison is irrelevant to the claim that Swahili isn't the first language of many of its speakers even in countries where almost everyone speaks Swahili. On its own, a difference in the proportions of the population who speak Swahili cannot reveal whether those Swahili speakers have Swahili as their first language or a subsequent language.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_002168",
+      "section": "reading_writing",
+      "question_number": 9,
+      "passage": "Some researchers studying Indigenous actors and filmmakers in the United States have turned their attention to the early days of cinema, particularly the 1910s and 1920s, when people like James Young Deer, Dark Cloud, Edwin Carewe, and Lillian St. Cyr (known professionally as Red Wing) were involved in one way or another with numerous films. In fact, so many films and associated records for this era have been lost that counts of those four figures' output should be taken as bare minimums rather than totals; it's entirely possible, for example, that ______",
+      "prompt": "Which choice most effectively uses data from the table to complete the example?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Dark Cloud acted in significantly fewer films than did Lillian St. Cyr, who is credited with 66 performances."
+        },
+        {
+          "label": "B",
+          "text": "Edwin Carewe's 47 credited acting roles includes only films made after 1934."
+        },
+        {
+          "label": "C",
+          "text": "Lillian St. Cyr acted in far more than 66 films and Edwin Carewe directed more than 58."
+        },
+        {
+          "label": "D",
+          "text": "James Young Deer actually directed 33 films and acted in only 10."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Quantitative Evidence/Hard",
+      "source_question_number": 6,
+      "table_data": {
+        "title": "Credited Film Output of James Young Deer, Dark Cloud, Edwin Carewe, and Lillian St. Cyr",
+        "columns": [
+          "Individua",
+          "Years active",
+          "Number of films known and commonly credited"
+        ],
+        "rows": [
+          [
+            "James Young Deer",
+            "1909-1924",
+            "33 (actor), 35 (director), 10 (writer)"
+          ],
+          [
+            "Dark Cloud",
+            "1910-1920",
+            "35 (actor), 1 (writer)"
+          ],
+          [
+            "Edwin Carewe",
+            "1912-1934",
+            "47 (actor), 58 (director), 20 (producer), 4 (writer)"
+          ],
+          [
+            "Lillian St. Cyr (Red Wing)",
+            "1908-1921",
+            "66 (actor)"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer because it uses data from the table to effectively exemplify the idea that the film outputs of the four individuals included in the table should be considered bare minimums-that is, that we should assume that the individuals actually had higher outputs than those recorded. The table presents the\nyears during which the individuals were active and the number of known films the individuals are credited in. The table indicates that Lillian St. Cyr has 66 film credits as an actor and that Edwin Carewe has 58 film credits as a director; it follows that if some films and records for the era were lost, it's possible that Lillian St. Cyr acted in far more than 66 films and that Edwin Carewe directed more than 58 films.\n\nChoice A is incorrect because it doesn't effectively exemplify the idea that the film outputs of the four individuals included in the table should be considered bare minimums. Rather than addressing the idea that the individuals likely had higher outputs than those presented in the table, this choice simply compares data from\nthe table to make the point that Dark Cloud has fewer credited acting roles than Lillian St. Cyr (35 and 66, respectively). Choice B is incorrect because it misrepresents data from the table, even though it may exemplify the idea that the film outputs of the four individuals included in the table should be considered bare minimums by implying that Edwin Carewe acted in more than 47 films. The table indicates that Edwin Carewe was active from 1912 to 1934, meaning that his 47 credited acting roles were in films made before or during 1934, not after that time. Choice D is incorrect because it doesn't effectively exemplify the idea that the film outputs of the four individuals included in the table should be considered bare minimums. Instead of addressing the idea that the individuals likely had higher outputs than those recorded, this choice suggests that James Young Deer actually acted in and directed fewer films than presented in the table (only 33 known films as a director instead of 35, and only 10 known films as an actor instead of 33).",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_002169",
+      "section": "reading_writing",
+      "question_number": 10,
+      "passage": "Researcher Xiaolu Jia and colleagues monitored individuals' velocity and the surrounding crowd density as a group of study participants walked through a space and navigated around an obstacle. Participants rated how congested it seemed before the obstacle, after the obstacle, and overall, and the researchers correlated those ratings with velocity and density. (Correlations range from -1 to 1, with greater distance from 0 indicating greater strength). The researchers concluded that the correlations with velocity are stronger than those with density.",
+      "prompt": "Which choice best describes data from the table that support the researchers' conclusion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The correlation between congestion ratings before the obstacle and density is further from 0 than the correlation between overall congestion rating and velocity is."
+        },
+        {
+          "label": "B",
+          "text": "The correlation between congestion ratings before the obstacle and velocity is further from 0 than the correlation between congestion overall and velocity is."
+        },
+        {
+          "label": "C",
+          "text": "For each of the three ratings, the correlation with velocity is negative while the correlation with density is positive."
+        },
+        {
+          "label": "D",
+          "text": "For each of the three ratings, correlations with velocity are further from 0 than the corresponding correlations with density are."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Quantitative Evidence/Hard",
+      "source_question_number": 7,
+      "table_data": {
+        "title": "Correlations Between Congestion Ratings and Features of the Crowd in Raters' Immediate Vicinity",
+        "columns": [
+          "Crowd feature",
+          "Before obstacle",
+          "After obstacle",
+          "Overall"
+        ],
+        "rows": [
+          [
+            "Density",
+            "0.8592",
+            "0.7308",
+            "0.7447"
+          ],
+          [
+            "Velocity",
+            "-0.9357",
+            "-0.9518",
+            "-0.8587"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. The text tells us that the farther the correlation is from 0, the \"stronger\" it is (doesn't matter if it's negative or positive). The table shows that the correlations with velocity are farther from zero than the correlations with density, which supports the conclusion that the correlations with velocity are stronger.\n\nChoice A is incorrect. This choice doesn't support the conclusion. It makes an \"apples to oranges\" comparison by comparing density and velocity correlations across features instead of comparing them for each feature. Choice B is incorrect. This choice doesn't support the conclusion. It doesn't include the density correlations for comparison. Choice C is incorrect. This choice doesn't support the conclusion. The text tells us that the farther the correlation is from 0, the \"stronger\" it is: it doesn't matter for \"strength\" whether it's negative or positive.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_002170",
+      "section": "reading_writing",
+      "question_number": 11,
+      "passage": "When hibernating, Alaska marmots and Arctic ground squirrels enter a state called torpor, which minimizes the energy their bodies need to function. Often a hibernating animal will temporarily come out of torpor (called an arousal episode) and its metabolic rate will rise, burning more of the precious energy the animal needs to survive the winter. Alaska marmots hibernate in groups and therefore burn less energy keeping warm during these episodes than they would if they were alone. A researcher hypothesized that because Arctic ground squirrels hibernate alone, they would likely exhibit longer bouts of torpor and shorter arousal episodes than Alaska marmots.",
+      "prompt": "Which choice best describes data from the table that support the researcher's hypothesis?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The Alaska marmots' arousal episodes lasted for days, while the Arctic ground squirrels' arousal episodes lasted less than a day."
+        },
+        {
+          "label": "B",
+          "text": "The Alaska marmots and the Arctic ground squirrels both maintained torpor for several consecutive days per bout, on average."
+        },
+        {
+          "label": "C",
+          "text": "The Alaska marmots had shorter torpor bouts and longer arousal episodes than the Arctic ground squirrels did."
+        },
+        {
+          "label": "D",
+          "text": "The Alaska marmots had more torpor bouts than arousal episodes, but their arousal episodes were much shorter than their torpor bouts."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Quantitative Evidence/Hard",
+      "source_question_number": 8,
+      "table_data": {
+        "title": "Average Number and Duration of Torpor Bouts and Arousal Episodes for Alaska Marmots and Arctic Ground Squirrels, 2008-2011",
+        "columns": [
+          "Feature",
+          "Alaska marmots",
+          "Arctic ground squirrels"
+        ],
+        "rows": [
+          [
+            "torpor bouts",
+            "12",
+            "10.5"
+          ],
+          [
+            "duration per bout",
+            "13.81 days",
+            "16.77 days"
+          ],
+          [
+            "arousal episodes",
+            "11",
+            "9.5"
+          ],
+          [
+            "duration per episode",
+            "21.2 hours",
+            "14.2 hours"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer because it describes data from the table that support the researcher's hypothesis. According to the text, the researcher hypothesized that Arctic ground squirrels would exhibit longer torpor bouts and shorter arousal episodes than Alaska marmots do-or, put the other way, that the marmots would show shorter torpor bouts and longer arousal episodes than the ground squirrels do. The table shows data about torpor bouts and arousal episodes for the two species from 2008 to 2011. According to the table, the average duration of torpor bouts was 13.81 days for Alaska marmots, shorter than the average of 16.77 days for Arctic ground squirrels, and the average duration of arousal episodes was 21.2 hours for Alaska marmots, longer than the average of 14.2 hours for Arctic ground squirrels. Thus, the table supports the researcher's hypothesis byshowing that Alaska marmots had shorter bouts of torpor and longer arousal episodes than Arctic ground squirrels did.\n\nChoice A is incorrect because it inaccurately describes data from the table and doesn't support the researcher's hypothesis. The table shows that the average duration of arousal episodes was less than a day for both Alaska marmots (21.2 hours) and Arctic ground squirrels (14.2 hours). Additionally, information about arousal episodes for Alaska marmots and Arctic ground squirrels isn't sufficient to support a hypothesis involving comparisons of both arousal episodes and torpor bouts for those animals. Choice B is incorrect because it doesn't support the researcher's hypothesis, which involves comparisons of arousal episodes as well as torpor bouts for Alaska marmots and Arctic ground squirrels. Noting that both animals had torpor bouts lasting several days, on average, doesn't address arousal episodes at all, nor does it reveal how the animals' torpor bouts compared. Choice D is incorrect because it doesn't support the researcher's hypothesis. Although the table does show that Alaska marmots had more torpor bouts (12) than arousal episodes (11) and that their arousal episodes were much shorter than their torpor bouts (21.2 hours and 13.81 days, respectively), comparing data across only Alaska marmot behaviors isn't sufficient to support a hypothesis about torpor and arousal behaviors of both Alaska marmots and Arctic ground squirrels.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_002172",
+      "section": "reading_writing",
+      "question_number": 12,
+      "passage": "In Caddo, a language from what is now the US Southeast, vocabulary pertaining to corn cultivation resembles equivalent vocabulary in the Totozoquean language family in Mexico. This resemblance is perhaps attributable to cultural contact: such words could have entered Caddo through the intermediary of the neighboring but unrelated Chitimacha language, concurrent with the dissemination of corn itself from Mexico into the Southeast after 700 CE. That the vocabulary pertaining to domestic crops accompanies them as they diffuse into new regions is an established phenomenon globally. Crops may also be decoupled from vocabulary altogether: corn cultivation became ubiquitous among the Southeastern tribes, yet ______",
+      "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the origins of vocabulary pertaining to the crop vary across languages in the region, with the words for corn in Cherokee and the Muskogean languages showing no demonstrable relationship to Totozoquean vocabulary."
+        },
+        {
+          "label": "B",
+          "text": "the region is linguistically diverse, being home not only to Chitimacha and Caddo, but also to the Muskogean language family (including Chickasaw, Choctaw, and Muscogee) and to one Iroquoian language (Cherokee)."
+        },
+        {
+          "label": "C",
+          "text": "corn-related vocabulary underwent changes when entering other, unrelated languages, as can be seen by the divergence of the Caddo word from the Chitimacha word it originated in."
+        },
+        {
+          "label": "D",
+          "text": "words for corn in the languages of the Muskogean family evolved from a common root, with the Muscogee word having lost certain consonant sounds still present in the Chickasaw and Choctaw words."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Quantitative Evidence/Hard",
+      "source_question_number": 10,
+      "table_data": {
+        "title": "Corn-Related Vocabulary in Various Southeastern Languages",
+        "columns": [
+          "Language family",
+          "Word (language)",
+          "English translation",
+          "Proposed origin in vocabulary of the Totozoquean language family"
+        ],
+        "rows": [
+          [
+            "Muskogean",
+            "tanchi' (Chickasaw); tanchi (Choctaw); vce (Muscogee, pronounced \"uh-chi\")",
+            "corn",
+            "no"
+          ],
+          [
+            "Iroquoian",
+            "se-lu (Cherokee)",
+            "corn",
+            "no"
+          ],
+          [
+            "Caddoan",
+            "-k'as- (Caddo)",
+            "dried corn",
+            "yes"
+          ],
+          [
+            "Chitimacha",
+            "k'asma (Chitimacha)",
+            "corn",
+            "yes"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. The table provides evidence that the words for corn in the Cherokee and Muskogean languages appear unrelated to those in Caddo language, which is described as closely related to the Totozoquean language family. This supports the claim that corn cultivation spread across the Southeast without necessarily spreading Totozoquean vocabulary along with it.\n\nChoice B is incorrect. This choice emphasizes the diversity of Southeastern languages in general, but we're specifically looking for information about words associated with corn. Choice C is incorrect. This choice shows how words for corn can change and evolve, but we're looking for an example that shows how some words for corn can be completely unrelated. Choice D is incorrect. This choice shows words for corn that share a common root, but we're looking for an example that shows how some words for corn can be unrelated.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_002173",
+      "section": "reading_writing",
+      "question_number": 13,
+      "passage": "Economist Steve H. Hanke has shown that divided US Congresses-which occur when one party holds the majority in the House of Representatives and another holds the majority in the Senate-tend to accompany reductions in total federal outlays (spending) relative to gross domestic product (GDP), which Hanke interprets to reflect decreases in government size. Hanke calculated the percentage point change in total outlays (encompassing nondefense and defense outlays) for consecutive US Congresses. Hanke has pointed to his calculations as evidence that [u]a divided Congress may be a \"necessary but not sufficient condition\" for a decrease in government size to occur.[/u]",
+      "prompt": "Which choice best describes data from the table that support the underlined claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The periods of undivided Congresses were associated with increases in nondefense outlays, whereas all the periods of divided Congresses except one were associated with reductions in defense outlays."
+        },
+        {
+          "label": "B",
+          "text": "All the periods of divided Congresses were associated with reductions in total outlays, although two periods were also associated with increases in nondefense outlays."
+        },
+        {
+          "label": "C",
+          "text": "The periods of undivided Congresses were associated with increases in total outlays, whereas all the periods of divided Congresses were associated with reductions in either nondefense outlays or defense outlays."
+        },
+        {
+          "label": "D",
+          "text": "All the periods of divided Congresses except one were associated with reductions in total outlays, whereas the periods of undivided Congresses were associated with increases in total outlays."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Quantitative Evidence/Hard",
+      "source_question_number": 11,
+      "table_data": {
+        "title": "Percentage Point Changes in US Federal Outlays Relative to GDP by Congressional Status",
+        "columns": [
+          "Period",
+          "Congressional status",
+          "Change in total outlays",
+          "Change in nondefense outlays",
+          "Change in defense outlays"
+        ],
+        "rows": [
+          [
+            "1981– 1988",
+            "divided",
+            "−0.4",
+            "-1.3",
+            "0.9"
+          ],
+          [
+            "1975– 1976",
+            "divided",
+            "2.7",
+            "3.0",
+            "-0.3"
+          ],
+          [
+            "1977– 1980",
+            "undivided",
+            "0.3",
+            "0.6",
+            "-0.3"
+          ],
+          [
+            "1964– 1968",
+            "undivided",
+            "1.9",
+            "1.4",
+            "0.5"
+          ],
+          [
+            "1969– 1974",
+            "divided",
+            "-1.8",
+            "2.1",
+            "-3.9"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. The claim is that divided Congresses are necessary but insufficient-that is, we need divide Congresses, but they are not enough-to decrease government size, as measured by total federal outlays. This choice accurately expresses the supporting data from the \"change in total outlays\" part of the graph. Within the data set, divided Congresses sometimes decreased total outlays, but undivided ones never did.\n\nChoice A is incorrect. The claim is only about government size, as measured by total federal outlays-defense and nondefense outlays aren't relevant. Choice B is incorrect. The claim is only about government size as measured by total federal outlays-nondefense outlays aren't relevant. Choice C is incorrect. The claim is only about government size as measured by total federal outlays-specific information about defense or nondefense outlays isn't relevant.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_002174",
+      "section": "reading_writing",
+      "question_number": 14,
+      "passage": "To assess the impact of invasive species on ecosystems in Africa, Benis N. Egoh and colleagues reviewed government reports from those nations about how invasive species are undermining ecosystem services (aspects of the ecosystem on which residents depend). The services were sorted into three categories: provisioning (material resources from the ecosystem), regulating (natural processes such as cleaning the air or water), and cultural (nonmaterial benefits of ecosystems). Egoh and her team assert that countries in each region reported effects on provisioning services and that provisioning services represent the majority of the reported services.",
+      "prompt": "Which choice best describes data from the table that support Egoh and colleagues' assertion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Provisioning services represent 73% of the services reported for the West region and 33% of those for the Central region, but they represent 75% of the services reported overall."
+        },
+        {
+          "label": "B",
+          "text": "None of the percentages shown for provisioning services are lower than 33%, and the overall percentage shown for provisioning services is 75%."
+        },
+        {
+          "label": "C",
+          "text": "Provisioning services are shown for each region, while no cultural services are shown for some regions."
+        },
+        {
+          "label": "D",
+          "text": "The greatest percentage shown for provisioning services is 88% for the North region, and the least shown for provisioning services is 33% for the Central region."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Quantitative Evidence/Hard",
+      "source_question_number": 12,
+      "table_data": {
+        "title": "Distribution of Ecosystem Services Affected by Invasive Species by Service Type",
+        "columns": [
+          "Region (Overall)",
+          "Provisioning (75%)",
+          "Regulating (21%)",
+          "Cultural (4%)"
+        ],
+        "rows": [
+          [
+            "West",
+            "73%",
+            "27%",
+            "0%"
+          ],
+          [
+            "North",
+            "88%",
+            "12%",
+            "0%"
+          ],
+          [
+            "South",
+            "79%",
+            "14%",
+            "7%"
+          ],
+          [
+            "East",
+            "83%",
+            "6%",
+            "11%"
+          ],
+          [
+            "Central",
+            "33%",
+            "67%",
+            "0%"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer. The finding that all the regions reported at least some effects on provisioning services supports the first part of the assertion. And the fact that provisioning services comprise 75% of the reported services overall supports the second part of the assertion.\n\nChoice A is incorrect. This choice doesn't fully support the assertion. It doesn't include the finding that all the regions (not just Central and West) reported at least some effects on provisioning services. Choice C is incorrect. This choice doesn't fully support the assertion. It doesn't demonstrate that provisioning services represent the majority of the reported services overall. Choice D is incorrect. This choice doesn't fully support the assertion. It doesn't demonstrate that provisioning services represent the majority of the reported services overall.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_002175",
+      "section": "reading_writing",
+      "question_number": 15,
+      "passage": "Employing high-performance liquid chromatography-a process that uses pressurized water to separate material into its component molecules-astrochemist Yashiro Oba and colleagues analyzed two samples of the Murchison meteorite that landed in Australia as well as soil from the landing zone of the meteorite to determine the concentrations of various organic molecules. By comparing the relative concentrations of types of molecules known as nucleobases in the Murchison meteorite with those in the soil, the team concluded that there is evidence that the nucleobases in the Murchison meteorite formed in space and are not the result of contamination on Earth.",
+      "prompt": "Which choice best describes data from the table that support the team's conclusion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Isoguanine and purine were detected in both meteorite samples but not in the soil sample."
+        },
+        {
+          "label": "B",
+          "text": "Adenine and xanthine were detected in both of the meteorite samples and in the soil sample."
+        },
+        {
+          "label": "C",
+          "text": "Hypoxanthine and purine were detected in both the Murchison meteorite sample 2 and in the soil sample."
+        },
+        {
+          "label": "D",
+          "text": "Isoguanine and hypoxanthine were detected in the Murchison meteorite sample 1 but not in sample 2."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Quantitative Evidence/Hard",
+      "source_question_number": 13,
+      "table_data": {
+        "title": "Nucleobase Concentrations from Murchison Meteorite and Soil Samples in Parts per Billion",
+        "columns": [
+          "Nucleobase",
+          "Murchison meteorite sample 1",
+          "Murchison meteorite sample 2",
+          "Murchison soil sample"
+        ],
+        "rows": [
+          [
+            "Isoguanine",
+            "0.5",
+            "0.04",
+            "not detected"
+          ],
+          [
+            "Purine",
+            "0.2",
+            "0.02",
+            "not detected"
+          ],
+          [
+            "Xanthine",
+            "39",
+            "3",
+            "1"
+          ],
+          [
+            "Adenine",
+            "15",
+            "1",
+            "40"
+          ],
+          [
+            "Hypoxanthine",
+            "24",
+            "1",
+            "2"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. The researchers concluded that the meteorite's nucleobases weren't the result of soil contamination. Presence of nucleobases in the meteorite and not in soil provides evidence that those nucleobases likely didn't come from the soil.\n\nChoice B is incorrect. This choice doesn't justify the conclusion. The researchers concluded that the meteorite's nucleobases weren't the result of soil contamination. If the nucleobases are present in both the soil and meteorite, then it's possible that these nucleobases came from the soil. Choice C is incorrect. This choice misreads the table. Purine was not detected in the soil sample. Choice D is incorrect. This choice misreads the table. Both isoguanine and hypoxanthine were detected in both Murchison meteorite samples.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    }
+  ]
+}

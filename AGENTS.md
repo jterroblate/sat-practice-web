@@ -6,6 +6,7 @@
 
 - 本仓库管理共同开发主线。任务从最新 `main` 建 `feat/*` 或 `fix/*`；开始前检查当前分支与 `git status`，保留已有未提交修改。
 - 真实结构化题库与必要题图已获仓库所有者授权纳入本仓，可进行有依据的内容修订。源码在生成器、模板和运行时修改，题目在 `content/canonical/` 修改；不从生成 HTML 反向提取内容，不只手改生成页。首次导出工具不是日常更新入口，禁止用重导出覆盖已经评审的协作内容。
+- `content/db/` 是题库的规范化表，其中已发布的题须与 `content/canonical/` 保持一致。改了 canonical 后运行 `python3 scripts/content_db.py normalize`，改了表后运行 `python3 scripts/content_db.py export`，两边一起提交。表里的草稿题（`status = draft`）不在站点上，发布前须逐题核对答案、转换正文并补齐必要图；说明见 `docs/content-db.md`。第三方教辅（来源等级 3）的来源和题目不进入这些表，导入脚本默认跳过。
 - `build/site/` 是全库产物，`build/demo/` 是原创 fixture 产物，均不提交。测试账号、状态和学习记录使用合成数据；本仓公开题目不等于可以读取真实学生数据。
 - 题型工具是开发工具，不是自动确认答案、题源身份或模考资格的审核者。内容更改在 PR 中列明 `question_id`、字段、理由与可公开依据；不编造来源或共识记录。
 
@@ -30,6 +31,7 @@
 python3 scripts/build-site.py
 python3 scripts/build-demo.py
 python3 scripts/check-repository-scope.py
+python3 scripts/content_db.py check
 python3 -m unittest discover -s tests -p 'test_*.py'
 python3 -m unittest discover -s skills/skill-sat-rw-classification/tests -p 'test_*.py'
 ```

@@ -1,0 +1,594 @@
+{
+  "schemaVersion": "sat-canonical-question-collection-v1",
+  "contentId": "set-exam-2025-03-s5-apac-e",
+  "title": "2025年3月机考真题第5套(亚太E卷) · 补充",
+  "section": "reading_writing",
+  "questionCount": 13,
+  "questions": [
+    {
+      "question_id": "bank_rw_001143",
+      "section": "reading_writing",
+      "question_number": 1,
+      "passage": "Agglomeration economies arise when multiple firms in related industries ____ an area, as with knitted fabrics manufacturers and knitted clothing manufacturers in Derby, UK. Economists have assumed that companies cluster for the same reasons, but Giulia Faggio et al, found that factors driving agglomeration in some cases are only weakly correlated with agglomeration in others.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "intercede in"
+        },
+        {
+          "label": "B",
+          "text": "amass in"
+        },
+        {
+          "label": "C",
+          "text": "concur with"
+        },
+        {
+          "label": "D",
+          "text": "appeal to"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025年3月机考真题第5套(亚太E卷)",
+      "source_question_number": 2,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_001145",
+      "section": "reading_writing",
+      "question_number": 2,
+      "passage": "Founded in New York City in 1969, El Museo del Barrio is dedicated to the visual arts and cultures of Latin America and of Latino communities in the United States. Since its founding, it has acquired more than 8,500 objects for its permanent collection. More recently founded US-based institutions devoted to Latino cultures include the Emma S. Barrientos Mexican American Cultural Center. Located in Austin, Texas, it focuses on Mexican American art and culture.",
+      "prompt": "Which choice best states the main purpose of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To trace the founding of two institutions, including how they acquired funding to purchase artworks"
+        },
+        {
+          "label": "B",
+          "text": "To trace a historical development that encouraged the founding of two institutions"
+        },
+        {
+          "label": "C",
+          "text": "To present information about two institutions, including each institution's area of focus"
+        },
+        {
+          "label": "D",
+          "text": "To draw a contrast between the collection sizes of two institutions"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年3月机考真题第5套(亚太E卷)",
+      "source_question_number": 6,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_001146",
+      "section": "reading_writing",
+      "question_number": 3,
+      "passage": "[u]In 2011 Stephen D. Simpson and colleagues published a study concluding that ocean acidification has a strong effect on the behavior of [i]Amphiprion percula[/i], a species of fish. [/u]However, Simpson and colleagues' study relied on a mean sample size of only about 26 fish. In a 2022 review of various scientists' conclusions about the impacts of ocean acidification on fish behavior, Timothy D. Clark and colleagues caution that relying on such a relatively small sample size can increase the potential for biased analysis. Such analysis, in turn, can contribute to reports of exaggerated effects.",
+      "prompt": "Which choice best describes the function of the underlined sentence in the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It states the conclusion reached by Simpson and colleagues in their 2011 study."
+        },
+        {
+          "label": "B",
+          "text": "It presents a criticism of the results reported by Simpson and colleagues in their 2011 study."
+        },
+        {
+          "label": "C",
+          "text": "It lists several traits of [i]Amphiprion percula [/i]discovered by Simpson and colleagues while conducting their 2011 study."
+        },
+        {
+          "label": "D",
+          "text": "It emphasizes a detail about where Simpson and colleagues conducted their 2011 study."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025年3月机考真题第5套(亚太E卷)",
+      "source_question_number": 7,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_001147",
+      "section": "reading_writing",
+      "question_number": 4,
+      "passage": "Paintings by the Florida Highwaymen—an informal collective of prolific landscape artists active in Florida during the 1950s and '60s—are recognizable by their reiteration of the same general compositional structures and subjects: moonlit waters and poinciana trees, to name two. But there was room for individuation: Lemuel Newton's [i]Salmon sky Sunset[/i], for example, may resemble other Highwaymen paintings at first glance, but his works stand out for their attention to detail and warm color palette.",
+      "prompt": "Which choice best describes the overall structure of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It describes the common perception that a particular group of artists' works are derivative and then provides a specific piece of evidence that reinforces that perception."
+        },
+        {
+          "label": "B",
+          "text": "It explains how a particular group of artists began collaborating and then recounts how one member of that group became especially influential among them."
+        },
+        {
+          "label": "C",
+          "text": "It describes an aesthetic framework shared by a particular group of artists and then makes and illustrates the claim that individuals introduced variations within that framework."
+        },
+        {
+          "label": "D",
+          "text": "It offers historical context that accounts for a particular group of artists' shared style and then indicates the circumstances under which several members of that group began exploring more unconventional themes."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年3月机考真题第5套(亚太E卷)",
+      "source_question_number": 8,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_001150",
+      "section": "reading_writing",
+      "question_number": 5,
+      "passage": "Consumers increasingly expect that goods they purchase online will be delivered rapidly, even as soon as the day of purchase. Although efficiencies in long-distance transport of parcels have greatly improved delivery times, last-mile logistics (the final step in delivery to consumers) present a bottleneck for delivery companies. Time pressure resulting from consumer expectations is not the only challenge; other obstacles, such as the increasing congestion of roadways, persist. While innovations to mitigate these challenges have been emerging—the use of cargo bikes, for instance—success has been constrained due to the additional complications that arise (e.g. the low parcel carrying capacity of the bikes). Consequently, _____",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the use of cargo bikes may enable delivery companies to meet consumers' expectations now but likely is not viable as a permanent solution."
+        },
+        {
+          "label": "B",
+          "text": "in the near term, delivery companies are unlikely to overcome the impediments associated with last-mile logistics."
+        },
+        {
+          "label": "C",
+          "text": "delivery companies should invest more funds in proven long-distance transport technologies than in untested last-mile solutions."
+        },
+        {
+          "label": "D",
+          "text": "innovations in last-mile logistics seem poised to increase consumers' expectations for rapid delivery."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025年3月机考真题第5套(亚太E卷)",
+      "source_question_number": 14,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_001151",
+      "section": "reading_writing",
+      "question_number": 6,
+      "passage": "New Zealand and Greece have two of the longest constitutions in the world. At 48,438 and 26,989 words, respectively, these ____ according to research by constitutional scholars George Tsebelis and Dominic J. Nardi, correlate with GDPs (gross domestic products) that are lower than those of countries with shorter constitutions.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "constitutions lengths,"
+        },
+        {
+          "label": "B",
+          "text": "constitution's length,"
+        },
+        {
+          "label": "C",
+          "text": "constitutions' lengths,"
+        },
+        {
+          "label": "D",
+          "text": "constitutions' length,"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年3月机考真题第5套(亚太E卷)",
+      "source_question_number": 17,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_001152",
+      "section": "reading_writing",
+      "question_number": 7,
+      "passage": "Included in [i]Second sight: the Paradox of Vision in Contemporary Art[/i], a 2018 group exhibition at the Bowdoin College Museum of Art in Brunswick, Maine, was the work of artist Lorna Simpson, who is best known for her multimedia artworks that juxtapose images of African American women with text fragments. Her work challenges conventional notions of race, gender, history, and _____ she is credited with expanding the horizons of conceptual photographic art.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "memory,"
+        },
+        {
+          "label": "B",
+          "text": "memory"
+        },
+        {
+          "label": "C",
+          "text": "memory, and"
+        },
+        {
+          "label": "D",
+          "text": "memory and"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年3月机考真题第5套(亚太E卷)",
+      "source_question_number": 18,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries"
+      }
+    },
+    {
+      "question_id": "bank_rw_001153",
+      "section": "reading_writing",
+      "question_number": 8,
+      "passage": "Recent analysis of 54598 Bienor—an outer solar system object orbiting the Sun between Saturn and Uranus—has determined its color to be gray, suggesting an icy composition. Such interpretations are ultimately _____ the object's gray coloration may be an incidental effect of radiation, solar wind, or collisions with other objects rather than evidence of its physical makeup.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "speculative, though,"
+        },
+        {
+          "label": "B",
+          "text": "speculative, though;"
+        },
+        {
+          "label": "C",
+          "text": "speculative; though"
+        },
+        {
+          "label": "D",
+          "text": "speculative, though"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025年3月机考真题第5套(亚太E卷)",
+      "source_question_number": 19,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries"
+      }
+    },
+    {
+      "question_id": "bank_rw_001154",
+      "section": "reading_writing",
+      "question_number": 9,
+      "passage": "In the list \"Adorable Things\" from Sei Shōnagon's [i]Pillow Book[/i], the author delights in baby sparrows, a face drawn on a melon, and a young courtier in ceremonial garb. So shrewd an observer is Shōnagon, a lady-in-waiting to Empress Teishi, that her book's musings on tenth-century Japanese courtly life _____ readers a thousand years later.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "has fascinated"
+        },
+        {
+          "label": "B",
+          "text": "fascinates"
+        },
+        {
+          "label": "C",
+          "text": "is fascinating"
+        },
+        {
+          "label": "D",
+          "text": "fascinate"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025年3月机考真题第5套(亚太E卷)",
+      "source_question_number": 21,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_001155",
+      "section": "reading_writing",
+      "question_number": 10,
+      "passage": "To notice subtle variations in the progression of the still life painting genre in Europe, first consider Abraham Mignon's \"Still Life with Fruit and a Beaker on a Cock's Foot\" from 1669; _____ compare it to Jean-Siméon Chardin's \"Still Life with Herrings\" from 1735.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "instead,"
+        },
+        {
+          "label": "B",
+          "text": "therefore,"
+        },
+        {
+          "label": "C",
+          "text": "next,"
+        },
+        {
+          "label": "D",
+          "text": "still,"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年3月机考真题第5套(亚太E卷)",
+      "source_question_number": 22,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001156",
+      "section": "reading_writing",
+      "question_number": 11,
+      "passage": "In an ekphrastic poem, a poet explores a work of visual art, such as a drawing, sculpture, or painting. Robert Hayden's 1994 poem \"Monet's Waterlilies,\" for example, meditates on Claude Monet's 1899 painting [i]Water Lilies[/i]; Elizabeth Alexander's 2001 poem \"Islands Number Four,\" _____ takes a painting as its subject: Agnes Martin's 1961 work [i]Islands No. 4.[/i]",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "conversely,"
+        },
+        {
+          "label": "B",
+          "text": "nevertheless,"
+        },
+        {
+          "label": "C",
+          "text": "hence,"
+        },
+        {
+          "label": "D",
+          "text": "likewise,"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025年3月机考真题第5套(亚太E卷)",
+      "source_question_number": 23,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001157",
+      "section": "reading_writing",
+      "question_number": 12,
+      "passage": "While researching a topic, a student has taken the following notes:\n● In a 2004 study, researchers Jorge E. López and C. Vaughan wanted to explore the effects of ingestion by bats on the germination of [i]Piper sancti-felicis[/i] seeds in Costa Rica.\n● The team of researchers tested 125 [i]Piper sancti-felicis[/i] seeds that had been ingested by chestnut short-tailed bats.\n● Of these, 82 seeds (66%) germinated.\n● AS a control, J.E. López and C. Vaughan tested 125 [i]Piper sancti-felicis[/i] seeds that had not been ingested by chestnut short-tailed bats.\n● Of these, 88 seeds (70%) germinated.",
+      "prompt": "The student wants to describe the study's research methodology. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The team of researchers tested the germination of 125 [i]Piper sancti-felicis[/i] seeds that had been ingested by chestnut short-tailed bats and 125 [i]Piper sancti-felicis[/i] seeds that had not been ingested."
+        },
+        {
+          "label": "B",
+          "text": "J.E López and C. Vaughan wanted to explore the effects of chestnut short-tailed bats' ingestion on [i]Piper sancti-felicis[/i] seed germination."
+        },
+        {
+          "label": "C",
+          "text": "In the study, a lower percentage of [i]Piper sancti-felicis[/i] seeds ingested by bats germinated than those that had not been ingested by bats."
+        },
+        {
+          "label": "D",
+          "text": "Research by J.E. López and C. Vaughan revealed that 82 of 125—that is, 66%—of the [i]Piper sancti-felicis[/i] seeds that had been ingested by the bats germinated."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025年3月机考真题第5套(亚太E卷)",
+      "source_question_number": 24,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001158",
+      "section": "reading_writing",
+      "question_number": 13,
+      "passage": "While researching a topic, a student has taken the following notes:\n● Felipe Posada (pseudonym The Invisible Realm) is a New York City-based artist who specializes in the form of art known as surrealist collage.\n● Manifestation of the unconscious mind is a central aspect of surrealist collage.\n● Irrational juxtaposition of disparate elements is a central aspect of surrealist collage.\n● Posada's [i]High Maintenance[/i] irrationally juxtaposes images of an astronaut, a giant human face, and a waterfall.\n● Posada: \"My art is a journey through the invisible realm—a space where intuition, memories, visions, and dreams are free to take visual form.\"",
+      "prompt": "The student wants to provide a specific example of irrational juxtaposition in surrealist collage. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Surrealist collage, such as Felipe Posada's [i]High Maintenance[/i], manifests the unconscious mind and irrationally juxtaposes disparate elements."
+        },
+        {
+          "label": "B",
+          "text": "Images of an astronaut, a giant human face, and a waterfall are juxtaposed irrationally in the surrealist collage piece [i]High Maintenance[/i] by artist Felipe Posada."
+        },
+        {
+          "label": "C",
+          "text": "[i]High Maintenance[/i] by artist Felipe Posada is an example of surrealist collage, a form in which irrational juxtaposition is a central aspect."
+        },
+        {
+          "label": "D",
+          "text": "The irrational juxtaposition of disparate elements in Felipe Posada's art invokes \"a space where intuition, memories, visions, and dreams are free to take visual form.\""
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025年3月机考真题第5套(亚太E卷)",
+      "source_question_number": 25,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    }
+  ]
+}

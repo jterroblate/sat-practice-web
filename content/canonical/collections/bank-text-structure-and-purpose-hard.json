@@ -1,0 +1,954 @@
+{
+  "schemaVersion": "sat-canonical-question-collection-v1",
+  "contentId": "collection-bank-text-structure-and-purpose-hard",
+  "title": "Text Structure and Purpose · Hard",
+  "section": "reading_writing",
+  "questionCount": 21,
+  "questions": [
+    {
+      "question_id": "bank_rw_001729",
+      "section": "reading_writing",
+      "question_number": 1,
+      "passage": "[u]\"How lifelike are they?\"[/u] Many computer animators prioritize this question as they strive to create ever more realistic environments and lighting. Generally, while characters in computer-animated films appear highly exaggerated, environments and lighting are carefully engineered to mimic reality. But some animators, such as Pixar's Sanjay Patel, are focused on a different question. Rather than asking first whether the environments and lighting they're creating are convincingly lifelike, Patel and others are asking whether these elements reflect their films' unique stories.",
+      "prompt": "Which choice best describes the function of the underlined question in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It reflects a primary goal that many computer animators have for certain components of the animations they produce."
+        },
+        {
+          "label": "B",
+          "text": "It represents a concern of computer animators who are more interested in creating unique backgrounds and lighting effects than realistic ones."
+        },
+        {
+          "label": "C",
+          "text": "It conveys the uncertainty among many computer animators about how to create realistic animations using current technology."
+        },
+        {
+          "label": "D",
+          "text": "It illustrates a reaction that audiences typically have to the appearance of characters created by computer animators."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Craft and Structure/Text Structure and Purpose/Hard",
+      "source_question_number": 1,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because it most accurately describes the function of the underlined question in the text as a whole. The text begins with the underlined question, \"How lifelike are they?\" The text then explains that many computer animators pose this question about the environments and lighting that they create for animated films, striving for realistic animation of those components even if the characters themselves aren't portrayed in realistic terms. The focus of the text then shifts to describe how some animators strive to create environments and lighting that reflect the film's unique stories rather than making them appear realistic. Therefore, the function of the underlined question is to reflect a primary goal that many computer animators have for certain components of the animations they produce.\n\nChoice B is incorrect because, as the text makes clear, the underlined question is one posed by computer animators who wish to create realistic backgrounds and lighting effects, not by those who, instead, wish to create effects that reflect films' unique stories and aren't necessarily realistic; this latter group of animators is discussed later in the text. Choice C is incorrect. As the text explains, many computer animators strive for realistic environments and lighting, while others do not; this difference of approach relates to whether these components should be realistic, not to how realism can be achieved using current technology, and the text never suggests that animators are uncertain how to achieve it. Choice D is incorrect because the underlined question pertains to the perspective of computer animators, not the audience, and the text never considers audience's reactions to characters in animated films.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_001730",
+      "section": "reading_writing",
+      "question_number": 2,
+      "passage": "The field of study called affective neuroscience seeks instinctive, physiological causes for feelings such as pleasure or displeasure. Because these sensations are linked to a chemical component (for example, the release of the neurotransmitter dopamine in the brain when one receives or expects a reward), they can be said to have a partly physiological basis. These processes have been described in mammals, but Jingnan Huang and his colleagues have recently observed that some behaviors of honeybees (such as foraging) are also motivated by a dopamine-based signaling process.",
+      "prompt": "What choice best describes the main purpose of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It describes an experimental method of measuring the strength of physiological responses in humans."
+        },
+        {
+          "label": "B",
+          "text": "It illustrates processes by which certain insects can express how they are feeling."
+        },
+        {
+          "label": "C",
+          "text": "It summarizes a finding suggesting that some mechanisms in the brains of certain insects resemble mechanisms in mammalian brains."
+        },
+        {
+          "label": "D",
+          "text": "It presents research showing that certain insects and mammals behave similarly when there is a possibility of a reward for their actions."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Craft and Structure/Text Structure and Purpose/Hard",
+      "source_question_number": 2,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer because it most accurately describes the main purpose of the text, which is to summarize a finding suggesting that some mechanisms in the brains of certain insects resemble mechanisms in mammalian brains. The text begins by explaining that feelings such as pleasure and displeasure are linked to chemical processes in the brain, such as the release of dopamine when one receives a reward. The text then indicates that such processes have been seen in mammals but that researchers have recently observed similar processes involving dopamine in honeybees. Taken together, this information serves to sum up the discovery that some mechanisms in the brains of certain insects may resemble mechanisms linked to feelings such as pleasure and displeasure in mammals.\n\nChoice A is incorrect because the text doesn't describe any experiments or experimental methods. Instead, the text describes a phenomenon that has been observed in mammals and then presents the recent observations of Huang and colleagues that this phenomenon is also seen in honeybees. Choice B is incorrect because there's nothing in the text to suggest that certain insects can express how they're feeling through particular processes. The text does indicate that certain honeybee behaviors such as foraging are linked to dopamine, but it doesn't suggest that these behaviors enable honeybees to communicate feelings or sensations. Choice D is incorrect because the text presents research showing that certain honeybee behaviors such as foraging are linked to dopamine and therefore may be motivated by similar mechanisms to those in mammalian brains, not that honeybees and mammals behave similarly when there is the possibility of reward for their actions.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_001731",
+      "section": "reading_writing",
+      "question_number": 3,
+      "passage": "Studying late nineteenth-and early twentieth-century artifacts from an agricultural and domestic site in Texas, archaeologist Ayana O. Flewellen found that Black women employed as farm workers utilized hook-and-eye closures to fasten their clothes at the waist, giving themselves a silhouette similar to the one that was popular in contemporary fashion and typically achieved through more restrictive garments such as corsets. Flewellen argues that this sartorial practice shows that these women balanced hegemonic ideals of femininity with the requirements of their physically demanding occupation.",
+      "prompt": "Which choice best states the main purpose of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To describe an unexpected discovery that altered a researcher's view of how rapidly fashions among Black female farmworkers in late nineteenth-and early twentieth-century Texas changed during the period"
+        },
+        {
+          "label": "B",
+          "text": "To discuss research that investigated the ways in which Black female farmworkers in late nineteenth-and early twentieth-century Texas used fashion practices to resist traditional gender ideals"
+        },
+        {
+          "label": "C",
+          "text": "To evaluate a scholarly work that offers explanations for the impact of urban fashion ideals on Black female farmworkers in late nineteenth-and early twentieth-century Texas"
+        },
+        {
+          "label": "D",
+          "text": "To summarize the findings of a study that explored factors influencing a fashion practice among Black female farmworkers in late nineteenth-and early twentieth-century Texas"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Craft and Structure/Text Structure and Purpose/Hard",
+      "source_question_number": 3,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. The text provides an overview of a scholarly work discussing the fashion practices of Black female farmworkers in late 19th-and early 20th-century Texas, and how these practices were influenced by both the fashion ideals of the time and the demands of farmwork.\n\nChoice A is incorrect. The text never discusses the rate of fashion change among Black female farmworkers. The text also never categorizes Flewellen's findings as \"unexpected.\" Choice B is incorrect. The text actually explains that Black female farmworkers were trying to achieve traditional feminine ideals, not resist them. Choice C is incorrect. The text doesn't evaluate a scholarly work but rather simply describes it. Furthermore, the text is focused on \"agricultural and domestic\" fashion, not urban fashion as this choice suggests.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_001732",
+      "section": "reading_writing",
+      "question_number": 4,
+      "passage": "Astronomers are confident that the star Betelgeuse will eventually consume all the helium in its core and explode in a supernova. [u]They are much less confident, however, about when this will happen, since that depends on internal characteristics of Betelgeuse that are largely unknown[/u]. Astrophysicist Sarafina El-Badry Nance and colleagues recently investigated whether acoustic waves in the star could be used to determine internal stellar states but concluded that this method could not sufficiently reveal Betelgeuse's internal characteristics to allow its evolutionary state to be firmly fixed.",
+      "prompt": "Which choice best describes the function of the second sentence in the overall structure of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It describes a serious limitation of the method used by Nance and colleagues."
+        },
+        {
+          "label": "B",
+          "text": "It presents the central finding reported by Nance and colleagues."
+        },
+        {
+          "label": "C",
+          "text": "It identifies the problem that Nance and colleagues attempted to solve but did not."
+        },
+        {
+          "label": "D",
+          "text": "It explains how the work of Nance and colleagues was received by others in the field."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Craft and Structure/Text Structure and Purpose/Hard",
+      "source_question_number": 4,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer because it best describes how the second sentence functions in the text as a whole. The first sentence establishes something astronomers believe with some certainty: that Betelgeuse will explode in a supernova. The second sentence then introduces a problem: astronomers aren't certain [i]when[/i] Betelgeuse will explode because they don't have enough information about the star's internal characteristics. Finally, the third sentence indicates that researcher Sarafina El-Badry Nance and colleagues investigated a possible method of obtaining the necessary information about Betelgeuse's internal characteristics, though they found that the method wouldn't be sufficient. Thus, the function of the second sentence is to identify the problem that Nance and colleagues attempted to solve but didn't.\n\nChoice A is incorrect because the second sentence introduces the general problem Nance and colleagues hoped to solve, not a serious limitation of how Nance and colleagues tried to solve it. It is the third sentence that introduces Nance and colleagues, but no serious limitation of their approach to studying a method of determining internal stellar states is described. Choice B is incorrect because the second sentence introduces the general problem Nance and colleagues hoped to solve, not the central finding they ultimately reported. It is the third sentence that presents Nance and colleagues' conclusion that a potential method for determining internal stellar states would be insufficient. Choice D is incorrect because the second sentence doesn't indicate how other astronomers or astrophysicists responded to the work done by Nance and colleagues; the text doesn't address this information at all.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_001733",
+      "section": "reading_writing",
+      "question_number": 5,
+      "passage": "According to historian Vicki L. Ruiz, Mexican American women made crucial contributions to the labor movement during World War II. At the time, food processing companies entered into contracts to supply United States armed forces with canned goods. Increased production quotas conferred greater bargaining power on the companies' employees, many of whom were Mexican American women: [u]employees insisted on more favorable benefits, and employers, who were anxious to fulfill the contracts, complied[/u]. Thus, labor activism became a platform for Mexican American women to assert their agency.",
+      "prompt": "Which choice best describes the function of the underlined portion in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It elaborates on a claim about labor relations in a particular industry made earlier in the text."
+        },
+        {
+          "label": "B",
+          "text": "It offers an example of a trend in the World War II-era economy discussed earlier in the text."
+        },
+        {
+          "label": "C",
+          "text": "It notes a possible exception to the historical narrative of labor activism sketched earlier in the text."
+        },
+        {
+          "label": "D",
+          "text": "It provides further details about the identities of the workers discussed earlier in the text."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Craft and Structure/Text Structure and Purpose/Hard",
+      "source_question_number": 5,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because it best describes how the underlined portion functions in the text as a whole. The text says that the increased production quotas of food processing companies during World War II enabled employees to make better bargains in exchange for their labor. The underlined portion presents an example of this increased bargaining power: employees requested more favorable benefits, and employers complied because they were under pressure to fulfill the demanding terms of their contracts. Thus, the underlined portion of the text elaborates on a claim about labor relations in a particular industry (food processing) made earlier in the text.\n\nChoice B is incorrect because there is no indication in the text that the economic factors that influenced food processing also influenced other parts of the economy; thus, the bargaining described in the underlined portion of the text cannot be called an example of a trend. Choice C is incorrect because the underlined portion supports the historical narrative of labor activism in food processing that is sketched in the text, instead of noting an exception to that narrative. Choice D is incorrect because while the underlined portion does discuss the demands that workers made in exchange for their labor, it does not discuss the identities of the workers.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_001734",
+      "section": "reading_writing",
+      "question_number": 6,
+      "passage": "The following text is from Charlotte Brontë's 1847 novel [i]Jane Eyre[/i]. Jane, the narrator, works as a governess at Thornfield Hall.\n\nI went on with my day's business tranquilly; but ever and anon vague suggestions kept wandering across my brain of reasons why I should quit Thornfield; and I kept involuntarily framing advertisements and pondering conjectures about new situations: these thoughts I did not think to check; they might germinate and bear fruit if they could.",
+      "prompt": "Which choice best states the main purpose of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To convey a contrast between Jane's outward calmness and internal restlessness"
+        },
+        {
+          "label": "B",
+          "text": "To emphasize Jane's loyalty to the people she works for at Thornfield Hall"
+        },
+        {
+          "label": "C",
+          "text": "To demonstrate that Jane finds her situation both challenging and deeply fulfilling"
+        },
+        {
+          "label": "D",
+          "text": "To describe Jane's determination to secure employment outside of Thornfield Hall"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Craft and Structure/Text Structure and Purpose/Hard",
+      "source_question_number": 6,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because it most accurately describes the main purpose of the text, which is to show that while Jane calmly goes about her daily tasks, she is experiencing internal agitation about possibly seeking a new job. At the start of the text, Jane says, \"I went on with my day's business tranquilly,\" indicating that she is outwardly calm. This outward calmness is then contrasted with her intense internal restlessness, as Jane says that thoughts of leaving her job keep running through her mind, that she is \"involuntarily framing advertisements\" (meaning that she can't stop herself from thinking up potential listings for jobs), and that she often wonders what new \"situations\" (or jobs) would be like.\n\nChoice B is incorrect because the text gives no indication of Jane's feelings, either positive or negative, about the people she works for at Thornfield Hall. And rather than emphasizing that Jane feels particularly loyal to her employers, the text focuses on her constant consideration of leaving her job. Choice C is incorrect because the text gives no indication that Jane finds her current situation fulfilling, or satisfying. Given that much of the text is focused on Jane's thoughts about possibly leaving her job for a new one, it might be the case that she finds her situation challenging, but there is no evidence in the text that Jane also finds that situation satisfying-she says nothing positive about her current job at all, in fact. Choice D is incorrect because the text describes Jane as wondering about getting a new job, not as determined to definitely do so. Jane keeps thinking about reasons why she \"should\" quit her current job (indicating that she hasn't yet decided to) and imagining possible new situations she could find, but she says at the end of the text that these thoughts \"might germinate and bear fruit if they could,\" meaning that the thoughts haven't yet led to a decision-that Jane isn't yet determined to get a new job somewhere else.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_001735",
+      "section": "reading_writing",
+      "question_number": 7,
+      "passage": "The following text is adapted from Herman Melville's 1857 novel [i]The Confidence-Man[/i]. Humphry Davy was a prominent British chemist and inventor.\n\nYears ago, a grave American savant, being in London, observed at an evening party there, a certain coxcombical fellow, as he thought, an absurd ribbon in his lapel, and full of smart [banter], whisking about to the admiration of as many as were disposed to admire. Great was the savant's disdain; but, chancing ere long to find himself in a corner with the jackanapes, got into conversation with him, when he was somewhat ill-prepared for the good sense of the jackanapes, but was altogether thrown aback, upon subsequently being [informed that he was] no less a personage than Sir Humphry Davy.",
+      "prompt": "Which choice best states the main purpose of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It portrays the thoughts of a character who is embarrassed about his own behavior."
+        },
+        {
+          "label": "B",
+          "text": "It presents an account of a misunderstanding."
+        },
+        {
+          "label": "C",
+          "text": "It offers a short history of how a person came to be famous."
+        },
+        {
+          "label": "D",
+          "text": "It explains why one character dislikes another."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Craft and Structure/Text Structure and Purpose/Hard",
+      "source_question_number": 7,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer. The text tells a story of a first impression that turned out to be wrong: a serious American savant was dismissive of a goofy-looking, wisecracking guest at a British party, and then was shocked to learn that the guest was actually a prominent British chemist and inventor.\n\nChoice A is incorrect. This is too strong and too narrow. Only at the very end is the savant \"thrown aback\" by the fact that the man was Sir Humphry Davy-he's not \"embarrassed about his own behavior.\" Choice C is incorrect. This isn't the main purpose. The text never provides the history of how Sir Humphry Davy came to be famous. Nor does it provide any history for the American savant. Choice D is incorrect. This is too narrow. It doesn't include the second half of the text, where the savant gets into a conversation with the man and then finds out that the man is Sir Humphry Davy.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_001736",
+      "section": "reading_writing",
+      "question_number": 8,
+      "passage": "Some studies have suggested that posture can influence cognition, but we should not overstate this phenomenon. A case in point: In a 2014 study, Megan O'Brien and Alaa Ahmed had subjects stand or sit while making risky simulated economic decisions. Standing is more physically unstable and cognitively demanding than sitting; accordingly, O'Brien and Ahmed hypothesized that standing subjects would display more risk aversion during the decision-making tasks than sitting subjects did, since they would want to avoid further feelings of discomfort and complicated risk evaluations. But O'Brien and Ahmed actually found no difference in the groups' performance.",
+      "prompt": "Which choice best states the main purpose of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It argues that research findings about the effects of posture on cognition are often misunderstood, as in the case of O'Brien and Ahmed's study."
+        },
+        {
+          "label": "B",
+          "text": "It presents the study by O'Brien and Ahmed to critique the methods and results reported in previous studies of the effects of posture on cognition."
+        },
+        {
+          "label": "C",
+          "text": "It explains a significant problem in the emerging understanding of posture's effects on cognition and how O'Brien and Ahmed tried to solve that problem."
+        },
+        {
+          "label": "D",
+          "text": "It discusses the study by O'Brien and Ahmed to illustrate why caution is needed when making claims about the effects of posture on cognition."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Craft and Structure/Text Structure and Purpose/Hard",
+      "source_question_number": 8,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer because it most accurately describes the main purpose of the text. The text notes that although some studies have suggested that posture may have an effect on cognition, this phenomenon should not be overstated. In other words, the text begins by urging caution and restraint when discussing the effects of posture on cognition, implying that even though some studies have shown posture to affect cognition, we should not assume that posture always affects cognition or does so in a strong way. The text goes on to discuss O'Brien and Ahmed's study as a \"case in point\" (that is, as an example of the point made previously). According to the text, O'Brien and Ahmed hypothesized that since standing is more cognitively demanding than sitting, standing subjects in their experiment would respond differently to decision-making tasks than sitting subjects would, which would show an effect of posture on cognition. What the researchers actually found, however, was that the standing and sitting subjects performed the same-posture did not affect cognition. By presenting a circumstance in which posture does not appear to affect cognition, the discussion of O'Brien and Ahmed's study shows why it is important not to overstate the phenomenon. The purpose of the text, therefore, is to discuss O'Brien and Ahmed's study to illustrate why caution is needed when making claims about posture's effects on cognition.\n\nChoice A is incorrect because the text discusses O'Brien and Ahmed's study as an example of why caution is needed when discussing posture's effects on cognition, not as an example of how research findings related to posture and cognition are often misunderstood. Although the text does warn against misunderstanding the scope of the relationship between posture and cognition that has been reported in some previous studies, O'Brien and Ahmed's study is not one of those studies, and there is no suggestion that anyone has misunderstood O'Brien and Ahmed's findings. Choice B is incorrect because the text makes no mention of the\nmethods used in previous studies of the effects of posture on cognition. Although the text does urge caution when discussing posture's effects on cognition, it does not critique the results of studies that suggested that posture can affect cognition. Instead, the text suggests that such results should not be exaggerated or taken too broadly. Choice C is incorrect because although the text implies that overstating posture's effects on cognition would be a problem, nothing in the text suggests that O'Brien and Ahmed share that view or that they attempted to solve that problem. O'Brien and Ahmed are presented as hypothesizing that posture would affect cognition in their study, not as trying to resolve the problem the text describes.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_001737",
+      "section": "reading_writing",
+      "question_number": 9,
+      "passage": "[u]In Jane Austen's novel [i]Mansfield Park[/i], an almost imperceptible smile from potential suitor Henry Crawford causes the protagonist Fanny Price to blush; her embarrassment grows when she suspects that he is aware of it[/u]. This moment—in which Fanny not only infers Henry's mental state through his gestures, but also infers that he is drawing inferences about her mental state—illustrates what literary scholar George Butte calls \"deep intersubjectivity,\" a technique for representing interactions between consciousnesses through which Austen's novels derive much of their social and psychological drama.",
+      "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It states a claim about Austen's skill at representing psychological complexity that is reinforced by an example presented in the following sentence."
+        },
+        {
+          "label": "B",
+          "text": "It advances an interpretation of an Austen protagonist who is contrasted with protagonists from other Austen novels cited in the following sentence."
+        },
+        {
+          "label": "C",
+          "text": "It describes a recurring theme in Austen's novels that is the focus of a literary scholar's analysis summarized in the following sentence."
+        },
+        {
+          "label": "D",
+          "text": "It provides a synopsis of an interaction in an Austen novel that illustrates a literary concept discussed in the following sentence."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Craft and Structure/Text Structure and Purpose/Hard",
+      "source_question_number": 9,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. The underlined sentence provides a concrete example to ground readers' understanding of the \"deep intersubjectivity\" described in the next sentence as central to Austen's work.\n\nChoice A is incorrect. There is no evaluation made of Austen's skill in this sentence, and no examples are given in the following sentence. This choice essentially flips the paragraph: it's this first sentence that provides an example. Choice B is incorrect. There are no other Austen protagonists mentioned in this passage, so this couldn't be the answer. Choice C is incorrect. The underlined sentence doesn't identify any \"recurring theme,\" but instead simply describes one interaction from one book. This interaction exemplifies the literary technique of \"deep intersubjectivity\" that is introduced in the next sentence.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_001738",
+      "section": "reading_writing",
+      "question_number": 10,
+      "passage": "The following text is from Edith Wharton's 1905 novel [i]The House of Mirth[/i]. Lily Bart and a companion are walking through a park.\n\nLily had no real intimacy with nature, but she had a passion for the appropriate and could be keenly sensitive to a scene which was the fitting background of her own sensations. [u]The landscape outspread below her seemed an enlargement of her present mood, and she found something of herself in its calmness, its breadth, its long free reaches.[/u] On the nearer slopes the sugar-maples wavered like pyres of light; lower down was a massing of grey orchards, and here and there the lingering green of an oak-grove.",
+      "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It creates a detailed image of the physical setting of the scene."
+        },
+        {
+          "label": "B",
+          "text": "It establishes that a character is experiencing an internal conflict."
+        },
+        {
+          "label": "C",
+          "text": "It makes an assertion that the next sentence then expands on."
+        },
+        {
+          "label": "D",
+          "text": "It illustrates an idea that is introduced in the previous sentence."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Craft and Structure/Text Structure and Purpose/Hard",
+      "source_question_number": 10,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer because it best describes how the underlined sentence functions in the text as a whole. The first sentence of the text establishes that Lily can be \"keenly sensitive to\" scenes that serve as a \"fitting background\" for her feelings-that is, she's very aware of when a setting seems to reflect her mood. The next sentence, which is underlined, then demonstrates this awareness: Lily views the landscape she's in as a large-scale reflection of her current mood, identifying with elements such as its calmness. Thus, the function of the underlined sentence is to illustrate an idea introduced in the previous sentence.\n\nChoice A is incorrect because the underlined sentence describes the scene only in very general terms, referring to its calmness, breadth, and long stretches of land. It's the next sentence that adds specific details about colors, light, and various trees nearby. Choice B is incorrect because nothing in the underlined sentence suggests that Lily is experiencing an internal conflict. In fact, the sentence indicates that Lily thinks the landscape reflects her own feeling of calmness. Choice C is incorrect because the only assertion in the underlined sentence is that Lily feels that broad aspects of the landscape, such as its calmness, reflect her current mood, and that assertion isn't expanded on in the next sentence. Instead, the next sentence describes specific details of the scene without connecting them to Lily's feelings.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_001739",
+      "section": "reading_writing",
+      "question_number": 11,
+      "passage": "Mathematician Claude Shannon is widely regarded as a foundational figure in information theory. His most important paper, \"A Mathematical Theory of Communication,\" published in 1948 when he was employed at Bell Labs, utilized a concept called a \"binary digit\" (shortened to \"bit\") to measure the amount of information in any signal and determine the fastest rate at which information could be transmitted while still being reliably decipherable. Robert Gallagher, one of Shannon's colleagues, said that the bit was \"[Shannon's] discovery, and from it the whole communications revolution has sprung.\"",
+      "prompt": "Which choice best describes the overall structure of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It presents a theoretical concept, illustrates how the name of the concept has changed, and shows how the name has entered common usage."
+        },
+        {
+          "label": "B",
+          "text": "It introduces a respected researcher, describes an aspect of his work, and suggests why the work is historically significant."
+        },
+        {
+          "label": "C",
+          "text": "It names the company where an important mathematician worked, details the mathematician's career at the company, and provides an example of the recognition he received there."
+        },
+        {
+          "label": "D",
+          "text": "It mentions a paper, offers a summary of the paper's findings, and presents a researcher's commentary on the paper."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Craft and Structure/Text Structure and Purpose/Hard",
+      "source_question_number": 11,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer. The text starts with a general statement that introduces Shannon, then describes a specific contribution from one of his papers, then provides a quote that illustrates just how important this contribution was.\n\nChoice A is incorrect. This isn't the overall structure. The text only mentions very briefly, in parentheses, that \"binary digit\" was shortened to \"bit.\" It doesn't go into detail about this name change, and it doesn't discuss any \"common usage\" of the name at all. Choice C is incorrect. This isn't the overall structure. Shannon's employment at Bell Labs is only mentioned once, very briefly: the text never goes into detail about his career there, and it never mentions any recognition he received there. Choice D is incorrect. This is too narrow. Overall, the text is about Shannon's importance in his field, not just this one paper of his.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_001740",
+      "section": "reading_writing",
+      "question_number": 12,
+      "passage": "A study by a team including finance professor Madhu Veeraraghavan suggests that exposure to sunshine during the workday can lead to overly optimistic behavior. [u]Using data spanning from 1994 to 2010 for a set of US companies, the team compared over 29,000 annual earnings forecasts to the actual earnings later reported by those companies.[/u] The team found that the greater the exposure to sunshine at work in the two weeks before a manager submitted an earnings forecast, the more the manager's forecast exceeded what the company actually earned that year.",
+      "prompt": "Which choice best states the function of the underlined sentence in the overall structure of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To summarize the results of the team's analysis"
+        },
+        {
+          "label": "B",
+          "text": "To present a specific example that illustrates the study's findings"
+        },
+        {
+          "label": "C",
+          "text": "To explain part of the methodology used in the team's study"
+        },
+        {
+          "label": "D",
+          "text": "To call out a challenge the team faced in conducting its analysis"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Craft and Structure/Text Structure and Purpose/Hard",
+      "source_question_number": 12,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer because it best describes how the underlined sentence functions in the text as a whole. The first sentence presents the implications of Veeraraghavan's team's study: sunshine exposure during work hours can cause overly optimistic behavior. The underlined sentence then describes the data the team consulted and how they were used (comparing predictions about earnings to what the companies actually earned), and the final sentence presents what the team found in their examination of the data. Thus, the underlined sentence mainly functions to explain part of the methodology used in the team's study.\n\nChoice A is incorrect because the underlined sentence explains in part how the team conducted their analysis of the effect of sunshine but doesn't address what the team found; a broad summary is instead given in the other two sentences. Choice B is incorrect because the underlined sentence doesn't present any specific examples from the team's comparisons of 29,000 earnings predictions to actual earnings; it simply explains in part how the team conducted their analysis. Choice D is incorrect because the underlined sentence simply explains in part how the team conducted their analysis; the text never mentions any challenges that the team encountered in their study.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_001741",
+      "section": "reading_writing",
+      "question_number": 13,
+      "passage": "The following text is adapted from Zora Neale Hurston's 1921 short story \"John Redding Goes to Sea.\" John is a child who lives in a town in the woods.\n\nPerhaps ten-year-old John was puzzling to the folk there in the Florida woods for he was an imaginative child and fond of day-dreams. The St. John River flowed a scarce three hundred feet from his back door. On its banks at this point grow numerous palms, luxuriant magnolias and bay trees. On the bosom of the stream float millions of delicately colored hyacinths.[u] [John Redding] loved to wander down to the water's edge, and, casting in dry twigs, watch them sail away down stream to Jacksonville, the sea, the wide world and [he] wanted to follow them. [/u]",
+      "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It provides an extended description of a location that John likes to visit."
+        },
+        {
+          "label": "B",
+          "text": "It reveals that some residents of John's town are confused by his behavior."
+        },
+        {
+          "label": "C",
+          "text": "It illustrates the uniqueness of John's imagination compared to the imaginations of other children."
+        },
+        {
+          "label": "D",
+          "text": "It suggests that John longs to experience a larger life outside the Florida woods."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Craft and Structure/Text Structure and Purpose/Hard",
+      "source_question_number": 13,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer because it accurately describes how the underlined sentence functions in the text as a whole. The text establishes that John has a strong imagination and then goes on to describe the St. John River near John's home in the Florida woods. The underlined sentence depicts John sending twigs sailing down the river while he imagines them reaching \"Jacksonville, the sea, the wide world,\" where he wishes he could follow. This suggests that John longs to expand his life experiences beyond the Florida woods.\n\nChoice A is incorrect because the second and third sentences of the text provide an extended description of the riverbank where John likes to go, whereas the underlined sentence describes what John does at that location. Choice B is incorrect because the first sentence of the text suggests that John's behavior \"was puzzling\" to others around him, whereas the underlined sentence concerns the content of John's imaginings. Choice C is incorrect because the underlined sentence elaborates on John's imagination but doesn't mention any other children to whom John could be compared.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_001742",
+      "section": "reading_writing",
+      "question_number": 14,
+      "passage": "A number of Indigenous politicians have been elected to the United States Congress since 2000 as members of the country's two established political parties. In Canada and several Latin American countries, on the other hand, Indigenous people have formed their own political parties to advance candidates who will advocate for the interests of their communities. This movement has been particularly successful in Ecuador, where Guadalupe Llori, a member of the Indigenous party known as Pachakutik, was elected president of the National Assembly in 2021.",
+      "prompt": "Which choice best states the main purpose of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To trace the history of an Indigenous political movement and speculate about its future development"
+        },
+        {
+          "label": "B",
+          "text": "To argue that Indigenous politicians in the United States should form their own political party"
+        },
+        {
+          "label": "C",
+          "text": "To highlight two approaches to achieving political representation for Indigenous people"
+        },
+        {
+          "label": "D",
+          "text": "To consider how Indigenous politicians in the United States have influenced Indigenous politicians in Canada and Latin America"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Craft and Structure/Text Structure and Purpose/Hard",
+      "source_question_number": 14,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer because it most accurately describes the main purpose of the text, which is to illustrate two approaches that Indigenous politicians have taken to achieve political representation for their communities. The text begins by explaining that one approach is exemplified by Indigenous politicians in the United States who, in an effort to ensure that the interests of their communities are represented in government, joined preexisting political parties and were subsequently elected to Congress. The text goes on to highlight a second approach adopted by Indigenous leaders in Canada and several Latin American countries: rather than joining established political parties, many Indigenous politicians in these countries have instead formed their own parties to promote candidates for office who support causes that are important to their communities.\n\nChoice A is incorrect because the text's focus is on the contrasting approaches adopted by different Indigenous political movements in different countries; thus, it isn't accurate to say that the text traces the history of one political movement. Moreover, the text only discusses examples from 2000 to 2021, a relatively short period of time; therefore, it provides very little in the way of discussion of larger historical developments, nor does it make any predictions about how these movements might continue to develop in the future. Choice B is incorrect because the text never urges Indigenous politicians in the US to alter their strategy of striving for representation through the established political parties, nor does it suggest that this strategy is inferior to that of Indigenous politicians in Canada and Latin America, who have formed their own parties. In fact, the text notes that both strategies have resulted in the election of Indigenous politicians to national governments. Choice D is incorrect because the text never suggests that Indigenous politicians in the US have influenced those in Canada and Latin America; instead, it stresses how Indigenous politicians' approach toward achieving representation in the US government has differed from the approach Indigenous politicians have taken to achieve representation in national governments elsewhere in the Americas.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_001743",
+      "section": "reading_writing",
+      "question_number": 15,
+      "passage": "According to Indian economist and sociologist Radhakamal Mukerjee (1889-1968), the Eurocentric concepts that informed early twentieth-century social scientific methods—for example, the idea that all social relations are reducible to struggles between individuals—had little relevance for India. Making the social sciences more responsive to Indians' needs, Mukerjee argued, required constructing analytical categories informed by India's cultural and ecological circumstances. Mukerjee thus proposed the communalist \"Indian village\" as the ideal model on which to base Indian economic and social policy.",
+      "prompt": "Which choice best describes the overall structure of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The text recounts Mukerjee's early training in the social scientific disciplines and then lists social policies whose implementation Mukerjee oversaw."
+        },
+        {
+          "label": "B",
+          "text": "The text mentions some of Mukerjee's economic theories and then traces their impact on other Indian social scientists of the twentieth century."
+        },
+        {
+          "label": "C",
+          "text": "The text presents Mukerjee's critique of the social sciences and then provides an example of his attempts to address issues he identified in his critique."
+        },
+        {
+          "label": "D",
+          "text": "The text explains an influential economic theory and then demonstrates how that theory was more important to Mukerjee's work than other social scientists have acknowledged."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Craft and Structure/Text Structure and Purpose/Hard",
+      "source_question_number": 15,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer. The text does indeed present Mukerjee's critique of the social sciences-that they were too Eurocentric-and then provides an example of how he attempted to address the issues he identified: by suggesting a social science model based on the Indian village.\n\nChoice A is incorrect. The text doesn't discuss Mukerjee's early training or his oversight of the implementation of social policies at all. Choice B is incorrect. The text never discusses any other Indian social scientists. Choice D is incorrect. The text never mentions other social scientists' responses to Mukerjee's work.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_001744",
+      "section": "reading_writing",
+      "question_number": 16,
+      "passage": "The following text is adapted from [i]Indian Boyhood[/i], a 1902 memoir by Ohiyesa (Charles A. Eastman), a Santee Dakota writer. In the text, Ohiyesa recalls how the women in his tribe harvested maple syrup during his childhood.\n\nNow the women began to test the trees-moving leisurely among them, axe in hand, and striking a single quick blow, to see if the sap would appear. [u]The trees, like people, have their individual characters; some were ready to yield up their life-blood, while others were more reluctant[/u]. Now one of the birchen basins was set under each tree, and a hardwood chip driven deep into the cut which the axe had made. From the corners of this chip—at first drop by drop, then more freely—the sap trickled into the little dishes.",
+      "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It portrays the range of personality traits displayed by the women as they work."
+        },
+        {
+          "label": "B",
+          "text": "It foregrounds the beneficial relationship between humans and maple trees."
+        },
+        {
+          "label": "C",
+          "text": "It demonstrates how human behavior can be influenced by the natural environment."
+        },
+        {
+          "label": "D",
+          "text": "It elaborates on an aspect of the maple trees that the women evaluate."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Craft and Structure/Text Structure and Purpose/Hard",
+      "source_question_number": 16,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer because it best describes the function of the underlined sentence in the text's overall portrayal of how the women in Ohiyesa's tribe harvested maple syrup. The text states that the women used an axe to strike the maple trees in order to find out which ones would produce sap. The underlined sentence compares the trees to people, with the sap described as the trees' \"life-blood.\" Some of the trees are ready to give out their sap, while others are unwilling to do so. Using personification, the sentence provides greater detail about the aspect of the maple trees-their potential to give sap-that the women are evaluating.\n\nChoice A is incorrect because the personalities of the women are not discussed in the text. Although the underlined sentence does mention \"individual characters,\" this reference is not to the women in the text but rather to the maple trees, which the sentence compares to people with individual character traits. Choice B is incorrect because the underlined sentence focuses on the trees' willingness or refusal to yield sap, not on the beneficial relationship between the women and the trees. Additionally, although the text does suggest that the women and their tribe benefit from the maple trees since the trees allow the women to harvest syrup, there is nothing in the text to suggest that the trees benefit from this relationship in turn. Choice C is incorrect because the underlined sentence is comparing maple trees to humans, not addressing the influence of the natural environment on how the actual humans in the text, the women, behave.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_001745",
+      "section": "reading_writing",
+      "question_number": 17,
+      "passage": "The following text is adapted from Jane Austen's 1814 novel [i]Mansfield Park[/i]. The speaker, Tom, is considering staging a play at home with a group of his friends and family.\n\nWe mean nothing but a little amusement among ourselves, just to vary the scene, and exercise our powers in something new. We want no audience, no publicity. We may be trusted, I think, in choosing some play most perfectly unexceptionable; and I can conceive no greater harm or danger to any of us in conversing in the elegant written language of some respectable author than in chattering in words of our own.",
+      "prompt": "Which choice best states the main purpose of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To offer Tom's assurance that the play will be inoffensive and involve only a small number of people"
+        },
+        {
+          "label": "B",
+          "text": "To clarify that the play will not be performed in the manner Tom had originally intended"
+        },
+        {
+          "label": "C",
+          "text": "To elaborate on the idea that the people around Tom lack the skills to successfully stage a play"
+        },
+        {
+          "label": "D",
+          "text": "To assert that Tom believes the group performing the play will be able to successfully promote it"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Craft and Structure/Text Structure and Purpose/Hard",
+      "source_question_number": 17,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because it most accurately portrays the main purpose of the text. At the beginning of the text, Tom asserts that he and the other people staging the play are doing so only for \"a little amusement among ourselves\" and aren't interested in attracting an audience or any attention with the production. Then, Tom promises that the play they chose is modest and appropriate, and he further reasons that using the well-written prose of \"some respectable author\" is better than using their own words. Overall, the main purpose of the text is to convey Tom's promise that the play will be inoffensive and involve only a few people.\n\nChoice B is incorrect because the text doesn't indicate that Tom had earlier intentions for the play's performance or that anything has changed since the group first decided to stage a play. Instead, the text focuses on how harmless the entire endeavor will be. Choice C is incorrect. Although Tom mentions that using the words of a \"respectable author\" will be better than using their own words, he never addresses the idea that the people around him generally aren't skilled enough to stage a play. Choice D is incorrect because in the text Tom specifically says that they \"want no audience, no publicity,\" which indicates that they don't plan on promoting the play at all.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_001746",
+      "section": "reading_writing",
+      "question_number": 18,
+      "passage": "Space scientists Anna-Lisa Paul, Stephen M. Elardo, and Robert Ferl planted seeds of [i]Arabidopsis thaliana[/i] in samples of lunar regolith—the surface material of the Moon—and, serving as a control group, in terrestrial soil. They found that while all the seeds germinated, the roots of the regolith-grown plants were stunted compared with those in the control group. Moreover, unlike the plants in the control group, the regolith-grown plants exhibited red pigmentation, reduced leaf size, and inhibited growth rates—indicators of stress that were corroborated by postharvest molecular analysis.",
+      "prompt": "Which choice best states the main purpose of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It describes an experiment that addressed an unresolved question about the extent to which lunar regolith resembles terrestrial soils."
+        },
+        {
+          "label": "B",
+          "text": "It compares two distinct methods of assessing indicators of stress in plants grown in a simulated lunar environment."
+        },
+        {
+          "label": "C",
+          "text": "It presents evidence in support of the hypothesis that seed germination in lunar habitats is an unattainable goal."
+        },
+        {
+          "label": "D",
+          "text": "It discusses the findings of a study that evaluated the effects of exposing a plant species to lunar soil conditions."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Craft and Structure/Text Structure and Purpose/Hard",
+      "source_question_number": 18,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. The text describes an experiment wherein space scientists compared plant growth in terrestrial and lunar soil conditions. It then discusses the findings of the study, including the fact that all the seeds germinated but that the plants grown in lunar soil exhibited signs of stress.\n\nChoice A is incorrect. The text doesn't address this question, and never describes any specific characteristics of either soil. It merely describes the outcome of an experiment that exposed a plant species to lunar soil conditions. Choice B is incorrect. The text never compares methods of assessing indicators of stress-instead, it simply mentions several stress indicators observed in the study (red pigmentation, reduced leaf size, and inhibited growth rates). Choice C is incorrect. The text doesn't present any evidence that we could never achieve seed germination in lunar habitats, and in fact states that the seeds in the lunar soil did germinate.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_001747",
+      "section": "reading_writing",
+      "question_number": 19,
+      "passage": "Raymond Antrobus, an accomplished poet and writer of prose, recently released his debut spoken word poetry album, [i]The First Time I Wore Hearing Aids,[/i] in collaboration with producer Ian Brennan. The album contains both autobiographical and reflective pieces combining Antrobus's spoken words with Brennan's fragmented audio elements and pieces of music to convey how people who are deaf may experience sound, both its presence and absence. Some critics suggest that the album questions the function of sound in the world, highlighting that the experience of sound is multifaceted.",
+      "prompt": "Which choice best describes the overall structure of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It introduces a collaborative spoken word poetry project, details the approach taken to produce the work, and then provides an example of critique the album received upon release."
+        },
+        {
+          "label": "B",
+          "text": "It mentions a collection of spoken word poems, distinguishes one poem as being an exemplar on the album, and then offers a summary of the subject matter of the whole collection."
+        },
+        {
+          "label": "C",
+          "text": "It summarizes the efforts to produce a collection of spoken word poems, presents biographies of two people who worked on the album, and speculates about the meaning behind the poetry."
+        },
+        {
+          "label": "D",
+          "text": "It connects two artists to the same spoken word poetry project, explains the extent of their collaboration on each poem, and then provides an overview of the technique used to produce the work."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Craft and Structure/Text Structure and Purpose/Hard",
+      "source_question_number": 19,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. The text first introduces the album as being a collaboration between Antrobus and Brennan, then describes the approach taken to produce it, then mentions how critics have said that it calls into question the function of sound.\n\nChoice B is incorrect. While the text does mention a collection of spoken word poems, it doesn't single out one poem as being particularly noteworthy. Additionally, the text doesn't simply summarize the subject matter-it goes into detail about the content and production of the album. Choice C is incorrect. The text doesn't provide biographical information about the two artists, and the text doesn't speculate about the meaning behind the poetry-instead, it relays what some critics have said about the album. Choice D is incorrect. The text doesn't provide just an overview of the production techniques used but instead goes into more detail about the content and audio elements of the album, as well as critical response to the album.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_001748",
+      "section": "reading_writing",
+      "question_number": 20,
+      "passage": "The mimosa tree evolved in East Asia, where the beetle [i]Bruchidius terrenus[/i] preys on its seeds. In 1785, mimosa trees were introduced to North America, far from any [i]B. terrenus[/i]. [u]But evolutionary links between predators and their prey can persist across centuries and continents.[/u] Around 2001, B. terrenus was introduced in southeastern North America near where botanist Shu-Mei Chang and colleagues had been monitoring mimosa trees. Within a year, 93 percent of the trees had been attacked by the beetles.",
+      "prompt": "Which choice best describes the function of the third sentence in the overall structure of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It states the hypothesis that Chang and colleagues had set out to investigate using mimosa trees and [i]B. terrenus[/i]."
+        },
+        {
+          "label": "B",
+          "text": "It presents a generalization that is exemplified by the discussion of the mimosa trees and [i]B. terrenus[/i]."
+        },
+        {
+          "label": "C",
+          "text": "It provides context that clarifies why the species mentioned spread to new locations."
+        },
+        {
+          "label": "D",
+          "text": "It offers an alternative explanation for the findings of Chang and colleagues."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Craft and Structure/Text Structure and Purpose/Hard",
+      "source_question_number": 20,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer because it most accurately describes the function of the third sentence within the overall structure of the text. The third sentence makes a generalization, asserting that evolutionary links between predators and prey can persist across great expanses of time and distance. This generalization is exemplified by the text's discussion of the relationship between mimosa trees and [i]B. terrenus[/i] beetles. When mimosa trees were introduced to North Americain 1785, no [i]B. terrenus[/i] beetles were present, so the relationship between the trees and the beetles that exists in their native East Asia was disrupted. When the beetles were introduced to North America more than 200 years later, however, they quickly attacked mimosa trees, illustrating the generalization that links between predators and prey \"can persist across centuries and continents.\"\n\nChoice A is incorrect because the third sentence doesn't indicate that Chang and colleagues were investigating any hypothesis. According to the text, Chang and colleagues were simply monitoring mimosa trees when the beetles happened to be introduced to the area. Choice C is incorrect because the third sentence doesn't discuss any particular species, let alone the species mentioned elsewhere in the text, nor does the sentence explain why species spread to new locations. Choice D is incorrect because the third sentence offers a generalization about the relationship between predators and prey, not an explanation for the findings by Chang and colleagues that's an \"alternative\" to an explanation presented elsewhere in the text.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_001749",
+      "section": "reading_writing",
+      "question_number": 21,
+      "passage": "The 1967 release of Harold Cruse's book [i]The Crisis of the Negro Intellectual[/i] isolated him from almost all other scholars and activists of the American Civil Rights Movement-though many of those thinkers disagreed with each other, he nonetheless found ways to disagree with them all. He thought that activists who believed that Black people such as himself should culturally assimilate were naïve. [u]But he also sharply criticized Black nationalists such as Marcus Garvey who wanted to establish independent, self-contained Black economies and societies, even though Cruse himself identified as a Black nationalist. [/u]",
+      "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It describes a direction that Cruse felt the Civil Rights Movement ought to take."
+        },
+        {
+          "label": "B",
+          "text": "It indicates that Cruse's reputation as a persistent antagonist of other scholars is undeserved."
+        },
+        {
+          "label": "C",
+          "text": "It describes a controversy that Cruse's work caused within the Black nationalist movement."
+        },
+        {
+          "label": "D",
+          "text": "It helps explain Cruse's position with respect to the community of civil rights thinkers."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Craft and Structure/Text Structure and Purpose/Hard",
+      "source_question_number": 21,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. The text as a whole claims that Cruse disagreed with virtually all other Civil Rights scholars and activists. The underlined sentence describes one way that Cruse both did and didn't fit in with those thinkers: he criticized Black nationalists, even though he identified as one.\n\nChoice A is incorrect. The underlined sentence doesn't do this. It describes Cruse's criticisms-it never mentions what Cruse did want the movement to do instead. Choice B is incorrect. This conflicts with the text, which argues that Cruse did disagree with almost all other scholars of the Civil Rights Movement. Choice C is incorrect. This is a step too far. The text never says that Cruse's work caused controversy within the Black nationalist movement.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    }
+  ]
+}

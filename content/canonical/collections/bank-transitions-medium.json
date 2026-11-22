@@ -1,0 +1,1404 @@
+{
+  "schemaVersion": "sat-canonical-question-collection-v1",
+  "contentId": "collection-bank-transitions-medium",
+  "title": "Transitions · Medium",
+  "section": "reading_writing",
+  "questionCount": 31,
+  "questions": [
+    {
+      "question_id": "bank_rw_001958",
+      "section": "reading_writing",
+      "question_number": 1,
+      "passage": "Most of the planets that have been discovered outside our solar system orbit G-type stars, like our Sun. In 2014, ______ researchers identified a planet orbiting KELT-9, a B-type star more than twice as massive and nearly twice as hot as the Sun. Called KELT-9b, it is one of the hottest planets ever discovered.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "likewise,"
+        },
+        {
+          "label": "B",
+          "text": "however,"
+        },
+        {
+          "label": "C",
+          "text": "therefore,"
+        },
+        {
+          "label": "D",
+          "text": "for example,"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Transitions/Medium",
+      "source_question_number": 1,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer. The word \"however\" logically signals that the information in this sentence about the planet KELT-9b-that it orbits a B-type star-contrasts with the previous information about planets discovered outside our solar system. Most of these planets orbit G-type stars, not B-type stars.\n\nChoice A is incorrect because \"likewise\" illogically signals that the information about the planet KELT-9b is similar to the previous information about most planets outside our solar system. Instead, it contrasts with that information. Choice C is incorrect because \"therefore\" illogically signals that the information about the planet KELT-9b is a result of the previous information about most planets outside our solar system. Instead, it contrasts with that information. Choice D is incorrect because \"for example\" illogically signals that the information about the planet KELT-9b is an example of the previous information about most planets outside our solar system. Instead, it contrasts with that information.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001959",
+      "section": "reading_writing",
+      "question_number": 2,
+      "passage": "The Babylonian king Hammurabi achieved much during his forty-year reign. He conquered all of Mesopotamia and built Babylon into one of the most powerful cities of the ancient world. Today, ______ he is mainly remembered for a code of laws inscribed on a seven-foot-tall block of stone: the Code of Hammurabi.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "therefore,"
+        },
+        {
+          "label": "B",
+          "text": "likewise,"
+        },
+        {
+          "label": "C",
+          "text": "however,"
+        },
+        {
+          "label": "D",
+          "text": "for instance,"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Transitions/Medium",
+      "source_question_number": 2,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer. \"However\" logically signals that the information in this sentence-that Hammurabi is mainly remembered for just a single achievement, the Code of Hammurabi-is contrary to what might be assumed from the previous information about Hammurabi's many achievements.\n\nChoice A is incorrect because \"therefore\" illogically signals that the information in this sentence is a result of the previous information about Hammurabi's many achievements. Instead, this sentence makes a point that is contrary to what might be assumed from the previous information. Choice B is incorrect because \"likewise\"\nillogically signals that the information in this sentence is similar to the previous information about Hammurabi's many achievements. Instead, this sentence makes a point that is contrary to what might be assumed from the previous information. Choice D is incorrect because \"for instance\" illogically signals that this sentence exemplifies the previous information about Hammurabi's many achievements. Instead, this sentence makes a point that is contrary to what might be assumed from the previous information.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001960",
+      "section": "reading_writing",
+      "question_number": 3,
+      "passage": "Some members of the US Supreme Court have resisted calls to televise the court's oral arguments, concerned that the participants would be tempted to perform for the cameras (and thus lower the quality of the discourse). ______ the justices worry that most viewers would not even watch the full deliberations, only short clips that could be misinterpreted and mischaracterized.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "However,"
+        },
+        {
+          "label": "B",
+          "text": "Additionally,"
+        },
+        {
+          "label": "C",
+          "text": "In comparison,"
+        },
+        {
+          "label": "D",
+          "text": "For example,"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Transitions/Medium",
+      "source_question_number": 3,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer. \"Additionally\" logically signals that the claim in this sentence-that some Supreme Court justices worry that viewers (of televised court arguments) would watch only short, misleading clips-adds to the information in the previous sentence. Specifically, the previous sentence indicates one concern raised by those opposed to televising the court's oral arguments, and the claim that follows indicates a second, additional concern.\n\nChoice A is incorrect because \"however\" illogically signals that the claim in this sentence contrasts with the information in the previous sentence. Instead, the claim adds to the information, indicating a second, additional concern that some Supreme Court justices have about televising the court's arguments. Choice C is incorrect\nbecause \"in comparison\" illogically signals that the claim in this sentence is being compared to the information in the previous sentence. Instead, the claim adds to the information, indicating a second, additional concern that some Supreme Court justices have about televising the court's arguments. Choice D is incorrect because \"for example\" illogically signals that the claim in this sentence exemplifies the information in the previous sentence. Instead, the claim adds to the information, indicating a second, additional concern that some Supreme Court justices have about televising the court's arguments.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001961",
+      "section": "reading_writing",
+      "question_number": 4,
+      "passage": "Award-winning travel writer Linda Watanabe McFerrin considers the background research she conducts on destinations featured in her travel books to be its own reward. ______ McFerrin admits to finding the research phase of her work just as fascinating and engaging as exploring a location in person.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "By contrast,"
+        },
+        {
+          "label": "B",
+          "text": "Likewise,"
+        },
+        {
+          "label": "C",
+          "text": "Besides,"
+        },
+        {
+          "label": "D",
+          "text": "In fact,"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Transitions/Medium",
+      "source_question_number": 4,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. \"In fact\" logically signals that the information in this sentence-that McFerrin finds the research phase of her work to be just as fascinating as travel-emphasizes and elaborates on the previous sentence's point that McFerrin regards background research as a rewarding activity.\n\nChoice A is incorrect because \"by contrast\" illogically signals that the information in this sentence contrasts with the previous sentence's point about McFerrin's attitude toward background research. Instead, it emphasizes and elaborates on that point. Choice B is incorrect because \"likewise\" illogically signals that this sentence merely adds a second, similar point to the previous sentence's point about McFerrin's attitude toward background research. Instead, it emphasizes and elaborates on that point. Choice C is incorrect because \"besides\" illogically signals that this sentence provides a separate point in addition to, or apart from, the previous sentence's point about McFerrin's attitude toward background research. Instead, it emphasizes and elaborates on that point.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001962",
+      "section": "reading_writing",
+      "question_number": 5,
+      "passage": "In 1873, Spanish scientist Santiago Ramón y Cajal observed that brain fibers have distinct boundaries with clear end points, a finding that went against earlier assumptions about the brain. ______ scientists had assumed that the brain was a continuous web of fused fibers, not a vast network of distinct, individual cells.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "However,"
+        },
+        {
+          "label": "B",
+          "text": "Previously,"
+        },
+        {
+          "label": "C",
+          "text": "As a result,"
+        },
+        {
+          "label": "D",
+          "text": "Likewise,"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Transitions/Medium",
+      "source_question_number": 5,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer. \"Previously\" logically signals that the fused fiber theory came before Ramón y Cajal's discovery.\n\nChoice A is incorrect. \"However\" illogically signals that the fused fiber theory in this sentence contrasts with the information in the previous sentence. While this theory does contrast with Ramón y Cajal's discovery, the previous sentence concludes by stating that his discovery went against prior assumptions about the brain. The fact that the fused fiber theory was one of those earlier assumptions makes \"however\" an illogical choice. Choice C is incorrect because \"as a result\" illogically signals that the fused fiber theory in this sentence was a result of the discovery in the previous sentence. Instead, the fused fiber theory came before Ramón y Cajal's discovery. Choice D is incorrect because \"likewise\" illogically signals that the fused fiber theory in this sentence was similar to the discovery in the previous sentence. Instead, the fused fiber theory, which came before Ramón y Cajal's discovery, was very different from it.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001963",
+      "section": "reading_writing",
+      "question_number": 6,
+      "passage": "For years, biologists have experimented with using grime-eating bacteria rather than harsh chemicals to clean artworks, and results have been impressive overall. ______ these bacterial strains—which can metabolize centuries' worth of oil, glue, dirt, and other surface impurities without creating harmful byproducts—have proven more effective than traditional chemical cleaning methods.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "However,"
+        },
+        {
+          "label": "B",
+          "text": "In many cases,"
+        },
+        {
+          "label": "C",
+          "text": "As a result,"
+        },
+        {
+          "label": "D",
+          "text": "Additionally,"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Transitions/Medium",
+      "source_question_number": 6,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer. The first sentence makes the claim that using grime-eating bacteria has led to \"impressive results.\" This sentence supports that claim by describing the specific findings of the biologists' experimentation. The transition \"in many cases\" fits the context perfectly.\n\nChoice A is incorrect. This choice uses a disagreement transition. But this sentence actually agrees with the previous sentence. Both claim that grime-eating bacteria are better at cleaning artworks than chemicals. Choice C is incorrect. This choice uses a cause-and-effect transition, which doesn't make sense in context. The fact that the results of the experimentation have been impressive overall doesn't cause the bacteria to have proven more effective. Choice D is incorrect. This choice uses a transition that indicates the addition of a new idea. But this sentence doesn't introduce a new idea. Instead, it elaborates on the same idea laid out in the previous sentence by describing the \"impressive results\" in more detail.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001964",
+      "section": "reading_writing",
+      "question_number": 7,
+      "passage": "Alexander Lawrence Posey (1873-1908) varied his focus and tone depending on the genre in which he was writing. In his poetry, he used heartfelt language to evoke the beauty and peacefulness of his natural surroundings; in his journalism, ______ he employed humor and satire to comment on political issues affecting his Muskogee Creek community.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "that is,"
+        },
+        {
+          "label": "B",
+          "text": "granted,"
+        },
+        {
+          "label": "C",
+          "text": "similarly,"
+        },
+        {
+          "label": "D",
+          "text": "by contrast,"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Transitions/Medium",
+      "source_question_number": 7,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. This sentence compares two examples of Posey's tone: the \"heartfelt language\" he used in his poetry versus the \"humor and satire\" he used in his journalism. We know from these descriptions and from the claim in the previous sentence that the two tones are very different from each other. So the transition \"by contrast\" fits the context perfectly.\n\nChoice A is incorrect. This choice uses a transition that indicates a restatement of the same idea in other words. But the text isn't restating the first example here. Instead, it's offering a second, totally different example. Choice B is incorrect. This choice uses a transition that means \"admittedly.\" But the text isn't admitting or conceding anything here. Instead, these two examples work together to support the claim made in the first sentence. Choice C is incorrect. This choice uses a transition that indicates the addition of an agreeing idea. But these two examples are intentionally very different from each other, so \"similarly\" doesn't make sense here.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001965",
+      "section": "reading_writing",
+      "question_number": 8,
+      "passage": "Okot p'Bitek's poem [i]Song of Lawino [/i](1966) explores postcolonial Ugandan life through the eyes of a woman living in a rural village. With its vibrant imagery, bitingly satiric tone, and dexterous use of traditional Acholi song and phraseology, the poem inspired a generation of East African writers. ______ those who adopted its style are often referred to as Okot School poets.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Nevertheless,"
+        },
+        {
+          "label": "B",
+          "text": "Fittingly,"
+        },
+        {
+          "label": "C",
+          "text": "By comparison,"
+        },
+        {
+          "label": "D",
+          "text": "Instead,"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Transitions/Medium",
+      "source_question_number": 8,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer. \"Fittingly\" is a transition that means \"appropriately\" or \"suitably,\" and it is appropriate that writers who adopted their style from Okot p'Bitek would be known as the Okot School poets.\n\nChoice A is incorrect. This choice uses a disagreement transition. But this sentence is not disagreeing with anything'rather, it's discussing how it makes sense for those writers who adopted Okot's style to be known as the Okot School poets. Choice C is incorrect. This choice uses a transition that compares two ideas. But this\nsentence is not comparing the Okot School poets and their style to Okot's style. Choice D is incorrect. This choice uses a disagreement transition. But this sentence is not disagreeing with anything-rather, it's discussing how it makes sense for those writers who adopted Okot's style to be known as the Okot School poets.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001966",
+      "section": "reading_writing",
+      "question_number": 9,
+      "passage": "Because an achiral molecule is symmetrical, flipping it yields a structurally identical molecule. A flipped chiral molecule, ______ can be compared to a glove that has been turned inside out: it produces a structurally inverted molecule rather than an identical one.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "in other words,"
+        },
+        {
+          "label": "B",
+          "text": "by contrast,"
+        },
+        {
+          "label": "C",
+          "text": "for example,"
+        },
+        {
+          "label": "D",
+          "text": "similarly,"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Transitions/Medium",
+      "source_question_number": 9,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer. This sentence compares a chiral molecule to an achiral one. It discusses how when a chiral molecule is flipped, it results in something very different than when an achiral molecule is flipped. So the transition \"by contrast\" fits the context perfectly.\n\nChoice A is incorrect. This choice uses a transition that indicates a restatement of the same idea in different words. But this sentence doesn't restate the same idea as the previous sentence. Instead, it makes a new point about a different type of molecule (chiral instead of achiral). Choice C is incorrect. This choice uses a transition that introduces an example, which doesn't make sense here. The second sentence isn't an example of the first sentence's claim about achiral molecules: it actually introduces an entirely different idea that focuses on chiral molecules. Choice D is incorrect. This choice uses a transition that indicates the addition of an agreeing idea. But this sentence shows a contrast with the first sentence-namely, that a chiral molecule acts very differently from an achiral molecule when flipped.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001967",
+      "section": "reading_writing",
+      "question_number": 10,
+      "passage": "Jhumpa Lahiri's story collection [i]Interpreter of Maladies [/i]features multiple stories about romantic relationships. In \"This Blessed House,\" newlyweds argue over whether to replace items left by the previous owners of their new home. ______ in \"A Temporary Matter,\" a husband and wife attempt to rekindle their relationship during a four-night blackout.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Granted,"
+        },
+        {
+          "label": "B",
+          "text": "For example,"
+        },
+        {
+          "label": "C",
+          "text": "Likewise,"
+        },
+        {
+          "label": "D",
+          "text": "Hence,"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Transitions/Medium",
+      "source_question_number": 10,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer. \"Likewise\" is a transition that indicates the addition of a new but related idea. In this sentence, the author is providing another similar example to that discussed in the previous sentence. Therefore, \"likewise\" works best in this context.\n\nChoice A is incorrect. This choice uses a transition that means \"admittedly.\" But the text isn't admitting or conceding anything here. Instead, these two examples work together to support the claim made in the first sentence. Choice B is incorrect. This choice uses an exemplification transition, which doesn't make sense here. The second story is not an example of the story in the previous sentence-it's another, similar story. And while both stories exemplify the first sentence in the text, the transition we're looking for isn't actually connected to that sentence. Choice D is incorrect. This choice uses a cause-and-effect transition, which doesn't make sense here. The first story didn't result in the events of the second story.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001968",
+      "section": "reading_writing",
+      "question_number": 11,
+      "passage": "Before California's 1911 election to approve a proposition granting women the right to vote, activists across the state sold tea to promote the cause of suffrage. In San Francisco, the Woman's Suffrage Party sold Equality Tea at local fairs. ______ in Los Angeles, activist Nancy Tuttle Craig, who ran one of California's largest grocery store firms, distributed Votes for Women Tea.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "For example,"
+        },
+        {
+          "label": "B",
+          "text": "To conclude,"
+        },
+        {
+          "label": "C",
+          "text": "Similarly,"
+        },
+        {
+          "label": "D",
+          "text": "In other words,"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Transitions/Medium",
+      "source_question_number": 11,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer. \"Similarly\" logically signals that the activity described in this sentence (Nancy Tuttle Craig distributing Votes for Women Tea in her Los Angeles grocery stores) is like the activity described in the previous sentence (the Woman's Suffrage Party selling Equality Tea at fairs in San Francisco). Together, the two examples support the preceding claim that \"activists across the state sold tea to promote the cause of suffrage.\"\n\nChoice A is incorrect because \"for example\" illogically signals that the activity described in this sentence exemplifies the activity described in the previous sentence. Instead, the two activities are similar, and both support the preceding claim about selling tea to promote women's right to vote. Choice B is incorrect because \"to conclude\" illogically signals that the activity described in this sentence concludes or summarizes the information in the previous sentences. Instead, the activity is similar to the one described in the previous sentence, and both support the preceding claim about selling tea to promote women's right to vote. Choice D is incorrect because \"in other words\" illogically signals that the activity described in this sentence paraphrases the activity described in the previous sentence. Instead, the two activities are similar, and both support the preceding claim about selling tea to promote women's right to vote.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001969",
+      "section": "reading_writing",
+      "question_number": 12,
+      "passage": "In 2019, researcher Patricia Jurado Gonzalez and food historian Nawal Nasrallah prepared a stew from a 4,000-year old recipe found on a Mesopotamian clay tablet. When they tasted the dish, known as [i]pašrūtum[/i] (\"unwinding\"), they found that it had a mild taste and inspired a sense of calm. ______ the researchers, knowing that dishes were sometimes named after their intended effects, theorized that the dish's name, \"unwinding,\" referred to its function: to help ancient diners relax.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Therefore,"
+        },
+        {
+          "label": "B",
+          "text": "Alternately,"
+        },
+        {
+          "label": "C",
+          "text": "Nevertheless,"
+        },
+        {
+          "label": "D",
+          "text": "Likewise,"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Transitions/Medium",
+      "source_question_number": 12,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. \"Therefore\" logically signals that the action described in this sentence-the researchers theorizing that the dish was named for its effect on diners-is a result or consequence of the previous observation that the dish had a calming effect.\n\nChoice B is incorrect because \"alternately\" illogically signals that the action described in this sentence offers an alternative or contrast to the previous observation that the dish had a calming effect. Instead, the action is a result or consequence of that observation. Choice C is incorrect because \"nevertheless\" illogically signals that the action described in this sentence occurs despite the previous observation that the dish had a calming effect. Instead, the action is a result or consequence of that observation. Choice D is incorrect because \"likewise\"\nillogically signals that this sentence merely adds a second, similar detail to the previous observation that the dish had a calming effect. Instead, this sentence describes an action that is a result or consequence of that observation.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001970",
+      "section": "reading_writing",
+      "question_number": 13,
+      "passage": "In 1933, the Twentieth Amendment to the US Constitution was ratified. The amendment mandates that presidential inaugurations be held on January 20, approximately ten weeks after the November election. ______ this amendment requires newly elected US senators and representatives to be sworn into their respective offices on January 3.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Instead,"
+        },
+        {
+          "label": "B",
+          "text": "For instance,"
+        },
+        {
+          "label": "C",
+          "text": "Specifically,"
+        },
+        {
+          "label": "D",
+          "text": "In addition,"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Transitions/Medium",
+      "source_question_number": 13,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. \"In addition\" logically signals that the information in this sentence-that the Twentieth Amendment requires newly elected US senators and representatives to be sworn in on January 3-is separate from and additional to the amendment's mandate concerning presidential inaugurations.\n\nChoice A is incorrect because \"instead\" illogically signals that the information in the sentence presents an alternative to or substitute for the Twentieth Amendment's mandate concerning presidential inaugurations. Rather, the sentence presents a separate requirement in addition to that one. Choice B is incorrect because \"for instance\" illogically signals that the information in the sentence exemplifies the Twentieth Amendment's mandate concerning presidential inaugurations. Instead, the sentence presents a separate requirement in addition to that one. Choice C is incorrect because \"specifically\" illogically signals that the sentence provides specific, precise details elaborating on the Twentieth Amendment's mandate concerning presidential inaugurations. Instead, the sentence presents a separate requirement in addition to that one.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001971",
+      "section": "reading_writing",
+      "question_number": 14,
+      "passage": "The more diverse and wide ranging an animal's behaviors, the larger and more energy demanding the animal's brain tends to be. ______ from an evolutionary perspective, animals that perform only basic actions should allocate fewer resources to growing and maintaining brain tissue. The specialized subtypes of ants within colonies provide an opportunity to explore this hypothesis.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Subsequently,"
+        },
+        {
+          "label": "B",
+          "text": "Besides,"
+        },
+        {
+          "label": "C",
+          "text": "Nevertheless,"
+        },
+        {
+          "label": "D",
+          "text": "Thus,"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Transitions/Medium",
+      "source_question_number": 14,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. \"Thus\" logically signals that the claim in this sentence-that animals performing only basic actions should allocate relatively few resources to their brain tissue-is a consequence of the previous sentence's claim about the energy demands of animal brains (namely, that the more diverse an animal's behaviors, the more energy its brain needs).\n\nChoice A is incorrect because \"subsequently\" illogically signals that the claim in this sentence occurs later in a chronological sequence of events than the previous sentence's claim about the energy demands of animal brains. Instead, the second claim is a consequence of the first. Choice B is incorrect because \"besides\" illogically signals that the claim in this sentence provides a separate point in addition to, or apart from, the previous sentence's claim about the energy demands of animal brains. Instead, the second claim is a consequence of the first. Choice C is incorrect because \"nevertheless\" illogically signals that the claim in this sentence is true in spite of the previous sentence's claim about the energy demands of animal brains. Instead, the second claim is a consequence of the first.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001972",
+      "section": "reading_writing",
+      "question_number": 15,
+      "passage": "In his 1925 book [i]The Morphology of Landscape[/i], US geographer Carl Sauer challenged prevailing views about how natural landscapes influence human cultures. ______ Sauer argued that instead of being shaped entirely by their natural surroundings, cultures play an active role in their own development by virtue of their interactions with the environment.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Similarly,"
+        },
+        {
+          "label": "B",
+          "text": "Finally,"
+        },
+        {
+          "label": "C",
+          "text": "Therefore,"
+        },
+        {
+          "label": "D",
+          "text": "Specifically,"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Transitions/Medium",
+      "source_question_number": 15,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. \"Specifically\" logically signals that the information in this sentence about Sauer's argument-that, according to Sauer, cultures play a role in their own development, as opposed to being shaped solely by natural surroundings-provides specific, precise details elaborating on the more general information in the previous sentence about how Sauer challenged prevailing views about how natural landscapes influence human cultures.\n\nChoice A is incorrect because \"similarly\" illogically signals that the information in this sentence about Sauer's argument is similar to, but separate from, the more general information in the previous sentence. Instead, it provides specific, precise details elaborating on that information. Choice B is incorrect because \"finally\" illogically signals that the information in this sentence about Sauer's argument indicates a last step in a process or a concluding summary. Instead, it provides specific, precise details elaborating on the general information in the previous sentence. Choice C is incorrect because \"therefore\" illogically signals that the information in this sentence about Sauer's argument is a result of the more general information in the previous sentence. Instead, it provides specific, precise details elaborating on that information.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001973",
+      "section": "reading_writing",
+      "question_number": 16,
+      "passage": "Establishing Coordinated Universal Time (UTC) is no easy task. Each month, readings of a single second from atomic clocks around the world are taken and sent to the International Bureau of Weights and Measures (BIPM) in France. ______ BIPM metrologists perform the meticulous work of assembling these minutely disparate readings into a globally shared time standard.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "There,"
+        },
+        {
+          "label": "B",
+          "text": "In particular,"
+        },
+        {
+          "label": "C",
+          "text": "For example,"
+        },
+        {
+          "label": "D",
+          "text": "Conversely,"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Transitions/Medium",
+      "source_question_number": 16,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. \"There\" indicates that the work of calculating Coordinated Universal Time takes place at the International Bureau of Weights and Measures in France. Because \"there\" indicates a location, it fits the context perfectly.\n\nChoice B is incorrect. This choice uses an exemplification transition, which doesn't make sense here. This sentence is describing where the work of coordinating Coordinated Universal Time takes place, not giving an example of the work described in the previous sentence. Choice C is incorrect. This choice uses an exemplification transition, which doesn't make sense here. This sentence is describing where the work of coordinating Coordinated Universal Time takes place, not giving an example of the work described in the previous sentence. Choice D is incorrect. This choice uses a disagreement transition. But this sentence doesn't disagree with the previous sentence. They both describe the work involved in calculating Coordinated Universal Time.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001974",
+      "section": "reading_writing",
+      "question_number": 17,
+      "passage": "Earth's auroras-colorful displays of light seen above the northern and southern poles-result, broadly speaking, from the Sun's activity. ______ the Sun releases charged particles that are captured by Earth's magnetic field and channeled toward the poles. These particles then collide with atoms in the atmosphere, causing the atoms to emit auroral light.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Specifically,"
+        },
+        {
+          "label": "B",
+          "text": "Similarly,"
+        },
+        {
+          "label": "C",
+          "text": "Nevertheless,"
+        },
+        {
+          "label": "D",
+          "text": "Hence,"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Transitions/Medium",
+      "source_question_number": 1,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. \"Specifically\" logically signals that the information in this sentence-that the Sun releases charged particles that later collide with atoms, resulting in auroral light-provides specific, precise details about how auroras result from the Sun's activity.\n\nChoice B is incorrect because \"similarly\" illogically signals that the information in this sentence is similar to the general information about auroras in the previous sentence. Instead, this sentence provides specific, precise details about how auroras form. Choice C is incorrect because \"nevertheless\" illogically signals that the information in this sentence is despite the general information about auroras in the previous sentence. Instead, this sentence provides specific, precise details about how auroras form. Choice D is incorrect because \"hence\" illogically signals that the information in this sentence is a result of the general information about auroras in the previous sentence. Instead, this sentence provides specific, precise details about how auroras form.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001975",
+      "section": "reading_writing",
+      "question_number": 18,
+      "passage": "When, in the 1800s, geologists first realized that much of Earth had once been covered by great sheets of ice, some theorized that the phenomenon was cyclical, occurring at regular intervals. Each Ice Age is so destructive, though, that it largely erases the geological evidence of its predecessor. ______ geologists were unable to confirm the theory of cyclical Ice Ages until the 1960s.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Hence,"
+        },
+        {
+          "label": "B",
+          "text": "Moreover,"
+        },
+        {
+          "label": "C",
+          "text": "Nevertheless,"
+        },
+        {
+          "label": "D",
+          "text": "Next,"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Transitions/Medium",
+      "source_question_number": 2,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. \"Hence\" logically signals that the information in this sentence-that geologists couldn't confirm the theory of cyclical Ice Ages until the 1960s-is a consequence of the previous information about the destructiveness of each Ice Age and the erasure of necessary geological evidence.\n\nChoice B is incorrect because \"moreover\" illogically signals that the information in this sentence is merely additional to the previous information about the destructiveness of each Ice Age. Instead, the sentence identifies a specific consequence of that information. Choice C is incorrect because \"nevertheless\" illogically signals that the information in this sentence is true despite the previous information about the destructiveness of each Ice Age. Instead, the sentence identifies a specific consequence of that information. Choice D is incorrect because \"next\" illogically signals that the information in this sentence is the next step in a process. Instead, the sentence identifies a specific consequence of the previous information.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001976",
+      "section": "reading_writing",
+      "question_number": 19,
+      "passage": "Originally coined by economist Joan Robinson to refer to markets with multiple sellers of a product but only one buyer, the term \"monopsony\" can also refer to markets where demand for labor is limited. In a product monopsony, the single buyer can force sellers to lower their prices. ______ in a labor monopsony, employers can force workers to accept lower wages.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Earlier,"
+        },
+        {
+          "label": "B",
+          "text": "Instead,"
+        },
+        {
+          "label": "C",
+          "text": "Similarly,"
+        },
+        {
+          "label": "D",
+          "text": "In particular,"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Transitions/Medium",
+      "source_question_number": 3,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer. \"Similarly\" logically signals that the information in this sentence about a labor monopsony is similar to the information in the previous sentence about a product monopsony. In both types of markets, one party (an employer or a buyer) has the power to force another party (a worker or seller) to accept less money (for labor or products).\n\nChoice A is incorrect because \"earlier\" illogically signals that the information in this sentence about a labor monopsony occurs earlier (in a chronological sequence) than the information about a product monopsony. Instead, it is similar to the information about a product monopsony. Choice B is incorrect because \"instead\" illogically signals that the information in this sentence about a labor monopsony is an alternative to the previous information about a product monopsony. Instead, it is similar to the information about a product monopsony. Choice D is incorrect because \"in particular\" illogically signals that the information in this sentence\nabout a labor monopsony provides specific details elaborating on the previous information about a product monopsony. Instead, it is similar to the information about a product monopsony.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001977",
+      "section": "reading_writing",
+      "question_number": 20,
+      "passage": "The chemical trimethylamine N-oxide not only gives fish their fishy smell but also protects them from crushing hydrostatic pressure in deep waters. Trimethylamine N-oxide strengthens the bonds between water molecules in a fish's body. ______ these water molecules maintain their linked structure at extreme depths, thus preventing pressure-related damage.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Nevertheless,"
+        },
+        {
+          "label": "B",
+          "text": "As a result,"
+        },
+        {
+          "label": "C",
+          "text": "However,"
+        },
+        {
+          "label": "D",
+          "text": "For instance,"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Transitions/Medium",
+      "source_question_number": 4,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer. \"As a result\" indicates that water molecules maintaining their linked structure at high pressures is caused by the strengthening of these water molecules by trimethylamine N-oxide. So the transition \"as a result\" fits the context perfectly.\n\nChoice A is incorrect. This choice uses a disagreement transition. But this sentence doesn't disagree with the previous one-rather, it's describing an effect of the phenomenon described in the previous sentence. Choice C is incorrect. This choice uses a disagreement transition. But this sentence doesn't disagree with the previous one; it actually expands on the previous sentence by describing an effect of the strengthened molecules. Choice D is incorrect. This choice uses an exemplification transition, which doesn't make sense here. The second sentence doesn't provide an example or instance of the idea in the previous sentence. Instead, it explores the effects of the previous idea in more depth.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001978",
+      "section": "reading_writing",
+      "question_number": 21,
+      "passage": "One poll taken after the first 1960 presidential debate suggested that John Kennedy lost badly: only 21 percent of those who listened on the radio rated him the winner. ______ the debate was ultimately considered a victory for the telegenic young senator, who rated higher than his opponent, Vice President Richard Nixon, among those watching on the new medium of television.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "In other words,"
+        },
+        {
+          "label": "B",
+          "text": "Therefore,"
+        },
+        {
+          "label": "C",
+          "text": "Likewise,"
+        },
+        {
+          "label": "D",
+          "text": "Nevertheless,"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Transitions/Medium",
+      "source_question_number": 5,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. \"Nevertheless\" logically signals that the claim in this sentence-that the telegenic Kennedy was ultimately considered the winner of the debate-is true despite the previous information about the poll of radio listeners.\n\nChoice A is incorrect because \"in other words\" illogically signals that the claim in this sentence is a paraphrase of the previous information about the poll of radio listeners. Instead, Kennedy was ultimately considered the winner despite what that poll suggested about his performance. Choice B is incorrect because \"therefore\"\nillogically signals that the claim in this sentence is a result of the previous information about the poll of radio listeners. Instead, Kennedy was ultimately considered the winner despite what that poll suggested about his performance. Choice C is incorrect because \"likewise\" illogically signals that the claim in this sentence is similar to the previous information about the poll of radio listeners. Instead, Kennedy was ultimately considered the winner despite what that poll suggested about his performance.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001979",
+      "section": "reading_writing",
+      "question_number": 22,
+      "passage": "A firefly uses specialized muscles to draw oxygen into its lower abdomen through narrow tubes, triggering a chemical reaction whereby the oxygen combines with chemicals in the firefly's abdomen to produce a glow. ______ when the firefly stops drawing in oxygen, the reaction—and the glow—cease.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "For instance,"
+        },
+        {
+          "label": "B",
+          "text": "By contrast,"
+        },
+        {
+          "label": "C",
+          "text": "Specifically,"
+        },
+        {
+          "label": "D",
+          "text": "In conclusion,"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Transitions/Medium",
+      "source_question_number": 6,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer. \"By contrast\" logically signals that the information in this sentence-that a firefly's glow ceases when it stops drawing in oxygen-contrasts with the previous sentence's discussion of the processes that cause a firefly to begin to glow.\n\nChoice A is incorrect because \"for instance\" illogically signals that the information in the sentence exemplifies the previous sentence's discussion of how a firefly begins to glow. Instead, it contrasts with the previous sentence's discussion. Choice C is incorrect because \"specifically\" illogically signals that the information in the sentence provides specific details elaborating on the previous sentence's discussion of how a firefly begins to glow. Instead, it contrasts with the previous sentence's discussion. Choice D is incorrect because \"in conclusion\" illogically signals that the information in the sentence sums up the previous sentence's discussion of how a firefly begins to glow. Instead, it contrasts with the previous sentence's discussion.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001980",
+      "section": "reading_writing",
+      "question_number": 23,
+      "passage": "With her room-sized installation [i]The Interstitium[/i], Iranian American artist Laleh Mehran succeeded in creating a space that felt, as intended, both \"familiar and distant.\" ______ with a video screen placed at the far end of the coal slag-encrusted room, her installation was reminiscent of a typical movie theater—albeit one found in a subterranean coal mine.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Next,"
+        },
+        {
+          "label": "B",
+          "text": "Nevertheless,"
+        },
+        {
+          "label": "C",
+          "text": "Indeed,"
+        },
+        {
+          "label": "D",
+          "text": "Instead,"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Transitions/Medium",
+      "source_question_number": 7,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer. \"Indeed\" logically signals that the information in this sentence-that Laleh Mehran's installation resembled both a typical movie theater and a coal mine-supports the previous sentence's claim that the space Mehran created felt both \"familiar and distant.\"\n\nChoice A is incorrect because \"next\" illogically signals that the description of Laleh Mehran's installation in this sentence is the next step in a process. Rather, it supports the previous sentence's claim about Mehran's installation. Choice B is incorrect because \"nevertheless\" illogically signals that the information in this sentence is true despite the claim about Laleh Mehran's installation in the previous sentence. Rather, it supports that claim. Choice D is incorrect because \"instead\" illogically signals that this sentence presents an alternative to the previous sentence's claim about Laleh Mehran's installation. Rather, it supports that claim.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001981",
+      "section": "reading_writing",
+      "question_number": 24,
+      "passage": "Researchers Helena Mihaljević-Brandt, Lucía Santamaría, and Marco Tullney report that while mathematicians may have traditionally worked alone, evidence points to a shift in the opposite direction. ______ mathematicians are choosing to collaborate with their peers—a trend illustrated by a rise in the number of mathematics publications credited to multiple authors.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Similarly,"
+        },
+        {
+          "label": "B",
+          "text": "For this reason,"
+        },
+        {
+          "label": "C",
+          "text": "Furthermore,"
+        },
+        {
+          "label": "D",
+          "text": "Increasingly,"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Transitions/Medium",
+      "source_question_number": 8,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. \"Increasingly\" logically signals that the claim in this sentence-that mathematicians are collaborating with their peers-marks a change relative to what was traditionally done. As the previous sentence explains, while mathematicians may have traditionally worked alone, evidence points to a shift in the opposite direction. The claim describes the shift: a rise in collaboration.\n\nChoice A is incorrect because \"similarly\" illogically signals that the claim in this sentence is similar to, but separate from, the previous claim about the shift away from mathematicians working alone. Instead, the claim about the rise in collaboration elaborates on the previous claim, describing the shift. Choice B is incorrect because \"for this reason\" illogically signals that the claim in this sentence is caused by the previous claim about the shift away from mathematicians working alone. Instead, the claim about the rise in collaboration elaborates on the previous claim, describing the shift. Choice C is incorrect because \"furthermore\" illogically signals that the claim in this sentence is in addition to the previous claim about the shift away from mathematicians working alone. Instead, the claim about the rise in collaboration elaborates on the previous claim, describing the shift.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001982",
+      "section": "reading_writing",
+      "question_number": 25,
+      "passage": "Although those who migrated to California in 1849 dreamed of finding gold nuggets in streambeds, the state's richest deposits were buried deeply in rock, beyond the reach of individual prospectors. ______ by 1852, many had given up their fortune-hunting dreams and gone to work for one of the large companies capable of managing California's complex mining operations.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Furthermore,"
+        },
+        {
+          "label": "B",
+          "text": "Still,"
+        },
+        {
+          "label": "C",
+          "text": "Consequently,"
+        },
+        {
+          "label": "D",
+          "text": "Next,"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Transitions/Medium",
+      "source_question_number": 9,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer. \"Consequently\" logically signals that the information in this sentence-that many individual gold prospectors gave up their fortune-hunting dreams and became employees of mining companies-is a result or consequence of the previous information about the inaccessibility of the state's gold deposits.\n\nChoice A is incorrect because \"furthermore\" illogically signals that the information in this sentence merely adds to the previous information about the inaccessibility of the state's gold deposits. Instead, it's a result or consequence of that information. Choice B is incorrect because \"still\" illogically signals that the information in this sentence offers a contrast or exception to the previous information about the inaccessibility of the state's gold deposits. Instead, it's a result or consequence of that information. Choice D is incorrect because \"next\" illogically signals that the information in this sentence is the next step in a process. Instead, it's a result or consequence of the previous information about the inaccessibility of the state's gold deposits.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001983",
+      "section": "reading_writing",
+      "question_number": 26,
+      "passage": "Archaeologist Sue Brunning explains why the seventh-century ship burial site at Sutton Hoo in England was likely the tomb of a king. First, the gold artifacts inside the ship suggest that the person buried with them was a wealthy and respected leader. ______ the massive effort required to bury the ship would likely only have been undertaken for a king.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Instead,"
+        },
+        {
+          "label": "B",
+          "text": "Still,"
+        },
+        {
+          "label": "C",
+          "text": "Specifically,"
+        },
+        {
+          "label": "D",
+          "text": "Second,"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Transitions/Medium",
+      "source_question_number": 10,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. \"Second\" logically signals that the information in this sentence-that the effort to bury the ship would likely only have been made for a king-joins the information in the previous sentence (\"first…\") in supporting Brunning's claim that the burial site was likely the tomb of a king.\n\nChoice A is incorrect because \"instead\" illogically signals that the information in this sentence presents an alternative or substitute to the previous information about the gold artifacts inside the ship. Rather, this sentence presents a second piece of information that supports Brunning's claim. Choice B is incorrect because\n\"still\" illogically signals that the information in this sentence exists in contrast to or despite the previous information about the gold artifacts inside the ship. Instead, this sentence presents a second piece of information that supports Brunning's claim. Choice C is incorrect because \"specifically\" illogically signals that the information in this sentence specifies or elaborates on the previous information about the gold artifacts inside the ship. Instead, this sentence presents a second piece of information that supports Brunning's claim.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001984",
+      "section": "reading_writing",
+      "question_number": 27,
+      "passage": "In the early 1900s, Jovita Idár fought injustice on both sides of the Mexico-United States border. As a reporter for the Texas newspaper [i]La Crónica[/i], she voiced support for the Mexican people's revolt against authoritarian rule. ______ she founded the League of Mexican Women, a group that advocated for the rights of Mexican Americans.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Additionally,"
+        },
+        {
+          "label": "B",
+          "text": "In conclusion,"
+        },
+        {
+          "label": "C",
+          "text": "For example,"
+        },
+        {
+          "label": "D",
+          "text": "Rather,"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Transitions/Medium",
+      "source_question_number": 11,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because \"additionally\" logically signals that the information in this sentence-that Idár founded the League of Mexican Women-is another instance of Idár fighting injustice, this time advocating for the rights of Mexican Americans.\n\nChoice B is incorrect because \"in conclusion\" illogically signals that the information in this sentence sums up or concludes the discussion of Idár's support for the Mexican people's revolt. Instead, the founding of the League of Mexican Women is a separate instance of Idár fighting injustice. Choice C is incorrect because \"for example\" illogically signals that the information in this sentence is an example of how, as a newspaper reporter, Idár voiced support for the Mexican people's revolt. Instead, the founding of the League of Mexican Women is a separate instance of Idár fighting injustice, this time in support of Mexican Americans. Choice D is incorrect because \"rather\" illogically signals that the information in this sentence offers a contrast or exception to the previous information about Idár's support for the Mexican people's revolt. Instead, the founding of the League of Mexican Women is a separate instance of Idár fighting injustice.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001985",
+      "section": "reading_writing",
+      "question_number": 28,
+      "passage": "In November 1934, Amrita Sher-Gil was living in what must have seemed like the ideal city for a young artist: Paris. She was studying firsthand the color-saturated style of France's modernist masters and beginning to make a name for herself as a painter. ______ Sher-Gil longed to return to her childhood home of India; only there, she believed, could her art truly flourish.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Still,"
+        },
+        {
+          "label": "B",
+          "text": "Therefore,"
+        },
+        {
+          "label": "C",
+          "text": "Indeed,"
+        },
+        {
+          "label": "D",
+          "text": "Furthermore,"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Transitions/Medium",
+      "source_question_number": 12,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. \"Still\" logically signals that the information about Sher-Gil in this sentence-that she longed to leave Paris and return to India-contrasts with what one would expect after reading about Sher-Gil's experiences in Paris in the previous sentences.\n\nChoice B is incorrect because \"therefore\" illogically signals that the information about Sher-Gil in this sentence is a result or consequence of the descriptions in the previous sentences. Instead, this information contrasts with what one would expect after reading about Sher-Gil's experiences in Paris. Choice C is incorrect because \"indeed\" illogically signals that the information about Sher-Gil in this sentence offers additional emphasis in support of the descriptions in the previous sentences. Instead, this information contrasts with what one would expect after reading about Sher-Gil's experiences in Paris. Choice D is incorrect because \"furthermore\" illogically signals that the information about Sher-Gil in this sentence offers additional support for or confirmation of the descriptions in the previous sentences. Instead, this information contrasts with what one would expect after reading about Sher-Gil's experiences in Paris.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001986",
+      "section": "reading_writing",
+      "question_number": 29,
+      "passage": "\"Wishcycling\"—putting nonrecyclable items into recycling bins under the mistaken belief that those items can be recycled—ultimately does more harm than good. Nonrecyclable items, such as greasy pizza boxes, can contaminate recyclable materials, rendering entire batches unusable. ______ nonrecyclable products can damage recycling plants' machinery.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Fittingly,"
+        },
+        {
+          "label": "B",
+          "text": "On the contrary,"
+        },
+        {
+          "label": "C",
+          "text": "Moreover,"
+        },
+        {
+          "label": "D",
+          "text": "Nevertheless,"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Transitions/Medium",
+      "source_question_number": 13,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer. The first sentence tells us that \"wishcycling\" is harmful, the previous sentence gives us an example, and this sentence gives us another example. So \"moreover\"-a transition that indicates the addition of another supporting point-fits perfectly here.\n\nChoice A is incorrect. This choice uses a transition that means \"appropriately\" or \"suitably,\" which doesn't make sense in context. This sentence adds another example of how \"wishcycling\" is harmful, so we're looking for an addition transition. Choice B is incorrect. This choice uses a disagreement transition. But this sentence actually agrees with the previous sentence. Both provide examples of how \"wishcycling\" is harmful. Choice D is incorrect. This choice uses a disagreement transition. But this sentence actually agrees with the previous sentence. Both provide examples of how \"wishcycling\" is harmful.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001987",
+      "section": "reading_writing",
+      "question_number": 30,
+      "passage": "At two weeks old, the time their critical socialization period begins, wolves can smell but cannot yet see or hear. Domesticated dogs, ______ can see, hear, and smell by the end of two weeks. This relative lack of sensory input may help explain why wolves behave so differently around humans than dogs do: from a very young age, wolves are more wary and less exploratory.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "in other words,"
+        },
+        {
+          "label": "B",
+          "text": "for instance,"
+        },
+        {
+          "label": "C",
+          "text": "by contrast,"
+        },
+        {
+          "label": "D",
+          "text": "accordingly,"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Transitions/Medium",
+      "source_question_number": 14,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer. \"By contrast\" logically signals that the information in this sentence-that dogs can see, hear, and smell by the end of two weeks-contrasts with the preceding information (that wolves can smell but not see or hear at the same age).\n\nChoice A is incorrect because \"in other words\" illogically signals that the information about domesticated dogs in this sentence paraphrases the information about wolves in the previous sentence. Instead, the information about dogs contrasts with what came before. Choice B is incorrect because \"for instance\" illogically signals that the information about domesticated dogs in this sentence exemplifies the information about wolves in the previous sentence. Instead, the information about dogs contrasts with what came before. Choice D is incorrect because\"accordingly\" illogically signals that the information about domesticated dogs in this sentence is in accordance with, or results from, the information about wolves in the previous sentence. Instead, the information about dogs contrasts with what came before.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001988",
+      "section": "reading_writing",
+      "question_number": 31,
+      "passage": "To discover which fruit varieties were grown in Italy's Umbria region before the introduction of industrial farming, botanist Isabella Dalla Ragione often turns to centuries-old lists of cooking ingredients. ______ she analyzes Renaissance paintings of Umbria, as they can provide accurate representations of fruits that were grown there long ago.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "In sum,"
+        },
+        {
+          "label": "B",
+          "text": "Instead,"
+        },
+        {
+          "label": "C",
+          "text": "Thus,"
+        },
+        {
+          "label": "D",
+          "text": "Additionally,"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Expression of Ideas/Transitions/Medium",
+      "source_question_number": 15,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. \"Additionally\" logically signals that the painting analysis discussed in this sentence is an additional part of the botany research discussed in the previous sentence. That is, to research which fruits Umbrians grew in the past, the botanist analyzes old paintings in addition to looking at old lists of ingredients.\n\nChoice A is incorrect because \"in sum\" illogically signals that the painting analysis discussed in this sentence is a concluding summary of the botany research discussed in the previous sentence. Instead, the painting analysis is an additional part of that research. Choice B is incorrect because \"instead\" illogically signals that the painting analysis discussed in this sentence is an alternative to the botany research discussed in the previous sentence. Rather, the painting analysis is an additional part of that research. Choice C is incorrect because \"thus\" illogically signals that the painting analysis discussed in this sentence is a result of the botany research discussed in the previous sentence. Instead, the painting analysis is an additional part of that research.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    }
+  ]
+}
