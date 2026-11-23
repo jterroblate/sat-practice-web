@@ -244,19 +244,29 @@ CREATE TABLE material_item (
 ) STRICT;
 
 -- Hard words explained for learners. One row is one word in one sense: a plain
--- English definition, a Chinese one, and an example sentence that is not taken
--- from any question, with its translation. basis says who vouches for the
--- wording: 'ai_draft' was written by an AI model and not checked by a person.
+-- English definition and a Chinese one. basis says who vouches for the wording
+-- of the row and of its example sentences: 'ai_draft' was written by an AI
+-- model and not checked by a person. Nothing here is copied from a dictionary.
 CREATE TABLE vocabulary (
   vocab_id       TEXT PRIMARY KEY CHECK (vocab_id GLOB '[a-z]*' AND vocab_id NOT GLOB '*[^a-z0-9-]*'),
   headword       TEXT NOT NULL CHECK (headword <> ''),
   part_of_speech TEXT NOT NULL CHECK (part_of_speech <> ''),
   definition_en  TEXT NOT NULL CHECK (definition_en <> ''),
   definition_zh  TEXT NOT NULL CHECK (definition_zh <> ''),
-  example_en     TEXT NOT NULL CHECK (example_en <> ''),
-  example_zh     TEXT NOT NULL CHECK (example_zh <> ''),
   basis          TEXT NOT NULL CHECK (basis IN ('ai_draft', 'human_checked')),
   UNIQUE (headword, definition_en)
+) STRICT;
+
+-- Sentences that show an explained word in use, each with its translation,
+-- in the order the learner reads them. None is taken from a question. Every
+-- explanation has at least three (scripts/content_db.py check).
+CREATE TABLE vocabulary_example (
+  vocab_id   TEXT NOT NULL REFERENCES vocabulary (vocab_id),
+  position   INTEGER NOT NULL CHECK (position > 0),
+  example_en TEXT NOT NULL CHECK (example_en <> ''),
+  example_zh TEXT NOT NULL CHECK (example_zh <> ''),
+  PRIMARY KEY (vocab_id, position),
+  UNIQUE (vocab_id, example_en)
 ) STRICT;
 
 -- The spellings an explanation is found by, in lower case: the word and its
@@ -279,6 +289,44 @@ CREATE TABLE question_vocabulary (
   reveal      TEXT NOT NULL CHECK (reveal IN ('always', 'after_submit')),
   PRIMARY KEY (question_id, field, surface),
   CHECK (field <> 'choices' OR reveal = 'after_submit')
+) STRICT;
+
+-- A question read through for a learner, in English and in Chinese, shown
+-- only after the answer is submitted. One row here says how the answer is
+-- reached; walkthrough_segment reads the passage and the prompt a part at a
+-- time, walkthrough_choice takes every answer choice in turn. basis says who
+-- vouches for all three, as in vocabulary. A question either has none of
+-- this or all of it: at least one segment and a note on each of its choices
+-- (scripts/content_db.py check).
+CREATE TABLE walkthrough (
+  question_id TEXT PRIMARY KEY REFERENCES question (question_id),
+  approach_en TEXT NOT NULL CHECK (approach_en <> ''),
+  approach_zh TEXT NOT NULL CHECK (approach_zh <> ''),
+  basis       TEXT NOT NULL CHECK (basis IN ('ai_draft', 'human_checked'))
+) STRICT;
+
+-- One part of the passage or of the prompt, in reading order. excerpt is that
+-- part as the learner reads it: plain text, without the inline markers. It
+-- must stand in the field it names, after the excerpt before it, so a segment
+-- cannot outlive a change to the text it explains.
+CREATE TABLE walkthrough_segment (
+  question_id TEXT NOT NULL REFERENCES walkthrough (question_id),
+  position    INTEGER NOT NULL CHECK (position > 0),
+  field       TEXT NOT NULL CHECK (field IN ('passage', 'prompt')),
+  excerpt     TEXT NOT NULL CHECK (excerpt <> ''),
+  note_en     TEXT NOT NULL CHECK (note_en <> ''),
+  note_zh     TEXT NOT NULL CHECK (note_zh <> ''),
+  PRIMARY KEY (question_id, position)
+) STRICT;
+
+-- Why one answer choice is right or wrong, and what its words mean.
+CREATE TABLE walkthrough_choice (
+  question_id TEXT NOT NULL REFERENCES walkthrough (question_id),
+  label       TEXT NOT NULL,
+  note_en     TEXT NOT NULL CHECK (note_en <> ''),
+  note_zh     TEXT NOT NULL CHECK (note_zh <> ''),
+  PRIMARY KEY (question_id, label),
+  FOREIGN KEY (question_id, label) REFERENCES choice (question_id, label)
 ) STRICT;
 
 -- Derived, never stored.
@@ -309,12 +357,13 @@ CREATE VIEW question_origin AS
    GROUP BY r.question_id;
 
 -- How much explanation a question has, one line per question:
---   'full'  every explanation text is written and every choice is analysed;
+--   'full'  every explanation text is written and every choice is analysed,
+--           or the question has a walkthrough;
 --   'brief' something is written, but not all of it (usually one or two
 --           sentences on the correct answer only);
 --   'none'  nothing is written.
--- It is read off the explanation and choice rows, never stored, so it cannot
--- disagree with them.
+-- It is read off the explanation, choice and walkthrough rows, never stored,
+-- so it cannot disagree with them.
 CREATE VIEW question_explanation AS
   WITH written AS (
     SELECT q.question_id,
@@ -322,12 +371,13 @@ CREATE VIEW question_explanation AS
              + (coalesce(trim(e.why_correct), '') <> '') + (coalesce(trim(e.detailed), '') <> '') AS texts,
            (SELECT count(*) FROM choice c WHERE c.question_id = q.question_id) AS choices,
            (SELECT count(*) FROM choice c
-             WHERE c.question_id = q.question_id AND coalesce(trim(c.analysis), '') <> '') AS analysed
+             WHERE c.question_id = q.question_id AND coalesce(trim(c.analysis), '') <> '') AS analysed,
+           EXISTS (SELECT 1 FROM walkthrough w WHERE w.question_id = q.question_id) AS walked
       FROM question q LEFT JOIN explanation e USING (question_id)
   )
   SELECT question_id,
-         CASE WHEN texts = 0 AND analysed = 0 THEN 'none'
-              WHEN texts = 4 AND analysed = choices THEN 'full'
+         CASE WHEN walked OR (texts = 4 AND analysed = choices) THEN 'full'
+              WHEN texts = 0 AND analysed = 0 THEN 'none'
               ELSE 'brief' END AS level
     FROM written;
 
@@ -425,13 +475,24 @@ CREATE VIEW vocabulary_coverage AS
    GROUP BY p.importance, p.importance_level;
 
 -- One line per explained word, for looking after the list: who vouches for
--- it, how many spellings it is found by, and in how many questions it is
--- linked (and in how many of those it opens only after the answer is in).
+-- it, how many spellings it is found by, how many example sentences it has,
+-- and in how many questions it is linked (and in how many of those it opens
+-- only after the answer is in).
 CREATE VIEW vocabulary_use AS
   SELECT v.vocab_id, v.headword, v.part_of_speech, v.basis,
          (SELECT count(*) FROM vocabulary_form f WHERE f.vocab_id = v.vocab_id) AS spellings,
+         (SELECT count(*) FROM vocabulary_example x WHERE x.vocab_id = v.vocab_id) AS examples,
          count(DISTINCT l.question_id) AS questions,
          count(DISTINCT CASE WHEN l.reveal = 'after_submit' THEN l.question_id END) AS after_submit_questions
     FROM vocabulary v
     LEFT JOIN question_vocabulary l USING (vocab_id)
    GROUP BY v.vocab_id;
+
+-- How far the walkthroughs reach: published Reading and Writing questions by
+-- importance, and how many of them have one.
+CREATE VIEW walkthrough_coverage AS
+  SELECT p.importance, p.importance_level AS level, count(*) AS questions,
+         sum(EXISTS (SELECT 1 FROM walkthrough w WHERE w.question_id = p.question_id)) AS walked
+    FROM practice_pool p
+   WHERE p.status = 'published' AND p.section = 'reading_writing'
+   GROUP BY p.importance, p.importance_level;

@@ -36,8 +36,18 @@ def tiny_tables(passage: str, prompt: str, choices: list[str]) -> dict:
         "question": [{"question_id": "q1", "passage": passage, "prompt": prompt, "status": "published"}],
         "choice": [{"question_id": "q1", "label": "ABCD"[index], "text": text} for index, text in enumerate(choices)],
         "vocabulary": [], "vocabulary_form": [{"form": "abut", "vocab_id": "abut"}, {"form": "abuts", "vocab_id": "abut"}],
-        "question_vocabulary": [],
+        "vocabulary_example": [], "question_vocabulary": [],
     }
+
+
+EXAMPLES = [{"en": "The gardens abut a park.", "zh": "花园紧挨着公园。"},
+            {"en": "Two farms abut each other.", "zh": "两座农场彼此相邻。"},
+            {"en": "The school abuts a busy road.", "zh": "学校紧挨着一条繁忙的马路。"}]
+
+
+def example_rows(vocab_id: str, count: int = 3) -> list[dict]:
+    return [{"vocab_id": vocab_id, "position": position, "example_en": example["en"], "example_zh": example["zh"]}
+            for position, example in enumerate(EXAMPLES[:count], 1)]
 
 
 def links(tables: dict) -> set[tuple[str, str, str]]:
@@ -79,21 +89,24 @@ class LinkingRuleTests(unittest.TestCase):
 
     def test_a_spelling_belongs_to_one_explanation(self):
         tables = tiny_tables("x", "y", ["a", "b", "c", "d"])
-        entry = {"vocab_id": "adjoin", "forms": ["abut"], "basis": "ai_draft",
+        entry = {"vocab_id": "adjoin", "forms": ["abut"], "basis": "ai_draft", "examples": EXAMPLES,
                  **{field: "text" for field in ANNOTATOR.ENTRY_FIELDS}}
         with self.assertRaises(DB.ContentError):
             ANNOTATOR.add_entries(tables, [entry])
 
     def test_entries_must_be_complete_plain_text(self):
         good = {"forms": ["Abut"], "headword": "abut", "part_of_speech": "v.", "definition_en": "to touch along one side",
-                "definition_zh": "紧挨", "example_en": "The gardens abut a park.", "example_zh": "花园紧挨着公园。"}
+                "definition_zh": "紧挨", "examples": EXAMPLES}
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "entries.jsonl"
             path.write_text(json.dumps(good, ensure_ascii=False) + "\n", encoding="utf-8")
             [entry] = ANNOTATOR.read_entries(path)
             self.assertEqual((entry["vocab_id"], entry["forms"], entry["basis"]), ("abut", ["abut"], "ai_draft"))
-            for broken in ({**good, "example_zh": " "}, {**good, "forms": []}, {**good, "definition_en": "<b>to touch</b>"},
-                           {**good, "basis": "checked"}):
+            self.assertEqual(entry["examples"], EXAMPLES)
+            for broken in ({**good, "examples": [{**EXAMPLES[0], "zh": " "}, *EXAMPLES[1:]]}, {**good, "forms": []},
+                           {**good, "definition_en": "<b>to touch</b>"}, {**good, "basis": "checked"},
+                           {**good, "examples": EXAMPLES[:2]}, {**good, "examples": [EXAMPLES[0]] * 3},
+                           {**good, "examples": [{**EXAMPLES[0], "en": "<i>abut</i>"}, *EXAMPLES[1:]]}):
                 path.write_text(json.dumps(broken, ensure_ascii=False) + "\n", encoding="utf-8")
                 with self.assertRaises(DB.ContentError):
                     ANNOTATOR.read_entries(path)
@@ -106,9 +119,11 @@ class LinkingRuleTests(unittest.TestCase):
         tables = tiny_tables("The fields abut a river that abuts a road.", "Which choice fits?", ["a", "b", "c", "d"])
         ANNOTATOR.link(tables, [("q1", None)])
         self.assertEqual({row["surface"] for row in tables["question_vocabulary"]}, {"abut", "abuts"})
-        entry = {"vocab_id": "abut", "forms": ["abut", "abutting"], "basis": "human_checked",
+        tables["vocabulary_example"] = [{"vocab_id": "abut", "position": 1, "example_en": "old", "example_zh": "旧"}]
+        entry = {"vocab_id": "abut", "forms": ["abut", "abutting"], "basis": "human_checked", "examples": EXAMPLES,
                  **{field: "text" for field in ANNOTATOR.ENTRY_FIELDS}}
         self.assertEqual(ANNOTATOR.add_entries(tables, [entry]), 1)
+        self.assertEqual(tables["vocabulary_example"], example_rows("abut"))
         self.assertEqual({row["form"] for row in tables["vocabulary_form"]}, {"abut", "abutting"})
         self.assertEqual([row["surface"] for row in tables["question_vocabulary"]], ["abut"])
         self.assertEqual(tables["vocabulary"][0]["basis"], "human_checked")
@@ -119,6 +134,7 @@ class IntegrityCheckTests(unittest.TestCase):
     def tables(self):
         tables = tiny_tables("The fields abut a river.", "Which choice fits?", ["a", "b", "c", "d"])
         tables["vocabulary"] = [{"vocab_id": "abut", "headword": "abut"}]
+        tables["vocabulary_example"] = example_rows("abut")
         ANNOTATOR.link(tables, [("q1", None)])
         return tables
 
@@ -127,7 +143,16 @@ class IntegrityCheckTests(unittest.TestCase):
         second = self.tables()
         second["vocabulary"].append({"vocab_id": "abut-2", "headword": "abut"})
         second["vocabulary_form"].append({"form": "abutting", "vocab_id": "abut-2"})
+        second["vocabulary_example"] += example_rows("abut-2")
         self.assertEqual(DB.vocabulary_problems(second), [])
+
+    def test_an_explanation_needs_three_examples_numbered_from_one(self):
+        for rows in (example_rows("abut", 2), [], [{**row, "position": row["position"] + 1} for row in example_rows("abut")]):
+            tables = self.tables()
+            tables["vocabulary_example"] = rows
+            with self.subTest(rows=len(rows)):
+                [problem] = DB.vocabulary_problems(tables)
+                self.assertIn("needs at least 3 examples", problem)
 
     def test_a_link_must_use_a_known_spelling(self):
         tables = self.tables()
@@ -138,6 +163,7 @@ class IntegrityCheckTests(unittest.TestCase):
     def test_an_explanation_needs_a_spelling(self):
         tables = self.tables()
         tables["vocabulary"].append({"vocab_id": "arid", "headword": "arid"})
+        tables["vocabulary_example"] += example_rows("arid")
         [problem] = DB.vocabulary_problems(tables)
         self.assertIn("'arid' has no spelling", problem)
 
@@ -145,6 +171,7 @@ class IntegrityCheckTests(unittest.TestCase):
         for vocab_id in ("adjoin", "abut-10", "abutx"):
             tables = self.tables()
             tables["vocabulary"] = [{"vocab_id": vocab_id, "headword": "abut"}]
+            tables["vocabulary_example"] = example_rows(vocab_id)
             tables["vocabulary_form"] = [{"form": "abut", "vocab_id": vocab_id}, {"form": "abuts", "vocab_id": vocab_id}]
             with self.subTest(vocab_id=vocab_id):
                 self.assertTrue(any("not made from the headword" in problem for problem in DB.vocabulary_problems(tables)))
@@ -196,7 +223,7 @@ class StoredVocabularyTests(unittest.TestCase):
                 (TABLES["question_vocabulary"][0]["question_id"], TABLES["vocabulary"][0]["vocab_id"]))
 
     def test_exporting_and_importing_unchanged_changes_nothing(self):
-        names = ("question", "choice", "vocabulary", "vocabulary_form", "question_vocabulary")
+        names = ("question", "choice", "vocabulary", "vocabulary_example", "vocabulary_form", "question_vocabulary")
         tables = copy.deepcopy({name: TABLES[name] for name in names})
         exported = ANNOTATOR.export_entries(tables)
         self.assertEqual(len(exported), len(TABLES["vocabulary"]))
@@ -204,20 +231,28 @@ class StoredVocabularyTests(unittest.TestCase):
             path = Path(directory) / "export.jsonl"
             path.write_text("".join(json.dumps(entry, ensure_ascii=False) + "\n" for entry in exported), encoding="utf-8")
             self.assertEqual(ANNOTATOR.add_entries(tables, ANNOTATOR.read_entries(path)), 0)
-        for name in ("vocabulary", "vocabulary_form", "question_vocabulary"):
+        for name in ("vocabulary", "vocabulary_example", "vocabulary_form", "question_vocabulary"):
             self.assertEqual(sorted(map(json.dumps, tables[name])), sorted(map(json.dumps, TABLES[name])), name)
 
     def test_the_management_view_lists_every_explanation(self):
-        rows = self.connection.execute("SELECT count(*), min(spellings), min(questions) FROM vocabulary_use").fetchone()
-        self.assertEqual(rows, (len(TABLES["vocabulary"]), 1, 1))
+        rows = self.connection.execute(
+            "SELECT count(*), min(spellings), min(examples), min(questions) FROM vocabulary_use").fetchone()
+        self.assertEqual(rows, (len(TABLES["vocabulary"]), 1, DB.VOCABULARY_EXAMPLES, 1))
         with self.assertRaises(Exception):
             first = TABLES["vocabulary"][0]
-            self.connection.execute("INSERT INTO vocabulary VALUES ('zzz', ?, 'n.', ?, 'x', 'x', 'x', 'ai_draft')",
+            self.connection.execute("INSERT INTO vocabulary VALUES ('zzz', ?, 'n.', ?, 'x', 'ai_draft')",
                                     (first["headword"], first["definition_en"]))
+
+    def test_an_example_is_not_repeated_for_its_word(self):
+        with self.assertRaises(Exception):
+            first = TABLES["vocabulary_example"][0]
+            self.connection.execute("INSERT INTO vocabulary_example VALUES (?, 99, ?, 'x')",
+                                    (first["vocab_id"], first["example_en"]))
 
     def test_linking_the_recorded_scope_again_changes_nothing(self):
         tables = copy.deepcopy({name: TABLES[name] for name in
-                                ("question", "choice", "vocabulary", "vocabulary_form", "question_vocabulary")})
+                                ("question", "choice", "vocabulary", "vocabulary_example", "vocabulary_form",
+                                 "question_vocabulary")})
         linked = sorted({row["question_id"] for row in TABLES["question_vocabulary"]})
         tasks = {row["question_id"]: row["task_id"] for row in TABLES["question"]}
         self.assertEqual(ANNOTATOR.link(tables, [(question_id, tasks[question_id]) for question_id in linked]), 0)
@@ -228,14 +263,18 @@ class StoredVocabularyTests(unittest.TestCase):
             forms[row["vocab_id"]].add(row["form"])
         texts = DB.gloss_texts(TABLES)
         corpus = "\n".join(text["passage"] + "\n" + text["choices"] for text in texts.values())
-        for row in TABLES["vocabulary"]:
-            with self.subTest(word=row["vocab_id"]):
+        words = {row["vocab_id"]: row for row in TABLES["vocabulary"]}
+        self.assertGreaterEqual(len(TABLES["vocabulary_example"]), DB.VOCABULARY_EXAMPLES * len(words))
+        for row in TABLES["vocabulary_example"]:
+            word = words[row["vocab_id"]]
+            with self.subTest(word=row["vocab_id"], position=row["position"]):
                 example = row["example_en"].lower().replace("’", "'")
-                stems = {form[:max(4, len(form) - 3)] for form in forms[row["vocab_id"]] | {row["headword"].lower()}}
+                stems = {form[:max(4, len(form) - 3)] for form in forms[row["vocab_id"]] | {word["headword"].lower()}}
                 self.assertTrue(any(stem in example for stem in stems), row["example_en"])
                 self.assertNotIn(row["example_en"], corpus)
-                self.assertRegex(row["definition_zh"] + row["example_zh"], "[一-鿿]")
-                self.assertNotRegex(row["definition_en"] + row["example_en"], "[一-鿿]")
+                self.assertRegex(row["example_zh"], "[一-鿿]")
+                self.assertRegex(word["definition_zh"], "[一-鿿]")
+                self.assertNotRegex(word["definition_en"] + row["example_en"], "[一-鿿]")
 
     def test_the_site_metadata_carries_the_explanations_the_questions_use(self):
         metadata = DB.question_metadata(TABLES, ROOT)
@@ -245,9 +284,11 @@ class StoredVocabularyTests(unittest.TestCase):
         self.assertIn({"field": row["field"], "surface": row["surface"], "id": row["vocab_id"], "reveal": row["reveal"]},
                       metadata["questions"][row["question_id"]]["vocabulary"])
         entry = metadata["vocabulary"][row["vocab_id"]]
-        self.assertEqual(set(entry), {"word", "partOfSpeech", "english", "chinese", "example", "exampleChinese", "basis",
+        self.assertEqual(set(entry), {"word", "partOfSpeech", "english", "chinese", "examples", "basis",
                                       "questions", "realExamQuestions", "occurrences"})
         for vocab_id, entry in metadata["vocabulary"].items():
+            self.assertGreaterEqual(len(entry["examples"]), DB.VOCABULARY_EXAMPLES, vocab_id)
+            self.assertTrue(all(set(example) == {"english", "chinese"} for example in entry["examples"]), vocab_id)
             # Every explained word is linked in a published question, so it occurs at least once.
             self.assertGreaterEqual(entry["questions"], 1, vocab_id)
             self.assertLessEqual(entry["realExamQuestions"], entry["questions"], vocab_id)
@@ -276,7 +317,8 @@ class UsageCountTests(unittest.TestCase):
 
 class BuilderVocabularyTests(unittest.TestCase):
     ENTRY = {"word": "abut", "partOfSpeech": "v.", "english": "to touch along one side", "chinese": "紧挨",
-             "example": "The gardens abut a park.", "exampleChinese": "花园紧挨着公园。", "basis": "ai_draft"}
+             "examples": [{"english": example["en"], "chinese": example["zh"]} for example in EXAMPLES],
+             "basis": "ai_draft"}
 
     def question(self, *items):
         return {"question_id": "q1", "_origin": {"vocabulary": list(items)}}
@@ -302,7 +344,11 @@ class BuilderVocabularyTests(unittest.TestCase):
 
     def test_explanations_must_be_present_and_plain(self):
         questions = [{"vocabulary": [{"field": "passage", "surface": "abut", "id": "abut", "reveal": "always"}]}]
-        for stated in ({}, {"abut": {**self.ENTRY, "example": ""}}, {"abut": {**self.ENTRY, "english": "<i>to touch</i>"}}):
+        examples = self.ENTRY["examples"]
+        for stated in ({}, {"abut": {**self.ENTRY, "examples": examples[:2]}},
+                       {"abut": {**self.ENTRY, "examples": [{**examples[0], "chinese": ""}, *examples[1:]]}},
+                       {"abut": {**self.ENTRY, "examples": [{**examples[0], "english": "<i>abut</i>"}, *examples[1:]]}},
+                       {"abut": {**self.ENTRY, "english": "<i>to touch</i>"}}):
             with self.subTest(stated=stated), self.assertRaises(ValueError):
                 BUILDER.page_vocabulary(stated, questions)
 

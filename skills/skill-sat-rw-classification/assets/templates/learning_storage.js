@@ -331,3 +331,51 @@ function removeSatVocabularyWord(store, word) {
   const kept = words.filter(item => satVocabularyKey(item.word) !== key);
   return kept.length !== words.length && writeSatVocabulary(store, kept);
 }
+
+/* ---------- Dictionaries ----------
+   The site carries no dictionary's text: a publisher's entries are its own. A page
+   links to the publisher's page for the word, and an app that embeds the site may
+   hand over what the device's own dictionaries say through a "satDictionary" message
+   handler that answers { entries: [{ dictionary, text }], missing: [names] }. */
+function satOxfordUrl(word) {
+  return "https://www.oxfordlearnersdictionaries.com/search/english/?q=" + encodeURIComponent(String(word || "").trim().slice(0, 80));
+}
+function satDeviceDictionary() {
+  const handler = window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.satDictionary;
+  return handler && typeof handler.postMessage === "function" ? handler : null;
+}
+// What the device's dictionaries say about a word, or null where the page has no such app around it.
+async function satDictionaryLookup(word) {
+  const handler = satDeviceDictionary(), text = String(word || "").trim().slice(0, 80);
+  if (!handler || !text) return null;
+  try {
+    const reply = await handler.postMessage({ word: text });
+    const entries = (Array.isArray(reply && reply.entries) ? reply.entries : [])
+      .filter(item => item && typeof item.dictionary === "string" && typeof item.text === "string" && item.text.trim())
+      .map(item => ({ dictionary: item.dictionary.slice(0, 80), text: item.text.slice(0, 6000) }));
+    const missing = (Array.isArray(reply && reply.missing) ? reply.missing : [])
+      .filter(name => typeof name === "string").map(name => name.slice(0, 80));
+    return { entries, missing };
+  } catch { return { entries: [], missing: [] }; }
+}
+// The folded "牛津词典" layer of a word card; it is filled when first opened.
+function satDictionaryLayerHtml(word, escape, layerClass) {
+  return `<details class="${layerClass} sat-dictionary" data-dictionary-word="${escape(word)}"><summary>牛津词典</summary><div class="sat-dictionary-body"></div></details>`;
+}
+async function satFillDictionaryLayer(layer, escape) {
+  const body = layer.querySelector(".sat-dictionary-body"), word = layer.dataset.dictionaryWord || "";
+  if (!body || !layer.open || layer.dataset.filled) return;
+  layer.dataset.filled = "1";
+  const link = `<p class="sat-dictionary-link"><a href="${escape(satOxfordUrl(word))}" target="_blank" rel="noopener noreferrer">在牛津学习词典网站查看 ${escape(word)}</a></p>`;
+  if (!satDeviceDictionary()) {
+    body.innerHTML = `<p class="sat-dictionary-note">牛津词典的条目归出版方所有，这里不转载，只给出官网链接。</p>${link}`;
+    return;
+  }
+  body.innerHTML = `<p class="sat-dictionary-note">正在查本机词典…</p>`;
+  const result = await satDictionaryLookup(word);
+  const entries = result ? result.entries : [], missing = result ? result.missing : [];
+  body.innerHTML = entries.map(item => `<div class="sat-dictionary-entry"><p class="sat-dictionary-source">${escape(item.dictionary)}</p><p class="sat-dictionary-text">${escape(item.text)}</p></div>`).join("")
+    + (entries.length ? "" : `<p class="sat-dictionary-note">本机词典里没有查到这个词。</p>`)
+    + (missing.length ? `<p class="sat-dictionary-note">这台 Mac 还没有下载《${escape(missing.join("》《"))}》。打开“词典”App 的设置，勾选后会自动下载，之后这里直接显示。</p>` : "")
+    + link;
+}

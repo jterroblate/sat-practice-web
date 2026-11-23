@@ -264,7 +264,7 @@ def load_question_package(root: Path, entry: dict[str, Any]) -> list[dict[str, A
 
 
 QUESTION_METADATA = "sat-question-metadata.json"
-QUESTION_METADATA_SCHEMA = "sat-question-metadata-v2"
+QUESTION_METADATA_SCHEMA = "sat-question-metadata-v3"
 SOURCE_KINDS = ("real_exam", "practice")
 DIFFICULTY_LEVELS = ("easy", "medium", "hard")
 DIFFICULTY_BASES = ("source_file", "estimate", "model")
@@ -281,9 +281,11 @@ def explanation_level(question: dict[str, Any]) -> str:
 
     Read off the question as it is published, the same way the view
     question_explanation in content/db/schema.sql reads the tables: 'full' has
-    every explanation text and an analysis of every choice, 'none' has nothing
-    written, anything in between is 'brief'.
+    every explanation text and an analysis of every choice, or a walkthrough;
+    'none' has nothing written; anything in between is 'brief'.
     """
+    if question_walkthrough(question):
+        return "full"
     explanation = question.get("explanation") if isinstance(question.get("explanation"), dict) else {}
     analysis = explanation.get("choice_analysis") if isinstance(explanation.get("choice_analysis"), dict) else {}
     choices = [choice for choice in question.get("choices") or [] if isinstance(choice, dict)]
@@ -316,7 +318,10 @@ VOCABULARY_FIELDS = ("passage", "prompt", "choices")
 VOCABULARY_REVEALS = ("always", "after_submit")
 VOCABULARY_ID_RE = re.compile(r"^[a-z][a-z0-9-]{0,79}$")
 VOCABULARY_WORD_RE = re.compile(r"^(?:[A-Za-z][A-Za-z'’\-]*[A-Za-z]|[A-Za-z])$")
-VOCABULARY_TEXTS = ("word", "partOfSpeech", "english", "chinese", "example", "exampleChinese")
+VOCABULARY_TEXTS = ("word", "partOfSpeech", "english", "chinese")
+VOCABULARY_EXAMPLES = 3
+BILINGUAL = ("english", "chinese")
+WALKTHROUGH_FIELDS = ("passage", "prompt")
 
 
 def question_vocabulary(question: dict[str, Any]) -> list[dict[str, str]]:
@@ -338,17 +343,59 @@ def question_vocabulary(question: dict[str, Any]) -> list[dict[str, str]]:
 VOCABULARY_COUNTS = ("questions", "realExamQuestions", "occurrences")
 
 
-def vocabulary_entry(vocab_id: Any, entry: Any) -> dict[str, str]:
-    """One word explanation as plain text."""
+def plain_text(value: Any, context: str) -> str:
+    """Learner-facing text from content/db: written, and free of markup and local paths."""
+    text = str(value or "").strip()
+    if not text or PUBLIC_HTML_TAG_RE.search(text) or any(pattern in text for pattern in PUBLIC_PATH_PATTERNS):
+        raise ValueError(f"Not plain text: {context}")
+    return text
+
+
+def bilingual(value: Any, context: str) -> dict[str, str]:
+    """The same thing said in English and in Chinese."""
+    if not isinstance(value, dict):
+        raise ValueError(f"Not an English and a Chinese text: {context}")
+    return {language: plain_text(value.get(language), f"{context}.{language}") for language in BILINGUAL}
+
+
+def vocabulary_entry(vocab_id: Any, entry: Any) -> dict[str, Any]:
+    """One word explanation as plain text, with its example sentences in reading order."""
     if not VOCABULARY_ID_RE.match(str(vocab_id or "")) or not isinstance(entry, dict):
         raise ValueError(f"Invalid word explanation: {vocab_id}")
-    row = {}
-    for field in VOCABULARY_TEXTS:
-        text = str(entry.get(field) or "").strip()
-        if not text or PUBLIC_HTML_TAG_RE.search(text) or any(pattern in text for pattern in PUBLIC_PATH_PATTERNS):
-            raise ValueError(f"Word explanation is not plain text: {vocab_id}.{field}")
-        row[field] = text
+    row: dict[str, Any] = {field: plain_text(entry.get(field), f"{vocab_id}.{field}") for field in VOCABULARY_TEXTS}
+    examples = entry.get("examples")
+    if not isinstance(examples, list) or len(examples) < VOCABULARY_EXAMPLES:
+        raise ValueError(f"A word explanation needs {VOCABULARY_EXAMPLES} examples: {vocab_id}")
+    row["examples"] = [bilingual(example, f"{vocab_id}.examples.{index}") for index, example in enumerate(examples)]
     return row
+
+
+def question_walkthrough(question: dict[str, Any]) -> dict[str, Any] | None:
+    """The question read through for the learner, shown after the answer is in; None when nothing is written.
+
+    The approach, the passage and the prompt a part at a time, and a note on
+    each of the question's choices, all in English and in Chinese.
+    """
+    origin = question.get("_origin") if isinstance(question.get("_origin"), dict) else {}
+    stated = origin.get("walkthrough")
+    if stated is None:
+        return None
+    question_id = str(question.get("question_id") or "")
+    labels = [str(choice.get("label") or "") for choice in question.get("choices") or [] if isinstance(choice, dict)]
+    segments = stated.get("segments") if isinstance(stated, dict) else None
+    choices = stated.get("choices") if isinstance(stated, dict) else None
+    if (not isinstance(segments, list) or not segments or not isinstance(choices, dict) or sorted(choices) != sorted(labels)
+            or any(not isinstance(segment, dict) or segment.get("field") not in WALKTHROUGH_FIELDS for segment in segments)):
+        raise ValueError(f"Invalid walkthrough: {question_id}")
+    return {
+        "approach": bilingual(stated.get("approach"), f"{question_id}.walkthrough.approach"),
+        "segments": [
+            {"field": segment["field"],
+             "excerpt": plain_text(segment.get("excerpt"), f"{question_id}.walkthrough.segments.{index}.excerpt"),
+             **bilingual(segment, f"{question_id}.walkthrough.segments.{index}")}
+            for index, segment in enumerate(segments)],
+        "choices": {label: bilingual(choices[label], f"{question_id}.walkthrough.choices.{label}") for label in labels},
+    }
 
 
 def site_vocabulary(stated: Any) -> list[dict[str, Any]]:
@@ -860,6 +907,9 @@ def public_question(root: Path, route: str, question: dict[str, Any]) -> dict[st
     vocabulary = question_vocabulary(question)
     if vocabulary:
         result["vocabulary"] = vocabulary
+    walkthrough = question_walkthrough(question)
+    if walkthrough:
+        result["walkthrough"] = walkthrough
 
     assets = public_question_assets(
         root,

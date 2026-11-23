@@ -31,9 +31,13 @@
 | `material` | `content_id` | 站点上的一份套题或专项 | 107 |
 | `material_item` | `content_id` + `position` | 套题的第几题是哪道题 | 4,067 |
 | `legacy_layout` | `layout_id` | 一条 canonical 记录里各个键的先后顺序 | 63 |
-| `vocabulary` | `vocab_id` | 一个难词的一个义项：英文释义、中文释义、例句和例句译文，以及释义由谁负责（`basis`） | 1,168 |
+| `vocabulary` | `vocab_id` | 一个难词的一个义项：英文释义、中文释义，以及释义和例句由谁负责（`basis`） | 1,168 |
+| `vocabulary_example` | `vocab_id` + `position` | 这个词的一个例句和它的译文，按给学习者看的顺序排。每个词至少三句 | 3,504 |
 | `vocabulary_form` | `form` | 找到这个词所用的拼写（小写的原形和变形），每个拼写只属于一条解释 | 1,776 |
 | `question_vocabulary` | `question_id` + `field` + `surface` | 一道题的文章、题干或选项里有哪些带解释的词，原样写法是什么，什么时候可以打开 | 2,059 |
+| `walkthrough` | `question_id` | 一道题的讲解：解题思路（英文和中文），以及整份讲解由谁负责（`basis`） | 345 |
+| `walkthrough_segment` | `question_id` + `position` | 讲解里的一段：文章或题干的一部分原文（`excerpt`），它的英文解说和中文解说 | 1,317 |
+| `walkthrough_choice` | `question_id` + `label` | 讲解里对一个选项的分析：英文和中文 | 1,380 |
 
 ```mermaid
 erDiagram
@@ -52,7 +56,12 @@ erDiagram
     question ||--o{ material_item : "placed in"
     source ||--o{ material : "reproduced by"
     vocabulary ||--|{ vocabulary_form : "found by"
+    vocabulary ||--|{ vocabulary_example : "shown by"
     vocabulary ||--o{ question_vocabulary : explains
+    question ||--o| walkthrough : "read through in"
+    walkthrough ||--|{ walkthrough_segment : reads
+    walkthrough ||--|{ walkthrough_choice : weighs
+    choice ||--o| walkthrough_choice : "weighed in"
     question ||--o{ question_vocabulary : contains
 ```
 
@@ -71,13 +80,14 @@ SQLite 强制执行的约束包括：
 | --- | --- | --- |
 | `question_occurrence` | 一道题和它出现过的一个来源 | 显示题目的来源和年份 |
 | `question_origin` | 一道题的最高来源等级、真题还是练习、在该等级来源中最近出现的年份 | 区分真题和模拟题 |
-| `question_explanation` | 一道题的解析完整度：`full`（四段解析都写了，每个选项都有分析）、`brief`（写了一部分，通常只有一两句）、`none`（没有解析） | 区分有解析和没解析的题 |
+| `question_explanation` | 一道题的解析完整度：`full`（四段解析都写了，每个选项都有分析；或者有讲解）、`brief`（写了一部分，通常只有一两句）、`none`（没有解析） | 区分有解析和没解析的题 |
 | `question_importance` | 一道题的重要性：`core` 核心、`important` 重要、`basic` 基础，以及它在几场考试里出现过 | 按重要性选题 |
 | `task_frequency` | 每个细分题型在真题里的题数和占比 | 看哪类题考得多 |
 | `question_skill_conflict` | 细分题型所属的题型和套题文件里记录的题型不一致的题 | 待核对的分类 |
 | `practice_pool` | 一道题的科目、大类、题型、细分题型、文章类别、真题或练习、年份、难度、重要性、解析完整度、状态 | 按范围选题、随机刷题 |
 | `vocabulary_coverage` | 每个重要性档次有多少道已发布的读写题，其中多少道有带解释的词 | 看词汇解释做到了哪里 |
-| `vocabulary_use` | 一条解释：由谁负责、有几个拼写、关联了几道题、其中几道要提交后才能打开 | 维护词汇表时查看 |
+| `vocabulary_use` | 一条解释：由谁负责、有几个拼写、几个例句、关联了几道题、其中几道要提交后才能打开 | 维护词汇表时查看 |
+| `walkthrough_coverage` | 每个重要性档次有多少道已发布的读写题，其中多少道有讲解 | 看讲解做到了哪里 |
 
 一道题既在真题里出现过、又在题库文件里出现过时，按真题算。
 
@@ -143,13 +153,13 @@ python3 scripts/classify_questions.py --review-in 文件 --apply   # 写入人�
 
 ### 解析完整度
 
-不存，由视图 `question_explanation` 从 `explanation` 和 `choice` 两张表算出，所以不会和解析内容对不上。目前已发布的 4,054 道题里：完整 1,752，简要 905，暂无 1,397。
+不存，由视图 `question_explanation` 从 `explanation`、`choice` 和 `walkthrough` 三张表算出，所以不会和解析内容对不上。有讲解的题一律算完整。目前已发布的 4,054 道题里：完整 1,925，简要 905，暂无 1,224。
 
 构建站点时这几项都写进 `MANIFEST.questions`：`task`、`passageType`、`importance`、`examSittings`、`explanationLevel`；名称和顺序在 `MANIFEST.taxonomy`。词汇解释分两处：每个练习页只带自己那些题用到的解释（页面里的 `satPageVocabulary`），题目上的 `vocabulary` 列出各个词在哪个字段、什么时候可以打开；学习中心带完整的一份（`MANIFEST.vocabulary`，按词排序，每个词连同上面三个出现次数），用于词汇表，约 0.4 MB。`explanationLevel` 由构建脚本按同一规则从发布的题目内容算出，测试保证它和视图一致。
 
 ## 词汇解释
 
-做题页上，文章和题干里比较难的词可以点开看解释；提交之后还能看到这道题全部带解释的词，包括选项里的。数据在三张表里，由 [scripts/annotate_vocabulary.py](../scripts/annotate_vocabulary.py) 写入：
+做题页上，文章和题干里比较难的词可以点开看解释；提交之后还能看到这道题全部带解释的词，包括选项里的。数据在四张表里，由 [scripts/annotate_vocabulary.py](../scripts/annotate_vocabulary.py) 写入：
 
 ```sh
 python3 scripts/annotate_vocabulary.py                          # 报告做到了哪里
@@ -161,9 +171,11 @@ python3 scripts/annotate_vocabulary.py --export FILE            # 把全部解�
 
 一条解释（`vocabulary`）是一个词的一个义项，按给学习者看的顺序写：
 
-1. `definition_en`：英文释义，用比这个词更简单的词写，不照抄词典。
-2. `example_en`：例句。**必须是另写的句子，不能取自任何题目**，并且要用到这个词（测试会检查这两点）。
-3. `definition_zh`、`example_zh`：中文释义和例句译文。页面上这一层默认收起，看不懂英文释义时再展开。
+1. `definition_en`：英文释义，用比这个词更简单的词写。
+2. 例句在 `vocabulary_example` 里，每个词**至少三句**，按 `position` 排。**必须是另写的句子，不能取自任何题目**，并且要用到这个词（测试会检查这两点，`content_db.py check` 检查句数）。三句尽量用在不同的场合，一个词有名词和动词两种用法时各给一句。
+3. `definition_zh` 和每个例句的 `example_zh`：中文释义和例句译文。做题时这一层默认收起，看不懂英文释义时再展开；提交之后和在学习中心里默认展开。
+
+**释义和例句都是为这个题库另写的，不抄任何词典。** 牛津等词典的条目归出版方所有，不能进这个公开仓库；页面只给出牛津学习词典官网的链接，嵌入站点的本机应用可以另外显示设备自带词典的条目（见 [frontend-notes.md](frontend-notes.md#词典)）。
 
 `basis` 写明释义由谁负责：`ai_draft` 是 AI 写的、没有经过人工核对；有人逐条核对过之后改成 `human_checked`。**目前 1,168 条全部是 `ai_draft`。**
 
@@ -177,26 +189,27 @@ python3 scripts/annotate_vocabulary.py --export FILE            # 把全部解�
 
 ### 维护
 
-三张表各管一件事，互相之间由外键和检查保证对得上：
+四张表各管一件事，互相之间由外键和检查保证对得上：
 
 | 想做的事 | 做法 |
 | --- | --- |
-| 通读、改正释义或例句 | `--export FILE` 导出，在文件里改，再用 `--entries FILE --apply` 导入。导入的条目整条替换原来的 |
+| 通读、改正释义或例句 | `--export FILE` 导出，在文件里改，再用 `--entries FILE --apply` 导入。导入的条目整条替换原来的，例句以条目里的 `examples` 为准（每句是 `{"en": …, "zh": …}`，至少三句） |
 | 有人核对过一条 | 在导出的文件里把那一条的 `basis` 改成 `human_checked`，再导入 |
 | 去掉一个不该匹配的拼写 | 在导出的文件里从那一条的 `forms` 删掉它再导入。条目的拼写以导入的为准；不再属于任何条目的拼写，它在各题里的关联会一并删除 |
 | 同一个拼写在某道题里是另一个意思 | 给另一个意思单独写一条（id 用 `词-2`），再把 `question_vocabulary.jsonl` 里那一行的 `vocab_id` 改成它。已有的关联不会被脚本改回去 |
 | 加新词 | 写进一个条目文件，用 `--entries FILE --apply` 导入 |
 | 看每条解释的使用情况 | `python3 scripts/content_db.py sqlite` 之后查视图 `vocabulary_use` |
 
-导出的文件原样导入，三张表不会有任何变化（有测试）。改完运行 `python3 scripts/content_db.py check`，它除了外键和取值约束之外还检查：
+导出的文件原样导入，四张表不会有任何变化（有测试）。改完运行 `python3 scripts/content_db.py check`，它除了外键和取值约束之外还检查：
 
 - 关联里的词确实是那道题那个字段里的一个词；
 - 关联里的词的拼写在 `vocabulary_form` 里有记录，所以重新关联能得到同样的结果；
 - 每条解释至少有一个拼写；
+- 每条解释至少有三个例句，`position` 从 1 连续编号；同一个词的例句不重复；
 - 每条解释都被至少一道题用到（没有用到的会被 `normalize` 去掉）；
 - `vocab_id` 由词目生成（`abut`，第二个义项是 `abut-2`）；同一个词目不能有两条英文释义完全相同的解释。
 
-出现次数、覆盖范围、使用情况都是算出来的，不存表，所以不会和三张表对不上。
+出现次数、覆盖范围、使用情况都是算出来的，不存表，所以不会和这几张表对不上。
 
 ### 拼写和出现次数
 
@@ -218,6 +231,39 @@ python3 scripts/annotate_vocabulary.py --export FILE            # 把全部解�
 - 选词是人工逐个挑的（这一轮由 AI 完成）：从核心题用到的约 4,300 个词里挑出学术词、抽象词、文学和古语用词，以及读懂文章必需的专业词，没有用词频表之类的外部数据。
 - 把范围扩大到其他题目时，同一个拼写可能是另一个义项（例如 `temperate` 指气候温和，也指人有节制）。`--scope all` 只按拼写关联，关联之后需要有人看一遍。
 - 没有收词组，只有三个固定搭配按其中的一个词收了（in accordance with、in conjunction with、by virtue of）。
+
+## 讲解
+
+核心题在提交并查看答案之后，除了套题文件自带的英文解析，还有一份中英对照的讲解：先说解题思路，再把文章和题干一段一段讲过去，最后逐个分析选项。数据在三张表里，由 [scripts/write_walkthrough.py](../scripts/write_walkthrough.py) 写入：
+
+```sh
+python3 scripts/write_walkthrough.py                         # 报告做到了哪里
+python3 scripts/write_walkthrough.py --template ID [ID ...]  # 给这些题各打印一份待填写的条目
+python3 scripts/write_walkthrough.py --entries FILE --apply  # 加入或替换讲解
+python3 scripts/write_walkthrough.py --export FILE           # 把全部讲解导出成一个文件，用来通读和修改
+```
+
+| 表 | 内容 |
+| --- | --- |
+| `walkthrough` | `approach_en`、`approach_zh`：这道题怎么做。`basis` 管整份讲解：`ai_draft` 是 AI 写的、没有经过人工核对；有人核对过之后改成 `human_checked`。**目前 345 份全部是 `ai_draft`。** |
+| `walkthrough_segment` | 按阅读顺序的一段。`field` 是 `passage` 或 `prompt`；`excerpt` 是这一段的原文，写成学习者读到的样子（去掉 `[u]` 这类标记，空白压成一个空格）；`note_en` 用更简单的英文说这一段讲了什么、在文中起什么作用，生词在括号里带出原词；`note_zh` 是中文翻译和说明。 |
+| `walkthrough_choice` | 一个选项为什么对或错。选项是单词时先说词义；选项是句子或标点时说明规则或与原文哪里不符。正确选项的英文以 `Correct.` 开头、中文以「正确。」开头，其余选项的中文以「错误。」开头。 |
+
+条目文件是 JSON Lines，一题一行：`question_id`、`approach`、`segments`（每段 `field`、`excerpt`、`en`、`zh`）、`choices`（每个选项 `en`、`zh`）。`--template` 会把文章按句子切好（表格不切，当作图表看），题干放在最后，各处的 `en`、`zh` 留空；相邻的几句想合在一起讲，就把它们的 `excerpt` 用一个空格连起来。导入的条目整份替换这道题原有的讲解；导出再原样导入，三张表没有变化（有测试）。
+
+`content_db.py check` 另外检查：
+
+- 一份讲解至少有一段，`position` 从 1 连续编号，先文章后题干；
+- 每个 `excerpt` 确实是那个字段里的一段文字，并且出现在前一段之后。**文章改了字，对应的讲解就会被检查出来**，不会悄悄对不上；
+- 这道题的每个选项都有分析，一个不多一个不少。
+
+测试（`tests/test_write_walkthrough.py`）还检查：每道核心题都有讲解；说「正确」的那个选项就是答案键里的正确选项；英文栏里没有中文，中文栏里有中文；每份讲解以题干结尾。
+
+写讲解时的约定：
+
+- 讲解只依据题目本身和答案键。答案键与讲解的推理对不上时，停下来核对题目，不要硬写。
+- `excerpt` 可以跳过不属于题目正文的内容：文章开头的「校订说明」、结尾的版权行、写在文章里的表格。
+- 讲解只在提交并查看答案之后显示，不参与评分，不计入 `gradingRevision`。
 
 ## 模考
 
@@ -345,4 +391,4 @@ python3 scripts/publish_drafts.py
 - `sat-content-registry.json` 没有并入。
 - 数学题全部是草稿，公式显示和填空判分没有做。
 - 没有解析的已发布题，页面的解析区会显示空的小标题。
-- 首页把全部题目的正文写进一个文件，题量增加后 `index.html` 约 8.7 MB（其中词汇表约 0.4 MB）。
+- 首页把全部题目的正文写进一个文件，题量增加后 `index.html` 约 9.0 MB（其中词汇表约 0.7 MB）。讲解只写进练习页，不进首页。

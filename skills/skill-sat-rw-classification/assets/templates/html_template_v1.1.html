@@ -513,8 +513,17 @@
     .gloss-layer > summary { cursor: pointer; color: var(--sat-text-muted); font-size: var(--sat-font-size-ui-xs); font-weight: 700; list-style-position: inside; }
     .gloss-layer > summary:focus-visible { outline: none; box-shadow: var(--sat-focus-ring); border-radius: 6px; }
     .gloss-layer p { margin: 6px 0 4px; }
-    .gloss-example { color: var(--sat-text-main); font-family: var(--sat-font-reading); font-size: 16px; line-height: 1.4; }
-    .gloss-chinese .gloss-example { font-family: var(--sat-font-ui); font-size: var(--sat-font-size-ui); color: var(--sat-text-muted); }
+    .gloss-examples { margin: 6px 0 4px; padding-left: 20px; }
+    .gloss-examples li { margin: 0 0 8px; padding-left: 2px; color: var(--sat-text-muted); font-size: var(--sat-font-size-ui-sm); }
+    .gloss-examples li:last-child { margin-bottom: 0; }
+    .gloss-layer .gloss-example { margin: 0; color: var(--sat-text-main); font-family: var(--sat-font-reading); font-size: 16px; line-height: 1.4; }
+    /* 例句的译文和中文释义同属“中文解释”一层：展开那一层，每个例句下面才出现译文 */
+    .gloss-layer .gloss-example-zh { display: none; margin: 2px 0 0; color: var(--sat-text-muted); font-size: var(--sat-font-size-ui); line-height: 1.5; }
+    .gloss-body.zh-open .gloss-example-zh { display: block; }
+    .sat-dictionary-note { color: var(--sat-text-muted); font-size: var(--sat-font-size-ui-sm); }
+    .sat-dictionary-source { margin: 8px 0 2px; color: var(--sat-text-muted); font-size: var(--sat-font-size-ui-xs); font-weight: 700; }
+    .sat-dictionary-text { margin: 0; white-space: pre-line; font-size: var(--sat-font-size-ui); line-height: 1.6; }
+    .sat-dictionary-link a { color: var(--sat-blue-text); text-decoration: none; font-size: var(--sat-font-size-ui-sm); }
     .gloss-save { margin-top: 10px; min-height: 34px; padding: 6px 14px; font-size: var(--sat-font-size-ui-sm); font-weight: 600; background: var(--sat-blue-muted); color: var(--sat-blue-text); }
     .gloss-save.is-saved { background: rgba(255, 204, 0, .24); color: var(--sat-text-main); }
     .gloss-panel { margin-top: 16px; font-family: var(--sat-font-ui); }
@@ -534,6 +543,27 @@
     .gloss-list-foot { border-top: 1px solid var(--sat-explanation-border); padding: 10px 16px; font-size: var(--sat-font-size-ui-sm); }
     .gloss-list-foot a { color: var(--sat-blue-text); text-decoration: none; }
     .choice-analysis p { margin: 6px 0; padding: 4px 0; }
+
+    /* 讲解：解题思路、分段讲解、选项分析，每一条先英文后中文 */
+    .walk-block { padding: 14px 16px; border-bottom: 1px solid var(--sat-explanation-border); }
+    .walk-title { margin: 0 0 8px; font-family: var(--sat-font-ui); font-size: 13px; font-weight: 700; color: var(--sat-text-main); }
+    .walk-en { margin: 0 0 4px; font-family: var(--sat-font-reading); font-size: var(--sat-font-size-body); line-height: var(--sat-line-height-reading); color: var(--sat-text-main); }
+    .walk-zh { margin: 0; font-family: var(--sat-font-ui); font-size: 15px; line-height: 1.65; color: var(--sat-text-main); }
+    .walk-segments { list-style: none; margin: 0; padding: 0; display: grid; gap: 16px; }
+    .walk-excerpt { margin: 0 0 8px; padding: 8px 12px; border-left: 3px solid var(--sat-blue-border); border-radius: 0 10px 10px 0; background: var(--sat-bg-panel); font-family: var(--sat-font-reading); font-size: 16px; line-height: 1.5; color: var(--sat-text-main); }
+    .walk-tag { display: inline-block; margin-right: 8px; padding: 1px 8px; border-radius: var(--sat-radius-pill); background: var(--sat-bg-control); color: var(--sat-text-muted); font-family: var(--sat-font-ui); font-size: 11px; font-weight: 600; vertical-align: 2px; }
+    .walk-choices { display: grid; gap: 10px; }
+    .walk-choice { padding: 10px 12px; border: 1px solid var(--sat-explanation-border); border-radius: 12px; background: var(--sat-bg-panel); }
+    .walk-choice.is-correct { border-color: var(--sat-correct-border); }
+    .walk-choice-head { display: flex; align-items: baseline; gap: 8px; margin-bottom: 6px; font-family: var(--sat-font-reading); font-size: var(--sat-font-size-choice); }
+    .walk-choice-head strong { font-family: var(--sat-font-ui); }
+    .walk-choice-text { flex: 1; min-width: 0; }
+    .walk-mark { flex: none; padding: 1px 9px; border-radius: var(--sat-radius-pill); font-family: var(--sat-font-ui); font-size: 11px; font-weight: 700; background: var(--sat-incorrect-bg); color: var(--sat-incorrect-text); }
+    .walk-choice.is-correct .walk-mark { background: var(--sat-correct-bg); color: var(--sat-correct-text); }
+    .explanation-written > summary { padding: 12px 16px; cursor: pointer; color: var(--sat-text-muted); font-family: var(--sat-font-ui); font-size: 13px; font-weight: 700; }
+    .explanation-written[open] > summary { border-bottom: 1px solid var(--sat-explanation-border); }
+    .explanation .walk-block:last-child, .explanation-written .walk-block:last-child { border-bottom: 0; }
+    .walk-foot { margin: 0; padding: 10px 16px; color: var(--sat-text-muted); font-family: var(--sat-font-ui); font-size: var(--sat-font-size-ui-xs); }
     .nav {
       position: fixed;
       left: 0;
@@ -2094,13 +2124,6 @@
     }
 
     function examExplanationHtml(question, selected) {
-      const explanation = asRecord(question.explanation);
-      const choiceAnalysis = asRecord(explanation.choice_analysis);
-      const rows = Object.keys(choiceAnalysis).sort().filter(label => String(choiceAnalysis[label] || "").trim())
-        .map(label => `<p><strong>${escapeHtml(label)}.</strong> ${formatStimulusInline(choiceAnalysis[label])}</p>`).join("");
-      const keyText = String(explanation.key_evidence || explanation.short || "").trim();
-      const reasonText = String(explanation.why_correct || explanation.detailed || explanation.short || "").trim();
-      const noExplanation = !keyText && !reasonText && !rows;
       return `
         <div style="padding:14px 16px;border-bottom:1px solid var(--sat-explanation-border);background:var(--sat-bg-subtle);">
           <div style="display:flex;gap:12px;flex-wrap:wrap;">
@@ -2108,17 +2131,7 @@
             <div style="flex:1;min-width:120px;"><span style="display:block;font-size:11px;font-weight:700;color:var(--sat-text-muted);">你的答案</span><strong>${escapeHtml(selected || "未作答")}</strong></div>
           </div>
         </div>
-        ${noExplanation ? `<p class="explanation-empty">这道题暂无解析。</p>` : ""}
-        ${keyText ? `<div style="padding:14px 16px;border-bottom:1px solid var(--sat-explanation-border);">
-          <div style="font-size:13px;font-weight:700;margin-bottom:6px;">关键证据</div>
-          <p>${formatStimulusInline(keyText)}</p>
-        </div>` : ""}
-        ${reasonText ? `<div style="padding:14px 16px${rows ? ";border-bottom:1px solid var(--sat-explanation-border)" : ""};">
-          <div style="font-size:13px;font-weight:700;margin-bottom:6px;">正确思路</div>
-          <p>${formatStimulusInline(reasonText)}</p>
-        </div>` : ""}
-        ${detailedExplanationHtml(explanation, reasonText)}
-        ${rows ? `<div style="padding:14px 16px;"><div style="font-size:13px;font-weight:700;margin-bottom:8px;">选项分析</div><div class="choice-analysis">${rows}</div></div>` : ""}`;
+        ${explanationBodyHtml(question, { withEvidenceFirst: false })}`;
     }
 
     function reviewQuestionList(modules) {
@@ -2789,6 +2802,47 @@
       }
     }
 
+    // 讲解：解题思路、题目逐段、选项逐项，每条先英文后中文。只在提交并查看答案后显示。
+    function walkthroughHtml(question) {
+      const walk = asRecord(question.walkthrough);
+      const segments = (Array.isArray(walk.segments) ? walk.segments : []).filter(item => item && item.excerpt);
+      if (!segments.length) return "";
+      const both = item => `<p class="walk-en">${escapeHtml(asRecord(item).english || "")}</p><p class="walk-zh" lang="zh-CN">${escapeHtml(asRecord(item).chinese || "")}</p>`;
+      const notes = asRecord(walk.choices);
+      const choices = (question.choices || []).filter(choice => notes[choice.label]).map(choice => {
+        const right = choice.label === question.correct_answer;
+        return `<div class="walk-choice${right ? " is-correct" : ""}" data-walk-choice="${escapeHtml(choice.label)}">
+          <div class="walk-choice-head"><strong>${escapeHtml(choice.label)}.</strong><span class="walk-choice-text">${formatStimulusInline(choice.text)}</span><span class="walk-mark">${right ? "正确" : "错误"}</span></div>
+          ${both(notes[choice.label])}</div>`;
+      }).join("");
+      return `
+        <section class="walk-block" data-walk="approach"><h3 class="walk-title">解题思路</h3>${both(walk.approach)}</section>
+        <section class="walk-block" data-walk="segments"><h3 class="walk-title">分段讲解</h3><ol class="walk-segments">${segments.map(item =>
+          `<li><blockquote class="walk-excerpt">${item.field === "prompt" ? '<span class="walk-tag">题目</span>' : ""}${formatStimulusInline(item.excerpt)}</blockquote>${both(item)}</li>`).join("")}</ol></section>
+        ${choices ? `<section class="walk-block" data-walk="choices"><h3 class="walk-title">选项分析</h3><div class="walk-choices">${choices}</div></section>` : ""}`;
+    }
+
+    // What the set files carry of their own: key evidence, the reasoning and a line per choice, in English.
+    function writtenExplanationHtml(explanation, { withEvidenceFirst }) {
+      const choiceAnalysis = asRecord(explanation.choice_analysis);
+      const rows = Object.keys(choiceAnalysis).sort().filter(label => String(choiceAnalysis[label] || "").trim())
+        .map(label => `<p><strong>${escapeHtml(label)}.</strong> ${formatStimulusInline(choiceAnalysis[label])}</p>`).join("");
+      const keyText = String(explanation.key_evidence || explanation.short || "").trim();
+      const reasonText = String((withEvidenceFirst ? explanation.key_evidence && explanation.why_correct : explanation.why_correct)
+        ? explanation.why_correct : explanation.detailed || explanation.short || "").trim();
+      const block = (title, text) => text ? `<div class="walk-block"><h3 class="walk-title">${title}</h3><p class="walk-en">${formatStimulusInline(text)}</p></div>` : "";
+      return { empty: !keyText && !reasonText && !rows,
+        html: block("关键证据", keyText) + block("正确思路", reasonText) + detailedExplanationHtml(explanation, reasonText)
+          + (rows ? `<div class="walk-block"><h3 class="walk-title">选项分析</h3><div class="choice-analysis" style="font-family:var(--sat-font-reading);font-size:var(--sat-font-size-choice);line-height:var(--sat-line-height-choice);">${rows}</div></div>` : "") };
+    }
+
+    // The walkthrough when the question has one, with the set file's own explanation folded beneath it.
+    function explanationBodyHtml(question, options) {
+      const written = writtenExplanationHtml(asRecord(question.explanation), options), walk = walkthroughHtml(question);
+      if (!walk) return written.empty ? `<p class="explanation-empty">这道题暂无解析。</p>` : written.html;
+      return walk + (written.empty ? "" : `<details class="explanation-written" data-walk="written"><summary>题库原有解析（英文）</summary>${written.html}</details>`);
+    }
+
     function detailedExplanationHtml(explanation, displayedReason) {
       const normalize = value => String(value || "").trim().replace(/\s+/g, " ");
       const detailed = normalize(explanation.detailed);
@@ -2803,15 +2857,6 @@
         els.explanation.innerHTML = "";
         return;
       }
-      const explanation = question.explanation || {};
-      const choiceAnalysis = explanation.choice_analysis || {};
-      const rows = Object.keys(choiceAnalysis).sort().filter(label => String(choiceAnalysis[label] || "").trim()).map(label => {
-        return `<p><strong>${escapeHtml(label)}.</strong> ${formatStimulusInline(choiceAnalysis[label])}</p>`;
-      }).join("");
-      // 没写的部分不显示空标题；一点解析都没有时只说明“暂无解析”
-      const keyText = String(explanation.key_evidence || explanation.short || "").trim();
-      const reasonText = String(explanation.key_evidence && explanation.why_correct ? explanation.why_correct : explanation.detailed || explanation.short || "").trim();
-      const noExplanation = !keyText && !reasonText && !rows;
       els.explanation.innerHTML = `
         <div style="padding:14px 16px;border-bottom:1px solid var(--sat-explanation-border);background:var(--sat-bg-subtle);border-radius:var(--sat-radius-panel) var(--sat-radius-panel) 0 0;">
           <div style="display:flex;gap:12px;flex-wrap:wrap;">
@@ -2819,20 +2864,7 @@
             <div style="flex:1;min-width:120px;"><span style="display:block;font-size:11px;font-weight:700;color:var(--sat-text-muted);margin-bottom:2px;font-family:var(--sat-font-ui);">你的答案</span><strong style="font-family:var(--sat-font-ui);">${escapeHtml(qs.selected || "未作答")}</strong></div>
           </div>
         </div>
-        ${noExplanation ? `<p class="explanation-empty">这道题暂无解析。</p>` : ""}
-        ${keyText ? `<div style="padding:14px 16px;border-bottom:1px solid var(--sat-explanation-border);">
-          <div style="font-size:13px;font-weight:700;margin-bottom:6px;color:var(--sat-text-main);font-family:var(--sat-font-ui);">关键证据</div>
-          <p style="font-family:var(--sat-font-reading);font-size:var(--sat-font-size-body);line-height:var(--sat-line-height-reading);color:var(--sat-text-main);margin:0;">${formatStimulusInline(keyText)}</p>
-        </div>` : ""}
-        ${reasonText ? `<div style="padding:14px 16px;border-bottom:1px solid var(--sat-explanation-border);">
-          <div style="font-size:13px;font-weight:700;margin-bottom:6px;color:var(--sat-text-main);font-family:var(--sat-font-ui);">正确思路</div>
-          <p style="font-family:var(--sat-font-reading);font-size:var(--sat-font-size-body);line-height:var(--sat-line-height-reading);color:var(--sat-text-main);margin:0;">${formatStimulusInline(reasonText)}</p>
-        </div>` : ""}
-        ${detailedExplanationHtml(explanation, reasonText)}
-        ${rows ? `<div style="padding:14px 16px;">
-          <div style="font-size:13px;font-weight:700;margin-bottom:8px;color:var(--sat-text-main);font-family:var(--sat-font-ui);">选项分析</div>
-          <div class="choice-analysis" style="font-family:var(--sat-font-reading);font-size:var(--sat-font-size-choice);line-height:var(--sat-line-height-choice);">${rows}</div>
-        </div>` : ""}
+        ${explanationBodyHtml(question, { withEvidenceFirst: true })}
         ${(question.skills_tested && question.skills_tested.length) ? `<div style="padding:10px 16px;border-top:1px solid var(--sat-explanation-border);"><div style="font-size:12px;font-weight:700;color:var(--sat-text-muted);font-family:var(--sat-font-ui);">Skills: ${escapeHtml(question.skills_tested.join(", "))}</div></div>` : ""}
       `;
     }
@@ -3360,13 +3392,26 @@
       }
     }
 
-    // English first; the example is open, the Chinese stays folded until asked for.
-    function glossBodyHtml(entry) {
-      return `
+    // English first: the examples are open, the Chinese stays folded until asked for and
+    // brings the translation of every example with it. `chinese` opens that layer from the start.
+    function glossBodyHtml(entry, { chinese = false } = {}) {
+      const examples = (Array.isArray(entry.examples) ? entry.examples : []).map(example =>
+        `<li><p class="gloss-example">${escapeHtml(example.english)}</p><p class="gloss-example-zh">${escapeHtml(example.chinese)}</p></li>`).join("");
+      return `<div class="gloss-body${chinese ? " zh-open" : ""}">
         <p class="gloss-english">${escapeHtml(entry.english)}</p>
-        <details class="gloss-layer" open><summary>例句</summary><p class="gloss-example">${escapeHtml(entry.example)}</p></details>
-        <details class="gloss-layer gloss-chinese"><summary>中文解释</summary><p>${escapeHtml(entry.chinese)}</p><p class="gloss-example">${escapeHtml(entry.exampleChinese)}</p></details>
-        <button type="button" class="gloss-save" data-gloss-save="${escapeHtml(entry.id)}" aria-pressed="false">加入生词本</button>`;
+        <details class="gloss-layer" open><summary>例句</summary><ol class="gloss-examples">${examples}</ol></details>
+        <details class="gloss-layer gloss-chinese"${chinese ? " open" : ""}><summary>中文解释</summary><p>${escapeHtml(entry.chinese)}</p></details>
+        ${satDictionaryLayerHtml(entry.word, escapeHtml, "gloss-layer")}
+        <button type="button" class="gloss-save" data-gloss-save="${escapeHtml(entry.id)}" aria-pressed="false">加入生词本</button>
+      </div>`;
+    }
+
+    // A layer of a word card was opened or folded: show the translations with the Chinese
+    // layer, and look the word up when the dictionary layer opens for the first time.
+    function onGlossLayerToggle(event) {
+      const layer = event.target;
+      if (layer.classList?.contains("gloss-chinese")) layer.closest(".gloss-body")?.classList.toggle("zh-open", layer.open);
+      if (layer.classList?.contains("sat-dictionary")) satFillDictionaryLayer(layer, escapeHtml).then(placeGloss);
     }
 
     // The sentence the word stands in, kept with the word in the notebook.
@@ -3455,7 +3500,7 @@
         <summary>本题词汇<span class="gloss-count">${ids.length}</span></summary>
         ${ids.map(id => {
           const entry = glossEntry(id);
-          return `<details class="gloss-row"><summary><strong>${escapeHtml(entry.word)}</strong><span class="gloss-pos">${escapeHtml(entry.partOfSpeech)}</span>${fromChoices.has(id) ? '<span class="gloss-tag">选项</span>' : ""}</summary>${glossBodyHtml(entry)}</details>`;
+          return `<details class="gloss-row"><summary><strong>${escapeHtml(entry.word)}</strong><span class="gloss-pos">${escapeHtml(entry.partOfSpeech)}</span>${fromChoices.has(id) ? '<span class="gloss-tag">选项</span>' : ""}</summary>${glossBodyHtml(entry, { chinese: true })}</details>`;
         }).join("")}
         <div class="gloss-list-foot"><a href="../index.html#vocabulary">打开生词本</a></div>
       </details>`;
@@ -3482,8 +3527,9 @@
 
     function vocabularyRecord(entry, context) {
       const question = currentQuestion();
+      const example = (Array.isArray(entry.examples) && entry.examples[0]) || {};
       return { word: entry.word, partOfSpeech: entry.partOfSpeech, english: entry.english, chinese: entry.chinese,
-        example: entry.example, exampleChinese: entry.exampleChinese, vocabId: entry.id, context: context || "",
+        example: example.english || "", exampleChinese: example.chinese || "", vocabId: entry.id, context: context || "",
         questionId: question ? question.question_id : "", route: PAGE_ID + ".html", custom: false };
     }
 
@@ -4338,13 +4384,14 @@
       const save = event.target.closest("[data-gloss-save]");
       if (save) toggleGlossWord(save.dataset.glossSave, els.glossPopover.dataset.context || "");
     });
-    els.glossPopover.addEventListener("toggle", placeGloss, true);
+    els.glossPopover.addEventListener("toggle", event => { onGlossLayerToggle(event); placeGloss(); }, true);
     els.glossPanel.addEventListener("click", event => {
       const save = event.target.closest("[data-gloss-save]");
       if (save) toggleGlossWord(save.dataset.glossSave, "");
     });
     els.glossPanel.addEventListener("toggle", event => {
       if (event.target.classList?.contains("gloss-list")) glossPanelOpen = event.target.open;
+      onGlossLayerToggle(event);
     }, true);
     document.addEventListener("click", event => {
       if (els.glossPopover.hidden || els.glossPopover.contains(event.target) || event.target.closest?.(".gloss[data-gloss]")) return;

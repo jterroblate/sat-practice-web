@@ -350,6 +350,7 @@ def derive(root: Path = ROOT, existing: Tables | None = None) -> Tables:
 PUBLISHED = {"status": "published", "format": "choice", "markup": "canonical"}
 # Set by scripts/classify_questions.py, not by the set files.
 CLASSIFIED = ("passage_type", "passage_type_basis", "task_id", "task_basis")
+WALKTHROUGH_TABLES = ("walkthrough", "walkthrough_segment", "walkthrough_choice")
 
 
 def normalize(root: Path = ROOT, existing: Tables | None = None) -> Tables:
@@ -359,8 +360,9 @@ def normalize(root: Path = ROOT, existing: Tables | None = None) -> Tables:
     questions came from (source families, modules, placements in imported
     sources), a recorded difficulty with its basis, the task and the passage
     type are carried over from `existing`, as are the task and passage type
-    reference rows and the word explanations (scripts/annotate_vocabulary.py).
-    Rows that nothing uses any more are dropped.
+    reference rows, the word explanations (scripts/annotate_vocabulary.py) and
+    the walkthroughs (scripts/write_walkthrough.py). Rows that nothing uses any
+    more are dropped.
     """
     existing = existing or {}
     derived = derive(root, existing)
@@ -427,9 +429,11 @@ def normalize(root: Path = ROOT, existing: Tables | None = None) -> Tables:
     }
     glosses = [row for row in old("question_vocabulary") if row["question_id"] in questions]
     explained = {row["vocab_id"] for row in glosses}
-    tables["vocabulary"] = [row for row in old("vocabulary") if row["vocab_id"] in explained]
-    tables["vocabulary_form"] = [row for row in old("vocabulary_form") if row["vocab_id"] in explained]
+    for name in ("vocabulary", "vocabulary_example", "vocabulary_form"):
+        tables[name] = [row for row in old(name) if row["vocab_id"] in explained]
     tables["question_vocabulary"] = glosses
+    for name in WALKTHROUGH_TABLES:
+        tables[name] = [row for row in old(name) if row["question_id"] in questions]
     return {name: [json.loads(line) for line in text.splitlines()]
             for name, text in render_tables(tables, root).items()}
 
@@ -497,7 +501,7 @@ def export(tables: Tables) -> dict[str, bytes]:
 
 # ---------------------------------------------------------------- what the site shows about a question
 
-METADATA_SCHEMA = "sat-question-metadata-v2"
+METADATA_SCHEMA = "sat-question-metadata-v3"
 DIFFICULTY_LEVELS = ("easy", "medium", "hard")
 
 
@@ -520,7 +524,9 @@ def question_metadata(tables: Tables, root: Path = ROOT) -> dict[str, Any]:
     explanation says in how many published Reading and Writing questions the
     word is written (questions), how many of those are real-exam questions
     (realExamQuestions) and how many times in all (occurrences); see
-    vocabulary_usage for what the count does not tell.
+    vocabulary_usage for what the count does not tell. A question that has a
+    walkthrough carries it whole: the approach, the segments in reading order
+    and a note per choice, each in English and in Chinese.
     """
     connection = load_sqlite(tables, root)
     try:
@@ -591,17 +597,37 @@ def question_metadata(tables: Tables, root: Path = ROOT) -> dict[str, Any]:
         reading = {question_id for (question_id,) in connection.execute(
             "SELECT question_id FROM practice_pool WHERE status = 'published' AND section = 'reading_writing'")}
         usage = vocabulary_usage(tables, reading)
+        examples: dict[str, list[dict[str, str]]] = {}
+        for vocab_id, english, chinese in connection.execute(
+                "SELECT vocab_id, example_en, example_zh FROM vocabulary_example ORDER BY vocab_id, position"):
+            examples.setdefault(vocab_id, []).append({"english": english, "chinese": chinese})
         vocabulary = {
             vocab_id: {"word": headword, "partOfSpeech": part, "english": english, "chinese": chinese,
-                       "example": example, "exampleChinese": example_chinese, "basis": basis,
+                       "examples": examples.get(vocab_id, []), "basis": basis,
                        "questions": len(usage[vocab_id]["questions"]),
                        "realExamQuestions": sum(questions[question_id]["kind"] == "real_exam"
                                                 for question_id in usage[vocab_id]["questions"]),
                        "occurrences": usage[vocab_id]["occurrences"]}
-            for vocab_id, headword, part, english, chinese, example, example_chinese, basis in connection.execute(
-                "SELECT vocab_id, headword, part_of_speech, definition_en, definition_zh, example_en, example_zh, basis"
+            for vocab_id, headword, part, english, chinese, basis in connection.execute(
+                "SELECT vocab_id, headword, part_of_speech, definition_en, definition_zh, basis"
                 "  FROM vocabulary ORDER BY vocab_id")
             if vocab_id in used}
+        for question_id, english, chinese, basis in connection.execute(
+                "SELECT question_id, approach_en, approach_zh, basis FROM walkthrough ORDER BY question_id"):
+            if question_id in questions:
+                questions[question_id]["walkthrough"] = {
+                    "approach": {"english": english, "chinese": chinese}, "basis": basis,
+                    "segments": [], "choices": {}}
+        for question_id, field, excerpt, english, chinese in connection.execute(
+                "SELECT question_id, field, excerpt, note_en, note_zh FROM walkthrough_segment"
+                " ORDER BY question_id, position"):
+            if question_id in questions:
+                questions[question_id]["walkthrough"]["segments"].append(
+                    {"field": field, "excerpt": excerpt, "english": english, "chinese": chinese})
+        for question_id, label, english, chinese in connection.execute(
+                "SELECT question_id, label, note_en, note_zh FROM walkthrough_choice ORDER BY question_id, label"):
+            if question_id in questions:
+                questions[question_id]["walkthrough"]["choices"][label] = {"english": english, "chinese": chinese}
     finally:
         connection.close()
     return {"schemaVersion": METADATA_SCHEMA, "taxonomy": taxonomy, "vocabulary": vocabulary, "questions": questions}
@@ -665,12 +691,16 @@ def vocabulary_id(headword: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", headword.lower()).strip("-")
 
 
+VOCABULARY_EXAMPLES = 3
+
+
 def vocabulary_problems(tables: Tables) -> list[str]:
     """What the schema cannot say about the word explanations.
 
     - an explained word stands in the question text exactly as recorded;
     - its spelling is one the list knows, so linking can be repeated;
     - every explanation is found by at least one spelling;
+    - every explanation has at least three example sentences, numbered from 1;
     - an id is made from its headword ("abut", or "abut-2" for a second sense).
     """
     texts = gloss_texts(tables)
@@ -688,13 +718,76 @@ def vocabulary_problems(tables: Tables) -> list[str]:
             problems.append(f"{DB_DIR}/question_vocabulary.jsonl: '{row['surface']}' in {row['question_id']} is not a "
                             f"spelling in vocabulary_form")
     found_by = {row["vocab_id"] for row in tables.get("vocabulary_form", [])}
+    shown: dict[str, list[int]] = {}
+    for row in tables.get("vocabulary_example", []):
+        shown.setdefault(row["vocab_id"], []).append(row["position"])
     for row in tables.get("vocabulary", []):
         if row["vocab_id"] not in found_by:
             problems.append(f"{DB_DIR}/vocabulary.jsonl: '{row['vocab_id']}' has no spelling in vocabulary_form")
+        positions = sorted(shown.get(row["vocab_id"], []))
+        if len(positions) < VOCABULARY_EXAMPLES or positions != list(range(1, len(positions) + 1)):
+            problems.append(f"{DB_DIR}/vocabulary_example.jsonl: '{row['vocab_id']}' needs at least "
+                            f"{VOCABULARY_EXAMPLES} examples, numbered from 1 without a gap")
         made = vocabulary_id(row["headword"])
         if not made or not re.fullmatch(re.escape(made) + r"(-[2-9])?", row["vocab_id"]):
             problems.append(f"{DB_DIR}/vocabulary.jsonl: the id '{row['vocab_id']}' is not made from the headword "
                             f"'{row['headword']}'")
+    return problems
+
+
+# ---------------------------------------------------------------- walkthroughs
+
+WALKTHROUGH_MARKUP = re.compile(r"<[^>]*>|\[/?(?:i|u|b|vocab)\]", re.IGNORECASE)
+WALKTHROUGH_FIELDS = ("passage", "prompt")
+
+
+def walkthrough_text(value: Any) -> str:
+    """A passage or a prompt as the learner reads it: no inline markers, single spaces."""
+    return " ".join(WALKTHROUGH_MARKUP.sub("", str(value or "")).split())
+
+
+def walkthrough_problems(tables: Tables) -> list[str]:
+    """What the schema cannot say about the walkthroughs.
+
+    - a walkthrough has at least one segment, numbered from 1 without a gap,
+      the passage before the prompt;
+    - every excerpt stands in the field it names, after the excerpt before it;
+    - every answer choice of the question has a note.
+    """
+    questions = {row["question_id"]: row for row in tables.get("question", [])}
+    labels: dict[str, set[str]] = {}
+    for row in tables.get("choice", []):
+        labels.setdefault(row["question_id"], set()).add(row["label"])
+    segments: dict[str, list[dict]] = {}
+    for row in tables.get("walkthrough_segment", []):
+        segments.setdefault(row["question_id"], []).append(row)
+    noted: dict[str, set[str]] = {}
+    for row in tables.get("walkthrough_choice", []):
+        noted.setdefault(row["question_id"], set()).add(row["label"])
+    problems = []
+    for row in tables.get("walkthrough", []):
+        question_id = row["question_id"]
+        where = f"{DB_DIR}/walkthrough_segment.jsonl: {question_id}"
+        parts = sorted(segments.get(question_id, []), key=lambda part: part["position"])
+        if not parts or [part["position"] for part in parts] != list(range(1, len(parts) + 1)):
+            problems.append(f"{where} needs segments numbered from 1 without a gap")
+            continue
+        fields = [part["field"] for part in parts]
+        if fields != sorted(fields):
+            problems.append(f"{where} must read the passage before the prompt")
+        for field in WALKTHROUGH_FIELDS:
+            text, start = walkthrough_text(questions.get(question_id, {}).get(field)), 0
+            for part in parts:
+                if part["field"] != field:
+                    continue
+                at = text.find(walkthrough_text(part["excerpt"]), start)
+                if at < 0 or part["excerpt"] != walkthrough_text(part["excerpt"]):
+                    problems.append(f"{where} segment {part['position']} is not a part of the {field}, "
+                                    "or not in reading order")
+                    break
+                start = at + len(part["excerpt"])
+        if noted.get(question_id, set()) != labels.get(question_id, set()):
+            problems.append(f"{DB_DIR}/walkthrough_choice.jsonl: {question_id} needs one note for each of its choices")
     return problems
 
 
@@ -745,7 +838,7 @@ def check(root: Path = ROOT) -> list[str]:
         load_sqlite(tables, root).close()
     except ContentError as error:
         return [f"{DB_DIR}: {error}"]
-    problems = compare_with_canonical(tables, root) or vocabulary_problems(tables)
+    problems = compare_with_canonical(tables, root) or vocabulary_problems(tables) + walkthrough_problems(tables)
     if problems:
         return problems
     try:

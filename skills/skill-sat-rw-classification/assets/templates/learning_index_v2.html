@@ -349,8 +349,17 @@
     .vocab-layer { border-top: 1px solid rgba(0, 0, 0, .08); padding: 10px 0 4px; }
     .vocab-layer > summary { cursor: pointer; color: var(--zen-muted); font-size: 12px; font-weight: 700; }
     .vocab-layer p { margin: 6px 0; }
-    .vocab-layer .vocab-example { font-family: "Times New Roman", Times, serif; font-size: 17px; line-height: 1.4; }
-    .vocab-layer .vocab-translation { color: var(--zen-muted); }
+    .vocab-examples { margin: 6px 0; padding-left: 22px; color: var(--zen-muted); font-size: 13px; }
+    .vocab-examples li { margin: 0 0 10px; padding-left: 2px; }
+    .vocab-examples li:last-child { margin-bottom: 0; }
+    .vocab-layer .vocab-example { margin: 0; color: var(--zen-ink, #1d1d1f); font-family: "Times New Roman", Times, serif; font-size: 17px; line-height: 1.4; }
+    /* 译文和中文释义同属“中文解释”一层，那一层收起时译文也收起 */
+    .vocab-layer .vocab-translation { display: none; margin: 2px 0 0; color: var(--zen-muted); font-size: 14px; line-height: 1.5; }
+    .vocab-layers.zh-open .vocab-translation { display: block; }
+    .sat-dictionary-note { color: var(--zen-muted); font-size: 13px; }
+    .sat-dictionary-source { margin: 8px 0 2px; color: var(--zen-muted); font-size: 12px; font-weight: 700; }
+    .sat-dictionary-text { margin: 0; white-space: pre-line; line-height: 1.6; }
+    .sat-dictionary-link a { font-size: 13px; }
     .vocab-context { margin: 10px 0 0; padding-top: 10px; border-top: 1px solid rgba(0, 0, 0, .08); color: var(--zen-muted); font-size: 14px; }
     .vocab-context a { color: var(--zen-primary-dark); font-weight: 600; white-space: nowrap; }
     .vocab-note-label { display: block; margin-top: 12px; color: var(--zen-muted); font-size: 12px; font-weight: 700; }
@@ -1055,20 +1064,38 @@
     // Cards the learner has opened stay open while the list is redrawn.
     const vocabularyOpen = new Set();
     let vocabularyStatus = "";
+    // A word's layers in study order: the examples, the Chinese explanation (open here, and with it
+    // the translation of every example), then the dictionary. A word saved before the list had
+    // several examples still carries its one.
+    function vocabularyLayersHtml(item) {
+      const examples = Array.isArray(item.examples) && item.examples.length ? item.examples
+        : item.example ? [{ english: item.example, chinese: item.exampleChinese || "" }] : [];
+      return `<div class="vocab-layers${item.chinese ? " zh-open" : ""}">
+        ${examples.length ? `<details class="vocab-layer" open><summary>例句</summary><ol class="vocab-examples">${examples.map(example =>
+          `<li><p class="vocab-example">${escapeHtml(example.english)}</p>${example.chinese ? `<p class="vocab-translation">${escapeHtml(example.chinese)}</p>` : ""}</li>`).join("")}</ol></details>` : ""}
+        ${item.chinese ? `<details class="vocab-layer vocab-chinese" open><summary>中文解释</summary><p>${escapeHtml(item.chinese)}</p></details>` : ""}
+        ${satDictionaryLayerHtml(item.word, escapeHtml, "vocab-layer")}
+      </div>`;
+    }
+    document.addEventListener("toggle", event => {
+      const layer = event.target;
+      if (layer.classList?.contains("vocab-chinese")) layer.closest(".vocab-layers")?.classList.toggle("zh-open", layer.open);
+      if (layer.classList?.contains("sat-dictionary")) satFillDictionaryLayer(layer, escapeHtml);
+    }, true);
+
     function vocabularyCard(stored) {
       // The word list is the one place explanations are kept up to date; the copy saved with the
       // word is used only when the list no longer has it (or the learner added the word by hand).
       const current = stored.vocabId ? glossaryById.get(stored.vocabId) : null;
       const item = current ? { ...stored, partOfSpeech: current.partOfSpeech, english: current.english, chinese: current.chinese,
-        example: current.example, exampleChinese: current.exampleChinese } : stored;
+        examples: current.examples } : stored;
       const key = satVocabularyKey(item.word), question = item.questionId ? questionById.get(item.questionId) : null;
       const explained = Boolean(item.english);
       return `<details class="vocab-card" data-vocab="${escapeHtml(key)}"${vocabularyOpen.has(key) ? " open" : ""}>
         <summary><strong>${escapeHtml(item.word)}</strong>${item.partOfSpeech ? `<span class="vocab-pos">${escapeHtml(item.partOfSpeech)}</span>` : ""}${item.mastered ? '<span class="pill calm">已掌握</span>' : ""}${item.custom ? '<span class="pill pending">自己添加</span>' : ""}</summary>
         <div class="vocab-body">
-          ${explained ? `<p class="vocab-english">${escapeHtml(item.english)}</p>
-          ${item.example ? `<details class="vocab-layer" open><summary>例句</summary><p class="vocab-example">${escapeHtml(item.example)}</p></details>` : ""}
-          ${item.chinese ? `<details class="vocab-layer"><summary>中文解释</summary><p>${escapeHtml(item.chinese)}</p>${item.exampleChinese ? `<p class="vocab-translation">${escapeHtml(item.exampleChinese)}</p>` : ""}</details>` : ""}` : `<p class="vocab-english">这个词是你自己添加的，可以在下面写下它的意思。</p>`}
+          ${explained ? `<p class="vocab-english">${escapeHtml(item.english)}</p>${vocabularyLayersHtml(item)}`
+            : `<p class="vocab-english">这个词是你自己添加的，可以在下面写下它的意思。</p><div class="vocab-layers">${satDictionaryLayerHtml(item.word, escapeHtml, "vocab-layer")}</div>`}
           ${item.context || question ? `<p class="vocab-context">${item.context ? `题目原句：<q>${escapeHtml(item.context)}</q> ` : ""}${question ? `<a href="${question.route}?focus=${encodeURIComponent(question.questionId)}">回到这道题</a>` : ""}</p>` : ""}
           <label class="vocab-note-label">我的笔记<textarea class="vocab-note" data-vocab-note="${escapeHtml(key)}" maxlength="1000">${escapeHtml(item.note)}</textarea></label>
           <div class="vocab-actions">
@@ -1169,8 +1196,7 @@
         <summary><strong>${escapeHtml(item.word)}</strong><span class="vocab-pos">${escapeHtml(item.partOfSpeech)}</span>${inNotebook ? '<span class="pill calm">已在生词本</span>' : ""}<span class="vocab-count">出现 ${item.questions} 题 · 真题 ${item.realExamQuestions}</span></summary>
         <div class="vocab-body">
           <p class="vocab-english">${escapeHtml(item.english)}</p>
-          <details class="vocab-layer" open><summary>例句</summary><p class="vocab-example">${escapeHtml(item.example)}</p></details>
-          <details class="vocab-layer"><summary>中文解释</summary><p>${escapeHtml(item.chinese)}</p><p class="vocab-translation">${escapeHtml(item.exampleChinese)}</p></details>
+          ${vocabularyLayersHtml(item)}
           <p class="vocab-usage">题库里有 ${item.questions} 道题写到这个词，其中真题 ${item.realExamQuestions} 道，一共出现 ${item.occurrences} 次。</p>
           <div class="vocab-actions"><button class="action${inNotebook ? "" : " ghost"}" type="button" data-glossary-save="${escapeHtml(item.id)}" aria-pressed="${inNotebook}">${inNotebook ? "已在生词本 · 移出" : "加入生词本"}</button></div>
         </div>
@@ -1223,7 +1249,7 @@
         if (!item) return;
         if (hasSatVocabularyWord(learningStorage, item.word)) removeSatVocabularyWord(learningStorage, item.word);
         else saveSatVocabularyWord(learningStorage, { word: item.word, partOfSpeech: item.partOfSpeech, english: item.english, chinese: item.chinese,
-          example: item.example, exampleChinese: item.exampleChinese, vocabId: item.id, custom: false });
+          example: item.examples[0].english, exampleChinese: item.examples[0].chinese, vocabId: item.id, custom: false });
         app.querySelector(".section-meta").textContent = `${GLOSSARY.length} 个词 · 生词本 ${readSatVocabulary(learningStorage).length}`;
         drawGlossaryList();
       });

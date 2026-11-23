@@ -7,13 +7,17 @@
     python3 scripts/annotate_vocabulary.py --candidates             list the words of the scope nothing explains yet
     python3 scripts/annotate_vocabulary.py --export FILE            write every explanation to a file, to read and correct
 
-Three tables hold the result:
+Four tables hold the result:
 
 vocabulary
-    One word in one sense: a plain English definition, a Chinese one, and an
-    example sentence that comes from no question, with its translation. The
+    One word in one sense: a plain English definition and a Chinese one. The
     wording is written for a learner, so the English definition comes first
-    and uses easier words than the one it explains.
+    and uses easier words than the one it explains. It is written for this
+    bank; nothing is copied from a dictionary.
+vocabulary_example
+    At least three sentences that show the word in use, each with its
+    translation, in the order the learner reads them. None comes from a
+    question.
 vocabulary_form
     The spellings an explanation is found by, in lower case ("contend",
     "contends", "contended"). A spelling belongs to one explanation.
@@ -24,14 +28,16 @@ question_vocabulary
 An entries file is JSON Lines, one explanation per line:
 
     {"forms": ["abut", "abuts"], "headword": "abut", "part_of_speech": "v.",
-     "definition_en": "...", "definition_zh": "...", "example_en": "...", "example_zh": "..."}
+     "definition_en": "...", "definition_zh": "...",
+     "examples": [{"en": "...", "zh": "..."}, {"en": "...", "zh": "..."}, {"en": "...", "zh": "..."}]}
 
 "id" may be given; otherwise it is made from the headword. "basis" is
 'ai_draft' unless the line says 'human_checked'.
 
 --export writes the same format, so the list can be read through, corrected
 and brought back with --entries: an entry that comes back replaces the stored
-one, and its "forms" replace its spellings. A link whose spelling no entry
+one, its "forms" replace its spellings and its "examples" replace its example
+sentences. A link whose spelling no entry
 claims any more is removed. Exporting and importing unchanged changes nothing.
 
 Linking reads the question text the way the practice page does and follows
@@ -65,7 +71,8 @@ from typing import Any
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import content_db as db  # noqa: E402
 
-ENTRY_FIELDS = ("headword", "part_of_speech", "definition_en", "definition_zh", "example_en", "example_zh")
+ENTRY_FIELDS = ("headword", "part_of_speech", "definition_en", "definition_zh")
+EXAMPLE_FIELDS = ("en", "zh")
 BASES = ("ai_draft", "human_checked")
 SCOPES = {"core": ("core",), "important": ("core", "important"), "all": ("core", "important", "basic")}
 QUOTED_WORD = re.compile(r"[\"“]([A-Za-z'’\-]+)[\"”]")
@@ -85,26 +92,40 @@ def read_entries(path: Path) -> list[dict[str, Any]]:
         forms = [spelling(str(form)) for form in entry.get("forms") or []]
         if missing or not forms:
             raise db.ContentError(f"{path}:{number}: needs forms and {', '.join(missing or ENTRY_FIELDS)}")
-        if any("|" in str(entry[field]) or "<" in str(entry[field]) for field in ENTRY_FIELDS):
+        examples = entry.get("examples")
+        if (not isinstance(examples, list) or len(examples) < db.VOCABULARY_EXAMPLES
+                or any(not isinstance(example, dict) or set(example) != set(EXAMPLE_FIELDS)
+                       or not all(str(example[field] or "").strip() for field in EXAMPLE_FIELDS)
+                       for example in examples)
+                or len({example["en"].strip() for example in examples}) != len(examples)):
+            raise db.ContentError(f"{path}:{number}: needs at least {db.VOCABULARY_EXAMPLES} different examples, "
+                                  "each with en and zh")
+        texts = [str(entry[field]) for field in ENTRY_FIELDS]
+        texts += [str(example[field]) for example in examples for field in EXAMPLE_FIELDS]
+        if any("|" in text or "<" in text for text in texts):
             raise db.ContentError(f"{path}:{number}: explanations are plain text")
         basis = entry.get("basis", "ai_draft")
         if basis not in BASES:
             raise db.ContentError(f"{path}:{number}: basis must be one of {', '.join(BASES)}")
         entries.append({"vocab_id": entry.get("id") or slug(entry["headword"]), "forms": forms, "basis": basis,
+                        "examples": [{field: str(example[field]).strip() for field in EXAMPLE_FIELDS}
+                                     for example in examples],
                         **{field: str(entry[field]).strip() for field in ENTRY_FIELDS}})
     return entries
 
 
 def add_entries(tables: db.Tables, entries: list[dict[str, Any]]) -> int:
-    """Add or replace explanations and their spellings; return how many links lost their spelling.
+    """Add or replace explanations with their examples and spellings; return how many links lost their spelling.
 
-    The spellings of an entry that comes in replace the ones it had. A link
-    whose spelling no entry claims afterwards is removed, so that linking the
-    same questions again would not bring it back under another rule.
+    The spellings and the examples of an entry that comes in replace the ones
+    it had. A link whose spelling no entry claims afterwards is removed, so
+    that linking the same questions again would not bring it back under
+    another rule.
     """
     rows = {row["vocab_id"]: row for row in tables["vocabulary"]}
     incoming = {entry["vocab_id"] for entry in entries}
     forms = {row["form"]: row["vocab_id"] for row in tables["vocabulary_form"] if row["vocab_id"] not in incoming}
+    examples = [row for row in tables["vocabulary_example"] if row["vocab_id"] not in incoming]
     for entry in entries:
         rows[entry["vocab_id"]] = {"vocab_id": entry["vocab_id"], **{field: entry[field] for field in ENTRY_FIELDS},
                                    "basis": entry["basis"]}
@@ -112,21 +133,29 @@ def add_entries(tables: db.Tables, entries: list[dict[str, Any]]) -> int:
             if forms.get(form, entry["vocab_id"]) != entry["vocab_id"]:
                 raise db.ContentError(f"'{form}' already belongs to {forms[form]}, not {entry['vocab_id']}")
             forms[form] = entry["vocab_id"]
+        examples += [{"vocab_id": entry["vocab_id"], "position": position,
+                      "example_en": example["en"], "example_zh": example["zh"]}
+                     for position, example in enumerate(entry["examples"], 1)]
     kept = [row for row in tables["question_vocabulary"] if spelling(row["surface"]) in forms]
     dropped = len(tables["question_vocabulary"]) - len(kept)
     tables["vocabulary"] = list(rows.values())
+    tables["vocabulary_example"] = examples
     tables["vocabulary_form"] = [{"form": form, "vocab_id": vocab_id} for form, vocab_id in forms.items()]
     tables["question_vocabulary"] = kept
     return dropped
 
 
 def export_entries(tables: db.Tables) -> list[dict[str, Any]]:
-    """Every explanation with its spellings, in the format read_entries takes, sorted by id."""
+    """Every explanation with its spellings and examples, in the format read_entries takes, sorted by id."""
     forms: dict[str, list[str]] = collections.defaultdict(list)
     for row in tables["vocabulary_form"]:
         forms[row["vocab_id"]].append(row["form"])
+    examples: dict[str, list[dict[str, str]]] = collections.defaultdict(list)
+    for row in sorted(tables["vocabulary_example"], key=lambda row: (row["vocab_id"], row["position"])):
+        examples[row["vocab_id"]].append({"en": row["example_en"], "zh": row["example_zh"]})
     return [{"id": row["vocab_id"], "forms": sorted(forms[row["vocab_id"]]),
-             **{field: row[field] for field in ENTRY_FIELDS}, "basis": row["basis"]}
+             **{field: row[field] for field in ENTRY_FIELDS}, "examples": examples[row["vocab_id"]],
+             "basis": row["basis"]}
             for row in sorted(tables["vocabulary"], key=lambda row: row["vocab_id"])]
 
 
@@ -189,8 +218,8 @@ def candidates(tables: db.Tables, questions: list[tuple[str, str | None]]) -> li
 def report(tables: db.Tables, root: Path) -> None:
     connection = db.load_sqlite(tables, root)
     try:
-        print(f"{len(tables['vocabulary'])} explanations, {len(tables['vocabulary_form'])} spellings, "
-              f"{len(tables['question_vocabulary'])} words linked in questions")
+        print(f"{len(tables['vocabulary'])} explanations, {len(tables['vocabulary_example'])} examples, "
+              f"{len(tables['vocabulary_form'])} spellings, {len(tables['question_vocabulary'])} words linked in questions")
         for importance, _, questions, annotated in connection.execute(
                 "SELECT * FROM vocabulary_coverage ORDER BY level DESC"):
             print(f"  {importance:10s} {annotated:5d} of {questions:5d} questions have explained words")

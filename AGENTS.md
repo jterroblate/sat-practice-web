@@ -7,7 +7,8 @@
 - 本仓库管理共同开发主线。任务从最新 `main` 建 `feat/*` 或 `fix/*`；开始前检查当前分支与 `git status`，保留已有未提交修改。
 - 真实结构化题库与必要题图已获仓库所有者授权纳入本仓，可进行有依据的内容修订。源码在生成器、模板和运行时修改，题目在 `content/canonical/` 修改；不从生成 HTML 反向提取内容，不只手改生成页。首次导出工具不是日常更新入口，禁止用重导出覆盖已经评审的协作内容。
 - `content/db/` 是题库的规范化表，其中已发布的题须与 `content/canonical/` 保持一致。改了 canonical 后运行 `python3 scripts/content_db.py normalize`，改了表后运行 `python3 scripts/content_db.py export`，两边一起提交。表里的草稿题（`status = draft`）不在站点上，发布前须逐题核对答案、转换正文并补齐必要图；说明见 `docs/content-db.md`。第三方教辅（来源等级 3）的来源和题目不进入这些表，导入脚本默认跳过。每道读写题须有细分题型和文章类别：导入或发布之后运行 `python3 scripts/classify_questions.py --apply`，词表拿不准的文章要逐篇判定，否则测试不通过。
-- 词汇解释在 `content/db/` 的 `vocabulary`、`vocabulary_form`、`question_vocabulary` 三张表里，用 `python3 scripts/annotate_vocabulary.py` 写入。例句必须另写，不取自任何题目；`basis` 如实填写（AI 写的是 `ai_draft`，有人逐条核对后才改成 `human_checked`）；选项里的词和「most nearly mean」题问的词只能在提交后打开，不要为了方便改成提交前可见。
+- 词汇解释在 `content/db/` 的 `vocabulary`、`vocabulary_example`、`vocabulary_form`、`question_vocabulary` 四张表里，用 `python3 scripts/annotate_vocabulary.py` 写入。每个词至少三个例句，例句必须另写，不取自任何题目；释义和例句都不得抄自牛津等词典（条目归出版方所有，页面只链接官网）；`basis` 如实填写（AI 写的是 `ai_draft`，有人逐条核对后才改成 `human_checked`）；选项里的词和「most nearly mean」题问的词只能在提交后打开，不要为了方便改成提交前可见。
+- 核心题的讲解在 `walkthrough`、`walkthrough_segment`、`walkthrough_choice` 三张表里，用 `python3 scripts/write_walkthrough.py` 写入，英文和中文都要写。讲解只依据题目和答案键；说「正确」的选项必须就是答案键里的那个，对不上时先核对题目，不要硬写。`basis` 如实填写。讲解只在提交并查看答案之后显示，不进 `explanation`，不改变 `gradingRevision`。
 - `build/site/` 是全库产物，`build/demo/` 是原创 fixture 产物，均不提交。测试账号、状态和学习记录使用合成数据；本仓公开题目不等于可以读取真实学生数据。
 - 题型工具是开发工具，不是自动确认答案、题源身份或模考资格的审核者。内容更改在 PR 中列明 `question_id`、字段、理由与可公开依据；不编造来源或共识记录。
 

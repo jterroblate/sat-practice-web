@@ -873,13 +873,29 @@ try {
   assert.deepEqual({marked:glossStart.marked, inChoices:glossStart.inChoices, panelHidden:glossStart.panelHidden, popoverHidden:glossStart.popoverHidden, text:glossStart.text},
     {marked:glossStart.passage, inChoices:0, panelHidden:true, popoverHidden:true, text:true},
     "Before submitting, the passage's hard words can be opened and nothing about the answer choices is shown");
+  assert.equal(await evaluate('document.querySelectorAll("[data-walk], .walk-en, .walk-zh").length'), 0, "Nothing of the walkthrough is on the page before the answer is submitted");
+  // Every layer of a word card: three examples, their translations with the Chinese layer, and a link to the dictionary's own page.
+  await evaluate(`(() => { document.querySelector("#stimulus .gloss").click(); document.querySelectorAll("#glossPopover details.gloss-layer").forEach(layer => { layer.open = true; }); })()`);
+  await waitForEvaluation('Boolean(document.querySelector("#glossPopover .gloss-body.zh-open") && document.querySelector("#glossPopover .sat-dictionary-link a"))', "the Chinese and dictionary layers of a word card");
+  const glossLayers = await evaluate(`(() => {
+    const anchor = document.querySelector("#stimulus .gloss"), entry = PAGE_VOCABULARY[anchor.dataset.gloss], card = document.getElementById("glossPopover");
+    const translations = [...card.querySelectorAll(".gloss-example-zh")], link = card.querySelector(".sat-dictionary-link a");
+    const result = {examples:entry.examples.length >= 3 && translations.length === entry.examples.length,
+      translations:translations.every((node, index) => node.textContent === entry.examples[index].chinese && getComputedStyle(node).display !== "none"),
+      oxford:link.href === satOxfordUrl(entry.word) && link.href.startsWith("https://www.oxfordlearnersdictionaries.com/"), newTab:link.target === "_blank" && link.rel.includes("noopener"),
+      nothingCopied:card.querySelectorAll(".sat-dictionary-entry").length === 0, inView:card.getBoundingClientRect().bottom <= innerHeight};
+    document.dispatchEvent(new KeyboardEvent("keydown", {key:"Escape", bubbles:true}));
+    return {...result, closed:card.hidden};
+  })()`);
+  assert.deepEqual(glossLayers, {examples:true, translations:true, oxford:true, newTab:true, nothingCopied:true, inView:true, closed:true},
+    "A word card holds three examples with translations and links to the dictionary's own page; it carries no dictionary text");
   const glossCard = await evaluate(`(() => {
     const anchor = document.querySelector("#stimulus .gloss"), entry = PAGE_VOCABULARY[anchor.dataset.gloss];
     anchor.click();
     const card = document.getElementById("glossPopover"), layers = card.querySelectorAll("details.gloss-layer");
     const first = {open:!card.hidden, expanded:anchor.getAttribute("aria-expanded"), word:card.querySelector(".gloss-word").textContent === entry.word,
-      english:card.querySelector(".gloss-english").textContent === entry.english, example:layers[0].open && layers[0].textContent.includes(entry.example),
-      chineseFolded:!layers[1].open && layers[1].querySelector("summary").textContent === "中文解释", chinese:layers[1].textContent.includes(entry.chinese) && layers[1].textContent.includes(entry.exampleChinese),
+      english:card.querySelector(".gloss-english").textContent === entry.english, example:layers[0].open && entry.examples.every(example => layers[0].textContent.includes(example.english)),
+      chineseFolded:!layers[1].open && layers[1].querySelector("summary").textContent === "中文解释" && !layers[2].open, chinese:layers[1].textContent.includes(entry.chinese) && getComputedStyle(card.querySelector(".gloss-example-zh")).display === "none",
       inView:card.getBoundingClientRect().top >= 0 && card.getBoundingClientRect().bottom <= innerHeight};
     card.querySelector("[data-gloss-save]").click();
     const saved = readSatVocabulary(learningStorage);
@@ -889,7 +905,7 @@ try {
     return {first, afterSave, closed:card.hidden, focusBack:document.activeElement === anchor};
   })()`);
   assert.deepEqual(glossCard.first, {open:true, expanded:"true", word:true, english:true, example:true, chineseFolded:true, chinese:true, inView:true},
-    "A word opens with its English definition and example; the Chinese layer is there but folded");
+    "A word opens with its English definition and examples; the Chinese layer, the translations and the dictionary layer are there but folded");
   assert.deepEqual(glossCard.afterSave, {count:1, word:true, english:true, question:true, context:true, marked:true, button:"true"}, "The card adds its word to the notebook");
   assert.deepEqual({closed:glossCard.closed, focusBack:glossCard.focusBack}, {closed:true, focusBack:true}, "Escape closes the card and returns to the word");
   await evaluate(`(() => { const q = currentQuestion(), index = q.choices.findIndex(choice => choice.label === q.correct_answer); document.querySelectorAll(".choice")[index].click(); document.getElementById("checkCurrentBtn").click(); })()`);
@@ -900,11 +916,12 @@ try {
     choiceRow.open = true;
     choiceRow.querySelector("[data-gloss-save]").click();
     return {hidden:panel.hidden, rows:rows.length, expected:ids.size, tagged:rows.filter(row => row.querySelector(".gloss-tag")).length > 0,
-      rowHasLayers:choiceRow.querySelectorAll("details.gloss-layer").length, saved:readSatVocabulary(learningStorage).length,
+      rowHasLayers:choiceRow.querySelectorAll("details.gloss-layer").length, chineseOpen:choiceRow.querySelector(".gloss-chinese").open && choiceRow.querySelector(".gloss-body").classList.contains("zh-open"),
+      saved:readSatVocabulary(learningStorage).length,
       savedShown:panel.querySelectorAll('[data-gloss-save][aria-pressed="true"]').length};
   })()`);
-  assert.deepEqual(glossPanel, {hidden:false, rows:glossPanel.expected, expected:glossPanel.expected, tagged:true, rowHasLayers:2, saved:2, savedShown:2},
-    "After submitting, every explained word of the question is listed, the choice words included, and can be added to the notebook");
+  assert.deepEqual(glossPanel, {hidden:false, rows:glossPanel.expected, expected:glossPanel.expected, tagged:true, rowHasLayers:3, chineseOpen:true, saved:2, savedShown:2},
+    "After submitting, every explained word of the question is listed with its Chinese open, the choice words included, and can be added to the notebook");
   // On a wide screen the bottom bar must sit below the panes, not on top of their last lines.
   await cdp.send("Emulation.setDeviceMetricsOverride", { width: 1280, height: 800, deviceScaleFactor: 1, mobile: false }, sessionId);
   const paneEnds = await evaluate(`(() => {
@@ -923,6 +940,23 @@ try {
   await cdp.send("Emulation.clearDeviceMetricsOverride", {}, sessionId);
   assert.deepEqual(paneEnds, {panes:true, scrolls:true, covered:paneEnds.covered.split(",").map(() => "0").join(), barInFlow:true, barAtBottom:true, pageScrolls:false},
     "Scrolled to the end, no pane has anything left under the bottom bar");
+  // The walkthrough of a core question: how to solve it, the text a part at a time, every choice, each in English and in Chinese.
+  const walkthrough = await evaluate(`(() => {
+    const question = currentQuestion(), walk = question.walkthrough, box = document.getElementById("explanation");
+    const segments = [...box.querySelectorAll('[data-walk="segments"] li')], choices = [...box.querySelectorAll("[data-walk-choice]")];
+    const both = node => Boolean(node?.querySelector(".walk-en")?.textContent.trim()) && /[\u4e00-\u9fff]/.test(node.querySelector(".walk-zh")?.textContent || "");
+    const written = box.querySelector(".explanation-written"), hasWritten = Boolean(question.explanation && (question.explanation.short || question.explanation.detailed));
+    return {stated:Boolean(walk), approach:both(box.querySelector('[data-walk="approach"]')),
+      segments:segments.length === walk.segments.length && segments.every(both),
+      excerpts:segments.every((node, index) => node.querySelector(".walk-excerpt").textContent.includes(walk.segments[index].excerpt.slice(0, 24))),
+      promptLast:Boolean(segments[segments.length - 1].querySelector(".walk-tag")) && walk.segments[walk.segments.length - 1].field === "prompt",
+      choices:choices.length === question.choices.length && choices.every(both),
+      keyed:choices.filter(node => node.classList.contains("is-correct")).map(node => node.dataset.walkChoice).join() === question.correct_answer,
+      ownExplanationFolded:Boolean(written) === hasWritten && !(written && written.open), notEmpty:!box.querySelector(".explanation-empty"),
+      level:"full"};
+  })()`);
+  assert.deepEqual(walkthrough, {stated:true, approach:true, segments:true, excerpts:true, promptLast:true, choices:true, keyed:true, ownExplanationFolded:true, notEmpty:true, level:"full"},
+    "After the answer is revealed a core question shows its walkthrough in English and Chinese, with the set file's own explanation folded beneath");
   await evaluate(`(() => {
     const prompt = document.getElementById("prompt"), range = document.createRange(), node = prompt.firstChild;
     const word = /[A-Za-z]{5,}/.exec(node.nodeValue);
@@ -936,18 +970,19 @@ try {
   await evaluate(`(() => { const word = readSatVocabulary(learningStorage).find(item => item.vocabId && item.questionId); updateSatVocabularyWord(learningStorage, word.word, {english:"stale wording"}); })()`);
   await navigate(`${origin}/index.html#vocabulary`);
   const notebook = await evaluate(`(() => {
-    const cards = [...document.querySelectorAll(".vocab-card")], explained = cards.find(card => card.querySelector("details.vocab-layer"));
+    const cards = [...document.querySelectorAll(".vocab-card")], explained = cards.find(card => card.querySelector("details.vocab-chinese"));
     const active = document.querySelector(".desktop-nav a.active")?.textContent;
     const layers = explained.querySelectorAll("details.vocab-layer");
     const stale = cards.map(card => card.querySelector(".vocab-english")?.textContent).filter(text => text === "stale wording").length;
     const current = cards.filter(card => MANIFEST.vocabulary.some(item => item.english === card.querySelector(".vocab-english")?.textContent)).length;
-    const shape = {cards:cards.length, active, folded:cards.every(card => !card.open), example:layers[0].open, chineseFolded:!layers[1].open, stale, current,
+    const shape = {cards:cards.length, active, folded:cards.every(card => !card.open), example:layers[0].open && explained.querySelectorAll(".vocab-examples li").length >= 3,
+      chineseOpen:layers[1].open && explained.querySelector(".vocab-layers").classList.contains("zh-open"), dictionary:cards.every(card => card.querySelector("details.sat-dictionary")), stale, current,
       back:[...cards].some(card => card.querySelector(".vocab-context a")?.getAttribute("href").includes("focus=")), meta:document.querySelector(".section-meta").textContent};
     explained.querySelector("[data-vocab-mastered]").click();
     return shape;
   })()`);
-  assert.deepEqual(notebook, {cards:3, active:"词汇", folded:true, example:true, chineseFolded:true, stale:0, current:2, back:true, meta:"3 个词 · 已掌握 0"},
-    "The notebook lists the saved words folded, English and example first, in the word list's current wording, with a way back to the question");
+  assert.deepEqual(notebook, {cards:3, active:"词汇", folded:true, example:true, chineseOpen:true, dictionary:true, stale:0, current:2, back:true, meta:"3 个词 · 已掌握 0"},
+    "The notebook lists the saved words folded, each with three examples, the Chinese and a dictionary layer, in the word list's current wording, with a way back to the question");
   const notebookAfter = await evaluate(`(() => {
     const learning = document.querySelectorAll(".vocab-card").length, meta = document.querySelector(".section-meta").textContent;
     document.getElementById("vocabAddInput").value = "ephemeral";
@@ -979,7 +1014,8 @@ try {
     const target = MANIFEST.vocabulary.find(item => !hasSatVocabularyWord(learningStorage, item.word));
     pick("glossaryQuery", target.word);
     const card = document.querySelector('#glossaryList .vocab-card[data-glossary="' + target.id + '"]'), layers = card.querySelectorAll("details.vocab-layer");
-    result.found = Boolean(card); result.folded = !card.open; result.example = layers[0].open; result.chineseFolded = !layers[1].open;
+    result.found = Boolean(card); result.folded = !card.open; result.example = layers[0].open && card.querySelectorAll(".vocab-examples li").length === target.examples.length && target.examples.length >= 3;
+    result.chineseOpen = layers[1].open && [...card.querySelectorAll(".vocab-translation")].every((node, index) => node.textContent === target.examples[index].chinese);
     result.usage = card.querySelector(".vocab-usage").textContent.includes(String(target.questions));
     const before = readSatVocabulary(learningStorage).length;
     card.querySelector("[data-glossary-save]").click();
@@ -993,7 +1029,7 @@ try {
   })()`);
   assert.ok(glossary.total > 1000, `The word list holds every explained word: ${glossary.total}`);
   assert.deepEqual({...glossary, total:0}, {total:0, shown:60, moreShown:true, byQuestions:true, counts:true, afterMore:120, byReal:true, byRare:true, byAlpha:true, adverbs:true,
-    found:true, folded:true, example:true, chineseFolded:true, usage:true, added:1, savedOnly:true, removed:0},
+    found:true, folded:true, example:true, chineseOpen:true, usage:true, added:1, savedOnly:true, removed:0},
     "The word list shows every explained word, sorts by how often it occurs, by real-exam use and by letter, filters, searches, and feeds the notebook");
 
   await cdp.send("Emulation.setDeviceMetricsOverride", { width: 390, height: 844, deviceScaleFactor: 1, mobile: false }, sessionId);
@@ -1047,8 +1083,10 @@ try {
         "chart_assets",
         "mobile_menu",
         "word_explanations_and_notebook",
+        "three_examples_and_dictionary_link",
         "word_list_sorting",
         "bottom_bar_clear_of_panes",
+        "walkthrough_after_reveal",
       ],
     }, null, 2)}\n`, "utf8");
   }
