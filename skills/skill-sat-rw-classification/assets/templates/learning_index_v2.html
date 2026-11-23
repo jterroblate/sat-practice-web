@@ -982,7 +982,7 @@
     function renderReview(tab) {
       const names = { wrong: "错题", unfinished: "未完成套题", starred: "星标", notes: "笔记与标注", redo: "最近重做正确" };
       const items = tab === "unfinished" ? unfinishedPages() : MANIFEST.questions.filter(question => reviewMatches(question, tab));
-      app.innerHTML = `<section class="panel" style="margin-top:0"><div class="section-title"><div><p class="eyebrow orange">MY REVIEW</p><h1>我的复习</h1><p>把值得再看的题集中在一个安静的复习队列里。</p></div><span class="section-meta">${items.length} ${tab === "unfinished" ? "套" : "题"}</span></div><div class="tabs">${Object.entries(names).map(([key, label]) => `<button data-tab="${key}" class="${key === tab ? "active" : ""}">${label}</button>`).join("")}</div><div class="review-list">${items.length ? items.map(tab === "unfinished" ? unfinishedPageCard : reviewCard).join("") : renderEmpty("当前分类没有内容，完成练习后会自动更新。")}</div></section>`;
+      app.innerHTML = `<section class="panel" style="margin-top:0"><div class="section-title"><div><p class="eyebrow orange">MY REVIEW</p><h1>我的复习</h1></div><span class="section-meta">${items.length} ${tab === "unfinished" ? "套" : "题"}</span></div><div class="tabs">${Object.entries(names).map(([key, label]) => `<button data-tab="${key}" class="${key === tab ? "active" : ""}">${label}</button>`).join("")}</div><div class="review-list">${items.length ? items.map(tab === "unfinished" ? unfinishedPageCard : reviewCard).join("") : renderEmpty("当前分类没有内容，完成练习后会自动更新。")}</div></section>`;
       app.querySelectorAll("[data-tab]").forEach(button => button.addEventListener("click", () => { location.hash = `review/${button.dataset.tab}`; }));
     }
 
@@ -1025,7 +1025,7 @@
     }
     function renderDiagnosis() {
       const rows = skillRows(), allRows = rows.flatMap(row => [{ row, subtype: false }, ...subtypeRows(row.skill).map(item => ({ row: item, subtype: true }))]);
-      app.innerHTML = `<section class="panel" style="margin-top:0"><div class="section-title"><div><p class="eyebrow purple">DIAGNOSIS</p><h1>学习诊断</h1><p>按题型查看作答、错题和到期复习。</p></div><span class="section-meta">少于 5 道已作答题时不判定薄弱项</span></div><div class="diagnosis-wrap"><table class="diagnosis"><thead><tr><th>题型 / subtype</th><th>已作答</th><th>正确率</th><th>待掌握错题</th><th>到期复习</th><th>结论</th></tr></thead><tbody>${allRows.map(item => diagnosisRow(item.row, item.subtype)).join("")}</tbody></table></div><div class="diagnosis-cards">${allRows.map(item => diagnosisCard(item.row, item.subtype)).join("")}</div></section>`;
+      app.innerHTML = `<section class="panel" style="margin-top:0"><div class="section-title"><div><p class="eyebrow purple">DIAGNOSIS</p><h1>学习诊断</h1></div><span class="section-meta">少于 5 道已作答题时不判定薄弱项</span></div><div class="diagnosis-wrap"><table class="diagnosis"><thead><tr><th>题型 / subtype</th><th>已作答</th><th>正确率</th><th>待掌握错题</th><th>到期复习</th><th>结论</th></tr></thead><tbody>${allRows.map(item => diagnosisRow(item.row, item.subtype)).join("")}</tbody></table></div><div class="diagnosis-cards">${allRows.map(item => diagnosisCard(item.row, item.subtype)).join("")}</div></section>`;
     }
 
     /* ---------- 生成练习 ----------
@@ -1119,20 +1119,20 @@
       return Math.min(BUILDER_MAX_COUNT, Math.max(1, Math.floor(Number(filters.count) || 0)));
     }
     function renderBuilder() {
-      const examCount = examEligiblePages().length, preset = route().tab;
+      const preset = route().tab;
       if (preset !== builderPreset && BUILDER_STATUSES.some(item => item.key === preset)) builderFilters.statuses = new Set([preset]);
       builderPreset = preset;
-      app.innerHTML = `<section class="panel" style="margin-top:0"><div class="section-title"><div><p class="eyebrow blue">PRACTICE</p><h1>生成今日练习</h1><p>按科目、专项、作答情况和难度，组合出一组适合现在练的题。</p></div></div>
+      app.innerHTML = `<section class="panel" style="margin-top:0"><div class="section-title"><div><p class="eyebrow blue">PRACTICE</p><h1>生成今日练习</h1><p>每一组都可以多选，不选就是不限。</p></div></div>
         <div class="builder"><form class="builder-form" id="builderForm">
           <fieldset class="builder-group"><legend>选择科目</legend><div class="subject-row" id="builderSubjects"></div></fieldset>
-          <fieldset class="builder-group"><legend>题目范围<small>可多选，不选即不限</small></legend><div class="chip-row" id="builderKinds"></div></fieldset>
-          <fieldset class="builder-group"><legend>选择专项<small>可多选，不选即全部专项</small></legend><div class="domain-grid" id="builderDomains"></div></fieldset>
-          <fieldset class="builder-group"><legend>选择知识点<small>可多选，不选即全部知识点</small></legend><div class="chip-row" id="builderSkills"></div></fieldset>
-          <fieldset class="builder-group"><legend>选择分类<small>按文本类型</small></legend><div class="chip-row" id="builderGenres"></div></fieldset>
-          <fieldset class="builder-group"><legend>按作答情况<small>可多选，不选即不限</small></legend><div class="chip-row" id="builderStatuses"></div></fieldset>
-          <fieldset class="builder-group" id="builderExplanationGroup"><legend>解析情况<small>可多选，不选即不限</small></legend><div class="chip-row" id="builderExplanations"></div></fieldset>
-          <fieldset class="builder-group"><legend>选择难度<small>可多选，不选即不限难度</small></legend><div class="level-grid" id="builderLevels"></div></fieldset>
-          <fieldset class="builder-group" id="builderBasisGroup"><legend>难度依据<small>可多选，不选即不限</small></legend><div class="chip-row" id="builderBases"></div><p class="builder-note">「估计」是只看题面推断的难度，仅供参考；真题的难度基本都是估计。</p></fieldset>
+          <fieldset class="builder-group"><legend>题目范围</legend><div class="chip-row" id="builderKinds"></div></fieldset>
+          <fieldset class="builder-group"><legend>选择专项</legend><div class="domain-grid" id="builderDomains"></div></fieldset>
+          <fieldset class="builder-group"><legend>选择知识点</legend><div class="chip-row" id="builderSkills"></div></fieldset>
+          <fieldset class="builder-group"><legend>选择分类</legend><div class="chip-row" id="builderGenres"></div></fieldset>
+          <fieldset class="builder-group"><legend>按作答情况</legend><div class="chip-row" id="builderStatuses"></div></fieldset>
+          <fieldset class="builder-group" id="builderExplanationGroup"><legend>解析情况</legend><div class="chip-row" id="builderExplanations"></div></fieldset>
+          <fieldset class="builder-group"><legend>选择难度</legend><div class="level-grid" id="builderLevels"></div></fieldset>
+          <fieldset class="builder-group" id="builderBasisGroup"><legend>难度依据</legend><div class="chip-row" id="builderBases"></div><p class="builder-note">「估计」只看题面推断，仅供参考。</p></fieldset>
           <fieldset class="builder-group"><legend>选择题量</legend><div class="count-row" id="builderCounts"></div></fieldset>
         </form>
         <aside class="builder-summary" aria-label="练习配置">
@@ -1149,7 +1149,7 @@
           <p class="builder-hint" id="builderHint" role="status" aria-live="polite"></p>
           <button class="action primary" id="buildSession" type="button">开始练习</button>
           <button class="builder-reset" id="resetBuilder" type="button">重置条件</button>
-        </aside></div>${examCount ? `<div class="quiet-note">已有 ${examCount} 套全真模考，可从顶部“模考”进入。</div>` : ""}</section>`;
+        </aside></div></section>`;
       const form = document.getElementById("builderForm");
       form.addEventListener("submit", event => event.preventDefault());
       form.addEventListener("change", event => {
@@ -1292,7 +1292,7 @@
     }
 
     function renderSearch() {
-      app.innerHTML = `<section class="panel" style="margin-top:0"><div class="section-title"><div><p class="eyebrow teal">QUESTION SEARCH</p><h1>全库搜索</h1><p>搜索文章、题干、选项、题型和来源套题。</p></div><span class="section-meta">${MANIFEST.uniqueQuestionCount} 道唯一题</span></div><div class="search-shell"><div class="search-controls"><input id="searchInput" type="search" placeholder="输入关键词" aria-label="搜索题目" aria-controls="searchResults" aria-describedby="searchStatus"><select id="skillFilter" aria-label="按题型筛选" aria-controls="searchResults"><option value="">全部题型</option>${skillRows().map(row => `<option>${escapeHtml(row.skill)}</option>`).join("")}</select><button class="action ghost" id="clearSearch" type="button">清空</button></div><p class="search-status" id="searchStatus" role="status" aria-live="polite" aria-atomic="true"></p></div><div class="review-list" id="searchResults" aria-busy="false" style="margin-top:14px">${renderEmpty("输入关键词或选择题型开始搜索。")}</div></section>`;
+      app.innerHTML = `<section class="panel" style="margin-top:0"><div class="section-title"><div><p class="eyebrow teal">QUESTION SEARCH</p><h1>全库搜索</h1></div><span class="section-meta">${MANIFEST.uniqueQuestionCount} 道唯一题</span></div><div class="search-shell"><div class="search-controls"><input id="searchInput" type="search" placeholder="输入关键词" aria-label="搜索题目" aria-controls="searchResults" aria-describedby="searchStatus"><select id="skillFilter" aria-label="按题型筛选" aria-controls="searchResults"><option value="">全部题型</option>${skillRows().map(row => `<option>${escapeHtml(row.skill)}</option>`).join("")}</select><button class="action ghost" id="clearSearch" type="button">清空</button></div><p class="search-status" id="searchStatus" role="status" aria-live="polite" aria-atomic="true"></p></div><div class="review-list" id="searchResults" aria-busy="false" style="margin-top:14px">${renderEmpty("输入关键词或选择题型开始搜索。")}</div></section>`;
       const input = document.getElementById("searchInput"), filter = document.getElementById("skillFilter"), results = document.getElementById("searchResults"), status = document.getElementById("searchStatus");
       let searchTimer, composing = false, active = true;
       const isCurrentView = () => active && route().root === "search" && document.getElementById("searchInput") === input;

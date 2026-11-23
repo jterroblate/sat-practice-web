@@ -642,7 +642,7 @@ try {
   assert.equal(view.selectedChoices, 0);
   assert.equal(view.correctChoices, 0);
   assert.equal(view.explanation, "");
-  assert.match(await evaluate('document.getElementById("modeBanner").textContent'), /旧选择、正确答案、解析、笔记和标注均已隐藏/);
+  assert.match(await evaluate('document.getElementById("modeBanner").textContent'), /空白重做 · 原来的作答和解析已隐藏/);
   assert.equal(await evaluate('document.getElementById("reflectionPanel").hidden'), true);
   await evaluate(`(() => { const index=QUESTIONS[0].choices.findIndex(choice=>choice.label!==QUESTIONS[0].correct_answer); document.querySelectorAll(".choice")[index].click(); })()`);
   await evaluate('document.getElementById("checkCurrentBtn").click()');
@@ -703,7 +703,20 @@ try {
   await evaluate(`(() => {const q=QUESTIONS[current],index=q.choices.findIndex(choice=>choice.label!==q.correct_answer);document.querySelectorAll(".choice")[index].click()})()`);
   await evaluate('document.getElementById("nextBtn").click()');
   await evaluate(`(() => {const q=QUESTIONS[current],index=q.choices.findIndex(choice=>choice.label!==q.correct_answer);document.querySelectorAll(".choice")[index].click()})()`);
+  const timerRunning = await evaluate(`(() => {
+    const box = document.getElementById("questionTimer"), toggle = document.getElementById("questionTimerToggle");
+    const running = {hidden:box.hidden, clock:/^00:0\\d$/.test(document.getElementById("questionTimerValue").textContent), toggle:toggle.textContent, counting:Boolean(timerStartedAt)};
+    toggle.click();
+    const paused = {paused:box.classList.contains("paused"), toggle:toggle.textContent, counting:Boolean(timerStartedAt)};
+    toggle.click();
+    readQuestionTimes()[timerKey] = {ms:65000, at:""};
+    return {running, paused, resumed:Boolean(timerStartedAt), hint:document.getElementById("feedback").textContent, saved:document.getElementById("syncStatus").textContent};
+  })()`);
+  assert.deepEqual(timerRunning, {running:{hidden:false, clock:true, toggle:"暂停", counting:true}, paused:{paused:true, toggle:"继续", counting:false}, resumed:true, hint:"", saved:""},
+    "The per-question timer runs, pauses and resumes; no filler text sits under the choices or in the footer");
   await evaluate('document.getElementById("checkAllBtn").click()');
+  assert.deepEqual(await evaluate(`({clock:document.getElementById("questionTimerValue").textContent, toggleHidden:document.getElementById("questionTimerToggle").hidden, counting:Boolean(timerStartedAt)})`),
+    {clock:"用时 01:05", toggleHidden:true, counting:false}, "Submitting freezes the question's timer");
   const batch = await evaluate(`(() => { const page=JSON.parse(localStorage.getItem(window.__satFixtureRawKey(storageKey))); return {states:QUESTIONS.slice(0,2).map(q=>page.answers[q.question_id]),feedback:document.getElementById("feedback").textContent,correct:document.querySelectorAll(".choice.correct").length,explanation:document.getElementById("explanation").textContent.trim(),items:reviewItems()}; })()`);
   assert.ok(batch.states.every(item => item.submitted && !item.revealed), JSON.stringify(batch.states));
   assert.equal(batch.feedback, "回答错误");

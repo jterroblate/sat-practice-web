@@ -408,6 +408,15 @@
       white-space: nowrap;
     }
     #starBtn:hover { background: var(--sat-bg-control); }
+    .question-timer { display: inline-flex; align-items: center; gap: 6px; margin-left: auto; padding-left: 8px; }
+    .question-timer[hidden] { display: none; }
+    .question-timer-value { min-width: 46px; color: var(--sat-text-main); font-size: 15px; font-weight: 600; font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
+    .question-timer.paused .question-timer-value { color: var(--sat-text-muted); }
+    .question-timer.done { padding-right: 8px; }
+    .question-timer.done .question-timer-value { color: var(--sat-text-muted); font-weight: 500; }
+    #questionTimerToggle { min-height: 34px; padding: 5px 12px; background: transparent; color: var(--sat-text-main); font-size: 14px; white-space: nowrap; }
+    #questionTimerToggle:hover { background: var(--sat-bg-control); }
+    #questionTimerToggle[aria-pressed="true"] { background: var(--sat-blue-muted); color: var(--sat-blue-text); }
     .question-actions {
       display: flex;
       align-items: center;
@@ -464,6 +473,7 @@
       font-family: var(--sat-font-ui); font-size: var(--sat-font-size-ui-sm); line-height: 1.45;
       border: 0; color: var(--sat-text-muted); background: transparent;
     }
+    .feedback:empty, .review-hint:empty, .sync-status:empty { display: none; }
     .feedback.correct, .feedback.incorrect { padding: 12px 16px; border-radius: var(--sat-radius-control); font-size: var(--sat-font-size-ui); font-weight: 600; }
     .feedback.correct { color: var(--sat-correct-text); background: var(--sat-correct-bg); }
     .feedback.incorrect { color: var(--sat-incorrect-text); background: var(--sat-incorrect-bg); }
@@ -935,10 +945,14 @@
       <div class="question-meta">
         <h1 class="question-number" id="questionNumber"></h1>
         <button id="starBtn" type="button">☆ 加入复习</button>
+        <div class="question-timer" id="questionTimer" hidden>
+          <span class="question-timer-value" id="questionTimerValue" aria-label="本题用时">00:00</span>
+          <button id="questionTimerToggle" type="button" aria-pressed="false">暂停</button>
+        </div>
       </div>
       <p class="prompt" id="prompt"></p>
       <div class="choices" id="choices"></div>
-      <div class="feedback" id="feedback" role="status" aria-live="polite">请选择答案，准备好后提交。</div>
+      <div class="feedback" id="feedback" role="status" aria-live="polite"></div>
       <p class="source-line" id="sourceLine" hidden></p>
       <div class="question-actions">
         <button id="checkCurrentBtn" type="button">提交本题</button>
@@ -965,14 +979,14 @@
           <label class="error-option"><input type="checkbox" value="time">时间不足</label>
         </div>
         <label for="noteInput" class="reflection-label">我的笔记</label>
-        <textarea class="note-input" id="noteInput" placeholder="记录自己的思路、证据或下次提醒……"></textarea>
-        <div class="review-hint" id="reflectionHint">信心、错因、笔记和正文标注会保存到统一复习中心。</div>
+        <textarea class="note-input" id="noteInput"></textarea>
+        <div class="review-hint" id="reflectionHint"></div>
       </section>
     </section>
   </main>
 
   <footer class="nav" id="practiceNav">
-    <span class="sync-status" id="syncStatus">本机已保存</span>
+    <span class="sync-status" id="syncStatus"></span>
     <button id="overviewBtn" type="button" aria-controls="overviewPanel"><span class="progress" id="progressText">Question 0 of 0</span></button>
     <div class="nav-buttons">
       <button id="prevBtn" type="button">上一题</button>
@@ -1058,6 +1072,9 @@
 
     const els = {
       progressText: document.getElementById("progressText"),
+      questionTimer: document.getElementById("questionTimer"),
+      questionTimerValue: document.getElementById("questionTimerValue"),
+      questionTimerToggle: document.getElementById("questionTimerToggle"),
       examModeBtn: document.getElementById("examModeBtn"),
       examShell: document.getElementById("examShell"),
       practiceLayout: document.getElementById("practiceLayout"),
@@ -2396,7 +2413,7 @@
       if (deferGlobal) scheduleGlobalPersist();
       else globalStored = flushGlobalState();
       if (updateSyncStatus && pageStored && globalStored) {
-        setSyncStatus(cloudSession ? "等待同步" : "本机已保存");
+        setSyncStatus(cloudSession ? "等待同步" : "");
       }
     }
 
@@ -2513,6 +2530,7 @@
       setExamChrome(false);
       els.resetBtn.hidden = redoMode || Boolean(activeSessionId);
       if (activeSessionId && !practiceSession) {
+        syncQuestionTimer(null);
         els.progressText.textContent = "今日练习暂不可用";
         els.stimulus.textContent = "请确认登录状态后，从学习首页重新建立今日练习。原作答记录未更改。";
         els.choices.innerHTML = "";
@@ -2523,6 +2541,7 @@
         return;
       }
       if (!QUESTIONS.length) {
+        syncQuestionTimer(null);
         applyChartLayout(null);
         els.progressText.textContent = "No questions available";
         els.stimulus.innerHTML = '<div class="empty-stimulus">No usable questions were included in this section.</div>';
@@ -2549,14 +2568,11 @@
       els.checkAllBtn.hidden = redoMode;
       els.exportJsonBtn.closest(".export-group").hidden = redoMode;
       els.returnOriginalBtn.hidden = !redoMode || Boolean(practiceSession);
-      els.modeBanner.classList.toggle("visible", redoMode || invalidRedoQuestionId || sessionIndex >= 0);
-      els.modeBanner.textContent = practiceSession
-        ? `今日空白练习 · ${sessionIndex + 1}/${session.questions.length} · 作答自动保存在本次会话`
-        : invalidRedoQuestionId
+      const bannerText = invalidRedoQuestionId
         ? `无法定位重做题目 ${requestedRedoQuestionId}，已保留当前页面。请返回学习中心重新进入。`
-        : redoMode
-        ? "空白重做：旧选择、正确答案、解析、笔记和标注均已隐藏。"
-        : sessionIndex >= 0 ? `今日专项练习 · ${sessionIndex + 1}/${session.questions.length}` : "";
+        : redoMode && !practiceSession ? "空白重做 · 原来的作答和解析已隐藏" : "";
+      els.modeBanner.classList.toggle("visible", Boolean(bannerText));
+      els.modeBanner.textContent = bannerText;
       els.prompt.innerHTML = formatStimulusInline(question.prompt || "");
 
       const stimulusParts = [];
@@ -2619,6 +2635,7 @@
       els.prevBtn.disabled = sessionIndex >= 0 ? sessionIndex === 0 : current === 0;
       els.nextBtn.disabled = sessionIndex >= 0 ? sessionIndex === session.questions.length - 1 : current === QUESTIONS.length - 1;
       renderQuestionList(qs);
+      syncQuestionTimer(question, qs);
     }
 
     function updateChoiceSelection(qs) {
@@ -2660,6 +2677,7 @@
       renderReflection(qs);
       updateCurrentOverviewButton(qs);
       renderQuestionList(qs);
+      syncQuestionTimer(question, qs);
       els.starBtn.textContent = qs.starred ? "★ 已加入复习" : "☆ 加入复习";
       els.checkCurrentBtn.disabled = qs.submitted || !qs.selected;
       els.revealBtn.disabled = !qs.submitted;
@@ -2682,7 +2700,7 @@
       renderSourceLine(qs);
       els.feedback.className = "feedback";
       if (!qs.submitted) {
-        els.feedback.textContent = qs.selected ? "已选择答案，准备好后提交。" : "请选择答案，准备好后提交。";
+        els.feedback.textContent = "";
         return;
       }
       if (qs.correct) {
@@ -2830,6 +2848,137 @@
     document.addEventListener("keydown", event => {
       if (event.key === "Escape" && moreMenu.open) { moreMenu.open = false; moreMenu.querySelector("summary").focus(); }
     });
+
+    /* ---------- 单题计时 ----------
+       每道题单独累计作答用时。页面不可见、手动暂停或切到别的题时不计，提交后定格。
+       和学习时长一样只存在本机：不进云端 DTO，也不参与合并。空白重做每次从零开始，
+       不落盘。模考有自己的模块计时，不用这个。 */
+    const QUESTION_TIME_KEY = "sat-learning:question-time:v1";
+    const QUESTION_TIME_LIMIT = 6000;
+    let questionTimes = null, questionTimesOwner = "";
+    let timerKey = "", timerStartedAt = 0, timerPaused = false, timerFrozen = false, timerSavedAt = 0;
+
+    function readQuestionTimes() {
+      const owner = learningStorage.token();
+      if (questionTimes && questionTimesOwner === owner) return questionTimes;
+      questionTimes = {};
+      questionTimesOwner = owner;
+      try {
+        const stored = asRecord(JSON.parse(learningStorage.getItem(QUESTION_TIME_KEY) || "null"));
+        for (const [key, value] of Object.entries(asRecord(stored.times))) {
+          if (value && Number.isFinite(value.ms) && value.ms >= 0) {
+            questionTimes[key] = { ms: Math.floor(value.ms), at: typeof value.at === "string" ? value.at : "" };
+          }
+        }
+      } catch {}
+      return questionTimes;
+    }
+
+    function writeQuestionTimes() {
+      if (!learningStorage.ready()) return;
+      try {
+        const times = readQuestionTimes(), kept = {};
+        // Only one practice session exists at a time, so another session's times are stale.
+        const session = practiceSession ? `s:${practiceSession.id}:` : "";
+        let keys = Object.keys(times).filter(key => !key.startsWith("r:") && (!key.startsWith("s:") || (session && key.startsWith(session))));
+        if (keys.length > QUESTION_TIME_LIMIT) {
+          keys = keys.sort((left, right) => times[left].at.localeCompare(times[right].at)).slice(-QUESTION_TIME_LIMIT);
+        }
+        for (const key of keys) kept[key] = times[key];
+        learningStorage.setItem(QUESTION_TIME_KEY, JSON.stringify({ version: 1, times: kept }));
+        timerSavedAt = Date.now();
+      } catch {}
+    }
+
+    function questionTimerKey(question) {
+      if (!question || requestedExamMode) return "";
+      const id = question.question_id;
+      if (practiceSession && practiceSession.questions.some(item => item.questionId === id)) return `s:${practiceSession.id}:${id}`;
+      return redoMode && id === redoQuestionId ? `r:${id}` : `q:${id}`;
+    }
+
+    function questionTimerElapsed() {
+      const stored = timerKey && readQuestionTimes()[timerKey];
+      return (stored ? stored.ms : 0) + (timerStartedAt ? Math.max(0, Date.now() - timerStartedAt) : 0);
+    }
+
+    // Fold the stretch that is running into the question's total.
+    function holdQuestionTimer({ save = true } = {}) {
+      if (timerKey && timerStartedAt) {
+        const times = readQuestionTimes();
+        const entry = times[timerKey] || (times[timerKey] = { ms: 0, at: "" });
+        entry.ms += Math.max(0, Date.now() - timerStartedAt);
+        entry.at = nowIso();
+        timerStartedAt = 0;
+        if (save) writeQuestionTimes();
+      }
+    }
+
+    function runQuestionTimer() {
+      if (timerKey && !timerFrozen && !timerPaused && !timerStartedAt && document.visibilityState === "visible") {
+        timerStartedAt = Date.now();
+      }
+    }
+
+    function restartQuestionTimer(keys) {
+      const times = readQuestionTimes();
+      for (const key of keys) {
+        delete times[key];
+        if (key === timerKey) timerStartedAt = 0;
+      }
+      writeQuestionTimes();
+    }
+
+    function formatQuestionTime(ms) {
+      const total = Math.floor(ms / 1000), pad = value => String(value).padStart(2, "0");
+      const hours = Math.floor(total / 3600), clock = `${pad(Math.floor(total % 3600 / 60))}:${pad(total % 60)}`;
+      return hours ? `${hours}:${clock}` : clock;
+    }
+
+    function paintQuestionTimer() {
+      const elapsed = questionTimerElapsed();
+      // A question answered before timing existed has nothing to show.
+      const shown = Boolean(timerKey) && !(timerFrozen && elapsed < 1000);
+      els.questionTimer.hidden = !shown;
+      if (!shown) return;
+      els.questionTimer.classList.toggle("paused", timerPaused && !timerFrozen);
+      els.questionTimer.classList.toggle("done", timerFrozen);
+      els.questionTimerValue.textContent = (timerFrozen ? "用时 " : "") + formatQuestionTime(elapsed);
+      els.questionTimerToggle.hidden = timerFrozen;
+      els.questionTimerToggle.textContent = timerPaused ? "继续" : "暂停";
+      els.questionTimerToggle.setAttribute("aria-pressed", String(timerPaused));
+    }
+
+    function syncQuestionTimer(question, qs) {
+      const key = questionTimerKey(question);
+      if (key !== timerKey) {
+        holdQuestionTimer();
+        timerKey = key;
+        timerPaused = false;
+      }
+      timerFrozen = Boolean(qs && qs.submitted);
+      if (timerFrozen) holdQuestionTimer();
+      else runQuestionTimer();
+      paintQuestionTimer();
+    }
+
+    els.questionTimerToggle.addEventListener("click", () => {
+      if (timerFrozen) return;
+      if (timerPaused) { timerPaused = false; runQuestionTimer(); }
+      else { holdQuestionTimer(); timerPaused = true; }
+      paintQuestionTimer();
+    });
+    setInterval(() => {
+      if (!timerStartedAt) return;
+      if (Date.now() - timerSavedAt > 15000) { holdQuestionTimer(); runQuestionTimer(); }
+      paintQuestionTimer();
+    }, 1000);
+    document.addEventListener("visibilitychange", () => {
+      if (document.visibilityState === "hidden") holdQuestionTimer();
+      else runQuestionTimer();
+      paintQuestionTimer();
+    });
+    window.addEventListener("pagehide", () => holdQuestionTimer());
 
     // Whether the list is shown is a per-tab view preference, kept out of the learning store.
     const QUESTION_LIST_VIEW_KEY = "sat-ui:question-list";
@@ -3070,9 +3219,7 @@
         input.disabled = !qs.submitted || qs.correct;
       });
       if (els.noteInput.value !== (qs.note || "")) els.noteInput.value = qs.note || "";
-      els.reflectionHint.textContent = qs.submitted && !qs.correct
-        ? "请选择主要错因；需要看答案时再点击“查看答案与解析”。"
-        : "信心、笔记和正文标注会保存到统一复习中心。";
+      els.reflectionHint.textContent = "";
     }
 
     function applyHighlights(snippets) {
@@ -3420,8 +3567,8 @@
     }
 
     function setSyncStatus(message, kind = "") {
-      els.syncStatus.textContent = CLOUD_LOCAL_ONLY
-        ? message + " · 本套暂不同步云端"
+      els.syncStatus.textContent = !message ? ""
+        : CLOUD_LOCAL_ONLY ? message + " · 本套暂不同步云端"
         : message;
       els.syncStatus.dataset.kind = kind;
     }
@@ -3679,7 +3826,7 @@
       if (!bindLearningIdentity(session)) return Promise.resolve();
       if (CLOUD_LOCAL_ONLY) {
         cloudSession = null;
-        if (els.syncStatus.dataset.kind !== "error") setSyncStatus("仅使用本机记录");
+        if (els.syncStatus.dataset.kind !== "error") setSyncStatus("");
         if (window.satCloudbaseReleaseGate) window.satCloudbaseReleaseGate();
         return Promise.resolve();
       }
@@ -3826,9 +3973,11 @@
           writeLocalJson(SESSION_KEY, practiceSession);
         }
         explanationOpen[question.question_id] = false;
+        restartQuestionTimer([questionTimerKey(question)]);
         render();
         return;
       }
+      restartQuestionTimer([`r:${question.question_id}`]);
       redoMode = true;
       redoQuestionId = question.question_id;
       redoSession = defaultQuestionState();
@@ -3940,6 +4089,7 @@
       closeResetConfirmation();
       state = { current: 0, answers: {}, resetAt: nowIso() };
       current = 0;
+      restartQuestionTimer(QUESTIONS.map(question => `q:${question.question_id}`));
       for (const id of Object.keys(explanationOpen)) delete explanationOpen[id];
       persistLocalState();
       queueCloudSave();
