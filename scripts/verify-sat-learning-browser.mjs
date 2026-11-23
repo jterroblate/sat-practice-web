@@ -905,6 +905,24 @@ try {
   })()`);
   assert.deepEqual(glossPanel, {hidden:false, rows:glossPanel.expected, expected:glossPanel.expected, tagged:true, rowHasLayers:2, saved:2, savedShown:2},
     "After submitting, every explained word of the question is listed, the choice words included, and can be added to the notebook");
+  // On a wide screen the bottom bar must sit below the panes, not on top of their last lines.
+  await cdp.send("Emulation.setDeviceMetricsOverride", { width: 1280, height: 800, deviceScaleFactor: 1, mobile: false }, sessionId);
+  const paneEnds = await evaluate(`(() => {
+    document.querySelector("#glossPanel .gloss-list").open = true;
+    if (!document.getElementById("explanation").classList.contains("visible")) document.getElementById("revealBtn").click();
+    const bar = document.getElementById("practiceNav"), top = bar.getBoundingClientRect().top;
+    const panes = [...document.querySelectorAll("#practiceLayout > .pane, #practiceLayout > .question-list:not([hidden])")];
+    const covered = panes.map(pane => {
+      pane.scrollTop = pane.scrollHeight;
+      const last = [...pane.children].filter(child => child.offsetParent !== null).pop();
+      return Math.max(0, Math.round(Math.max(pane.getBoundingClientRect().bottom, last.getBoundingClientRect().bottom) - top));
+    });
+    return {panes:panes.length >= 2, scrolls:panes.some(pane => pane.scrollHeight > pane.clientHeight), covered:covered.join(), barInFlow:getComputedStyle(bar).position === "static",
+      barAtBottom:Math.round(bar.getBoundingClientRect().bottom) === innerHeight, pageScrolls:document.documentElement.scrollHeight > innerHeight};
+  })()`);
+  await cdp.send("Emulation.clearDeviceMetricsOverride", {}, sessionId);
+  assert.deepEqual(paneEnds, {panes:true, scrolls:true, covered:paneEnds.covered.split(",").map(() => "0").join(), barInFlow:true, barAtBottom:true, pageScrolls:false},
+    "Scrolled to the end, no pane has anything left under the bottom bar");
   await evaluate(`(() => {
     const prompt = document.getElementById("prompt"), range = document.createRange(), node = prompt.firstChild;
     const word = /[A-Za-z]{5,}/.exec(node.nodeValue);
@@ -1030,6 +1048,7 @@ try {
         "mobile_menu",
         "word_explanations_and_notebook",
         "word_list_sorting",
+        "bottom_bar_clear_of_panes",
       ],
     }, null, 2)}\n`, "utf8");
   }

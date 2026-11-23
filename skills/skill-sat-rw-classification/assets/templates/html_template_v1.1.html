@@ -227,7 +227,9 @@
       .mode-banner, .legacy-backup-notice { flex: 0 0 auto; }
       #practiceLayout { flex: 1 1 0; min-height: 0; margin: 0; grid-template-rows: minmax(0, 1fr); }
       #practiceLayout > .pane { overflow: auto; overscroll-behavior: contain; }
-      .nav { position: static; flex: 0 0 auto; }
+      /* By id: the general .nav rule further down makes the bar fixed for narrow screens and would
+         otherwise win here too, leaving the bar on top of the last lines of both panes. */
+      #practiceNav { position: static; flex: 0 0 auto; }
       .exam-shell.visible { flex: 1 1 0; min-height: 0; width: 100%; margin-bottom: 0; overflow: auto; }
     }
     .stimulus {
