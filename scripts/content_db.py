@@ -359,7 +359,8 @@ def normalize(root: Path = ROOT, existing: Tables | None = None) -> Tables:
     questions came from (source families, modules, placements in imported
     sources), a recorded difficulty with its basis, the task and the passage
     type are carried over from `existing`, as are the task and passage type
-    reference rows. Rows that nothing uses any more are dropped.
+    reference rows and the word explanations (scripts/annotate_vocabulary.py).
+    Rows that nothing uses any more are dropped.
     """
     existing = existing or {}
     derived = derive(root, existing)
@@ -424,6 +425,11 @@ def normalize(root: Path = ROOT, existing: Tables | None = None) -> Tables:
         "material": materials,
         "legacy_layout": derived["legacy_layout"], "material_item": derived["material_item"],
     }
+    glosses = [row for row in old("question_vocabulary") if row["question_id"] in questions]
+    explained = {row["vocab_id"] for row in glosses}
+    tables["vocabulary"] = [row for row in old("vocabulary") if row["vocab_id"] in explained]
+    tables["vocabulary_form"] = [row for row in old("vocabulary_form") if row["vocab_id"] in explained]
+    tables["question_vocabulary"] = glosses
     return {name: [json.loads(line) for line in text.splitlines()]
             for name, text in render_tables(tables, root).items()}
 
@@ -508,7 +514,13 @@ def question_metadata(tables: Tables, root: Path = ROOT) -> dict[str, Any]:
     belongs to. importance is 'core', 'important' or 'basic' and sittings the
     number of exam sittings the question came up at (view question_importance).
     taxonomy lists the tasks and passage types in display order, with each
-    task's share of real-exam questions (view task_frequency).
+    task's share of real-exam questions (view task_frequency). vocabulary
+    holds the word explanations the published questions use, and a question's
+    own vocabulary list says which words in which field they belong to. Each
+    explanation says in how many published Reading and Writing questions the
+    word is written (questions), how many of those are real-exam questions
+    (realExamQuestions) and how many times in all (occurrences); see
+    vocabulary_usage for what the count does not tell.
     """
     connection = load_sqlite(tables, root)
     try:
@@ -568,9 +580,144 @@ def question_metadata(tables: Tables, root: Path = ROOT) -> dict[str, Any]:
             "importance": [{"id": "core", "name": "核心"}, {"id": "important", "name": "重要"},
                            {"id": "basic", "name": "基础"}],
         }
+        used: set[str] = set()
+        for question_id, field, surface, vocab_id, reveal in connection.execute(
+                "SELECT question_id, field, surface, vocab_id, reveal FROM question_vocabulary"
+                " ORDER BY question_id, field, surface"):
+            if question_id in questions:
+                questions[question_id].setdefault("vocabulary", []).append(
+                    {"field": field, "surface": surface, "id": vocab_id, "reveal": reveal})
+                used.add(vocab_id)
+        reading = {question_id for (question_id,) in connection.execute(
+            "SELECT question_id FROM practice_pool WHERE status = 'published' AND section = 'reading_writing'")}
+        usage = vocabulary_usage(tables, reading)
+        vocabulary = {
+            vocab_id: {"word": headword, "partOfSpeech": part, "english": english, "chinese": chinese,
+                       "example": example, "exampleChinese": example_chinese, "basis": basis,
+                       "questions": len(usage[vocab_id]["questions"]),
+                       "realExamQuestions": sum(questions[question_id]["kind"] == "real_exam"
+                                                for question_id in usage[vocab_id]["questions"]),
+                       "occurrences": usage[vocab_id]["occurrences"]}
+            for vocab_id, headword, part, english, chinese, example, example_chinese, basis in connection.execute(
+                "SELECT vocab_id, headword, part_of_speech, definition_en, definition_zh, example_en, example_zh, basis"
+                "  FROM vocabulary ORDER BY vocab_id")
+            if vocab_id in used}
     finally:
         connection.close()
-    return {"schemaVersion": METADATA_SCHEMA, "taxonomy": taxonomy, "questions": questions}
+    return {"schemaVersion": METADATA_SCHEMA, "taxonomy": taxonomy, "vocabulary": vocabulary, "questions": questions}
+
+
+# ---------------------------------------------------------------- word explanations
+
+GLOSS_WORD = re.compile(r"[A-Za-z][A-Za-z'’\-]*[A-Za-z]|[A-Za-z]")
+GLOSS_MARKUP = re.compile(r"<[^>]*>|\[/?[A-Za-z]+\]")
+GLOSS_FIELDS = ("passage", "prompt", "choices")
+
+
+def gloss_words(value: Any) -> list[re.Match]:
+    """The words of a passage, prompt or choice, found the way the practice page finds them.
+
+    Inline markers such as [u] end a word, as the element boundary does on the
+    page. The page reads the same pattern off every text node.
+    """
+    return list(GLOSS_WORD.finditer(GLOSS_MARKUP.sub(lambda found: " " * len(found.group(0)), str(value or ""))))
+
+
+# What may stand before a capitalised word that merely starts a sentence, a choice or a list item.
+GLOSS_SENTENCE_START = set(".?!:\"“”‘—–-●•·|(\n")
+
+
+# A capitalised word after one of these is a surname, not the start of a sentence.
+GLOSS_TITLES = ("Mr.", "Mrs.", "Ms.", "Dr.", "St.", "Prof.", "Jr.", "Sr.", "Mt.")
+
+
+def gloss_spelling(word: str) -> str:
+    return word.replace("’", "'").lower()
+
+
+def gloss_is_ordinary(text: str, found: re.Match) -> bool:
+    """Lower case, or capitalised only because it starts a sentence, a choice or a list item.
+
+    A capitalised word inside a sentence is a name and is never read as vocabulary.
+    """
+    word = found.group(0)
+    if word == word.lower():
+        return True
+    if not (word[0].isupper() and word[1:] == word[1:].lower()):
+        return False
+    before = text[:found.start()].rstrip(" \t")
+    if before.endswith(GLOSS_TITLES):
+        return False
+    return not before or before[-1] in GLOSS_SENTENCE_START
+
+
+def gloss_texts(tables: Tables) -> dict[str, dict[str, str]]:
+    """question_id -> the text of each field a word explanation can sit in."""
+    texts = {row["question_id"]: {"passage": row["passage"] or "", "prompt": row["prompt"] or "", "choices": ""}
+             for row in tables["question"]}
+    for row in sort_rows(tables["choice"], ["question_id", "label"]):
+        texts[row["question_id"]]["choices"] += str(row["text"] or "") + "\n"
+    return texts
+
+
+def vocabulary_id(headword: str) -> str:
+    """The id an explanation of this headword gets: "in accordance with" -> "in-accordance-with"."""
+    return re.sub(r"[^a-z0-9]+", "-", headword.lower()).strip("-")
+
+
+def vocabulary_problems(tables: Tables) -> list[str]:
+    """What the schema cannot say about the word explanations.
+
+    - an explained word stands in the question text exactly as recorded;
+    - its spelling is one the list knows, so linking can be repeated;
+    - every explanation is found by at least one spelling;
+    - an id is made from its headword ("abut", or "abut-2" for a second sense).
+    """
+    texts = gloss_texts(tables)
+    present: dict[tuple[str, str], set[str]] = {}
+    spellings = {row["form"] for row in tables.get("vocabulary_form", [])}
+    problems = []
+    for row in tables.get("question_vocabulary", []):
+        key = (row["question_id"], row["field"])
+        if key not in present:
+            present[key] = {found.group(0) for found in gloss_words(texts.get(row["question_id"], {}).get(row["field"]))}
+        if row["surface"] not in present[key]:
+            problems.append(f"{DB_DIR}/question_vocabulary.jsonl: '{row['surface']}' is not a word in the "
+                            f"{row['field']} of {row['question_id']}")
+        elif gloss_spelling(row["surface"]) not in spellings:
+            problems.append(f"{DB_DIR}/question_vocabulary.jsonl: '{row['surface']}' in {row['question_id']} is not a "
+                            f"spelling in vocabulary_form")
+    found_by = {row["vocab_id"] for row in tables.get("vocabulary_form", [])}
+    for row in tables.get("vocabulary", []):
+        if row["vocab_id"] not in found_by:
+            problems.append(f"{DB_DIR}/vocabulary.jsonl: '{row['vocab_id']}' has no spelling in vocabulary_form")
+        made = vocabulary_id(row["headword"])
+        if not made or not re.fullmatch(re.escape(made) + r"(-[2-9])?", row["vocab_id"]):
+            problems.append(f"{DB_DIR}/vocabulary.jsonl: the id '{row['vocab_id']}' is not made from the headword "
+                            f"'{row['headword']}'")
+    return problems
+
+
+def vocabulary_usage(tables: Tables, question_ids: set[str]) -> dict[str, dict[str, Any]]:
+    """How often each explained word turns up in the given questions, by spelling.
+
+    vocab_id -> the questions whose passage, prompt or choices contain one of
+    the word's spellings, and the number of times it is written in them. The
+    count goes by spelling alone: it does not tell one sense of a word from
+    another, and it covers questions the word is not linked in.
+    """
+    forms = {row["form"]: row["vocab_id"] for row in tables.get("vocabulary_form", [])}
+    usage = {row["vocab_id"]: {"questions": set(), "occurrences": 0} for row in tables.get("vocabulary", [])}
+    texts = gloss_texts(tables)
+    for question_id in sorted(question_ids):
+        for field in GLOSS_FIELDS:
+            text = GLOSS_MARKUP.sub(lambda found: " " * len(found.group(0)), texts[question_id][field])
+            for found in gloss_words(text):
+                vocab_id = forms.get(gloss_spelling(found.group(0)))
+                if vocab_id in usage and gloss_is_ordinary(text, found):
+                    usage[vocab_id]["questions"].add(question_id)
+                    usage[vocab_id]["occurrences"] += 1
+    return usage
 
 
 # ---------------------------------------------------------------- checks
@@ -598,7 +745,7 @@ def check(root: Path = ROOT) -> list[str]:
         load_sqlite(tables, root).close()
     except ContentError as error:
         return [f"{DB_DIR}: {error}"]
-    problems = compare_with_canonical(tables, root)
+    problems = compare_with_canonical(tables, root) or vocabulary_problems(tables)
     if problems:
         return problems
     try:

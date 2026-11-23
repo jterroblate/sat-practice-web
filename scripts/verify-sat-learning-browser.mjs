@@ -852,6 +852,132 @@ try {
   assert.ok(Object.values(routeViews).slice(0, 4).every(Boolean), JSON.stringify(routeViews));
   assert.ok(routeViews.searchResults > 0, JSON.stringify(routeViews));
 
+  // Word explanations and the vocabulary notebook, on a page whose first question has explained words.
+  await navigate(`${origin}/index.html`);
+  await evaluate("localStorage.clear()");
+  await navigate(`${origin}/sets/15-2025-10-apac-b.html`);
+  const glossStart = await evaluate(`(() => {
+    const question = currentQuestion(), links = question.vocabulary || [];
+    const marked = [...document.querySelectorAll("#stimulus .gloss")].map(node => node.textContent);
+    return {
+      passage: links.filter(link => link.field === "passage").map(link => link.surface).sort().join(),
+      marked: [...new Set(marked)].sort().join(),
+      choices: links.filter(link => link.field === "choices").length,
+      inChoices: document.querySelectorAll("#choices .gloss").length,
+      panelHidden: document.getElementById("glossPanel").hidden,
+      popoverHidden: document.getElementById("glossPopover").hidden,
+      text: document.getElementById("stimulus").textContent === (() => { const copy = document.getElementById("stimulus").cloneNode(true); copy.querySelectorAll(".gloss").forEach(node => node.replaceWith(node.textContent)); return copy.textContent; })(),
+    };
+  })()`);
+  assert.ok(glossStart.passage && glossStart.choices > 0, JSON.stringify(glossStart));
+  assert.deepEqual({marked:glossStart.marked, inChoices:glossStart.inChoices, panelHidden:glossStart.panelHidden, popoverHidden:glossStart.popoverHidden, text:glossStart.text},
+    {marked:glossStart.passage, inChoices:0, panelHidden:true, popoverHidden:true, text:true},
+    "Before submitting, the passage's hard words can be opened and nothing about the answer choices is shown");
+  const glossCard = await evaluate(`(() => {
+    const anchor = document.querySelector("#stimulus .gloss"), entry = PAGE_VOCABULARY[anchor.dataset.gloss];
+    anchor.click();
+    const card = document.getElementById("glossPopover"), layers = card.querySelectorAll("details.gloss-layer");
+    const first = {open:!card.hidden, expanded:anchor.getAttribute("aria-expanded"), word:card.querySelector(".gloss-word").textContent === entry.word,
+      english:card.querySelector(".gloss-english").textContent === entry.english, example:layers[0].open && layers[0].textContent.includes(entry.example),
+      chineseFolded:!layers[1].open && layers[1].querySelector("summary").textContent === "中文解释", chinese:layers[1].textContent.includes(entry.chinese) && layers[1].textContent.includes(entry.exampleChinese),
+      inView:card.getBoundingClientRect().top >= 0 && card.getBoundingClientRect().bottom <= innerHeight};
+    card.querySelector("[data-gloss-save]").click();
+    const saved = readSatVocabulary(learningStorage);
+    const afterSave = {count:saved.length, word:saved[0]?.word === entry.word, english:saved[0]?.english === entry.english, question:saved[0]?.questionId === currentQuestion().question_id,
+      context:Boolean(saved[0]?.context), marked:anchor.classList.contains("is-saved"), button:card.querySelector("[data-gloss-save]").getAttribute("aria-pressed")};
+    document.dispatchEvent(new KeyboardEvent("keydown", {key:"Escape", bubbles:true}));
+    return {first, afterSave, closed:card.hidden, focusBack:document.activeElement === anchor};
+  })()`);
+  assert.deepEqual(glossCard.first, {open:true, expanded:"true", word:true, english:true, example:true, chineseFolded:true, chinese:true, inView:true},
+    "A word opens with its English definition and example; the Chinese layer is there but folded");
+  assert.deepEqual(glossCard.afterSave, {count:1, word:true, english:true, question:true, context:true, marked:true, button:"true"}, "The card adds its word to the notebook");
+  assert.deepEqual({closed:glossCard.closed, focusBack:glossCard.focusBack}, {closed:true, focusBack:true}, "Escape closes the card and returns to the word");
+  await evaluate(`(() => { const q = currentQuestion(), index = q.choices.findIndex(choice => choice.label === q.correct_answer); document.querySelectorAll(".choice")[index].click(); document.getElementById("checkCurrentBtn").click(); })()`);
+  const glossPanel = await evaluate(`(() => {
+    const panel = document.getElementById("glossPanel"), rows = [...panel.querySelectorAll(".gloss-row")];
+    const links = currentQuestion().vocabulary || [], ids = new Set(links.map(link => link.id));
+    const choiceRow = rows.find(row => row.querySelector(".gloss-tag"));
+    choiceRow.open = true;
+    choiceRow.querySelector("[data-gloss-save]").click();
+    return {hidden:panel.hidden, rows:rows.length, expected:ids.size, tagged:rows.filter(row => row.querySelector(".gloss-tag")).length > 0,
+      rowHasLayers:choiceRow.querySelectorAll("details.gloss-layer").length, saved:readSatVocabulary(learningStorage).length,
+      savedShown:panel.querySelectorAll('[data-gloss-save][aria-pressed="true"]').length};
+  })()`);
+  assert.deepEqual(glossPanel, {hidden:false, rows:glossPanel.expected, expected:glossPanel.expected, tagged:true, rowHasLayers:2, saved:2, savedShown:2},
+    "After submitting, every explained word of the question is listed, the choice words included, and can be added to the notebook");
+  await evaluate(`(() => {
+    const prompt = document.getElementById("prompt"), range = document.createRange(), node = prompt.firstChild;
+    const word = /[A-Za-z]{5,}/.exec(node.nodeValue);
+    range.setStart(node, word.index); range.setEnd(node, word.index + word[0].length);
+    getSelection().removeAllRanges(); getSelection().addRange(range);
+    document.getElementById("vocabularyBtn").click();
+  })()`);
+  const ownWord = await evaluate(`(() => { const words = readSatVocabulary(learningStorage); return {count:words.length, custom:words.filter(item => item.custom).length, flashed:document.getElementById("vocabularyBtn").textContent.startsWith("已加入")}; })()`);
+  assert.deepEqual(ownWord, {count:3, custom:1, flashed:true}, "Any selected word can be added to the notebook");
+  // A saved copy that has gone stale: the notebook must show the list's current wording instead.
+  await evaluate(`(() => { const word = readSatVocabulary(learningStorage).find(item => item.vocabId && item.questionId); updateSatVocabularyWord(learningStorage, word.word, {english:"stale wording"}); })()`);
+  await navigate(`${origin}/index.html#vocabulary`);
+  const notebook = await evaluate(`(() => {
+    const cards = [...document.querySelectorAll(".vocab-card")], explained = cards.find(card => card.querySelector("details.vocab-layer"));
+    const active = document.querySelector(".desktop-nav a.active")?.textContent;
+    const layers = explained.querySelectorAll("details.vocab-layer");
+    const stale = cards.map(card => card.querySelector(".vocab-english")?.textContent).filter(text => text === "stale wording").length;
+    const current = cards.filter(card => MANIFEST.vocabulary.some(item => item.english === card.querySelector(".vocab-english")?.textContent)).length;
+    const shape = {cards:cards.length, active, folded:cards.every(card => !card.open), example:layers[0].open, chineseFolded:!layers[1].open, stale, current,
+      back:[...cards].some(card => card.querySelector(".vocab-context a")?.getAttribute("href").includes("focus=")), meta:document.querySelector(".section-meta").textContent};
+    explained.querySelector("[data-vocab-mastered]").click();
+    return shape;
+  })()`);
+  assert.deepEqual(notebook, {cards:3, active:"词汇", folded:true, example:true, chineseFolded:true, stale:0, current:2, back:true, meta:"3 个词 · 已掌握 0"},
+    "The notebook lists the saved words folded, English and example first, in the word list's current wording, with a way back to the question");
+  const notebookAfter = await evaluate(`(() => {
+    const learning = document.querySelectorAll(".vocab-card").length, meta = document.querySelector(".section-meta").textContent;
+    document.getElementById("vocabAddInput").value = "ephemeral";
+    document.getElementById("vocabAddForm").requestSubmit();
+    const added = document.querySelectorAll(".vocab-card").length;
+    document.getElementById("vocabAddInput").value = "12345";
+    document.getElementById("vocabAddForm").requestSubmit();
+    const refused = document.getElementById("vocabStatus").textContent;
+    document.querySelector('[data-vocab-remove="ephemeral"]').click();
+    return {learning, meta, added, refused:refused.startsWith("请输入"), afterRemove:document.querySelectorAll(".vocab-card").length, stored:readSatVocabulary(learningStorage).length};
+  })()`);
+  assert.deepEqual(notebookAfter, {learning:2, meta:"3 个词 · 已掌握 1", added:3, refused:true, afterRemove:2, stored:3},
+    "Words can be marked as mastered, added by hand and removed");
+  await evaluate(`document.querySelector('[data-vocab-view="list"]').click()`);
+  await waitForEvaluation('location.hash === "#vocabulary/list" && Boolean(document.getElementById("glossaryList"))', "the word list");
+  const glossary = await evaluate(`(() => {
+    const pick = (id, value) => { const control = document.getElementById(id); control.value = value; control.dispatchEvent(new Event(control.tagName === "INPUT" ? "input" : "change", {bubbles:true})); };
+    const words = () => [...document.querySelectorAll("#glossaryList .vocab-card")].map(card => MANIFEST.vocabulary.find(item => item.id === card.dataset.glossary));
+    const sorted = (rows, key, direction) => rows.every((row, index) => index === 0 || direction * (rows[index - 1][key] - row[key]) >= 0);
+    const result = {total:MANIFEST.vocabulary.length, shown:words().length, moreShown:!document.getElementById("glossaryMoreRow").hidden,
+      byQuestions:sorted(words(), "questions", 1), counts:MANIFEST.vocabulary.every(item => item.questions >= 1 && item.realExamQuestions <= item.questions && item.questions <= item.occurrences)};
+    document.getElementById("glossaryMore").click();
+    result.afterMore = words().length;
+    pick("glossarySort", "real"); result.byReal = sorted(words(), "realExamQuestions", 1);
+    pick("glossarySort", "rare"); result.byRare = sorted(words(), "questions", -1);
+    pick("glossarySort", "alpha"); result.byAlpha = words().every((row, index, rows) => index === 0 || rows[index - 1].word.localeCompare(row.word, "en", {sensitivity:"base"}) <= 0);
+    pick("glossaryPart", "adv."); result.adverbs = words().length > 0 && words().every(row => row.partOfSpeech.split("/").includes("adv."));
+    pick("glossaryPart", "all");
+    const target = MANIFEST.vocabulary.find(item => !hasSatVocabularyWord(learningStorage, item.word));
+    pick("glossaryQuery", target.word);
+    const card = document.querySelector('#glossaryList .vocab-card[data-glossary="' + target.id + '"]'), layers = card.querySelectorAll("details.vocab-layer");
+    result.found = Boolean(card); result.folded = !card.open; result.example = layers[0].open; result.chineseFolded = !layers[1].open;
+    result.usage = card.querySelector(".vocab-usage").textContent.includes(String(target.questions));
+    const before = readSatVocabulary(learningStorage).length;
+    card.querySelector("[data-glossary-save]").click();
+    result.added = readSatVocabulary(learningStorage).length - before;
+    pick("glossarySaved", "saved"); pick("glossaryQuery", "");
+    result.savedOnly = words().length === readSatVocabulary(learningStorage).filter(item => !item.custom).length;
+    document.querySelector('#glossaryList [data-glossary-save="' + target.id + '"]').click();
+    result.removed = before - readSatVocabulary(learningStorage).length;
+    pick("glossarySaved", "all");
+    return result;
+  })()`);
+  assert.ok(glossary.total > 1000, `The word list holds every explained word: ${glossary.total}`);
+  assert.deepEqual({...glossary, total:0}, {total:0, shown:60, moreShown:true, byQuestions:true, counts:true, afterMore:120, byReal:true, byRare:true, byAlpha:true, adverbs:true,
+    found:true, folded:true, example:true, chineseFolded:true, usage:true, added:1, savedOnly:true, removed:0},
+    "The word list shows every explained word, sorts by how often it occurs, by real-exam use and by letter, filters, searches, and feeds the notebook");
+
   await cdp.send("Emulation.setDeviceMetricsOverride", { width: 390, height: 844, deviceScaleFactor: 1, mobile: false }, sessionId);
   await navigate(`${origin}/index.html#home`);
   const mobile = await evaluate(`(() => {
@@ -902,6 +1028,8 @@ try {
         "search",
         "chart_assets",
         "mobile_menu",
+        "word_explanations_and_notebook",
+        "word_list_sorting",
       ],
     }, null, 2)}\n`, "utf8");
   }

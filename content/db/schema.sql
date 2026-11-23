@@ -243,6 +243,44 @@ CREATE TABLE material_item (
   UNIQUE (content_id, question_id)
 ) STRICT;
 
+-- Hard words explained for learners. One row is one word in one sense: a plain
+-- English definition, a Chinese one, and an example sentence that is not taken
+-- from any question, with its translation. basis says who vouches for the
+-- wording: 'ai_draft' was written by an AI model and not checked by a person.
+CREATE TABLE vocabulary (
+  vocab_id       TEXT PRIMARY KEY CHECK (vocab_id GLOB '[a-z]*' AND vocab_id NOT GLOB '*[^a-z0-9-]*'),
+  headword       TEXT NOT NULL CHECK (headword <> ''),
+  part_of_speech TEXT NOT NULL CHECK (part_of_speech <> ''),
+  definition_en  TEXT NOT NULL CHECK (definition_en <> ''),
+  definition_zh  TEXT NOT NULL CHECK (definition_zh <> ''),
+  example_en     TEXT NOT NULL CHECK (example_en <> ''),
+  example_zh     TEXT NOT NULL CHECK (example_zh <> ''),
+  basis          TEXT NOT NULL CHECK (basis IN ('ai_draft', 'human_checked')),
+  UNIQUE (headword, definition_en)
+) STRICT;
+
+-- The spellings an explanation is found by, in lower case: the word and its
+-- inflected forms. A spelling belongs to one explanation; a question whose
+-- text uses it in another sense says so in question_vocabulary.
+CREATE TABLE vocabulary_form (
+  form     TEXT PRIMARY KEY CHECK (form <> '' AND form = lower(form)),
+  vocab_id TEXT NOT NULL REFERENCES vocabulary (vocab_id)
+) STRICT;
+
+-- Which explained words a question contains. surface is the word exactly as
+-- it stands in the passage, the prompt or the choices. reveal says when the
+-- learner may open the explanation: the answer choices, and the word a
+-- "most nearly mean" question asks about, only after the answer is submitted.
+CREATE TABLE question_vocabulary (
+  question_id TEXT NOT NULL REFERENCES question (question_id),
+  field       TEXT NOT NULL CHECK (field IN ('passage', 'prompt', 'choices')),
+  surface     TEXT NOT NULL CHECK (surface <> ''),
+  vocab_id    TEXT NOT NULL REFERENCES vocabulary (vocab_id),
+  reveal      TEXT NOT NULL CHECK (reveal IN ('always', 'after_submit')),
+  PRIMARY KEY (question_id, field, surface),
+  CHECK (field <> 'choices' OR reveal = 'after_submit')
+) STRICT;
+
 -- Derived, never stored.
 
 -- Every source a question is known from: imported files, the source named on a
@@ -376,3 +414,24 @@ CREATE VIEW practice_pool AS
     JOIN question_explanation x USING (question_id)
     JOIN question_importance i USING (question_id)
     LEFT JOIN question_origin o USING (question_id);
+
+-- How far the word explanations reach: published Reading and Writing questions
+-- by importance, and how many of them have at least one explained word.
+CREATE VIEW vocabulary_coverage AS
+  SELECT p.importance, p.importance_level AS level, count(*) AS questions,
+         sum(EXISTS (SELECT 1 FROM question_vocabulary v WHERE v.question_id = p.question_id)) AS annotated
+    FROM practice_pool p
+   WHERE p.status = 'published' AND p.section = 'reading_writing'
+   GROUP BY p.importance, p.importance_level;
+
+-- One line per explained word, for looking after the list: who vouches for
+-- it, how many spellings it is found by, and in how many questions it is
+-- linked (and in how many of those it opens only after the answer is in).
+CREATE VIEW vocabulary_use AS
+  SELECT v.vocab_id, v.headword, v.part_of_speech, v.basis,
+         (SELECT count(*) FROM vocabulary_form f WHERE f.vocab_id = v.vocab_id) AS spellings,
+         count(DISTINCT l.question_id) AS questions,
+         count(DISTINCT CASE WHEN l.reveal = 'after_submit' THEN l.question_id END) AS after_submit_questions
+    FROM vocabulary v
+    LEFT JOIN question_vocabulary l USING (vocab_id)
+   GROUP BY v.vocab_id;

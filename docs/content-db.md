@@ -31,6 +31,9 @@
 | `material` | `content_id` | 站点上的一份套题或专项 | 107 |
 | `material_item` | `content_id` + `position` | 套题的第几题是哪道题 | 4,067 |
 | `legacy_layout` | `layout_id` | 一条 canonical 记录里各个键的先后顺序 | 63 |
+| `vocabulary` | `vocab_id` | 一个难词的一个义项：英文释义、中文释义、例句和例句译文，以及释义由谁负责（`basis`） | 1,168 |
+| `vocabulary_form` | `form` | 找到这个词所用的拼写（小写的原形和变形），每个拼写只属于一条解释 | 1,776 |
+| `question_vocabulary` | `question_id` + `field` + `surface` | 一道题的文章、题干或选项里有哪些带解释的词，原样写法是什么，什么时候可以打开 | 2,059 |
 
 ```mermaid
 erDiagram
@@ -48,6 +51,9 @@ erDiagram
     material ||--|{ material_item : lists
     question ||--o{ material_item : "placed in"
     source ||--o{ material : "reproduced by"
+    vocabulary ||--|{ vocabulary_form : "found by"
+    vocabulary ||--o{ question_vocabulary : explains
+    question ||--o{ question_vocabulary : contains
 ```
 
 SQLite 强制执行的约束包括：
@@ -70,6 +76,8 @@ SQLite 强制执行的约束包括：
 | `task_frequency` | 每个细分题型在真题里的题数和占比 | 看哪类题考得多 |
 | `question_skill_conflict` | 细分题型所属的题型和套题文件里记录的题型不一致的题 | 待核对的分类 |
 | `practice_pool` | 一道题的科目、大类、题型、细分题型、文章类别、真题或练习、年份、难度、重要性、解析完整度、状态 | 按范围选题、随机刷题 |
+| `vocabulary_coverage` | 每个重要性档次有多少道已发布的读写题，其中多少道有带解释的词 | 看词汇解释做到了哪里 |
+| `vocabulary_use` | 一条解释：由谁负责、有几个拼写、关联了几道题、其中几道要提交后才能打开 | 维护词汇表时查看 |
 
 一道题既在真题里出现过、又在题库文件里出现过时，按真题算。
 
@@ -137,7 +145,79 @@ python3 scripts/classify_questions.py --review-in 文件 --apply   # 写入人�
 
 不存，由视图 `question_explanation` 从 `explanation` 和 `choice` 两张表算出，所以不会和解析内容对不上。目前已发布的 4,054 道题里：完整 1,752，简要 905，暂无 1,397。
 
-构建站点时这几项都写进 `MANIFEST.questions`：`task`、`passageType`、`importance`、`examSittings`、`explanationLevel`；名称和顺序在 `MANIFEST.taxonomy`。`explanationLevel` 由构建脚本按同一规则从发布的题目内容算出，测试保证它和视图一致。
+构建站点时这几项都写进 `MANIFEST.questions`：`task`、`passageType`、`importance`、`examSittings`、`explanationLevel`；名称和顺序在 `MANIFEST.taxonomy`。词汇解释分两处：每个练习页只带自己那些题用到的解释（页面里的 `satPageVocabulary`），题目上的 `vocabulary` 列出各个词在哪个字段、什么时候可以打开；学习中心带完整的一份（`MANIFEST.vocabulary`，按词排序，每个词连同上面三个出现次数），用于词汇表，约 0.4 MB。`explanationLevel` 由构建脚本按同一规则从发布的题目内容算出，测试保证它和视图一致。
+
+## 词汇解释
+
+做题页上，文章和题干里比较难的词可以点开看解释；提交之后还能看到这道题全部带解释的词，包括选项里的。数据在三张表里，由 [scripts/annotate_vocabulary.py](../scripts/annotate_vocabulary.py) 写入：
+
+```sh
+python3 scripts/annotate_vocabulary.py                          # 报告做到了哪里
+python3 scripts/annotate_vocabulary.py --entries FILE --apply   # 加入或替换解释，并关联到题目
+python3 scripts/annotate_vocabulary.py --scope all --apply      # 把已有的解释关联到更多题目
+python3 scripts/annotate_vocabulary.py --candidates             # 列出范围内还没有解释的词，按题库里出现的题数从少到多
+python3 scripts/annotate_vocabulary.py --export FILE            # 把全部解释导出成一个文件，用来通读和修改
+```
+
+一条解释（`vocabulary`）是一个词的一个义项，按给学习者看的顺序写：
+
+1. `definition_en`：英文释义，用比这个词更简单的词写，不照抄词典。
+2. `example_en`：例句。**必须是另写的句子，不能取自任何题目**，并且要用到这个词（测试会检查这两点）。
+3. `definition_zh`、`example_zh`：中文释义和例句译文。页面上这一层默认收起，看不懂英文释义时再展开。
+
+`basis` 写明释义由谁负责：`ai_draft` 是 AI 写的、没有经过人工核对；有人逐条核对过之后改成 `human_checked`。**目前 1,168 条全部是 `ai_draft`。**
+
+关联（`question_vocabulary`）按三条固定的规则生成，所以重复运行不会有变化：
+
+- 只认小写的词，或者因为在句首、选项开头、列表项开头才大写的词。句子中间大写的词当作人名或专名，不关联（例如人名 Clementina Rind 里的 Rind 不会被当成"果皮"）；跟在 Mr.、Dr. 这类称呼后面的大写词也当作姓氏。
+- `reveal` 写明什么时候可以打开：选项里的词一律是 `after_submit`（提交后）；「most nearly mean」题问的那个词，在文章和题干里也是 `after_submit`；其余文章和题干里的词是 `always`。数据库有约束：选项里的词不可能是 `always`。
+- 已经记录的关联不会被改动。一个词在某道题里是另一个义项时，直接改那一行的 `vocab_id` 即可，脚本不会改回去。
+
+`surface` 是这个词在题目里的原样写法。`content_db.py check` 会核对它确实是那道题那个字段里的一个词；找词的规则（`gloss_words`）和做题页用的是同一个正则，`[u]` 这类标记会把词断开。
+
+### 维护
+
+三张表各管一件事，互相之间由外键和检查保证对得上：
+
+| 想做的事 | 做法 |
+| --- | --- |
+| 通读、改正释义或例句 | `--export FILE` 导出，在文件里改，再用 `--entries FILE --apply` 导入。导入的条目整条替换原来的 |
+| 有人核对过一条 | 在导出的文件里把那一条的 `basis` 改成 `human_checked`，再导入 |
+| 去掉一个不该匹配的拼写 | 在导出的文件里从那一条的 `forms` 删掉它再导入。条目的拼写以导入的为准；不再属于任何条目的拼写，它在各题里的关联会一并删除 |
+| 同一个拼写在某道题里是另一个意思 | 给另一个意思单独写一条（id 用 `词-2`），再把 `question_vocabulary.jsonl` 里那一行的 `vocab_id` 改成它。已有的关联不会被脚本改回去 |
+| 加新词 | 写进一个条目文件，用 `--entries FILE --apply` 导入 |
+| 看每条解释的使用情况 | `python3 scripts/content_db.py sqlite` 之后查视图 `vocabulary_use` |
+
+导出的文件原样导入，三张表不会有任何变化（有测试）。改完运行 `python3 scripts/content_db.py check`，它除了外键和取值约束之外还检查：
+
+- 关联里的词确实是那道题那个字段里的一个词；
+- 关联里的词的拼写在 `vocabulary_form` 里有记录，所以重新关联能得到同样的结果；
+- 每条解释至少有一个拼写；
+- 每条解释都被至少一道题用到（没有用到的会被 `normalize` 去掉）；
+- `vocab_id` 由词目生成（`abut`，第二个义项是 `abut-2`）；同一个词目不能有两条英文释义完全相同的解释。
+
+出现次数、覆盖范围、使用情况都是算出来的，不存表，所以不会和三张表对不上。
+
+### 拼写和出现次数
+
+`vocabulary_form` 里除了核心题里实际出现的写法，还补了规则变形：名词的复数、动词的第三人称单数、过去式和 -ing 形式，前提是这个写法在已发布的题目里出现过。补的 404 个都看过一遍，去掉了 6 个明显是另一个意思的（例如 stun 的 stunning、impose 的 imposing、streak 的 streaks），另外手工加了 criterion 的复数 criteria。
+
+每个词在题库里出现多少次不存表，由 `content_db.vocabulary_usage()` 在构建时按拼写数出来，写进页面数据：
+
+| 字段 | 含义 |
+| --- | --- |
+| `questions` | 已发布的读写题里，文章、题干或选项写到这个词的题数 |
+| `realExamQuestions` | 其中真题的题数 |
+| `occurrences` | 一共出现的次数 |
+
+这三个数**只按拼写数，不分义项**，也不限于已经关联的核心题：例如 attribute 的 61 道题里既有动词"归因于"，也有名词"特征"。目前出现最多的是 hypothesize（94 道题，其中真题 72 道）；1,168 个词里有 220 个只在一道题里出现。
+
+范围和现状：
+
+- 这一轮只做了**核心题**（`question_importance` 为 `core` 的 345 道）。其中 339 道有带解释的词，另外 6 道的文字很浅，没有够得上标准的词。重要和基础两档还没有做。
+- 选词是人工逐个挑的（这一轮由 AI 完成）：从核心题用到的约 4,300 个词里挑出学术词、抽象词、文学和古语用词，以及读懂文章必需的专业词，没有用词频表之类的外部数据。
+- 把范围扩大到其他题目时，同一个拼写可能是另一个义项（例如 `temperate` 指气候温和，也指人有节制）。`--scope all` 只按拼写关联，关联之后需要有人看一遍。
+- 没有收词组，只有三个固定搭配按其中的一个词收了（in accordance with、in conjunction with、by virtue of）。
 
 ## 模考
 
@@ -265,4 +345,4 @@ python3 scripts/publish_drafts.py
 - `sat-content-registry.json` 没有并入。
 - 数学题全部是草稿，公式显示和填空判分没有做。
 - 没有解析的已发布题，页面的解析区会显示空的小标题。
-- 首页把全部题目的正文写进一个文件，题量增加后 `index.html` 约 7.7 MB。
+- 首页把全部题目的正文写进一个文件，题量增加后 `index.html` 约 8.7 MB（其中词汇表约 0.4 MB）。

@@ -485,6 +485,52 @@
       background: var(--sat-explanation-bg); line-height: 1.55; overflow: hidden;
     }
     .explanation.visible { display: block; }
+
+    /* 词汇解释：正文里的难词可以点开，提交后在“本题词汇”里逐条展开 */
+    .gloss {
+      text-decoration: underline dotted var(--sat-blue-border); text-decoration-thickness: 1.5px; text-underline-offset: 3px;
+      border-radius: 4px; cursor: pointer; transition: background .15s ease;
+    }
+    .gloss:hover, .gloss[aria-expanded="true"] { background: var(--sat-blue-muted); }
+    .gloss:focus-visible { outline: none; box-shadow: var(--sat-focus-ring); }
+    .gloss.is-saved { background: rgba(255, 204, 0, .24); }
+    .gloss-popover {
+      position: fixed; z-index: 40; width: min(340px, calc(100vw - 24px)); max-height: min(70vh, 460px); overflow: auto;
+      padding: 14px 16px 16px; border: 1px solid var(--sat-hairline); border-radius: var(--sat-radius-panel);
+      background: var(--sat-bg-panel); box-shadow: var(--sat-shadow-popover);
+      font-family: var(--sat-font-ui); font-size: var(--sat-font-size-ui); line-height: 1.5; color: var(--sat-text-main);
+    }
+    .gloss-popover[hidden], .gloss-panel[hidden] { display: none; }
+    .gloss-head { display: flex; align-items: baseline; gap: 8px; margin-bottom: 6px; }
+    .gloss-word { font-size: 18px; font-weight: 700; letter-spacing: -.01em; }
+    .gloss-pos { color: var(--sat-text-muted); font-size: var(--sat-font-size-ui-sm); }
+    .gloss-tag { padding: 1px 7px; border-radius: var(--sat-radius-pill); background: var(--sat-bg-control); color: var(--sat-text-muted); font-size: 11px; font-weight: 600; }
+    .gloss-close { margin-left: auto; min-height: 28px; width: 28px; padding: 0; font-size: 18px; line-height: 1; color: var(--sat-text-muted); }
+    .gloss-english { margin: 0 0 8px; font-size: 15px; }
+    .gloss-layer { border-top: 1px solid var(--sat-explanation-border); padding: 8px 0 2px; }
+    .gloss-layer > summary { cursor: pointer; color: var(--sat-text-muted); font-size: var(--sat-font-size-ui-xs); font-weight: 700; list-style-position: inside; }
+    .gloss-layer > summary:focus-visible { outline: none; box-shadow: var(--sat-focus-ring); border-radius: 6px; }
+    .gloss-layer p { margin: 6px 0 4px; }
+    .gloss-example { color: var(--sat-text-main); font-family: var(--sat-font-reading); font-size: 16px; line-height: 1.4; }
+    .gloss-chinese .gloss-example { font-family: var(--sat-font-ui); font-size: var(--sat-font-size-ui); color: var(--sat-text-muted); }
+    .gloss-save { margin-top: 10px; min-height: 34px; padding: 6px 14px; font-size: var(--sat-font-size-ui-sm); font-weight: 600; background: var(--sat-blue-muted); color: var(--sat-blue-text); }
+    .gloss-save.is-saved { background: rgba(255, 204, 0, .24); color: var(--sat-text-main); }
+    .gloss-panel { margin-top: 16px; font-family: var(--sat-font-ui); }
+    .gloss-list { border: 1px solid var(--sat-explanation-border); border-radius: var(--sat-radius-panel); background: var(--sat-bg-panel); overflow: hidden; }
+    .gloss-list > summary { display: flex; align-items: center; gap: 8px; padding: 12px 16px; cursor: pointer; font-size: var(--sat-font-size-ui); font-weight: 700; list-style: none; }
+    .gloss-list > summary::-webkit-details-marker { display: none; }
+    .gloss-list > summary::after { content: "展开"; margin-left: auto; color: var(--sat-blue-text); font-size: var(--sat-font-size-ui-sm); font-weight: 600; }
+    .gloss-list[open] > summary::after { content: "收起"; }
+    .gloss-count { padding: 1px 8px; border-radius: var(--sat-radius-pill); background: var(--sat-bg-control); color: var(--sat-text-muted); font-size: var(--sat-font-size-ui-xs); }
+    .gloss-row { border-top: 1px solid var(--sat-explanation-border); padding: 0 16px; }
+    .gloss-row > summary { display: flex; align-items: baseline; gap: 8px; padding: 10px 0; cursor: pointer; list-style: none; }
+    .gloss-row > summary::-webkit-details-marker { display: none; }
+    .gloss-row > summary strong { font-size: 15px; }
+    .gloss-row > summary::after { content: "+"; margin-left: auto; color: var(--sat-text-muted); font-weight: 600; }
+    .gloss-row[open] > summary::after { content: "−"; }
+    .gloss-row[open] { padding-bottom: 14px; background: var(--sat-bg-subtle); }
+    .gloss-list-foot { border-top: 1px solid var(--sat-explanation-border); padding: 10px 16px; font-size: var(--sat-font-size-ui-sm); }
+    .gloss-list-foot a { color: var(--sat-blue-text); text-decoration: none; }
     .choice-analysis p { margin: 6px 0; padding: 4px 0; }
     .nav {
       position: fixed;
@@ -888,6 +934,7 @@
     <div class="toolbar">
       <button id="questionListBtn" type="button" aria-pressed="false" aria-controls="questionList" hidden>题目列表</button>
       <button id="highlightBtn" type="button">保存选中文本</button>
+      <button id="vocabularyBtn" type="button" title="先选中一个英文单词或短语，再点这里">加入生词本</button>
       <details class="more-menu" id="moreMenu">
         <summary>更多</summary>
         <div class="more-panel" id="morePanel">
@@ -961,6 +1008,7 @@
         <button id="returnOriginalBtn" type="button" hidden>返回原作答</button>
       </div>
       <div class="explanation" id="explanation"></div>
+      <section class="gloss-panel" id="glossPanel" aria-label="本题词汇" hidden></section>
       <section class="reflection" id="reflectionPanel">
         <div class="reflection-row">
           <span class="reflection-label">答题信心</span>
@@ -999,7 +1047,10 @@
     <img id="chartLightboxImage" src="" alt="题目图表大图">
   </div>
 
+  <div class="gloss-popover" id="glossPopover" role="dialog" aria-label="词汇解释" hidden></div>
+
   <script type="application/json" id="satPageMeta">__PAGE_META_JSON__</script>
+  <script type="application/json" id="satPageVocabulary">__PAGE_VOCABULARY_JSON__</script>
   <script>
     __SAT_STORAGE_RUNTIME__
     const learningStorage = createSatLearningStore();
@@ -1107,6 +1158,9 @@
       retryBtn: document.getElementById("retryBtn"),
       returnOriginalBtn: document.getElementById("returnOriginalBtn"),
       highlightBtn: document.getElementById("highlightBtn"),
+      vocabularyBtn: document.getElementById("vocabularyBtn"),
+      glossPanel: document.getElementById("glossPanel"),
+      glossPopover: document.getElementById("glossPopover"),
       reflectionPanel: document.getElementById("reflectionPanel"),
       errorTagsRow: document.getElementById("errorTagsRow"),
       noteInput: document.getElementById("noteInput"),
@@ -1656,6 +1710,8 @@
       els.resetBtn.hidden = active;
       els.syncStatus.hidden = active;
       els.examModeBtn.hidden = active || !EXAM_CONFIG || redoMode;
+      els.vocabularyBtn.hidden = active;
+      if (active) { closeGloss(); els.glossPanel.hidden = true; }
       if (!active) els.modeBanner.classList.remove("visible");
     }
 
@@ -2605,6 +2661,7 @@
       }
       const visualRenderBlocked = Boolean(els.stimulus.querySelector("[data-visual-error]"));
       if (!redoMode) applyHighlights(qs.highlights || []);
+      closeGloss();
 
       els.choices.innerHTML = "";
       (question.choices || []).forEach(choice => {
@@ -2640,6 +2697,7 @@
         els.feedback.textContent = "本题视觉材料校验失败，已禁止提交。";
       }
       renderExplanation(question, qs);
+      syncGlosses(question, qs);
       renderReflection(qs);
       if (els.overviewPanel.classList.contains("visible")) renderOverview();
       els.checkCurrentBtn.disabled = visualRenderBlocked || qs.submitted || !qs.selected;
@@ -2690,6 +2748,7 @@
       });
       renderFeedback(qs);
       renderExplanation(question, qs);
+      syncGlosses(question, qs);
       renderReflection(qs);
       updateCurrentOverviewButton(qs);
       renderQuestionList(qs);
@@ -3236,6 +3295,232 @@
       });
       if (els.noteInput.value !== (qs.note || "")) els.noteInput.value = qs.note || "";
       els.reflectionHint.textContent = "";
+    }
+
+    /* ---------- 词汇解释与生词本 ---------- */
+    // The explanations this page's questions use, written by the builder from content/db.
+    function readPageVocabulary() {
+      const node = document.getElementById("satPageVocabulary");
+      const raw = node ? String(node.textContent || "").trim() : "";
+      if (!raw || raw === "__PAGE_" + "VOCABULARY_JSON__") return {};
+      try { return asRecord(JSON.parse(raw)); } catch { return {}; }
+    }
+    const PAGE_VOCABULARY = readPageVocabulary();
+    // The same pattern scripts/content_db.py uses to find a question's words.
+    const GLOSS_WORD_RE = /[A-Za-z][A-Za-z'’\-]*[A-Za-z]|[A-Za-z]/g;
+    let glossAnchor = null, glossPanelOpen = false, vocabularyFlashTimer = null;
+
+    function glossEntry(id) {
+      const entry = PAGE_VOCABULARY[id];
+      return entry && typeof entry === "object" ? { id, ...entry } : null;
+    }
+
+    // surface -> explanation id for the words of one field the learner may open now.
+    // The answer choices, and the word a "most nearly mean" question asks about, open after submitting.
+    function openGlosses(question, field, qs) {
+      const words = new Map();
+      for (const link of Array.isArray(question.vocabulary) ? question.vocabulary : []) {
+        if (link.field !== field || !glossEntry(link.id)) continue;
+        if (link.reveal === "always" || qs.submitted) words.set(link.surface, link.id);
+      }
+      return words;
+    }
+
+    function markGlosses(root, words) {
+      if (!words.size) return;
+      const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+      const nodes = [];
+      while (walker.nextNode()) nodes.push(walker.currentNode);
+      for (const node of nodes) {
+        if (node.parentElement?.closest(".gloss,button,summary,svg")) continue;
+        const text = node.nodeValue || "";
+        let last = 0, fragment = null;
+        GLOSS_WORD_RE.lastIndex = 0;
+        for (let match; (match = GLOSS_WORD_RE.exec(text));) {
+          const id = words.get(match[0]);
+          if (!id) continue;
+          fragment = fragment || document.createDocumentFragment();
+          fragment.append(text.slice(last, match.index));
+          const span = document.createElement("span");
+          span.className = "gloss";
+          span.dataset.gloss = id;
+          span.setAttribute("role", "button");
+          span.setAttribute("aria-haspopup", "dialog");
+          span.setAttribute("aria-expanded", "false");
+          span.tabIndex = 0;
+          span.textContent = match[0];
+          fragment.append(span);
+          last = match.index + match[0].length;
+        }
+        if (!fragment) continue;
+        fragment.append(text.slice(last));
+        node.replaceWith(fragment);
+      }
+    }
+
+    // English first; the example is open, the Chinese stays folded until asked for.
+    function glossBodyHtml(entry) {
+      return `
+        <p class="gloss-english">${escapeHtml(entry.english)}</p>
+        <details class="gloss-layer" open><summary>例句</summary><p class="gloss-example">${escapeHtml(entry.example)}</p></details>
+        <details class="gloss-layer gloss-chinese"><summary>中文解释</summary><p>${escapeHtml(entry.chinese)}</p><p class="gloss-example">${escapeHtml(entry.exampleChinese)}</p></details>
+        <button type="button" class="gloss-save" data-gloss-save="${escapeHtml(entry.id)}" aria-pressed="false">加入生词本</button>`;
+    }
+
+    // The sentence the word stands in, kept with the word in the notebook.
+    function glossContext(anchor) {
+      const block = anchor.closest("p,li,td,th,blockquote") || anchor.parentElement;
+      const text = String(block?.textContent || "").replace(/\s+/g, " ").trim();
+      const at = text.indexOf(anchor.textContent || "");
+      if (at < 0) return "";
+      const before = text.slice(0, at);
+      const start = Math.max(before.lastIndexOf(". "), before.lastIndexOf("? "), before.lastIndexOf("! ")) + 1;
+      const end = text.slice(at).search(/[.?!](\s|$)/);
+      return text.slice(start, end < 0 ? text.length : at + end + 1).trim().slice(0, 400);
+    }
+
+    function closeGloss({ restoreFocus = false } = {}) {
+      if (els.glossPopover.hidden) return;
+      els.glossPopover.hidden = true;
+      els.glossPopover.innerHTML = "";
+      if (glossAnchor) {
+        glossAnchor.setAttribute("aria-expanded", "false");
+        if (restoreFocus && glossAnchor.isConnected) glossAnchor.focus();
+      }
+      glossAnchor = null;
+    }
+
+    function placeGloss() {
+      if (!glossAnchor || els.glossPopover.hidden) return;
+      if (!glossAnchor.isConnected) { closeGloss(); return; }
+      const rect = glossAnchor.getBoundingClientRect(), card = els.glossPopover, margin = 12;
+      const floor = window.innerHeight - (els.practiceNav.hidden ? 0 : els.practiceNav.offsetHeight) - margin;
+      const width = card.offsetWidth, height = card.offsetHeight;
+      const left = Math.min(Math.max(margin, rect.left + rect.width / 2 - width / 2), window.innerWidth - width - margin);
+      const below = rect.bottom + 8, above = rect.top - height - 8;
+      const top = below + height <= floor || above < margin ? below : above;
+      card.style.left = `${Math.round(Math.max(margin, left))}px`;
+      card.style.top = `${Math.round(Math.max(margin, Math.min(top, floor - height)))}px`;
+    }
+
+    function openGloss(anchor) {
+      const entry = glossEntry(anchor.dataset.gloss);
+      if (!entry) return;
+      if (glossAnchor === anchor) { closeGloss(); return; }
+      closeGloss();
+      glossAnchor = anchor;
+      anchor.setAttribute("aria-expanded", "true");
+      els.glossPopover.innerHTML = `
+        <div class="gloss-head"><strong class="gloss-word">${escapeHtml(entry.word)}</strong><span class="gloss-pos">${escapeHtml(entry.partOfSpeech)}</span><button type="button" class="gloss-close" aria-label="关闭词汇解释">×</button></div>
+        ${glossBodyHtml(entry)}`;
+      els.glossPopover.dataset.context = glossContext(anchor);
+      els.glossPopover.hidden = false;
+      refreshGlossSaved();
+      placeGloss();
+    }
+
+    // Every explained word of the question in reading order: passage, prompt, then the choices.
+    function glossReadingOrder(question, qs) {
+      const ids = [], fromChoices = new Set();
+      [els.stimulus, els.prompt].forEach(root => root.querySelectorAll(".gloss[data-gloss]").forEach(node => {
+        if (glossEntry(node.dataset.gloss) && !ids.includes(node.dataset.gloss)) ids.push(node.dataset.gloss);
+      }));
+      const inChoices = openGlosses(question, "choices", qs);
+      for (const choice of question.choices || []) {
+        for (const word of String(choice.text || "").replace(/\[\/?[A-Za-z]+\]/g, " ").match(GLOSS_WORD_RE) || []) {
+          const id = inChoices.get(word);
+          if (!id || ids.includes(id)) continue;
+          ids.push(id);
+          fromChoices.add(id);
+        }
+      }
+      return { ids, fromChoices };
+    }
+
+    // After submitting: one row per word, each opening on its own.
+    function renderGlossPanel(question, qs) {
+      const { ids, fromChoices } = qs.submitted ? glossReadingOrder(question, qs) : { ids: [], fromChoices: new Set() };
+      if (!ids.length) {
+        els.glossPanel.hidden = true;
+        els.glossPanel.innerHTML = "";
+        return;
+      }
+      const signature = question.question_id + "|" + ids.join(",");
+      if (els.glossPanel.dataset.signature === signature && !els.glossPanel.hidden) return;
+      els.glossPanel.dataset.signature = signature;
+      els.glossPanel.hidden = false;
+      els.glossPanel.innerHTML = `<details class="gloss-list"${glossPanelOpen ? " open" : ""}>
+        <summary>本题词汇<span class="gloss-count">${ids.length}</span></summary>
+        ${ids.map(id => {
+          const entry = glossEntry(id);
+          return `<details class="gloss-row"><summary><strong>${escapeHtml(entry.word)}</strong><span class="gloss-pos">${escapeHtml(entry.partOfSpeech)}</span>${fromChoices.has(id) ? '<span class="gloss-tag">选项</span>' : ""}</summary>${glossBodyHtml(entry)}</details>`;
+        }).join("")}
+        <div class="gloss-list-foot"><a href="../index.html#vocabulary">打开生词本</a></div>
+      </details>`;
+    }
+
+    function refreshGlossSaved() {
+      const saved = new Set(readSatVocabulary(learningStorage).map(item => satVocabularyKey(item.word)));
+      const isSaved = id => { const entry = glossEntry(id); return Boolean(entry && saved.has(satVocabularyKey(entry.word))); };
+      document.querySelectorAll(".gloss[data-gloss]").forEach(node => node.classList.toggle("is-saved", isSaved(node.dataset.gloss)));
+      document.querySelectorAll("[data-gloss-save]").forEach(button => {
+        const on = isSaved(button.dataset.glossSave);
+        button.classList.toggle("is-saved", on);
+        button.setAttribute("aria-pressed", String(on));
+        button.textContent = on ? "已在生词本 · 移出" : "加入生词本";
+      });
+    }
+
+    function syncGlosses(question, qs) {
+      markGlosses(els.stimulus, openGlosses(question, "passage", qs));
+      markGlosses(els.prompt, openGlosses(question, "prompt", qs));
+      renderGlossPanel(question, qs);
+      refreshGlossSaved();
+    }
+
+    function vocabularyRecord(entry, context) {
+      const question = currentQuestion();
+      return { word: entry.word, partOfSpeech: entry.partOfSpeech, english: entry.english, chinese: entry.chinese,
+        example: entry.example, exampleChinese: entry.exampleChinese, vocabId: entry.id, context: context || "",
+        questionId: question ? question.question_id : "", route: PAGE_ID + ".html", custom: false };
+    }
+
+    function toggleGlossWord(id, context) {
+      const entry = glossEntry(id);
+      if (!entry) return;
+      if (hasSatVocabularyWord(learningStorage, entry.word)) removeSatVocabularyWord(learningStorage, entry.word);
+      else saveSatVocabularyWord(learningStorage, vocabularyRecord(entry, context));
+      refreshGlossSaved();
+    }
+
+    function flashVocabularyButton(text) {
+      clearTimeout(vocabularyFlashTimer);
+      els.vocabularyBtn.textContent = text;
+      vocabularyFlashTimer = setTimeout(() => { els.vocabularyBtn.textContent = "加入生词本"; }, 1800);
+    }
+
+    // Any word the learner selects can go into the notebook; one that has an
+    // explanation open to the learner takes it along.
+    function addSelectionToVocabulary() {
+      const selection = window.getSelection();
+      const text = String(selection || "").replace(/\s+/g, " ").trim();
+      const inside = node => Boolean(node) && [els.stimulus, els.prompt, els.choices].some(root => root.contains(node));
+      if (!text || text.length > 40 || !/^[A-Za-z][A-Za-z'’\- ]*$/.test(text) || !inside(selection.anchorNode)) {
+        flashVocabularyButton("请先选中单词");
+        return;
+      }
+      const question = currentQuestion(), qs = activeState(question);
+      const link = (Array.isArray(question.vocabulary) ? question.vocabulary : []).find(item =>
+        item.surface === text && glossEntry(item.id) && (item.reveal === "always" || qs.submitted));
+      const word = text.slice(1) === text.slice(1).toLowerCase() ? text.toLowerCase() : text;
+      const anchorBlock = selection.anchorNode.parentElement;
+      const context = anchorBlock ? glossContext({ closest: selector => anchorBlock.closest(selector), parentElement: anchorBlock, textContent: text }) : "";
+      const saved = link
+        ? saveSatVocabularyWord(learningStorage, vocabularyRecord(glossEntry(link.id), context))
+        : saveSatVocabularyWord(learningStorage, { word, context, questionId: question.question_id, route: PAGE_ID + ".html", custom: true });
+      selection.removeAllRanges();
+      flashVocabularyButton(saved ? `已加入：${link ? glossEntry(link.id).word : word}` : "没有保存成功");
+      refreshGlossSaved();
     }
 
     function applyHighlights(snippets) {
@@ -4033,6 +4318,43 @@
       scrollPracticeToStart();
     });
     els.highlightBtn.addEventListener("click", addSelectionHighlight);
+    els.vocabularyBtn.addEventListener("click", addSelectionToVocabulary);
+    for (const root of [els.stimulus, els.prompt]) {
+      root.addEventListener("click", event => {
+        const anchor = event.target.closest?.(".gloss[data-gloss]");
+        if (anchor && String(window.getSelection() || "").trim().length <= (anchor.textContent || "").length) openGloss(anchor);
+      });
+      root.addEventListener("keydown", event => {
+        const anchor = event.target.closest?.(".gloss[data-gloss]");
+        if (!anchor || (event.key !== "Enter" && event.key !== " ")) return;
+        event.preventDefault();
+        openGloss(anchor);
+      });
+    }
+    els.glossPopover.addEventListener("click", event => {
+      if (event.target.closest(".gloss-close")) { closeGloss({ restoreFocus: true }); return; }
+      const save = event.target.closest("[data-gloss-save]");
+      if (save) toggleGlossWord(save.dataset.glossSave, els.glossPopover.dataset.context || "");
+    });
+    els.glossPopover.addEventListener("toggle", placeGloss, true);
+    els.glossPanel.addEventListener("click", event => {
+      const save = event.target.closest("[data-gloss-save]");
+      if (save) toggleGlossWord(save.dataset.glossSave, "");
+    });
+    els.glossPanel.addEventListener("toggle", event => {
+      if (event.target.classList?.contains("gloss-list")) glossPanelOpen = event.target.open;
+    }, true);
+    document.addEventListener("click", event => {
+      if (els.glossPopover.hidden || els.glossPopover.contains(event.target) || event.target.closest?.(".gloss[data-gloss]")) return;
+      closeGloss();
+    });
+    document.addEventListener("keydown", event => {
+      if (event.key === "Escape" && !els.glossPopover.hidden) closeGloss({ restoreFocus: true });
+    });
+    document.addEventListener("scroll", event => {
+      if (!els.glossPopover.hidden && !els.glossPopover.contains(event.target)) closeGloss();
+    }, true);
+    window.addEventListener("resize", placeGloss);
     document.querySelectorAll('input[name="confidence"]').forEach(input => input.addEventListener("change", onReflectionChanged));
     els.errorTagsRow.addEventListener("change", onReflectionChanged);
     els.noteInput.addEventListener("input", onReflectionChanged);
@@ -4182,6 +4504,7 @@
     });
     window.addEventListener("storage", event => {
       const scopedKey = learningStorage.eventKey(event);
+      if (scopedKey === SAT_VOCABULARY_KEY) { refreshGlossSaved(); return; }
       if (!requestedExamMode && scopedKey === GLOBAL_KEY) {
         const before = visibleStateSignature();
         globalState = learningStorage.mergeGlobal(globalState, value => ({ ...value, attempts: compactAttempts(value.attempts) }), mergeQuestionState);

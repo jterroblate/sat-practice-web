@@ -75,7 +75,7 @@
       font-weight: 500;
       transition: color .16s ease, background-color .16s ease;
     }
-    .desktop-nav a { padding: 7px 14px; }
+    .desktop-nav a { padding: 7px 11px; white-space: nowrap; }
     .desktop-nav a:hover, .mobile-nav a:hover { color: var(--zen-ink); background: var(--zen-fill); }
     .desktop-nav a.active, .mobile-nav a.active { color: var(--zen-ink); background: var(--zen-fill); font-weight: 600; }
     .sync-status {
@@ -332,6 +332,43 @@
     .expand-row { display: flex; justify-content: center; margin-top: 16px; }
 
     .review-list { display: grid; gap: 10px; }
+    /* 生词本：先只看到词，展开看英文解释和例句，再展开看中文 */
+    .vocab-add { display: flex; gap: 8px; margin-bottom: 16px; }
+    .vocab-add input { flex: 1 1 auto; min-width: 0; min-height: 46px; padding: 10px 14px; border: 1px solid transparent; border-radius: var(--zen-radius-control); background: var(--zen-fill); color: var(--zen-ink); font: inherit; }
+    .vocab-add input:focus { border-color: var(--zen-primary); background: var(--zen-surface); outline: 0; box-shadow: 0 0 0 4px rgba(0, 113, 227, .2); }
+    .vocab-status { min-height: 20px; margin: -8px 0 12px; color: var(--zen-muted); font-size: 13px; }
+    .vocab-card { border-radius: 18px; background: var(--zen-bg); }
+    .vocab-card > summary { display: flex; align-items: baseline; flex-wrap: wrap; gap: 10px; padding: 16px 20px; cursor: pointer; list-style: none; }
+    .vocab-card > summary::-webkit-details-marker { display: none; }
+    .vocab-card > summary::after { content: "展开"; margin-left: auto; color: var(--zen-primary-dark); font-size: 13px; font-weight: 600; }
+    .vocab-card[open] > summary::after { content: "收起"; }
+    .vocab-card > summary strong { font-size: 19px; font-weight: 700; letter-spacing: -.01em; }
+    .vocab-card > summary .vocab-pos { color: var(--zen-muted); font-size: 13px; }
+    .vocab-body { padding: 0 20px 18px; }
+    .vocab-english { margin: 0 0 10px; font-size: 16px; }
+    .vocab-layer { border-top: 1px solid rgba(0, 0, 0, .08); padding: 10px 0 4px; }
+    .vocab-layer > summary { cursor: pointer; color: var(--zen-muted); font-size: 12px; font-weight: 700; }
+    .vocab-layer p { margin: 6px 0; }
+    .vocab-layer .vocab-example { font-family: "Times New Roman", Times, serif; font-size: 17px; line-height: 1.4; }
+    .vocab-layer .vocab-translation { color: var(--zen-muted); }
+    .vocab-context { margin: 10px 0 0; padding-top: 10px; border-top: 1px solid rgba(0, 0, 0, .08); color: var(--zen-muted); font-size: 14px; }
+    .vocab-context a { color: var(--zen-primary-dark); font-weight: 600; white-space: nowrap; }
+    .vocab-note-label { display: block; margin-top: 12px; color: var(--zen-muted); font-size: 12px; font-weight: 700; }
+    .vocab-context q { font-family: "Times New Roman", Times, serif; font-size: 16px; color: var(--zen-ink); quotes: none; }
+    .vocab-note { display: block; width: 100%; min-height: 64px; margin-top: 6px; font-weight: 400; padding: 10px 12px; border: 1px solid transparent; border-radius: var(--zen-radius-control); background: var(--zen-surface); color: var(--zen-ink); font: inherit; resize: vertical; }
+    .vocab-note:focus { border-color: var(--zen-primary); outline: 0; box-shadow: 0 0 0 4px rgba(0, 113, 227, .2); }
+    .vocab-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+    .vocab-actions .button, .vocab-actions button.action { background: var(--zen-surface); }
+    .vocab-views { margin-bottom: 12px; }
+    .vocab-count { color: var(--zen-muted); font-size: 13px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+    .vocab-usage { margin: 10px 0 0; padding-top: 10px; border-top: 1px solid rgba(0, 0, 0, .08); color: var(--zen-muted); font-size: 14px; }
+    .glossary-controls { display: grid; grid-template-columns: minmax(0, 1fr) repeat(3, auto); gap: 8px; margin-bottom: 8px; }
+    .glossary-controls input, .glossary-controls select { width: 100%; min-height: 46px; padding: 10px 14px; border: 1px solid transparent; border-radius: var(--zen-radius-control); background: var(--zen-fill); color: var(--zen-ink); font: inherit; }
+    .glossary-controls input:focus, .glossary-controls select:focus { border-color: var(--zen-primary); background: var(--zen-surface); outline: 0; box-shadow: 0 0 0 4px rgba(0, 113, 227, .2); }
+    .glossary-more { display: flex; justify-content: center; margin-top: 14px; }
+    .glossary-more[hidden] { display: none; }
+    @media (max-width: 760px) { .glossary-controls { grid-template-columns: 1fr 1fr; } .glossary-controls input { grid-column: 1 / -1; } }
+    @media (max-width: 640px) { .vocab-add { flex-direction: column; } }
     .review-card { padding: 18px 20px; border: 0; border-radius: 18px; background: var(--zen-bg); box-shadow: none; }
     .review-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 18px; }
     .review-card h3 { margin: 8px 0 4px; font-size: 16px; font-weight: 600; }
@@ -426,6 +463,11 @@
     .empty-state { min-height: 140px; display: grid; place-items: center; padding: 28px; border: 0; border-radius: 18px; background: var(--zen-bg); color: var(--zen-muted); font-size: 15px; text-align: center; }
     .quiet-note { margin-top: 16px; padding: 14px 18px; border-radius: 14px; color: var(--zen-muted); background: var(--zen-bg); font-size: 14px; }
 
+    @media (max-width: 1100px) {
+      .brand span { display: none; }
+      .top-row { gap: 14px; }
+    }
+
     @media (max-width: 960px) {
       .weekly-layout, .builder { grid-template-columns: 1fr; }
       .resource-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -491,13 +533,13 @@
       <a class="brand" href="#home" aria-label="SAT 学习中心首页"><strong>SAT 学习中心</strong><span>READING &amp; WRITING</span></a>
       <nav class="desktop-nav" aria-label="学习中心主导航">
         <a href="/app/">返回学习项目</a>
-        <a href="#home">首页</a><a href="#review/wrong">我的复习</a><a href="#diagnosis">学习诊断</a><a href="#practice">今日练习</a><a href="#exam">模考</a><a href="#search">全库搜索</a>
+        <a href="#home">首页</a><a href="#review/wrong">我的复习</a><a href="#diagnosis">学习诊断</a><a href="#practice">今日练习</a><a href="#exam">模考</a><a href="#vocabulary/list">词汇</a><a href="#search">全库搜索</a>
       </nav>
       <span class="sync-status pending" id="syncStatus" aria-live="polite">本机模式</span>
       <button class="menu-button" id="mobileMenuBtn" type="button" aria-expanded="false" aria-controls="mobileNav">菜单</button>
       <nav class="mobile-nav" id="mobileNav" aria-label="移动端学习导航" hidden>
         <a href="/app/">返回学习项目</a>
-        <a href="#home">首页</a><a href="#review/wrong">我的复习</a><a href="#diagnosis">学习诊断</a><a href="#practice">今日练习</a><a href="#exam">模考</a><a href="#search">全库搜索</a>
+        <a href="#home">首页</a><a href="#review/wrong">我的复习</a><a href="#diagnosis">学习诊断</a><a href="#practice">今日练习</a><a href="#exam">模考</a><a href="#vocabulary/list">词汇</a><a href="#search">全库搜索</a>
       </nav>
     </div>
   </header>
@@ -681,7 +723,7 @@
       const root = route().root;
       document.querySelectorAll(".desktop-nav a, .mobile-nav a").forEach(link => {
         const href = link.getAttribute("href");
-        link.classList.toggle("active", href === `#${root}` || (root === "review" && href === "#review/wrong"));
+        link.classList.toggle("active", href === `#${root}` || (root === "review" && href === "#review/wrong") || (root === "vocabulary" && href === "#vocabulary/list"));
       });
     }
     function metrics() {
@@ -732,6 +774,8 @@
       else if (currentRoute.root === "practice") renderBuilder();
       else if (currentRoute.root === "search") renderSearch();
       else if (currentRoute.root === "exam") renderExamCenter();
+      else if (currentRoute.root === "vocabulary" && currentRoute.tab === "list") renderGlossary();
+      else if (currentRoute.root === "vocabulary") renderVocabulary(currentRoute.tab || "learning");
       else renderHome();
     }
 
@@ -1005,6 +1049,185 @@
       const items = tab === "unfinished" ? unfinishedPages() : MANIFEST.questions.filter(question => reviewMatches(question, tab));
       app.innerHTML = `<section class="panel" style="margin-top:0"><div class="section-title"><div><p class="eyebrow orange">MY REVIEW</p><h1>我的复习</h1></div><span class="section-meta">${items.length} ${tab === "unfinished" ? "套" : "题"}</span></div><div class="tabs">${Object.entries(names).map(([key, label]) => `<button data-tab="${key}" class="${key === tab ? "active" : ""}">${label}</button>`).join("")}</div><div class="review-list">${items.length ? items.map(tab === "unfinished" ? unfinishedPageCard : reviewCard).join("") : renderEmpty("当前分类没有内容，完成练习后会自动更新。")}</div></section>`;
       app.querySelectorAll("[data-tab]").forEach(button => button.addEventListener("click", () => { location.hash = `review/${button.dataset.tab}`; }));
+    }
+
+    /* ---------- 生词本 ---------- */
+    // Cards the learner has opened stay open while the list is redrawn.
+    const vocabularyOpen = new Set();
+    let vocabularyStatus = "";
+    function vocabularyCard(stored) {
+      // The word list is the one place explanations are kept up to date; the copy saved with the
+      // word is used only when the list no longer has it (or the learner added the word by hand).
+      const current = stored.vocabId ? glossaryById.get(stored.vocabId) : null;
+      const item = current ? { ...stored, partOfSpeech: current.partOfSpeech, english: current.english, chinese: current.chinese,
+        example: current.example, exampleChinese: current.exampleChinese } : stored;
+      const key = satVocabularyKey(item.word), question = item.questionId ? questionById.get(item.questionId) : null;
+      const explained = Boolean(item.english);
+      return `<details class="vocab-card" data-vocab="${escapeHtml(key)}"${vocabularyOpen.has(key) ? " open" : ""}>
+        <summary><strong>${escapeHtml(item.word)}</strong>${item.partOfSpeech ? `<span class="vocab-pos">${escapeHtml(item.partOfSpeech)}</span>` : ""}${item.mastered ? '<span class="pill calm">已掌握</span>' : ""}${item.custom ? '<span class="pill pending">自己添加</span>' : ""}</summary>
+        <div class="vocab-body">
+          ${explained ? `<p class="vocab-english">${escapeHtml(item.english)}</p>
+          ${item.example ? `<details class="vocab-layer" open><summary>例句</summary><p class="vocab-example">${escapeHtml(item.example)}</p></details>` : ""}
+          ${item.chinese ? `<details class="vocab-layer"><summary>中文解释</summary><p>${escapeHtml(item.chinese)}</p>${item.exampleChinese ? `<p class="vocab-translation">${escapeHtml(item.exampleChinese)}</p>` : ""}</details>` : ""}` : `<p class="vocab-english">这个词是你自己添加的，可以在下面写下它的意思。</p>`}
+          ${item.context || question ? `<p class="vocab-context">${item.context ? `题目原句：<q>${escapeHtml(item.context)}</q> ` : ""}${question ? `<a href="${question.route}?focus=${encodeURIComponent(question.questionId)}">回到这道题</a>` : ""}</p>` : ""}
+          <label class="vocab-note-label">我的笔记<textarea class="vocab-note" data-vocab-note="${escapeHtml(key)}" maxlength="1000">${escapeHtml(item.note)}</textarea></label>
+          <div class="vocab-actions">
+            <button class="action" type="button" data-vocab-mastered="${escapeHtml(key)}">${item.mastered ? "重新学习" : "标为已掌握"}</button>
+            <button class="action" type="button" data-vocab-remove="${escapeHtml(key)}">移出生词本</button>
+          </div>
+        </div>
+      </details>`;
+    }
+    function renderVocabulary(tab) {
+      const names = { learning: "待掌握", mastered: "已掌握", all: "全部" };
+      const filter = names[tab] ? tab : "learning";
+      const words = readSatVocabulary(learningStorage);
+      const mastered = words.filter(item => item.mastered).length;
+      const shown = words.filter(item => filter === "all" || (filter === "mastered") === item.mastered);
+      for (const key of [...vocabularyOpen]) if (!words.some(item => satVocabularyKey(item.word) === key)) vocabularyOpen.delete(key);
+      app.innerHTML = `<section class="panel" style="margin-top:0">
+        <div class="section-title"><div><p class="eyebrow teal">VOCABULARY</p><h1>生词本</h1></div><span class="section-meta">${words.length} 个词 · 已掌握 ${mastered}</span></div>
+        ${vocabularyViews("notebook")}
+        <div class="tabs">${Object.entries(names).map(([key, label]) => `<button data-vocab-tab="${key}" class="${key === filter ? "active" : ""}">${label}</button>`).join("")}</div>
+        <form class="vocab-add" id="vocabAddForm"><input id="vocabAddInput" type="text" maxlength="40" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="手动添加一个英文单词或短语" placeholder="手动添加一个英文单词或短语"><button class="action primary" type="submit">添加</button></form>
+        <p class="vocab-status" id="vocabStatus" role="status" aria-live="polite">${escapeHtml(vocabularyStatus)}</p>
+        <div class="review-list">${shown.length ? shown.map(vocabularyCard).join("") : renderEmpty(words.length ? "这个分类下没有词。" : "还没有生词。做题时点开带虚线的词，或者选中任意单词，就可以加入生词本；也可以从词汇表里挑。")}</div>
+      </section>`;
+      vocabularyStatus = "";
+      bindVocabularyViews();
+      app.querySelectorAll("[data-vocab-tab]").forEach(button => button.addEventListener("click", () => { location.hash = `vocabulary/${button.dataset.vocabTab}`; }));
+      app.querySelectorAll(".vocab-card").forEach(card => card.addEventListener("toggle", () => {
+        if (card.open) vocabularyOpen.add(card.dataset.vocab); else vocabularyOpen.delete(card.dataset.vocab);
+      }));
+      app.querySelectorAll("[data-vocab-note]").forEach(input => input.addEventListener("change", () => {
+        updateSatVocabularyWord(learningStorage, input.dataset.vocabNote, { note: input.value });
+      }));
+      app.querySelectorAll("[data-vocab-mastered]").forEach(button => button.addEventListener("click", () => {
+        const item = readSatVocabulary(learningStorage).find(word => satVocabularyKey(word.word) === button.dataset.vocabMastered);
+        if (!item) return;
+        updateSatVocabularyWord(learningStorage, item.word, { mastered: !item.mastered, masteredAt: item.mastered ? "" : new Date().toISOString() });
+        vocabularyOpen.delete(button.dataset.vocabMastered);
+        renderVocabulary(filter);
+      }));
+      app.querySelectorAll("[data-vocab-remove]").forEach(button => button.addEventListener("click", () => {
+        removeSatVocabularyWord(learningStorage, button.dataset.vocabRemove);
+        renderVocabulary(filter);
+      }));
+      document.getElementById("vocabAddForm").addEventListener("submit", event => {
+        event.preventDefault();
+        const word = document.getElementById("vocabAddInput").value.replace(/\s+/g, " ").trim();
+        if (!/^[A-Za-z][A-Za-z'’\- ]{0,39}$/.test(word)) vocabularyStatus = "请输入一个英文单词或短语（不超过 40 个字符）。";
+        else if (hasSatVocabularyWord(learningStorage, word)) vocabularyStatus = `“${word}”已经在生词本里了。`;
+        else if (saveSatVocabularyWord(learningStorage, { word, custom: true })) { vocabularyStatus = `已添加“${word}”。`; vocabularyOpen.add(satVocabularyKey(word)); }
+        else vocabularyStatus = "没有保存成功，请检查浏览器的存储权限。";
+        renderVocabulary(vocabularyStatus.startsWith("已添加") && filter === "mastered" ? "learning" : filter);
+      });
+    }
+
+    /* ---------- 词汇表：全部带解释的词 ---------- */
+    function vocabularyViews(active) {
+      return `<div class="tabs vocab-views">${[["list", "词汇表"], ["notebook", "生词本"]].map(([key, label]) => `<button data-vocab-view="${key}" class="${key === active ? "active" : ""}">${label}</button>`).join("")}</div>`;
+    }
+    function bindVocabularyViews() {
+      app.querySelectorAll("[data-vocab-view]").forEach(button => button.addEventListener("click", () => {
+        location.hash = button.dataset.vocabView === "list" ? "vocabulary/list" : "vocabulary";
+      }));
+    }
+    // Written by the builder from content/db: every explained word, with the number of
+    // published questions it occurs in (by spelling), how many of those are real-exam questions.
+    const GLOSSARY = Array.isArray(MANIFEST.vocabulary) ? MANIFEST.vocabulary : [];
+    const glossaryById = new Map(GLOSSARY.map(item => [item.id, item]));
+    const GLOSSARY_PAGE = 60;
+    const GLOSSARY_PARTS = ["n.", "v.", "adj.", "adv."];
+    const glossaryParts = item => String(item.partOfSpeech || "").split("/").map(part => part.trim());
+    const glossaryByWord = (left, right) => left.word.localeCompare(right.word, "en", { sensitivity: "base" });
+    const glossaryPartRank = item => { const rank = GLOSSARY_PARTS.indexOf(glossaryParts(item)[0]); return rank < 0 ? GLOSSARY_PARTS.length : rank; };
+    const GLOSSARY_SORTS = [
+      { id: "questions", name: "出现题数：多到少", compare: (left, right) => right.questions - left.questions || right.occurrences - left.occurrences || glossaryByWord(left, right) },
+      { id: "real", name: "真题出现题数：多到少", compare: (left, right) => right.realExamQuestions - left.realExamQuestions || right.questions - left.questions || glossaryByWord(left, right) },
+      { id: "rare", name: "出现题数：少到多", compare: (left, right) => left.questions - right.questions || left.occurrences - right.occurrences || glossaryByWord(left, right) },
+      { id: "alpha", name: "字母顺序 A–Z", compare: glossaryByWord },
+      { id: "part", name: "按词性", compare: (left, right) => glossaryPartRank(left) - glossaryPartRank(right) || glossaryByWord(left, right) },
+    ];
+    const GLOSSARY_PART_FILTERS = [["all", "全部词性"], ["n.", "名词"], ["v.", "动词"], ["adj.", "形容词"], ["adv.", "副词"], ["other", "其他"]];
+    const GLOSSARY_SAVED_FILTERS = [["all", "全部"], ["new", "还没加入生词本"], ["saved", "已在生词本"]];
+    const glossaryOpen = new Set();
+    let glossarySort = "questions", glossaryPart = "all", glossarySaved = "all", glossaryQuery = "", glossaryShown = GLOSSARY_PAGE;
+
+    function glossaryMatches(saved) {
+      const query = glossaryQuery.trim().toLowerCase();
+      return GLOSSARY.filter(item => {
+        const parts = glossaryParts(item);
+        if (glossaryPart === "other" ? parts.some(part => GLOSSARY_PARTS.includes(part)) : glossaryPart !== "all" && !parts.includes(glossaryPart)) return false;
+        if (glossarySaved !== "all" && (glossarySaved === "saved") !== saved.has(satVocabularyKey(item.word))) return false;
+        return !query || item.word.toLowerCase().includes(query) || item.english.toLowerCase().includes(query) || item.chinese.includes(query);
+      }).sort((GLOSSARY_SORTS.find(sort => sort.id === glossarySort) || GLOSSARY_SORTS[0]).compare);
+    }
+    function glossaryCard(item, saved) {
+      const inNotebook = saved.has(satVocabularyKey(item.word));
+      return `<details class="vocab-card" data-glossary="${escapeHtml(item.id)}"${glossaryOpen.has(item.id) ? " open" : ""}>
+        <summary><strong>${escapeHtml(item.word)}</strong><span class="vocab-pos">${escapeHtml(item.partOfSpeech)}</span>${inNotebook ? '<span class="pill calm">已在生词本</span>' : ""}<span class="vocab-count">出现 ${item.questions} 题 · 真题 ${item.realExamQuestions}</span></summary>
+        <div class="vocab-body">
+          <p class="vocab-english">${escapeHtml(item.english)}</p>
+          <details class="vocab-layer" open><summary>例句</summary><p class="vocab-example">${escapeHtml(item.example)}</p></details>
+          <details class="vocab-layer"><summary>中文解释</summary><p>${escapeHtml(item.chinese)}</p><p class="vocab-translation">${escapeHtml(item.exampleChinese)}</p></details>
+          <p class="vocab-usage">题库里有 ${item.questions} 道题写到这个词，其中真题 ${item.realExamQuestions} 道，一共出现 ${item.occurrences} 次。</p>
+          <div class="vocab-actions"><button class="action${inNotebook ? "" : " ghost"}" type="button" data-glossary-save="${escapeHtml(item.id)}" aria-pressed="${inNotebook}">${inNotebook ? "已在生词本 · 移出" : "加入生词本"}</button></div>
+        </div>
+      </details>`;
+    }
+    function drawGlossaryList() {
+      // Cards on screen keep the state the learner left them in.
+      document.querySelectorAll("#glossaryList .vocab-card").forEach(card => {
+        if (card.open) glossaryOpen.add(card.dataset.glossary); else glossaryOpen.delete(card.dataset.glossary);
+      });
+      const saved = new Set(readSatVocabulary(learningStorage).map(item => satVocabularyKey(item.word)));
+      const matches = glossaryMatches(saved), shown = matches.slice(0, glossaryShown);
+      document.getElementById("glossaryStatus").textContent = !GLOSSARY.length ? "" : matches.length === GLOSSARY.length
+        ? `共 ${GLOSSARY.length} 个词，显示前 ${shown.length} 个` : `找到 ${matches.length} 个词${matches.length > shown.length ? `，显示前 ${shown.length} 个` : ""}`;
+      document.getElementById("glossaryList").innerHTML = shown.length ? shown.map(item => glossaryCard(item, saved)).join("")
+        : renderEmpty(GLOSSARY.length ? "没有符合条件的词。" : "这个版本的题库还没有词汇解释。");
+      document.getElementById("glossaryMoreRow").hidden = matches.length <= shown.length;
+    }
+    function renderGlossary() {
+      const options = (rows, current) => rows.map(([value, label]) => `<option value="${value}"${value === current ? " selected" : ""}>${label}</option>`).join("");
+      app.innerHTML = `<section class="panel" style="margin-top:0">
+        <div class="section-title"><div><p class="eyebrow teal">VOCABULARY</p><h1>词汇表</h1></div><span class="section-meta">${GLOSSARY.length} 个词 · 生词本 ${readSatVocabulary(learningStorage).length}</span></div>
+        ${vocabularyViews("list")}
+        <div class="glossary-controls">
+          <input id="glossaryQuery" type="search" maxlength="40" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="搜索单词、英文释义或中文释义" placeholder="搜索单词或释义" value="${escapeHtml(glossaryQuery)}">
+          <select id="glossarySort" aria-label="排序方式">${options(GLOSSARY_SORTS.map(sort => [sort.id, sort.name]), glossarySort)}</select>
+          <select id="glossaryPart" aria-label="词性">${options(GLOSSARY_PART_FILTERS, glossaryPart)}</select>
+          <select id="glossarySaved" aria-label="是否在生词本">${options(GLOSSARY_SAVED_FILTERS, glossarySaved)}</select>
+        </div>
+        <p class="vocab-status" id="glossaryStatus" role="status" aria-live="polite" style="margin-top:0"></p>
+        <div class="review-list" id="glossaryList"></div>
+        <div class="glossary-more" id="glossaryMoreRow" hidden><button class="action" id="glossaryMore" type="button">再显示 ${GLOSSARY_PAGE} 个</button></div>
+      </section>`;
+      bindVocabularyViews();
+      const redraw = () => { glossaryShown = GLOSSARY_PAGE; drawGlossaryList(); };
+      document.getElementById("glossaryQuery").addEventListener("input", event => { glossaryQuery = event.target.value; redraw(); });
+      document.getElementById("glossarySort").addEventListener("change", event => { glossarySort = event.target.value; redraw(); });
+      document.getElementById("glossaryPart").addEventListener("change", event => { glossaryPart = event.target.value; redraw(); });
+      document.getElementById("glossarySaved").addEventListener("change", event => { glossarySaved = event.target.value; redraw(); });
+      document.getElementById("glossaryMore").addEventListener("click", () => { glossaryShown += GLOSSARY_PAGE; drawGlossaryList(); });
+      const list = document.getElementById("glossaryList");
+      list.addEventListener("toggle", event => {
+        const card = event.target.closest?.(".vocab-card");
+        if (!card || event.target !== card) return;
+        if (card.open) glossaryOpen.add(card.dataset.glossary); else glossaryOpen.delete(card.dataset.glossary);
+      }, true);
+      list.addEventListener("click", event => {
+        const button = event.target.closest("[data-glossary-save]");
+        const item = button && glossaryById.get(button.dataset.glossarySave);
+        if (!item) return;
+        if (hasSatVocabularyWord(learningStorage, item.word)) removeSatVocabularyWord(learningStorage, item.word);
+        else saveSatVocabularyWord(learningStorage, { word: item.word, partOfSpeech: item.partOfSpeech, english: item.english, chinese: item.chinese,
+          example: item.example, exampleChinese: item.exampleChinese, vocabId: item.id, custom: false });
+        app.querySelector(".section-meta").textContent = `${GLOSSARY.length} 个词 · 生词本 ${readSatVocabulary(learningStorage).length}`;
+        drawGlossaryList();
+      });
+      drawGlossaryList();
     }
 
     function skillRows() {
@@ -1416,6 +1639,7 @@
     window.addEventListener("storage", event => {
       const scopedKey = learningStorage.eventKey(event);
       if (scopedKey === SAT_STUDY_TIME_KEY) { if (route().root === "home") render(); return; }
+      if (scopedKey === SAT_VOCABULARY_KEY) { if (route().root === "vocabulary") render(); return; }
       if (scopedKey !== GLOBAL_KEY) return;
       state = learningStorage.mergeGlobal(state, normalizeState, merge);
       render();

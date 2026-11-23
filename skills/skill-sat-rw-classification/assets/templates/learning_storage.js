@@ -252,3 +252,82 @@ function describeSatSource(refs, fallback = {}) {
   const kind = String((ref && ref.kind) || fallback.kind || "");
   return { text: parts.join(" · "), note: kind === "real_exam" ? "回忆版真题，来源未经认证" : kind === "practice" ? "模拟题" : "" };
 }
+
+/* Vocabulary notebook: the words a learner chose to keep, in the owner-scoped
+   store on this device only. It is not part of the cloud DTO and is never
+   merged. Every change re-reads the stored list first, so two open pages do
+   not overwrite each other's words. */
+const SAT_VOCABULARY_KEY = "sat-learning:vocabulary:v1";
+const SAT_VOCABULARY_LIMIT = 2000;
+const SAT_VOCABULARY_TEXTS = { word: 80, partOfSpeech: 24, english: 400, chinese: 200, example: 400, exampleChinese: 400,
+  note: 1000, context: 400, questionId: 120, route: 160, vocabId: 80 };
+function satVocabularyKey(word) {
+  return String(word || "").replace(/’/g, "'").trim().replace(/\s+/g, " ").toLowerCase().slice(0, 80);
+}
+function normalizeSatVocabularyWord(raw) {
+  if (!raw || typeof raw !== "object" || Array.isArray(raw)) return null;
+  const item = {};
+  for (const [field, limit] of Object.entries(SAT_VOCABULARY_TEXTS)) {
+    item[field] = typeof raw[field] === "string" ? raw[field].trim().slice(0, limit) : "";
+  }
+  if (!satVocabularyKey(item.word)) return null;
+  const stamp = value => (typeof value === "string" && Number.isFinite(Date.parse(value)) ? value : "");
+  item.custom = raw.custom === true;
+  item.addedAt = stamp(raw.addedAt) || new Date().toISOString();
+  item.mastered = raw.mastered === true;
+  item.masteredAt = item.mastered ? stamp(raw.masteredAt) || item.addedAt : "";
+  return item;
+}
+// Newest first. Unreadable or foreign values are ignored, never repaired in place.
+function readSatVocabulary(store) {
+  const words = new Map();
+  try {
+    const raw = JSON.parse(store.getItem(SAT_VOCABULARY_KEY) || "null");
+    for (const value of Array.isArray(raw?.words) ? raw.words : []) {
+      const item = normalizeSatVocabularyWord(value);
+      if (item && !words.has(satVocabularyKey(item.word))) words.set(satVocabularyKey(item.word), item);
+    }
+  } catch {}
+  return [...words.values()].sort((left, right) => Date.parse(right.addedAt) - Date.parse(left.addedAt));
+}
+function writeSatVocabulary(store, words) {
+  if (!store.ready()) return false;
+  try {
+    store.setItem(SAT_VOCABULARY_KEY, JSON.stringify({ version: 1, words: words.slice(0, SAT_VOCABULARY_LIMIT) }));
+    return true;
+  } catch { return false; }
+}
+function hasSatVocabularyWord(store, word) {
+  const key = satVocabularyKey(word);
+  return Boolean(key) && readSatVocabulary(store).some(item => satVocabularyKey(item.word) === key);
+}
+// Adds a word, or fills in what an earlier entry for the same word lacks. The
+// learner's own note, the date and the mastered mark of that entry are kept.
+function saveSatVocabularyWord(store, entry) {
+  const incoming = normalizeSatVocabularyWord(entry);
+  if (!incoming) return false;
+  const key = satVocabularyKey(incoming.word), words = readSatVocabulary(store);
+  const index = words.findIndex(item => satVocabularyKey(item.word) === key);
+  if (index < 0) return writeSatVocabulary(store, [incoming, ...words]);
+  const previous = words[index], merged = { ...previous };
+  for (const field of Object.keys(SAT_VOCABULARY_TEXTS)) {
+    if (field !== "note" && incoming[field] && (!previous[field] || !incoming.custom)) merged[field] = incoming[field];
+  }
+  merged.custom = previous.custom && incoming.custom;
+  words[index] = merged;
+  return writeSatVocabulary(store, words);
+}
+function updateSatVocabularyWord(store, word, patch) {
+  const key = satVocabularyKey(word), words = readSatVocabulary(store);
+  const index = words.findIndex(item => satVocabularyKey(item.word) === key);
+  if (index < 0) return false;
+  const next = normalizeSatVocabularyWord({ ...words[index], ...patch, word: words[index].word, addedAt: words[index].addedAt });
+  if (!next) return false;
+  words[index] = next;
+  return writeSatVocabulary(store, words);
+}
+function removeSatVocabularyWord(store, word) {
+  const key = satVocabularyKey(word), words = readSatVocabulary(store);
+  const kept = words.filter(item => satVocabularyKey(item.word) !== key);
+  return kept.length !== words.length && writeSatVocabulary(store, kept);
+}

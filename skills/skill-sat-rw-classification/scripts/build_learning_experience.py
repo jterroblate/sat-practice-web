@@ -312,6 +312,83 @@ def load_question_origins(root: Path) -> dict[str, dict[str, Any]]:
     return load_question_metadata(root)["questions"]
 
 
+VOCABULARY_FIELDS = ("passage", "prompt", "choices")
+VOCABULARY_REVEALS = ("always", "after_submit")
+VOCABULARY_ID_RE = re.compile(r"^[a-z][a-z0-9-]{0,79}$")
+VOCABULARY_WORD_RE = re.compile(r"^(?:[A-Za-z][A-Za-z'’\-]*[A-Za-z]|[A-Za-z])$")
+VOCABULARY_TEXTS = ("word", "partOfSpeech", "english", "chinese", "example", "exampleChinese")
+
+
+def question_vocabulary(question: dict[str, Any]) -> list[dict[str, str]]:
+    """The explained words of a question: where each one stands and when it may be opened."""
+    origin = question.get("_origin") if isinstance(question.get("_origin"), dict) else {}
+    question_id = str(question.get("question_id") or "")
+    result = []
+    for item in origin.get("vocabulary") if isinstance(origin.get("vocabulary"), list) else []:
+        if (not isinstance(item, dict) or item.get("field") not in VOCABULARY_FIELDS
+                or item.get("reveal") not in VOCABULARY_REVEALS
+                or not VOCABULARY_ID_RE.match(str(item.get("id") or ""))
+                or not VOCABULARY_WORD_RE.match(str(item.get("surface") or ""))
+                or (item["field"] == "choices" and item["reveal"] != "after_submit")):
+            raise ValueError(f"Invalid vocabulary link: {question_id}")
+        result.append({"field": item["field"], "surface": item["surface"], "id": item["id"], "reveal": item["reveal"]})
+    return result
+
+
+VOCABULARY_COUNTS = ("questions", "realExamQuestions", "occurrences")
+
+
+def vocabulary_entry(vocab_id: Any, entry: Any) -> dict[str, str]:
+    """One word explanation as plain text."""
+    if not VOCABULARY_ID_RE.match(str(vocab_id or "")) or not isinstance(entry, dict):
+        raise ValueError(f"Invalid word explanation: {vocab_id}")
+    row = {}
+    for field in VOCABULARY_TEXTS:
+        text = str(entry.get(field) or "").strip()
+        if not text or PUBLIC_HTML_TAG_RE.search(text) or any(pattern in text for pattern in PUBLIC_PATH_PATTERNS):
+            raise ValueError(f"Word explanation is not plain text: {vocab_id}.{field}")
+        row[field] = text
+    return row
+
+
+def site_vocabulary(stated: Any) -> list[dict[str, Any]]:
+    """Every word explanation with how often the word is written in the bank, for the word list.
+
+    questions is the number of published Reading and Writing questions the
+    word occurs in, realExamQuestions how many of those are real-exam
+    questions, occurrences the number of times in all. Sorted by word.
+    """
+    result = []
+    for vocab_id, entry in (stated if isinstance(stated, dict) else {}).items():
+        row: dict[str, Any] = {"id": vocab_id, **vocabulary_entry(vocab_id, entry)}
+        for field in VOCABULARY_COUNTS:
+            value = entry.get(field)
+            if type(value) is not int or value < 0:
+                raise ValueError(f"Invalid word count: {vocab_id}.{field}")
+            row[field] = value
+        if row["realExamQuestions"] > row["questions"] or row["questions"] > row["occurrences"]:
+            raise ValueError(f"Inconsistent word counts: {vocab_id}")
+        result.append(row)
+    return sorted(result, key=lambda row: (row["word"].lower(), row["id"]))
+
+
+def page_vocabulary(stated: Any, questions: list[dict[str, Any]]) -> dict[str, dict[str, str]]:
+    """The word explanations one practice page needs, as plain text.
+
+    `stated` is the vocabulary of the question metadata file; `questions` are
+    the page's public question DTOs.
+    """
+    stated = stated if isinstance(stated, dict) else {}
+    result: dict[str, dict[str, str]] = {}
+    for question in questions:
+        for item in question.get("vocabulary") or []:
+            entry = stated.get(item["id"])
+            if not isinstance(entry, dict):
+                raise ValueError(f"Missing word explanation: {item['id']}")
+            result[item["id"]] = vocabulary_entry(item["id"], entry)
+    return dict(sorted(result.items()))
+
+
 def question_taxonomy(root: Path) -> dict[str, list[dict[str, Any]]]:
     """The tasks, passage types and importance levels, in display order, for the practice builder.
 
@@ -780,6 +857,9 @@ def public_question(root: Path, route: str, question: dict[str, Any]) -> dict[st
         source_kind=origin["kind"], source_tier=origin["tier"], source_year=origin["year"],
         source_refs=origin["refs"], difficulty_level=origin["level"], difficulty_basis=origin["basis"],
     )
+    vocabulary = question_vocabulary(question)
+    if vocabulary:
+        result["vocabulary"] = vocabulary
 
     assets = public_question_assets(
         root,
@@ -889,12 +969,14 @@ def render_practice_page(
     page_meta: dict[str, Any],
     page_migrations: list[dict[str, Any]],
     aliases_by_page: dict[str, dict[str, str]],
+    vocabulary: dict[str, dict[str, str]] | None = None,
 ) -> str:
     return (
         template.replace("__SECTION__", "reading_writing")
         .replace("__SECTION_TITLE__", title)
         .replace("__QUESTIONS_JSON__", safe_json(questions))
         .replace("__PAGE_META_JSON__", safe_json(page_meta))
+        .replace("__PAGE_VOCABULARY_JSON__", safe_json(vocabulary or {}))
         .replace("__PAGE_MIGRATIONS_JSON__", safe_json(page_migrations))
         .replace("__QUESTION_ALIASES_BY_PAGE_JSON__", safe_json(aliases_by_page))
     )
@@ -913,6 +995,7 @@ def build(root: Path) -> dict[str, Any]:
     migrations = load_migrations(root)
     registry = load_content_registry(root)
     published_entries, source_pages, canonical_questions = load_published_content(root, registry)
+    stated_vocabulary = load_question_metadata(root).get("vocabulary")
     entries_by_route = {str(entry["route"]): entry for entry in published_entries}
     category_entries = [entry for entry in published_entries if entry.get("kind") == "category"]
     registered_categories = {str(entry["title"]): str(entry["route"]) for entry in category_entries}
@@ -1000,6 +1083,7 @@ def build(root: Path) -> dict[str, Any]:
                 page_meta,
                 migrations.get(route, []),
                 aliases_by_page,
+                page_vocabulary(stated_vocabulary, public_questions),
             ),
             encoding="utf-8",
         )
@@ -1022,6 +1106,7 @@ def build(root: Path) -> dict[str, Any]:
         "pages": pages,
         "questions": list(canonical.values()),
         "taxonomy": question_taxonomy(root),
+        "vocabulary": site_vocabulary(stated_vocabulary),
         "questionAliasesByPage": aliases_by_page,
         "storageMigrations": {
             **{migration["storageKey"]: {"aliases": migration.get("aliases", {})}
