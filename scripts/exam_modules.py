@@ -15,7 +15,15 @@ second module, with no routing between them and no scaled score.
 A set whose registry entry already carries a hand-made moduleSpec with a
 Module 1 ("m1") and a fixed hard second module ("m2_hard") is offered as it is:
 its modules are never rewritten here. If such a module names a question the set
-no longer contains, the entry is left untouched and stays closed.
+no longer publishes (left out, withdrawn to a draft, listed twice), the entry
+is closed: examEligible becomes false and examVariants empty, while its
+moduleSpec is kept for whoever repairs it.
+
+Every other entry that is open but no longer backed by the tables (its source,
+its module or the set itself is gone or unpublished) is closed the same way, so
+a mock exam never stays open by default. Opening one is still the owner's
+decision: the site shows it only when the release switch for fixed mock exams
+is on (sat-release.json).
 
 Questions keep their order in the source. Questions the set does not publish
 (figures, unsupported markup, near copies) are left out, and the time limit
@@ -109,12 +117,29 @@ CURATED_VARIANT = {"id": "fixed-hard", "label": "Module 1 + Module 2 · Hard", "
 OFF = {"examEligible": False, "moduleSpec": None, "examVariants": []}
 
 
-def apply(registry: dict[str, Any], specs: dict[str, dict[str, Any] | None]) -> list[str]:
+CLOSED = {"examEligible": False, "examVariants": []}
+
+
+def published_members(tables: db.Tables) -> dict[str, set[str]]:
+    """The published questions each material places, by contentId."""
+    status = {row["question_id"]: row["status"] for row in tables["question"]}
+    members: dict[str, set[str]] = {}
+    for row in tables["material_item"]:
+        if status.get(row["question_id"]) == "published":
+            members.setdefault(row["content_id"], set()).add(row["question_id"])
+    return members
+
+
+def apply(registry: dict[str, Any], specs: dict[str, dict[str, Any] | None],
+          members: dict[str, set[str]] | None = None) -> list[str]:
     """Make the registry say what the tables support; return the contentIds that changed.
 
     Entries for sets that reproduce a real exam are written from `specs`. An
-    entry with a hand-made m1 + m2_hard moduleSpec keeps it and is switched on.
-    Every other entry is left exactly as it is.
+    entry with a hand-made m1 + m2_hard moduleSpec keeps it and is switched on
+    while every question it lists is a published member of the set (`members`,
+    from the tables; the entry's own questionIds when not given), and switched
+    off, moduleSpec kept, when one is not. Any other entry that is open is
+    closed. Entries that are closed and not real exams are left as they are.
     """
     changed = []
     for entry in registry["entries"]:
@@ -122,14 +147,17 @@ def apply(registry: dict[str, Any], specs: dict[str, dict[str, Any] | None]) -> 
         if entry["contentId"] in specs:
             spec = specs[entry["contentId"]] if offered else None
             wanted = {"examEligible": True, **spec} if spec else OFF
-        elif offered and list(entry.get("moduleSpec") or {}) == CURATED_MODULES:
-            # A hand-made module that names a question the set no longer has
-            # cannot be sat; the entry is left alone until someone repairs it.
+        elif list(entry.get("moduleSpec") or {}) == CURATED_MODULES:
             listed = [question_id for key in CURATED_MODULES
-                      for question_id in entry["moduleSpec"][key].get("questionIds") or []]
-            if not listed or len(listed) != len(set(listed)) or not set(listed) <= set(entry.get("questionIds") or []):
-                continue
-            wanted = {"examEligible": True, "examVariants": [dict(CURATED_VARIANT)]}
+                      for question_id in (entry["moduleSpec"][key] or {}).get("questionIds") or []]
+            present = (members.get(entry["contentId"], set()) if members is not None
+                       else set(entry.get("questionIds") or []))
+            sound = offered and listed and len(listed) == len(set(listed)) and set(listed) <= present
+            wanted = {"examEligible": True, "examVariants": [dict(CURATED_VARIANT)]} if sound else CLOSED
+        elif entry.get("examEligible") or entry.get("examVariants"):
+            # Open without anything in the tables to back it: the source, the
+            # module or the set is gone. Close it rather than keep serving it.
+            wanted = CLOSED
         else:
             continue
         if any(entry.get(key) != value for key, value in wanted.items()):
@@ -153,8 +181,7 @@ def main(argv: list[str] | None = None) -> int:
     specs = exam_specs(tables, args.root)
     path = args.root / REGISTRY
     registry = json.loads(path.read_text(encoding="utf-8"))
-    titles = {entry["contentId"]: entry["title"] for entry in registry["entries"]}
-    changed = apply(registry, specs)
+    changed = apply(registry, specs, published_members(tables))
     offered = [entry for entry in registry["entries"] if entry["examEligible"]]
     for entry in offered:
         first, second = (entry["moduleSpec"][key] for key in entry["examVariants"][0]["modules"])

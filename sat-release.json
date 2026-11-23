@@ -1,0 +1,9 @@
+{
+  "schemaVersion": "sat-release-v1",
+  "features": {
+    "expandedQuestionBank": false,
+    "fixedMockExams": false,
+    "wordExplanations": false,
+    "walkthroughs": false
+  }
+}

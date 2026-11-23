@@ -97,6 +97,81 @@ class MetadataFromTablesTests(unittest.TestCase):
             self.assertIn(entry["difficulty"], ("easy", "medium", "hard", None), question_id)
 
 
+class SourceNumberTests(unittest.TestCase):
+    """A source reference gives the number the question has in that source, never a position elsewhere."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.tables, problems = DB.read_tables(ROOT)
+        assert problems == []
+
+    def numbers(self, tables, question_id):
+        return [(ref["label"], ref["module"], ref["number"])
+                for ref in DB.question_metadata(tables, ROOT)["questions"][question_id]["refs"]]
+
+    def test_a_renumbered_set_keeps_the_original_number(self):
+        item = next(row for row in self.tables["material_item"] if row["question_id"] == "oct_us2_015")
+        self.assertEqual((item["question_number"], item["source_question_number"]), (16, 17))
+        self.assertEqual([number for _, _, number in self.numbers(self.tables, "oct_us2_015")], [17])
+
+    def test_an_imported_question_is_numbered_from_its_source_only(self):
+        """The reference a page shows (the first) is the imported occurrence with its own number,
+        and the set file placing the question in a new material adds no second number for that source."""
+        metadata = DB.question_metadata(self.tables, ROOT)["questions"]
+        occurrences, labels = {}, {row["source_id"]: row["label"] for row in self.tables["source"]}
+        for row in self.tables["question_source"]:
+            occurrences.setdefault(row["question_id"], []).append((labels[row["source_id"]], row["number"]))
+        checked = 0
+        for question_id, entry in metadata.items():
+            if question_id in occurrences:
+                shown = entry["refs"][0]
+                if shown["label"] in {label for label, _ in occurrences[question_id]}:
+                    self.assertIn((shown["label"], shown["number"]), occurrences[question_id], question_id)
+                for label in {label for label, _ in occurrences[question_id]}:
+                    numbers = [ref["number"] for ref in entry["refs"] if ref["label"] == label]
+                    self.assertEqual(sorted(numbers), sorted(number for name, number in occurrences[question_id]
+                                                             if name == label), question_id)
+                checked += 1
+        self.assertGreater(checked, 2000)
+        # A collection's own list position is no paper number: the bank numbers this one 37.
+        self.assertEqual([ref["number"] for ref in metadata["wic-easy-153473"]["refs"]], [37, None])
+
+    def test_removing_and_reordering_questions_keeps_every_source_number(self):
+        before = DB.question_metadata(self.tables, ROOT)["questions"]
+        tables = json.loads(json.dumps(self.tables))
+        content_id = next(row["content_id"] for row in tables["material_item"]
+                          if row["question_id"].startswith("bank_rw_"))
+        placed = sorted((row for row in tables["material_item"] if row["content_id"] == content_id),
+                        key=lambda row: row["position"])
+        removed = placed[1]["question_id"]
+        kept = [row for row in placed if row["question_id"] != removed][::-1]
+        for position, row in enumerate(kept, 1):
+            row["position"] = row["question_number"] = position
+        tables["material_item"] = [row for row in tables["material_item"]
+                                   if row["content_id"] != content_id] + kept
+        after = DB.question_metadata(tables, ROOT)["questions"]
+        for row in kept:
+            self.assertEqual(after[row["question_id"]]["refs"], before[row["question_id"]]["refs"], row["question_id"])
+
+        # A legacy set renumbered by hand keeps the number it records for the source.
+        tables = json.loads(json.dumps(self.tables))
+        legacy = next(row for row in tables["material_item"] if row["question_id"] == "oct_us2_015")
+        legacy["question_number"] = 3
+        self.assertEqual([number for _, _, number in self.numbers(tables, "oct_us2_015")], [17])
+
+    def test_a_position_in_a_material_of_another_source_is_not_a_paper_number(self):
+        tables = json.loads(json.dumps(self.tables))
+        materials = {row["content_id"]: row for row in tables["material"]}
+        sources = {row["source_id"] for row in tables["source"]}
+        item = next(row for row in tables["material_item"]
+                    if row["question_id"] == "oct_us2_015")
+        other = next(source for source in sorted(sources) if source != materials[item["content_id"]]["source_id"]
+                     and not any(row["source_id"] == source and row["question_id"] == "oct_us2_015"
+                                 for row in tables["question_source"]))
+        item["source_id"], item["source_question_number"] = other, None
+        self.assertEqual([number for _, _, number in self.numbers(tables, "oct_us2_015")], [None])
+
+
 class BuilderFieldTests(unittest.TestCase):
     def test_fields_are_present_and_empty_without_tables(self):
         compact = BUILDER.compact_question(question(), "sets/demo.html", ROOT)
@@ -188,11 +263,18 @@ class BuiltSiteTests(unittest.TestCase):
         PIPELINE.copy_public_inputs(ROOT, cls.checkout)
         shutil.copytree(ROOT / "content/db", cls.checkout / "content/db")
         shutil.copyfile(ROOT / "scripts/content_db.py", cls.checkout / "scripts/content_db.py")
+        # Every release feature on: the whole published bank with its metadata.
+        result = subprocess.run([sys.executable, "scripts/build-site.py", "--preview-all"], cwd=cls.checkout,
+                                capture_output=True, text=True)
+        assert result.returncode == 0, result.stderr
+        cls.site = cls.checkout / "build/site-preview"
+        cls.manifest = json.loads((cls.site / "sat-practice-manifest.json").read_text(encoding="utf-8"))
+        # What sat-release.json releases: nothing beyond the reviewed baseline.
         result = subprocess.run([sys.executable, "scripts/build-site.py"], cwd=cls.checkout,
                                 capture_output=True, text=True)
         assert result.returncode == 0, result.stderr
-        cls.site = cls.checkout / "build/site"
-        cls.manifest = json.loads((cls.site / "sat-practice-manifest.json").read_text(encoding="utf-8"))
+        cls.release = cls.checkout / "build/site"
+        cls.release_manifest = json.loads((cls.release / "sat-practice-manifest.json").read_text(encoding="utf-8"))
 
     @classmethod
     def tearDownClass(cls):
@@ -233,6 +315,28 @@ class BuiltSiteTests(unittest.TestCase):
                               item["source_refs"], item["difficulty_level"]),
                              (expected["sourceKind"], expected["sourceTier"], expected["sourceYear"],
                               expected["sourceRefs"], expected["difficultyLevel"]))
+
+    def test_the_release_build_carries_no_switched_off_content(self):
+        manifest = self.release_manifest
+        self.assertEqual((manifest["uniqueQuestionCount"], manifest["pageCount"]), (1752, 48))
+        self.assertFalse(any(manifest["features"].values()))
+        self.assertEqual(manifest["vocabulary"], [])
+        self.assertFalse(any(page["examEligible"] or page["examVariants"] for page in manifest["pages"]))
+        full = {entry["questionId"]: entry for entry in self.manifest["questions"]}
+        for entry in manifest["questions"]:
+            # Origin and classification are the same; only the walkthrough no longer counts as an explanation.
+            self.assertEqual(entry["sourceRefs"], full[entry["questionId"]]["sourceRefs"], entry["questionId"])
+            self.assertIn(entry["explanationLevel"], ("full", "brief", "none"))
+        for page in manifest["pages"]:
+            html = (self.release / page["route"]).read_text(encoding="utf-8")
+            for item in PIPELINE.questions_in_html(html):
+                self.assertNotIn("walkthrough", item, page["route"])
+                self.assertNotIn("vocabulary", item, page["route"])
+            meta = json.loads(re.search(r'<script type="application/json" id="satPageMeta">(.*?)</script>', html, re.S).group(1))
+            self.assertEqual((meta["examEligible"], meta["examVariants"], any(meta["features"].values())), (False, [], False))
+            vocabulary = re.search(r'<script type="application/json" id="satPageVocabulary">(.*?)</script>', html, re.S).group(1)
+            self.assertEqual(json.loads(vocabulary), {}, page["route"])
+        self.assertFalse((self.release / "sat-release.json").exists())
 
     def test_metadata_file_is_not_left_in_the_site_and_drafts_do_not_leak(self):
         self.assertFalse((self.site / "sat-question-metadata.json").exists())

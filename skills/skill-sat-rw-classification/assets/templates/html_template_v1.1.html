@@ -1104,7 +1104,10 @@
     const params = new URLSearchParams(location.search);
     const requestedExamMode = params.get("mode") === "exam";
     const PAGE_META = readPageMeta();
-    const EXAM_CONFIG = normalizeExamConfig(PAGE_META);
+    // 发布开关：构建时写入页面，缺省一律关闭。关闭的功能在页面上不出现入口。
+    const FEATURES = Object.fromEntries(["expandedQuestionBank", "fixedMockExams", "wordExplanations", "walkthroughs"]
+      .map(name => [name, asRecord(PAGE_META.features)[name] === true]));
+    const EXAM_CONFIG = FEATURES.fixedMockExams ? normalizeExamConfig(PAGE_META) : null;
     const EXAM_STORAGE_KEY = "sat-exam:v1:" + PAGE_ID;
     // 每次完成的模考都会存一份到这里，按账号隔离、只在本机，可以单独回看
     const EXAM_HISTORY_KEY = "sat-exam-history:v1";
@@ -1129,7 +1132,7 @@
       ...PAGE_MIGRATIONS.map(migration => migration.storageKey)
     ], { pageOnly: true });
     let state = loadState();
-    let current = Math.min(state.current || 0, Math.max(QUESTIONS.length - 1, 0));
+    let current = restoredIndex(state);
     if (focusQuestionId) {
       const focusIndex = QUESTIONS.findIndex(question => question.question_id === focusQuestionId);
       if (focusIndex >= 0) current = focusIndex;
@@ -1661,7 +1664,9 @@
               key: moduleKey, label: spec.label, durationSeconds: spec.durationSeconds,
               startedAt: moduleState.startedAt, submittedAt: moduleState.submittedAt, submitReason: moduleState.submitReason,
               questionIds: [...spec.questionIds], answers: { ...moduleState.answers }, marked: [...moduleState.marked],
-              score: { correct: score.correct, incorrect: score.incorrect, blank: score.blank, total: score.total }
+              score: { correct: score.correct, incorrect: score.incorrect, blank: score.blank, total: score.total },
+              // 完成时每道题的评分版本：之后答案或解析改了，回看时能指出哪些题已不同
+              revisions: Object.fromEntries(spec.questionIds.map(questionId => [questionId, String(examQuestionById(questionId)?.gradingRevision || "")]))
             };
           })
         });
@@ -1671,25 +1676,57 @@
       }
     }
 
+    // 回看视图属于打开它的那个账号：token 不再是当前 owner 时一律作废，重新从当前 owner 的存储读
+    function currentExamHistoryView() {
+      if (examHistoryView && !learningStorage.isCurrent(examHistoryView.token)) examHistoryView = null;
+      return examHistoryView;
+    }
+
+    function forgetExamHistoryView() {
+      examHistoryView = null;
+      examCheckOpen = false;
+      examNavigatorOpen = false;
+    }
+
     function loadExamHistoryView(recordId) {
+      if (!learningStorage.ready()) return null;
+      const token = learningStorage.token();
       const record = loadExamHistory().find(item => item.id === recordId && item.pageId === PAGE_ID);
       if (!record || !Array.isArray(record.modules)) return null;
+      // 记录本身只读：不改写、不补字段。退休的题（当前页面已没有）不进重算，但会被数出来。
       const modules = record.modules.map(value => {
         const source = asRecord(value);
-        const questionIds = (Array.isArray(source.questionIds) ? source.questionIds : []).filter(questionId => examQuestionById(questionId));
+        const listed = (Array.isArray(source.questionIds) ? source.questionIds : []).filter(questionId => typeof questionId === "string");
+        const questionIds = listed.filter(questionId => examQuestionById(questionId));
+        const stored = asRecord(source.score), whole = number => Number.isInteger(number) && number >= 0;
+        const revisions = source.revisions && typeof source.revisions === "object" && !Array.isArray(source.revisions) ? source.revisions : null;
         return {
           label: safeExamLabel(source.label, "Module"), questionIds, answers: asRecord(source.answers),
           startedAt: Number(source.startedAt) || null, submittedAt: Number(source.submittedAt) || null,
-          durationSeconds: Number(source.durationSeconds) || null, submitReason: source.submitReason === "timeout" ? "timeout" : ""
+          durationSeconds: Number(source.durationSeconds) || null, submitReason: source.submitReason === "timeout" ? "timeout" : "",
+          archivedScore: whole(stored.correct) && whole(stored.total) && stored.correct <= stored.total ? { correct: stored.correct, total: stored.total } : null,
+          retired: listed.length - questionIds.length,
+          // 没有版本标记的旧记录：无法判断答案是否改过（null）
+          changed: revisions ? questionIds.filter(questionId => String(revisions[questionId] || "") !== String(examQuestionById(questionId).gradingRevision || "")).length : null
         };
-      }).filter(item => item.questionIds.length);
-      return modules.length ? { record, modules, phase: "result", index: 0 } : null;
+      });
+      const kept = modules.filter(item => item.questionIds.length);
+      // 完成时成绩取自记录里每个模块存下的成绩；任何一个模块缺成绩就不显示，以免拼出不完整的数
+      const archived = modules.every(item => item.archivedScore)
+        ? modules.reduce((sum, item) => ({ correct: sum.correct + item.archivedScore.correct, total: sum.total + item.archivedScore.total }), { correct: 0, total: 0 })
+        : null;
+      const grading = {
+        archived,
+        retired: modules.reduce((sum, item) => sum + item.retired, 0),
+        changed: modules.some(item => item.changed === null) ? null : modules.reduce((sum, item) => sum + item.changed, 0)
+      };
+      return kept.length ? { record, modules: kept, grading, phase: "result", index: 0, token } : null;
     }
 
     // 成绩页和解析页共用：既能读正在进行的这场模考，也能读历史记录
     function examResultSource() {
-      if (examHistoryView) {
-        return { history: true, title: `${formatExamDate(examHistoryView.record.completedAt)} 的模考记录`, modules: examHistoryView.modules };
+      if (currentExamHistoryView()) {
+        return { history: true, title: `${formatExamDate(examHistoryView.record.completedAt)} 的模考记录`, modules: examHistoryView.modules, grading: examHistoryView.grading };
       }
       const variant = examVariantById(examSession.variantId);
       return {
@@ -1742,7 +1779,7 @@
       els.resetBtn.hidden = active;
       els.syncStatus.hidden = active;
       els.examModeBtn.hidden = active || !EXAM_CONFIG || redoMode;
-      els.vocabularyBtn.hidden = active;
+      els.vocabularyBtn.hidden = active || !FEATURES.wordExplanations;
       if (active) { closeGloss(); els.glossPanel.hidden = true; }
       if (!active) els.modeBanner.classList.remove("visible");
     }
@@ -1753,6 +1790,20 @@
 
     function focusExamHeading() {
       window.requestAnimationFrame(() => document.getElementById("examHeading")?.focus());
+    }
+
+    // 这个站点没有开放模考：不显示任何模考内容，也不读模考记录
+    function renderExamClosed() {
+      applyChartLayout(null);
+      els.examShell.dataset.view = "card";
+      els.examShell.innerHTML = `
+        <div class="exam-card">
+          <p class="exam-kicker">模考</p>
+          ${examShellHeading("模考暂未开放")}
+          <div class="exam-card-actions"><button class="primary" id="examClosedExit" type="button">返回普通练习</button></div>
+        </div>`;
+      document.getElementById("examClosedExit").addEventListener("click", exitExamMode);
+      focusExamHeading();
     }
 
     function renderExamUnavailable() {
@@ -1766,6 +1817,20 @@
           <div class="exam-card-actions"><button class="primary" id="examUnavailableExit" type="button">返回普通练习</button><a class="exam-link" href="../index.html#exam">模考中心</a></div>
         </div>`;
       document.getElementById("examUnavailableExit").addEventListener("click", exitExamMode);
+      focusExamHeading();
+    }
+
+    function renderExamHistoryPending() {
+      applyChartLayout(null);
+      els.examShell.dataset.view = "card";
+      els.examShell.innerHTML = `
+        <div class="exam-card">
+          <p class="exam-kicker">模考记录</p>
+          ${examShellHeading("正在确认账号")}
+          <p>确认当前登录的账号之后，才会显示这个账号自己的模考记录。</p>
+          <div class="exam-card-actions"><button class="primary" id="examHistoryPendingExit" type="button">返回模考中心</button></div>
+        </div>`;
+      document.getElementById("examHistoryPendingExit").addEventListener("click", exitToExamCenter);
       focusExamHeading();
     }
 
@@ -2084,15 +2149,31 @@
       const source = examResultSource();
       const totals = source.modules.map(module => scoreExamAnswers(module.questionIds, module.answers))
         .reduce((sum, score) => ({ correct: sum.correct + score.correct, total: sum.total + score.total }), { correct: 0, total: 0 });
-      const accuracy = totals.total ? Math.round(totals.correct / totals.total * 1000) / 10 : 0;
       const offsets = source.modules.map((module, index) => source.modules.slice(0, index).reduce((sum, item) => sum + item.questionIds.length, 0));
+      const percent = score => score.total ? Math.round(score.correct / score.total * 1000) / 10 : 0;
+      // 回看记录：大字是完成时成绩（和模考中心卡片同一口径），下面另列按当前题库重算的结果
+      const archived = source.history && source.grading ? source.grading.archived : null;
+      const headline = archived || totals;
+      const scoreLabel = source.history ? (archived ? "完成时成绩" : "按当前题库重算") : "正确率";
+      let gradingNote = "";
+      if (source.history && source.grading) {
+        const { retired, changed } = source.grading, notes = [];
+        if (changed === null) notes.push("这条记录早于题目版本标记，无法判断之后答案或解析是否改过");
+        else if (changed) notes.push(`其中 ${changed} 题的答案或解析在完成后有更新`);
+        if (retired) notes.push(`${retired} 题已不在当前题库，没有计入重算`);
+        const same = archived && archived.correct === totals.correct && archived.total === totals.total && !changed && !retired;
+        gradingNote = archived
+          ? `<p class="exam-note" id="examRescore">按当前题库重算：${totals.correct} / ${totals.total}（${percent(totals)}%）${same ? "，与完成时相同" : ""}${notes.length ? "。" + notes.join("；") : ""}。下面的分模块结果和错题题号按当前题库。</p>`
+          : `<p class="exam-note" id="examRescore">这条记录没有完整的完成时成绩，以上按当前题库重算${notes.length ? "。" + notes.join("；") : ""}。</p>`;
+      }
       els.examShell.dataset.view = "card";
       els.examShell.innerHTML = `
         <div class="exam-card">
           <p class="exam-kicker">${source.history ? "模考记录" : "模考完成"}</p>
           ${examShellHeading(document.title)}
           <p>${escapeHtml(source.title)}</p>
-          <div class="exam-score"><strong>${accuracy}%</strong><span>正确率 · ${totals.correct} / ${totals.total} 题答对</span></div>
+          <div class="exam-score" id="examScore"><strong>${percent(headline)}%</strong><span>${scoreLabel} · ${headline.correct} / ${headline.total} 题答对</span></div>
+          ${gradingNote}
           <p class="exam-note">以下是原始正确率和错题题号，<strong>不是 SAT 换算分</strong>，也不代表自适应路由结果。</p>
           <div class="exam-summary-grid">${source.modules.map((module, index) => examStatsHtml(module, offsets[index])).join("")}</div>
           <div class="exam-card-actions">
@@ -2223,16 +2304,24 @@
       clearExamTimer();
       setExamChrome(true);
       els.modeBanner.classList.remove("visible");
+      if (requestedExamHistoryId && !FEATURES.fixedMockExams) {
+        renderExamClosed();
+        syncExamPersistenceNotice();
+        return;
+      }
       if (requestedExamHistoryId) {
-        // 回看历史记录只需要题目本身，不要求这套题现在仍可模考
-        if (!examHistoryView) examHistoryView = loadExamHistoryView(requestedExamHistoryId);
-        if (!examHistoryView) renderExamHistoryMissing();
+        // 回看历史记录只需要题目本身，不要求这套题现在仍可模考；账号未确认时不读任何记录
+        if (!currentExamHistoryView() && learningStorage.ready()) examHistoryView = loadExamHistoryView(requestedExamHistoryId);
+        if (!learningStorage.ready()) renderExamHistoryPending();
+        else if (!examHistoryView) renderExamHistoryMissing();
         else if (examHistoryView.phase === "review") renderExamReview();
         else renderExamComplete();
         syncExamPersistenceNotice();
         return;
       }
-      if (!EXAM_CONFIG) {
+      if (!FEATURES.fixedMockExams) {
+        renderExamClosed();
+      } else if (!EXAM_CONFIG) {
         renderExamUnavailable();
       } else if (!examSession) {
         renderExamStart();
@@ -2314,6 +2403,14 @@
       });
     }
 
+    // The question the stored state was on, found by id first: an older page key
+    // (before the page gained questions) numbers its questions differently.
+    function restoredIndex(saved) {
+      const byId = QUESTIONS.findIndex(question => question.question_id === saved.currentQuestionId);
+      if (byId >= 0) return byId;
+      return Math.min(Math.max(0, Number(saved.current) || 0), Math.max(QUESTIONS.length - 1, 0));
+    }
+
     function loadState() {
       const candidates = [{ storageKey, aliases: {} }, ...PAGE_MIGRATIONS];
       const next = { current: 0, answers: {} };
@@ -2326,6 +2423,10 @@
           if (visited >= newestVisit) {
             newestVisit = visited;
             Object.assign(next, parsed, { answers: next.answers });
+            // A migrated page lists its questions differently: where the learner was is a question, not an index.
+            if (typeof parsed.currentQuestionId === "string") {
+              next.currentQuestionId = String(asRecord(candidate.aliases)[parsed.currentQuestionId] || parsed.currentQuestionId);
+            }
           }
           for (const [legacyId, value] of Object.entries(asRecord(parsed.answers))) {
             const questionId = String(asRecord(candidate.aliases)[legacyId] || legacyId);
@@ -2964,29 +3065,44 @@
        不落盘。模考有自己的模块计时，不用这个。 */
     const QUESTION_TIME_KEY = "sat-learning:question-time:v1";
     const QUESTION_TIME_LIMIT = 6000;
+    // questionTimes only caches the stored table for painting. Every change re-reads the
+    // table as it is stored now and applies this tab's own change to it, so two open tabs
+    // add up instead of writing back each other's stale copy.
     let questionTimes = null, questionTimesOwner = "";
     let timerKey = "", timerStartedAt = 0, timerPaused = false, timerFrozen = false, timerSavedAt = 0;
+    // Blank-redo times live in this tab only. Folded time a write has not stored yet waits
+    // in timeUnsaved for the owner it was spent under, and is never written for another.
+    let redoTimes = {}, timeUnsaved = { token: "", times: {} };
 
-    function readQuestionTimes() {
-      const owner = learningStorage.token();
-      if (questionTimes && questionTimesOwner === owner) return questionTimes;
-      questionTimes = {};
-      questionTimesOwner = owner;
+    function storedQuestionTimes() {
+      const times = {};
       try {
         const stored = asRecord(JSON.parse(learningStorage.getItem(QUESTION_TIME_KEY) || "null"));
         for (const [key, value] of Object.entries(asRecord(stored.times))) {
           if (value && Number.isFinite(value.ms) && value.ms >= 0) {
-            questionTimes[key] = { ms: Math.floor(value.ms), at: typeof value.at === "string" ? value.at : "" };
+            times[key] = { ms: Math.floor(value.ms), at: typeof value.at === "string" ? value.at : "" };
           }
         }
       } catch {}
+      return times;
+    }
+
+    function readQuestionTimes() {
+      const owner = learningStorage.token();
+      if (!questionTimes || questionTimesOwner !== owner) {
+        questionTimes = storedQuestionTimes();
+        questionTimesOwner = owner;
+      }
       return questionTimes;
     }
 
-    function writeQuestionTimes() {
-      if (!learningStorage.ready()) return;
+    // Apply `change` to the stored table and write it back; the cache becomes what was written.
+    function changeQuestionTimes(change) {
+      if (!learningStorage.ready()) return false;
+      const owner = learningStorage.token();
       try {
-        const times = readQuestionTimes(), kept = {};
+        const times = storedQuestionTimes(), kept = {};
+        change(times);
         // Only one practice session exists at a time, so another session's times are stale.
         const session = practiceSession ? `s:${practiceSession.id}:` : "";
         let keys = Object.keys(times).filter(key => !key.startsWith("r:") && (!key.startsWith("s:") || (session && key.startsWith(session))));
@@ -2995,8 +3111,41 @@
         }
         for (const key of keys) kept[key] = times[key];
         learningStorage.setItem(QUESTION_TIME_KEY, JSON.stringify({ version: 1, times: kept }));
+        questionTimes = kept;
+        questionTimesOwner = owner;
         timerSavedAt = Date.now();
-      } catch {}
+        return true;
+      } catch { return false; }
+    }
+
+    // Write what is waiting, for its own owner only; keep it for a later try when the write fails.
+    function saveQuestionTimes() {
+      if (!timeUnsaved.token || !learningStorage.isCurrent(timeUnsaved.token)) { timeUnsaved = { token: "", times: {} }; return false; }
+      const waiting = timeUnsaved.times;
+      if (!Object.keys(waiting).length) return true;
+      const saved = changeQuestionTimes(times => {
+        for (const [key, ms] of Object.entries(waiting)) {
+          const entry = times[key] || (times[key] = { ms: 0, at: "" });
+          entry.ms += ms;
+          entry.at = nowIso();
+        }
+      });
+      if (saved) timeUnsaved.times = {};
+      return saved;
+    }
+
+    function addQuestionTime(key, ms) {
+      if (!key || ms <= 0) return;
+      if (key.startsWith("r:")) {
+        const entry = redoTimes[key] || (redoTimes[key] = { ms: 0, at: "" });
+        entry.ms += ms;
+        entry.at = nowIso();
+        return;
+      }
+      if (!learningStorage.ready()) return;
+      const owner = learningStorage.token();
+      if (timeUnsaved.token !== owner) timeUnsaved = { token: owner, times: {} };
+      timeUnsaved.times[key] = (timeUnsaved.times[key] || 0) + ms;
     }
 
     function questionTimerKey(question) {
@@ -3007,20 +3156,19 @@
     }
 
     function questionTimerElapsed() {
-      const stored = timerKey && readQuestionTimes()[timerKey];
-      return (stored ? stored.ms : 0) + (timerStartedAt ? Math.max(0, Date.now() - timerStartedAt) : 0);
+      if (!timerKey) return 0;
+      const stored = timerKey.startsWith("r:") ? redoTimes[timerKey] : readQuestionTimes()[timerKey];
+      const waiting = learningStorage.isCurrent(timeUnsaved.token) ? timeUnsaved.times[timerKey] || 0 : 0;
+      return (stored ? stored.ms : 0) + waiting + (timerStartedAt ? Math.max(0, Date.now() - timerStartedAt) : 0);
     }
 
     // Fold the stretch that is running into the question's total.
     function holdQuestionTimer({ save = true } = {}) {
       if (timerKey && timerStartedAt) {
-        const times = readQuestionTimes();
-        const entry = times[timerKey] || (times[timerKey] = { ms: 0, at: "" });
-        entry.ms += Math.max(0, Date.now() - timerStartedAt);
-        entry.at = nowIso();
+        addQuestionTime(timerKey, Math.max(0, Date.now() - timerStartedAt));
         timerStartedAt = 0;
-        if (save) writeQuestionTimes();
       }
+      if (save) saveQuestionTimes();
     }
 
     function runQuestionTimer() {
@@ -3030,12 +3178,13 @@
     }
 
     function restartQuestionTimer(keys) {
-      const times = readQuestionTimes();
       for (const key of keys) {
-        delete times[key];
+        delete redoTimes[key];
+        delete timeUnsaved.times[key];
         if (key === timerKey) timerStartedAt = 0;
       }
-      writeQuestionTimes();
+      saveQuestionTimes();
+      changeQuestionTimes(times => { for (const key of keys) delete times[key]; });
     }
 
     function formatQuestionTime(ms) {
@@ -3088,6 +3237,16 @@
       paintQuestionTimer();
     });
     window.addEventListener("pagehide", () => holdQuestionTimer());
+    // Before the owner changes: the running stretch is the old owner's. It is written for that
+    // owner (or dropped when its identity failed); the next owner's timer starts from its own records.
+    learningStorage.onOwnerChange(({ settle }) => {
+      if (timerKey && timerStartedAt) addQuestionTime(timerKey, Math.max(0, Date.now() - timerStartedAt));
+      timerStartedAt = 0;
+      if (settle) saveQuestionTimes();
+      timeUnsaved = { token: "", times: {} };
+      redoTimes = {};
+      questionTimes = null;
+    });
 
     // Whether the list is shown is a per-tab view preference, kept out of the learning store.
     const QUESTION_LIST_VIEW_KEY = "sat-ui:question-list";
@@ -4133,6 +4292,7 @@
       try { changed = learningStorage.bind(session); }
       catch (error) {
         cloudSession = null;
+        forgetExamHistoryView();
         for (const timer of [cloudSaveTimer, reflectionTimer, globalPersistTimer, examTimer]) if (timer) clearTimeout(timer);
         cloudSaveTimer = reflectionTimer = globalPersistTimer = examTimer = null;
         cloudSaveInFlight = cloudBootstrapPromise = outboxSyncPromise = null;
@@ -4147,6 +4307,7 @@
         return false;
       }
       if (changed) {
+        forgetExamHistoryView();
         for (const timer of [cloudSaveTimer, reflectionTimer, globalPersistTimer, examTimer]) if (timer) clearTimeout(timer);
         cloudSaveTimer = reflectionTimer = globalPersistTimer = examTimer = null;
         cloudSaveInFlight = cloudBootstrapPromise = outboxSyncPromise = null;
@@ -4159,7 +4320,7 @@
         for (const id of Object.keys(explanationOpen)) delete explanationOpen[id];
         state = loadState();
         globalState = loadGlobalState();
-        current = Math.min(Math.max(0, Number(state.current) || 0), Math.max(QUESTIONS.length - 1, 0));
+        current = restoredIndex(state);
         const focusIndex = QUESTIONS.findIndex(question => question.question_id === focusQuestionId);
         if (focusIndex >= 0) current = focusIndex;
         redoMode = Boolean(redoQuestionId);
@@ -4510,7 +4671,7 @@
       redoSession = redoMode ? defaultQuestionState() : null;
       const focusId = url.searchParams.get("focus") || redoQuestionId;
       const focusIndex = QUESTIONS.findIndex(question => question.question_id === focusId);
-      current = focusIndex >= 0 ? focusIndex : Math.min(state.current || 0, Math.max(QUESTIONS.length - 1, 0));
+      current = focusIndex >= 0 ? focusIndex : restoredIndex(state);
       for (const questionId of Object.keys(explanationOpen)) explanationOpen[questionId] = false;
       saveState({ markQuestion: false });
       render();
@@ -4554,6 +4715,7 @@
     window.addEventListener("storage", event => {
       const scopedKey = learningStorage.eventKey(event);
       if (scopedKey === SAT_VOCABULARY_KEY) { refreshGlossSaved(); return; }
+      if (scopedKey === QUESTION_TIME_KEY) { questionTimes = null; paintQuestionTimer(); return; }
       if (!requestedExamMode && scopedKey === GLOBAL_KEY) {
         const before = visibleStateSignature();
         globalState = learningStorage.mergeGlobal(globalState, value => ({ ...value, attempts: compactAttempts(value.attempts) }), mergeQuestionState);

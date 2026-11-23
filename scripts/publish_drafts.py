@@ -398,6 +398,8 @@ def write(root: Path, result: dict) -> list[str]:
             "examVariants": [], "kind": material["kind"], "moduleSpec": None, "route": material["route"],
             "section": SECTION, "sourceFamily": material["source_family"], "status": "published",
             "title": material["title"], "questionIds": ids,
+            # Shown only when the owner switches the expanded bank on (sat-release.json).
+            "releaseGate": "expandedQuestionBank",
         })
     (root / REGISTRY).write_text(json.dumps(registry, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     changed.append(REGISTRY)

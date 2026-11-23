@@ -1,8 +1,18 @@
 #!/usr/bin/env python3
-"""Build the complete public content copy into ignored build/site/."""
+"""Build the public content copy into ignored build/site/ (or build/site-preview/).
+
+    python3 scripts/build-site.py                 what sat-release.json releases: build/site/
+    python3 scripts/build-site.py --preview-all   every release feature on, for review: build/site-preview/
+
+sat-release.json switches on what goes beyond the reviewed baseline: the
+expanded question bank, the fixed mock exams, the AI-drafted word explanations
+and the AI-drafted walkthroughs. Switching one on is the content owner's
+decision; the preview build exists so the owner can look before deciding.
+"""
 
 from __future__ import annotations
 
+import argparse
 import importlib.util
 import json
 from pathlib import Path
@@ -17,6 +27,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "build/site"
 BUILDER_PATH = ROOT / "skills/skill-sat-rw-classification/scripts/build_learning_experience.py"
 QUESTION_METADATA = "sat-question-metadata.json"
+RELEASE = "sat-release.json"
 
 
 def write_question_metadata(output: Path) -> Path | None:
@@ -51,13 +62,32 @@ def content_resources(value: object):
             yield from content_resources(item)
 
 
-def _build_into(output: Path) -> dict:
+def load_builder():
+    spec = importlib.util.spec_from_file_location("sat_public_site_builder", BUILDER_PATH)
+    if spec is None or spec.loader is None:
+        raise RuntimeError("The repository page generator is missing")
+    builder = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(builder)
+    return builder
+
+
+def _build_into(output: Path, preview_all: bool = False) -> dict:
+    builder = load_builder()
     registry = json.loads((ROOT / "sat-content-registry.json").read_text(encoding="utf-8"))
     shutil.copyfile(ROOT / "sat-content-registry.json", output / "sat-content-registry.json")
     shutil.copyfile(ROOT / "sat-practice-migrations.json", output / "sat-practice-migrations.json")
+    if preview_all:
+        release = {"schemaVersion": builder.RELEASE_SCHEMA,
+                   "features": {name: True for name in builder.RELEASE_FEATURES}}
+        (output / RELEASE).write_text(json.dumps(release, indent=2) + "\n", encoding="utf-8")
+    elif (ROOT / RELEASE).is_file():
+        shutil.copyfile(ROOT / RELEASE, output / RELEASE)
+    features = builder.load_release(output)
     resources = set()
     for entry in registry["entries"]:
         if entry["status"] != "published" or entry["kind"] not in {"set", "collection"}:
+            continue
+        if not builder.released(entry, features):
             continue
         relative = Path(entry["dataPath"])
         if relative.is_absolute() or ".." in relative.parts:
@@ -79,28 +109,31 @@ def _build_into(output: Path) -> dict:
         destination.parent.mkdir(parents=True, exist_ok=True)
         shutil.copyfile(source, destination)
     metadata = write_question_metadata(output)
-    spec = importlib.util.spec_from_file_location("sat_public_site_builder", BUILDER_PATH)
-    if spec is None or spec.loader is None:
-        raise RuntimeError("The repository page generator is missing")
-    builder = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(builder)
     manifest = builder.build(output)
     if metadata is not None:
         metadata.unlink()  # an input to the pages, not part of the site
+    (output / RELEASE).unlink(missing_ok=True)  # likewise; the manifest states the features
     return manifest
 
 
-def build_site() -> dict:
-    with fresh_output(ROOT, "site") as output:
-        return _build_into(output)
+def build_site(preview_all: bool = False) -> dict:
+    with fresh_output(ROOT, "site-preview" if preview_all else "site") as output:
+        return _build_into(output, preview_all)
 
 
-def main() -> int:
-    manifest = build_site()
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
+    parser.add_argument("--preview-all", action="store_true",
+                        help="switch every release feature on and build into build/site-preview/")
+    arguments = parser.parse_args(argv)
+    manifest = build_site(arguments.preview_all)
     exams = sum(1 for page in manifest["pages"] if page.get("examEligible") is True)
-    print(f"Built full development site: {manifest['uniqueQuestionCount']} unique questions, "
-          f"{manifest['pageCount']} routes, {exams} fixed two-module mock exam(s).")
-    print("Preview: python3 -m http.server --bind 127.0.0.1 --directory build/site 8000")
+    shown = [name for name, on in manifest["features"].items() if on]
+    directory = "build/site-preview" if arguments.preview_all else "build/site"
+    print(f"Built {'preview' if arguments.preview_all else 'release'} site: {manifest['uniqueQuestionCount']} unique "
+          f"questions, {manifest['pageCount']} routes, {exams} fixed two-module mock exam(s); "
+          f"release features on: {', '.join(shown) or 'none'}.")
+    print(f"Preview: python3 -m http.server --bind 127.0.0.1 --directory {directory} 8000")
     print("This build has no production authentication or deployment step.")
     return 0
 

@@ -7,7 +7,14 @@ per set, which the site builder reads. Either side can be edited; the other is
 then regenerated, and `check` fails while they disagree.
 
 Draft questions (status 'draft') live only in the tables. They are in no set
-file and are left alone by normalize and export.
+file and are left alone by normalize and export; a placement of a draft is an
+error, never a reason to write it into a set file.
+
+export writes only content/canonical/sets/<name>.json and
+content/canonical/collections/<name>.json, never through a symbolic link, and
+checks every target before it writes any. Both normalize and export write each
+changed file beside itself first and move them all into place together; when
+that fails the files are left as they were.
 
     python3 scripts/content_db.py check       verify tables, constraints and both directions
     python3 scripts/content_db.py normalize   content/canonical/ -> content/db/
@@ -21,10 +28,12 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 from pathlib import Path
 import re
 import sqlite3
 import sys
+import tempfile
 from typing import Any
 
 
@@ -142,13 +151,68 @@ def render_tables(tables: Tables, root: Path = ROOT) -> dict[str, str]:
 
 
 def write_tables(tables: Tables, root: Path = ROOT) -> list[str]:
-    changed = []
+    files = {}
     for name, text in render_tables(tables, root).items():
-        path = root / DB_DIR / (name + ".jsonl")
-        if not path.is_file() or path.read_text(encoding="utf-8") != text:
-            path.write_text(text, encoding="utf-8")
-            changed.append(f"{DB_DIR}/{name}.jsonl")
-    return changed
+        relative = f"{DB_DIR}/{name}.jsonl"
+        files[checked_path(root, relative)] = text.encode("utf-8")
+    return [path.relative_to(root).as_posix() for path in replace_files(files)]
+
+
+def checked_path(root: Path, relative: str) -> Path:
+    """root / relative, refusing a path that leaves the checkout or passes a symbolic link.
+
+    Only the components below root are looked at: root itself may sit under a
+    linked directory (macOS keeps temporary folders under /var -> /private/var).
+    """
+    parts = Path(relative).parts
+    if Path(relative).is_absolute() or not parts or any(part in ("", ".", "..") for part in parts):
+        raise ContentError(f"{relative!r}: not a plain path inside the checkout")
+    current = root
+    for part in parts:
+        current = current / part
+        if current.is_symlink():
+            raise ContentError(f"{relative}: {current.relative_to(root).as_posix()} is a symbolic link")
+    if current.exists() and not current.is_file():
+        raise ContentError(f"{relative}: not a regular file")
+    if not current.resolve().is_relative_to(root.resolve()):
+        raise ContentError(f"{relative}: leaves the checkout")
+    return current
+
+
+def replace_files(files: dict[Path, bytes]) -> list[Path]:
+    """Write every file that changes, or none of them; return the ones written.
+
+    Each file goes to a temporary file in its own directory first, and only when
+    all of them are written are they moved into place. If a move fails, the
+    files already moved get their old bytes back.
+    """
+    changed = {path: data for path, data in files.items() if not path.is_file() or path.read_bytes() != data}
+    temporary: dict[Path, Path] = {}
+    try:
+        for path, data in changed.items():
+            path.parent.mkdir(parents=True, exist_ok=True)
+            handle, name = tempfile.mkstemp(dir=path.parent, prefix=f".{path.name}.", suffix=".tmp")
+            with os.fdopen(handle, "wb") as stream:
+                stream.write(data)
+            os.chmod(name, path.stat().st_mode & 0o777 if path.exists() else 0o644)
+            temporary[path] = Path(name)
+        moved: list[tuple[Path, bytes | None]] = []
+        try:
+            for path, name in temporary.items():
+                previous = path.read_bytes() if path.exists() else None
+                os.replace(name, path)
+                moved.append((path, previous))
+        except OSError:
+            for path, previous in reversed(moved):
+                if previous is None:
+                    path.unlink(missing_ok=True)
+                else:
+                    path.write_bytes(previous)
+            raise
+    finally:
+        for name in temporary.values():
+            name.unlink(missing_ok=True)
+    return sorted(changed)
 
 
 def load_sqlite(tables: Tables, root: Path = ROOT, target: str = ":memory:") -> sqlite3.Connection:
@@ -440,8 +504,49 @@ def normalize(root: Path = ROOT, existing: Tables | None = None) -> Tables:
 
 # ---------------------------------------------------------------- tables -> canonical
 
+CANONICAL_TARGET = re.compile(r"content/canonical/(?:sets|collections)/[a-z0-9][a-z0-9-]*\.json")
+
+
+def placement_problems(tables: Tables) -> list[str]:
+    """A set file may hold only published questions, and each set file has one material."""
+    status = {row["question_id"]: row["status"] for row in tables["question"]}
+    problems = [f"material_item [{row['content_id']}, {row['position']}]: {row['question_id']} is "
+                f"{status.get(row['question_id'], 'unknown')}, not published; withdraw it from the set first"
+                for row in tables["material_item"] if status.get(row["question_id"]) != "published"]
+    seen: dict[str, str] = {}
+    for row in tables["material"]:
+        path = row["data_path"]
+        if not isinstance(path, str) or not CANONICAL_TARGET.fullmatch(path):
+            problems.append(f"material [{row['content_id']}]: data_path {path!r} is not "
+                            "content/canonical/sets/<name>.json or content/canonical/collections/<name>.json")
+        elif path in seen:
+            problems.append(f"material [{row['content_id']}]: data_path {path} is also {seen[path]}'s")
+        else:
+            seen[path] = row["content_id"]
+    return problems
+
+
+def export_files(tables: Tables, root: Path = ROOT) -> dict[Path, bytes]:
+    """Every set file the tables describe, keyed by its checked path; nothing is written.
+
+    Raises ContentError before anything could be written when a placement holds
+    a draft or a target is not a set or collection file of this checkout.
+    """
+    problems = placement_problems(tables)
+    if problems:
+        raise ContentError("\n".join(problems))
+    files = {}
+    for name, payload in export(tables).items():
+        files[checked_path(root, name)] = payload
+    return files
+
+
 def export(tables: Tables) -> dict[str, bytes]:
     """Rebuild every canonical set file from the tables, as bytes."""
+    problems = placement_problems(tables)
+    if problems:
+        raise ContentError("\n".join(problems))
+
     def index(name: str, key: str) -> dict:
         return {row[key]: row for row in tables[name]}
 
@@ -559,13 +664,24 @@ def question_metadata(tables: Tables, root: Path = ROOT) -> dict[str, Any]:
             "  JOIN source_family f USING (family_id)"
             "  JOIN source_tier t USING (tier)"
             " UNION "
+            # A set file's placement names its source only where no imported
+            # occurrence already does, and gives the number the question has
+            # there: source_question_number when the set renumbered it, the
+            # set's own number only when the set reproduces that very source.
+            # A position in a collection or in a material of another source
+            # is never passed off as one.
             "SELECT i.question_id, 1, t.tier, t.kind, s.label, s.year, s.month, s.region,"
-            "       i.module_id, i.question_number"
+            "       i.module_id,"
+            "       CASE WHEN i.source_question_number IS NOT NULL THEN i.source_question_number"
+            "            WHEN s.source_id = m.source_id AND m.data_path LIKE 'content/canonical/sets/%'"
+            "            THEN i.question_number END"
             "  FROM material_item i"
             "  JOIN material m USING (content_id)"
             "  JOIN source s ON s.source_id = coalesce(i.source_id, m.source_id)"
             "  JOIN source_family f USING (family_id)"
             "  JOIN source_tier t USING (tier)"
+            " WHERE NOT EXISTS (SELECT 1 FROM question_source q"
+            "                    WHERE q.question_id = i.question_id AND q.source_id = s.source_id)"
             " ORDER BY 1, 3, 2, 6 DESC, 7 DESC, 5, 9, 10").fetchall()
         for question_id, _, tier, kind, label, year, month, region, module, number in appearances:
             if question_id in questions:
@@ -817,7 +933,10 @@ def vocabulary_usage(tables: Tables, question_ids: set[str]) -> dict[str, dict[s
 
 def compare_with_canonical(tables: Tables, root: Path = ROOT) -> list[str]:
     try:
-        exported = export(tables)
+        exported = {path.relative_to(root).as_posix(): payload
+                    for path, payload in export_files(tables, root).items()}
+    except ContentError as error:
+        return str(error).splitlines()
     except (KeyError, TypeError) as error:
         return [f"{DB_DIR}: cannot rebuild the set files, a row is missing or incomplete ({error!r})"]
     on_disk = {path.relative_to(root).as_posix(): path.read_bytes() for path in canonical_files(root)}
@@ -890,13 +1009,8 @@ def main(argv: list[str] | None = None) -> int:
             if problems:
                 raise ContentError("\n".join(problems))
             load_sqlite(tables, root).close()
-            changed = []
-            for name, payload in export(tables).items():
-                path = root / name
-                if not path.is_file() or path.read_bytes() != payload:
-                    path.parent.mkdir(parents=True, exist_ok=True)
-                    path.write_bytes(payload)
-                    changed.append(name)
+            # Every target is checked before the first byte is written.
+            changed = [path.relative_to(root).as_posix() for path in replace_files(export_files(tables, root))]
             print("\n".join(changed) if changed else "content/canonical is already up to date.")
         else:
             tables, problems = read_tables(root)
@@ -911,6 +1025,9 @@ def main(argv: list[str] | None = None) -> int:
             print(f"Wrote {SQLITE_OUTPUT}")
     except ContentError as error:
         print(str(error), file=sys.stderr)
+        return 1
+    except OSError as error:
+        print(f"nothing was changed: {error}", file=sys.stderr)
         return 1
     return 0
 

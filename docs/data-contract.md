@@ -26,7 +26,9 @@
 | 107 份 canonical 内的 occurrence | 4,067 |
 | 可进行模考的注册项（读写固定两模块） | 19 |
 
-基线之外的 36 个套题、34 个专项和 2,302 道题由 `scripts/publish_drafts.py` 从 `content/db/` 的草稿生成，没有改动任何基线文件，也没有共用基线题号。它们是导入的回忆版真题与练习题：答案和文字未经逐题核对，1,397 道没有解析，`sourceFamily` 为 `question-bank-import-unverified` 或 `SAT机考题库/skill-difficulty`。发布条件、近似重复的处理和题型 / 难度的依据见 [content-db.md](content-db.md)。题型页因新增题目而变长，原有题型页的本地记录由 `baselineQuestionIds` 迁移。
+基线之外的 36 个套题、34 个专项和 2,302 道题由 `scripts/publish_drafts.py` 从 `content/db/` 的草稿生成，没有改动任何基线文件，也没有共用基线题号。它们是导入的回忆版真题与练习题：答案和文字未经逐题核对，1,397 道没有解析，`sourceFamily` 为 `question-bank-import-unverified` 或 `SAT机考题库/skill-difficulty`。发布条件、近似重复的处理和题型 / 难度的依据见 [content-db.md](content-db.md)。
+
+这些材料在 registry 里带 `releaseGate: expandedQuestionBank`，19 套模考受 `fixedMockExams` 控制，两个开关都在 `sat-release.json` 里、默认关闭，所以默认构建仍是上表的基线（1,752 题、48 个路由、0 套模考）。打开扩充题库时题型页变长，原有题型页的本地记录由 `baselineQuestionIds` 和基线题型页的旧键迁移，页面按题目 ID 恢复位置。表中 4,054 / 118 / 19 是全部打开时（`build-site.py --preview-all`）的数字。
 
 [content-export.json](content-export.json) 记录导入的文件摘要、ID / 答案保留校验、必要素材和去敏改动。公开副本保留完整题文、A–D 选项、答案、学生可见解析、分类、模块 / 表格及可见图；移除私有来源、审查、模型运行元数据，以及无关的来源邮箱尾注。原始 PDF、审查截图和历史档案未导入。
 
@@ -48,6 +50,7 @@
 | `title` | 学生界面的公开材料名称 |
 | `questionIds` | 材料编排使用的题目 ID；保持顺序与数据一致 |
 | `status` | 控制是否纳入公开构建 |
+| `releaseGate` | 可选；基线之后加入的材料为 `expandedQuestionBank`，只在 `sat-release.json` 打开该开关时构建。题型页不能带这个字段 |
 | `examEligible` / `examVariants` / `moduleSpec` | 由 `scripts/exam_modules.py` 从题库表写入，不手工修改；只有一个固定方案（Module 1 + 第二模块） |
 | `sourceFamily` 等来源限定 | 描述已知来源状态，不等于官方认证 |
 

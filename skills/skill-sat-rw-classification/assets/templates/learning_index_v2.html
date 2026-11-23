@@ -134,6 +134,7 @@
     /* 首页：同一组板块，四种排版。板块宽度不固定，靠容器查询自己适应。 */
     .home-wrap { max-width: 1120px; margin-inline: auto; }
     .home { display: grid; gap: 16px; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) 330px; grid-template-areas: "today today calendar" "review exam stats" "weekly weekly recent"; }
+    .home.no-exam { grid-template-areas: "today today calendar" "review review stats" "weekly weekly recent"; }
     .home > * { min-width: 0; margin: 0; }
     .home .panel { margin-top: 0; padding: 24px; }
     .hb-today { grid-area: today; }
@@ -366,6 +367,9 @@
     .vocab-context q { font-family: "Times New Roman", Times, serif; font-size: 16px; color: var(--zen-ink); quotes: none; }
     .vocab-note { display: block; width: 100%; min-height: 64px; margin-top: 6px; font-weight: 400; padding: 10px 12px; border: 1px solid transparent; border-radius: var(--zen-radius-control); background: var(--zen-surface); color: var(--zen-ink); font: inherit; resize: vertical; }
     .vocab-note:focus { border-color: var(--zen-primary); outline: 0; box-shadow: 0 0 0 4px rgba(0, 113, 227, .2); }
+    .vocab-note[aria-invalid="true"] { border-color: var(--zen-orange); }
+    .vocab-note-status { display: block; margin-top: 6px; color: var(--zen-orange); font-weight: 400; }
+    .vocab-note-status:empty { display: none; }
     .vocab-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
     .vocab-actions .button, .vocab-actions button.action { background: var(--zen-surface); }
     .vocab-views { margin-bottom: 12px; }
@@ -490,7 +494,7 @@
       .menu-button, .mobile-nav { display: block; }
       .sync-status { max-width: 98px; overflow: hidden; text-overflow: ellipsis; }
       main { padding-top: 16px; }
-      .home { grid-template-columns: minmax(0, 1fr); grid-template-areas: none; }
+      .home, .home.no-exam { grid-template-columns: minmax(0, 1fr); grid-template-areas: none; }
       .home > * { grid-area: auto; }
       .hb-calendar, .home .panel { padding: 22px; border-radius: 22px; }
       .exam-row { flex-direction: column; align-items: stretch; }
@@ -542,13 +546,13 @@
       <a class="brand" href="#home" aria-label="SAT 学习中心首页"><strong>SAT 学习中心</strong><span>READING &amp; WRITING</span></a>
       <nav class="desktop-nav" aria-label="学习中心主导航">
         <a href="/app/">返回学习项目</a>
-        <a href="#home">首页</a><a href="#review/wrong">我的复习</a><a href="#diagnosis">学习诊断</a><a href="#practice">今日练习</a><a href="#exam">模考</a><a href="#vocabulary/list">词汇</a><a href="#search">全库搜索</a>
+        <a href="#home">首页</a><a href="#review/wrong">我的复习</a><a href="#diagnosis">学习诊断</a><a href="#practice">今日练习</a><a href="#exam" data-feature="fixedMockExams">模考</a><a href="#vocabulary/list" data-feature="wordExplanations">词汇</a><a href="#search">全库搜索</a>
       </nav>
       <span class="sync-status pending" id="syncStatus" aria-live="polite">本机模式</span>
       <button class="menu-button" id="mobileMenuBtn" type="button" aria-expanded="false" aria-controls="mobileNav">菜单</button>
       <nav class="mobile-nav" id="mobileNav" aria-label="移动端学习导航" hidden>
         <a href="/app/">返回学习项目</a>
-        <a href="#home">首页</a><a href="#review/wrong">我的复习</a><a href="#diagnosis">学习诊断</a><a href="#practice">今日练习</a><a href="#exam">模考</a><a href="#vocabulary/list">词汇</a><a href="#search">全库搜索</a>
+        <a href="#home">首页</a><a href="#review/wrong">我的复习</a><a href="#diagnosis">学习诊断</a><a href="#practice">今日练习</a><a href="#exam" data-feature="fixedMockExams">模考</a><a href="#vocabulary/list" data-feature="wordExplanations">词汇</a><a href="#search">全库搜索</a>
       </nav>
     </div>
   </header>
@@ -564,6 +568,10 @@
     __SAT_STORAGE_RUNTIME__
     const learningStorage = createSatLearningStore();
     const MANIFEST = __SAT_MANIFEST_JSON__;
+    // 发布开关：构建写进 manifest，缺省一律关闭；关闭的功能不显示入口，对应的地址回到首页
+    const FEATURES = Object.fromEntries(["expandedQuestionBank", "fixedMockExams", "wordExplanations", "walkthroughs"]
+      .map(name => [name, Boolean(MANIFEST.features && MANIFEST.features[name] === true)]));
+    document.querySelectorAll("[data-feature]").forEach(link => { if (!FEATURES[link.dataset.feature]) link.remove(); });
     const GLOBAL_KEY = "sat-learning:v2";
     const SESSION_KEY = "sat-learning:today-session:v2";
     const refreshLegacyBackup = installSatLegacyBackupNotice(learningStorage, () => [
@@ -782,9 +790,9 @@
       else if (currentRoute.root === "diagnosis") renderDiagnosis();
       else if (currentRoute.root === "practice") renderBuilder();
       else if (currentRoute.root === "search") renderSearch();
-      else if (currentRoute.root === "exam") renderExamCenter();
-      else if (currentRoute.root === "vocabulary" && currentRoute.tab === "list") renderGlossary();
-      else if (currentRoute.root === "vocabulary") renderVocabulary(currentRoute.tab || "learning");
+      else if (currentRoute.root === "exam" && FEATURES.fixedMockExams) renderExamCenter();
+      else if (currentRoute.root === "vocabulary" && FEATURES.wordExplanations && currentRoute.tab === "list") renderGlossary();
+      else if (currentRoute.root === "vocabulary" && FEATURES.wordExplanations) renderVocabulary(currentRoute.tab || "learning");
       else renderHome();
     }
 
@@ -862,7 +870,7 @@
       const history = records.length ? `<div class="exam-list">${records.map(record => {
         const page = pageById.get(record.pageId), score = examRecordScore(record);
         const detail = record.modules.map(module => `${escapeHtml(module.label || "Module")} ${Number(module.score?.correct || 0)}/${Number(module.score?.total || 0)}`).join(" · ");
-        return `<article class="exam-row"><div><span class="pill pending">${escapeHtml(formatTime(new Date(Number(record.completedAt || 0)).toISOString()))}</span><h3>${escapeHtml(page?.title || record.title || "模考")}</h3><p>${detail}</p></div><div class="actions"><span class="score">${examAccuracy(score)}<small> ${score.correct}/${score.total}</small></span>${page ? `<a class="button primary" href="${page.route}?mode=exam&history=${encodeURIComponent(record.id)}">查看成绩与错题</a>` : ""}</div></article>`;
+        return `<article class="exam-row"><div><span class="pill pending">${escapeHtml(formatTime(new Date(Number(record.completedAt || 0)).toISOString()))}</span><h3>${escapeHtml(page?.title || record.title || "模考")}</h3><p>${detail}</p></div><div class="actions"><span class="score" title="完成这场模考时的成绩；题目之后若有更新，详情页另列按当前题库重算的结果"><small>完成时 </small>${examAccuracy(score)}<small> ${score.correct}/${score.total}</small></span>${page ? `<a class="button primary" href="${page.route}?mode=exam&history=${encodeURIComponent(record.id)}">查看成绩与错题</a>` : ""}</div></article>`;
       }).join("")}</div>` : renderEmpty("完成一场模考后，这里会保存每一次的成绩和作答，可以单独回看。");
       app.innerHTML = `<section class="panel" style="margin-top:0"><div class="section-title"><div><p class="eyebrow orange">MOCK EXAM</p><h1>模考中心</h1><p>读写部分的固定两模块模考：Module 1 加第二模块，分别计时。交卷后给出正确率和错题题号。</p></div><span class="section-meta">${pages.length} 套可用 · ${records.length} 条记录</span></div>
         <h2 class="subhead">可用模考</h2>${available}
@@ -932,7 +940,7 @@
       app.innerHTML = `
         <h1 class="visually-hidden">学习首页</h1>
         <div class="home-wrap">
-        <section class="home">
+        <section class="home${FEATURES.fixedMockExams ? "" : " no-exam"}">
           <article class="entry-card hb-today tint blue">
             <div><p class="eyebrow blue">TODAY</p><h2>今日练习</h2></div>
             <div class="stat-pair">
@@ -951,14 +959,14 @@
             </div>
             <div class="hero-actions"><a class="button primary" href="#review/wrong">开始错题复习</a><a class="button ghost" href="#practice/due">练到期复习</a></div>
           </article>
-          <article class="entry-card hb-exam tint purple">
+          ${FEATURES.fixedMockExams ? `<article class="entry-card hb-exam tint purple">
             <div><p class="eyebrow purple">MOCK EXAM</p><h2>全真模考</h2></div>
             <div class="stat-pair">
               <div><strong>${examPages.length}</strong><span>可用模考</span></div>
               <div><strong>${lastExamScore ? examAccuracy(lastExamScore) : "—"}</strong><span>${lastExamScore ? "上次正确率" : `已完成 ${examRecords.length} 次`}</span></div>
             </div>
             <div class="hero-actions">${activeExam ? `<a class="button primary" href="${activeExam.route}?mode=exam">继续模考</a><a class="button ghost" href="#exam">模考中心</a>` : `<a class="button primary" href="#exam">进入模考中心</a>`}</div>
-          </article>
+          </article>` : ""}
           <section class="metric-rail hb-stats" aria-label="学习概览">
             <div class="metric"><strong>${formatSatStudyTime(study.total)}</strong><span>累计学习时长</span></div>
             <div class="metric"><strong>${formatSatStudyTime(study.week)}</strong><span>近 7 天学习时长</span></div>
@@ -1064,6 +1072,8 @@
     // Cards the learner has opened stay open while the list is redrawn.
     const vocabularyOpen = new Set();
     let vocabularyStatus = "";
+    // Notes a save could not store, by word, for the owner who wrote them; kept through redraws.
+    const vocabularyNoteDrafts = new Map();
     // A word's layers in study order: the examples, the Chinese explanation (open here, and with it
     // the translation of every example), then the dictionary. A word saved before the list had
     // several examples still carries its one.
@@ -1091,13 +1101,14 @@
         examples: current.examples } : stored;
       const key = satVocabularyKey(item.word), question = item.questionId ? questionById.get(item.questionId) : null;
       const explained = Boolean(item.english);
+      const waiting = vocabularyNoteDrafts.get(key), draft = waiting && learningStorage.isCurrent(waiting.token) ? waiting : null;
       return `<details class="vocab-card" data-vocab="${escapeHtml(key)}"${vocabularyOpen.has(key) ? " open" : ""}>
         <summary><strong>${escapeHtml(item.word)}</strong>${item.partOfSpeech ? `<span class="vocab-pos">${escapeHtml(item.partOfSpeech)}</span>` : ""}${item.mastered ? '<span class="pill calm">已掌握</span>' : ""}${item.custom ? '<span class="pill pending">自己添加</span>' : ""}</summary>
         <div class="vocab-body">
           ${explained ? `<p class="vocab-english">${escapeHtml(item.english)}</p>${vocabularyLayersHtml(item)}`
             : `<p class="vocab-english">这个词是你自己添加的，可以在下面写下它的意思。</p><div class="vocab-layers">${satDictionaryLayerHtml(item.word, escapeHtml, "vocab-layer")}</div>`}
           ${item.context || question ? `<p class="vocab-context">${item.context ? `题目原句：<q>${escapeHtml(item.context)}</q> ` : ""}${question ? `<a href="${question.route}?focus=${encodeURIComponent(question.questionId)}">回到这道题</a>` : ""}</p>` : ""}
-          <label class="vocab-note-label">我的笔记<textarea class="vocab-note" data-vocab-note="${escapeHtml(key)}" maxlength="1000">${escapeHtml(item.note)}</textarea></label>
+          <label class="vocab-note-label">我的笔记<textarea class="vocab-note" data-vocab-note="${escapeHtml(key)}" maxlength="1000"${draft ? ' aria-invalid="true"' : ""}>${escapeHtml(draft ? draft.text : item.note)}</textarea><span class="vocab-note-status" role="status" aria-live="polite">${draft ? "笔记没有保存成功，内容仍在框里。请检查浏览器的存储空间或权限，再改动一下即可重试。" : ""}</span></label>
           <div class="vocab-actions">
             <button class="action" type="button" data-vocab-mastered="${escapeHtml(key)}">${item.mastered ? "重新学习" : "标为已掌握"}</button>
             <button class="action" type="button" data-vocab-remove="${escapeHtml(key)}">移出生词本</button>
@@ -1126,9 +1137,26 @@
       app.querySelectorAll(".vocab-card").forEach(card => card.addEventListener("toggle", () => {
         if (card.open) vocabularyOpen.add(card.dataset.vocab); else vocabularyOpen.delete(card.dataset.vocab);
       }));
-      app.querySelectorAll("[data-vocab-note]").forEach(input => input.addEventListener("change", () => {
-        updateSatVocabularyWord(learningStorage, input.dataset.vocabNote, { note: input.value });
-      }));
+      app.querySelectorAll("[data-vocab-note]").forEach(input => {
+        const save = () => {
+          const key = input.dataset.vocabNote, status = input.parentElement.querySelector(".vocab-note-status");
+          if (updateSatVocabularyWord(learningStorage, key, { note: input.value })) {
+            vocabularyNoteDrafts.delete(key);
+            input.removeAttribute("aria-invalid");
+            if (status) status.textContent = "";
+            return;
+          }
+          // Not saved: the text stays in the box (and through redraws) until a save works.
+          vocabularyNoteDrafts.set(key, { token: learningStorage.token(), text: input.value });
+          input.setAttribute("aria-invalid", "true");
+          if (status) status.textContent = "笔记没有保存成功，内容仍在框里。请检查浏览器的存储空间或权限，再改动一下即可重试。";
+        };
+        input.addEventListener("change", save);
+        input.addEventListener("input", () => {
+          // While a failed note is waiting, keep the newest text as the draft.
+          if (vocabularyNoteDrafts.has(input.dataset.vocabNote)) vocabularyNoteDrafts.set(input.dataset.vocabNote, { token: learningStorage.token(), text: input.value });
+        });
+      });
       app.querySelectorAll("[data-vocab-mastered]").forEach(button => button.addEventListener("click", () => {
         const item = readSatVocabulary(learningStorage).find(word => satVocabularyKey(word.word) === button.dataset.vocabMastered);
         if (!item) return;

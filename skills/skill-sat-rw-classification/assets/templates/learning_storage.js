@@ -79,20 +79,32 @@ function createSatLearningStore() {
   let generation = 0;
   const prefix = () => "sat-owner:v1:" + encodeURIComponent(owner) + ":";
   const requireOwner = () => { if (!owner || !backing) throw new Error("Learning storage is not available for a verified owner"); };
+  // Told before the owner changes, while the old owner's storage is still the current one.
+  // settle is true when the old owner was verified until now (a switch, a sign-out) and its
+  // pending writes may go to its own records; false when its identity just failed a check,
+  // and anything pending must be dropped rather than written anywhere.
+  const ownerListeners = [];
+  const announce = settle => {
+    if (!owner) return;
+    const token = owner + ":" + generation;
+    for (const listener of ownerListeners) { try { listener({ token, settle }); } catch {} }
+  };
   return {
     ready: () => Boolean(owner),
     token: () => owner + ":" + generation,
     isCurrent: token => Boolean(owner) && token === owner + ":" + generation,
+    onOwnerChange(listener) { if (typeof listener === "function") ownerListeners.push(listener); },
     bind(session) {
       const profileId = typeof session?.profile?.userId === "string" ? session.profile.userId : "";
       const userId = typeof session?.user?.uid === "string" ? session.user.uid : "";
       if (!profileId || profileId !== profileId.trim() || profileId.length > 256 || /[\u0000-\u001f]/.test(profileId) || (userId && userId !== profileId)) {
+        announce(true);
         owner = ""; generation += 1;
         throw new Error("Learning owner identity is missing or inconsistent");
       }
       const verifiedOwner = "user:" + profileId;
       const changed = owner !== verifiedOwner;
-      if (changed) { owner = verifiedOwner; generation += 1; }
+      if (changed) { announce(true); owner = verifiedOwner; generation += 1; }
       return changed;
     },
     getItem(key) { return owner && backing ? backing.getItem(prefix() + key) : null; },
@@ -134,6 +146,7 @@ function createSatLearningStore() {
         const currentId = current?.uid || current?.userId;
         if (!this.isCurrent(token)) throw new Error("Learning owner changed during authentication lookup");
         if (!currentId || currentId !== session.profile.userId) {
+          announce(false);
           owner = ""; generation += 1;
           if (typeof window.dispatchEvent === "function" && typeof CustomEvent === "function") {
             window.dispatchEvent(new CustomEvent("sat-learning-owner-invalid"));
@@ -207,35 +220,64 @@ function formatSatStudyTime(seconds) {
   return Math.floor(minutes / 60) + " 小时" + (minutes % 60 ? " " + (minutes % 60) + " 分" : "");
 }
 // Counts time only while the page is visible and the learner has interacted recently.
-function startSatStudyClock(store, { idleMs = 180000, tickMs = 15000 } = {}) {
-  let lastActivity = Date.now(), lastTick = Date.now(), pending = 0;
-  const touch = () => { lastActivity = Date.now(); };
+// Each stretch is credited by the state it had: a stretch that ends because the page is
+// hidden still counts, the time spent hidden never does, and coming back starts afresh.
+// Unwritten time belongs to the owner it was spent under: an owner change writes it to
+// that owner first (or drops it when the identity failed), so it never moves to another.
+// `now` is a clock for tests; the page uses the real one.
+function startSatStudyClock(store, { idleMs = 180000, tickMs = 15000, now = () => Date.now() } = {}) {
+  const shown = () => document.visibilityState === "visible";
+  let visible = shown(), lastActivity = now(), lastTick = now();
+  let pending = 0, pendingToken = "";
+  const touch = () => { lastActivity = now(); };
   for (const type of ["pointerdown", "pointermove", "keydown", "wheel", "touchstart"]) {
     window.addEventListener(type, touch, { passive: true, capture: true });
   }
   document.addEventListener("scroll", touch, { passive: true, capture: true });
-  function flush() {
-    const now = Date.now(), elapsed = Math.min(Math.max(0, now - lastTick), tickMs * 2);
-    lastTick = now;
-    if (document.visibilityState === "visible" && now - lastActivity < idleMs) pending += elapsed;
-    if (!store.ready()) { pending = 0; return; }
+  // Credit the stretch since the last tick, as far as it was visible and not idle.
+  function accrue(at) {
+    const start = lastTick;
+    lastTick = at;
+    if (!visible || !store.ready()) return;
+    const end = Math.min(at, lastActivity + idleMs);
+    const span = Math.min(Math.max(0, end - start), tickMs * 2);
+    const token = store.token();
+    if (token !== pendingToken) { pending = 0; pendingToken = token; }
+    pending += span;
+  }
+  // Write whole seconds for the owner they belong to; a failed write is retried later for that owner only.
+  function write() {
+    if (!pendingToken || !store.isCurrent(pendingToken)) { pending = 0; pendingToken = ""; return false; }
     const seconds = Math.floor(pending / 1000);
-    if (seconds < 1) return;
+    if (seconds < 1) return true;
     try {
-      const days = readSatStudyDays(store), key = satStudyDayKey();
+      const days = readSatStudyDays(store), key = satStudyDayKey(new Date(now()));
       days[key] = (days[key] || 0) + seconds;
       const kept = Object.keys(days).sort().slice(-400);
       store.setItem(SAT_STUDY_TIME_KEY, JSON.stringify({ version: 1, days: Object.fromEntries(kept.map(day => [day, days[day]])) }));
       pending -= seconds * 1000;
-    } catch {}
+      return true;
+    } catch { return false; }
   }
+  function flush() { accrue(now()); return write(); }
   const timer = setInterval(flush, tickMs);
   document.addEventListener("visibilitychange", () => {
-    if (document.visibilityState === "hidden") flush();
-    else { lastTick = Date.now(); touch(); }
+    const at = now();
+    accrue(at);
+    visible = shown();
+    if (visible) touch();
+    write();
   });
   window.addEventListener("pagehide", flush);
-  return { flush, stop() { clearInterval(timer); } };
+  if (typeof store.onOwnerChange === "function") {
+    store.onOwnerChange(({ settle }) => {
+      accrue(now());
+      if (settle) write();
+      pending = 0; pendingToken = "";
+      lastTick = now();
+    });
+  }
+  return { flush, stop() { clearInterval(timer); }, pendingMs: () => pending };
 }
 
 /* Where a question comes from. Pages show this only after the question has been

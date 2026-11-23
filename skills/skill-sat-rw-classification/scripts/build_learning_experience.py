@@ -27,6 +27,17 @@ ZEN_ASSETS = ("background.svg", "texture.svg", "pattern.svg")
 MIGRATIONS_PATH_NAME = "sat-practice-migrations.json"
 CONTENT_REGISTRY_PATH_NAME = "sat-content-registry.json"
 CONTENT_REGISTRY_SCHEMA = "sat-content-registry-v1"
+# What a build may show beyond the reviewed baseline. Every feature is off unless
+# the root being built holds a sat-release.json that switches it on, so a build
+# from a workspace that never heard of these switches shows none of them.
+RELEASE_PATH_NAME = "sat-release.json"
+RELEASE_SCHEMA = "sat-release-v1"
+RELEASE_FEATURES = (
+    "expandedQuestionBank",  # registry entries marked releaseGate: expandedQuestionBank
+    "fixedMockExams",        # examEligible entries open as fixed two-module mock exams
+    "wordExplanations",      # AI-drafted word explanations, the word list and the notebook
+    "walkthroughs",          # AI-drafted bilingual walkthroughs shown after submitting
+)
 CANONICAL_PACKAGE_SCHEMA = "sat-canonical-question-collection-v1"
 PARTIAL_ROUTE = "sets/06-2025-06-apac-a-partial.html"
 CATEGORY_ROUTES = {
@@ -166,6 +177,38 @@ def add_page_migration(
         existing.append(entry)
 
 
+def load_release(root: Path) -> dict[str, bool]:
+    """The release switches of the root being built; all off when it has none."""
+    path = root / RELEASE_PATH_NAME
+    if not path.is_file():
+        return {name: False for name in RELEASE_FEATURES}
+    value = json.loads(path.read_text(encoding="utf-8"))
+    features = value.get("features") if isinstance(value, dict) else None
+    if (not isinstance(value, dict) or value.get("schemaVersion") != RELEASE_SCHEMA
+            or not isinstance(features, dict) or set(features) != set(RELEASE_FEATURES)
+            or not all(isinstance(features[name], bool) for name in RELEASE_FEATURES)):
+        raise ValueError(f"{RELEASE_PATH_NAME} must be {{schemaVersion: {RELEASE_SCHEMA}, features: "
+                         f"{{{', '.join(RELEASE_FEATURES)}: true or false}}}}")
+    return {name: features[name] for name in RELEASE_FEATURES}
+
+
+def released(entry: dict[str, Any], release: dict[str, bool]) -> bool:
+    """Whether a registry entry belongs in this build: ungated, or its gate is on."""
+    gate = entry.get("releaseGate")
+    if gate is None:
+        return True
+    if gate not in RELEASE_FEATURES:
+        raise ValueError(f"Unknown releaseGate {gate!r} for {entry.get('contentId')}")
+    return release[gate]
+
+
+def released_origin(origin: dict[str, Any], release: dict[str, bool]) -> dict[str, Any]:
+    """A question's metadata without what a switched-off feature would show."""
+    hidden = {key for key, feature in (("vocabulary", "wordExplanations"), ("walkthrough", "walkthroughs"))
+              if not release[feature]}
+    return {key: value for key, value in origin.items() if key not in hidden}
+
+
 def load_content_registry(root: Path) -> dict[str, Any]:
     path = root / CONTENT_REGISTRY_PATH_NAME
     value = json.loads(path.read_text(encoding="utf-8"))
@@ -203,6 +246,8 @@ def load_content_registry(root: Path) -> dict[str, Any]:
             raise ValueError(f"examVariants must be an array for {content_id}")
         if entry.get("examEligible") and not entry.get("moduleSpec"):
             raise ValueError(f"Exam-eligible content requires moduleSpec: {content_id}")
+        if "releaseGate" in entry and (entry["releaseGate"] not in RELEASE_FEATURES or kind == "category"):
+            raise ValueError(f"releaseGate must name a release feature and not gate a category: {content_id}")
         seen_ids.add(content_id)
         seen_routes.add(route)
     return value
@@ -531,11 +576,12 @@ def question_origin(question: dict[str, Any]) -> dict[str, Any]:
 
 
 def load_published_content(
-    root: Path, registry: dict[str, Any]
+    root: Path, registry: dict[str, Any], release: dict[str, bool] | None = None,
 ) -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]], dict[str, dict[str, Any]]]:
+    release = release if release is not None else load_release(root)
     entries = [
         entry for entry in registry["entries"]
-        if entry.get("status") == "published"
+        if entry.get("status") == "published" and released(entry, release)
     ]
     source_entries = [entry for entry in entries if entry.get("kind") in {"set", "collection"}]
     source_pages: dict[str, list[dict[str, Any]]] = {}
@@ -558,7 +604,7 @@ def load_published_content(
         for question in questions:
             origin = origins.get(str(question["question_id"]))
             if origin is not None:
-                question["_origin"] = origin
+                question["_origin"] = released_origin(origin, release)
         source_pages[route] = questions
         priority = int(entry.get("canonicalPriority") or 100) + (1000 if entry.get("kind") == "set" else 0)
         for question in questions:
@@ -1037,23 +1083,9 @@ def grading_revision(question: dict[str, Any]) -> str:
     return hashlib.sha256(safe_json(payload).encode("utf-8")).hexdigest()
 
 
-def build(root: Path) -> dict[str, Any]:
-    storage_runtime = STORAGE_RUNTIME.read_text(encoding="utf-8")
-    practice_template = PRACTICE_TEMPLATE.read_text(encoding="utf-8").replace("__SAT_STORAGE_RUNTIME__", storage_runtime)
-    dashboard_template = DASHBOARD_TEMPLATE.read_text(encoding="utf-8").replace("__SAT_STORAGE_RUNTIME__", storage_runtime)
-    pages: list[dict[str, Any]] = []
-    migrations = load_migrations(root)
-    registry = load_content_registry(root)
-    published_entries, source_pages, canonical_questions = load_published_content(root, registry)
-    stated_vocabulary = load_question_metadata(root).get("vocabulary")
-    entries_by_route = {str(entry["route"]): entry for entry in published_entries}
-    category_entries = [entry for entry in published_entries if entry.get("kind") == "category"]
-    registered_categories = {str(entry["title"]): str(entry["route"]) for entry in category_entries}
-    if registered_categories != CATEGORY_ROUTES:
-        raise ValueError(
-            "Published Reading and Writing categories must match the canonical 11-skill routes"
-        )
-    grouped_categories: dict[str, list[dict[str, Any]]] = {route: [] for route in CATEGORY_ROUTES.values()}
+def group_categories(canonical_questions: dict[str, dict[str, Any]]) -> dict[str, list[dict[str, Any]]]:
+    """The eleven Reading and Writing skill pages, each sorted by question id."""
+    grouped: dict[str, list[dict[str, Any]]] = {route: [] for route in CATEGORY_ROUTES.values()}
     for question in canonical_questions.values():
         if question.get("section") != "reading_writing":
             continue
@@ -1061,9 +1093,42 @@ def build(root: Path) -> dict[str, Any]:
         route = CATEGORY_ROUTES.get(skill)
         if not route:
             raise ValueError(f"Unsupported SAT skill for {question.get('question_id')}: {skill}")
-        grouped_categories[route].append(copy.deepcopy(question))
-    for route, questions in grouped_categories.items():
+        grouped[route].append(copy.deepcopy(question))
+    for questions in grouped.values():
         questions.sort(key=lambda question: str(question.get("question_id") or ""))
+    return grouped
+
+
+def build(root: Path) -> dict[str, Any]:
+    storage_runtime = STORAGE_RUNTIME.read_text(encoding="utf-8")
+    practice_template = PRACTICE_TEMPLATE.read_text(encoding="utf-8").replace("__SAT_STORAGE_RUNTIME__", storage_runtime)
+    dashboard_template = DASHBOARD_TEMPLATE.read_text(encoding="utf-8").replace("__SAT_STORAGE_RUNTIME__", storage_runtime)
+    pages: list[dict[str, Any]] = []
+    migrations = load_migrations(root)
+    registry = load_content_registry(root)
+    release = load_release(root)
+    published_entries, source_pages, canonical_questions = load_published_content(root, registry, release)
+    stated_vocabulary = load_question_metadata(root).get("vocabulary") if release["wordExplanations"] else {}
+    entries_by_route = {str(entry["route"]): entry for entry in published_entries}
+    category_entries = [entry for entry in published_entries if entry.get("kind") == "category"]
+    registered_categories = {str(entry["title"]): str(entry["route"]) for entry in category_entries}
+    if registered_categories != CATEGORY_ROUTES:
+        raise ValueError(
+            "Published Reading and Writing categories must match the canonical 11-skill routes"
+        )
+    grouped_categories = group_categories(canonical_questions)
+    if any(release.values()):
+        # The category pages a build without any release feature serves (the
+        # deployed baseline) keep their page state: their storage keys migrate
+        # into the larger pages, whatever baselineQuestionIds says.
+        _, _, baseline_questions = load_published_content(
+            root, registry, {name: False for name in RELEASE_FEATURES})
+        for route, questions in group_categories(baseline_questions).items():
+            baseline_ids = [str(question.get("question_id") or "") for question in questions]
+            current_ids = [str(question.get("question_id") or "") for question in grouped_categories[route]]
+            migration = {"storageKey": storage_key(baseline_ids), "aliases": {}}
+            if baseline_ids != current_ids and migration not in migrations.setdefault(route, []):
+                migrations[route].append(migration)
 
     rendered_pages = {**source_pages, **grouped_categories}
     for route, questions in rendered_pages.items():
@@ -1100,6 +1165,8 @@ def build(root: Path) -> dict[str, Any]:
             public["gradingRevision"] = grading_revision(original)
         kind = str(entry["kind"])
         label = str(entry["title"])
+        # A mock exam opens only when the registry offers it and the release switch is on.
+        exam_open = bool(entry.get("examEligible")) and release["fixedMockExams"]
         page_meta = {
             "contentId": str(entry["contentId"]),
             "kind": kind,
@@ -1109,8 +1176,9 @@ def build(root: Path) -> dict[str, Any]:
             "difficulty": entry.get("difficulty"),
             "sourceFamily": str(entry.get("sourceFamily") or ""),
             "moduleSpec": copy.deepcopy(entry.get("moduleSpec")),
-            "examEligible": bool(entry.get("examEligible")),
-            "examVariants": copy.deepcopy(entry.get("examVariants") or []),
+            "examEligible": exam_open,
+            "examVariants": copy.deepcopy(entry.get("examVariants") or []) if exam_open else [],
+            "features": dict(release),
         }
         pages.append({
             # pageId is a public local/cloud storage key and remains route-based.
@@ -1150,6 +1218,7 @@ def build(root: Path) -> dict[str, Any]:
     manifest = {
         "version": "sat-learning-v3",
         "registrySchemaVersion": registry["schemaVersion"],
+        "features": dict(release),
         "generatedAt": datetime.now(timezone.utc).isoformat(),
         "uniqueQuestionCount": len(canonical),
         "pageCount": len(pages),
@@ -1182,9 +1251,11 @@ def main() -> int:
     parser.add_argument("--root", type=Path, default=ROOT)
     args = parser.parse_args()
     manifest = build(args.root.resolve())
+    shown = [name for name, on in manifest["features"].items() if on]
     print(
         f"Built {manifest['pageCount']} practice pages and "
-        f"{manifest['uniqueQuestionCount']} unique manifest questions."
+        f"{manifest['uniqueQuestionCount']} unique manifest questions; "
+        f"release features on: {', '.join(shown) or 'none'}."
     )
     return 0
 

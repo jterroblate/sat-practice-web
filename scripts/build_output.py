@@ -9,8 +9,8 @@ import uuid
 
 @contextmanager
 def fresh_output(root: Path, name: str):
-    if name not in {"site", "demo"}:
-        raise ValueError("Only the fixed site and demo preview outputs are supported")
+    if name not in {"site", "site-preview", "demo"}:
+        raise ValueError("Only the fixed site, site-preview and demo outputs are supported")
     parent = root / "build"
     output = parent / name
     if parent.is_symlink() or output.is_symlink():

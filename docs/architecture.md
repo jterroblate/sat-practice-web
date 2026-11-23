@@ -16,7 +16,7 @@ sat-content-registry.json + content/canonical/ + migrations + 必要图
 
 `registry` 的 `dataPath` 指向 37 份 set / collection canonical；11 个题型页从这些内容派生。构建按发布状态读取内容，按稳定 ID 合并跨材料题目，并按注册表中的优先级选择展示版本。题型路由不是新题源，生成 HTML 和 manifest 也不是编辑源。
 
-`build-site.py` 在 `build/site/` 准备独立内容工作树，再调用构建器；不把生成物写回仓库输入。`build-demo.py` 在 `build/demo/` 组合 11 道原创 fixture 和独立 registry，构建 1 个 set、1 个 collection、11 个 category。两类输出分开，可以并存。
+`build-site.py` 在 `build/site/` 准备独立内容工作树，再调用构建器；不把生成物写回仓库输入。构建器读取工作树里的 `sat-release.json`：带 `releaseGate` 的材料、模考、AI 词汇解释和 AI 讲解只在对应开关打开时进入页面，文件不存在时全部关闭（见 [production-handoff.md](production-handoff.md#发布开关)）。`build-site.py --preview-all` 把四个开关都打开，输出到 `build/site-preview/`。`build-demo.py` 在 `build/demo/` 组合 11 道原创 fixture 和独立 registry，构建 1 个 set、1 个 collection、11 个 category。三类输出分开，可以并存。
 
 生成器按脚本位置读取模板和内置 SVG，按内容工作树读取 registry、canonical、迁移及图像。开发环境不依赖某台机器的绝对目录、账号配置或私有 skill。
 
@@ -45,10 +45,11 @@ sat-content-registry.json + content/canonical/ + migrations + 必要图
 
 1. `question_id` 是永久公共身份；`contentId` 与路由定位材料。路由 / `pageId`、题目顺序和迁移 aliases 都可能参与历史记录恢复，不能仅为美观改名。
 2. `gradingRevision` 由构建器计算，涉及题目身份、题文、选项、答案、解析。修改这些字段会影响旧成绩解释，不能靠固定旧 hash 掩盖变化。
-3. owner 隔离采用 `sat-owner:v1` 命名空间及身份 fence。未知归属的旧记录不自动认领；迟到请求不能落入新账号。
+3. owner 隔离采用 `sat-owner:v1` 命名空间及身份 fence。未知归属的旧记录不自动认领；迟到请求不能落入新账号。页面内缓存（模考回看视图、两种计时的未写入时长、生词本未保存的笔记）都带着 owner token，换账号、退出或身份校验失败时结算或丢弃，不转给新账号；`learningStorage.onOwnerChange()` 在 owner 改变之前通知这些缓存。
 4. 选择和改选后，提交按屏幕对应的有效记录判分；用户主动 Reveal 才展开答案与解析。云端回包、多标签与刷新不能令按钮写入失效对象。
 5. 重置与空白重做有各自语义，不能为修 UI 静默删除历史作答、收藏或笔记。
-6. `examEligible` 只由 `scripts/exam_modules.py` 写入（见 [content-db.md](content-db.md)），提供的是读写固定两模块模考，结果只有原始正确率和错题题号；模板保留模考状态机不代表可以手工开启其他模考；Partial 云端编号等未决兼容问题不能靠猜测迁移。
+6. `examEligible` 只由 `scripts/exam_modules.py` 写入（见 [content-db.md](content-db.md)），提供的是读写固定两模块模考，结果只有原始正确率和错题题号，并且只在发布开关 `fixedMockExams` 打开时出现；模板保留模考状态机不代表可以手工开启其他模考；Partial 云端编号等未决兼容问题不能靠猜测迁移。
+7. 题型页因题目增加而改变存储键时，旧键必须登记为迁移，页面按题目 ID（`currentQuestionId`）而不是序号恢复停留位置。
 
 ## 验证分层
 

@@ -10,6 +10,7 @@ from pathlib import Path
 import shutil
 import tempfile
 import unittest
+from unittest import mock
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -240,6 +241,128 @@ class EditingTests(unittest.TestCase):
         code, message = run(self.root, "check")
         self.assertEqual(code, 1)
         self.assertIn("rows must be sorted by skill_id", message)
+
+    # ---- export writes only set and collection files, and all or nothing
+
+    GOLD = "content/canonical/sets/02-gold48.json"
+
+    def snapshot(self) -> dict[str, bytes]:
+        return {path.relative_to(self.root).as_posix(): path.read_bytes()
+                for path in sorted((self.root / "content").rglob("*")) if path.is_file() and not path.is_symlink()}
+
+    def revise_gold(self) -> str:
+        """Edit a question only 02-gold48 holds, so a correct export would rewrite that file."""
+        gold = self.canonical("02-gold48.json")["questions"][0]["question_id"]
+        def edit(row):
+            if row["question_id"] == gold:
+                row["prompt"] += " (revised)"
+            return row
+        rewrite(self.db / "question.jsonl", edit)
+        return gold
+
+    def outside(self, name: str = "outside-export.json") -> Path:
+        """A sentinel file outside the copied checkout."""
+        directory = Path(tempfile.mkdtemp(dir=scratch()))
+        self.addCleanup(shutil.rmtree, directory, True)
+        sentinel = directory / name
+        sentinel.write_text("sentinel\n", encoding="utf-8")
+        return sentinel
+
+    def test_export_refuses_a_target_outside_the_set_folders_and_writes_nothing(self):
+        sentinel = self.outside()
+        self.revise_gold()
+        targets = ["../outside-export.json", str(sentinel), "content/canonical/sets/../../../outside-export.json",
+                   "content/canonical/other/x.json", "content/canonical/sets/x.txt", "content/canonical/sets/Upper.json",
+                   "content/db/question.jsonl", "content/canonical/sets/./02-gold48.json"]
+        for target in targets:
+            with self.subTest(target=target):
+                def point(row, target=target):
+                    if row["data_path"] == self.GOLD:
+                        row["data_path"] = target
+                    return row
+                shutil.copyfile(ROOT / "content/db/material.jsonl", self.db / "material.jsonl")
+                rewrite(self.db / "material.jsonl", point)
+                before = self.snapshot()
+                code, message = run(self.root, "export")
+                self.assertEqual(code, 1, message)
+                self.assertIn("data_path", message)
+                self.assertEqual(self.snapshot(), before)
+                self.assertEqual(sentinel.read_text(encoding="utf-8"), "sentinel\n")
+                self.assertFalse((self.root.parent / "outside-export.json").exists())
+                self.assertEqual(run(self.root, "check")[0], 1)
+
+    def test_export_refuses_a_symbolic_link_at_the_file_or_a_folder_above_it(self):
+        sentinel = self.outside()
+        self.revise_gold()
+        gold = self.root / self.GOLD
+        sentinel.write_bytes(gold.read_bytes())
+        gold.unlink()
+        gold.symlink_to(sentinel)
+        before = sentinel.read_bytes()
+        code, message = run(self.root, "export")
+        self.assertEqual(code, 1, message)
+        self.assertIn("is a symbolic link", message)
+        self.assertEqual(sentinel.read_bytes(), before)
+
+        # A linked folder: the real set files move outside, the checkout keeps only a link.
+        gold.unlink()
+        gold.write_bytes(before)
+        elsewhere = sentinel.parent / "sets"
+        shutil.move(str(self.root / "content/canonical/sets"), elsewhere)
+        (self.root / "content/canonical/sets").symlink_to(elsewhere, target_is_directory=True)
+        moved = {path.name: path.read_bytes() for path in elsewhere.iterdir()}
+        code, message = run(self.root, "export")
+        self.assertEqual(code, 1, message)
+        self.assertIn("content/canonical/sets is a symbolic link", message)
+        self.assertEqual({path.name: path.read_bytes() for path in elsewhere.iterdir()}, moved)
+
+    def test_a_failed_write_leaves_every_file_as_it_was(self):
+        self.revise_gold()
+        def edit(row):
+            if row["question_id"] == SHARED_ID:
+                row["prompt"] += " (revised)"
+            return row
+        rewrite(self.db / "question.jsonl", edit)  # three set files to rewrite now
+        before = self.snapshot()
+        real_replace, calls = DB.os.replace, []
+        def failing(source, target):
+            calls.append(target)
+            if len(calls) == 2:
+                raise OSError("disk full")
+            real_replace(source, target)
+        with mock.patch.object(DB.os, "replace", failing):
+            code, message = run(self.root, "export")
+        self.assertEqual(code, 1)
+        self.assertIn("nothing was changed", message)
+        self.assertEqual(len(calls), 2)
+        self.assertEqual(self.snapshot(), before)
+        self.assertEqual(list(self.root.rglob(".*.tmp")), [])
+        code, changed = run(self.root, "export")
+        self.assertEqual((code, len(changed.split())), (0, 3))
+
+    def test_a_published_question_withdrawn_to_draft_while_still_placed_is_refused(self):
+        gold = self.canonical("02-gold48.json")["questions"][0]["question_id"]
+        def withdraw(row):
+            if row["question_id"] == gold:
+                row["status"] = "draft"
+            return row
+        rewrite(self.db / "question.jsonl", withdraw)
+        before = self.snapshot()
+        code, message = run(self.root, "check")
+        self.assertEqual(code, 1)
+        self.assertIn(f"{gold} is draft, not published; withdraw it from the set first", message)
+        code, message = run(self.root, "export")
+        self.assertEqual(code, 1)
+        self.assertIn("withdraw it from the set first", message)
+        self.assertEqual(self.snapshot(), before)
+        with self.assertRaises(DB.ContentError):
+            DB.export(DB.read_tables(self.root)[0])
+
+    def test_check_writes_nothing(self):
+        self.revise_gold()
+        before = self.snapshot()
+        self.assertEqual(run(self.root, "check")[0], 1)
+        self.assertEqual(self.snapshot(), before)
 
     def test_unknown_field_in_a_set_file_needs_a_column_first(self):
         path = self.root / "content/canonical/sets/02-gold48.json"

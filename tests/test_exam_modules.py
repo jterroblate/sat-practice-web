@@ -81,6 +81,74 @@ class ExamModuleTests(unittest.TestCase):
         self.assertEqual(still_closed, broken)
         self.assertEqual(untouched, other)
 
+        # The broken one was already closed. Opened by hand, it is closed again.
+        still_closed.update({"examEligible": True, "examVariants": [dict(EXAMS.CURATED_VARIANT)]})
+        self.assertEqual(EXAMS.apply(registry, {}), ["set-hand-made-broken"])
+        self.assertEqual(still_closed, broken)
+
+    def test_an_open_hand_made_exam_closes_when_a_member_goes_and_reopens_when_it_is_back(self):
+        """Open first, then incomplete, then recomputed: the curated set 34 of the registry itself."""
+        registry = copy.deepcopy(self.registry)
+        entry = next(item for item in registry["entries"] if item["contentId"] == "set-2026-06-apac-b-fixed-hard")
+        self.assertTrue(entry["examEligible"])
+        members = EXAMS.published_members(self.tables)
+        spec = copy.deepcopy(entry["moduleSpec"])
+        self.assertEqual(EXAMS.apply(registry, self.specs, members), [])
+
+        dropped = entry["moduleSpec"]["m1"]["questionIds"][3]
+        incomplete = {**members, entry["contentId"]: members[entry["contentId"]] - {dropped}}
+        self.assertEqual(EXAMS.apply(registry, self.specs, incomplete), [entry["contentId"]])
+        self.assertEqual((entry["examEligible"], entry["examVariants"]), (False, []))
+        self.assertEqual(entry["moduleSpec"], spec, "the hand-made modules are kept for repair")
+        self.assertNotIn(entry["contentId"], [item["contentId"] for item in registry["entries"] if item["examEligible"]])
+
+        self.assertEqual(EXAMS.apply(registry, self.specs, members), [entry["contentId"]])
+        self.assertTrue(entry["examEligible"])
+        self.assertEqual(entry["examVariants"], [EXAMS.CURATED_VARIANT])
+
+    def test_a_hand_made_exam_whose_question_is_withdrawn_to_a_draft_is_closed(self):
+        tables = copy.deepcopy(self.tables)
+        registry = copy.deepcopy(self.registry)
+        entry = next(item for item in registry["entries"] if item["contentId"] == "set-2026-06-apac-b-fixed-hard")
+        withdrawn = entry["moduleSpec"]["m2_hard"]["questionIds"][0]
+        for row in tables["question"]:
+            if row["question_id"] == withdrawn:
+                row["status"] = "draft"
+        self.assertEqual(EXAMS.apply(registry, self.specs, EXAMS.published_members(tables)), [entry["contentId"]])
+        self.assertFalse(entry["examEligible"])
+
+    def test_an_open_derived_exam_closes_when_its_source_or_module_is_gone(self):
+        registry = copy.deepcopy(self.registry)
+        derived = [item for item in registry["entries"]
+                   if item["examEligible"] and item["contentId"] in self.specs][:2]
+        self.assertEqual(len(derived), 2)
+        gone_source, too_short = derived
+        specs = {key: value for key, value in self.specs.items() if key != gone_source["contentId"]}
+        specs[too_short["contentId"]] = None
+        changed = EXAMS.apply(registry, specs, EXAMS.published_members(self.tables))
+        self.assertEqual(sorted(changed), sorted([gone_source["contentId"], too_short["contentId"]]))
+        self.assertEqual((gone_source["examEligible"], gone_source["examVariants"]), (False, []))
+        self.assertEqual((too_short["examEligible"], too_short["moduleSpec"], too_short["examVariants"]),
+                         (False, None, []))
+
+    def test_dropping_module_questions_in_the_tables_closes_the_derived_exam(self):
+        """Recompute from the tables after a module falls under MIN_QUESTIONS."""
+        content_id = next(key for key, spec in self.specs.items() if spec)
+        first = self.specs[content_id]["moduleSpec"]["m1"]["questionIds"]
+        dropped = set(first[: len(first) - EXAMS.MIN_QUESTIONS + 1])
+        tables = copy.deepcopy(self.tables)
+        for row in tables["question"]:
+            if row["question_id"] in dropped:
+                row["status"] = "draft"
+        tables["material_item"] = [row for row in tables["material_item"]
+                                   if not (row["content_id"] == content_id and row["question_id"] in dropped)]
+        specs = EXAMS.exam_specs(tables, ROOT)
+        self.assertIsNone(specs[content_id])
+        registry = copy.deepcopy(self.registry)
+        self.assertIn(content_id, EXAMS.apply(registry, specs, EXAMS.published_members(tables)))
+        entry = next(item for item in registry["entries"] if item["contentId"] == content_id)
+        self.assertFalse(entry["examEligible"])
+
     def test_a_real_exam_set_that_stops_qualifying_is_switched_off(self):
         entry = {"contentId": "set-exam-x", "kind": "set", "status": "published", "examEligible": True,
                  "examVariants": [{"id": "fixed"}], "moduleSpec": {"m1": {}, "m2": {}}}

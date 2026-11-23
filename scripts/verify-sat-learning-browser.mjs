@@ -726,7 +726,8 @@ try {
     toggle.click();
     const paused = {paused:box.classList.contains("paused"), toggle:toggle.textContent, counting:Boolean(timerStartedAt)};
     toggle.click();
-    readQuestionTimes()[timerKey] = {ms:65000, at:""};
+    learningStorage.setItem(QUESTION_TIME_KEY, JSON.stringify({version:1, times:{[timerKey]:{ms:65000, at:""}}}));
+    questionTimes = null;
     return {running, paused, resumed:Boolean(timerStartedAt), hint:document.getElementById("feedback").textContent, saved:document.getElementById("syncStatus").textContent};
   })()`);
   assert.deepEqual(timerRunning, {running:{hidden:false, clock:true, toggle:"暂停", counting:true}, paused:{paused:true, toggle:"继续", counting:false}, resumed:true, hint:"", saved:""},

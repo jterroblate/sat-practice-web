@@ -272,7 +272,9 @@ python3 scripts/write_walkthrough.py --export FILE           # 把全部讲解�
 - 只做读写。Module 1 加第二模块：来源标明 Harder 的用 Harder 那个，否则用它唯一的 Module 2；标明 Easier 的不用。两个模块固定，不做自适应分流，不给换算分。
 - 题目按来源里的顺序排。没有发布的题（带图、标记不支持、近似重复）直接跳过，所以多数模块是 23–27 题；两个模块各自至少要有 22 题才开放。
 - 时间按题量折算：27 题 32 分钟，向上取整到分钟。
-- 注册表里手工配好 `m1` + `m2_hard` 的套卷原样开放，模块内容不改；如果手工模块里列了套卷已经没有的题，则保持关闭。
+- 注册表里手工配好 `m1` + `m2_hard` 的套卷原样开放，模块内容不改；手工模块里列的题只要有一道不再是这份套卷里已发布的题（被移出、退回草稿、重复列出），就关闭（`examEligible` 改为 `false`、`examVariants` 清空），模块保留，等人修好后重算会再开放。
+- 已开放、但表里已经找不到依据的条目（来源、模块或套卷没了）在重算时同样关闭，不会一直留在可考列表里。
+- 开放与否最后还要看发布开关 `fixedMockExams`（`sat-release.json`），默认关闭，页面上不出现模考，见 [production-handoff.md](production-handoff.md#发布开关)。
 
 ```sh
 python3 scripts/exam_modules.py            # 列出可模考的套卷
@@ -297,6 +299,11 @@ python3 scripts/exam_modules.py --check    # 注册表和表不一致时失败
 
 `sourceRefs` 的每一项：`label`（来源名称）、`kind`、`tier`、`year`、`month`、`region`（`"apac"`、`"north_america"` 或 `""`）、`module`（模块名称，可能为 `""`）、`number`（在该来源中的题号，可能为 `null`）。
 
+`number` 只给原卷里的题号，不拿材料里的序号冒充：
+
+- 导入来源（`question_source`）的题号最可靠。同一来源已经有这条记录时，套题文件对同一来源的引用不再重复列出，所以新套题重排或删题后显示的仍是原卷坐标。
+- 其余引用来自套题文件：有 `source_question_number`（套题重编过号时记下的原号）就用它；没有时，只有这份套题本身就是那个来源（`material.source_id` 相同、文件在 `sets/` 下）才用套题自己的 `question_number`；专项合集里的位置或另一来源里的位置一律给 `null`，页面就不显示「第几题」。
+
 原有的 `difficulty`、`sourceSet`、`sourceFamily` 没有改动。这些字段不参与 `gradingRevision`。
 
 页面显示来源时须保留"来源未经认证"的限定：`real_exam` 指回忆版真题，不是官方认证真题。
@@ -314,7 +321,9 @@ python3 scripts/exam_modules.py --check    # 注册表和表不一致时失败
 
 - 一道题出现在多份套题里时，直接改套题文件必须把每一份都改成一样，否则 `normalize` 会拒绝。改 `question.jsonl` 的一行再 `export` 更省事。
 - 套题文件里出现表里没有的新字段时，`normalize` 会拒绝。先在 `schema.sql` 和脚本里给它加一列。
-- `normalize` 和 `export` 不会改动草稿题。
+- `normalize` 和 `export` 不会改动草稿题。草稿题如果还放在某份材料里（`material_item` 指向它），`check` 和 `export` 都会报错，不会把它写进套题文件。撤回一道已发布的题：先从 canonical 材料里移出并 `normalize`，再把表里的 `status` 改成 `draft`。
+- `export` 只写 `content/canonical/sets/<名称>.json` 和 `content/canonical/collections/<名称>.json`（名称只含小写字母、数字和连字符）。绝对路径、`..`、路径上的任何符号链接都会被拒绝；所有目标先全部核对，有一个不合格就一个文件都不写。`normalize` 和 `export` 都先把每个要改的文件写成同目录下的临时文件，全部写好后再一起换上，换到一半出错时已换上的文件恢复原样。
+- `check` 只读，不写任何文件。
 
 ## 导入草稿题
 

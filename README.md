@@ -2,9 +2,11 @@
 
 SAT Reading and Writing 学习站的协作开发仓库，包含当前结构化题库、必要题图、静态生成器、练习与复习界面、本地学习记录逻辑及开发测试。Python 构建页面，原生 JavaScript 负责交互；不需要安装前端框架。
 
-导入基线的维护代码对应 2026-11-05 已发布的提交反馈修复。导入后的开发准备修订另见 [readiness-fixes.md](docs/readiness-fixes.md)，其中公共副本的内容对齐不代表已修改生产题库。导入基线包含 34 个套题、3 个专项、11 个题型、48 个练习路由、1,752 个唯一公共 question_id。此后从外部题库导入并发布了 2,302 道读写题，当前题库为 **70 个套题、37 个专项、11 个题型、118 个练习路由、4,054 个唯一公共 question_id**；107 份 canonical JSON 是 set / collection 的内容输入，题型页由它们派生。新增题未经逐题教学审核，其中 1,397 道没有解析，题型和难度的依据见 [content-db.md](docs/content-db.md)。同一道题可能出现在多份材料中，记录数不能当作唯一题数。
+导入基线的维护代码对应 2026-11-05 已发布的提交反馈修复。导入后的开发准备修订另见 [readiness-fixes.md](docs/readiness-fixes.md)，其中公共副本的内容对齐不代表已修改生产题库。导入基线包含 34 个套题、3 个专项、11 个题型、48 个练习路由、1,752 个唯一公共 question_id。此后从外部题库导入了 2,302 道读写题，表里共有 **70 个套题、37 个专项、11 个题型、118 个练习路由、4,054 个唯一公共 question_id**；107 份 canonical JSON 是 set / collection 的内容输入，题型页由它们派生。新增题未经逐题教学审核，其中 1,397 道没有解析，题型和难度的依据见 [content-db.md](docs/content-db.md)。同一道题可能出现在多份材料中，记录数不能当作唯一题数。
 
-题库是供协作维护的去敏副本，包含经过编辑校订、出处尚未认证的材料，不能称为官方认证真题。模考只提供读写部分的固定两模块练习（Module 1 + 第二模块），资格由 `scripts/exam_modules.py` 从题库表推出，不模拟自适应分流，也不给换算分；历史路由中的 `fixed-hard` 本身不代表具备模考资格。原始 PDF、审查截图、历史运行档案、学生记录、生产登录服务与凭证不在本仓库。
+基线之后加入的内容不会自动上线：`sat-release.json` 有四个发布开关（扩充题库、固定两模块模考、AI 词汇解释与生词本、AI 讲解），默认全部关闭，此时构建出的站点仍是基线的 1,752 题、48 个路由。是否打开由内容所有者决定，说明见 [production-handoff.md](docs/production-handoff.md#发布开关)。
+
+题库是供协作维护的去敏副本，包含经过编辑校订、出处尚未认证的材料，不能称为官方认证真题。模考只提供读写部分的固定两模块练习（Module 1 + 第二模块），资格由 `scripts/exam_modules.py` 从题库表推出，只在所有者打开模考开关后出现，不是官方完整模考，不模拟自适应分流，也不给换算分；历史路由中的 `fixed-hard` 本身不代表具备模考资格。原始 PDF、审查截图、历史运行档案、学生记录、生产登录服务与凭证不在本仓库。
 
 ## 本地启动
 
@@ -19,6 +21,13 @@ python3 -m http.server 8000 --bind 127.0.0.1 --directory build/site
 
 打开 `http://127.0.0.1:8000/`。本地预览不连接正式账号，不提供真实跨设备同步；练习数据使用隔离的本机记录。请使用 HTTP 服务，不要双击生成的 HTML。
 
+要看全部内容（四个发布开关都打开）时构建预览站，它写入 `build/site-preview/`，不影响 `build/site/`：
+
+```sh
+python3 scripts/build-site.py --preview-all
+python3 -m http.server 8002 --bind 127.0.0.1 --directory build/site-preview
+```
+
 需要小规模调试时，可构建 11 道原创 fixture，覆盖 11 类题型：
 
 ```sh
@@ -26,26 +35,28 @@ python3 scripts/build-demo.py
 python3 -m http.server 8001 --bind 127.0.0.1 --directory build/demo
 ```
 
-全库与演示分别写入 `build/site/`、`build/demo/`，可以并存。`build/` 是可重建产物，不提交；内容修改应写回 canonical，界面修改应写回模板或运行时。`scripts/export-current-content.py` 是维护者首次导入工具，不是日常构建或更新命令；已导入仓库通过 PR 修改，禁止重新导出覆盖当前协作内容。
+发布站、预览站与演示分别写入 `build/site/`、`build/site-preview/`、`build/demo/`，可以并存。`build/` 是可重建产物，不提交；内容修改应写回 canonical，界面修改应写回模板或运行时。`scripts/export-current-content.py` 是维护者首次导入工具，不是日常构建或更新命令；已导入仓库通过 PR 修改，禁止重新导出覆盖当前协作内容。
 
 ## 检查
 
 ```sh
 python3 scripts/check-repository-scope.py
 python3 scripts/content_db.py check
+python3 scripts/exam_modules.py --check
 python3 -m unittest discover -s tests -p 'test_*.py'
 python3 -m unittest discover -s skills/skill-sat-rw-classification/tests -p 'test_*.py'
 ```
 
-GitHub Actions `checks` 会执行公开范围检查、全库与演示构建、Python 测试和真实 Chrome 浏览器回归，浏览器中的学习记录与同步响应使用合成夹具。它不配置生产自动部署，也不能代替逐题教学审核或真实账号跨设备验收。
+GitHub Actions `checks` 会执行公开范围检查、发布站 / 预览站 / 演示构建、Python 测试、题库与模考资格检查和两项真实 Chrome 浏览器回归，浏览器中的学习记录与同步响应使用合成夹具。它不配置生产自动部署，也不能代替逐题教学审核或真实账号跨设备验收。
 
 安装 Chrome 后还可运行本地浏览器开发回归；自动发现失败时设置 `CHROME_PATH` 为 Chrome 可执行文件：
 
 ```sh
-node scripts/verify-sat-learning-browser.mjs --report build/reports/browser.json
+node scripts/verify-sat-learning-browser.mjs --root build/site-preview --report build/reports/browser.json
+node scripts/verify-sat-release-and-isolation.mjs --release-root build/site --preview-root build/site-preview
 ```
 
-该驱动默认检查 `build/site/`，报告仅属于本地开发回归，不是生产发布证明。
+第一项在预览站上检查练习、复习、模考、词汇和讲解的完整流程；第二项核对发布站不出现未开启的内容、旧题型页进度迁移、模考记录与两种计时按账号隔离、生词本笔记保存失败的处理。报告仅属于本地开发回归，不是生产发布证明。
 
 ## 主要文件
 
@@ -53,13 +64,14 @@ node scripts/verify-sat-learning-browser.mjs --report build/reports/browser.json
 | --- | --- |
 | `content/canonical/` | 70 个 set 与 37 个 collection 的公开结构化内容 |
 | `content/db/` | 规范化表，每道题只存一次：已发布的题与 canonical 由 `scripts/content_db.py` 互相生成；另含从外部题库导入、尚未发布的草稿题，见 [content-db.md](docs/content-db.md) |
-| `sat-content-registry.json` | 内容身份、发布状态与稳定路由 |
+| `sat-content-registry.json` | 内容身份、发布状态与稳定路由；基线之后的材料带 `releaseGate` |
+| `sat-release.json` | 四个发布开关，默认全部关闭；打开由内容所有者决定 |
 | `sat-practice-migrations.json` | 历史记录迁移协议，不是学生记录 |
 | `assets/`、`categories/chart_images/` | 构建需要的题图与页面资源 |
 | `assets/content-resources.json` | 当前必要题图的相对路径、SHA-256 与大小，新增 / 替换图时同步评审 |
 | `skills/skill-sat-rw-classification/scripts/` | 站点生成器及题型分类工具 |
 | `skills/skill-sat-rw-classification/assets/templates/` | 练习页、首页与共享存储运行时 |
-| `scripts/build-site.py`、`scripts/build-demo.py` | 全库与小规模演示构建入口 |
+| `scripts/build-site.py`、`scripts/build-demo.py` | 发布站（`--preview-all` 为全部内容的预览站）与小规模演示构建入口 |
 | `fixtures/original-demo.json` | 与真实题库分开的原创测试内容 |
 | `tests/` | 干净环境构建、数据与仓库边界检查 |
 
