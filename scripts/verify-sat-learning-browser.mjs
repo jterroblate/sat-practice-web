@@ -674,6 +674,18 @@ try {
   assert.equal(savedToday.submitted, true);
   assert.equal(savedToday.revealed, false);
   assert.equal(savedToday.gradingRevision, question.gradingRevision);
+  await evaluate('document.getElementById("starBtn").click()');
+  // The shared record is written under a lock, so it lands a moment after the click.
+  await waitForEvaluation(`JSON.parse(learningStorage.getItem(GLOBAL_KEY)).questions[${JSON.stringify(question.id)}].starred === true`,
+    "the review star saved from a practice session");
+  const todayReview = await evaluate(`(() => {
+    const record = JSON.parse(learningStorage.getItem(GLOBAL_KEY)).questions[${JSON.stringify(question.id)}];
+    const session = JSON.parse(learningStorage.getItem(SESSION_KEY));
+    return {wrongListed:Boolean(record.firstWrongAt), starred:record.starred, starShown:!document.getElementById("starBtn").hidden,
+      label:document.getElementById("starBtn").textContent, resumeAt:session.lastQuestionId};
+  })()`);
+  assert.deepEqual(todayReview, {wrongListed:true, starred:true, starShown:true, label:"★ 已加入复习", resumeAt:question.id},
+    "A wrong answer in a practice session joins the wrong-answer list, and the review star works there after submitting");
   await reload();
   today = await snapshot();
   assert.equal(today.selectedChoices, 1);
@@ -694,6 +706,11 @@ try {
   assert.deepEqual({inSession:todayNavigator.inSession, wrong:todayNavigator.wrong, listButton:todayNavigator.listButton, answerSheet:todayNavigator.answerSheet},
     {inSession:true, wrong:1, listButton:false, answerSheet:false}, "The question list and answer sheet stay available in a practice session");
   assert.deepEqual(await evaluate(originalAttemptExpression), originalBeforeToday, "Today practice may update shared review history but must not overwrite the original occurrence's attempt");
+  await navigate(`${origin}/index.html#home`);
+  const resume = await evaluate(`(() => { const link = document.querySelector(".hero-actions a.primary"); return {label:link.textContent, href:link.getAttribute("href")}; })()`);
+  assert.equal(resume.label, "回看上次练习");
+  assert.ok(resume.href.includes(`session=${encodeURIComponent(todayId)}`) && resume.href.includes(`focus=${encodeURIComponent(question.id)}`),
+    `Continue must return to the generated practice session, not to the question's set: ${resume.href}`);
   await navigate(`${practiceUrl}?focus=${encodeURIComponent(question.id)}`);
   assert.equal(await evaluate('Boolean(practiceSession) || redoMode'), false, "Open original must not reuse today's blank-redo mode");
 
@@ -803,6 +820,25 @@ try {
         options:[...document.querySelectorAll("#builderBases input")].map(input => input.value),
         withBasis:MANIFEST.questions.some(question => question.difficultyBasis && question.difficultyLevel)}))()`);
       assert.deepEqual(basis.options, ["stated", "estimated"]);
+      const classified = await evaluate(`(() => {
+        const values = id => [...document.querySelectorAll("#" + id + " input")].map(input => input.value);
+        const taxonomy = MANIFEST.taxonomy, before = {tasksHidden:document.getElementById("builderTaskGroup").hidden};
+        const skill = document.querySelector("#builderSkills input");
+        if (skill) skill.click();
+        return {before, passages:values("builderGenres"), importance:values("builderImportance"),
+          importanceHidden:document.getElementById("builderImportanceGroup").hidden,
+          tasks:values("builderTasks"), tasksHidden:document.getElementById("builderTaskGroup").hidden,
+          expectedTasks:skill ? taxonomy.tasks.filter(item => item.skill === skill.value).map(item => item.id) : [],
+          expectedPassages:taxonomy.passageTypes.map(item => item.id), expectedImportance:taxonomy.importance.map(item => item.id),
+          unclassified:MANIFEST.questions.filter(item => !item.task || !item.passageType || !item.importance).length};
+      })()`);
+      assert.equal(classified.before.tasksHidden, true, "Tasks appear only after a skill is chosen");
+      if (classified.expectedPassages.length) {
+        assert.equal(classified.unclassified, 0, "Every question carries a task, a passage type and an importance level");
+        assert.deepEqual(classified.passages, classified.expectedPassages);
+        assert.deepEqual({importance:classified.importance, hidden:classified.importanceHidden}, {importance:classified.expectedImportance, hidden:false});
+        assert.deepEqual({tasks:classified.tasks, hidden:classified.tasksHidden}, {tasks:classified.expectedTasks, hidden:false});
+      }
       assert.equal(basis.hidden, !basis.withBasis, "The difficulty-basis filter shows only when the data says where a difficulty comes from");
     }
   }

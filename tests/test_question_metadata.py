@@ -69,32 +69,22 @@ class MetadataFromTablesTests(unittest.TestCase):
         published = {row["question_id"] for row in self.tables["question"] if row["status"] == "published"}
         self.assertEqual(set(self.metadata), published)
 
-    def test_genre_and_explanation_level_are_stated_for_every_question(self):
+    def test_classification_and_explanation_level_are_stated_for_every_question(self):
+        taxonomy = DB.question_metadata(self.tables, ROOT)["taxonomy"]
+        tasks = {row["id"]: row for row in taxonomy["tasks"]}
+        passage_types = {row["id"] for row in taxonomy["passageTypes"]}
         levels = {"full": 0, "brief": 0, "none": 0}
         for question_id, entry in self.metadata.items():
-            self.assertIn(entry["genre"], ("poetry", "fiction", "drama", None), question_id)
+            self.assertIn(entry["task"], tasks, question_id)
+            self.assertEqual((entry["skill"], entry["domain"]),
+                             (tasks[entry["task"]]["skill"], tasks[entry["task"]]["domain"]), question_id)
+            self.assertIn(entry["passageType"], passage_types, question_id)
+            self.assertIn(entry["importance"], ("core", "important", "basic"), question_id)
             levels[entry["explanation"]] += 1
         self.assertEqual(sum(levels.values()), len(self.metadata))
         self.assertTrue(all(levels.values()), levels)
-
-    def test_the_tagger_has_nothing_left_to_change(self):
-        tagger = load("metadata_tag_genre", "scripts/tag_genre.py")
-        section = {row["domain_id"]: row["section"] for row in self.tables["domain"]}
-        skill = {row["skill_id"]: section[row["domain_id"]] for row in self.tables["skill"]}
-        subtype = {row["subtype_id"]: skill[row["skill_id"]] for row in self.tables["subtype"]}
-        for row in self.tables["question"]:
-            expected = tagger.genre_of(row["passage"]) if subtype[row["subtype_id"]] == "reading_writing" else None
-            self.assertEqual(row["genre"], expected, row["question_id"])
-
-    def test_genre_rule_reads_only_the_passage_introduction(self):
-        genre = load("metadata_tag_genre_rule", "scripts/tag_genre.py").genre_of
-        self.assertEqual(genre("The following text is adapted from an 1899 novel. A traveller arrives."), "fiction")
-        self.assertEqual(genre("The following text is from a 1912 poem \"Summer.\" It is summer."), "poetry")
-        self.assertEqual(genre("Text 1 is a 1912 poem. Text 2 is from a 1913 poem."), "poetry")
-        self.assertEqual(genre("\"Morning\" is a 1904 play by an Irish writer. In the play, ______"), "drama")
-        self.assertEqual(genre("A critic's 1957 novel is regularly described as autobiography."), None)
-        self.assertEqual(genre("The following text is from a 2010 book about the novel as a form."), None)
-        self.assertEqual(genre("Researchers studied how poems are memorised."), None)
+        self.assertEqual([row["id"] for row in taxonomy["importance"]], ["core", "important", "basic"])
+        self.assertAlmostEqual(sum(row["examShare"] for row in taxonomy["tasks"]), 100, delta=0.5)
 
     def test_every_question_is_real_or_practice_with_its_best_source_first(self):
         for question_id, entry in self.metadata.items():
@@ -113,7 +103,8 @@ class BuilderFieldTests(unittest.TestCase):
         self.assertEqual({key: compact[key] for key in ORIGIN_KEYS},
                          {"sourceKind": "", "sourceTier": None, "sourceYear": None,
                           "sourceRefs": [], "difficultyLevel": "", "difficultyBasis": ""})
-        self.assertEqual((compact["genre"], compact["explanationLevel"]), ("", "full"))
+        self.assertEqual((compact["task"], compact["passageType"], compact["importance"], compact["examSittings"],
+                          compact["explanationLevel"]), ("", "", "", 0, "full"))
         page = BUILDER.public_question(ROOT, "sets/demo.html", question())
         self.assertEqual((page["source_kind"], page["source_tier"], page["source_year"],
                           page["source_refs"], page["difficulty_level"]), ("", None, None, [], ""))
@@ -141,11 +132,33 @@ class BuilderFieldTests(unittest.TestCase):
         self.assertEqual(both(_origin={"difficulty": "hard", "difficultyBasis": "model"}), ("hard", "model"))
         self.assertEqual(both(), ("", ""))
 
-    def test_genre_accepts_only_the_known_kinds(self):
-        genre = lambda value: BUILDER.compact_question(
-            question(_origin={"genre": value}), "sets/demo.html", ROOT)["genre"]
-        self.assertEqual([genre(value) for value in ("poetry", "fiction", "drama", "essay", None)],
-                         ["poetry", "fiction", "drama", "", ""])
+    def test_classification_accepts_only_well_formed_values(self):
+        compact = lambda **origin: BUILDER.compact_question(question(_origin=origin), "sets/demo.html", ROOT)
+        self.assertEqual([compact(task=value)["task"] for value in ("wic_blank", "Not An Id", "<b>", None, 7)],
+                         ["wic_blank", "", "", "", ""])
+        self.assertEqual([compact(passageType=value)["passageType"] for value in ("science", "drama", "a b", None)],
+                         ["science", "drama", "", ""])
+        self.assertEqual([compact(importance=value)["importance"] for value in ("core", "important", "basic", "vital", None)],
+                         ["core", "important", "basic", "", ""])
+        self.assertEqual([compact(sittings=value)["examSittings"] for value in (2, 0, -1, "3", None)], [2, 0, 0, 0, 0])
+
+    def test_taxonomy_is_empty_without_tables_and_rejects_markup(self):
+        self.assertEqual(BUILDER.question_taxonomy(ROOT), {"passageTypes": [], "tasks": [], "importance": []})
+        with tempfile.TemporaryDirectory(dir=scratch()) as temporary:
+            root = Path(temporary)
+            payload = {"schemaVersion": BUILDER.QUESTION_METADATA_SCHEMA, "questions": {}, "taxonomy": {
+                "passageTypes": [{"id": "science", "name": "自然科学", "family": "information"}],
+                "tasks": [{"id": "wic_blank", "name": "选词填空", "english": "Word", "skill": "Words in Context",
+                           "domain": "Craft and Structure", "examShare": 12.5}],
+                "importance": [{"id": "core", "name": "核心"}]}}
+            (root / BUILDER.QUESTION_METADATA).write_text(json.dumps(payload, ensure_ascii=False), encoding="utf-8")
+            taxonomy = BUILDER.question_taxonomy(root)
+            self.assertEqual(taxonomy["tasks"][0]["examShare"], 12.5)
+            self.assertEqual(taxonomy["passageTypes"], payload["taxonomy"]["passageTypes"])
+            payload["taxonomy"]["tasks"][0]["name"] = "<b>选词填空</b>"
+            (root / BUILDER.QUESTION_METADATA).write_text(json.dumps(payload, ensure_ascii=False), encoding="utf-8")
+            with self.assertRaises(ValueError):
+                BUILDER.question_taxonomy(root)
 
     def test_explanation_level_is_read_off_the_published_question(self):
         level = lambda explanation: BUILDER.compact_question(
@@ -199,13 +212,17 @@ class BuiltSiteTests(unittest.TestCase):
         kinds = {entry["sourceKind"] for entry in self.manifest["questions"]}
         self.assertEqual(kinds, {"real_exam", "practice"})
 
-    def test_manifest_genre_and_explanation_level_agree_with_the_tables(self):
+    def test_manifest_classification_and_explanation_level_agree_with_the_tables(self):
         tables, _ = DB.read_tables(ROOT)
-        metadata = DB.question_metadata(tables, ROOT)["questions"]
+        stated_all = DB.question_metadata(tables, ROOT)
+        metadata = stated_all["questions"]
         for entry in self.manifest["questions"]:
             stated = metadata[entry["questionId"]]
-            self.assertEqual(entry["genre"], stated["genre"] or "", entry["questionId"])
+            self.assertEqual((entry["task"], entry["passageType"], entry["importance"], entry["examSittings"]),
+                             (stated["task"], stated["passageType"], stated["importance"], stated["sittings"]),
+                             entry["questionId"])
             self.assertEqual(entry["explanationLevel"], stated["explanation"], entry["questionId"])
+        self.assertEqual(self.manifest["taxonomy"], stated_all["taxonomy"])
 
     def test_practice_pages_carry_the_same_origin(self):
         by_id = {entry["questionId"]: entry for entry in self.manifest["questions"]}

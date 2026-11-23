@@ -15,12 +15,14 @@
 | --- | --- | --- | --- |
 | `domain` | `domain_id` | 大类（领域）、所属科目、中文名称 | 9 |
 | `skill` | `skill_id` | 题型，属于哪个大类 | 31 |
-| `subtype` | `subtype_id` | 题型下的细分。`name` 为空的行表示"没有记录细分" | 148 |
+| `subtype` | `subtype_id` | 题型下的细分，照套题文件原样保存，名称不统一，只用于还原套题文件。`name` 为空的行表示"没有记录细分" | 148 |
+| `task` | `task_id` | 细分题型：一个题型下面问法不同的几类，站点用的是这一张 | 40 |
+| `passage_type` | `passage_type` | 文章类别：自然科学、历史与社会科学、人文艺术、小说、诗歌、戏剧、散文与回忆录 | 7 |
 | `source_tier` | `tier` | 来源等级：1 真题、2 题库与练习套卷、3 第三方教辅；以及它算真题还是练习 | 3 |
 | `source_family` | `family_id` | 来源系列，属于哪个等级 | 8 |
 | `source` | `source_id` | 一份试卷、套卷或题库文件：名称、系列、年、月、地区 | 193 |
 | `source_module` | `source_id` + `module_index` | 来源里的一个模块 | 314 |
-| `question` | `question_id` | 文章、题干、答案、所属细分、状态、题型格式、难度及其依据 | 7,319 |
+| `question` | `question_id` | 文章、题干、答案、所属细分、状态、题型格式、难度及其依据、细分题型和文章类别及各自的依据 | 7,319 |
 | `choice` | `question_id` + `label` | 选项文字、选项解析、选项图片地址 | 26,713 |
 | `numeric_answer` | `question_id` + `position` | 填空题可接受的答案 | 884 |
 | `explanation` | `question_id` | 解析 | 6,031 |
@@ -55,7 +57,7 @@ SQLite 强制执行的约束包括：
 - 每道题指向一个存在的细分，细分指向题型，题型指向大类。
 - 难度只能是 `easy`、`medium`、`hard` 或空；有难度就必须写明依据（`source_file` 或 `model`）。
 
-## 四个视图
+## 视图
 
 视图是算出来的，不存放数据。
 
@@ -64,7 +66,10 @@ SQLite 强制执行的约束包括：
 | `question_occurrence` | 一道题和它出现过的一个来源 | 显示题目的来源和年份 |
 | `question_origin` | 一道题的最高来源等级、真题还是练习、在该等级来源中最近出现的年份 | 区分真题和模拟题 |
 | `question_explanation` | 一道题的解析完整度：`full`（四段解析都写了，每个选项都有分析）、`brief`（写了一部分，通常只有一两句）、`none`（没有解析） | 区分有解析和没解析的题 |
-| `practice_pool` | 一道题的科目、大类、题型、真题或练习、年份、难度、文体、解析完整度、状态 | 按范围选题、随机刷题 |
+| `question_importance` | 一道题的重要性：`core` 核心、`important` 重要、`basic` 基础，以及它在几场考试里出现过 | 按重要性选题 |
+| `task_frequency` | 每个细分题型在真题里的题数和占比 | 看哪类题考得多 |
+| `question_skill_conflict` | 细分题型所属的题型和套题文件里记录的题型不一致的题 | 待核对的分类 |
+| `practice_pool` | 一道题的科目、大类、题型、细分题型、文章类别、真题或练习、年份、难度、重要性、解析完整度、状态 | 按范围选题、随机刷题 |
 
 一道题既在真题里出现过、又在题库文件里出现过时，按真题算。
 
@@ -77,18 +82,62 @@ sqlite3 build/content.sqlite "SELECT domain_zh, kind, count(*) FROM practice_poo
 
 `build/content.sqlite` 是生成物，不提交。
 
-## 文体和解析完整度
+## 细分题型、文章类别和重要性
 
-- **文体**存在 `question.genre`：`poetry`、`fiction`、`drama` 或空。由 `scripts/tag_genre.py` 按规则写入，只认文章自己的出处说明（"The following text is from …'s 1899 novel …"）和引文题的开头（"… is a 1923 novel by …"）。只是谈论某部小说或诗歌的说明文不算，留空；数学题一律为空。规则是确定的，重复运行不会再改动任何行。目前已发布的读写题里有 200 道小说、49 道诗歌、30 道戏剧。
-- **解析完整度**不存，由视图 `question_explanation` 从 `explanation` 和 `choice` 两张表算出，所以不会和解析内容对不上。目前已发布的 4,054 道题里：完整 1,752，简要 905，暂无 1,397。
+每道读写题都有这三项，数学题没有前两项。前两项由 `scripts/classify_questions.py` 写进 `question` 表，各带一列依据；重要性是视图，不存。
 
 ```sh
-python3 scripts/tag_genre.py            # 只看会改多少
-python3 scripts/tag_genre.py --apply    # 写入 content/db/question.jsonl
-sqlite3 build/content.sqlite "SELECT explanation, count(*) FROM practice_pool WHERE status = 'published' GROUP BY 1"
+python3 scripts/classify_questions.py                     # 只看会改多少
+python3 scripts/classify_questions.py --apply             # 写入 content/db/
+python3 scripts/classify_questions.py --review-out 文件   # 列出还没有文章类别的文章
+python3 scripts/classify_questions.py --review-in 文件 --apply   # 写入人工判定的类别
 ```
 
-构建站点时两项都写进 `MANIFEST.questions`：`genre`（空字符串表示没有）和 `explanationLevel`。`explanationLevel` 由构建脚本按同一规则从发布的题目内容算出，测试保证它和视图一致。
+### 细分题型（`task_id`）
+
+一个题型下面问法不同的几类，共 40 类，名称在 `task` 表。全部从题目本身读出来，不判断难度和内容，所以每次结果都一样：
+
+| 题型 | 细分 | 依据 |
+| --- | --- | --- |
+| 词汇、结构与目的、双篇对比、主旨细节、文本证据、数据证据、推断 | 选词填空 / 词义理解，主要目的 / 整体结构 / 句子功能，观点回应 / 异同比较，主旨概括 / 细节理解，支持论点 / 削弱论点 / 引文例证，表格数据 / 图表数据，推断填空 / 推断理解 | 题干的问法，出题方只用固定的几种 |
+| 笔记整合 | 对比异同、介绍概述、强调信息、解释说明、提出观点 | 题干里写明的写作目的 |
+| 过渡词 | 转折对比、因果总结、补充递进、举例具体、强调重述、时间顺序、其他短语 | 正确答案那个过渡词的逻辑关系 |
+| 标点 | 句号断句、分号、冒号、破折号与括号、逗号、无需标点 | 正确答案和其他选项相比多出来的那个标点 |
+| 语法形式 | 主谓一致、动词时态、谓语与非谓语、代词、所有格与复数、修饰语与句子结构 | 四个选项之间变的是什么 |
+
+题干或选项有时说明一道题记录的题型不对，比如选项全是代词的题被记在标点下面。这时细分题型跟着题目本身走，记录的题型不改（它来自套题文件）。这样的题有 39 道，在视图 `question_skill_conflict` 里；`practice_pool` 和站点的生成练习按细分题型所属的题型算。
+
+### 文章类别（`passage_type`）
+
+| 依据 | 含义 | 题数（读写 4,728 道） |
+| --- | --- | --- |
+| `source_intro` | 文章自己写明了体裁："The following text is from …'s 1899 novel …" 是小说，诗、剧同理；回忆录、随笔、非虚构著作的节选算散文与回忆录 | 350 |
+| `word_list` | 说明文的用词明显属于某一类（脚本里的三张词表，领先不到 3 分不算） | 2,759 |
+| `reviewed` | 词表拿不准，逐篇读过之后判定 | 1,619 |
+
+词表有把握的部分抽查过：随机取 200 篇，不看词表结果另行判定，198 篇一致。词表拿不准的 1,357 篇全部逐篇判定；在这部分里词表的第一猜测只有 74% 和判定结果一致，所以没有直接采用。
+
+三类说明文的界线：自然科学包括医学、技术、工程、数学、地理和环境；历史与社会科学包括经济、政治、法律、心理、语言、考古和各类历史；人文艺术包括美术、音乐、戏剧影视、建筑、文学研究和哲学。跨界的文章按它主要在讲什么来分，这一步有主观成分。
+
+`reviewed` 的行脚本不会改；其余每次重算。还没有类别的读写题会让测试失败，所以新导入或新发布的题必须先分类。
+
+### 重要性（视图 `question_importance`）
+
+| 等级 | 条件 | 已发布题数 |
+| --- | --- | --- |
+| `core` 核心 | 真题，并且在两场及以上考试里出现过，或者出自题库里最近一个考试年份 | 345 |
+| `important` 重要 | 其余真题 | 2,703 |
+| `basic` 基础 | 练习题：分类题库、练习套卷，或来源未知 | 1,006 |
+
+同一场考试的不同卷别只算一场。年份不明的真题不算最近。这是一条按来源算的规则，不是对题目本身的评价；要改规则只改这个视图。
+
+`task_frequency` 给出每个细分题型在真题里的占比，目前最高的是选词填空（约 12.7%）和推断填空（约 7.5%）。
+
+### 解析完整度
+
+不存，由视图 `question_explanation` 从 `explanation` 和 `choice` 两张表算出，所以不会和解析内容对不上。目前已发布的 4,054 道题里：完整 1,752，简要 905，暂无 1,397。
+
+构建站点时这几项都写进 `MANIFEST.questions`：`task`、`passageType`、`importance`、`examSittings`、`explanationLevel`；名称和顺序在 `MANIFEST.taxonomy`。`explanationLevel` 由构建脚本按同一规则从发布的题目内容算出，测试保证它和视图一致。
 
 ## 模考
 

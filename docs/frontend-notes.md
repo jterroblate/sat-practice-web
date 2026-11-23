@@ -81,7 +81,9 @@
 | 题目范围 | `kind` | `real_exam`（真题）/ `practice`（模拟题） | 多选，不选即不限 |
 | 选择专项 | `domain` | 题目的 `domain` 原文 | 多选，不选即全部 |
 | 选择知识点 | `skill` | 题目的 `skill` 原文 | 多选，不选即全部 |
-| 选择分类 | `genre` | `poetry` / `fiction` / `drama`，以及数据里出现的其他值 | 多选，不选即全部 |
+| 细分题型 | `task` | `MANIFEST.taxonomy.tasks` 里属于所选知识点的那几项 | 多选。只在选了知识点之后出现，取消知识点时它下面选中的细分一起取消 |
+| 文章类别 | `genre` | `MANIFEST.taxonomy.passageTypes` 的 id：`science` / `social` / `humanities` / `fiction` / `poetry` / `drama` / `nonfiction` | 多选，不选即全部。没有 taxonomy 的构建退回三个文体 |
+| 重要性 | `importance` | `core` / `important` / `basic` | 多选，不选即不限。数据里没有 `importance` 时整组隐藏 |
 | 按作答情况 | `source` | 见下表 | 多选，不选即不限 |
 | 解析情况 | `explanation` | `full`（完整解析）/ `brief`（简要解析）/ `none`（暂无解析） | 多选，不选即不限。数据里没有 `explanationLevel` 时整组隐藏 |
 | 选择难度 | `level` | `easy` / `medium` / `hard` | 多选，不选即不限。按钮上标出其中有多少题的难度是估计 |
@@ -114,7 +116,9 @@
 | 科目 | `question.subject` → `question.section` → 所在页面的 `section` | 题目上没有这两个字段，靠页面的 `section` 推断，全部是 `reading_writing` | 每道题带 `subject`：`reading_writing` 或 `math` |
 | 专项 | `question.domain` | 四个读写专项都有 | 数学题用 `Algebra`、`Advanced Math`、`Problem-Solving and Data Analysis`、`Geometry and Trigonometry`，中文名已经在 `BUILDER_DOMAINS` 里 |
 | 知识点 | `question.skill` | 11 个读写题型，中文名在 `SAT_SKILL_ZH` | 数学知识点需要补中文名，否则显示英文原文 |
-| 分类 | `question.genre` → `question.passageGenre` → 从文章开头推断 | 数据库分支在 `content/db` 里按规则标好了 `genre`（`poetry` / `fiction` / `drama`），合并后直接读字段；没有字段的旧构建仍靠文章开头那句出处说明推断 | 出现新值时界面会自动多出一个选项 |
+| 细分题型 | `question.task` | `content/db` 里按规则给每道读写题定的细分题型；它所属的知识点和专项在 `MANIFEST.taxonomy.tasks` 里。个别题记录的知识点和题目本身不符时，生成练习以细分题型为准 | 没有这个字段时按 `question.skill`、`question.domain` |
+| 文章类别 | `question.passageType` → 旧的 `question.genre` → 从文章开头推断 | 每道读写题都有，名称在 `MANIFEST.taxonomy.passageTypes` | 出现新值时界面会自动多出一个选项 |
+| 重要性 | `question.importance`，另有 `question.examSittings`（在几场考试里出现过） | 按来源算：核心 345、重要 2,703、基础 1,006 | 规则在视图 `question_importance` |
 | 解析情况 | `question.explanationLevel` | 构建时从题目的解析内容算出：`full` 四段解析和每个选项的分析都有，`brief` 只写了一部分，`none` 没有。合并后是 1,752 / 905 / 1,397 | 没有这个字段的旧构建不显示这一组 |
 | 题目范围 | `question.sourceKind` | 数据库分支合并前没有这个字段，两个选项都是 0 题并且变灰 | `real_exam` / `practice`。为空的题只在「不限」时出现 |
 | 难度 | `question.difficultyLevel` → 旧的 `question.difficulty`，只认 `easy` / `medium` / `hard` | 合并后 4,054 题都有难度，但只有 899 题的难度来自题库文件标题，其余是估计 | 未标注的题在选了难度之后不会被抽到 |
@@ -136,7 +140,9 @@
     "subject": "reading_writing",
     "domains": ["Craft and Structure"],
     "skills": ["Words in Context"],
+    "tasks": [],
     "genres": [],
+    "importances": [],
     "statuses": ["unseen"],
     "explanations": [],
     "bases": ["stated"],
@@ -149,6 +155,19 @@
 ```
 
 `sources` 在没选作答情况时是 `["all"]`，和以前「全部题库」的含义一致。题目是在本机从符合条件的题里随机抽的；以后如果改成由后端出题，保持这个结构、把 `questions` 换成后端返回的列表即可。
+
+### 回到上一次生成的那组题
+
+练习页每次显示会话里的题，都会在会话记录里写下 `lastQuestionId` 和 `lastVisitedAt`。首页的主按钮据此决定去哪：
+
+- 最近一次用的是生成的那组题（会话比最近打开的套题更晚用过）：回到那组题里停下的那一题；那一题已经提交就去第一道还没提交的。全部做完时按钮写成「回看上次练习」。
+- 否则回到最近打开的套题，和以前一样。
+
+### 复习星标和错题集在会话里
+
+- 「加入复习」在普通练习、练习会话和空白重做里都能用，提交前后都可以。会话和空白重做是在一份空白副本上作答，所以星标记在这道题的长期记录上（`globalState.questions[题号].starred`），不记在空白副本里。
+- 在会话或空白重做里第一次答错，会给长期记录写上 `firstWrongAt`，题目进入「我的复习 → 错题」。原套题页上的作答不动。
+- 没有改的一点：在会话里第一次做的题，长期记录的 `submitted` 仍然是否，所以它在「按作答情况 → 未作答」里还会出现，首页的「已提交题目」也不计它。
 
 ## 4. 来源、年份和题号
 

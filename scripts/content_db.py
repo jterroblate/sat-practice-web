@@ -348,6 +348,8 @@ def derive(root: Path = ROOT, existing: Tables | None = None) -> Tables:
 
 
 PUBLISHED = {"status": "published", "format": "choice", "markup": "canonical"}
+# Set by scripts/classify_questions.py, not by the set files.
+CLASSIFIED = ("passage_type", "passage_type_basis", "task_id", "task_basis")
 
 
 def normalize(root: Path = ROOT, existing: Tables | None = None) -> Tables:
@@ -355,8 +357,9 @@ def normalize(root: Path = ROOT, existing: Tables | None = None) -> Tables:
 
     Columns the set files determine are taken from them. Draft questions, where
     questions came from (source families, modules, placements in imported
-    sources), a recorded difficulty with its basis and the passage genre are
-    carried over from `existing`. Rows that nothing uses any more are dropped.
+    sources), a recorded difficulty with its basis, the task and the passage
+    type are carried over from `existing`, as are the task and passage type
+    reference rows. Rows that nothing uses any more are dropped.
     """
     existing = existing or {}
     derived = derive(root, existing)
@@ -374,7 +377,7 @@ def normalize(root: Path = ROOT, existing: Tables | None = None) -> Tables:
         "skill_basis": previous.get(row["question_id"], {}).get("skill_basis") or "curated",
         "difficulty": previous.get(row["question_id"], {}).get("difficulty"),
         "difficulty_basis": previous.get(row["question_id"], {}).get("difficulty_basis"),
-        "genre": previous.get(row["question_id"], {}).get("genre")}
+        **{column: previous.get(row["question_id"], {}).get(column) for column in CLASSIFIED}}
         for row in derived["question"]}
     drafts = {row["question_id"] for row in old("question")
               if row["status"] == "draft" and row["question_id"] not in questions}
@@ -406,6 +409,8 @@ def normalize(root: Path = ROOT, existing: Tables | None = None) -> Tables:
 
     tables: Tables = {
         "domain": domains, "skill": skills, "subtype": subtypes,
+        "task": [row for row in old("task") if row["skill_id"] in {skill["skill_id"] for skill in skills}],
+        "passage_type": old("passage_type"),
         "source_tier": old("source_tier"), "source_family": old("source_family"),
         "source": sources,
         "source_module": [row for row in old("source_module")
@@ -486,28 +491,34 @@ def export(tables: Tables) -> dict[str, bytes]:
 
 # ---------------------------------------------------------------- what the site shows about a question
 
-METADATA_SCHEMA = "sat-question-metadata-v1"
+METADATA_SCHEMA = "sat-question-metadata-v2"
 DIFFICULTY_LEVELS = ("easy", "medium", "hard")
 
 
 def question_metadata(tables: Tables, root: Path = ROOT) -> dict[str, Any]:
-    """Origin, difficulty, genre and explanation level of every published question, for the site builder.
+    """Origin, difficulty, classification and explanation level of every published question, for the site builder.
 
     kind and tier come from the best source the question is known from, year is
     the latest year it appeared in a source of that tier. difficultyBasis says
     where the difficulty comes from: 'source_file', 'estimate' or 'model'. refs lists every
     known appearance, best first: imported sources before the labels carried by
-    the set files, then most recent. genre is 'poetry', 'fiction', 'drama' or
-    None; explanation is 'full', 'brief' or 'none' (view question_explanation).
+    the set files, then most recent. explanation is 'full', 'brief' or 'none'
+    (view question_explanation). task and passageType are the ids recorded by
+    scripts/classify_questions.py; skill and domain are the ones the task
+    belongs to. importance is 'core', 'important' or 'basic' and sittings the
+    number of exam sittings the question came up at (view question_importance).
+    taxonomy lists the tasks and passage types in display order, with each
+    task's share of real-exam questions (view task_frequency).
     """
     connection = load_sqlite(tables, root)
     try:
         questions: dict[str, dict[str, Any]] = {}
-        for question_id, stated, basis, estimate, kind, tier, year, genre, explanation in connection.execute(
+        for (question_id, stated, basis, estimate, kind, tier, year, explanation, task, passage_type,
+             skill, domain, importance, sittings) in connection.execute(
                 "SELECT q.question_id, q.difficulty, q.difficulty_basis, q.difficulty_estimate,"
-                "       o.kind, o.tier, o.latest_year, q.genre, x.level"
-                "  FROM question q JOIN question_explanation x USING (question_id)"
-                "  LEFT JOIN question_origin o USING (question_id)"
+                "       p.kind, p.tier, p.latest_year, p.explanation, q.task_id, q.passage_type,"
+                "       p.skill, p.domain, p.importance, p.sittings"
+                "  FROM question q JOIN practice_pool p USING (question_id)"
                 " WHERE q.status = 'published'"):
             estimate = estimate.lower() if isinstance(estimate, str) else None
             # A source's own statement first, then the estimate carried by the
@@ -517,7 +528,8 @@ def question_metadata(tables: Tables, root: Path = ROOT) -> dict[str, Any]:
             questions[question_id] = {
                 "kind": kind, "tier": tier, "year": year,
                 "difficulty": stated, "difficultyBasis": basis if stated else None,
-                "genre": genre, "explanation": explanation,
+                "explanation": explanation, "task": task, "passageType": passage_type,
+                "skill": skill, "domain": domain, "importance": importance, "sittings": sittings,
                 "refs": [],
             }
         appearances = connection.execute(
@@ -542,9 +554,23 @@ def question_metadata(tables: Tables, root: Path = ROOT) -> dict[str, Any]:
                 questions[question_id]["refs"].append({
                     "label": label, "kind": kind, "tier": tier, "year": year, "month": month,
                     "region": region, "module": module, "number": number})
+        taxonomy = {
+            "passageTypes": [
+                {"id": key, "name": name, "family": family} for key, name, family in connection.execute(
+                    "SELECT passage_type, name_zh, family FROM passage_type ORDER BY position")],
+            "tasks": [
+                {"id": key, "name": name, "english": english, "skill": skill, "domain": domain, "examShare": share}
+                for key, name, english, skill, domain, share in connection.execute(
+                    "SELECT k.task_id, k.name_zh, k.name, s.name, d.name, f.percent"
+                    "  FROM task k JOIN skill s USING (skill_id) JOIN domain d USING (domain_id)"
+                    "  JOIN task_frequency f USING (task_id)"
+                    " ORDER BY d.name, s.name, k.position")],
+            "importance": [{"id": "core", "name": "核心"}, {"id": "important", "name": "重要"},
+                           {"id": "basic", "name": "基础"}],
+        }
     finally:
         connection.close()
-    return {"schemaVersion": METADATA_SCHEMA, "questions": questions}
+    return {"schemaVersion": METADATA_SCHEMA, "taxonomy": taxonomy, "questions": questions}
 
 
 # ---------------------------------------------------------------- checks

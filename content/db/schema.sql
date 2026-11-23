@@ -42,6 +42,33 @@ CREATE TABLE subtype (
 CREATE UNIQUE INDEX subtype_one_unspecified_per_skill
   ON subtype (skill_id) WHERE name IS NULL;
 
+-- What a question asks for within its skill: "main purpose" against "overall
+-- structure", a contrast transition against a causal one. This is the
+-- classification the site shows. It is kept apart from subtype, whose rows
+-- repeat the wording of the set files and cannot be renamed without changing
+-- them. A task belongs to one skill; scripts/classify_questions.py reads the
+-- task off the question, and for a handful of questions that evidence points
+-- to another skill than the recorded one (view question_skill_conflict).
+CREATE TABLE task (
+  task_id  TEXT PRIMARY KEY,
+  skill_id TEXT NOT NULL REFERENCES skill (skill_id),
+  name_zh  TEXT NOT NULL,
+  name     TEXT NOT NULL,
+  position INTEGER NOT NULL CHECK (position > 0),
+  UNIQUE (skill_id, name_zh),
+  UNIQUE (skill_id, position)
+) STRICT;
+
+-- The kind of text a Reading and Writing question is about. 'literature' is
+-- an excerpt of a literary work or a question about one; 'information' is
+-- everything else, by subject.
+CREATE TABLE passage_type (
+  passage_type TEXT PRIMARY KEY,
+  family       TEXT NOT NULL CHECK (family IN ('literature', 'information')),
+  name_zh      TEXT NOT NULL UNIQUE,
+  position     INTEGER NOT NULL UNIQUE CHECK (position > 0)
+) STRICT;
+
 -- Where material comes from. The tier says how much a source counts and
 -- whether it is a real exam or practice; a family is one kind of source.
 
@@ -88,9 +115,13 @@ CREATE TABLE source_module (
 --              the question came from, a 'rule', a 'model', or 'none' (unclassified).
 -- difficulty_basis: 'source_file' when the source states the difficulty,
 --              'model' when it is a model's estimate from the text alone.
--- genre:       the literary kind of a Reading and Writing passage, set by
---              scripts/tag_genre.py from the passage's own introduction;
---              NULL for informational texts and for Math.
+-- passage_type, task_id: set by scripts/classify_questions.py for every
+--              Reading and Writing question; both NULL for Math.
+-- passage_type_basis: 'source_intro' when the passage names its own kind,
+--              'word_list' when its vocabulary clearly belongs to one subject,
+--              'reviewed' when a reader decided.
+-- task_basis:  'rule' when read off the stem and the choices, 'reviewed' when
+--              a reader decided.
 
 CREATE TABLE question (
   question_id         TEXT PRIMARY KEY,
@@ -108,9 +139,14 @@ CREATE TABLE question (
   difficulty          TEXT CHECK (difficulty IN ('easy', 'medium', 'hard')),
   skill_basis         TEXT NOT NULL CHECK (skill_basis IN ('curated', 'source_file', 'rule', 'model', 'none')),
   difficulty_basis    TEXT CHECK (difficulty_basis IN ('source_file', 'model')),
-  genre               TEXT CHECK (genre IN ('poetry', 'fiction', 'drama')),
+  passage_type        TEXT REFERENCES passage_type (passage_type),
+  passage_type_basis  TEXT CHECK (passage_type_basis IN ('source_intro', 'word_list', 'reviewed')),
+  task_id             TEXT REFERENCES task (task_id),
+  task_basis          TEXT CHECK (task_basis IN ('rule', 'reviewed')),
   CHECK ((format = 'choice') = (correct_answer IS NOT NULL)),
   CHECK ((difficulty IS NULL) = (difficulty_basis IS NULL)),
+  CHECK ((passage_type IS NULL) = (passage_type_basis IS NULL)),
+  CHECK ((task_id IS NULL) = (task_basis IS NULL)),
   CHECK (status = 'draft' OR (format = 'choice' AND markup = 'canonical')),
   FOREIGN KEY (question_id, correct_answer)
     REFERENCES choice (question_id, label) DEFERRABLE INITIALLY DEFERRED
@@ -257,20 +293,86 @@ CREATE VIEW question_explanation AS
               ELSE 'brief' END AS level
     FROM written;
 
+-- How much a question matters for practice, one line per question, read off
+-- where it has appeared and never stored:
+--   3 'core'       a real-exam question that came up at two or more sittings,
+--                  or at a sitting of the most recent exam year in the bank;
+--   2 'important'  any other real-exam question;
+--   1 'basic'      practice material: question bank, practice tests, or no
+--                  known source.
+-- sittings counts distinct exam dates (year and month), so the versions of
+-- one sitting count once. A year that is unknown counts as not recent.
+CREATE VIEW question_importance AS
+  WITH seen AS (
+    SELECT o.question_id, f.tier, s.year, s.month
+      FROM question_occurrence o
+      JOIN source s USING (source_id)
+      JOIN source_family f USING (family_id)
+  ), exam AS (
+    SELECT question_id,
+           count(DISTINCT CASE WHEN year IS NOT NULL THEN year * 100 + coalesce(month, 0) END) AS sittings,
+           max(year) AS latest_year
+      FROM seen WHERE tier = 1 GROUP BY question_id
+  ), recent AS (
+    SELECT max(s.year) AS year FROM source s JOIN source_family f USING (family_id) WHERE f.tier = 1
+  )
+  SELECT q.question_id,
+         CASE WHEN e.question_id IS NULL THEN 1
+              WHEN e.sittings >= 2 OR e.latest_year = (SELECT year FROM recent) THEN 3
+              ELSE 2 END AS level,
+         CASE WHEN e.question_id IS NULL THEN 'basic'
+              WHEN e.sittings >= 2 OR e.latest_year = (SELECT year FROM recent) THEN 'core'
+              ELSE 'important' END AS importance,
+         coalesce(e.sittings, 0) AS sittings, e.latest_year
+    FROM question q LEFT JOIN exam e USING (question_id);
+
+-- How often each task comes up in real exams: its share of all classified
+-- real-exam questions, one line per task. A question that appears in several
+-- versions of a sitting counts once.
+CREATE VIEW task_frequency AS
+  WITH real AS (
+    SELECT q.question_id, q.task_id
+      FROM question q JOIN question_origin o USING (question_id)
+     WHERE o.tier = 1 AND q.task_id IS NOT NULL
+  )
+  SELECT k.task_id, k.skill_id, k.name_zh, count(r.question_id) AS questions,
+         round(100.0 * count(r.question_id) / (SELECT count(*) FROM real), 2) AS percent
+    FROM task k LEFT JOIN real r USING (task_id)
+   GROUP BY k.task_id;
+
+-- Questions whose task belongs to another skill than the one recorded for
+-- them. The recorded skill comes from the set files and is left as it is;
+-- practice_pool follows the task.
+CREATE VIEW question_skill_conflict AS
+  SELECT q.question_id, q.status, q.skill_basis, recorded.name AS recorded_skill, clean.name AS task_skill, q.task_id
+    FROM question q
+    JOIN subtype t USING (subtype_id)
+    JOIN skill recorded ON recorded.skill_id = t.skill_id
+    JOIN task k USING (task_id)
+    JOIN skill clean ON clean.skill_id = k.skill_id
+   WHERE clean.skill_id <> recorded.skill_id;
+
 -- Everything needed to choose questions for practice, one line per question:
--- pick by section, category (domain), skill, real exam or practice, year,
--- difficulty, literary genre and how much explanation there is. The site must
--- use published rows only.
+-- pick by section, category (domain), skill, task, kind of passage, real exam
+-- or practice, year, difficulty, importance and how much explanation there is.
+-- Skill and domain follow the task where there is one, the recorded
+-- classification otherwise (Math). The site must use published rows only.
 CREATE VIEW practice_pool AS
   SELECT q.question_id, q.status, d.section,
          d.domain_id, d.name AS domain, d.name_zh AS domain_zh,
          s.skill_id, s.name AS skill,
+         q.task_id, k.name_zh AS task_zh,
+         q.passage_type, p.name_zh AS passage_type_zh, p.family AS passage_family,
          o.kind, o.tier, o.tier_name, o.latest_year,
          q.difficulty, q.difficulty_basis, q.format,
-         q.genre, x.level AS explanation
+         i.importance, i.level AS importance_level, i.sittings,
+         x.level AS explanation
     FROM question q
     JOIN subtype t USING (subtype_id)
-    JOIN skill s USING (skill_id)
+    LEFT JOIN task k USING (task_id)
+    JOIN skill s ON s.skill_id = coalesce(k.skill_id, t.skill_id)
     JOIN domain d USING (domain_id)
+    LEFT JOIN passage_type p USING (passage_type)
     JOIN question_explanation x USING (question_id)
+    JOIN question_importance i USING (question_id)
     LEFT JOIN question_origin o USING (question_id);

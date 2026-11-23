@@ -2422,6 +2422,8 @@
       if (practiceSession && redoMode && question?.question_id === redoQuestionId) {
         redoSession.updatedAt = nowIso();
         practiceSession.answers[question.question_id] = redoSession;
+        practiceSession.lastQuestionId = question.question_id;
+        practiceSession.lastVisitedAt = redoSession.updatedAt;
         writeLocalJson(SESSION_KEY, practiceSession);
       }
       if (!redoMode && question && state.answers[question.question_id]) {
@@ -2467,6 +2469,14 @@
 
     function activeState(question) {
       return redoMode && question.question_id === redoQuestionId ? redoSession : qState(question);
+    }
+
+    // Whether the question is in the learner's review list. A session or a blank
+    // redo answers on a blank copy, so there the star is read from the lasting record.
+    function isStarred(question, qs) {
+      return redoMode && question.question_id === redoQuestionId
+        ? Boolean(asRecord(globalState.questions[question.question_id]).starred)
+        : Boolean(qs.starred);
     }
 
     function currentQuestion() {
@@ -2560,14 +2570,20 @@
         ? `今日练习 ${sessionIndex + 1}/${session.questions.length}`
         : `第 ${current + 1}/${QUESTIONS.length} 题`;
       els.questionNumber.innerHTML = `<span class="exam-visually-hidden">Question </span>${(sessionIndex >= 0 ? sessionIndex : current) + 1}`;
-      els.starBtn.textContent = qs.starred ? "★ 已加入复习" : "☆ 加入复习";
-      els.starBtn.hidden = redoMode;
+      els.starBtn.textContent = isStarred(question, qs) ? "★ 已加入复习" : "☆ 加入复习";
+      els.starBtn.hidden = false;
       els.reflectionPanel.hidden = redoMode;
       els.highlightBtn.hidden = redoMode;
       els.overviewBtn.hidden = false;
       els.checkAllBtn.hidden = redoMode;
       els.exportJsonBtn.closest(".export-group").hidden = redoMode;
       els.returnOriginalBtn.hidden = !redoMode || Boolean(practiceSession);
+      // Remember where in the session the learner is, so the learning centre can bring them back here.
+      if (practiceSession && sessionIndex >= 0 && practiceSession.lastQuestionId !== question.question_id) {
+        practiceSession.lastQuestionId = question.question_id;
+        practiceSession.lastVisitedAt = nowIso();
+        writeLocalJson(SESSION_KEY, practiceSession);
+      }
       const bannerText = invalidRedoQuestionId
         ? `无法定位重做题目 ${requestedRedoQuestionId}，已保留当前页面。请返回学习中心重新进入。`
         : redoMode && !practiceSession ? "空白重做 · 原来的作答和解析已隐藏" : "";
@@ -2678,7 +2694,7 @@
       updateCurrentOverviewButton(qs);
       renderQuestionList(qs);
       syncQuestionTimer(question, qs);
-      els.starBtn.textContent = qs.starred ? "★ 已加入复习" : "☆ 加入复习";
+      els.starBtn.textContent = isStarred(question, qs) ? "★ 已加入复习" : "☆ 加入复习";
       els.checkCurrentBtn.disabled = qs.submitted || !qs.selected;
       els.revealBtn.disabled = !qs.submitted;
       els.revealBtn.textContent = explanationOpen[question.question_id] ? "收起答案与解析" : "查看答案与解析";
@@ -2785,7 +2801,7 @@
           const qs = isCurrent ? (currentState || activeState(here)) : asRecord(session.answers[item.questionId]);
           return {
             index, isCurrent, inSession: true, selected: Boolean(qs.selected), checked: qs.checked === true,
-            correct: qs.correct === true, starred: false,
+            correct: qs.correct === true, starred: Boolean(asRecord(globalState.questions[item.questionId]).starred),
             go() {
               if (isCurrent) return;
               location.href = `../${item.route}?session=${encodeURIComponent(session.id)}&focus=${encodeURIComponent(item.questionId)}`;
@@ -2801,7 +2817,7 @@
           : defaultQuestionState();
         return {
           index, isCurrent, inSession: false, selected: Boolean(qs.selected), checked: Boolean(qs.checked),
-          correct: Boolean(qs.correct), starred: Boolean(qs.starred),
+          correct: Boolean(qs.correct), starred: isStarred(question, qs),
           go() {
             if (isCurrent) return;
             if (redoMode) els.returnOriginalBtn.click();
@@ -3363,6 +3379,9 @@
       if (!qs.correct && !qs.firstWrongAt) qs.firstWrongAt = submittedAt;
       if (redoMode) {
         const historical = normalizeQuestionState(globalState.questions[question.question_id], question);
+        // The earlier answer on the question's own page is left alone, but a
+        // first wrong answer given here still puts the question in the wrong-answer list.
+        if (!qs.correct && !historical.firstWrongAt) historical.firstWrongAt = submittedAt;
         historical.lastRedoCorrect = qs.correct;
         historical.redoCount = Number(historical.redoCount || 0) + 1;
         historical.lastAttemptAt = submittedAt;
@@ -3936,10 +3955,22 @@
       attempts.forEach(upsertAttemptOutboxBestEffort);
     });
     els.starBtn.addEventListener("click", () => {
-      const qs = qState(currentQuestion());
+      const question = currentQuestion();
+      if (!question) return;
+      if (redoMode && question.question_id === redoQuestionId) {
+        const historical = normalizeQuestionState(globalState.questions[question.question_id], question);
+        historical.starred = !historical.starred;
+        historical.updatedAt = nowIso();
+        globalState.questions[question.question_id] = historical;
+        if (state.answers[question.question_id]) state.answers[question.question_id].starred = historical.starred;
+        saveState();
+        updateCurrentQuestionView(question, activeState(question));
+        return;
+      }
+      const qs = qState(question);
       qs.starred = !qs.starred;
       saveState();
-      updateCurrentQuestionView(currentQuestion(), qs);
+      updateCurrentQuestionView(question, qs);
     });
     els.revealBtn.addEventListener("click", () => {
       if (requestedExamMode) return;

@@ -701,6 +701,24 @@
       const page = pageById.get(last.pageId), pageRoute = page?.route || String(last.href || "").replace(/^.*sat-practice\//, "");
       return `${pageRoute}?focus=${encodeURIComponent(last.questionId || "")}`;
     }
+    // 上一次生成的那组题。练习页每次显示会话里的题都会记下 lastQuestionId 和 lastVisitedAt，
+    // 所以这里能回到那组题里停下的地方，而不是那道题所在的套题。
+    function lastSession() {
+      let session = null;
+      try { session = JSON.parse(learningStorage.getItem(SESSION_KEY) || "null"); } catch {}
+      if (!session || typeof session.id !== "string" || !Array.isArray(session.questions)) return null;
+      const questions = session.questions.filter(item => item && typeof item.questionId === "string" && typeof item.route === "string");
+      if (!questions.length) return null;
+      const answers = record(session.answers);
+      const pending = questions.filter(item => !record(answers[item.questionId]).submitted);
+      const here = questions.find(item => item.questionId === session.lastQuestionId);
+      const target = (here && pending.includes(here) ? here : pending[0]) || here || questions[questions.length - 1];
+      const used = Math.max(timeOf(session.lastVisitedAt), timeOf(session.createdAt), ...Object.values(answers).map(item => timeOf(record(item).updatedAt)));
+      return {
+        used, total: questions.length, done: questions.length - pending.length,
+        href: `${target.route}?session=${encodeURIComponent(session.id)}&focus=${encodeURIComponent(target.questionId)}`
+      };
+    }
     function formatTime(value) {
       if (!value) return "";
       return new Intl.DateTimeFormat("zh-CN", { month: "numeric", day: "numeric" }).format(new Date(value));
@@ -847,8 +865,11 @@
       const unfinished = unfinishedPages().length;
       const lowConfidence = MANIFEST.questions.filter(question => ["unsure", "guess"].includes(qState(question.questionId).confidence)).length;
       const firstSet = MANIFEST.pages.find(page => page.kind === "set");
-      const primaryHref = last ? continueHref(last) : "#practice";
-      const primaryLabel = last ? "继续上次练习" : "生成今日练习";
+      // 最近一次用的是生成的那组题时，回到那组题；否则回到最近打开的套题。
+      const generated = lastSession();
+      const resumeSession = generated && (!last || generated.used >= timeOf(last.lastVisitedAt) - 10000) ? generated : null;
+      const primaryHref = resumeSession ? resumeSession.href : last ? continueHref(last) : "#practice";
+      const primaryLabel = resumeSession ? (resumeSession.done < resumeSession.total ? "继续上次练习" : "回看上次练习") : last ? "继续上次练习" : "生成今日练习";
       const secondaryHref = last ? "#practice" : firstSet?.route || "#practice";
       const secondaryLabel = last ? "生成今日练习" : "浏览完整套题";
       const study = summarizeSatStudyTime(learningStorage), today = satStudyDayKey();
@@ -1044,6 +1065,13 @@
     ];
     const BUILDER_KINDS = [{ key: "real_exam", label: "真题" }, { key: "practice", label: "模拟题" }];
     const BUILDER_GENRES = [{ key: "poetry", label: "诗歌类" }, { key: "fiction", label: "小说类" }, { key: "drama", label: "戏剧类" }];
+    // 细分题型、文章类别和重要性的名称来自构建时写入的 MANIFEST.taxonomy（content/db 的 task、passage_type 表）。
+    // 没有这份数据的构建（演示站）里，文章类别退回上面三个文体，另外两组不显示。
+    const TAXONOMY = MANIFEST.taxonomy || {};
+    const BUILDER_TASKS = (TAXONOMY.tasks || []).map(item => ({ key: item.id, label: item.name, skill: item.skill, domain: item.domain }));
+    const builderTaskByKey = new Map(BUILDER_TASKS.map(item => [item.key, item]));
+    const BUILDER_PASSAGES = (TAXONOMY.passageTypes || []).map(item => ({ key: item.id, label: item.name }));
+    const BUILDER_IMPORTANCE = (TAXONOMY.importance || []).map(item => ({ key: item.id, label: item.name }));
     const BUILDER_EXPLANATIONS = [{ key: "full", label: "完整解析" }, { key: "brief", label: "简要解析" }, { key: "none", label: "暂无解析" }];
     const BUILDER_STATUSES = [
       { key: "unseen", label: "未作答" }, { key: "wrong", label: "作答错误" },
@@ -1059,7 +1087,7 @@
     const BUILDER_MINUTES = { reading_writing: [1, 1.4], math: [1.3, 1.8] };
     const sectionByRoute = new Map(MANIFEST.pages.map(page => [page.route, page.section]));
     function builderDefaults() {
-      return { subject: "reading_writing", kinds: new Set(), domains: new Set(), skills: new Set(), genres: new Set(), statuses: new Set(), explanations: new Set(), levels: new Set(), bases: new Set(), count: 10, custom: false };
+      return { subject: "reading_writing", kinds: new Set(), domains: new Set(), skills: new Set(), tasks: new Set(), genres: new Set(), importances: new Set(), statuses: new Set(), explanations: new Set(), levels: new Set(), bases: new Set(), count: 10, custom: false };
     }
     let builderFilters = builderDefaults(), builderPreset = "";
     function inferGenre(passage) {
@@ -1071,12 +1099,16 @@
       const section = String(question.subject || question.section || sectionByRoute.get(question.route) || "");
       const level = String(question.difficultyLevel || question.difficulty || "").toLowerCase();
       const hasLevel = BUILDER_LEVELS.some(item => item.key === level);
+      // 细分题型自带所属的知识点和专项；个别题记录的知识点和题目本身不符时，以细分题型为准。
+      const task = builderTaskByKey.get(question.task);
       return {
         subject: /math/i.test(section) ? "math" : "reading_writing",
         kind: question.sourceKind || "",
-        domain: question.domain || "",
-        skill: question.skill || "",
-        genre: question.genre || question.passageGenre || inferGenre(question.passage),
+        domain: task ? task.domain : question.domain || "",
+        skill: task ? task.skill : question.skill || "",
+        task: task ? task.key : "",
+        genre: question.passageType || question.genre || question.passageGenre || inferGenre(question.passage),
+        importance: BUILDER_IMPORTANCE.some(item => item.key === question.importance) ? question.importance : "",
         explanation: BUILDER_EXPLANATIONS.some(item => item.key === question.explanationLevel) ? question.explanationLevel : "",
         level: hasLevel ? level : "",
         basis: !hasLevel || !question.difficultyBasis ? "" : question.difficultyBasis === "source_file" ? "stated" : "estimated"
@@ -1106,7 +1138,9 @@
         && (skip === "kind" || !filters.kinds.size || filters.kinds.has(meta.kind))
         && (skip === "domain" || !filters.domains.size || filters.domains.has(meta.domain))
         && (skip === "skill" || !filters.skills.size || filters.skills.has(meta.skill))
+        && (skip === "task" || !filters.tasks.size || filters.tasks.has(meta.task))
         && (skip === "genre" || !filters.genres.size || filters.genres.has(meta.genre))
+        && (skip === "importance" || !filters.importances.size || filters.importances.has(meta.importance))
         && (skip === "status" || !filters.statuses.size || [...filters.statuses].some(key => row.flags[key]))
         && (skip === "explanation" || !filters.explanations.size || filters.explanations.has(meta.explanation))
         && (skip === "level" || !filters.levels.size || filters.levels.has(meta.level))
@@ -1126,9 +1160,11 @@
         <div class="builder"><form class="builder-form" id="builderForm">
           <fieldset class="builder-group"><legend>选择科目</legend><div class="subject-row" id="builderSubjects"></div></fieldset>
           <fieldset class="builder-group"><legend>题目范围</legend><div class="chip-row" id="builderKinds"></div></fieldset>
+          <fieldset class="builder-group" id="builderImportanceGroup" hidden><legend>重要性</legend><div class="chip-row" id="builderImportance"></div><p class="builder-note">核心：最近一年或考过两次以上的真题；重要：其余真题；基础：练习题。</p></fieldset>
           <fieldset class="builder-group"><legend>选择专项</legend><div class="domain-grid" id="builderDomains"></div></fieldset>
           <fieldset class="builder-group"><legend>选择知识点</legend><div class="chip-row" id="builderSkills"></div></fieldset>
-          <fieldset class="builder-group"><legend>选择分类</legend><div class="chip-row" id="builderGenres"></div></fieldset>
+          <fieldset class="builder-group" id="builderTaskGroup" hidden><legend>细分题型</legend><div class="chip-row" id="builderTasks"></div></fieldset>
+          <fieldset class="builder-group"><legend>文章类别</legend><div class="chip-row" id="builderGenres"></div></fieldset>
           <fieldset class="builder-group"><legend>按作答情况</legend><div class="chip-row" id="builderStatuses"></div></fieldset>
           <fieldset class="builder-group" id="builderExplanationGroup"><legend>解析情况</legend><div class="chip-row" id="builderExplanations"></div></fieldset>
           <fieldset class="builder-group"><legend>选择难度</legend><div class="level-grid" id="builderLevels"></div></fieldset>
@@ -1158,7 +1194,7 @@
         else if (input.name === "count") { filters.custom = false; filters.count = Number(input.value); }
         else if (input.name === "customCount") { return; }
         else {
-          const target = { kind: filters.kinds, domain: filters.domains, skill: filters.skills, genre: filters.genres, source: filters.statuses, explanation: filters.explanations, level: filters.levels, basis: filters.bases }[input.name];
+          const target = { kind: filters.kinds, domain: filters.domains, skill: filters.skills, task: filters.tasks, genre: filters.genres, importance: filters.importances, source: filters.statuses, explanation: filters.explanations, level: filters.levels, basis: filters.bases }[input.name];
           if (!target) return;
           if (input.checked) target.add(input.value); else target.delete(input.value);
         }
@@ -1203,8 +1239,23 @@
         const total = count("skill", row => row.meta.skill === skill);
         return pick("checkbox", "skill", skill, filters.skills.has(skill), `${escapeHtml(SAT_SKILL_ZH[skill] || skill)}<i>${total}</i>`, !total && !filters.skills.has(skill));
       }).join("");
+      // 细分题型只在选了知识点之后出现，列出所选知识点下面的那几类。
+      filters.tasks = new Set([...filters.tasks].filter(key => filters.skills.has(builderTaskByKey.get(key)?.skill)));
+      const tasks = BUILDER_TASKS.filter(item => filters.skills.has(item.skill));
+      document.getElementById("builderTaskGroup").hidden = !tasks.length;
+      document.getElementById("builderTasks").innerHTML = tasks.map(item => {
+        const total = count("task", row => row.meta.task === item.key);
+        return pick("checkbox", "task", item.key, filters.tasks.has(item.key), `${escapeHtml(item.label)}<i>${total}</i>`, !total && !filters.tasks.has(item.key));
+      }).join("");
+      const hasImportance = subjectRows.some(row => row.meta.importance);
+      document.getElementById("builderImportanceGroup").hidden = !hasImportance;
+      document.getElementById("builderImportance").innerHTML = BUILDER_IMPORTANCE.map(item => {
+        const total = count("importance", row => row.meta.importance === item.key);
+        return pick("checkbox", "importance", item.key, filters.importances.has(item.key), `${escapeHtml(item.label)}<i>${total}</i>`, !total && !filters.importances.has(item.key));
+      }).join("");
       const genreKeys = new Set(subjectRows.map(row => row.meta.genre).filter(Boolean));
-      const genres = [...BUILDER_GENRES, ...[...genreKeys].filter(key => !BUILDER_GENRES.some(item => item.key === key)).map(key => ({ key, label: key }))];
+      const known = BUILDER_PASSAGES.length ? BUILDER_PASSAGES : BUILDER_GENRES;
+      const genres = [...known, ...[...genreKeys].filter(key => !known.some(item => item.key === key)).map(key => ({ key, label: key }))];
       document.getElementById("builderGenres").innerHTML = genres.map(item => {
         const total = count("genre", row => row.meta.genre === item.key);
         return pick("checkbox", "genre", item.key, filters.genres.has(item.key), `${escapeHtml(item.label)}<i>${total}</i>`, !total && !filters.genres.has(item.key));
@@ -1248,11 +1299,11 @@
       const pool = rows.filter(row => builderMatches(row, filters)), wanted = builderCount(filters), size = Math.min(wanted, pool.length);
       const labels = (set, list) => list.filter(item => set.has(item.key)).map(item => item.label);
       const subject = BUILDER_SUBJECTS.find(item => item.key === filters.subject).label;
-      const kindLabels = labels(filters.kinds, BUILDER_KINDS);
+      const kindLabels = labels(filters.kinds, BUILDER_KINDS).concat(labels(filters.importances, BUILDER_IMPORTANCE));
       const domainLabels = labels(filters.domains, domains), statusLabels = labels(filters.statuses, BUILDER_STATUSES), levelLabels = labels(filters.levels, BUILDER_LEVELS);
       const explanationLabels = labels(filters.explanations, BUILDER_EXPLANATIONS);
       document.getElementById("summaryExplanations").textContent = explanationLabels.length ? explanationLabels.join("、") : "不限";
-      const skillLabels = [...filters.skills].map(skill => SAT_SKILL_ZH[skill] || skill).concat(labels(filters.genres, genres));
+      const skillLabels = [...filters.skills].map(skill => SAT_SKILL_ZH[skill] || skill).concat(labels(filters.tasks, BUILDER_TASKS), labels(filters.genres, genres));
       const [low, high] = BUILDER_MINUTES[filters.subject] || BUILDER_MINUTES.reading_writing;
       document.getElementById("builderTitle").textContent = domainLabels.length === 1 ? `${domainLabels[0]}专项` : domainLabels.length ? "组合专项练习" : "综合练习";
       document.getElementById("summaryDirection").textContent = `${subject} · ${domainLabels.length ? domainLabels.join("、") : "全部专项"}`;
@@ -1277,7 +1328,7 @@
       const session = {
         id: `session-${Date.now()}`, createdAt: nowIso(),
         sources: filters.statuses.size ? [...filters.statuses] : ["all"],
-        filters: { subject: filters.subject, kinds: [...filters.kinds], domains: [...filters.domains], skills: [...filters.skills], genres: [...filters.genres], statuses: [...filters.statuses], explanations: [...filters.explanations], bases: [...filters.bases], difficulties: [...filters.levels], count },
+        filters: { subject: filters.subject, kinds: [...filters.kinds], domains: [...filters.domains], skills: [...filters.skills], tasks: [...filters.tasks], genres: [...filters.genres], importances: [...filters.importances], statuses: [...filters.statuses], explanations: [...filters.explanations], bases: [...filters.bases], difficulties: [...filters.levels], count },
         answers: {}, questions: selected.map(question => ({ questionId: question.questionId, route: question.route }))
       };
       try {

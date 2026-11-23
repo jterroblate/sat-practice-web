@@ -264,12 +264,15 @@ def load_question_package(root: Path, entry: dict[str, Any]) -> list[dict[str, A
 
 
 QUESTION_METADATA = "sat-question-metadata.json"
-QUESTION_METADATA_SCHEMA = "sat-question-metadata-v1"
+QUESTION_METADATA_SCHEMA = "sat-question-metadata-v2"
 SOURCE_KINDS = ("real_exam", "practice")
 DIFFICULTY_LEVELS = ("easy", "medium", "hard")
 DIFFICULTY_BASES = ("source_file", "estimate", "model")
 SOURCE_REGIONS = ("apac", "north_america")
-PASSAGE_GENRES = ("poetry", "fiction", "drama")
+IMPORTANCE_LEVELS = ("core", "important", "basic")
+PASSAGE_FAMILIES = ("literature", "information")
+TAXONOMY_ID_RE = re.compile(r"^[a-z][a-z0-9_]{0,39}$")
+EMPTY_TAXONOMY = {"passageTypes": [], "tasks": [], "importance": []}
 EXPLANATION_TEXT_FIELDS = ("short", "key_evidence", "why_correct", "detailed")
 
 
@@ -293,16 +296,58 @@ def explanation_level(question: dict[str, Any]) -> str:
     return "brief"
 
 
-def load_question_origins(root: Path) -> dict[str, dict[str, Any]]:
-    """Optional per-question origin written by the site build from content/db."""
+def load_question_metadata(root: Path) -> dict[str, Any]:
+    """Optional per-question metadata written by the site build from content/db."""
     path = root / QUESTION_METADATA
     if not path.is_file():
-        return {}
+        return {"questions": {}, "taxonomy": EMPTY_TAXONOMY}
     value = json.loads(path.read_text(encoding="utf-8"))
     if (not isinstance(value, dict) or value.get("schemaVersion") != QUESTION_METADATA_SCHEMA
             or not isinstance(value.get("questions"), dict)):
         raise ValueError("Unsupported question metadata file")
-    return value["questions"]
+    return value
+
+
+def load_question_origins(root: Path) -> dict[str, dict[str, Any]]:
+    return load_question_metadata(root)["questions"]
+
+
+def question_taxonomy(root: Path) -> dict[str, list[dict[str, Any]]]:
+    """The tasks, passage types and importance levels, in display order, for the practice builder.
+
+    Names are shown to learners, so they must be plain text; ids are the
+    values the questions carry.
+    """
+    stated = load_question_metadata(root).get("taxonomy")
+    if not isinstance(stated, dict):
+        return copy.deepcopy(EMPTY_TAXONOMY)
+
+    def rows(name: str, fields: tuple[str, ...]) -> list[dict[str, Any]]:
+        result = []
+        for entry in stated.get(name) if isinstance(stated.get(name), list) else []:
+            if not isinstance(entry, dict) or not TAXONOMY_ID_RE.match(str(entry.get("id") or "")):
+                raise ValueError(f"Invalid taxonomy entry in {name}")
+            row = {"id": entry["id"]}
+            for field in fields:
+                text = str(entry.get(field) or "")
+                if PUBLIC_HTML_TAG_RE.search(text) or any(pattern in text for pattern in PUBLIC_PATH_PATTERNS):
+                    raise ValueError(f"Taxonomy text is not plain: {name}.{entry['id']}.{field}")
+                row[field] = text
+            result.append(row)
+        return result
+
+    passage_types = rows("passageTypes", ("name", "family"))
+    if any(row["family"] not in PASSAGE_FAMILIES for row in passage_types):
+        raise ValueError("Invalid passage type family")
+    tasks = rows("tasks", ("name", "english", "skill", "domain"))
+    shares = {entry["id"]: entry.get("examShare") for entry in stated.get("tasks", []) if isinstance(entry, dict)}
+    for row in tasks:
+        share = shares.get(row["id"])
+        row["examShare"] = share if isinstance(share, (int, float)) and not isinstance(share, bool) and 0 <= share <= 100 else None
+    importance = rows("importance", ("name",))
+    if any(row["id"] not in IMPORTANCE_LEVELS for row in importance):
+        raise ValueError("Invalid importance level")
+    return {"passageTypes": passage_types, "tasks": tasks, "importance": importance}
 
 
 def question_origin(question: dict[str, Any]) -> dict[str, Any]:
@@ -322,6 +367,9 @@ def question_origin(question: dict[str, Any]) -> dict[str, Any]:
         if PUBLIC_HTML_TAG_RE.search(text) or any(pattern in text for pattern in PUBLIC_PATH_PATTERNS):
             raise ValueError(f"Question origin text is not plain: {question_id}.{context}")
         return text
+
+    def taxonomy_id(value: Any) -> str:
+        return value if isinstance(value, str) and TAXONOMY_ID_RE.match(value) else ""
 
     estimate = str(question.get("difficulty_estimate") or "").lower()
     if origin.get("difficulty") in DIFFICULTY_LEVELS:
@@ -350,7 +398,10 @@ def question_origin(question: dict[str, Any]) -> dict[str, Any]:
         "year": whole(origin.get("year"), 2000, 2100),
         "level": level,
         "basis": basis,
-        "genre": origin.get("genre") if origin.get("genre") in PASSAGE_GENRES else "",
+        "task": taxonomy_id(origin.get("task")),
+        "passageType": taxonomy_id(origin.get("passageType")),
+        "importance": origin.get("importance") if origin.get("importance") in IMPORTANCE_LEVELS else "",
+        "sittings": whole(origin.get("sittings"), 0, 99) or 0,
         "refs": refs,
     }
 
@@ -823,7 +874,10 @@ def compact_question(
         "sourceTier": origin["tier"],
         "sourceYear": origin["year"],
         "sourceRefs": origin["refs"],
-        "genre": origin["genre"],
+        "task": origin["task"],
+        "passageType": origin["passageType"],
+        "importance": origin["importance"],
+        "examSittings": origin["sittings"],
         "explanationLevel": explanation_level(question),
     }
 
@@ -967,6 +1021,7 @@ def build(root: Path) -> dict[str, Any]:
         "pageCount": len(pages),
         "pages": pages,
         "questions": list(canonical.values()),
+        "taxonomy": question_taxonomy(root),
         "questionAliasesByPage": aliases_by_page,
         "storageMigrations": {
             **{migration["storageKey"]: {"aliases": migration.get("aliases", {})}
