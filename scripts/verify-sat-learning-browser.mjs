@@ -674,18 +674,39 @@ try {
   assert.equal(savedToday.submitted, true);
   assert.equal(savedToday.revealed, false);
   assert.equal(savedToday.gradingRevision, question.gradingRevision);
-  await evaluate('document.getElementById("starBtn").click()');
   // The shared record is written under a lock, so it lands a moment after the click.
-  await waitForEvaluation(`JSON.parse(learningStorage.getItem(GLOBAL_KEY)).questions[${JSON.stringify(question.id)}].starred === true`,
-    "the review star saved from a practice session");
+  const todayRecord = `JSON.parse(learningStorage.getItem(GLOBAL_KEY)).questions[${JSON.stringify(question.id)}]`;
+  const todayBook = `(() => {
+    const record = ${todayRecord}, panel = document.getElementById("reflectionPanel");
+    return {wrongListed:Boolean(record.firstWrongAt), inBook:satInMistakeBook(record), starred:record.starred,
+      label:document.getElementById("starBtn").textContent, starShown:!document.getElementById("starBtn").hidden,
+      tagsOpen:!panel.hidden && !document.querySelector('#errorTagsRow input').disabled,
+      confidenceShown:getComputedStyle(document.getElementById("confidenceRow")).display !== "none"};
+  })()`;
+  await waitForEvaluation(`Boolean(${todayRecord}?.lastWrongAt)`, "the wrong answer saved from a practice session");
+  assert.deepEqual(await evaluate(todayBook), {wrongListed:true, inBook:true, starred:false, label:"★ 已加入错题本", starShown:true, tagsOpen:true, confidenceShown:false},
+    "A wrong answer in a practice session goes into the mistake book by itself, and its error tags can be recorded there after submitting");
+  await evaluate(`(() => {
+    document.querySelector('#errorTagsRow input[value="logic"]').click();
+    const note = document.getElementById("noteInput");
+    note.value = "session note";
+    note.dispatchEvent(new Event("input", {bubbles:true}));
+  })()`);
+  await waitForEvaluation(`${todayRecord}.note === "session note" && ${todayRecord}.errorTags.join() === "logic"`, "error tags and a note saved from a practice session");
+  await evaluate('document.getElementById("starBtn").click()');
+  await waitForEvaluation(`Boolean(${todayRecord}.bookRemovedAt)`, "the question taken out of the mistake book");
+  assert.deepEqual(await evaluate(`(() => { const record = ${todayRecord}; return {inBook:satInMistakeBook(record), label:document.getElementById("starBtn").textContent}; })()`),
+    {inBook:false, label:"☆ 加入错题本"}, "The button takes a recorded mistake out of the book");
+  await evaluate('document.getElementById("starBtn").click()');
+  await waitForEvaluation(`${todayRecord}.starred === true`, "the question added back by hand from a practice session");
   const todayReview = await evaluate(`(() => {
-    const record = JSON.parse(learningStorage.getItem(GLOBAL_KEY)).questions[${JSON.stringify(question.id)}];
+    const record = ${todayRecord};
     const session = JSON.parse(learningStorage.getItem(SESSION_KEY));
-    return {wrongListed:Boolean(record.firstWrongAt), starred:record.starred, starShown:!document.getElementById("starBtn").hidden,
+    return {wrongListed:Boolean(record.firstWrongAt), inBook:satInMistakeBook(record), starred:record.starred, starShown:!document.getElementById("starBtn").hidden,
       label:document.getElementById("starBtn").textContent, resumeAt:session.lastQuestionId};
   })()`);
-  assert.deepEqual(todayReview, {wrongListed:true, starred:true, starShown:true, label:"★ 已加入复习", resumeAt:question.id},
-    "A wrong answer in a practice session joins the wrong-answer list, and the review star works there after submitting");
+  assert.deepEqual(todayReview, {wrongListed:true, inBook:true, starred:true, starShown:true, label:"★ 已加入错题本", resumeAt:question.id},
+    "Adding by hand works in a practice session after submitting");
   await reload();
   today = await snapshot();
   assert.equal(today.selectedChoices, 1);
@@ -812,7 +833,7 @@ try {
   }, "the mock exam centre must list exactly the exam-eligible sets");
 
   const routeViews = {};
-  for (const [hash, heading] of [["#review/wrong", "我的复习"], ["#diagnosis", "学习诊断"], ["#practice", "生成今日练习"], ["#search", "全库搜索"]]) {
+  for (const [hash, heading] of [["#mistakes", "错题本"], ["#review/unfinished", "我的复习"], ["#diagnosis", "学习诊断"], ["#practice", "生成今日练习"], ["#search", "全库搜索"]]) {
     await evaluate(`location.hash = ${JSON.stringify(hash)}`);
     await new Promise(resolve => setTimeout(resolve, 20));
     routeViews[hash] = await evaluate(`document.querySelector("h1")?.textContent === ${JSON.stringify(heading)}`);
@@ -850,8 +871,177 @@ try {
   })()`);
   await waitForEvaluation('document.querySelectorAll("#searchResults .review-card").length > 0', "debounced search results");
   routeViews.searchResults = await evaluate('document.querySelectorAll("#searchResults .review-card").length');
-  assert.ok(Object.values(routeViews).slice(0, 4).every(Boolean), JSON.stringify(routeViews));
+  assert.ok(Object.values(routeViews).slice(0, 5).every(Boolean), JSON.stringify(routeViews));
   assert.ok(routeViews.searchResults > 0, JSON.stringify(routeViews));
+  // A question opened from the search results goes back to the search, with the keyword still there.
+  const searchLink = await evaluate('document.querySelector("#searchResults .review-card a.ghost").getAttribute("href")');
+  assert.match(searchLink, /[?&]from=search$/);
+  await navigate(`${origin}/${searchLink}`);
+  assert.deepEqual(await evaluate('(() => { const link = document.querySelector(".home-link"); return {text:link.textContent, href:link.getAttribute("href")}; })()'),
+    {text:"返回搜索", href:"../index.html#search"});
+  await navigate(`${origin}/index.html#search`);
+  assert.deepEqual(await evaluate('({term:document.getElementById("searchInput").value, results:document.querySelectorAll("#searchResults .review-card").length > 0})'),
+    {term:"inference", results:true}, "The search keeps its keyword while the tab stays open");
+  // The old wrong-answer and star tabs now open the mistake book.
+  await evaluate('location.hash = "#review/wrong"');
+  await waitForEvaluation('location.hash === "#mistakes" && document.querySelector("h1")?.textContent === "错题本"', "the old wrong-answer address opening the mistake book");
+
+  // The mistake book. Wrong answers arrive by themselves, a right answer can be added by hand, tags
+  // filter the list, a question opened from the book walks the filtered list, and leaving it comes
+  // back to the book with the same filters, on the same question.
+  await navigate(`${origin}/index.html`);
+  await evaluate("localStorage.clear(); sessionStorage.clear()");
+  await navigate(practiceUrl);
+  const bookIds = await evaluate(`(() => {
+    const submit = right => { const q = currentQuestion(), index = q.choices.findIndex(choice => (choice.label === q.correct_answer) === right);
+      document.querySelectorAll(".choice")[index].click(); document.getElementById("checkCurrentBtn").click(); return q.question_id; };
+    const wrongTagged = submit(false);
+    document.querySelector('#errorTagsRow input[value="vocabulary"]').click();
+    document.getElementById("nextBtn").click();
+    const added = submit(true);
+    const beforeAdd = {label:document.getElementById("starBtn").textContent, tagsShown:getComputedStyle(document.getElementById("errorTagsRow")).display !== "none"};
+    document.getElementById("starBtn").click();
+    const afterAdd = {label:document.getElementById("starBtn").textContent, tagsShown:getComputedStyle(document.getElementById("errorTagsRow")).display !== "none"};
+    document.getElementById("nextBtn").click();
+    const wrongPlain = submit(false);
+    document.getElementById("nextBtn").click();
+    const rightOnly = submit(true);
+    return {wrongTagged, added, wrongPlain, rightOnly, beforeAdd, afterAdd, position:current};
+  })()`);
+  assert.deepEqual({beforeAdd:bookIds.beforeAdd, afterAdd:bookIds.afterAdd},
+    {beforeAdd:{label:"☆ 加入错题本", tagsShown:false}, afterAdd:{label:"★ 已加入错题本", tagsShown:true}},
+    "A right answer is not in the mistake book until it is added by hand; once added, error tags can be recorded for it");
+  await evaluate("window.__satFixtureFlush()");
+  await navigate(`${origin}/index.html#mistakes`);
+  const bookCards = `[...document.querySelectorAll("#mistakeList [data-book-card]")].map(card => card.dataset.bookCard)`;
+  const bookPick = (group, value) => evaluate(`document.querySelector('#${group} input[value="${value}"]').click()`);
+  const sorted = list => [...list].sort();
+  assert.deepEqual(sorted(await evaluate(bookCards)), sorted([bookIds.wrongTagged, bookIds.added, bookIds.wrongPlain]),
+    "The mistake book lists the wrong answers and the question added by hand, not the plain right answer");
+  await bookPick("mistakeTags", "vocabulary");
+  assert.deepEqual(await evaluate(bookCards), [bookIds.wrongTagged], "An error tag filters the book");
+  await bookPick("mistakeTags", "none");
+  assert.deepEqual(sorted(await evaluate(bookCards)), sorted([bookIds.wrongTagged, bookIds.added, bookIds.wrongPlain]), "Choices inside one group are alternatives");
+  await bookPick("mistakeOrigin", "wrong");
+  const filtered = await evaluate(bookCards);
+  assert.deepEqual(sorted(filtered), sorted([bookIds.wrongTagged, bookIds.wrongPlain]), "Groups combine: tagged or untagged, and recorded from a wrong answer");
+  assert.equal(await evaluate(`document.querySelector('#mistakeOrigin input[value="manual"]').nextElementSibling.querySelector("i").textContent`), "1",
+    "Each choice shows how many questions it would give");
+  // Open the first filtered question as it was answered, walk to the next, and leave.
+  await evaluate(`document.querySelector('[data-book-card="${filtered[0]}"] a.ghost').click()`);
+  await waitReady("#checkCurrentBtn");
+  await installFixtureHelpers();
+  const bookWalk = () => evaluate(`(() => { const link = document.querySelector(".home-link"); return {on:currentQuestion().question_id,
+    title:document.querySelector(".topbar .title").textContent, back:link.textContent, href:link.getAttribute("href"), progress:document.getElementById("progressText").textContent,
+    prev:document.getElementById("prevBtn").disabled, next:document.getElementById("nextBtn").disabled, entries:navigatorEntries().length,
+    reset:document.getElementById("resetBtn").hidden, mode:new URLSearchParams(location.search).get("book"), redo:redoMode}; })()`);
+  assert.deepEqual(await bookWalk(), {on:filtered[0], title:"错题本", back:"返回错题本", href:"../index.html#mistakes", progress:"错题本 1/2",
+    prev:true, next:false, entries:2, reset:true, mode:"view", redo:false}, "A question opened from the book shows only the filtered questions and leads back to the book");
+  await evaluate('document.getElementById("nextBtn").click()');
+  await waitForEvaluation(`typeof currentQuestion === "function" && document.readyState === "complete" && currentQuestion().question_id === ${JSON.stringify(filtered[1])}`, "the next question of the mistake book");
+  await installFixtureHelpers();
+  assert.deepEqual(await bookWalk(), {on:filtered[1], title:"错题本", back:"返回错题本", href:"../index.html#mistakes", progress:"错题本 2/2",
+    prev:false, next:true, entries:2, reset:true, mode:"view", redo:false}, "Next follows the book's filtered order and stops at its end");
+  assert.equal(await evaluate(`(() => { const page = JSON.parse(localStorage.getItem(window.__satFixtureRawKey(storageKey)));
+    return page.current === ${bookIds.position} && JSON.parse(localStorage.getItem(window.__satFixtureRawKey(GLOBAL_KEY))).pages[PAGE_ID].current === ${bookIds.position}; })()`), true,
+    "Looking at a mistake does not move the set's own position");
+  await evaluate('document.querySelector(".home-link").click()');
+  await waitReady("#mistakeList");
+  await installFixtureHelpers();
+  assert.deepEqual(await evaluate(`({hash:location.hash, cards:${bookCards}, returned:document.querySelector(".book-card.is-returned")?.dataset.bookCard,
+    tags:[...document.querySelectorAll("#mistakeTags input:checked")].map(input => input.value), origin:[...document.querySelectorAll("#mistakeOrigin input:checked")].map(input => input.value)})`),
+    {hash:"#mistakes", cards:filtered, returned:filtered[1], tags:["vocabulary", "none"], origin:["wrong"]},
+    "Leaving the question returns to the book with the same filters, on the question just seen");
+  // Mark as mastered, undo, take out, undo.
+  const bookTool = (kind, id) => evaluate(`document.querySelector('[data-book-${kind}="${id}"]').click()`);
+  await bookTool("master", filtered[0]);
+  assert.deepEqual(await evaluate(`({cards:${bookCards}, mastered:qState(${JSON.stringify(filtered[0])}).mastered, undo:Boolean(document.getElementById("mistakeUndo"))})`),
+    {cards:[filtered[1]], mastered:true, undo:true}, "A mastered question leaves the pending list");
+  await evaluate('document.getElementById("mistakeUndo").click()');
+  assert.deepEqual(await evaluate(`({cards:${bookCards}, mastered:qState(${JSON.stringify(filtered[0])}).mastered})`), {cards:filtered, mastered:false});
+  await bookTool("remove", filtered[0]);
+  assert.deepEqual(await evaluate(`({cards:${bookCards}, inBook:satInMistakeBook(qState(${JSON.stringify(filtered[0])})), wrongKept:Boolean(qState(${JSON.stringify(filtered[0])}).firstWrongAt)})`),
+    {cards:[filtered[1]], inBook:false, wrongKept:true}, "Taking a question out keeps its history");
+  await evaluate('document.getElementById("mistakeUndo").click()');
+  assert.deepEqual(await evaluate(bookCards), filtered);
+  // A blank redo from the book: wrong again, tags and note are kept on the question, and the page's own answer is not touched.
+  await evaluate(`document.querySelector('[data-book-card="${filtered[1]}"] a.primary').click()`);
+  await waitReady("#checkCurrentBtn");
+  await installFixtureHelpers();
+  const bookRedo = await evaluate(`(() => {
+    const q = currentQuestion(), before = {mode:new URLSearchParams(location.search).get("book"), redo:redoMode, blank:!activeState(q).selected, panelHidden:document.getElementById("reflectionPanel").hidden,
+      original:state.answers[q.question_id].selected};
+    const index = q.choices.findIndex(choice => choice.label !== q.correct_answer && choice.label !== before.original);
+    document.querySelectorAll(".choice")[index].click(); document.getElementById("checkCurrentBtn").click();
+    document.querySelector('#errorTagsRow input[value="careless"]').click();
+    return {before, panelHidden:document.getElementById("reflectionPanel").hidden, pageAnswer:state.answers[q.question_id].selected === before.original,
+      tagged:globalState.questions[q.question_id].errorTags.includes("careless"), redoCount:globalState.questions[q.question_id].redoCount};
+  })()`);
+  assert.deepEqual({...bookRedo, before:{...bookRedo.before, original:undefined}}, {before:{mode:"redo", redo:true, blank:true, panelHidden:true, original:undefined},
+    panelHidden:false, pageAnswer:true, tagged:true, redoCount:1}, "A blank redo from the book records its tags on the question and leaves the original answer alone");
+  await evaluate("window.__satFixtureFlush()");
+  // Resetting the set page must stay reset after the mistake book has touched the record.
+  await navigate(practiceUrl);
+  await evaluate('document.getElementById("resetBtn").click(); document.getElementById("resetConfirmApply").click()');
+  await evaluate("window.__satFixtureFlush()");
+  await navigate(`${origin}/index.html#mistakes`);
+  await bookTool("master", filtered[0]);
+  await evaluate("learningStorage.coordinateGlobal(() => true)");
+  await navigate(practiceUrl);
+  assert.deepEqual(await evaluate(`(() => { const answers = QUESTIONS.slice(0, 4).map(q => state.answers[q.question_id]).filter(Boolean);
+    return {submitted:answers.some(item => item.submitted), selected:answers.some(item => item.selected), mastered:state.answers[${JSON.stringify(filtered[0])}]?.mastered === true,
+      kept:satInMistakeBook(globalState.questions[${JSON.stringify(filtered[1])}])}; })()`),
+    {submitted:false, selected:false, mastered:true, kept:true},
+    "After a reset, a change made in the mistake book brings its own fields to the page but not the old answer");
+  // Looking at the original answer during a redo walk keeps this question in the address, so a refresh stays on it.
+  await navigate(`${practiceUrl}?book=redo&redo=${encodeURIComponent(filtered[1])}`);
+  assert.deepEqual(await evaluate(`(() => { document.getElementById("returnOriginalBtn").click(); const query = new URLSearchParams(location.search);
+    return {book:query.get("book"), focus:query.get("focus"), redo:query.get("redo"), on:currentQuestion().question_id, back:document.querySelector(".home-link").textContent}; })()`),
+    {book:"redo", focus:filtered[1], redo:null, on:filtered[1], back:"返回错题本"}, "Returning to the original answer inside the book keeps the question and the way back");
+  // A set continued from 我的复习 leads back there, not to the home page.
+  await navigate(practiceUrl);
+  await evaluate(`(() => { const q = currentQuestion(); document.querySelectorAll(".choice")[q.choices.findIndex(choice => choice.label === q.correct_answer)].click();
+    document.getElementById("checkCurrentBtn").click(); })()`);
+  await evaluate("window.__satFixtureFlush()");
+  await navigate(`${origin}/index.html#review/unfinished`);
+  const unfinishedHref = await evaluate(`document.querySelector(".review-card a.primary")?.getAttribute("href") || ""`);
+  assert.match(unfinishedHref, /[?&]from=review-unfinished$/, "An unfinished set opened from 我的复习 says where it was opened from");
+  await navigate(`${origin}/${unfinishedHref}`);
+  assert.deepEqual(await evaluate('(() => { const link = document.querySelector(".home-link"); return {text:link.textContent, href:link.getAttribute("href")}; })()'),
+    {text:"返回我的复习", href:"../index.html#review/unfinished"});
+  // Mock exams: questions answered wrong go into the mistake book when the exam is finished; blanks and right answers do not.
+  const bookExamPage = manifestSetPages.find(page => page.examEligible === true);
+  if (bookExamPage) {
+    await navigate(`${origin}/index.html`);
+    await evaluate("localStorage.clear()");
+    await navigate(`${origin}/${bookExamPage.route}?mode=exam`);
+    await evaluate(`document.querySelector("[data-exam-start]").click()`);
+    const examPick = right => evaluate(`(() => { const active = activeExamModule(), id = active.spec.questionIds[active.state.current], question = examQuestionById(id);
+      const label = ${right} ? question.correct_answer : question.choices.find(choice => choice.label !== question.correct_answer).label;
+      [...document.querySelectorAll("[data-exam-choice]")].find(button => button.dataset.examChoice === label).click();
+      document.getElementById("examNext").click(); return id; })()`);
+    const examSubmit = () => evaluate(`(() => { examCheckOpen = true; renderExam(); document.getElementById("examSubmitModule").click(); })()`);
+    const examWrong = [await examPick(false)], examRight = await examPick(true);
+    const examBlank = await evaluate("(() => { const active = activeExamModule(); return active.spec.questionIds[active.state.current]; })()");
+    await examSubmit();
+    assert.equal(await evaluate(`Object.keys(JSON.parse(localStorage.getItem(window.__satFixtureRawKey(GLOBAL_KEY)) || '{"questions":{}}').questions || {}).length`), 0,
+      "Nothing is recorded before the whole exam is finished");
+    await evaluate(`document.getElementById("examStartM2").click()`);
+    examWrong.push(await examPick(false));
+    await examSubmit();
+    await evaluate("window.__satFixtureFlush()");
+    const examBook = await evaluate(`(() => { const global = JSON.parse(localStorage.getItem(window.__satFixtureRawKey(GLOBAL_KEY)) || "{}"), questions = global.questions || {};
+      return {phase:examSession.phase, recorded:Object.keys(questions).sort(), inBook:Object.values(questions).every(satInMistakeBook),
+        due:Object.values(questions).every(item => item.firstWrongAt && item.lastWrongAt && item.nextDueAt && !item.submitted && !item.attemptCount),
+        attempts:(global.attempts || []).length, pages:Object.keys(global.pages || {}).length}; })()`);
+    assert.deepEqual(examBook, {phase:"complete", recorded:[...examWrong].sort(), inBook:true, due:true, attempts:0, pages:0},
+      "A finished mock exam records its wrong answers in the mistake book without creating practice attempts or page progress");
+    assert.equal(examBook.recorded.includes(examRight) || examBook.recorded.includes(examBlank), false);
+    await reload();
+    await evaluate("window.__satFixtureFlush()");
+    await navigate(`${origin}/index.html#mistakes`);
+    assert.deepEqual(sorted(await evaluate(bookCards)), sorted(examWrong), "The mistake book lists the questions answered wrong in the mock exam");
+  }
 
   // Word explanations and the vocabulary notebook, on a page whose first question has explained words.
   await navigate(`${origin}/index.html`);

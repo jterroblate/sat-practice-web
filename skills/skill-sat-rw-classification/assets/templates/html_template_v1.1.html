@@ -843,7 +843,8 @@
     .reflection:not(.is-submitted) > label,
     .reflection:not(.is-submitted) > .note-input,
     .reflection:not(.is-submitted) > .review-hint,
-    .reflection.is-correct > #errorTagsRow { display: none; }
+    .reflection.is-correct > #errorTagsRow,
+    .reflection.is-lasting > #confidenceRow { display: none; }
     .reflection-row { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; }
     .reflection-label { min-width: 70px; color: var(--sat-text-muted); font-size: 13px; font-weight: 600; }
     .confidence-option, .error-option {
@@ -989,7 +990,7 @@
   <section id="resetConfirm" class="reset-confirm" role="alertdialog" aria-modal="true" aria-labelledby="resetConfirmTitle" hidden>
     <div class="reset-confirm-card">
       <h2 id="resetConfirmTitle">重置本页作答？</h2>
-      <p>将清空本页当前答案和位置。笔记、星标、历史错题与重做记录会保留。</p>
+      <p>将清空本页当前答案和位置。笔记、错题本和重做记录会保留。</p>
       <div class="reset-confirm-actions"><button id="resetConfirmCancel" type="button">取消</button><button id="resetConfirmApply" type="button">确认重置</button></div>
     </div>
   </section>
@@ -1005,7 +1006,7 @@
 
   <aside class="overview" id="overviewPanel" aria-label="题目答题卡">
     <div class="overview-head">答题卡</div>
-    <div class="overview-legend" aria-hidden="true"><span class="legend-current">当前</span><span class="legend-selected">已选未提交</span><span class="legend-correct">答对</span><span class="legend-incorrect">答错</span><span class="legend-star">已加入复习</span></div>
+    <div class="overview-legend" aria-hidden="true"><span class="legend-current">当前</span><span class="legend-selected">已选未提交</span><span class="legend-correct">答对</span><span class="legend-incorrect">答错</span><span class="legend-star">在错题本</span></div>
     <div class="overview-grid" id="overviewGrid"></div>
   </aside>
 
@@ -1023,7 +1024,7 @@
     <section class="pane question-pane">
       <div class="question-meta">
         <h1 class="question-number" id="questionNumber"></h1>
-        <button id="starBtn" type="button">☆ 加入复习</button>
+        <button id="starBtn" type="button">☆ 加入错题本</button>
         <div class="question-timer" id="questionTimer" hidden>
           <span class="question-timer-value" id="questionTimerValue" aria-label="本题用时">00:00</span>
           <button id="questionTimerToggle" type="button" aria-pressed="false">暂停</button>
@@ -1042,7 +1043,7 @@
       <div class="explanation" id="explanation"></div>
       <section class="gloss-panel" id="glossPanel" aria-label="本题词汇" hidden></section>
       <section class="reflection" id="reflectionPanel">
-        <div class="reflection-row">
+        <div class="reflection-row" id="confidenceRow">
           <span class="reflection-label">答题信心</span>
           <label class="confidence-option"><input type="radio" name="confidence" value="sure">确定</label>
           <label class="confidence-option"><input type="radio" name="confidence" value="unsure">不确定</label>
@@ -1126,6 +1127,26 @@
     const focusQuestionId = params.get("focus") || redoQuestionId;
     const activeSessionId = params.get("session") || "";
     let redoMode = Boolean(redoQuestionId);
+    // 错题本的单题模式：?book=redo（空白重做）或 ?book=view（查看原题）。上一题 / 下一题按错题本
+    // 当时筛出来的顺序走，那份顺序在 sat-learning:mistake-book-view:v1 里，由学习中心写入。
+    const bookKind = !requestedExamMode && !activeSessionId && ["redo", "view"].includes(params.get("book")) ? params.get("book") : "";
+    const bookMode = Boolean(bookKind);
+    let bookView = null, bookPlaceSaved = "";
+    // 从学习中心的哪一页进来，左上角就回到哪一页，而不是一律回首页
+    const RETURN_VIEWS = {
+      mistakes: ["#mistakes", "返回错题本"], "review-unfinished": ["#review/unfinished", "返回我的复习"],
+      "review-notes": ["#review/notes", "返回我的复习"], "review-redo": ["#review/redo", "返回我的复习"],
+      search: ["#search", "返回搜索"], vocabulary: ["#vocabulary", "返回生词本"],
+      "vocabulary-mastered": ["#vocabulary/mastered", "返回生词本"], "vocabulary-all": ["#vocabulary/all", "返回生词本"]
+    };
+    const returnView = requestedExamMode || activeSessionId ? null : RETURN_VIEWS[bookMode ? "mistakes" : params.get("from")] || null;
+    if (returnView) {
+      const homeLink = document.querySelector(".home-link");
+      homeLink.href = "../index.html" + returnView[0];
+      homeLink.textContent = returnView[1];
+    }
+    // 和今日练习一样，错题本里不显示套题名称，避免在作答前透露来源和年份
+    if (bookMode) document.querySelector(".topbar .title").textContent = "错题本";
     const storageKey = "sat-practice:" + SECTION + ":" + QUESTIONS.map(q => q.question_id).join("|");
     const refreshLegacyBackup = installSatLegacyBackupNotice(learningStorage, () => [
       GLOBAL_KEY, OUTBOX_KEY, SESSION_KEY, EXAM_STORAGE_KEY, storageKey,
@@ -1215,9 +1236,14 @@
         errorTags: [], note: "", highlights: [], updatedAt: null,
         submittedAt: null, firstWrongAt: null, lastAttemptAt: null,
         lastRedoCorrect: null, attemptCount: 0, redoCount: 0,
-        reviewStage: 0, nextDueAt: null, mastered: false, masteredAt: null
+        reviewStage: 0, nextDueAt: null, mastered: false, masteredAt: null,
+        // 错题本：最近一次答错、最近一次移出、最近一次撤销移出的时间，见 learning_storage.js 的 satInMistakeBook()
+        lastWrongAt: null, bookRemovedAt: null, bookRestoredAt: null
       };
     }
+    // 跟着题目走、不属于某一遍作答的字段。本页新建作答、空白副本改动长期记录时都按这份名单带上。
+    const LASTING_FIELDS = ["starred", "note", "highlights", "errorTags", "firstWrongAt", "lastWrongAt", "bookRemovedAt", "bookRestoredAt",
+      "attemptCount", "redoCount", "lastRedoCorrect", "lastAttemptAt", "reviewStage", "nextDueAt", "mastered", "masteredAt"];
 
     function satPageId() {
       const marker = "/sat-practice/";
@@ -1673,7 +1699,34 @@
         learningStorage.setItem(EXAM_HISTORY_KEY, JSON.stringify({ version: 1, records: records.slice(-50) }));
       } catch (error) {
         console.warn("[sat exam] history could not be saved", error);
+        return;
       }
+      recordExamMistakes(variant);
+    }
+
+    // 模考里答错的题记进错题本，没作答的不记。只在这场模考归档成功的那一次做，所以同一场不会重复记。
+    // 这里只改这道题的长期记录：不产生练习提交记录，不上传，也不动套题页上的作答。
+    function recordExamMistakes(variant) {
+      let changed = false;
+      for (const moduleKey of variant.moduleKeys) {
+        const moduleState = examSession.modules[moduleKey], answers = asRecord(moduleState.answers);
+        const wrongAt = new Date(Number(moduleState.submittedAt) || Date.now()).toISOString();
+        for (const questionId of EXAM_CONFIG.modules[moduleKey].questionIds) {
+          const question = examQuestionById(questionId), selected = answers[questionId] || "";
+          if (!question || !selected || selected === question.correct_answer) continue;
+          const record = normalizeQuestionState(globalState.questions[questionId]);
+          if (!record.firstWrongAt) record.firstWrongAt = wrongAt;
+          record.lastWrongAt = satLaterStamp(record.lastWrongAt, wrongAt);
+          record.mastered = false;
+          record.masteredAt = null;
+          record.reviewStage = 0;
+          record.nextDueAt = addDays(wrongAt, 1);
+          record.updatedAt = nowIso();
+          globalState.questions[questionId] = record;
+          changed = true;
+        }
+      }
+      if (changed) flushGlobalState();
     }
 
     // 回看视图属于打开它的那个账号：token 不再是当前 owner 时一律作废，重新从当前 owner 的存储读
@@ -1773,12 +1826,12 @@
       else els.overviewPanel.hidden = false;
       els.progressText.hidden = active;
       els.overviewBtn.hidden = active;
-      els.checkAllBtn.hidden = active || redoMode;
-      els.exportJsonBtn.closest(".export-group").hidden = active || redoMode;
-      document.querySelector(".export-label").hidden = active || redoMode;
+      els.checkAllBtn.hidden = active || redoMode || bookMode;
+      els.exportJsonBtn.closest(".export-group").hidden = active || redoMode || bookMode;
+      document.querySelector(".export-label").hidden = active || redoMode || bookMode;
       els.resetBtn.hidden = active;
       els.syncStatus.hidden = active;
-      els.examModeBtn.hidden = active || !EXAM_CONFIG || redoMode;
+      els.examModeBtn.hidden = active || !EXAM_CONFIG || redoMode || bookMode;
       els.vocabularyBtn.hidden = active || !FEATURES.wordExplanations;
       if (active) { closeGloss(); els.glossPanel.hidden = true; }
       if (!active) els.modeBanner.classList.remove("visible");
@@ -2399,7 +2452,10 @@
           ? (timeOf(left.firstWrongAt) <= timeOf(right.firstWrongAt) ? left.firstWrongAt : right.firstWrongAt)
           : left.firstWrongAt || right.firstWrongAt,
         attemptCount: Math.max(left.attemptCount, right.attemptCount),
-        redoCount: Math.max(left.redoCount, right.redoCount)
+        redoCount: Math.max(left.redoCount, right.redoCount),
+        lastWrongAt: satLaterStamp(left.lastWrongAt, right.lastWrongAt),
+        bookRemovedAt: satLaterStamp(left.bookRemovedAt, right.bookRemovedAt),
+        bookRestoredAt: satLaterStamp(left.bookRestoredAt, right.bookRestoredAt)
       });
     }
 
@@ -2540,15 +2596,32 @@
       globalPersistTimer = setTimeout(flushGlobalState, 120);
     }
 
+    // 「重置本页」之后，长期记录里仍然留着重置前的作答，而这条记录之后还会被改动（空白重做、
+    // 在错题本里标记掌握、改错因和笔记）。所以要不要把它带回本页，看的是作答本身的时间，不是
+    // 记录的 updatedAt：作答早于重置的，只带回笔记、错题本这些长期字段，作答不带回。
+    // 返回原记录表示整条可用，返回 null 表示重置后没有任何新东西。
+    function recordForPage(value) {
+      const resetAt = timeOf(state.resetAt);
+      if (!value || !resetAt) return value;
+      const answered = value.submitted || value.checked;
+      if ((answered ? timeOf(value.submittedAt) || timeOf(value.updatedAt) : timeOf(value.updatedAt)) > resetAt) return value;
+      if (timeOf(value.updatedAt) <= resetAt) return null;
+      return {
+        ...value, selected: "", submitted: false, checked: false, correct: false, revealed: false, revealedAt: null,
+        submittedAt: null, confidence: "", gradingRevision: ""
+      };
+    }
+
     function migrateAndMergeLocalState() {
       for (const question of QUESTIONS) {
         const pageValue = state.answers[question.question_id];
-        const globalValue = globalState.questions[question.question_id];
-        if (!pageValue && globalValue && timeOf(globalValue.updatedAt) <= timeOf(state.resetAt)) continue;
-        if (!pageValue && !globalValue) continue;
+        const stored = globalState.questions[question.question_id];
+        const globalValue = recordForPage(stored);
+        if (!pageValue && (!globalValue || timeOf(globalValue.updatedAt) <= timeOf(state.resetAt))) continue;
         const merged = normalizeQuestionState(mergeQuestionState(pageValue, globalValue), question);
         state.answers[question.question_id] = merged;
-        globalState.questions[question.question_id] = merged;
+        // 作答没有带回本页时，长期记录保持原样
+        if (globalValue === stored) globalState.questions[question.question_id] = merged;
       }
       persistLocalState({ deferGlobal: true, touchCurrent: false });
     }
@@ -2556,30 +2629,36 @@
     function persistLocalState({ deferGlobal = false, touchCurrent = true, updateSyncStatus = true } = {}) {
       if (!learningStorage.ready()) return;
       const visitedAt = nowIso();
-      state.current = current;
-      if (touchCurrent) state.currentUpdatedAt = visitedAt;
-      state.currentQuestionId = QUESTIONS[current]?.question_id || null;
-      // A focus link selects its entry question only once. Keep its URL aligned
-      // with explicit navigation so refresh resumes the question now on screen.
-      if (touchCurrent && !redoMode && state.currentQuestionId) {
-        const url = new URL(location.href);
-        if (url.searchParams.has("focus")) {
-          url.searchParams.set("focus", state.currentQuestionId);
-          history.replaceState(history.state, "", url);
+      // 从错题本进来看一道题，不算在做这套题：套题自己停在哪一题、最近打开的时间都不改，
+      // 首页的「继续上次练习」因此不会被带到这道错题所在的套题。
+      if (!bookMode) {
+        state.current = current;
+        if (touchCurrent) state.currentUpdatedAt = visitedAt;
+        state.currentQuestionId = QUESTIONS[current]?.question_id || null;
+        // A focus link selects its entry question only once. Keep its URL aligned
+        // with explicit navigation so refresh resumes the question now on screen.
+        if (touchCurrent && !redoMode && state.currentQuestionId) {
+          const url = new URL(location.href);
+          if (url.searchParams.has("focus")) {
+            url.searchParams.set("focus", state.currentQuestionId);
+            history.replaceState(history.state, "", url);
+          }
         }
+        state.lastVisitedAt = visitedAt;
       }
-      state.lastVisitedAt = visitedAt;
       const pageStored = writeLocalJson(storageKey, state);
       const submitted = QUESTIONS.filter(question => {
         const value = state.answers[question.question_id];
         return value ? normalizeQuestionState(value).submitted : false;
       }).length;
-      globalState.pages[PAGE_ID] = {
-        pageId: PAGE_ID, title: document.title, current,
-        questionId: QUESTIONS[current]?.question_id || null,
-        total: QUESTIONS.length, submitted, href: location.pathname,
-        lastVisitedAt: visitedAt
-      };
+      if (!bookMode) {
+        globalState.pages[PAGE_ID] = {
+          pageId: PAGE_ID, title: document.title, current,
+          questionId: QUESTIONS[current]?.question_id || null,
+          total: QUESTIONS.length, submitted, href: location.pathname,
+          lastVisitedAt: visitedAt
+        };
+      }
       globalState.version = SAT_LEARNING_VERSION;
       let globalStored = true;
       if (deferGlobal) scheduleGlobalPersist();
@@ -2626,12 +2705,7 @@
       if (!state.answers[question.question_id]) {
         const historical = normalizeQuestionState(globalState.questions[question.question_id], question);
         state.answers[question.question_id] = {
-          ...defaultQuestionState(), starred: historical.starred, note: historical.note,
-          highlights: historical.highlights, firstWrongAt: historical.firstWrongAt,
-          attemptCount: historical.attemptCount, redoCount: historical.redoCount,
-          lastRedoCorrect: historical.lastRedoCorrect, lastAttemptAt: historical.lastAttemptAt,
-          reviewStage: historical.reviewStage, nextDueAt: historical.nextDueAt,
-          mastered: historical.mastered, masteredAt: historical.masteredAt,
+          ...defaultQuestionState(), ...Object.fromEntries(LASTING_FIELDS.map(key => [key, historical[key]]))
         };
       }
       const existing = state.answers[question.question_id];
@@ -2643,12 +2717,52 @@
       return redoMode && question.question_id === redoQuestionId ? redoSession : qState(question);
     }
 
-    // Whether the question is in the learner's review list. A session or a blank
-    // redo answers on a blank copy, so there the star is read from the lasting record.
-    function isStarred(question, qs) {
-      return redoMode && question.question_id === redoQuestionId
-        ? Boolean(asRecord(globalState.questions[question.question_id]).starred)
-        : Boolean(qs.starred);
+    // Whether the question is in the learner's mistake book. A session or a blank
+    // redo answers on a blank copy, so there it is read from the lasting record.
+    function inMistakeBook(question, qs) {
+      return satInMistakeBook(redoMode && question.question_id === redoQuestionId
+        ? globalState.questions[question.question_id] : qs);
+    }
+    function starLabel(question, qs) {
+      return inMistakeBook(question, qs) ? "★ 已加入错题本" : "☆ 加入错题本";
+    }
+    // A blank copy changes the lasting record, not the answer on this page. The page's own
+    // entry still carries the lasting fields, so they follow; otherwise its next save would
+    // put the old values back.
+    function mirrorLasting(questionId) {
+      const pageValue = state.answers[questionId], record = globalState.questions[questionId];
+      if (!pageValue || !record) return;
+      for (const key of LASTING_FIELDS) pageValue[key] = record[key];
+    }
+
+    /* ---------- 错题本单题模式 ---------- */
+    function restoreBookView() {
+      bookView = bookMode && learningStorage.ready() ? readSatMistakeView(learningStorage) : null;
+      bookPlaceSaved = "";
+    }
+    // The questions the learner is walking through: the list the mistake book had on
+    // screen when this walk started, or just this question when it is not in that list.
+    function bookList() {
+      const here = currentQuestion();
+      if (!bookMode || !here) return null;
+      return bookView && bookView.questions.some(item => item.questionId === here.question_id)
+        ? bookView.questions : [{ questionId: here.question_id, route: PAGE_ID + ".html" }];
+    }
+    function bookHref(item) {
+      return `../${item.route}?book=${bookKind}&${bookKind === "redo" ? "redo" : "focus"}=${encodeURIComponent(item.questionId)}`;
+    }
+    // Moving inside the walk replaces the history entry, so "back" leaves for the mistake book.
+    function navigateBook(direction) {
+      const list = bookList(), here = currentQuestion();
+      if (!list || !here) return false;
+      const next = list[list.findIndex(item => item.questionId === here.question_id) + direction];
+      if (next) location.replace(bookHref(next));
+      return true;
+    }
+    // The mistake book comes back to the question the learner was on.
+    function saveBookPlace(questionId) {
+      if (!bookMode || bookPlaceSaved === questionId || !learningStorage.ready()) return;
+      if (updateSatMistakeView(learningStorage, { lastQuestionId: questionId })) bookPlaceSaved = questionId;
     }
 
     function currentQuestion() {
@@ -2710,7 +2824,7 @@
         return;
       }
       setExamChrome(false);
-      els.resetBtn.hidden = redoMode || Boolean(activeSessionId);
+      els.resetBtn.hidden = redoMode || bookMode || Boolean(activeSessionId);
       if (activeSessionId && !practiceSession) {
         syncQuestionTimer(null);
         els.progressText.textContent = "今日练习暂不可用";
@@ -2738,17 +2852,19 @@
       const qs = activeState(question);
       const session = loadTodaySession();
       const sessionIndex = session ? session.questions.findIndex(item => item.questionId === question.question_id) : -1;
+      const book = bookList(), bookIndex = book ? book.findIndex(item => item.questionId === question.question_id) : -1;
       els.progressText.textContent = sessionIndex >= 0
         ? `今日练习 ${sessionIndex + 1}/${session.questions.length}`
+        : bookIndex >= 0 ? `错题本 ${bookIndex + 1}/${book.length}`
         : `第 ${current + 1}/${QUESTIONS.length} 题`;
-      els.questionNumber.innerHTML = `<span class="exam-visually-hidden">Question </span>${(sessionIndex >= 0 ? sessionIndex : current) + 1}`;
-      els.starBtn.textContent = isStarred(question, qs) ? "★ 已加入复习" : "☆ 加入复习";
+      els.questionNumber.innerHTML = `<span class="exam-visually-hidden">Question </span>${(sessionIndex >= 0 ? sessionIndex : bookIndex >= 0 ? bookIndex : current) + 1}`;
+      els.starBtn.textContent = starLabel(question, qs);
       els.starBtn.hidden = false;
-      els.reflectionPanel.hidden = redoMode;
       els.highlightBtn.hidden = redoMode;
       els.overviewBtn.hidden = false;
-      els.checkAllBtn.hidden = redoMode;
-      els.exportJsonBtn.closest(".export-group").hidden = redoMode;
+      els.checkAllBtn.hidden = redoMode || bookMode;
+      els.exportJsonBtn.closest(".export-group").hidden = redoMode || bookMode;
+      if (bookIndex >= 0) saveBookPlace(question.question_id);
       els.returnOriginalBtn.hidden = !redoMode || Boolean(practiceSession);
       // Remember where in the session the learner is, so the learning centre can bring them back here.
       if (practiceSession && sessionIndex >= 0 && practiceSession.lastQuestionId !== question.question_id) {
@@ -2822,8 +2938,9 @@
       els.retryBtn.hidden = !qs.submitted;
       els.retryBtn.textContent = redoMode ? "重新空白作答" : "空白再答一次";
       els.returnOriginalBtn.hidden = !redoMode || Boolean(practiceSession);
-      els.prevBtn.disabled = sessionIndex >= 0 ? sessionIndex === 0 : current === 0;
-      els.nextBtn.disabled = sessionIndex >= 0 ? sessionIndex === session.questions.length - 1 : current === QUESTIONS.length - 1;
+      els.prevBtn.disabled = sessionIndex >= 0 ? sessionIndex === 0 : bookIndex >= 0 ? bookIndex === 0 : current === 0;
+      els.nextBtn.disabled = sessionIndex >= 0 ? sessionIndex === session.questions.length - 1
+        : bookIndex >= 0 ? bookIndex === book.length - 1 : current === QUESTIONS.length - 1;
       renderQuestionList(qs);
       syncQuestionTimer(question, qs);
     }
@@ -2848,8 +2965,9 @@
         overviewButton.classList.toggle("selected", Boolean(qs.selected) && !qs.checked);
         overviewButton.classList.toggle("correct", Boolean(qs.checked && qs.correct));
         overviewButton.classList.toggle("incorrect", Boolean(qs.checked && !qs.correct));
-        overviewButton.innerHTML = `${index + 1}${qs.starred ? '<span class="star">★</span>' : ""}`;
-        overviewButton.setAttribute("aria-label", overviewLabel(currentQuestion(), qs, index));
+        const starred = !bookMode && inMistakeBook(currentQuestion(), qs);
+        overviewButton.innerHTML = `${index + 1}${starred ? '<span class="star">★</span>' : ""}`;
+        overviewButton.setAttribute("aria-label", overviewLabel(currentQuestion(), { ...qs, starred }, index));
       }
     }
 
@@ -2869,7 +2987,7 @@
       updateCurrentOverviewButton(qs);
       renderQuestionList(qs);
       syncQuestionTimer(question, qs);
-      els.starBtn.textContent = isStarred(question, qs) ? "★ 已加入复习" : "☆ 加入复习";
+      els.starBtn.textContent = starLabel(question, qs);
       els.checkCurrentBtn.disabled = qs.submitted || !qs.selected;
       els.revealBtn.disabled = !qs.submitted;
       els.revealBtn.textContent = explanationOpen[question.question_id] ? "收起答案与解析" : "查看答案与解析";
@@ -2972,7 +3090,7 @@
 
     function overviewLabel(question, qs, index) {
       const status = qs.checked ? (qs.correct ? "已答对" : "已答错") : qs.selected ? "已选择未提交" : "未作答";
-      return `第 ${index + 1} 题，${status}${qs.starred ? "，已加入复习" : ""}`;
+      return `第 ${index + 1} 题，${status}${qs.starred ? "，在错题本" : ""}`;
     }
 
     function scrollPracticeToStart() {
@@ -2987,6 +3105,22 @@
     function navigatorEntries(currentState) {
       const here = currentQuestion();
       if (!here) return [];
+      const book = bookList();
+      if (book) {
+        // 重做时，这一轮里已经重做过的题标出对错；查看原题时别的题不带状态。题都在错题本里，不再逐个打星。
+        const startedAt = timeOf(bookView && bookView.startedAt);
+        return book.map((item, index) => {
+          const isCurrent = item.questionId === here.question_id;
+          const record = asRecord(globalState.questions[item.questionId]);
+          const redone = bookKind === "redo" && startedAt && timeOf(record.lastAttemptAt) >= startedAt && typeof record.lastRedoCorrect === "boolean";
+          const qs = isCurrent ? (currentState || activeState(here)) : { selected: "", checked: redone, correct: redone && record.lastRedoCorrect };
+          return {
+            index, isCurrent, inSession: false, inBook: true, selected: Boolean(qs.selected), checked: Boolean(qs.checked),
+            correct: Boolean(qs.correct), starred: false,
+            go() { if (!isCurrent) location.replace(bookHref(item)); }
+          };
+        });
+      }
       const session = practiceSession && practiceSession.questions.some(item => item.questionId === here.question_id)
         ? practiceSession : null;
       if (session) {
@@ -2995,7 +3129,7 @@
           const qs = isCurrent ? (currentState || activeState(here)) : asRecord(session.answers[item.questionId]);
           return {
             index, isCurrent, inSession: true, selected: Boolean(qs.selected), checked: qs.checked === true,
-            correct: qs.correct === true, starred: Boolean(asRecord(globalState.questions[item.questionId]).starred),
+            correct: qs.correct === true, starred: satInMistakeBook(globalState.questions[item.questionId]),
             go() {
               if (isCurrent) return;
               location.href = `../${item.route}?session=${encodeURIComponent(session.id)}&focus=${encodeURIComponent(item.questionId)}`;
@@ -3011,7 +3145,7 @@
           : defaultQuestionState();
         return {
           index, isCurrent, inSession: false, selected: Boolean(qs.selected), checked: Boolean(qs.checked),
-          correct: Boolean(qs.correct), starred: isStarred(question, qs),
+          correct: Boolean(qs.correct), starred: inMistakeBook(question, qs),
           go() {
             if (isCurrent) return;
             if (redoMode) els.returnOriginalBtn.click();
@@ -3302,7 +3436,9 @@
         if (entry.isCurrent) button.setAttribute("aria-current", "true");
         else button.removeAttribute("aria-current");
       });
-      els.questionListSummary.textContent = `${entries[0].inSession ? "本次练习 · " : ""}已答 ${answered}/${entries.length}`;
+      els.questionListSummary.textContent = entries[0].inBook
+        ? `错题本 · ${bookKind === "redo" ? `已重做 ${answered}/${entries.length}` : `共 ${entries.length} 题`}`
+        : `${entries[0].inSession ? "本次练习 · " : ""}已答 ${answered}/${entries.length}`;
       if (questionListCurrent !== active) {
         questionListCurrent = active;
         const list = els.questionList, target = els.questionListItems.children[active];
@@ -3474,19 +3610,28 @@
         .replace(/\[b\]([\s\S]*?)\[\/b\]/g, '<strong>$1</strong>');
     }
 
+    // 空白重做、练习会话和错题本重做都在一份空白副本上作答。信心属于那一遍作答，不在这里记；
+    // 错因和笔记记在这道题的长期记录上，等这一遍提交之后才出现，免得作答前先看到自己的笔记。
     function renderReflection(qs) {
-      if (redoMode) return;
+      const question = currentQuestion();
+      const lasting = Boolean(redoMode && question && question.question_id === redoQuestionId);
+      els.reflectionPanel.hidden = redoMode && !(lasting && qs.submitted);
+      if (els.reflectionPanel.hidden) return;
+      const record = lasting ? normalizeQuestionState(globalState.questions[question.question_id]) : qs;
+      // 错因记给答错的题，以及已经在错题本里的题（答对后手动加入的也可以记）
+      const tagsOpen = Boolean(qs.submitted && (!qs.correct || satInMistakeBook(record)));
+      els.reflectionPanel.classList.toggle("is-lasting", lasting);
       els.reflectionPanel.classList.toggle("is-submitted", Boolean(qs.submitted));
-      els.reflectionPanel.classList.toggle("is-correct", Boolean(qs.submitted && qs.correct));
+      els.reflectionPanel.classList.toggle("is-correct", Boolean(qs.submitted && !tagsOpen));
       document.querySelectorAll('input[name="confidence"]').forEach(input => {
         input.checked = input.value === qs.confidence;
         input.disabled = qs.submitted;
       });
       els.errorTagsRow.querySelectorAll('input[type="checkbox"]').forEach(input => {
-        input.checked = (qs.errorTags || []).includes(input.value);
-        input.disabled = !qs.submitted || qs.correct;
+        input.checked = (record.errorTags || []).includes(input.value);
+        input.disabled = !tagsOpen;
       });
-      if (els.noteInput.value !== (qs.note || "")) els.noteInput.value = qs.note || "";
+      if (els.noteInput.value !== (record.note || "")) els.noteInput.value = record.note || "";
       els.reflectionHint.textContent = "";
     }
 
@@ -3868,18 +4013,26 @@
       qs.lastAttemptAt = submittedAt;
       qs.updatedAt = submittedAt;
       qs.attemptCount = Number(qs.attemptCount || 0) + 1;
-      if (!qs.correct && !qs.firstWrongAt) qs.firstWrongAt = submittedAt;
+      // 每一次答错都记下时间：错题本靠它判断「移出之后又答错」，并按它排序
+      if (!qs.correct) {
+        if (!qs.firstWrongAt) qs.firstWrongAt = submittedAt;
+        qs.lastWrongAt = submittedAt;
+      }
       if (redoMode) {
         const historical = normalizeQuestionState(globalState.questions[question.question_id], question);
         // The earlier answer on the question's own page is left alone, but a
-        // first wrong answer given here still puts the question in the wrong-answer list.
-        if (!qs.correct && !historical.firstWrongAt) historical.firstWrongAt = submittedAt;
+        // wrong answer given here still puts the question in the mistake book.
+        if (!qs.correct) {
+          if (!historical.firstWrongAt) historical.firstWrongAt = submittedAt;
+          historical.lastWrongAt = submittedAt;
+        }
         historical.lastRedoCorrect = qs.correct;
         historical.redoCount = Number(historical.redoCount || 0) + 1;
         historical.lastAttemptAt = submittedAt;
         historical.updatedAt = submittedAt;
         updateReviewSchedule(historical, true, qs.correct);
         globalState.questions[question.question_id] = historical;
+        mirrorLasting(question.question_id);
         qs.reviewStage = historical.reviewStage;
         qs.nextDueAt = historical.nextDueAt;
         qs.mastered = historical.mastered;
@@ -4139,7 +4292,7 @@
       }
       for (const question of QUESTIONS) {
         if (locallyChangedQuestionIds.has(question.question_id)) continue;
-        const incoming = globalState.questions[question.question_id];
+        const incoming = recordForPage(globalState.questions[question.question_id]);
         if (incoming && timeOf(incoming.updatedAt) > timeOf(state.resetAt)) {
           state.answers[question.question_id] = mergeQuestionState(state.answers[question.question_id], incoming);
         }
@@ -4326,6 +4479,7 @@
         redoMode = Boolean(redoQuestionId);
         redoSession = redoMode ? defaultQuestionState() : null;
         restorePracticeSession();
+        restoreBookView();
         examSession = requestedExamMode && EXAM_CONFIG ? loadExamSession() : null;
         examWriteBlocked = false;
         if (!requestedExamMode) migrateAndMergeLocalState();
@@ -4378,7 +4532,19 @@
     }
 
     function onReflectionChanged() {
-      if (redoMode) return;
+      if (redoMode) {
+        // 空白副本：只有错因和笔记，写进长期记录
+        const question = currentQuestion();
+        if (!question || question.question_id !== redoQuestionId || !activeState(question).submitted) return;
+        const historical = normalizeQuestionState(globalState.questions[question.question_id], question);
+        historical.errorTags = [...els.errorTagsRow.querySelectorAll('input[type="checkbox"]:checked')].map(input => input.value);
+        historical.note = els.noteInput.value;
+        historical.updatedAt = nowIso();
+        globalState.questions[question.question_id] = historical;
+        mirrorLasting(question.question_id);
+        saveState({ deferGlobal: true, touchCurrent: false });
+        return;
+      }
       const qs = qState(currentQuestion());
       const checkedConfidence = document.querySelector('input[name="confidence"]:checked');
       qs.confidence = checkedConfidence?.value || "";
@@ -4400,13 +4566,15 @@
     }
 
     els.overviewBtn.hidden = false;
-    els.checkAllBtn.hidden = redoMode;
-    els.exportJsonBtn.closest(".export-group").hidden = redoMode;
+    els.checkAllBtn.hidden = redoMode || bookMode;
+    els.exportJsonBtn.closest(".export-group").hidden = redoMode || bookMode;
     els.examModeBtn.addEventListener("click", () => {
       const url = new URL(location.href);
       url.searchParams.delete("redo");
       url.searchParams.delete("focus");
       url.searchParams.delete("session");
+      url.searchParams.delete("book");
+      url.searchParams.delete("from");
       url.searchParams.set("mode", "exam");
       location.assign(url.toString());
     });
@@ -4451,18 +4619,19 @@
     els.starBtn.addEventListener("click", () => {
       const question = currentQuestion();
       if (!question) return;
+      // 在错题本里就移出，不在就手动加入；答错自动记入的题也可以从这里移出
       if (redoMode && question.question_id === redoQuestionId) {
         const historical = normalizeQuestionState(globalState.questions[question.question_id], question);
-        historical.starred = !historical.starred;
+        toggleSatMistakeBook(historical);
         historical.updatedAt = nowIso();
         globalState.questions[question.question_id] = historical;
-        if (state.answers[question.question_id]) state.answers[question.question_id].starred = historical.starred;
+        mirrorLasting(question.question_id);
         saveState();
         updateCurrentQuestionView(question, activeState(question));
         return;
       }
       const qs = qState(question);
-      qs.starred = !qs.starred;
+      toggleSatMistakeBook(qs);
       saveState();
       updateCurrentQuestionView(question, qs);
     });
@@ -4522,6 +4691,8 @@
       explanationOpen[currentQuestion().question_id] = false;
       const url = new URL(location.href);
       url.searchParams.delete("redo");
+      // 错题本单题模式不跟着套题的位置走，地址里要留着这道题，刷新后才还在这一题
+      if (bookMode) url.searchParams.set("focus", currentQuestion().question_id);
       history.replaceState({}, "", url);
       render();
       scrollPracticeToStart();
@@ -4570,6 +4741,7 @@
     els.noteInput.addEventListener("input", onReflectionChanged);
     els.prevBtn.addEventListener("click", () => {
       if (navigateSession(-1)) return;
+      if (navigateBook(-1)) return;
       if (redoMode) els.returnOriginalBtn.click();
       current = Math.max(0, current - 1);
       saveState({ markQuestion: false });
@@ -4578,6 +4750,7 @@
     });
     els.nextBtn.addEventListener("click", () => {
       if (navigateSession(1)) return;
+      if (navigateBook(1)) return;
       if (redoMode) els.returnOriginalBtn.click();
       current = Math.min(QUESTIONS.length - 1, current + 1);
       saveState({ markQuestion: false });
@@ -4691,6 +4864,7 @@
     if (!learningStorage.ready()) setSyncStatus("正在确认账号记录归属");
     refreshLegacyBackup();
     restorePracticeSession();
+    restoreBookView();
     if (!requestedExamMode && learningStorage.ready()) migrateAndMergeLocalState();
     render();
     const onLearningSessionReady = session => {
@@ -4720,7 +4894,7 @@
         const before = visibleStateSignature();
         globalState = learningStorage.mergeGlobal(globalState, value => ({ ...value, attempts: compactAttempts(value.attempts) }), mergeQuestionState);
         for (const question of QUESTIONS) {
-          const incoming = globalState.questions[question.question_id];
+          const incoming = recordForPage(globalState.questions[question.question_id]);
           if (incoming && timeOf(incoming.updatedAt) > timeOf(state.resetAt)) {
             state.answers[question.question_id] = normalizeQuestionState(mergeQuestionState(state.answers[question.question_id], incoming), question);
           }

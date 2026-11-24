@@ -398,6 +398,37 @@
     .pill.pending { color: var(--zen-muted); background: var(--zen-fill); }
     .pill.soft-risk { color: var(--zen-orange); background: var(--zen-warm); }
     .tabs { margin-bottom: 16px; }
+    /* 错题本：筛选条件可以收起，卡片下方是标记掌握和移出 */
+    .book-filters { margin-bottom: 16px; border-radius: 18px; background: var(--zen-bg); }
+    .book-filters > summary { display: flex; align-items: baseline; gap: 10px; min-height: 48px; padding: 13px 20px; cursor: pointer; list-style: none; font-size: 15px; font-weight: 600; }
+    .book-filters > summary::-webkit-details-marker { display: none; }
+    .book-filters > summary::after { content: "展开"; margin-left: auto; color: var(--zen-primary-dark); font-size: 13px; font-weight: 600; white-space: nowrap; }
+    .book-filters[open] > summary::after { content: "收起"; }
+    .book-filter-summary { min-width: 0; overflow: hidden; color: var(--zen-muted); font-size: 13px; font-weight: 400; text-overflow: ellipsis; white-space: nowrap; }
+    .book-filters form { display: grid; gap: 12px; padding: 2px 20px 18px; }
+    .book-group { display: grid; grid-template-columns: 68px minmax(0, 1fr); align-items: start; gap: 12px; min-width: 0; }
+    .book-group[hidden] { display: none; }
+    .book-group-label { padding-top: 8px; color: var(--zen-muted); font-size: 13px; font-weight: 600; }
+    .book-filters .chip-row .pick > span { min-height: 36px; padding: 5px 13px; background: var(--zen-surface); }
+    .book-filters .chip-row .pick > span:hover { background: var(--zen-surface); border-color: var(--zen-line-strong); }
+    .book-filters .chip-row .pick input:checked + span { background: var(--zen-blue); }
+    .book-toolbar { grid-template-columns: minmax(0, 1fr) auto auto auto; }
+    .book-toolbar .button[hidden] { display: none; }
+    .book-notice { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 0 0 12px; }
+    .book-notice[hidden] { display: none; }
+    .book-pills { display: flex; flex-wrap: wrap; gap: 6px; }
+    .book-card .book-passage { display: -webkit-box; overflow: hidden; color: var(--zen-ink); font-family: "Times New Roman", Times, serif; font-size: 17px; line-height: 1.4; -webkit-box-orient: vertical; -webkit-line-clamp: 2; }
+    .book-card .book-facts { margin-top: 8px; font-size: 13px; }
+    .book-card.is-returned { box-shadow: inset 0 0 0 2px var(--zen-primary); }
+    .book-tools { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 4px; margin-top: 12px; padding-top: 8px; border-top: 1px solid var(--zen-line); }
+    .book-tool { min-height: 36px; padding: 6px 14px; border: 0; border-radius: var(--zen-radius-pill); background: transparent; color: var(--zen-primary-dark); font-size: 14px; font-weight: 500; transition: background-color .16s ease; }
+    .book-tool:hover { background: var(--zen-blue); }
+    @media (max-width: 760px) {
+      .book-group { grid-template-columns: 1fr; gap: 6px; }
+      .book-group-label { padding-top: 0; }
+      .book-toolbar { grid-template-columns: 1fr 1fr; }
+      .book-toolbar .primary { grid-column: 1 / -1; }
+    }
 
     .diagnosis-wrap { overflow: auto; }
     .diagnosis { width: 100%; border-collapse: collapse; }
@@ -482,6 +513,9 @@
     }
 
     @media (max-width: 960px) {
+      /* 导航多了「错题本」一项，窄窗口里收紧间距，九项仍排在一行 */
+      .top-row { gap: 10px; }
+      .desktop-nav a { padding: 7px 8px; }
       .weekly-layout, .builder { grid-template-columns: 1fr; }
       .resource-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     }
@@ -546,13 +580,13 @@
       <a class="brand" href="#home" aria-label="SAT 学习中心首页"><strong>SAT 学习中心</strong><span>READING &amp; WRITING</span></a>
       <nav class="desktop-nav" aria-label="学习中心主导航">
         <a href="/app/">返回学习项目</a>
-        <a href="#home">首页</a><a href="#review/wrong">我的复习</a><a href="#diagnosis">学习诊断</a><a href="#practice">今日练习</a><a href="#exam" data-feature="fixedMockExams">模考</a><a href="#vocabulary/list" data-feature="wordExplanations">词汇</a><a href="#search">全库搜索</a>
+        <a href="#home">首页</a><a href="#mistakes">错题本</a><a href="#review/unfinished">我的复习</a><a href="#diagnosis">学习诊断</a><a href="#practice">今日练习</a><a href="#exam" data-feature="fixedMockExams">模考</a><a href="#vocabulary/list" data-feature="wordExplanations">词汇</a><a href="#search">全库搜索</a>
       </nav>
       <span class="sync-status pending" id="syncStatus" aria-live="polite">本机模式</span>
       <button class="menu-button" id="mobileMenuBtn" type="button" aria-expanded="false" aria-controls="mobileNav">菜单</button>
       <nav class="mobile-nav" id="mobileNav" aria-label="移动端学习导航" hidden>
         <a href="/app/">返回学习项目</a>
-        <a href="#home">首页</a><a href="#review/wrong">我的复习</a><a href="#diagnosis">学习诊断</a><a href="#practice">今日练习</a><a href="#exam" data-feature="fixedMockExams">模考</a><a href="#vocabulary/list" data-feature="wordExplanations">词汇</a><a href="#search">全库搜索</a>
+        <a href="#home">首页</a><a href="#mistakes">错题本</a><a href="#review/unfinished">我的复习</a><a href="#diagnosis">学习诊断</a><a href="#practice">今日练习</a><a href="#exam" data-feature="fixedMockExams">模考</a><a href="#vocabulary/list" data-feature="wordExplanations">词汇</a><a href="#search">全库搜索</a>
       </nav>
     </div>
   </header>
@@ -607,6 +641,9 @@
     let resourceKind = "set";
     let resourcesExpanded = false;
     let disposeSearch = null;
+    // 错题本当前的筛选、搜索词和排序；回到错题本时要回到的那道题
+    let mistakeFilters = null, mistakeQuery = "", mistakeSort = "recent", mistakeShown = 30;
+    let mistakeViewOwner = null, mistakeReturnTo = "", mistakeReturnScroll = false, mistakeNotice = null, mistakeFiltersOpen = null;
 
     function nowIso() { return new Date().toISOString(); }
     function timeOf(value) { const time = value ? new Date(value).getTime() : 0; return Number.isFinite(time) ? time : 0; }
@@ -628,7 +665,9 @@
         firstWrongAt: value.firstWrongAt || null, lastAttemptAt: value.lastAttemptAt || null,
         lastRedoCorrect: value.lastRedoCorrect ?? null, attemptCount: Number(value.attemptCount || 0),
         redoCount: Number(value.redoCount || 0), reviewStage: Number(value.reviewStage || 0),
-        nextDueAt: value.nextDueAt || null, mastered: Boolean(value.mastered), masteredAt: value.masteredAt || null
+        nextDueAt: value.nextDueAt || null, mastered: Boolean(value.mastered), masteredAt: value.masteredAt || null,
+        // 错题本：最近一次答错、最近一次移出、最近一次撤销移出的时间，见 learning_storage.js 的 satInMistakeBook()
+        lastWrongAt: value.lastWrongAt || null, bookRemovedAt: value.bookRemovedAt || null, bookRestoredAt: value.bookRestoredAt || null
       };
     }
     function merge(leftRaw, rightRaw) {
@@ -646,7 +685,10 @@
           ? (timeOf(left.firstWrongAt) <= timeOf(right.firstWrongAt) ? left.firstWrongAt : right.firstWrongAt)
           : left.firstWrongAt || right.firstWrongAt,
         attemptCount: Math.max(left.attemptCount, right.attemptCount),
-        redoCount: Math.max(left.redoCount, right.redoCount)
+        redoCount: Math.max(left.redoCount, right.redoCount),
+        lastWrongAt: satLaterStamp(left.lastWrongAt, right.lastWrongAt),
+        bookRemovedAt: satLaterStamp(left.bookRemovedAt, right.bookRemovedAt),
+        bookRestoredAt: satLaterStamp(left.bookRestoredAt, right.bookRestoredAt)
       });
     }
     function emptyState() { return { version: 2, questions: {}, pages: {}, attempts: [] }; }
@@ -740,13 +782,13 @@
       const root = route().root;
       document.querySelectorAll(".desktop-nav a, .mobile-nav a").forEach(link => {
         const href = link.getAttribute("href");
-        link.classList.toggle("active", href === `#${root}` || (root === "review" && href === "#review/wrong") || (root === "vocabulary" && href === "#vocabulary/list"));
+        link.classList.toggle("active", href === `#${root}` || (root === "review" && href === "#review/unfinished") || (root === "vocabulary" && href === "#vocabulary/list"));
       });
     }
     function metrics() {
       const values = MANIFEST.questions.map(question => qState(question.questionId));
       const submitted = values.filter(item => item.submitted), verified = submitted.filter(item => item.gradingCurrent), correct = verified.filter(item => item.correct);
-      const wrong = values.filter(item => item.firstWrongAt && !item.mastered);
+      const wrong = values.filter(item => satInMistakeBook(item) && !item.mastered);
       const due = values.filter(item => item.nextDueAt && timeOf(item.nextDueAt) <= Date.now() && !item.mastered);
       return { submitted: submitted.length, correct: correct.length, accuracy: verified.length ? Math.round(correct.length / verified.length * 100) : null, needsRecheck: submitted.length - verified.length, wrong: wrong.length, due: due.length, mastered: values.filter(item => item.mastered).length };
     }
@@ -786,7 +828,9 @@
       if (disposeSearch) { disposeSearch(); disposeSearch = null; }
       activateNav();
       const currentRoute = route();
-      if (currentRoute.root === "review") renderReview(currentRoute.tab || "wrong");
+      if (currentRoute.root !== "mistakes") mistakeReturnTo = "";
+      if (currentRoute.root === "mistakes") renderMistakes();
+      else if (currentRoute.root === "review") renderReview(currentRoute.tab || "unfinished");
       else if (currentRoute.root === "diagnosis") renderDiagnosis();
       else if (currentRoute.root === "practice") renderBuilder();
       else if (currentRoute.root === "search") renderSearch();
@@ -802,7 +846,7 @@
       const previous = attempts.filter(item => timeOf(item.submittedAt) > now - 14 * 86400000 && timeOf(item.submittedAt) <= now - 7 * 86400000);
       const accuracy = rows => rows.length ? Math.round(rows.filter(item => item.correct).length / rows.length * 100) : 0;
       const currentAccuracy = accuracy(week), delta = previous.length ? currentAccuracy - accuracy(previous) : null;
-      const tagLabels = { vocabulary: "词汇", comprehension: "文章理解", evidence: "证据定位", logic: "逻辑推断", grammar: "语法规则", careless: "粗心", time: "时间不足" };
+      const tagLabels = Object.fromEntries(SAT_ERROR_TAGS);
       const tagCounts = {};
       for (const question of MANIFEST.questions) {
         const item = qState(question.questionId);
@@ -952,12 +996,12 @@
           </article>
           ${calendarBlock()}
           <article class="entry-card hb-review tint orange">
-            <div><p class="eyebrow orange">REVIEW</p><h2>错题复习</h2></div>
+            <div><p class="eyebrow orange">MISTAKE BOOK</p><h2>错题本</h2></div>
             <div class="stat-pair">
               <div><strong>${overview.wrong}</strong><span>待掌握错题</span></div>
               <div><strong>${overview.due}</strong><span>今日到期复习</span></div>
             </div>
-            <div class="hero-actions"><a class="button primary" href="#review/wrong">开始错题复习</a><a class="button ghost" href="#practice/due">练到期复习</a></div>
+            <div class="hero-actions"><a class="button primary" href="#mistakes">打开错题本</a><a class="button ghost" href="#practice/due">练到期复习</a></div>
           </article>
           ${FEATURES.fixedMockExams ? `<article class="entry-card hb-exam tint purple">
             <div><p class="eyebrow purple">MOCK EXAM</p><h2>全真模考</h2></div>
@@ -1040,38 +1084,290 @@
 
     function reviewMatches(question, tab) {
       const item = qState(question.questionId);
-      if (tab === "wrong") return Boolean(item.firstWrongAt && !item.mastered);
-      if (tab === "starred") return item.starred;
       if (tab === "notes") return Boolean(item.note || item.highlights.length);
       if (tab === "redo") return item.lastRedoCorrect === true && timeOf(item.lastAttemptAt) > Date.now() - 30 * 86400000;
       return false;
     }
     function unfinishedPageCard({ page, progress }) {
       const saved = state.pages[page.pageId] || {};
-      return `<article class="review-card"><div class="review-top"><div><span class="pill pending">未完成套题</span><h3>${escapeHtml(page.title)}</h3><p>已提交 ${progress.done}/${progress.total} 题</p></div><a class="button primary" href="${continueHref({ ...saved, pageId: page.pageId })}">继续练习</a></div></article>`;
+      return `<article class="review-card"><div class="review-top"><div><span class="pill pending">未完成套题</span><h3>${escapeHtml(page.title)}</h3><p>已提交 ${progress.done}/${progress.total} 题</p></div><a class="button primary" href="${continueHref({ ...saved, pageId: page.pageId })}&from=review-unfinished">继续练习</a></div></article>`;
     }
-    function reviewCard(question) {
-      const item = qState(question.questionId), tags = [];
+    // from 告诉练习页是从哪一页进来的，左上角的返回链接据此回到那一页（见练习页的 RETURN_VIEWS）
+    function reviewCard(question, from = "") {
+      const item = qState(question.questionId), tags = [], back = from ? `&from=${encodeURIComponent(from)}` : "";
       // 来源和年份只给已经提交过的题显示
       const source = item.submitted ? describeSatSource(question.sourceRefs, { label: question.sourceSet, number: question.questionNumber, kind: question.sourceKind }) : null;
       if (item.firstWrongAt && !item.mastered) tags.push('<span class="pill soft-risk">历史错题</span>');
       if (item.mastered) tags.push(`<span class="pill calm">${item.needsRecheck ? "历史已掌握 · 待复核" : "已掌握"}</span>`);
       if (item.lastRedoCorrect) tags.push('<span class="pill calm">最近重做正确</span>');
       if (item.nextDueAt && !item.mastered) tags.push(`<span class="pill focus">${timeOf(item.nextDueAt) <= Date.now() ? "今日到期" : "等待复习"}</span>`);
-      if (item.starred) tags.push('<span class="pill pending">已星标</span>');
-      return `<article class="review-card"><div class="review-top"><div><div>${tags.join(" ")}</div><h3>${escapeHtml(SAT_SKILL_ZH[question.skill] || question.skill)}</h3><p>${escapeHtml(question.prompt.slice(0, 180))}${question.prompt.length > 180 ? "…" : ""}</p>${source ? `<p class="source-line">来源：${escapeHtml(source.text)}${source.note ? `<span>${escapeHtml(source.note)}</span>` : ""}</p>` : ""}${item.note ? `<p><strong>笔记：</strong>${escapeHtml(item.note)}</p>` : ""}</div><div class="actions"><a class="button primary" href="${question.route}?redo=${encodeURIComponent(question.questionId)}">空白重做</a><a class="button ghost" href="${question.route}?focus=${encodeURIComponent(question.questionId)}">打开原题</a></div></div></article>`;
+      if (satInMistakeBook(item)) tags.push('<span class="pill pending">在错题本</span>');
+      return `<article class="review-card"><div class="review-top"><div><div>${tags.join(" ")}</div><h3>${escapeHtml(SAT_SKILL_ZH[question.skill] || question.skill)}</h3><p>${escapeHtml(question.prompt.slice(0, 180))}${question.prompt.length > 180 ? "…" : ""}</p>${source ? `<p class="source-line">来源：${escapeHtml(source.text)}${source.note ? `<span>${escapeHtml(source.note)}</span>` : ""}</p>` : ""}${item.note ? `<p><strong>笔记：</strong>${escapeHtml(item.note)}</p>` : ""}</div><div class="actions"><a class="button primary" href="${question.route}?redo=${encodeURIComponent(question.questionId)}${back}">空白重做</a><a class="button ghost" href="${question.route}?focus=${encodeURIComponent(question.questionId)}${back}">打开原题</a></div></div></article>`;
     }
     function renderReview(tab) {
-      const names = { wrong: "错题", unfinished: "未完成套题", starred: "星标", notes: "笔记与标注", redo: "最近重做正确" };
+      // 错题和星标两栏已经并进错题本，旧地址直接过去
+      if (tab === "wrong" || tab === "starred") { location.replace("#mistakes"); return; }
+      const names = { unfinished: "未完成套题", notes: "笔记与标注", redo: "最近重做正确" };
+      if (!names[tab]) tab = "unfinished";
       const items = tab === "unfinished" ? unfinishedPages() : MANIFEST.questions.filter(question => reviewMatches(question, tab));
-      app.innerHTML = `<section class="panel" style="margin-top:0"><div class="section-title"><div><p class="eyebrow orange">MY REVIEW</p><h1>我的复习</h1></div><span class="section-meta">${items.length} ${tab === "unfinished" ? "套" : "题"}</span></div><div class="tabs">${Object.entries(names).map(([key, label]) => `<button data-tab="${key}" class="${key === tab ? "active" : ""}">${label}</button>`).join("")}</div><div class="review-list">${items.length ? items.map(tab === "unfinished" ? unfinishedPageCard : reviewCard).join("") : renderEmpty("当前分类没有内容，完成练习后会自动更新。")}</div></section>`;
+      app.innerHTML = `<section class="panel" style="margin-top:0"><div class="section-title"><div><p class="eyebrow orange">MY REVIEW</p><h1>我的复习</h1></div><span class="section-meta">${items.length} ${tab === "unfinished" ? "套" : "题"}</span></div><div class="tabs">${Object.entries(names).map(([key, label]) => `<button data-tab="${key}" class="${key === tab ? "active" : ""}">${label}</button>`).join("")}</div><div class="review-list">${items.length ? items.map(tab === "unfinished" ? unfinishedPageCard : question => reviewCard(question, "review-" + tab)).join("") : renderEmpty("当前分类没有内容，完成练习后会自动更新。")}</div></section>`;
       app.querySelectorAll("[data-tab]").forEach(button => button.addEventListener("click", () => { location.hash = `review/${button.dataset.tab}`; }));
+    }
+
+    /* ---------- 错题本 ----------
+       哪些题在错题本里，由 learning_storage.js 的 satInMistakeBook() 决定：答错的题自动记入，
+       其他题可以在练习页手动加入（沿用原来的 starred 字段），移出后再答错会重新记入。
+       筛选条件、搜索词和排序存在 sat-learning:mistake-book-view:v1（按账号隔离，只在本机）。
+       打开某一题时把当时筛出来的题目顺序一起写进去，练习页按这个顺序走上一题 / 下一题，
+       回来时这里恢复原来的筛选，并滚到刚才那道题。 */
+    const MISTAKE_PAGE = 30;
+    const MISTAKE_STATUSES = [{ key: "pending", label: "待掌握" }, { key: "due", label: "今日到期" }, { key: "mastered", label: "已掌握" }];
+    const MISTAKE_ORIGINS = [{ key: "wrong", label: "答错记入" }, { key: "manual", label: "手动加入" }];
+    const MISTAKE_TAGS = [...SAT_ERROR_TAGS.map(([key, label]) => ({ key, label })), { key: "none", label: "未标注" }];
+    const MISTAKE_SORTS = [{ key: "recent", label: "最新在前" }, { key: "due", label: "到期优先" }, { key: "skill", label: "按题型" }];
+    // 每一组：筛选字段、界面名称、放选项的元素 id（整组的 id 是它加上 Group）
+    const MISTAKE_GROUPS = [["status", "状态", "mistakeStatus"], ["origin", "加入方式", "mistakeOrigin"], ["tags", "错因", "mistakeTags"],
+      ["skills", "题型", "mistakeSkills"], ["levels", "难度", "mistakeLevels"]];
+    const mistakeTagLabels = Object.fromEntries(SAT_ERROR_TAGS);
+    function mistakeDefaults() {
+      return { status: new Set(["pending"]), origin: new Set(), tags: new Set(), skills: new Set(), levels: new Set() };
+    }
+    // 筛选条件跟着账号走：换了账号（或刚确认账号）就从这个账号的存储里重新读
+    function loadMistakeView() {
+      const token = learningStorage.token();
+      if (mistakeViewOwner === token && mistakeFilters) return;
+      mistakeViewOwner = token;
+      const view = readSatMistakeView(learningStorage);
+      mistakeFilters = mistakeDefaults();
+      if (view.hasFilters) for (const name of SAT_MISTAKE_FILTERS) mistakeFilters[name] = new Set(view.filters[name]);
+      mistakeQuery = view.query;
+      mistakeSort = MISTAKE_SORTS.some(item => item.key === view.sort) ? view.sort : "recent";
+      mistakeShown = MISTAKE_PAGE;
+      mistakeNotice = null;
+      mistakeReturnTo = view.lastQuestionId;
+      mistakeReturnScroll = Boolean(view.lastQuestionId);
+      if (view.lastQuestionId) updateSatMistakeView(learningStorage, { lastQuestionId: "" });
+    }
+    function saveMistakeView(extra = {}) {
+      return updateSatMistakeView(learningStorage, {
+        filters: Object.fromEntries(SAT_MISTAKE_FILTERS.map(name => [name, [...mistakeFilters[name]]])),
+        query: mistakeQuery, sort: mistakeSort, ...extra
+      });
+    }
+    function mistakeSkillName(skill) { return SAT_SKILL_ZH[skill] || skill || "未分类"; }
+    function mistakeRows() {
+      const now = Date.now(), rows = [];
+      for (const question of MANIFEST.questions) {
+        const item = qState(question.questionId);
+        if (!satInMistakeBook(item)) continue;
+        const meta = builderMetaById.get(question.questionId);
+        rows.push({
+          question, item, skill: meta.skill || question.skill || "", level: meta.level, estimated: meta.basis === "estimated",
+          tags: item.errorTags.filter(tag => mistakeTagLabels[tag]),
+          flags: {
+            pending: !item.mastered, mastered: item.mastered,
+            due: !item.mastered && Boolean(item.nextDueAt) && timeOf(item.nextDueAt) <= now,
+            wrong: Boolean(item.firstWrongAt), manual: item.starred
+          },
+          // 排序用的时间：最近一次答错；手动加入而没答错过的题用最近一次改动
+          time: Math.max(timeOf(item.lastWrongAt), timeOf(item.firstWrongAt)) || timeOf(item.updatedAt)
+        });
+      }
+      return rows;
+    }
+    function mistakeMatches(row, filters, term, skip = "") {
+      const any = (name, test) => skip === name || !filters[name].size || [...filters[name]].some(test);
+      return any("status", key => row.flags[key])
+        && any("origin", key => row.flags[key])
+        && any("tags", key => key === "none" ? !row.tags.length : row.tags.includes(key))
+        && any("skills", key => key === row.skill)
+        && any("levels", key => key === row.level)
+        && (!term || searchTextById.get(row.question.questionId).includes(term) || row.item.note.toLowerCase().includes(term)
+          || mistakeSkillName(row.skill).toLowerCase().includes(term));
+    }
+    function mistakeOrder(left, right) {
+      if (mistakeSort === "skill") return mistakeSkillName(left.skill).localeCompare(mistakeSkillName(right.skill), "zh") || right.time - left.time;
+      if (mistakeSort === "due") {
+        const rank = row => row.flags.mastered ? Infinity : timeOf(row.item.nextDueAt) || Number.MAX_SAFE_INTEGER;
+        return rank(left) - rank(right) || right.time - left.time;
+      }
+      return right.time - left.time;
+    }
+    function mistakeMatched() {
+      const term = mistakeQuery.trim().toLowerCase(), rows = mistakeRows();
+      return { rows, term, matches: rows.filter(row => mistakeMatches(row, mistakeFilters, term)).sort(mistakeOrder) };
+    }
+    function mistakeHref(question, kind) {
+      return `${question.route}?book=${kind}&${kind === "redo" ? "redo" : "focus"}=${encodeURIComponent(question.questionId)}`;
+    }
+    function mistakeExcerpt(value, limit) {
+      const text = String(value || "").replace(/\[\/?(?:u|i|b|vocab)\]/g, "").replace(/\s+/g, " ").trim();
+      return escapeHtml(text.slice(0, limit)) + (text.length > limit ? "…" : "");
+    }
+    function mistakeCard(row) {
+      const { question, item } = row, id = question.questionId, pills = [];
+      pills.push(item.mastered ? `<span class="pill calm">${item.needsRecheck ? "历史已掌握 · 待复核" : "已掌握"}</span>`
+        : row.flags.due ? '<span class="pill focus">今日到期</span>' : '<span class="pill soft-risk">待掌握</span>');
+      if (row.flags.manual) pills.push('<span class="pill pending">手动加入</span>');
+      if (item.lastRedoCorrect === true && !item.mastered) pills.push('<span class="pill calm">最近重做正确</span>');
+      for (const tag of row.tags) pills.push(`<span class="pill pending">${escapeHtml(mistakeTagLabels[tag])}</span>`);
+      // 来源和年份只给已经作答过的题显示：在原套题提交过，或者在会话、重做、模考里答过
+      const answered = item.submitted || Boolean(item.firstWrongAt) || item.redoCount > 0;
+      const source = answered ? describeSatSource(question.sourceRefs, { label: question.sourceSet, number: question.questionNumber, kind: question.sourceKind }) : null;
+      const facts = [];
+      if (row.flags.wrong) facts.push(`最近答错 ${formatTime(item.lastWrongAt || item.firstWrongAt)}`);
+      if (!item.mastered && item.nextDueAt && !row.flags.due) facts.push(`下次复习 ${formatTime(item.nextDueAt)}`);
+      if (row.level) facts.push(`难度 ${BUILDER_LEVELS.find(level => level.key === row.level).label}${row.estimated ? "（估计）" : ""}`);
+      return `<article class="review-card book-card${id === mistakeReturnTo ? " is-returned" : ""}" data-book-card="${escapeHtml(id)}">
+        <div class="review-top"><div>
+          <div class="book-pills">${pills.join("")}</div>
+          <h3>${escapeHtml(mistakeSkillName(row.skill))}</h3>
+          ${question.passage ? `<p class="book-passage" lang="en">${mistakeExcerpt(question.passage, 220)}</p>` : ""}
+          <p lang="en">${mistakeExcerpt(question.prompt, 180)}</p>
+          ${source ? `<p class="source-line">来源：${escapeHtml(source.text)}${source.note ? `<span>${escapeHtml(source.note)}</span>` : ""}</p>` : ""}
+          ${item.note ? `<p><strong>笔记：</strong>${escapeHtml(item.note)}</p>` : ""}
+          ${facts.length ? `<p class="book-facts">${escapeHtml(facts.join(" · "))}</p>` : ""}
+        </div>
+        <div class="actions"><a class="button primary" data-book-open="${escapeHtml(id)}" href="${mistakeHref(question, "redo")}">空白重做</a><a class="button ghost" data-book-open="${escapeHtml(id)}" href="${mistakeHref(question, "view")}">查看原题</a></div></div>
+        <div class="book-tools"><button class="book-tool" type="button" data-book-master="${escapeHtml(id)}">${item.mastered ? "恢复为待掌握" : "标记已掌握"}</button><button class="book-tool" type="button" data-book-remove="${escapeHtml(id)}">移出错题本</button></div>
+      </article>`;
+    }
+    function drawMistakes(focus = null) {
+      const { rows, term, matches } = mistakeMatched(), filters = mistakeFilters;
+      const count = (name, test) => rows.filter(row => mistakeMatches(row, filters, term, name) && test(row)).length;
+      const chips = (name, options) => options.map(option => {
+        const checked = filters[name].has(option.key);
+        return `<label class="pick"><input type="checkbox" name="${name}" value="${escapeHtml(option.key)}"${checked ? " checked" : ""}${!option.total && !checked ? " disabled" : ""}><span>${escapeHtml(option.label)}<i>${option.total}${option.note || ""}</i></span></label>`;
+      }).join("");
+      document.getElementById("mistakeStatus").innerHTML = chips("status", MISTAKE_STATUSES.map(item => ({ ...item, total: count("status", row => row.flags[item.key]) })));
+      document.getElementById("mistakeOrigin").innerHTML = chips("origin", MISTAKE_ORIGINS.map(item => ({ ...item, total: count("origin", row => row.flags[item.key]) })));
+      document.getElementById("mistakeTags").innerHTML = chips("tags", MISTAKE_TAGS.map(item => ({ ...item,
+        total: count("tags", row => item.key === "none" ? !row.tags.length : row.tags.includes(item.key)) })));
+      // 题型和难度只列错题本里出现过的；已经选中的保留，方便取消
+      const skills = [...new Set([...rows.map(row => row.skill), ...filters.skills])].filter(Boolean)
+        .sort((left, right) => mistakeSkillName(left).localeCompare(mistakeSkillName(right), "zh"));
+      document.getElementById("mistakeSkillsGroup").hidden = !skills.length;
+      document.getElementById("mistakeSkills").innerHTML = chips("skills", skills.map(skill => ({ key: skill, label: mistakeSkillName(skill), total: count("skills", row => row.skill === skill) })));
+      const levels = BUILDER_LEVELS.filter(level => rows.some(row => row.level === level.key) || filters.levels.has(level.key));
+      document.getElementById("mistakeLevelsGroup").hidden = !levels.length;
+      document.getElementById("mistakeLevels").innerHTML = chips("levels", levels.map(level => {
+        const estimated = count("levels", row => row.level === level.key && row.estimated);
+        return { ...level, total: count("levels", row => row.level === level.key), note: estimated ? ` · 估计 ${estimated}` : "" };
+      }));
+      if (focus) {
+        const input = [...document.querySelectorAll(`#mistakeForm input[name="${focus.name}"]`)].find(item => item.value === focus.value);
+        if (input) input.focus();
+      }
+      const chosen = MISTAKE_GROUPS.flatMap(([name]) => [...document.querySelectorAll(`#mistakeForm input[name="${name}"]:checked`)]
+        .map(input => input.nextElementSibling.firstChild.textContent));
+      document.getElementById("mistakeFilterSummary").textContent = chosen.length ? chosen.join("、") : "全部";
+      const pending = rows.filter(row => row.flags.pending).length;
+      document.getElementById("mistakeMeta").textContent = `共 ${rows.length} 题 · 待掌握 ${pending} · 已掌握 ${rows.length - pending}`;
+      // 从练习页回来：保证刚才那道题在已显示的范围里
+      const returnIndex = mistakeReturnTo ? matches.findIndex(row => row.question.questionId === mistakeReturnTo) : -1;
+      if (returnIndex >= mistakeShown) mistakeShown = (Math.floor(returnIndex / MISTAKE_PAGE) + 1) * MISTAKE_PAGE;
+      const shown = matches.slice(0, mistakeShown);
+      document.getElementById("mistakeList").innerHTML = shown.length ? shown.map(mistakeCard).join("")
+        : renderEmpty(rows.length ? "没有符合条件的题，可以放宽筛选条件。" : "错题本里还没有题。答错的题会自动记进来；答对的题可以在题目旁点「加入错题本」。");
+      document.getElementById("mistakeCount").textContent = !rows.length ? ""
+        : `符合条件 ${matches.length} 题${matches.length > shown.length ? `，显示前 ${shown.length} 题` : ""}`;
+      document.getElementById("mistakeMoreRow").hidden = matches.length <= shown.length;
+      const start = document.getElementById("mistakeStart");
+      start.hidden = !matches.length;
+      if (matches.length) {
+        start.href = mistakeHref(matches[0].question, "redo");
+        start.dataset.bookOpen = matches[0].question.questionId;
+        start.textContent = `从第一题开始重做（${matches.length} 题）`;
+      }
+      const notice = document.getElementById("mistakeNotice");
+      notice.hidden = !mistakeNotice;
+      notice.innerHTML = mistakeNotice ? `<span>${escapeHtml(mistakeNotice.text)}</span>${mistakeNotice.undo ? '<button class="book-tool" id="mistakeUndo" type="button">撤销</button>' : ""}` : "";
+      if (mistakeReturnScroll && returnIndex >= 0) {
+        mistakeReturnScroll = false;
+        const card = [...document.querySelectorAll("#mistakeList [data-book-card]")].find(node => node.dataset.bookCard === mistakeReturnTo);
+        if (card) requestAnimationFrame(() => card.scrollIntoView({ block: "center", behavior: "instant" }));
+      }
+    }
+    // 标记已掌握、移出：直接改这道题的长期记录。练习页下次打开时会把改动合并进去。
+    // undo 收到改动之后的记录，返回撤销要写回去的字段。
+    function changeMistake(questionId, patch, text, undo = null) {
+      state.questions[questionId] = { ...normalize(state.questions[questionId]), ...patch, updatedAt: nowIso() };
+      mistakeNotice = save() ? { text, questionId, undo } : { text: "没有保存成功，请检查浏览器的存储权限。" };
+      mistakeReturnTo = "";
+      drawMistakes();
+    }
+    function renderMistakes() {
+      loadMistakeView();
+      if (mistakeFiltersOpen === null) mistakeFiltersOpen = window.innerWidth > 860;
+      app.innerHTML = `<section class="panel" style="margin-top:0">
+        <div class="section-title"><div><p class="eyebrow orange">MISTAKE BOOK</p><h1>错题本</h1></div><span class="section-meta" id="mistakeMeta"></span></div>
+        <details class="book-filters" id="mistakeFilters"${mistakeFiltersOpen ? " open" : ""}>
+          <summary><span>筛选</span><span class="book-filter-summary" id="mistakeFilterSummary"></span></summary>
+          <form id="mistakeForm">${MISTAKE_GROUPS.map(([name, label, id]) =>
+            `<div class="book-group" id="${id}Group" role="group" aria-label="${label}"><span class="book-group-label">${label}</span><div class="chip-row" id="${id}"></div></div>`).join("")}</form>
+        </details>
+        <div class="glossary-controls book-toolbar">
+          <input id="mistakeQuery" type="search" maxlength="80" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="在错题本里搜索题目或笔记" placeholder="搜索题目或笔记" value="${escapeHtml(mistakeQuery)}">
+          <select id="mistakeSort" aria-label="排序方式">${MISTAKE_SORTS.map(item => `<option value="${item.key}"${item.key === mistakeSort ? " selected" : ""}>${item.label}</option>`).join("")}</select>
+          <button class="action" id="mistakeReset" type="button">重置筛选</button>
+          <a class="button primary" id="mistakeStart" href="#mistakes" hidden></a>
+        </div>
+        <p class="vocab-status" id="mistakeCount" role="status" aria-live="polite" style="margin-top:0"></p>
+        <div class="quiet-note book-notice" id="mistakeNotice" role="status" aria-live="polite" hidden></div>
+        <div class="review-list" id="mistakeList"></div>
+        <div class="glossary-more" id="mistakeMoreRow" hidden><button class="action" id="mistakeMore" type="button">再显示 ${MISTAKE_PAGE} 题</button></div>
+      </section>`;
+      const changed = focus => { mistakeShown = MISTAKE_PAGE; mistakeReturnTo = ""; mistakeNotice = null; saveMistakeView(); drawMistakes(focus); };
+      const form = document.getElementById("mistakeForm");
+      form.addEventListener("submit", event => event.preventDefault());
+      form.addEventListener("change", event => {
+        const input = event.target, target = mistakeFilters[input.name];
+        if (!target) return;
+        if (input.checked) target.add(input.value); else target.delete(input.value);
+        changed({ name: input.name, value: input.value });
+      });
+      document.getElementById("mistakeFilters").addEventListener("toggle", event => { mistakeFiltersOpen = event.target.open; });
+      document.getElementById("mistakeQuery").addEventListener("input", event => { mistakeQuery = event.target.value; changed(); });
+      document.getElementById("mistakeSort").addEventListener("change", event => { mistakeSort = event.target.value; changed(); });
+      document.getElementById("mistakeReset").addEventListener("click", () => {
+        mistakeFilters = mistakeDefaults(); mistakeQuery = ""; mistakeSort = "recent";
+        document.getElementById("mistakeQuery").value = ""; document.getElementById("mistakeSort").value = "recent";
+        changed();
+      });
+      document.getElementById("mistakeMore").addEventListener("click", () => { mistakeShown += MISTAKE_PAGE; drawMistakes(); });
+      // 进练习页之前，把当前筛选结果的顺序记下来，练习页的上一题 / 下一题就按它走
+      app.querySelector(".panel").addEventListener("click", event => {
+        const open = event.target.closest("[data-book-open]");
+        if (open) {
+          saveMistakeView({ questions: mistakeMatched().matches.map(row => ({ questionId: row.question.questionId, route: row.question.route })),
+            startedAt: nowIso(), lastQuestionId: open.dataset.bookOpen });
+          return;
+        }
+        if (event.target.closest("#mistakeUndo") && mistakeNotice && mistakeNotice.undo) {
+          const { questionId, undo } = mistakeNotice;
+          changeMistake(questionId, undo(normalize(state.questions[questionId])), "已撤销。");
+          return;
+        }
+        const master = event.target.closest("[data-book-master]"), remove = event.target.closest("[data-book-remove]");
+        const before = master || remove ? normalize(state.questions[(master || remove).dataset.bookMaster || (master || remove).dataset.bookRemove]) : null;
+        if (master) {
+          const schedule = { mastered: before.mastered, masteredAt: before.masteredAt, reviewStage: before.reviewStage, nextDueAt: before.nextDueAt };
+          changeMistake(master.dataset.bookMaster, before.mastered
+            ? { mastered: false, masteredAt: null, reviewStage: 0, nextDueAt: nowIso() }
+            : { mastered: true, masteredAt: nowIso(), reviewStage: 3, nextDueAt: null },
+            before.mastered ? "已恢复为待掌握。" : "已标记为已掌握。", () => schedule);
+        } else if (remove) {
+          // 移出只是不再列在错题本里，答错的历史还在；撤销时把原来的加入方式一起放回去
+          changeMistake(remove.dataset.bookRemove, satMistakeRemoval(before), "已移出错题本。", record => satMistakeRestore(record, before.starred));
+        }
+      });
+      drawMistakes();
     }
 
     /* ---------- 生词本 ---------- */
     // Cards the learner has opened stay open while the list is redrawn.
     const vocabularyOpen = new Set();
-    let vocabularyStatus = "";
+    let vocabularyStatus = "", vocabularyFrom = "vocabulary";
     // Notes a save could not store, by word, for the owner who wrote them; kept through redraws.
     const vocabularyNoteDrafts = new Map();
     // A word's layers in study order: the examples, the Chinese explanation (open here, and with it
@@ -1107,7 +1403,7 @@
         <div class="vocab-body">
           ${explained ? `<p class="vocab-english">${escapeHtml(item.english)}</p>${vocabularyLayersHtml(item)}`
             : `<p class="vocab-english">这个词是你自己添加的，可以在下面写下它的意思。</p><div class="vocab-layers">${satDictionaryLayerHtml(item.word, escapeHtml, "vocab-layer")}</div>`}
-          ${item.context || question ? `<p class="vocab-context">${item.context ? `题目原句：<q>${escapeHtml(item.context)}</q> ` : ""}${question ? `<a href="${question.route}?focus=${encodeURIComponent(question.questionId)}">回到这道题</a>` : ""}</p>` : ""}
+          ${item.context || question ? `<p class="vocab-context">${item.context ? `题目原句：<q>${escapeHtml(item.context)}</q> ` : ""}${question ? `<a href="${question.route}?focus=${encodeURIComponent(question.questionId)}&from=${vocabularyFrom}">回到这道题</a>` : ""}</p>` : ""}
           <label class="vocab-note-label">我的笔记<textarea class="vocab-note" data-vocab-note="${escapeHtml(key)}" maxlength="1000"${draft ? ' aria-invalid="true"' : ""}>${escapeHtml(draft ? draft.text : item.note)}</textarea><span class="vocab-note-status" role="status" aria-live="polite">${draft ? "笔记没有保存成功，内容仍在框里。请检查浏览器的存储空间或权限，再改动一下即可重试。" : ""}</span></label>
           <div class="vocab-actions">
             <button class="action" type="button" data-vocab-mastered="${escapeHtml(key)}">${item.mastered ? "重新学习" : "标为已掌握"}</button>
@@ -1119,6 +1415,8 @@
     function renderVocabulary(tab) {
       const names = { learning: "待掌握", mastered: "已掌握", all: "全部" };
       const filter = names[tab] ? tab : "learning";
+      // 「回到这道题」带上当前分类，练习页的返回链接回到同一个分类
+      vocabularyFrom = filter === "learning" ? "vocabulary" : `vocabulary-${filter}`;
       const words = readSatVocabulary(learningStorage);
       const mastered = words.filter(item => item.mastered).length;
       const shown = words.filter(item => filter === "all" || (filter === "mastered") === item.mastered);
@@ -1353,7 +1651,7 @@
     const BUILDER_STATUSES = [
       { key: "unseen", label: "未作答" }, { key: "wrong", label: "作答错误" },
       { key: "repeat_wrong", label: "多次答错（≥2次）" }, { key: "redo_correct", label: "错题重做后做对" },
-      { key: "due", label: "到期复习" }, { key: "starred", label: "星标题" },
+      { key: "due", label: "到期复习" }, { key: "starred", label: "手动加入错题本" },
       { key: "confidence", label: "低信心题" }, { key: "weak", label: "薄弱题型" }
     ];
     const BUILDER_LEVELS = [{ key: "easy", label: "Easy" }, { key: "medium", label: "Medium" }, { key: "hard", label: "Hard" }];
@@ -1619,6 +1917,7 @@
       location.href = `${selected[0].route}?session=${encodeURIComponent(session.id)}&focus=${encodeURIComponent(selected[0].questionId)}`;
     }
 
+    const SEARCH_UI_KEY = "sat-ui:search";
     function renderSearch() {
       app.innerHTML = `<section class="panel" style="margin-top:0"><div class="section-title"><div><p class="eyebrow teal">QUESTION SEARCH</p><h1>全库搜索</h1></div><span class="section-meta">${MANIFEST.uniqueQuestionCount} 道唯一题</span></div><div class="search-shell"><div class="search-controls"><input id="searchInput" type="search" placeholder="输入关键词" aria-label="搜索题目" aria-controls="searchResults" aria-describedby="searchStatus"><select id="skillFilter" aria-label="按题型筛选" aria-controls="searchResults"><option value="">全部题型</option>${skillRows().map(row => `<option>${escapeHtml(row.skill)}</option>`).join("")}</select><button class="action ghost" id="clearSearch" type="button">清空</button></div><p class="search-status" id="searchStatus" role="status" aria-live="polite" aria-atomic="true"></p></div><div class="review-list" id="searchResults" aria-busy="false" style="margin-top:14px">${renderEmpty("输入关键词或选择题型开始搜索。")}</div></section>`;
       const input = document.getElementById("searchInput"), filter = document.getElementById("skillFilter"), results = document.getElementById("searchResults"), status = document.getElementById("searchStatus");
@@ -1635,13 +1934,14 @@
         cancelPending();
         if (!isCurrentView()) return;
         const term = input.value.trim().toLowerCase(), skill = filter.value;
+        try { sessionStorage.setItem(SEARCH_UI_KEY, JSON.stringify({ term: input.value, skill })); } catch {}
         if (!term && !skill) { results.innerHTML = renderEmpty("输入关键词或选择题型开始搜索。"); report(""); return; }
         const found = [];
         for (const question of MANIFEST.questions) {
           if ((!skill || question.skill === skill) && (!term || searchTextById.get(question.questionId).includes(term))) found.push(question);
           if (found.length === 100) break;
         }
-        results.innerHTML = found.length ? found.map(reviewCard).join("") : renderEmpty("没有匹配题目，试试更短的关键词或其他题型。");
+        results.innerHTML = found.length ? found.map(question => reviewCard(question, "search")).join("") : renderEmpty("没有匹配题目，试试更短的关键词或其他题型。");
         report(found.length ? `显示 ${found.length} 条结果${found.length === 100 ? "（最多显示 100 条，可缩小关键词）" : ""}。` : "没有匹配题目，试试更短的关键词或其他题型。");
       };
       const schedule = () => { cancelPending(); if (!isCurrentView()) return; report("正在筛选…", true); searchTimer = setTimeout(update, 120); };
@@ -1650,6 +1950,15 @@
       input.addEventListener("input", event => { if (composing || event.isComposing) { cancelPending(); report("输入中，完成后更新结果。"); return; } schedule(); });
       filter.addEventListener("change", () => { cancelPending(); if (!composing) update(); });
       document.getElementById("clearSearch").addEventListener("click", () => { composing = false; cancelPending(); input.value = ""; filter.value = ""; update(); input.focus(); });
+      // 从搜索结果打开一道题再回来，关键词和结果还在。只是界面状态，和题号列表一样放在 sessionStorage。
+      try {
+        const saved = JSON.parse(sessionStorage.getItem(SEARCH_UI_KEY) || "null");
+        if (saved && (saved.term || saved.skill)) {
+          input.value = String(saved.term || "").slice(0, 200);
+          filter.value = [...filter.options].some(option => option.value === saved.skill) ? saved.skill : "";
+          update();
+        }
+      } catch {}
     }
 
     function mergeCloud(data) {

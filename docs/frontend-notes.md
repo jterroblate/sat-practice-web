@@ -6,7 +6,7 @@
 
 | 文件 | 页面 |
 | --- | --- |
-| `learning_index_v2.html` | 学习中心：首页、我的复习、学习诊断、生成今日练习、全库搜索 |
+| `learning_index_v2.html` | 学习中心：首页、错题本、我的复习、学习诊断、生成今日练习、模考、词汇、全库搜索 |
 | `html_template_v1.1.html` | 练习页（套题、专项、题型分类共用） |
 
 改完保存后 `dev.py` 会自动重建。不要改 `build/` 里的文件。
@@ -24,9 +24,9 @@
 
 布局参考机考界面：
 
-- **顶栏**：左边是套题标题和「学习首页」链接；右边是「题目列表」「保存选中文本」「加入生词本」和「更多」菜单（提交已作答题、导出 JSON / PDF、重置本页、正式模考）。
-- **主体**：左文章、右题目，中间一条分隔线，两栏各自滚动。宽度 1100px 以上时最左边多一栏题号列表，可以收起。普通练习、练习会话（今日练习、生成练习、错题复习）和空白重做都有这一栏：会话里列的是本次练习的题，点题号会跳到那道题所在的页面；空白重做里当前题显示为未作答，不露出原来的对错。模考用自己的题号面板。
-- **题目栏**：题号徽标、加入复习、单题计时（右端）、题干、选项、提交本题。提交前只显示「答题信心」；提交后才出现笔记，答错才出现错因。「查看答案与解析」在可用之前不显示。
+- **顶栏**：左边是套题标题和返回链接（默认「学习首页」；从学习中心别的页面进来时回到那一页，见[返回链接](#返回链接)）；右边是「题目列表」「保存选中文本」「加入生词本」和「更多」菜单（提交已作答题、导出 JSON / PDF、重置本页、正式模考）。
+- **主体**：左文章、右题目，中间一条分隔线，两栏各自滚动。宽度 1100px 以上时最左边多一栏题号列表，可以收起。普通练习、练习会话（今日练习、生成练习、到期复习）、空白重做和错题本的单题模式都有这一栏：会话里列的是本次练习的题，错题本里列的是当时筛出来的题，点题号会跳到那道题所在的页面；空白重做里当前题显示为未作答，不露出原来的对错。模考用自己的题号面板。
+- **题目栏**：题号徽标、加入错题本、单题计时（右端）、题干、选项、提交本题。提交前只显示「答题信心」；提交后才出现笔记，答错或者这道题在错题本里才出现错因。练习会话和空白重做是在空白副本上作答，这一栏在提交之后才出现，只有错因和笔记（没有答题信心），写的是这道题的长期记录。「查看答案与解析」在可用之前不显示。
 - **底栏**：左边只在同步或保存出问题时显示状态（本机保存成功不提示），中间「第 x/N 题」按钮（点开是答题卡，和题号列表显示同一组题，各种宽度下都可用），右边上一题 / 下一题。
 
 宽度 820px 以下变成单栏，整页滚动，底栏固定在屏幕底部。
@@ -73,12 +73,13 @@
 
 浏览器回归脚本 `scripts/verify-sat-learning-browser.mjs` 和页面脚本都靠这些 id 工作。可以移动位置、改样式，不能改名或删除：
 
-`progressText` `questionNumber` `overviewBtn` `overviewPanel` `overviewGrid` `checkCurrentBtn` `checkAllBtn` `revealBtn` `retryBtn` `returnOriginalBtn` `highlightBtn` `starBtn` `resetBtn` `resetConfirm*` `exportJsonBtn` `exportPdfBtn` `examModeBtn` `prevBtn` `nextBtn` `syncStatus` `modeBanner` `reflectionPanel` `errorTagsRow` `noteInput` `reflectionHint` `sourceNotice` `cloudMigrationNotice` `satLegacyBackup*` `practiceLayout` `practiceNav` `examShell`，以及类名 `.choice` `.export-group` `.export-label`。
+`progressText` `questionNumber` `overviewBtn` `overviewPanel` `overviewGrid` `checkCurrentBtn` `checkAllBtn` `revealBtn` `retryBtn` `returnOriginalBtn` `highlightBtn` `starBtn` `resetBtn` `resetConfirm*` `exportJsonBtn` `exportPdfBtn` `examModeBtn` `prevBtn` `nextBtn` `syncStatus` `modeBanner` `reflectionPanel` `confidenceRow` `errorTagsRow` `noteInput` `reflectionHint` `sourceNotice` `cloudMigrationNotice` `satLegacyBackup*` `practiceLayout` `practiceNav` `examShell`，以及类名 `.choice` `.export-group` `.export-label`。
 
 - `questionNumber` 的文字内容仍是 `Question 9`，其中 `Question ` 用视觉隐藏的 `span` 包着，屏幕上只看到数字。
 - 「更多」菜单里的按钮全部被隐藏时（空白重做、模考），菜单自己会隐藏，不需要手动处理。
 - 题号列表是否展开存在 `sessionStorage` 的 `sat-ui:question-list` 里，只是界面偏好，不属于学习记录，不要挪进 `learningStorage`。
-- 题号列表和答题卡都从 `navigatorEntries()` 取数据：当前题属于练习会话时返回会话里的题，否则返回本页的题。要加新的做题模式，改这一个函数。
+- 题号列表和答题卡都从 `navigatorEntries()` 取数据：错题本的单题模式返回错题本当时筛出来的题，当前题属于练习会话时返回会话里的题，否则返回本页的题。要加新的做题模式，改这一个函数。
+- 「更多」菜单里的重置本页、提交已作答题、导出和正式模考在错题本的单题模式里不显示：那里面对的是一道题，不是这一页。
 
 ### 单题计时
 
@@ -142,7 +143,7 @@
 | `repeat_wrong` | 多次答错（≥2次） | 首次答错，且最近一次重做仍然答错 |
 | `redo_correct` | 错题重做后做对 | `firstWrongAt && lastRedoCorrect === true` |
 | `due` | 到期复习 | `nextDueAt` 已到且未掌握 |
-| `starred` | 星标题 | `starred` |
+| `starred` | 手动加入错题本 | `starred` |
 | `confidence` | 低信心题 | `confidence` 是 `unsure` 或 `guess` |
 | `weak` | 薄弱题型 | 该题型已作答 ≥5 题且正确率低于 70% |
 
@@ -204,26 +205,90 @@
 - 最近一次用的是生成的那组题（会话比最近打开的套题更晚用过）：回到那组题里停下的那一题；那一题已经提交就去第一道还没提交的。全部做完时按钮写成「回看上次练习」。
 - 否则回到最近打开的套题，和以前一样。
 
-### 复习星标和错题集在会话里
+## 4. 错题本
 
-- 「加入复习」在普通练习、练习会话和空白重做里都能用，提交前后都可以。会话和空白重做是在一份空白副本上作答，所以星标记在这道题的长期记录上（`globalState.questions[题号].starred`），不记在空白副本里。
-- 在会话或空白重做里第一次答错，会给长期记录写上 `firstWrongAt`，题目进入「我的复习 → 错题」。原套题页上的作答不动。
-- 没有改的一点：在会话里第一次做的题，长期记录的 `submitted` 仍然是否，所以它在「按作答情况 → 未作答」里还会出现，首页的「已提交题目」也不计它。
+入口是 `#mistakes`，导航里排在首页后面。代码在 `learning_index_v2.html` 里以 `/* ---------- 错题本 ----------` 开头的一段；哪些题在错题本里、筛选状态怎么存，在共享脚本 `learning_storage.js` 的末尾。原来「我的复习」里的「错题」「星标」两栏已经并进来，`#review/wrong` 和 `#review/starred` 会直接转到 `#mistakes`。
 
-## 4. 来源、年份和题号
+### 哪些题在错题本里
 
-规则：**题目的来源、年份和原卷题号只在提交答案之后显示**，错题本里同样显示；提交之前不出现在界面上。
+只由 `satInMistakeBook(record)` 判断，学习中心和练习页用的是同一个函数：
+
+- **答错自动记入**：有 `firstWrongAt` 的题。普通练习、练习会话、空白重做里答错都会写；模考在整场完成、归档成功时把答错的题记进来（`recordExamMistakes()`，没作答的不记，不产生练习提交记录，不上传）。
+- **手动加入**：练习页的「加入错题本」按钮，提交前后都能点，答对的题也可以加。它沿用原来的 `starred` 字段，所以以前打过星标的题已经在错题本里。
+- **移出**：不删任何历史，只写一个时间。之后再答错，或者点「撤销」，题目会回来。
+
+记录里为此多了三个时间字段，都是可选的，合并时取较晚的那个（和 `firstWrongAt` 取较早相对）：
+
+| 字段 | 含义 |
+| --- | --- |
+| `lastWrongAt` | 最近一次答错的时间，每次答错都更新 |
+| `bookRemovedAt` | 最近一次移出错题本的时间 |
+| `bookRestoredAt` | 最近一次撤销移出的时间 |
+
+判定是：`starred`，或者 `firstWrongAt` 存在并且 `max(lastWrongAt, firstWrongAt, bookRestoredAt) > bookRemovedAt`。三个字段只往前走，不清空，所以两台设备或两个标签页的记录合并后结果一致。改动请用 `toggleSatMistakeBook()`、`satMistakeRemoval()`、`satMistakeRestore()`，不要直接把字段设回 `null`（合并时会被另一份记录的旧值盖回来）。
+
+这三个字段跟着题目记录一起保存，前端没有为它们新增任何云端调用，云端 DTO 的结构没有变。**后端是否原样保留它不认识的字段没有验证过**；没保留时，换设备后「移出」会失效（题目重新出现在错题本里），答错记录和手动加入不受影响。
+
+「已掌握」沿用原有的 `mastered` / `reviewStage` / `nextDueAt`：错题本里可以标记已掌握或恢复为待掌握，已掌握的题仍在错题本里，只是默认的筛选（待掌握）不显示它。
+
+### 页面
+
+- **筛选**：五组多选，状态（待掌握 / 今日到期 / 已掌握）、加入方式（答错记入 / 手动加入）、错因（七个错因标签和「未标注」）、题型、难度。组与组之间是「并且」，同一组内是「或者」；每个选项后面的数字是在其他组当前条件下选它能得到多少题，为 0 时变灰。另有搜索框（文章、题干、笔记、题型名称）和排序（最新在前、到期优先、按题型）。默认只选「待掌握」。
+- **卡片**：题型、文章和题干的开头、笔记、最近答错和下次复习的日期、难度（估计的难度标明「估计」）。操作是「空白重做」「查看原题」「标记已掌握 / 恢复为待掌握」「移出错题本」，后两个操作之后列表上方出现一条可以撤销的提示。来源一行按第 5 节的规则，只给作答过的题显示。
+- 每次显示 30 题，「再显示 30 题」继续；「从第一题开始重做」从当前筛选结果的第一题进入空白重做。
+- **筛选状态**存在按账号隔离的本机存储里，键是 `sat-learning:mistake-book-view:v1`，内容是 `{ version, filters, query, sort, questions, startedAt, lastQuestionId }`。读写用 `readSatMistakeView()` / `updateSatMistakeView()`。只在本机，不上传。
+- 错因标签的取值和中文名只有一份，在 `SAT_ERROR_TAGS`；练习页的错因选项、周报和这里都用它。
+
+### 单题模式
+
+从错题本打开一道题时，学习中心先把当时筛出来的题目顺序写进上面那个键的 `questions`，然后跳到练习页：
+
+- `套题页?book=redo&redo=<题号>`：空白重做。`套题页?book=view&focus=<题号>`：查看原来的作答。
+- 顶栏标题写「错题本」，不显示套题名称；进度写「错题本 i/N」；上一题 / 下一题和题号列表按错题本的顺序走，可以跨套题页，走到头就停。当前题不在那份顺序里时（比如直接打开一个旧链接），只显示这一题。
+- 翻题用 `location.replace`，所以浏览器的后退是离开这次浏览、回到错题本，而不是退回上一题。
+- 不改套题自己的进度：`persistLocalState()` 在这个模式下不更新本页的当前位置、最近访问时间，也不改地址里的 `focus`。
+- 练习页每显示一题就把 `lastQuestionId` 写回去。回到错题本时恢复原来的筛选、搜索和排序，滚到刚才那一题并描一圈边（`.book-card.is-returned`），然后把 `lastQuestionId` 清掉。
+- 在空白重做里答错会更新 `lastWrongAt`，错因和笔记写在长期记录上，原套题页上的作答不动。
+
+### 返回链接
+
+练习页左上角的链接回到进来的那一页，而不是一律回首页。学习中心给出的链接带一个 `from` 参数，练习页只认 `RETURN_VIEWS` 里列出的取值，其他一律当作没有：
+
+| 从哪里进来 | 参数 | 链接文字 | 回到 |
+| --- | --- | --- | --- |
+| 错题本 | `book=redo` / `book=view` | 返回错题本 | `#mistakes` |
+| 我的复习的三栏 | `from=review-unfinished` / `review-notes` / `review-redo` | 返回我的复习 | 对应的那一栏 |
+| 全库搜索 | `from=search` | 返回搜索 | `#search`，搜索词和题型筛选存在 `sessionStorage` 的 `sat-ui:search` 里，回来时还在 |
+| 生词本的「回到这道题」 | `from=vocabulary` / `vocabulary-mastered` / `vocabulary-all` | 返回生词本 | 对应的那一栏 |
+
+没有改的：从首页题库、「继续上次」和今日练习进入的练习页仍然回首页（今日练习那组题的「继续」按钮在首页）；模考的出口是模考中心，和以前一样。
+
+### 长期记录和页面上的作答
+
+- `LASTING_FIELDS` 列出跟着题目走、不跟着某一遍作答走的字段（错题本、笔记、标注、错因、复习进度）。新开一页时从长期记录带过来；在会话或空白重做里改了这些字段，用 `mirrorLasting()` 抄回本页已有的那一份，避免两边不一致。
+- **「重置本页」之后旧答案不再回来。** 以前重置只清本页，长期记录里还留着重置前的作答，之后只要这条记录被改动（比如在别处加了笔记），旧答案会被合并回页面。现在合并前先过 `recordForPage()`：作答时间早于本页重置时间的，只带回上面那些长期字段，不带回选项、对错和解析状态。已知还剩一种情况：重置前选了但没提交的选项，在记录被改动后仍可能回到页面上。
+- 没有改的一点：在会话里第一次做的题，长期记录的 `submitted` 仍然是否，所以它在「按作答情况 → 未作答」里还会出现，首页的「已提交题目」也不计它。模考里答错的题同样如此。
+
+### 回归脚本用到的元素
+
+`mistakeMeta` `mistakeFilters` `mistakeFilterSummary` `mistakeStatus` `mistakeOrigin` `mistakeTags` `mistakeSkills` `mistakeLevels`（各自加 `Group` 是整组）`mistakeQuery` `mistakeSort` `mistakeReset` `mistakeStart` `mistakeCount` `mistakeNotice` `mistakeUndo` `mistakeList` `mistakeMore`，以及卡片上的 `data-book-card` `data-book-open` `data-book-master` `data-book-remove`。可以移动位置、改样式，不能改名或删除。
+
+导航现在最多九项。960px 以下、汉堡菜单出现之前（861px 起）靠收紧间距放下，再加导航项时要重新量一下这一段宽度。
+
+## 5. 来源、年份和题号
+
+规则：**题目的来源、年份和原卷题号只在提交答案之后显示**；提交之前不出现在界面上。
 
 - 练习页的题号牌、题号列表和答题卡显示的是练习内的序号（第 1 题、第 2 题……），今日练习会话里是本次练习的第几题。原卷题号只出现在提交后的来源一行里。
 - 提交后，反馈下方出现一行「来源：…」（`#sourceLine`）。内容来自 `source_refs[0]`：来源名称、年份（名称里没有时才补）、模块、原卷题号。字段缺失时退回到套题名称和 `question_number`。
-- 错题本和搜索结果的卡片只给已提交的题显示来源；没提交的题只显示题型。
-- 今日练习会话里，顶栏标题显示「今日练习」而不是套题名称。
+- 搜索结果和「我的复习」的卡片只给已提交的题显示来源；没提交的题只显示题型。错题本的卡片给作答过的题显示来源：在套题页提交过，或者在练习会话、空白重做、模考里答过。手动加入但还没作答的题不显示。
+- 今日练习会话里，顶栏标题显示「今日练习」而不是套题名称；错题本的单题模式里显示「错题本」。
 - 文案由共享脚本里的 `describeSatSource(refs, fallback)` 生成。`real_exam` 标注为「回忆版真题，来源未经认证」，`practice` 标注为「模拟题」，不要改成「官方真题」之类的说法。
 - 没有处理的地方：浏览器标签页标题和网址里仍然有套题名称；自己从题库入口选套题进入时，标题本来就是套题名称。
 
 读取的字段（首页驼峰、练习页下划线）：`sourceKind` / `source_kind`、`sourceYear` / `source_year`、`difficultyLevel` / `difficulty_level`、`sourceRefs` / `source_refs`。`undefined`、空字符串、`null`、空数组都当作未知。
 
-## 5. 模考
+## 6. 模考
 
 模考在练习页里进行，入口是 `套题页?mode=exam`；学习中心多了一个「模考」页面（`#exam`）作为入口和记录列表。
 
@@ -231,7 +296,7 @@
 - **成绩页只给两样东西**：总正确率，以及每个模块的正确率和错题题号（未作答的题号单独列出）。题号是模块内的顺序号，点题号直接进入这道题的答案与解析。
 - **界面**：开始页 → 模块做题（顶栏是模块名、倒计时和「隐藏计时」，题目栏有「标记待查」，底栏中间的按钮打开题目导航）→ 最后一题的「下一题」进入检查页 → 提交 → 模块间休息 → 第二个模块 → 成绩页 → 答案与解析。做题过程中不显示对错和解析。
 - **标记待查**存在会话的 `modules[key].marked` 数组里，是新增的可选字段，旧会话没有它也能正常读取。
-- **开关**：模考只在发布开关 `fixedMockExams` 打开时出现（页面元数据和 manifest 的 `features`）。关闭时学习中心没有「模考」入口和首页的模考块（`.home.no-exam` 让错题复习占两列），`?mode=exam` 和 `?mode=exam&history=…` 都只显示「模考暂未开放」（`renderExamClosed()`），不读任何记录。
+- **开关**：模考只在发布开关 `fixedMockExams` 打开时出现（页面元数据和 manifest 的 `features`）。关闭时学习中心没有「模考」入口和首页的模考块（`.home.no-exam` 让错题本占两列），`?mode=exam` 和 `?mode=exam&history=…` 都只显示「模考暂未开放」（`renderExamClosed()`），不读任何记录。
 - **模考记录**：每场模考完成时归档一份到按账号隔离的本机存储，键是 `sat-exam-history:v1`，最多 50 条。结构是 `{ version, records: [{ id, pageId, title, variantId, branch, createdAt, completedAt, modules: [{ key, label, durationSeconds, startedAt, submittedAt, submitReason, questionIds, answers, marked, score, revisions }] }] }`。`revisions` 是完成时每道题的 `gradingRevision`，较早的记录没有。只在本机，不上传云端。
 - **回看记录**：`套题页?mode=exam&history=<id>`，先显示成绩，再进解析。回看只需要题目还在，不要求这套题现在仍可模考。回看视图（`examHistoryView`）带着打开它时的账号 token：切换账号、退出、身份校验失败时清空，回看界面同时重画；账号未确认时显示「正在确认账号」，不读记录；只从当前账号的存储重新读取。
 - **成绩口径**：模考中心的卡片和回看页的大字都是「完成时成绩」（记录里存下的 `score`）。回看页另起一行「按当前题库重算」，并说明原因：完成后答案或解析有更新的题数（与 `revisions` 比较）、已不在当前题库的题数，旧记录没有版本标记时如实说明无法判断。分模块成绩、错题题号和解析按当前题库。记录本身从不改写。
@@ -240,14 +305,14 @@
 - 成绩页和解析页的文案保留了「不是 SAT 换算分」「不自适应分流」的限定，不要删。
 - 本地想看模考界面，可以运行工作区里的 `tools/make_exam_fixture.py`（在仓库外面），它只改 `build/demo` 里的生成物，把演示题临时标成可模考。
 
-## 6. 首页与学习时长
+## 7. 首页与学习时长
 
-首页由七个板块组成，在 `renderHome()` 里按固定顺序输出：今日练习、练习日历、错题复习、全真模考、学习概览、周学习报告、最近练习。排版只靠 CSS 网格的 `grid-template-areas` 决定，板块自己用容器查询适应宽度。
+首页由七个板块组成，在 `renderHome()` 里按固定顺序输出：今日练习、练习日历、错题本、全真模考、学习概览、周学习报告、最近练习。排版只靠 CSS 网格的 `grid-template-areas` 决定，板块自己用容器查询适应宽度。
 
 - **排版**：三列网格（两列等宽 + 右侧 330px），`.home` 的 `grid-template-areas` 为 `today today calendar / review exam stats / weekly weekly recent`，外层 `.home-wrap` 最宽 1120px；860px 以下改成单列，按上面的输出顺序排列。
 - **练习日历**：`calendarBlock()`。有练习的日期 = 当天有学习时长，或者当天有提交记录。可以切换本周 / 本月。连续学习天数在今天还没练时从昨天往前数。
 - **今日练习**：今日学习时长、今日已做题目（当天的提交次数，含重做）。
-- **错题复习**：待掌握错题、今日到期复习。
+- **错题本**：待掌握错题（在错题本里并且还没掌握的题数）、今日到期复习；按钮是「打开错题本」和「练到期复习」。
 - **全真模考**：可用模考数量、上次成绩，按钮进入模考中心；有进行中的模考时变成「继续模考」。
 
 学习时长由练习页记录，代码在共享脚本 `learning_storage.js` 的末尾：
@@ -259,7 +324,7 @@
 - **只在本机，不上传云端，也不跨设备合并。** 换设备或清除浏览器数据后会归零。如果后端要同步它，建议按天取各设备的较大值或按设备分别累加，不要简单覆盖。
 - 首页用 `summarizeSatStudyTime(learningStorage)` 读取，返回 `{ today, week, total }`（秒）；显示用 `formatSatStudyTime()`。
 
-## 7. 已知问题和建议
+## 8. 已知问题和建议
 
 - **套题标题是内部标识。** 例如 `01 2025 10 Apac B`、`04 OCT SAT Na 2`。建议数据库里给每套题一个显示用的标题（如「2025 年 10 月 · 亚太 B 卷」）以及年份、地区、卷别字段，首页卡片就能按年份和地区分组。
 - **学习诊断的细分题型是原始标签。** 例如 `precise_word_choice`、`vocabulary_in_context`、「未细分」，同一个意思有多种写法。建议数据库把 `subtype` 归并成固定的一组，并提供中文名。

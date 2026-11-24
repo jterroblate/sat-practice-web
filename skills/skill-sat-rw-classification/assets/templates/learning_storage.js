@@ -421,3 +421,92 @@ async function satFillDictionaryLayer(layer, escape) {
     + (missing.length ? `<p class="sat-dictionary-note">这台 Mac 还没有下载《${escape(missing.join("》《"))}》。打开“词典”App 的设置，勾选后会自动下载，之后这里直接显示。</p>` : "")
     + link;
 }
+
+/* ---------- 错题本 ----------
+   A question is in the mistake book when the learner added it by hand (`starred`),
+   or answered it wrong and has not taken it out since. Three timestamps decide the
+   second case, and each only ever moves forward, so records merged from two places
+   agree: `lastWrongAt` is the latest wrong answer (records older than that field
+   only have `firstWrongAt`), `bookRemovedAt` is when the learner last took the
+   question out, and `bookRestoredAt` is when a removal was last undone. A later
+   wrong answer, or an undo, brings the question back. Both pages decide membership
+   here and nowhere else. */
+const SAT_ERROR_TAGS = [["vocabulary", "词汇"], ["comprehension", "文章理解"], ["evidence", "证据定位"], ["logic", "逻辑推断"],
+  ["grammar", "语法规则"], ["careless", "粗心"], ["time", "时间不足"]];
+function satInMistakeBook(record) {
+  const value = record && typeof record === "object" && !Array.isArray(record) ? record : {};
+  if (value.starred) return true;
+  if (!value.firstWrongAt) return false;
+  const stamp = text => Date.parse(text || "") || 0;
+  return Math.max(stamp(value.lastWrongAt), stamp(value.firstWrongAt), stamp(value.bookRestoredAt)) > stamp(value.bookRemovedAt);
+}
+// The later of two timestamps, for fields that only ever move forward.
+function satLaterStamp(left, right) {
+  const stamp = text => Date.parse(text || "") || 0;
+  return (stamp(left) >= stamp(right) ? left || right : right) || null;
+}
+// "Now", but later than every timestamp given: two events in the same millisecond keep their order.
+function satStampAfter(...stamps) {
+  const latest = Math.max(0, ...stamps.map(text => Date.parse(text || "") || 0));
+  return new Date(Math.max(Date.now(), latest + 1)).toISOString();
+}
+// What changes on a record when a question is taken out of the mistake book, and when that is undone.
+function satMistakeRemoval(record) {
+  return { starred: false, bookRemovedAt: satStampAfter(record.lastWrongAt, record.firstWrongAt, record.bookRestoredAt, record.bookRemovedAt) };
+}
+function satMistakeRestore(record, starred) {
+  return { starred: Boolean(starred), bookRestoredAt: satStampAfter(record.bookRemovedAt, record.bookRestoredAt) };
+}
+// The button on a practice page: take the question out, or put it in by hand. Changes the record it is given.
+function toggleSatMistakeBook(record) {
+  if (satInMistakeBook(record)) Object.assign(record, satMistakeRemoval(record));
+  else record.starred = true;
+  return record;
+}
+
+/* What the learner was looking at in the mistake book: the filters, and the
+   questions that matched, in order. The learning centre writes it when a question
+   is opened; the practice page walks that list and notes the question it is on, so
+   the book can come back to the same filters and the same place. It lives in the
+   owner-scoped store on this device only and is not part of the cloud DTO. */
+const SAT_MISTAKE_VIEW_KEY = "sat-learning:mistake-book-view:v1";
+const SAT_MISTAKE_VIEW_LIMIT = 2000;
+const SAT_MISTAKE_FILTERS = ["status", "origin", "tags", "skills", "levels"];
+function normalizeSatMistakeView(raw) {
+  const value = raw && typeof raw === "object" && !Array.isArray(raw) ? raw : {};
+  const text = (item, limit) => (typeof item === "string" ? item.slice(0, limit) : "");
+  const list = items => [...new Set((Array.isArray(items) ? items : []).filter(item => typeof item === "string" && item && item.length <= 120))].slice(0, 40);
+  const filters = {}, source = value.filters && typeof value.filters === "object" && !Array.isArray(value.filters) ? value.filters : null;
+  for (const name of SAT_MISTAKE_FILTERS) filters[name] = list(source && source[name]);
+  const questions = [], seen = new Set();
+  for (const item of Array.isArray(value.questions) ? value.questions : []) {
+    if (!item || typeof item.questionId !== "string" || !item.questionId || seen.has(item.questionId)) continue;
+    if (typeof item.route !== "string" || !/^(sets|collections|categories)\/[A-Za-z0-9._-]+\.html$/.test(item.route)) continue;
+    seen.add(item.questionId);
+    questions.push({ questionId: item.questionId.slice(0, 120), route: item.route });
+    if (questions.length >= SAT_MISTAKE_VIEW_LIMIT) break;
+  }
+  return {
+    version: 1,
+    // No stored filters at all means the book has not been used yet: the page then starts from its defaults.
+    hasFilters: Boolean(source),
+    filters, query: text(value.query, 80), sort: text(value.sort, 20),
+    questions, startedAt: text(value.startedAt, 40), lastQuestionId: text(value.lastQuestionId, 120)
+  };
+}
+function readSatMistakeView(store) {
+  try { return normalizeSatMistakeView(JSON.parse(store.getItem(SAT_MISTAKE_VIEW_KEY) || "null")); }
+  catch { return normalizeSatMistakeView(null); }
+}
+// Re-reads the stored view first, so the learning centre and a practice page change only their own part.
+function updateSatMistakeView(store, patch) {
+  if (!store.ready()) return false;
+  try {
+    const current = readSatMistakeView(store), merged = { ...current, ...patch };
+    if (!current.hasFilters && !(patch && patch.filters)) delete merged.filters;
+    const { hasFilters, ...view } = normalizeSatMistakeView(merged);
+    if (!hasFilters) delete view.filters;
+    store.setItem(SAT_MISTAKE_VIEW_KEY, JSON.stringify(view));
+    return true;
+  } catch { return false; }
+}
