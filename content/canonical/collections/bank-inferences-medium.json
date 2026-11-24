@@ -1,0 +1,1134 @@
+{
+  "schemaVersion": "sat-canonical-question-collection-v1",
+  "contentId": "collection-bank-inferences-medium",
+  "title": "Inferences · Medium",
+  "section": "reading_writing",
+  "questionCount": 25,
+  "questions": [
+    {
+      "question_id": "bank_rw_002104",
+      "section": "reading_writing",
+      "question_number": 1,
+      "passage": "In her 2021 article \"Throwaway History: Towards a Historiography of Ephemera,\" scholar Anne Garner discusses John Johnson (1882-1956), a devoted collector of items intended to be discarded, including bus tickets and campaign pamphlets. Johnson recognized that scholarly institutions considered his expansive collection of ephemera to be worthless—indeed, it wasn't until 1968, after Johnson's death, that Oxford University's Bodleian Library acquired the collection, having grasped the items' potential value to historians and other researchers. Hence, the example of Johnson serves to ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "demonstrate the difficulties faced by contemporary historians in conducting research at the Bodleian Library without access to ephemera."
+        },
+        {
+          "label": "B",
+          "text": "represent the challenge of incorporating examples of ephemera into the collections of libraries and other scholarly institutions."
+        },
+        {
+          "label": "C",
+          "text": "lend support to arguments by historians and other researchers who continue to assert that ephemera holds no value for scholars."
+        },
+        {
+          "label": "D",
+          "text": "illustrate both the relatively low scholarly regard in which ephemera was once held and the later recognition of ephemera's possible utility."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Inferences/Medium",
+      "source_question_number": 1,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. Johnson collected \"ephemera,\" or things that are meant to be thrown away. Scholars thought his collection was worthless to them, then later realized that it was potentially valuable. This suggests that scholars went from disregarding ephemera to recognizing their usefulness.\n\nChoice A is incorrect. This inference isn't supported. The text tells us that the Bodleian Library acquired Johnson's large collection of ephemera back in 1968, so we can assume that contemporary historians conducting research there do have access to that collection. Choice B is incorrect. This inference isn't supported. The text tells us that \"Oxford University's Bodleian Library acquired the collection,\" but it never suggests that it was a challenge to do so. Choice C is incorrect. This inference isn't supported. The text actually suggests the opposite: the example of Johnson's collection lends support to arguments that ephemera does hold value for scholars.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_002105",
+      "section": "reading_writing",
+      "question_number": 2,
+      "passage": "Some businesses believe that when employees are interrupted while doing their work, they experience a decrease in energy and productivity. However, a team led by Harshad Puranik, who studies management, has found that interruptions by colleagues can have a social component that increases employees' sense of belonging, resulting in greater job satisfaction that benefits employees and employers. Therefore, businesses should recognize that ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the interpersonal benefits of some interruptions in the workplace may offset the perceived negative effects."
+        },
+        {
+          "label": "B",
+          "text": "in order to maximize productivity, employers should be willing to interrupt employees frequently throughout the day."
+        },
+        {
+          "label": "C",
+          "text": "most employees avoid interrupting colleagues because they don't appreciate being interrupted themselves."
+        },
+        {
+          "label": "D",
+          "text": "in order to cultivate an ideal workplace environment, interruptions of work should be discouraged."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Inferences/Medium",
+      "source_question_number": 2,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because it most logically completes the text's discussion of potential benefits of interruptions in the workplace. The text indicates that a common belief in business is that interruptions to working employees decrease energy and productivity levels. However, the text goes on to explain that a research team led by Harshad Puranik has found that there could be a social benefit to these interruptions. Since the team found that workplace interruptions can increase employees' sense of belonging and job satisfaction, it follows that the interpersonal benefits of some interruptions can offset the perceived negative effects.\n\nChoice B is incorrect. Although the text presents research findings that suggest some workplace interruptions can have a positive effect on employee job satisfaction, no further information is presented to suggest at what frequency these interruptions are ideal. Furthermore, the text doesn't tie workplace interruptions to increased productivity, but rather links it to social benefits such as sense of belonging. Choice C is incorrect because the text doesn't address employees' motives for choosing not to interrupt their colleagues. The text presents research findings that suggest that there are some positive interpersonal effects of workplace interruptions that can increase employee job satisfaction. Choice D is incorrect because asking businesses to discourage workplace interruptions doesn't follow from the team's research about the benefits of workplace interruptions, nor does the text describe an ideal work environment. Instead, the text presents research suggesting that there may be positive aspects to workplace interruptions that haven't previously been considered.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_002106",
+      "section": "reading_writing",
+      "question_number": 3,
+      "passage": "Scholars have noted that F. Scott Fitzgerald's writings were likely influenced in part by his marriage to Zelda Fitzgerald, but many don't recognize Zelda as a writer in her own right. Indeed, Zelda authored several works herself, such as the novel[i] Save Me the Waltz[/i] and numerous short stories. Thus, those who primarily view Zelda as an inspiration for F. Scott's writings ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "overlook the many other factors that motivated F. Scott to write."
+        },
+        {
+          "label": "B",
+          "text": "risk misrepresenting the full range of Zelda's contributions to literature."
+        },
+        {
+          "label": "C",
+          "text": "may draw inaccurate conclusions about how F. Scott and Zelda viewed each other's works."
+        },
+        {
+          "label": "D",
+          "text": "tend to read the works of F. Scott and Zelda in an overly autobiographical light."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Inferences/Medium",
+      "source_question_number": 3,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer because it most logically completes the text's discussion of Zelda Fitzgerald's contributions to literature. The text begins by saying that many scholars view Zelda mainly in terms of her marriage to F. Scott Fitzgerald and \"don't recognize Zelda as a writer in her own right.\" The text then mentions a novel and \"numerous short stories\" that she wrote and that such scholars tend to ignore. Therefore, those scholars who focus on Zelda only as an inspiration for F. Scott's writings risk misrepresenting the full range of Zelda's contributions to literature.\n\nChoice A is incorrect. Although the text does mention that Zelda Fitzgerald \"likely influenced\" her husband's literary work, its focus is on Zelda's own writing, not on her husband's writing or factors that might have influenced it. Choice C is incorrect because the text does not discuss F. Scott and Zelda Fitzgerald's opinions of each other's works. Choice D is incorrect. Although the text does suggest that F. Scott Fitzgerald's works were \"likely influenced in part\" by his marriage to Zelda, it does not discuss autobiographical interpretations of the works of either F. Scott or Zelda.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_002107",
+      "section": "reading_writing",
+      "question_number": 4,
+      "passage": "Songbirds learn to respond to and imitate their species' songs from an early age. With each generation, small differences are introduced that result in distinct variations—called dialects—among geographically isolated populations of the same species. A research study examined whether twelve-day-old[i] Ficedula hypoleuca [/i] (pied flycatcher) nestlings prefer local dialects over the unfamiliar dialects of nonlocal[i] F. hypoleuca [/i]populations: the more begging calls the nestlings made in response to a song, the stronger their preference. The researchers found that nestlings produced more begging calls in response to their own dialect than to nonlocal dialects. Since song preference plays a role in songbird mate selection, the finding suggests that ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "[i]F. hypoleuca [/i]nestlings' preference for their own dialect likely disappears as they mature to promote socialization between different[i] F. hypoleuca [/i]populations."
+        },
+        {
+          "label": "B",
+          "text": "[i]F. hypoleuca[/i] nestlings who show an early preference for their own dialect are likely to receive more food from their caretakers than nestlings who show no preferences among any[i] F. hypoleuca[/i] dialects."
+        },
+        {
+          "label": "C",
+          "text": "[i]F. hypoleuca [/i]nestlings' preference for their own dialect likely drives them when they mature to reproduce with other[i] F. hypoleuca[/i] from local rather than nonlocal populations."
+        },
+        {
+          "label": "D",
+          "text": "[i]F. hypoleuca[/i] nestlings show a preference for both local [i]F. hypoleuca[/i] dialects and the songs of other local songbirds over the songs of nonlocal birds of any species."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Inferences/Medium",
+      "source_question_number": 4,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer. Because \"song preference plays a role in songbird mate selection,\" and because [i]F. hypoleuca[/i] nestlings display a preference for local dialects, we can infer that they will be more likely to choose mates from local populations.\n\nChoice A is incorrect. We don't have any information suggesting that this preference disappears, so there's no basis for this inference. Choice B is incorrect. Although the passage discusses the number of begging calls made in response to various [i]F. hypoleuca [/i]dialects, no mention is made about the amount of food received based on dialect preference. Therefore, there's no basis for this inference. Choice D is incorrect. There's no mention in the passage of methods of other types of local songbirds, so there's no basis for this inference.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_002108",
+      "section": "reading_writing",
+      "question_number": 5,
+      "passage": "In a study of the mechanisms underlying associative memory—or the ability to learn and remember connections between inherently unrelated things—neuroscientists Kei Igarashi, Jasmine Chavez, and others presented mice with memory tests. The team discovered that fan cells, a type of cell found in the medial temporal lobe of the brain, are necessary for the acquisition of new associative memories. They also found that fan cell activity requires dopamine, a chemical the brain produces in response to pleasure and rewards. Consequently, receiving a reward should likely help to ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "decrease an individual's capacity to utilize dopamine."
+        },
+        {
+          "label": "B",
+          "text": "increase an individual's capacity to recognize differences between unrelated things."
+        },
+        {
+          "label": "C",
+          "text": "increase an individual's capacity to form associative memories."
+        },
+        {
+          "label": "D",
+          "text": "decrease an individual's capacity to create fan cells."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Inferences/Medium",
+      "source_question_number": 5,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer because it most logically completes the text's discussion of the mechanisms underlying associative memory. The text explains that fan cells-a type of brain cell-are necessary for the acquisition of new associative memories, and that activity among these cells requires a chemical known as dopamine, which the brain produces in response to rewards. Since the brain cells that enable the formation of associative memories require dopamine in order to function, and since the brain produces dopamine in response to rewards, it can be inferred that receiving a reward should likely help to increase an individual's capacity to form associative memories.\n\nChoice A is incorrect because the relationship between rewards and dopamine sketched by the text is that rewards result in the production of dopamine, not that they cause an individual's capacity to utilize dopamine to decrease. Choice B is incorrect. The text suggests that receiving a reward would produce dopamine and thereby assist with associative memory formation. However, the text never suggests that associative memory involves the capacity to recognize differences between unrelated things, indicating only that associative memory involves remembering what connects those things. Choice D is incorrect because the text never discusses how fan cells are initially created and therefore provides no evidence for a conclusion about how receiving a reward would affect their creation.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_002109",
+      "section": "reading_writing",
+      "question_number": 6,
+      "passage": "Although military veterans make up a small proportion of the total population of the United States, they occupy a significantly higher proportion of the jobs in the civilian government. One possible explanation for this disproportionate representation is that military service familiarizes people with certain organizational structures that are also reflected in the civilian government bureaucracy, and this familiarity thus ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "makes civilian government jobs especially appealing to military veterans."
+        },
+        {
+          "label": "B",
+          "text": "alters the typical relationship between military service and subsequent career preferences."
+        },
+        {
+          "label": "C",
+          "text": "encourages nonveterans applying for civilian government jobs to consider military service instead."
+        },
+        {
+          "label": "D",
+          "text": "increases the number of civilian government jobs that require some amount of military experience to perform."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Inferences/Medium",
+      "source_question_number": 6,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because it presents the conclusion that most logically follows from the text's discussion of military veterans working in civilian government jobs in the United States. The text indicates that the proportion of military veterans working in civilian government jobs is considerably higher than the proportion of military veterans in the population as a whole. The text also notes that the unusually high representation of military veterans in these jobs may be a result of the organizational structures shared by civilian government entities and the military. Hence, it's reasonable to infer that it's the familiarity of the structures of civilian government that makes jobs there particularly attractive to military veterans.\n\nChoice B is incorrect because the text doesn't address what a typical relationship between military service and later career preferences would be, and there's no indication that it's atypical for veterans to work in civilian government jobs after they've left the military. On the contrary, the text suggests that many military veterans are drawn to such jobs. Choice C is incorrect because the text is focused on the high representation of military veterans in civilian government jobs and doesn't address nonveterans or their possible interest in military service. Choice D is incorrect because the text conveys that military veterans may be particularly interested in civilian government jobs due to the familiarity of organizational structures that are already in place, but there's no reason to think that this interest would mean that more civilian government jobs will start to require military experience.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_002110",
+      "section": "reading_writing",
+      "question_number": 7,
+      "passage": "Herbivorous sauropod dinosaurs could grow more than 100 feet long and weigh up to 80 tons, and some researchers have attributed the evolution of sauropods to such massive sizes to increased plant production resulting from high levels of atmospheric carbon dioxide during the Mesozoic era. However, there is no evidence of significant spikes in carbon dioxide levels coinciding with relevant periods in sauropod evolution, such as when the first large sauropods appeared, when several sauropod lineages underwent further evolution toward gigantism, or when sauropods reached their maximum known sizes, suggesting that ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "fluctuations in atmospheric carbon dioxide affected different sauropod lineages differently."
+        },
+        {
+          "label": "B",
+          "text": "the evolution of larger body sizes in sauropods did not depend on increased atmospheric carbon dioxide."
+        },
+        {
+          "label": "C",
+          "text": "atmospheric carbon dioxide was higher when the largest known sauropods lived than it was when the first sauropods appeared."
+        },
+        {
+          "label": "D",
+          "text": "sauropods probably would not have evolved to such immense sizes if atmospheric carbon dioxide had been even slightly higher."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Inferences/Medium",
+      "source_question_number": 7,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer because it presents the conclusion that most logically follows from the text's discussion of the relationship between atmospheric carbon dioxide and sauropod body size. The text establishes that sauropods evolved to reach enormous sizes, and it notes that some scientists have asserted that the cause of this phenomenon was increased plant production that resulted from increased atmospheric carbon dioxide. The text goes on to state, however, that atmospheric carbon dioxide levels didn't increase around the time of important periods in sauropods' evolution of larger body sizes. If significant periods of sauropod evolution toward larger sizes occurred without increased atmospheric carbon dioxide levels, that suggests that the evolution of larger sizes didn't depend on increased carbon dioxide in the atmosphere.\n\nChoice A is incorrect because the text doesn't describe any fluctuations in atmospheric carbon dioxide, so there's no evidence in the text to support the conclusion that such fluctuations had different effects on different sauropod lineages. All that the text says about atmospheric carbon dioxide levels is that there weren't increases at particular points that correspond with key moments in sauropod evolution. Choice C is incorrect because the text indicates that there weren't significant increases in atmospheric carbon dioxide around the time of important periods in sauropods' evolution toward larger body sizes, not that atmospheric carbon dioxide was higher when the largest sauropods lived than when sauropods first appeared. Choice D is incorrect because the text indicates that atmospheric carbon dioxide levels didn't increase at important periods in sauropod evolution, not that higher levels would have affected that evolution. The text provides no information about how higher levels of atmospheric carbon dioxide might have affected sauropods.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_002111",
+      "section": "reading_writing",
+      "question_number": 8,
+      "passage": "Dutch painters in the sixteenth and seventeenth centuries often showed tables filled with large wheels of cheese or carved shards of butter. Some art historians, noting that dairy products were a major component of the Dutch diet, interpret these depictions as reflections of everyday Dutch eating habits. However, a group of researchers recently reviewed hundreds of food-related paintings and found that lemons—which could only be acquired in the Netherlands at great cost, since they had to be imported from warmer climates—feature in Dutch paintings of the period more than three times as frequently as dairy products do, thereby casting doubt on the idea that ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "dairy products were a more significant component of the Dutch diet of the period than lemons were."
+        },
+        {
+          "label": "B",
+          "text": "food was a more popular subject among Dutch painters than it was among painters from other countries at the time."
+        },
+        {
+          "label": "C",
+          "text": "depictions of food in Dutch paintings of the period should be taken as realistic representations of Dutch eating habits."
+        },
+        {
+          "label": "D",
+          "text": "Dutch painters of the period may have depicted foods for symbolic reasons rather than to show what Dutch people typically ate."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Inferences/Medium",
+      "source_question_number": 8,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer. The text tells us that lemons-an expensive imported product-feature in Dutch paintings of the period more frequently than dairy products do. Since it's unlikely lemons were eaten more often than dairy, this fact casts doubt on the theory that these paintings realistically depicted Dutch diets.\n\nChoice A is incorrect. In fact, the text suggests the opposite: it says that dairy products were a \"major component of the Dutch diet,\" while lemons were an expensive import item, so we can infer that lemons were eaten much more rarely than dairy products. Choice B is incorrect. The passage doesn't mention painters from other countries, so there's no basis to make this inference. Choice D is incorrect. In fact, the text suggests that Dutch painters do have reasons for depicting foods other than to show what Dutch people typically ate. For example, lemons in a painting could indicate wealth or prosperity.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_002112",
+      "section": "reading_writing",
+      "question_number": 9,
+      "passage": "Colonized by Spain in the 1600s, New Mexico is home to a dialect of Spanish that differs significantly from dialects spoken in Spain's other former colonies in the Americas. Most notably, the New Mexican dialect retains older features of the language that other dialects lost in later centuries. But why would it have done so? New Mexico was so distant from population centers in Spain's other colonies that it attracted few colonists after its initial colonization. Geographical isolation in turn would have limited the exposure of New Mexican colonists to changes occurring to Spanish grammar and vocabulary elsewhere in the empire. Thus, the present-day uniqueness of the New Mexican dialect suggests the extent to which ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "a language can protect itself from being influenced by other languages."
+        },
+        {
+          "label": "B",
+          "text": "the grammar and vocabulary of any given language change from one generation to the next."
+        },
+        {
+          "label": "C",
+          "text": "geographical isolation can influence how a language develops."
+        },
+        {
+          "label": "D",
+          "text": "speakers of one dialect of a language can understand speakers of another dialect of that language."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Inferences/Medium",
+      "source_question_number": 9,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer because it is the choice that most logically completes the text. The text mentions a dialect of Spanish spoken in New Mexico, which was colonized by Spain in the 1600s. The text then states that the New Mexican dialect differs greatly from other Spanish dialects in that it still has characteristics of an older Spanish that other dialects eventually lost. After asking why this might be, the text points out that the New Mexico colony was distant from Spain's other colonies, making it less attractive to colonists after the initial colonization. This geographic isolation limited the colony's exposure to other Spanish colonists who would have otherwise introduced the changes to the Spanish language that occurred in their respective colonies. It can therefore be inferred that this isolation is a reason why the New Mexican dialect still has characteristics of an older Spanish, while the Spanish dialects spoken in less isolated areas that have more interaction with speakers of other dialects would lose those characteristics over time. Thus, the most logical completion of the text is that geographical isolation can influence how a language develops.\n\nChoice A is incorrect because the text discusses different dialects of Spanish, not different languages altogether. Choice B is incorrect because the text focuses on how the New Mexican dialect has stayed the same over time in some ways, not on how it has changed from one generation to the next. Choice D is incorrect because though the text discusses how the New Mexican dialect of Spanish is different from others, it does not discuss how speakers of different dialects are able to understand each other.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_002113",
+      "section": "reading_writing",
+      "question_number": 10,
+      "passage": "When the Vinland Map, a map of the world purported to date to the mid-1400s, surfaced in 1957, some scholars believed it demonstrated that European knowledge of the eastern coast of present-day North America predated Christopher Columbus's 1492 arrival. In 2021, a team including conservators Marie-France Lemay and Paula Zyats and materials scientist Anikó Bezur performed an extensive analysis of the map and the ink used. They found that the ink contains titanium dioxide, a compound that was first introduced in ink manufacturing in the early 1900s. Therefore, the team concluded that ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "mid-1400s Europeans could not have known about the eastern coast of present-day North America."
+        },
+        {
+          "label": "B",
+          "text": "the Vinland Map could not have been drawn by mid-1400s mapmakers."
+        },
+        {
+          "label": "C",
+          "text": "mapmakers must have used titanium compounds in their ink in the 1400s."
+        },
+        {
+          "label": "D",
+          "text": "there isn't enough information to determine when the ink was created."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Inferences/Medium",
+      "source_question_number": 10,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer because it most logically completes the text's discussion of Lemay, Zyats, and Bezur's 2021 analysis of the Vinland Map. The text indicates that while some scholars have believed that the map was drawn in the mid-1400s, the 2021 analysis showed the presence of the compound titanium dioxide in the ink used to draw the map. The text goes on to say that titanium dioxide wasn't used to manufacture ink until the early 1900s, which means that ink containing this compound couldn't have been available to mapmakers in the 1400s. Since mapmakers in the mid-1400s couldn't have used ink with titanium dioxide, it follows that the Vinland Map couldn't have been drawn by mid-1400s mapmakers.\n\nChoice A is incorrect because the 2021 finding that the ink used to draw the Vinland Map wasn't available until the early 1900s doesn't imply that Europeans in the mid-1400s couldn't have known about the eastern coast of North America. While this finding suggests that the map couldn't have been created in the mid-1400s, it doesn't preclude the possibility that Europeans nevertheless had knowledge-and perhaps even drew other maps that are no longer in existence or are yet to be discovered by researchers-of the eastern coast of present-day North America as early as the mid-1400s. Choice C is incorrect because there's nothing in the text that suggests that the 2021 discovery of the presence of titanium dioxide in the ink used to draw the Vinland Map caused Lemay, Zyats, and Bezur to question or reach a new conclusion about when mapmakers began using ink containing titanium compounds. Instead, the text indicates that titanium dioxide wasn't used in ink before the early 1900s. This knowledge led the team to conclude that the map, which was drawn with ink containing titanium dioxide, couldn't have been created in the mid-1400s. Choice D is incorrect because although the text doesn't indicate\nthat Lemay, Zyats, and Bezur established an exact date for the creation of the ink that was used to draw the Vinland Map, the text does say that titanium dioxide was introduced in ink manufacturing in the early 1900s. This fact provides enough information to determine that the ink that was used to draw the map was created no earlier than the early 1900s. This finding, in turn, led the team to conclude that the Vinland Map couldn't have been drawn in the mid-1400s.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_002114",
+      "section": "reading_writing",
+      "question_number": 11,
+      "passage": "It's common for jazz musicians and fans to refer to certain songs as having \"swing,\" indicating that the songs provoke a strong feeling, like the impulse to tap one's foot or dance. The exact acoustic properties that give a song swing, however, have long been thought to be undefinable. To investigate swing, a team led by physicist Corentin Nelias delayed the downbeats and synchronized the offbeats in jazz piano solos and asked jazz musicians to compare the intensity of swing in each modified piece with the intensity of swing in the original piece. They found that participants were more than seven times likelier to characterize the modified songs as having swing than to characterize the original versions as having swing, suggesting that ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "synchronized offbeats tend to give a song swing regardless of whether downbeats are delayed."
+        },
+        {
+          "label": "B",
+          "text": "the acoustic properties that give a song swing are not easy for jazz musicians to manipulate."
+        },
+        {
+          "label": "C",
+          "text": "jazz songs that feature the piano are more likely to have swing than are jazz songs that do not feature the piano."
+        },
+        {
+          "label": "D",
+          "text": "the timing of downbeats and offbeats may play a crucial role in giving a song swing."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Inferences/Medium",
+      "source_question_number": 11,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. The passage tells us that participants were \"more than seven times likelier to characterize the modified songs as having swing than to characterize the original versions as having swing.\" Because the modified songs had been changed by altering the timing of the downbeats and offbeats, this suggests that the timing of downbeats and offbeats may play a crucial role in giving a song swing.\n\nChoice A is incorrect. Although the passage mentions that the researchers \"synchronized the offbeats\" in the modified songs, they also \"delayed the downbeats\" in those songs. Because we can't disentangle whether it was the synchronized offbeats, the delayed downbeats, or the combination of both that increased the song's swing, we don't have enough information to make this inference. Choice B is incorrect. The passage doesn't mention whether or not it's difficult for a jazz musician to give a song swing, so there's no basis for this inference. Choice C is incorrect. The passage doesn't compare jazz songs that feature piano to those that don't, so there's no basis for this inference.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_002115",
+      "section": "reading_writing",
+      "question_number": 12,
+      "passage": "The Indus River valley civilization flourished in South Asia from 3300 BCE to 1300 BCE. Many examples of the civilization's writing system exist, but researchers haven't yet deciphered it or identified which ancient language it represents. Nevertheless, archaeologists have found historical artifacts, such as clay figures and jewelry, that provide information about the civilization's customs and how its communities were organized. The archaeologists' findings therefore suggest that______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "investigating an ancient civilization is easier without knowledge of the civilization's language."
+        },
+        {
+          "label": "B",
+          "text": "knowing an ancient civilization's language isn't necessary in order to learn details about the civilization."
+        },
+        {
+          "label": "C",
+          "text": "archaeological research should focus on finding additional artifacts rather than deciphering ancient languages."
+        },
+        {
+          "label": "D",
+          "text": "examining the civilization's historical artifacts has resolved the debate about this civilization's language."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Inferences/Medium",
+      "source_question_number": 12,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer because it most logically completes the text's discussion of the Indus River valley civilization. The text establishes that archaeologists haven't been able to interpret the Indus River valley civilization's writing system but have nevertheless acquired information about the civilization through historical artifacts. The fact that archaeologists have been able to learn about the Indus River valley civilization's customs and community organization from historical artifacts suggests that it isn't necessary to understand an ancient civilization's language to learn about the civilization.\n\nChoice A is incorrect because the text doesn't discuss how easy it is to investigate ancient civilizations with or without knowledge of the civilization's language; rather, it states that even though researchers have not yet deciphered the language of the Indus River valley civilization, they are still able to learn about it through historical artifacts. Choice C is incorrect because the text doesn't make any claims as to what the focus of archaeological research should be. Rather, the text discusses how archaeologists have been able to learn about an ancient civilization through historical artifacts despite not understanding the civilization's language. Choice D is incorrect because the text states that the civilization's language has not yet been interpreted; it makes no mention of a debate about the language. Instead, the text suggests that examination of the historical artifacts has allowed archaeologists to learn about the civilization but has not aided thus far in deciphering its language.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_002116",
+      "section": "reading_writing",
+      "question_number": 13,
+      "passage": "To investigate the history of plate subduction-when one of Earth's tectonic plates slides beneath another-Sarah M. Aarons and colleagues compared ancient rocks from the Acasta Gneiss Complex in Canada to modern rocks. Using isotope analysis, the researchers found that Acasta rocks dating to about 4.02 billion years ago (bya) most strongly resemble modern rocks formed in a plume setting (an area in which hot rocks from Earth's mantle flow upward into the crust). By contrast, they found that Acasta rocks dating to about 3.75 bya and 3.6 bya have an isotope composition that is similar to that of modern rocks formed in a subduction setting. Aarons's team therefore concluded that ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "subduction-like processes began occurring in some locations no later than 3.75 bya."
+        },
+        {
+          "label": "B",
+          "text": "subduction replaced mantle plume formation as the most common geological process by about 4.02 bya."
+        },
+        {
+          "label": "C",
+          "text": "the majority of the rocks in the Acasta Gneiss Complex formed through subduction."
+        },
+        {
+          "label": "D",
+          "text": "the rocks in the Acasta Gneiss Complex are of a more recent origin than scientists previously thought."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Inferences/Medium",
+      "source_question_number": 13,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. Because researchers found \"Acasta rocks dating to about 3.75 bya\" were similar to \"modern rocks formed in a subduction setting,\" we can infer that subduction-like processes must have begun occurring in the Acasta Gneiss Complex by this time.\n\nChoice B is incorrect. We only know about geological processes at the Acasta Gneiss Complex, so we do not have information to make inferences about geological processes in general. Also, notice that the rocks dated to 4.02 bya were found to still be formed in a plume setting, so the transition must have happened after this time. Choice C is incorrect. There's no mention in the passage of what proportion of the rocks within Acasta Gneiss Complex were formed through subduction, so there's no basis for this inference. Choice D is incorrect. The passage discusses various rocks in the Acasta Gneiss Complex that are dated to different periods of time, but nothing in the passage suggests that these dates are or were wrong.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_002117",
+      "section": "reading_writing",
+      "question_number": 14,
+      "passage": "The Haitian Declaration of Independence was issued in 1804, bringing to an end the revolution against colonial France that began in 1791. Written in French, which was not the first language of most Haitians but which was used throughout Europe as the language of international diplomacy, the declaration notes that Haiti will not bring rebellion to other Caribbean nations, promises to respect the sovereignty of its neighbors-widely understood as a reassurance to the United States-and sets up Haiti as an example for future struggles against colonizers (an implicit reference to the many colonies then found in the Americas). So even though the declaration is explicitly addressed to the Haitian people, it's reasonable to conclude that ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "aspects of the declaration were modeled on similar documents from other countries."
+        },
+        {
+          "label": "B",
+          "text": "the French government may have been surprised by the declaration."
+        },
+        {
+          "label": "C",
+          "text": "many Haitian people opposed the revolution and the declaration."
+        },
+        {
+          "label": "D",
+          "text": "the declaration actually had several intended audiences."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Inferences/Medium",
+      "source_question_number": 14,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. The passage tells us that the declaration was written in a language important to European diplomacy but not most Haitians, states that the declaration included \"a reassurance to the United States,\" and made implicit references to colonies in the Americas. Because of the messages within the declaration that were largely irrelevant to the Haitian people, we can assume that the Haitian people were not the only audience for this document.\n\nChoice A is incorrect. There's no mention in the passage of similar documents in other countries, so there's no basis for this inference. Choice B is incorrect. Although there's an implicit reference to European governments when the passage discusses how the declaration was written in French, \"which was used throughout Europe as the language of international diplomacy,\" there is no discussion of the French government's response to the declaration. Therefore, there's no basis for this inference. Choice C is incorrect. The passage doesn't mention the popularity of the revolution and declaration among the Haitian people, so there's no basis for this inference.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_002118",
+      "section": "reading_writing",
+      "question_number": 15,
+      "passage": "[i]Euphorbia esula[/i] (leafy spurge) is a Eurasian plant that has become invasive in North America, where it displaces native vegetation and sickens cattle. [i] E. esula [/i]can be controlled with chemical herbicides, but that approach can also kill harmless plants nearby. Recent research on introducing engineered DNA into plant species to inhibit their reproduction may offer a path toward exclusively targeting [i]E. esula[/i], consequently ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "making individual [i]E. esula[/i] plants more susceptible to existing chemical herbicides."
+        },
+        {
+          "label": "B",
+          "text": "enhancing the ecological benefits of [i]E. esula[/i] in North America."
+        },
+        {
+          "label": "C",
+          "text": "enabling cattle to consume [i]E. esula[/i] without becoming sick."
+        },
+        {
+          "label": "D",
+          "text": "reducing invasive [i]E. esula[/i] numbers without harming other organisms."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Inferences/Medium",
+      "source_question_number": 15,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer because it presents the conclusion that most logically follows from the text's discussion of leafy spurge and engineered DNA. The text establishes that using chemical herbicides to control leafy spurge in North America can also harm other plants nearby. The text then indicates that it might be possible to use engineered DNA to prevent plants from reproducing, which would be useful for \"exclusively targeting\" leafy spurge. If it's possible to exclusively target leafy spurge with engineered DNA-meaning that only leafy spurge is affected by the engineered DNA-and prevent the plant from reproducing, then leafy spurge numbers could be reduced \"without harming other organisms.\"\n\nChoice A is incorrect because the text raises the possibility of using engineered DNA to prevent leafy spurge from reproducing, not to make individual leafy spurge plants more vulnerable to chemical herbicides that already exist. Choice B is incorrect because the text doesn't describe any ecological benefits of leafy spurge in North America; instead, the text is focused on using engineered DNA to prevent leafy spurge from reproducing and thereby reduce its numbers. The only ecological effects of leafy spurge in North America that are described in the text are harmful. Choice C is incorrect because the text describes the possibility of using engineered DNA to prevent leafy spurge from reproducing; it doesn't offer a way to enable cattle to eat leafy spurge without becoming sick.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_002119",
+      "section": "reading_writing",
+      "question_number": 16,
+      "passage": "By running computer simulations of the development of our solar system, André Izidoro, Rajdeep Dasgupta, and colleagues concluded that the Sun may have been surrounded by three giant dust rings before the planets started to form. The researchers suggest that the materials in the innermost ring became the four planets closest to the Sun, the materials in the middle ring produced the rest of the planets, and the materials in the outermost ring created the asteroids and other small bodies in the region beyond Neptune. In one simulation, the researchers delayed the initial formation of the middle ring, causing oversized super-Earths to begin developing from the innermost ring. The researchers therefore hypothesize that ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the middle ring formed earlier in the solar system's development than the initial simulations suggested."
+        },
+        {
+          "label": "B",
+          "text": "the timing of the initial formation of the middle ring played an important role in determining the eventual size of Earth."
+        },
+        {
+          "label": "C",
+          "text": "if the formation of the outermost ring had occurred earlier in a simulation, all the planets would have become super-Earths."
+        },
+        {
+          "label": "D",
+          "text": "the innermost ring actually formed into all the planets in our solar system, not just the four closest to the Sun."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Inferences/Medium",
+      "source_question_number": 16,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer because it most logically follows from the text's discussion of André Izidoro, Rajdeep Dasgupta, and colleagues' computer simulations of our solar system' s development. The text begins by stating that the simulations led the researchers to conclude that the solar system likely formed from three giant dust rings that encircled the Sun. The text explains that the four inner planets, including Earth, formed from the innermost ring and that the remaining planets formed from the middle ring. It then explains that in one simulation, the researchers delayed the formation of the middle ring-that is, they tested to see what would happen if the middle ring had formed later than it actually did. They found that doing so affected the size of the innermost planets, resulting in oversized super-Earths, planets that are much larger than Earth. Since the delayed timing had the effect of changing the size of Earth in the simulation relative to Earth's real size, it's reasonable to conclude that the timing of the middle ring's formation was important in determining Earth's eventual size.\n\nChoice A is incorrect. Although the text explains that when the researchers delayed the formation of the middle ring in one simulation, the size of the innermost planets was affected (which suggests that the middle ring likely formed earlier than it did in this simulation), the text doesn't indicate that this was an initial simulation-that is, a simulation that was conducted before other simulations. Moreover, the text makes no reference to the specific results of any other simulations; therefore, there is no basis for comparing any conclusions based on the simulation in which the middle ring's formation was delayed with conclusions based on other simulations. Choice C is incorrect because the text discusses how altering the timing of the formation of the middle ring, not the outermost ring, affected the four innermost planets' eventual size in the researchers' simulation; therefore, the simulation offers no basis for a conclusion about how the outermost ring's formation affected the size of the planets. Choice D is incorrect because there is nothing in the text to suggest that the innermost ring produced all the solar system's planets. Rather, the text states that the simulations showed that the innermost planets formed from the innermost ring and that the remaining planets formed from the middle ring.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_002120",
+      "section": "reading_writing",
+      "question_number": 17,
+      "passage": "In documents called judicial opinions, judges explain the reasoning behind their legal rulings, and in those explanations they sometimes cite and discuss historical and contemporary philosophers. Legal scholar and philosopher Anita L. Allen argues that while judges are naturally inclined to mention philosophers whose views align with their own positions, the strongest judicial opinions consider and rebut potential objections; discussing philosophers whose views conflict with judges' views could therefore ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "allow judges to craft judicial opinions without needing to consult philosophical works."
+        },
+        {
+          "label": "B",
+          "text": "help judges improve the arguments they put forward in their judicial opinions."
+        },
+        {
+          "label": "C",
+          "text": "make judicial opinions more comprehensible to readers without legal or philosophical training."
+        },
+        {
+          "label": "D",
+          "text": "bring judicial opinions in line with views that are broadly held among philosophers."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Inferences/Medium",
+      "source_question_number": 17,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer because it most logically completes the text's discussion of Anita Allen's argument about judges citing philosophers in their judicial opinions. The text indicates that judges sometimes cite philosophers when writing their judicial opinions and that, according to Allen, judges tend to cite philosophers whose views are in agreement with those of the judges themselves. Allen claims, however, that the best judicial opinions consider potential objections and rebut them, which suggests that judges may be able to strengthen their opinions by including discussions of philosophers with views contrary to their own.\n\nChoice A is incorrect because Allen's claim is that judges could improve their judicial opinions by citing philosophers who disagree with the views expressed in the opinions, which would necessarily require judges to consult philosophical works. Choice C is incorrect because there's no discussion in the text about making judicial opinions more easily understood by any particular group of readers. The focus of the text is on Allen's claim that judicial opinions could be strengthened by the inclusion of discussions of philosophers whose views disagree with those of the judges authoring the opinions. Choice D is incorrect because the text presents Allen's argument that discussing philosophers whose views judges disagree with could strengthen judicial opinions, not that doing so could bring those opinions into line with views that are popular among philosophers.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_002121",
+      "section": "reading_writing",
+      "question_number": 18,
+      "passage": "Many mosquito repellents contain natural components that work by activating multiple odor receptors on mosquitoes' antennae. As the insects develop resistance, new repellents are needed. Ke Dong and her team found that EBF, a molecular component of a chrysanthemum—flower extract, can repel mosquitoes by activating just one odor receptor—and this receptor, Or31, is present in all mosquito species known to carry diseases. Therefore, the researchers suggest that in developing new repellents, it would be most useful to ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "identify molecular components similar to EBF that target the activation of Or31 receptors."
+        },
+        {
+          "label": "B",
+          "text": "investigate alternative methods for extracting EBF molecules from chrysanthemums."
+        },
+        {
+          "label": "C",
+          "text": "verify the precise locations of Or31 and other odor receptors on mosquitoes' antennae."
+        },
+        {
+          "label": "D",
+          "text": "determine the maximum number of different odor receptors that can be activated by a single molecule."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Inferences/Medium",
+      "source_question_number": 18,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because it most logically completes the text's discussion of mosquito repellents. The text begins by explaining that many repellents work by using natural components to active multiple odor receptors on mosquitoes' antennae, and that new repellents must be created whenever mosquitoes become resistant to older ones. The text then highlights a research team's discovery that EBF, a molecular component of a chrysanthemum-flower extract, can repel mosquitoes by activating a single odor receptor, Or31, that is shared by all species of mosquitoes known to carry diseases. The text suggests that compared to the repellents mentioned earlier, a repellent that acts on the Or31 receptor would be more effective: by noting that all mosquito species known to carry diseases share the Or31 receptor, the text suggests that the Or31 receptor may be unique in this respect, meaning that a repellent such as EBF that acts on it would be more effective since it works on a single receptor shared by all mosquito species that carry diseases, rather than a combination of receptors that is not shared by all species. Once mosquitoes become resistant to EBF, it would therefore make sense for researchers to look for other molecular components similar to EBF that target the activation of Or31 receptors, since a single such component could also repel all disease-carrying mosquitoes.\n\nChoice B is incorrect because nothing in the text suggests that EBF molecules are difficult to extract from chrysanthemums and that investigating alternative extraction methods would therefore be useful for developing efficient and effective mosquito repellents. Rather, the text suggests that researchers developing new mosquito repellents should aim to identify molecular components similar to EBF, since that component targets the Or31 odor receptor shared by all species of mosquitoes known to carry diseases. Choice C is incorrect because nothing in the text suggests that researchers are unaware of the precise location of Or31 and other odor receptors in mosquitoes' antennae or that knowing this information would be useful for developing efficient and effective mosquito repellents. Rather, the text suggests that researchers developing new mosquito repellents should aim to identify molecular components similar to EBF, which targets the Or31 odor receptor. Choice D is incorrect because it doesn't logically follow that the discovery of one odor receptor shared by all disease-bearing mosquitoes should lead to further research into which repellents might activate the greatest number of odor receptors. Rather, the text suggests that researchers developing new mosquito repellents should instead search for additional molecular components that, like EBF, activate the one odor receptor that is known to be shared by all disease-bearing mosquitoes.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_002122",
+      "section": "reading_writing",
+      "question_number": 19,
+      "passage": "Astronomers investigated the Arabia Terra region of Mars because it appears to contain irregularly shaped craters that may have been caused by massive volcanic explosions. In their investigations of Arabia Terra, the researchers found remnants of ash deposits in an amount and thickness that would result from a massive volcanic eruption. However, erosion and past resurfacing events could have modified the surface of the planet. Therefore, ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the current makeup of the Arabia Terra region might not accurately reflect the volcanic activity of Mars's past."
+        },
+        {
+          "label": "B",
+          "text": "eruptions from Mars's volcanoes were likely not as massive as astronomers previously believed."
+        },
+        {
+          "label": "C",
+          "text": "ash was most likely expelled from multiple different volcanoes on Mars's surface."
+        },
+        {
+          "label": "D",
+          "text": "the craters found in the Arabia Terra region were necessarily created by events other than volcanic eruptions."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Inferences/Medium",
+      "source_question_number": 19,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because it presents the conclusion that most logically follows from the text's discussion of the Arabia Terra region of Mars. According to the text, there are craters in Arabia Terra that could be the result of volcanic activity, and researchers have found evidence of ash deposits consistent with a large eruption. The text goes on to note, however, that erosion and other events could have altered the surface of Mars. This observation suggests that current conditions on Mars's surface are not necessarily a reliable guide to past events-some signs of past events could have been transformed or erased entirely-and thus the current makeup of Arabia Terra may not accurately reflect past volcanic activity.\n\nChoice B is incorrect because the text suggests only that past events could have changed Mars's surface such that its current appearance isn't a reliable guide to past activity, not that it's likely that past eruptions were not as massive as astronomers previously believed. Nothing in the text supports a conclusion about the likely size of past eruptions. Choice C is incorrect because the observation that resurfacing events could have changed the appearance of Mars doesn't imply that the ash discussed in the text likely came from multiple volcanoes. Although it's possible that the ash came from different volcanoes, there's no information in the text supporting a conclusion about how likely that possibility is. Choice D is incorrect because nothing in the text suggests that the Arabia Terra craters had to have been created by something other than volcanic eruptions. Although the text does suggest that the evidence consistent with volcanic eruptions shouldn't be taken as definitive proof of past eruptions, that doesn't mean that the craters couldn't have been created by eruptions, only that we can't be certain they were.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_002123",
+      "section": "reading_writing",
+      "question_number": 20,
+      "passage": "The ancient Sumerian civilization formed around 4000 BCE between two large rivers in an area that is now Iraq and Syria. The extremely hot and sunny weather in that area helped crops grow very quickly, but it also made it hard to keep the crops from drying up and dying. So, the Sumerians used water from the rivers in their farming. That method worked so well that they often could harvest even more crops than they needed in a season. As a result, the Sumerians ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "harvested crops only on the hottest days of each season."
+        },
+        {
+          "label": "B",
+          "text": "found ways to shield their crops from the sun."
+        },
+        {
+          "label": "C",
+          "text": "did not begin farming until long after 4000 BCE."
+        },
+        {
+          "label": "D",
+          "text": "were able to store extra crops for later use."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Inferences/Medium",
+      "source_question_number": 20,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer because it presents the conclusion that most logically completes the text's discussion of Sumerian civilization and crop growth. The text mentions the hot, sunny weather in the area where the Sumerians lived, which made crops grow quickly but also made it difficult to keep them alive. The Sumerians solved this problem by using river water for their farming-as a result, they often harvested more crops than were needed in a season. It follows that the Sumerians must have needed to find something to do with the surplus crops-that is, they stored the extra crops for later use.\n\nChoice A is incorrect because it doesn't logically follow that a surplus in crops would lead the Sumerians to choose only certain days of the season to harvest. Nor is there any indication in the text that the Sumerians improved their farming methods with the goal of reducing the time spent farming. Choice B is incorrect because the text doesn't suggest that the Sumerians tried to shield their crops from the sun: in fact, the text indicates that the sunny weather helped crops grow very quickly and that the Sumerians used river water to allow crops to be exposed to the sun without dying. Choice C is incorrect. Having a surplus of crops wouldn't have caused the Sumerians to begin farming until long after 4000 BCE: in fact, since the text indicates that the Sumerian civilization formed around 4000 BCE and farming was a part of that civilization, the statement that Sumerians only began farming long after 4000 BCE isn't supported by the text.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_002124",
+      "section": "reading_writing",
+      "question_number": 21,
+      "passage": "As the name suggests, dramaturges originated in theater, where they continue to serve a variety of functions: conducting historical research for directors, compiling character biographies for actors, and perhaps most importantly, helping writers of plays and musicals to hone the works' stories and characters. Performance scholar Susan Manning observes that many choreographers, like playwrights and musical theater writers, are concerned with storytelling and characterization. In fact, some choreographers describe the dances they create as expressions of narrative through movement; it is therefore unsurprising that ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "dramaturges can have a profound impact on the artistic direction of plays and musicals."
+        },
+        {
+          "label": "B",
+          "text": "choreographers developing dances with narrative elements frequently engage dramaturges to assist in refining those elements."
+        },
+        {
+          "label": "C",
+          "text": "dances by choreographers who incorporate narrative elements are more accessible to audiences than dances by choreographers who do not."
+        },
+        {
+          "label": "D",
+          "text": "some directors and actors rely too heavily on dramaturges to complete certain research tasks."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Inferences/Medium",
+      "source_question_number": 21,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer. Dramaturges help playwrights with storytelling and characterization. Choreographers often tell stories through dance, so they are also concerned with storytelling and characterization. This suggests that the fact that choreographers seek the help of dramaturges with the storytelling aspects of their dances should be \"unsurprising.\"\n\nChoice A is incorrect. This inference isn't supported. The beginning of the text does imply that this is true, but the end is leading to a conclusion about how choreographers use dramaturges. Choice C is incorrect. This inference isn't supported. The text never mentions dances by choreographers who don't incorporate narrative elements. Choice D is incorrect. This inference isn't supported. The text mentions in passing that directors use dramaturges to conduct research, but it never suggests that directors and actors are too reliant on them. Also, the text is leading to a conclusion about how choreographers use dramaturges.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_002125",
+      "section": "reading_writing",
+      "question_number": 22,
+      "passage": "Several artworks found among the ruins of the ancient Roman city of Pompeii depict a female figure fishing with a cupid nearby. Some scholars have asserted that the figure is the goddess Venus, since she is known to have been linked with cupids in Roman culture, but University of Leicester archaeologist Carla Brain suggests that cupids may have also been associated with fishing generally. The fact that a cupid is shown near the female figure, therefore, ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "is not conclusive evidence that the figure is Venus."
+        },
+        {
+          "label": "B",
+          "text": "suggests that Venus was often depicted fishing."
+        },
+        {
+          "label": "C",
+          "text": "eliminates the possibility that the figure is Venus."
+        },
+        {
+          "label": "D",
+          "text": "would be difficult to account for if the figure is not Venus."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Inferences/Medium",
+      "source_question_number": 22,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because it presents the conclusion that most logically completes the text's discussion about the significance of the cupid found at Pompeii. The text indicates that the cupid is near a statue of a female figure who is fishing, and it goes on to indicate that because Venus is associated with cupids, some scholars believe the female figure to be the goddess Venus. But the text then says that, according to archaeologist Carla Brain, cupids may have also been associated with the activity of fishing, which, if true, would suggest that the mere appearance of a cupid near a female figure engaged in fishing does not indicate with certainty that the figure is Venus (that is, the cupid might be associated with fishing, and the figure might be anyone at all).\n\nChoice B is incorrect because the text says nothing about how often Venus was depicted fishing in Roman art: it only implies that in certain instances a female figure may or may not be Venus. Choice C is incorrect because Carla Brain's proposed explanation for the presence of the cupids makes no reference to the female figure, and so the possibility that the figure in the artworks is in fact Venus cannot be definitively eliminated. Choice D is incorrect because there is nothing in the text to suggest that the only reasonable way to interpret the figure is as Venus.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_002126",
+      "section": "reading_writing",
+      "question_number": 23,
+      "passage": "Ana Castillo's 1986 novel [i]The Mixquiahuala Letters[/i] is a story told entirely through expressive letters from the narrator to her friend—letters that Castillo suggests could be read in several different orders. As they began reading it in class, some students remarked that they found the novel's letter format daunting and its treatment of gender relations old-fashioned. The professor, however, pointed out that the novel is written in modern-sounding language and addresses issues that still matter today, suggesting that [i]The Mixquiahuala Letters[/i] ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "has more to say about gender relations than other novels from the same period."
+        },
+        {
+          "label": "B",
+          "text": "is more relevant to contemporary audiences than it may seem at first."
+        },
+        {
+          "label": "C",
+          "text": "is easier to read than many contemporary novels that focus on friendship."
+        },
+        {
+          "label": "D",
+          "text": "is best understood after multiple readings in different orders."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Inferences/Medium",
+      "source_question_number": 23,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer because it most logically completes the text's discussion of Ana Castillo's 1986 novel [i]The Mixquiahuala Letters[/i]. The text states that the novel consists entirely of letters from the narrator to her friend-a format that some students reading the novel in a class found intimidating. According to the text, those students also found the novel's treatment of gender to be old-fashioned. In response to the students' concerns, their professor emphasized the novel's relevance: it's written in modern-sounding language and addresses issues that still matter. This, in turn, suggests that [i]The Mixquiahuala Letters[/i] is more relevant to contemporary audiences than it may initially seem.\n\nChoice A is incorrect because the professor's response to the students only mentions [i]The Mixquiahuala Letters[/i]: it doesn't compare the novel to others from the same period. Choice C is incorrect because nothing in the professor's response to the students compares [i]The Mixquiahuala Letters[/i] to contemporary novels about friendship. Choice D is incorrect because the professor's response to the students doesn't address the idea of reading the novel's letters multiple times and in different orders.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_002127",
+      "section": "reading_writing",
+      "question_number": 24,
+      "passage": "Biologist Natacha Bodenhausen and colleagues analyzed the naturally occurring bacterial communities associated with leaves and roots of wild[i] Arabidopsis thaliana[/i], a small flowering plant. The researchers found many of the same bacterial genera in both the plants' leaves and roots. To explain this, the researchers pointed to the general proximity of [i]A. thaliana [/i]leaves to the ground and noted that rain splashing off soil could bring soil-based bacteria into contact with the leaves. Alternatively, the researchers noted that wind, which may be a source of bacteria in the aboveground portion of plants, could also bring bacteria to the soil and roots. Either explanation suggests that ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "bacteria carried by wind are typically less beneficial to [i]A. thaliana[/i] than soil-based bacteria are."
+        },
+        {
+          "label": "B",
+          "text": "some bacteria in [i]A. thaliana[/i] leaves and roots may share a common source."
+        },
+        {
+          "label": "C",
+          "text": "many bacteria in [i]A. thaliana[/i] leaves may have been deposited by means other than rain."
+        },
+        {
+          "label": "D",
+          "text": "[i]A. thaliana[/i] leaves and roots are especially vulnerable to harmful bacteria."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Inferences/Medium",
+      "source_question_number": 24,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer. Both explanations suggest that the bacteria come from the same place: either they come from the ground and make their way to the leaves, or they come from above the ground and make their way to the roots.\n\nChoice A is incorrect. This inference isn't supported. The text never discusses any benefits of any kind of bacteria. Choice C is incorrect. This conflicts with the text. One of the theories is that the bacteria in the leaves were deposited by rain splashing off soil. Choice D is incorrect. This inference isn't supported. The text only discusses \"naturally occurring\" bacteria. It never mentions either the harms or benefits of these bacteria.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_002128",
+      "section": "reading_writing",
+      "question_number": 25,
+      "passage": "Violins made by Antonio Stradivari and other craftspeople in the sixteenth to eighteenth centuries in Cremona, Italy, produce a sound that is considered superior to that of modern stringed instruments. Some experts have claimed that the type of wood used to create Cremonese violins is responsible for their prized sound, but modern and Cremonese violins are made of the same kinds of wood: maple and spruce. New analysis, however, has revealed unique indications that the wood in the older violins was chemically treated by the makers, leading researchers to suggest that ______",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Cremonese violins probably were not considered superior to other instruments at the time they were made."
+        },
+        {
+          "label": "B",
+          "text": "the sound quality of Cremonese violins results in part from a method the craftspeople used to alter the wood."
+        },
+        {
+          "label": "C",
+          "text": "if modern violins were made of a wood other than maple or spruce, they likely would sound as good as Cremonese violins."
+        },
+        {
+          "label": "D",
+          "text": "the current process of making violins is the same process that was used centuries ago by Cremonese craftspeople."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Inferences/Medium",
+      "source_question_number": 25,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer because it most logically completes the text's discussion of the sound quality of Cremonese and modern violins. The text states that violins made in Cremona in the sixteenth to eighteenth centuries sound superior to modern violins. It then indicates that some experts attribute the difference to different woods being used to make these violins, but both Cremonese and modern violins are made of the same woods (maple and spruce); thus this cannot account for the difference. The text then says that recent analysis suggests the wood in Cremonese violins was chemically treated by the craftspeople who made them, thereby providing an alternate explanation for the sound differences: the chemical alteration that is present in the Cremonese violins but absent from the modern ones.\n\nChoice A is incorrect because the text does not discuss how the sound quality of Cremonese violins compares with the sound quality of other instruments made during the sixteenth to eighteenth centuries. Instead it focuses on how the sound of the Cremonese violins compares with that of modern violins. Choice C is incorrect. The text states that there are differences in sound quality between the Cremonese and modern violins, and that both types of violin are made with maple or spruce. Thus the type of wood alone does not determine a violin's sound quality. Furthermore, even if the type of wood alone could account for differences in sound quality, the text makes no mention of other woods, so there is no basis to judge how modern violins would sound if they were made using woods besides maple and spruce. Choice D is incorrect because the text states that there is evidence that Cremonese craftspeople chemically treated the wood used in Cremonese violins. This evidence is attributed to \"new analysis,\" which strongly suggests that this process was unknown to modern violin makers before that analysis. If the chemical treatment was unknown until recently, the manufacturing process for modern violins must differ with respect to the previously unknown practice of chemically treating the wood.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    }
+  ]
+}

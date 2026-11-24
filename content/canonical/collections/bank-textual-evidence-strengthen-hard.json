@@ -1,0 +1,1179 @@
+{
+  "schemaVersion": "sat-canonical-question-collection-v1",
+  "contentId": "collection-bank-textual-evidence-strengthen-hard",
+  "title": "Textual Evidence (strengthen/weaken) · Hard",
+  "section": "reading_writing",
+  "questionCount": 26,
+  "questions": [
+    {
+      "question_id": "bank_rw_002242",
+      "section": "reading_writing",
+      "question_number": 1,
+      "passage": "While attending school in New York City in the 1980s, Okwui Enwezor encountered few works by African artists in exhibitions, despite New York's reputation as one of the best places to view contemporary art from around the world. According to an arts journalist, later in his career as a renowned curator and art historian, Enwezor sought to remedy this deficiency, not by focusing solely on modern African artists, but by showing how their work fits into the larger context of global modern art and art history.",
+      "prompt": "Which finding, if true, would most directly support the journalist's claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "As curator of the Haus der Kunst in Munich, Germany, Enwezor organized a retrospective of Ghanaian sculptor El Anatsui's work entitled [i]El Anatsui: Triumphant Scale[/i], one of the largest art exhibitions devoted to a Black artist in Europe's history."
+        },
+        {
+          "label": "B",
+          "text": "In the exhibition [i]Postwar: Art Between the Pacific and the Atlantic, 1945-1965[/i], Enwezor and cocurator Katy Siegel brought works by African artists such as Malangatana Ngwenya together with pieces by major figures from other countries, like US artist Andy Warhol and Mexico's David Siqueiros."
+        },
+        {
+          "label": "C",
+          "text": "Enwezor's work as curator of the 2001 exhibition [i]The Short Century: Independence and Liberation Movements in Africa, 1945-1994 [/i]showed how African movements for independence from European colonial powers following the Second World War profoundly influenced work by African artists of the period, such as Kamala Ibrahim Ishaq and Thomas Mukarobgwa."
+        },
+        {
+          "label": "D",
+          "text": "Enwezor organized the exhibition [i]In/sight: African Photographers, 1940 to the Present [/i]not to emphasize a particular aesthetic trend but to demonstrate the broad range of ways in which African artists have approached the medium of photography."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Hard",
+      "source_question_number": 1,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer because it presents a finding that, if true, would most directly support the arts journalist's claim about Enwezor's work as a curator and art historian. In the text, the arts journalist asserts that Enwezor wished not just to focus on modern African artists but also to show \"how their work fits into the larger context of global modern art and art history,\" or how their work relates to artistic developments and work by other artists elsewhere in the world. The description of [i]Postwar: Art Between the Pacific and the Atlantic, 1945-1965[/i] indicates that Enwezor and Siegel's exhibition brought works by African artists together with works by artists from other countries, thus supporting the arts journalist's claim that Enwezor sought to show works by African artists in a context of global modern art and art history.\n\nChoice A is incorrect because it describes a retrospective that wouldn't support the arts journalist's claim that Enwezor wanted to show how works by modern African artists fit into the larger context of global modern art and art history. The description of [i]El Anatsui: Triumphant Scale[/i] indicates that the retrospective focused only on the work of a single African artist, El Anatsui. The description doesn't suggest that the exhibition showed how El Anatsui's works fit into a global artistic context. Choice C is incorrect because it describes an exhibition that wouldn't support the arts journalist's claim that Enwezor wanted to show how works by modern African artists relate to the larger context of global modern art and art history. The description of [i]The Short Century: Independence and Liberation Movements in Africa, 1945–1994 [/i]indicates that the exhibition showed how African artists were influenced by movements for independence from European colonial powers following the Second World War. Although this suggests that Enwezor intended the exhibition to place works by African artists in a political context, it doesn't indicate that the works were placed in a global artistic context. Choice D is incorrect because it describes an exhibition that wouldn't support the arts journalist's claim that Enwezor wanted to show how works by modern African artists relate to the larger context of global modern art and art history. The description of[i] In/sight: African Photographers, 1940 to the Present[/i] indicates that the exhibition was intended to reveal the broad range of approaches taken by African photographers, not that the exhibition showed how photography by African artists fits into a global artistic context.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002243",
+      "section": "reading_writing",
+      "question_number": 2,
+      "passage": "Mosasaurs were large marine reptiles that lived in the Late Cretaceous period, approximately 100 million to 66 million years ago. Celina Suarez, Alberto Pérez-Huerta, and T. Lynn Harrell Jr. examined oxygen-18 isotopes in mosasaur tooth enamel in order to calculate likely mosasaur body temperatures and determined that mosasaurs were endothermic—that is, they used internal metabolic processes to maintain a stable body temperature in a variety of ambient temperatures. Suarez, Pérez-Huerta, and Harrell claim that endothermy would have enabled mosasaurs to include relatively cold polar waters in their range.",
+      "prompt": "Which finding, if true, would most directly support Suarez, Pérez-Huerta, and Harrell's claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Mosasaurs' likely body temperatures are easier to determine from tooth enamel oxygen-18 isotope data than the body temperatures of nonendothermic Late Cretaceous marine reptiles are."
+        },
+        {
+          "label": "B",
+          "text": "Fossils of both mosasaurs and nonendothermic marine reptiles have been found in roughly equal numbers in regions known to be near the poles during the Late Cretaceous, though in lower concentrations than elsewhere."
+        },
+        {
+          "label": "C",
+          "text": "Several mosasaur fossils have been found in regions known to be near the poles during the Late Cretaceous, while relatively few fossils of nonendothermic marine reptiles have been found in those locations."
+        },
+        {
+          "label": "D",
+          "text": "During the Late Cretaceous, seawater temperatures were likely higher throughout mosasaurs' range, including near the poles, than seawater temperatures at those same latitudes are today."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Hard",
+      "source_question_number": 2,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer because it presents the finding that, if true, would best support Suarez, Pérez-Huerta, and Harrell's claim about mosasaurs. The text states that Suarez, Pérez-Huerta, and Harrell's research on mosasaur tooth enamel led them to conclude that mosasaurs were endothermic, which means that they could live in waters at many different temperatures and still maintain a stable body temperature. The researchers claim that endothermy enabled mosasaurs to live in relatively cold waters near the poles. If several mosasaur fossils have been found in areas that were near the poles during the period when mosasaurs were alive and fossils of nonendothermic marine reptiles are rare in such locations, that would support the researchers' claim: it would show that mosasaurs inhabited polar waters but nonendothermic marine mammals tended not to, suggesting that endothermy may have been the characteristic that enabled mosasaurs to include polar waters in their range.\n\nChoice A is incorrect because finding that it's easier to determine mosasaur body temperatures from tooth enamel data than it is to determine nonendothermic reptile body temperatures wouldn't support the researchers' claim. Whether one research process is more difficult than another indicates nothing about the results of those processes and therefore is irrelevant to the issue of where mosasaurs lived and what enabled them to live in those locations. Choice B is incorrect because finding roughly equal numbers of mosasaur and nonendothermic marine reptile fossils in areas that were near the poles in the Late Cretaceous would suggest that endothermy didn't give mosasaurs any particular advantage when it came to expanding their range to include relatively cold polar waters, thereby weakening the researchers' claim rather than supporting it. Choice D is incorrect because finding that the temperature of seawater in the Late Cretaceous was warmer than seawater today wouldn't weaken the researchers' claim. Seawater in the Late Cretaceous could have been warmer than seawater today but still cold enough for endothermy to be advantageous to mosasaurs, so this finding wouldn't provide enough information to either support or weaken the researchers' claim.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002244",
+      "section": "reading_writing",
+      "question_number": 3,
+      "passage": "Linguist Deborah Tannen has cautioned against framing contentious issues in terms of two highly competitive perspectives, such as pro versus con. According to Tannen, this debate-driven approach can strip issues of their complexity and, when used in front of an audience, can be less informative than the presentation of multiple perspectives in a noncompetitive format. To test Tannen's hypothesis, students conducted a study in which they showed participants one of three different versions of local news commentary about the same issue. Each version featured a debate between two commentators with opposing views, a panel of three commentators with various views, or a single commentator.",
+      "prompt": "Which finding from the students' study, if true, would most strongly support Tannen's hypothesis?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "On average, participants perceived commentators in the debate as more knowledgeable about the issue than commentators in the panel."
+        },
+        {
+          "label": "B",
+          "text": "On average, participants perceived commentators in the panel as more knowledgeable about the issue than the single commentator."
+        },
+        {
+          "label": "C",
+          "text": "On average, participants who watched the panel correctly answered more questions about the issue than those who watched the debate or the single commentator did."
+        },
+        {
+          "label": "D",
+          "text": "On average, participants who watched the single commentator correctly answered more questions about the issue than those who watched the debate did."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Hard",
+      "source_question_number": 3,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer because it presents the finding that, if true, would most strongly support Tannen's hypothesis. According to the text, Tannen's hypothesis is that multiple perspectives presented in a noncompetitive format is more informative than a debate between opposing viewpoints is. If participants who saw a panel of three commentators with various views about an issue answered more questions about the issue correctly than did participants who saw a debate, that would support Tannen's hypothesis since it would show that participants who heard multiple varied perspectives were better informed than were participants who heard a debate between opposing viewpoints.\n\nChoice A is incorrect because finding that participants perceived commentators in the debate as more knowledgeable than commentators in the panel is irrelevant to Tannen's hypothesis, which is that presenting multiple perspectives on an issue is more informative to the audience than presenting opposing views of the issue is. Participants' perception of how knowledgeable panelists are has no bearing on how much participants learn from the panelists. Choice B is incorrect because finding that participants perceived commentators in the panel as more knowledgeable than a single commentator is irrelevant to Tannen's hypothesis, which is that presenting multiple perspectives on an issue is more informative to the audience than presenting opposing views of the issue is. Participants' perception of how knowledgeable panelists are has no bearing on how much participants learn from the panelists, and Tannen's hypothesis says nothing about how informative single commentators are. Choice D is incorrect because finding that participants who watched a single commentator answered more questions correctly than participants who watched the debate did wouldn't be relevant to Tannen's hypothesis, which is that hearing multiple varying perspectives is more informative than hearing a debate. Tannen's hypothesis says nothing about how informative single commentators are.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002245",
+      "section": "reading_writing",
+      "question_number": 4,
+      "passage": "Neural networks are computer models intended to reflect the organization of human brains and are often used in studies of brain function. According to an analysis of 11,000 such networks, Rylan Schaeffer and colleagues advise caution when drawing conclusions about brains from observations of neural networks. They found that when attempting to mimic grid cells (brain cells used in navigation), while 90% of the networks could accomplish navigation-related tasks, only about 10% of those exhibited any behaviors similar to those of grid cells. [u]But even this approximation of grid-cell activity has less to do with similarity between the neural networks and biological brains than it does with the rules programmed into the networks. [/u]",
+      "prompt": "Which finding, if true, would most directly support the claim in the underlined sentence?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The rules that allow for networks to exhibit behaviors like those of grid cells have no equivalent in the function of biological brains."
+        },
+        {
+          "label": "B",
+          "text": "The networks that do not exhibit behaviors like those of grid cells were nonetheless programmed with rules that had proven useful in earlier neural-network studies."
+        },
+        {
+          "label": "C",
+          "text": "Neural networks can often accomplish tasks that biological brains do, but they are typically programmed with rules to model multiple types of brain cells simultaneously."
+        },
+        {
+          "label": "D",
+          "text": "Once a neural network is programmed, it is trained on certain tasks to see if it can independently arrive at processes that are similar to those performed by biological brains."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Hard",
+      "source_question_number": 4,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. While many networks can perform navigation tasks, or even mimic grid cells, it doesn't mean they're actually behaving like biological brains-this finding suggests that the rules that govern neural network behavior are completely unlike the way real brains work.\n\nChoice B is incorrect. Although it mentions the rules that are programmed into the networks, this finding wouldn't clarify whether or not these rules have anything to do with the function of biological brains. Choice C is incorrect. This choice suggests that neural networks are modeled after multiple types of brain cells, which\nsidesteps the question of whether these rule-based networks are genuinely similar to biological brains. Choice D is incorrect. This choice doesn't address the key point of the claim, which is that the apparent similarity between neural networks and biological brains is only due to the rules programmed into the networks. It focuses on training tasks, not the originally programmed rules.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002246",
+      "section": "reading_writing",
+      "question_number": 5,
+      "passage": "In the 1980s, many musicians and journalists in the English-speaking world began to draw attention to music from around the globe—such as mbaqanga from South Africa and quan họ from Vietnam—that can't be easily categorized according to British or North American popular music genres, typically referring to such music as \"world music.\" While some scholars have welcomed this development for bringing diverse musical forms to prominence in countries where theyʼd previously been overlooked, musicologist Su Zheng claims that the concept of world music homogenizes highly distinct traditions by reducing them all to a single category.",
+      "prompt": "Which finding about mbaqanga and quan họ, if true, would most directly support Zheng's claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Mbaqanga and quan họ developed independently of each other and have little in common musically."
+        },
+        {
+          "label": "B",
+          "text": "Mbaqanga is significantly more popular in the English-speaking world than quan họ is."
+        },
+        {
+          "label": "C",
+          "text": "Mbaqanga and quan họ are now performed by a diverse array of musicians with no direct connections to South Africa or Vietnam."
+        },
+        {
+          "label": "D",
+          "text": "Mbaqanga and quan họ are highly distinct from British and North American popular music genres but similar to each other."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Hard",
+      "source_question_number": 5,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. Zheng's claim is that the idea of world music \"homogenizes\" (meaning makes similar) distinct kinds of music by reducing them to one category. In other words, Zheng thinks the concept of world music is a harmful oversimplifi cation of diverse musical forms. To support this claim, we need evidence\nthat these musical traditions are so different from one another that they should not fall into the same category. If it's true that mbaqanga and quan ho developed separately and have little in common musically, then it wouldn't make sense to lump them into the same category.\n\nChoice B is incorrect. If true, this wouldn't affect the claim. To support the claim, we need evidence that these musical traditions are so different from one another that they should not fall into the same category. A difference in popularity doesn't necessarily mean that the two musical traditions shouldn't be categorized together:\ninstead, we need to know if the music itself is similar or different. Choice C is incorrect. If true, this wouldn't affect the claim. To support the claim, we need evidence that these musical traditions are so different from each other that they should not fall into the same category. This choice doesn't do that. Choice D is incorrect. If true, this would actually weaken the claim. Zheng thinks it's reductive or oversimplifying to put distinct musical traditions into a single category. But if mbaqanga and quan ho are similar to each other, then it would makesense to put them in the same category.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002247",
+      "section": "reading_writing",
+      "question_number": 6,
+      "passage": "Archaeologist Petra Vaiglova, anthropologist Xinyi Liu, and their colleagues investigated the domestication of farm animals in China during the Bronze Age (approximately 2000 to 1000 BCE). By analyzing the chemical composition of the bones of sheep, goats, and cattle from this era, the team determined that wild plants made up the bulk of sheep's and goats' diets, while the cattle's diet consisted largely of millet, a crop cultivated by humans. The team concluded that cattle were likely raised closer to human settlements, whereas sheep and goats were allowed to roam farther away.",
+      "prompt": "Which finding, if true, would most strongly support the team's conclusion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Analysis of the animal bones showed that the cattle's diet also consisted of wheat, which humans widely cultivated in China during the Bronze Age."
+        },
+        {
+          "label": "B",
+          "text": "Further investigation of sheep and goat bones revealed that their diets consisted of small portions of millet as well."
+        },
+        {
+          "label": "C",
+          "text": "Cattle's diets generally require larger amounts of food and a greater variety of nutrients than do sheep's and goats' diets."
+        },
+        {
+          "label": "D",
+          "text": "The diets of sheep, goats, and cattle were found to vary based on what the farmers in each Bronze Age settlement could grow."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Hard",
+      "source_question_number": 6,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because it presents a finding that, if true, would most strongly support the team's conclusion that cattle were likely raised closer to human settlements than sheep and goats were. The text explains that Vaiglova, Liu, and their colleagues analyzed the chemical composition of sheep, goat, and cattle\nbones from the Bronze Age in China in order to investigate the animals' domestication, or their adaptation from a wild state to a state in which they existed in close connection with humans. According to the text, the team's analysis showed that sheep and goats of the era fed largely on wild plants, whereas cattle fed on millet-importantly, a crop cultivated by humans. If analysis of the animal bones shows that the cattle's diet also consisted of wheat, another crop cultivated by humans in China during the Bronze Age, the finding would support the team's conclusion by offering additional evidence that cattle during this era fed on human-grown crops-and, by extension, that humans raised cattle relatively close to the settlements where they grew these crops, leaving goats and sheep to roam farther away in areas with wild vegetation, uncultivated by humans.\n\nChoice B is incorrect because if it were true that sheep's and goats' diets consisted of small portions of millet, which the text states was a crop cultivated by humans, the finding would suggest that sheep and goats were raised relatively close to human settlements, weakening the team's conclusion that cattle were likely raised closer to those settlements than sheep and goats were. Choice C is incorrect because the finding that cattle generally require more food and nutrients than do sheep and goats wouldn't support the team's conclusion that cattle were likely raised closer to human settlements than sheep and goats were. Nothing in the text suggests that cattle were incapable of obtaining sufficient food and nutrients without access to human-grown crops. Hence, even if cattle's diets are found to have different requirements than the diets of sheep and goats, the cattle could have met those requirements from food located far from human settlements. Choice D is incorrect because if it were true that the diets of sheep, goats, and cattle varied based on what the farmers in each Bronze Age settlement could grow, the finding would weaken the team's conclusion that cattle were likely raised closer to human settlements than sheep and goats were, suggesting instead that all three types of animals were raised close enough to human settlements to feed on those settlements' crops.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002248",
+      "section": "reading_writing",
+      "question_number": 7,
+      "passage": "Archaeologists have held that the Casarabe culture, which emerged in the southwestern Amazon basin in the first millennium CE, was characterized by a sparse, widely distributed population and little intervention in the surrounding wilderness. Recently, however, archaeologist Heiko Prümers and colleagues conducted a study of the region using remote-sensing technology that enabled them to create three-dimensional images of the jungle\u0002covered landscape from above, and the researchers concluded that the Casarabe people developed a form of urbanism in the Amazon basin.",
+      "prompt": "Which finding about the remote-sensing images, if true, would most directly support Prümers and colleagues' conclusion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "They show shapes consistent with widely separated settlements of roughly equal small size surrounded byuncultivated jungle."
+        },
+        {
+          "label": "B",
+          "text": "They show shapes consistent with long-distance footpaths running from Casarabe territories to large cities outside the region inhabited by the Casarabe people."
+        },
+        {
+          "label": "C",
+          "text": "They show shapes consistent with scattered small farms created by clearing jungle areas near sources of fresh water."
+        },
+        {
+          "label": "D",
+          "text": "They show shapes consistent with monumental platforms and dense central settlements linked to smaller settlements by a system of canals and roadways."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Hard",
+      "source_question_number": 7,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer. This finding, if true, would support the archaeologists' conclusion. Dense central settlements linked to smaller ones would provide evidence of cities and suburbs-in other words, \"a form of urbanism.\"\n\nChoice A is incorrect. This finding, if true, would weaken the archaeologists' conclusion. Widely separated, small settlements with jungle in between would support the long-held belief that the Casarabe culture\"was characterized by a sparse, widely distributed population and little intervention in the surrounding wilderness.\" Choice B is incorrect. This choice wouldn't support the researchers' conclusion. These large cities are located outside Casarabe territory, which doesn't show evidence of Casarabe urbanism. Choice C is incorrect. This finding wouldn't support the archaeologists' conclusion. Scattered small farms in jungle clearings are not good evidence to support the existence of cities (\"a form of urbanism\").",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002249",
+      "section": "reading_writing",
+      "question_number": 8,
+      "passage": "Psychologists Dacher Keltner and Jonathan Haidt have argued that experiencing awe—a sensation of reverence and wonder typically brought on by perceiving something grand or powerful—can enable us to feel more connected to others and thereby inspire us to act more altruistically. Keltner, along with Paul K. Piff, Pia Dietze, and colleagues, claims to have found evidence for this effect in a recent study where participants were asked to either gaze up at exceptionally tall trees in a nearby grove (reported to be a universally awe-inspiring experience) or stare at the exterior of a nearby, nondescript building. After one minute, an experimenter deliberately spilled a box of pens nearby.",
+      "prompt": "Which finding from the researchers' study, if true, would most strongly support their claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Participants who had been looking at the trees helped the experimenter pick up significantly more pens than did participants who had been looking at the building."
+        },
+        {
+          "label": "B",
+          "text": "Participants who helped the experimenter pick up the pens used a greater number of positive words to describe the trees and the building in a postexperiment survey than did participants who did not help the experimenter."
+        },
+        {
+          "label": "C",
+          "text": "Participants who did not help the experimenter pick up the pens were significantly more likely to report having experienced a feeling of awe, regardless of whether they looked at the building or the trees."
+        },
+        {
+          "label": "D",
+          "text": "Participants who had been looking at the building were significantly more likely to notice that the experimenter had dropped the pens than were participants who had been looking at the trees."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Hard",
+      "source_question_number": 8,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because it presents a finding that, if true, would most strongly support the researchers' claim that they found evidence that experiencing awe can make people feel more connected to others and thus more likely to behave altruistically (with beneficial and unselfish concern for others). According to the text, the researchers tested for this effect by first having participants look at either something known to be awe-inspiring (very tall trees) or something ordinary (a plain building) and then purposely spilling pens near the participants. The finding that participants who had looked at the trees helped pick up significantly more pens than did participants who had looked at the building would support the researchers' claim by demonstrating that the people who had experienced awe behaved more altruistically when the experimenter needed help than the other participants did.\n\nChoice B is incorrect because a finding about helpful participants using positive words to describe the trees and the building after the experiment was over wouldn't have any bearing on the researchers' claim that experiencing awe increases altruistic behavior. The text doesn't address the use of positive words to describe things or suggest any connection between using such words and having experienced awe, so that behavior wouldn't serve as evidence that experiencing awe played a role in promoting helpful behavior. Choice C is incorrect because a finding that participants who didn't help the experimenter were significantly more likely than others to report having experienced awe whether they had looked at the building or the trees would weaken the researchers' claim that experiencing awe increases altruistic behavior by suggesting that the opposite might be true-that experiencing awe is in fact linked to choosing not to act in a way that benefits someone else. Choice D is incorrect because a finding about participants noticing that the experimenter had dropped the pens wouldn't have any bearing on the researchers' claim about people behaving altruistically. Being aware of a challenge or problem isn't necessarily beneficial on its own and isn't the same as offering help, so the finding wouldn't support the idea that experiencing awe increases altruistic behavior.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002250",
+      "section": "reading_writing",
+      "question_number": 9,
+      "passage": "Many governments that regularly transfer money to individuals—to provide supplemental incomes for senior citizens, for example—have long done so electronically, but other countries typically have distributed physical money and have only recently developed electronic transfer infrastructure. Researchers studied the introduction of an electronic transfer system in one such location and found that recipients of electronic transfers consumed a different array of foods than recipients of physical transfers of the same amount did. One potential explanation for this result is that individuals conceive of and allocate funds in physical money differently than they conceive of and allocate funds in electronic form.",
+      "prompt": "Which finding from the study, if true, would most directly weaken the potential explanation?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Recipients of electronic transfers typically spent their funds at a slower rate than recipients of physical transfers did."
+        },
+        {
+          "label": "B",
+          "text": "Nearly every recipient of an electronic transfer withdrew the entire amount in physical money shortly after receiving the transfer."
+        },
+        {
+          "label": "C",
+          "text": "Recipients of physical transfers tended to purchase food about as frequently as recipients of electronic transfers did."
+        },
+        {
+          "label": "D",
+          "text": "Some recipients of physical transfers received small amounts of money relatively frequently, while others received large amounts relatively infrequently."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Hard",
+      "source_question_number": 9,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer. This would weaken the explanation. If the recipients of electronic money immediately withdrew it all as physical money, then both kinds of recipients ended up spending physical money on food. So there must be some other explanation why those who initially received electronic money ate different kinds of food.\n\nChoice A is incorrect. This wouldn't weaken the explanation. If anything, it actually supports it: it demonstrates that recipients of electronic money and recipients of physical money have different spending habits. Choice C is incorrect. This wouldn't weaken the explanation. The explanation we're testing this choice against is about the way that people might \"conceive of and allocate\" physical and electronic funds differently. This choice only focuses on the timing, not what they spend the money on. Choice D is incorrect. This would have no impact on the explanation. It doesn't tell us anything about possible differences between the spending habits of those who spend physical money and those who spend money electronically.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002251",
+      "section": "reading_writing",
+      "question_number": 10,
+      "passage": "Icebergs generally appear to be mostly white or blue, depending on how the ice reflects sunlight. Ice with air bubbles trapped in it looks white because much of the light reflects off the bubbles. Ice without air bubbles usually looks blue because the light travels deep into the ice and only a little of it is reflected. However, some icebergs in the sea around Antarctica appear to be green. One team of scientists hypothesized that this phenomenon is the result of yellow-tinted dissolved organic carbon in Antarctic waters mixing with blue ice to produce the color green.",
+      "prompt": "Which finding, if true, would most directly weaken the team's hypothesis?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "White ice doesn't change color when mixed with dissolved organic carbon due to the air bubbles in the ice."
+        },
+        {
+          "label": "B",
+          "text": "Dissolved organic carbon has a stronger yellow color in Antarctic waters than it does in other places."
+        },
+        {
+          "label": "C",
+          "text": "Blue icebergs and green icebergs are rarely found near each other."
+        },
+        {
+          "label": "D",
+          "text": "Blue icebergs and green icebergs contain similarly small traces of dissolved organic carbon."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Hard",
+      "source_question_number": 10,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer because it presents a finding that, if true, would weaken the scientists' hypothesis about icebergs that appear to be green. The text indicates that most icebergs are either mostly white or blue in color but that some icebergs in Antarctica appear to be green. The text goes on to say that the scientists\nhypothesized that this green color occurs when yellow-tinted dissolved organic carbon in ocean waters mixes with blue ice. A finding that both blue icebergs and green icebergs contain similarly small traces of dissolved organic carbon would suggest that something other than yellow-tinted organic carbon causes some icebergs' green color, since the blue icebergs that contain yellow-tinted organic carbon remained blue instead of turning green.\n\nChoice A is incorrect because, according to the text, the scientists' hypothesis was that blue icebergs, not white ones, change color when their ice mixes with yellow-tinted dissolved organic carbon. A finding that white ice, because of its air bubbles, doesn't change color when it's mixed with dissolved organic carbon would therefore have no bearing on the scientists' hypothesis. Choice B is incorrect because the text focuses only on Antarctic icebergs that appear to be green. It doesn't indicate that icebergs in locations other than Antarctica have been found to have a green hue. A finding that dissolved organic carbon has a stronger yellow color in Antarctic waters than in other places would therefore have no bearing on the scientists' hypothesis that green color in icebergs in Antarctica is caused by yellow-tinted dissolved organic carbon mixing with blue ice. Choice C is incorrect because, according to the text, the scientists' hypothesis was that blue icebergs turn green when their ice mixes with yellow-tinted dissolved organic carbon in the sea around them. If that's correct, one would expect blue icebergs and green icebergs to be located at a distance from each other since all blue icebergs in an area where the waters contain yellow-tinted dissolved organic carbon would take on a green hue. A finding that blue icebergs and green icebergs are rarely found near each other would therefore strengthen, not weaken, the researchers' hypothesis.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002252",
+      "section": "reading_writing",
+      "question_number": 11,
+      "passage": "An archaeological team led by Piotr Bieliński and Sultan al-Bakri found remnants of a 4,000-year-old Bronze Ageboard game at a site in Oman. Little is left of the game except a stone board, which is carved with a grid and has places to hold game pieces. Some scholars claim that the game was largely played by traders.",
+      "prompt": "Which finding, if true, would most directly support the scholars' claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Other examples of the game dating to the same period have been found in the remains of several homes in the region, including in one home that may have belonged to a trader."
+        },
+        {
+          "label": "B",
+          "text": "Similar games have been found in other sites dating to the same period that were connected to the site in Oman via trade routes."
+        },
+        {
+          "label": "C",
+          "text": "The other known examples of the game dating to the same period have been found along routes that seem to have been used primarily by traders at the time."
+        },
+        {
+          "label": "D",
+          "text": "Remnants of other goods have been found at the site in Oman that probably also reached the location through trade."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Hard",
+      "source_question_number": 11,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer because it presents a finding that, if true, would most directly support the scholars' claim about the board game. The text explains that the remains of a 4,000-year-old board game were found in Oman. The text then states that scholars claim this board game was played mostly by traders. If the other known examples of this board game from the same time period were discovered along routes that seem to have been used primarily by traders, this finding would directly support the scholars' claim because it suggests that the game was largely played by traders who brought it with them for entertainment as they traveled.\n\nChoice A is incorrect because this finding would suggest only that a single trader may have possessed examples of the board game, perhaps for the purpose of trading or selling the game to residents of Oman. For this reason, the finding wouldn't directly support the scholars' claim that the majority of the game's players were traders. Choice B is incorrect because this finding doesn't mention the board game at all, referring only to similar games found at other sites, and would therefore provide no direct support for the scholars' claim about the board game. Choice D is incorrect because this finding doesn't mention the board game at all, referring only to the remains of other goods found at the site in Oman, and would therefore provide no direct support for the scholars' claim about the board game.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002253",
+      "section": "reading_writing",
+      "question_number": 12,
+      "passage": "In the \"language nest\" model of education, Indigenous children learn the language of their people by using it as the medium of instruction and socialization at pre-K or elementary levels. In their 2016 study of a school in an Anishinaabe community in Ontario, Canada, scholars Lindsay Morcom and Stephanie Roy (who are Anishinaabe themselves) found that the model not only imparted fluency in the Anishinaabe language but also enhanced students' pride in Anishinaabe culture overall. Given these positive effects, Morcom and Roy predict that the model increases the probability that as adults, former students of the school will transmit the language to younger generations in their community.",
+      "prompt": "Which finding, if true, would most strongly support the researchers' prediction?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Anishinaabe adults who didn't attend the school feel roughly the same degree of cultural pride as the former students of the school feel."
+        },
+        {
+          "label": "B",
+          "text": "After transferring to the school, new students experience an increase in both fluency and academic performance overall."
+        },
+        {
+          "label": "C",
+          "text": "As adults, former students of the school are just as likely to continue living in their community as individuals who didn't attend the school."
+        },
+        {
+          "label": "D",
+          "text": "As they complete secondary and higher education, former students of the school experience no loss of fluency or cultural pride."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Hard",
+      "source_question_number": 12,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer because it presents a finding that, if true, would support the researchers' prediction about the language nest model of education. The text states that Morcom and Roy studied the effects of the language nest model of education on students at an Anishinaabe school, and they found that the model-which is used with students during pre-K or elementary school-increased students' fluency in the Anishinaabe language and pride in Anishinaabe culture. The researchers predicted that the students' positive early experiences with the Anishinaabe language would lead them to be more likely to later share the language with younger generations. If former students maintain full fluency and cultural pride after finishing secondary and higher education, it follows that they would be both able and motivated to share what they know with others; this would likely result in a higher probability of transmitting the language to younger generations, as the researchers predict.\n\nChoice A is incorrect because finding that Anishinaabe adults who didn't attend the school feel approximately the same degree of cultural pride as those adults who did attend wouldn't support the researchers' prediction that former students will be more likely to share their knowledge with younger generations. This finding would\nidentify a similarity between the groups rather than a factor that might make former students more likely than other adults to transmit the language to younger people. Choice B is incorrect because finding that new students experience increased performance in language fluency and academics would suggest that the school has a positive effect on students when they attended but wouldn't reveal anything about those students' later actions as adults (such as their likelihood of sharing their knowledge with younger generations). Choice C is incorrect because finding that Anishinaabe adults who attended the school are equally likely to stay in the community as adults who didn't attend the school wouldn't support the researchers' prediction that former students will be more likely to share their knowledge with younger generations. This finding would identify a similarity between the groups rather than a factor that might make former students more likely than other adults to transmit the language to younger people.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002254",
+      "section": "reading_writing",
+      "question_number": 13,
+      "passage": "When digging for clams, their primary food, sea otters damage the roots of eelgrass plants growing on the seafloor. Near Vancouver Island in Canada, the otter population is large and well established, yet the eelgrass meadows are healthier than those found elsewhere off Canada's coast. To explain this, conservation scientist Erin Foster and colleagues compared the Vancouver Island meadows to meadows where otters are absent or were reintroduced only recently. Finding that the Vancouver Island meadows have a more diverse gene pool than the others do, Foster hypothesized that damage to eelgrass roots increases the plant's rate of sexual reproduction; this, in turn, boosts genetic diversity, which benefits the meadow's health overall.",
+      "prompt": "Which finding, if true, would most directly undermine Foster's hypothesis?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "At some sites in the study, eelgrass meadows are found near otter populations that are small and have only recently been reintroduced."
+        },
+        {
+          "label": "B",
+          "text": "At several sites not included in the study, there are large, well-established sea otter populations but no eelgrass meadows."
+        },
+        {
+          "label": "C",
+          "text": "At several sites not included in the study, eelgrass meadows' health correlates negatively with the length of residence and size of otter populations."
+        },
+        {
+          "label": "D",
+          "text": "At some sites in the study, the health of plants unrelated to eelgrass correlates negatively with the length of residence and size of otter populations."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Hard",
+      "source_question_number": 13,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer because it presents a finding that, if true, would weaken Foster's hypothesis that damage to eelgrass roots improves the health of eelgrass meadows by boosting genetic diversity. The text indicates that sea otters damage eelgrass roots but that eelgrass meadows near Vancouver Island, where there's\na large otter population, are comparatively healthy. When Foster and her colleagues compared the Vancouver Island eelgrass meadows to those that don't have established otter populations, the researchers found that the Vancouver Island meadows are more genetically diverse than the other meadows are. This finding led Foster to hypothesize that damage to the eelgrass roots encourages eelgrass reproduction, thereby improving genetic diversity and the health of the meadows. If, however, other meadows not included in the study are less healthy the larger the local otter population is and the longer the otters have been in residence, that would suggest that damage to the eelgrass roots, which would be expected to increase with the size and residential duration of the otter population, isn't leading meadows to be healthier. Such a finding would therefore weaken Foster's hypothesis.\n\nChoice A is incorrect because finding that small, recently introduced otter populations are near other eelgrass meadows in the study wouldn't weaken Foster's hypothesis. If otter populations were small and only recently established, they wouldn't be expected to have caused much damage to eelgrass roots, so even if those eelgrass meadows were less healthy than the Vancouver Island meadows, that wouldn't undermine Foster's hypothesis. In fact, it would be consistent with Foster's hypothesis since it would suggest that the greater damage caused by larger, more established otter populations is associated with healthier meadows. Choice B is incorrect because the existence of areas with otters but without eelgrass meadows wouldn't reveal anything about whether the damage that otters cause to eelgrass roots ultimately benefits eelgrass meadows. Choice D is incorrect because the health of plants other than eelgrass would have no bearing on Foster's hypothesis that damage to eelgrass roots leads to greater genetic diversity and meadow health. It would be possible for otters to have a negative effect on other plants while nevertheless improving the health of eelgrass meadows by damaging eelgrass roots.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002255",
+      "section": "reading_writing",
+      "question_number": 14,
+      "passage": "Several studies of sediment (e.g., dirt, pieces of rock, etc.) in streams have shown an inverse correlation between sediment grain size and downstream distance from the primary sediment source, suggesting that stream length has a sorting effect on sediment. In a study of sediment sampled at more than a dozen sites in Alpine streams, however, geologists Camille Litty and Fritz Schlunegger found that cross-site variations in grain size were not associated with differences in downstream distance, though they did not conclude that downstream distance is irrelevant to grain size. Rather, they concluded that sediment influx in these streams may have been sufficiently spatially diffuse to prevent the typical sorting effect from being observed.",
+      "prompt": "Which finding about the streams in the study, if true, would most directly support Litty and Schlunegger's conclusion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The streams regularly experience portions of their banks collapsing into the water at multiple points upstream of the sampling sites."
+        },
+        {
+          "label": "B",
+          "text": "The streams contain several types of sediment that are not typically found in streams where the sorting effect has been demonstrated."
+        },
+        {
+          "label": "C",
+          "text": "The streams mostly originate from the same source, but their lengths vary considerably due to the different courses they take."
+        },
+        {
+          "label": "D",
+          "text": "The streams are fed by multiple tributaries that carry significant volumes of sediment and that enter the streams downstream of the sampling sites."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Hard",
+      "source_question_number": 1,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer. This finding would support the conclusion. If stream banks are collapsing into the water at multiple points, then sediment is getting into the water at those various points. This supports the conclusion that the inflow of sediment is very spread out.\n\nChoice B is incorrect. This finding wouldn't support the conclusion. The conclusion is about the influx of sediment being \"spatially diffuse,\" meaning spread out over a large area. The type of sediment wouldn't have an impact on the conclusions. Choice C is incorrect. This finding wouldn't support the conclusion. It doesn't say anything about the influx of sediment being \"spatially diffuse\" (spread out). Choice D is incorrect. This finding wouldn't support the conclusion. Any sediment that enters downstream of the sampling sites wouldn't end up in the samples, so it wouldn't affect the findings or the conclusion.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002256",
+      "section": "reading_writing",
+      "question_number": 15,
+      "passage": "Political scientists who favor the traditional view of voter behavior claim that voting in an election does not change a voter's attitude toward the candidates in that election. Focusing on each US presidential election from 1976 to 1996, Ebonya Washington and Sendhil Mullainathan tested this claim by distinguishing between subjects who had just become old enough to vote (around half of whom actually voted) and otherwise similar subjects who were slightly too young to vote (and thus none of whom voted). Washington and Mullainathan compared the attitudes of the groups of subjects toward the winning candidate two years after each election.",
+      "prompt": "Which finding from Washington and Mullainathan's study, if true, would most directly weaken the claim made by people who favor the traditional view of voter behavior?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Subjects' attitudes toward the winning candidate two years after a given election were strongly predicted by subjects' general political orientation, regardless of whether subjects were old enough to vote at the time of theelection."
+        },
+        {
+          "label": "B",
+          "text": "Subjects who were not old enough to vote in a given election held significantly more positive attitudes towards the winning candidate two years later than they held at the time of the election."
+        },
+        {
+          "label": "C",
+          "text": "Subjects who voted in a given election held significantly more polarized attitudes toward the winning candidate two years later than did subjects who were not old enough to vote in that election."
+        },
+        {
+          "label": "D",
+          "text": "Two years after a given election, subjects who voted and subjects who were not old enough to vote were significantly more likely to express negative attitudes than positive attitudes toward the winning candidate in that election."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Hard",
+      "source_question_number": 2,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer because it presents a finding that, if true, would weaken the claim made by people who favor the traditional view of voter behavior. According to the text, people who favor that view believe that voting in an election doesn't change a voter's attitude toward the candidates in that election. If Washington and Mullainathan found that two years after an election, attitudes toward the winning candidate were significantly more polarized among subjects who had voted than among subjects who had been too young to vote, that would suggest that the act of voting did have an effect on the voters' attitudes toward the candidates, which would undermine the claim that voting doesn't change voters' attitudes.\n\nChoice A is incorrect because a finding about links between subjects' attitudes and general political orientation, regardless of age and ability to vote, wouldn't address the presence or absence of changes in attitudes among those subjects who did actually vote. Therefore, the finding wouldn't have any bearing on the claim that voting in an election doesn't change a voter's attitude toward the candidates in that election. Choice B is incorrect because a finding that positive attitudes toward a winning candidate significantly increased in the two years after the election among subjects who had been too young to vote would involve only people who didn't vote; therefore, the finding wouldn't have any bearing on the claim that when people do vote, the act of voting doesn't change their attitudes toward the candidates. Choice D is incorrect because the finding that subjects in both groups weremore likely to have negative attitudes than positive attitudes toward the winning candidate two years after an election would reflect all subjects' attitudes at one particular time whether they voted or not, rather than the presence or absence of a change in voters' attitudes after voting. Therefore, the finding would neither weaken nor strengthen the claim that voting in an election doesn't change a voter's attitude toward the candidates.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002257",
+      "section": "reading_writing",
+      "question_number": 16,
+      "passage": "Researchers hypothesized that a decline in the population of dusky sharks near the mid-Atlantic coast of North America led to a decline in the population of eastern oysters in the region. Dusky sharks do not typically consume eastern oysters but do consume cownose rays, which are the main predators of the oysters.",
+      "prompt": "Which finding, if true, would most directly support the researchers' hypothesis?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Declines in the regional abundance of dusky sharks' prey other than cownose rays are associated with regional declines in dusky shark abundance."
+        },
+        {
+          "label": "B",
+          "text": "Eastern oyster abundance tends to be greater in areas with both dusky sharks and cownose rays than in areas with only dusky sharks."
+        },
+        {
+          "label": "C",
+          "text": "Consumption of eastern oysters by cownose rays in the region substantially increased before the regional decline in dusky shark abundance began."
+        },
+        {
+          "label": "D",
+          "text": "Cownose rays have increased in regional abundance as dusky sharks have decreased in regional abundance."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Hard",
+      "source_question_number": 3,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer because it presents a finding that, if true, would most directly support the researchers' hypothesis about the connection between the dusky shark population decline and the eastern oyster population decline. The text indicates that although dusky sharks don't usually eat eastern oysters, they do consume cownose rays, which are the main predators of eastern oysters. An increase in the abundance of cownose rays in the region in response to a decline in the abundance of dusky sharks would directly support the researchers' hypothesis: a higher number of cownose rays would consume more eastern oysters, driving down\nthe oyster population.\n\nChoice A is incorrect because a finding that there's an association between a decline in the regional abundance of some of dusky sharks' prey and the regional abundance of dusky sharks wouldn't directly support the researchers' hypothesis that a decline in dusky sharks has led to a decline in eastern oysters in the region.\nAlthough such a finding might help explain why shark abundance has declined, it would reveal nothing about whether the shark decline is related to the oyster decline. Choice B is incorrect because a finding that eastern oyster abundance tends to be greater when dusky sharks and cownose rays are present than when only dusky sharks are present wouldn't support the researchers' hypothesis that a decline in dusky sharks has led to a decline in eastern oysters in the region. The text indicates that the sharks prey on the rays, which are the main predators of the oysters; if oyster abundance is found to be greater when rays are present than when rays are absent, that would suggest that rays aren't keeping oyster abundance down, and thus that a decline in rays' predators, which would be expected to lead to an increase in the abundance of rays, wouldn't bring about a decline in oyster abundance as the researchers hypothesize. Choice C is incorrect because a finding that consumption of eastern oysters by cownose rays increased substantially before dusky sharks declined in regional abundance wouldn't support the researchers' hypothesis that the decline in dusky sharks has led to a decline in eastern oysters in the region. Such a finding would suggest that some factor other than shark abundance led to an increase in rays' consumption of oysters and thus to a decrease in oyster abundance, thereby weakening the researchers' hypothesis.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002258",
+      "section": "reading_writing",
+      "question_number": 17,
+      "passage": "In the twentieth century, ethnographers made a concerted effort to collect Mexican American folklore, but they did not always agree about that folklore's origins. Scholars such as Aurelio Espinosa claimed that Mexican American folklore derived largely from the folklore of Spain, which ruled Mexico and what is now the southwestern United States from the sixteenth to early nineteenth centuries. Scholars such as Américo Paredes, by contrast, argued that while some Spanish influence is undeniable, Mexican American folklore is mainly the product of the ongoing interactions of various cultures in Mexico and the United States.",
+      "prompt": "Which finding, if true, would most directly support Paredes's argument?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The folklore that the ethnographers collected included several songs written in the form of a [i]décima[/i], a type of poem originating in late sixteenth-century Spain."
+        },
+        {
+          "label": "B",
+          "text": "Much of the folklore that the ethnographers collected had similar elements from region to region."
+        },
+        {
+          "label": "C",
+          "text": "Most of the folklore that the ethnographers collected was previously unknown to scholars."
+        },
+        {
+          "label": "D",
+          "text": "Most of the folklore that the ethnographers collected consisted of corridos—ballads about history and social life—of a clearly recent origin."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Hard",
+      "source_question_number": 4,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer because it presents a finding that, if true, would support Paredes's argument that Mexican-American folklore is mostly the result of cultural interactions in Mexico and the United States rather than an adaptation of Spanish folklore. The text describes a disagreement among scholars about whether Mexican-American folklore mostly derived from the folklore of Spain or originated in Mexico and the United States as cultures there have interacted. The latter view is the argument that Paredes puts forward. If Mexican-American folklore collected in the twentieth century mostly consists of ballads about history and social life that originated recently, then that would support Paredes's argument, since it would suggest that the folklore mostly arose after Spanish rule ended in the early nineteenth century and that the folklore reflects cultural interactions in Mexico and the United States rather than traditions from Spain.\n\nChoice A is incorrect because the inclusion of songs inf uenced by sixteenth-century Spanish poetry among Mexican-American folklore collected in the twentieth century would not support Paredes's view that the folklore was the result of cultural interactions in Mexico and the United States rather than an offshoot of Spanish\nfolklore. If anything, the presence of such songs among the folklore collected in the twentieth century would weaken Paredes's argument, since it would reflect the influence of Spanish culture on the folklore. Choice B is incorrect because the mere presence of similarities in Mexican-American folklore across regions would not be\nsufficient to draw a conclusion about where the folklore originated, let alone to support Paredes's argument that the folklore reflects cultural interactions in Mexico and the United States. In fact, since Paredes argued that Mexican-American folklore is the product of various cultures interacting in Mexico and the United States, he would likely expect there to be regional variations in folklore as different cultures have interacted in different places. Choice C is incorrect because scholars' previous ignorance of the folklore would have no bearing on Paredes's argument that Mexican-American folklore mostly reflects cultural interactions in Mexico and the United States. The folklore's origins are independent of scholars' knowledge of the folklore.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002259",
+      "section": "reading_writing",
+      "question_number": 18,
+      "passage": "In vertical inheritance, parents pass genes to their offspring, but in horizontal transfer (HT), one species, often bacteria, passes genetic material to an unrelated species. In a 2022 study, herpetologist Atsushi Kurabayashi and his team investigated HT in multicellular organisms—namely, snakes and frogs in Madagascar. The team detected [i]BovB[/i]—a gene transmitted vertically in snakes—in many frog species. The apparent direction of gene transfer seems counterintuitive because frogs usually don't survive encounters with snakes and so wouldn't be able to transmit the newly acquired gene to offspring, but the team concluded that [i]BovB[/i] is indeed transmitted from snakes to frogs, either directly or indirectly, via HT.",
+      "prompt": "Which finding, if true, would most directly support the team's conclusion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "[i]BovB[/i] can be transmitted across frog species through HT."
+        },
+        {
+          "label": "B",
+          "text": "Parasites known to feed on species of snakes and frogs in which the [i]BovB[/i] gene occurs also carry [i]BovB[/i]."
+        },
+        {
+          "label": "C",
+          "text": "[i]BovB[/i] cannot be reliably transmitted from a snake species to bacteria that are usually encountered by frog species."
+        },
+        {
+          "label": "D",
+          "text": "Frog species with [i]BovB[/i] show few discernible advantages as compared with frog species that do not carry [i]BovB[/i]."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Hard",
+      "source_question_number": 5,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer. If there are parasites that feed on both snakes and frogs, they could carry [i]BovB[/i] from snakes to frogs. HT could occur \"indirectly\" through those encounters, which frogs are more likely to survive than snake encounters.\n\nChoice A is incorrect. The team's conclusion specifically argues that [i]BovB[/i] is transmitted from snakes to frogs via HT, and this choice doesn't mention snakes. Choice C is incorrect. The team argues that [i]BovB[/i] is transmitted from snakes to frogs via HT, and this answer choice discusses a scenario in which the gene is not transmitted. Choice D is incorrect. Whether or not frog species with [i]BovB[/i] are advantaged isn't relevant to the team's conclusion about how the gene is transmitted.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002260",
+      "section": "reading_writing",
+      "question_number": 19,
+      "passage": "Biologist Valentina Gómez-Bahamón and her team have investigated two subspecies of the fork-tailed flycatcher bird that live in the same region in Colombia, but one subspecies migrates south for part of the year, and the other doesn't. The researchers found that, due to slight differences in feather shape, the feathers of migratory forked-tailed flycatcher males make a sound during flight that is higher pitched than that made by the feathers of nonmigratory males. The researchers hypothesize that fork-tailed flycatcher females are attracted to the specific sound made by the males of their own subspecies, and that over time the females' preference will drive further genetic and anatomical divergence between the subspecies.",
+      "prompt": "Which finding, if true, would most directly support Gómez-Bahamón and her team's hypothesis?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The feathers located on the wings of the migratory fork-tailed flycatchers have a narrower shape than those of the nonmigratory birds, which allows them to fly long distances."
+        },
+        {
+          "label": "B",
+          "text": "Over several generations, the sound made by the feathers of migratory male fork-tailed flycatchers grows progressively higher pitched relative to that made by the feathers of nonmigratory males."
+        },
+        {
+          "label": "C",
+          "text": "Fork-tailed flycatchers communicate different messages to each other depending on whether their feathers create high-pitched or low-pitched sounds."
+        },
+        {
+          "label": "D",
+          "text": "The breeding habits of the migratory and nonmigratory fork-tailed flycatchers remained generally the same over several generations."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Hard",
+      "source_question_number": 6,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer because it presents a finding that, if true, would most directly support Gómez-Bahamón and her team's hypothesis about fork-tailed flycatchers. The text indicates that although two subspecies of the birds live in the same region, the tail feathers of the migrating males make a higher-pitched\nsound than the tail feathers of the nonmigrating males do. Gómez-Bahamón and her team hypothesize that female fork-tailed flycatchers are attracted to the particular sound made by the tail feathers of males of their own subspecies, which will bring about additional \"genetic and anatomical divergence\" between the two subspecies. If it were found that the pitch generated by the tail feathers of migrating males is getting higher over successive generations, it would indicate that the shape of the migrating subspecies' tail feathers is diverging further from that of the nonmigrating subspecies. And if females continue to prefer the sounds of the males of their own subspecies, the females of the migrating subspecies will become acclimated to increasingly higher pitches over subsequent generations, causing further divergence between the subspecies. Thus, if it were found that migrating males' tail feathers were producing higher pitches over time, that would support the researchers' hypothesis.\n\nChoice A is incorrect because the researchers' hypothesis is that female flycatchers prefer the sounds produced by the tail feathers of males of their own subspecies, which will lead to further divergence between the two subspecies. This finding is about the shape of wing feathers and how that affects long-distance flight, whereas the hypothesis is about the shape of tail feathers and how that relates to female mate preference. Choice C is incorrect because the researchers' hypothesis is that female flycatchers prefer the sounds produced by the tail feathers of males of their own subspecies, which will lead to further divergence between the two subspecies. This finding focuses on how the tail feather sounds communicate different messages, which doesn't address differences between the subspecies or female preferences. Choice D is incorrect because the researchers' hypothesis is that female flycatchers prefer the sounds produced by the tail feathers of males of their own subspecies, which will lead to further divergence between the two subspecies. The finding that breeding habits haven't changed for either subspecies does not, by itself, suggest anything about female preferences or divergence between the two subspecies",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002261",
+      "section": "reading_writing",
+      "question_number": 20,
+      "passage": "The Intertropical Convergence Zone (ITCZ), a band of clouds that encircles Earth in the tropics and is a major rainfall source, shifts position in response to temperature variations across Earth's hemispheres. Data from Huagapo Cave in Peru suggest the ITCZ shifted south during the Little Ice Age (circa 1300-1850), but a shift as far into South America as Huagapo should have led to dry conditions in Central America, which is inconsistent with climate models. To resolve the issue, geologist Yemane Asmerom and colleagues collected data from Yok Balum Cave in Central America and compared them with the Huagapo data. They concluded that during the Little Ice Age, the ITCZ may have expanded northward and southward rather than simply shifted.",
+      "prompt": "Which finding from Asmerom and colleagues' study, if true, would most directly support their conclusion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Neither the Yok Balum data nor the Huagapo data show significant local variations in temperature during the Little Ice Age."
+        },
+        {
+          "label": "B",
+          "text": "Both the Yok Balum data and the Huagapo data show increased temperatures and prolonged dry conditions during the Little Ice Age."
+        },
+        {
+          "label": "C",
+          "text": "The Yok Balum data show prolonged dry conditions during the same portions of the Little Ice Age in which the Huagapo data show heightened levels of rainfall."
+        },
+        {
+          "label": "D",
+          "text": "The Yok Balum data and the Huagapo data show strongly correlated patterns of high rainfall during the Little Ice Age."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Hard",
+      "source_question_number": 7,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice D is the best answer because it presents a finding that, if true, would support Asmerom and colleagues' conclusion that the ITCZ may have expanded northward and southward rather than shifting south during the Little Ice Age. The text indicates that the ITCZ, a band of clouds in the tropics that is a significant rainfall source,\ncan change position. Data from Peru's Huagapo Cave suggest that the ITCZ shifted south during the Little Ice Age. But according to the text, if the ITCZ moved into South America in that way, then Central America should have been drier than climate models suggest it was. In other words, rainfall should have been reduced in Central America because the ITCZ, a significant rainfall source, had shifted into South America, but climate models do not show such a reduction in Central America. The text goes on to say that Asmerom and colleagues tried to resolve this apparent conflict by collecting data from Yok Balum cave in Central America and comparing them with data from Huagapo, which led the researchers to conclude that the ITCZ may have expanded both northward and southward rather than simply shifting south. If it is true that Yok Balum in Central America and Huagapo in South America show strongly correlated patterns of high rainfall during the Little Ice Age, such a finding would support Asmerom and colleagues' conclusion by suggesting that the two areas were affected by the same rainfall source, and thus that the ITCZ may have expanded rather than shifted.\n\nChoice A is incorrect because there is no information in the text about how, if at all, the ITCZ affects temperature in areas where it is located. Rather, the text states that temperature variations across Earth's hemispheres can shift the position of the ITCZ. Finding that neither Yok Balum nor Huagapo data show evidence of significant local variations in temperature during the Little Ice Age would have no clear bearing on Asmerom and colleagues' claim. Choice B is incorrect because finding that both Yok Balum and Huagapo experienced prolonged dry conditions during the Little Ice Age would not support Asmerom and colleagues' conclusion that the ITCZ, a major source of rainfall, may have expanded northward and southward rather than simply shifting south. Dry conditions in both locations would suggest that the ITCZ did not cover either location. Additionally, finding that temperatures were elevated in both locations would have no clear bearing on Asmerom and colleagues' conclusion, since there is no information in the text that indicates how, if at all, the ITCZ affects temperature. Choice C is incorrect because finding that Yok Balum experienced prolonged dry conditions at the same time that Huagapo experienced high rainfall would weaken Asmerom and colleagues' conclusion, not strengthen it. Such a finding would suggest that the ITCZ shifted south and left Central America dry rather than expanding both northward and southward.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002262",
+      "section": "reading_writing",
+      "question_number": 21,
+      "passage": "In the mountains of Brazil, [i]Barbacenia tomentosa and Barbacenia macrantha[/i]—two plants in the Velloziaceae family—establish themselves on soilless, nutrient-poor patches of quartzite rock. Plant ecologists Anna Abrahão and Patricia de Britto Costa used microscopic analysis to determine that the roots of B. tomentosa and B. macrantha, which grow directly into the quartzite, have clusters of fine hairs near the root tip; further analysis indicated that these hairs secrete both malic and citric acids. The researchers hypothesize that the plants depend on dissolving underlying rock with these acids, as the process not only creates channels for continued growth but also releases phosphates that provide the vital nutrient phosphorus.",
+      "prompt": "Which finding, if true, would most directly support the researchers' hypothesis?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Other species in the Velloziaceae family are found in terrains with more soil but have root structures similar to those of [i]B. tomentosa and B. macrantha[/i]."
+        },
+        {
+          "label": "B",
+          "text": "Though [i]B. tomentosa and B. macrantha[/i] both secrete citric and malic acids, each species produces the acids in different proportions."
+        },
+        {
+          "label": "C",
+          "text": "The roots of [i]B. tomentosa and B. macrantha[/i] carve new entry points into rocks even when cracks in the surface are readily available."
+        },
+        {
+          "label": "D",
+          "text": "[i]B. tomentosa and B. macrantha[/i] thrive even when transferred to the surfaces of rocks that do not contain phosphates."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Hard",
+      "source_question_number": 8,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer because it presents a finding that, if true, would support the researchers' hypothesis about the plants' dependence on dissolving rock. The text indicates that the roots of the two plant species grow directly into quartzite rock, where hairs on the roots secrete acids that dissolve the rock. The researchers\nhypothesize that the plants depend on this process because dissolving rock opens spaces for the roots to grow and releases phosphates that provide the plants with phosphorous, a vital nutrient. If the plants carry out this process of dissolving rock even when the rock already has spaces into which the roots could grow, that would support the researchers' hypothesis because it suggests that the plants are getting some advantage-such as access to phosphorous-from the action of dissolving rock. If the plants don't benefit from dissolving rock, they would be expected to grow in the cracks that already exist, as doing so would mean that the plants don't have to spend energy creating and secreting acids; if, however, the plants create new entry points by dissolving rock even when cracks already exist, that would support the hypothesis that they depend on dissolving rock for some benefit.\n\nChoice A is incorrect because the existence of soil-inhabiting members of the Velloziaceae family with similar root structures to those of the two species discussed in the text wouldn't support the researchers' hypothesis that the species discussed in the text depend on dissolving rock. If other such members exist, that might suggest that the root structures can serve more functions than secreting acids to dissolve rock (since dissolving rock may not be necessary for plants living in soil), but that wouldn't suggest anything about whether the species discussed in the text benefit from dissolving rock. Choice B is incorrect because differences in the proportions of citric and malic acid secreted by the two species would be irrelevant to the hypothesis that the plants depend on dissolving rock. There's no information in the text to suggest that the proportion of each acid has any bearing on the process of dissolving rock or on any benefits the plants might receive from that process. Choice D is incorrect because if the two species thrive on rocks without phosphates, that would weaken the researchers' hypothesis that the plants depend on dissolving rock partly because dissolving rock gives them access to phosphates. If the plants can survive on rocks without getting a vital nutrient by dissolving those rocks, then either the nutrient isn't actually vital for those plants or they can get the nutrient in some way other than by dissolving rocks.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002263",
+      "section": "reading_writing",
+      "question_number": 22,
+      "passage": "A student performs an experiment testing her hypothesis that a slightly acidic soil environment is more beneficial for the growth of the plant [i]Brassica rapa parachinensis[/i] (a vegetable commonly known as choy sum) than a neutral soil environment. She plants sixteen seeds of choy sum in a mixture of equal amounts of coffee grounds (which are highly acidic) and potting soil and another sixteen seeds in potting soil without coffee grounds as the control for the experiment. The two groups of seeds were exposed to the same growing conditions and monitored for three weeks.",
+      "prompt": "Which finding, if true, would most directly weaken the student's hypothesis?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The choy sum planted in the soil without coffee grounds were significantly taller at the end of the experiment than the choy sum planted in the mixture of soil and coffee grounds."
+        },
+        {
+          "label": "B",
+          "text": "The choy sum grown in the soil without coffee grounds weighed significantly less at the end of the experiment than the choy sum grown in the mixture of soil and coffee grounds."
+        },
+        {
+          "label": "C",
+          "text": "The choy sum seeds planted in the soil without coffee grounds sprouted significantly later in the experiment than did the seeds planted in the mixture of soil and coffee grounds."
+        },
+        {
+          "label": "D",
+          "text": "Significantly fewer of the choy sum seeds planted in the soil without coffee grounds sprouted plants than did the seeds planted in the mixture of soil and coffee grounds."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Hard",
+      "source_question_number": 9,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because it describes an experimental outcome that would most directly weaken the student's hypothesis. According to the text, the student hypothesizes that [i]Brassica rapa parachinensis[/i] (choy sum) will benefit more from acidic soil than it will from neutral soil. The text then explains that the student planted 16 choy sum seeds in potting soil with coffee grounds added to increase acidity and another 16 seeds in soil without coffee grounds as a control (a group identical to the experimental group except for the experimental modification being tested). If the hypothesis were correct, the plants in the more acidic soil-and-coffee-grounds mixture would grow faster than those in the control group. However, choice A proposes a scenario in which the plants in soil without coffee grounds were \"significantly taller\" than those in the more acidic mixture-an outcome that weakens the hypothesis that higher acidity is beneficial to the plants' growth.\n\nChoice B is incorrect. If the choy sum planted in the neutral soil produced less plant matter and therefore weighed less than the choy sum planted in the acidic soil-and-coffee-grounds mixture, this finding would strengthen the student's hypothesis, not weaken it. Choice C is incorrect. If seeds planted in neutral soil (without coffee grounds) sprouted significantly later than seeds planted in the acidic soil-and-coffee-grounds mixture, this finding would strengthen, not weaken, the student's hypothesis that acidic soil benefits choy sum. Choice D is incorrect. If seeds planted in the neutral soil (without coffee grounds) sprouted significantly fewer plants than seeds planted in the acidic soil-and-coffee-grounds mixture did, this finding would strengthen, not weaken, the student's hypothesis that choy sum benefits from acidic soil.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002264",
+      "section": "reading_writing",
+      "question_number": 23,
+      "passage": "Given that stars and planets initially form from the same gas and dust in space, some astronomers have posited that host stars (such as the Sun) and their planets (such as those in our solar system) are composed of the same materials, with the planets containing equal or smaller quantities of the materials that make up the host star. This idea is also supported by evidence that rocky planets in our solar system are composed of some of the same materials as the Sun.",
+      "prompt": "Which finding, if true, would most directly weaken the astronomers' claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Most stars are made of hydrogen and helium, but when cooled they are revealed to contain small amounts of iron and silicate."
+        },
+        {
+          "label": "B",
+          "text": "A nearby host star is observed to contain the same proportion of hydrogen and helium as that of the Sun."
+        },
+        {
+          "label": "C",
+          "text": "Evidence emerges that the amount of iron in some rocky planets is considerably higher than the amount in their host star."
+        },
+        {
+          "label": "D",
+          "text": "The method for determining the composition of rocky planets is discovered to be less effective when used to analyze other kinds of planets."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Hard",
+      "source_question_number": 10,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer because it presents a finding that, if true, would weaken the astronomers' claim about the makeup of host stars and their planets. The text explains that because stars and planets begin forming from the same gas and dust, astronomers believe planets should be composed of the same materials as their host stars, but in equal or smaller quantities. The finding that the amount of iron in some rocky planets is much higher than the amount in their host star would weaken the astronomers' claim because it would show that some planets contain the same material as their host star, but in higher quantities.\n\nChoice A is incorrect because a finding only about the makeup of stars, whether they've cooled or not, would provide no information about the makeup of planets. Thus, it wouldn't have any bearing on the claim that planets and their host stars are composed of the same materials in differing quantities. Choice B is incorrect because a finding about two host stars having similar proportions of certain materials wouldn't provide any information about the makeup of planets. Thus, it wouldn't be relevant to the claim that planets and their host stars are composed of the same materials in differing quantities. Choice D is incorrect because the text indicates that the astronomers' claim is based on a fact-that stars and planets begin forming from the same gas and dust in space-which would remain true regardless of the effectiveness of a method for analysis of compositions. The text does cite analysis of rocky planets in our solar system and the Sun, but only as a single piece of evidence that is consistent with the claim and not as the source of the claim; the finding that the method used for that analysis is less effective in other scenarios wouldn't weaken a claim that's based on knowledge of how stars and planets initially form.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002265",
+      "section": "reading_writing",
+      "question_number": 24,
+      "passage": "The novelist Toni Morrison was the first Black woman to work as an editor at the publishing company Random House, from 1967 to 1983. A scholar asserts that one of Morrison's likely aims during her time as an editor was to strengthen the presence of Black writers on the list of Random House's published authors.",
+      "prompt": "Which finding, if true, would most strongly support the scholar's claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The percentage of authors published by Random House who were Black rose in the early 1970s and stabilized throughout the decade."
+        },
+        {
+          "label": "B",
+          "text": "Black authors who were interviewed in the 1980s and 1990s were highly likely to cite Toni Morrison's novels as a principal influence on their work."
+        },
+        {
+          "label": "C",
+          "text": "The novels written by Toni Morrison that were published after 1983 sold significantly more copies and received wider critical acclaim than the novels she wrote that were published before 1983."
+        },
+        {
+          "label": "D",
+          "text": "Works that were edited by Toni Morrison during her time at Random House displayed stylistic characteristics that distinguished them from works that were not edited by Morrison."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Hard",
+      "source_question_number": 11,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice A is the best answer because it presents a finding that, if true, would support the scholar's claim about Toni Morrison's likely goal of strengthening the presence of Black writers on Random House's list of published authors. The text explains that Morrison was the first Black woman to be an editor for Random House and that she was an editor there from 1967 to 1983. If it were true that Random House published a higher percentage of works by Black authors throughout the 1970s-during most of Morrison's time working there-than it had previously published, that would suggest that Morrison may have made a deliberate effort to strengthen the presence of Black authors on the list of Random House's published authors, thus supporting the scholar's claim.\n\nChoice B is incorrect because the scholar's claim is about Morrison's work as an editor at a publishing company and her likely effort to strengthen the presence of Black writers on that company's list of published authors. It might be true that Black authors interviewed in the 1980s and 1990s often cited Morrison's novels as an influence on their work, but that finding would simply suggest something about how those authors approached their work; it wouldn't show that Morrison intended to increase the number of Black writers among the published authors specifically at Random House. Choice C is incorrect because the scholar's claim is about Morrison's work as an editor at a publishing company, not about her work as a novelist. Therefore, a finding that Morrison's novels published after 1983 sold more copies and were more widely acclaimed than her earlier novels would have no\nbearing on the claim that as an editor Morrison made an effort to ensure that more Black writers were present on Random House's list of published authors. Choice D is incorrect. Although the text discusses Morrison's work as an editor at Random House, the scholar's claim focuses on Morrison's likely effort in that role to increase the number of Black writers present on Random House's list of published authors, not on the influence she may have had on the content of the works she edited. Without knowing whether Morrison's stylistic influence led to more publications or if Morrison applied her influence specifically to works by Black writers, the finding that works edited by Morrison could be identified by stylistic characteristics would have no bearing on the claim that Morrison intended to strengthen the presence of Black writers among the published authors at Random House.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002266",
+      "section": "reading_writing",
+      "question_number": 25,
+      "passage": "Black beans ([i]Phaseolus vulgaris[/i]) are a nutritionally dense food, but they are difficult to digest in part because of their high levels of soluble fiber and compounds like raffinose. They also contain antinutrients like tannins and trypsin inhibitors, which interfere with the body's ability to extract nutrients from foods. In a research article, Marisela Granito and Glenda Álvarez from Simón Bolívar University in Venezuela claim that inducing fermentation of black beans using lactic acid bacteria improves the digestibility of the beans and makes them more nutritious.",
+      "prompt": "Which finding from Granito and Álvarez's research, if true, would most directly support their claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "When cooked, fermented beans contained significantly more trypsin inhibitors and tannins but significantly less soluble fiber and raffinose than nonfermented beans."
+        },
+        {
+          "label": "B",
+          "text": "Fermented beans contained significantly less soluble fiber and raffinose than nonfermented beans, and when cooked, the fermented beans also displayed a significant reduction in trypsin inhibitors and tannins."
+        },
+        {
+          "label": "C",
+          "text": "When the fermented beans were analyzed, they were found to contain two microorganisms, [i]Lactobacillus casei[/i] and[i] Lactobacillus plantarum[/i], that are theorized to increase the amount of nitrogen absorbed by the gut after eating beans."
+        },
+        {
+          "label": "D",
+          "text": "Both fermented and nonfermented black beans contained significantly fewer trypsin inhibitors and tannins after being cooked at high pressure."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Hard",
+      "source_question_number": 12,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice B is the best answer because it presents a finding that would best support Granito and Álvarez's claim that fermenting black beans makes them easier to digest and more nutritious. The text indicates that high levels of soluble fiber and raffinose in black beans make the beans hard to digest and that tannins and trypsin inhibitors make it harder for the body to extract nutrients from the beans. If it were found that fermenting the beans significantly reduces their levels of soluble fiber, raffinose, trypsin inhibitors, and tannins when cooked, this would directly support the claim that fermentation improves the digestibility of the beans and makes them more nutritious.\n\nChoice A is incorrect because the text indicates that trypsin inhibitors and tannins interfere with the body's ability to extract nutrients from black beans; if fermentation and cooking were found to increase these antinutrients, fermented beans would likely be less nutritious than unfermented ones, not more nutritious (as\nGranito and Álvarez claim). Choice C is incorrect because the text doesn't address the idea that greater nitrogen absorption in the gut has an effect on a food's digestibility or level of nutrition, so the discovery of the presence of microorganisms that may increase nitrogen absorption wouldn't provide relevant support for the claim that fermentation makes black beans easier to digest and more nutritious. Choice D is incorrect because Granito and Álvarez's claim focuses on the effect of fermenting black beans, but the finding that nonfermented black beans also have fewer trypsin inhibitors and tannins when cooked at high pressure would suggest that the role of the cooking method could be significant when it comes to nutrition; further, the finding wouldn't address the beans' digestibility.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_002267",
+      "section": "reading_writing",
+      "question_number": 26,
+      "passage": "Many archaeologists will tell you that categorizing excavated fragments of pottery by style, period, and what objects they belong to relies not only on standard criteria, but also on instinct developed over years of practice. In a recent study, however, researchers trained a deep-learning computer model on thousands of images of pottery fragments and found that it could categorize them as accurately as a team of expert archaeologists. Some archaeologists have expressed concern that they might be replaced by such computer models, but the researchers claim that outcome is highly unlikely.",
+      "prompt": "Which finding, if true, would most directly support the researchers' claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "In the researchers' study, the model was able to categorize the pottery fragments much more quickly than the archaeologists could."
+        },
+        {
+          "label": "B",
+          "text": "In the researchers' study, neither the model nor the archeologists were able to accurately categorize all the pottery fragments that were presented."
+        },
+        {
+          "label": "C",
+          "text": "A survey of archaeologists showed that categorizing pottery fragments limits the amount of time they can dedicate to other important tasks that only human experts can do."
+        },
+        {
+          "label": "D",
+          "text": "A survey of archaeologists showed that few of them received dedicated training in how to properly categorize pottery fragments."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "Information and Ideas/Textual Evidence (strengthen/weaken)/Hard",
+      "source_question_number": 13,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "Choice C is the best answer because it presents a finding that, if true, would support the researchers' claim that archaeologists are unlikely to be replaced by certain computer models. The text explains that although archaeologists hold that categorizing pottery fragments relies on both objective criteria and instinct developed through direct experience, researchers have found that a computer model can categorize the fragments with the same degree of accuracy as the humans can-a finding that has caused some archaeologists to worry that their own work won't be needed any longer. If survey results indicate that categorizing pottery fragments limits the amount of time archaeologists can dedicate to other important tasks that only human experts can do, that would mean that computer models aren't able to do all of the important things archaeologists do, thus supporting the researchers' claim that computer models are unlikely to replace human archaeologists.\n\nChoice A is incorrect because if it were true that the computer model could categorize the pottery fragments much more quickly than the archaeologists could, that would weaken the researchers' claim that archaeologists are unlikely to be replaced by certain computer models, since it would demonstrate that the models could conduct the archaeologists' work not only with equal accuracy but also at a faster pace. Choice B is incorrect because the inability of both the computer model and the archaeologists to accurately categorize all of the pottery fragments presented wouldn't support the researchers' claim that archaeologists are unlikely to be replaced by certain computer models. The text indicates that some archaeologists are worried because the computer model's accuracy is equal to their own, and that could be the case whether both were perfectly accurate or were unable to achieve complete accuracy. Choice D is incorrect because survey results showing that few archaeologists received special training in properly categorizing pottery fragments wouldn't support the researchers' claim that archaeologists are unlikely to be replaced by certain computer models. The amount of special training in categorizing pottery fragments that archaeologists have received has no direct bearing on whether computer models' success at categorizing fragments will lead to the models replacing the archaeologists.",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    }
+  ]
+}

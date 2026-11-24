@@ -153,7 +153,14 @@ async function auditManifestRoutes() {
 
   const quantitativeHtml = manifestRouteHtml.get("categories/command-of-evidence-quantitative.html");
   assert.equal(typeof quantitativeHtml, "string", "Manifest must include the quantitative evidence category route");
-  assert.ok(Buffer.byteLength(quantitativeHtml) < 700_000, "Quantitative practice page should keep charts outside the HTML payload");
+  // An inlined chart costs tens of kilobytes per question; text, table data and
+  // explanations stay well under this budget however many questions the category holds.
+  const quantitativeQuestions = manifest.pages
+    .find(page => page.route === "categories/command-of-evidence-quantitative.html").questionIds.length;
+  assert.ok(
+    Buffer.byteLength(quantitativeHtml) < 300_000 + 6_000 * quantitativeQuestions,
+    "Quantitative practice page should keep charts outside the HTML payload",
+  );
   assert.doesNotMatch(quantitativeHtml, /"chart_image_data_uri":"data:/);
   return { loadedChartReferences, canonicalChartReferences };
 }
@@ -635,7 +642,7 @@ try {
   assert.equal(view.selectedChoices, 0);
   assert.equal(view.correctChoices, 0);
   assert.equal(view.explanation, "");
-  assert.match(await evaluate('document.getElementById("modeBanner").textContent'), /旧选择、正确答案、解析、笔记和标注均已隐藏/);
+  assert.match(await evaluate('document.getElementById("modeBanner").textContent'), /空白重做 · 原来的作答和解析已隐藏/);
   assert.equal(await evaluate('document.getElementById("reflectionPanel").hidden'), true);
   await evaluate(`(() => { const index=QUESTIONS[0].choices.findIndex(choice=>choice.label!==QUESTIONS[0].correct_answer); document.querySelectorAll(".choice")[index].click(); })()`);
   await evaluate('document.getElementById("checkCurrentBtn").click()');
@@ -667,6 +674,39 @@ try {
   assert.equal(savedToday.submitted, true);
   assert.equal(savedToday.revealed, false);
   assert.equal(savedToday.gradingRevision, question.gradingRevision);
+  // The shared record is written under a lock, so it lands a moment after the click.
+  const todayRecord = `JSON.parse(learningStorage.getItem(GLOBAL_KEY)).questions[${JSON.stringify(question.id)}]`;
+  const todayBook = `(() => {
+    const record = ${todayRecord}, panel = document.getElementById("reflectionPanel");
+    return {wrongListed:Boolean(record.firstWrongAt), inBook:satInMistakeBook(record), starred:record.starred,
+      label:document.getElementById("starBtn").textContent, starShown:!document.getElementById("starBtn").hidden,
+      tagsOpen:!panel.hidden && !document.querySelector('#errorTagsRow input').disabled,
+      confidenceShown:getComputedStyle(document.getElementById("confidenceRow")).display !== "none"};
+  })()`;
+  await waitForEvaluation(`Boolean(${todayRecord}?.lastWrongAt)`, "the wrong answer saved from a practice session");
+  assert.deepEqual(await evaluate(todayBook), {wrongListed:true, inBook:true, starred:false, label:"★ 已加入错题本", starShown:true, tagsOpen:true, confidenceShown:false},
+    "A wrong answer in a practice session goes into the mistake book by itself, and its error tags can be recorded there after submitting");
+  await evaluate(`(() => {
+    document.querySelector('#errorTagsRow input[value="logic"]').click();
+    const note = document.getElementById("noteInput");
+    note.value = "session note";
+    note.dispatchEvent(new Event("input", {bubbles:true}));
+  })()`);
+  await waitForEvaluation(`${todayRecord}.note === "session note" && ${todayRecord}.errorTags.join() === "logic"`, "error tags and a note saved from a practice session");
+  await evaluate('document.getElementById("starBtn").click()');
+  await waitForEvaluation(`Boolean(${todayRecord}.bookRemovedAt)`, "the question taken out of the mistake book");
+  assert.deepEqual(await evaluate(`(() => { const record = ${todayRecord}; return {inBook:satInMistakeBook(record), label:document.getElementById("starBtn").textContent}; })()`),
+    {inBook:false, label:"☆ 加入错题本"}, "The button takes a recorded mistake out of the book");
+  await evaluate('document.getElementById("starBtn").click()');
+  await waitForEvaluation(`${todayRecord}.starred === true`, "the question added back by hand from a practice session");
+  const todayReview = await evaluate(`(() => {
+    const record = ${todayRecord};
+    const session = JSON.parse(learningStorage.getItem(SESSION_KEY));
+    return {wrongListed:Boolean(record.firstWrongAt), inBook:satInMistakeBook(record), starred:record.starred, starShown:!document.getElementById("starBtn").hidden,
+      label:document.getElementById("starBtn").textContent, resumeAt:session.lastQuestionId};
+  })()`);
+  assert.deepEqual(todayReview, {wrongListed:true, inBook:true, starred:true, starShown:true, label:"★ 已加入错题本", resumeAt:question.id},
+    "Adding by hand works in a practice session after submitting");
   await reload();
   today = await snapshot();
   assert.equal(today.selectedChoices, 1);
@@ -677,7 +717,21 @@ try {
   assert.equal((await snapshot()).correctChoices, 1);
   await reload();
   assert.equal((await snapshot()).correctChoices, 1, "Today's reveal may resume only after this session's submit/reveal");
+  const todayNavigator = await evaluate(`(() => {
+    const entries = navigatorEntries(), session = JSON.parse(learningStorage.getItem(SESSION_KEY));
+    return {entries:entries.length, session:session.questions.length, inSession:entries.every(entry => entry.inSession),
+      wrong:entries.filter(entry => entry.checked && !entry.correct).length,
+      listButton:document.getElementById("questionListBtn").hidden, answerSheet:document.getElementById("overviewBtn").hidden};
+  })()`);
+  assert.equal(todayNavigator.entries, todayNavigator.session, "A practice session lists its own questions");
+  assert.deepEqual({inSession:todayNavigator.inSession, wrong:todayNavigator.wrong, listButton:todayNavigator.listButton, answerSheet:todayNavigator.answerSheet},
+    {inSession:true, wrong:1, listButton:false, answerSheet:false}, "The question list and answer sheet stay available in a practice session");
   assert.deepEqual(await evaluate(originalAttemptExpression), originalBeforeToday, "Today practice may update shared review history but must not overwrite the original occurrence's attempt");
+  await navigate(`${origin}/index.html#home`);
+  const resume = await evaluate(`(() => { const link = document.querySelector(".hero-actions a.primary"); return {label:link.textContent, href:link.getAttribute("href")}; })()`);
+  assert.equal(resume.label, "回看上次练习");
+  assert.ok(resume.href.includes(`session=${encodeURIComponent(todayId)}`) && resume.href.includes(`focus=${encodeURIComponent(question.id)}`),
+    `Continue must return to the generated practice session, not to the question's set: ${resume.href}`);
   await navigate(`${practiceUrl}?focus=${encodeURIComponent(question.id)}`);
   assert.equal(await evaluate('Boolean(practiceSession) || redoMode'), false, "Open original must not reuse today's blank-redo mode");
 
@@ -687,7 +741,21 @@ try {
   await evaluate(`(() => {const q=QUESTIONS[current],index=q.choices.findIndex(choice=>choice.label!==q.correct_answer);document.querySelectorAll(".choice")[index].click()})()`);
   await evaluate('document.getElementById("nextBtn").click()');
   await evaluate(`(() => {const q=QUESTIONS[current],index=q.choices.findIndex(choice=>choice.label!==q.correct_answer);document.querySelectorAll(".choice")[index].click()})()`);
+  const timerRunning = await evaluate(`(() => {
+    const box = document.getElementById("questionTimer"), toggle = document.getElementById("questionTimerToggle");
+    const running = {hidden:box.hidden, clock:/^00:0\\d$/.test(document.getElementById("questionTimerValue").textContent), toggle:toggle.textContent, counting:Boolean(timerStartedAt)};
+    toggle.click();
+    const paused = {paused:box.classList.contains("paused"), toggle:toggle.textContent, counting:Boolean(timerStartedAt)};
+    toggle.click();
+    learningStorage.setItem(QUESTION_TIME_KEY, JSON.stringify({version:1, times:{[timerKey]:{ms:65000, at:""}}}));
+    questionTimes = null;
+    return {running, paused, resumed:Boolean(timerStartedAt), hint:document.getElementById("feedback").textContent, saved:document.getElementById("syncStatus").textContent};
+  })()`);
+  assert.deepEqual(timerRunning, {running:{hidden:false, clock:true, toggle:"暂停", counting:true}, paused:{paused:true, toggle:"继续", counting:false}, resumed:true, hint:"", saved:""},
+    "The per-question timer runs, pauses and resumes; no filler text sits under the choices or in the footer");
   await evaluate('document.getElementById("checkAllBtn").click()');
+  assert.deepEqual(await evaluate(`({clock:document.getElementById("questionTimerValue").textContent, toggleHidden:document.getElementById("questionTimerToggle").hidden, counting:Boolean(timerStartedAt)})`),
+    {clock:"用时 01:05", toggleHidden:true, counting:false}, "Submitting freezes the question's timer");
   const batch = await evaluate(`(() => { const page=JSON.parse(localStorage.getItem(window.__satFixtureRawKey(storageKey))); return {states:QUESTIONS.slice(0,2).map(q=>page.answers[q.question_id]),feedback:document.getElementById("feedback").textContent,correct:document.querySelectorAll(".choice.correct").length,explanation:document.getElementById("explanation").textContent.trim(),items:reviewItems()}; })()`);
   assert.ok(batch.states.every(item => item.submitted && !item.revealed), JSON.stringify(batch.states));
   assert.equal(batch.feedback, "回答错误");
@@ -748,20 +816,53 @@ try {
   })()`);
   assert.deepEqual(categoryLibrary, { selected: "true", expanded: "true", cards: 11, first: "句子边界", firstEnglish: "Boundaries", translated: 11, collapsed: { expanded: "false", cards: 6 }, sets: { expanded: "false", cards: 6 } });
 
-  const examLibrary = await evaluate(`(() => ({
-    cards: document.querySelectorAll("#examLibrary .resource-card").length,
-    titles: [...document.querySelectorAll("#examLibrary .resource-card h3")].map(node => node.textContent.trim()),
+  // Mock exams live on their own page; the home page only links to it.
+  await evaluate(`location.hash = "#exam"`);
+  await new Promise(resolve => setTimeout(resolve, 20));
+  const examCenter = await evaluate(`(() => ({
+    heading: document.querySelector("h1")?.textContent,
+    rows: document.querySelectorAll(".exam-list .exam-row").length,
+    titles: [...document.querySelectorAll(".exam-list .exam-row h3")].map(node => node.textContent.trim()),
+    onHome: document.querySelectorAll("#examLibrary").length,
   }))()`);
-  assert.deepEqual(examLibrary, {
-    cards: manifestSetPages.filter(page => page.examEligible === true).length,
+  assert.deepEqual(examCenter, {
+    heading: "模考中心",
+    rows: manifestSetPages.filter(page => page.examEligible === true).length,
     titles: manifestSetPages.filter(page => page.examEligible === true).map(page => page.title),
-  }, "formal exam cards must remain separate from the resource-library tab counts");
+    onHome: 0,
+  }, "the mock exam centre must list exactly the exam-eligible sets");
 
   const routeViews = {};
-  for (const [hash, heading] of [["#review/wrong", "我的复习"], ["#diagnosis", "学习诊断"], ["#practice", "生成今日练习"], ["#search", "全库搜索"]]) {
+  for (const [hash, heading] of [["#mistakes", "错题本"], ["#review/unfinished", "我的复习"], ["#diagnosis", "学习诊断"], ["#practice", "生成今日练习"], ["#search", "全库搜索"]]) {
     await evaluate(`location.hash = ${JSON.stringify(hash)}`);
     await new Promise(resolve => setTimeout(resolve, 20));
     routeViews[hash] = await evaluate(`document.querySelector("h1")?.textContent === ${JSON.stringify(heading)}`);
+    if (hash === "#practice") {
+      const basis = await evaluate(`(() => ({hidden:document.getElementById("builderBasisGroup").hidden,
+        options:[...document.querySelectorAll("#builderBases input")].map(input => input.value),
+        withBasis:MANIFEST.questions.some(question => question.difficultyBasis && question.difficultyLevel)}))()`);
+      assert.deepEqual(basis.options, ["stated", "estimated"]);
+      const classified = await evaluate(`(() => {
+        const values = id => [...document.querySelectorAll("#" + id + " input")].map(input => input.value);
+        const taxonomy = MANIFEST.taxonomy, before = {tasksHidden:document.getElementById("builderTaskGroup").hidden};
+        const skill = document.querySelector("#builderSkills input");
+        if (skill) skill.click();
+        return {before, passages:values("builderGenres"), importance:values("builderImportance"),
+          importanceHidden:document.getElementById("builderImportanceGroup").hidden,
+          tasks:values("builderTasks"), tasksHidden:document.getElementById("builderTaskGroup").hidden,
+          expectedTasks:skill ? taxonomy.tasks.filter(item => item.skill === skill.value).map(item => item.id) : [],
+          expectedPassages:taxonomy.passageTypes.map(item => item.id), expectedImportance:taxonomy.importance.map(item => item.id),
+          unclassified:MANIFEST.questions.filter(item => !item.task || !item.passageType || !item.importance).length};
+      })()`);
+      assert.equal(classified.before.tasksHidden, true, "Tasks appear only after a skill is chosen");
+      if (classified.expectedPassages.length) {
+        assert.equal(classified.unclassified, 0, "Every question carries a task, a passage type and an importance level");
+        assert.deepEqual(classified.passages, classified.expectedPassages);
+        assert.deepEqual({importance:classified.importance, hidden:classified.importanceHidden}, {importance:classified.expectedImportance, hidden:false});
+        assert.deepEqual({tasks:classified.tasks, hidden:classified.tasksHidden}, {tasks:classified.expectedTasks, hidden:false});
+      }
+      assert.equal(basis.hidden, !basis.withBasis, "The difficulty-basis filter shows only when the data says where a difficulty comes from");
+    }
   }
   await evaluate(`(() => {
     const search = document.querySelector('input[type="search"]');
@@ -770,8 +871,357 @@ try {
   })()`);
   await waitForEvaluation('document.querySelectorAll("#searchResults .review-card").length > 0', "debounced search results");
   routeViews.searchResults = await evaluate('document.querySelectorAll("#searchResults .review-card").length');
-  assert.ok(Object.values(routeViews).slice(0, 4).every(Boolean), JSON.stringify(routeViews));
+  assert.ok(Object.values(routeViews).slice(0, 5).every(Boolean), JSON.stringify(routeViews));
   assert.ok(routeViews.searchResults > 0, JSON.stringify(routeViews));
+  // A question opened from the search results goes back to the search, with the keyword still there.
+  const searchLink = await evaluate('document.querySelector("#searchResults .review-card a.ghost").getAttribute("href")');
+  assert.match(searchLink, /[?&]from=search$/);
+  await navigate(`${origin}/${searchLink}`);
+  assert.deepEqual(await evaluate('(() => { const link = document.querySelector(".home-link"); return {text:link.textContent, href:link.getAttribute("href")}; })()'),
+    {text:"返回搜索", href:"../index.html#search"});
+  await navigate(`${origin}/index.html#search`);
+  assert.deepEqual(await evaluate('({term:document.getElementById("searchInput").value, results:document.querySelectorAll("#searchResults .review-card").length > 0})'),
+    {term:"inference", results:true}, "The search keeps its keyword while the tab stays open");
+  // The old wrong-answer and star tabs now open the mistake book.
+  await evaluate('location.hash = "#review/wrong"');
+  await waitForEvaluation('location.hash === "#mistakes" && document.querySelector("h1")?.textContent === "错题本"', "the old wrong-answer address opening the mistake book");
+
+  // The mistake book. Wrong answers arrive by themselves, a right answer can be added by hand, tags
+  // filter the list, a question opened from the book walks the filtered list, and leaving it comes
+  // back to the book with the same filters, on the same question.
+  await navigate(`${origin}/index.html`);
+  await evaluate("localStorage.clear(); sessionStorage.clear()");
+  await navigate(practiceUrl);
+  const bookIds = await evaluate(`(() => {
+    const submit = right => { const q = currentQuestion(), index = q.choices.findIndex(choice => (choice.label === q.correct_answer) === right);
+      document.querySelectorAll(".choice")[index].click(); document.getElementById("checkCurrentBtn").click(); return q.question_id; };
+    const wrongTagged = submit(false);
+    document.querySelector('#errorTagsRow input[value="vocabulary"]').click();
+    document.getElementById("nextBtn").click();
+    const added = submit(true);
+    const beforeAdd = {label:document.getElementById("starBtn").textContent, tagsShown:getComputedStyle(document.getElementById("errorTagsRow")).display !== "none"};
+    document.getElementById("starBtn").click();
+    const afterAdd = {label:document.getElementById("starBtn").textContent, tagsShown:getComputedStyle(document.getElementById("errorTagsRow")).display !== "none"};
+    document.getElementById("nextBtn").click();
+    const wrongPlain = submit(false);
+    document.getElementById("nextBtn").click();
+    const rightOnly = submit(true);
+    return {wrongTagged, added, wrongPlain, rightOnly, beforeAdd, afterAdd, position:current};
+  })()`);
+  assert.deepEqual({beforeAdd:bookIds.beforeAdd, afterAdd:bookIds.afterAdd},
+    {beforeAdd:{label:"☆ 加入错题本", tagsShown:false}, afterAdd:{label:"★ 已加入错题本", tagsShown:true}},
+    "A right answer is not in the mistake book until it is added by hand; once added, error tags can be recorded for it");
+  await evaluate("window.__satFixtureFlush()");
+  await navigate(`${origin}/index.html#mistakes`);
+  const bookCards = `[...document.querySelectorAll("#mistakeList [data-book-card]")].map(card => card.dataset.bookCard)`;
+  const bookPick = (group, value) => evaluate(`document.querySelector('#${group} input[value="${value}"]').click()`);
+  const sorted = list => [...list].sort();
+  assert.deepEqual(sorted(await evaluate(bookCards)), sorted([bookIds.wrongTagged, bookIds.added, bookIds.wrongPlain]),
+    "The mistake book lists the wrong answers and the question added by hand, not the plain right answer");
+  await bookPick("mistakeTags", "vocabulary");
+  assert.deepEqual(await evaluate(bookCards), [bookIds.wrongTagged], "An error tag filters the book");
+  await bookPick("mistakeTags", "none");
+  assert.deepEqual(sorted(await evaluate(bookCards)), sorted([bookIds.wrongTagged, bookIds.added, bookIds.wrongPlain]), "Choices inside one group are alternatives");
+  await bookPick("mistakeOrigin", "wrong");
+  const filtered = await evaluate(bookCards);
+  assert.deepEqual(sorted(filtered), sorted([bookIds.wrongTagged, bookIds.wrongPlain]), "Groups combine: tagged or untagged, and recorded from a wrong answer");
+  assert.equal(await evaluate(`document.querySelector('#mistakeOrigin input[value="manual"]').nextElementSibling.querySelector("i").textContent`), "1",
+    "Each choice shows how many questions it would give");
+  // Open the first filtered question as it was answered, walk to the next, and leave.
+  await evaluate(`document.querySelector('[data-book-card="${filtered[0]}"] a.ghost').click()`);
+  await waitReady("#checkCurrentBtn");
+  await installFixtureHelpers();
+  const bookWalk = () => evaluate(`(() => { const link = document.querySelector(".home-link"); return {on:currentQuestion().question_id,
+    title:document.querySelector(".topbar .title").textContent, back:link.textContent, href:link.getAttribute("href"), progress:document.getElementById("progressText").textContent,
+    prev:document.getElementById("prevBtn").disabled, next:document.getElementById("nextBtn").disabled, entries:navigatorEntries().length,
+    reset:document.getElementById("resetBtn").hidden, mode:new URLSearchParams(location.search).get("book"), redo:redoMode}; })()`);
+  assert.deepEqual(await bookWalk(), {on:filtered[0], title:"错题本", back:"返回错题本", href:"../index.html#mistakes", progress:"错题本 1/2",
+    prev:true, next:false, entries:2, reset:true, mode:"view", redo:false}, "A question opened from the book shows only the filtered questions and leads back to the book");
+  await evaluate('document.getElementById("nextBtn").click()');
+  await waitForEvaluation(`typeof currentQuestion === "function" && document.readyState === "complete" && currentQuestion().question_id === ${JSON.stringify(filtered[1])}`, "the next question of the mistake book");
+  await installFixtureHelpers();
+  assert.deepEqual(await bookWalk(), {on:filtered[1], title:"错题本", back:"返回错题本", href:"../index.html#mistakes", progress:"错题本 2/2",
+    prev:false, next:true, entries:2, reset:true, mode:"view", redo:false}, "Next follows the book's filtered order and stops at its end");
+  assert.equal(await evaluate(`(() => { const page = JSON.parse(localStorage.getItem(window.__satFixtureRawKey(storageKey)));
+    return page.current === ${bookIds.position} && JSON.parse(localStorage.getItem(window.__satFixtureRawKey(GLOBAL_KEY))).pages[PAGE_ID].current === ${bookIds.position}; })()`), true,
+    "Looking at a mistake does not move the set's own position");
+  await evaluate('document.querySelector(".home-link").click()');
+  await waitReady("#mistakeList");
+  await installFixtureHelpers();
+  assert.deepEqual(await evaluate(`({hash:location.hash, cards:${bookCards}, returned:document.querySelector(".book-card.is-returned")?.dataset.bookCard,
+    tags:[...document.querySelectorAll("#mistakeTags input:checked")].map(input => input.value), origin:[...document.querySelectorAll("#mistakeOrigin input:checked")].map(input => input.value)})`),
+    {hash:"#mistakes", cards:filtered, returned:filtered[1], tags:["vocabulary", "none"], origin:["wrong"]},
+    "Leaving the question returns to the book with the same filters, on the question just seen");
+  // Mark as mastered, undo, take out, undo.
+  const bookTool = (kind, id) => evaluate(`document.querySelector('[data-book-${kind}="${id}"]').click()`);
+  await bookTool("master", filtered[0]);
+  assert.deepEqual(await evaluate(`({cards:${bookCards}, mastered:qState(${JSON.stringify(filtered[0])}).mastered, undo:Boolean(document.getElementById("mistakeUndo"))})`),
+    {cards:[filtered[1]], mastered:true, undo:true}, "A mastered question leaves the pending list");
+  await evaluate('document.getElementById("mistakeUndo").click()');
+  assert.deepEqual(await evaluate(`({cards:${bookCards}, mastered:qState(${JSON.stringify(filtered[0])}).mastered})`), {cards:filtered, mastered:false});
+  await bookTool("remove", filtered[0]);
+  assert.deepEqual(await evaluate(`({cards:${bookCards}, inBook:satInMistakeBook(qState(${JSON.stringify(filtered[0])})), wrongKept:Boolean(qState(${JSON.stringify(filtered[0])}).firstWrongAt)})`),
+    {cards:[filtered[1]], inBook:false, wrongKept:true}, "Taking a question out keeps its history");
+  await evaluate('document.getElementById("mistakeUndo").click()');
+  assert.deepEqual(await evaluate(bookCards), filtered);
+  // A blank redo from the book: wrong again, tags and note are kept on the question, and the page's own answer is not touched.
+  await evaluate(`document.querySelector('[data-book-card="${filtered[1]}"] a.primary').click()`);
+  await waitReady("#checkCurrentBtn");
+  await installFixtureHelpers();
+  const bookRedo = await evaluate(`(() => {
+    const q = currentQuestion(), before = {mode:new URLSearchParams(location.search).get("book"), redo:redoMode, blank:!activeState(q).selected, panelHidden:document.getElementById("reflectionPanel").hidden,
+      original:state.answers[q.question_id].selected};
+    const index = q.choices.findIndex(choice => choice.label !== q.correct_answer && choice.label !== before.original);
+    document.querySelectorAll(".choice")[index].click(); document.getElementById("checkCurrentBtn").click();
+    document.querySelector('#errorTagsRow input[value="careless"]').click();
+    return {before, panelHidden:document.getElementById("reflectionPanel").hidden, pageAnswer:state.answers[q.question_id].selected === before.original,
+      tagged:globalState.questions[q.question_id].errorTags.includes("careless"), redoCount:globalState.questions[q.question_id].redoCount};
+  })()`);
+  assert.deepEqual({...bookRedo, before:{...bookRedo.before, original:undefined}}, {before:{mode:"redo", redo:true, blank:true, panelHidden:true, original:undefined},
+    panelHidden:false, pageAnswer:true, tagged:true, redoCount:1}, "A blank redo from the book records its tags on the question and leaves the original answer alone");
+  await evaluate("window.__satFixtureFlush()");
+  // Resetting the set page must stay reset after the mistake book has touched the record.
+  await navigate(practiceUrl);
+  await evaluate('document.getElementById("resetBtn").click(); document.getElementById("resetConfirmApply").click()');
+  await evaluate("window.__satFixtureFlush()");
+  await navigate(`${origin}/index.html#mistakes`);
+  await bookTool("master", filtered[0]);
+  await evaluate("learningStorage.coordinateGlobal(() => true)");
+  await navigate(practiceUrl);
+  assert.deepEqual(await evaluate(`(() => { const answers = QUESTIONS.slice(0, 4).map(q => state.answers[q.question_id]).filter(Boolean);
+    return {submitted:answers.some(item => item.submitted), selected:answers.some(item => item.selected), mastered:state.answers[${JSON.stringify(filtered[0])}]?.mastered === true,
+      kept:satInMistakeBook(globalState.questions[${JSON.stringify(filtered[1])}])}; })()`),
+    {submitted:false, selected:false, mastered:true, kept:true},
+    "After a reset, a change made in the mistake book brings its own fields to the page but not the old answer");
+  // Looking at the original answer during a redo walk keeps this question in the address, so a refresh stays on it.
+  await navigate(`${practiceUrl}?book=redo&redo=${encodeURIComponent(filtered[1])}`);
+  assert.deepEqual(await evaluate(`(() => { document.getElementById("returnOriginalBtn").click(); const query = new URLSearchParams(location.search);
+    return {book:query.get("book"), focus:query.get("focus"), redo:query.get("redo"), on:currentQuestion().question_id, back:document.querySelector(".home-link").textContent}; })()`),
+    {book:"redo", focus:filtered[1], redo:null, on:filtered[1], back:"返回错题本"}, "Returning to the original answer inside the book keeps the question and the way back");
+  // A set continued from 我的复习 leads back there, not to the home page.
+  await navigate(practiceUrl);
+  await evaluate(`(() => { const q = currentQuestion(); document.querySelectorAll(".choice")[q.choices.findIndex(choice => choice.label === q.correct_answer)].click();
+    document.getElementById("checkCurrentBtn").click(); })()`);
+  await evaluate("window.__satFixtureFlush()");
+  await navigate(`${origin}/index.html#review/unfinished`);
+  const unfinishedHref = await evaluate(`document.querySelector(".review-card a.primary")?.getAttribute("href") || ""`);
+  assert.match(unfinishedHref, /[?&]from=review-unfinished$/, "An unfinished set opened from 我的复习 says where it was opened from");
+  await navigate(`${origin}/${unfinishedHref}`);
+  assert.deepEqual(await evaluate('(() => { const link = document.querySelector(".home-link"); return {text:link.textContent, href:link.getAttribute("href")}; })()'),
+    {text:"返回我的复习", href:"../index.html#review/unfinished"});
+  // Mock exams: questions answered wrong go into the mistake book when the exam is finished; blanks and right answers do not.
+  const bookExamPage = manifestSetPages.find(page => page.examEligible === true);
+  if (bookExamPage) {
+    await navigate(`${origin}/index.html`);
+    await evaluate("localStorage.clear()");
+    await navigate(`${origin}/${bookExamPage.route}?mode=exam`);
+    await evaluate(`document.querySelector("[data-exam-start]").click()`);
+    const examPick = right => evaluate(`(() => { const active = activeExamModule(), id = active.spec.questionIds[active.state.current], question = examQuestionById(id);
+      const label = ${right} ? question.correct_answer : question.choices.find(choice => choice.label !== question.correct_answer).label;
+      [...document.querySelectorAll("[data-exam-choice]")].find(button => button.dataset.examChoice === label).click();
+      document.getElementById("examNext").click(); return id; })()`);
+    const examSubmit = () => evaluate(`(() => { examCheckOpen = true; renderExam(); document.getElementById("examSubmitModule").click(); })()`);
+    const examWrong = [await examPick(false)], examRight = await examPick(true);
+    const examBlank = await evaluate("(() => { const active = activeExamModule(); return active.spec.questionIds[active.state.current]; })()");
+    await examSubmit();
+    assert.equal(await evaluate(`Object.keys(JSON.parse(localStorage.getItem(window.__satFixtureRawKey(GLOBAL_KEY)) || '{"questions":{}}').questions || {}).length`), 0,
+      "Nothing is recorded before the whole exam is finished");
+    await evaluate(`document.getElementById("examStartM2").click()`);
+    examWrong.push(await examPick(false));
+    await examSubmit();
+    await evaluate("window.__satFixtureFlush()");
+    const examBook = await evaluate(`(() => { const global = JSON.parse(localStorage.getItem(window.__satFixtureRawKey(GLOBAL_KEY)) || "{}"), questions = global.questions || {};
+      return {phase:examSession.phase, recorded:Object.keys(questions).sort(), inBook:Object.values(questions).every(satInMistakeBook),
+        due:Object.values(questions).every(item => item.firstWrongAt && item.lastWrongAt && item.nextDueAt && !item.submitted && !item.attemptCount),
+        attempts:(global.attempts || []).length, pages:Object.keys(global.pages || {}).length}; })()`);
+    assert.deepEqual(examBook, {phase:"complete", recorded:[...examWrong].sort(), inBook:true, due:true, attempts:0, pages:0},
+      "A finished mock exam records its wrong answers in the mistake book without creating practice attempts or page progress");
+    assert.equal(examBook.recorded.includes(examRight) || examBook.recorded.includes(examBlank), false);
+    await reload();
+    await evaluate("window.__satFixtureFlush()");
+    await navigate(`${origin}/index.html#mistakes`);
+    assert.deepEqual(sorted(await evaluate(bookCards)), sorted(examWrong), "The mistake book lists the questions answered wrong in the mock exam");
+  }
+
+  // Word explanations and the vocabulary notebook, on a page whose first question has explained words.
+  await navigate(`${origin}/index.html`);
+  await evaluate("localStorage.clear()");
+  await navigate(`${origin}/sets/15-2025-10-apac-b.html`);
+  const glossStart = await evaluate(`(() => {
+    const question = currentQuestion(), links = question.vocabulary || [];
+    const marked = [...document.querySelectorAll("#stimulus .gloss")].map(node => node.textContent);
+    return {
+      passage: links.filter(link => link.field === "passage").map(link => link.surface).sort().join(),
+      marked: [...new Set(marked)].sort().join(),
+      choices: links.filter(link => link.field === "choices").length,
+      inChoices: document.querySelectorAll("#choices .gloss").length,
+      panelHidden: document.getElementById("glossPanel").hidden,
+      popoverHidden: document.getElementById("glossPopover").hidden,
+      text: document.getElementById("stimulus").textContent === (() => { const copy = document.getElementById("stimulus").cloneNode(true); copy.querySelectorAll(".gloss").forEach(node => node.replaceWith(node.textContent)); return copy.textContent; })(),
+    };
+  })()`);
+  assert.ok(glossStart.passage && glossStart.choices > 0, JSON.stringify(glossStart));
+  assert.deepEqual({marked:glossStart.marked, inChoices:glossStart.inChoices, panelHidden:glossStart.panelHidden, popoverHidden:glossStart.popoverHidden, text:glossStart.text},
+    {marked:glossStart.passage, inChoices:0, panelHidden:true, popoverHidden:true, text:true},
+    "Before submitting, the passage's hard words can be opened and nothing about the answer choices is shown");
+  assert.equal(await evaluate('document.querySelectorAll("[data-walk], .walk-en, .walk-zh").length'), 0, "Nothing of the walkthrough is on the page before the answer is submitted");
+  // Every layer of a word card: three examples, their translations with the Chinese layer, and a link to the dictionary's own page.
+  await evaluate(`(() => { document.querySelector("#stimulus .gloss").click(); document.querySelectorAll("#glossPopover details.gloss-layer").forEach(layer => { layer.open = true; }); })()`);
+  await waitForEvaluation('Boolean(document.querySelector("#glossPopover .gloss-body.zh-open") && document.querySelector("#glossPopover .sat-dictionary-link a"))', "the Chinese and dictionary layers of a word card");
+  const glossLayers = await evaluate(`(() => {
+    const anchor = document.querySelector("#stimulus .gloss"), entry = PAGE_VOCABULARY[anchor.dataset.gloss], card = document.getElementById("glossPopover");
+    const translations = [...card.querySelectorAll(".gloss-example-zh")], link = card.querySelector(".sat-dictionary-link a");
+    const result = {examples:entry.examples.length >= 3 && translations.length === entry.examples.length,
+      translations:translations.every((node, index) => node.textContent === entry.examples[index].chinese && getComputedStyle(node).display !== "none"),
+      oxford:link.href === satOxfordUrl(entry.word) && link.href.startsWith("https://www.oxfordlearnersdictionaries.com/"), newTab:link.target === "_blank" && link.rel.includes("noopener"),
+      nothingCopied:card.querySelectorAll(".sat-dictionary-entry").length === 0, inView:card.getBoundingClientRect().bottom <= innerHeight};
+    document.dispatchEvent(new KeyboardEvent("keydown", {key:"Escape", bubbles:true}));
+    return {...result, closed:card.hidden};
+  })()`);
+  assert.deepEqual(glossLayers, {examples:true, translations:true, oxford:true, newTab:true, nothingCopied:true, inView:true, closed:true},
+    "A word card holds three examples with translations and links to the dictionary's own page; it carries no dictionary text");
+  const glossCard = await evaluate(`(() => {
+    const anchor = document.querySelector("#stimulus .gloss"), entry = PAGE_VOCABULARY[anchor.dataset.gloss];
+    anchor.click();
+    const card = document.getElementById("glossPopover"), layers = card.querySelectorAll("details.gloss-layer");
+    const first = {open:!card.hidden, expanded:anchor.getAttribute("aria-expanded"), word:card.querySelector(".gloss-word").textContent === entry.word,
+      english:card.querySelector(".gloss-english").textContent === entry.english, example:layers[0].open && entry.examples.every(example => layers[0].textContent.includes(example.english)),
+      chineseFolded:!layers[1].open && layers[1].querySelector("summary").textContent === "中文解释" && !layers[2].open, chinese:layers[1].textContent.includes(entry.chinese) && getComputedStyle(card.querySelector(".gloss-example-zh")).display === "none",
+      inView:card.getBoundingClientRect().top >= 0 && card.getBoundingClientRect().bottom <= innerHeight};
+    card.querySelector("[data-gloss-save]").click();
+    const saved = readSatVocabulary(learningStorage);
+    const afterSave = {count:saved.length, word:saved[0]?.word === entry.word, english:saved[0]?.english === entry.english, question:saved[0]?.questionId === currentQuestion().question_id,
+      context:Boolean(saved[0]?.context), marked:anchor.classList.contains("is-saved"), button:card.querySelector("[data-gloss-save]").getAttribute("aria-pressed")};
+    document.dispatchEvent(new KeyboardEvent("keydown", {key:"Escape", bubbles:true}));
+    return {first, afterSave, closed:card.hidden, focusBack:document.activeElement === anchor};
+  })()`);
+  assert.deepEqual(glossCard.first, {open:true, expanded:"true", word:true, english:true, example:true, chineseFolded:true, chinese:true, inView:true},
+    "A word opens with its English definition and examples; the Chinese layer, the translations and the dictionary layer are there but folded");
+  assert.deepEqual(glossCard.afterSave, {count:1, word:true, english:true, question:true, context:true, marked:true, button:"true"}, "The card adds its word to the notebook");
+  assert.deepEqual({closed:glossCard.closed, focusBack:glossCard.focusBack}, {closed:true, focusBack:true}, "Escape closes the card and returns to the word");
+  await evaluate(`(() => { const q = currentQuestion(), index = q.choices.findIndex(choice => choice.label === q.correct_answer); document.querySelectorAll(".choice")[index].click(); document.getElementById("checkCurrentBtn").click(); })()`);
+  const glossPanel = await evaluate(`(() => {
+    const panel = document.getElementById("glossPanel"), rows = [...panel.querySelectorAll(".gloss-row")];
+    const links = currentQuestion().vocabulary || [], ids = new Set(links.map(link => link.id));
+    const choiceRow = rows.find(row => row.querySelector(".gloss-tag"));
+    choiceRow.open = true;
+    choiceRow.querySelector("[data-gloss-save]").click();
+    return {hidden:panel.hidden, rows:rows.length, expected:ids.size, tagged:rows.filter(row => row.querySelector(".gloss-tag")).length > 0,
+      rowHasLayers:choiceRow.querySelectorAll("details.gloss-layer").length, chineseOpen:choiceRow.querySelector(".gloss-chinese").open && choiceRow.querySelector(".gloss-body").classList.contains("zh-open"),
+      saved:readSatVocabulary(learningStorage).length,
+      savedShown:panel.querySelectorAll('[data-gloss-save][aria-pressed="true"]').length};
+  })()`);
+  assert.deepEqual(glossPanel, {hidden:false, rows:glossPanel.expected, expected:glossPanel.expected, tagged:true, rowHasLayers:3, chineseOpen:true, saved:2, savedShown:2},
+    "After submitting, every explained word of the question is listed with its Chinese open, the choice words included, and can be added to the notebook");
+  // On a wide screen the bottom bar must sit below the panes, not on top of their last lines.
+  await cdp.send("Emulation.setDeviceMetricsOverride", { width: 1280, height: 800, deviceScaleFactor: 1, mobile: false }, sessionId);
+  const paneEnds = await evaluate(`(() => {
+    document.querySelector("#glossPanel .gloss-list").open = true;
+    if (!document.getElementById("explanation").classList.contains("visible")) document.getElementById("revealBtn").click();
+    const bar = document.getElementById("practiceNav"), top = bar.getBoundingClientRect().top;
+    const panes = [...document.querySelectorAll("#practiceLayout > .pane, #practiceLayout > .question-list:not([hidden])")];
+    const covered = panes.map(pane => {
+      pane.scrollTop = pane.scrollHeight;
+      const last = [...pane.children].filter(child => child.offsetParent !== null).pop();
+      return Math.max(0, Math.round(Math.max(pane.getBoundingClientRect().bottom, last.getBoundingClientRect().bottom) - top));
+    });
+    return {panes:panes.length >= 2, scrolls:panes.some(pane => pane.scrollHeight > pane.clientHeight), covered:covered.join(), barInFlow:getComputedStyle(bar).position === "static",
+      barAtBottom:Math.round(bar.getBoundingClientRect().bottom) === innerHeight, pageScrolls:document.documentElement.scrollHeight > innerHeight};
+  })()`);
+  await cdp.send("Emulation.clearDeviceMetricsOverride", {}, sessionId);
+  assert.deepEqual(paneEnds, {panes:true, scrolls:true, covered:paneEnds.covered.split(",").map(() => "0").join(), barInFlow:true, barAtBottom:true, pageScrolls:false},
+    "Scrolled to the end, no pane has anything left under the bottom bar");
+  // The walkthrough of a core question: how to solve it, the text a part at a time, every choice, each in English and in Chinese.
+  const walkthrough = await evaluate(`(() => {
+    const question = currentQuestion(), walk = question.walkthrough, box = document.getElementById("explanation");
+    const segments = [...box.querySelectorAll('[data-walk="segments"] li')], choices = [...box.querySelectorAll("[data-walk-choice]")];
+    const both = node => Boolean(node?.querySelector(".walk-en")?.textContent.trim()) && /[\u4e00-\u9fff]/.test(node.querySelector(".walk-zh")?.textContent || "");
+    const written = box.querySelector(".explanation-written"), hasWritten = Boolean(question.explanation && (question.explanation.short || question.explanation.detailed));
+    return {stated:Boolean(walk), approach:both(box.querySelector('[data-walk="approach"]')),
+      segments:segments.length === walk.segments.length && segments.every(both),
+      excerpts:segments.every((node, index) => node.querySelector(".walk-excerpt").textContent.includes(walk.segments[index].excerpt.slice(0, 24))),
+      promptLast:Boolean(segments[segments.length - 1].querySelector(".walk-tag")) && walk.segments[walk.segments.length - 1].field === "prompt",
+      choices:choices.length === question.choices.length && choices.every(both),
+      keyed:choices.filter(node => node.classList.contains("is-correct")).map(node => node.dataset.walkChoice).join() === question.correct_answer,
+      ownExplanationFolded:Boolean(written) === hasWritten && !(written && written.open), notEmpty:!box.querySelector(".explanation-empty"),
+      level:"full"};
+  })()`);
+  assert.deepEqual(walkthrough, {stated:true, approach:true, segments:true, excerpts:true, promptLast:true, choices:true, keyed:true, ownExplanationFolded:true, notEmpty:true, level:"full"},
+    "After the answer is revealed a core question shows its walkthrough in English and Chinese, with the set file's own explanation folded beneath");
+  await evaluate(`(() => {
+    const prompt = document.getElementById("prompt"), range = document.createRange(), node = prompt.firstChild;
+    const word = /[A-Za-z]{5,}/.exec(node.nodeValue);
+    range.setStart(node, word.index); range.setEnd(node, word.index + word[0].length);
+    getSelection().removeAllRanges(); getSelection().addRange(range);
+    document.getElementById("vocabularyBtn").click();
+  })()`);
+  const ownWord = await evaluate(`(() => { const words = readSatVocabulary(learningStorage); return {count:words.length, custom:words.filter(item => item.custom).length, flashed:document.getElementById("vocabularyBtn").textContent.startsWith("已加入")}; })()`);
+  assert.deepEqual(ownWord, {count:3, custom:1, flashed:true}, "Any selected word can be added to the notebook");
+  // A saved copy that has gone stale: the notebook must show the list's current wording instead.
+  await evaluate(`(() => { const word = readSatVocabulary(learningStorage).find(item => item.vocabId && item.questionId); updateSatVocabularyWord(learningStorage, word.word, {english:"stale wording"}); })()`);
+  await navigate(`${origin}/index.html#vocabulary`);
+  const notebook = await evaluate(`(() => {
+    const cards = [...document.querySelectorAll(".vocab-card")], explained = cards.find(card => card.querySelector("details.vocab-chinese"));
+    const active = document.querySelector(".desktop-nav a.active")?.textContent;
+    const layers = explained.querySelectorAll("details.vocab-layer");
+    const stale = cards.map(card => card.querySelector(".vocab-english")?.textContent).filter(text => text === "stale wording").length;
+    const current = cards.filter(card => MANIFEST.vocabulary.some(item => item.english === card.querySelector(".vocab-english")?.textContent)).length;
+    const shape = {cards:cards.length, active, folded:cards.every(card => !card.open), example:layers[0].open && explained.querySelectorAll(".vocab-examples li").length >= 3,
+      chineseOpen:layers[1].open && explained.querySelector(".vocab-layers").classList.contains("zh-open"), dictionary:cards.every(card => card.querySelector("details.sat-dictionary")), stale, current,
+      back:[...cards].some(card => card.querySelector(".vocab-context a")?.getAttribute("href").includes("focus=")), meta:document.querySelector(".section-meta").textContent};
+    explained.querySelector("[data-vocab-mastered]").click();
+    return shape;
+  })()`);
+  assert.deepEqual(notebook, {cards:3, active:"词汇", folded:true, example:true, chineseOpen:true, dictionary:true, stale:0, current:2, back:true, meta:"3 个词 · 已掌握 0"},
+    "The notebook lists the saved words folded, each with three examples, the Chinese and a dictionary layer, in the word list's current wording, with a way back to the question");
+  const notebookAfter = await evaluate(`(() => {
+    const learning = document.querySelectorAll(".vocab-card").length, meta = document.querySelector(".section-meta").textContent;
+    document.getElementById("vocabAddInput").value = "ephemeral";
+    document.getElementById("vocabAddForm").requestSubmit();
+    const added = document.querySelectorAll(".vocab-card").length;
+    document.getElementById("vocabAddInput").value = "12345";
+    document.getElementById("vocabAddForm").requestSubmit();
+    const refused = document.getElementById("vocabStatus").textContent;
+    document.querySelector('[data-vocab-remove="ephemeral"]').click();
+    return {learning, meta, added, refused:refused.startsWith("请输入"), afterRemove:document.querySelectorAll(".vocab-card").length, stored:readSatVocabulary(learningStorage).length};
+  })()`);
+  assert.deepEqual(notebookAfter, {learning:2, meta:"3 个词 · 已掌握 1", added:3, refused:true, afterRemove:2, stored:3},
+    "Words can be marked as mastered, added by hand and removed");
+  await evaluate(`document.querySelector('[data-vocab-view="list"]').click()`);
+  await waitForEvaluation('location.hash === "#vocabulary/list" && Boolean(document.getElementById("glossaryList"))', "the word list");
+  const glossary = await evaluate(`(() => {
+    const pick = (id, value) => { const control = document.getElementById(id); control.value = value; control.dispatchEvent(new Event(control.tagName === "INPUT" ? "input" : "change", {bubbles:true})); };
+    const words = () => [...document.querySelectorAll("#glossaryList .vocab-card")].map(card => MANIFEST.vocabulary.find(item => item.id === card.dataset.glossary));
+    const sorted = (rows, key, direction) => rows.every((row, index) => index === 0 || direction * (rows[index - 1][key] - row[key]) >= 0);
+    const result = {total:MANIFEST.vocabulary.length, shown:words().length, moreShown:!document.getElementById("glossaryMoreRow").hidden,
+      byQuestions:sorted(words(), "questions", 1), counts:MANIFEST.vocabulary.every(item => item.questions >= 1 && item.realExamQuestions <= item.questions && item.questions <= item.occurrences)};
+    document.getElementById("glossaryMore").click();
+    result.afterMore = words().length;
+    pick("glossarySort", "real"); result.byReal = sorted(words(), "realExamQuestions", 1);
+    pick("glossarySort", "rare"); result.byRare = sorted(words(), "questions", -1);
+    pick("glossarySort", "alpha"); result.byAlpha = words().every((row, index, rows) => index === 0 || rows[index - 1].word.localeCompare(row.word, "en", {sensitivity:"base"}) <= 0);
+    pick("glossaryPart", "adv."); result.adverbs = words().length > 0 && words().every(row => row.partOfSpeech.split("/").includes("adv."));
+    pick("glossaryPart", "all");
+    const target = MANIFEST.vocabulary.find(item => !hasSatVocabularyWord(learningStorage, item.word));
+    pick("glossaryQuery", target.word);
+    const card = document.querySelector('#glossaryList .vocab-card[data-glossary="' + target.id + '"]'), layers = card.querySelectorAll("details.vocab-layer");
+    result.found = Boolean(card); result.folded = !card.open; result.example = layers[0].open && card.querySelectorAll(".vocab-examples li").length === target.examples.length && target.examples.length >= 3;
+    result.chineseOpen = layers[1].open && [...card.querySelectorAll(".vocab-translation")].every((node, index) => node.textContent === target.examples[index].chinese);
+    result.usage = card.querySelector(".vocab-usage").textContent.includes(String(target.questions));
+    const before = readSatVocabulary(learningStorage).length;
+    card.querySelector("[data-glossary-save]").click();
+    result.added = readSatVocabulary(learningStorage).length - before;
+    pick("glossarySaved", "saved"); pick("glossaryQuery", "");
+    result.savedOnly = words().length === readSatVocabulary(learningStorage).filter(item => !item.custom).length;
+    document.querySelector('#glossaryList [data-glossary-save="' + target.id + '"]').click();
+    result.removed = before - readSatVocabulary(learningStorage).length;
+    pick("glossarySaved", "all");
+    return result;
+  })()`);
+  assert.ok(glossary.total > 1000, `The word list holds every explained word: ${glossary.total}`);
+  assert.deepEqual({...glossary, total:0}, {total:0, shown:60, moreShown:true, byQuestions:true, counts:true, afterMore:120, byReal:true, byRare:true, byAlpha:true, adverbs:true,
+    found:true, folded:true, example:true, chineseOpen:true, usage:true, added:1, savedOnly:true, removed:0},
+    "The word list shows every explained word, sorts by how often it occurs, by real-exam use and by letter, filters, searches, and feeds the notebook");
 
   await cdp.send("Emulation.setDeviceMetricsOverride", { width: 390, height: 844, deviceScaleFactor: 1, mobile: false }, sessionId);
   await navigate(`${origin}/index.html#home`);
@@ -823,6 +1273,11 @@ try {
         "search",
         "chart_assets",
         "mobile_menu",
+        "word_explanations_and_notebook",
+        "three_examples_and_dictionary_link",
+        "word_list_sorting",
+        "bottom_bar_clear_of_panes",
+        "walkthrough_after_reveal",
       ],
     }, null, 2)}\n`, "utf8");
   }

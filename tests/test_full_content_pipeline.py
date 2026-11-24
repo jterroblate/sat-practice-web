@@ -49,7 +49,7 @@ def copy_public_inputs(source: Path, target: Path):
     current_resources = load(source / "assets/content-resources.json")
     inputs = [
         "scripts/build-site.py", "scripts/build-demo.py", "scripts/build_output.py",
-        "fixtures/original-demo.json", "sat-content-registry.json",
+        "fixtures/original-demo.json", "sat-content-registry.json", "sat-release.json",
         "sat-practice-migrations.json", "docs/content-export.json",
         "assets/content-resources.json",
         SKILL + "/scripts/build_learning_experience.py",
@@ -76,11 +76,12 @@ class FullContentPipelineTests(unittest.TestCase):
         cls.temporary = tempfile.TemporaryDirectory(prefix="clean-full-", dir=parent)
         cls.checkout = Path(cls.temporary.name)
         copy_public_inputs(ROOT, cls.checkout)
-        completed = cls.run_build("build-site.py")
+        # The whole bank: every release feature on, into build/site-preview/.
+        completed = cls.run_build("build-site.py", "--preview-all")
         if completed.returncode:
             cls.temporary.cleanup()
             raise RuntimeError(completed.stdout + completed.stderr)
-        cls.output = cls.checkout / "build/site"
+        cls.output = cls.checkout / "build/site-preview"
         cls.manifest = load(cls.output / "sat-practice-manifest.json")
 
     @classmethod
@@ -88,22 +89,24 @@ class FullContentPipelineTests(unittest.TestCase):
         cls.temporary.cleanup()
 
     @classmethod
-    def run_build(cls, name):
-        return subprocess.run([sys.executable, "scripts/" + name], cwd=cls.checkout,
+    def run_build(cls, name, *arguments):
+        return subprocess.run([sys.executable, "scripts/" + name, *arguments], cwd=cls.checkout,
                               text=True, capture_output=True)
 
     def test_01_full_identity_answer_and_route_contract(self):
         registry = load(self.checkout / "sat-content-registry.json")
         self.assertEqual(Counter(e["kind"] for e in registry["entries"]),
-                         {"set": 34, "collection": 3, "category": 11})
-        self.assertEqual(self.manifest["pageCount"], 48)
-        self.assertEqual(self.manifest["uniqueQuestionCount"], 1752)
+                         {"set": 70, "collection": 37, "category": 11})
+        self.assertEqual(self.manifest["pageCount"], 118)
+        self.assertEqual(self.manifest["uniqueQuestionCount"], 4054)
         answers = {}
         revisions = {}
         occurrences = 0
         for entry in registry["entries"]:
-            self.assertFalse(entry["examEligible"])
-            self.assertEqual(entry["examVariants"], [])
+            # Mock exams are offered only as scripts/exam_modules.py derives them
+            # (tests/test_exam_modules.py); nothing else may switch one on.
+            self.assertEqual(bool(entry["examEligible"]), bool(entry["examVariants"]))
+            self.assertTrue(entry["kind"] == "set" or not entry["examEligible"])
             self.assertTrue((self.output / entry["route"]).is_file())
             if entry["kind"] not in {"set", "collection"}:
                 continue
@@ -114,8 +117,8 @@ class FullContentPipelineTests(unittest.TestCase):
                 if qid in answers:
                     self.assertEqual(answer, answers[qid], "Shared question IDs must use the same answer")
                 answers[qid] = answer
-        self.assertEqual(occurrences, 1765)
-        self.assertEqual(len(answers), 1752)
+        self.assertEqual(occurrences, 4067)
+        self.assertEqual(len(answers), 4054)
         category_coverage = Counter(qid for page in self.manifest["pages"]
                                     if page["kind"] == "category" for qid in page["questionIds"])
         self.assertEqual(set(category_coverage), set(answers))
@@ -180,7 +183,7 @@ class FullContentPipelineTests(unittest.TestCase):
         demo_sentinel = self.checkout / "build/demo/keep.txt"
         demo_sentinel.parent.mkdir(parents=True, exist_ok=True)
         demo_sentinel.write_text("keep", encoding="utf-8")
-        completed = self.run_build("build-site.py")
+        completed = self.run_build("build-site.py", "--preview-all")
         self.assertEqual(completed.returncode, 0, completed.stderr)
         self.assertFalse(retired_route.exists())
         self.assertFalse(retired_resource.exists())
@@ -208,7 +211,7 @@ class FullContentPipelineTests(unittest.TestCase):
         source["dataPath"] = "content/canonical/sets/missing.json"
         registry_path.write_text(json.dumps(registry), encoding="utf-8")
         try:
-            completed = self.run_build("build-site.py")
+            completed = self.run_build("build-site.py", "--preview-all")
             self.assertNotEqual(completed.returncode, 0)
             self.assertEqual((self.output / "index.html").read_bytes(), before)
         finally:
@@ -239,13 +242,68 @@ class FullContentPipelineTests(unittest.TestCase):
         with tempfile.TemporaryDirectory(prefix="changed-resources-", dir=parent) as temporary:
             checkout = Path(temporary)
             copy_public_inputs(self.checkout, checkout)
-            completed = subprocess.run([sys.executable, "scripts/build-site.py"], cwd=checkout,
+            completed = subprocess.run([sys.executable, "scripts/build-site.py", "--preview-all"], cwd=checkout,
                                        text=True, capture_output=True)
             self.assertEqual(completed.returncode, 0, completed.stderr)
-            self.assertTrue((checkout / "build/site" / new_path).is_file())
-            self.assertFalse((checkout / "build/site" / old_path).exists())
-            self.assertEqual(load(checkout / "build/site/sat-practice-manifest.json")["uniqueQuestionCount"], 1752)
+            self.assertTrue((checkout / "build/site-preview" / new_path).is_file())
+            self.assertFalse((checkout / "build/site-preview" / old_path).exists())
+            self.assertEqual(load(checkout / "build/site-preview/sat-practice-manifest.json")["uniqueQuestionCount"], 4054)
             self.assertEqual((checkout / "docs/content-export.json").read_bytes(), historical_report)
+
+    def test_06_release_build_serves_only_the_reviewed_baseline(self):
+        """A release build without any switch on equals the 37 reviewed set files, 1752 questions, 48 routes."""
+        def built(release_file: bool):
+            release = self.checkout / "sat-release.json"
+            saved = release.read_bytes()
+            try:
+                if not release_file:
+                    release.unlink()
+                completed = self.run_build("build-site.py")
+                self.assertEqual(completed.returncode, 0, completed.stderr)
+            finally:
+                release.write_bytes(saved)
+            return load(self.checkout / "build/site/sat-practice-manifest.json")
+        for release_file in (True, False):
+            with self.subTest(release_file=release_file):
+                manifest = built(release_file)
+                self.assertEqual((manifest["uniqueQuestionCount"], manifest["pageCount"]), (1752, 48))
+                self.assertFalse(any(manifest["features"].values()))
+                registry = load(self.checkout / "sat-content-registry.json")
+                ungated = {entry["route"] for entry in registry["entries"] if "releaseGate" not in entry}
+                self.assertEqual({page["route"] for page in manifest["pages"]}, ungated)
+                self.assertEqual(len([entry for entry in registry["entries"]
+                                      if entry["kind"] != "category" and "releaseGate" not in entry]), 37)
+                self.assertFalse(any(page["examEligible"] for page in manifest["pages"]))
+                for gated in (entry for entry in registry["entries"] if "releaseGate" in entry):
+                    self.assertFalse((self.checkout / "build/site" / gated["route"]).exists(), gated["route"])
+                    self.assertFalse((self.checkout / "build/site" / gated["dataPath"]).exists(), gated["dataPath"])
+        self.assertEqual(load(self.output / "sat-practice-manifest.json")["uniqueQuestionCount"], 4054,
+                         "Building the release site leaves the preview alone")
+
+    def test_07_release_file_is_strict_and_gates_are_known(self):
+        release = self.checkout / "sat-release.json"
+        saved = release.read_bytes()
+        try:
+            for bad in ({"schemaVersion": "sat-release-v1", "features": {"expandedQuestionBank": "yes"}},
+                        {"schemaVersion": "sat-release-v1", "features": {"expandedQuestionBank": True, "somethingElse": True}},
+                        {"schemaVersion": "sat-release-v0", "features": {}}):
+                release.write_text(json.dumps(bad), encoding="utf-8")
+                completed = self.run_build("build-site.py")
+                self.assertNotEqual(completed.returncode, 0, bad)
+                self.assertIn("sat-release.json must be", completed.stderr)
+        finally:
+            release.write_bytes(saved)
+        registry_path = self.checkout / "sat-content-registry.json"
+        original = registry_path.read_bytes()
+        registry = json.loads(original)
+        next(entry for entry in registry["entries"] if "releaseGate" in entry)["releaseGate"] = "everything"
+        registry_path.write_text(json.dumps(registry), encoding="utf-8")
+        try:
+            completed = self.run_build("build-site.py")
+            self.assertNotEqual(completed.returncode, 0)
+            self.assertIn("releaseGate", completed.stderr)
+        finally:
+            registry_path.write_bytes(original)
 
 
 if __name__ == "__main__":

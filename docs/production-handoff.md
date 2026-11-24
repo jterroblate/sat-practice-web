@@ -37,7 +37,24 @@ python3 scripts/prepare-workspace-update.py \
 
 ## 构建生产候选
 
-使用新的独立候选目录，将固定提交的核心与核实后的生产 canonical、registry、迁移和必要图组合，再重新生成站点。公开 `build/site/` 可用于开发验收，但尚无生产登录包装；`build/demo/` 仅含原创 fixture，两者都不是可直接上传的生产包。
+使用新的独立候选目录，将固定提交的核心与核实后的生产 canonical、registry、迁移和必要图组合，再重新生成站点。公开 `build/site/` 可用于开发验收，但尚无生产登录包装；`build/site-preview/` 打开了全部发布开关，只供评审；`build/demo/` 仅含原创 fixture，三者都不是可直接上传的生产包。
+
+## 发布开关
+
+导入基线（34 个套题、3 个专项、11 个题型页，1,752 题，48 个路由）之后加入的内容由仓库根目录的 `sat-release.json` 控制：
+
+| 开关 | 控制的内容 | 关闭时 |
+| --- | --- | --- |
+| `expandedQuestionBank` | registry 中带 `releaseGate: expandedQuestionBank` 的 70 份材料（2,302 道新题），以及题型页因此增加的题 | 不构建这些材料，题型页的题目列表、存储键与基线相同 |
+| `fixedMockExams` | registry 中 `examEligible` 的固定两模块模考（目前 19 套，其中有 22–27 题的缩短模块和重新开放的旧 34 卷） | 页面不出现模考入口，`?mode=exam` 只显示「模考暂未开放」，不读模考记录 |
+| `wordExplanations` | AI 草稿的词汇解释（1,168 词，`basis: ai_draft`）、词汇表和生词本 | 页面不带任何词汇数据，没有「词汇」入口和「加入生词本」按钮 |
+| `walkthroughs` | AI 草稿的核心题中英讲解（345 题，`basis: ai_draft`） | 页面不带讲解；解析完整度按原有解析计算 |
+
+构建器只认这个文件：文件不存在时四个开关都视为关闭，所以没有这个文件的工作区构建出来的也是基线。开关之间相互独立，例如只开模考时，基线里能成为模考的只有旧 34 卷。`python3 scripts/build-site.py --preview-all` 在 `build/site-preview/` 构建全部打开的版本，供所有者先看再决定。
+
+打开 `expandedQuestionBank` 之前还要处理迁移契约：题型页变大后存储键改变，构建器会把基线题型页的旧键作为迁移写进候选的 `sat-practice-migrations.json`（页面按题目 ID 恢复停留位置，答案照常合并），而生产门禁按 `scripts/sat_runtime_metadata.py` 中批准的迁移文件哈希核对，会因为多出这 8 个旧键而拦下候选。这是有意的：所有者审核这些迁移后，更新仓库里的迁移文件和批准哈希，再开启开关。
+
+验证默认构建：`python3 scripts/build-site.py` 输出应为 1,752 题、48 个路由、0 套模考、无开启的开关；`node scripts/verify-sat-release-and-isolation.mjs --release-root build/site --preview-root build/site-preview` 在浏览器里核对这些内容不出现。
 
 至少核对材料 / 题目数量、稳定 ID / 路由、答案与解析、评分 / 迁移、资源可达及来源限定。交互变化验证选择 / 改选 / 提交、主动 Reveal、刷新恢复、owner 切换、重置 / 重做、迟到同步和移动端。测试使用专用合成状态；真实账号与跨设备测试有独立验收边界。
 

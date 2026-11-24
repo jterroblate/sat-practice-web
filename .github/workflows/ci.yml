@@ -19,11 +19,20 @@ jobs:
         with:
           node-version: '22'
       - run: python3 scripts/check-repository-scope.py --tracked
+      # build/site: what sat-release.json releases (the reviewed baseline while every switch is off).
       - run: python3 scripts/build-site.py
+      # build/site-preview: every release feature on, for review before the owner switches one on.
+      - run: python3 scripts/build-site.py --preview-all
       - run: python3 scripts/build-demo.py
       - run: python3 -m unittest discover -s tests -p 'test_*.py'
       - run: python3 -m unittest discover -s skills/skill-sat-rw-classification/tests -p 'test_*.py'
-      - name: Real browser regression with synthetic learning records
-        run: node scripts/verify-sat-learning-browser.mjs --expected-unique 1752 --expected-pages 48 --report build/reports/browser.json
+      - run: python3 scripts/content_db.py check
+      - run: python3 scripts/exam_modules.py --check
+      - name: Real browser regression with synthetic learning records (every feature on)
+        run: node scripts/verify-sat-learning-browser.mjs --root build/site-preview --expected-unique 4054 --expected-pages 118 --report build/reports/browser.json
+        env:
+          CHROME_PATH: google-chrome
+      - name: Release switches, owner isolation, timers and page-state migration
+        run: node scripts/verify-sat-release-and-isolation.mjs --release-root build/site --preview-root build/site-preview --report build/reports/release-isolation.json
         env:
           CHROME_PATH: google-chrome

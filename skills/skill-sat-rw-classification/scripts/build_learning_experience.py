@@ -27,6 +27,17 @@ ZEN_ASSETS = ("background.svg", "texture.svg", "pattern.svg")
 MIGRATIONS_PATH_NAME = "sat-practice-migrations.json"
 CONTENT_REGISTRY_PATH_NAME = "sat-content-registry.json"
 CONTENT_REGISTRY_SCHEMA = "sat-content-registry-v1"
+# What a build may show beyond the reviewed baseline. Every feature is off unless
+# the root being built holds a sat-release.json that switches it on, so a build
+# from a workspace that never heard of these switches shows none of them.
+RELEASE_PATH_NAME = "sat-release.json"
+RELEASE_SCHEMA = "sat-release-v1"
+RELEASE_FEATURES = (
+    "expandedQuestionBank",  # registry entries marked releaseGate: expandedQuestionBank
+    "fixedMockExams",        # examEligible entries open as fixed two-module mock exams
+    "wordExplanations",      # AI-drafted word explanations, the word list and the notebook
+    "walkthroughs",          # AI-drafted bilingual walkthroughs shown after submitting
+)
 CANONICAL_PACKAGE_SCHEMA = "sat-canonical-question-collection-v1"
 PARTIAL_ROUTE = "sets/06-2025-06-apac-a-partial.html"
 CATEGORY_ROUTES = {
@@ -166,6 +177,38 @@ def add_page_migration(
         existing.append(entry)
 
 
+def load_release(root: Path) -> dict[str, bool]:
+    """The release switches of the root being built; all off when it has none."""
+    path = root / RELEASE_PATH_NAME
+    if not path.is_file():
+        return {name: False for name in RELEASE_FEATURES}
+    value = json.loads(path.read_text(encoding="utf-8"))
+    features = value.get("features") if isinstance(value, dict) else None
+    if (not isinstance(value, dict) or value.get("schemaVersion") != RELEASE_SCHEMA
+            or not isinstance(features, dict) or set(features) != set(RELEASE_FEATURES)
+            or not all(isinstance(features[name], bool) for name in RELEASE_FEATURES)):
+        raise ValueError(f"{RELEASE_PATH_NAME} must be {{schemaVersion: {RELEASE_SCHEMA}, features: "
+                         f"{{{', '.join(RELEASE_FEATURES)}: true or false}}}}")
+    return {name: features[name] for name in RELEASE_FEATURES}
+
+
+def released(entry: dict[str, Any], release: dict[str, bool]) -> bool:
+    """Whether a registry entry belongs in this build: ungated, or its gate is on."""
+    gate = entry.get("releaseGate")
+    if gate is None:
+        return True
+    if gate not in RELEASE_FEATURES:
+        raise ValueError(f"Unknown releaseGate {gate!r} for {entry.get('contentId')}")
+    return release[gate]
+
+
+def released_origin(origin: dict[str, Any], release: dict[str, bool]) -> dict[str, Any]:
+    """A question's metadata without what a switched-off feature would show."""
+    hidden = {key for key, feature in (("vocabulary", "wordExplanations"), ("walkthrough", "walkthroughs"))
+              if not release[feature]}
+    return {key: value for key, value in origin.items() if key not in hidden}
+
+
 def load_content_registry(root: Path) -> dict[str, Any]:
     path = root / CONTENT_REGISTRY_PATH_NAME
     value = json.loads(path.read_text(encoding="utf-8"))
@@ -203,6 +246,8 @@ def load_content_registry(root: Path) -> dict[str, Any]:
             raise ValueError(f"examVariants must be an array for {content_id}")
         if entry.get("examEligible") and not entry.get("moduleSpec"):
             raise ValueError(f"Exam-eligible content requires moduleSpec: {content_id}")
+        if "releaseGate" in entry and (entry["releaseGate"] not in RELEASE_FEATURES or kind == "category"):
+            raise ValueError(f"releaseGate must name a release feature and not gate a category: {content_id}")
         seen_ids.add(content_id)
         seen_routes.add(route)
     return value
@@ -263,12 +308,280 @@ def load_question_package(root: Path, entry: dict[str, Any]) -> list[dict[str, A
     return normalized
 
 
+QUESTION_METADATA = "sat-question-metadata.json"
+QUESTION_METADATA_SCHEMA = "sat-question-metadata-v3"
+SOURCE_KINDS = ("real_exam", "practice")
+DIFFICULTY_LEVELS = ("easy", "medium", "hard")
+DIFFICULTY_BASES = ("source_file", "estimate", "model")
+SOURCE_REGIONS = ("apac", "north_america")
+IMPORTANCE_LEVELS = ("core", "important", "basic")
+PASSAGE_FAMILIES = ("literature", "information")
+TAXONOMY_ID_RE = re.compile(r"^[a-z][a-z0-9_]{0,39}$")
+EMPTY_TAXONOMY = {"passageTypes": [], "tasks": [], "importance": []}
+EXPLANATION_TEXT_FIELDS = ("short", "key_evidence", "why_correct", "detailed")
+
+
+def explanation_level(question: dict[str, Any]) -> str:
+    """How much explanation the learner will see: 'full', 'brief' or 'none'.
+
+    Read off the question as it is published, the same way the view
+    question_explanation in content/db/schema.sql reads the tables: 'full' has
+    every explanation text and an analysis of every choice, or a walkthrough;
+    'none' has nothing written; anything in between is 'brief'.
+    """
+    if question_walkthrough(question):
+        return "full"
+    explanation = question.get("explanation") if isinstance(question.get("explanation"), dict) else {}
+    analysis = explanation.get("choice_analysis") if isinstance(explanation.get("choice_analysis"), dict) else {}
+    choices = [choice for choice in question.get("choices") or [] if isinstance(choice, dict)]
+    texts = sum(1 for field in EXPLANATION_TEXT_FIELDS if str(explanation.get(field) or "").strip())
+    analysed = sum(1 for choice in choices if str(analysis.get(choice.get("label")) or "").strip())
+    if texts == 0 and analysed == 0:
+        return "none"
+    if texts == len(EXPLANATION_TEXT_FIELDS) and analysed == len(choices):
+        return "full"
+    return "brief"
+
+
+def load_question_metadata(root: Path) -> dict[str, Any]:
+    """Optional per-question metadata written by the site build from content/db."""
+    path = root / QUESTION_METADATA
+    if not path.is_file():
+        return {"questions": {}, "taxonomy": EMPTY_TAXONOMY}
+    value = json.loads(path.read_text(encoding="utf-8"))
+    if (not isinstance(value, dict) or value.get("schemaVersion") != QUESTION_METADATA_SCHEMA
+            or not isinstance(value.get("questions"), dict)):
+        raise ValueError("Unsupported question metadata file")
+    return value
+
+
+def load_question_origins(root: Path) -> dict[str, dict[str, Any]]:
+    return load_question_metadata(root)["questions"]
+
+
+VOCABULARY_FIELDS = ("passage", "prompt", "choices")
+VOCABULARY_REVEALS = ("always", "after_submit")
+VOCABULARY_ID_RE = re.compile(r"^[a-z][a-z0-9-]{0,79}$")
+VOCABULARY_WORD_RE = re.compile(r"^(?:[A-Za-z][A-Za-z'’\-]*[A-Za-z]|[A-Za-z])$")
+VOCABULARY_TEXTS = ("word", "partOfSpeech", "english", "chinese")
+VOCABULARY_EXAMPLES = 3
+BILINGUAL = ("english", "chinese")
+WALKTHROUGH_FIELDS = ("passage", "prompt")
+
+
+def question_vocabulary(question: dict[str, Any]) -> list[dict[str, str]]:
+    """The explained words of a question: where each one stands and when it may be opened."""
+    origin = question.get("_origin") if isinstance(question.get("_origin"), dict) else {}
+    question_id = str(question.get("question_id") or "")
+    result = []
+    for item in origin.get("vocabulary") if isinstance(origin.get("vocabulary"), list) else []:
+        if (not isinstance(item, dict) or item.get("field") not in VOCABULARY_FIELDS
+                or item.get("reveal") not in VOCABULARY_REVEALS
+                or not VOCABULARY_ID_RE.match(str(item.get("id") or ""))
+                or not VOCABULARY_WORD_RE.match(str(item.get("surface") or ""))
+                or (item["field"] == "choices" and item["reveal"] != "after_submit")):
+            raise ValueError(f"Invalid vocabulary link: {question_id}")
+        result.append({"field": item["field"], "surface": item["surface"], "id": item["id"], "reveal": item["reveal"]})
+    return result
+
+
+VOCABULARY_COUNTS = ("questions", "realExamQuestions", "occurrences")
+
+
+def plain_text(value: Any, context: str) -> str:
+    """Learner-facing text from content/db: written, and free of markup and local paths."""
+    text = str(value or "").strip()
+    if not text or PUBLIC_HTML_TAG_RE.search(text) or any(pattern in text for pattern in PUBLIC_PATH_PATTERNS):
+        raise ValueError(f"Not plain text: {context}")
+    return text
+
+
+def bilingual(value: Any, context: str) -> dict[str, str]:
+    """The same thing said in English and in Chinese."""
+    if not isinstance(value, dict):
+        raise ValueError(f"Not an English and a Chinese text: {context}")
+    return {language: plain_text(value.get(language), f"{context}.{language}") for language in BILINGUAL}
+
+
+def vocabulary_entry(vocab_id: Any, entry: Any) -> dict[str, Any]:
+    """One word explanation as plain text, with its example sentences in reading order."""
+    if not VOCABULARY_ID_RE.match(str(vocab_id or "")) or not isinstance(entry, dict):
+        raise ValueError(f"Invalid word explanation: {vocab_id}")
+    row: dict[str, Any] = {field: plain_text(entry.get(field), f"{vocab_id}.{field}") for field in VOCABULARY_TEXTS}
+    examples = entry.get("examples")
+    if not isinstance(examples, list) or len(examples) < VOCABULARY_EXAMPLES:
+        raise ValueError(f"A word explanation needs {VOCABULARY_EXAMPLES} examples: {vocab_id}")
+    row["examples"] = [bilingual(example, f"{vocab_id}.examples.{index}") for index, example in enumerate(examples)]
+    return row
+
+
+def question_walkthrough(question: dict[str, Any]) -> dict[str, Any] | None:
+    """The question read through for the learner, shown after the answer is in; None when nothing is written.
+
+    The approach, the passage and the prompt a part at a time, and a note on
+    each of the question's choices, all in English and in Chinese.
+    """
+    origin = question.get("_origin") if isinstance(question.get("_origin"), dict) else {}
+    stated = origin.get("walkthrough")
+    if stated is None:
+        return None
+    question_id = str(question.get("question_id") or "")
+    labels = [str(choice.get("label") or "") for choice in question.get("choices") or [] if isinstance(choice, dict)]
+    segments = stated.get("segments") if isinstance(stated, dict) else None
+    choices = stated.get("choices") if isinstance(stated, dict) else None
+    if (not isinstance(segments, list) or not segments or not isinstance(choices, dict) or sorted(choices) != sorted(labels)
+            or any(not isinstance(segment, dict) or segment.get("field") not in WALKTHROUGH_FIELDS for segment in segments)):
+        raise ValueError(f"Invalid walkthrough: {question_id}")
+    return {
+        "approach": bilingual(stated.get("approach"), f"{question_id}.walkthrough.approach"),
+        "segments": [
+            {"field": segment["field"],
+             "excerpt": plain_text(segment.get("excerpt"), f"{question_id}.walkthrough.segments.{index}.excerpt"),
+             **bilingual(segment, f"{question_id}.walkthrough.segments.{index}")}
+            for index, segment in enumerate(segments)],
+        "choices": {label: bilingual(choices[label], f"{question_id}.walkthrough.choices.{label}") for label in labels},
+    }
+
+
+def site_vocabulary(stated: Any) -> list[dict[str, Any]]:
+    """Every word explanation with how often the word is written in the bank, for the word list.
+
+    questions is the number of published Reading and Writing questions the
+    word occurs in, realExamQuestions how many of those are real-exam
+    questions, occurrences the number of times in all. Sorted by word.
+    """
+    result = []
+    for vocab_id, entry in (stated if isinstance(stated, dict) else {}).items():
+        row: dict[str, Any] = {"id": vocab_id, **vocabulary_entry(vocab_id, entry)}
+        for field in VOCABULARY_COUNTS:
+            value = entry.get(field)
+            if type(value) is not int or value < 0:
+                raise ValueError(f"Invalid word count: {vocab_id}.{field}")
+            row[field] = value
+        if row["realExamQuestions"] > row["questions"] or row["questions"] > row["occurrences"]:
+            raise ValueError(f"Inconsistent word counts: {vocab_id}")
+        result.append(row)
+    return sorted(result, key=lambda row: (row["word"].lower(), row["id"]))
+
+
+def page_vocabulary(stated: Any, questions: list[dict[str, Any]]) -> dict[str, dict[str, str]]:
+    """The word explanations one practice page needs, as plain text.
+
+    `stated` is the vocabulary of the question metadata file; `questions` are
+    the page's public question DTOs.
+    """
+    stated = stated if isinstance(stated, dict) else {}
+    result: dict[str, dict[str, str]] = {}
+    for question in questions:
+        for item in question.get("vocabulary") or []:
+            entry = stated.get(item["id"])
+            if not isinstance(entry, dict):
+                raise ValueError(f"Missing word explanation: {item['id']}")
+            result[item["id"]] = vocabulary_entry(item["id"], entry)
+    return dict(sorted(result.items()))
+
+
+def question_taxonomy(root: Path) -> dict[str, list[dict[str, Any]]]:
+    """The tasks, passage types and importance levels, in display order, for the practice builder.
+
+    Names are shown to learners, so they must be plain text; ids are the
+    values the questions carry.
+    """
+    stated = load_question_metadata(root).get("taxonomy")
+    if not isinstance(stated, dict):
+        return copy.deepcopy(EMPTY_TAXONOMY)
+
+    def rows(name: str, fields: tuple[str, ...]) -> list[dict[str, Any]]:
+        result = []
+        for entry in stated.get(name) if isinstance(stated.get(name), list) else []:
+            if not isinstance(entry, dict) or not TAXONOMY_ID_RE.match(str(entry.get("id") or "")):
+                raise ValueError(f"Invalid taxonomy entry in {name}")
+            row = {"id": entry["id"]}
+            for field in fields:
+                text = str(entry.get(field) or "")
+                if PUBLIC_HTML_TAG_RE.search(text) or any(pattern in text for pattern in PUBLIC_PATH_PATTERNS):
+                    raise ValueError(f"Taxonomy text is not plain: {name}.{entry['id']}.{field}")
+                row[field] = text
+            result.append(row)
+        return result
+
+    passage_types = rows("passageTypes", ("name", "family"))
+    if any(row["family"] not in PASSAGE_FAMILIES for row in passage_types):
+        raise ValueError("Invalid passage type family")
+    tasks = rows("tasks", ("name", "english", "skill", "domain"))
+    shares = {entry["id"]: entry.get("examShare") for entry in stated.get("tasks", []) if isinstance(entry, dict)}
+    for row in tasks:
+        share = shares.get(row["id"])
+        row["examShare"] = share if isinstance(share, (int, float)) and not isinstance(share, bool) and 0 <= share <= 100 else None
+    importance = rows("importance", ("name",))
+    if any(row["id"] not in IMPORTANCE_LEVELS for row in importance):
+        raise ValueError("Invalid importance level")
+    return {"passageTypes": passage_types, "tasks": tasks, "importance": importance}
+
+
+def question_origin(question: dict[str, Any]) -> dict[str, Any]:
+    """Origin and difficulty in the one shape both public DTOs use.
+
+    Every key is always present, so pages built without content/db (the demo,
+    a checkout with only the set files) read the same fields with empty values.
+    """
+    origin = question.get("_origin") if isinstance(question.get("_origin"), dict) else {}
+    question_id = str(question.get("question_id") or "")
+
+    def whole(value: Any, low: int, high: int) -> int | None:
+        return value if type(value) is int and low <= value <= high else None
+
+    def plain(value: Any, context: str) -> str:
+        text = str(value or "")
+        if PUBLIC_HTML_TAG_RE.search(text) or any(pattern in text for pattern in PUBLIC_PATH_PATTERNS):
+            raise ValueError(f"Question origin text is not plain: {question_id}.{context}")
+        return text
+
+    def taxonomy_id(value: Any) -> str:
+        return value if isinstance(value, str) and TAXONOMY_ID_RE.match(value) else ""
+
+    estimate = str(question.get("difficulty_estimate") or "").lower()
+    if origin.get("difficulty") in DIFFICULTY_LEVELS:
+        level = origin["difficulty"]
+        basis = origin.get("difficultyBasis") if origin.get("difficultyBasis") in DIFFICULTY_BASES else ""
+    else:
+        level = estimate if estimate in DIFFICULTY_LEVELS else ""
+        basis = "estimate" if level else ""
+    refs = []
+    for index, ref in enumerate(origin.get("refs") if isinstance(origin.get("refs"), list) else []):
+        if not isinstance(ref, dict) or ref.get("kind") not in SOURCE_KINDS:
+            raise ValueError(f"Invalid question origin reference: {question_id}")
+        refs.append({
+            "label": plain(ref.get("label"), f"refs.{index}.label"),
+            "kind": ref["kind"],
+            "tier": whole(ref.get("tier"), 1, 3),
+            "year": whole(ref.get("year"), 2000, 2100),
+            "month": whole(ref.get("month"), 1, 12),
+            "region": ref.get("region") if ref.get("region") in SOURCE_REGIONS else "",
+            "module": plain(ref.get("module"), f"refs.{index}.module"),
+            "number": whole(ref.get("number"), 1, 999),
+        })
+    return {
+        "kind": origin.get("kind") if origin.get("kind") in SOURCE_KINDS else "",
+        "tier": whole(origin.get("tier"), 1, 3),
+        "year": whole(origin.get("year"), 2000, 2100),
+        "level": level,
+        "basis": basis,
+        "task": taxonomy_id(origin.get("task")),
+        "passageType": taxonomy_id(origin.get("passageType")),
+        "importance": origin.get("importance") if origin.get("importance") in IMPORTANCE_LEVELS else "",
+        "sittings": whole(origin.get("sittings"), 0, 99) or 0,
+        "refs": refs,
+    }
+
+
 def load_published_content(
-    root: Path, registry: dict[str, Any]
+    root: Path, registry: dict[str, Any], release: dict[str, bool] | None = None,
 ) -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]], dict[str, dict[str, Any]]]:
+    release = release if release is not None else load_release(root)
     entries = [
         entry for entry in registry["entries"]
-        if entry.get("status") == "published"
+        if entry.get("status") == "published" and released(entry, release)
     ]
     source_entries = [entry for entry in entries if entry.get("kind") in {"set", "collection"}]
     source_pages: dict[str, list[dict[str, Any]]] = {}
@@ -278,6 +591,7 @@ def load_published_content(
     first_routes_by_id: dict[str, str] = {}
     priorities_by_id: dict[str, int] = {}
     source_kind_order = {"set": 0, "collection": 1}
+    origins = load_question_origins(root)
     for entry in sorted(
         source_entries,
         key=lambda item: (source_kind_order[str(item.get("kind"))], str(item.get("route"))),
@@ -287,6 +601,10 @@ def load_published_content(
         ids = [str(question["question_id"]) for question in questions]
         if len(ids) != len(set(ids)):
             raise ValueError(f"Duplicate question ID inside {route}")
+        for question in questions:
+            origin = origins.get(str(question["question_id"]))
+            if origin is not None:
+                question["_origin"] = released_origin(origin, release)
         source_pages[route] = questions
         priority = int(entry.get("canonicalPriority") or 100) + (1000 if entry.get("kind") == "set" else 0)
         for question in questions:
@@ -627,6 +945,17 @@ def public_question(root: Path, route: str, question: dict[str, Any]) -> dict[st
     ):
         if field in question:
             result[field] = copy.deepcopy(question[field])
+    origin = question_origin(question)
+    result.update(
+        source_kind=origin["kind"], source_tier=origin["tier"], source_year=origin["year"],
+        source_refs=origin["refs"], difficulty_level=origin["level"], difficulty_basis=origin["basis"],
+    )
+    vocabulary = question_vocabulary(question)
+    if vocabulary:
+        result["vocabulary"] = vocabulary
+    walkthrough = question_walkthrough(question)
+    if walkthrough:
+        result["walkthrough"] = walkthrough
 
     assets = public_question_assets(
         root,
@@ -694,6 +1023,7 @@ def compact_question(
     # prove that every source-local asset was consumed by the same strict
     # placeholder binding used for the full student DTO.
     public_question_assets(root, question.get("visual_assets"), bound_assets, question_id)
+    origin = question_origin(question)
     return {
         "contentVersion": "sat-learning-v2",
         "gradingRevision": grading_revision(question),
@@ -714,6 +1044,17 @@ def compact_question(
         ),
         "sourceFamily": str(question.get("source_family") or ""),
         "difficulty": question.get("difficulty_estimate") or "",
+        "difficultyLevel": origin["level"],
+        "difficultyBasis": origin["basis"],
+        "sourceKind": origin["kind"],
+        "sourceTier": origin["tier"],
+        "sourceYear": origin["year"],
+        "sourceRefs": origin["refs"],
+        "task": origin["task"],
+        "passageType": origin["passageType"],
+        "importance": origin["importance"],
+        "examSittings": origin["sittings"],
+        "explanationLevel": explanation_level(question),
     }
 
 
@@ -724,12 +1065,14 @@ def render_practice_page(
     page_meta: dict[str, Any],
     page_migrations: list[dict[str, Any]],
     aliases_by_page: dict[str, dict[str, str]],
+    vocabulary: dict[str, dict[str, str]] | None = None,
 ) -> str:
     return (
         template.replace("__SECTION__", "reading_writing")
         .replace("__SECTION_TITLE__", title)
         .replace("__QUESTIONS_JSON__", safe_json(questions))
         .replace("__PAGE_META_JSON__", safe_json(page_meta))
+        .replace("__PAGE_VOCABULARY_JSON__", safe_json(vocabulary or {}))
         .replace("__PAGE_MIGRATIONS_JSON__", safe_json(page_migrations))
         .replace("__QUESTION_ALIASES_BY_PAGE_JSON__", safe_json(aliases_by_page))
     )
@@ -740,22 +1083,9 @@ def grading_revision(question: dict[str, Any]) -> str:
     return hashlib.sha256(safe_json(payload).encode("utf-8")).hexdigest()
 
 
-def build(root: Path) -> dict[str, Any]:
-    storage_runtime = STORAGE_RUNTIME.read_text(encoding="utf-8")
-    practice_template = PRACTICE_TEMPLATE.read_text(encoding="utf-8").replace("__SAT_STORAGE_RUNTIME__", storage_runtime)
-    dashboard_template = DASHBOARD_TEMPLATE.read_text(encoding="utf-8").replace("__SAT_STORAGE_RUNTIME__", storage_runtime)
-    pages: list[dict[str, Any]] = []
-    migrations = load_migrations(root)
-    registry = load_content_registry(root)
-    published_entries, source_pages, canonical_questions = load_published_content(root, registry)
-    entries_by_route = {str(entry["route"]): entry for entry in published_entries}
-    category_entries = [entry for entry in published_entries if entry.get("kind") == "category"]
-    registered_categories = {str(entry["title"]): str(entry["route"]) for entry in category_entries}
-    if registered_categories != CATEGORY_ROUTES:
-        raise ValueError(
-            "Published Reading and Writing categories must match the canonical 11-skill routes"
-        )
-    grouped_categories: dict[str, list[dict[str, Any]]] = {route: [] for route in CATEGORY_ROUTES.values()}
+def group_categories(canonical_questions: dict[str, dict[str, Any]]) -> dict[str, list[dict[str, Any]]]:
+    """The eleven Reading and Writing skill pages, each sorted by question id."""
+    grouped: dict[str, list[dict[str, Any]]] = {route: [] for route in CATEGORY_ROUTES.values()}
     for question in canonical_questions.values():
         if question.get("section") != "reading_writing":
             continue
@@ -763,9 +1093,42 @@ def build(root: Path) -> dict[str, Any]:
         route = CATEGORY_ROUTES.get(skill)
         if not route:
             raise ValueError(f"Unsupported SAT skill for {question.get('question_id')}: {skill}")
-        grouped_categories[route].append(copy.deepcopy(question))
-    for route, questions in grouped_categories.items():
+        grouped[route].append(copy.deepcopy(question))
+    for questions in grouped.values():
         questions.sort(key=lambda question: str(question.get("question_id") or ""))
+    return grouped
+
+
+def build(root: Path) -> dict[str, Any]:
+    storage_runtime = STORAGE_RUNTIME.read_text(encoding="utf-8")
+    practice_template = PRACTICE_TEMPLATE.read_text(encoding="utf-8").replace("__SAT_STORAGE_RUNTIME__", storage_runtime)
+    dashboard_template = DASHBOARD_TEMPLATE.read_text(encoding="utf-8").replace("__SAT_STORAGE_RUNTIME__", storage_runtime)
+    pages: list[dict[str, Any]] = []
+    migrations = load_migrations(root)
+    registry = load_content_registry(root)
+    release = load_release(root)
+    published_entries, source_pages, canonical_questions = load_published_content(root, registry, release)
+    stated_vocabulary = load_question_metadata(root).get("vocabulary") if release["wordExplanations"] else {}
+    entries_by_route = {str(entry["route"]): entry for entry in published_entries}
+    category_entries = [entry for entry in published_entries if entry.get("kind") == "category"]
+    registered_categories = {str(entry["title"]): str(entry["route"]) for entry in category_entries}
+    if registered_categories != CATEGORY_ROUTES:
+        raise ValueError(
+            "Published Reading and Writing categories must match the canonical 11-skill routes"
+        )
+    grouped_categories = group_categories(canonical_questions)
+    if any(release.values()):
+        # The category pages a build without any release feature serves (the
+        # deployed baseline) keep their page state: their storage keys migrate
+        # into the larger pages, whatever baselineQuestionIds says.
+        _, _, baseline_questions = load_published_content(
+            root, registry, {name: False for name in RELEASE_FEATURES})
+        for route, questions in group_categories(baseline_questions).items():
+            baseline_ids = [str(question.get("question_id") or "") for question in questions]
+            current_ids = [str(question.get("question_id") or "") for question in grouped_categories[route]]
+            migration = {"storageKey": storage_key(baseline_ids), "aliases": {}}
+            if baseline_ids != current_ids and migration not in migrations.setdefault(route, []):
+                migrations[route].append(migration)
 
     rendered_pages = {**source_pages, **grouped_categories}
     for route, questions in rendered_pages.items():
@@ -802,6 +1165,8 @@ def build(root: Path) -> dict[str, Any]:
             public["gradingRevision"] = grading_revision(original)
         kind = str(entry["kind"])
         label = str(entry["title"])
+        # A mock exam opens only when the registry offers it and the release switch is on.
+        exam_open = bool(entry.get("examEligible")) and release["fixedMockExams"]
         page_meta = {
             "contentId": str(entry["contentId"]),
             "kind": kind,
@@ -811,8 +1176,9 @@ def build(root: Path) -> dict[str, Any]:
             "difficulty": entry.get("difficulty"),
             "sourceFamily": str(entry.get("sourceFamily") or ""),
             "moduleSpec": copy.deepcopy(entry.get("moduleSpec")),
-            "examEligible": bool(entry.get("examEligible")),
-            "examVariants": copy.deepcopy(entry.get("examVariants") or []),
+            "examEligible": exam_open,
+            "examVariants": copy.deepcopy(entry.get("examVariants") or []) if exam_open else [],
+            "features": dict(release),
         }
         pages.append({
             # pageId is a public local/cloud storage key and remains route-based.
@@ -835,6 +1201,7 @@ def build(root: Path) -> dict[str, Any]:
                 page_meta,
                 migrations.get(route, []),
                 aliases_by_page,
+                page_vocabulary(stated_vocabulary, public_questions),
             ),
             encoding="utf-8",
         )
@@ -851,11 +1218,14 @@ def build(root: Path) -> dict[str, Any]:
     manifest = {
         "version": "sat-learning-v3",
         "registrySchemaVersion": registry["schemaVersion"],
+        "features": dict(release),
         "generatedAt": datetime.now(timezone.utc).isoformat(),
         "uniqueQuestionCount": len(canonical),
         "pageCount": len(pages),
         "pages": pages,
         "questions": list(canonical.values()),
+        "taxonomy": question_taxonomy(root),
+        "vocabulary": site_vocabulary(stated_vocabulary),
         "questionAliasesByPage": aliases_by_page,
         "storageMigrations": {
             **{migration["storageKey"]: {"aliases": migration.get("aliases", {})}
@@ -881,9 +1251,11 @@ def main() -> int:
     parser.add_argument("--root", type=Path, default=ROOT)
     args = parser.parse_args()
     manifest = build(args.root.resolve())
+    shown = [name for name, on in manifest["features"].items() if on]
     print(
         f"Built {manifest['pageCount']} practice pages and "
-        f"{manifest['uniqueQuestionCount']} unique manifest questions."
+        f"{manifest['uniqueQuestionCount']} unique manifest questions; "
+        f"release features on: {', '.join(shown) or 'none'}."
     )
     return 0
 

@@ -1,0 +1,1881 @@
+{
+  "schemaVersion": "sat-canonical-question-collection-v1",
+  "contentId": "collection-supplement-exam",
+  "title": "机考真题补充题",
+  "section": "reading_writing",
+  "questionCount": 36,
+  "questions": [
+    {
+      "question_id": "bank_rw_001086",
+      "section": "reading_writing",
+      "question_number": 1,
+      "passage": "While doing research for a paper about metal exports, a student finds information about copper mining in different countries in 1995 and 2020. The student notes that Chile produced 2.49 million metric tons of copper in 1995 and _______",
+      "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "5.73 million metric tons of copper in 2020."
+        },
+        {
+          "label": "B",
+          "text": "0.55 million metric tons of copper in 2020."
+        },
+        {
+          "label": "C",
+          "text": "1.20 million metric tons of copper in 2020."
+        },
+        {
+          "label": "D",
+          "text": "0.51 million metric tons of copper in 2020."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025年3月机考真题第1套(亚太A卷)",
+      "source_question_number": 9,
+      "table_data": {
+        "title": "Millions of Metric Tons of Copper Mined in 1995 and 2020",
+        "columns": [
+          "Country",
+          "1995",
+          "2020"
+        ],
+        "rows": [
+          [
+            "Indonesia",
+            "0.44",
+            "0.51"
+          ],
+          [
+            "United States",
+            "1.85",
+            "1.20"
+          ],
+          [
+            "Kazakhstan",
+            "0.26",
+            "0.55"
+          ],
+          [
+            "Chile",
+            "2.49",
+            "5.73"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_001088",
+      "section": "reading_writing",
+      "question_number": 2,
+      "passage": "It is hard for publishers and printers to create very long books that balance the requirements of readability, durability, and cost. Among some exceptionally long novels published in English, Haruki Murakami's [i]IQ84[/i] (translated from Japanese) was published in a 1,157-page edition and runs to an estimated 407,000 words, while John Sayles's [i]A Moment in the Sun[/i] (written originally in English) was published in a 1,100-page edition and runs to an estimated 625,000 words. This indicates that _____",
+      "prompt": "Which choice most logically completes the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "the edition of [i]A Moment in the sun[/i] has more words per page than the edition of IQ84."
+        },
+        {
+          "label": "B",
+          "text": "translating a text from Japanese to English is likely to increase the word count."
+        },
+        {
+          "label": "C",
+          "text": "page count is likely to be a more reliable indicator of how long it takes to read a book than word count."
+        },
+        {
+          "label": "D",
+          "text": "the edition of IQ84 Is printed on thinner paper than the edition of [i]A Moment in the Sun.[/i]"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025年3月机考真题第1套(亚太A卷)",
+      "source_question_number": 15,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Inferences"
+      }
+    },
+    {
+      "question_id": "bank_rw_001098",
+      "section": "reading_writing",
+      "question_number": 3,
+      "passage": "If a planet orbits in close proximity to a star and lacks an atmosphere, the planet can become so hot that magma oceans form on its surface. For three planets that could plausibly harbor magma oceans, the table shows mass, density (expressed as the ratio of the material's volume at its current density to its maximum possible density, with higher numbers indicating lower densities), and surface temperature according to a model that assumes the absence of atmosphere.",
+      "prompt": "Which choice best describes how data in the table for HD 80653 b would likely differ if it had an atmosphere?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It would have a mass below 5.6 Earth masses."
+        },
+        {
+          "label": "B",
+          "text": "Its surface temperature would be around 1,400 kelvins."
+        },
+        {
+          "label": "C",
+          "text": "It would have a mass above 5.6 Earth masses."
+        },
+        {
+          "label": "D",
+          "text": "Its surface temperature would be below 2,300 kelvins."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 12,
+      "table_data": {
+        "title": "Three Candidate Lava Worlds, by Modeled Mass, Density, and Surface Temperature",
+        "columns": [
+          "Planet",
+          "Mass (Earth masses)",
+          "Density ratio",
+          "Temperature (kelvins)"
+        ],
+        "rows": [
+          [
+            "HD 80653 b",
+            "5.6",
+            "7.4",
+            "2,300"
+          ],
+          [
+            "Kepler-10 b",
+            "3.6",
+            "6.0",
+            "2,130"
+          ],
+          [
+            "K2-265 b",
+            "0.8",
+            "7.1",
+            "1,400"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_001099",
+      "section": "reading_writing",
+      "question_number": 4,
+      "passage": "[i]Ningyo joruri [/i]is a form of theater that was popular in eighteenth-century japan and that unites puppetry with playing of the [i]shamisen[/i], a stringed musical instrument. The popularity of [i]ningyo joruri[/i] was due to a puppetry method called [i]sannin zukai[/i], in which three puppeteers operated a single puppet that was large, detailed, and capable of extensive movement and nuanced emotional expression. [u]Over the ensuing centuries, audience interest in [i]ningyo joruri[/i] began to decline and [i]sannin zukai[/i] became prohibitively expensive to mount, so that [i]sannin zukai[/i] puppeteers could no longer make the profession a full-time career. [/u]Eventually, [i]ningyo joruri[/i] productions resorted to cheaper forms of puppetry, such as [i]kuruma ningyo[/i], which involves only one puppeteer.",
+      "prompt": "Which statement, if true, would most strongly support the claim in the underlined sentence?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The [i]kuruma ningyo[/i] puppeteering method is not easy: it requires fewer puppeteers to manipulate puppets that are as large as those used in [i]sannin zukai[/i], but each puppeteer's work is more complex."
+        },
+        {
+          "label": "B",
+          "text": "The costs of building [i]sannin zukai[/i] puppets were very high until the advent of machine-based production methods in the nineteenth century made them comparable to the costs of building [i]kuruma ningyo[/i] puppets."
+        },
+        {
+          "label": "C",
+          "text": "In 1872, Japanese puppeteer Nishikawa Koryu developed a technique called [i]kuruma ningyo[/i], or cart puppetry, in which puppets have wooden pegs on their feet that the puppeteer can manipulate by moving his own feet."
+        },
+        {
+          "label": "D",
+          "text": "The few remaining theatrical companies with [i]sannin zukai[/i] performers in the present day are mostly amateur troupes, in which members have other forms of employment that serve as their primary source of income."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 14,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_001101",
+      "section": "reading_writing",
+      "question_number": 5,
+      "passage": "A pet rabbit is held by its owner on a beach in [i]Boo and His Rabbit[/i], a photograph by British ____ Chris Killip.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "artist:"
+        },
+        {
+          "label": "B",
+          "text": "artist—"
+        },
+        {
+          "label": "C",
+          "text": "artist"
+        },
+        {
+          "label": "D",
+          "text": "artist,"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 19,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries"
+      }
+    },
+    {
+      "question_id": "bank_rw_001102",
+      "section": "reading_writing",
+      "question_number": 6,
+      "passage": "While most animals prefer the safety of nighttime migration, many poisonous amphibians—a category that includes the Panamanian golden frog and the cane toad—safely engage in migratory behavior during the day. ____ with the sun in the sky, the amphibians' striking color patterns deter visually oriented daytime predators by serving as a warning of toxicity.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "However,"
+        },
+        {
+          "label": "B",
+          "text": "At that time,"
+        },
+        {
+          "label": "C",
+          "text": "In other words,"
+        },
+        {
+          "label": "D",
+          "text": "For example,"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 23,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001107",
+      "section": "reading_writing",
+      "question_number": 7,
+      "passage": "A student is writing a research paper on the global rise of the home video game industry during the 1970s and 1980s. The student is surprised by differences in the number of units sold by some systems compared to those sold by others. Most remarkably, the _______",
+      "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Game & Watch sold approximately 18,600,000 units, whereas the ColecoVision sold only approximately 2,000,000 units."
+        },
+        {
+          "label": "B",
+          "text": "Game & Watch sold approximately 4,000,000 units, whereas the ColecoVision sold only approximately 3,000,000 units."
+        },
+        {
+          "label": "C",
+          "text": "MSX sold approximately 4,000,000 units, whereas the Intellivision sold only approximately 3,000,000 units."
+        },
+        {
+          "label": "D",
+          "text": "MSX sold approximately 18,600,000 units, whereas the Intellivision sold only approximately 2,000,000 units."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 12,
+      "table_data": {
+        "title": "Home Video Game Systems of the 1970s and 1980s",
+        "columns": [
+          "System",
+          "Manufacturer",
+          "System type",
+          "Approximate number of units sold worldwide"
+        ],
+        "rows": [
+          [
+            "ColecoVision",
+            "Coleco",
+            "console",
+            "2,000,000"
+          ],
+          [
+            "Intellivision",
+            "Mattel",
+            "console",
+            "3,000,000"
+          ],
+          [
+            "MSX",
+            "ASCII Corp.",
+            "computer",
+            "4,000,000"
+          ],
+          [
+            "Game & Watch",
+            "Nintendo",
+            "handheld",
+            "18,600,000"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_001108",
+      "section": "reading_writing",
+      "question_number": 8,
+      "passage": "The Proto-Atlantic-Congo language, common ancestor of 1,453 African languages with similar linguistic properties, ____ like all protolanguages, hypothetical: there's no direct evidence these ancestral languages actually existed.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "were,"
+        },
+        {
+          "label": "B",
+          "text": "is,"
+        },
+        {
+          "label": "C",
+          "text": "are,"
+        },
+        {
+          "label": "D",
+          "text": "have been,"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 18,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_001109",
+      "section": "reading_writing",
+      "question_number": 9,
+      "passage": "Although 39P/Oterma and 83982 Crantor are both classified as centaur objects—outer solar system bodies in unstable orbits—they exhibit striking differences in ____ object 39P/Oterma is considered an active centaur, showing sporadic comet-like activity (such as clouds of dust and gas on its surface), 83982 Crantor, showing no such activity, is considered dormant.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "behavior: while the"
+        },
+        {
+          "label": "B",
+          "text": "behavior; the"
+        },
+        {
+          "label": "C",
+          "text": "behavior, while the"
+        },
+        {
+          "label": "D",
+          "text": "behavior. The"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 20,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries"
+      }
+    },
+    {
+      "question_id": "bank_rw_001111",
+      "section": "reading_writing",
+      "question_number": 10,
+      "passage": "To notice subtle variations in the progression of the still life painting genre in Europe, first consider Tomás Hiepes's \"Still Life with Birds and Hares\" from 1643; _____ compare it to Adolphe-Félix Cals's \"Still Life with Vegetables, Partridge, and a Jug\" from 1858.",
+      "prompt": "Which choice completes the text with the most logical transtion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "instead,"
+        },
+        {
+          "label": "B",
+          "text": "next,"
+        },
+        {
+          "label": "C",
+          "text": "still,"
+        },
+        {
+          "label": "D",
+          "text": "therefore,"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025年3月机考真题第2套(亚太B卷)",
+      "source_question_number": 23,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001128",
+      "section": "reading_writing",
+      "question_number": 11,
+      "passage": "The presence of Belarus's Mir Castle Complex on the United Nations Educational, Scientific, and Cultural Organization's World Heritage List indicates that the organization has _____ the site's \"outstanding universal value,\" and that UNESCO is therefore championing its preservation and protection.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "exploited"
+        },
+        {
+          "label": "B",
+          "text": "recognized"
+        },
+        {
+          "label": "C",
+          "text": "impeded"
+        },
+        {
+          "label": "D",
+          "text": "neglected"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025年3月机考真题第4套(亚太D卷)",
+      "source_question_number": 6,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_001132",
+      "section": "reading_writing",
+      "question_number": 12,
+      "passage": "While doing research for a paper about metal exports, a student finds information about copper mining in different countries in 1995 and 2020. The student notes that Peru produced 0.38 million metric tons of copper in 1995 and ______",
+      "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "0.73 million metric tons of copper in 2020."
+        },
+        {
+          "label": "B",
+          "text": "0.39 million metric tons of copper in 2020."
+        },
+        {
+          "label": "C",
+          "text": "2.15 million metric tons of copper in 2020."
+        },
+        {
+          "label": "D",
+          "text": "1.20 million metric tons of copper in 2020."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年3月机考真题第4套(亚太D卷)",
+      "source_question_number": 11,
+      "table_data": {
+        "title": "Millions of Metric Tons of Copper Mined in 1995 and 2020",
+        "columns": [
+          "Country",
+          "1995",
+          "2020"
+        ],
+        "rows": [
+          [
+            "Mexico",
+            "0.33",
+            "0.73"
+          ],
+          [
+            "United States",
+            "1.5",
+            "1.20"
+          ],
+          [
+            "Peru",
+            "0.38",
+            "2.15"
+          ],
+          [
+            "Poland",
+            "0.38",
+            "0.39"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_001137",
+      "section": "reading_writing",
+      "question_number": 13,
+      "passage": "The familial structure of the black swan ([i]Cygnus atratus[/i]) shows tremendous _____: breeding pairs with demonstrated success in rearing cygnets (young swans) have been observed to foster those of less successful pairs, and while rearing by female-male pairs is most common, male-male pairs sometimes rear cygnets too, achieving a significantly higher rate of survival to adulthood than female-male pairs.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "elasticity"
+        },
+        {
+          "label": "B",
+          "text": "reciprocity"
+        },
+        {
+          "label": "C",
+          "text": "cohesion"
+        },
+        {
+          "label": "D",
+          "text": "affection"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025年3月机考真题第4套(亚太D卷)",
+      "source_question_number": 3,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_001141",
+      "section": "reading_writing",
+      "question_number": 14,
+      "passage": "Reported Annual Travel Distances in Four Studies of Migrating Animal PopulaReported Annual Travel Distances in Four Studies of Migrating Animal Populations\n\nReported Annual Travel Distances in Four Studies of Migrating Animal Populations\n\nSome studies of migrating animals measure how far the animals travel in a year by fitting individuals with GPS tracking collars, Other studies track annual round-trip distance (RTD), which is equal to double the distance separating the two habitats a population migrates between each year, A researcher argues that since GPS records all of an animal's movements, using the GPS method to track a population would result in significantly higher recorded travel distances than using the RTD method would, For example, it's very likely that the distance reported for the ______",
+      "prompt": "Which choice most effectively uses data from the table to complete the example?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Tibetan antelope would be less than 700 kilometers if the GPS method had been used."
+        },
+        {
+          "label": "B",
+          "text": "caribou would be less than 4,868 kilometers if the RTD method had been used."
+        },
+        {
+          "label": "C",
+          "text": "caribou would be greater than 1,325 kilometers if the RTD method had been used."
+        },
+        {
+          "label": "D",
+          "text": "Tibetan antelope would be greater than 4,868 kilometers if the GPS method had been used."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025年3月机考真题第4套(亚太D卷)",
+      "source_question_number": 10,
+      "table_data": {
+        "title": "",
+        "columns": [
+          "Species",
+          "Continent",
+          "Diatance(km)",
+          "Measurement method"
+        ],
+        "rows": [
+          [
+            "Brown bear",
+            "North America",
+            "1325",
+            "GPS"
+          ],
+          [
+            "Tibetan antelope",
+            "Asia",
+            "700",
+            "RTD"
+          ],
+          [
+            "Caribou",
+            "North America",
+            "4,868",
+            "GPS"
+          ],
+          [
+            "Reindeer",
+            "Asia",
+            "1,200",
+            "RTD"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_001160",
+      "section": "reading_writing",
+      "question_number": 15,
+      "passage": "In what is now New Mexico, the Pueblo of Pojoaque operates the Poeh Cultural Center. Relying on traditional knowledge to guide the design of exhibits, this institution presents Pojoaque history and culture to the tribe's citizens. The Tohono O'odham Nation, a tribe in Arizona, employs a similar strategy in its own cultural center. Both centers contrast with museums that aren't Indigenous-led; when displaying Indigenous artifacts, such museums tend to anticipate mainly non-Indigenous audiences and rely on Euro-centric strategies for designing exhibits.",
+      "prompt": "According to the text, what is one way that non-Indigenous museums typically differ from the cultural centers operated by the Pueblo of Pojoaque and the Tohono O'odham Nation?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The museum typically feature fewer artifacts in their exhibits."
+        },
+        {
+          "label": "B",
+          "text": "The museum are often somewhat smaller in size."
+        },
+        {
+          "label": "C",
+          "text": "The museum are largely aimed at non-Indigenous audiences."
+        },
+        {
+          "label": "D",
+          "text": "The museum focus on tribal history as well as tribal culture."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年3月机考真题第7套(北美B卷)",
+      "source_question_number": 7,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_001211",
+      "section": "reading_writing",
+      "question_number": 16,
+      "passage": "The Jiangsu Qidong, an offshore wind farm located off the coast of China, produces about 802 megawatts (MW) of electricity per year. ________ England's Hornsea Project One offshore wind farm, which generates the most power of any single offshore farm, produces 1,218 MW of electricity.",
+      "prompt": "Which choice completes the text with the most logical transition?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "By comparison,"
+        },
+        {
+          "label": "B",
+          "text": "For instance,"
+        },
+        {
+          "label": "C",
+          "text": "That is,"
+        },
+        {
+          "label": "D",
+          "text": "As a result,"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025年5月机考真题第2套(亚太B卷)",
+      "source_question_number": 23,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Transitions"
+      }
+    },
+    {
+      "question_id": "bank_rw_001284",
+      "section": "reading_writing",
+      "question_number": 17,
+      "passage": "Wildfires likely never happened in Antarctica. That’s what scientists used to think. But then a team of researchers discovered charcoal from the Cretaceous period in Antarctica. The team analyzed the charcoal and found that it likely came from a tree that burned in a fire. This suggests that wildfires may have indeed ______ in Antarctica millions of years ago.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "rotated"
+        },
+        {
+          "label": "B",
+          "text": "returned"
+        },
+        {
+          "label": "C",
+          "text": "offended"
+        },
+        {
+          "label": "D",
+          "text": "occurred"
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025年6月机考真题第2套(亚太B卷)",
+      "source_question_number": 1,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_001285",
+      "section": "reading_writing",
+      "question_number": 18,
+      "passage": "Preserving cultural practices like dance requires documenting those practices. To make this task easier, Adebunmi E. Odefunso and colleagues collected video recordings of four traditional African dances. They then used a deep learning algorithm to analyze and classify the dances. By doing so, the researchers have developed a promising tool to ______ the documentation of traditional dances.",
+      "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "facilitate"
+        },
+        {
+          "label": "B",
+          "text": "anticipate"
+        },
+        {
+          "label": "C",
+          "text": "conclude"
+        },
+        {
+          "label": "D",
+          "text": "resist"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025年6月机考真题第2套(亚太B卷)",
+      "source_question_number": 2,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_001288",
+      "section": "reading_writing",
+      "question_number": 19,
+      "passage": "While researching a topic, a student has taken the following notes:\n●[i] The Future of Nostalgia[/i] is a scholarly book by literary theorist Svetlana Boym.\n● The book provides a multifaceted exploration of the concept of nostalgia.\n● Chapter 4 defines a form of nostalgia interested in re-creating the past.\n● Chapter 5 explores the Soviet-style restaurant the Nostalgija Snack Bar in Ljubljana.\n● In chapter 5, Boym writes, \"[The Nostalgija Snack Bar] is a new kind space that plays with the past and the present.\"",
+      "prompt": "The student wants to provide a quotation from chapter 5. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Svetlana Boym defines a form of nostalgia interested in re-creating the past in chapter 4 of her book."
+        },
+        {
+          "label": "B",
+          "text": "In a discussion of the Soviet-style restaurant the Nostalgija Snack Bar in Ljubljana, Svetlana Boym writes, \"[The Nostalgija Snack Bar] is a new kind space that plays with the past and the present.\""
+        },
+        {
+          "label": "C",
+          "text": "Svetlana Boym's [i]The Future of Nostalgia[/i] provides a multifaceted exploration of nostalgia."
+        },
+        {
+          "label": "D",
+          "text": "After defining a form of nostalgia interested in re-creating the past, Svetlana Boym goes on to explore the Soviet-style restaurant the Nostalgija Snack Bar in Ljubljana."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025年6月机考真题第2套(亚太B卷)",
+      "source_question_number": 26,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001291",
+      "section": "reading_writing",
+      "question_number": 20,
+      "passage": "Some animals evade predation with the help of contrasting markings that signal toxicity. Lisa Taylor and team studied how jumping spiders behave toward termites (their regular prey) to which solid black, solid white, or black-and-white striped (i.e., contrasting) capes were affixed. Each spider was placed in a clear container in the center of a circular dish in which six termites, two with each of the three cape types, could be seen. Noting which termites the spiders first looked at and which termites they ultimately targeted, the researchers concluded that contrasting markings were a deterrent.",
+      "prompt": "Which choice best describes data from the table that support Taylor and team's conclusion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Half of the spiders that first looked at a termite wearing a black-and-white striped cape attacked a termite wearing a solid white cape, and the other half of those spiders were just as likely to attack a termite wearing a black-and-white striped cape as they were to attack a termite wearing a solid black cape."
+        },
+        {
+          "label": "B",
+          "text": "For each type of cape, a majority of the spiders that first looked at a termite wearing that type of cape attacked a termite wearing that same type of cape."
+        },
+        {
+          "label": "C",
+          "text": "Regardless of the type of cape worn by termites the spiders first looked at, the large majority of spider attacks were on termites wearing solid-color capes."
+        },
+        {
+          "label": "D",
+          "text": "None of the spiders that first looked at a termite wearing a solid white cape attacked a termite wearing a black-and-white striped cape."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年6月机考真题第2套(亚太B卷)",
+      "source_question_number": 12,
+      "table_data": {
+        "title": "",
+        "columns": [
+          "Termite cape type the spiders looked at first",
+          "Percentage of spider attacks on termites with solid black capes",
+          "Percentage of spider attacks on termites with solid white capes",
+          "Percentage of attacks on termites with black-and-white striped capes"
+        ],
+        "rows": [
+          [
+            "solid black cape",
+            "60%",
+            "26%",
+            "13%"
+          ],
+          [
+            "solid white cape",
+            "14%",
+            "86%",
+            "0%"
+          ],
+          [
+            "black-and-white striped cape",
+            "25%",
+            "50%",
+            "25%"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_001293",
+      "section": "reading_writing",
+      "question_number": 21,
+      "passage": "[i]The Skin I'm In[/i] was Sharon G. Flake's debut novel. It was published in 1998. A debut novel is the first book that an author has published. Debut novels are especially interesting to literary critics (people whose job it is to evaluate books) and readers because these books offer a look at new voices in the literary world.",
+      "prompt": "According to the text, what is someone who professionally evaluates books called?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A bookseller"
+        },
+        {
+          "label": "B",
+          "text": "An author"
+        },
+        {
+          "label": "C",
+          "text": "A literary critic"
+        },
+        {
+          "label": "D",
+          "text": "A book publisher"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年6月机考真题第3套(北美卷)",
+      "source_question_number": 7,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_001299",
+      "section": "reading_writing",
+      "question_number": 22,
+      "passage": "While researching a topic, a student has taken the following notes:\n● [i]Waiting[/i] is a 1987 black-and-white linocut print by Kuwaiti artist Thuraya AI-Baqsami.\n● It depicts a tranquil, everyday scene (a woman in a headscarf gazing out a window).\n●[i] ¡Sera toda nuestra![/i] (\"[i]It will all be ours![/i]\") is a 1977 color linocut print by Mexican American artist Carlos Cortéz.\n● It features a scene with an explicitly political point of view (a group of laborers preparing to go on strike).\n● Lino cutting is an inexpensive printmaking technique in which an image is carved onto linoleum tile, covered in ink or paint, and stamped onto paper.",
+      "prompt": "The student wants to make a generalization about linocut prints. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Linocuts can depict a range of scenes, from the explicitly political to the tranquil and everyday."
+        },
+        {
+          "label": "B",
+          "text": "Cortéz's linocut features a group of laborers preparing to go on strike, while AI-Baqsami's depicts a woman in a headscarf gazing out a window."
+        },
+        {
+          "label": "C",
+          "text": "Cortéz made [i]¡Sera toda nuestra![/i] (\"[i]It will all be ours![/i]\") in 1977, while AI-Baqsami made Waiting later, in 1987."
+        },
+        {
+          "label": "D",
+          "text": "Lino cutting is a printmaking technique in which linoleum tile is used to create works with an explicitly political point of view."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025年6月机考真题第3套(北美卷)",
+      "source_question_number": 26,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Expression of Ideas",
+        "skill": "Rhetorical Synthesis"
+      }
+    },
+    {
+      "question_id": "bank_rw_001300",
+      "section": "reading_writing",
+      "question_number": 23,
+      "passage": "Scientists discovered a 390-million-year-old fossilized forest of [i]Calamophyton[/i] trees in modern-day England. The scientists believe the emergence of these [i]Calamophyton[/i] forests changed the land significantly. [u]For example, the tree roots would have greatly reduced soil erosion, and the accumulated twigs the trees shed likely created new habitats for animal life.[/u]",
+      "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It suggests that there are likely fossilized [i]Calamophyton[/i] forests from before 390 million years ago."
+        },
+        {
+          "label": "B",
+          "text": "It provides two competing views of when the [i]Calamophyton[/i] forest likely merged."
+        },
+        {
+          "label": "C",
+          "text": "It illustrates how [i]Calamophyton[/i] forests likely changed conditions on the land."
+        },
+        {
+          "label": "D",
+          "text": "It indicates how fast the [i]Calamophyton[/i] forest spread."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年8月机考真题第1套(亚太A卷)",
+      "source_question_number": 4,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_001301",
+      "section": "reading_writing",
+      "question_number": 24,
+      "passage": "Over the course of the 1900s, more and more Native Hawaiians spoke English instead of the Hawaiian language. To preserve their language, Native Hawaiian teachers founded the 'Aha Pūnana Leo preschool in 1984. They spoke Hawaiian while teaching, and their Native Hawaiian students were soon able to understand and speak it themselves. The school was a huge success. Eventually it opened locations around Hawai'i and started teaching Hawaiian to elementary and high school students too. [u]Thanks to 'Aha Pūnana Leo, the number of young people who speak the language has increased.[/u]",
+      "prompt": "Which statement, if true, would most directly support the underlined claim?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Besides Native Hawaiians, tens of thousands of people from other Pacific Islander communities live in Hawai'i today, including over 37,000 Samoans."
+        },
+        {
+          "label": "B",
+          "text": "Fewer than fifty children could speak Hawaiian when 'Aha Pūnana Leo was founded, but now more than 2,000 students at 'Aha Pūnana Leo speak it."
+        },
+        {
+          "label": "C",
+          "text": "Hawaiian is very similar to other languages that are spoken on the Polynesian Islands of the Pacific Ocean, including Tahitian, Samoan, and Māori."
+        },
+        {
+          "label": "D",
+          "text": "Roughly 680,000 Native Hawaiian people lived in the United States in 2020, and a little less than half of them lived in Hawai'i."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025年8月机考真题第1套(亚太A卷)",
+      "source_question_number": 9,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Textual"
+      }
+    },
+    {
+      "question_id": "bank_rw_001302",
+      "section": "reading_writing",
+      "question_number": 25,
+      "passage": "Lin-Tai Ho and colleagues tracked fish populations in three tide pool-monitoring stations in Taiwan from 1999 to 2018. Although a total of only 31 blackspotted rockskippers were observed at station 3, that was not the lowest count at any station: _______",
+      "prompt": "Which choice most effectively uses data from the table to complete the assertion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "there were 16 streaky rockskippers observed at station 1."
+        },
+        {
+          "label": "B",
+          "text": "there were 610 streaky rockskippers observed at station 3."
+        },
+        {
+          "label": "C",
+          "text": "there were 16 barred flagtails observed at station 3."
+        },
+        {
+          "label": "D",
+          "text": "there were 50 Cocos frillgobies observed at station 1."
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年8月机考真题第1套(亚太A卷)",
+      "source_question_number": 10,
+      "table_data": {
+        "title": "Cumulative Counts of Fish in Three Taiwanese Tide Pools, 1999-2018",
+        "columns": [
+          "Species",
+          "Station 1",
+          "Station 2",
+          "Station 3"
+        ],
+        "rows": [
+          [
+            "barred flagtail",
+            "249",
+            "64",
+            "16"
+          ],
+          [
+            "streaky rockskipper",
+            "125",
+            "139",
+            "610"
+          ],
+          [
+            "blackpotted rockskipper",
+            "83",
+            "74",
+            "31"
+          ],
+          [
+            "Cocos frillgoby",
+            "50",
+            "64",
+            "90"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_001303",
+      "section": "reading_writing",
+      "question_number": 26,
+      "passage": "Elisabeth Pötzelsberger and colleagues gathered data on 23 non-native tree species grown in Europe. They analyzed reports from Austria, Bulgaria, and Belgium about the number of these species grown in those countries as well as the numbers of insect and fungus species that damage those trees. The researchers concluded that Austria had a greater number of damaging fungus species than either of the other countries did.",
+      "prompt": "Which choice best describes data from the table that support Pötzelsberger and colleagues' conclusion?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Belgium reported 13 damaging fungus species but only 11 damaging insect species."
+        },
+        {
+          "label": "B",
+          "text": "Austria reported 51 damaging fungus species, whereas Bulgaria reported 16 damaging insect species."
+        },
+        {
+          "label": "C",
+          "text": "Bulgaria and Belgium reported 9 and 4 damaging fungus species, respectively, which is far fewer than Austria reported."
+        },
+        {
+          "label": "D",
+          "text": "Austria reported 51 damaging fungus species, which is more than either Bulgaria or Belgium reported."
+        }
+      ],
+      "correct_answer": "D",
+      "needs_manual_review": false,
+      "source_set": "2025年8月机考真题第1套(亚太A卷)",
+      "source_question_number": 11,
+      "table_data": {
+        "title": "Numbers of the 23 Non-native Tree Species Reported and the Insect and Fungus Threats to Them",
+        "columns": [
+          "Country",
+          "Trees",
+          "Fungi",
+          "Insects"
+        ],
+        "rows": [
+          [
+            "Austria",
+            "13",
+            "51",
+            "50"
+          ],
+          [
+            "Belgium",
+            "4",
+            "13",
+            "11"
+          ],
+          [
+            "Bulgaria",
+            "9",
+            "14",
+            "16"
+          ]
+        ]
+      },
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Command of Evidence: Quantitative"
+      }
+    },
+    {
+      "question_id": "bank_rw_001304",
+      "section": "reading_writing",
+      "question_number": 27,
+      "passage": "As the exoplanet 17 Scorpii b orbits a star 408 light-years from Earth, the gas giant's gravity causes the star to wobble. In 2020, astronomers observing the wobble—indicated by redshifts and blueshifts in the star's spectral wavelengths—eventually attributed _______ to the gravitational influence of the previously undetected exoplanet.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "each"
+        },
+        {
+          "label": "B",
+          "text": "these"
+        },
+        {
+          "label": "C",
+          "text": "it"
+        },
+        {
+          "label": "D",
+          "text": "them"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年8月机考真题第1套(亚太A卷)",
+      "source_question_number": 19,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_001305",
+      "section": "reading_writing",
+      "question_number": 28,
+      "passage": "Although the term \"balloonomania\"—referring to the hot-air balloon fad in England and France in the late 1700s—might suggest that the public as a whole was captivated by the technology, it was not universally ____ whereas many flocked to balloon launches and purchased balloon-themed items ranging from dinnerware to accessories, others dismissed the hot-air balloon as an impractical and dangerous extravagance.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "embraced:"
+        },
+        {
+          "label": "B",
+          "text": "embraced"
+        },
+        {
+          "label": "C",
+          "text": "embraced,"
+        },
+        {
+          "label": "D",
+          "text": "embraced and"
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2025年8月机考真题第1套(亚太A卷)",
+      "source_question_number": 20,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries"
+      }
+    },
+    {
+      "question_id": "bank_rw_001309",
+      "section": "reading_writing",
+      "question_number": 29,
+      "passage": "The terms included in Barry Lopez and Debra Gwartney's [i]Home Ground:[/i] [i]A Guide to the American[/i] _______ such as \"karst,\" which refers to limestone terrain riddled with caves or sinkholes—illustrate the rich vocabulary used to describe the landforms of North America.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "[i]Landscape,[/i]"
+        },
+        {
+          "label": "B",
+          "text": "[i]Landscape:[/i]"
+        },
+        {
+          "label": "C",
+          "text": "[i]Landscape—[/i]"
+        },
+        {
+          "label": "D",
+          "text": "[i]Landscape[/i]"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年8月机考真题第1套(亚太A卷)",
+      "source_question_number": 18,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries"
+      }
+    },
+    {
+      "question_id": "bank_rw_001465",
+      "section": "reading_writing",
+      "question_number": 30,
+      "passage": "As the exoplanet 81 Ceti b orbits a star 330 light-years from Earth, the gas giant's gravity causes the star to wobble. In 2008, astronomers observing the wobble—indicated by redshifts and blueshifts in the star's spectral wavelengths—eventually attributed ______ to the gravitational influence of the previously undetected exoplanet.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "them"
+        },
+        {
+          "label": "B",
+          "text": "it"
+        },
+        {
+          "label": "C",
+          "text": "these"
+        },
+        {
+          "label": "D",
+          "text": "each"
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2025年9月机考真题第3套(北美A卷)",
+      "source_question_number": 20,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_000843",
+      "section": "reading_writing",
+      "question_number": 31,
+      "passage": "Conceptual artist Joan Jonas's first work, [i]Wind[/i] (1968), is a silent film depicting people on a beach struggling to move about in extremely windy conditions. [i]Wind[/i] has been recognized for bringing the principles of postmodern dance—which demystifies traditional choreography by foregrounding features of movement that ballet and other classical dance forms obscure (such as clumsiness, weightiness, resistance, and _____ to video.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "gravity),"
+        },
+        {
+          "label": "B",
+          "text": "gravity);"
+        },
+        {
+          "label": "C",
+          "text": "gravity)—"
+        },
+        {
+          "label": "D",
+          "text": "gravity)"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2025年10月机考真题第2套(亚太B卷)",
+      "source_question_number": 18,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries"
+      }
+    },
+    {
+      "question_id": "bank_rw_001653",
+      "section": "reading_writing",
+      "question_number": 32,
+      "passage": "The following text is from Frances Burney's 1784 satirical play [i]The Busy Salon[/i]. Clara, Lady Venom, and Edward Fairman are discussing their mutual acquaintance Lord Arthur Sharp.\n\nCLARA: [Lord Arthur] has done nothing—but his talk is a perpetual slander on all his acquaintances.\n\nFAIRMAN: Aye, and the worst of it is there is no advantage in not knowing him, for he'll abuse a stranger just as soon as his closest friend—and [his cousin] is as bad.\n\n[u]LADY VENOM: Nay, but we should make allowance. Lord Arthur is a wit and a poet.[/u]\n\nCLARA: For my part—I admit, madam—wit loses its respect with me when I see it in company with malice. What say you, Mr. Fairman?\n\nFAIRMAN: Certainly, madam, to smile at the jest that leaves a wound in another's heart is to become a principal in the mischief.",
+      "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "It illustrates and expands on one character's definition of a term that was discussed earlier in the text."
+        },
+        {
+          "label": "B",
+          "text": "It appears to offer an explanation for the behavior of the character who is the topic of conversation in the text."
+        },
+        {
+          "label": "C",
+          "text": "It contrasts the point of view of one character with that of another through the use of figurative language."
+        },
+        {
+          "label": "D",
+          "text": "It presents a position that seems to support the stance of one character and undermine that of another."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2026年6月机考真题第1套(亚太A卷)",
+      "source_question_number": 7,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Text Structure and Purpose"
+      }
+    },
+    {
+      "question_id": "bank_rw_001654",
+      "section": "reading_writing",
+      "question_number": 33,
+      "passage": "The following text is adapted from Beatrix Potter's 1913 story [i]Winter at Pine Hollow[/i].\n\nThe Mole has just been found by a companion after wandering in the forest. Snow is beginning to fall. The Mole looked at the wood that had seemed so frightening to him and saw it in a very different way. Holes, dips, puddles, traps, and other dangers to a traveler were quickly disappearing, and a bright blanket was spreading everywhere, looking too delicate for heavy feet to step on.",
+      "prompt": "Which choice most accurately expresses the main idea of the text?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The Mole prefers warm, dry weather to cold, snowy weather."
+        },
+        {
+          "label": "B",
+          "text": "As the ground becomes covered in snow, the landscape no longer appears dangerous to the Mole."
+        },
+        {
+          "label": "C",
+          "text": "After being found by his companion, the Mole feels embarrassed about getting lost."
+        },
+        {
+          "label": "D",
+          "text": "The Mole is saddened that his time wandering in the forest has ended."
+        }
+      ],
+      "correct_answer": "B",
+      "needs_manual_review": false,
+      "source_set": "2026年6月机考真题第1套(亚太A卷)",
+      "source_question_number": 10,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Information and Ideas",
+        "skill": "Central Ideas and Details"
+      }
+    },
+    {
+      "question_id": "bank_rw_001656",
+      "section": "reading_writing",
+      "question_number": 34,
+      "passage": "The following text is adapted from the 1898 poem \"Odina\" by Emily Pauline Johnson, a Kanien' kehá:ka (Mohawk) writer also known as Tekahionwake.\n\nI am Odina, I am she, the wife\nOf him whose name [u]breathes[/u] valor and life\nAnd courage to the people who call him chief.\nI am Odina, his bright star, and he\nIs earth, and river, and sky—and soul to me.",
+      "prompt": "As used in the text, what does the word \"breathes\" most nearly mean?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Relinquishes"
+        },
+        {
+          "label": "B",
+          "text": "Absorbs"
+        },
+        {
+          "label": "C",
+          "text": "Imparts"
+        },
+        {
+          "label": "D",
+          "text": "Surrenders"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2026年6月机考真题第1套(亚太A卷)",
+      "source_question_number": 5,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Craft and Structure",
+        "skill": "Words in Context"
+      }
+    },
+    {
+      "question_id": "bank_rw_001658",
+      "section": "reading_writing",
+      "question_number": 35,
+      "passage": "The scientific team using the Prime Focus Spectrograph (PFS) to conduct a cosmological survey, which has produced one of the most detailed 3D maps of the cosmos to date, plans to observe roughly 45 million celestial objects. Mounted on a telescope in Chile, ______",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "this impressive instrument can measure 4,000 galaxies simultaneously, tracking how matter is distributed throughout the cosmos."
+        },
+        {
+          "label": "B",
+          "text": "the distribution of matter throughout the cosmos is tracked by researchers using this impressive instrument that can measure 4,000 galaxies simultaneously."
+        },
+        {
+          "label": "C",
+          "text": "4,000 galaxies can be measured simultaneously by this impressive instrument, tracking how matter is distributed throughout the cosmos."
+        },
+        {
+          "label": "D",
+          "text": "researchers track how matter is distributed throughout the cosmos with this impressive instrument that can measure 4,000 galaxies simultaneously."
+        }
+      ],
+      "correct_answer": "A",
+      "needs_manual_review": false,
+      "source_set": "2026年6月机考真题第1套(亚太A卷)",
+      "source_question_number": 16,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Form, Structure, and Sense"
+      }
+    },
+    {
+      "question_id": "bank_rw_001659",
+      "section": "reading_writing",
+      "question_number": 36,
+      "passage": "The furnaces used in ancient China to produce glazed tiles reached heights of 150 feet and diameters of 24 feet. These massive structures were used to heat clay mixtures to temperatures of up to 230 degrees ______ such intense heat produced chemical effects that couldn't occur with air-dried materials.",
+      "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Celsius,"
+        },
+        {
+          "label": "B",
+          "text": "Celsius and"
+        },
+        {
+          "label": "C",
+          "text": "Celsius;"
+        },
+        {
+          "label": "D",
+          "text": "Celsius"
+        }
+      ],
+      "correct_answer": "C",
+      "needs_manual_review": false,
+      "source_set": "2026年6月机考真题第1套(亚太A卷)",
+      "source_question_number": 17,
+      "explanation": {
+        "short": "",
+        "key_evidence": "",
+        "why_correct": "",
+        "detailed": "",
+        "choice_analysis": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        }
+      },
+      "classification": {
+        "domain": "Standard English Conventions",
+        "skill": "Boundaries"
+      }
+    }
+  ]
+}

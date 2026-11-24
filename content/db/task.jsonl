@@ -1,0 +1,40 @@
+{"task_id": "bd_colon", "skill_id": "boundaries", "name_zh": "冒号", "name": "Colon", "position": 3}
+{"task_id": "bd_comma", "skill_id": "boundaries", "name_zh": "逗号", "name": "Comma", "position": 5}
+{"task_id": "bd_dash", "skill_id": "boundaries", "name_zh": "破折号与括号", "name": "Dash or parentheses", "position": 4}
+{"task_id": "bd_none", "skill_id": "boundaries", "name_zh": "无需标点", "name": "No punctuation", "position": 6}
+{"task_id": "bd_period", "skill_id": "boundaries", "name_zh": "句号断句", "name": "Sentence boundary", "position": 1}
+{"task_id": "bd_semicolon", "skill_id": "boundaries", "name_zh": "分号", "name": "Semicolon", "position": 2}
+{"task_id": "cid_detail", "skill_id": "central_ideas_and_details", "name_zh": "细节理解", "name": "Detail", "position": 2}
+{"task_id": "cid_main", "skill_id": "central_ideas_and_details", "name_zh": "主旨概括", "name": "Main idea", "position": 1}
+{"task_id": "coe_illustrate", "skill_id": "command_of_evidence_textual", "name_zh": "引文例证", "name": "Quotation that illustrates a claim", "position": 3}
+{"task_id": "coe_support", "skill_id": "command_of_evidence_textual", "name_zh": "支持论点", "name": "Evidence that supports a claim", "position": 1}
+{"task_id": "coe_weaken", "skill_id": "command_of_evidence_textual", "name_zh": "削弱论点", "name": "Evidence that weakens a claim", "position": 2}
+{"task_id": "coq_graph", "skill_id": "command_of_evidence_quantitative", "name_zh": "图表数据", "name": "Data from a graph", "position": 2}
+{"task_id": "coq_table", "skill_id": "command_of_evidence_quantitative", "name_zh": "表格数据", "name": "Data from a table", "position": 1}
+{"task_id": "ctc_compare", "skill_id": "cross_text_connections", "name_zh": "异同比较", "name": "Agreement or difference between the texts", "position": 2}
+{"task_id": "ctc_response", "skill_id": "cross_text_connections", "name_zh": "观点回应", "name": "How one text would respond to the other", "position": 1}
+{"task_id": "fs_agreement", "skill_id": "form_structure_and_sense", "name_zh": "主谓一致", "name": "Subject-verb agreement", "position": 1}
+{"task_id": "fs_modifier", "skill_id": "form_structure_and_sense", "name_zh": "修饰语与句子结构", "name": "Modifiers and sentence structure", "position": 6}
+{"task_id": "fs_possessive", "skill_id": "form_structure_and_sense", "name_zh": "所有格与复数", "name": "Possessives and plurals", "position": 5}
+{"task_id": "fs_pronoun", "skill_id": "form_structure_and_sense", "name_zh": "代词", "name": "Pronouns", "position": 4}
+{"task_id": "fs_tense", "skill_id": "form_structure_and_sense", "name_zh": "动词时态", "name": "Verb tense", "position": 2}
+{"task_id": "fs_verbform", "skill_id": "form_structure_and_sense", "name_zh": "谓语与非谓语", "name": "Finite and nonfinite verb forms", "position": 3}
+{"task_id": "inf_complete", "skill_id": "inferences", "name_zh": "推断填空", "name": "Most logical completion", "position": 1}
+{"task_id": "inf_suggest", "skill_id": "inferences", "name_zh": "推断理解", "name": "What the text suggests", "position": 2}
+{"task_id": "rs_claim", "skill_id": "rhetorical_synthesis", "name_zh": "提出观点", "name": "Make a claim or generalization", "position": 5}
+{"task_id": "rs_compare", "skill_id": "rhetorical_synthesis", "name_zh": "对比异同", "name": "Compare or contrast", "position": 1}
+{"task_id": "rs_emphasize", "skill_id": "rhetorical_synthesis", "name_zh": "强调信息", "name": "Emphasize a piece of information", "position": 3}
+{"task_id": "rs_explain", "skill_id": "rhetorical_synthesis", "name_zh": "解释说明", "name": "Explain", "position": 4}
+{"task_id": "rs_introduce", "skill_id": "rhetorical_synthesis", "name_zh": "介绍概述", "name": "Introduce or describe", "position": 2}
+{"task_id": "tr_addition", "skill_id": "transitions", "name_zh": "补充递进", "name": "Addition or similarity", "position": 3}
+{"task_id": "tr_cause", "skill_id": "transitions", "name_zh": "因果总结", "name": "Cause, result or conclusion", "position": 2}
+{"task_id": "tr_contrast", "skill_id": "transitions", "name_zh": "转折对比", "name": "Contrast", "position": 1}
+{"task_id": "tr_emphasis", "skill_id": "transitions", "name_zh": "强调重述", "name": "Emphasis or restatement", "position": 5}
+{"task_id": "tr_example", "skill_id": "transitions", "name_zh": "举例具体", "name": "Example or specification", "position": 4}
+{"task_id": "tr_other", "skill_id": "transitions", "name_zh": "其他短语", "name": "Other words and longer phrases", "position": 7}
+{"task_id": "tr_sequence", "skill_id": "transitions", "name_zh": "时间顺序", "name": "Time or sequence", "position": 6}
+{"task_id": "tsp_function", "skill_id": "text_structure_and_purpose", "name_zh": "句子功能", "name": "Function of a sentence or portion", "position": 3}
+{"task_id": "tsp_purpose", "skill_id": "text_structure_and_purpose", "name_zh": "主要目的", "name": "Main purpose", "position": 1}
+{"task_id": "tsp_structure", "skill_id": "text_structure_and_purpose", "name_zh": "整体结构", "name": "Overall structure", "position": 2}
+{"task_id": "wic_blank", "skill_id": "words_in_context", "name_zh": "选词填空", "name": "Most logical and precise word", "position": 1}
+{"task_id": "wic_meaning", "skill_id": "words_in_context", "name_zh": "词义理解", "name": "Meaning of a word in context", "position": 2}

@@ -24,6 +24,7 @@ PUBLIC_ROOT_FILES = {
     ".gitignore", ".gitattributes", ".python-version", "AGENTS.md", "CLAUDE.md",
     "CONTRIBUTING.md", "README.md", "LICENSE", "LICENSE.md", "NOTICE", "NOTICE.md",
     "sat-content-registry.json", "sat-set-registry.json", "sat-practice-migrations.json",
+    "sat-release.json",
 }
 FORBIDDEN_TREES = {
     "runs", "audits", "reports", "00_待处理来源", "01_完整套题", "02_按题型分类",
@@ -38,7 +39,7 @@ FORBIDDEN_SUFFIXES = {
 IMAGE_SUFFIXES = {".png", ".jpg", ".jpeg", ".webp", ".gif", ".svg"}
 RESOURCE_MANIFEST = "assets/content-resources.json"
 ZEN_IMAGES = {"background.svg", "texture.svg", "pattern.svg"}
-TEXT_SUFFIXES = {".py", ".json", ".html", ".js", ".mjs", ".ts", ".tsx", ".md", ".svg", ".yml", ".yaml", ".txt", ""}
+TEXT_SUFFIXES = {".py", ".json", ".jsonl", ".sql", ".html", ".js", ".mjs", ".ts", ".tsx", ".md", ".svg", ".yml", ".yaml", ".txt", ""}
 SYNTHETIC_USERS = {"reviewer", "example", "test", "test-user", "fixture", "alice", "bob"}
 SAFE_EMAIL_DOMAINS = {"example.com", "example.org", "example.net"}
 EMAIL = re.compile(r"(?i)(?<![\w+.-])[A-Z0-9._%+-]+@([A-Z0-9.-]+\.[A-Z]{2,})")

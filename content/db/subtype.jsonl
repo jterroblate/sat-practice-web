@@ -1,0 +1,148 @@
+{"subtype_id": "area_and_volume", "skill_id": "area_and_volume", "name": null}
+{"subtype_id": "boundaries", "skill_id": "boundaries", "name": null}
+{"subtype_id": "boundaries:clause_structure", "skill_id": "boundaries", "name": "clause_structure"}
+{"subtype_id": "boundaries:independent_clause_punctuation", "skill_id": "boundaries", "name": "independent_clause_punctuation"}
+{"subtype_id": "boundaries:introductory_clause_punctuation", "skill_id": "boundaries", "name": "introductory_clause_punctuation"}
+{"subtype_id": "boundaries:introductory_phrase_punctuation", "skill_id": "boundaries", "name": "introductory_phrase_punctuation"}
+{"subtype_id": "boundaries:mainline_manual_review", "skill_id": "boundaries", "name": "mainline_manual_review"}
+{"subtype_id": "boundaries:mixed_convention", "skill_id": "boundaries", "name": "mixed_convention"}
+{"subtype_id": "boundaries:punctuation", "skill_id": "boundaries", "name": "punctuation"}
+{"subtype_id": "boundaries:punctuation_and_clause_structure", "skill_id": "boundaries", "name": "punctuation_and_clause_structure"}
+{"subtype_id": "boundaries:punctuation_boundaries", "skill_id": "boundaries", "name": "punctuation_boundaries"}
+{"subtype_id": "boundaries:punctuation_within_noun_phrase", "skill_id": "boundaries", "name": "punctuation_within_noun_phrase"}
+{"subtype_id": "boundaries:sentence_boundary", "skill_id": "boundaries", "name": "sentence_boundary"}
+{"subtype_id": "boundaries:sentence_form_and_punctuation", "skill_id": "boundaries", "name": "sentence_form_and_punctuation"}
+{"subtype_id": "central_ideas_and_details", "skill_id": "central_ideas_and_details", "name": null}
+{"subtype_id": "central_ideas_and_details:Command of Evidence: Textual", "skill_id": "central_ideas_and_details", "name": "Command of Evidence: Textual"}
+{"subtype_id": "central_ideas_and_details:Detail/Comparison", "skill_id": "central_ideas_and_details", "name": "Detail/Comparison"}
+{"subtype_id": "central_ideas_and_details:detail", "skill_id": "central_ideas_and_details", "name": "detail"}
+{"subtype_id": "central_ideas_and_details:explicit_detail", "skill_id": "central_ideas_and_details", "name": "explicit_detail"}
+{"subtype_id": "central_ideas_and_details:main_idea", "skill_id": "central_ideas_and_details", "name": "main_idea"}
+{"subtype_id": "central_ideas_and_details:main_idea_or_detail", "skill_id": "central_ideas_and_details", "name": "main_idea_or_detail"}
+{"subtype_id": "central_ideas_and_details:main_purpose", "skill_id": "central_ideas_and_details", "name": "main_purpose"}
+{"subtype_id": "central_ideas_and_details:mainline_manual_review", "skill_id": "central_ideas_and_details", "name": "mainline_manual_review"}
+{"subtype_id": "circles", "skill_id": "circles", "name": null}
+{"subtype_id": "command_of_evidence_quantitative", "skill_id": "command_of_evidence_quantitative", "name": null}
+{"subtype_id": "command_of_evidence_quantitative:Data Retrieval", "skill_id": "command_of_evidence_quantitative", "name": "Data Retrieval"}
+{"subtype_id": "command_of_evidence_quantitative:Data interpretation", "skill_id": "command_of_evidence_quantitative", "name": "Data interpretation"}
+{"subtype_id": "command_of_evidence_quantitative:Identify and Compare", "skill_id": "command_of_evidence_quantitative", "name": "Identify and Compare"}
+{"subtype_id": "command_of_evidence_quantitative:Interpreting Data", "skill_id": "command_of_evidence_quantitative", "name": "Interpreting Data"}
+{"subtype_id": "command_of_evidence_quantitative:Interpreting Quantitative Data", "skill_id": "command_of_evidence_quantitative", "name": "Interpreting Quantitative Data"}
+{"subtype_id": "command_of_evidence_quantitative:data_evidence", "skill_id": "command_of_evidence_quantitative", "name": "data_evidence"}
+{"subtype_id": "command_of_evidence_quantitative:graph_data_completion", "skill_id": "command_of_evidence_quantitative", "name": "graph_data_completion"}
+{"subtype_id": "command_of_evidence_quantitative:graph_data_support", "skill_id": "command_of_evidence_quantitative", "name": "graph_data_support"}
+{"subtype_id": "command_of_evidence_quantitative:mainline_manual_review", "skill_id": "command_of_evidence_quantitative", "name": "mainline_manual_review"}
+{"subtype_id": "command_of_evidence_quantitative:table_data_completion", "skill_id": "command_of_evidence_quantitative", "name": "table_data_completion"}
+{"subtype_id": "command_of_evidence_quantitative:table_data_support", "skill_id": "command_of_evidence_quantitative", "name": "table_data_support"}
+{"subtype_id": "command_of_evidence_quantitative:table_evidence", "skill_id": "command_of_evidence_quantitative", "name": "table_evidence"}
+{"subtype_id": "command_of_evidence_quantitative:text_table_synthesis", "skill_id": "command_of_evidence_quantitative", "name": "text_table_synthesis"}
+{"subtype_id": "command_of_evidence_textual", "skill_id": "command_of_evidence_textual", "name": null}
+{"subtype_id": "command_of_evidence_textual:Evaluating Additional Evidence", "skill_id": "command_of_evidence_textual", "name": "Evaluating Additional Evidence"}
+{"subtype_id": "command_of_evidence_textual:Identifying and Analyzing Evidence", "skill_id": "command_of_evidence_textual", "name": "Identifying and Analyzing Evidence"}
+{"subtype_id": "command_of_evidence_textual:Interpreting Information", "skill_id": "command_of_evidence_textual", "name": "Interpreting Information"}
+{"subtype_id": "command_of_evidence_textual:Understanding and Analyzing", "skill_id": "command_of_evidence_textual", "name": "Understanding and Analyzing"}
+{"subtype_id": "command_of_evidence_textual:Understanding and Applying Information", "skill_id": "command_of_evidence_textual", "name": "Understanding and Applying Information"}
+{"subtype_id": "command_of_evidence_textual:Understanding and interpreting information", "skill_id": "command_of_evidence_textual", "name": "Understanding and interpreting information"}
+{"subtype_id": "command_of_evidence_textual:hypothetical_support", "skill_id": "command_of_evidence_textual", "name": "hypothetical_support"}
+{"subtype_id": "command_of_evidence_textual:quotation_support", "skill_id": "command_of_evidence_textual", "name": "quotation_support"}
+{"subtype_id": "command_of_evidence_textual:support_claim_with_textual_evidence", "skill_id": "command_of_evidence_textual", "name": "support_claim_with_textual_evidence"}
+{"subtype_id": "command_of_evidence_textual:supporting_finding", "skill_id": "command_of_evidence_textual", "name": "supporting_finding"}
+{"subtype_id": "command_of_evidence_textual:textual_evidence", "skill_id": "command_of_evidence_textual", "name": "textual_evidence"}
+{"subtype_id": "cross_text_connections", "skill_id": "cross_text_connections", "name": null}
+{"subtype_id": "cross_text_connections:cross_text_agreement", "skill_id": "cross_text_connections", "name": "cross_text_agreement"}
+{"subtype_id": "cross_text_connections:cross_text_analysis", "skill_id": "cross_text_connections", "name": "cross_text_analysis"}
+{"subtype_id": "cross_text_connections:cross_text_response", "skill_id": "cross_text_connections", "name": "cross_text_response"}
+{"subtype_id": "cross_text_connections:disagreement", "skill_id": "cross_text_connections", "name": "disagreement"}
+{"subtype_id": "cross_text_connections:paired_text_relationship", "skill_id": "cross_text_connections", "name": "paired_text_relationship"}
+{"subtype_id": "cross_text_connections:paired_text_response", "skill_id": "cross_text_connections", "name": "paired_text_response"}
+{"subtype_id": "equivalent_expressions", "skill_id": "equivalent_expressions", "name": null}
+{"subtype_id": "evaluating_statistical_claims_observational_studies_and_experiments", "skill_id": "evaluating_statistical_claims_observational_studies_and_experiments", "name": null}
+{"subtype_id": "form_structure_and_sense", "skill_id": "form_structure_and_sense", "name": null}
+{"subtype_id": "form_structure_and_sense:Pronoun-Antecedent Agreement", "skill_id": "form_structure_and_sense", "name": "Pronoun-Antecedent Agreement"}
+{"subtype_id": "form_structure_and_sense:Pronoun-antecedent agreement", "skill_id": "form_structure_and_sense", "name": "Pronoun-antecedent agreement"}
+{"subtype_id": "form_structure_and_sense:Punctuation", "skill_id": "form_structure_and_sense", "name": "Punctuation"}
+{"subtype_id": "form_structure_and_sense:Verb Form", "skill_id": "form_structure_and_sense", "name": "Verb Form"}
+{"subtype_id": "form_structure_and_sense:Verb Tense", "skill_id": "form_structure_and_sense", "name": "Verb Tense"}
+{"subtype_id": "form_structure_and_sense:mainline_manual_review", "skill_id": "form_structure_and_sense", "name": "mainline_manual_review"}
+{"subtype_id": "form_structure_and_sense:modifier", "skill_id": "form_structure_and_sense", "name": "modifier"}
+{"subtype_id": "form_structure_and_sense:modifier_and_sentence_structure", "skill_id": "form_structure_and_sense", "name": "modifier_and_sentence_structure"}
+{"subtype_id": "form_structure_and_sense:modifier_placement", "skill_id": "form_structure_and_sense", "name": "modifier_placement"}
+{"subtype_id": "form_structure_and_sense:modifier_verb_form", "skill_id": "form_structure_and_sense", "name": "modifier_verb_form"}
+{"subtype_id": "form_structure_and_sense:possessive", "skill_id": "form_structure_and_sense", "name": "possessive"}
+{"subtype_id": "form_structure_and_sense:possessive_nouns", "skill_id": "form_structure_and_sense", "name": "possessive_nouns"}
+{"subtype_id": "form_structure_and_sense:pronoun", "skill_id": "form_structure_and_sense", "name": "pronoun"}
+{"subtype_id": "form_structure_and_sense:pronoun_agreement", "skill_id": "form_structure_and_sense", "name": "pronoun_agreement"}
+{"subtype_id": "form_structure_and_sense:subject_verb_agreement", "skill_id": "form_structure_and_sense", "name": "subject_verb_agreement"}
+{"subtype_id": "form_structure_and_sense:verb_form", "skill_id": "form_structure_and_sense", "name": "verb_form"}
+{"subtype_id": "form_structure_and_sense:verb_form_or_agreement", "skill_id": "form_structure_and_sense", "name": "verb_form_or_agreement"}
+{"subtype_id": "inference_from_sample_statistics_and_margin_of_error", "skill_id": "inference_from_sample_statistics_and_margin_of_error", "name": null}
+{"subtype_id": "inferences", "skill_id": "inferences", "name": null}
+{"subtype_id": "inferences:implied_conclusion", "skill_id": "inferences", "name": "implied_conclusion"}
+{"subtype_id": "inferences:implied_effect", "skill_id": "inferences", "name": "implied_effect"}
+{"subtype_id": "inferences:logical_completion", "skill_id": "inferences", "name": "logical_completion"}
+{"subtype_id": "inferences:mainline_manual_review", "skill_id": "inferences", "name": "mainline_manual_review"}
+{"subtype_id": "inferences:supported_inference", "skill_id": "inferences", "name": "supported_inference"}
+{"subtype_id": "inferences:text_supported_inference", "skill_id": "inferences", "name": "text_supported_inference"}
+{"subtype_id": "linear_equations_in_one_variable", "skill_id": "linear_equations_in_one_variable", "name": null}
+{"subtype_id": "linear_equations_in_two_variables", "skill_id": "linear_equations_in_two_variables", "name": null}
+{"subtype_id": "linear_functions", "skill_id": "linear_functions", "name": null}
+{"subtype_id": "linear_inequalities_in_one_or_two_variables", "skill_id": "linear_inequalities_in_one_or_two_variables", "name": null}
+{"subtype_id": "lines_angles_and_triangles", "skill_id": "lines_angles_and_triangles", "name": null}
+{"subtype_id": "nonlinear_equations_in_one_variable_and_systems_of_equations_in_two_variables", "skill_id": "nonlinear_equations_in_one_variable_and_systems_of_equations_in_two_variables", "name": null}
+{"subtype_id": "nonlinear_functions", "skill_id": "nonlinear_functions", "name": null}
+{"subtype_id": "one_variable_data_distributions_and_measures_of_center_and_spread", "skill_id": "one_variable_data_distributions_and_measures_of_center_and_spread", "name": null}
+{"subtype_id": "percentages", "skill_id": "percentages", "name": null}
+{"subtype_id": "probability_and_conditional_probability", "skill_id": "probability_and_conditional_probability", "name": null}
+{"subtype_id": "ratios_rates_proportional_relationships_and_units", "skill_id": "ratios_rates_proportional_relationships_and_units", "name": null}
+{"subtype_id": "rhetorical_synthesis", "skill_id": "rhetorical_synthesis", "name": null}
+{"subtype_id": "rhetorical_synthesis:Purpose Explanation", "skill_id": "rhetorical_synthesis", "name": "Purpose Explanation"}
+{"subtype_id": "rhetorical_synthesis:given_sentences_synthesis", "skill_id": "rhetorical_synthesis", "name": "given_sentences_synthesis"}
+{"subtype_id": "rhetorical_synthesis:notes_claim", "skill_id": "rhetorical_synthesis", "name": "notes_claim"}
+{"subtype_id": "rhetorical_synthesis:notes_distinguish", "skill_id": "rhetorical_synthesis", "name": "notes_distinguish"}
+{"subtype_id": "rhetorical_synthesis:notes_emphasize", "skill_id": "rhetorical_synthesis", "name": "notes_emphasize"}
+{"subtype_id": "rhetorical_synthesis:notes_explain", "skill_id": "rhetorical_synthesis", "name": "notes_explain"}
+{"subtype_id": "rhetorical_synthesis:notes_synthesis", "skill_id": "rhetorical_synthesis", "name": "notes_synthesis"}
+{"subtype_id": "rhetorical_synthesis:sentence_synthesis_relationship", "skill_id": "rhetorical_synthesis", "name": "sentence_synthesis_relationship"}
+{"subtype_id": "rhetorical_synthesis:sentence_synthesis_specific_contribution", "skill_id": "rhetorical_synthesis", "name": "sentence_synthesis_specific_contribution"}
+{"subtype_id": "rhetorical_synthesis:student_notes_claim_support", "skill_id": "rhetorical_synthesis", "name": "student_notes_claim_support"}
+{"subtype_id": "rhetorical_synthesis:student_notes_goal", "skill_id": "rhetorical_synthesis", "name": "student_notes_goal"}
+{"subtype_id": "rhetorical_synthesis:student_notes_goal_synthesis", "skill_id": "rhetorical_synthesis", "name": "student_notes_goal_synthesis"}
+{"subtype_id": "rhetorical_synthesis:student_notes_methods", "skill_id": "rhetorical_synthesis", "name": "student_notes_methods"}
+{"subtype_id": "rhetorical_synthesis:student_notes_relationship", "skill_id": "rhetorical_synthesis", "name": "student_notes_relationship"}
+{"subtype_id": "rhetorical_synthesis:student_notes_similarity", "skill_id": "rhetorical_synthesis", "name": "student_notes_similarity"}
+{"subtype_id": "rhetorical_synthesis:synthesize_given_sentences", "skill_id": "rhetorical_synthesis", "name": "synthesize_given_sentences"}
+{"subtype_id": "right_triangles_and_trigonometry", "skill_id": "right_triangles_and_trigonometry", "name": null}
+{"subtype_id": "systems_of_two_linear_equations_in_two_variables", "skill_id": "systems_of_two_linear_equations_in_two_variables", "name": null}
+{"subtype_id": "text_structure_and_purpose", "skill_id": "text_structure_and_purpose", "name": null}
+{"subtype_id": "text_structure_and_purpose:Determine the purpose of a text", "skill_id": "text_structure_and_purpose", "name": "Determine the purpose of a text"}
+{"subtype_id": "text_structure_and_purpose:Identifying the overall structure of a text", "skill_id": "text_structure_and_purpose", "name": "Identifying the overall structure of a text"}
+{"subtype_id": "text_structure_and_purpose:function_of_reference", "skill_id": "text_structure_and_purpose", "name": "function_of_reference"}
+{"subtype_id": "text_structure_and_purpose:function_of_underlined_portion", "skill_id": "text_structure_and_purpose", "name": "function_of_underlined_portion"}
+{"subtype_id": "text_structure_and_purpose:function_of_underlined_sentence", "skill_id": "text_structure_and_purpose", "name": "function_of_underlined_sentence"}
+{"subtype_id": "text_structure_and_purpose:main_purpose", "skill_id": "text_structure_and_purpose", "name": "main_purpose"}
+{"subtype_id": "text_structure_and_purpose:mainline_manual_review", "skill_id": "text_structure_and_purpose", "name": "mainline_manual_review"}
+{"subtype_id": "text_structure_and_purpose:overall structure", "skill_id": "text_structure_and_purpose", "name": "overall structure"}
+{"subtype_id": "text_structure_and_purpose:overall_structure", "skill_id": "text_structure_and_purpose", "name": "overall_structure"}
+{"subtype_id": "text_structure_and_purpose:overall_structure_or_function", "skill_id": "text_structure_and_purpose", "name": "overall_structure_or_function"}
+{"subtype_id": "text_structure_and_purpose:primary_purpose", "skill_id": "text_structure_and_purpose", "name": "primary_purpose"}
+{"subtype_id": "text_structure_and_purpose:structural_function", "skill_id": "text_structure_and_purpose", "name": "structural_function"}
+{"subtype_id": "text_structure_and_purpose:underlined_function", "skill_id": "text_structure_and_purpose", "name": "underlined_function"}
+{"subtype_id": "transitions", "skill_id": "transitions", "name": null}
+{"subtype_id": "transitions:Identifying and using appropriate transitions", "skill_id": "transitions", "name": "Identifying and using appropriate transitions"}
+{"subtype_id": "transitions:Understanding and using transitions", "skill_id": "transitions", "name": "Understanding and using transitions"}
+{"subtype_id": "transitions:logical_connector", "skill_id": "transitions", "name": "logical_connector"}
+{"subtype_id": "transitions:logical_contrast", "skill_id": "transitions", "name": "logical_contrast"}
+{"subtype_id": "transitions:referential_transition", "skill_id": "transitions", "name": "referential_transition"}
+{"subtype_id": "two_variable_data_models_and_scatterplots", "skill_id": "two_variable_data_models_and_scatterplots", "name": null}
+{"subtype_id": "unclassified_math", "skill_id": "unclassified_math", "name": null}
+{"subtype_id": "words_in_context", "skill_id": "words_in_context", "name": null}
+{"subtype_id": "words_in_context:Understanding the meaning of a word in context", "skill_id": "words_in_context", "name": "Understanding the meaning of a word in context"}
+{"subtype_id": "words_in_context:Understanding the meaning of words", "skill_id": "words_in_context", "name": "Understanding the meaning of words"}
+{"subtype_id": "words_in_context:Understanding the meaning of words and phrases", "skill_id": "words_in_context", "name": "Understanding the meaning of words and phrases"}
+{"subtype_id": "words_in_context:Understanding the meaning of words in context", "skill_id": "words_in_context", "name": "Understanding the meaning of words in context"}
+{"subtype_id": "words_in_context:Vocabulary in Context", "skill_id": "words_in_context", "name": "Vocabulary in Context"}
+{"subtype_id": "words_in_context:mainline_manual_review", "skill_id": "words_in_context", "name": "mainline_manual_review"}
+{"subtype_id": "words_in_context:precise_word_choice", "skill_id": "words_in_context", "name": "precise_word_choice"}
+{"subtype_id": "words_in_context:vocabulary_in_context", "skill_id": "words_in_context", "name": "vocabulary_in_context"}
+{"subtype_id": "words_in_context:vocabulary_meaning", "skill_id": "words_in_context", "name": "vocabulary_meaning"}
+{"subtype_id": "words_in_context:word_meaning_in_context", "skill_id": "words_in_context", "name": "word_meaning_in_context"}
